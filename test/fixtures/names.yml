@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  string: MyString
+  eol_page_id: 1
+  eol_thumb: MyString
+  lookup_fail: 1
+  name_bank_id: 1
+
+two:
+  string: MyString
+  eol_page_id: 1
+  eol_thumb: MyString
+  lookup_fail: 1
+  name_bank_id: 1
