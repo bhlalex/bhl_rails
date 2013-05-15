@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  bibid: 1
+  title: MyString
+  title_alternative: MyString
+  start_date: 2013-05-15 16:17:55
+  end_date: 2013-05-15 16:17:55
+  publisher: MyString
+  language: 
+  note: MyText
+  edition: MyString
+  format_extent: MyString
+  collection: MyString
+  contributor: MyString
+  fill_metadata_fail: 1
+  metadata_index_status: 1
+  generate_format_fail: 1
+
+two:
+  bibid: 1
+  title: MyString
+  title_alternative: MyString
+  start_date: 2013-05-15 16:17:55
+  end_date: 2013-05-15 16:17:55
+  publisher: MyString
+  language: 
+  note: MyText
+  edition: MyString
+  format_extent: MyString
+  collection: MyString
+  contributor: MyString
+  fill_metadata_fail: 1
+  metadata_index_status: 1
+  generate_format_fail: 1
