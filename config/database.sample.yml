@@ -1,0 +1,16 @@
+common: &common
+  adapter: mysql2
+  encoding: utf8
+  reconnect: true
+
+development:
+  <<: *common
+  host:            
+  username:        
+  password:        
+  database:        
+  eol_host:        
+  eol_database:    
+  eol_username:    
+  eol_password:    
+  eol_port:        
