@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  location: 
+  location_lookup_fail: 1
+
+two:
+  name: MyString
+  location: 
+  location_lookup_fail: 1

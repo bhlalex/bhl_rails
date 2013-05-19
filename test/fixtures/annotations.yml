@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  volume: 
+  page: 
+  string: MyString
+  location_x: 1
+  location_y: 1
+  height: 1
+  width: 1
+  zorder: 1
+  hltype: 1
+  type: 
+
+two:
+  volume: 
+  page: 
+  string: MyString
+  location_x: 1
+  location_y: 1
+  height: 1
+  width: 1
+  zorder: 1
+  hltype: 1
+  type: 

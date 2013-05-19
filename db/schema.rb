@@ -11,7 +11,26 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130515143759) do
+ActiveRecord::Schema.define(:version => 20130519124607) do
+
+  create_table "annotations", :force => true do |t|
+    t.integer  "volume_id"
+    t.integer  "page_id"
+    t.string   "string"
+    t.integer  "location_x"
+    t.integer  "location_y"
+    t.integer  "height"
+    t.integer  "width"
+    t.integer  "zorder"
+    t.integer  "hltype"
+    t.string   "type"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "user_id"
+  end
+
+  add_index "annotations", ["page_id"], :name => "index_annotations_on_page_id"
+  add_index "annotations", ["volume_id"], :name => "index_annotations_on_volume_id"
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -58,6 +77,18 @@ ActiveRecord::Schema.define(:version => 20130515143759) do
   add_index "books_locations", ["book_id"], :name => "index_books_locations_on_book_id"
   add_index "books_locations", ["location_id"], :name => "index_books_locations_on_location_id"
 
+  create_table "books_subjects", :id => false, :force => true do |t|
+    t.integer  "book_id"
+    t.integer  "subject_id"
+    t.integer  "subject_type_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "books_subjects", ["book_id"], :name => "index_books_subjects_on_book_id"
+  add_index "books_subjects", ["subject_id"], :name => "index_books_subjects_on_subject_id"
+  add_index "books_subjects", ["subject_type_id"], :name => "index_books_subjects_on_subject_type_id"
+
   create_table "countries", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
@@ -92,10 +123,95 @@ ActiveRecord::Schema.define(:version => 20130515143759) do
     t.datetime "updated_at",   :null => false
   end
 
+  create_table "pages", :force => true do |t|
+    t.integer  "volume_id"
+    t.integer  "page_number"
+    t.boolean  "is_empty"
+    t.integer  "fill_names_fail"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "pages", ["volume_id"], :name => "index_pages_on_volume_id"
+
+  create_table "pages_names", :id => false, :force => true do |t|
+    t.integer  "page_id"
+    t.integer  "name_id"
+    t.string   "namestring"
+    t.string   "name_found"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "pages_names", ["name_id"], :name => "index_pages_names_on_name_id"
+  add_index "pages_names", ["page_id"], :name => "index_pages_names_on_page_id"
+
+  create_table "queries", :force => true do |t|
+    t.string   "string"
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "queries", ["user_id"], :name => "index_queries_on_user_id"
+
   create_table "subject_types", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "subjects", :force => true do |t|
+    t.string   "name"
+    t.integer  "location_id"
+    t.integer  "location_lookup_fail"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
+  end
+
+  add_index "subjects", ["location_id"], :name => "index_subjects_on_location_id"
+
+  create_table "users", :force => true do |t|
+    t.string   "username",                      :null => false
+    t.string   "password",                      :null => false
+    t.string   "real_name"
+    t.string   "email",                         :null => false
+    t.boolean  "active",     :default => false
+    t.string   "guid",                          :null => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
+  end
+
+  add_index "users", ["guid"], :name => "index_users_on_guid"
+  add_index "users", ["password"], :name => "index_users_on_password"
+  add_index "users", ["username"], :name => "index_users_on_username"
+
+  create_table "users_books", :id => false, :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "book_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "users_books", ["book_id"], :name => "index_users_books_on_book_id"
+  add_index "users_books", ["user_id"], :name => "index_users_books_on_user_id"
+
+  create_table "volumes", :force => true do |t|
+    t.integer  "book_id"
+    t.integer  "job_id"
+    t.integer  "copyright"
+    t.string   "name"
+    t.integer  "volume_number"
+    t.integer  "fill_content_fail"
+    t.integer  "get_thumbnail_fail"
+    t.integer  "content_index_status"
+    t.integer  "generate_names_xml_fail"
+    t.integer  "ubio_in_dar_fail"
+    t.integer  "get_pages_names_fail"
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+  end
+
+  add_index "volumes", ["book_id"], :name => "index_volumes_on_book_id"
 
 end
