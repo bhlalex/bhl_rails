@@ -1,7 +1,7 @@
 class CreateBooks < ActiveRecord::Migration
   def change
     create_table :books do |t|
-      t.integer :bibid
+      t.string :bibid
       t.string :title, :length => 1000
       t.string :title_alternative, :length => 1000
       t.datetime :start_date

@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(:version => 20130519124607) do
   end
 
   create_table "books", :force => true do |t|
-    t.integer  "bibid"
+    t.string   "bibid"
     t.string   "title"
     t.string   "title_alternative"
     t.datetime "start_date"

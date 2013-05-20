@@ -2,15 +2,34 @@ common: &common
   adapter: mysql2
   encoding: utf8
   reconnect: true
-
-development:
-  <<: *common
-  host:            
-  username:        
-  password:        
-  database:        
+  
+eol: &eol
   eol_host:        
   eol_database:    
   eol_username:    
   eol_password:    
   eol_port:        
+
+development:
+  <<: *common
+  <<: *eol
+  host:            localhost
+  username:        
+  password:        
+  database:        bhl_development  
+  
+test:
+  <<: *common
+  <<: *eol
+  host:            localhost
+  username:        
+  password:        
+  database:        bhl_test
+
+production:
+  <<: *common
+  <<: *eol
+  host:            localhost
+  username:        
+  password:        
+  database:        bhl_production
