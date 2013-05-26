@@ -4,8 +4,8 @@ class CreateBooks < ActiveRecord::Migration
       t.string :bibid
       t.string :title, :length => 1000
       t.string :title_alternative, :length => 1000
-      t.datetime :start_date
-      t.datetime :end_date
+      t.string :start_date
+      t.string :end_date
       t.string :publisher, :length => 1000
       t.references :language
       t.text :note
@@ -16,6 +16,7 @@ class CreateBooks < ActiveRecord::Migration
       t.integer :fill_metadata_fail
       t.integer :metadata_index_status
       t.integer :generate_format_fail
+      t.text :mods
 
       t.timestamps
     end

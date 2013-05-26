@@ -4,6 +4,10 @@ FactoryGirl.define do
   
   sequence(:string)     { |n| "unique#{ n }string" }
   
+  factory :author do
+    name                { generate(:string) }
+  end
+  
   factory :book do
     association         :language         
     bibid               { generate(:string) }
