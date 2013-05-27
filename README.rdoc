@@ -1,1 +1,17 @@
-== BA BHL site
+= BA BHL site
+
+== GETTING STARTED
+Things you need:
+Ruby:    ruby 1.9.3p392 (2013-02-22) [i386-mingw32]
+Rubygem: 1.8.24
+Rails:   3.2.9
+
+=== INSTALLATION
+
+  1. bundle install
+  2. copy config/database.sample.yml to config/database.yml and fix the database settings
+  3. rake db:create:all # to create all databases if not exist 
+  4. rake db:migrate; rake db:migrate RAILS_ENV=test
+  5. rake spec # to make sure all tests are green
+  6. rake scenarios:load NAME=bootstrap # this scenario will fill the DB with 100 books with only BIBIDs
+  7. rake dar:update_all_metadata # this will download all metadata for books from DAR
