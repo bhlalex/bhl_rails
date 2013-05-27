@@ -1,6 +1,4 @@
-require 'net/http'
-require 'uri'
-require 'socket'
+require File.dirname(__FILE__) + "/bhl"
 
 module DAR
   class MetadataDownloader
@@ -69,7 +67,7 @@ module DAR
       book_url = DAR_API_METADATA.sub DAR_API_METADATA_BIBID_STRING, book.bibid
       
       # get metadata from DAR
-      book_metadata = download_file(book_url)
+      book_metadata = BHL::Downloader.download_file(book_url)
       
       # this means that downloading metadata fails
       unless book_metadata
@@ -169,16 +167,6 @@ module DAR
     end
     
     private
-    
-    def self.download_file(file_url)
-      begin
-        url = URI.parse(file_url)
-        resp=Net::HTTP.get_response(url)
-        return resp.body
-      rescue
-        return nil
-      end
-    end
     
     def self.get_title(title_info)
       title = []

@@ -17,3 +17,4 @@
 *.pyc
 *.pyo
 config/database.yml
+config/environment.rb
