@@ -2,6 +2,7 @@
 
 == GETTING STARTED
 Things you need:
+
 Ruby:    ruby 1.9.3p392 (2013-02-22) [i386-mingw32]
 Rubygem: 1.8.24
 Rails:   3.2.9
