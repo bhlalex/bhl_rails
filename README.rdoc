@@ -9,10 +9,12 @@ Things you need:
 
 === INSTALLATION
 
-  1. bundle install
-  2. copy config/database.sample.yml to config/database.yml and fix the database settings
-  3. rake db:create:all # to create all databases if not exist 
-  4. rake db:migrate; rake db:migrate RAILS_ENV=test
-  5. rake spec # to make sure all tests are green
-  6. rake scenarios:load NAME=bootstrap # this scenario will fill the DB with 100 books with only BIBIDs
-  7. rake dar:update_all_metadata # this will download all metadata for books from DAR
+  1.  bundle install
+  2.  copy config/database.sample.yml to config/database.yml and fix the database settings
+  3.  copy config/environment.sample.rb to config/environment.rb and fix some constants
+  4.  rake db:create:all # to create all databases if not exist 
+  5.  rake db:migrate; rake db:migrate RAILS_ENV=test
+  6.  rake spec # to make sure all tests are green
+  7.  rake scenarios:load NAME=bootstrap # this scenario will fill the DB with 100 books with only BIBIDs
+  8.  rake dar:update_all_metadata # this will download all metadata for books from DAR
+  9.  rake bhl:update_empty_locations # to update locations/countries

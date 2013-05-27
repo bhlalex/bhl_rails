@@ -12,13 +12,11 @@ module BHL
     end
     
     def self.get_empty_locations
-      #return Location.where('latitude is null or longitude is null')
-       return Location.where('id=1')     
+      return Location.where('latitude is null or longitude is null')           
     end
     
     def self.get_loc_info(loc)
       loc_url = LOCATION_API.sub LOCATION_API_LOC_STRING, URI.escape(loc.formatted_address)      
-      puts loc_url
       # get location info
       loc_info = BHL::Downloader.download_file(loc_url)
       
@@ -27,7 +25,31 @@ module BHL
         return        
       end
       
-      puts loc_info
+      doc = Nokogiri::XML(loc_info)
+            
+      unless doc.xpath("//status").text == "OK"
+        puts "Error: Location is not recognized"
+        return
+      end
+      
+      result = doc.xpath("//result").first
+      
+      loc.latitude = result.xpath(".//geometry//location//lat").text
+      loc.longitude = result.xpath(".//geometry//location//lng").text
+      loc.country = find_country(result.xpath(".//address_component"))
+      
+      loc.save
+      puts "Success"      
+    end
+    
+    def self.find_country(address_components)
+      address_components.each do |address_component|        
+        address_component.xpath(".//type").each do |type|
+          if type.text == "country"
+            return Country.find_or_create_by_name(address_component.xpath(".//long_name").text)
+          end
+        end        
+      end
     end
   end
 end
