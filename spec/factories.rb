@@ -34,4 +34,9 @@ FactoryGirl.define do
     email               { generate(:string) }
     guid                { generate(:string) }    
   end
+  
+  factory :volume do
+    association         :book
+    job_id              :integer
+  end
 end

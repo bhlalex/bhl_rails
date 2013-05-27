@@ -15,7 +15,9 @@ class Book < ActiveRecord::Base
   
   has_and_belongs_to_many :locations
   
+  has_many :volumes
+  
   attr_accessible :bibid, :collection, :contributor, :edition, :end_date, :fill_metadata_fail
   attr_accessible :format_extent, :generate_format_fail, :metadata_index_status, :note, :publisher
-  attr_accessible :start_date, :title, :title_alternative, :mods
+  attr_accessible :start_date, :title, :title_alternative, :mods, :volumes
 end
