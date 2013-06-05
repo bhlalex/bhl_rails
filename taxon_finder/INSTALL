@@ -1,0 +1,63 @@
+Installing TaxonFinder
+===================
+
+Prerequisites
+--------------
+Perl
+
+
+
+Installation
+-------------
+
+Setting up TaxonFinder is a fairly straightforward process, and the software can be run in the foreground or background.
+
+You can download TaxonFinder into any directory. In this example, we use `/data/taxonfinder`.
+
+
+Configuration
+--------------
+
+Once downloaded into your directory, you need to setup the IP address and port for TaxonFinder to bind to.
+
+Edit `server.pl` and replace the IP address and port number on following lines with your environment
+
+##############################################
+my $main_socket = new IO::Socket::INET (
+        LocalHost => '127.0.0.1',
+        LocalPort => '1234',
+        Proto => 'tcp',
+        Listen => 10,
+        Reuse => 1,
+    );
+##############################################
+
+
+Running the server
+-------------------
+
+
+Once configured, change into the TaxonFinder directory and run the server using perl:
+
+`cd /data/taxonfinder/`
+`perl server.pl`
+
+
+### Running non-interactively
+To run TaxonFinder non-interactively, you can prepend the nohup command so that the process continues when you close the terminal session:
+
+`cd /data/taxonfinder`
+`nohup perl server.pl`
+
+
+
+
+Troubleshooting
+---------------
+
+###SELinux
+On linux systems with SELinux installed, SELinux could inhibit TaxonFinder's functionality. Ensure the appropriate rules are configured in SELinux for your system.
+
+###WordList path
+For optimal performance, TaxonFinder relies on wordlists, which are loaded when the application loads. 
+In the current version, the load path is relative to the server.pl script, so you must be within the TaxonFinder directory when running the server.

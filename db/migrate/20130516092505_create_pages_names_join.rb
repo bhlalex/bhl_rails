@@ -1,10 +1,9 @@
 class CreatePagesNamesJoin < ActiveRecord::Migration
   def up
-    create_table 'page_names', :id => false do |t|
+    create_table 'page_names' do |t|
       t.column 'page_id', :integer
       t.column 'name_id', :integer
-      t.column 'namestring', :string
-      t.column 'name_found', :string
+      t.column 'namestring', :string      
       
       t.timestamps
     end

@@ -104,5 +104,3 @@ Volume.gen(:job_id => 239529, :book => Book.gen(:bibid => 'DAF-BHL:proceedingsof
 Volume.gen(:job_id => 239530, :book => Book.gen(:bibid => 'DAF-BHL:proceedingsofbat01bath'))
 Volume.gen(:job_id => 239531, :book => Book.gen(:bibid => 'DAF-BHL:proceedingsofroy01lond'))
 Volume.gen(:job_id => 239532, :book => Book.gen(:bibid => 'DAF-BHL:phytologia845glea'))
-
-

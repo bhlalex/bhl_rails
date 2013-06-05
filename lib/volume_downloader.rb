@@ -49,7 +49,7 @@ module DAR
           end                    
         else
           failed = failed + 1
-          volume.fill_content_fail=0
+          volume.fill_content_fail=1
           puts "Error downloading file"
         end        
         volume.save
