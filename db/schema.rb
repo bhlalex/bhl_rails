@@ -151,11 +151,10 @@ ActiveRecord::Schema.define(:version => 20130526105036) do
     t.datetime "updated_at",   :null => false
   end
 
-  create_table "page_names", :id => false, :force => true do |t|
+  create_table "page_names", :force => true do |t|
     t.integer  "page_id"
     t.integer  "name_id"
     t.string   "namestring"
-    t.string   "name_found"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
