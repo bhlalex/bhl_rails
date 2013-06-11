@@ -19,6 +19,8 @@ DAR_API_CONTENT_JOBID_STRING = '[JOBID]'
 LOCATION_API = "http://maps.googleapis.com/maps/api/geocode/xml?address=[LOC]&sensor=false"
 LOCATION_API_LOC_STRING = "[LOC]"
 
+SOLR_BOOKS_METADATA = 'http://localhost:8988/solr/books_metadata'
+SOLR_COMMIT_EVERY_COUNT = 20
 
 # Initialize the rails application
 Bhl::Application.initialize!
