@@ -23,3 +23,4 @@ Things you need:
   11. rake dar:download_thumbs
   12. rake taxon_finder:find_names
   13. start solr: cd solr/examples; java -jar start.jar; check it: http://localhost:8988/solr
+  14. rake solr_indexer:index_all_books
