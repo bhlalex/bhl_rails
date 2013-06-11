@@ -19,6 +19,7 @@ Things you need:
   7.  rake scenarios:load NAME=bootstrap # this scenario will fill the DB with 100 books with only BIBIDs
   8.  rake dar:update_all_metadata # this will download all metadata for books from DAR
   9.  rake bhl:update_empty_locations # to update locations/countries
-  10. rake rake dar:download_volume_content 
+  10. rake dar:download_volume_content
   11. rake dar:download_thumbs
   12. rake taxon_finder:find_names
+  13. start solr: cd solr/examples; java -jar start.jar; check it: http://localhost:8988/solr
