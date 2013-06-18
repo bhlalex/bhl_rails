@@ -8,4 +8,8 @@ class Name < ActiveRecord::Base
                           inner join pages on pages.id=page_names.page_id
                           where volume_id=#{volume_id}")
   end
+  
+  def clean_name
+    return string.gsub('[', '').gsub(']','')
+  end
 end

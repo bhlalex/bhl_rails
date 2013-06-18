@@ -17,6 +17,7 @@ end
 gem 'jquery-rails'
 gem 'uuidtools'
 gem 'rsolr'
+gem 'ImageResize'
 
 group :development, :test do
   gem 'rspec-rails', '~>2.0'
