@@ -18,6 +18,7 @@ gem 'jquery-rails'
 gem 'uuidtools'
 gem 'rsolr'
 gem 'ImageResize'
+gem 'i18n'
 
 group :development, :test do
   gem 'rspec-rails', '~>2.0'
