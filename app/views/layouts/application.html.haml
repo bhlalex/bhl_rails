@@ -1,0 +1,60 @@
+%html{ "xml:lang" => I18n.locale, :lang => I18n.locale}
+  %head
+    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-type" }
+    %title
+      - # Accessibility tip: Page titles should be unique and meaningful to the page and include the site name.
+      - # Home page title can just be the site name.
+      - page_title =  I18n.t(:bhl_page_title)
+      - if @page_title
+        - page_title =   I18n.t(:bhl_short_title) + " - #{@page_title}"
+      &= strip_tags(page_title)
+    
+    %link{ :href => "/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon" }
+    
+    = stylesheet_link_tag 'main'
+  %body
+    .header
+      %a{ :href => "/" } 
+        =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "logo")
+      .username Welcome Guest
+      %br
+      .topmenu
+        %a{ :href => "#" }
+          = I18n.t(:my_account_link)
+        %a{ :href => "#" }
+          = I18n.t(:contact_us_link)
+        %a{ :href => "#" }
+          = I18n.t(:about_us_link)
+    .menu2
+      .content
+        %a{ :href => "#" }
+          = I18n.t(:browse_all_link)
+        |
+        %a{ :href => "#" }
+          = I18n.t(:authors_link)
+        |
+        %a{ :href => "#" }
+          = I18n.t(:subjects_link)
+        |
+        %a{ :href => "#" }
+          = I18n.t(:names_link)
+        |
+        %a{ :href => "#" }
+          = I18n.t(:languages_link)
+        |
+        %a{ :href => "#" }
+          = I18n.t(:geographics_link)
+    .pagetitle
+      .pagetitlecontent
+        .pagetitleborder
+          %h1
+            About Us
+    .contents
+      .page
+        .page_border
+          %br
+          = yield
+    .clear
+    .footer
+      .copyright
+        = I18n.t(:copyright_statement)
