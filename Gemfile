@@ -19,6 +19,7 @@ gem 'uuidtools'
 gem 'rsolr'
 gem 'ImageResize'
 gem 'i18n'
+gem 'haml'
 
 group :development, :test do
   gem 'rspec-rails', '~>2.0'
