@@ -16,7 +16,7 @@ module BHL
     end
     
     def self.get_loc_info(loc)
-      loc_url = LOCATION_API.sub LOCATION_API_LOC_STRING, URI.escape(loc.formatted_address)      
+      loc_url = LOCATION_API.sub LOCATION_API_LOC_STRING, URI.escape(loc.formatted_address)
       # get location info
       loc_info = BHL::Downloader.download_file(loc_url)
       

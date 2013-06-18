@@ -72,7 +72,7 @@ module DAR
       # this means that downloading xml fails
       unless thumb_xml
         return false
-      end 
+      end
       doc = Nokogiri::XML(thumb_xml)
       
       thumbnail = doc.xpath("//Thumbnail")
