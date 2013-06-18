@@ -17,3 +17,4 @@ config/database.yml
 config/environment.rb
 public/volumes/*
 public/thumbs/*
+Gemfile.lock
