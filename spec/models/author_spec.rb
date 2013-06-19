@@ -9,5 +9,5 @@ describe Author do
   it 'Should not add duplicate authors' do
     Author.gen(:name => 'First Author')
     lambda {Author.gen(:name => 'First Author')}.should raise_error
-  end  
+  end
 end
