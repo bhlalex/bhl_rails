@@ -1,0 +1,12 @@
+= render :partial => "layouts/header"
+.pagetitle
+  .pagetitlecontent
+    .pagetitleborder
+      %h1
+        = @page_title
+.contents
+  .page
+    .page_border
+      %br
+      = yield
+= render :partial => "layouts/footer"
