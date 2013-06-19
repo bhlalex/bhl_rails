@@ -16,6 +16,7 @@
     .header
       %a{ :href => "/" } 
         =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "logo")
+      = #TODO: Check for login and replace with Welcome #{user}
       .username Welcome Guest
       %br
       .topmenu
