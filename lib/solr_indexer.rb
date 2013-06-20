@@ -38,7 +38,7 @@ module SOLR
         doc[:bok_end_date] = Date.parse("#{book.end_date}-1-1").strftime("%Y-%m-%dT00:00:00Z") unless book.end_date.nil?
         doc[:bok_publisher] = book.publisher
         doc[:bok_title] = [book.title, book.title_alternative]
-        doc[:bok_publisher] = book.language.name
+        doc[:bok_language] = book.language.name
         doc[:published_at] = DateTime.now.strftime("%Y-%m-%dT00:00:00Z")
         doc[:vol_name] = volume.name
               
