@@ -1,4 +1,6 @@
 Bhl::Application.routes.draw do
+  get "geographics/index"
+
   get "pages/contact"
 
   get "pages/about"

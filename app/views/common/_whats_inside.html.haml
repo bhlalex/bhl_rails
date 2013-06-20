@@ -1,0 +1,8 @@
+.box_1
+  %h3= I18n.t(:whats_inside)
+  %ul
+    %li= I18n.t(:books_count, :count => books_count)
+    %li= I18n.t(:written_by_authors, :count => get_authors_count)
+    %li= I18n.t(:written_in_languages, :count => get_languages_count)
+    %li= I18n.t(:containing_names, :count => get_names_count)
+    %li= link_to(I18n.t(:around_the_world), {:controller => :geographics, :action => :index})

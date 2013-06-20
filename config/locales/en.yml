@@ -37,3 +37,22 @@ en:
   copyright_statement: "Copyright © Bibliotheca Alexandrina"
   about_us_page_header: "About Us"
   contact_us_page_header: "Contact Us"
+  whats_inside: "What's inside"
+  books_count: 
+    zero:  "No books"
+    one:   "One book"
+    other: "%{count} books"
+  written_by_authors: 
+    zero:  "By no authors"
+    one:   "By one author"
+    other: "By %{count} authors"
+  written_in_languages: 
+    zero:  "In no languages"
+    one:   "In one language"
+    other: "In %{count} languages"
+  containing_names: 
+    zero:  "Containing no names"
+    one:   "Containing one name"
+    other: "Containing %{count} scientific names" 
+  around_the_world: "Around the world"
+     
