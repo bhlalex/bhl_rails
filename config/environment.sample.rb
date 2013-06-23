@@ -13,7 +13,7 @@ DOWNLOAD_QUERY_SIZE = 100
 DAR_API_THUMBNAIL = 'http://api.dar.bibalex.org/DarAccessLayer/DAF-Job:[JOBID]/Thumbnail'
 DAR_API_THUMBNAIL_JOBID_STRING = '[JOBID]'
 
-DAR_API_CONTENT = 'http://api.dar.bibalex.org/DarAccessLayer/DAF-Job:[JOBID]/Derivative/XML/Content';
+DAR_API_CONTENT = 'http://api.dar.bibalex.org/DarAccessLayer/DAF-Job:[JOBID]/Derivative/XML/Content'
 DAR_API_CONTENT_JOBID_STRING = '[JOBID]'
 
 LOCATION_API = "http://maps.googleapis.com/maps/api/geocode/xml?address=[LOC]&sensor=false"
@@ -21,6 +21,22 @@ LOCATION_API_LOC_STRING = "[LOC]"
 
 SOLR_BOOKS_METADATA = 'http://localhost:8988/solr/books_metadata'
 SOLR_COMMIT_EVERY_COUNT = 20
+
+EOL_NAMES_FINDER = 'http://eol.org/api/search/1.0.xml?q=[NAME_STRING]&page=1&exact=true'
+EOL_NAMES_FINDER_STRING = '[NAME_STRING]'
+
+EOL_PAGES_API = 'http://eol.org/api/pages/1.0/[NAME_ID].xml?images=1&videos=0&text=0'
+EOL_PAGES_API_STRING = '[NAME_ID]'
+
+EOL_DO_API = 'http://eol.org/api/data_objects/1.0/[DOID].xml?cache_ttl='
+EOL_DO_API_STRING = '[DOID]'
+
+THUMBS_PER_FOLDER = 1000
+THUMB_MAX_WIDTH = 100
+THUMB_MAX_HEIGHT = 100
+
+NAME_SPOTTER_IP = '127.0.0.1'
+NAME_SPOTTER_PORT = 8089 
 
 # Initialize the rails application
 Bhl::Application.initialize!
