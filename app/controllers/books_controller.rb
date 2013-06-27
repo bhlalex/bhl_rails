@@ -1,3 +1,5 @@
+require 'jquery-rails'
+
 class BooksController < ApplicationController
   def show
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
