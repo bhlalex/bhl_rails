@@ -44,9 +44,8 @@ module BooksHelper
       thumb = ATTACHMENTS_URL + THUMB_FOLDER + eol_thumb
       title_tip = "<div style='float:left'>  
                     <img style='height:100px' src='#{thumb}' >
-                   </div>"
+                   </div>"      
     end
-    
     title_tip += "<div style='float:left'>
                     <span >#{string}</span>
                     <ul>  
@@ -57,5 +56,6 @@ module BooksHelper
                     </ul>
                   </div>"
     end
+    title_tip
   end   
 end
