@@ -14,12 +14,13 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 3.0.1'
 gem 'uuidtools'
 gem 'rsolr'
 gem 'ImageResize'
 gem 'i18n'
 gem 'haml'
+gem 'tabs_on_rails'
 
 group :development, :test do
   gem 'rspec-rails', '~>2.0'

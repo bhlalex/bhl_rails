@@ -2,6 +2,11 @@ Bhl::Application.routes.draw do
   get "pages/contact"
 
   get "pages/about"
+  
+  match "/books/:id" => "books#show"
+  match "/books/:id/:tab" => "books#show"
+  #resources :books
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

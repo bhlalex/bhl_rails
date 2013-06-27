@@ -1,0 +1,5 @@
+- book_names(params[:id]).each do |name|
+  &bull;
+  %a.tooltip{:title =>name_tip(name.id, name.string, name.eol_thumb), :href => "#"}  
+    =item_count_format('name', name.string)
+=book_names_count_format(params[:id]) 

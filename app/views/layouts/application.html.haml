@@ -5,8 +5,5 @@
       %h1
         = @page_title
 .contents
-  .page
-    .page_border
-      %br
-      = yield
+  = yield
 = render :partial => "layouts/footer"
