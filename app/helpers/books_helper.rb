@@ -39,12 +39,13 @@ module BooksHelper
   end
   
   def name_tip (id, string, eol_thumb)
-    title_tip = ''
+    title_tip = ""
     if eol_thumb != nil
       thumb = ATTACHMENTS_URL + THUMB_FOLDER + eol_thumb
       title_tip = "<div style='float:left'>  
                     <img style='height:100px' src='#{thumb}' >
-                   </div>"
+                   </div>"      
     end
-  end   
+    title_tip
+  end
 end
