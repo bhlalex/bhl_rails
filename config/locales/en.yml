@@ -37,3 +37,14 @@ en:
   copyright_statement: "Copyright © Bibliotheca Alexandrina"
   about_us_page_header: "About Us"
   contact_us_page_header: "Contact Us"
+  brief: 'Brief'
+  mods: 'MODS'
+  bibtex: 'BibTex'
+  endnote: 'EndNote'
+  book_author_title: 'Author/Creator'
+  book_location_title: 'Publish Place'
+  book_subject_title: 'Genre'
+  book_data_title: 'Date'
+  book_publish_title: 'Publication info'
+  book_language_title: 'Language'
+  book_name_title: 'Tagged Species'

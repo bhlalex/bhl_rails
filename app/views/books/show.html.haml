@@ -1,0 +1,6 @@
+= render :partial => "books/tabs"
+%br
+- if @current == 'brief'
+  = render :partial => "books/brief"
+- else
+  = render :partial => "books/format"
