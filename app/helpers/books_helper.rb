@@ -38,13 +38,24 @@ module BooksHelper
     end
   end
   
-  def name_tip (id, string, eol_thumb)
+  def name_tip (id, string, eol_thumb, eol_page_id)
     title_tip = ''
     if eol_thumb != nil
       thumb = ATTACHMENTS_URL + THUMB_FOLDER + eol_thumb
       title_tip = "<div style='float:left'>  
                     <img style='height:100px' src='#{thumb}' >
                    </div>"
+    end
+    
+    title_tip += "<div style='float:left'>
+                    <span >#{string}</span>
+                    <ul>  
+                      <li><a href='#'>Find in the book</a>"
+    if eol_page_id != nil && eol_page_id > -1
+      title_tip += "<li><a href='http://eol.org/pages/#{eol_page_id}'>View in EOL.org</a>"
+      title_tip += "<li><a href='#'>Books with name</a>
+                    </ul>
+                  </div>"
     end
   end   
 end
