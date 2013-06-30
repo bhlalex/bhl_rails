@@ -51,11 +51,11 @@ module BooksHelper
                     <ul>  
                       <li><a href='#'>Find in the book</a>"
     if eol_page_id != nil && eol_page_id > -1
-      title_tip += "<li><a href='http://eol.org/pages/#{eol_page_id}'>View in EOL.org</a>"
-      title_tip += "<li><a href='#'>Books with name</a>
-                    </ul>
-                  </div>"
+      title_tip += "<li><a href='http://eol.org/pages/#{eol_page_id}'>View in EOL.org</a>"      
     end
+    title_tip += "<li><a href='#'>Books with name</a>
+                    </ul>
+                  </div>"    
     title_tip
   end   
 end
