@@ -43,7 +43,7 @@ module BooksHelper
     if eol_thumb != nil
       thumb = ATTACHMENTS_URL + THUMB_FOLDER + eol_thumb
       title_tip = "<div style='float:left'>  
-                    <img style='height:100px' src='#{thumb}' >
+                    <img style='height:100px' src='#{thumb}'></img>
                    </div>"      
     end
     title_tip += "<div style='float:left'>
