@@ -30,3 +30,11 @@ Things you need:
   
 == Common issues
  - Make sure folder tmp/cache exists 
+ 
+== autotests
+  To make sure your work doesn't break any existing specs, it's recommnded that you use autotests so you will be notified instantly 
+  once your code breaks any test.
+  1. Download and install Growl: growlforwindows.com. This is a popup notifier for windows.
+  2. Run "spork rspec" in a terminal window
+  3. Run "autotest" in another window.
+  To make sure it works, go to any spec file and try to break any test, you should be notified immediatly. 
