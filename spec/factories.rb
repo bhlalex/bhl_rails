@@ -27,6 +27,10 @@ FactoryGirl.define do
     name                { generate(:string) }
   end
   
+  factory :name do
+    string                { generate(:string) }    
+  end
+  
   factory :user do
     username            { generate(:string) }
     password            { generate(:string) }

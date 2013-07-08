@@ -1,5 +1,5 @@
 Bhl::Application.routes.draw do
-  get "books/index"
+  resources :books
 
   get "geographics/index"
 

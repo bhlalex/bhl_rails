@@ -1,15 +1,24 @@
+$LOAD_PATH << './lib/'
 require 'spec_helper'
+require 'solr_indexer'
 
-# Specs in this file have access to a helper object that includes
-# the BooksHelper. For example:
-#
-# describe BooksHelper do
-#   describe "string concat" do
-#     it "concats two strings with spaces" do
-#       helper.concat_strings("this","that").should == "this that"
-#     end
-#   end
-# end
 describe BooksHelper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it 'should return at least one species' do
+    doc = {:vol_jobid => "123", :bok_bibid => "456"}
+    doc[:bok_title] = "Test Book"
+    doc[:name] = "Test Name"
+    
+    solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    # remove this book if exists
+    solr.delete_by_query('vol_jobid:123')
+    solr.commit
+    solr.add doc
+    solr.commit
+    
+    list = list_names('vol_jobid:123')
+    list.should include(:name => "test name", :count => 1)    
+    
+    solr.delete_by_query('vol_jobid:123')
+    solr.commit
+  end
 end
