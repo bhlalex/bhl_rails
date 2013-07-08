@@ -54,4 +54,5 @@ en:
     one:   "Containing one name"
     other: "Containing %{count} scientific names" 
   around_the_world: "Around the world"
-     
+  tagged_species_caps: "TAGGED SPECIES"
+  

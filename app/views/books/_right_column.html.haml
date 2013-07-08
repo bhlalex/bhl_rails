@@ -1,0 +1,7 @@
+.box_1
+  %h3= I18n.t(:tagged_species_caps)
+  %ul
+  - list_names(@search_criteria).first(TAGGED_SPECIES_COUNT).each do |name|
+    %li
+      =link_to "#{name[:name]} [#{name[:count]}]", "#"
+      

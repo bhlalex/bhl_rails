@@ -38,6 +38,10 @@ THUMB_MAX_HEIGHT = 100
 NAME_SPOTTER_IP = '127.0.0.1'
 NAME_SPOTTER_PORT = 8089 
 
+MAX_NAMES_PER_BOOK = 5
+
+TAGGED_SPECIES_COUNT = 4
+
 # Initialize the rails application
 Bhl::Application.initialize!
 

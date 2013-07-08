@@ -17,6 +17,7 @@ end
 gem 'jquery-rails', '~> 3.0.1'
 gem 'uuidtools'
 gem 'rsolr'
+gem 'rsolr-ext'
 gem 'ImageResize'
 gem 'i18n'
 gem 'haml'
