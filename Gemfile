@@ -25,6 +25,7 @@ gem 'tabs_on_rails'
 
 group :development, :test do
   gem 'rspec-rails', '~>2.0'
+  gem 'webrat'
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'debugger'
