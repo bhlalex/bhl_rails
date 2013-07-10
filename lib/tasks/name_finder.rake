@@ -8,7 +8,7 @@ namespace :taxon_finder do
     tf_name_spotter = NameSpotter.new(tf_client)
     
     #pages = Page.where("id<5933")
-    pages = Page.where("fill_names_fail is null or fill_names_fail=1")
+    pages = Page.where("fill_names_fail is null")
     pages_count = pages.count
     
     pages.each_with_index do |page, index|
@@ -30,7 +30,7 @@ namespace :taxon_finder do
       end
       
       page.fill_names_fail = 1
-      page.save      
+      page.save
     end
   end
 end
