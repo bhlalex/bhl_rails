@@ -41,6 +41,8 @@ NAME_SPOTTER_PORT = 8089
 MAX_NAMES_PER_BOOK = 5
 
 TAGGED_SPECIES_COUNT = 4
+TAGGED_LANGUAGES_COUNT = 4
+TAGGED_AUTHORS_COUNT = 4
 
 # Initialize the rails application
 Bhl::Application.initialize!

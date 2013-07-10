@@ -40,4 +40,23 @@ describe BooksHelper do
     solr.delete_by_query('vol_jobid:123')
     solr.commit
   end
+  
+  it 'should return at least one author' do
+    doc = {:vol_jobid => "123", :bok_bibid => "456"}
+    doc[:bok_title] = "Test Book"
+    doc[:author] = "Test Author"
+    
+    solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    # remove this book if exists
+    solr.delete_by_query('vol_jobid:123')
+    solr.commit
+    solr.add doc
+    solr.commit
+    
+    list = list_authors('vol_jobid:123')
+    list.should include(:name => "test author", :count => 1)    
+    
+    solr.delete_by_query('vol_jobid:123')
+    solr.commit
+  end
 end
