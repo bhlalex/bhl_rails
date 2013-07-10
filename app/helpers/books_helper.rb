@@ -8,4 +8,14 @@ module BooksHelper
     end
     tagged_names
   end
+  
+  def list_languages(search_query)
+    solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
+    response = solr.find :q => search_query, :facet => true, 'facet.field' => 'bok_language_s', 'rows' => 0
+    tagged_languages = []
+    response.facets.first.items.each do |item|
+      tagged_languages << {:name => item.value, :count => item.hits}
+    end
+    tagged_languages
+  end
 end

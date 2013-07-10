@@ -27,7 +27,7 @@
     .menu2
       .content
         %a{ :href => "#" }
-          = I18n.t(:browse_all_link)
+          = link_to I18n.t(:browse_all_link), {:controller => :books, :action => :index}
         |
         %a{ :href => "#" }
           = I18n.t(:authors_link)

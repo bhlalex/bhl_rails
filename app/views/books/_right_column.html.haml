@@ -4,4 +4,9 @@
   - list_names(@search_criteria).first(TAGGED_SPECIES_COUNT).each do |name|
     %li
       =link_to "#{name[:name]} [#{name[:count]}]", "#"
-      
+.box_1
+  %h3= I18n.t(:languages_caps)
+  %ul
+  - list_languages(@search_criteria).first(TAGGED_SPECIES_COUNT).each do |language|
+    %li
+      =link_to "#{language[:name]} [#{language[:count]}]", "#"
