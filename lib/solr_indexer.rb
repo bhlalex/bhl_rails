@@ -20,7 +20,7 @@ module SOLR
         else
           book.metadata_index_status=0
           book.save
-        end          
+        end
       end
       puts "Commit"
       solr.commit
@@ -38,7 +38,7 @@ module SOLR
         doc[:bok_end_date] = Date.parse("#{book.end_date}-1-1").strftime("%Y-%m-%dT00:00:00Z") unless book.end_date.nil?
         doc[:bok_publisher] = book.publisher
         doc[:bok_title] = [book.title, book.title_alternative]
-        doc[:bok_language] = book.language.name
+        doc[:bok_language] = book.language.name if book.language
         doc[:published_at] = DateTime.now.strftime("%Y-%m-%dT00:00:00Z")
         doc[:vol_name] = volume.name
               
@@ -84,7 +84,7 @@ module SOLR
     
     def self.delete_all
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      solr.delete_by_query 'vol_jobid:[1 TO 1000000000000]'
+      solr.delete_by_query '*:*'
       solr.commit
       solr.optimize
     end

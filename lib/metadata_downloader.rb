@@ -120,19 +120,24 @@ module DAR
       end
       
       # Get publisher
-      book.publisher = doc.xpath('//xmlns:originInfo/xmlns:publisher').text unless doc.xpath('//xmlns:originInfo/xmlns:publisher').empty?
+      book.publisher = nil
+      book.publisher = doc.xpath('//xmlns:originInfo/xmlns:publisher').text unless doc.xpath('//xmlns:originInfo/xmlns:publisher').text.empty?
       
       # Get Language
-      book.language = Language.find_or_create_by_code(doc.xpath('//xmlns:language/xmlns:languageTerm').text) unless doc.xpath('//xmlns:language/xmlns:languageTerm').empty? 
+      book.language = nil
+      book.language = Language.find_or_create_by_code(doc.xpath('//xmlns:language/xmlns:languageTerm').text) unless doc.xpath('//xmlns:language/xmlns:languageTerm').text.empty?
       
       # Get note
-      book.note = doc.xpath('//xmlns:note').text unless doc.xpath('//xmlns:note').empty?
+      book.note = nil
+      book.note = doc.xpath('//xmlns:note').text unless doc.xpath('//xmlns:note').text.empty?
       
       # Get edition
-      book.edition = doc.xpath('//xmlns:originInfo/xmlns:edition').text unless doc.xpath('//xmlns:originInfo/xmlns:edition').empty?
+      book.edition = nil
+      book.edition = doc.xpath('//xmlns:originInfo/xmlns:edition').text unless doc.xpath('//xmlns:originInfo/xmlns:edition').text.empty?
       
       # Get format_extent
-      book.format_extent = doc.xpath('//xmlns:physicalDescription/xmlns:extent').text unless doc.xpath('//xmlns:physicalDescription/xmlns:extent').empty?
+      book.format_extent = nil
+      book.format_extent = doc.xpath('//xmlns:physicalDescription/xmlns:extent').text unless doc.xpath('//xmlns:physicalDescription/xmlns:extent').text.empty?
       
       # Saving mods
       book.mods = book_metadata
