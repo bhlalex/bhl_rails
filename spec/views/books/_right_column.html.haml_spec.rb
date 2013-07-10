@@ -10,4 +10,9 @@ describe "books/_right_column.html.haml" do
     render
     rendered.should contain("LANGUAGES")
   end
+  
+  it 'should contain authors' do
+    render
+    rendered.should contain("AUTHORS")
+  end
 end

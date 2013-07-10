@@ -18,4 +18,14 @@ module BooksHelper
     end
     tagged_languages
   end
+  
+  def list_authors(search_query)
+    solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
+    response = solr.find :q => search_query, :facet => true, 'facet.field' => 'author_ss', 'rows' => 0
+    tagged_authors = []
+    response.facets.first.items.each do |item|
+      tagged_authors << {:name => item.value, :count => item.hits}
+    end
+    tagged_authors
+  end
 end
