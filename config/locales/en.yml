@@ -44,7 +44,7 @@ en:
   book_author_title: 'Author/Creator'
   book_location_title: 'Publish Place'
   book_subject_title: 'Genre'
-  book_data_title: 'Date'
+  book_date_title: 'Date'
   book_publish_title: 'Publication info'
   book_language_title: 'Language'
   book_name_title: 'Tagged Species'
