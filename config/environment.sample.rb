@@ -46,4 +46,3 @@ TAGGED_AUTHORS_COUNT = 4
 
 # Initialize the rails application
 Bhl::Application.initialize!
-

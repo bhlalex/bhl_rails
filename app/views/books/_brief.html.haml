@@ -1,0 +1,36 @@
+%ul
+  - if @book['bok_language'] != nil
+    %li
+      %b
+        =I18n.t(:book_language_title) + ':'
+      =link_to '#' do
+        =item_count_format('bok_language', @book['bok_language'])
+
+  - if @book['bok_start_date'] != nil
+    %li
+      %b
+        =I18n.t(:book_date_title) + ':'
+      =@book['bok_start_date'].first(4)
+      
+  - if @book['bok_publisher'] != nil
+    %li
+      %b
+        =I18n.t(:book_publish_title) + ':'
+      =@book['bok_publisher']
+  
+  - @types.each do |type, value|
+    - if @book[type.to_s] != nil
+      %li
+        %b
+          =value + ':'
+        - @book[type.to_s].each do |item|
+          &bull;
+          =link_to '#' do
+            =item_count_format(type.to_s, item)
+
+  - if @book['name'] != nil
+    %li
+      %b
+        =I18n.t(:book_name_title) + ':'
+      = render :partial => "books/names"
+      
