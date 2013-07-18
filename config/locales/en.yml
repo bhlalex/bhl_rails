@@ -57,4 +57,15 @@ en:
   tagged_species_caps: "TAGGED SPECIES"
   languages_caps: "LANGUAGES"
   authors_caps: "AUTHORS"
-  
+
+  brief: 'Brief'
+  mods: 'MODS'
+  bibtex: 'BibTex'
+  endnote: 'EndNote'
+  book_author_title: 'Author/Creator'
+  book_location_title: 'Publish Place'
+  book_subject_title: 'Genre'
+  book_date_title: 'Date'
+  book_publish_title: 'Publication info'
+  book_language_title: 'Language'
+  book_name_title: 'Tagged Species'
