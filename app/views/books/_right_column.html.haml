@@ -1,18 +1,30 @@
 .box_1
   %h3= I18n.t(:tagged_species_caps)
   %ul
-    - list_names(@search_criteria).first(TAGGED_SPECIES_COUNT).each do |name|
+    - facet_list(@search_criteria,'name_ss').first(TAGGED_SPECIES_COUNT).each do |name|
       %li
         =link_to "#{name[:name]} [#{name[:count]}]", "#"
 .box_1
   %h3= I18n.t(:languages_caps)
   %ul
-    - list_languages(@search_criteria).first(TAGGED_LANGUAGES_COUNT).each do |language|
+    - facet_list(@search_criteria, 'bok_language_s').first(LANGUAGES_COUNT).each do |language|
       %li
         =link_to "#{language[:name]} [#{language[:count]}]", "#"
 .box_1
   %h3= I18n.t(:authors_caps)
   %ul
-    - list_authors(@search_criteria).first(TAGGED_AUTHORS_COUNT).each do |author|
+    - facet_list(@search_criteria, 'author_ss').first(AUTHORS_COUNT).each do |author|
       %li
         =link_to "#{author[:name]} [#{author[:count]}]", "#"
+.box_1
+  %h3= I18n.t(:regional_affiliation_caps)
+  %ul
+    - facet_list(@search_criteria, 'geo_location_ss').first(AFFILIATION_COUNT).each do |affiliation|
+      %li
+        =link_to "#{affiliation[:name]} [#{affiliation[:count]}]", "#"
+.box_1
+  %h3= I18n.t(:genre_caps)
+  %ul
+    - facet_list(@search_criteria, 'subject_ss').first(GENRE_COUNT).each do |genre|
+      %li
+        =link_to "#{genre[:name]} [#{genre[:count]}]", "#"

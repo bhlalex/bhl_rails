@@ -6,7 +6,6 @@ class BooksController < ApplicationController
   end
   
   def show
-     
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
     @book = search['response']['docs'][0]
