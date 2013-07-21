@@ -15,7 +15,7 @@ describe BooksHelper do
     solr.add doc
     solr.commit
     
-    list = list_names('vol_jobid:123')
+    list = facet_list('vol_jobid:123', 'name_ss')
     list.should include(:name => "test name", :count => 1)    
     
     solr.delete_by_query('vol_jobid:123')
@@ -34,7 +34,7 @@ describe BooksHelper do
     solr.add doc
     solr.commit
     
-    list = list_languages('vol_jobid:123')
+    list = facet_list('vol_jobid:123', 'bok_language_s')
     list.should include(:name => "test language", :count => 1)    
     
     solr.delete_by_query('vol_jobid:123')
@@ -53,7 +53,7 @@ describe BooksHelper do
     solr.add doc
     solr.commit
     
-    list = list_authors('vol_jobid:123')
+    list = facet_list('vol_jobid:123', 'author_ss')
     list.should include(:name => "test author", :count => 1)    
     
     solr.delete_by_query('vol_jobid:123')

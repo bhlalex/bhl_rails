@@ -1,0 +1,41 @@
+= render :partial => "layouts/header"
+.pagetitle
+  .pagetitlecontent
+    .pagetitleborder
+      %h1
+        = @page_title
+        #location_checkbox
+          %input#chk10{:type => "checkbox"}
+          %img{:alt => I18n.t(:blue_pin), :title => I18n.t(:blue_pin), :src => "/images_#{I18n.locale}/map_pin_blue.png"}
+          1-10 
+          = I18n.t(:geo_titles)
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          %input#chk20{:type => "checkbox"}
+          %img{:alt => I18n.t(:green_pin), :title => I18n.t(:green_pin), :src => "/images_#{I18n.locale}/map_pin_green.png"}
+          11-20 
+          = I18n.t(:geo_titles)
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          %input#chk30{:type => "checkbox"}
+          %img{:alt => I18n.t(:yello_pin), :title => I18n.t(:yellow_pin), :src => "/images_#{I18n.locale}/map_pin_yellow.png"}
+          21-30 
+          = I18n.t(:geo_titles)
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          %input#chk40{:type => "checkbox"}
+          %img{:alt => I18n.t(:orange_pin), :title => I18n.t(:orange_pin), :src => "/images_#{I18n.locale}/map_pin_orange.png"}
+          31-40 
+          = I18n.t(:geo_titles)
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          
+          %input#chk50{:type => "checkbox"}
+          %img{:alt => I18n.t(:red_pin), :title => I18n.t(:red_pin), :src => "/images_#{I18n.locale}/map_pin_red.png"}
+          41  
+          = I18n.t(:geo_titles_more) 
+          = I18n.t(:geo_titles)
+          &nbsp;&nbsp;&nbsp;&nbsp;
+.contents
+.contents
+  = yield
+= render :partial => "layouts/footer"

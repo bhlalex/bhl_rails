@@ -15,4 +15,9 @@ describe "books/_right_column.html.haml" do
     render
     rendered.should contain("AUTHORS")
   end
+  
+  it 'should contain affiliation' do
+    render
+    rendered.should contain("AFFILIATION")
+  end
 end
