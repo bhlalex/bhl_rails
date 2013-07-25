@@ -71,7 +71,6 @@ en:
   book_publish_title: 'Publication info'
   book_language_title: 'Language'
   book_name_title: 'Tagged Species'
-
   blue_pin: 'Blue Pin'
   green_pin: 'Green Pin'
   yellow_pin: 'Yellow Pin'
@@ -79,3 +78,4 @@ en:
   red_pin: 'Red Pin'
   geo_titles: 'titles'
   geo_titles_more: 'or more'
+  read_book_link: 'Read Book'
