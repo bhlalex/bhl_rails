@@ -1,4 +1,5 @@
 require 'jquery-rails'
+require "rexml/document"
 
 class BooksController < ApplicationController
   def index
@@ -19,8 +20,16 @@ class BooksController < ApplicationController
       @types = {:author => I18n.t(:book_author_title), 
                 :geo_location => I18n.t(:book_location_title),
                 :subject => I18n.t(:book_subject_title),
-              }
+              }      
+    elsif @current == 'mods'
+      mods = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).mods
+      mods.slice!(0) if mods[0] == "?" # This should remove leading "?" from mods
       
+      # this is used to beautify xml display 
+      doc = REXML::Document.new mods
+      out = ""
+      doc.write(out, 1)
+      @format = out
     else
       @format = 'empty for now'
     end
