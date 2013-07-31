@@ -1,6 +1,7 @@
 Bhl::Application.routes.draw do
   resources :books
   resources :geographics
+  resources :ubio
   
   get "pages/contact"
 
