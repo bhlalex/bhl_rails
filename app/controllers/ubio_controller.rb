@@ -79,4 +79,29 @@ class UbioController < ApplicationController
     end
     render layout: 'ubio'
   end
+  def edit
+    id = params[:id] != nil ? params[:id] : ''
+    success = params[:success] != nil ? params[:success] : 0
+    @fail_message = ''
+    if id == '' || ()
+      @fail_message = 'Please specify correct job_id'
+    elsif success == '' || (success != '0' && success != '1')
+      @fail_message = 'Please specify success status with 0 or 1'
+    else
+      volume =  Volume.find_by_job_id(id)
+      if volume == nil
+        @fail_message = 'Sorry: This JOBID is not available in our database.'
+      else
+        if success == '0'          
+          volume.ubio_in_dar_fail = volume.ubio_in_dar_fail == nil ? 1 : volume.ubio_in_dar_fail + 1 
+        elsif success == '1'
+          volume.ubio_in_dar_fail = 0
+        end
+        volume.save()
+        result_array = {:jobid => id, :ubio_failure_count => volume.ubio_in_dar_fail}
+        j = ActiveSupport::JSON
+        @json = j.encode(result_array)
+      end
+    end
+  end
 end
