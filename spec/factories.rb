@@ -11,7 +11,8 @@ FactoryGirl.define do
   factory :book do
     association         :language         
     bibid               { generate(:string) }
-    #title               { generate(:string) }
+    title               { generate(:string) }
+    mods                { generate(:string) }
     #start_date          { Time.now }
     #end_date            { Time.now }
     #publisher           { generate(:string) }

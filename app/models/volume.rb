@@ -5,7 +5,7 @@ class Volume < ActiveRecord::Base
   attr_accessible :get_thumbnail_fail, :job_id, :name, :ubio_in_dar_fail, :volume_number, :book, :pages
   
   def get_volume_contents
-    content = ""    
+    content = ""
     self.pages.each do |page|
       content << "\n#{page.get_page_content}" unless page.is_empty?
     end
