@@ -18,7 +18,7 @@ module ApplicationHelper
   def get_names_count
     get_item_count('name_ss')
   end
-    
+  
   private
   def get_item_count(field_name)
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
@@ -26,5 +26,4 @@ module ApplicationHelper
     response = solr.find :q => '*:*', :facet => true, 'facet.field' => field_name, 'rows' => 0
     response.facets.first.items.count
   end
-  
 end
