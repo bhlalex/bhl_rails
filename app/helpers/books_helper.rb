@@ -67,5 +67,5 @@ module BooksHelper
                     </ul>
                   </div>"    
     title_tip
-  end   
+  end
 end

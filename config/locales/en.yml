@@ -79,3 +79,6 @@ en:
   geo_titles: 'titles'
   geo_titles_more: 'or more'
   read_book_link: 'Read Book'
+  browse_subject_page_header: 'Subjects'
+  browse_author_page_header: 'Authors'
+  browse_all: 'ALL'
