@@ -2,10 +2,13 @@ Bhl::Application.routes.draw do
   resources :books
   resources :geographics
   resources :ubio
+  resources :browse
   
   get "pages/contact"
-
   get "pages/about"
+  
+  match "browse/:type" => "browse#show"
+  match "browse/:type/:char" => "browse#show" 
   
   match "/books/:id" => "books#show"
   match "/books/:id/:tab" => "books#show"
