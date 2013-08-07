@@ -1,0 +1,10 @@
+- get_prefixes_of_results(@browse_list).each do |prefix|
+  .authorsblock
+    %h2
+      = prefix.upcase
+    %ul
+      - filter_list_by_prefix(@browse_list, prefix).each do |item|
+        %li
+          =link_to "#" do
+            = "#{item[:name]} (#{item[:count]})"
+  .clear
