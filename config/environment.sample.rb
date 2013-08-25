@@ -46,6 +46,9 @@ TAGGED_AUTHORS_COUNT = 4
 TAGGED_AFFILIATION_COUNT = 4
 TAGGED_GENRE_COUNT = 4
 
+# used for maps vendor https://github.com/joshuamiller/cartographer
+CARTOGRAPHER_GMAP_VERSION = 3
+
 
 
 # Initialize the rails application

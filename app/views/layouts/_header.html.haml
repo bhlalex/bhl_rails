@@ -38,5 +38,4 @@
         %a{ :href => "#" }
           = I18n.t(:names_link)
         |
-        %a{ :href => "#" }
-          = I18n.t(:geographics_link)
+        = link_to I18n.t(:geographics_link), {:controller => :geographics, :action => :index}
