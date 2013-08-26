@@ -28,6 +28,6 @@ class GeographicsController < ApplicationController
       @books[doc["vol_jobid"]] = doc["bok_title"][0]
     end
     
-    render :layout => 'main' # this is a blank layout as I don't need any layout in this a
+    render :layout => 'main' # this is a blank layout as I don't need any layout in this action
   end
 end
