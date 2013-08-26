@@ -52,5 +52,36 @@ module BHL
         end
       end
     end
+    
+    def self.remove_duplicate_locations
+      locations = find_duplicate_locations
+      locations.each do |location|
+        remove_duplicates(location.formatted_address)
+      end
+    end
+    
+    def self.find_duplicate_locations
+      Location.select("formatted_address").group("formatted_address").having("count(*) > 1")
+    end
+    
+    def self.remove_duplicates(formatted_address)
+      puts "Fixing duplicates in #{formatted_address}"
+      duplicated_locations = Location.find_all_by_formatted_address(formatted_address)
+      to_id = duplicated_locations.first.id
+      duplicated_locations.each do |location|
+        if to_id != location.id
+          puts "replacing #{location.id} with #{to_id}"
+          
+          # updating subjects
+          Subject.update_all("location_id=#{to_id}", "location_id=#{location.id}")
+          
+          # updating books_locations
+          ActiveRecord::Base.connection.execute("update books_locations set location_id=#{to_id} where location_id=#{location.id}")
+          
+          # removing location
+          location.destroy
+        end
+      end
+    end
   end
 end
