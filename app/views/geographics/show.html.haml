@@ -1,2 +1,6 @@
 .city
   = @location_name
+%ul
+  - @books.each do |key, value|
+    %li
+      =link_to value, "/books/#{key}"

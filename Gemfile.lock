@@ -71,7 +71,6 @@ GEM
     factory_girl_rails (4.1.0)
       factory_girl (~> 4.1.0)
       railties (>= 3.0.0)
-    ffi (1.9.0)
     ffi (1.9.0-x86-mingw32)
     haml (3.1.7)
     hike (1.2.3)
@@ -89,7 +88,6 @@ GEM
     mini_portile (0.5.0)
     minitest (5.0.6)
     multi_json (1.7.7)
-    mysql2 (0.3.11)
     mysql2 (0.3.11-x86-mingw32)
     name-spotter (0.2.4)
       builder
@@ -98,8 +96,6 @@ GEM
       rest-client
       unicode_utils
       unsupervised-language-detection
-    nokogiri (1.6.0)
-      mini_portile (~> 0.5.0)
     nokogiri (1.6.0-x86-mingw32)
       mini_portile (~> 0.5.0)
     polyglot (0.3.3)
