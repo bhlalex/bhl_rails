@@ -6,10 +6,13 @@ class GeographicsController < ApplicationController
     @map.zoom = 2
     @map.icons << Cartographer::Gicon.new
     
-    locations = Location.all
+    rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     
-    locations.each do |location|
-      @map.markers << Cartographer::Gmarker.new(:name=> location.formatted_address.gsub(/\W/, "_"), :marker_type => "Building",
+    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => 'geo_location_ss', 'rows' => 0
+    
+    response.facets.first.items.each do |item|
+      location = Location.find_by_formatted_address(item.value)      
+      @map.markers << Cartographer::Gmarker.new(:name=> "#{item.value.gsub(/\W/, "_")}", :marker_type => "Building",
                         :position => [location.latitude,location.longitude],
                         :info_window_url => "#{location.id}")
     end
@@ -23,6 +26,8 @@ class GeographicsController < ApplicationController
     response = rsolr.find :q => "geo_location:#{location.formatted_address}"
     
     @books = {}
+    
+    @books_count = response.docs.count
     
     response.docs.each do |doc|
       @books[doc["vol_jobid"]] = doc["bok_title"][0]

@@ -1,6 +1,6 @@
 .city
-  = @location_name
-%ul
+  = "#{@location_name} (#{@books_count})"
+%ol
   - @books.each do |key, value|
     %li
       =link_to value, "/books/#{key}"
