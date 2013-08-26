@@ -6,4 +6,9 @@ namespace :bhl do
   task :update_empty_locations => :environment do
     BHL::LocationUpdater.update_locations
   end
+  
+  desc 'Remove duplicate cities'
+  task :remove_duplicate_cities => :environment do
+    #TODO: task :remove_duplicate_cities
+  end
 end
