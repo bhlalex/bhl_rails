@@ -39,4 +39,5 @@ group :development, :test do
   gem 'autotest-growl'
   gem 'autotest-standalone'
   gem 'autotest-rails-pure'
+  gem 'rails-dev-boost'
 end
