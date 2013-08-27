@@ -2,19 +2,61 @@ class GeographicsController < ApplicationController
   def index
     @page_title = 'Geographics'
     
-    @map = Cartographer::Gmap.new( 'map' )
+    @map = Cartographer::Gmap.new('map')
     @map.zoom = 2
-    @map.icons << Cartographer::Gicon.new
+    
+    icons = {}
+    icons[10] = "/images_#{I18n.locale}/map_pin_blue.png"
+    icons[20] = "/images_#{I18n.locale}/map_pin_green.png"
+    icons[30] = "/images_#{I18n.locale}/map_pin_yellow.png"
+    icons[40] = "/images_#{I18n.locale}/map_pin_orange.png"
+    icons[50] = "/images_#{I18n.locale}/map_pin_red.png"
+    
+    # defining icons
+    gicons = {}
+    
+    @range = params[:range]
+    @range="10,20,30,40,50" unless @range
+    
+    [10, 20, 30, 40, 50].each do |i|
+      temp_icon = Cartographer::Gicon.new(:name => "icon_#{i-10}_to_#{i}", :image_url => "#{icons[i]}",
+                                           :width => 12, :height => 20,
+                                           :shadow_width => 0, :shadow_height => 0, #removing shadow
+                                           :anchor_x => 6, #width/2 
+                                           :anchor_y => 20)
+      gicons[i] = temp_icon
+      @map.icons << temp_icon
+    end
     
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     
     response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => 'geo_location_ss', 'rows' => 0
     
     response.facets.first.items.each do |item|
-      location = Location.find_by_formatted_address(item.value)      
-      @map.markers << Cartographer::Gmarker.new(:name=> "#{item.value.gsub(/\W/, "_")}", :marker_type => "Building",
-                        :position => [location.latitude,location.longitude],
-                        :info_window_url => "#{location.id}")
+      icon_in = 10
+      # specify icon
+      case item.hits
+        when 1..10
+          icon_in = 10
+        when 11..20
+          icon_in = 20
+        when 21..30
+          icon_in = 30
+        when 31..40
+          icon_in = 40
+        else
+          icon_in = 50
+      end
+      
+      if @range.include?(icon_in.to_s)
+        gicon = gicons[icon_in]
+        
+        location = Location.find_by_formatted_address(item.value)
+        @map.markers << Cartographer::Gmarker.new(:name=> "#{item.value.gsub(/\W/, "_")}", :marker_type => "Building",
+                          :position => [location.latitude,location.longitude],
+                          :info_window_url => "/geographics/show/#{location.id}",
+                          :icon => gicon)
+      end
     end
   end
   
@@ -23,11 +65,11 @@ class GeographicsController < ApplicationController
     @location_name = location.formatted_address unless location.nil?
     
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    response = rsolr.find :q => "geo_location:#{location.formatted_address}"
+    response = rsolr.find :q => "geo_location:\"#{location.formatted_address}\""
     
     @books = {}
     
-    @books_count = response.docs.count
+    @books_count = response.total
     
     response.docs.each do |doc|
       @books[doc["vol_jobid"]] = doc["bok_title"][0]
