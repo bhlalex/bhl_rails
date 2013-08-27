@@ -77,8 +77,10 @@ en:
   orange_pin: 'Orange Pin'
   red_pin: 'Red Pin'
   geo_titles: 'titles'
-  geo_titles_more: 'or more'
+  geo_titles_more: 'or more titles'
+  geo_show_all_titles: 'Show all'
   read_book_link: 'Read Book'
   browse_subject_page_header: 'Subjects'
   browse_author_page_header: 'Authors'
   browse_all: 'ALL'
+  
