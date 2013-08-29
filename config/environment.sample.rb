@@ -46,5 +46,7 @@ TAGGED_AUTHORS_COUNT = 4
 TAGGED_AFFILIATION_COUNT = 4
 TAGGED_GENRE_COUNT = 4
 
+DEFAULT_HIERARCHY_ID = 529
+
 # Initialize the rails application
 Bhl::Application.initialize!
