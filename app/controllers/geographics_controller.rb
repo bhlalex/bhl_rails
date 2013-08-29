@@ -1,6 +1,6 @@
 class GeographicsController < ApplicationController
   def index
-    @page_title = 'Geographics'
+    @page_title = I18n.t(:geographics_link)
     
     @map = Cartographer::Gmap.new('map')
     @map.zoom = 2

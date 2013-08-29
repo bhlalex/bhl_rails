@@ -13,6 +13,7 @@
     
     = stylesheet_link_tag 'main'
     = javascript_include_tag "application"
+    = javascript_include_tag controller_path, :media => "all"
   %body
     .header
       %a{ :href => "/" } 
@@ -36,7 +37,6 @@
         %a{ :href => "#" }
           = I18n.t(:subjects_link)
         |
-        %a{ :href => "#" }
-          = I18n.t(:names_link)
+        = link_to I18n.t(:names_link), {:controller => :names, :action => :index}
         |
         = link_to I18n.t(:geographics_link), {:controller => :geographics, :action => :index, :range => ""}
