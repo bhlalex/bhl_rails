@@ -1,2 +1,12 @@
-=@name
-=@id
+%center
+  %h3= @name  
+  = link_to I18n.t(:species_details), "http://www.eol.org/pages/#{@taxon_concept_id}", :target => "_blank"
+  %br
+  %br
+  - if @image
+    = image_tag @image, :width => 200
+  - else
+    = "No Image"
+  %br
+  %br
+  = link_to I18n.t(:name_found_in_books, :count => @books_count), "#" #TODO: add search link

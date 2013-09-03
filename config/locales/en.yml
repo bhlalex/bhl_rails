@@ -59,7 +59,6 @@ en:
   authors_caps: "AUTHORS"
   regional_affiliation_caps: "REGIONAL AFFILIATION"
   genre_caps: "GENRE"
-    
   brief: 'Brief'
   mods: 'MODS'
   bibtex: 'BibTex'
@@ -84,4 +83,9 @@ en:
   browse_author_page_header: 'Authors'
   browse_all: 'ALL'
   tree_of_life_title: 'Tree of Life'
-  
+  species_details: 'Species Details'
+  name_found_in_books:
+    zero:  "Found in no books"
+    one:   "Found in one book"
+    other: "Found in %{count} books"
+  select_species_for_details: "Select species on the left to view the details"
