@@ -50,5 +50,7 @@ DEFAULT_HIERARCHY_ID = 529
 
 EOL_CONTENT_PATH = "http://content60.eol.org/content/"
 
+CARTOGRAPHER_GMAP_VERSION = 3
+
 # Initialize the rails application
 Bhl::Application.initialize!
