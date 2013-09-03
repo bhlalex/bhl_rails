@@ -30,7 +30,7 @@ module BooksHelper
                   GROUP BY name_id 
                   ORDER BY count DESC    
                   LIMIT 0,#{MAX_NAMES_PER_BOOK}
-    ")  
+    ")
   end
   
   def book_names_count_format (vol_jobid)
