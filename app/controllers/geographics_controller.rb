@@ -52,10 +52,11 @@ class GeographicsController < ApplicationController
         gicon = gicons[icon_in]
         
         location = Location.find_by_formatted_address(item.value)
+        
         @map.markers << Cartographer::Gmarker.new(:name=> "#{item.value.gsub(/\W/, "_")}", :marker_type => "Building",
                           :position => [location.latitude,location.longitude],
                           :info_window_url => "/geographics/show/#{location.id}",
-                          :icon => gicon)
+                          :icon => gicon) unless location.nil?
       end
     end
   end
