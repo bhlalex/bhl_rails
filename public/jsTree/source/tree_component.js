@@ -1149,8 +1149,6 @@ function tree_component () {
 			//created to display the selected branch
 			if(document.getElementById('namedetail'))
 			{				
-				//alert(obj.children("a").parents("li")[0].getAttribute('taxon_concept_id'));//sara
-//				alert(obj.get(0).getAttribute('taxon_concept_id'));//sara
 				if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
 			  		xmlhttp = new XMLHttpRequest();
 			  	}
@@ -1162,8 +1160,8 @@ function tree_component () {
 			    		document.getElementById("namedetail").innerHTML = xmlhttp.responseText;
 			    	}
 			  	}
-				xmlhttp.open("GET","getname.php?tname=" + obj.get(0).getAttribute('taxon_concept'),true);
-				xmlhttp.send();			
+				//xmlhttp.open("GET","getname.php?tname=" + obj.get(0).getAttribute('taxon_concept'),true);
+				//xmlhttp.send();			
 			}
 			///////////////////////////////end Yosra/////////////////////////
 			// SCROLL SELECTED NODE INTO VIEW

@@ -1,5 +1,5 @@
 [
-- @hierarchies.each do |he|
+- @hierarchy_entries.each do |he|
   {attributes: {
   ="id: '#{he.id}', "
   ="taxon_concept: '#{he.clean_taxon_concept}'"
@@ -11,5 +11,5 @@
   ="data: '#{he.clean_taxon_concept}', "
   ="taxon_concept_id: '#{he.taxon_concept_id}'"
   }
-  = "," unless he == @hierarchies.last
+  = "," unless he == @hierarchy_entries.last
 ]
