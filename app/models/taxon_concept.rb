@@ -15,13 +15,13 @@ class TaxonConcept < EOLBase
     # first try to get exampler image
     tc = self.find_by_sql("select object_cache_url as image from taxon_concept_exemplar_images tcei 
                             inner join data_objects do on do.id=tcei.data_object_id and tcei.taxon_concept_id=#{id} 
-                           limit 1");
+                           limit 1")
     if tc.count >= 1
       return tc.first.image
     else
       tc = self.find_by_sql("select object_cache_url as image from top_concept_images tci 
                               inner join data_objects do on do.id=tci.data_object_id and tci.taxon_concept_id=#{id} 
-                             order by view_order limit 1");
+                             order by view_order limit 1")
       if tc.count >= 1
         return tc.first.image
       else
