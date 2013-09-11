@@ -1,6 +1,5 @@
 Bhl::Application.routes.draw do
   resources :books
-  resources :geographics
   resources :ubio
   resources :browse
   
@@ -12,7 +11,15 @@ Bhl::Application.routes.draw do
   
   match "/books/:id" => "books#show"
   match "/books/:id/:tab" => "books#show"
+  
+  get "geographics/index"
+  match "/geographics/show/:id" => "geographics#show"
+  match "/geographics/index/:range" => "geographics#index"
 
+  get "names/index"
+  get "names/show"
+  match "names/get_content/:id" => "names#get_content"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

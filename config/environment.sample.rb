@@ -36,7 +36,7 @@ THUMB_MAX_WIDTH = 100
 THUMB_MAX_HEIGHT = 100
 
 NAME_SPOTTER_IP = '127.0.0.1'
-NAME_SPOTTER_PORT = 8089 
+NAME_SPOTTER_PORT = 8089
 
 MAX_NAMES_PER_BOOK = 5
 
@@ -50,6 +50,12 @@ PAGE_SIZE = 10
 
 HLPRE = '<span class="highlight">'
 HLPOST = '</span>'
+
+DEFAULT_HIERARCHY_ID = 529
+
+EOL_CONTENT_PATH = "http://content60.eol.org/content/"
+
+CARTOGRAPHER_GMAP_VERSION = 3
 
 # Initialize the rails application
 Bhl::Application.initialize!

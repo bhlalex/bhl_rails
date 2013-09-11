@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
 
-gem 'mysql2'
+gem 'mysql2', '0.3.11'
 
 gem 'name-spotter'
 
@@ -11,7 +11,7 @@ gem 'name-spotter'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier',     '>= 1.0.3'
 end
 
 gem 'jquery-rails', '~> 3.0.1'
@@ -39,4 +39,5 @@ group :development, :test do
   gem 'autotest-growl'
   gem 'autotest-standalone'
   gem 'autotest-rails-pure'
+  gem 'rails-dev-boost'
 end

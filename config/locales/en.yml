@@ -59,7 +59,6 @@ en:
   authors_caps: "AUTHORS"
   regional_affiliation_caps: "REGIONAL AFFILIATION"
   genre_caps: "GENRE"
-    
   brief: 'Brief'
   mods: 'MODS'
   bibtex: 'BibTex'
@@ -79,10 +78,20 @@ en:
   orange_pin: 'Orange Pin'
   red_pin: 'Red Pin'
   geo_titles: 'titles'
-  geo_titles_more: 'or more'
+  geo_titles_more: 'or more titles'
+  geo_show_all_titles: 'Show all'
   read_book_link: 'Read Book'
   browse_subject_page_header: 'Subjects'
   browse_author_page_header: 'Authors'
   browse_all: 'ALL'
+
   list_view: 'List View'
   gallery_view: 'Gallery View'
+
+  tree_of_life_title: 'Tree of Life'
+  species_details: 'Species Details'
+  name_found_in_books:
+    zero:  "Found in no books"
+    one:   "Found in one book"
+    other: "Found in %{count} books"
+  select_species_for_details: "Select species on the left to view the details"

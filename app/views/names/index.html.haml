@@ -1,0 +1,25 @@
+%link{"rel" => "stylesheet", "href" => "/jsTree/source/tree_component.css", "type" => "text/css"}
+%script(type="text/javascript" src="/jsTree/source/_lib/css.js")
+%script(type="text/javascript" src="/jsTree/source/_lib/jquery.js")
+%script(type="text/javascript" src="/jsTree/source/_lib/jquery.listen.js")
+%script(type="text/javascript" src="/jsTree/source/tree_component.js")
+%script(type="text/javascript" src="/jsTree/source/_lib/sarissa.js")
+%script(type="text/javascript" src="/jsTree/source/_lib/sarissa_ieemu_xpath.js")
+%script(type="text/javascript" src="/jsTree/source/_lib/jquery.xslt.js")
+.page
+  .page_border
+    %table{:width => "100%", :border => "0", :style => "border-collapse:collapse", :cellspacing => "0", :cellpadding => "3"}
+      %tr
+        %td
+          %select{:name => 'hierarchy_id', :style => 'width: 100%', :class => 'hierarchy_id'}
+            - @entries.each do |entry|
+              %option{:value => entry.id, :selected => entry.id==DEFAULT_HIERARCHY_ID}= entry.label
+      %tr
+        %td
+          #h_container{:style => "height: 250px; width: 100%; overflow: auto", :class => "tree"}
+          
+.r_column
+  .box_1
+    #namedetail
+      %br
+      = I18n.t(:select_species_for_details)
