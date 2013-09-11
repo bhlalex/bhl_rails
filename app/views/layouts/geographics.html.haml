@@ -5,37 +5,36 @@
       %h1
         = @page_title
         #location_checkbox
-          %input#chk10{:type => "checkbox"}
+          =#%input#chk10{:type => "checkbox"}
+          = check_box_tag "check10", 10, @range.include?(10.to_s), {:class => "check10"}
           %img{:alt => I18n.t(:blue_pin), :title => I18n.t(:blue_pin), :src => "/images_#{I18n.locale}/map_pin_blue.png"}
           1-10 
           = I18n.t(:geo_titles)
           &nbsp;&nbsp;&nbsp;&nbsp;
           
-          %input#chk20{:type => "checkbox"}
+          = check_box_tag "check20", 20, @range.include?(20.to_s), {:class => "check20"}
           %img{:alt => I18n.t(:green_pin), :title => I18n.t(:green_pin), :src => "/images_#{I18n.locale}/map_pin_green.png"}
           11-20 
           = I18n.t(:geo_titles)
           &nbsp;&nbsp;&nbsp;&nbsp;
           
-          %input#chk30{:type => "checkbox"}
+          = check_box_tag "check30", 30, @range.include?(30.to_s), {:class => "check30"}
           %img{:alt => I18n.t(:yello_pin), :title => I18n.t(:yellow_pin), :src => "/images_#{I18n.locale}/map_pin_yellow.png"}
           21-30 
           = I18n.t(:geo_titles)
           &nbsp;&nbsp;&nbsp;&nbsp;
           
-          %input#chk40{:type => "checkbox"}
+          = check_box_tag "check40", 40, @range.include?(40.to_s), {:class => "check40"}
           %img{:alt => I18n.t(:orange_pin), :title => I18n.t(:orange_pin), :src => "/images_#{I18n.locale}/map_pin_orange.png"}
           31-40 
           = I18n.t(:geo_titles)
           &nbsp;&nbsp;&nbsp;&nbsp;
           
-          %input#chk50{:type => "checkbox"}
+          = check_box_tag "check50", 50, @range.include?(50.to_s), {:class => "check50"}
           %img{:alt => I18n.t(:red_pin), :title => I18n.t(:red_pin), :src => "/images_#{I18n.locale}/map_pin_red.png"}
           41  
-          = I18n.t(:geo_titles_more) 
-          = I18n.t(:geo_titles)
+          = I18n.t(:geo_titles_more)
           &nbsp;&nbsp;&nbsp;&nbsp;
-.contents
 .contents
   = yield
 = render :partial => "layouts/footer"

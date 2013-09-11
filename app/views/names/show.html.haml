@@ -1,0 +1,15 @@
+[
+- @hierarchy_entries.each do |he|
+  {attributes: {
+  ="id: '#{he.id}', "
+  ="taxon_concept: '#{he.clean_taxon_concept}'"
+  },
+  - if (he.siblings_count > 0)
+    = "state: 'closed',"
+  - else
+    = "state: 'leaf',"
+  ="data: '#{he.clean_taxon_concept}', "
+  ="taxon_concept_id: '#{he.taxon_concept_id}'"
+  }
+  = "," unless he == @hierarchy_entries.last
+]
