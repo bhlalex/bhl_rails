@@ -1,0 +1,33 @@
+:javascript  
+  function searchfnc(searchquery, e, field){
+    if(field == null || field == '')
+      return;
+    var type = e.options[e.selectedIndex].value;
+    if(searchquery == null || searchquery == ''){
+      searchquery = "_" + type + "=" + field;
+    }
+    else if(searchquery.toLowerCase().contains("_" + type.toLowerCase())){
+      searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
+    }
+    else{
+      searchquery += "&_" + type + "=" + field;
+    }
+    window.location = window.location.href.split('?')[0] + "?" + searchquery;
+  }
+%select#searchby
+  %option{:value => "ALL"} ALL
+  %option{:value => "title", :selected => true} Title
+  %option{:value => "language"} Language
+  %option{:value => "published_at"} Publish Place
+  %option{:value => "geo_location"} Regional Affiliation
+  %option{:value => "author"} Author
+  %option{:value => "name"} Tagged Species
+  %option{:value => "subject"} Genre
+  %option{:value => "content"} Content
+- jsquery = set_query_string(@query_array, true)
+- # TODO: add autocomplete to searchfield using jquery
+%input#searchfield{:size => "30", :style => "color: rgb(153, 153, 153);", :type => "text", 
+  :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value);return false;}"} 
+= link_to "Search" , "", :onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;" , 
+  :class => "search" 
+ 

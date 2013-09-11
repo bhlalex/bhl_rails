@@ -1,0 +1,15 @@
+= javascript_include_tag 'application'
+= javascript_include_tag 'jquery.tooltipster.min'
+:javascript  
+  $(document).ready(function() {
+      $('.tooltip').tooltipster({ interactive: true, fixedWidth: 280});            
+  });
+
+- names = fillResponseArrays(@doc, @highlight, 'name', @id)
+- names.each do |curname|
+  - name = Name.find_by_string(curname.gsub(HLPOST, '').gsub(HLPRE, ''))
+  -if (name != nil)     
+    &bull;
+    %a.tooltip{:title =>name_tip(name.id, name.string, name.eol_thumb, name.eol_page_id), :href => "#"}  
+      = item_count_format('name', name.string)
+= book_names_count_format(@id)

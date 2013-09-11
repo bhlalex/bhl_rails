@@ -1,1 +1,16 @@
-Book Index
+- @response['response']['docs'].each do |doc|
+  - @id = doc['vol_jobid']
+  - @title = doc['bok_title'][0]
+  - @vol = Volume.find_by_job_id(doc['vol_jobid'])
+  - @highlight = @response['highlighting'][@id]
+  - thumb = ''
+  - if(@vol[:get_thumbnail_fail] == 0)
+    - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+  - @doc = doc
+  - if(@view == 'gallery')                                      
+    = render :partial => "books/galleryresult"
+  - else
+    = render :partial => "books/listresult"
+- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))                          
+  - @pages = adjustPaging(@page, @lastPage)              
+  = render :partial => "books/paging"

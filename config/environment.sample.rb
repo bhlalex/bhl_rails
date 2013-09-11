@@ -46,7 +46,10 @@ TAGGED_AUTHORS_COUNT = 4
 TAGGED_AFFILIATION_COUNT = 4
 TAGGED_GENRE_COUNT = 4
 
+PAGE_SIZE = 10
 
+HLPRE = '<span class="highlight">'
+HLPOST = '</span>'
 
 # Initialize the rails application
 Bhl::Application.initialize!

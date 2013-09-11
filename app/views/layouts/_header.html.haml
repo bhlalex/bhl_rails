@@ -30,10 +30,10 @@
           = link_to I18n.t(:browse_all_link), {:controller => :books, :action => :index}
         |
         %a{ :href => "#" }
-          = I18n.t(:authors_link)
+          = link_to I18n.t(:authors_link), {:controller => :browse, :action => :show, :type => 'authors', :char => 'all'}
         |
         %a{ :href => "#" }
-          = I18n.t(:subjects_link)
+          = link_to I18n.t(:subjects_link), {:controller => :browse, :action => :show, :type => 'subjects', :char => 'all'}
         |
         %a{ :href => "#" }
           = I18n.t(:names_link)

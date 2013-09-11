@@ -2,8 +2,25 @@ require 'jquery-rails'
 require "rexml/document"
 
 class BooksController < ApplicationController
+  include BooksHelper
   def index
-    @search_criteria = "*:*"
+    @page_title = "Search Results: "
+    @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [], 
+                    'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
+    @selectoptions = {"ALL" => "ALL", I18n.t(:book_title_title) => "title", I18n.t(:book_language_title) => "language", 
+      I18n.t(:book_publish_place_title) => "published_at", I18n.t(:book_location_title) => "geo_location", 
+      I18n.t(:book_author_title) => "author", I18n.t(:book_name_title) => "name", I18n.t(:book_subject_title) => "subject", 
+      I18n.t(:book_title_title) => "content"}
+    @page = params[:page] ? params[:page].to_i : 1
+    @view = params[:view] ? params[:view] : ''
+    @lang = 'test'
+    @url_params = params
+  
+    @query_array = set_query_array(@query_array, params)
+    @query = set_query_string(@query_array, false)
+    
+    @response = search_facet_highlight(@query, @page)
+    @lastPage = @response['response']['numFound'] ? (@response['response']['numFound']/PAGE_SIZE).ceil : 0
   end
   
   def show
@@ -18,7 +35,7 @@ class BooksController < ApplicationController
       #Hash types holds some of the metadata "types" of a book 
       #(in particularly, the types that are saved in arrays in solr indexing)
       @types = {:author => I18n.t(:book_author_title), 
-                :geo_location => I18n.t(:book_location_title),
+                :geo_location => I18n.t(:book_publish_place_title),
                 :subject => I18n.t(:book_subject_title),
               }      
     elsif @current == 'mods'

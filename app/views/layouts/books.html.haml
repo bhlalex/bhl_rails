@@ -3,12 +3,21 @@
   .pagetitlecontent
     .pagetitleborder
       %h1
-        = @page_title
+        .searchtitle
+          Search by: 
+          =render :partial => "books/fields"
+        .searchfilter
+          =render :partial => "books/breadcrumb"
+        .clear
 .contents
   .r_column
     =render :partial => "books/right_column"
   .page
-    .page_border
-      %br
-      = yield
+    - if (@response != '' && @response['response']['numFound'] > 0)
+      =render :partial => "books/numfound"
+      .page_border
+        %br
+        = yield
+    - else
+      No Books Found
 = render :partial => "layouts/footer"
