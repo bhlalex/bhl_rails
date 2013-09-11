@@ -1,10 +1,15 @@
 module BooksHelper
-  def facet_list(search_query, field)
-    solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
-    response = solr.find :q => search_query, :facet => true, 'facet.field' => field, 'rows' => 0
+  def facet_list(response, field)
     list = []
-    response.facets.first.items.each do |item|
-      list << {:name => item.value, :count => item.hits}
+    response.facets.each do |facet|
+      if facet.name == field
+        facet.items.each do |item|
+          if (item.hits) > 0
+            list << {:name => item.value, :count => item.hits}
+          end
+        end
+        break
+      end
     end
     list
   end
@@ -67,5 +72,214 @@ module BooksHelper
                     </ul>
                   </div>"    
     title_tip
+  end
+  
+  def set_query_array(query_array, params)
+    query_array.each do  |key, value|
+      query_array[key] = params["_#{key}".to_sym] ? params["_#{key}".to_sym].split(' _AND ') : ''
+    end
+    query_array
+  end
+  
+  def searchAllQuery(query_array)
+    query = ''
+    string = ''
+    query_array['ALL'].each do |value|
+      query += query == '' ? "(bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} " +
+          "OR geo_location:#{value} OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) " 
+          : " AND (bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} OR geo_location:#{value} " + 
+            "OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) "
+    end
+    query
+  end
+  
+  def set_query_string(query_array, urlOrSolr)
+    query = ''
+    emptyQuery = true
+    query_array.each do |key, value|
+      if(value != '')
+        emptyQuery = false
+        break
+      end
+    end
+    if(emptyQuery && !urlOrSolr)
+      query = "*:*"
+    else
+      if(query_array['ALL'] != '')
+        if(urlOrSolr)
+          query = "_ALL="
+          count = 0
+          query_array['ALL'].each do |value|
+            query += count == 0 ? value : " _AND #{value} "
+            count += 1
+          end
+        else
+          query = searchAllQuery(query_array)         
+        end
+      end
+      query_array.each do |key, value|
+        if(key == 'ALL')
+          next         
+        end
+        if(key == 'date' && value != '')
+          if(!urlOrSolr)
+            dates = value[0].split(' - ')
+            from = dates[0]
+            to = dates[1]
+            query += query == '' ? '' : ' AND '
+            query += "bok_start_date:[#{from}-01-01T00:00:00Z TO #{to}-01-01T00:00:00Z]"
+          else
+            query += query == '' ? '' : '&'
+            query += " _date=#{value[0]}"
+          end
+          continue
+        end
+        if(value != '')
+          if(urlOrSolr)  #preparing url string
+            tmp = "_#{key}"
+            query += query == '' ? "#{tmp}=" : "&#{tmp}="
+          else  #preparing solr query
+            tmp = (key == 'title' || key == 'language') ? "bok_#{key}" : "#{key}"
+            query += query == '' ? "#{tmp}:" : " AND #{tmp}:"
+          end
+          count = 0
+          value.each do |val|
+            query += count == 0 ? (urlOrSolr ? val.gsub('/\s\s+/', ' ') : '(' + val.gsub('/\s\s+/', ' ').gsub(' ',' AND '))
+            : urlOrSolr ? " _AND " + val.gsub('/\s\s+/', ' ') : " AND " + val.gsub('/\s\s+/', ' ').gsub(' ',' AND ')
+            count += 1
+          end
+          query += !urlOrSolr ? ')' : ''
+        end
+      end     
+    end
+    query
+  end
+  
+  def search_facet_highlight(query, page)
+    facet_array = ['author_ss', 'bok_language_s', 'subject_ss', 'published_at_ss', 'geo_location_ss' ,'name_ss']
+    hl_array = ['bok_title','bok_language','name','published_at', 'geo_location', 'subject','author']
+    return_field = "vol_jobid,bok_title,name,author,published_at"
+    limit = PAGE_SIZE
+    start = (page > 1) ? (page - 1) * limit : 0
+    solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
+    response = solr.find :q => query, :facet => true, :fl => return_field, :start => start, :limit => limit,
+      :hl => true, 'hl.fl' => hl_array, 'hl.simple.pre' => HLPRE, 'hl.simple.post'=> HLPOST, 'hl.requireFieldMatch'=> true,  #only highlight as the query suggest
+      #'facet.date'=> 'bok_start_date', 'facet.date.start' =>'1500-01-01T00:00:00Z',
+      #'facet.date.end' => '2020-01-01T00:00:00Z', 'facet.date.gap' => "+20YEAR",
+      'facet.field' => facet_array, 'facet.mincount' => "1", 'facet.limit' => "4"
+  end
+  
+  def addFacetSearch(params, type, field)
+    tmp_params = params.clone
+    if (tmp_params["_#{type}".to_sym] != nil && tmp_params["_#{type}".to_sym] != '')
+      tmp_params["_#{type}".to_sym] = field + " _AND " + tmp_params["_#{type}".to_sym]
+    else
+      tmp_params["_#{type}".to_sym] = field
+    end
+    tmp_params[:controller] = nil
+    tmp_params[:action] = nil
+    tmp_params[:page] = nil
+    tmp_params
+  end
+  
+  def removeBreadCrumb(params, type, field)
+    tmp_params = params.clone
+    if (tmp_params["_#{type}".to_sym].include?("#{field} _AND "))
+      tmp_params["_#{type}".to_sym] = tmp_params["_#{type}".to_sym].gsub("#{field} _AND ", '')
+    elsif (tmp_params["_#{type}".to_sym].include?(" _AND #{field}"))
+      tmp_params["_#{type}".to_sym] = tmp_params["_#{type}".to_sym].gsub(" _AND #{field}", '')
+    elsif (tmp_params["_#{type}".to_sym] == field)
+      tmp_params.delete("_#{type}".to_sym)      
+    end
+    tmp_params[:controller] = nil
+    tmp_params[:action] = nil
+    tmp_params[:page] = nil
+    tmp_params
+  end
+  
+  def fillResponseArrays(doc, highlight, type, id)
+    counter = 1
+    array = []
+    if(doc[type].length > 1)
+      doc[type].each do |term|
+        if(counter > MAX_NAMES_PER_BOOK)
+          break
+        else
+          array << term
+          counter += 1
+        end
+      end
+    else
+      array << doc[type]
+    end
+    
+    if (highlight != nil && highlight[type] != nil)
+      highlight[type].each do |hl_term|
+        key = array.detect(hl_term.gsub(HLPOST, '').gsub(HLPRE, ''))
+        if(!key.is_i)
+          array << hl_term
+        else
+          array[key] = hl_term
+        end
+      end
+    end
+    array
+  end
+  
+  def searchParam(params)
+    tmp_params = params.clone
+    if (tmp_params[:books] != nil && tmp_params[:books]["searchby"] != nil)
+      tmp_params[:books].delete("searchby")
+    end
+    tmp_params.delete("utf8")
+    tmp_params
+  end
+  def search_view(params, view)
+    params[:view] = view
+    params[:controller] = nil
+    params[:action] = nil
+    params
+  end
+  
+  def adjustPaging (page, lastPage)
+    pages = []
+    count = 0
+    pageCountDisplay = 3
+    # 1 2 <3> 4 5
+    if(page - pageCountDisplay > 0 && page + pageCountDisplay <= lastPage)
+      i = page - pageCountDisplay + 1
+      while count < pageCountDisplay * 2 do #for ($i = $page - $pageCountDisplay + 1; $count < $pageCountDisplay * 2; $i++)
+        pages << i
+        count += 1
+        i += 1
+      end
+    elsif(page - pageCountDisplay <= 0 && page + pageCountDisplay > lastPage) # <1> 2
+      i = 2
+      while i <= lastPage - 1 do #for($i = 2; $i <= $lastPage - 1; $i++)
+        pages << i
+        i += 1
+      end
+    elsif(page - pageCountDisplay <= 0 && page + pageCountDisplay <= lastPage)# <1> 2 3 4 5
+      i = 2
+      while i < pageCountDisplay * 2 && i < lastPage do #for ($i = 2; $i < $pageCountDisplay * 2 && $i < $lastPage; $i++)
+        pages << i
+        i += 1
+      end
+    elsif(page - pageCountDisplay >= 0 && page + pageCountDisplay > lastPage) # 2 3 4 5 <6>
+      i = page - pageCountDisplay + 1
+      while i <= lastPage - 1 do # for ($i = $page - $pageCountDisplay + 1; $i <= $lastPage-1; $i++)
+        pages << i
+        i += 1
+      end
+    end
+    pages
+  end
+  def generateHRef(pageNumber, params)
+    tmp_params = params.clone
+    controller = params[:controller]
+    tmp_params[:controller] = nil
+    tmp_params[:page] = pageNumber
+    tmp_params[:action] = nil
+    tmp_params
   end
 end
