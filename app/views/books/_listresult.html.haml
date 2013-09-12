@@ -10,7 +10,7 @@
     {:controller => :books, :action => :show, :id => @vol[:job_id]}
   %h4
     - # TODO: Add highlights
-    = link_to @title , 
+    = link_to @title.html_safe , 
     {:controller => :books, :action => :show, :id => @vol[:job_id]}
   .description
     - if(@doc['author'] != nil)

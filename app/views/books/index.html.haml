@@ -3,8 +3,8 @@
   - @vol = Volume.find_by_job_id(doc['vol_jobid'])
   - if (@vol != nil) #check with Kamal why there is a "Test book in solr"
     - @highlight = @response['highlighting'][@id.to_s]
-    - @title = doc['bok_title'][0]
-    - #@title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
+    - #@title = doc['bok_title'][0]
+    - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
     - thumb = ''
     - if(@vol[:get_thumbnail_fail] == 0)
       - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
