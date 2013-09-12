@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130526105036) do
+ActiveRecord::Schema.define(:version => 20130909071629) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -209,14 +209,17 @@ ActiveRecord::Schema.define(:version => 20130526105036) do
   add_index "user_books", ["user_id"], :name => "index_user_books_on_user_id"
 
   create_table "users", :force => true do |t|
-    t.string   "username",                      :null => false
-    t.string   "password",                      :null => false
+    t.string   "username",                             :null => false
+    t.string   "password",                             :null => false
     t.string   "real_name"
-    t.string   "email",                         :null => false
-    t.boolean  "active",     :default => false
-    t.string   "guid",                          :null => false
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.string   "email",                                :null => false
+    t.boolean  "active",            :default => false
+    t.string   "guid",                                 :null => false
+    t.datetime "created_at",                           :null => false
+    t.datetime "updated_at",                           :null => false
+    t.string   "verification_code"
+    t.datetime "verified_date"
+    t.datetime "last_login"
   end
 
   add_index "users", ["guid"], :name => "index_users_on_guid"

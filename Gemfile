@@ -15,6 +15,7 @@ group :assets do
 end
 
 gem 'jquery-rails', '~> 3.0.1'
+gem "jquery-ui-rails"
 gem 'uuidtools'
 gem 'rsolr'
 gem 'rsolr-ext'
@@ -22,6 +23,8 @@ gem 'ImageResize'
 gem 'i18n'
 gem 'haml'
 gem 'tabs_on_rails'
+gem 'recaptcha'
+gem 'best_in_place'
 
 group :development, :test do
   gem 'rspec-rails', '~>2.0'
@@ -40,4 +43,5 @@ group :development, :test do
   gem 'autotest-standalone'
   gem 'autotest-rails-pure'
   gem 'rails-dev-boost'
+  gem 'thin' #Instead of webrick
 end

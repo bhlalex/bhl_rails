@@ -6,10 +6,6 @@
         = @page_title
 = render :partial => "layouts/flash", object: flash
 .contents
-  .r_column
-    =render :partial => "books/right_column"
-  .page
-    .page_border
-      %br
-      = yield
+  .full_page
+    = yield
 = render :partial => "layouts/footer"

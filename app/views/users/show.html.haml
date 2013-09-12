@@ -1,0 +1,9 @@
+= I18n.t(:real_name)
+= ": "
+= best_in_place_if @can_edit, @user, :real_name, :type => :input
+%br
+= I18n.t(:member_since)
+= @user.created_at.to_s
+%br
+= I18n.t(:last_login)
+= @user.last_login.to_s
