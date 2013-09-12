@@ -1,0 +1,35 @@
+.form
+  = form_for @user, :builder => FormHelper::BHLFormBuilder do |f|
+    = validation_errors_for(@user)
+    %ul
+      %li
+        = f.label :username, raw(t('username')), :class => 'required'
+      %li
+        = f.text_field :username, { :maxlength => 32 }
+      %li
+        = f.label :pasword, raw(t('password')), :class => 'required'
+      %li
+        = f.password_field :password, { :maxlength => 32 }
+      %li
+        = f.label :confirm_password, raw(t('confirm_password')), :class => 'required'
+      %li
+        = f.password_field :password_confirmation, { :maxlength => 32 }
+      %li
+        = f.label :email, raw(t('email')), :class => 'required'
+      %li
+        = f.text_field :email, { :maxlength => 100 }
+      %li
+        = f.label :confirm_email, raw(t('confirm_email')), :class => 'required'
+      %li
+        = f.text_field :email_confirmation, { :maxlength => 100 }
+      %li
+        = f.label :real_name, raw(t('real_name')), :class => 'required'
+      %li
+        = f.text_field :real_name, { :maxlength => 150 }
+      %li
+        = f.label :recaptcha, raw(t('recaptcha')), :class => 'required'
+      %li
+        = recaptcha_tags(display: {theme: 'clean'})
+    %fieldset
+      = f.submit I18n.t('submit_buton'), :class => "btn"
+      = f.submit I18n.t('clear_button'), :class => "btn", :type => "reset"

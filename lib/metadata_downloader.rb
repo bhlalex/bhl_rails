@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + "/bhl"
+require File.dirname(__FILE__) + "/bhl/downloader.rb"
 
 module DAR
   class MetadataDownloader

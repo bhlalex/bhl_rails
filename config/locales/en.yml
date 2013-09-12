@@ -89,3 +89,83 @@ en:
     one:   "Found in one book"
     other: "Found in %{count} books"
   select_species_for_details: "Select species on the left to view the details"
+  username: "Username"
+  sign_up: "Sign up"
+  submit_buton: "Submit"
+  clear_button: "Clear"
+  password: "Password"
+  confirm_password: "Password again"
+  email: "Email address"
+  confirm_email: "Email address again"
+  real_name: "Full name"
+  recaptcha: "Type in the two words you see below"
+  form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
+  welcome_message: "Welcome %{real_name}"
+  welcome_guest: "Welcome Guest"
+  registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
+  username_taken: "'%{name}' is already taken"
+  email_taken: "'%{email}' is already taken"
+  member_since: "Member since"
+  last_login: "Last login"
+  logout_link: "Logout"
+  press_esc_to_close: "Press Esc to close"
+  forgot_password_link: "Forgot your password?"
+  join_bhl: "Join BHL now"
+  already_member: "Already a member?"
+  sign_in: "Sign in"
+  activation_failed: "Activation failed."
+  account_already_active: "This is account is already active."
+  account_activated: "This account is activated. Thank you for joining BHL."
+  
+  notifier:
+    user_verification:
+      subject: "Please verify your request for an BHL Egypt"
+      message: "Thanks for registering with the BHL Egypt. The following link will verify that you wish to complete your registration and activate your account:\n\n#{@verification_url}"
+  
+  date:
+    formats:
+      default: "%d/%m/%Y - %I:%M %p"
+      short: "%b %d"
+      long: "%B %d, %Y"
+      short_no_time: "%m/%d/%Y"      
+
+  activerecord:
+    errors:
+      format: "%{attribute} %{message}"
+      template:
+        header:
+          one: "%{count} validation error found"
+          other: "%{count} validation errors found"
+        body: "The following fields failed validation:"
+      messages:
+        taken: "has already been taken"
+        record_invalid: "Validation failed: %{errors}"
+        invalid: "is invalid"
+        confirmation: "doesn't match confirmation"
+        accepted: "must be accepted"
+        empty: "can't be empty"
+        blank: "can't be blank"
+        too_long:
+          one: "is too long (maximum is %{count} character)"
+          other: "is too long (maximum is %{count} characters)"
+        too_short:
+          one: "is too short (minimum is %{count} character)"
+          other: "is too short (minimum is %{count} characters)"
+        wrong_length: "is the wrong length (should be %{count} characters)"
+        not_a_number: "is not a number"
+        not_an_integer: "must be an integer"
+        greater_than:
+          one: "must be greater than %{count}"
+          other: "must be greater than %{count}"
+        greater_than_or_equal_to: "must be greater than or equal to %{count}"
+        equal_to: "must be equal to %{count}"
+        less_than:
+          one: "must be less than %{count}"
+          other: "must be less than %{count}"
+        less_than_or_equal_to: "must be less than or equal to %{count}"
+        odd: "must be odd"
+        even: "must be even"
+        inaccessible: "is inaccessible"
+        wrong_type: "is the wrong type"
+      full_messages:
+        format: "%{attribute} %{message}"

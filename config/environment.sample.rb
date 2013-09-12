@@ -50,7 +50,15 @@ DEFAULT_HIERARCHY_ID = 529
 
 EOL_CONTENT_PATH = "http://content60.eol.org/content/"
 
+NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
+
 CARTOGRAPHER_GMAP_VERSION = 3
 
 # Initialize the rails application
 Bhl::Application.initialize!
+
+Recaptcha.configure do |config|
+  config.public_key  = ''
+  config.private_key = ''
+  #config.proxy = 'http://myproxy.com.au:8080'
+end
