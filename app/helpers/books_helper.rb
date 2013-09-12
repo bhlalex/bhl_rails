@@ -24,6 +24,10 @@ module BooksHelper
     format = item + ' (' + item_count(type, item).to_s + ')'    
   end
   
+  def item_count_format_highlight (type, item, display)
+    format = display.html_safe + ' (' + item_count(type, item).to_s + ')'    
+  end
+  
   def book_names (vol_jobid)
     names = Name.find_by_sql("
       SELECT names.*, COUNT(page_names.name_id) as count
@@ -215,8 +219,8 @@ module BooksHelper
     
     if (highlight != nil && highlight[type] != nil)
       highlight[type].each do |hl_term|
-        key = array.detect(hl_term.gsub(HLPOST, '').gsub(HLPRE, ''))
-        if(!key.is_i)
+        key = array.index(hl_term.gsub(HLPRE, '').gsub(HLPOST, ''))
+        if(key == nil)
           array << hl_term
         else
           array[key] = hl_term
