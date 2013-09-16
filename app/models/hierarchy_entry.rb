@@ -14,6 +14,15 @@ class HierarchyEntry < EOLBase
                           where hierarchy_id=#{hierarchy_id} and parent_id=#{parent_id} and published=1 order by taxon_concept;")
   end
   
+  def self.find_taxon(id)
+    self.find_by_sql("select string as taxon_concept, 
+                            (select count(*) from hierarchy_entries as h2 where h2.parent_id=h1.id) as siblings_count, 
+                            h1.taxon_concept_id
+                          from hierarchy_entries h1
+                            left outer join names on names.id=name_id
+                          where published=1 and h1.id=#{id};").first
+  end
+  
   def clean_taxon_concept
     taxon_concept.gsub("\n"," ").gsub("\'", "\\\'")
   end

@@ -8,7 +8,7 @@ class TaxonConcept < EOLBase
                             inner join taxon_concept_names tcn 
                               on tcn.name_id=names.id and taxon_concept_id=#{id} and  preferred=1 and language_id=0
                             limit 1")
-    return tc.first.name
+    tc.count >= 1 ? tc.first.name : ""
   end
   
   def self.get_image(id)

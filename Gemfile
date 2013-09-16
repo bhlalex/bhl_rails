@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
 
-gem 'mysql2', '0.3.11'
+gem 'mysql2', '0.3.13'
 
 gem 'name-spotter'
 
@@ -43,5 +43,4 @@ group :development, :test do
   gem 'autotest-standalone'
   gem 'autotest-rails-pure'
   gem 'rails-dev-boost'
-  gem 'thin' #Instead of webrick
 end
