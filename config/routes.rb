@@ -1,13 +1,14 @@
 Bhl::Application.routes.draw do
   resources :books
-  resources :ubio, only[:index]
+  resources :ubio#, only[:index]
   resources :browse
   
-  resources :users, only: [:new, :create, :index, :update, :edit, :show]
+  resources :users#, only: [:new, :create, :index, :update, :edit, :show]
   match "users/logout" => "users#logout"
   match "users/login" => "users#login"
   match "users/activate/:guid/:activation_code" => "users#activate"
   match "users/forgot_password" => "users#forgot_password"
+  match "users/change_password" => "users#change_password"
   match "users/my_account" => "users#my_account"
   
   # remove when how page is ready
