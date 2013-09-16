@@ -4,6 +4,7 @@ require "rexml/document"
 class BooksController < ApplicationController
   include BooksHelper
   def index
+    
     @page_title = "Search Results: "
     @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [], 
                     'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
