@@ -1,3 +1,5 @@
+require "ruby-debug"
+
 Bhl::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
@@ -34,4 +36,11 @@ Bhl::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  config.logger = Logger.new(STDOUT)
+  
+  ActiveRecord::Base.logger = Logger.new(STDOUT)
+  ActionController::Base.logger = Logger.new(STDOUT)
+  
+  Debugger.start
 end

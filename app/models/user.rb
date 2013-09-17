@@ -56,6 +56,11 @@ class User < ActiveRecord::Base
     end
   end
   
+  def self.authenticate(username, password)
+    return nil if username.nil? || password.nil?
+    self.find_by_username_and_password(username, self.hash_password(password))
+  end
+  
   private
 
   def generate_uuid
