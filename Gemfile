@@ -43,4 +43,5 @@ group :development, :test do
   gem 'autotest-standalone'
   gem 'autotest-rails-pure'
   gem 'rails-dev-boost'
+  gem 'debugger'
 end

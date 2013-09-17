@@ -115,13 +115,18 @@ en:
   sign_in: "Sign in"
   activation_failed: "Activation failed."
   account_already_active: "This is account is already active."
-  account_activated: "This account is activated. Thank you for joining BHL."
+  account_activated: "This account (%{real_name}) is activated. Thank you for joining BHL Egypt."
+  sign_in_successful_notice: "Login successful."
+  sign_in_unsuccessful_error: "Login failed. Invalid username or password."
   
   notifier:
     user_verification:
-      subject: "Please verify your request for an BHL Egypt"
+      subject: "Please verify your request for BHL Egypt"
       message: "Thanks for registering with the BHL Egypt. The following link will verify that you wish to complete your registration and activate your account:\n\n#{@verification_url}"
-  
+    user_activated:
+      subject: "Your BHL account has been activated"
+      message: "Welcome to the BHL Egypt and thank you for registering!"
+    
   date:
     formats:
       default: "%d/%m/%Y - %I:%M %p"

@@ -13,14 +13,15 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.valid? && verify_recaptcha
       @user.save
-      log_in(@user)
+      url = "#{request.host}:#{request.port}/users/activate/#{@user.guid}/#{@user.verification_code}"
       Notifier.user_verification(@user, url)
+      log_in(@user)
       flash.now[:notice] = I18n.t(:registration_welcome_message, :real_name => @user.real_name)
       flash.keep
       redirect_to :controller => :users, :action => :show, :id => @user.id
     else
       @page_title = I18n.t(:sign_up)
-      @user.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha 
+      @user.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha
       render :action => :new
     end
   end
@@ -51,9 +52,10 @@ class UsersController < ApplicationController
       @user.save
       flash.now[:notice] = I18n.t(:account_activated, :real_name => @user.real_name)
       flash.keep
+      Notifier.user_activated(@user)
       if is_loggged_in?
         log_out
-        log_in(@user) # to make sure evenrything is loaded properly
+        log_in(@user) # to make sure everything is loaded properly
       end
       redirect_to root_path
     end
@@ -72,12 +74,37 @@ class UsersController < ApplicationController
   end
   
   def logout
+    puts "123"
     log_out
     redirect_to root_path
   end
   
   def login
+    if is_loggged_in?
+      return redirect_to :controller => :users, :action => :show, :id => session[:user_id]
+    end
+    @page_title = I18n.t(:sign_in)
+  end
+  
+  def validate
+    username = params[:user][:username]
+    password = params[:user][:password]
+    @user = User.authenticate(username, password)
     
+    if @user.nil?
+      flash.now[:error] = I18n.t(:sign_in_unsuccessful_error)
+      flash.keep
+      redirect_to :controller => :users, :action => :login
+    else
+      log_in(@user)
+      flash.now[:notice] = I18n.t(:sign_in_successful_notice)
+      flash.keep
+      if params[:return_to].blank?
+        redirect_to :controller => :users, :action => :show, :id => @user.id
+      else
+        redirect_to params[:return_to]
+      end
+    end
   end
   
   def update

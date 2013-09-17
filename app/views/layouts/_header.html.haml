@@ -28,10 +28,10 @@
         .username
           %ul
             %li
-              = link_to I18n.t(:join_bhl), {:controller => :users, :action => :new}
+              = link_to I18n.t(:join_bhl), new_user_path
             %li
               = I18n.t :already_member
-              = link_to I18n.t(:sign_in), {:controller => :users, :action => :login}
+              = link_to I18n.t(:sign_in), users_login_path
       %br
       .topmenu
         = link_to I18n.t(:my_account_link), {:controller => :users, :action => :my_account}
