@@ -4,14 +4,17 @@ Bhl::Application.routes.draw do
   resources :browse
   
   resources :users, only: [:new, :create, :update, :edit]
-  match "users/logout" => "users#logout"
-  match "users/login" => "users#login"
+  get   "users/logout"
+  get   "users/login"
   match "users/activate/:guid/:activation_code" => "users#activate"
-  match "users/forgot_password" => "users#forgot_password"
-  match "users/change_password" => "users#change_password"
-  match "users/my_account" => "users#my_account"
-  post "users/validate" => 'users#validate'
+  get   "users/forgot_password"
+  get   "users/change_password"
+  get   "users/my_account"
+  post  "users/validate"
   match "users/show/:id" => "users#show"
+  post  "users/recover_password"
+  match "users/reset_password/:guid/:activation_code" => "users#reset_password"
+  post  "users/reset_password_action"
   
   # remove when how page is ready
   root :to => 'pages#about'

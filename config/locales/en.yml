@@ -110,6 +110,7 @@ en:
   logout_link: "Logout"
   press_esc_to_close: "Press Esc to close"
   forgot_password_link: "Forgot your password?"
+  forgot_password_title: "Forgot your password?"
   join_bhl: "Join BHL now"
   already_member: "Already a member?"
   sign_in: "Sign in"
@@ -118,15 +119,24 @@ en:
   account_activated: "This account (%{real_name}) is activated. Thank you for joining BHL Egypt."
   sign_in_successful_notice: "Login successful."
   sign_in_unsuccessful_error: "Login failed. Invalid username or password."
+  forget_password_message: "Enter the email address associated with your BHL account."
+  user_not_found_by_email_address: "A BHL account with that email address (%{email}) could not be found."
+  recover_password_success: "Account recovery email has been sent with further instructions"
+  reset_password: "Reset password"
+  reset_password_failed: "Reset password failed."
+  reset_password_success: "Your password has been reset successfully."
   
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
-      message: "Thanks for registering with the BHL Egypt. The following link will verify that you wish to complete your registration and activate your account:\n\n#{@verification_url}"
+      message: "Thanks for registering with the BHL Egypt. The following link will verify that you wish to complete your registration and activate your account:<br><br>%{@verification_url}"
     user_activated:
       subject: "Your BHL account has been activated"
       message: "Welcome to the BHL Egypt and thank you for registering!"
-    
+    user_recover_account:
+      subject: "Recover your BHL account"
+      message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.<br><br>The following link provides a one time log in to allow you to change your password:<br><br>%{reset_password_url}"
+      
   date:
     formats:
       default: "%d/%m/%Y - %I:%M %p"

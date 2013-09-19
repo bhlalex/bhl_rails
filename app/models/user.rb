@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
-  attr_accessible :active, :email, :guid, :password, :real_name, :username, :verification_code, :verified_date, :created_at, :last_login
+  attr_accessible :active, :email, :guid, :password, :real_name, :username, 
+                  :verification_code, :verified_date, :created_at, :last_login
   has_many :annotations
   has_many :queries
   has_many :books, :through => :users_books
@@ -12,25 +13,28 @@ class User < ActiveRecord::Base
    
   @email_format_re = %r{^(?:[_\+a-z0-9-]+)(\.[_\+a-z0-9-]+)*@([a-z0-9-]+)(\.[a-zA-Z0-9\-\.]+)*(\.[a-z]{2,4})$}i
   
-  # Validators
+  # Validations
   validates :password, :presence => true,
                        :confirmation => true,
                        :length => {:within => 4..16},
-                       :on => :create
+                       :on => :create,
+                       :on => :create && :update
   validates :email, :presence => true,
                     :confirmation => true,
-                    :format => @email_format_re
+                    :format => @email_format_re,
+                    :on => :create && :update
   validates :username, :presence => true,
-                       :length => {:within => 4..16}
-  validates_presence_of :real_name
-  validate :ensure_unique_username
-  validate :ensure_unique_email
+                       :length => {:within => 4..16},
+                       :on => :create && :update
+  validates_presence_of :real_name, :on => :create && :update
+  validate :ensure_unique_username, :on => :create && :update
+  validate :ensure_unique_email, :on => :create && :update
   
   # encrypt password in the database
   before_create :encrypt_password
   before_create :generate_activation_code
   
-  
+  before_update :update_password
   
   
   
@@ -61,6 +65,11 @@ class User < ActiveRecord::Base
     self.find_by_username_and_password(username, self.hash_password(password))
   end
   
+  def change_activation_code
+    self.verification_code = generate_activation_code
+    self.save
+  end
+  
   private
 
   def generate_uuid
@@ -68,7 +77,7 @@ class User < ActiveRecord::Base
   end
   
   def generate_activation_code
-    characters = ('a'..'z').to_a + ('0'..'9').to_a    
+    characters = ('a'..'z').to_a + ('0'..'9').to_a
     self.verification_code = SecureRandom.random_bytes(20).each_char.map do |char|
       characters[(char.ord % characters.length)]
     end.join
@@ -81,5 +90,9 @@ class User < ActiveRecord::Base
     else
       return true # encryption not required but we don't want to halt the process
     end
+  end
+  
+  def update_password
+    encrypt_password if password_changed?
   end
 end
