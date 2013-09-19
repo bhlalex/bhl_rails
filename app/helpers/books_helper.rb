@@ -24,6 +24,7 @@ module BooksHelper
     format = item + ' (' + item_count(type, item).to_s + ')'    
   end
   
+  #for displaying highlighted items with count resulted from solr search
   def item_count_format_highlight (type, item, display)
     format = display.html_safe + ' (' + item_count(type, item).to_s + ')'    
   end
@@ -78,6 +79,22 @@ module BooksHelper
     title_tip
   end
   
+  #fixing books page url to allow reading the params sent by Dar team for search
+  def fix_dar_url(params)
+    tmp = {}
+    params.each do |key,value|
+      if(key.to_s == "title" || key.to_s == "language" || key.to_s == "subject")
+        tmp["_#{key.to_s}".to_sym] = value
+        params.delete(key)
+        break
+      elsif(key.to_s == "authorName")
+        tmp[:_author] = value
+        params.delete(key)
+        break
+      end
+    end
+    params.reverse_merge!(tmp)
+  end
   def set_query_array(query_array, params)
     query_array.each do  |key, value|
       query_array[key] = params["_#{key}".to_sym] ? params["_#{key}".to_sym].split(' _AND ') : ''

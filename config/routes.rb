@@ -21,6 +21,7 @@ Bhl::Application.routes.draw do
   match "names/get_content/:id" => "names#get_content"
   
   get "darviewer/user"
+  get "darviewer/book"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
