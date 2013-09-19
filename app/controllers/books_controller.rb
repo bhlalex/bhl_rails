@@ -4,10 +4,8 @@ require "rexml/document"
 class BooksController < ApplicationController
   include BooksHelper
   def index
-    session[:user_id] = 1
-    session[:active] = 1
-    session[:real_name] = "Yosra Alaa"
     
+    @url_params = fix_dar_url(params)
     @page_title = "Search Results: "
     @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [], 
                     'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
@@ -15,12 +13,12 @@ class BooksController < ApplicationController
       I18n.t(:book_publish_place_title) => "published_at", I18n.t(:book_location_title) => "geo_location", 
       I18n.t(:book_author_title) => "author", I18n.t(:book_name_title) => "name", I18n.t(:book_subject_title) => "subject", 
       I18n.t(:book_title_title) => "content"}
-    @page = params[:page] ? params[:page].to_i : 1
-    @view = params[:view] ? params[:view] : ''
+    @page = @url_params[:page] ? @url_params[:page].to_i : 1
+    @view = @url_params[:view] ? @url_params[:view] : ''
     @lang = 'test'
-    @url_params = params
+    
   
-    @query_array = set_query_array(@query_array, params)
+    @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
     
     @response = search_facet_highlight(@query, @page)
