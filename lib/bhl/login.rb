@@ -4,6 +4,7 @@ module BHL
       session[:user_id] = user.id
       session[:active] = user.active
       session[:real_name] = user.real_name
+      session[:guid] = user.guid
       
       user.last_login = Time.now
       user.save

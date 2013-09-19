@@ -3,13 +3,16 @@ class UsersController < ApplicationController
   
   include BHL::Login
   
+  # GET /users/new
   def new
-    redirect_to root_path if is_loggged_in?
+    redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
     @page_title = I18n.t(:sign_up)
     @user = User.new
   end
-
+  
+  # POST /users
   def create
+    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
     @user = User.new(params[:user])
     if @user.valid? && verify_recaptcha
       @user.save
@@ -25,8 +28,11 @@ class UsersController < ApplicationController
       render :action => :new
     end
   end
-
+  
+  # GET /users/forget_password
   def forgot_password
+    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    @page_title = I18n.t(:forgot_password_title)
   end
 
   def change_password
@@ -35,6 +41,7 @@ class UsersController < ApplicationController
   def edit_profile
   end
   
+  # GET /users/activate/:guid/:activation_code
   def activate
     @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
     if @user.nil?
@@ -60,7 +67,8 @@ class UsersController < ApplicationController
       redirect_to root_path
     end
   end
-
+  
+  # GET /users/:id
   def show
     @id = params[:id]
     @id = session[:user_id] if @id.nil? 
@@ -73,20 +81,80 @@ class UsersController < ApplicationController
     @page_title = @user.real_name
   end
   
+  # POST /users/recover_password
+  def recover_password
+    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    
+    @email = params[:user][:email]
+    return redirect_to users_forgot_password_path unless @email
+    @user = User.find_by_email(@email)
+    
+    if @user.nil?
+      flash.now[:error] = I18n.t(:user_not_found_by_email_address, :email => @email)
+      flash.keep
+      redirect_to users_forgot_password_path
+    else
+      # I am changing activation code, then send an email with a link to reset password
+      @user.change_activation_code
+      reset_password_url = "#{request.host}:#{request.port}/users/reset_passwpord/#{@user.guid}/#{@user.verification_code}"
+      Notifier.user_reset_password_verification(@user, reset_password_url)
+      flash.now[:notice] = I18n.t(:recover_password_success)
+      flash.keep
+      redirect_to :controller => :users, :action => :login
+    end
+  end
+  
+  # GET /users/reset_password/:guid/:activation_code
+  def reset_password
+    @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
+    if @user.nil?
+      flash[:error] = I18n.t(:reset_password_failed)
+      flash.keep
+      return redirect_to root_path
+    end
+    
+    @page_title = I18n.t(:reset_password)
+  end
+  
+  #POST /users/reset_password_action
+  def reset_password_action
+    # I need to double check
+    @user = User.find_by_guid_and_verification_code(params[:user][:guid], params[:user][:activation_code])
+    if @user.nil?
+      flash[:error] = I18n.t(:reset_password_failed)
+      flash.keep
+      return redirect_to root_path
+    end
+    
+    @user.password = params[:user][:password]
+    @user.password_confirmation = params[:user][:password_confirmation]
+    
+    if @user.valid? && @user.save
+        flash[:notice] = I18n.t(:reset_password_success)
+        flash.keep
+        redirect_to :controller => :users, :action => :login
+    else
+      flash[:error] = @user.errors.full_messages.join("<br>")
+      flash.keep
+      return redirect_to "/users/reset_password/#{params[:user][:guid]}/#{params[:user][:activation_code]}"
+    end
+  end
+  
+  # GET /users/logout
   def logout
-    puts "123"
     log_out
     redirect_to root_path
   end
   
+  # GET /users/login
   def login
-    if is_loggged_in?
-      return redirect_to :controller => :users, :action => :show, :id => session[:user_id]
-    end
+    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
     @page_title = I18n.t(:sign_in)
   end
   
+  # POST /users/validate
   def validate
+    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
     username = params[:user][:username]
     password = params[:user][:password]
     @user = User.authenticate(username, password)
@@ -107,6 +175,7 @@ class UsersController < ApplicationController
     end
   end
   
+  # POST /users/update
   def update
     @user = User.find(params[:id])
 
