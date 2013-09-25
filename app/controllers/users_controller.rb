@@ -8,6 +8,7 @@ class UsersController < ApplicationController
     redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
     @page_title = I18n.t(:sign_up)
     @user = User.new
+    @verify_captcha = true
   end
   
   # POST /users
@@ -35,12 +36,6 @@ class UsersController < ApplicationController
     @page_title = I18n.t(:forgot_password_title)
   end
 
-  def change_password
-  end
-
-  def edit_profile
-  end
-  
   # GET /users/activate/:guid/:activation_code
   def activate
     @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
@@ -175,18 +170,38 @@ class UsersController < ApplicationController
     end
   end
   
-  # POST /users/update
+  # GET /users/:id/edit
+  def edit
+    return redirect_to :controller => :users, :action => :login unless is_loggged_in?
+    if session["user_id"].to_i != params[:id].to_i
+      flash.now[:error] = I18n.t(:access_denied_error)
+      flash.keep
+      return redirect_to :controller => :users, :action => :show, :id => params[:id]
+    end
+    @page_title = I18n.t(:modify_profile)
+    @verify_captcha = false
+    @user = User.find_by_id(params[:id])
+    @user.email_confirmation = @user.email
+  end
+  
+  #POST /users/post
   def update
     @user = User.find(params[:id])
-
-    respond_to do |format|
-      if @user.update_attributes(params[:user])
-        format.html { redirect_to(@user, :notice => 'User was successfully updated.') }
-        format.json { respond_with_bip(@user) }
-      else
-        format.html { render :action => "edit" }
-        format.json { respond_with_bip(@user) }
-      end
+    
+    if params[:user][:password].blank? && params[:user][:password_confirmation].blank? 
+      params[:user][:password] = nil
+      params[:user][:password_confirmation] = nil
+    end
+    if @user.update_attributes(params[:user])
+      log_out
+      log_in(@user) # to make sure everything is loaded properly
+      flash.now[:notice] = I18n.t("changes_saved")
+      flash.keep
+      return redirect_to :controller => :users, :action => :show, :id => params[:id]
+    else
+      flash.keep
+      render :action => :edit
     end
   end
+  
 end

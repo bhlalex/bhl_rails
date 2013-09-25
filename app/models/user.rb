@@ -17,8 +17,8 @@ class User < ActiveRecord::Base
   validates :password, :presence => true,
                        :confirmation => true,
                        :length => {:within => 4..16},
-                       :on => :create,
-                       :on => :create && :update
+                       :on => :create && :update,
+                       :if => :password # only validate if password changed!
   validates :email, :presence => true,
                     :confirmation => true,
                     :format => @email_format_re,

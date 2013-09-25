@@ -24,6 +24,7 @@ class Notifier < ActionMailer::Base
   def user_reset_password_verification(user, reset_password_url)
     @user = user
     @reset_password_url = reset_password_url
+    @username = user.username
     mail(
       :content_type => "text/html",
       :subject => I18n.t(:subject, :scope => [:notifier, :user_recover_account]),

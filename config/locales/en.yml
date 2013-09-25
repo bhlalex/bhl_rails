@@ -125,6 +125,9 @@ en:
   reset_password: "Reset password"
   reset_password_failed: "Reset password failed."
   reset_password_success: "Your password has been reset successfully."
+  modify_profile: "Modify profile"
+  access_denied_error: "Access denied."
+  changes_saved: "Changes saved."
   
   notifier:
     user_verification:
@@ -135,7 +138,7 @@ en:
       message: "Welcome to the BHL Egypt and thank you for registering!"
     user_recover_account:
       subject: "Recover your BHL account"
-      message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.<br><br>The following link provides a one time log in to allow you to change your password:<br><br>%{reset_password_url}"
+      message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.<br><br>Your username is: <b>%{@username}</b><br><br>The following link provides a one time log in to allow you to change your password:<br><br>%{reset_password_url}"
       
   date:
     formats:

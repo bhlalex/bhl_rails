@@ -26,15 +26,14 @@
           )
       - else
         .username
-          %ul
-            %li
-              = link_to I18n.t(:join_bhl), new_user_path
-            %li
-              = I18n.t :already_member
-              = link_to I18n.t(:sign_in), users_login_path
+          = I18n.t :already_member
+          = link_to I18n.t(:sign_in), users_login_path
       %br
       .topmenu
-        = link_to I18n.t(:my_account_link), {:controller => :users, :action => :my_account}
+        - if logged_in?
+          = link_to I18n.t(:my_account_link), {:controller => :users, :action => :show, :id => session["user_id"]}
+        - else
+          = link_to I18n.t(:join_bhl), new_user_path
         = link_to I18n.t(:contact_us_link), {:controller => :pages, :action => :contact}
         = link_to I18n.t(:about_us_link), {:controller => :pages, :action => :about}
     .menu2
