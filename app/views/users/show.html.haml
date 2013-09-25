@@ -1,9 +1,20 @@
-= I18n.t(:real_name)
-= ": "
+%b
+  = I18n.t(:real_name)
+%br
 = best_in_place_if @can_edit, @user, :real_name, :type => :input
 %br
-= I18n.t(:member_since)
+%br
+%b
+  = I18n.t(:member_since)
+%br
 = @user.created_at.to_s
 %br
-= I18n.t(:last_login)
+%br
+%b
+  = I18n.t(:last_login)
+%br
 = @user.last_login.to_s
+%br
+%br
+- if session["user_id"] == @user.id
+  = link_to I18n.t(:modify_profile), :controller => :users ,:action => :edit, :id => @user.id
