@@ -22,7 +22,8 @@ Bhl::Application.routes.draw do
   
   get "darviewer/user"
   get "darviewer/book"
-  
+  get "darviewer/annotations"  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
