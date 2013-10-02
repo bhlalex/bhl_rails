@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   
   # GET /users/new
   def new
-    redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @page_title = I18n.t(:sign_up)
     @user = User.new
     @verify_captcha = true
@@ -13,7 +13,7 @@ class UsersController < ApplicationController
   
   # POST /users
   def create
-    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @user = User.new(params[:user])
     if @user.valid? && verify_recaptcha
       @user.save
@@ -24,6 +24,7 @@ class UsersController < ApplicationController
       flash.keep
       redirect_to :controller => :users, :action => :show, :id => @user.id
     else
+      @verify_captcha = true
       @page_title = I18n.t(:sign_up)
       @user.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha
       render :action => :new
@@ -32,7 +33,7 @@ class UsersController < ApplicationController
   
   # GET /users/forget_password
   def forgot_password
-    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @page_title = I18n.t(:forgot_password_title)
   end
 
@@ -49,9 +50,7 @@ class UsersController < ApplicationController
       flash.keep
       redirect_to root_path
     else
-      @user.active = 1
-      @user.verified_date = Time.now
-      @user.save
+      @user.activate
       flash.now[:notice] = I18n.t(:account_activated, :real_name => @user.real_name)
       flash.keep
       Notifier.user_activated(@user)
@@ -78,7 +77,7 @@ class UsersController < ApplicationController
   
   # POST /users/recover_password
   def recover_password
-    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     
     @email = params[:user][:email]
     return redirect_to users_forgot_password_path unless @email
@@ -101,6 +100,7 @@ class UsersController < ApplicationController
   
   # GET /users/reset_password/:guid/:activation_code
   def reset_password
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
     if @user.nil?
       flash[:error] = I18n.t(:reset_password_failed)
@@ -114,6 +114,7 @@ class UsersController < ApplicationController
   #POST /users/reset_password_action
   def reset_password_action
     # I need to double check
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @user = User.find_by_guid_and_verification_code(params[:user][:guid], params[:user][:activation_code])
     if @user.nil?
       flash[:error] = I18n.t(:reset_password_failed)
@@ -121,13 +122,13 @@ class UsersController < ApplicationController
       return redirect_to root_path
     end
     
-    @user.password = params[:user][:password]
-    @user.password_confirmation = params[:user][:password_confirmation]
+    @user.entered_password = params[:user][:entered_password]
+    @user.entered_password_confirmation = params[:user][:entered_password_confirmation]
     
     if @user.valid? && @user.save
-        flash[:notice] = I18n.t(:reset_password_success)
-        flash.keep
-        redirect_to :controller => :users, :action => :login
+      flash[:notice] = I18n.t(:reset_password_success)
+      flash.keep
+      redirect_to :controller => :users, :action => :login
     else
       flash[:error] = @user.errors.full_messages.join("<br>")
       flash.keep
@@ -143,13 +144,13 @@ class UsersController < ApplicationController
   
   # GET /users/login
   def login
-    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @page_title = I18n.t(:sign_in)
   end
   
   # POST /users/validate
   def validate
-    return redirect_to :controller => :users, :action => :show, :id => @user.id if is_loggged_in?
+    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     username = params[:user][:username]
     password = params[:user][:password]
     @user = User.authenticate(username, password)
@@ -184,13 +185,21 @@ class UsersController < ApplicationController
     @user.email_confirmation = @user.email
   end
   
-  #POST /users/post
+  #PUT /users
   def update
+    return redirect_to :controller => :users, :action => :login unless is_loggged_in?
+    
+    if session["user_id"].to_i != params[:id].to_i
+      flash.now[:error] = I18n.t(:access_denied_error)
+      flash.keep
+      return redirect_to :controller => :users, :action => :show, :id => params[:id]
+    end
+    
     @user = User.find(params[:id])
     
-    if params[:user][:password].blank? && params[:user][:password_confirmation].blank? 
-      params[:user][:password] = nil
-      params[:user][:password_confirmation] = nil
+    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
+      params[:user][:entered_password] = nil
+      params[:user][:entered_password_confirmation] = nil
     end
     if @user.update_attributes(params[:user])
       log_out
