@@ -2,8 +2,8 @@ require 'spec_helper'
 
 describe Author do
 
-  before (:all) do
-    truncate_all_tables
+  before(:all) do
+    truncate_table(ActiveRecord::Base.connection, 'authors', {})
   end
 
   it 'Should not add duplicate authors' do

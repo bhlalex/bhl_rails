@@ -95,3 +95,101 @@ en:
     one:   "Found in one book"
     other: "Found in %{count} books"
   select_species_for_details: "Select species on the left to view the details"
+  username: "Username"
+  sign_up: "Sign up"
+  submit_buton: "Submit"
+  clear_button: "Clear"
+  password: "Password"
+  confirm_password: "Password again"
+  email: "Email address"
+  confirm_email: "Email address again"
+  real_name: "Full name"
+  recaptcha: "Type in the two words you see below"
+  form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
+  welcome_message: "Welcome %{real_name}"
+  welcome_guest: "Welcome Guest"
+  registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
+  username_taken: "'%{name}' is already taken"
+  email_taken: "'%{email}' is already taken"
+  member_since: "Member since"
+  last_login: "Last login"
+  logout_link: "Logout"
+  press_esc_to_close: "Press Esc to close"
+  forgot_password_link: "Forgot your password?"
+  forgot_password_title: "Forgot your password?"
+  join_bhl: "Join BHL now"
+  already_member: "Already a member?"
+  sign_in: "Sign in"
+  activation_failed: "Activation failed."
+  account_already_active: "This is account is already active."
+  account_activated: "This account (%{real_name}) is activated. Thank you for joining BHL Egypt."
+  sign_in_successful_notice: "Login successful."
+  sign_in_unsuccessful_error: "Login failed. Invalid username or password."
+  forget_password_message: "Enter the email address associated with your BHL account."
+  user_not_found_by_email_address: "A BHL account with that email address (%{email}) could not be found."
+  recover_password_success: "Account recovery email has been sent with further instructions"
+  reset_password: "Reset password"
+  reset_password_failed: "Reset password failed."
+  reset_password_success: "Your password has been reset successfully."
+  modify_profile: "Modify profile"
+  access_denied_error: "Access denied."
+  changes_saved: "Changes saved."
+  
+  notifier:
+    user_verification:
+      subject: "Please verify your request for BHL Egypt"
+      message: "Thanks for registering with the BHL Egypt. The following link will verify that you wish to complete your registration and activate your account:<br><br>%{@verification_url}"
+    user_activated:
+      subject: "Your BHL account has been activated"
+      message: "Welcome to the BHL Egypt and thank you for registering!"
+    user_recover_account:
+      subject: "Recover your BHL account"
+      message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.<br><br>Your username is: <b>%{@username}</b><br><br>The following link provides a one time log in to allow you to change your password:<br><br>%{reset_password_url}"
+      
+  date:
+    formats:
+      default: "%d/%m/%Y - %I:%M %p"
+      short: "%b %d"
+      long: "%B %d, %Y"
+      short_no_time: "%m/%d/%Y"      
+
+  activerecord:
+    errors:
+      format: "%{attribute} %{message}"
+      template:
+        header:
+          one: "%{count} validation error found"
+          other: "%{count} validation errors found"
+        body: "The following fields failed validation:"
+      messages:
+        taken: "has already been taken"
+        record_invalid: "Validation failed: %{errors}"
+        invalid: "is invalid"
+        confirmation: "doesn't match confirmation"
+        accepted: "must be accepted"
+        empty: "can't be empty"
+        blank: "can't be blank"
+        too_long:
+          one: "is too long (maximum is %{count} character)"
+          other: "is too long (maximum is %{count} characters)"
+        too_short:
+          one: "is too short (minimum is %{count} character)"
+          other: "is too short (minimum is %{count} characters)"
+        wrong_length: "is the wrong length (should be %{count} characters)"
+        not_a_number: "is not a number"
+        not_an_integer: "must be an integer"
+        greater_than:
+          one: "must be greater than %{count}"
+          other: "must be greater than %{count}"
+        greater_than_or_equal_to: "must be greater than or equal to %{count}"
+        equal_to: "must be equal to %{count}"
+        less_than:
+          one: "must be less than %{count}"
+          other: "must be less than %{count}"
+        less_than_or_equal_to: "must be less than or equal to %{count}"
+        odd: "must be odd"
+        even: "must be even"
+        inaccessible: "is inaccessible"
+        wrong_type: "is the wrong type"
+      full_messages:
+        format: "%{attribute} %{message}"

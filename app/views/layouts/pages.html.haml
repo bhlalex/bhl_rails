@@ -4,11 +4,11 @@
     .pagetitleborder
       %h1
         = @page_title
+= render :partial => "layouts/flash", object: flash
 .contents
   .r_column
     =render :partial => "common/whats_inside"
   .page
     .page_border
-      %br
       = yield
 = render :partial => "layouts/footer"

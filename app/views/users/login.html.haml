@@ -1,0 +1,19 @@
+.form
+  = form_for :user, :url => users_validate_path, :builder => FormHelper::BHLFormBuilder do |f|
+    - unless params[:return_to].blank?
+      = f.hidden_field :return_to, :value => params[:return_to]
+    %ul
+      %li
+        = f.label :username, :class => 'required'
+      %li
+        = f.text_field :username
+      %li
+        = f.label :password, :class => 'required'
+      %li
+        = f.password_field :password, :maxlength => 16
+      %li
+        %br
+        = link_to I18n.t(:forgot_password_link), users_forgot_password_path
+    %fieldset
+      = f.submit I18n.t('submit_buton'), :class => "btn"
+      = f.submit I18n.t('clear_button'), :class => "btn", :type => "reset"

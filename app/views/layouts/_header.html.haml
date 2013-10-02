@@ -13,17 +13,27 @@
     
     = stylesheet_link_tag 'main'
     = javascript_include_tag "application"
-    = javascript_include_tag controller_path, :media => "all"
+    = javascript_include_tag controller_path, :media => "all"    
   %body
     .header
       %a{ :href => "/" } 
         =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "logo")
-      = #TODO: Check for login and replace with Welcome #{user}
-      .username Welcome Guest
+      - if logged_in?
+        .username
+          = I18n.t(:welcome_message, :real_name => session[:real_name])
+          (
+          = link_to I18n.t(:logout_link), users_logout_path
+          )
+      - else
+        .username
+          = I18n.t :already_member
+          = link_to I18n.t(:sign_in), users_login_path
       %br
       .topmenu
-        %a{ :href => "#" }
-          = I18n.t(:my_account_link)
+        - if logged_in?
+          = link_to I18n.t(:my_account_link), {:controller => :users, :action => :show, :id => session["user_id"]}
+        - else
+          = link_to I18n.t(:join_bhl), new_user_path
         = link_to I18n.t(:contact_us_link), {:controller => :pages, :action => :contact}
         = link_to I18n.t(:about_us_link), {:controller => :pages, :action => :about}
     .menu2

@@ -1,23 +1,23 @@
 require 'spec_helper'
 
 describe "books/_right_column.html.haml" do
+  before(:each) do
+    visit("/books")
+  end
+  
   it 'should contain tagged species' do
-    render
-    rendered.should contain("TAGGED SPECIES")
+    body.should include "TAGGED SPECIES"
   end
   
   it 'should contain languages' do
-    render
-    rendered.should contain("LANGUAGES")
+    body.should include "LANGUAGES"
   end
   
   it 'should contain authors' do
-    render
-    rendered.should contain("AUTHORS")
+    body.should include "AUTHORS"
   end
   
   it 'should contain affiliation' do
-    render
-    rendered.should contain("AFFILIATION")
+    body.should include "AFFILIATION"
   end
 end

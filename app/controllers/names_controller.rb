@@ -15,8 +15,11 @@ class NamesController < ApplicationController
   
   def get_content
     @id = params[:id]
-    @taxon_concept_id = HierarchyEntry.get_taxon_concept_id(@id)
-    @name = TaxonConcept.get_name(@taxon_concept_id)
+    he = HierarchyEntry.find_taxon(@id)
+    return unless he
+    @taxon_concept_id = he.taxon_concept_id
+    return unless @taxon_concept_id
+    @name = he.clean_taxon_concept
     image_source = TaxonConcept.get_image(@taxon_concept_id)
     if image_source.nil?
       @image = nil
@@ -28,10 +31,18 @@ class NamesController < ApplicationController
                   image_source.to_s.from(10) + "_260_190.jpg"
     end
     
-    rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    search = rsolr.select :params => { :q => "name:#{@name}"}
-    @books_count = search['response']['numFound']
+    unless @name.blank?
+      rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      search = rsolr.select :params => { :q => "name:#{@name}"}
+      @books_count = search['response']['numFound']
+    else
+      @books_count = 0
+    end
     
     render :layout => 'main' # this is a blank layout as I don't need any layout in this action
+  end
+  
+  def change_password
+    
   end
 end

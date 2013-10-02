@@ -1,0 +1,15 @@
+- unless flash.blank?
+  - if flash[:notice] || flash[:warning] || flash[:error]
+    .flashtitle
+      - if flash[:notice]
+        .flashnoticetitlecontent
+          .flashtitleborder
+            = raw(flash[:notice])
+      - if flash[:warning]
+        .flashwarningtitlecontent
+          .flashtitleborder
+            = raw(flash[:warning])
+      - if flash[:error]
+        .flasherrortitlecontent
+          .flashtitleborder
+            = raw(flash[:error])
