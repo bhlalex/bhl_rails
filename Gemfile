@@ -27,7 +27,7 @@ gem 'recaptcha'
 gem 'best_in_place'
 
 group :development, :test do
-  gem 'rspec-rails', '~>2.0'
+  gem 'rspec-rails', '~> 2.14.0.rc1'
   gem 'webrat'
   gem 'factory_girl_rails'
   gem 'capybara'

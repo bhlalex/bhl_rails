@@ -1,15 +1,13 @@
 require 'spec_helper'
+require_relative '../../lib/bhl/login'
 
-# Specs in this file have access to a helper object that includes
-# the UsersHelper. For example:
-#
-# describe UsersHelper do
-#   describe "string concat" do
-#     it "concats two strings with spaces" do
-#       helper.concat_strings("this","that").should == "this that"
-#     end
-#   end
-# end
+include BHL::Login
+
 describe UsersHelper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it 'should return true/false when user is logged in/out' do
+    logged_in?.should be_false
+    user = User.gen
+    log_in(user)
+    logged_in?.should be_true
+  end
 end

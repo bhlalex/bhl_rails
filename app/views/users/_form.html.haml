@@ -7,13 +7,13 @@
       %li
         = f.text_field :username, { :maxlength => 32 }
       %li
-        = f.label :pasword, raw(t('password')), :class => 'required'
+        = f.label :entered_password, raw(t('password')), :class => 'required'
       %li
-        = f.password_field :password, { :maxlength => 32 }
+        = f.password_field :entered_password, { :maxlength => 32 }
       %li
         = f.label :confirm_password, raw(t('confirm_password')), :class => 'required'
       %li
-        = f.password_field :password_confirmation, { :maxlength => 32 }
+        = f.password_field :entered_password_confirmation, { :maxlength => 32 }
       %li
         = f.label :email, raw(t('email')), :class => 'required'
       %li

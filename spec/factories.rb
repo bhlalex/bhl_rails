@@ -4,6 +4,10 @@ FactoryGirl.define do
   
   sequence(:string)     { |n| "unique#{ n }string" }
   
+  sequence(:email) do |n|
+    "person#{n}@example.com"
+  end
+  
   factory :author do
     name                { generate(:string) }
   end
@@ -29,15 +33,29 @@ FactoryGirl.define do
   end
   
   factory :name do
-    string                { generate(:string) }    
+    string                { generate(:string) }
   end
   
   factory :user do
-    username            { generate(:string) }
-    password            { generate(:string) }
-    real_name           { generate(:string) }
-    email               { generate(:string) }
-    guid                { generate(:string) }    
+    email                     { generate(:email) }
+    username                  do
+      attempt = generate(:string).downcase
+      while(User.find_by_username(attempt)) do
+        attempt.succ!
+      end
+      attempt
+    end
+    active                    false
+    password                  'test password'
+    entered_password          'test password'
+    real_name                 { generate(:string) }
+    guid                      do
+      attempt = generate(:string).downcase
+      while(User.find_by_guid(attempt)) do
+        attempt.succ!
+      end
+      attempt
+    end
   end
   
   factory :volume do
