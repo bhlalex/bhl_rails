@@ -1,8 +1,9 @@
 require 'spec_helper'
 
 describe "books/show.html.haml" do
-  before (:all) do
-    truncate_all_tables
+  before(:all) do
+    truncate_table(ActiveRecord::Base.connection, "books", {})
+    truncate_table(ActiveRecord::Base.connection, "volumes", {})
     
     doc = {:vol_jobid => "123", :bok_bibid => "456"}
     doc[:bok_title] = "Test Book"

@@ -1,10 +1,26 @@
 Bhl::Application.routes.draw do
   resources :books
-  resources :ubio
+  resources :ubio#, only[:index]
   resources :browse
   
-  get "pages/contact"
-  get "pages/about"
+  resources :users, only: [:new, :create, :update, :edit]
+  get   "users/logout"
+  get   "users/login"
+  match "users/activate/:guid/:activation_code" => "users#activate"
+  get   "users/forgot_password"
+  get   "users/change_password"
+  get   "users/my_account"
+  post  "users/validate"
+  match "users/show/:id" => "users#show"
+  post  "users/recover_password"
+  match "users/reset_password/:guid/:activation_code" => "users#reset_password"
+  post  "users/reset_password_action"
+  
+  # remove when how page is ready
+  root :to => 'pages#about'
+  
+  get   "pages/contact"
+  get   "pages/about"
   
   match "browse/:type" => "browse#show"
   match "browse/:type/:char" => "browse#show" 
@@ -12,72 +28,16 @@ Bhl::Application.routes.draw do
   match "/books/:id" => "books#show"
   match "/books/:id/:tab" => "books#show"
   
-  get "geographics/index"
+  get   "geographics/index"
   match "/geographics/show/:id" => "geographics#show"
   match "/geographics/index/:range" => "geographics#index"
-
-  get "names/index"
-  get "names/show"
+  
+  match "names" => redirect("names/index")
+  get   "names/index"
+  get   "names/show"
   match "names/get_content/:id" => "names#get_content"
   
   get "darviewer/user"
   get "darviewer/book"
-  get "darviewer/annotations"  
-
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
-
-  # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
-  # Keep in mind you can assign values other than :controller and :action
-
-  # Sample of named route:
-  #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
-  # This route can be invoked with purchase_url(:id => product.id)
-
-  # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
-
-  # Sample resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
-
-  # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
-
-  # Sample resource route with more complex sub-resources
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', :on => :collection
-  #     end
-  #   end
-
-  # Sample resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
-
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
-
-  # See how all your routes lay out with "rake routes"
-
-  # This is a legacy wild controller route that's not recommended for RESTful applications.
-  # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id))(.:format)'
+  get "darviewer/annotations"
 end
