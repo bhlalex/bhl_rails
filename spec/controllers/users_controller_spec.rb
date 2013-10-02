@@ -208,6 +208,11 @@ describe UsersController do
       user = User.gen(:entered_password => "1234")
       post :validate, { :user => { :username => user.username, :password => "1234" } }
       response.should redirect_to "/users/show/#{user.id}"
+      session[:user_id].should == user.id
+      session[:active].should == user.active
+      session[:real_name].should == user.real_name
+      session[:guid].should == user.guid
+      cookies[:Ssid] = user.guid
       flash[:error].should be_blank
       flash[:notice].should_not be_blank
       is_loggged_in?.should be_true
