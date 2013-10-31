@@ -5,4 +5,4 @@
     %li
       =link_to value, "/books/#{key}"
 - if @books_count > 10
-  = link_to I18n.t(:geo_show_all_titles), "#" # TODO: Link this page to search results
+  = link_to I18n.t(:geo_show_all_titles), books_path(:params => addFacetSearch({}, 'geo_location', @location_name))

@@ -3,28 +3,28 @@
   %ul
     - facet_list(@response,'name_ss').first(TAGGED_SPECIES_COUNT).each do |name|
       %li
-        =link_to "#{name[:name]} [#{name[:count]}]",  {:params => addFacetSearch(@url_params, 'name', name[:name])}
+        =link_to "#{name[:name]} [#{name[:count]}]", books_path(:params => addFacetSearch(@url_params, 'name', name[:name]))
 .box_1
   %h3= I18n.t(:languages_caps)
   %ul
     - facet_list(@response, 'bok_language_s').first(TAGGED_LANGUAGES_COUNT).each do |language|
       %li
-        =link_to "#{language[:name]} [#{language[:count]}]", {:params => addFacetSearch(@url_params, 'language', language[:name])}
+        =link_to "#{language[:name]} [#{language[:count]}]", books_path(:params => addFacetSearch(@url_params, 'language', language[:name]))
 .box_1
   %h3= I18n.t(:authors_caps)
   %ul
     - facet_list(@response, 'author_ss').first(TAGGED_AUTHORS_COUNT).each do |author|
       %li
-        =link_to "#{author[:name]} [#{author[:count]}]",  {:params => addFacetSearch(@url_params, 'author', author[:name])}
+        =link_to "#{author[:name]} [#{author[:count]}]", books_path(:params => addFacetSearch(@url_params, 'author', author[:name]))
 .box_1
   %h3= I18n.t(:regional_affiliation_caps)
   %ul
     - facet_list(@response, 'geo_location_ss').first(TAGGED_AFFILIATION_COUNT).each do |affiliation|
       %li
-        =link_to "#{affiliation[:name]} [#{affiliation[:count]}]",  {:params => addFacetSearch(@url_params, 'geo_location', affiliation[:name])}
+        =link_to "#{affiliation[:name]} [#{affiliation[:count]}]", books_path(:params => addFacetSearch(@url_params, 'geo_location', affiliation[:name]))
 .box_1
   %h3= I18n.t(:genre_caps)
   %ul
     - facet_list(@response, 'subject_ss').first(TAGGED_GENRE_COUNT).each do |genre|
       %li
-        =link_to "#{genre[:name]} [#{genre[:count]}]",  {:params => addFacetSearch(@url_params, 'subject', genre[:name])}
+        =link_to "#{genre[:name]} [#{genre[:count]}]",  books_path(:params => addFacetSearch(@url_params, 'subject', genre[:name]))

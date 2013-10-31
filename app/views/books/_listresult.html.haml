@@ -3,9 +3,9 @@
     {:controller => :books, :action => :show, :id => @vol[:job_id]}
 .newscontent
   .sidelinks
-    = link_to image_tag("/images_#{I18n.locale}/read.png", :width => 32, :height => 21, :alt => "read", :title => "read") , 
+    = link_to image_tag("/images_#{I18n.locale}/read.png", :alt => "read", :title => "read") , 
     {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
-    = link_to image_tag("/images_#{I18n.locale}/learn.png", :width => 32, :height => 21, :alt => "details", :title => "details") , 
+    = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "details", :title => "details") , 
     {:controller => :books, :action => :show, :id => @vol[:job_id]}
   %h4
     - # TODO: Add highlights

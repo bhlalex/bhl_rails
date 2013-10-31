@@ -9,4 +9,4 @@
     = "No Image"
   %br
   %br
-  = link_to I18n.t(:name_found_in_books, :count => @books_count), "#" #TODO: add search link
+  = link_to I18n.t(:name_found_in_books, :count => @books_count), books_path(:params => addFacetSearch({}, 'name', @name))
