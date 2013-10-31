@@ -5,6 +5,6 @@
     %ul
       - filter_list_by_prefix(@browse_list, prefix).each do |item|
         %li
-          =link_to "#" do
+          =link_to books_path(:params => addFacetSearch({}, @search_prefix, item[:name].html_safe.gsub("]", "").gsub("[", ""))) do
             = "#{item[:name]} (#{item[:count]})"
   .clear

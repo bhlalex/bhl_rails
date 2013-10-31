@@ -15,8 +15,10 @@ class BrowseController < ApplicationController
     @type = params[:type]
     if @type == 'subjects'
       @page_title = I18n.t(:browse_subject_page_header)
+      @search_prefix = "subject"
     elsif @type == 'authors'
-      @page_title = I18n.t(:browse_author_page_header) 
+      @page_title = I18n.t(:browse_author_page_header)
+       @search_prefix = "author"
     end
     @browse_list = list_facet_by_prefix(@type[0..-2], @char.upcase)
   end

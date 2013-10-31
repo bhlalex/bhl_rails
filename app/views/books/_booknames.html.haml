@@ -2,15 +2,15 @@
 = javascript_include_tag 'jquery.tooltipster.min'
 :javascript  
   $(document).ready(function() {
-      $('.tooltip').tooltipster({ interactive: true, fixedWidth: 280});            
+      $('.tooltip').tooltipster({ interactive: true, fixedWidth: 280});
   });
 
 - names = fillResponseArrays(@doc, @highlight, 'name', @id)
 - count = 0
 - names.each do |curname|
   - name = Name.find_by_string(curname.gsub(HLPRE, '').gsub(HLPOST, ''))
-  -if (name != nil)     
+  -if (name != nil)
     &bull;
-    %a.tooltip{:title =>name_tip(name.id, name.string, name.eol_thumb, name.eol_page_id), :href => "#"}  
+    %a.tooltip{:title =>name_tip(name.id, name.string, name.eol_thumb, name.eol_page_id), :href => "#"}
       = item_count_format_highlight('name', name.string, curname)
 = book_names_count_format(@id)
