@@ -35,3 +35,5 @@ Bhl::Application.configure do
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
 end
+
+SOLR_BOOKS_METADATA = 'http://localhost:8989/solr/books_metadata'
