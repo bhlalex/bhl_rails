@@ -1,0 +1,49 @@
+20
+Substances proteiques.
+4000 Generalites.
+4010 Substances proteiques du leg-ne animal. (Voy. aitssi
+Q 1100-1190, 8330, 8440, <J140).
+4020 Substance proteiques du legne vegetal.
+Les articles places dans ces deux gronpes serout classes par
+oidre alpbabetique.
+Matieres colorantes ou colorees.
+5000 Geiieralites.
+5010 Matieres colore'es uon employees eu teinture.
+5020 Matieres tinctoriales.
+Ces divisions serout snbdivisees — 5010 en hydrocarbures
+(colore's). alcools (colores), cetoues (colorees), etc. ; 5020 en
+colorants azoiques. colorants derives du triphenj'lmetbane, de'rives
+de I'autbracene, ruatieres colorantes d'origine vegetale, matieres
+colorantes non classees, etc. ; dans cbacune de, ces subdivisions
+les articles seront classes par ordre alpbabetique.
+5500 Operations de chimie organique.
+Les articles serout classes dans cette division sous des
+rubriques telles que dissolution et solvants, distillation, etc.,
+oxydation, nitration, acetylation, bydrolyse, etc., etc.
+Chimie analytique.
+6000 Geuerabtes.
+6100 Specification des elements.
+6150 Specification des composes.
+6200 Determination quantitative des elements.
+6300 Determination quantitative des composes.
+G400 Analyse des gaz.
+6500 Analyse appliquee.
+Tons les articles d'un caiactere general se rapportant aux
+appareils, au metbodes, etc., etc., doivent etre classes dans la
+division 6000 sous des rubriques appropriees.
+La division 6200 comprendra tons les articles relatifs a la
+determination quantitative des ele'ments dans lenrs composes et
+leurs melanges, sauf les determinations de poids atomiques. Les
+articles seront classes en sections distinguees par les symboles
+des elements employes comme s^'mboles d'enregistrement.
+La division 6300 comprendra tous les articles se rapi)ortant a
+la determination quantitative des composes, ex., alcaloides^
+hydrates decarbone, etc., y compris celle des radicaux composes
+tels que I'acetyl dans les acetates, le methyle dans les ethers,
+etc., mais a Texclusion des gaz. Les articles devront etre classes
+par sections, distinguees en employanfc comme symboles classifi-
+cateurs les symboles des elements dominants dans les coml)in-
+aisons, ou dans le cas des composes organiques les symboles des
+groupcs anxquels ils appartieiineut. Si c'est necessaire, les
+metbodes gravimetriqne, volumetrique, electrolytique, physique,
+etc., seront distinguees par des lettres telles que g, v, etc.

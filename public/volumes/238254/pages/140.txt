@@ -1,0 +1,54 @@
+Physical Chemistry of Essential Oils.
+COEFFICIKNTS.
+Substance.
+Density.
+Refr.
+Index.
+notation.
+1-phellandrene
+.(K)0826
+.000480
++ .097
+d-pincne
+807
+UYl
+- .01:?
+1-pinene
+821
+464
+- .034
+pinene
+822
+470
+d-limonene
+811
+454
+-.132
+cineol
+857
+456
+eugenol
+876
+458
+saf rol
+876
+44(J
+terpineol
+780
+428
+citral
+802
+458
+SuDiinnri/ .
+1. The influence of temperatuie change on tlie density, refrac-
+tive index, and rotation of a nunil)er of terpenes and allied sub-
+stances has been studied.
+2. In the cases of density and refractive index the temperature
+coefficients all lie close together, while the divergences from a linear
+relation are slight.
+3. Laevo-phellandrene, as obtained from the oil of Eucalyptus
+dives, is in all its relations somewhat abnormal, and the suggestion
+is made that it may form associated molecules at the lower tempera-
+tures.
+The thanks of the author are due to Dr. Heber Green for the
+interest he has shown in this research.

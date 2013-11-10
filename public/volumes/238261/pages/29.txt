@@ -1,0 +1,78 @@
+20
+PROCEEDINGS OF THE AMERICAN ACADEMY.
+TABLE VI. — Continued.
+p
+z^ll
+z=\l
+z = %l
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+•
+-0.000057
++0.000030
+-0.000000
+—0.000020
++0.000028
+—0.000023
+. +0.000012
+—0.000000
+—0.000008
++0.000011
+—0.000009
++0.000005
+-0.000000
+—0.000003
++0.000005
+—0.000004
++0.000002
+—0.000000
+—0.000001
++ 0.000002
+-0.000002
++ 0.000001
+-0.000000
+-0.000000
++0.1250-
++0.2500-
++0.3749+
+(5) The radius of the base of a right cylinder of revolution of height /
+is a. The centre of the lower base is used as the origin of a system of
+columnar co-ordinates (r, B, z), the axis of tiie cylinder being the axis of
+2. A function F, which is continuous everywhere within the cylinder,
+has the value zero on the curved surface and on the lower base, and the
+constant value F; on the upper base. The planes 2 = /', z =^ I", divide
+the cylinder into three portions (1), (2), and (3), in which V is repre-
+sented analytically by three functions, Vi, V^, V3, respectively. If, when
+z = l',
+.^..
+and when z = I", ko
+9V.
+h
+9 Vo
+, -^r—^ , ana wnen c = < , «<,
+' d z a z o'
+hi, k^, ^'3 are given constants, Vi, V.i, V3 are given by the equations
+9V,
+where

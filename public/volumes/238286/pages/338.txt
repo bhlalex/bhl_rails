@@ -1,0 +1,47 @@
+THE FIXED STARS. 505
+are adjusted, we would expect to find one principle underlying such a
+classification, making it that of greatest convenience. It must be just
+as easy to tell a fourth magnitude star, for instance, from a fifth mag-
+nitude as from a third, and there must be as little doubt in distinguish-
+ing between the fifth and sixth magnitudes as between the third and
+second. The numbers expressing magnitudes, then, must actually rep-
+resent a scale of equal differences as measured by the sensibility of
+the eye. When an astronomer pays attention to differences of luster,
+measured also by the sensibility of the eye, but closer than the founders
+of the science cared to notice, he naturally finds that he can distinguish
+the same number of intermediate grades between two adjoining mag-
+nitudes, whether faint or bright. HerschePs estimates, having been of
+this character, are, as we have seen, subject to the same condition.
+The system of comparisons introduced by Herschel was not fol-
+lowed by later astronomers. Determinations of brightness in which
+accuracy is sought are now made by means of instruments constructed
+expressly for the purpose. These instruments, called photometers
+measurers of light, that is, their office being to show the amount of light
+that one star gives as compared with others add nothing to the dis-
+criminating power of the eye, it should be stated. In deciding a ques-
+tion as to which is the brighter of two stars, situated sufficiently near
+together, no appliance yet invented can assist. But they have these
+three advantages : they facilitate comparison between faint stars, they
+furnish a means of comparing distant stars as though side by side, and
+they give results in a numerical form. That is to say, we get by means
+of them a definite difference, which may be expressed as a fraction of
+a magnitude. The magnitude, we see, is no longer regarded as a class,
+but as a fixed point on a continuous scale ; a striking example of that
+progress of science in all its branches from a qualitative to a quan-
+titative stage, on which philosophers delight so to insist.
+But how are measures of light to give us fractions of a magnitude?
+How can the vague, qualitative relation, the brighter the light the
+higher the magnitude, become an exact and quantitative one ? The
+discussion of this question may be of use by showing that, even with
+matters of so uncertain a nature, science does not proceed by guess-
+work. It is a general law, that the human senses measure ratios and
+not differences. If I am carrying a small weight, for example, and
+the addition of an ounce is required to make the burden perceptibly
+heavier to me, two ounces will have to be added in order that I may
+notice a difference when I carry twice the weight, and a whole pound
+when I carry sixteen times the weight. Similarly with the other senses,
+and, in no slight degree, with the emotions as well. Sensibility to grief
+and joy, as the experience of every one will attest, becomes feebler
+with an increase of the amount sustained. So, a faint sound can be
+heard only in comparative silence, and our footsteps surprise us by
+their resounding din on the floor of an empty hall, though no louder,

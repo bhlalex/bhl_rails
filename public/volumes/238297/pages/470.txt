@@ -1,0 +1,34 @@
+444 THE PRINCIPLES OF SCIENCE.
+between permutations and combinations, a subject upon
+which I may seem to have dwelt with unnecessary pro-
+lixity in previous pages (pp. 200216). The order in
+which we add quantities together does not affect the
+amount of the sum, so that if there be three positive
+and five negative causes of error in operation, it does not
+matter in which order they are considered as acting.
+They may be indifferently intermixed in any arrange-
+ment, and yet the result will be the same. The reader
+should not fail to notice how laws or principles which
+appeared to be absurdly simple and evident when first
+noticed, reappear in the most complicated and mysterious
+processes of scientific method. The fundamental Laws
+of Identity and Difference gave rise to the Logical Abe-
+cedarium, which, after abstracting the character of the
+differences, led to the Arithmetical Triangle (p. 214).
+The Law of Error is defined by an infinitely high line
+of that triangle, and the law proves that the mean is the
+most probable result, and that divergencies from the
+mean become much less probable as they increase in
+amount. Now the comparative greatness of the numbers
+towards the middle of each line of the Arithmetical
+Triangle is entirely due to the indifference of order in
+space or time, which was first prominently pointed out
+as a condition of logical relations, and the symbols in-
+dicating them (pp. 4042), and which was afterwards
+shown to attach equally to numerical symbols, the deri-
+vatives of logical terms (pp. 180, 181).
+Verification of the Law of Error.
+The theory of error which we have been considering
+rests entirely upon an assumption, namely that when
+known sources of disturbances are allowed for, there yet
+remain an indefinite, possibly an infinite number of other

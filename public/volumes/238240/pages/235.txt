@@ -1,0 +1,36 @@
+292 IDDINGS— PROBLEMS IN PETROLOGY. [April 21,
+into the silicate compound. The physical conditions which control
+the chemical equilibrium within magma solutions that yield these
+mineral compounds are problems for the geophysicist, though their
+nature may be inferred in a general way from the mode of occur-
+rence of the rocks containing the minerals in question.
+Indications of a catalytic action of H^O within rock magmas are
+furnished by the association of free silica with orthosilicates con-
+taining magnesium and iron, such as the common occurrence of
+quartz and biotite in granitic rocks ; the frequent association of
+quartz and tridymite with olivine in lavas ; and of quartz, tridymite
+and fayalite in lithophysae in certain highly siliceous lavas.
+The instability of these systems under changed conditions of
+equilibrium is shown by the inversion of hornblende to an aggrega-
+tion of pyroxene, magnetite and feldspar, in some lavas ; and by the
+solution of quartz phenocrysts in some basalts, accompanied by the
+formation of shells of metasilicates surrounding them.
+Already laboratory research has established the range of stability
+of some of the rock minerals under laboratory conditions : the inver-
+sion temperatures under atmospheric pressures of the various forms
+of SiOo, quartz, tridymite, crystobalite ; of the simpler compounds
+crystallizing as orthorhombic and monoclinic pyroxene, and the
+corresponding amphiboles ; of a simple system involving aluminium,
+magnesium calcium silicates ; and of other series of compounds.
+The value of these definite contributions to the problems of the
+mineral composition of igneous rocks is great. Much more is
+needed. And the necessity for eventually approaching nearer to
+the physical conditions obtaining in rock magmas is apparent, when
+the probable efficiency, chemical and physical, of highly heated
+gases under strong pressures is taken into consideration. Research
+under such conditions is attended with great difiiculties, and some
+risks. Enough has been mentioned to show a wide range for future
+study by the geophysicist, the chemist, and the petrographer.
+2. The Mathematics of the Petrology of Igneous Rocks.
+The study of igneous rocks involves the consideration of groups
+of intricate relationships, the exact expression of which is at pres-

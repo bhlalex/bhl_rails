@@ -1,0 +1,37 @@
+272 SEE— SECULAR EFFECTS OF THE [April 21,
+Here )i is the mean motion and E the eccentric anomaly. It will
+be seen from the first of equations (6) that the semi-axis major is
+diminished by a secular term depending on t, and by a periodic term
+depending on the difference of the sines of the angles E and -Eg, or
+the position in the orbit. Thus the mean distance is subjected to
+both periodic and secular variation.
+In the case of the eccentricity, however, the second of the equa-
+tions (6) show's that there is no secular term, and only periodic
+changes occur. A similar remark applies to the longitude of the
+perihelion as shown by the third equation -of (6).
+We conclude, therefore, from Stromgren's careful analysis that
+there is no secular decrease in the eccentricity due to a steady
+growth of the central mass; and that the views expressed by Peirce
+and Bryant are due to confusion, or to some error in the chain of
+reasoning.
+This conclusion accords with the result reached by Professor
+Lehmann-Filhes, in paper Xo. 3,'' cited above. For Lehmann-
+Filhes shows that
+c cos TT = r„ cos TT,, + periodic terms, 1
+e sin TT^ (',, sin tt,, -|- periodic terms : J
+and remarks that when the attracting mass slowly increases the
+orbit slowly narrows up, but yet always remains a similar conic
+section. He adds that this is true for any eccentricity whatever.
+The results of Lehmann-Filhes and Stromgren, each worked out
+independently of the other, and with much detail, are therefore in
+entire accord; and as Str(">mgren's development is given in full, and
+every step in liis analysis is quite clear, we must reject the conclu-
+sions of Peirce and Bryant as not v.'ell founded.
+This concllusion that the steady increase of the central mass will
+not diminish the eccentricity also confirms the results reached by
+Airy* and by Sir John Herschel.-^' For these eminent authorities
+show that a central attractive disturbance decreases the eccentricity
+as the planet moves from the perihelion to the aphelion, but increases
+^Cf. A. N., 3479-3480.
+* ■' Gravitation," pp. 50-51.
+'"Outlines of Astronomy," tentli edition, 1869, p. 463.

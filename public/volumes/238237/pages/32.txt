@@ -1,0 +1,36 @@
+HAYES— DETECTION OF SUBMARINES.
+29
+A line of receivers connected in the manner shown in Fig. 2 is
+termed an M-F Tube. Only sounds from one definite direction,
+that shown by the arrow, reach the listener's ear in phase and this
+results in eliminating to a great extent all local surface noises. Such
+a line of receivers arranged to rotate in a horizontal plane makes an
+'(/-X)-
+-> —
+•rem' -rr rBTin * rOlK
+lie - ;+yg^T?°/- l- OAI
+X- .(.JS
+7Sg J
+H
+1
+1
+X
+1 rn r^ ii rn
+Plate XL Principle of M-F tube
+r^ r~i 11
+excellent maximum instrument. In practice two such lines are
+mounted side by side with a horizontal separation of about four feet.
+By connecting the outlet from each line of receivers to the two ears
+respectively the binaural principle for determining direction can be
+utilized. In Plate XL a is shown one type of the double M-F Tube
+designed for use on submarine chasers.
+An instrument of this kind gives a binaural centering of sound
+at the same time that it is at a maximum, precisely as does the M-B
+Tube. It is at the same time much freer from water noise than the
+M-B Tube because it is in focus for sound from only one direction.
+The M-F Tube has no ambiguity of 180 degrees as has the M-^B
+Tube and the C-Tube. Because of the combination of these desirable
+properties, the double M-F Tube is the best rotating hydrophone
+device that we have.
+The " M-V Tube" is a listening device employing multiple re-
+ceivers equally spaced in a line and mounted in a fixed position

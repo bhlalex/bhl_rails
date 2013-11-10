@@ -1,0 +1,40 @@
+THE EQUIVALENCY OF PROPOSITIONS. 133
+be true at the same time ; ' All men are immortals ' is of
+course contradictory.
+One sufficient test of equivalency is the capability of
+mutual inference. Thus from
+All electrics = all non-conductors,
+I can infer
+All non-electrics = all conductors,
+and vice versa from the latter I can pass back to the
+former. In short A = B is equivalent to a = b. Again,
+from the union of the two propositions, A AB and
+B AB, I get A = B, and from this I might as easily
+deduce the two with which I started. In this case one
+proposition is equivalent to two other propositions. There
+are indeed no less than four modes in which we may
+express the identity of two classes A and B, namely,
+FIRST MODE. SECOND MODE. THIRD MODE. FOURTH MODE.
+7 A = AB1
+a = T> A-n f
+B AB J
+The Indirect Method of Inference furnishes an universal
+and clear criterion as to the relationship of propositions.
+The import of a statement is always to be measured by
+the combinations of terms which it destroys. Hence two
+propositions are exactly equivalent when they remove
+exactly the same combinations from the Abecedarium,
+and neither more nor less. A proposition is inferrible
+but not equivalent to another when it removes some but
+not all the combinations which the other removes. Again,
+propositions are consistent provided that they leave some
+one combination containing each term, and the negative
+of each term. If after all the combinations inconsistent
+with two propositions are struck out, there still appears
+in the Abecedarium each of the letters A, a, B, I, C, c, D, d,
+which were there before, then no inconsistency between
+the propositions exists, although they may not be equiva-
+lent or even inferrible. Finally, contradictory propositions
+A -p 7 = a = ab\
+A = D a = A- -L ~L\
+b = ab J

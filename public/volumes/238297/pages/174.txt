@@ -1,0 +1,36 @@
+148 THE PRINCIPLES OF SCIENCE.
+phenomena to be compared are rare. Thus we prove
+that all the musical concords coincide with all the more
+simple numerical ratios, by showing that each concord
+arises from a simple ratio of undulations, and then show-
+ing that each simple ratio gives rise to one of the con-
+cords. To examine all the possible cases of discord or
+complex ratio of undulation would be impossible. By a
+happy stroke of induction Sir John Herschel discovered
+that all crystals of quartz which rotate the plane of polar-
+ization of light are precisely those crystals which have
+plagihedral faces, that is, oblique faces on the corners
+of the prism unsymmetrical with the ordinary faces.
+This singular relation would be proved by observing that
+all plagihedral crystals possessed the power of rotation,
+and vice versd all crystals possessing this power were
+plagihedral. But it might at the same time be noticed
+that -all ordinary crystals were devoid of the power.
+There is no reason why we should not observe any of the
+four propositions A = AB, B = AB, a = ab, b = ab, all of
+which follow from A = B (see p. 133).
+Sometimes the terms of the identity may be singular
+objects ; thus we observe that diamond is a combustible
+gem, and being unable to discover any other that is, we
+affirm
+Diamond = combustible gem,
+In a similar manner we ascertain that
+Mercury = metal liquid at ordinary temperatures,
+Substance of least density = substance of least atomic
+weight.
+Two or three objects may occasionally enter into the
+induction, as when we learn that
+Sodium I potassium = metal of less density than
+water,
+Venus I Mercury I Mars = major -planet devoid of
+satellites.

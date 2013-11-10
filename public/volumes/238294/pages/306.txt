@@ -1,0 +1,42 @@
+( 787 )
+to the riglit and likewise of course by a reflection preceded or
+followed l)v a double rotation eqniaiignlar to the left."
+The |)iane of rolalion of the equiangular (h)uble rotation passing-
+through tlie axis of rellectiou remains for both parts of the trans-
+fornialion in an unaltered position; it undergoes by the double rotation
+a congruent Iransformation and by the reflection a symmetric one.
+The plane of I'olation of the equiangular double rotation situated
+in the space per|)eiidicular to the axis of reflection i-emains also for
+Itolli parts of the transformation in an unaltered position; it is not
+transformed at the reflection and undergoes by the double rotation
+a congruent transformation.
+Those t\vo |»lanes of rotation are perpendicular to each other, so
+that geometrically the wellknown property is proved:
+"For synunetric transformation of S^ about a fixed point one pair
+of jilanes remains at its place; and one phuie of it is transformed
+congruently, the other symmetrically."
+Physics. — "Oh the equations of Clausius and van der Waals /}//■
+the /nean /eiu/th of path and the ntiinher of collision.s." By
+Dr. Pn. KouNSTAMM. (Comnuinicated by Prof, van der Waals).
+Several of the methods ])roposed for the derivation of tlie equation
+of state, make use of formulae for the mean length of path. It is
+therefore not to be expected that we shall arrive at undoubted results
+as to the former, so long as the results as to the latter quantity are
+not concordant. Now it is generally known that van der Waals has
+found for the length of path and the numl)er of collisions in a gas
+with perfectly hard, perfectly elastic spherical molecules:
+V — h u jr ns^ —
+^-= 7- ^= — r^ (^)
+vT US' r V —
+It does not seem to be so generally known, that Clausius^) and
+in accordance with him Jager ^) and Boltzmann ^), have obtained
+another result, viz :
+b lib
+^ 1—2 — 1
+1=-^^ ^ P=1^7— 1^. . . (2)
+mns'' r . 11 ^ V 1 o^
+~¥ V ~ V
+1) Kinetische Theorie der Gase, p. 60.
+2) Wien. Sitzungsber. 105, p. 97.
+'^j BoLTZMANN GaslheoHe, p. 104.
+52^

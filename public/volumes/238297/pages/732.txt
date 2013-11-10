@@ -1,0 +1,23 @@
+BOOK V.
+GENERALIZATION, ANALOGY, AND CLASSIFICATION.
+CHAPTER XXVII.
+GENERALIZATION.
+I HAVE endeavoured to show in preceding chapters that
+all inductive reasoning is an inverse application of de-
+ductive reasoning, and consists in demonstrating that the
+consequences of certain assumed propositions or laws
+agree with facts of nature gathered by active or passive
+observation. The fundamental process of reasoning, as
+stated in the outset, consists in inferring of any thing
+what we know of similar objects, and it is on this prin-
+ciple that the whole of deductive reasoning, whether
+simply logical or mathematico-logical, is founded. All
+inductive reasoning must therefore be founded on the
+same principle. Now it might seem that by a very plain
+use of this principle we might avoid the complicated pro-
+cesses of induction and deduction, and argue directly from
+one particular case to another, as the late Mr. J. S. Mill
+proposed. If the Earfh, Venus, Mars, Jupiter, and other
+planets move in elliptic orbits, cannot we dispense with
+all elaborate precautions, and assert that Neptune, Ceres,
+or the last discovered planet must do so likewise? Do

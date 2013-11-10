@@ -1,0 +1,42 @@
+' ( 432 )
+clironoiiielei' were luuiid l)v direet imerpolalion between tlie observed
+values as liiveii in the table above. As the teniperatnre varied oulv
+slow Iv 1 deemed it imnecessarv to aeeount especially for its inlluenee.
+The riij;hl asceiision and deelination ol'the eoni[>arison stars ^^•ere laken
+tViun the ephemerides of the nautical almanac ^\ hich for these years
+are based on Nkwco.mb's Fundamental ( "afaloiiiie and for my purpose
+could be considered as absolutely cori-ecl. This is not the case ^^ilh
+the ri;^ht ascension and declination of the moiMi. as the errors in
+the values compnte<l by means of the tables of IIaxskn-Xkwcomi?
+jna\' still be ([uite sensible.
+Especially with a \ie\v to my observations, iv V. van ok Sandk
+Bakhlyzkn has ujiderlaken an iu\estiualion of the errors of those
+tables^) and 1 could a\ail myself of his results. Koi- the dei'i\atiou of
+the corrections that must be a}>plied to the moon's places 1, on his
+ad\ice, [)roceeded as follows.
+]>et us lirst consider the errors of the ion.ii'itude. For the constant part
+of the correction of the mean lon.uitude 1 a(loi)te(l -[- '^ "-'^^Ml^vKii. 1 p.
+o7(i and 3(S3) and to this 1 adde(l the coi-rections for the parallactic
+iiie(pialit\- etc. computed from the tbrmula of üakii. I p. 375. The
+sums of these two correctiojis \vere transformed into corrections of
+the true loniiitude, and 1 auain added to these the corrections for
+the ineipiality in the true loniiitude \\ hich Nkwcomh had been the
+tirst to tind and which IJvKurvzKX lia<l deternnned anew from the
+observations. 1 used therefor the \alues of the coefticieJils A and /'
+as given by the formulae in ISaku. 11 p. 420, but added to either
+of them the constant coi-rection — ()".3(), in ord(M' better to represent
+the ol>servalions (comp. I.e. p. 41H). These corrections should be
+applied to the orbit longitude, but with snfticient ap|)r()ximation might
+be considered as corrections of the ecliptic longitude.
+As correction of the moon's latitude I a(k)pted (comp. 1>akh. 11 421 ),
+A ,? = — ()".5(S sill u + ().()8(^ [L I — Vr. 1 ) CCS- u
+where // represents die argument of the latitude and LI the total
+correction of the longitude, while 1 assumed for the correction of
+the kuigitude of the node for 1902 -|- i2".i.
+From the corrections of the longitude and the latitude hu'med in this
+way, I derixed those of the riiiht ascensions and the declinatious by
+means of the tables in Nkwcomh's " I iircsf'Kjdtioir . Another correction,
+however, had still to be applied to the i-ight ascensions, the reduction
+1) I'l F. VA.x 1)1-: Sandk BAKHrYZKX, iiive.'-tigatiun ot the enois of tlie tables oMke
+moon of H.wsr.x-XEWco.MB in Uie years iSUÖ-^l'.IOi::. I and II. Tioc. Acad. Amster-
+dam Der. I'.Mli lUO:'). These two papers I sliall (|nol<' as Üaku. I and liAwn. II.

@@ -1,0 +1,42 @@
+208 MACLEAR'S REDUCTION OF [Jan. 26, 1857.
+nance maps of all the counties of Ireland, on the scale of six inches
+to the mile ; together with general maps of Ireland ; Black's Atlas
+of North America, presented by the publisher ; Atlases of heights,
+by J. M. Ziegler, Corresp. f.r.g.s. ; with the Transactions of the
+Darmstadt Geographical Society, of the Hakluyt Society, &c.
+Announcements. — The Sixth Number of the ' Proceedings,' pub-
+lished that day, would be distributed to the Fellows by Mr. Stan-
+ford, of 6, Charing Cross.
+The Papers read were : —
+1. Extract frmn a Letter addressed hy Th. Maclear, Esq., H. M.
+Astronomer at the Capet to the Secretary/
+" Royal Observatory, Cape of Good Hope,
+Nov. 3, 1856.
+" The object of this letter is to report progress in the reduction of
+the astronomical observations, which that remarkable and excellent
+man Dr. Livingston, made for geographical positions, on his track from
+Loanda across the continent to Quilimane. He has sent them to me
+for reduction, and I am anxious that they should be in Sir E. Mur-
+chison's hands, according to Livingston's request, with the least pos-
+sible delay : or rather, I am anxious that they should meet him in
+England at the right time — the time when the Society and the public
+at large, will be doing him due honour for services without a
+parallel.
+1. To expedite the reductions, I had skeleton forms printed for
+the computation of ^/me /rom altitudes ; for altitudes /rom ^wie; and
+for Greenwich time from the lunar distances.
+2. His observed lunar distances were compared (roughly) wilh
+tabular lunar distances, in order to detect errors of date as to the
+day of observation — a common source of error where civil clashes
+with astronomical reckoning.
+3. The watch error was computed from each altitude, whether
+observed for watch-error or for the calculation of parallax and
+refraction, to detect errors of entry or of transcribing ; and while
+this tvas going on, another computer was following closely, cal-
+culating the parallaxes and altitudes for the times of lunar distance
+measures.
+The total number of altitudes computed for time is 214, exclusive
+of repetitions or checks.
+To this point the reductions w^ere brought up on Saturday. To-
+day we commence the lunar distances, which will be computed by
+the rigorous trigonometrical process, viz. the final computation;

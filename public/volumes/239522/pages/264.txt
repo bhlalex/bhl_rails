@@ -1,0 +1,42 @@
+EXPANSION PROBLEMS. 387
+must occur in conjugate pairs. -^^ Returning to the rejected part of
+the sector (4), we need not inquire minutely what roots may be present
+there ; it is sufficient for our purposes to recognize that, as <p is analytic
+in the finite region in question, there can not be infinitely many of
+them. There will be an index g, positive, negative, or zero, such that
+if the characteristic numbers ^^ are arranged in order of increasing
+absolute value, and the first is denoted by Pg, the second by Pg+i,
+and so on, the number pn will be nearly equal to p'n, for large values of n.
+To summarize :
+The system (1), (2) has infinitely many characteristic values on, of
+which not more than a finite number can be imaginary. ^^ The
+characteristic numbers can be written in the form
+Pn = —]=+ -i=-\-en, 11= g,g-\-l,g-\-2,...,
+3 V3 V.S
+where
+lun f.
+en = 0.
+n= 00
+To this we may add at once that there is just one characteristic
+function un{x) corresponding to each characteristic number,
+Un (x) = e-""^ + coe""""^ + oi'^c-'^P'^^
+(7) f I- ^3 V3 \
+= 6-""^+ e J""-' ( V3 sin — PnX - cos — pnxj,
+the latter expression involving only real quantities if pn is real.
+Now if the usual expansion theory were capable of extension to the
+present problem, it would be possible to develop any function, satisfy-
+ing certain not very restrictive conditions, in a uniformly convergent
+series of the form
+00
+(8) 2 an Unix).
+n = g
+But we shall see that the series is very far from possessing the necessary
+flexibility. In fact, we shall prove the following theorem :
+10 Cf . Bocher, Boundary problems in one dimension, International Congress
+of Mathematicians, Cambridge 1912; see the last paragraph of §6, containing
+a reference to Birkhofl.
+11 If some of the characteristic numbers in the finite region just mentioned
+should lie on the rays that form the boundary of the sector, we should take
+into account only the values on one of the rays.
+12 Laudien (loc. cit., pp. 73-76) gives a proof, which he ascribes to Teich-
+mann, that the characteristic values are real from the very beginning.

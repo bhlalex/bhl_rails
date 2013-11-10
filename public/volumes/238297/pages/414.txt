@@ -1,0 +1,35 @@
+388 THE PRINCIPLES OF SCIENCE.
+measured before we possess the materials for a true
+inductive treatment.
+Illustrations of the Complication of Effects.
+It is easy to bring forward a multitude of instances to
+show that a phenomenon is seldom to be observed simple
+and alone. A more or less elaborate process of analysis
+is almost always necessary. Thus if an experimentalist
+wishes to observe and measure the expansion of a liquid
+by heat, he places it in a thermometer tube and registers
+the rise of the column of liquid in the narrow tube. But
+he cannot heat the liquid without also heating the . glass,
+so that the change observed is really the difference between
+the expansions of the liquid and the glass. More minute
+investigation will show the necessity perhaps of allowing
+for further effects, namely the compression of the liquid
+or the expansion of the bulb due to the increased pressure
+of the column as it becomes lengthened.
+In a great many cases an observed effect wih 1 be ap-
+parently at least the simple sum of two separate and
+independent effects. The heat evolved in the combustion
+of oil is partly due to the carbon and partly to the
+hydrogen. A measurement of the heat yielded by the two
+jointly, cannot inform us how much proceeds from the
+one and how much from the other. If by some separate
+determination we can ascertain how much the hydrogen
+yields, then by mere subtraction we learn what is due
+to the carbon ; and vice versa. The heat conveyed by a
+liquid, may be partly conveyed by true conduction, partly
+by convection. The light dispersed in the interior of a
+liquid consists both of what is reflected by floating
+particles and what is due to true fluorescence a ; and we
+must find some mode of determining one portion before
+we can learn the other.
+a Stokes, 'Philosophical Transactions' (1852), vol. cxlii. p. 529.

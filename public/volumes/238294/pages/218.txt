@@ -1,0 +1,43 @@
+( 671 )
+removing llie vapour uiuler veiy low pressure, which implies a
+rather considei'able loss of work by friction, if boiling nevertheless
+occurred at a higher pressure. And this nnist occur Avhen to the
+suction i)i-essure was to be added a noticeable hydrostatic pressure
+due to the turns of the condensationspiral, where the vapour forms,
+being much beneath tiie surface of the evaporating liquid. In the case
+of the methylchloride circulation it seemed to me that the obtaining
+of the lowest possible temjierature was not of utmost importance and
+that there was no objection to simplify the construction by allowing
+liciuid to be introduced to a height of 20 cm. in tiie refrigerator,
+though not all protit is taken in this way of the low ])ressure (at most
+20 nmi. of mercury) under which the Burckhardt — Weiss vacuum
+pump, which is introcbiced into the methylchloride circulation, sucks
+at full speed (usually about 8 mm. is employed).
+The spiral where the ethylene is liquetied (length 53 m., inner
+diameter 6.4 mm., thickness of wall 0.8 mm.) lies in two windings
+in the hollow cylindrical mantel 6" in which the conical refrigerating
+vessel D terminates below. There is just room between the two
+windings of the spiral i^see section bottom left l)elovv^ and the elevation
+of the section through I) bottom right on the plate) for the ascending
+tube Ad by which the lower end of the inner spiral .Ic ^Ir/ is Joined
+to the upi)er end of the outer. These two cylindrically wound spirals
+are Joined to a Hat spiral Ac which lies on the bottom of the boiling-
+vessel. When the latter is well tilled this spii-al lies Just under the
+surface of the liquetied gas introduced through the cock .V. The spirals
+are coupled so that the li(pii{l is driven out by the pressure of the
+gas. If the boiling vessel is always kept so full that the tl at spiral is
+immersed, it is advantageous to let out the condensed gas from the
+last spiral. Shoidd it be desirable to work with a smaller quantity,
+it is l)etter to tirst run the gas to be condensed through the tlat
+s])iral ; this case is shown in the drawing. If the tlat sjtii-al is immersed
+the temperature (usually — 87° C.) of the liquid can be read on the
+thermometer (), the stem of which is bent for convenience and is
+immersed in the tube Dj^ filjed with alcohol and protected from
+interchange of teuq)erature with the air by means of aii ebonite
+tul)e Dd-i Joined to it with tish glue. The capacity for liquetied gas
+when the cylinder- and flat spirals are covered is 6 litei's, the volume
+of tlie spiral 1 liter.
+The conical sjiace of the refrigerator is suflicieiit even foi' an
+excessive boiling up of the li»]uid, which is always large at low
+temperatui-cs as can be seen from the movements of the float.
+The regenei-ator spiral consists of two long tubes i>\ and i>V^ 31) m.

@@ -1,0 +1,36 @@
+94 THE PRINCIPLES OF SCIENCE.
+the law to be more and more complicated than was pre-
+viously supposed.
+There is yet another way of explaining the apparent
+results of a complicated law. If we take any curve and
+regard only a portion of it free from any kind of discon-
+tinuity, we may represent the character of such portion
+by an equation of the form
+y = A + Ex + Cx* + Vx* +
+Restrict the attention to a very small portion of the curve,
+and the eye will be unable to distinguish its difference
+from a straight line, which amounts to saying that in the
+portion examined the term C x 2 has no value appreciable
+by the eye. Take a larger portion of the curve and it will
+be apparent that it possesses curvature, but it will be
+possible to draw a parabola or ellipse so that the curve
+shall be apparently coincident with a portion of that
+parabola or ellipse. In the same way if we take larger
+and larger arcs of the curve it will assume the character
+successively of a curve of the third and fourth degrees ;
+that is to say, it corresponds to equations involving the
+third and fourth powers of the variable quantity.
+We have arrived then at the conclusion that every phe-
+nomenon, when its amount can only be rudely measured,
+will either be of fixed amount, or will seem to vary uni-
+formly like the distance between two inclined straight
+lines. More exact measurement may show the error of
+this first assumption, and the variation will then appear
+to be like that of the distance between a straight line
+and a parabola or ellipse. We may afterwards find that
+a curve of the third or higher degrees is really required
+to represent the variation. I propose to call the variation
+of a quantity linear, elliptic, cubic, quartic, quintic, &c.,
+according as it is discovered to involve the first, second,
+third, fourth, fifth or higher powers of the variable. It is
+a general rule in quantitative investigation that we com-

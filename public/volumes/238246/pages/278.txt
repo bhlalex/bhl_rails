@@ -1,0 +1,45 @@
+411
+sutz (4) von § 9. Da zii jeder Siihsiilntioii eiiier (rriippe audi die
+reciproke Subslitiitioii vorkommt, so wird ins Besoiidere liiei- zn
+jedein Sjstem />o„, /;^», . . . aiicli das System 2 — />„,,, {</:f, — b^„, (f^— bi,,- ■ ■
+auftreten. Wenn diese Systeme von einander verscliiedeii siiid, so ist,
+iiacli dein ebengeuannten Hiilfssatz, das Prodiikt dei' ziigeli(»iigen
+Functionen F iind F' gleicli ^Ir^m. Sind sie aber einander gleich so
+hat das Prodnkt den Wert ±ydnm.
+Das Prodnkt (12) liat daljer den Wert
+1 \ m
+i2r
+n [/(In
+(13)
+wenn man das Vorzeielien ansser Aclit laszt.
+Bevor wir nun den Wert dieses Prodnktes entgültig bestimmen,
+formen wir die Summe aiis (II) um, Znerst kunnen wir darin den
+Exponent — 1 weglassen, weil, wie sclion bemerkt worden ist, zu
+jedem System der Zahlen b, audi das System 2 — bou, • ■ ■ ■ vorkommt.
+Wei ter ist
+<
+<-2
+log A, =z 2 + 2
+log A,
+Denn, fur den Fall dasz m ungerade ist, folgt diese Gleicldieit
+aus der bloszeii Bemerk ung dasz
+m gerade, so ist oflfenbar
+m
+— ist. 1st, im Gegensatz,
+da m durcli 4 teil bar ist.
+Zur weiteren Umformung benutzen wir die leiclit zu erhaltende
+Beziehiing:
+und audi die Gleichheit J,„_., = ^„ und erhalten so fur die Summe
+s
+<m : 2
+2 21
+loq As
+Nadi Einfülirung in die Formel (9j und nadi Einselzung des
+Werles von x und der in § B beredineten Diserimiiiante d, erlialt
+man den im Satze angegebenen Endausdruck fur die Klasseiizahl,
+nachdem das Prodnkt aller Zalilen d» weldies in ^13) anftritt be-
+reclinet ist. Weil die Beredinung dieses Prodnktes dieselbe ist beim
+zweiten Teil des Salzes, so werden wir diese Beredinung bis ziim
+Ende des Beweises aufscliieben.
+Betoeis des zuwUeii Teils des Satzes.
+Das Prodnkt aus (9) zerlegeii wir in zwei Produkten : das ersle

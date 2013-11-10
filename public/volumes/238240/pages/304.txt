@@ -1,0 +1,36 @@
+191 1.] AGGREGATES OF ELECTRONS. 361
+view is taken the estimated frequency is not changed enough to
+affect the general argument.
+If the Roentgen rays are so much Hke white hght you will at
+once ask why they are not deviated by a prism. The answer is very
+simple. It follows from the principles of the electron theory that
+the refractive index /a of a substance for electromagnetic vibrations
+of frequency p is given by ^- ^ i -|- 2 — t — f 2\ "^vhere e is the
+charge on an electron, in its mass, />., its natural frequency and vs
+the number of electrons of type .s^ in unit volume of the material. In
+general this formula will not be exact on account of the interactions
+of the electrons on one another but it will give results of the right
+order of magnitude. Xow c and ;;; have the same value for all
+electrons and in the part of the spectrum near the visible vgC-frnpa^
+is of the order unity for such frequencies /',, as fall within that
+region. Xow r., will always be of the order of the number of mole-
+cules per cubic centimeter whichever of the .y classes of electrons we
+consider, so that we may draw the following conclusions : ( i ) On
+account of the very great absolute value of p. ft- will be equal to
+unity except for a very narrow range in the immediate neighbor-
+hood of p = pg- (2) Only such substances will be capable of re-
+fracting the Roentgen rays as have natural frequencies ps which lie
+within the range of values of p embraced by the Roentgen rays ex-
+perimented on. In any event it is clear that with a mixed group
+of rays such as is emitted by an ordinary X-ray bulb, practically the
+whole of them will pass through a prism without deviation.
+Barkla's experiments on secondary rays show that the Roentgen
+rays exhibit phenomena very much akin to fluorescence in optics.
+One interpretation of Barkla's results would be that there are in
+material atoms natural frequencies comparable with the frecjuencies
+in the Roentgen rays. In that case, although almost the whole of a
+beam of Roentgen rays would be undeviated by a prism there
+should be a small amount which would be deviated. At present I
+am making experiments to detect this effect.
+Of course if one adopts the corpuscular view of the Roentgen
+rays recently developed by Bragg, eft'ects of the kind described are

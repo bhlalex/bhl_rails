@@ -1,0 +1,32 @@
+342
+KENNELLY-NABESHIMA— ESTABLISHING A
+alternation of impressed e.m.f., there is an accidental transient
+ripple, due to a slip in the contact mechanism of the line-switching
+apparatus at A. This momentary disturbance is clearly duplicated
+simultaneously at Aig in the sending current. After an interval of
+about 2 milliseconds, a similar ripple transient appears at Ae,-, in
+the voltage at B. All of these transients are absorbed in s^, at B,
+and do not reappear. Such wave transients may be called casual
+transients, to distinguish them from initiating transients which occur
+at the starting of an a.-c. regime, or from terminating transients
+which occur at the opening of an a.-c. circuit.
+Regular Transients with Apparent Distortion. — In the case repre-
+sented by Fig. 9, the e.m.f. and current waves, launched without
+appreciable splash, develop regular transients that build into the
+final steady state, without noticeable distortion. The successive
+alternations increase in size without departing noticeably from their
+sinusoidal shape. This is for the reason that the successive reflec-
+tions, so long as they are of appreciable magnitude, happen to make
+their appearance, at each end of the line, at or near the moments
+when the voltage and current are passing through zero. This must
+always happen, according to theory, when the length of the freed
+line is a quarter wave for the impressed frequency. If, however,
+the line has a length distinctly different from a quarter wave, or
+'no
+im
+Fig. 13. Apparent Distortion of Transients due to Interference of Suc-
+cessive Reflections.
+simple multiple thereof ; or if the voltage and current waves are
+recorded at some intermediate point of a freed quarter-wave line,
+each of the successive reflections will come in during the active part
+of an alternation. In particular cases, they may happen to arrive

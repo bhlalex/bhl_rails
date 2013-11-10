@@ -1,0 +1,42 @@
+49
+From the general principle of convergence (c.f. n". 4 of my previous
+paper) it follows, that uniform convergence exists then and then
+only, if corresponding to every positive number e a positive number
+(f independent of G can be found, so that e\ery two elements E
+and E' of Ge satisfy the inequality \E — E'\<^s.
+4. Let it now be assumed, that the uniforii) co)ivergence mentioned
+in n". 3 does exist and moreover, that every aggregate H has a. limit
+Lh as regards the covering hy the parts of V; in consequence of
+this there is a number Lfj corresponding to every element of W.
+We now first demonstrate, that the aggregate [Lq] of the numbers
+Lq possesses a limit L as regards the covering by the parts of V.
+For this purpose we must prove, that corresponding to every posi-
+tive number e such a Vs can be found, that every two elements
+of Ve satisfy the inequality \L(j — Lq'\<^8, where L g Siud L q' ave
+the numbers of \L(j\ corresponding to these elements. If E and E'
+are, elements of G resp. G' , belonging to a same aggregate H,
+we have :
+\Lg — Lg'\^\Lg~E\ + j^-^'l + \E'-Lg'\.
+On account of the uniform convergence of the aggregates G the
+aggregate H can be chosen thus, that | Lg — E\ and j E' — Lg' \
+are both <[ y ^ ■ As H possesses a limit, we can choose ö thus,
+that every two elements E and E' of B^ satisfy the inequality
+I E —E' I <^ ^ s. For the numbers Lg and Lg' corresponding to two
+elements of Vo then | Lq — Z(j' | <^ ^g -|- |8 -|- è^ = ^ holds good.
+5. We next prove, that the aggregate \ Lh \ of the numbers L^
+{as regards the covering by the parts of W) likeioise has the limit L.
+We therefore proceed from
+\Lh—L\^\ Lh-E\ + \E-Lg\ + \Lg-L\,
+in which E is the common element of the aggregates G and H.
+On account of the uniform convergence mentioned in n°. 3 we can
+determine the positive number 6 in such a way, that \E — Lg\<^^^
+holds good if E be an element of Gs, i.e. if H corresponds to an
+element of Ws; here 8 is an arbitrarily chosen positive number. If
+we have now chosen a determinate element of W^ (by which also
+H and L^ are determined), we can find the positive number ö^ in
+such a way, that the inequality \Lh — E\<^~b is satisfied, if ^be
+an element of H^^ , i. e. corresponds to an element of Vs^ . Further
+we can determine (f^ thus, that we get \Lg — Lj\ <^^8, if G corre-
+sponds to an element of Fj, . By making the aggregate G to
+4
+Proceedings Royal Acad. Amsterdam. Vol. XXII.

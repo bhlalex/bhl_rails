@@ -1,0 +1,61 @@
+NICHOLS. — THE VISIBLE RADIATION FROM CARBON.
+91
+had been constructed for the purpose of securing uniform temperature
+for the standard clock of the physical laboratory, and other similar
+apparatus. The range of temperature in this room fluctuated through-
+out the entire investigation be-
+tween 18°C. and 19°C. The
+ranofe was so small and the
+variations occurred so gradu-
+ally that no changes of electro-
+motive force of a size which
+it was necessary to consider in
+these measurements could have
+arisen other than those included
+in the usual correction for
+temperature.
+The two cells were compared
+with each other from time to
+time by setting them in opposi-
+tion to one another in circuit
+with a sensitive galvanometer
+and noting the deflection pro-
+duced. It was found that
+although one of them was sup-
+plying current to the 100,000
+ohm circuit of the potentiome-
+ter, during the times when it
+was necessary to close the key
+of that circuit, the difference
+of electromotive force between
+the used and unused cell was
+always very small, never more
+than a few hundred thousandths
+of a volt. At the end of the
+entire set of measurements, the
+difference was 0.00006 volts.
+The absolute electromotive
+force of these cells was checked by comparison with Clark cells of the
+H form and of the test-tube form, constructed in this department in 1S98.
+As a result of these comparisons it was found that the electromotive
+force of the cell used in the potentiometer might be taken at 1.430 volts
+at 18.°
+"^S'x^
+MELTING
+f/y^
+1600°
+PT. OF PT.
+1400°
+If
+1200°
+f
+1000°
+1
+800°
+o
+600
+400°
+200°
+6 mm
+4mm
+Figure 11.

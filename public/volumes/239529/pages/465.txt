@@ -1,0 +1,42 @@
+698
+only to some tenths of degrees for the thickest and the thinnest
+material. After this the measurements were carried out with thermo-
+elements of 1.4 (i thickness. The temperature which these thin
+elements indicate, differs so little from that which would be found
+with an infinitely thin thermo-strip, that the remaining error may
+be neglected by the side of the other errors.
+2. We shall now proceed to a discussion of the results of the
+measurements guided by the theory x ).
+In order, however, to be able to apply the theory, and also to
+be able to calculate the temperature that has been observed, a
+number of quantities must be measured, which occur in the theory.
+These quantities are:
+1. The linear velocity of crystallisation of salol at different tempera-
+tures of the thermostat and in tubes of different internal and externaf
+dimensions;
+2. The specific heat of the solid substance and of the liquid;
+3. The melting-heat of salol;
+4. The density of the solid substance and of the liquid ;
+5. The thermal conductivity of the solid substance and of the
+liquid ;*)
+6. The interior and exterior radius of the tube.
+The results of these measurements were the following:
+1. The linear velocity of crystallisation was determined in three
+different tubes, which have also been used for temperature observa-
+tions. The temperature of the thermostat ranged between about 0°
+to 29° C. Measurements of the velocity of crystallisation above a tem-
+perature of from 22° to 29°, dependent on the thickness of the tube,
+have no value. When we get too near the melting-point (42°), the
+crystallisation proceeds irregularly, and the velocity of crystallisation
+is not constant. It can be observed that the surface of the solid
+phase, which is convex and smooth and has a definite form at
+lower temperatures, becomes concave and irregular of form. Theory 3 )
+is able to account for this fact.
+The maximum velocity appeared to be 3.68 mm. a minute in-
+dependent of the bore of the tube 4 ). This value refers to pure saloJ.
+') Loc. cit.
+2 ) I take great pleasure in expressing once more my hearty thanks to Miss A
+M. Huffnagel for the trouble she has taken to measure these quantities.
+3 ) Loc. cit.
+4 ) The temperature of the thermostat at which this maximum occurred, does
+depend on the dimensions of the tube.

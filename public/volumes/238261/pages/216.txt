@@ -1,0 +1,41 @@
+HALL AND AYRES. — HEAT CONDUCTION IN IRON. 301
+per square centimeter in water-gram units " equals 0.000252. Assum-
+ing this rate of emission or absorption for each of the 50 sq. cm. of the
+curved surface of the disk, we should get for the passage of lieat per
+second 50 X 0.000252 X 5 = 0.0G3 units. The heat passii.g per second
+through the disk from face to face was usually about one hundred times
+as much as this. If we as&ume, for the moment, that the passage of heat
+through the curved surface of the disk is equal to 1 % of that which Hows
+from face to face, we may thereupon reason as follows. When the warmer
+stream flows above the disk, the disk takes in heat from the jacket, and
+the total amount passing out through the lower face of the disk exceeds
+by 1% the amount flowing in at the upper face. The inflow at the
+curved surface distorts the isothermals and lines of flow within the disk
+in such a way that, with a given difference of temperature between the
+faces, the flow from fixce to face, which is equal to the inflow at the upper
+face, is less than it would be if the flow within the disk were adiabatic,
+that is, if there were no inflow at the curved surface. On the other
+hand, the outflow at tlie lower face is greater than the adiabatic flow
+from face to face would be. We may conclude that, under the conditions
+assumed, the actual inflow at the upper face is about 0.5% less than the
+adiabatic flow would be with like temperatures at the faces, and that the
+outflow at the lower face is about 0.5% greater than the adiabatic flow
+would be. Our method of calculating ^assumes adiabatic flow, while
+our observations give us the inflow at the upper surface. Accordingly,
+under the conditions here assumed, the value obtained for K would be
+about 0.5% too small. A similar error, in the same direction, would be
+made with the colder stream flowing above the disk, so that we could
+not eliminate it by combining two sets of observations. In fact, however,
+the assumption that the rate of transmission at each square centimeter
+of the curved surface of the disk, thickly wrapped with cotton, is the same
+as that found by McFarlane for a bare blackened surface of copper,
+gives a very large overestimate of the possible error from this source.
+Turning now to the surfaces between the top of the disk and the parts
+Ji, Jo, Figure 2, we find the area of these surfaces to be about 300 sq.
+cm. No systematic observations of the temperature of the jacket were
+kept during the experiments of which this paper gives an account, but
+from previous observations it appears probable that the mean tempera-
+ture of the jacket was about 1° C. lower than the temperature of the
+parts which we are now considering, when the warmer stream ran
+above, and 0°.5 or less higher than the temperature of these parts when
+the colder stream ran above. Assuming the difference of temperature

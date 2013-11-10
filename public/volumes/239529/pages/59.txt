@@ -1,0 +1,47 @@
+58
+avec la condition qu'aucun des ?. /l '"> n'est négatif et que leur
+somine pour p = 0,1 ..., n est 1.
+[?/") = #">, *„(») = A n J.
+Utilisons maintenant la propriété de la convergence uniforme
+vers de la difference Q \8, ). u] — Q [8, u] quand X et — sont bornés,
+u tendant vers 0.
+Soit f («) Ie maximum de la valeur absolue de cette difference,
+quand 1 < \X\ <^ 'S, \u\ <^ a, 8 quelconque. Alors,
+Q [0, *,<»>] = Q [8, h n ] +di. n e[\hn\l
+Les A,(") étant non négatifs, on a:
+I 2:Xt< n )öi.„ | < s ;.,-(«;= ï.
+Done
+h* h\
+Q [8, h]=Q [8, h H \ + d'6 \_\h„\] -f 9 6A
+K*
+_.*i
++ ...+
+Wl
+h n \\
+(6)
+Sup po sons que la série — — soit absolument convergente.
+hn+\
+Nous allons déduire immédiatement de la formule (6) que Q [8, li\
+tend vers une limite quand h tend vers 0.
+Soit en effet m l'entier défini par
+I hi | < | h | < | A m _i |.
+Nous appliquons la formule (6) a la suite h, h m , h m +u . . . , h m + 9 .
+Dans Ie coefficient de 9 SA, nous remplacons h* par A'„,__i, et nous
+h*
+ajoutons tons les termes marquants de la serie ,. . .. . Nous obte-
+h» 1
+nons a fortiori:
+Q [8, h] = Q [8, hn+q] -f Cf' S LI ?hn+ q |] + 9 ÓA 2 -
+..« - 1 I "n+1 |
+Soit /*' un nombre quelconque inférieur en valeur absolue a /«,«_i et q
+assez grand pour que \h m +q\ <C \h'\. Nous trouvons, en faisant croïtre q :
+\ Q[8, h) - Q (8, h')\< 18 A 2^*—.
+m—l I^h+1 I
+Sous la seule condition: \h\ et \h'\ <^ \h m -i\.
+Done Q [8, h] tend vers une limite quand /* tend vers 0. F (8)
+possede une dérivée au point 8. Soit cp (8) sa valeur. On a, en faisant
+croitre q indéfiniment dans la formule (7) pour \h\ <^2«jA 1 [.
+_\'hn\ m \' l n-\-\ IJ
+En résumé, si \h n \ tend vers en décroissant, si la série
+■ • (8)
+h n +\

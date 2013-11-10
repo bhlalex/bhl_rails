@@ -1,0 +1,42 @@
+6o
+POPULAR SCIENCE MONTHLY.
+the second terminal of which is connected to the earth. The secondary
+circuit of this last oscillation transformer is cut in the middle and is
+connected to the terminals of a small condenser. The outer terminals
+of this secondary circuit are connected to the metallic filings tube or
+other sensitive receiver and to a small condenser in parallel with it (see
+Fig. 23). The terminals of the condenser which is inserted in the mid-
+H
+I -OPPtt— I
+B
+R
+Fig. 23. Marconi Tkansmittee and Receiver. I, induction coil ; A, aerial ; E, earth
+plate ; HH, choking coils ; S, spark gap ; J, transmitting jigger ; K, receiving jigger ; R, relay
+C, condenser; F, filings tube; B, battery. Many practical details are omitted.
+die of the secondary circuit of the oscillation transformer are connected
+through two small inductance coils with a relay and a single cell.
+This relay in turn actuates a Morse printer by means of a local bat-
+tery. The two circuits of the oscillation transformer are tuned or
+syntonized to one another, and also to the similar circuit of the trans-
+mitting arrangement. When this is the case, the transmitter affects
+the coresonant receiving arrangement, but will not affect any other
+similar arrangement, unless it is within a certain minimum range of
+distance. Owing to the inductance of the oscillation transformer
+forming part of the receiving arrangements, the receiving circuit is, as
+before stated, very stiff or irresponsive; the sensitive tube is therefore
+not acted upon in virtue merely of the impact of the single wave against
+the aerial, but it needs repeated or accumulated effects of a great many
+waves, coming in proper time, to break down the coherer and cause the
+recording mechanism to act. An inspection of the diagram will show
+that as soon as the secondary electromotive force in the small oscillation
+transformer or jigger of the receiving instrument is of sufficient ampli-
+tude to break down the resistance of the coherer, the local cell in circuit
+with the relay can send a current through it and cause the relay to act
+and in turn make the associated telegraphic instrument record or sound.
+Mr. Marconi described in the above-mentioned paper some other ar-
+rangements for achieving the same result, but those mentioned all de-
+pend for their operation upon the construction of a receiving circuit on
+which the time-period of electrical oscillations is identical with that of
+a transmitting arrangement. By this means he showed experiments
+during the reading of his paper, illustrating the fact that two pairs of
+transmitting and receiving arrangements could be so syntonized that

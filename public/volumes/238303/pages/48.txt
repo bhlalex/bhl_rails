@@ -1,0 +1,39 @@
+TRANSITION RESISTANCE — MACGREGOR. 51
+insertion across the cell increased slightly the depth of the
+liquid and displaced a certain quantity of liquid by a better
+conductor, the change produced in the resistance of the cell must
+have been very small. The specific resistance of the solutions
+I used was about 28 ohms, and the ends of the tube connectinof
+the compartments were about 6 cm. from the electrodes. The
+total resistance of the cell was about 3000 ohms. With these
+data it may be easily shown that the change in the resist-
+ance of the cell produced by the insertion of the plates could
+not be more than between y^^jj^ and ^ooifu o^ ^^^^ resist-
+ance of the cell itself. The fact that the connectino- tube
+was completely surrounded by the electrolyte and the large
+volume of the box rendered it easy to prevent any variation
+of the resistance of the cell due to change of temperature
+during the short time necessary to make a measurement. The
+electrodes and the four plates described above, were of zinc,
+carefully aumlgamated. The resistance of the cell was determined
+by using Wheatstone's bridge, in the same way as when the
+resistance of a metallic conductor is measured. In the salvano-
+meter branch of the bridge, I used one of Sir Wm. Thomson's
+very sensitive galvanometers, whose resistance was so propor-
+tioned to the resistances in circuit as to mve it the o-reatest
+possible sensitiveness. The solutions which I used were of zinc
+sulphate, bought as pure and refined by crystallization. Their
+density was about that of minimum specific resistance. In order
+to prevent the condensation of dissolved gases on the surface of
+the electrodes and plates, the solutions were boiled before each
+set of experiments, and the electrodes and plates were kept for
+some time in a boiling solution .of approximately the same
+density as that in the cell, before being used. I found great
+•difficulty in getting the electrodes and plates into such a state
+that they would neither originate a current themselves when
+dipped in the solution, nor become polarized when a current was
+sent through the circuit. In some cases, however, I succeeded,
+and was therefore able to make the necessary measurements.
+In these cases the observations were, of course, ver}' simple.
+They consisted in the measurement of the resistance of the
+electrolytic cell, first without the plates, then with the plates,

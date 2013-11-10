@@ -1,0 +1,35 @@
+I9II.] THROUGH A PARTITIOX OF WATER. 123
+section a through which capillary transpiration takes place is defi-
+nitely given. It is obvious that the swimmer must be suspended, for
+instance by fine cross wires, above the bottom of the tank A.
+Reference is finally to be made to convection and to temperature.
+The manipulation during observation necessarily stirs up the water
+and distorts the regular pressure gradient. Hence observations are
+to be made rarely. Again to obviate convection in general the
+vessel must be kept in a room of nearly constant temperature.
+8. Values of the Coefficients. — If the data of the above summary
+be inserted in the equations for k,, and kp,
+viRr 5.15 X lO-'- X 2.87 X lo" x 298 .
+^ adpjdl 10314x23470/40
+/. =klRr= .29 x \o-'\
+Hence for a gradient of i dyne per cm., 2.9 X lO"^^ grams of air
+flow between opposed faces of a cu. cm. of water per second. This
+may be put roughly as about 2.4 X iO"^° cu. cm. of air per second.
+The speed of migration of individual air molecules intermolecularly
+through a wall of water is thus 2.4 X lO"" cm./sec. for a dyne/cm.
+gradient.
+Since the. gradient is the energy expended when the cu. cm. is
+transferred i cm. along the channel and if the number of air mole-
+cules per cu. cm. be taken as A' = 6oX IO'^ the force acting per
+molecule to give it the velocity just specified is 1/(60 X 10^^) dynes.
+Hence the force or drag per molecule if its speed is to be i cm. per
+sec. is
+/ = Tn z 1^ = s dynes
+•^ 2.4xiO"^°6ox 10'- 144 X 10^
+/= 6.9 X io~'' dynes, \{ v = cm./sec.
+This may be compared with the force necessary to move a small
+sphere through a very viscous liquid of viscosity -q. This force is
+f^fyirqrr.
+If z.'=i cm./sec, 2r=iO"* X2 cm. the diameter of the sphere of
+influence of a molecule, and / = 6.9XiO"^' dynes the value just
+found,

@@ -1,0 +1,47 @@
+5o8 THE POPULAR SCIENCE MONTHLY.
+not be undone without severing the ends. In four-dimensional space it
+could. By this means Zollner interpreted some of the knot-untying
+performances of Slade, the American spiritualist. Let
+us, for example, interpret these facts, using time as
+fourth dimension, bringing in, of course, time relative
+to time. If time were a fourth dimension, parts of the
+state of things at different instants might be visible to-
+gether. Thus we could have A, C, B, after being tied,
+joined to A, D, B, and then A, C, B, before being tied.
+But we must remember, in passing on, that algebraic equations are
+capable of other than geometrical interpretations, and that their rela-
+tions by themselves prove nothing in regard to real or possible relations
+between external facts. Moreover, the algebraic theory of dimen-
+sionality will be interpreted fully by nothing less than a space of infi-
+nite dimensionality.
+We come now to the most difficult branch of the subject, that of
+curved surfaces and of curved space. The curvature of a plane curve at
+any point is the limit of the ratio of the length of the curve to the differ-
+ence in direction of the initial and terminal tangents. Its differential
+expression is D^s or [trrfiTTlo^r '^'^ S^t the curvature of a curved
+surface at any point, we slice it up by planes normal to it at that
+point. On each of these planes it will describe a curve. These
+curves will have different curvatures at the original point. The
+reciprocal of the product of the greatest and least of these is called
+by Gauss the measure of curvature. This name he also applied to
+an analogous function of the co-ordinates of a point in space. The
+expression, for a plane curve, of the curvature is the reciprocal of
+the radius of the circle of closest possible contact at the point investi-
+gated. Hence, some have argued that transcendental geometry was
+inconsistent, in that it talked about the curvature of a space where
+there were not Euclidean straight lines, hence no radii, and nothing to
+refer the curvature to. This argument is open to other answers, but
+it is enough to say that the measure of curvature has no necessary
+connection with radii.
+To return, the condition that a rigid figure can be moved about on
+a surface without changing its shape, or that a rigid body can be simi-
+larly moved in space, is that the measure of curvature of the surface
+or space is constant in value. Some one might say that, if a body is
+rigid, no motion can change its shape. This, however, is not true of the
+mathematically rigid body except under the above conditions, taking
+the most general definition of a rigid body.
+It is assumed in Euclid that motion of a figure does not alter it.
+That is, if an angle, A B C, is equal to an angle B C D, it will be
+equal to it however it is as a whole moved or rotated. This is an
+assumption that the measure of curvature of the plane or space is
+constant. Moreover, if we assume it constantly equal to naught, the

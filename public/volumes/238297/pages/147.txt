@@ -1,0 +1,55 @@
+THE LOGICAL ABACUS.
+121
+italic representing a negative term, the pin is fixed in
+the lower part of the space. Now, if one of the series of
+combinations be ranged upon a ledge of the black-board,
+the sharp edge of a flat rule can be inserted beneath the
+pins belonging to any one letter say A, so that all the
+combinations marked A can be lifted out and placed upon
+a separate ledge. Thus we have represented the act of
+thought which separates the class A from what is not- A.
+The operation can be repeated; out , of the A's we can in
+like manner select those which are B, obtaining the AB's ;
+and in like manner we might select any other class such
+as the aB's, the ab's or the abc's.
+If now we take the series of eight combinations of the
+letters A, B, C, a, 6, c 9 and wish to analyse the argument
+anciently called Barbara, having the premises
+A = AB (i)
+B = BC, (2)
+we proceed as follows : Firstly we raise the combinations
+marked a, leaving the A's behind ; out of these A's we
+move to a lower ledge such as are not-B's, and to the
+remaining AB's we join the a's which have -been raised.
+The result is that we have divided all the combinations
+into two classes, namely, the Ab's which are incapable of
+existing consistently with premise (i), and the combina-
+tions which are consistent with the premise. Turning
+now to the second premise, we raise out of those which
+agree with (i) the 6's, then we lower the Bc's ; lastly we
+join the &'s to the BC's. We should now find our com-
+binations arranged as below.
+A
+a
+a
+a,
+B
+B
+b
+b
+C
+C
+C
+c
+A
+A
+A
+a
+B
+b
+6
+B
+C
+C
+c
+c

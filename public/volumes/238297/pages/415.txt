@@ -1,0 +1,36 @@
+ANALYSIS OF QUANTITATIVE PHENOMENA. 389
+The apparent motion of the spots on the sun, is the
+algebraic sum of the sun's axial rotation, and of the
+proper motion of the spots upon the sun's face ; hence
+the difficulty of ascertaining by direct observations the
+period of the sun's rotation.
+We cannot obtain the weight of a portion of liquid
+in a chemical balance without weighing it with the
+containing vessel. Hence to have the real weight of
+the liquid operated upon in an experiment, we must
+have a separate weighing of the vessel, with or without
+the adhering film of liquid according to circumstances.
+This is likewise the mode in which a cart and its load
+are weighed together, the tare or weight of the cart
+previously ascertained being deducted. The variation
+in the height of the barometer is a joint effect, partly
+due to the real variation of the atmospheric pressure,
+partly due to the expansion of the mercurial column by
+heat. The effects may be discriminated, if, instead of
+one barometer tube we have two tubes placed closely
+side by side, so as to have exactly the same temperature.
+If one of them be closed at the bottom so as to be
+unaffected by the atmospheric pressure, it will show
+the changes due to temperature only, and, by subtracting
+these changes from those shown in the other tube, we
+get the real oscillations of atmospheric pressure. But
+this correction, as it is called, of the barometric reading,
+is better effected by calculation from the readings of
+an ordinary thermometer.
+In a great many other cases a quantitative effect will be
+the difference of two causes acting in opposite directions.
+The late Sir John Herschel invented an instrument like a
+large thermometer which he called the Actinometer b , and
+M. Pouillet constructed a somewhat similar instrument
+b 'Admiralty Manual of Scientific Enquiry,' edited by Sir John
+Herschel, 2nd ed. p. 299.

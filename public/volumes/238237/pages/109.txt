@@ -1,0 +1,166 @@
+140
+MILLER— PARALLAXES OF FIFTY STARS.
+No. 43. B.D. -f3°.4473. 2 2737 = 6 Equulei. (20*^ 54".i;
++ 3° 55'-) Mag. 5.29. /A = — 0^0084; — o". 1 44.
+Spectrum F^.
+This is a triple system. The three components, called by Burn-
+ham, A (mag. 5.1), B (mag, 6.2), and C (mag. 7.1), have a com-
+mon proper motion. A and B, separated by o".62, form a binary of
+uncertain period. The measures were made by bisecting the com-
+bined image of these two components, which is sensibly round. The
+measures are in longitude. Other published parallaxes are :
+Russell, (Hypothetical), + o".022.
+Mitchell, (Photographic), + o".043 it o".oio.
+Adams, (Spectroscopic), + o".038.
+Mitchell found for C a parallax of o".oo2 ±: o".oi2. We did not
+measure C because its images on our plates were very faint.
+Hour
+Time in Parallax
+Date.
+Angle.
+Obs.
+100 Days, Factor, Solution,
+Wt.,
+Res.,
+Meas-
+h. m.
+T. P.
+m.
+p.
+V. ured by
+Oct.
+30,
+1915-..
++0 13
+Ma
+■ —3-55 —0.974 +
+0.132
+.8
+— O.OIO
+Sm.
+Nov.
+7,
+1915...
+44
+S.
+3-47 .989
+•113
+I.O
+4-0.008
+Be.
+June
+13,
+1916. . .
++0 20
+P.
+—1.28 -1-0.825
+.100
+■5
+-f O.OIO
+Sm.
+June
+22,
+1916. . .
+—0 10
+P.
+1. 19 .727
+.106
+•5
+.003
+Sm.
+June
+30,
+1916...
+-f-O 20
+Ma
+I. II .627
+.110
+•7
+—0.002
+Be.
+July
+4,
+1916...
+50
+M.
+1.07 .576
+.116
+.8
+.009
+Be.
+Sept.
+28,
+1916. ..
+-f 30
+M.
+— 0.21 — 0.746
+.096
+■5
+—0.00 1
+Be.
+Oct.
+6,
+1916...
+19
+P.
+0.13 .829
+.103
+.6
+.009
+Sm.
+Oct.
+7,
+1916. . .
+28
+Ma
+0.12 .838
+■095
+•5
+.001
+Be.
+Oct.
+8,
+1916. . .
+M.
+0.1 1 .847
+.082
+.8
+-I-0.0I2
+Sm.
+June
+8,
+1918...
+—0 7
+D.
+-^5.97 -fo.875
+.044
+1.0
+-t-0.007
+Sm.
+July
+7,
+1918...
+46
+P.
+6.26 .536
+•054
+1.0
+— 0.007
+Sm.
+Normal
+Equations:
++ 8.7000 C--
+2.
+7210 /x, — 0.648577 -f
+0.8]
+[23.
++
+100.
+3061 -fi3.i04i
++ 5-5508
+■0.5091.
+■0.1481.
+Solution: c = 4" o".096.
+fi = — o".038 ± o".oo3.
+7r= -|- 0".0l8 ± o".OI2.
+p. e. unit weight, ± o".024.

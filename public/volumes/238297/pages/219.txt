@@ -1,0 +1,37 @@
+PRINCIPLES OF NUMBER. 193
+Every logical proposition or equation now gives rise
+to a corresponding numerical equation. Sameness of
+qualities occasions sameness of numbers. Hence if
+A = B
+denotes the identity of the qualities of A and B, we may
+conclude that
+(A) = (B).
+It is evident that exactly those objects, and those objects
+only, which are comprehended under A must be compre-
+hended under B. It follows that wherever we can draw
+an equation of qualities, we can draw a similar equation of
+numbers. Thus, from
+A = B= C
+we infer
+A = C;
+and similarly from
+(A) = (B) = (C),
+meaning the numbers of A's and C's are equal to the
+number of B's, we can infer
+(A) = (C).
+But, curiously enough, this does not apply to negative
+propositions and inequalities. For if
+A = B - D
+means that A is identical with B, which differs from D, it
+does not follow that
+(A) = (B) ^ (D).
+Two classes of objects may differ in qualities, and yet they
+may agree in number. This is a point which strongly
+confirms me in the opinion I have already expressed,
+that all inference really depends upon equations, not
+differences (p. 186).
+The Logical Abecedarium thus enables us to make a
+complete analysis of any numerical problem, and though
+the symbolical statement may sometimes seem prolix, I
+conceive that it really represents the course which the
+o

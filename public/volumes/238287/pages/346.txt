@@ -1,0 +1,43 @@
+334 Charges of greatest Efficacy for Artillery at Sea.
+of a very brittle nature, such as stone or brick, then that
+charge is to be used which will give the greatest velocity to
+the shot to produce the maximum effect. But in many cases
+of bombardment this charge is by no means to be preferred;
+for though the effect produced each individual time be
+freater, yet in any considerable time the whole effect would
+e less than that from a smaller charge oftener fired, on ac-
+count of the extreme heat it would give to the engine after
+a few discharges; and in consequence of which greater time
+would be required for cooling the gun and preparing it for
+further service.
+Example II.
+Required the charge for a 24-pounder shot to burst open
+the gates of a city with the greatest ease possible, they be-
+ing o/'elm one foot thick.
+Here the object to be penetrated being elm, the small
+. , , c , Sdv*w f (& + ZD)dv*w\
+letters in the general formula -=r ~— -[ = ----- --- _ . :
+6 2Ds x i ooo* v 2Ds x l600 a /
+must be made to denote the several numbers of some ex-
+periment made in the penetration of this substance. Taking,
+therefore, the experiment of Dr, Mutton contained in the
+5th problem of his elegant Exercises on Forces, we have
+d— — ft. v = 1500, and S = — ft.; also by the question
+S = 1 ft. D = -46, and w = 24 lbs. therefore *^°?f!^
+1-23x1x1500^x24 830'25 „ ., t .
+= ^ — tS ~t, — ,>™« = txt^t = 4-33S6slbs. or 4lbs.
+2 X '46 x \ j X 16W IQI'36
+S^ozs. nearly the weight of the charge required in this case.
+Retaining the experiment of Dr. Hutton as a standard for
+all cases where the substance to be penetrated is of elm, we
+shall have by reduction ^-^ ='06 7 6 x — £- - :
+the charge for any piece the diameter of whose shot is D,
+and weight w, S being the thickness of the object as be-
+fore.
+It is not unworthy of remark, that the gates of a besieged
+place, or any like things, might be effectually broken open
+by the gun itself, charged only with powder; by placing it
+close to the gates with its muzzle from them; the mo-
+mentum of recoil being generally sufficient to force such
+objects completely.
+LXII. Cases

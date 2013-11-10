@@ -1,0 +1,41 @@
+738
+Now, if we calculate the geodesic increment along ds of the
+vector components:
+bm )
+( a
+we And
+but
+and
+dA"i = — 2 I SA^Am^d»,
+dA\ = 0,
+<L4«, = 0,
+dA a l = — i^a/2R' . A a \ ds, or = — to A a t ds,
+dA° s = + * / a/2R l . A a x ds, or = + w A a t da.
+From this we infer that the falling axes of Z^ l \ Z(' ó \ after the
+lapse of interval ds, as compared with the local axes reached after
+the interval, show a retrograde rotation of amount cuds in the plane
+of these axes. Meantime the planet's anomaly has increased by wdt.
+Thus, the two angular velocities are the same if the one is measured
+in ds and the other in dt. The ratio is
+ds = \/(l-3a/2R).dt.
+In the circular planetary motion this will continue uniformly, and
+it follows that when the planet has completed a revolution, the
+falling axes will not yet have completed theirs if compared with
+the local axes passed by during their motion. At the instant the falling
+axes will have completed a revolution, the radius vector will make
+an angle of
+2R
+Ut—Sa'
+with the radius from which they started. Relative to this new radius
+everything will be in exactly the same position as it was in the
+beginning of the revolution,
+Neglecting higher powers of a/R we conclude that there is a
+precession which, per annum, amounts to the excess of the angle
+between the two radii over 2ji, i.e.
+V\
+_J^ l
+2R— 3«
+a
+T R
+per annum.
+For the earth, it is 0.019 of a second of arc per annum.

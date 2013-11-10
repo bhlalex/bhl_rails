@@ -1,0 +1,50 @@
+MATHEMATICS AY EVOLUTION. 205
+found relief in the charms of music, and strangely enough dreaded an
+exhaustion of it, just as many other people who have not the excuse
+of morbid ailment think that all the greatest possible discoveries have
+been mado, and that all the finest things in prose and verse have been
+said. Such notions are denied by the laws which have been stated,
+as exemplified not only in the diversity and might of modern achieve-
+ment, but also in the deep relations between the elements of natural
+action divulged by their very multiplication of efiects ; the generali-
+zations of this age have never been equaled in scope and foi'ce — the
+persistence of force and the theory of evolution.
+As sciences advance, their essential unity becomes more and more
+evident; methods that at first view would seem utterly unconnected
+are being constantly found to have a secret and helpful family tie.
+The comparative value of various types of bridges has been investi-
+gated by submitting glass models duly weighted to polarized light,
+which shows at once the distributions of strain and pressure. A
+common magnetic needle has been successfully employed in finding
+weak places in iron and steel axles by its unequal deflection at such
+points, due to internal heterogeneity in the mass examined. At Paris
+recently an underground pneumatic tube became obstructed at an
+unknown point ; excavation was correctly guided by the adoption of
+an acoustic princij^le ; a loud sound was made at the tube's entrance,
+and the time occupied before the reflected wave returned was care-
+fully noted, from which was inferred the distance traversed by it to
+and from the obstacle. Many instruments at first made for purely
+philosophical study have been drafted into the world's practical
+uses. Applications of the rheostat and Wheatstone's bridge serve to
+locate the oft-recurring breaks in ocean-cables and telegraph-lines,
+and have very lately yielded the marvellous duplex and quadruplex
+telegraphs. The sjDectroscope, originally directed to the heavens, has
+now found uses on earth of great value; it detects adulteration,
+marks defectiveness in drainage, and jDoints out impurities in water-
+supplies.^
+' A proposition in pure mathematics may receive elucidation and extension by an
+illustration taken from optics. In Newton's "Principia," book i., section xii., prop. '70,
+he proves, in a manner very difficult to follow, that a corpuscle placed within a hollow
+sphere, if attracted as the square of the distance by all the points in the concave sur-
+face, will remain unmoved wherever placed, as the sums of attraction always balance.
+This may be made clear not only of a spherical surface, but the closed interior of any
+surface whatever, provided it has no reentrant angles, as a pyramid or an obliquely-
+truncated cone.
+For, imagine the corpuscle to be luminous and to be bisected by any plane extended
+80 as to cut the containing hollow surface into two parts, it is evident that equal
+amounts of light are radiated by each half of the corpuscle on each of the two parts of
+the surface containing it. Now, these rays diminish in intensity as the square of the
+distance, and so reciprocally correspond with a force emanating according to the same
+law from the surface and affecting the corpuscle. Hence, the area of the surface of any
+hollow body, having no reentrant angles, varies as the square of its average distance
+from any point within it.

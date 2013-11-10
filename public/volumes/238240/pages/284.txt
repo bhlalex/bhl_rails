@@ -1,0 +1,38 @@
+191 1.] BOLTWOOD— RADIOACTIVITY. 335
+by the impact of a given number of alpha particles, the charge car-
+ried by each particle could be readily determined. This was found
+to be equal to 9.3 X lo"^'' electrostatic units. It was then shown in
+an ingenious manner that this charge was twice that carried bv an
+electron or by a hydrogen ion, although preceding determinations of
+the latter magnitude had indicated that its value was somewhat less
+than one half of 9.3 X io~^'^. The recent determinations made by Mil-
+likam of the charge on an ion have shown, however, that 4.65 X iq-^"
+is not far from correct and have confirmed the conclusion reached
+by Rutherford and Geiger that the charge on an alpha particle is
+equal to twice the unit charge of the hydrogen atom in electrolysis.
+\\'ith this modification, the ratio of the charge to the mass of an
+alpha particle indicates that the mass is equivalent to an atomic
+weight of four. This corresponds to the mass of an atom of the
+gaseous element helium.
+The final proof of the intimate connection of the alpha particle
+with the helium atom was supplied by Rutherford and Rovds who
+proved by spectroscopic methods that readily detectible amounts of
+helium could always be obtained when large numbers of alpha par-
+ticles were allowed to penetrate through a thin glass wall into a
+highly evacuated receptacle or into a screen of lead, from which the
+helium was ultimately released by fusion of the metal.
+It is a significant fact that although the alpha particles from the
+different types of radioactive matter appear to be all of a similar
+nature and to consist of atoms of helium bearing a double, positive
+charge, the velocities at which they are ejected are dift'erent for the
+dift'erent radioactive substances. The velocity of the particles emitted
+by the atoms of any one type of matter undergoing transformation
+is, however, always the same and is a characteristic constant for that
+particular radio-element. Attention was first called to this impor-
+tant relation by Bragg and Kleeman and it is undoubtedly significant
+in its bearing on the constitution of the radio-atoms. The observed
+velocities of the particles appear to lie between the limits of 1.5 X 10^
+and 2.25 X 10^ centimeters per second.
+Owing to their high velocities the alpha particles are capable of
+passing through thin layers of ordinary matter, and can penetrate
+into air at atmospheric pressure for distances of from somewhat less

@@ -1,0 +1,60 @@
+284
+b = xb x + Va (-1 — x ) b, — when b x represents the co-volume of 1
+single molecule and £> a that of 1 double molecule — which quantity
+refers, therefore, to the original single-molecular quantity. But b'
+refers to the molecular quantity, which on an average yields 1
+molecule after the association, and which is 2 : (1 -\- x) times greater
+than the single-molecular quantity, [i.e. at .r = (exclusively double
+molecules) twice greater; at x = l (exclusively single molecules)
+once greater; etc,]. For from the original single molecule there have
+been formed Va (1 ~f~ r ) nevv molecules, so that every new molecule
+corresponds averagely to 2 : (1 -f- x) original single molecules].
+We can now compute — . As b is a function of v (through b l and
+b,) and of x, and also v a function of x on account of the equation
+of slate v=f(p, l\x,a,b), in which also a and b are functions of
+x, we have :
+d
+dx
+log(v b)+6
+1
+Ob
+'dv (dk\ dv
+v—b[dx \doJxd.v \dxj„
++
+' 1 Sdb\ dv (d0\
+y—b\dvj x dx \dxj t
+when is written for
+x=const
+bv) '
+1 fbb
+I . Hence
+v
+d
+dx
+-b\dv y
+log (v-
+l dv
+For the further calculation of
+b dx v-
+dv, aud because evidently
+1 /db\ /e#\
+b \dxj \dxj v '
+y i
+the quantity 6 must be
+known, i. e. b in function of v. When we assume for this the
+approximate relation derived by me before l ) :
+v — 6 b
+v-b b
+in which ft is a coefficient that depends on the nature of the
+substance, then I *- J =- — ° and v—b = ^= — easily follows
+b v
+from b = ° r- . In consequence of this 6 becomes:
+0v + (l— ftb 9 H
+6= f ^^o dv C
+J Pc(v-b,)((iv + (l—i})b ) J
+Jv-\-(l-(t)b t
+V
+V b n
+dv,
+X=const
+i) See Recueil des Trav. Ghim. N°. 3 and 5 of 1920.

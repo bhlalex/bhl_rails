@@ -1,0 +1,39 @@
+2 HAYES— DETECTION OF SUBMARINES.
+(a) Drifting— K-Tube.
+(b) Towing— OS, OV, and OK Tubes.
+(c) On Board— X, Y, and Delta Tubes.
+III. U. S. Naval Experimental Station — Multi-Unit Devices,
+(i) M-B Tube.
+(2) Double M-F Tube.
+(3) Acoustical M-V Tube.
+(4) Electrical M-V Tube.
+(a) Towing — U-3 Tube.
+(b) On Board— M-V-62.
+11. Results accomplished by hydrophone installations during war.
+12. Possibilities of these instruments in times of peace.
+Introduction.
+The development of submarine detectors in this country started
+shortly after the United States entered the war. In April, 191 /,
+the Submarine Signal Company, General Electric Company, and the
+Western Electric Company combined for the study of submarine
+detector apparatus and started a station at Nahant, Massachusetts.
+A foreign commission from France and Great Britain visited the
+United States in June, 1917, and laid before those most interested
+all the knowledge of submarine detection at that time in the hands
+of the French and the British. As a result of this visit, the United
+States Naval Experimental Station was started at New London,
+Connecticut, under the control of the United States Navy, and sev-
+eral physicists and engineers from different parts of the country
+were called together to carry on the research and development work
+at this station under the direction of the Special Board on Anti-
+submarine Devices.
+In the following paper no attempt has been made to give credit
+to individuals, but the developments brought about at the Naval Ex-
+perimental Station and at the Nahant Station have been carefully
+stated in the hopes that proper credit may be given to each group of
+experimenters and in order that the excellent results accomplished
+by the United States Navy in this comparatively new field may be
+made known to the public.
+General Methods.
+The presence of a body beyond our reach can be detected by in-
+tercepting some form of energy radiating from the body or through

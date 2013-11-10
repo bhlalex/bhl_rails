@@ -1,0 +1,36 @@
+14 THE PRINCIPLES OF SCIENCE.
+passing from more general to less general truths ; induc-
+tion is the contrary process from less to more general
+truths. We may however describe the difference in
+another manner. In deduction we are engaged in develop-
+ing the consequences of a law or identity. We learn
+the meaning, contents, results or inferences, which attach
+to any given proposition. Induction is the exactly inverse
+process. Given certain results or consequences, we are re-
+quired to discover the general law from which they flow.
+In a certain sense all knowledge is inductive. We can
+only learn the laws and relations of things in nature by
+observing those things. But the knowledge gained from
+the senses is knowledge only of particular facts, and we
+require some process of reasoning by which we may con-
+struct out of the facts the laws obeyed by them. Expe-
+rience gives us the materials of knowledge : induction
+digests those materials, and yields us general knowledge.
+Only when we possess such knowledge, in the form of
+general propositions and natural laws, can we usefully
+apply the reverse process of deduction to ascertain the
+exact information required at any moment. In its ultimate
+origin or foundation, then, all knowledge is inductive in
+the sense that it is derived by a certain inductive
+reasoning from the facts of experience.
+But it is nevertheless true, and this is a point to
+which insufficient attention has been paid, that all reason-
+ing is founded on the principles of deduction. I call in
+question the existence of any method of reasoning which
+can be carried on without a knowledge of deductive pro-
+cesses. I shall endeavour to show that induction is really
+the inverse process of deduction. There is no mode of
+ascertaining the laws which are obeyed in certain pheno-
+mena, except we previously have the power of determining
+what results would follow from a given law. Just as the
+process of division necessitates a prior knowledge of multi-

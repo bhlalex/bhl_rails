@@ -1,0 +1,46 @@
+CHAPTERS ON THE STARS. 657
+farther away that it may be regarded as having no parallax. In this
+assumption lies the weak point of the method. Can we be sure that
+the smaller stars are really without appreciable parallax? Until recent
+times it was generally supposed that the magnitude of the stars afforded
+the best index to their relative distances. If the stars were of the same
+intrinsic brilliancy, the amount of light received from them would, as
+already pointed out, have been inversely as the square of the distance.
+Although there was no reason to suppose that any such equality really
+existed, it would still remain true that, in the general average, the
+brighter stars must be nearer to us than the fainter ones. But when the
+proper motions of stars came to be investigated, it was found that the
+amount of this motion afforded a better index to the distance than
+the magnitude did.
+The diversity of actual or linear motion is not so wide as that of
+absolute brilliancy. Stars have, therefore, in recent times, been selected
+for parallax very largely on account of their proper motion, -without
+respect to their brightness. It is now considered quite safe to assume
+that the small stars without proper motion are so far away that their
+parallax is insensible.
+Ever since the time of Bessel the experience of practical astronomer?;
+has tended toward the conclusion that the best instrument for delicate
+measurements like these is the heliometer. This is an equatorial tele-
+scope of which the object glass is divided along a diameter into two
+semicircles, which can slide along each other. Each half of the object
+glass forms a separate image of any star at which the telescope may be
+pointed. By sliding the two halves along each other, the images can
+be brought together or separated to any extent. If there are two stars
+in proximity, the image of one star made by one-half of the glass can
+be brought into coincidence with that of the other star made by the
+other half. The sliding of the two halves to bring about this coinci-
+dence affords a scale of measurement for the angular distance of the
+two stars.
+The most noteworthy forward steps in improving the heliometer are
+due to the celebrated instrument-makers of Hamburg, the Messrs.
+Repsold, aided by the suggestions of Dr. David Gill, astronomer at the
+Cape of Good Hope. The latter, in connection with his coadjutor,
+Elkin, made an equally important step in the art of managing the
+instrument and hence in determining the parallax of stars. The best
+results yet attained are those of these two observers and of Peter, of
+Germany.
+Yet more recently, Kapteyn, of Holland, has applied what has
+seemed to be the unpromising method of differences of right ascension
+observed with a meridian circle. This method has also been applied
+by Flint, at Madison, Wis. Through the skill of these observers, as
+VOL. LVII.— 42

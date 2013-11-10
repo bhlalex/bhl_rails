@@ -1,0 +1,35 @@
+151 THE PRINCIPLES OF SCIENCE.
+The Rejection of the Mean Result.
+We ought always to bear ID mind that the mean of any
+series of observations is the best, that is, the most probable
+approximation to the truth, only in the entire absence of
+any knowledge to the contrary. The selection of the
+mean rests entirely upon the probability that wholly un-
+known causes of error will in the long run fall as often in
+one direction as the opposite, so that in drawing the mean
+they will balance each other. If we have any presumption
+to the contrary, any reason to suppose that there exists a
+tendency to error in one direction rather than the other,
+then to choose the mean would be to ignore that tendency.
+Thus we may certainly approximate to the length of the
+circumference of a circle, by measuring the perimeters of
+inscribed and circumscribed polygons of an equal and large
+number of sides. The correct length of the circular line
+undoubtedly lies between the lengths of the two perimeters,
+but it does not follow that the mean is the best approxi-
+mation. It may in fact be shown upon mathematical
+principles that the circumference of the circle is very
+nearly equal to the perimeter of the inscribed polygon,
+together with one-third part of the difference between
+the inscribed and circumscribed polygons of the same
+number of sides. Having this knowledge we ought of
+course to act upon it, instead of upon vague grounds of
+probability.
+We may often perceive that a series of measurements
+tends towards an extreme limit rather than towards a
+mean. Thus in endeavouring to obtain a correct estimate
+of the apparent diameter of the brightest fixed stars, we
+should find a continuous diminution in estimates as the
+powers of observation increased. Kepler assigned to
+Sirius an apparent diameter of 240 seconds : Tycho Brahe
+made it 126; Gassendi 10 seconds; Galileo, Hevelius,

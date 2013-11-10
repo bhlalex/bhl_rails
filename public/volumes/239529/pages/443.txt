@@ -1,0 +1,44 @@
+652
+error in the value of b for the bromate is about 0,01 of the cell-
+edge, the accuracy of the other parameters is much smaller 1 ).
+In the calculation of the intensities we have taken into consider-
+ation besides the structure factor') only the number of planes and
+the LoRENTZ-factor. We thus have neglected the absorption in the
+rod, the temperature-factor and the polarisation-factor. This is allowed,
+when only we compare the intensities of very close neighbouring
+interference fringes.
+Starting from the assumption that the X-rays are deflected for
+the greater part by the electrons, we calculated the intensities under
+the following simplifying assumptions.
+Round the sodium point we place JO electrons (monovalent positive
+ion) 8 ); the weakening of the cooperation by mutual interference is
+neglected. Round the halogen particles we place in the cases A, B,
+C, and D of the columns 3, 4, 5, and 6 of the tables III and IV
+respectively 12, 18, 12, and JO electrons for the chlorate and 30, 36, 30,
+and 28 electrons for the bromate, while again the same neglections
+were made; in the same way for an oxygen particle resp. 10, 8,
+6, and 2 electrons. All this is based upon the following suppositions:
+in case A: pentavalent positive halogen-ions and bivalent negative
+oxygen atoms ;
+in case B: monovalent negative halogen-ions and oxygen-atoms ;
+in case C: binding of oxygen in the halogenate-ion by 'a ring of
+four circulating electrons, of which two are derived from the oxygen-
+atom and two from the halogen-atom. The interference-effect by these
+binding-electrons has been neglected ;
+in case D: binding between halogen and oxygen, where the effect
+due to the total outer electron rings, to which the binding electrons
+belong, has been neglected.
+From the tables III and IV we see that the agreement between
+the calculated and observed intensities is good from which of these
+suppositions we may start.
+1 ) ^This must be ascribed to the fact that the displacements of the" Br-particles
+can only be very small when their influence on the interference-result shall be
+compensated by displacements of the other particles. This is the case to a much
+less degree for the Gl-particle because of its low atomic number. Therefore we
+cannot give a limit of the accuracy of the parameters either for this particle or
+for the 0- and Na-particles.
+8 ) In the calculation of the structure-factor we took into consideration, that for
+planes with three unequal indices for the symmetry of these crystals this factor
+depends on the succession of the indices. Gomp. W. H. and W. L. Bragg, l.c
+p. 151.
+») P. Debije and P. Scherrer, Phys. ZS. 19 (1918), p. 474.

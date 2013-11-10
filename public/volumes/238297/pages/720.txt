@@ -1,0 +1,36 @@
+230 THE PRINCIPLES OF SCIENCE.
+as Grimaldi supposed, or whether there is a constant
+relation between the colour and the refrangibility. If
+Grimaldi was right, it might be expected that any part
+of the spectrum taken separately, and subjected to a
+second refraction, would suffer a new breaking up, and
+produce some new spectrum. Newton inferred from his
+own theory that a particular ray of the spectrum would
+have a constant refrangibility, so that a second prism
+would merely bend it more or less, but not further dis-
+perse it in any considerable degree. By simply cutting
+off most of the rays of the spectrum by a screen, and
+allowing the remaining narrow ray to fall on a second
+prism, he proved the truth of this conclusion ; and then
+slowly turning the first prism, so as to vary the colour
+of the ray falling on the second one, he found that the
+spot of light formed by the twice-refracted ray travelled
+up and down, a palpable proof that the amount of refran-
+gibility varied with the colour. For his further satisfac-
+tion, he sometimes refracted the light a third or fourth
+time, and he found that it might be refracted upwards or
+downwards or sideways, and yet for each coloured light
+there was a definite amount of refraction through each
+prism. He completes the proof by showing that the
+separated rays may again be gathered together into white
+light by an inverted prism. So that no number of refrac-
+tions alters the character of the light. The conclusion
+thus obtained serves to explain the confusion arising in
+the use of a common lense ; with homogeneous light he
+shows that there is one distinct focus, with mixed light
+an infinite number of foci, which prevent a clear view
+from being obtained at any one point.
+What astonishes the reader of the ' Opticks ' is the
+persistence with which Newton follows out the conse-
+quences of a preconceived theory, and tests the one notion
+by a wonderful variety of simple comparisons with fact.

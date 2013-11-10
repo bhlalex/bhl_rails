@@ -1,0 +1,29 @@
+596
+BRIDGMAN.
+sure of completion of the reaction. The point at 7000 on the I-II
+curve is reallv three coincident points, two with falhng pressure, and
+one with rising pressure, at constant temperature. The pressure
+Hmits for this point were twice as wide as usual, to ensure completion
+of the reaction. , i • i
+There seems considerable reason to suspect that the high point
+on the upper end of the line for II-III belongs to another equilibrium
+line, and that there is a fourth modification. The consistently low
+points for the corresponding Av bear this out. These points, when
+compared with the low point on the upper end of the Av curve for I-ll,
+are too low in proportion to be entirely explained by a partial transi-
+tion to a thallic salt. This surmise was not verified; results would
+have been difficult of interpretation because of the known partial
+change of the thallous nitrate. It was also of no use to try for the
+usual data with the low pressure apparatus; the low pressure points
+are always made after the runs at high pressures, and m this- case it
+was known that the high pressure had at least initiated some sort of a
+permanent change. It may be mentioned that whatever the transi-
+tion product, it does not form mixed crystals with TINO3, for the
+p-t values were unaffected by the discordant Av values, and the tran-
+sition remained sharp throughout. Under the conditions, the best
+that I could do with the data was to draw a straight line through
+23456 7 B9
+Pressure, kgm./cm.' x 10^
+Thallium Nitrate
+Figure 9. Thallium Nitrate. The computed heats of transition and the
+changes of internal energy.

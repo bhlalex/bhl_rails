@@ -1,0 +1,37 @@
+THE INDUCTIVE OR INVERSE METHOD. 291
+separate probabilities contributed by each distinct hypo-
+thesis.
+To illustrate more precisely the method of solving the
+problem, it is desirable to adopt some concrete mode of
+representation, and the ballot-box, so often employed by
+mathematicians, will best serve our purpose. Let the
+happening of any event be represented by the drawing of
+a white ball from a ballot-box, while the failure of an
+event is represented by the drawing of a black ball. Now,
+in the inductive problem we are supposed to be ignorant
+of the contents of the ballot-box, and are required to
+ground all our inferences on our experience of those con-
+tents as shown in successive drawings. Rude common
+sense w r ould guide us nearly to a true conclusion. Thus
+if we had drawn twenty balls, one after another, replacing
+the ball after each drawing, and the ball had in each case
+proved to be white, we should believe that there was a
+considerable preponderance of white balls in the urn, and
+a probability in favour of drawing a white ball on the
+next occasion. Though we had drawn white balls for
+thousands of times without fail, it would still be possible
+that some black balls lurked in the urn and would at last
+appear, so that our inferences could never be certain. On
+the other hand, if black balls came at intervals, I should
+expect that after a certain number of trials the future
+results would agree more or less closely with the past
+ones.
+The mathematical solution of the question consists in
+nothing more than a close analysis of the mode in which
+our common sense proceeds. If twenty white balls have
+been drawn and no black ball, my common sense tells me
+that any hypothesis which makes the black balls in the
+urn considerable compared with the white ones is im-
+probable ; a preponderance of white balls is a more pro-
+bable hypothesis, and as a deduction from this more
+U 2

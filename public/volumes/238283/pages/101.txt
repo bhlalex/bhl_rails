@@ -1,0 +1,33 @@
+136
+PROCEEDINGS OF THE AMERICAN ACADEMY.
+If there is a linear relation between f, e, and d, then these two consec-
+utive generators intersect in an (« — 2)-flat, i. e., they are coincident
+and we have a stationary generator of the system. If
+then
+e = 0,
+is the equation of a stationary generator of the system. The equation
+of the developable S,^_i in this case is
+f, 0, ('■'-nj'n-2) ,^
+2!
+f,
+0,
+o,d,^^-'\S''-'K,
+2!
+0,
+d,
+0,
+0.
+"We see that / is a factor of the left member of this equation. When
+this factor is thrown out, the residual or proper developable is of a
+degree less by one than before. The orders of the multiple loci pre-
+viously given are also reduced, they only holding when there are no
+stationary i^„_/s in the system. By means of Veronese's formulae we
+see that when there are ^ stationary F„_/s the order of the A-way
+developable is reduced from (m — \ -\- \) (m — n + X) to (n — X -{- 1)
+{m — n -\- X) — (n — X) p.
+6. Tangent flats to a -^-spread where 2 <; p.
+a. Definitions.
+We Lave treated up to this point the various developables that arise
+from a curve in n-fold space. We shall show now that similar develop-
+ables do not arise from the consideration of the tangent flats of spreads
+of more than one way.

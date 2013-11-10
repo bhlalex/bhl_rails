@@ -1,0 +1,36 @@
+126 PROCEEDINGS OF THE AMERICAN ACADEMY.
+we may eliminate the coordinates of P' leaving a single equation in
+a, /3, . . . . y. For an (n — l)-flat to be tangent to an (w — l)-spread,
+one relation between the coefficients that enter into their equations must
+be satisfied. We conclude then that the (n — l)-fl.ats that touch n — 1
+(« — l)-spreads envelop an *S'„_i.
+Let us consider only those tangent (?i — l)-flat8 to an (n — 1)-
+spread that touch it at the point of an (« — 2) -spread that lies on it.
+Let U=0
+be the equation of the (n — l)-spread and let
+U= 0, F- 0, . . . ,
+a restricted system equivalent to two independent equations, be the equa-
+tions of the (n — 2)-spread on it. We derive now the equations
+— la y
+and U' = 0, V = 0, ...
+If we eliminate the parameters from these equations there remains
+a restricted system equivalent to two independent equations in the
+coefficients a, /?,... y. For an (?2 — l)-flat to be tangent to an
+(n — l)-spread at a point of an (n — 2)-spread on it requires two con-
+ditions between the coefficients in the equation of the (n — l)-flat.
+These two conditions may be used as part of the n — 1 conditions that
+connect the coefficients of an (n — l)-flat that envelops a developable
+'S'„_i. We have then the theorem that the (n — l)-flats that are tangent
+to p (n — l)-spreads at the points of p (n — 2)-spreads that lie one on
+each (n — l)-spread, and are tangent to a other (?z — l)'flats, where
+n — l = 2p-fcr, envelop a developable.
+In a similar manner for an (n — l)-flat to be tangent to an (n — 1)-
+spread at a point of an (n — 3)-spread that lies on it imjjoses three con-
+ditions on the coefficients that enter into the equation of the (ti — l)-flat.
+To be tangent to the (n — l)-flat at a point of an (?i — 4) -flat on it
+requires four conditions, etc. To be tangent to an (n — l)-spread at a
+point of a curve that lies on it requires n — 1 conditions between the
+coefficients, which is just sufficient to make the (« — l)-flat envelop a
+developable.
+We have then the general theorem that the (n — l)-flats that are
+tangent to p {n — l)-spreads at points of p (n — ^)-spread3 that lie one

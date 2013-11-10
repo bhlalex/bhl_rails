@@ -1,0 +1,35 @@
+QUANTITATIVE INDUCTION. 123
+culus of differences a correct empirical formula ; for if p
+be the first term of the series of values, and &p, & 2 p,
+A 3 J>, &c., be the first number in each column of dif-
+ferences, then the mth term of the series of values will be
+m i , m i m2
+.
+A closely equivalent but more practicable formula for
+interpolation by differences, as devised by Lagrange, will
+be found in Thomson and Tait's ' Elements of Natural
+Philosophy/ p. 115.
+If 110 column of differences shows any tendency to
+become zero throughout, it is an indication that the law
+is of a more complicated, for instance of an exponential,
+character, so that it cannot be correctly represented in
+a formula involving only a few powers of the variable.
+Dr. J. Hopkinson has lately suggested another method of
+arithmetical interpolation % which is intended to avoid
+much that is arbitrary in the graphical method. His
+process will yield the same results in all hands, but he
+remarks that it has no theoretical basis to rest on.
+So far as we can infer the results likely to be obtained
+by variations beyond the limits of experiment, we must
+proceed upon the same principles. If possible we must
+detect the exact laws in action, and then trust to them as
+a guide when we have no experience. If not, an empirical
+formula of exactly the same character as those employed
+in interpolation is our only resource. But the reader must
+carefully observe that to extend our inference far beyond
+the limits of experience is exceedingly unsafe. Our know-
+ledge is at the best only approximate, and takes no account
+of very small tendencies. Now it may, arid in fact usually
+will, happen, that tendencies small within our limits of
+<i * On the Calculation of Empirical Formulae.' ' The Messenger of
+Mathematics/ New Series, No. 17, 1872.

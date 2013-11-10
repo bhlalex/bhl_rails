@@ -1,0 +1,37 @@
+191 1.] HIXRICHS— ATOMIC WEIGHT OF VANADIUM. 195
+forming a volume of over 200 pp. 4to. The first, and in fact the
+greater number of the " Xotes," were presented by Berthelot ; others
+were presented by Messrs. Gautier, Lemoine, Haller, Gernez, and
+other academicians.
+In the Monitcur Sciciitifiquc. from 1906 to 1909 more than a
+dozen longer articles have appeared with many diagrams. The
+first two tables above referred to are found in the November num-
+ber for 1901. with discussions, pp. 731—744.
+The papers were originally written in four languages : Danish,
+German, English and French. To these papers the reader may be
+referred by the Cinquantenaire and the list in the Prox. Constit.
+The results obtained, being in conflict with the dominant chemical
+school, have not been widely circulated except as adopted children.
+For these reasons it is necessary here to give enough of the
+details of the finally worked out practical method of reduction to
+enable the reader to repeat all the calculations required, so that he
+can verify the results given.
+It will then be seen that the final method is quite simple ; the
+difficulty was to get this method.
+Let a represent the absolute atomic z^right of any chemical ele-
+ment, that is the whole or round number (h or even ^) which the
+experiments indicate to be near the true atomic zveight A, which
+exactly to determine is the object of the reduction. The unit
+adopted is exactly yV of carbon-diamond which is practically iden-
+tical with iV of that of oxygen.'
+The departure of the true atomic weight from the absolute
+atomic weight we designate by the Greek letter epsilon (e) ; that is:
+A^a-\-e. This departure, as a matter of fact, is found to be a
+small fraction of the unit ; we invariably express it in thousandths
+of that unit.
+This departure — in units of the third decimal — is really our new
+variable, the quantity to be determined. This apparently insignifi-
+cant matter of form is really of the greatest importance. For this
+new variable all products and powers become negligible quantities
+^Comptes Rendus, 117, p. 1075, 1893.
+PROC. AMER. PH[L. SOC. , L, I99 M, PRINTED JUNE 26, I9II.

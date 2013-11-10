@@ -1,0 +1,36 @@
+QUANTITATIVE INDUCTION. 121
+results will be as sure and accurate as any we can attain to.
+But such a complete procedure is more than we generally
+mean by interpolation, which generally denotes the em-
+ployment of some general method of estimating in a
+merely approximate and probable manner the results
+which might have been expected independently of any
+complete theoretical investigation.
+Regarded in this light, interpolation is in reality an
+indeterminate problem. From given values of a function
+it is impossible to determine that function ; for we can
+always invent an infinite number of functions which would
+give those values if we are not restricted by any other
+conditions, just as through a given series of points we can
+always draw an infinite number of curves, if we may di-
+verge between or beyond the points into bends and cusps
+as we think fit . In any process of interpolation we must
+in fact be guided more or less by a priori considerations ;
+we must know, for instance, whether or not periodical
+fluctuations are to be expected, and we must be guided
+accordingly in the choice of mathematical formulae. Sup-
+posing, for the present, that the phenomenon is non-
+periodic, we next proceed to assume that the function
+can be expressed in a limited series of the powers of the
+variable. The number of powers which can be included
+depends upon the number of experimental results avail-
+able, and must be at least one less than this number. By
+processes of calculation, which have been already alluded to
+in the section on empirical formulas, we can then calculate
+the coefficients of the powers, and obtain an empirical
+formula which will give the required intermediate results.
+In reality, then, we return to the methods treated under
+the head of approximation and empirical formulas; and
+interpolation, as commonly understood, consists in assum-
+Herschel, ' Appendix to Translation of Lacroix' Differential Calculus,'
+P.- 55i.

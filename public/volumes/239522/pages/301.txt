@@ -1,0 +1,36 @@
+432 KENNELLT AND AFFEL.
+Direct Measurement of a and s.
+The direct measurement of both A and s, without reference to a
+circle diagram, was described by Abraham,^ whose theory, for the
+particular case investigated, was limited to the use of these two con-
+stants only.
+The direct measurement of a involves the determination of the pull
+on the diaphragm, excited by a known feeble continuous-current
+strength. It is doubtful whether satisfactory close approximations
+to the value of a can be made by continuous-current excitations;
+since alternating-current excitations are actually involved. With an
+exciting current strength of the same order of magnitude as is available
+with alternating-currents, the amount of diaphragm displacement is
+exceeding small, usually less than half of one micron;^ whereas with
+a. c. excitation, at the resonant frequency, the displacements are com-
+monly increased 30 times, and may be increased more than 50 times.
+The direct measurement of a is thus difficult, and subject to correction,
+for the change from continuous to alternating magnetic fluxes.
+Direct Measurement of s.
+Theoretically, the measurement of the elastic constant s of a dia-
+phragm, in observing the central displacements produced by centrally
+impressed forces, appears both simple and promising. This measure-
+ment appears to have been first carried out by Abraham, in the pub-
+lication above referred to; although the method is not disclosed.
+Attempts were made in the research here reported to measure s by
+means of the apparatus shown in Figure 8. The receiver T is mounted
+vertically, and the lever ab, fulcromed at F, and maintained in equilib-
+rium by means of the counterpoise c, when the weight w is absent. A
+blunt point, on the loAver side of this lever, is pressed down against
+the surface of the diaphragm, when the known weight w is applied.
+The force, in dynes, impressed on the center of the diaphragm is thus
+known. The point p of the micrometer screw-head M, comes into
+contact with the top of the lever ab, the moment of contact being
+determined electrically by the head telephones H, in the circuit i.
+5 Bibliography, No. 6.
+6 1 micron, commonly represented by 1 ju = 10"*^ meter = 10~^ mm.

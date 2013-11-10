@@ -1,0 +1,60 @@
+724
+furnishes an indication : the fantastically twisted and ramified shapes
+of the dark regions in their various gradations of blackness, which
+present themselves on the chart of Dyson and Melotte, and are
+even more marked on the photographs by Barnard '), are a strong
+indication to the existence of absorbing nebulae in these Taurus
+regions. This indication is corroborated, if we calculate the influence
+of actual star-voids in space on the number of stars of different
+magnitudes.
+We assume that in the line of sight the space from r t to i\ = l,585/-
+is completely empty (over a region from q to o -\- 1 therefore).
+In the integral, representing the number of stars A m of the magnitude
+m, the part between the limits q and q -\- 1 is lacking, thus
+A' m = A m (\ J= f 10— * dx
+V j/*r log « J
+in which x has the same signification as in the previous communi-
+cation. If we calculate these values for a certain value of Q t (e.g.
+q = 6,95, whereby the falling-off of stars • becomes a maximum
+for m = 9), and from that the total numbers iV'm+i/, and the loga-
+rithmic defect log N ' In, we find:
+m.
+log N'/N
+m.
+log N'f N
+3
+10
+-0,028
+- 0,080
+4
+11
+- 040
+- 069
+5
+12
+— 055
+— 056
+6
+13
+- 069
+— 043
+1
+14
+— 080
+- 031
+8
+15
+— 086
+— 021
+9
+16
+- 086
+— 014
+10
+17
+With a void, extending over a unity in q, there is therefore a
+lack of 18 7 at the utmost in the total number of stars. To produce
+such a strong defect as observed in the Taurus regions, the void
+must extend over many unities in <>. If such holes do not extend
+J ) E. E. Barnard. On a nebulous groundwork in the constellation Taurus.
+Astrophysical Journal 25, 3.

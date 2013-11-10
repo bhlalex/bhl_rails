@@ -1,0 +1,33 @@
+ON THE TOTALITY OF THE SUBSTITUTIONS ON n
+LETTERS WHICH ARE COMMUTATIVE WITH
+EVERY SUBSTITUTION OF A GIVEN
+GROUP ON THE SAME LETTERS.
+By G. a. miller.
+(Read April 20, 191 1.)
+§ I. Introduction.
+The problem to determine all the substitutions on n letters which
+are commutative with every substitution of a regular group on the
+same letters was first solved explicitly by Jordan in his thesis. It
+was found that with every regular group there is associated a group
+which is conjugate with this regular group, such that each is com-
+posed of all the substitutions which are commutative with every
+substitution of the other. ^ These two regular groups were called
+conjoints by Jordan and it is evident that they have a common
+holomorph and that their group of isomorphisms is the quotient
+group of this holomorph with respect to either of these two regular
+groups.
+The more general problem to determine all the substitutions on
+n letters which are commutative with every substitution of any
+transitive group on the same letters seems to have been solved for
+the first time by Kuhn in his thesis.- He found that with each
+transitive group G of degree n there is associated a group K on the
+same n letters which is composed of regular substitutions on these
+n letters, in addition to the identity. The order of K is a, the degree
+of the subgroup composed of all the substitutions of G which omit a
+given letter being n — a. Hence a necessary and sufficient condi-
+tion that K be transitive is that G be regular, and the number of the
+systems of intransitivity of K is always equal to n/a. When a <i n
+K is formed by establishing a simple isomorphism between n/a
+^Jordan, thesis, Paris, i860, p. 39.
+"Kuhn, American Journal of Mathematics, Vol. 26, 1904, p. 67.
+139

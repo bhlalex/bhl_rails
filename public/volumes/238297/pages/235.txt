@@ -1,0 +1,36 @@
+COMBINATIONS AND PERMUTATIONS. 209
+On carefully examining these numbers, we shall find
+that they are connected with each other by an almost
+unlimited series of relations, a few of the more simple
+of which may be noticed.
+1. Each vertical column of numbers exactly corre-
+sponds with an oblique series descending from left to
+right, so that the triangle is perfectly symmetrical in its
+contents.
+2. The first column contains only units; the second
+column contains the natural numbers, i, 2, 3, &c. ; the
+third column contains a remarkable series of numbers,
+i, 3, 6, 10, 15, &c., which have long been called the tri-
+angular numbers, because they correspond with the
+numbers of balls which may be arranged in a triangular
+form, thus
+o
+O 00
+O 00 000
+o oo ooo oooo
+o oo ooo oooo ooooo
+These numbers evidently differ each from the previous
+one by the series of natural numbers. Their employment
+has been explained, and the first 20,000 of the numbers
+calculated and printed by E. de Joncourt in a small
+quarto volume, which was published at the Hague, in
+1762.
+The fourth column contains the pyramidal numbers,
+so called because they correspond to the number of equal
+balls which can be piled in regular triangular pyramids.
+Their differences are the triangular numbers.
+The -numbers of the fifth column have the pyramidal
+numbers for their differences, but as there is no regular
+figure of which they express the contents, they have been
+arbitrarily called the trianguli-triangular numbers. The
+succeeding columns have, in a similar manner, been said to

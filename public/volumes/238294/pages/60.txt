@@ -1,0 +1,42 @@
+( 431 )
+l;ist coliiiim of llic iH-cccMliiiü' tahlc Tlici-c simmiis Io lx.' a slicht
+ji'i-adiial ivlardalioii, l»iit lor llic rest llio reduced rales m llie main
+a.<»'i-ee satisfju-loriiy, wliüe soiik> oj' ihe mosl diseonlaiil \ allies beloiiji-
+lo short iulei-vais. As llie lengths of Ihese intervals are \ei-v dillereiil,
+it would have little sense to derive a value for the mean dis-
+('oi'danee.
+4. TIk' I'Cihiciion of tin' iil)S(')T(ition.'< for /o/o/if/idc. For the
+rediietion of m\' ol)ser\alions I followed the met hod jj,i\-en l>v Prof.
+OlDKMANS ').
+I also follow e<l his advice not to reduce the transits to the middle
+tliread. l»iit simply to take the mean of i\\o observed times of transit.
+A sliuht disadxaida^e of the coiii-se followed l)\- me is that, when
+either for the moon or for the star the transit o\er a thi'ead has
+not been obsei-xed, we mns( also exclude the corres[)ondin,u- ti-ansil
+of the other object. This was only the case with the two observa-
+tions of 11)01 May 21 -).
+Having found in this n\ ay the times of the [)assage over the mean
+of the threads we had now lirst lo determine the differences s l>etween
+the observed differences in zenith distance of the moon and the star
+as siiown by the level-i-eadings and the \alues computed for them
+with adopted rediiclion elements, among w hicii an assumed longitude
+of the station. Secondly the ecpiations of condition were formed, by
+means of which the values of C are connected with the variatiojis of
+the adopted elements. These (Mpiations were transformed so as to
+express AA, the \ariatioJi of the ado[ited longitude, as a function
+of ?, and of the \ariatioJis of the a<lopled latitude, of the adopted
+cori-ection of the chronometer, of the times of transit of the moon
+and the star, of the adopted right ascejision and deidination of the
+two objects and of tiie ado[)le(l values for the parallax and the
+semidiameter of the moon.
+On the one hand this course enabled me to correct the results
+founil provisionally as soon as corrected xalues of the reduction
+elements had been derixed: (ui the othei- hand the e([uations showed
+the influence of residual errors in the obser\(Ml (piantities and in the
+reduction elements.
+In the first place 1 shall consider the Naliies a<lo|>ted tinally for
+the elements of i>'(liiction. 1 accepted as the latitude of the station
+— 5M2'4".() (ContribiitioJis 1 p. (284) 11). The corrections of the
+^) Versl. en Med. Ki»n. Akad. Amslerdani tl, \Sol, p. ï25— iO.
+-) By usinii- only curvespondinii- tiaiisits we also eliminate tlie itilluriicc ul the
+refraction.

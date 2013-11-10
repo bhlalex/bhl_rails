@@ -1,0 +1,39 @@
+240 ABBOT— SOLAR CONSTANT OF RADL\TION. [April 21,
+curve, extending f roni about wave-length 0.30 ^i in the ultra-violet to
+about wave-length 3.0/1, in the infra-red. Its ordinates are deflec-
+tions of the galvanometer, proportional to energ>' in the spectrum,
+and its abscissae are proportional to difit'erences of prismatic devia-
+tion. The Fraunhofer lines, and great oxygen and water-vapor
+bands, show as depressions in the curve. In order to eliminate dis-
+tortions which are due to differences, for differing wave-lengths,
+in the reflecting power and transmission of the mirrors and prism
+used in the optical train, special investigations of the transmission of
+the apparatus are made from time to time, and the curves corrected
+accordingly.
+In our ordinary practice, from six to eight holographs are taken
+in a single forenoon, between the times when the sun's zenith dis-
+tance is 75° and (say) 30°. The curves are measured at about
+thirty positions, uniformly spaced in the prismatic spectrum. Each
+group of six to eight measurements, at a single spectrum place, fur-
+nishes means of computing from Bouguer's formula the transmis-
+sion of the atmosphere for that wave-length, and also the ordinate
+which would have been found there if the observations had been
+made outside the atmosphere. The sum of the ordinates measured
+on any holograph is approximately proportional to the total energy
+of all wave-lengths observed. Similarly the sum of the ordinates
+computed for outside the atmosphere is proportional to the total
+energ}' there.^
+In order to reduce the total energy, as determined bolometrically,
+to calories per square centimeter per minute, the pyrheliometer is
+read, while the spectro-bolometric work is in progress, on each day
+of observation. Thus a factor is obtained for deducing from the
+areas of the l3olometric curves the true heat units corresponding.^*'
+A complete determination of the solar constant of radiation requires
+" In the regions of great water-vapor and oxygen absorption the extra-
+atmospheric curve is determined by interpolation between adjacent com-
+paratively unaffected wave-lengths on either side> for we know that there is
+no oxygen or water-vapor absorption of these bands produced in the sun, so
+that they ought not to show in the extra-atmospheric curve. Small allowances
+are also made for the energy of lesser and greater wave-lengths than any
+observed.
+^'' For further details consult Annals, Vol. IL

@@ -1,0 +1,33 @@
+THE INDIRECT METHOD OF INFERENCE. 113
+And as the second member of this is identical with the
+second member of ( i ) we may substitute, obtaining
+A = AB.
+This process of reducing useless alternatives, may be
+applied again and again ; for it is plain that
+A = AB (CD + Cd ! cD [ cd)
+communicates no more information than that A is B.
+This abstraction of indifferent terms is in fact the con-
+verse process to that of development described in p. 104 ;
+and it is one of the most important operations in the
+whole sphere of reasoning.
+The reader should observe that in the proposition
+we cannot abstract C and infer
+A = B;
+but from
+AC | Ac = BC | Be
+we may abstract all reference to the term C.
+Illustrations of the Indirect Method.
+An infinite variety of arguments and logical problems
+might be introduced here to show the comprehensive
+character and powers of the Indirect Method. We can
+treat either a single premise or a series of premises.
+Take in the first place a simple definition, such as ' a
+triangle is a three-sided rectilinear figure/ Let
+A = triangle
+B = three-sided
+C = rectilinear figure,
+then the definition is of the form
+A- BC.
+If we take the series of eight combinations of three
+letters (see p. 106) and strike out those which are
+I

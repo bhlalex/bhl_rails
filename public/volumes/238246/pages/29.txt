@@ -1,0 +1,40 @@
+22
+within W, then we start from the known expansion with known
+remainder of 1 : {z — .r) in such a series. In tlie same way we may
+reach our present purpose, if we use the known expansion with
+knoivn remainder of the just mentioned elementary function in a
+binomial series, viz.
+:=z 7 m 1- ■ • ■ ■ — ■ . .
+z—x ^L^ (e_^). . .(e — |i-w) (2— /?). . .(^-/J— n+l) z—x
+Substituting this expression for 1/^ — x in the integral (12) and
+choosing the path of integration so as to include, besides the point
+z = X, the points 2 = /5, /:? -f- 1, . . . , ^ -|- n — 1, we find ^)
+71 — 1
+iü
+{x) = SI ('' ^ ^^^ A'« w{^) + Rn . . . . (13)
+where
+2.Jii j'^^^\z-i^)...{z—^—n\-\)' z—x ' ^ ^
+W
+Formula (13) is the ordinary formula of interpolation of Newton
+with a remainder added to it and valid for all complex .«-values
+lying within W.
+If all points z=z ^3, /? -f- 1 , . . . , ^ -|- n — 1, are to lie within the
+integration-curve IF, this curve will in general have to be modified
+with increasing n. It is required to choose W as fit as possible, that
+is to say: so that the remainder (13') tends to zero with indefinite
+increase of n, and that yet the aggregate of functions to{x) for which
+this takes place, is as extensive as possible. If, now, the form (7)
+is taken as majorant-value of these functions, where the number a
+is, as yet, left undetermined and the number y, in order to have a
+definite case, is chosen zero (so that /? > 0), it is found after a
+rather long but principally not difficult inquirement: 1. that the
+most favourable integration-curve is a circle with z =i n as centre
+and n as radius so that it passes through the origin ; 2. that for a
+a complex number may be taken lying on the circumference of the
+circle (1,1), with the specifications concerning the domains of validity
+already mentioned in the Statement of the above theorem.
+We may further observe that, in case the number c in formula
+1) If a few points /?, /? + !,,.., are excluded from the closed curve W, we
+obtain an expression the further examination of which leads to the so-called sero-
+expansions, which are treated in an elementary way by Pincherle (Rendic. d.
+R. Accad. d. Lincei, 1902. 2e Sem.)

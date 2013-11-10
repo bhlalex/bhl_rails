@@ -1,0 +1,35 @@
+222 THE PRINCIPLES OF SCIENCE.
+figures required in writing it down, without using
+about 19,729 figures for the purpose.
+The successive orders of the powers of two have then
+the following values :
+First order .... 2
+Second order .... 4
+Third order .... 16
+Fourth order .... 65,536
+Fifth order, number expressed by 19,729 figures.
+Sixth order, number expressed by
+figures, to express the number
+of which figures would require
+about . . . . 19,729 figures.
+It may give us a powerful notion of infinity to remem-
+ber that at this sixth step, having long surpassed all
+bounds of conception, we have made no approach to the
+goal. Nay, were we to make a hundred such steps, we
+should be as far away as ever from actual infinity.
+It is well worth observing that our powers of ex-
+pression rapidly overcome the possible multitude of
+finite objects which may exist in any assignable space.
+Archimedes showed long ago, in one of the most won-
+derful writings of antiquity/ that the grains of sand
+in the world could be numbered, or rather, that if
+numbered, the result could readily be expressed in
+arithmetical notation. Let us extend his problem, and
+ascertain whether we could express the number of
+atoms which could exist in the visible universe. The
+most distant stars which can now be seen by telescopes
+those of the sixteenth magnitude are supposed to
+have a distance of about 33,900,000,000,000,000 miles. u
+Sir W. Thomson, again, has shown reasons for supposing
+* ' Liber de Arense Numero.'
+u Chambers's 'Astronomy' (1861), p. 272.

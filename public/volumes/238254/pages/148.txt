@@ -1,0 +1,41 @@
+Parameter Values of Potential Theory. 173
+is always sinj^ular. We shall assume that the surfaces are all
+exterior to one another, so that X. = — 1 is not a characteristic
+number. The functions P(^s) and Q{ts) assume simple values at the
+pole Ao=l. For the functions i/'i(«), ^i{s), • . • , >/'/«(*) are such that
+i/',.(,s-) is equaP to + 1 over the rth surface and zero over all the
+other surfaces; while 4)r{t) is a distribution of electricity over
+the surfaces giving constant values over each of the surfaces
+and rli)-oughout each of the vi inner regions. This distribution
+<f)r(/) has a total charge +1 over the rth surface, and zero over
+each of tIic otlieis. It tliere-fore represents the electric distribution
+over the ;/( surfaces regarded as conductors, due to unit charge on
+the rth sui-face. Hence, if we use an index to denote the particular
+value of the pole A..,.
+F+^{ts) = (f>y{t) rr^l, 2, .... Ill
+according as .»>• is on the 1st. 2nd, wth surface. Fui'ther, the func-
+tion if/r(p), being ecpial to the potential of a double stratum of unit
+moment over the rth sui'face. is given bv
+(30) if,,{/>)=jli{tp)</t = '2, 1, or
+according as /> is within the rth surface, on its boundary, or out-
+side that surface. The jjotential <I>r(^) due to the distribution
+<f>r(^) is the conductor jxitential refei'red to. We shall denote it by
+rr(^). So tliat
+(31) i F + Uj.p) = 2cl>,{f), ^At), or
+) Q + \>/p) = 2Vr{(j), VrW), or
+according as p is witiiin the rth surface, on its boundary, or in the
+outer region. This of course is a particular case of (13) and (14).
+We may prove several interesting properties of the functions in-
+volved in (5), (7) and (8), making use of the relation (29). If in
+the first of (7) we replace p by a boundary point «, multiply by dt
+and integrate over the boundary we find
+/P(fs)dt = XjP{Os)dO
+Hence
+(32) /P(ts)dt=0 Ao±l.
+By the .same process we deduce from (5) thaf^
+(33) {l~\)/H(ts)dt=\
+Substituting from (6) and putting Ay = 1 we have
+(33') (1 -\)/ H+\ts)dt + jP + \ts)dt=l
+1. Plemelj. Loc. cit., Kap. 16.
+* In (32) X may be replaced by a i)oiiit p. The same may be done in (33) and (34') provided the
+second member be changed to 2 for p in the inner reyion, and to for p in the outer region. Cf. § 10.

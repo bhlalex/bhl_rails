@@ -1,0 +1,37 @@
+386 HAYES— U. S. NAVY MV TYPE OF HYDROPHONE.
+ascertain the corresponding limits of error as a function of the depth
+by plotting the curves represented by the equation :
+d ± 0.2
+D (fathoms) = i -|- 22.6 tan cos"^ — q~~q~'
+taking for the binaural arm (C) its value 28.98 inches in air (the
+water path is 126 inches) and for the variable (d) the net compen-
+sation of the line corresponding to various values of the sounding
+angle <^.
+These curves have been drawn, one on either side of the true
+sounding curve. Due to this personal error in determining <E>, the
+maximum limits of which are set as ±0.2 air inches, it is evident
+that a given sounding is liable to fall anywhere within the shaded
+area bounded by these two curves. It is to be noticed that this area
+widens in a vertical direction at both ends of the curve, i.e., the error
+for very shallow and for great depths is greater than for inter-
+mediate depths. The hydrophone installation in question has the
+receivers installed along a horizontal line parallel to the ship's keel,.
+as shown in the left-hand diagram of Fig. 7.
+In Fig. 9 the maximum error is plotted against depth as abscisssfr
+and shows how the error is reduced for small depths when the line
+of receivers is inclined to the ship's keel. The full line curve shows
+the maximum error for various depths when the line of receivers is
+parallel to the center line of the ship. The error increases rapidly
+for depths below 10 fathoms. The broken line curve made of long-
+dashes gives the maximum error when the line of receivers is inclined
+30° to the horizontal in the manner shown in the right-hand diagram
+of Fig. 7. Here the error at great depths is not materially increased.
+The third curve gives the error when the line of receivers is inclined
+60°. This arrangement further reduces the errors slightly in shallow
+depths but clearly at the expense of increasing it considerably at
+greater depths.
+It has been found that best results are given when the line of
+receivers is inclined about 30° to the keel. Such an arrangement
+reduces the error in shallow water sufficiently for all practical pur-
+poses and at the same time does not materially increase the error for
+greater depths.

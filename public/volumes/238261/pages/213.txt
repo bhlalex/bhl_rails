@@ -1,0 +1,41 @@
+296 PROCEEDINGS OF THE AMERICAN ACADEMY.
+variation of the specific heat of water with variation of temperature, this
+specific heat being called 1 for every temperature used. This inaccuracy
+will be referred to again.
+These figures show a considerable range of temperature, and from
+them it should be possible to derive an approximate value at least of the
+temperature coefficient of K. The numbers given in brackets, however,
+will not be used for this purpose. The numbers for July 1, 2, and 8
+exhibit great differences between Ki and iu, and also between the values
+of K. On those days, and those only, the pair of copper-German silver
+junctions, used to determine the change of temperature of the upper
+stream, were covered with shellac melted on. The coating thus obtained
+was too thick, so that the junctions did not take the temperature of the
+water with sutficient readiness. There are in the table above given
+other values of K obtained at temperatures not very different from
+those at which these rejected values were found. The values obtained
+for K ai all temperatures above 70° differ much among themselves; but
+it hardly seems best to reject them altogether in the attempt to arrive
+at an approximate value of the temperature coefficient of K. The great
+variation observed among them was probably due to unsteadiness of
+temperature of the water streams when very hot, or to possible impair-
+ment by the hot water of the shellac coating on the copper-German
+silver junctions.
+All the values of K not contained within the bracketed lines will be
+used in some fashion in estimating the temperature coefficient ; but they
+will be used in two divisions, one for May and June, the other for July
+and August. The reason for this division is that on August 5 some of
+the lines of wire leading from the copper coatings on the iron disk were
+found to be out of condition. The pairs of wires affected were 1, 2, 11,
+and 12, the other nine pairs remaining in good condition. When this
+partial breakdown began it is impossible to determine ; June 30 was
+the last date on which all the pairs of wires were known to be in good
+order. It has been shown in the early part of this paper that each pair
+of wires gave about the same effect as any other pair ; therefore, as all
+were joined in multiple, the failure of a few of them should affect the
+total current but little, the resistance of the remaining pairs being but a
+small part of the total resistance of the circuit. The failing pairs lay,
+one in the outermost circle, two in the next, and one in the next. It
+appears, from a comparison of the values of K obtained near 21° and
+near 39° in May and June with the values obtained near 28° in July
+and August, that the impairment of the wires or some other unknown

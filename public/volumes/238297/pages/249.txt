@@ -1,0 +1,35 @@
+COMBINATIONS AND PERMUTATIONS. ' 223
+that there do not exist more than from 3Xio 24 to io 26
+molecules in a cubic centimetre of a solid or liquid sub-
+stance^ Assuming these data to be true, for the sake
+of argument, a simple calculation enables us to show that
+the almost inconceivably vast sphere of our stellar system
+if entirely filled with solid matter, would not contain
+more than about 68 x io 90 atoms, that is to say, a number
+requiring for its expression 92 places of figures. Now,
+this number would be immensely less than the fifth order
+of the powers of two.
+In the variety of logical relations, which may exist
+between a certain number of logical terms, we also meet
+a case of higher variations. Two terms, as it has been
+shewn (p. 154), may form four distinct combinations,
+but the possible selections from these series of com-
+binations will be sixteen in number, or, excluding cases
+of contradiction, seven. Three terms may form eight
+combinations, allowing 256 selections, or with exclu-
+sion of contradictory cases, 193. Four terms give sixteen
+combinations, and no less than 65,536 possible selec-
+tions from those combinations, the nature of which I
+naturally abstained from exhaustively examining. Five
+terms give thirty-two combinations, and 4,294,967,296
+possible selections ; and for six terms the corresponding
+numbers are sixty-four and 18,446,744,073,709,551,616.
+Considering that it is the most common thing in the
+world to use an argument involving six objects or terms,
+it may excite some surprise that the complete investiga-
+tion of the relations in which six such terms may stand
+to each other, should involve an almost inconceivable
+number of cases. Yet these numbers of possible logical
+relations belong only to the second order of combina-
+tions.
+x 'Nature/ vol. i. p. 553.

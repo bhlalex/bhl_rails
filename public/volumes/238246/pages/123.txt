@@ -1,0 +1,41 @@
+158
+6. If tlie complex [c'j lias a base-point />, it is at the same time
+singular null-point, for two points on a ray passing through B,
+determine a nodal d*, with node in B. The double rajs of the
+involution formed bj the curves <<" with node B are double lines
+of \c"\, consecpiently singular null-rays. Other double null-rajs do not
+exist, for if a straight line (/ of ó^ does not pass through B, d' does.
+As B is node of the Jacobian of each net belonging to \c*), this
+point replaces four critical points. Two more singular points, there-
+fore, lie outside B; they are connected bj a singular null-ray.
+7. In a fourfold linear system ,8(^\ each point D is node to a
+pencil (d"). Two of those curves have a cusp in 6'^ D.
+I now consider the null-system in which to the null-point C are
+associated the cuspidal tangents c, c' of the two cuspidal curves y",
+which have their cusps in C.
+The straight line d is touched in each of its points D by a nodal
+d", which has its node in D. With the straight line PD d" has
+moreover {n — 2) points E in common. In order to find the locus of
+the points E, I shall inquire how often E gets into P. In this case
+d" belongs to the complex that has a base point in P; in it occur
+(4?i — 7) d", which touch at d (§ 2). Consequently {E) is a curve of
+order (5?2 — 9).
+If E lies on (/, PE ::= d' touches in that point at a r>, which
+has its node on D. Every straight line d therefore is nodal tangent
+of (5?i — 9) curves d", of which the second tangent d' passes through
+P. If (/ is now made to revolve round a point Q, the point D
+describes a curve {D) of which ever}' point is node of a ()", which
+sends its tangents d and d' through Q and P. In Q a, ö" is touched
+by QP, so Q and consequently P is a point of (/)), so that this
+curve is of order (5n — 8).
+If C is one of the (5?i — 10) points, which {D') has in common
+with the straight line PQ, besides P and Q, the tangents f/, d' fall
+both along PQ, so that C is a cusp of a cuspidal curve y", which
+has c ^ PQ as cuspidal tangent.
+hi the above null-system a straight line therefore has 5{7i —2) null-
+points.
+If c revolves round a point Al, the null-points C describe a curve
+of order {5?i — 8), with node M (the 7md curve of J\J).
+8. The system S^^^ contains a number of curves with a triple
+point. If aS*^^) is represented by the equation
+i<A -^ pB -\- yC 4 dZ> + f^= 0,

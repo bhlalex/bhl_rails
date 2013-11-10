@@ -1,0 +1,96 @@
+512
+PROCEEDINGS OF THE AMERICAN ACADEMY.
+Carex
+praticola, 452, 461, 462, 464, 471.
+Redowskiana, 482.
+remota, 490.
+Richardi, 487.
+saltuensis, 507, 508, 509.
+sax umbra, 504.
+scirpina, 458, 485.
+scirpoidea, 457, 458, 485.
+scirpoides, 453, 454, 455, 457, 458, 485.
+scoparia, 447, 448, 449, 460, 461, 463,
+467.
+" var. condensa, 461, 468.
+" " lagopodioides, 468.
+" minor, 447, 448, 449, 470.
+" " moniliformis, 449, 461,
+468, 469.
+" " muskingumensis, 467.
+seorsa, 458, 460, 465, 486, 491.
+siccata, 461, 469.
+silicea, 463, 464, 476.
+sparsiflora, 453, 480.
+spliaerostacliya, 489.
+stellulata, 454, 455, 456, 483.
+7, 485.
+" var. angustata, 455, 484.
+" conferta, 485.
+" scirpina, 457, 485.
+" " scirpoides, 457, 485.
+" " sterilis, 485.
+sterilis, 453, 454, 455, 456, 457, 458,
+465, 483, 484.
+/3, 484.
+" var. aequidistans, 484.
+" " angustata, 484.
+" " cephalantha, 484.
+" excelsior, 455, 458, 484.
+straminea, 447, 448, 450, 451, 462, 463,
+474, 477.
+" var. alata, 476.
+" " aperta, 451, 475.
+" brevior, 450, 451, 476,
+477.
+" " chlorostachys, 472.
+" Crawei, 450, 451, 475.
+" " cristata, 472.
+" " cumulata, 472.
+Carex
+straminea, var. echlnodes, 463, 474.
+" ferruginea, 451, 477.
+" " festucacea, 477.
+" foenea, 472.
+" " intermedia, 472.
+" invisa, 475.
+" Meadei, 475.
+" minor, 474.
+" mirabilis, 473.
+" " moniliformis, 476.
+" Sclikuhrii, 477.
+" silicea, 476.
+" " tenera, 474, 475.
+" typica, 477.
+sychnocephala, 464, 481.
+tenera, 448, 450, 451, 463, 474, 475.
+" var. invisa, 463, 474, 475.
+" major, 475.
+" Richii, 463, 464, 474, 475,
+476.
+" " subereeta, 477.
+tenuiflora, 466, 486, 491.
+tribuloides, 449, 450, 461, 468.
+var. Bebbii, 478.
+" cristata, 472, 478.
+" " moniliformis, 449,468,
+469.
+" reducta, 449, 461, 468,
+469, 474.
+" turbata, 461, 469.
+trispernia, 466, 492.
+Tuckermani, 449.
+umbellata, 506, 507.
+var. brevirostris, 507.
+" tonsa, 507.
+" vicina, 506, 507.
+vaginata, 507, 508, 509.
+" var. alto-caulis, 507, 508.
+varia, 498, 499, 500, 503, 504.
+" var. minor, 499, 503, 504.
+" pedicellata, 504.
+vitilis, 458, 459, 489.
+xerantica, 462, 464, 479.
+Vignea
+Gebhardi, 489.
+stellulata, 483.

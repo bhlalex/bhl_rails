@@ -1,0 +1,43 @@
+( 645 )
+foil and iiidiariibber solution in one of the ways represented in
+figs. 2, 3 and 5.
+For the filling of the tnbes we can recommend in general di-y
+hydrogen.
+§ 2. Batterij of stuiubird-thermoelements. At the end of Comm. N". 27
+it was remarked liiat the comparison-thermoelement itself with
+junctnres placed in ice and steam, tiie electromotive force of the obser-
+vation-element being e.\{)ressed in terms of that of the comparison-
+thermoelement, conld Ite used as a standai'd. One of the junctures
+is easily kejü at O*^ C. when the precautions are taken described in
+Comm. N". 27 and in this pa])er §1. As to the other which is [jlaced
+in steam we must make sure tiiat in tlie l)oiling-apparatus described
+in Comm. N". 27 tiie water vapour flows out at a stead^M'ate and we
+must apply tiie small correction for the variation of the boiling-point
+with the barometric height in order to easily reduce the electromotive
+force to that which would be obtained if this juncture were kept
+precisely at J 00' C. If the metals do not undergo a secular variation,
+we always have at our disposal a constant electromotive force
+(although it cannot be reproduced with certainty independent of the
+special apparatus) wliich is very appropriate for the calibration of
+sensitive galvanometers in general, and has moreover the advantage
+in thermoelectric determinations of temperature that it belongs to the
+same size as the electromotive force to be measured.
+It seems that this idea has later been developed by the Phys.
+Techn. Reichsanstalt ^).
+At the time of Comm. N". 27 (.June '96) the comparison thermo-
+element was compared at intervals with a standai'd-element (then
+Clark's). On the whole it satisfied the re((uiremeuts better tlian the
+CLARK-cell, which had to be replaced repeatedly, while owing to the
+improvements of the protection of thermoelements we had obtained
+comparison-thermoelements which coidd serve unaltered for indefinite
+time. The favourable experiences made with the German-silver-
+copper-element in Comm. N". 27 led us to replace the single comparison-
+or standard-thermoelement by a battery of 3 standard-thermoelements
+each with its own boiling-apparatus and ils own ice-pot, which are
+mounted insulated. Two of those elements /^, and 7^, are m.ade of con-
+stantin-steel, the thiixl Q^ is the afore-mentioned (German silver-copper-
+element with a 3 times smaller electromotive force than that of 7^» or 1\.
+1) Vgl. Zeitschr. f. Inslik. Bd. 17, p. 174, 1897.
+Idem Bd. 18, p. 183, 1898.
+Idem Bd. 22, p. 149, 1902.
+Idem Bd. 23, p. 174, 1903.

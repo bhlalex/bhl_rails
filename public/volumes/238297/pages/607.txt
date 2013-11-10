@@ -1,0 +1,36 @@
+QUANTITATIVE INDUCTION. 117
+and almost always desirable, to call in the aid of space-
+representations. Every equation involving two variable
+quantities . corresponds to some kind of plane curve, and
+every plane curve may be represented symbolically in an
+equation of a more or less complex character, containing
+two unknown quantities. Now in an experimental re-
+search we obtain a number of values of the variant cor-
+responding to an equal number of values of the variable ;
+but all the numbers are affected by more or less error,
+and the values of the variable will often be * irregularly
+disposed. Even if the numbers were absolutely correct
+and disposed at regular intervals, there is, as we have
+seen, no direct mode of discovering the law, but the dif-
+ficulty of discovery is much increased by the uncertainty
+and irregularity of the results.
+Under such circumstances, the best mode of proceeding
+is to procure or prepare a paper divided into small equal
+rectangular spaces, a convenient size for the spaces being
+one-tenth of an inch square. The values of the variables
+being marked off along the scale formed by the lowest
+horizontal line, a point is marked for each corresponding
+value of the variant perpendicularly above that of the
+variable, and at such a height as corresponds to the
+amount of the variant.
+The exact scale of the drawing is not of much im-
+portance, but it may require to be adjusted according to
+circumstances, and different values must often be attri-
+buted to the upright and horizontal divisions, so as to
+make the variations conspicuous, but not excessive. If
+now a curved line be drawn through all the extremities
+of the ordinates, it will probably exhibit many irregular
+inflections, owing to the errors which affect all the numbers.
+But, when the results are numerous, it soon becomes ap-
+parent which results are more divergent than others, and
+guided by a so-caUed sense of continuity, it becomes pos-

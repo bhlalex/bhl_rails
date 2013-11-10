@@ -1,0 +1,52 @@
+4 oo THE POPULAR SCIENCE MONTHLY.
+trating his point by a weight resting upon the earth, suspended at a height -above
+the earth, and actually falling to the earth. He next fixes his attention on cases
+where motion is apparently destroyed, without producing other motion ; on the
+shock of inelastic bodies, for example. Under what form does the vanished
+motion maintain itself? "Experiment alone," says Mayer, "can help us here."
+He warms water by stirring it ; he refers to the force expended in overcoming
+friction. Motion in both cases disappears; but heat is generated, and the quan-
+tity generated is the equivalent of the motion destroyed. " Our locomotives,"
+he observes with extraordinary sagacity, "may be compared to distilling appara-
+tus : the heat beneath the boiler passes into the motion of the train, and is again
+deposited as heat in the axles and wheels."
+A numerical solution of the relation between heat and work was what Mayer
+aimed at, and toward the end of his first paper he makes the attempt. It was
+known that a definite amount of air, in rising one degree in temperature, can
+take up two different amounts of heat. If its volume be kept constant, it takes
+up one amount ; if its pressure be kept constant, it takes up a different amount.
+These two amounts are called the specific heat under constant volume and under
+constant pressure. The ratio of the first to the second is as 1 : 1*421. No man,
+to my knowledge, prior to Dr. Mayer, penetrated the significance of these two
+numbers. He first saw that the excess - 421 was not, as then universally sup-
+posed, heat actually lodged in the gas, but heat which had been actually con-
+sumed by the gas in expanding against pressure. The amount of work here per-
+formed was accurately known, the amount of heat consumed was also accurately
+known, and from these data Mayer determined the mechanical equivalent of
+heat. Even in this first paper he is able to direct attention to the enormous dis-
+crepancy between the theoretic power of the fuel consumed in steam-engines
+and their useful effect.
+Though this paper contains but the germ of his further labors, I think it may
+be safely assumed that, as regards the mechanical theory of heat, this obscure
+Heilbronn physician, in the year 1842, was in advance of all the scientific men
+of the time.
+Having, by the publication of this paper, secured himself against what he
+calls " Eventualitiiten," he devoted every hour of his spare time to his studies,
+and in 1845 published a memoir which far transcends his first one in weight and
+fullness, and indeed marks an epoch in the history of science. The title of
+Mayer's first paper was, " Remarks on the Forces of Inorganic Nature." * The
+title of his second great essay was, " Organic Motion in its Connection with Nu-
+trition." In it he expands and illustrates the physical principles laid down in
+his first brief paper. He goes fully through the calculation of the mechanical
+equivalent of heat. He calculates the performances of steam-engines, and finds
+that 100 pounds of coal, in a good working engine, produce only the same amount
+of heat as 95 pounds in an unworking one ; the 5 missing pounds having been
+converted into work. He determines the useful effect of gunpowder, and finds
+nine per cent, of the force of the consumed charcoal invested on the moving ball.
+He records observations on the heat generated in water agitated by the pulping-
+engine of a paper manufactory, and calculates the equivalent of that heat in
+horse-power. He compares chemical combination with mechanical combination
+the union of atoms with the union of falling bodies with the earth. He cal-
+culates the velocity with which a body starting at an infinite distance would
+* Translations of this and other important papers of Mayer are contained in the vol-
+ume on the "Correlation of Forces," published by D. Appleton & Co., New York.

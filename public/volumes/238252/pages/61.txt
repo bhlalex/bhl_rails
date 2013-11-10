@@ -1,0 +1,45 @@
+HERTZIAN WAVE WIRELESS TELEGRAPHY. 57
+and shore stations in proximity, equipped with Marconi apparatus of
+a suitable type.
+These experiments were carried out on the eighteenth of March last,
+at Poldhu, in Cornwall, and a program was arranged by the author of
+the following kind. Close to the Poldhu station is an isolated mast,
+which was equipped by Mr. Marconi with a Hertzian wave apparatus,
+similar to that he places on ships. Six miles from Poldhu is the Lizard
+receiving station, with which ships proceeding up or down the English
+Channel communicate. It was arranged that a series of secret mes-
+sages, some of them in cipher, should be delivered simultaneously at
+certain known times, both to the power station at Poldhu and to the
+small adjacent ship station; and it was arranged that these messages
+should be sent off simultaneously, the operators being kept in ignorance
+up to the moment of sending as to the nature of the messages. At the
+Lizard, Mr. Marconi connected two of his receiving instruments to the
+aerial, one of them tuned to the waves proceeding from the power sta-
+tion at Poldhu, and the other to those proceeding from the small
+ship station. At the appointed time, these two sets of messages were
+received simultaneously in the presence of the author, each message
+being printed down independently on its own receiver; and Mr. Mar-
+coni read off and interpreted all these messages perfectly correctly, not
+having known before what was the message that was about to be sent.
+In addition to this, precautions were taken to prove that the power
+station at Poldhu was really emitting waves sufficiently powerful to
+cross the Atlantic and not being made to sing small for the occasion.
+To assist in proving this, the messages sent out from the power station
+were also received at a station at Poole, two hundred miles away, and
+the assistant there was instructed to telegraph back these messages by
+wire as soon as he received them. These messages came back perfectly
+correctly, thus demonstrating that the power station was sending out
+power waves. The whole program was carried out with the greatest
+care to avoid any mistakes on the part of the assistants, and provided
+an absolute demonstration of the truth of Mr. Marconis assertion that
+the waves from one of his power stations, such as Poldhu, do not ia
+the least degree interfere with the transmission and reception of mes-
+sages between ship and shore, effected by means of certain forms of
+Marconi apparatus for producing and detecting waves of a different
+wave length.* This complete independence of transmission, however, is
+entirely due to the employment of a receiving circuit of a certain type
+in Mr. Marconis receivers. It does not at all follow that receiving
+circuit of any kind, even a Marconi receiver not especially arranged,
+set up in proximity to a power station would not be affected. This,
+* A fuller account of these experiments was given by the author in a
+letter to the London Times published on April 14, 1903.

@@ -1,0 +1,47 @@
+TRANSCENDENTAL GEOMETRY. 511
+Thus we see that mathematics may be defined as the science of the
+relations of concepts. Its vocabulary, too, must be one of fixed con-
+notation. That is why symbols are so useful ; their connotation does
+not vary unconsciously.
+Benjamin Peirce defines mathematics as the science that draws
+necessai'y conclusions. 3Iill says, " The problem is — given a function,
+what function is it of some other function ? " It is obvious that nec-
+essary conclusions can be drawn only so far as there are relations
+fixed whence to draw them ; the function must be given before we
+find its relations with other functions.
+Now, I wish to insist, as strongly as I can, that any set of concepts
+become fit for viathematical handling as soon as thci?' relations are
+unfolded, and this is what I have so far proved. If you ask, " Whence
+these concepts ?" my answer is, " From exj^erience." From it comes
+the " element of intuition " that Stallo says is an element in every geo-
+metrical axiom. Space itself is but a product of experience. If a
+man could only hear or taste, would he have our concept of space ? I
+trow not.
+Let us now, after this long digression, return to our transcendental-
+ists. Euclidean geometry and non-Euclidean alike are mathematical.
+Verbally they come to different conclusions, but neither conclusion
+affects facts. The difference is here, it seems to me. Transcendental
+geometry is the offspring of analytic, though some have tried to treat
+it otherwise. The relations that it handles are at first algebraic rela-
+tions that may apply to anything. Then applying the geometric no-
+menclature to algebraic expression, calling expressions of the first
+degree linear, etc., it interprets these results geometrically. Its defini-
+tions, thus, are different from those of Euclid ; the ideas connoted by
+its vocabulary are different ; its concepts are not the same. It is not
+wonderful, then, that it gets a broader field of relations.
+We decide, then, that from their respective definitions the Euclid-
+ean and the transcendental geometry are true. And this is, perhaps,
+the most important point to settle, for the transcendentalists have said
+that, although the geometrical definitions were true, the axioms need
+not be. "We, however, say that the axioms, or what you will, of par-
+allelism, etc., arc part of the connotation of the words defined, and are
+simultaneously given. Of course, some experience is necessaiy to
+make us form any concepts.
+The question now to be answered is, then, Which are the best defi-
+nitions? But it must be remembered that, as long as we are dealing
+with mathematics, we are never dealing with real things. Thus Ilelra-
+holtz is wrong in saying that by adding any mechanical axioms or
+principles we can obtain an empirical science out of geometry, if the
+science thus obtained is purely mathematical.
+Mathematical concepts can have two virtues in varying degrees,
+namely, simplicity and resemblance to, or rather correspondence with,

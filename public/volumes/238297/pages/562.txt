@@ -1,0 +1,27 @@
+CHAPTEE XXI.
+THEORY OF APPROXIMATION.
+IN order that we may gain a true understanding of the
+kind, degree, and value of the knowledge which we ac-
+quire by experimental investigation, it is requisite that
+we should be fully conscious of its approximate character.
+We must learn to distinguish between what we can know
+and cannot know between the questions which admit of
+solution, and those which only seem to be solved. Many
+persons may be misled by the expression exact science,
+and may think that the knowledge acquired by scientific
+methods admits of our reaching absolutely true laws,
+exact to the last degree. There is even a prevailing
+impression that when once mathematical formulae have
+been successfully applied to a branch of science, this por-
+tion of knowledge assumes a new nature, and admits of
+reasoning of a higher character than those sciences which
+are still unmathematical.
+The very satisfactory degree of accuracy attained in the
+science of astronomy gives a certain plausibility to erro-
+neous notions of this kind. Some persons no doubt con-
+sider it to be proved that planets move in ellipses, in such
+a manner that all Kepler's laws hold exactly true ; but
+there is a double error in any such notions. In the first
+place, Kepler's laws are not proved, if by proof we mean
+certain demonstration of their exact truth. In the next
+place, even assuming Kepler's laws to be exactly true in a

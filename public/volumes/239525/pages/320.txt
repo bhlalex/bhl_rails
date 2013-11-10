@@ -1,0 +1,33 @@
+OF ARTS AND SCIENCES: JANUARY 14, 1873. 493
+»
+D (z°) D (x-)
+Since ^ is a function of z only, and ^ a function of x only,
+Dz •" Dx ■"
+while 2 and x are any two values of the independent variable (h being
+arbitrary), the functional expression which constitutes either member
+of equation [3] does not change its value with the independent vari-
+able, hence " n — 2 x = c (a constant), [4]
+or D(x 2 ) = 2x Dx + cDx. [5]
+To determine the unknown constant c, we differentiate, by equation
+[5], the identity
+(m x) 2 == m 2 x 2 ,
+obtaining 2mx-mDx-{-cmDx = m 2 2xDx-\-m 2 cDx,
+or c m (1 — m) Dx = 0.
+c = 0,
+since m and D x have ai'bitrary values,
+JD(x 2 ) = 2xDx. [a]
+Equation [a] may also be deduced from [3] by the following method : —
+In equation [3] not only are x and z entirely independent, since h is
+D (z 2 )
+arbitrary, but D x and D z are no longer restricted, for J. will not
+change its value if we suppose Dz to have apy value greater or less
+than D x. We may therefore put
+z=z mx.
+Introducing this value in [3], we obtain
+D(m*x*) ' D(?*)
+D (mx) D x
+ROD. 9 #Q 2 ) o
+or m ^ — 2 mx= S: — 2 x;
+Dx Dx
+Whence, since m is arbitrary,
+Dx

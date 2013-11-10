@@ -1,0 +1,36 @@
+THEORY OF APPROXIMATION. 89
+In a similar manner Fourier's theory of the conduction
+and radiation of heat was based upon the hypothesis that
+the quantity of heat passing along any line is simply pro-
+portional to the rate of change of temperature. But it
+has since been shown by Forbes that the conductivity of a
+body diminishes as its temperature increases. All the
+details of Fourier's solution therefore require modification,
+and the results are in the meantime to be regarded as
+only approximately true 9.
+We ought to distinguish between those problems which
+are physically and those which are merely mathematically
+incomplete. In the latter case the physical law is cor-
+rectly seized, but the mathematician neglects, or is more
+often unable to follow out the law in all its results. The law
+of gravitation and the principles of harmonic or undula-
+tory movement, even supposing the data to be correct,
+can never be followed into all their ultimate results.
+Dr. Young explained the production of Newton's rings by
+supposing that the rays reflected from the upper and
+lower surfaces of a thin film of a certain thickness were in
+opposite phases, and thus neutralized each other. It was
+pointed out, however, that as the light reflected from the
+nearer surface must be undoubtedly a little brighter than
+that from the further surface, the two rays ought not to
+neutralize each other so completely as they are observed
+to do. It was finally shown by Poisson that the dis-
+crepancy arose only from incomplete solution of the
+problem ; for the light which has once got into the film
+must be to a certain extent reflected backwards and
+forwards ad infinitum; and if we follow- out this course of
+the light by a perfect mathematical analysis, absolute dark-
+ness may be shown to result from the interference of the
+rays r . In such a case as this we used no physical laws
+<i Tait's 'Thermodynamics,' p. 10.
+r Lloyd's ' Lectures on the Wave Theory/ pp. 82, 83.

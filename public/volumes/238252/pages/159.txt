@@ -1,0 +1,44 @@
+HERTZIAN WAVE WIRELESS TELEGRAPHY. 155
+means of producing at least four hundred times the wave-energy that
+had been previously employed. The author was therefore requested
+to prepare plans and specifications for an electric generating plant
+for this purpose, which would enable electrical oscillations to be set
+up in an aerial on a scale never before accomplished.
+This work involved, not merely the ordinary experience of an elec-
+trical engineer, but also the careful consideration of many new prob-
+lems and the construction of devices not before used. Every step had
+to be made secure by laboratory experiments before the responsibility
+could be incurred of advising on the nature of the machinery and
+appliances to be ordered. Many months in the year 1901 were thus occu-
+pied by the author in making small scale experiments in London and
+in superintendence of large scale experiments at the site of the first
+power station at Poldhu, near Mullion, in Cornwall, before the plant
+was erected and any attempt was made by Mr. Marconi to commence
+actual telegraphic experiments. As this work was of a highly con-
+fidential nature, it is obviously impossible to enter into the details of
+the arrangements, either as made by the writer in the first instance, or
+as they have been subsequently modified by Mr. Marconi. The design
+of the aerial and of the oscillation transformers and many of the de-
+tails in the working appliances are entirely due to Mr. Marconi, but as a
+final result, a power plant was erected for the production of Hertzian
+waves on a scale never before attempted. The utilization of 50 or 100
+H.P. for electric wave production has involved dealing with many
+difficult problems in electrical engineering, not so much in novelty of
+general arrangement as in details. It will easily be understood that
+Ley den jars, spark balls and oscillators, which are quite suitable for
+use with an induction coil, would be destroyed immediately if employed
+with a large alternating current plant and immensely powerful trans-
+formers.
+In the initial experiments with this machinery and in its first work-
+ing there was very considerable risk, owing to its novel and dangerous
+nature ; but tliroughout the whole of the work from the very beginning,
+no accident of any kind has taken place, so great have been the pre-
+cautions taken. The only thing in the nature of a mishap was the
+collapse of a ring of tall masts, erected in the first place to sustain
+the aerial wires, but which have now been replaced by four substantial
+timber towers, 215 feet in height, placed at the corners of a square
+200 feet in length. These four towers sustain a conical arrangement
+of insulated wires (see Fig. 26) which can be used in sections and
+which constitute the transmitting radiator or receiver, as the case may
+be. Each of these wires is 200 feet in length and formed of bare
+stranded wire. t

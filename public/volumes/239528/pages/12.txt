@@ -1,0 +1,38 @@
+ENVIRONMENTAL CHEMISTRY
+PCBs are organic compounds commerciany produced by chlorination of a
+biphenyl (BP) with anhydrous chlorine in the presence of iron filings or
+ferric chloride as the catalyst. The purified product is a complex mixture of
+chlorobi phenyls containing 18 to 79% chlorine; the precise composition depends
+on the conditions under which chlorination occurred (EPA 1980). Ten possible
+degrees of chlorination of the biphenyl molecule give rise to ten PCB congener
+groups: mono-, di-, tri-, tetra-, penta-, hexa-, hepta-, octa-, nona-, and
+decachlorobiphenyl (Figure 1). Within any congener group, a number of
+positional isomers (discrete chemical compounds) are possible, depending on
+the number of chlorines in the molecule. For example, the tetrachloro- and
+pentachlorobiphenyl congener groups are composed of 30 and 46 possible
+isomers, respectively. Not all 209 possible isomers are likely to be formed
+during the manufacturing process. In general, the most common ones are those
+that have either an equal number of chlorine atoms on both rings, or a
+difference of only one chlorine atom between rings (MAS 1979). Although
+chlorine substitution is favored at the ortho and para positions (Figure 1),
+the commercial products are complex mixtures of isomers and congeners with no
+apparent positional preference for halogen substitution (Safe 1984).
+Recent advances in the identification and quantification of PCB isomers
+through mathematical and computer-assisted techniques (Dunn et al. 1984;
+Schwartz et al . 1984) will prove useful in data interpretation of metabolic
+fate studies. Unfortunately, the results of PCB analyses vary widely among
+cooperating laboratories. An interlaboratory comparison of spiked and
+unspiked samples of herring oil by 23 participating European and North
+American laboratories showed that calculated spike recoveries ranged from 23
+to 136% (Musial and Uthe 1983). This was attributed to serious deficiencies
+in most steps in the analytical procedures. It seems that until these
+deficiencies are corrected, PCB analyses will have credibility from only a few
+selected laboratories.
+Toxic materials as impurities in PCBs include polychlorinated dibenzo-
+furans (PCDF) in some domestic and foreign mixtures at levels of 0.8 to 33
+mg/kg. The concentrations of PCDFs in Great Lakes fish were related to the
+concentrations of PCBs (Stalling et al . 1983). Sometimes, PCBs used in
+electrical capacitors and transformers are converted under the action of heat
+or electrical arcing to form PCDFs including 2,3,7,8-tetrachlorobenzofuran
+and 2,3,4,7,8-pentachlorobenzofuran. Kanechlor 400 (Table 1), for example,
+with an initial PCDF content of 20 mg/kg, yielded fluid with a PCDF content of

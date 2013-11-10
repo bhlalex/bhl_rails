@@ -1,0 +1,31 @@
+64
+In our case we can liowever follow the course of the growth
+retardation curve more closely by altempling to trace the relation-
+ship between threshold value and fore-illumination. If we calculate
+growth retardalion
+Fig. 2. energy
+from Arisz's tables, mentioned above, the ratio of unilateral after-
+illumination to omnilateral fore-illumination, we find that, if after-
+illumination : fore-illumination =1:11, there is no curvature;
+with this ratio 1:10, 9.9 or 9.2 a few plants give a feeble positive
+curvature,
+with the ratio 1 : 7.2 all plants curve positively.
+This applies, as was already said above, only to a fore-illumination
+of less than 2000 M.C.S. given within 3 min. with an intensity
+below 25 M.O. We must, however, recalculate this for the quantities,
+which the anterior and posterior sides receive. Since we see, that
+a feeble positive curvature occurs when the ratio after-illumination :
+fore-illumination {b : a) has reached a definite magnitude 1 : 9.7, the
+ratio of the energy difference b
+1
+to the energy of the anterior
+side \- b must also be constant, whatever be the values of in and n.
+n
+In order to demonstrate this numerically, I propose to make certain
+assumptions respecting m and n; in principle it does not matter,
+what values we ascribe to in and n. For m I assume 4; the back
+is then illuminated with V4 of the intensity of the front, receives
+h ^ ^
+therefore in unilateral after-illumination - M.C.S. Since the omni-
+4
+lateral energy a M.C.S. is distributed uniformly over the whole

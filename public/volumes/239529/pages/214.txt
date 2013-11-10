@@ -1,0 +1,42 @@
+309
+and these reactions when investigated would show great sensitiveness
+to light (Zeit. Phys. Chem. 1909, 67, J 29).
+Cain and Nicoll (Jour. Chem. Soc. 1903, 83, 470) have proved
+that the decomposition of the diazo salts has the value of about 5
+for their temperature coefficients and it is well known that diazo
+salts are sensitive to light.
+Pendlebuky and Sf.ward (Proc. Roy. Soc. 1889, 95, 396) have
+shown that the reaction between KC10 3 KI and HC1 has the temper-
+ature coefficient of about 4 in the dark and I have found that the
+reaction is very sensitive to light.
+I have already shown (Trans. Chem. Soc. 1917, 111, 707) that
+the oxidations of sodium formate by mercuric chloride and by iodine
+has 4.05 for their temperature coefficient. These two reactions are
+also very sensitive to light (Dhar, Proc. Akad. Wet. Amsterdam
+1916, 24, 1324).
+T have shown that light markedly accelerates the reaction between
+iodine and oxalates and now I have tried to find out which part
+of the spectrum is active in this reaction. For this I exposed five
+small tubes containing a mixture of potassium oxalate and iodine
+in a spectrum obtained from a carbon arc-light. It was found that
+the iodine disappeared first in the tube held in the indigo portion
+near the violet end of the spectrum. Then that of the tube held in
+the blue region. The chemical change took place almost simultane-
+ously in the tubes held in the green and violet portions of the
+spectrum and the colour of the tube in the red end was the last
+to disappear.
+A mixture of mercuric chloride and potassium oxalate undergoes
+the following change in sunlight:
+2HgCl 2 + K,C s 4 = 2KC1 -f 2CO, -j- 2HgCl.
+This decomposition can also be induced by lights obtained from a
+carbon arc, quartz mercury vapour lamp, and an arc obtained by
+passing alternating current in electrodes made of thorium and
+zirconium oxides. I have repeatedly observed that in tropical sunlight,
+a solution of ammonium cupric oxalate decomposes readily in glass
+vessels with the separation of metallic copper and evolution of
+carbon dioxide; but it was found impossible to bring forth this
+change by light obtained from the carbon arc or the thorium and
+zirconium oxides arc.
+1 have found that uranium nitrate markedly accelerates the photo-
+chemical decomposition of a mixture of mercuric chloride and potas-
+sium oxalate, but chromates having the same yellow colour as the

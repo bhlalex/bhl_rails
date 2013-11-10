@@ -1,0 +1,34 @@
+244 THE PRINCIPLES OF SCIENCE.
+the most rudimentary notion of what constitutes reasoning
+and science.
+At the same time there can be no doubt that practi-
+cally what we find to be true of many similar objects will
+probably be true of the next similar object. This is the
+result to which an analysis of the Inverse Method of
+Probabilities leads us, and, in the absence of any precise
+data from which we may calculate probabilities, we are
+usually obliged to make a rough assumption that similars
+in some respects are similars in other respects. Thus it
+comes to pass that a very large part of the reasoning
+processes in which scientific men are engaged, seems to
+consist in detecting similarities between objects, and then
+rudely assuming that the like similarities will be detected
+in other cases.
+Distinction of Generalization and Analogy.
+There is no distinction but that of degree between what
+is known as reasoning by generalization and reasoning by
+analogy. In both cases from certain observed resemblances
+we infer, with more or less probability, the existence of
+other resemblances. In generalization the resemblances
+have great extension and usually little intension, whereas
+in analogy we rely upon the great intension, the extension
+being of small amount (vol. i. p. 31). If we find that the
+qualities A and B are associated together in a great
+many instances, and have never been found separate, it is
+highly probable that on the next occasion when we meet
+with A, B will also be found to be present, and vice versa.
+Thus wherever we meet with an object possessing gravity,
+it is found to possess inertia also, nor have we met with
+any material objects possessing inertia without discovering
+that they also possess gravity. The probability has there-
+fore become very great, as indicated by the rules founded

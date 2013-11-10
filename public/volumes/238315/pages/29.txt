@@ -1,0 +1,64 @@
+Proceedings of the National Shellfisheries Association
+Volume 65 - 1975
+ENERGY PARTITIONING IN THE
+AMERICAN OYSTER, CRASSOSTREA VIRGINICA (GMELIN)
+Curt Michael Langefoss and Don Maurer
+FIELD STATION
+COLLEGE OF MARINE STUDIES
+UNIVERSITY OF DELAWARE
+LEWES, DELAWARE
+ABSTRACT
+Research was conducted to develop an energy budget for the American oyster,
+Crassostrea virginica (Gmelin), in culture. Caloric values ofpseudofeces, feces,
+food ingested, food cleared and food assimilated were determined at three levels
+of alga! {Phaeodactylum tricornutum Bohlin) concentration , 1 .0 x 20 5 , 5.0 x 10 4
+and 2.5 x 10 4 cells -ml-' at 20° and 25°C; approximately 74-148 calories per 12
+hours were used by the oysters. Oysters at the lowest food concentration showed
+the greatest amount of filtration , while oysters at the medium food concentration
+cleared the most food. In addition, the greatest amount of feces and pseudofeces
+were produced at the medium food concentration . There was little difference
+between the amount of energy assimilated at the high and medium concentra-
+tion. The mean assimilation efficiency obtained from the three food concentra-
+tions was 67.6%, and the mean filtration rate (water pumped 6 2 mlhr~' mgdry
+tissue weight'') was consistent with other studies.
+INTRODUCTION
+This research was undertaken to develop an
+energy budget for the American oyster, Crassos-
+trea virginica (Gmelin). An energy budget re-
+lates the intake of food by an organism to its
+subsequent utilization. To develop an energy
+budget, it requires assessing food intake, rejecta
+and the amount of energy utilized by the ani-
+mal. The budget takes the form:
+C = P + R + F + U (Crisp, 1971)
+where C = Consumption, P = Production, R =
+Respiration, F = Feces, U = Urine.
+Some aspects of an energy budget for C. vir-
+ginica have been studied. Oxygen consumption
+of C. virginica was reviewed by Galtsoff (1964).
+Walne (1972) determined the influence of cur-
+rent speed, body size, and water temperature on
+the filtration (water pumped) rates of two spe-
+cies of oysters. Dame (1972) reported for the first
+time the quantitative examination of growth
+rates in intertidal oysters and a simultaneous
+examination of respiration in relation to size
+and temperature. Tenore and Dunstan (1973)
+investigated the effects of different concentra-
+tions of mixed phytoplankton on the feeding and
+biodeposition rate of the American oyster to
+understand bioenergetics of filter-feeding herbi-
+vores. The significance of this budget resides in
+its application to mariculture.
+MATERIALS AND METHODS
+Water
+Sea water for the oyster experiment was
+pumped from the Broadkill River, Delaware, at
+high slack water to assure salinity of 25%o and
+low turbidity. This water was filtered through a
+cloth bag (5 /j.) and then vacuum filtered
+through a "Whatman 40" filter and finally
+passed through a 0.45 fi Millipore filter. Back-
+ground count of particles per ml determined by
+a Coulter Counter was less than 500 per ml. The
+20

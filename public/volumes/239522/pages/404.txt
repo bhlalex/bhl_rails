@@ -1,0 +1,106 @@
+EFFECTS OF PRESSURE ON NITRATES.
+5S3
+expected, because iron is known to deposit silver from solution.
+There was, however, some slight amount of decomposition somewhere,
+as shown by the escape of a few bubbles of gas when the apparatus
+was opened after the measurements at high temperatures. This
+decomposition might be either in the kerosene or the AgNOs. No
+such decomposition could be detected, however, after the measure-
+ments at the lower temperatures and higher pressures. Possibly
+this slight decomposition might explain the two discordant points
+which were discarded, although there are other possibilities, such as
+the fact that the change of volume is so small that a very slight
+amount of hysteresis would produce a comparatively large error.
+On repeating the measurements the possibility of hysteresis was
+avoided as far as possible by running the pressure back and forth
+several times over the transition before beginning the measurements.
+The quantity of AgNOs used in these runs varied from 61 to 103 gm.
+The direct experimental points are shown in Figure 1, the computed
+values of AH and AE in Figure 2, and the numerical results are col-
+lected in Table I. The only points of either determination which
+have been discarded are the two bad Av points already mentioned;
+one of these was about 30% and the other 12% too high. In view of
+TABLE I.
+Silver Nitrate.
+Pressure
+Temperature
+AV
+cm.3/gm.
+dr
+dp
+Latent Heat
+kgm.m./gm.
+Change
+of Energy
+kgm.m./gm.
+1
+159°. 4
+.002.50
+-.0075
+1.442
+1.442
+1000
+151 .8
+254
+77
+1.402
+1.427
+2000
+14.3 .9
+259
+80
+1.3.50
+1.402
+3000
+135 .8
+265
+83
+1.305
+1.385
+4000
+127 .4
+272
+86
+1.267
+1.376
+5000
+118 .7
+279
+89
+1.228
+1.368
+6000
+109 .7
+287
+96
+1 . 145
+1.317
+7000
+99 .0
+296
+125
+.881
+1.088
+8000
+83 .2
+307
+200
+.548
+.794
+9000
+.56 .8
+320
+415
+.2,54
+.542
+9500
+28 .3
+326
+990(?)
+(?)
+(?)^
+9770
+.0
+330
+(V)
+(?)^

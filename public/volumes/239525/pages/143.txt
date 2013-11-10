@@ -1,0 +1,38 @@
+210 PROCEEDINGS OF THE AMERICAN ACADEMY
+New Method for facilitating the Conversion of Longitudes and Lati-
+tudes of Heavenly Bodies, near the Ecliptic, into Right Ascensions
+and Declinations, and vice versa.
+In the computation of a Lunar Ephemeris, the conversion of the lon-
+gitudes and latitudes into right ascensions and declinations forms no
+inconsiderable part of the work to be done. Prof. Hansen, at the end
+of his " Tables de la Lune," has given some tables, with the view of
+diminishing the amount of labor required in this conversion.
+But their employment seems to me to possess little, if any, advantage
+over the use of the ordinary formula? of spherical trigonometry. I pro-
+pose the following method, which perhaps in a slight degree is more
+ready than that of Prof. Hansen.
+Designating the right ascension, declination, longitude, latitude, and
+the obliquity of the ecliptic respectively by a, 8, I, b and e, we have the
+following equations
+sin S = cos e sin b -f- sin e cos b sin I
+. , . sin e . n ,. . sin e . n ,.
+= cos e sin b -\ — sin (/ -\- b) -\- — — sin (/ — o),
+6 + & + S
+cos ■
+a + 6 h 2 / _[_ 90°
+t an ___ - - e _ tan -31
+cos i — J
+The first equation is well known, the second is easily derived from
+the known formula, expressed in the usual notation,
+A B sin (s — c)
+tan — tan — = ^ -,
+2 2 sin s
+when we remember that, in considering the triangle, formed by the
+heavenly body and the poles of the equator and ecliptic, A, B, s and
+c are replaced by 90° + a, 90° — I, 90° -f e ~ ^ + 8) and e.
+Suppose we were to tabulate the functions cos e sin A and ~— — sin A
+for a certain value of e (as 23° 27' 20" which is nearly its value at
+present), and in small side tables put the variations of these functions
+for increments of 1", 2" 9" in e ; we should have the value of sin 8
+by entering the first table with the argument A = b, and the second
+successively with the arguments A = I -j- b and A = I — b, and

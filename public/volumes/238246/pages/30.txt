@@ -1,0 +1,41 @@
+23
+(11) is real and not greater than 1, a fixed integration-path W for
+the remaining integral may be chosen, as soon as the number n
+attains a certain magnitude, and for this we may take the imaginary
+axis in this case. The proof that liin /?„ =i for ?* =z go is then very
+simple, so that the above mentioned particular cases in which a
+function can be expanded in a binomial series, may be derived in
+a sliort manner from Cauchy's integral.
+As further regards the question, how far the inequality (7) is
+necessary for the expansion of a function in a binomial series, the
+way in which i\\e sufjicieni condition has been obtained gives us the
+conviction that the aggregate of functions determined by the latter
+condition is as large as possible. In order to come to certainty
+concerning this it is necessary to investigate how a function represented
+b}' a binomial series behaves in the domain of convergence of that
+series. This investigation may be effected by means of the statement,
+contained in the theorem of Pincherle, that a binomial series
+necessarilj' represents a coe f ficient function, at least in the domain of
+absolute convergence of that series, for to this only the proposition
+of Pincherle applies.
+For simplicity we assume for the binomial series the original form
+(1), which is the one considered by Pincherle. If the characteristic
+A' of the coefficients d is less than — 1, then, as already mentioned,
+the binomial series can be represented by the integral (6) in the
+half-plane R{x) ^ 0, It can now be proved that this integral satisfies,
+in the domain mentioned, the condition (7), with 7 ^ 0, the exponent
+/ being subject to the inequality
+l<-h+<i (14)
+where 6 is an arbitrarily small positive number. This condition can
+further be specified by extending a certain property of the opei-ation
+I by means of which, according to the view of Pincherle, the gene-
+rating function (f{t) passes into the coefficient-funcrion to(.t;) ; we
+mean the property expressed by the equation
+This equation is given by Pincherle (I.e. p. 30) for the case r is
+a positive integer. If r is replaced by — « and (f{t) by ff{t):{t — lY,
+the formula passes into
+/
+r(.r)
+_(^-i)^j
+15)
+The last equation appears indeed to be true for arbitrary positive

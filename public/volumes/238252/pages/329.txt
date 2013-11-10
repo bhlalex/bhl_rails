@@ -1,0 +1,46 @@
+THE PREDECESSORS OF COPERNICUS. 325
+The Arabian school of astronomers added nothing to the theory
+of Ptolemy. They transmitted the text of the Almagest to the west
+accompanied by intelligent comment and almost without criticism
+except in the cases of Alpetragins and Geber. The Arab observations
+were very numerous, and resulted in fixing new and much more
+accurate values of the constant of precession, the length of the year,
+the obliquity of the ecliptic, the eccentricity of the suns orbit and
+the motion of its apogee. Their arithmetic was the clumsy sexagesimal
+arithmetic of the Greeks, until in the eleventh century the Hindu
+decimal system began to make its way in Egypt, Spain and Europe.
+Geometry is not indebted to the Arabs for any marked advances. On
+the other hand, trigonometry was greatly improved.
+As observers the astronomers of the Arab school had great merit.
+They grasped the need for continuous observations, whereas the
+Greeks in general had contented themselves with making observations
+at certain critical times only — at the solstices and equinoxes, for in-
+stance. The Arabs were the first to assign the exact time at which
+any phenomenon occurred — a fundamental datum. They measured
+the altitude of the sun at the beginning and ending of solar eclipses,
+for example, in order that the time might be known. The calcula-
+tion of a spherical triangle enabled the instants of beginning and
+ending to be accurately assigned. The Greeks never employed this
+device and the times of phenomena recorded by them are seldom known
+with any accuracy. Indeed Ptolemy has no formula by which to
+calculate the time when the suns altitude is given, and it is note-
+worthy that the Arab device was not known in Europe until 1457,
+when Purbach used it for the first time. Yet it was employed at
+Bagdad at the solar eclipse of A. D. 829, six hundred 3^ears earlier.
+Even the times of phenomena recorded by Tycho Brahe in 1600 are
+seldom known so close as a quarter of an hour. Short intervals of
+time were measured by the Arabs by counting the beats of pendulums.
+A few of the greatest Arabians are named in what follows.
+Albategnius was an Arab prince of Syria who flourished at the end of
+the ninth century of our era. His observations were made at Aracte
+(Eachah) in Mesopotamia and at Antioch, between the years 878 and
+918. After studying the Syntaxis of Ptolemy he set himself to cor-
+rect the errors of its catalogue of stars by observations of his own,
+made with apparatus fashioned after Ptolemys descriptions. It ap-
+pears that some of his instruments could be read to single minutes (1)
+and were divided possibly to 2 (or it may be to 6). He detected the
+change of position of the suns apogee, determined the obliquity of
+the ecliptic, the length of the year, the precession-constant (54),
+observed and calculated solar and lunar eclipses and computed new
+tables of the planetary motions, although he did not seek to improve
+Ptolemys planetary theory. He was original and inventive as an

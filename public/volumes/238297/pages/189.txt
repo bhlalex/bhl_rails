@@ -1,0 +1,51 @@
+INDUCTION.
+163
+premises corresponding to each. Such a table enables us
+by mere inspection to learn the laws obeyed by any set of
+combinations of three things, and is to logic what a table
+of factors and prime numbers is to the theory of numbers,
+or a table of integrals to the higher mathematics. The
+table already given (p. 1 6 1 ) would enable a person with
+but little labour to discover the law of any combinations.
+If there be seven combinations (one contradicted) the law
+must be of the eighth type, and the proper variety will be
+apparent. If there be six combinations (two contradicted),
+either the second, eleventh, or twelfth type applies, and a
+certain number of trials will disclose the proper type and
+variety. If there be but two combinations the law must
+be of the third type, and so on.
+The above investigations are complete as regards the
+possible logical relations of two or three terms. But
+when we attempt to apply the same kind of method to
+the relations of four or more terms, the labour becomes im-
+practicably great. Four terms give sixteen combinations
+compatible with the laws of thought, and the number of
+possible selections of combinations is no less than 2 16 or
+65,536. The following table shows the extraordinary
+manner in which the number of possible logical relations
+increases with the number of terms involved.
+Number of
+terms.
+Number of
+possible com-
+binations.
+Number of possible selections of combi-
+nations corresponding to consistent or in-
+consistent logical relations.
+2
+3
+4
+6
+8
+16
+c
+16
+256
+65,536
+4,294,967,296
+18,446,744,073,709,551,616
+Some years of continuous labour would be required to
+ascertain the precise number of types of laws which may
+govern the combinations of only four things, and but a
+small part of such laws would be exemplified or capable
+M 2

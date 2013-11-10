@@ -1,0 +1,22 @@
+134
+BARUS— ELLIPTIC INTERFERENCE
+[April 21,
+is the length of the prolongation of L' between the gratings we may
+write in succession
+(i) d = NDcosi
+(2) f=^cseci,
+( 3 ) o = ND sin / — c sec i,
+(4) tany = a/d,
+(5) C^=ND cost sec y,
+(6) b = csm(i^e — y).
+Fk;. 5. Diagram.
+cr
+To these should be added
+(7) dN/dc = t2ini/D.
+Hence after removing y and arranging
+nX = A^D {cos i sin (/ + 0) — sin / cos ( i -{- 0) — sin i]
+-\- csec i{i -\- cos {i -\- 6) ),
+which reduces to
+or smce
+iK^^ND (sin 9 — sin /) -\-eseci(i + cos (i^6)),
+sin ■/ — sin ^ = X/D,

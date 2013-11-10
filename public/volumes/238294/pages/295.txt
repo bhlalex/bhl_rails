@@ -1,0 +1,40 @@
+( 772 )
+curve, were (f and if? possess but real coefficients. For that curve J
+has of course the same vahie as for tlie curve <f — i if' =r 0, e. g.
+(he vahie J^.
+For the curve ^- -j- ip^ = 0, consisting of the two tirst-nientioued
+curves, ./ has thus the value '2J^, as J consists only of terms, which
+are formed additively for a degenerated curve out of the corresponding
+terms of the partial curves. The equation of that curve is however
+real, so that the relation (2) is applicable to it. Fr«nn this ensues
+J=1J,^0, so J,=0.
+This proves, that J has the value zero for the curve </ -|- / if ? = ( )
+too, and that for this the equation (2) also holds good.
+For this deduction we have tacitly made the supposition that q)
+and If? have no common divisor, as otherwise ihe curve y^-["^^ = ^
+would possess a part counting double and thus an infinite number
+of singularities. If (p and if? have such a common divisor, that is if
+the curve degenerates into a curve with real equation and into one
+with an imaginary one, the relation (2) still holds good. For, as we
+have seen, this is the case for the two partial curves, from which
+ensues b}^ addition the corresponding equation for the total curve.
+Klein (1. c, p. 207) linds by applying his e(|uation to the curve
+(f"^ -[- if;"^ = 0, for a curve with imaginary equation, of which the /)
+real points and the /• real tangents are not singular, the relation
+II ^ )' ^z. k -\- p (8)
+This equation can be immediately deduced from (2).
+Farthei-more ensues from (2) :
+The equation (8) of Klein for imagiiKiri/ curee.'^ holds rjood aUo
+if that carve possesses real singular points or real singular tangents
+if only they count for as many real points or tangents as is indicated
+hy the order resp. the class.
+§ 5. (Jther forms for the equation (2).
+The equation (2) can be reduced to still other forms. The Plücker-
+equation o {k — n) i:^ ,■? — y. becomes namely for a cui've wqth higher
+singularities 8 (/.: — //) = ,i — y- + ^ d^* — y-,% or according to (4) ')
+3 (A — /<) z= (i — X 4- 2£ {i\ — tj, where the JS'-sign must be extended
+to the higher singularities, the real ones as well as the imaginary
+ones. By including the PLüCKER-singularities, and if one likes also
+the ordinary points of the curve, under the JS'-sigu the equation
+becomes
+^) See note p. 767 — 708.

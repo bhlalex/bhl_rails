@@ -1,0 +1,39 @@
+294 THE PRINCIPLES OF SCIENCE.
+multiplying by 64. Thus the probabilities of the first,
+second, and third hypotheses are respectively
+il A
+4 6' 46' 46'
+The inductive part of the problem is now completed, since
+we have found that the urn most likely contains three
+white and one black ball, and have assigned the exact
+probability of each possible supposition. But we are now
+in a position to resume deductive reasoning, and infer the
+probability that the next drawing will yield, say a white
+ball. For if the box contains three white and one black
+ball, the probability of drawing a white one is certainly f ;
+and as the probability of the box being so constituted is
+f^, the compound probability that the box will be so filled
+and will give a white ball at the next trial, is
+27 3 81
+-L x 2. or -
+46 4 184
+Again, the probability is 44 that the box contains two
+white and two black, and under those conditions the
+probability is \ that a white ball will appear ; hence the
+probability that a white ball will appear in consequence
+of that condition, is
+16 i 32
+x -- or -~,
+46 2 184
+From the third supposition we get in like manner the
+probability
+- or
+4
+Now since one and not more than one hypothesis can be
+true, we may add together these separate probabilities,
+and we find that
+or
+_
+184 184 184 184
+is the complete probability that a white ball will be next
+drawn under- the conditions and data supposed.

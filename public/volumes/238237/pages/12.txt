@@ -1,0 +1,36 @@
+HAYES— DETECTION OF SUBMARINES. 3
+the presence of some field of force surrounding the body. The first
+method promises detection at a greater range than the second since
+the intensity of radiant energy varies as the inverse square of the
+distance from the source while the strength of a field of force sur-
+rounding a polarized body varies as the inverse cube of the distance.
+Both methods are applicable to the case of a moving submarine.
+The steel shell of the submarine must be surrounded by a magnetic
+field, due to polarization induced by the earth's magnetic field and
+also due to such permanent polarization as it may have taken on dur-
+ing construction. Also a certain amount of sound must radiate from
+the motors and propellers and other moving parts of the submarine.
+Magnetic Methods Unsatisfactory Because of Limited
+Range.
+The intensity of polarization which a submarine takes on through
+the action of the earth's magnetic field can be predicted with some
+accuracy and, as a result, the range at which it can be detected by
+magnetic methods foretold. Both theory and practice show this
+range to be about Yz the length of the submarine. This range, which
+is too slight to be helpful in searching or avoiding an operating sub-
+marine, is hardly sufficient for detecting any but the largest sub-
+marine when lying at rest on the bottom at maximum depth. No
+satisfactory method for determining the presence of a submarine
+lying at rest at considerable depth, say from lOO to 150 feet, has yet
+been perfected, but one or two promising methods are in the process
+of development.
+Sound Methods Promise Greater Range.
+Water is an excellent medium for transmitting sound. Its homo-
+geneity and low viscosity makes the dissipation due to reflection, re-
+fraction, and transformation into heat comparatively slight.
+The relation between intensity and distance is more favorable
+than that given by the inverse square law, because of the fact that
+the surface and bottom reflect the sounds and tend to keep them
+within two dimensional motion, much as the speaking tube confines
+sound to motion of one dimension. Because of this fact, sounds can
+be heard farther than they could if they were not confined.

@@ -1,0 +1,45 @@
+CHAPTEBS ON THE STABS. 387
+length 343 c. m. Two sets of plates are taken, one to include all the
+stars that the instrument will photograph near poles, and the other only
+to take in those to the eleventh magnitude. Of the latter it is intended
+to prepare a catalogue. Some portions of the German and English cata-
+logues have already heen published, and their results will be made use
+of in the course of the present work.
+NUMBERING THE STARS.
+Closely connected with the work of cataloguing the stars is that of
+enumerating them. In view of what may possibly be associated with
+any one star — planets with intellectual beings inhabiting them — the
+question how many stars there are in the heavens is one of perennial
+interest. But beyond the general statement we have already made, this
+question does not admit of even an approximate answer. The question
+which we should be able to answer is this: How many stars are there
+of each easily visible magnitude? How many of the first magnitude,
+of the second, of the third, and so on to the smallest that have been
+measured? Even in this form we cannot answer the question in a way
+which is at the same time precise and satisfactory. One magnitude
+merges into another by insensible gradations, so that no two observers
+will agree as to where the line should be drawn between them. The
+difficulty is enhanced by the modern system — very necessary, it is true —
+of regarding magnitude as a continuously varying quantity and esti-
+mating it with all possible precision. In adjusting the new system to
+the old one, it may be assumed that an average star of any given mag-
+nitude on the old system would be designated by the corresponding
+number on the new system. For example, an average star of the fourth
+magnitude would be called 4.0; one of the fifth, 5.0, etc. Then the
+brightest stars, which formerly were called of the fourth magnitude,
+would now be, if the estimate were earned to hundredths, 3.50, while
+the faintest would be 4.50. What were formerly called stars of the fifth
+magnitude would range from 4.50 to 5.50, and so on. But we have
+meet with a difficulty when we come to the sixth magnitude. On the
+modern system, magnitude 6.0 represents the faintest star visible to the
+naked eye; but the stars formerly included in this class would, on the
+average, be somewhat brighter than this, because none could be cata-
+logued except those so visible.
+The most complete enumeration of the lucid stars by magnitudes
+has been made by Pickering ('Annals of the Harvard Observatory,' Vol.
+XIV). The stars were classified by half magnitudes, calling
+M. M.
+Mag. 2.0 all from 1.75 to 2.25
+2.5 " " 2.25 to 2.75
+etc., etc.
+For the northern stars Pickering used the Harvard Photometry; for

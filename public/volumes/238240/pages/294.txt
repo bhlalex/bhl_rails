@@ -1,0 +1,31 @@
+III.
+THE DYNAMICAL EFFECTS OF AGGREGATES OF
+ELECTRONS.
+By OWEN W. RICHARDSON.
+(Read April 22, 1911.)
+I. Electrons and Matter.
+The enormous difference in tlie behavior of dift'erent materials
+towards electric force is a matter with which everyone is familiar ;
+and it is one of the triumphs of the electron theory that it has given
+us a verv satisfactory picture of the dift'erence between insulators
+and conductors of electricity. We are to regard all matter as made
+up primarily out of electrons. They are the stones with which the
+material structure is built up, the electrodynamic forces are the
+cement which holds the stones together. There are, however, two
+different ways in which the electrons may exist in a given portion
+of matter. They may be located in position of stable equilibrium,
+in which case a very small force will displace them to a small extent
+but a perfectly enormous force would be required to dislodge them
+thoroughly and give rise to instability ; or they may be so loosely
+held that they are able to move about in the interstices of the material,
+very much after the fashion in which we believe the molecules move
+about in a gas. In the former case, when the electrons are practically
+fixed, we say the substance is an insulator ; in the latter case, where
+they are wandering about, the substance is a conductor.
+A moment's reflection will show that this dift'erence is sufficient
+to explain the difference between insulators and conductors. Con-
+sider what happens when a slab of the first kind is placed in an
+electric field. There will be a displacement of the electrons, it is
+true, but the displacement will be small and they will all return to
+their original equilibrium positions as soon as the external field is
+347

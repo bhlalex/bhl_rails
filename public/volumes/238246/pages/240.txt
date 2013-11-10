@@ -1,0 +1,38 @@
+345
+auf die Zahlen 2 oder /, teilbar sind. Aus obiger Form des Elementes
+^ ■^' folgt weiter dasz alle Zahlen dieses Ideals nur teilbar sind
+durcli das Hauptldeal (Z — Z J) = das Hauptideal (1 — Z"^;"'). 1st
+diese letzte Zahl eine Einheit so ist das Element S -^^ daher identisch
+mit dem Ideale 6 aller ganzen Zahlen des Körpers K. Es wird
+dasz Element €"•' also Jinr dann nicht ideniisfh mit & sein, wenn
+Aj eine Zahl der Ti-agheitsgrnppe einer der Primzahlen 2 en /j ist.
+Dnrch Znziehung des § 2. 2 imd des Satzes 3, tindet man:
+^k = i^ox .... i^o.„ )2' /7(i^i .... i^-. ƒ•'"'•
+«
+WO das Prodnkt sich über alle in m anfgehenden nngeraden Prim-
+zahlen li erstreckt. Es folgt weiter ans Satz 7 :
+Nk(ioj) = \o/* und Nk{\^rj) = \i/'
+Die Zahl D is bekannt ^). Man erhalt nun den Ansdruck der Zahl
+(/ wenn man die, im Anfang des Heweises niedergesehriebenen
+Heziehiingen henntzt.
+III. Die wichtig sten Hilfsscitze für die Berechnung der
+Kiassenzahl der Ideale des Körpers k.
+^ 7. Satz 9.
+77 (l — ) = // 1 — ^ ^
+Das erste Prodnkt erstreckt sich über alle Primideale p des Körpers
+k welche in die Primzahl p aufgehen. Das Symbol im zweiten
+Produkt hat die bekannte Bedeutung'). Wenn A^ = 2 so musz 6,„
+im Sjmbol weggelassen werden und wenn A^=zO ist, so musz anch
+^o« weggelassen werden.
+Beweis : Wir beweisen die beiden folgenden Behauptungen des
+Gliedes rechter Hand: 1. Das Symbol ist eine --te Einheitswurzel ;
+d
+f ed
+2. Eine jede — te Einheitswurzel tritt im Produkte je — Mal auf.
+d ' r
+Hiermit wird der Beweis erbracht sein denn es ergibt sich daraus
+dasz das Glied rechter Hand gleich
+ed
+pd
+') 'H". Satz 88 und 121.
+») "H". § 116.

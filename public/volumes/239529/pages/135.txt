@@ -1,0 +1,42 @@
+190
+for an isothermic change in the outer bounding layers where we
+may suppose no sugar to be present.
+Let us further assume that in the homogeneous diluted solution
+the quantity \iM for the water has another form but always the
+same value as for the outer layer that consists of pure water (or
+in the vapour phase without sugar, that is in coexistence with the
+solution). This [xM in the homogeneous solution is a function of
+x l and p l ;
+dfiM\ MRT (d*n Xl \ , fdnM\ , fdv'\ »)
+and - — v' — m, -
+\ d Px A
+dx { J ri \—x l \dx x * J v >r Wj?i Ai \ dx ' J n
+when we increase the concentration of the sugar solution by dx x
+while the pressure p^ remains constant, pM in the solution changes
+by — - MRTdx x , and in the outmost sugarless layer near the wall by
+vdp a . From this it follows vdp t = — MRTdx x . When we admit
+that osmotic pressure appears this will have the value
+_ MRT dx l
+v
+Here it may be remarked, that by admitting the osmotic pressure,
+the pressure will in all directions increase by the amount dp^. In
+the outer bounding layer the pressure p. 2 thus gets its original value
+again. The total change of p 2 because of the two changes of state
+is therefore zero.
+The same is therefore the case with (xM in the outer bounding
+layer as d(iM=vdp t . Also for the total change of [iM in the homo-
+geneous solution, so that
+V das x J ri V d Pi A
+where A/;, = Ap s . By means of this relation Hondius Boldingh derived
+the formula of the osmotic pressure from thermodynamic considerations.
+The decrease of pressure in the layer at the solid wall may be
+compared with the decrease of vapour pressure. When the solved
+substance occurs neither in the vapour phase nor in the outmost
+layer at the solid wall, there will always be a decrease of vapour pressure
+and of the pressure at the wall in the direction of this wall according
+to the simple laws for very diluted solutions. To a definite solved
+substance in a definite solvent a wall will be semipermeable, when
+the pores in this wall are so narrow that only the solvent substance
+can enter into them and not the solved substance. It is evident that changes
+of temperature and pressure can also have influence on thesemipermeabi-
+l ) See Dr. G. Hondius Boldingh. Thesis. Amsterdam 1893.

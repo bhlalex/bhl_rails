@@ -1,0 +1,36 @@
+PRINCIPLES OF NUMBER. 191
+' For every man in the house there is a person who is
+aged ; some of the men are not aged. It follows that
+some persons in the house are not men8'/
+Now let A = person in house,
+B = male,
+C = aged.
+By enclosing logical symbols in brackets, let us denote
+the number of objects belonging to the class indicated by
+the symbol. Thus let
+(A) = number of persons in house,
+(AB) number of male persons in house,
+(ABC) = number of aged male persons in house,
+and so on. Now if we use w and w f to denote unknown
+and indefinite numbers, the conditions of the problem may
+be thus stated according to my interpretation of the
+words
+(AB) = (AC) - w, (i)
+that is to say, the number of persons in the house who are
+aged is at least equal to, and may exceed, the number of
+male persons in the house ;
+(ABc) = w', (2)
+that is to say, the number of male persons in the house
+who are not aged is some unknown positive quantity.
+If we develop the terms in (i) by the Law of Duality
+(pp. 87, 95, 97), we obtain
+(ABC) + (ABc) = (ABC) + (A6C) - w.
+Subtracting the common term (ABC) from each side and
+substituting for (ABc) its value as given in (2), we get at
+once
+(AbC) - w + w f ,
+and adding (Abe) to each side, we have
+(Ab) = Abe + w -f uf.
+The meaning of this result is that the number of persons
+in the house who are not men is at least equal to w + w',
+S 'Syllabus of a proposed System of Logic/ p. 29.

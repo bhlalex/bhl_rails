@@ -1,0 +1,36 @@
+Mathematics. — '' Null systems determined by linear systems of plane
+algebraic curves". By Prof. Jan de Vriks.
+(Communicated in the meeting of January 25, 1919).
+1. A triply infinite system (complex) 6^^^) of plane algebraic curves c"
+contains a twofold infinity of nodal curves; for an arbitrarily chosen
+point D is node of a nodal carve <^f" belonging to aS^^^X
+I shall now consider the null system in which the tangents d, d'
+of d" are associated as iiull rays with D as null point.
+The nodal curves of a net belonging to S^^^ have their nodes on
+the Jacobian, which is a curve of order S{7i — 1). It has in common
+with the Jacobian of a second net the 3(?i — 1)" nodes, which occur
+in the pencil common to the two nets. The remaining intersections
+of the two loci are critical points, i.e. nodes for the curves of a
+pencil. The null system, there/ore, has Q{n — 1)'' singular null points.
+2. Let a be an arbitrary straight line, P an arbitrary point. The
+Ö», which has its node D on a, intersects the ray PD, moreover,
+in in — 2) points E. If E is to get into P, d» must belong to the
+net that possesses a base-point in P; D lies then on the Jacobian
+of that net. The locus {E) of the points ^passes, therefore, 3 (?z — 1)
+times through P, and is consequently a curve of order (4?z — 5).
+Each intersection of {E) with a is node of a d", of which one of
+the tangents d passes through P.
+There is therefore a curve {D)p of order (4?i — 5) which contains
+the nodes of the nodal curves t^, which send one of their tangents
+d through a given point P. It will be called the null-curve of P.
+For a singular point S it has in S a triple point. As P evidently
+is node of {D), there lie on a ray <:/ passing through P {4-n — 7) points
+D, for which d is one of the tangents of the corresponding curve
+d«. From which ensues: an arbitrary straight line d has (4?2 — 7)
+null-points D.
+3. The null-curves [D)p and (/))q have the 6(?i — 1)' singular
+points in commoji ; for, a critical point bears oo^ pairs d, d' .
+The two curves pass further through the (4;i — 7) null points
+of the straight line PQ. Each of the remaining intersections is a
+point 1), for which d passes through P, d' through Q. In other
+words, if d revolves round P,d' will envelop a curve of class

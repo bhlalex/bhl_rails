@@ -1,0 +1,32 @@
+50
+correspond to a common element of I^^^ and V^^, we obtain
+I Lii~L\ <C -g-^ + i^ 4" i^^=^ ^0^' every aggregate E corresponding
+to an element of W^ .
+6. Finally we prove, that the aggregate K [as regards the covering
+by the parts of VW) likewise has the limit L. We obtain:
+\E—L\ ^ \E—Lq\ 4- \Lg—L\,
+E being an element of G. Owing to the nniform convergence the
+positive number 6^ can be determined so, as to give \E — Lq\<^\s
+if E be an element of Gd^ , i. e. coi-responds to an element of We^ . At
+the same time we can ö^ determine so, as to obtain \Lg — L\<^^s
+if G corresponds to an element of }\. If now rf be the smallest
+of the numbers d^ and d,, then the inequality j^' — L\ <^{s -\- ^8=:s
+is satisfied, if E corresponds to an element of Vö and to an element
+of We (hence to an element of F<f W^ ), that is if E be an element
+of Ks .
+7. Summarizing we observe:
+If the prodiictaggregate VW has been covered luith numbers and
+if the aggregates G of those -numbers corresponding to a same element
+of V converge uniforndy to their limits Lq {as regards the covering
+of die positive numbers by the parts of W), the aggregates H of the
+numbers corresponding to a same element of W having the limits
+Ell i^^s regards the covering by the parts of V), then the aggregate
+of the numbers Lq {as regards the covering by the f/arts of T) has
+a limit, which is at the same time the limit of the 7iiimbers Lh {as
+regards the coverinq by the parts of W) and is the limit of the
+whole aggregate of numbers {as regards the covering by the parts
+of VW).
+The equality of the two first-mentioned \'\m\{B mesin^ commutatirity
+of two limittransitions. One of the limittransitions relates to the
+covering by the parts of W, the other to the covering by the paits
+of F.

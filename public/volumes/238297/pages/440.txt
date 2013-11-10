@@ -1,0 +1,27 @@
+CHAPTER XVI.
+THE METHOD OF MEANS.
+ALL results of the measurement of continuous quantity
+can only be approximately true. Were this assertion
+doubted, it could readily be proved by direct experience.
+For if any person, using an instrument of the greatest
+precision, makes and registers successive observations in
+an unbiassed manner, it will almost invariably be found
+that the results differ from each other. When we operate
+with sufficient care we cannot perform so simple an
+experiment as weighing an object in a good balance
+without getting discrepant numbers. Only the rough
+and careless experimenter will think that his observations
+agree, but in reality he will be found to overlook the
+differences. The most elaborate researches, such as those
+undertaken in connexion with standard weights and
+measures, always render it apparent that complete coinci-
+dence is out of the question, and that the more accurate
+our modes of observation are rendered, the more numerous
+are the sources of minute error which become apparent.
+We may look upon the existence of error in all measure-
+ments as the normal state of things. It is absolutely
+impossible to eliminate separately the multitude of small
+disturbing influences, except by balancing them off against
+each other. And even in drawing a mean it is to be
+expected that we shall come near the truth rather than
+exactly to it. In the measurement of continuous quantity,

@@ -1,0 +1,29 @@
+CHAPTEE XVII.
+THE LAW OF ERROR.
+To bring error itself under law might seem beyond
+human power. He" who errs surely diverges from law,
+and it might well be deemed hopeless to suppose that out
+of error we can draw truth. One of the most remarkable
+achievements of the human intellect is the establishment
+of a general theory which not only enables us among dis-
+crepant results to approximate to the truth, but to assign
+the degree of probability which fairly attaches to this con-
+clusion. It would be a gross misapprehension indeed to
+suppose that this law is necessarily the best guide under
+all circumstances. Every measuring instrument and every
+form of experiment may have its own special law of error ;
+there may in one instrument be a tendency in one direc-
+tion and in another in the opposite .direction. Every pro-
+cess has its peculiar liabilities to mistake and disturbance,
+and we are never relieved from the necessity of vigilantly
+providing against such special difficulties. The general
+Law of Error is the best guide only when we have ex-
+hausted all other means of approximation, and still find
+discrepancies, which are due to entirely unknown causes.
+We must treat such residual differences in some way or
+other, since they will occur in all accurate experiments,
+and as their peculiar nature and origin is assumed to be
+unknown, there is no reason why we should treat them
+differently in different cases. Accordingly the ultimate
+Law of Error must be a uniform and general one.
+I

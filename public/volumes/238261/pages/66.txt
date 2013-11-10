@@ -1,0 +1,31 @@
+CONTRIBUTIONS FROM THE CHEMICAL LABORATORY OF
+HARVARD COLLEGE.
+SOME ELECTROCHEMICAL AND THERMOCHEMICAL
+RELATIONS OF ZINC AND CADMIUM AMALGAMS.
+By Theodore William Richards and Gilbert Newton Lewis.
+Presented October 12, 1898. Received October 17, 1898.
+Introduction.
+The nature of amalgams, although a matter of much interest, especially
+in the light of the modern theory of solutions, is still obscure. The
+subject has been studied from the standpoint of electrochemistry by
+several investigators, notably by Meyer, * who observed the electromo-
+tive forces of cells of the following type: — Dilute zinc amalgam of
+concentration x ; Solution of zinc salt ; Dilute zinc amalgam of con-
+centration y. Since the total change in a cell of this kind consists in
+the transfer of metal between amalgams of different concentrations, the
+electrical energy obtained is equal to the maximum osmotic work obtain-
+able by the process. On the assumption that the zinc in the dilute
+amalgam obeys the laws of dilute solution, Meyer derived the following
+expression : —
+^=L908|.riog-|; (1)
+in which E represents electromotive force ; ^, the electrochemical equiv-
+alent, in grams, of the metal carried in one second from one amalgam
+to the other ; J/, the molecular weight of the metal in the amalgam ;
+T^ the absolute temperature ; log — , the common logarithm of the ratio
+of concentration of the amalgams. By comparing with this formula the
+experimental results, Meyer showed with sufHcient exactness that in
+dilute amalgams the molecules of the metals studied by him are mon-
+atomic. If, on the other hand, the atomic weight is substituted for M
+in the formula, the agreement between the calculated and his observed
+electromotive forces is not close enough to show whether the dilute
+* Zeitschr. phys. Chera., VIL 477 (1891),

@@ -1,0 +1,39 @@
+NICHOLS. — THE VISIBLE RADIATION FROM CARBON. 113
+radiation as a function of wave lengtli and temperature. The equation
+reached from quite ditFerent points of view by Wien * and by Planck.f
+in particular, has been the subject of exhaustive discussion and of
+experimental tests. To this end Pascheu t determined with the bolo-
+meter the distribution of energy in the infra-red spectra of various
+bodies from 15° C to 1300°. The materials thus subjected to measure-
+ment were oxide of copper, platinum, lampblack, and graphitic carbon.
+The range of wave lengths explored extended from 9.2// to 0.7^.
+Luramer and Pringsheim § made similar determinations upon the ideal
+black body, and Liimmer and Jahnke || finally repeated these measure-
+ments in the case of the black body and of platinum. Wanner,ir working
+with Paschen, made careful spectrophotometric measurements of the
+visible radiation from the ideal black body. To test the applicability of
+the Wien-Planck formula to these measurements, the equation is given
+the form, —
+log /= 71 — 72 ^;
+in which
+71 = ^og {c, X~^),
+= — lo<r e.
+A
+72 - , --=
+The isochromatic curves are then plotted with the logarithm of the
+intensities as ordinates and the reciprocal of the absolute temperature as
+abscissae. The agreement of the equation with the observations is
+found in the fact that isochroms thus plotted, at least as far as the work
+of Paschen and Wanner is concerned, always take the form of straight
+lines, and that the quantity Co computed for various wave lengths is
+found to be a constant. Lummer and Pringsheim, on the contrary, find
+in the discussion of their measurements that the constant, Cg increases
+steadily with the wave length from 13,500 at 1.2 ^it to 16,500 at 5 ^, and
+18,500 at 0.3//. The value of Co computed by measurements from
+* Wien, Wiedemann's Annalen, LVIII. 662 (1896).
+t Planck, Drude's Annalen, I. 69 (1900).
+t Paschen, Wiedemann's Annalen, LVIIL 455 (1896); also LX. 662 (1897).
+§ Lummer and Prino-slieim, Deutsche phys. Gesellschaft, I. 23, II. 163 (1900).
+II Lummer and Jalinke, Drude's Annalen, III. 283 (1900).
+IF Wanner, Drude's Annalen, II. 141 (1900).
+VOL. XXXVII. 8

@@ -1,0 +1,34 @@
+Chemistry. — " The influence of different substances on the decom
+position of monoses by an alkali and on the inversion of cane
+sugar by hydrochloric acid." By Prof. H. I. Waterman and J. Groot.
+(Communicated by Prof. J. Böeseken.)
+(Communicated at the meeting of January 31, 1920).
+When the strength of the acid and of the alkali, from which the
+salt is formed, are known as well as the nature of the ions, we
+can calculate the percentage of the hydrolysis. The decomposition
+of monoses by an alkali can be controlled polarimetrically, so that
+this method as well as the often used inversion of cane sugar gives
+us a sensitive means to determine the percentage of the hydrolysis. 1 )
+Applying the law of mass-action to the electrolytic dissociation-
+equilibria that occur in such a solution, we can calculate the hydro-
+lysis. Using
+KpHeno, = [H j, [ ° 6 ^ -= 1.3.10-" and [H'J [OH'J = 1,2.10-"
+and assuming the hydrolysis to be weak and the non hydrolized
+sodium-phenolate to be perfectly dissociated, we find for yL N sodium-
+phenolate solution, [OH'J = rather more than 3.10 -3 . ')
+When the hydrolysis of the sodium-phenolate in a ^N solution
+were perfect, then [OH'J would be 10~ 1 . From this we learn, that
+100
+of the sodium-phenolate only ttt^t • 3.10 -3 = 3 °/ ' s hydrolized.
+For more diluted solutions the percentage of this hydrolysis is higher.
+For ^ N potassium-phenolate at 25° the hydrolysis is 3,1 %• a )
+These results are in agreement with the experiments on phenol,
+which taught that in an alkalic medium phenol practically behaves
+like a monobasic acid.
+In this way the hydrolysis of many of the compositions treated
+up till now in the above mentioned investigations could be calculated
+when only enough data were at our disposition with regard to the
+strength of the respective acids and bases expressed in the well-
+known units.
+!) H. I. Waterman, These Proceedings XX (1917) p. 88, 382, 581.
+J ) J. Walker, Introduction to physical chemistry 1919, p. 330 and 336.

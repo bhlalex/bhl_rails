@@ -1,0 +1,91 @@
+GROWTH OF OYSTERS IN A RECIRCULATING MARICULTURAL SYSTEM
+35
+TIME (W«at>9)
+FIG. 2. Growth of oysters, Crassostrea virgin-
+ica fed Phaeodactylum tricornutum. Bars
+around points are ± one standard deviation.
+<s>
+DIETS
+FIG. 3. Size of oysters in each group after 46
+weeks of growth .
+TABLE 3a. Analysis of variance table for mean shell
+height in Groups B to H after 46 weeks of growth. Asterik
+denotes significant F value at 0.01 probability level .
+Sum of
+Squares
+d.f.
+Mean
+Squares
+F
+Between
+12666.96
+6.00
+2111.16
+72.56*
+groups
+Within
+34333.45
+1180.00
+29.10
+groups
+Total
+47000.41
+1186.00
+TABLE 3b. Duncan Multiple Range Test (a = 0.01) for
+differences in mean shell height. Letters refer to experimen-
+tal groups, and underscoring indicates overlapping ranges
+of shell height.
+C D F G B E H
+smaller
+larger
+smallest animals. Animals in Group B were
+significantly larger than those in Groups G and
+F and those in G and F significantly larger than
+those in Group D.
+The algae used in this study were chosen
+because of their wide taxonomic variety and
+because they had been shown to have some
+utility as foods for oysters in other studies
+(Goodrich et al., 1968). While it is impossible to
+make any statistical inference concerning the
+relative food-value of the individual algal spe-
+cies used in the experiment, it can be seen that
+Carteria chuii was a component of the diets fed
+to both of the fastest growing groups, and it
+makes up fully half (in terms of numbers of
+cells) of the composition of Diet B which pro-
+duced second fastest growth. Since Phaeodac-
+tylum tricornutum, which makes up the other
+half of Diet B, is undoubtedly a poor food, it can
+be inferred that Carteria chuii is one of the
+more important components of the diets tested.
+This is further substantiated by the fact that
+Isochrysis galbana. when combined with
+Phaeodactylum tricornutum, alone, promoted
+significantly slower growth than any of the
+diets containing Carteria chuii and that Croom-
+onas salina, when combined with Phaeodac-
+tylum tricornutum alone, produced slower
+growth than any diet other than the one-part
+Phaeodactylum tricornutum diet.
+Animals in the fastest growing group reached
+a mean shell height of slightly greater than 27
+mm after 46 weeks of growth. This compares
+favorably with growth of oysters in natural wa-
+ters of the Middle Atlantic region during their
+first growing season. Shaw (1966) indicated that
+oysters which set in Broad Creek, Maryland,
+during the summer of 1960, had reached a mean
+shell height of about 25 mm by May, 1961, and
+Beaven (1952) reported that oysters from sev-
+eral Maryland locations in the Chesapeake Bay
+reached a shell height of about 30 mm by the
+beginning of their second growing season.
+Maurer and Aprill (1973) found that hatchery-
+reared spat grown in off-bottom culture in var-
+ious rivers in Delaware reached a mean shell
+height of between 10 and 20 mm (depending on
+location) by the beginning of their second grow-
+ing season. It must be pointed out, however,
+that those animals living in nature grew only
+during the warmer months of the year while

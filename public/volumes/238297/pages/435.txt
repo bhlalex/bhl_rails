@@ -1,0 +1,34 @@
+ANALYSIS OF QUANTITATIVE PHENOMENA. 409
+and in the more accurate observations it is likely to
+introduce more uncertainty than it removes. A multitude
+of instruments involving mechanical compensation have
+been devised, but they are usually of an unscientific
+character g, because the errors compensated can be more
+accurately determined and allowed for. But there are
+exceptions to this rule, and it seems to be proved that in
+the delicate and tiresome operation of measuring a base
+line, invariable bars, compensated for expansion by heat,
+give a very accurate result, the observation of their vary-
+ing temperature and the calculation of the corrections
+being an uncertain and tedious work h .
+We thus see that the choice of one or other mode of
+eliminating a simple error depends entirely upon circum-
+stances and the object in view ; but we may safely lay
+down the following conclusions. First of all, seek to avoid
+the source of error altogether if it can be conveniently
+done ; if not, make the experiment so that the error may
+be as small, but more especially as constant, as possible.
+If the means are at hand for determining its amount
+by calculation from other experiments and principles
+of science, allow the error to exist and make a correction
+in the result. If this cannot be accurately done or in-
+volves too much labour for the purposes in view, then
+throw in a counteracting error which shall as nearly as
+possible be of equal amount in all circumstances with
+that to be eliminated. There yet remains, however, one
+important method, that of Reversal, which will form an
+appropriate transition to the succeeding chapters on the
+Method of Mean Hesults and the Law of Error.
+8 See, for instance, the Compensated Sympiesometer, ' Philosophical
+Magazine/ 4th Series, vol. xxxix. p. 371.
+h Grant, c History of Physical Astronomy,' pp. 146, 147.

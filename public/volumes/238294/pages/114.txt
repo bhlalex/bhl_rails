@@ -1,0 +1,44 @@
+( 515 )
+those wliicli arc mentioned at 15^7 in lable 1 ; from whieli follows
+that the accuracy of the values of p at 25^ derived from the equa-
+tion of state is still of the same order as those which are calculated
+at 15°,7.
+In table III the values of /; are given at temperatures of 15°,7,
+20° and 25° C. for different volumes calculated from the equation of
+slate with the constants mentioned in llie fifth column of table I. In
+order to render the calculation of pressures possible also for other tcmpe-
+ratures, the calculated values of ^- are mentioned in the fifth colunm
+of table III. (p. 516).
+As unit of volume we have taken the normal volume, i. e. the
+volume which the air would occupy at 0° C. and 1 atm. (0°, 45° N. B.).
+So it is possible to represent an isotherm for a large range of
+densities, widi the aid of the equation of state and values for the
+constants « and /?, differing little from the theoretical values.
+These differences will be chiefly determined, besides by syste-
+matic errors of the observations, by 1^^- the non-spherical shape of
+bi-atomic molecules, 2'^ the possibility of a simultaneous real
+diminution, which could then explain at the same time the slight
+op
+variability of -— .
+In table V the influence for different densities of the three
+terms of the correction formula for the b is rendered. In the fourth,
+fifth and sixth column the values are given, with which the l>r, is
+diminished in consequence of the correction terms with a, /? and y,
+expressed in per cents of b^j ; in the seventh column the decrease
+of b,j in consequence of the three terms together is given in percents
+of b,;. In the eighth column the influence of the decrease of b,; on
+the pressure is represented ; if we calculate the p from the equation
+of state keeping b constant and equal to b^, then this p will be
+greater than that cahnilated by means of the decreasing b.
+The difference between them is given in percents of ^>. With a
+volume of 0,02 already the decrease of b will manifest itself in a
+decrease of p-
+It appears that the application of several correction terms would
+be desirable for the smallest of the volumes observed by Amagat.
+For larger \'oliimes, however, they have no influence, and their
+theoretical values still being unknown, I have thought that in this
+case three terms would be sufficient.
+♦ Several observers (i. a. Kuenen, Quint) hax'e made use of the air-
+isotherm, determined by Amagat as early as 1864, for pressures
+34
+Proceedings Royal Acad. Amsterdam. Vol. VI.

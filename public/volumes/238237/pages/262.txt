@@ -1,0 +1,32 @@
+HAYES— U. S. NAVY MV TYPE OF HYDROPHONE.
+577
+Referring to Fig. 3, let (H) represent the position of the MV
+hydrophone and (F) the ship's propeller. The sound heard by (H)
+has traversed the path P — B — H, making an angle (f) with the sur-
+face. If (2L) is the distance between the propeller and the hydro-
+T^R=
+\
+is
+For creeper wafer JJ " Ci-Zi ' Ci-L fan P
+for sha/hiver no fir D " Ci-/i = CfL' fan 'P'
+anUNDING BY' ANGLE DF RErLECTIDN METHOD
+Fig. 3.
+phone, both located a distance (C) below the surface, and if the
+sea-bottom is a horizontal plane, then the depth (D) is given by the
+equation
+D = C — Ltan^,
+= C + Ltan(7r — ^),
+or
+D = C + L tan <^,
+This equation will be referred to as the " sounding equation " and
+the angle </> will be referred to as the " sounding angle." It is to be
+noticed that the compensator scale is designed to feature d, the
+angle the sound makes with the ship's keel extended forward, in
+order to give directly the relative bearing of surface vessels. The
+sounding angle <^ is the supplement of this angle.
+The range of a vessel ahead or astern can be determined roughly
+if the depth of water is known, since the hydrophone determines the
+angle which its reflected sound signals make with the surface.
+Referring to Fig. 4, where S^ or 5^2 represents an artificial sound-
+source upon a vessel ahead or astern of the vessel equipped with the
+hydrophone {H), we have

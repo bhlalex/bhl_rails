@@ -1,0 +1,37 @@
+THEORY OF APPROXIMATION. 81
+could not reconcile with the law. Euler and Clairaut
+who were, with D'Alembert, the first to apply the full
+powers of mathematical analysis to the theory of gravita-
+tion as explaining the perturbations of the planets, did
+not treat the law as sufficiently established to attribute
+all discrepancies to the errors of calculation and obser-
+vation. In short, they did not feel certain that the force
+of gravity exactly obeyed the well known rule. The
+law might have involved other powers of the distance.
+It might have been expressed, for example, in the form
+a b c
+' + D + & + W + '
+and the coefficients a and c might have been so small
+that those terms would only become apparent in very
+accurate comparisons with fact. Attempts have been
+made from time to time to account for difficulties, by
+attributing value to such neglected terms. Gauss at
+one time thought that the even more fundamental prin-
+ciple of gravity, that the force is dependent only on
+mass and distance, might not be exactly true, and he
+undertook accurate pendulum experiments to test this
+opinion. Only as these repeated doubts have been time
+after time resolved in favour of the law of Newton, has it
+been assumed as precisely correct. But this belief does not
+rest on experiment or observation only. The calculations
+of physical astronomy, however accurate, could never show
+that the other terms of the above general expression were
+absolutely devoid of value. It could only be shown that
+they had such slight value as never to become apparent.
+There are, however, other theoretical reasons why the
+law is probably complete and true as commonly stated.
+Whatever influence or power spreads from a point, and
+expands uniformly through space, will doubtless vary in-
+versely in intensity as the square of the distance, simply
+because the area over which it is spread increases as the
+VOL. II. G

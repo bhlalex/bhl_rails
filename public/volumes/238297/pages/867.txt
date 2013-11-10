@@ -1,0 +1,36 @@
+CLASSIFICATION. 377
+either in intension or extension ; in the former respect
+it is more than the Genus as containing one more quality,
+the Difference : in the latter respect it is less than the
+Genus as containing only a portion of the group consti-
+tuting the Genus. We may say then, with Aristotle, that
+in one sense the Genus is in the Species, namely in inten-
+sion, and in another sense the Species is in the Genus,
+namely in extension. The Difference, it is evident, can
+be interpreted in intension only.
+A Property is a quality which belongs to the whole of
+a class, but does not enter into the definition of that class.
+Thus if it be a generic property it belongs to every indi-
+vidual object contained in the genus. It is a property of
+the genus Parallelogram that the opposite angles are
+equal. If we regard a Rectangle as a species of parallel-
+ogram, the difference being that one angle is a right angle,
+it follows as a specific property that all the angles are
+right angles. Though a property in the strict logical
+sense must belong to each of the objects included in the
+class of which it is a property, it may or may not belong
+to other objects. The property of having the opposite
+angles equal may belong to many figures besides parallel-
+ograms, for instance, regular hexagons. It is a property
+of the circle that all triangles constructed upon the dia-
+meter with the apex upon the circumference are right
+angled triangles, and vice versa, all closed curves of
+which this is true must be circles. We might with ad-
+vantage distinguish properties which thus belong to a
+class, and only to that class, as peculiar properties. They
+enable us to make statements in the form of simple iden-
+tities (vol. i. p. 44). Thus we know it to be a peculiar
+property of the circle that for a given length of perimeter
+it encloses a greater area than any other possible curve ;
+hence we may say
+Curve of equal curvature = curve of greatest area.

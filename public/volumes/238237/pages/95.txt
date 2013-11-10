@@ -1,0 +1,194 @@
+122
+MILLER— PARALLAXES OF FIFTY STARS.
+Comparison Stars.
+No.
+2
+3
+6
+12
+IT
+X.
++133.8
+230.1
+lOI.O
+-178.9
+0.0
+Y.
++144-5
+1 12.9
+—125.6
+130.5
+0.0
+Dependence.
++0.341
+.150
+.039
+■470
+Diameter.
+0.60
+0.68
+0.47
+0.40
+0.97
+B. D. No.
++31°. 273 1
++30° .2654
++30° .2653
+No. 31. B.D. + 2°.3ii8. A Ophiuchi = 2 2055. (iG'^ 25'".9;
++ 2° 12'.) Mag. 3.85. /x = — o^oo32; — o".o84.
+Spectrum A.
+The measures are in longitude. This is a binary of long period.
+The combined image of the two components is very slightly elon-
+gated. In the measures this combined image was bisected. Other
+published parallaxes are :
+Lee-Joy-Van Biesbroeck, (Photographic), + o".oi8 ± o".oo3.
+Schlesinger, (Photographic), — o".oio zh o".oo8.
+Russell, (Hypothetical), -j-o".024.
+Hour
+Time in Parallax
+Date.
+Angle.
+Obs.
+1 00 Days, Factor, Solution,
+wt;,
+Res.,
+Meas-
+h. m.
+T. P.
+m.
+p-
+v. ured by
+Apr.
+14,
+I9I5..
+. —0 32
+Ma.
+—3.16 +0.645 —
+0.028
+I.O
++0.003
+Be.
+Apr.
+15,
+I9I5..
+28
+P.
+3.15 .632
+.021
+.8
+—0.003
+Be.
+July
+8,
+I9I5..
+. +0 56
+Ma.
+— 2.31 — 0.671
+.026
+1.0
+—0.003
+Be.
+July
+9,
+1915.-
+. —0 9
+M.
+2.30 .684
+.023
+1.0
+0.000
+Be.
+July
+14,
+I9I5..
+6
+M.
+2.25 .745
+.022
+.8
+— 0.00 1
+Be.
+July
+16,
+I9I5..
+• +0 13
+M.
+2.23 .767
+.022
+•9
+.001
+Be.
+Mar.
+23,
+I9I6..
+28
+P.
++0.28 +0.871
+.024
+1.0
+— 0.002
+Be.
+June
+29,
+I9I6. .
+14
+S.
++ 1.26 —0.561
+.019
+.6
+—0.006
+Be.
+July
+7,
+I9I6..
+. —0 30
+S.
+1.34 .668
+.028
+1.0
++ .004
+Be.
+Apr.
+13,
+I9I7..
+. +0 14
+Ma.
++4.14 +0.650
+.024
+1.0
+— 0.003
+Be.
+Apr.
+16,
+I9I7..
+. —0 8
+M.
+4.17 .611
+.030
+•9
++0.004
+Be.
+Apr.
+16,
+I9I7..
+• +0 19
+M.
+4.17 .611
+.027
+1.0
+.001
+Be.
+Normal
+Equations:
++
+II.OOOOC
+—
+.3420 /A + 0.1866 ■
+rr — —
+-0.2726.
++ 90.0804 + 8.8293
+— —
+-0.0450.
++ 5-1526
+—
+-O.OI16.

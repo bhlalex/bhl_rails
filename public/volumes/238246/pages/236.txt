@@ -1,0 +1,36 @@
+339
+^ 4. Hilfssdtze.
+1. In einer primaren üntergruppe y, finden sicli, wenn /^ ^ 3
+ist, keine Zahlen der Form
+m
+1 -h « ^^_Zj,", ^0 '''* ^ '^'* ^ ^ oder AV = 0. ?i ist nngerade. Und wenn
+A;^ z= 2, so finden sicli keine Zalilen vor, derselben P'orni, wobei
+h!^ = 1 ist und >i nngerade.
+Aucli finden sicli in g keine Zalilen der Form
+1 + n -T — rr wo fu^ h'i^ l, n nicht teilbar dnrch /,.
+Beweis : Die Zahlen der ersten Form sind, für den Fall dasz
+A;^' = O ist, gerade nnd kommen daher in 6r nicht vor; also anch
+nicht in g. 1st li^, := 2 und //*' = i so kommen die Zahlen in g
+nicht vor wegen ^ 1.
+Wenn nnn eine der übrigen Zahlen der ersten Form in der
+Gruppe g vorkam, so würde es ein System ganzer Exponenten
+a,, a^y a, . . . . geben, die den Congrnenzen (3) genügen und für
+welche
+A;'' V K' . . . . ^ 1 + n ^^— {mod m)
+Es würde sich hierans eine (.^ongruenz {inod 2'''» //'...) ergeben
+und folglich würde, nach der Definition der Basiszahlen :
+A, ""'^limodl,^')
+Hieraus würde folgen : <i^ = a^ =:.... = 0. Man bekame also
+oder
+^,"*V*^ 1(^0^2'*')
+(-lf'5"*=l(moc/2^'*')
+nnd hieraus <(^ = 2 ''*~'' a^ und a^ = O, weil li^ ^ 1. Substituiert
+man dieses Ergebnis in den Congruenzen (3), so findet man
+2/'*'-l a^ />»„ = O (mod 2^'* - 1)
+Weil ƒ/ prinuir ist, sind nicht alle Zahlen h^^ diirch 2 teilbar;
+darum folgt aus der letzten Congruenz dasz r/*' teilbar ist durch
+2^*—h*\ Die Zahl </* würde daher teilbar sein durch 2^'*~^ und dies
+ist unmöglich da a^, kleiner ist als diese Zahl.
+Auf gleiche Art beweist man die ganze Aussage des Hilfssatzes.
+2. Es sei /, eine der in ni aufgehenden nngeraden Primzahlen ;
+ï ein Primidealteiler von l^. Der Grad der gemeinschaftlichen Unter-

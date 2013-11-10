@@ -1,0 +1,36 @@
+108 THE PRINCIPLES OF SCIENCE.
+their periods of variation were the same even to infinitely
+small quantities it would be certain, that is infinitely pro-
+bable, that they were connected, however unlikely this
+might be on other grounds. The general mode of esti-
+mating such probabilities is identical with that applied
+to other inductive problems. Thus, if the two periods of
+variation were assigned by pure chance and entirely inde-
+pendently of each other, the probability would be about
+one in ten million that they would agree to the one ten-
+millionth part ; but if the periods be observed to agree to
+less than that part then there is a probability of at least
+ten million to one in favour of the opposite hypothesis of
+connexion. That any two periods of variation should by
+chance become absolutely equal is infinitely improbable ;
+hence if, in the case of the moon or any other change, we
+could prove absolute coincidence, we should have certainty
+of connexion b . With approximate measurements, which
+alone are within our power, we must hope for approximate
+certainty at the most.
+The general principles of inference and probability, ac-
+cording to which we treat causes and effects varying in
+amount, are exactly ~the same as those by which we
+treated simple experiments. Continuous quantity, how-
+ever, affords us an infinitely more extensive sphere of
+observation, because every different amount of cause,
+however little different, ought to be followed by a dif-
+ferent amount of effect. If we can measure temperature
+to the one hundredth part of a degree centigrade, then
+even between o and 100 we have 10,000 possible dis-
+tinct trials. If the precision of our measurements is
+increased, so that the one thousandth part of a degree
+can be appreciated, our trials may be increased tenfold.
+The probability of connexion will be proportional to the
+accuracy of our measurements.
+b Laplace, ' System of the World/ transl. by Harte, voL ii. p. 366.

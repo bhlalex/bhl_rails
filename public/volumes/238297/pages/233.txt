@@ -1,0 +1,35 @@
+COMBINATIONS AND PERMUTATIONS. 207
+cation in the theory of combinations and probabilities, and
+remarks of the Arithmetical Triangle, ' It not only contains
+the clue to the mysterious doctrine of combinations, but it
+is also the ground or foundation of most of the important
+and abstruse discoveries that have been made in the other
+branches of the mathematics/ *
+The numbers of the triangle can be calculated in a very,
+easy manner by successive additions. We commence with
+unity at the apex ; in the next line we place a second
+unit to the right of this ; to obtain the third line of
+figures we move the previous line one place to the right,
+and add them to the same figures as they were before
+removal, and we can then repeat the same process ad
+infinitum. The fourth line of figures, for instance, con-
+tains i, 3, 3, i ; moving them one place and adding as
+directed we obtain :
+Fourth line . . . i .3 3 i
+1331
+Fifth line ....14 6 4
+i 4 6
+Sixth line . . . . i 5 10 10 51
+i 5 10 10 5
+Seventh line ... i 6 15 20 15 6 i
+Carrying out this simple process through ten more steps
+we obtain the first seventeen lines of the Arithmetical
+Triangle as printed on the next page. Theoretically
+speaking the Triangle must be regarded as infinite in
+extent but the numbers increase so rapidly that it soon
+becomes almost 'impracticable to continue the table. The
+longest table of the numbers which I have found is given
+in Fortia's * Traite des Progressions ' (p. 80), where they
+are given up to the fortieth line and the ninth column.
+1 Bernoulli!, ' De Arte Conjectandi/ translated by Francis Maseres,
+London, 1795, p. 75.

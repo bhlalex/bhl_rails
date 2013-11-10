@@ -1,0 +1,36 @@
+h =
+62 PROCEEDINGS OF THE AMERICAN ACADEMY.
+The value of h for a perfect gas may be found from the second of the
+above conditions, equation (21). For a perfect gas, according to the
+definition of fugacity,
+ij/ = P, and therefore
+We see, therefore, that the value of h which satisfies the condition of
+equation (21) is expressed by a far simpler function than entropy is.
+Let us see whether this value for the perfect gas is consistent with the
+other condition that,
+dh= ±dS.
+For a perfect gas the following equations for isothermal change are
+familiar :
+dQ Pdv vdP RdP p,, ^
+db = ~ = -^ — ~ = p— = — RdlnP,
+and from equation (22),
+d h =^ R d In Pj hence, for constant temperature,
+dh = -dS, (23)
+and the condition is satisfied. The value R\n P satisfies both the above
+conditions for h in the case of a single state, the perfect gas. Moreover,
+every substance is capable of being brought into the state of a perfect
+gas isothermally by evaporation and indefinite expansion. Consequently
+it is easy to show that for any state of a substance either of the two
+conditions will define a value of h which is consistent with the other
+condition. Thus by the first condition, expressed now by equation (23),
+the difference in value of h between two states of a substance is equal to
+the difference in entropy and opposite in sign, that is,
+h. — ho ^ 02 — *Ji'
+If we choose as the second state the vapor of the substance at such a
+low pressure, P.,, that the vapor may be regarded as a perfect gas,
+A2 == ^In Po, from equation (22), and the last two equations give,
+h, = S,-S, + R In P„ (24)
+in which -S, represents the entropy of the vapor at pressure Po. This
+equation furnishes a complete definition of the value of h for any state.
+Let us see whether this value satisfies the other condition of equation
+(21).

@@ -1,0 +1,35 @@
+COMBINATIONS AND PERMUTATIONS. 203
+the extraordinary magnitude of the numbers with which
+we deal in this subject. Tacquet calculated d that the
+twenty-four letters of the alphabet may be arranged in
+more than 620 thousand trillions of orders ; and Schottus
+estimated e that if a thousand millions of men were em-
+ployed for the same number of years in writing out these
+arrangements, and each man filled each day forty pages
+with forty arrangements in each, they could not have ac-
+complished the task, as they would have written only 584
+thousand trillions instead of 620 thousand trillions.
+In some questions the number of permutations may be
+restricted and reduced by various conditions. Some
+things in a group may be undistinguishable from others,
+so that change of order will produce no difference. Thus
+if we were to permutate the letters of the name Ann,
+according to our previous rule, we should obtain 3x2x1,
+or 6 orders ; but half of these arrangements would be
+identical with the other half, because the interchange of
+the two ris has no effect. The really different orders will
+therefore be ~~p or 3, namely Ann, Nan, Nna. In
+the word utility there are two i's and two t's, in respect
+of both of which pairs the number of permutations must
+be halved. Thus we obtain ' 5 ' 4 ' 3 ' 2 ' * or 1260, as
+1.2.1.2
+the number of permutations. The simple rule evidently
+is that when some things or letters are undistinguished,
+proceed in the first place to calculate all the possible
+permutations as if all were different, and then divide by
+the number of possible permutations of those series of
+things which are not distinguished, and of which the
+permutations have therefore been counted in excess.
+Thus since the word Utilitarianism contains fourteen
+d ' Aritlimeticse Theoria.' Ed. Amsterd. 1704, p. 517.
+e Rees' ' Cyclopaedia/ art. Cipher.

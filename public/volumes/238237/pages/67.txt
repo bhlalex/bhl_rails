@@ -1,0 +1,196 @@
+88
+MILLER— PARALLAXES OF FIFTY STARS.
+No. 2. B.D. 37°. 175. fi Andromedae. (o^ 5i'"-2; + 37° 57'-)
+Mag. 3.94. /i. = o^OI28; -f- o".027. Spectrum A,.
+This is one of the first type stars with large proper motion.
+Slocum obtained o".oo5 ± o".oo7 for its parallax. The measures
+were made in longitude.
+Hour
+Time in Parallax
+Date.
+Angle.
+Obs.
+100 Days, Factor,
+Solution,
+Wt.,
+Res.,
+Meas-
+h. m.
+T. P.
+in.
+p.
+f. ured by
+Dec.
+7,
+I912.
+S.
+—7.30 —0.727
++0.053
+.8
++0.01 1
+S.
+Dec.
+9,
+I912.
+. +0 4
+B.
+7.28 .751
+.066
+.8
+— 0.002
+S.
+Aug.
+21,
+I914.
+. +0 20
+P.
+—1.08 +0.870
++0.127
+.8
+— 0.002
+S.
+Sept.
+5,
+I914..
+10
+P.
+0.93 .713
+.141
+I.O
+.016
+S.
+Nov.
+20,
+I914.
+. . —0 41
+P.
+— 0.17 —0.491
++0.I2I
+-9
++0.003
+S.
+Nov.
+22,
+I914.
+45
+M.
+0.15 .522
+.128
+-9
+—0.005
+s.
+Aug.
+17,
+I915..
+. —0 49
+P.
++2.53 +0.905
++0.136
+.8
++0.018
+S.
+Aug.
+22,
+1915-
+. +0 4
+P.
+2.58 .863
+-155
+1.0
+0.000
+S.
+Aug.
+23,
+1915-
+. —0 39
+P.
+2.59 -855
+-157
+1.0
+— 0.002
+S.
+Aug.
+25,
+1915.
+40
+P.
+2.61 .836
+•152
+1.0
++0.003
+S.
+Sept.
+2,
+1915-
+38
+P.
+2.69 .751
+.150
+1.0
+.005
+s.
+Dec.
+31,
+1915-
+..—07
+P.
++3.89 —0.931
++0.155
+•9
+—0.002
+s.
+Normal Equc
+(tions:
++ 10.900
+c +
+2.249 /x+ 2.
+505^ —
++ 1.
+425.
++
+133.027 + 14.570 —
++ 6.624 —
++ 1-
+--0.
+459-
+482.
+Sohition:
+c = + o".i28.
+ju,= + o".038 ± o".oo3.
+7r= + o".032 rb o".oi3.
+p. e. unit weight, ± o".028.
+Comparison Stars.
+No.
+3
+5
+7
+9
+TT
+X.
++222.8
+90.6
+— 54-4
+259.0
+10.5
+Y.
++63.6
+—53.3
++58.2
+—68.6
+17-4
+Dependence.
++0.199
+.349
+•154
+.301
+Diameter.
+0.61
+0.36
+0.77
+0.74
+I.OI
+B. D. No.
++37°. 179
++37°. 174
++37°.i68
++37°.i75

@@ -1,0 +1,35 @@
+MORENO. — ON RULED LOCI IN n-FOLD SPACE. 153
+lent to r independent equations, the order of the system is — (^ + m —
+r + 1) (/ + m — r) . . . . (Z + m — 2 r + 2).
+Whether n is odd or even we have finally a curve 2i of multiplicity
+n — 1, whose equations are found by expressing the conditions that
+the equations of the generating (w — 2) -flat have n — 1 roots in the
+parameter in common. We derive a restricted system of the same
+form as (II) in which however there are I -\- m — 2 (w — 2) rows and
+I -\- m — (n — 2) columns. The order of this system is -. -.
+(n - 1)1
+(l+m — n+2) (l+m — n+ I) . . . . (I + m — 2n + 4). This curve
+has w-tuple points on it whose equations are found l)y expressing the con-
+ditions that the equations of the generating (« — 2)-flat have n roots in
+common. We again have a restricted system of the same form as (II),
+in which, however, there are Z + m — 2 (ti — 1) rows and I -\- m — n + 1
+columns. The order of this system is — - (I -{- m — n -{- 1) (I -{- m — ?^)
+. . . . (I -{■ tn . 2 n -{- 2), which is the number of points in question. P'or
+n = 3 these formulae for the order agree with those given in Salmon.*
+A very special case is where the parameter enters only linearly in oi.e
+of the equations of the generating (/i — 2)-flat. Let the equations of the
+fiat be
+B=a' r + b' t'"'^ +.... = 0,
+where we make the same suppositions regarding a, b, a', b', . . . , as
+before. The S^^i in this case is a ruled spread with m sheets through
+the (?^ — 2)-flat, whose equations are
+a = 0,b = 0;
+it has no other multiple locus on it at all. Consecutive generating F„_2S
+of the system intersect in the flat, whose equations are,
+9 B
+d t
+All the F„_iS of the system lie in the same (n — 2)-flat ; they generate a
+developable (n — 3) -spread *S''„_3 in this flat. *S''„_3 is the section by this
+flat of the developable (n — l)-spread enveloped by the (n — l)-flat B.
+Consecutive generating F^?, of S,i_i intersect in generating ^„_4's of
+* Salmon, Geometry of Three Dimensions, p. 428.

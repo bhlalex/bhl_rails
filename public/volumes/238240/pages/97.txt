@@ -1,0 +1,34 @@
+128
+BARUS— ELLIPTIC INTERFERENCE
+[April 21,
+while the grating (either transmitting or reflecting) must be at the
+center of the spectrometer, if angles are to be measured. The same
+is true for any of the other superimposed white slit images in the
+above or the earlier experiments and may even be repeated with
+successive transmitting gratings. It is interesting to note that the
+position of the center of ellipses is at the same w^ave length in all
+the spectra though the form of ellipses may differ enormously. The
+same phenomenon may thus be seen by a number of observers at the
+same time, each looking through his own telescope.
+lU
+it'-7,
+>^r
+3
+3) 'J>'
+Fig. 2.
+Fig. 3-
+Diagrams showing position of gratings, g, g'.
+4. Third Method. Parallel Gratings. — In this case the two
+halves of the grating are treated displaced parallel to themselves,
+from their original coplanar position in the grating, from which
+they are cut. Their mounting is thus something like the case of the
+two black plates of Fresnel's mirror apparatus, one of the plates
+being adapted for displacement parallel to itself.
+In Fig. 2 g and g' show the two halves of the grating cut along
+the plane S, normal to the plates and parallel to the rulings. The
+half g' is provided with a micrometer screw, so that it may be suc-
+cessively moved from the position g' in Fig. 2 tt^ the position g' in
+Fig. 3, through all intermediate positions, while the half g remains
+stationary. Each of the halves g and g' is controlled by three ad-
+justment screws (horizontal and vertical axes of rotation), to secure
+complete parallelism of the faces of the grating. Each, moreover,

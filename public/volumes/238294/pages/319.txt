@@ -1,0 +1,42 @@
+( 802 )
+becomes then identical with the denominator of the fraction from (5).
+In the denominator we get a correction for tlie part of the cyhndre
+y, Avhich falls within more than one distance sphere, or as we maj
+also say, for the part of a surface .4, which is found within more
+than one distance sphere, if we define this surface ^4 bv the coniH-
+tion, tliat it is found e^ervwhere at a distance .y from tlie outer
+surface. We shall call tliis surface ^4 henceforth "surface of imi)act",
+because the force wliich in a collision acts on the centres of the
+molecules, acts in this surtace. The determiuMtion of the numerical
+value of the further coefïicients seems an exceedingly elaborat(M\(»ik.
+at least Boltzmann amiounced already in the Lorentz volume of tlie
+Arch. Neerl. that he wouhl have this calculation carried out for ihe
+next coeflicient, but this calculation has not yet 1)een pubUslied. It
+seems, however not doubtful to me. that also the iiuuierical value
+must be the same as the value found in other ways. At all events
+the flnal form becomes also by this method
+17 6^ _ 6'
+c
+(lib' ^^ b" X
+b b' b^ ^•» I
+i-7 + '*7^ + V+^-^/
+/' + 4 1 1 r ~ r, ^-77 I = «?■ ■ • m
+in which v represents a tinite number.
+Now it is not dithcult to show that the only remaining method
+for deriving the equation of state, which led to the correction ^^'„2,
+must lead to exactly the same equation as (9), when its principles
+are consistently applied. As is known, this method assumes, that
+the pressure is to be integrated not only oxer the volume i\ Init
+also over half of that of the distance spheres: />, because a molecule
+whose centre has got on a distance sphere, is sul)jected to exactly
+the same force as when it has got on the surface of impact (the
+volume enclosed l»y the surtace of iuipact may be put = r). The
+volume of the distance spheres, however, is really smaller than b,
+because some distance spheres coincide, and we get therefore ^) :
+,. + ^)(,.-6 + lI-^'....) = A'r . . . ,10)
+Now VAN DKK Waals Jr. (loc. cit.) has already pointed out. that
+it is tacitly assumed here, that the surface of the distance sphere
+which is found within another distance sphere ex[>eriences a pressure
+= 0, and that therefore, for the sake of consequence, also the parts of
+the surface of impact falling within distance spheres, must he supposed
+1) Continuitat 1899, p. (35.

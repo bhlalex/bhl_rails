@@ -1,0 +1,45 @@
+KELVIN IN THE SIXTIES 267
+word; but in the syllable "toe" the "e" is as indistinct as the hur-
+riedly written scrawl that you are very glad to get some one else to
+read for you.
+Thomson wanted a receiving instrument which, unlike the ordinary
+telegraph instruments used in post-offices and railway stations, could
+render the interpretation of such suggestions possible in the hands of
+an expert signaler, and he devised the mirror galvanometer speaking
+instrument to obtain this result.
+Another most important fact that his theoretical investigation
+brought out was that no increase of battery power could counteract the
+retardation in the signals produced by an impurity existing in the
+copper conductor of a cable, and hence that every yard of copper wire
+used in the thousands of miles of a long cable must be electrically
+tested for resistance before being used.
+But all this appeared to the electrician as arising from the igno-
+rance of an inexperienced young man who had never erected a mile of
+telegraph line in his life, and would not have been given a job in any
+telegraph office. And so when signals through the 1858 Atlantic cable
+became weak, and a message from the president to our queen took
+thirty hours in transmission, although containing only 150 words, and
+which would need only three or four minutes to transmit through any
+one of the good Atlantic cables of to-day, the only remedy of those who
+looked down on the theories of the young Glasgow professor was to use
+Whitehouse's " thunder pump," a magneto-electric machine which pro-
+duced a sudden large electromotive force when the armature of the
+permanent magnet was jerked off the poles of the magnet. But these
+shocks only sent sparks through the gutta-percha insulating coating
+and hurried the poor cable to its doom, so that even the three words
+per minute which would have been the utmost limit of speed possible
+had this cable been entirely uninjured, were replaced by absolute
+silence.
+But Thomson energetically struggled on and, pursuing (as he told
+me afterwards) a " Parnell-Biggar policy " at the board meetings of
+the Atlantic Cable Company, obstructed all business until the directors
+promised to have all the copper wire tested for resistance before being
+made into cable; and thanks to Thomson for his theory of signaling,
+to that engineer of energy and surprising resource, even when quite a
+lad, Sir Charles Bright, to Captain Anderson of the Great Eastern,
+and to all those who have followed in the history of submarine cable
+development the London Stock Exchange is by cable to-day within
+thirty seconds of Wall Street.
+Thomson's work in connection with submarine telegraphy has been
+epoch-making. But thirty-three years ago it was associated with what
+I felt was a national loss. I give it in an extract from a long letter

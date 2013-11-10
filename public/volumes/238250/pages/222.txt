@@ -1,0 +1,46 @@
+PHYSICS 331
+done, that I ask your indulgence while I try for a few minutes, frag-
+mentarily, to describe one or two fundamental experiments.
+Cathode rays are invisible, but many substances — fortunately glass
+is of the number — shine with a bright phosphorescent light when placed
+in the path of the rays. By this means it was early discovered that
+cathode rays travel in straight lines which always leave the cathode
+making right angles with the metal surface from which they depart.
+It is possible, therefore, to make the cathode concave or saucer-shaped
+and thus bring the rays to a focus at some point in the tube. If cathode
+rays are thus focussed upon the blades of a very delicate paddle wheel
+which rotates easily upon an axis, the wheel is set revolving as if struck
+by a stream of moving matter.
+The rays are found to possess an unusual power of penetrating
+matter impervious to light. They will even traverse a considerable
+thickness of aluminum. A comparison of the absorbing powers of
+different materials for cathode rays shows absorption to be roughly pro-
+portional to the density of the substance.
+There is a field of magnetic force about a beam of these rays and
+this added to the transfer of electricity along the path gives to the
+cathode stream the distinguishing marks of an electric current in a
+wire or a procession of electrically charged bodies. If a magnet be
+brought near the tube the cathode stream is deflected from its direct
+course. This deflection by the magnet shows three things : first, cathode
+rays are not of the nature of light rays, the path of which a magnet is
+powerless to change. Second, the curved path which the stream follows
+again shows the stream to possess inertia. Third, the side to which the
+rays are deflected indicates a stream of negative electricity.
+Strongly electrified bodies brought near the tube also deflect the
+rays. It is possible to determine the speed and the ratio of charge to
+the mass of the cathode particle, by measurements of the curvature
+of the path due to the combined magnetic and electrostatic deflections.
+Speeds as high as one tenth the velocity of light or 100,000 times the
+speed of a modern rifle bullet have thus been observed. The ratio of
+charge to mass comes out nearly a thousand times that found for the
+hydrogen atom by electrolysis. If the charge on the cathode particle
+is no larger than that on the hydrogen atom, which was called an atom
+of electricity, then the inertia or mass of these particles is only one
+one-thousandth part of the mass of hydrogen atoms.
+The nature of cathode rays was thus determined, but at this stage it
+was all important to catch a known number of these missiles and meas-
+ure the electric charge each carried. As the estimated size of these
+minute bodies is less than one ten-million-millionths of an inch, direct
+counting would be both slow and difficult, yet by one of the most in-
+genious experiments ever performed, Professor J. J. Thomson did
+it, indirectly.

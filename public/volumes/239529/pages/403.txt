@@ -1,0 +1,29 @@
+602
+P' of Of is the centre of the sphere of curvature which has five
+points in common with the path of a point P of O m .
+CONCLUDING REMARK.
+In § 7 we remarked:
+If a point P describes a twisted curve y and the point P' the
+curve which is the locus of the centres of the spheres of curvature
+of y in P, the condition that such a sphere has with y a contact
+of the fourth order is expressed by putting the velocity of P' equal
+to zero.
+We shall briefly indicate the proof of this proposition.
+If we represent y by the equation developed in $ 5 (footnote),
+and the sphere of curvature by
+d 1
+a* -f y » 4. z ' — 2 Ry — 2 R* T =0,
+dt R
+we find for the condition for a contact of the fourth order
+1 i R d / dR\ |
+and for the arc described by P' (see e.g. Bianchi-Lukat : Vorlesun-
+gen über Differential-Geometrie, I, zweite Auflage, p. 25)
+R d ( dR
+1
+From v ax ' = follows <f 4 = as -^7^ = 00 is excluded. Inversely
+R 1
+1
+<f 4 is only equal to zero, when v az ' is equal to zero, as for -— =
+R 1
+v a ,x' becomes generally infinite and d, differs from zero. It would
+lead us too far if we entered further into this.

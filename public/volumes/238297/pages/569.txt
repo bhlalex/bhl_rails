@@ -1,0 +1,36 @@
+THEOR Y OF A P PRO XI MA TION. 7 9
+torsion, which is again only true for infinitely small
+angies f .
+We need to take great care that in simplifying u
+problem we' do not overlook some circumstance which
+from peculiar mathematical conditions is of importance.
+Thus in experiments upon the density of the earth we
+may treat irregularities of its contour as producing in-
+considerable effects. But a like assumption must not be
+made concerning irregularities in the strata of the earth
+at a short distance below the point of experiment s.
+Such is the purely approximate character of all our
+operations that it is not uncommon to find the theo-
+retically worse method giving truer results than the theo-
+retically perfect method. The common pendulum which
+is not isochronous is better for practical purposes than the
+cycloidal pendulum which is isochronous in theory, but
+subject to mechanical difficulties. The spherical form is
+not the correct form for a speculum or lense, but it differs
+so slightly from the true form, and is so much more easily
+produced mechanically, that it is generally best to rest
+content with the spherical surface. Even in a six-feet
+mirror the difference between the parabola arid the sphere
+is only about - - of an inch, a thickness which would
+J 10,000
+be taken off in a few rubs of the polisher. Watts*
+ingenious parallel motion was intended to produce recti-
+linear movement of the piston rod. In reality the motion
+was always curvilinear, but a certain part of the curve
+approximated sufficiently for his purposes to a straight
+line.
+Approximation to Exact Laws.
+Though we can never prove any numerical law with
+perfect accuracy, it would be a great mistake to suppose
+f Baiiy, ' Memoirs of the Royal Astronomical Society,' vol. xiv, p. 99.
+s Airy, Philosophical Transactions/ vol. cxlvi, p. 334.

@@ -1,0 +1,60 @@
+H25
+The general solution of the problem must be composed of special
+solutions in the following way :
+fc=i
+rSi®l - Pl
+(*).
+(18)
+The constants A^ can only be determined in connection with the
+value of & t . The expression given by (18) satisfies the boundary condition
+(10), which holds at the boundary surface of the solid substance and
+the wall of the tube, and is also in agreement with (9).
+The value of the temperature #, prevailing in the liquid is found
+in an analogous way. It is :
+6.
+= 2 4,*)^ \-^-\ e->" Xt (1
+k=\ I a \
+9)
+The quantities £,(*0 are the roots of the equation
+7, s s J, (£ a ) = J (§ s ). • • •
+in which :
+7»— '
+X.a
+From §, ( ^ follows p,(*0
+2«.
++
+K 4«.
++
+S,<«!
+(20)
+(21)
+(22)
+In conclusion the constants A^ and A.J k ) occurring in (18) and
+(19), must be determined from the conditions (8) at the boundary
+surface of the solid and the liquid phase. By the aid of (18) and
+(19) these conditions become :
+2 AJ*) J, \
+k=l f
+'&<*>
+■■SAJDJ,
+2
+k=i
+A^)X lPl MJ \ r -^\ -f A^)X t p^)J t
+£ (k)
+a
+r§,(*)
+a
+. . . . (23)
+= Qq x v v (24)
+Both equations must hold for all values of r.
+The difficulty to find the constants AJ k) and A^ k > from (23) and
+(24), consists in this that in these equations there occur two series
+I r £,(*)) r l r §,(*)/
+of normal functions, viz. </„ and t/. {- - . These series
+| a j f a |
+are, indeed, each in themselves orthogonal; but the functions of one
+series are not orthogonal to those of the other. The most symmetrical
+way would be to try and find normal functions belonging to the
+whole space, and not, as had been done up to now, either to space
+1 (solid substance) or to space 2 (liquid). There exists, however, a
+simple — though asymmetrical — method, which leads to the pur-

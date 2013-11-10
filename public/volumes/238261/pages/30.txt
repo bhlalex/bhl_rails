@@ -1,0 +1,27 @@
+PEIRCE AND WILLSON. — THERMAL CONDUCTIVITIES.
+/( = 00
++ B^ cosh { ^
+a
+where ^4^, jL, A3, B^, and ^3 are subject to the conditions
+A, sinh f'^"J-\ = A, sinh ("^^ + i?2 cosh f"^) ,
+21
+(26)
+(27)
+(28)
+(29)
+k, A, cosh f^^ =: L Fj^ cosh ("^^ + i52 sinh (^')] ,
+J^siuh (^^ + ^2C0sh C'^'^^ =^3 sinh (^') + i^3C0sh (^) ,
+h r^ocosh (^) + ^2 sinh (^)l
+J^cosh r^^ + ^3 sinh ('^)
+^3 sinh ( — ) + i?3 cosh
+k
+xj.
+2Vi
+and where Xp is the p\\\ root in order of magnitude of the Bessel's Equa-
+tion /u {x) = 0.
+If, for brevity, we denote the quantities
+sinh f '' " j , cosli ' '' '
+-'), .„u(^-^'), ...(^.•/),
+\ a ) \ « / x^.J^ {x^
+by s, c, s', c', s", c", and O, respectively, these equations of condition
+may be written

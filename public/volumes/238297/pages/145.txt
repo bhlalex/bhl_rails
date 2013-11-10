@@ -1,0 +1,34 @@
+THE LOGICAL ABACUS. 119
+must be either granite or not, and vice versd, the premises
+fail to give us any information on the point, that is to say
+the Method of Indirect Inference saves us from falling
+into any fallacious conclusions. This example sufficiently
+illustrates both the fallacy of Negative premises and that
+of Undistributed Middle of the old logic (pp. 75-77).
+The fallacy called the Illicit Process of the Major Term
+is also incapable of commission in following the rules of
+the method. Our example was (p. 77)
+All planets are subject to gravity, (i)
+Fixed stars are not planets. (2)
+The false conclusion is that ' fixed stars are not subject to
+gravity/ The terms are
+A = planet
+B = fixed star
+C = subject to gravity.
+And the premises are A = AC, (i)
+B= aB. (a)
+The combinations which remain uncontradicted on com-
+parison with these premises are
+aBC abG
+abc.
+For fixed star we have the description
+B = aBC -I- aBc,
+that is, ' a fixed star is not a planet, but is either subject
+or not, as the case may be, to gravity/
+The Logical Abacus.
+The Indirect Method of Inference has now been suffi-
+ciently described, and a careful examination of its powers
+will show that it is capable of giving a full analysis and
+solution of every question involving any simply logical
+relations. The chief difficulty of the method consists in
+the great number of combinations which may have to

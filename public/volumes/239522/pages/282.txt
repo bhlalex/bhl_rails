@@ -1,0 +1,37 @@
+EXPANSION PROBLEMS. 409
+sion in the first section, and partly by the argument just completed.
+It is found that if .Tq is any fixed value in the interval < 0*0 < tt,
+the absolute value of un{xo) is equal to f"^cot(x/.) multiplied by a
+quantity which may be small for particular values of n, but certainly
+does not approach zero as a limit when n becomes infinite. It is
+possible to assign a positive constant Cu, such that
+for infinitely many values of 11. It follows that anMn(.ro) does not
+remain finite, and
+The statement of Theorem II is valid for the series discussed in the
+present section.
+III. Differential Equation of Order v with Fewer than v — I
+Specialized Boundary Conditions.
+If two of the boundary conditions, instead of a single one, involve
+the point x, the resulting series still show essentially the same char-
+acteristics, provided that the order of the differential equation is
+greater than 4, so that the specialized conditions remain in the major-
+ity. We retain the differential equation (15) of the preceding section,
+assuming now that j' ^ 5, and associate with it the following boundary
+conditions :
+kg—i
+Ws (w) = u^'^s) (0) + £ asj u^'^ (0) = 0, s=l,2,...,v-2,
+(39) ' ^ °
+/Cj— 1 v—1
+Ws {u) = vS'^s) (tt) + X ^,jU^^) (tt) + Z ^sjU^^^ (0) = 0,
+7=0 7=0
+S = V — 1,V,
+where
+J' - 1 ^ />:i > /.•2 > • • • > k.-2 ^0, V -1^ K_x > k, ^ 0.
+The differential equation being the same, the asymptotic expressions
+(17), (18), are still available,^^ and the regions Si and Ti may be de-
+fined as before. In determining the distribution of the characteristic
+values, it is sufficient to consider those in the sectors »So and S^v-i;
+all but a finite number of these will be in the regions To and T^v-i- If
+33 For the present we may interpret the bracket symbol as it was interpreted
+at the beginning of the preceding section, without the refinement which was
+introduced later.

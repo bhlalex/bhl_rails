@@ -1,0 +1,34 @@
+58 PROCEEDINGS OF THE AMERICAN ACADEMY.
+changing the pressure on the solvent and without preventing the sub-
+stance from passing freely into or out of the solvent. The osmotic •
+pressure of the saturated solution depends upon the pressure on the
+substance. If the latter is represented by P and the former by 11, then
+for P + d P the osmotic pressure will be 11 + </ 11. We may moreover
+represent the molecular volume of the substance by v at pressure P,
+by V — dv aX pressui'e P -\- d P ; the molecular volume in the solution
+by v' at osmotic pressure H, hy v' — d v' Sit H ■\- d 11. If a gram-mole-
+cule of the substance at pressure Pis (1) dissolved against the osmotic
+pressure 11, (2) its solution concentrated to 11 -f c? TI, (3) removed from
+solution against the pressure P -{■ d P and (4) allowed to expand from
+P + d P to P, a,u isothermal cycle is formed, and if each step is made
+reversible the total work of the cycle is zero. The work obtained in the
+several steps may be represented by Wi, JV^, etc.
+Wi = Uv' - Pv,
+W^ = — Ild v>,
+W^ ^(P-\- dP) (v- dv) - (n-\- dU) (v' — dv'),
+W, = Pdv.
+Writing the sum equal to zero,
+vdP—v'dU = 0,
+or expressing in the equation the constancy of T,
+(l^),-^- <'^>
+This is an exact general equation connecting the osmotic pressure of a
+saturated solution and the pressure upon the pure solute. It is entirely
+analogous to equation (6). Since we may choose a solvent in which the
+solute is as slightly soluble as desired we will choose one in which the
+solution may be regarded as infinitely dilute. Then,
+PT
+n =
+v'
+from equation (2). Combining this equation with (12) we obtain
+From equation (8), if/ = pU. Therefore In i/^ = In IT + In p, and
+\9P'j,~\ 9P );

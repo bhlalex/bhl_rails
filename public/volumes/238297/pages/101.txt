@@ -1,0 +1,36 @@
+DEDUCTIVE REASONING. 75
+readily and clearly explained on the single principle of
+substitution. It is now desirable to show that the same
+principle would prevent us falling into fallacies. So long
+as we exactly observe the one rule of substitution of
+equivalents it will be impossible to commit a paralogism,
+or to break any one of the elaborate rules of the ancient
+system. One rule is thus proved to be as powerful as
+the six, eight, or more rules by which the correctness of
+syllogistic reasoning was guarded.
+It was a fundamental rule, for instance, that two nega-
+tive premises could give no conclusion. If we take the
+propositions-
+Granite is not a sedimentary rock, (i)
+Basalt is not a sedimentary rock, (2)
+we ought not to be able to draw any inference concerning
+the relation of granite and basalt. Taking our letter-
+terms thus
+A = granite
+B = sedimentary rock
+C = basalt,
+the premises may be expressed in the form
+A - B (i)
+C - B. (2)
+We have in this form two statements of difference ; but
+the principle of inference can only work with a statement
+of agreement or identity (p. 62). Thus our rule gives
+us no power whatever of drawing any inference.
+It is to be remembered, indeed, that we claim the
+power of always turning a negative proposition into an
+affirmative one ; and it might seem that the old rule of
+negative premises would be thus circumvented. Let us
+try. The premises (i) and (2) when affirmatively stated
+(see p. 54), will take the form
+A = Kb (i)
+- 06. (2)

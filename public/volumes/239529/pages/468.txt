@@ -1,0 +1,26 @@
+701
+the tube used. Hence an error in the temperature of the thermostat
+has little influence on the rise of temperature in the solidifying
+substance.
+The rise of temperature is measured as function of the time. The
+velocity of crystallisation being known, the temperature in the tube
+is easy to find as function of the position because the distribution of
+temperature prevailing at one moment moves uniformly past the
+thermo-element.
+/Jteore/t srjte kromme
+waargenomen /enyicrataurstygnnijr
+=4*_JLjd
+Fig. 3.
+Every ten seconds a time signal is given in the registered curve.
+The temperature has been calculated at the moment of these signals,
+and this has been done besides at the intermediate moments, so that
+the temperature is known every five seconds. The values thus
+obtained are drawn on four curves (fig. 3) with different symbols.
+Also the calculated curve is reproduced in the same figure. The
+ordinate represents the rise of temperature, and the abscissa the
+distance in cm. to the boundary plane of the phases. The agreement
+of the measurements with the theoretical curve confirms the correct-
+ness of theory and observation.
+Even without a complete calculation of the theoretical distribution
+of the temperature, a few particularities met with in the measurement
+of the temperature, can be explained from the theory.

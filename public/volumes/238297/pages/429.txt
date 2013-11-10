@@ -1,0 +1,37 @@
+ANALYSIS OF QUANTITATIVE PHENOMENA. 403
+difference between the judgment of observers at the
+Greenwich Observatory usually varies from ~ to J of
+a second, or even a little more, and remains pretty con-
+stant for the same observers". In some observers it has
+amounted to seven or eight-tenths of a second x . De
+Morgan appears to have entertained the opinion that
+this source of error was essentially incapable of elimina-
+tion or correction y. But it seems clear that this personal
+error might be determined absolutely with any desirable
+degree of accuracy by test experiments, consisting in
+making an artificial star move at a considerable distance
+and recording by electricity the exact moment of its
+passage over the wire. This method has in fact been
+successfully employed in Leyden, Paris, and Neuchatel z .
+Newton employed the pendulum for making experi-
+ments on the impact of balls. Two balls were hung in
+contact, and one of them, being drawn aside through a
+measured arc, was then allowed to strike the other, the
+arcs of vibration giving sufficient data for calculating the
+distribution of energy at the moment of impact. The
+resistance of the air was an interfering cause which he
+estimated very simply by causing one of the balls to
+make several complete vibrations and then marking the
+reduction in the length of the arcs, a proper fraction
+of which reduction was added to each of the other ob-
+served arcs of vibration a .
+In the modern use of the pendulum, to measure
+terrestrial gravity, it is not found convenient to annul
+u 'Greenwich Observations for i866/ p. xlix.
+x 'Penny Cyclopaedia,' art. Transit, vol. xxv. pp. 129, 130.
+y Ibid. art. Observation, p. 390.
+z 'Nature/ vol. i. pp. 85, 337. See references to the Memoirs de-
+scribing the method.
+a 'Principia,' Book I. Law III. Corollary VI. Scholium. Motte's
+translation, vol. i. p. 33.
+D d 2

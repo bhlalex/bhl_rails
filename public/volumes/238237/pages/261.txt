@@ -1,0 +1,35 @@
+376 HAYES— U. S. NAVY MV TYPE OF HYDROPHONE.
+and dense portions of the sound waves will not remain perpendicu-
+lar to this surface. If the sound travels from left to right the wave
+front will be distorted to the left as shown by the full curved lines.
+This distortion becomes greater as the sound travels farther from
+the source, and at considerable distance it is conceivable that all
+sound reaching the surface is travelling in a direction nearly perpen-
+dicular to it and thus will be reflected nearly vertically downward.
+If this distortion extends to a sufficient depth, neither the direct nor
+the surface-reflected sound ray will reach the distant receiver placed
+near the surface. Under such conditions only sound reflected from
+the sea-bottom will be heard.
+Experiments for determining which of the above explanations is
+valid have not been undertaken to date. However, when listening
+to bell and oscillator signals, it has been noticed that the harmonics
+are more prominent relative to the fundamental at the first instant
+of response than during the rest of the signal. This fact tends to
+substantiate the first explanation. The slight difference in path
+length between the direct and surface-reflected sound introduces
+more phase difference between the high-pitched components of the
+sound than in the case of the fundamental and therefore the har-
+monics are less perfectly neutralized by interference at the receiver
+than is the fundamental. The sound at the receiver resulting from
+these two paths consists largely of harmonics and this is heard an
+instant before the sound which is reflected from the sea-bottom as
+the latter has travelled a somewhat longer path,
+A New Method of Sounding.
+Since the only propeller sound heard by a hydrophone located
+at a distance and near the surface is the component reflected from
+the sea-bottom, it follows that the depth of water can be determined
+from the angle which the reflected sound makes with a fixed line in
+a plane determined by the sound source and the reflected ray — pro-
+vided the distance between the hydrophone and sound-source is
+known. Conversely, the distance between the hydrophone and the
+sound-source can be determined if the depth of water is known.

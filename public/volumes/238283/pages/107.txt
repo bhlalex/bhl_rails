@@ -1,0 +1,24 @@
+144 PROCEEDINGS OF THE AMERICAN ACADEMY.
+we derive the equation of an (n — l)-spread S„_p which is ruled by the
+system of (« — 2)-flats, F ^s*
+Two consecutive i^„_2's intersect in an (« — 4)-flat, whose equations
+are,
+The elimination of the parameter from these equations gives a re-
+stricted system equivalent to three independent equations. The locus is
+an (n — 3)-spread ruled by the F„_iS. *S„_3 is a double spread on S„_i.
+Three consecutive i^„_2's intersect in an (n — 6) -flat ^„_6, whose equa-
+tions are,
+If we eliminate the parameter from these equations we derive a
+restricted system equivalent to five independent equations. The locus
+is an (n — 5)-spread *S„_5, ruled by the i^„_6's. S,,_^ is a triple spread
+on *S'„_j and a double sjjread on S„_s .
+Similarly r consecutive i^„_2's intersect in an (n — 2 r)-flat i^„_2r5 whose
+equations are,
+On the elimination of the parameter we derive a restricted system equiv-
+alent to 2 r — 1 independent equations. The locus is an (n — 2 r + 1)-
+spread, *S„_2r + i> ruled by the i^„_2r's. S„_2r + i is an r-tuple spread on
+S„_-^ ; it is a multiple spread on other spreads of the system.
+Two distinct cases arise according as n is odd or even. If n is odd,
+n — 1
+then — - — consecutive i^„_2's intersect in a line, Fi, whose equations are,
+* From now on we shall use 5^ to denote the A:-spread of this system.

@@ -1,0 +1,70 @@
+made from cardboard, wood, or metal and will have a
+slot to slide over the yardstick at a 90° angle (i.e.,
+the crossbar is horizontal to the bench). A carpenter's
+level attached to the crossbar will further improve ac-
+curacy. With the yardstick placed on the bench, the
+crossbar can be slid gently down to just touch the
+top of the plant without disturbing leaves.
+Step 3. Plot heights on the graph.
+Calculate the average height of the five sample
+plants and enter it onto the graph, in the example
+{Figure 1), the grower measured plant height twice a
+week and plotted them on the curve (shown as rect-
+angles), and also recorded growth retardant applica-
+tions ('G' symbols).
+4. Make height-control decisions.
+Graphical tracking will show you whether your crop is
+too tall or short, but it does not tell you what the best
+management decision is The biggest advantage is that
+the method gives you a consistent basis for deciding
+whether to apply a growth retardant or change your DIF
+temperatures.
+The aim is to keep plant height between the maxi-
+mum and minimum target heights throughout the crop.
+If plant height is above the maximum target curve, ap-
+ply a growth retardant if plants do not show bract color
+and/or run negative DIF temperatures (warmer night
+temperature than day temperature). Use positive DIF
+temperature (cool night, warm day) if plant height is
+below the minimum target curve
+In the example crop (Figure 1), the grower applied
+Cycocel 1500 ppm growth retardants when the crop was
+near or above the upper target curve, until the crop
+showed first bract color
+For those interested in more details about graphical
+tracking and height control, Dr. Heins and I are writing
+an in-depth series on graphical tracking in Greenhouse
+Grower, which started in the |une 1997 issue.
+Paul fisher is assistant professor in the Department of Plant
+Biology, University of New Hampshre, Durham. He can be
+reached by phone at 603-862-4525 or fax at 603-862-4757;
+his e-mail address is <prf@hopperMnh.edu>.
+Figure 2. A screen from UNH FloraTrack showing a poinsettia graphical tracking chart.
+UNH FloraTrack: Graphical Tracking for Poinsettia. Version 1.0 for Excel 7
+Copyright University of New Hampshire 1997 Developed by Paul Fisher, Dept of Plant Biology, UNH, Durham. NH 03824
+Crop name:
+V17Crop 1
+Cultlvar:
+Anqelika Red
+Start date: ^^^^M
+09/09/97
+Flower initiation date:
+09.'23/g7
+Market date:
+11/25/97
+Response time (weeks):
+9
+Pot size:
+6
+Start height:
+6 5
+Final desired minimum ht:
+14
+Final desired maximum ht:
+16
+Height units:
+Inches
+Date Units (D = date, W = weeks)
+d
+V17 Crop 1 (Angellka Red, Pot size 6 Inches)
+9 ° s z z z

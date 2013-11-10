@@ -1,0 +1,47 @@
+452 On Refraction,
+each degree, there are given the logarithms of the refraction
+in seconds and their differences : and in two auxiliary tables
+are given the logarithms of the factors for correcting it for
+the variations of height in the barometer and thermometer.
+To make these corrections depending upon the temperature
+always affirmative as far as the table extends, he has added
+respectively to the logarithms of the two last tables their
+greatest negative logarithm taken positively, and subtracted
+from it the logarithms of the first table.
+To this succeeds a Table of mean refractions for true di-
+stances from the zenith for every degree down to 80 , and
+for every 10' thence to Ql°, with their differences, adapted
+for 0" 76 metre of the barometer, and 12°\3 of the centigrade
+thermometer*, with two auxiliary tables for reducing it to
+any other state of the atmosphere. Directions are also
+given for using them, together with the formulae from
+which they were computed, reduced to a more simple
+form. %
+In noticing the latest improvement made in this subject,
+for which we are indebted to one of our own countrymen,
+it is but fair to return him those acknowledgements to
+which he is so justly entitled. When gentlemen of for-
+tune give up the gay amusements of the world, and turn
+aside from the pleasures of fashionable life, to cultivate
+science in retirement, they deserve our warmest thanks : and
+when we add to this the consideration that the science
+they cultivate is not only one of the most interesting and
+sublime, but of the utmost importance to a commercial na-
+tion like Great Britain, our thanks certainly must be changed
+into something more like gratitude.
+There are, indeed, very few who can afford to purchase
+instruments of sufficient accuracy to make improvements
+in a science so far advanced; and still fewer of those that
+so amply possess the means of life, who would bestow that
+time and attention which are requisite in acquiring the ne-
+cessary knowledge forlhis purpose, and turning it to useful
+account.
+Such is the present state of the navy of England, and
+her maritime concerns, that the improvement of astronomy
+is a subject which calls seriously for attention; more espe-
+cially, as we have but one public institution for that pur-
+pose. The commerce of France is nothing in comparison
+of ours, yet the greatest encouragement is given in that
+country to those who promote every science connected
+* Or, 29*92152 English inches, and 54° 5 of Fahrenheit's thermometer.
+with

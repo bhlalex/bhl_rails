@@ -1,0 +1,124 @@
+The sensitivity to radiation depends on the
+amount of water held by the living protoplasm.
+The criterion that indicates the loss of water
+from protoplasm is the growth of the cell. The
+ability to grow is connected with a definite de-
+gree of turgidity of the protoplasm and it consti-
+tutes a very sensitive indicator of turgidity loss.
+The loss of water in Erdmann's experiments
+was produced by potassium chloride, sodium
+chloride, or urea. These experiments showed
+that when protoplasm lost its turgor, the effect
+of X rays was reduced by 25 to 30% by compari-
+son with cells whose protoplasm was in the
+normal state of turgor. If yeast cells from a
+hypertonic solution were transferred to tap
+water, irradiation produced the same effect
+on yeast cells as when loss of water had not
+taken place. Desiccation lowers the sensitivity
+of the cells to radiation as when water is
+removed by hypertonic solutions. The sensi-
+tivity of older cultures of yeast is reduced by
+35% in comparison with normal ones. Actually,
+the aging of yeast cells is also accompanied by
+loss of water which accounts for the reduction
+of sensitivity.
+Heilbrunn and Mazia [1936] forms a chapter
+in Duggar's book. In this chapter, the authors
+discuss the idea that even if there is no doubt
+that irradiation affects the protoplasm and the
+cells, we still cannot know whether this is the
+effect of the direct [primary] action of radiation
+on the organism because our knowledge in this
+area is still very limited. Even where cells
+are examined microscopically, the number of
+experiments devoted to the study of the direct
+[primary] effects of radiation on protoplasm is
+insignificant. The authors consider that our
+primary interest should be in primary action of
+irradiation on living protoplasm and in the study
+of this action by means of physico-chemical
+methods, namely, 1) permeability to water and
+dissolved substances, 2) viscosity, 3) electrical
+charges and potentials, and 4) chemical reac-
+tions.
+Permeability, or rather, changes in perme-
+ability due to the action of visible and ultraviolet
+light and radium [radiation] were studied in both
+animal and plant cells; while the investigation
+of the effects of X rays was performed, chiefly,
+on animals. Brummer^has shown that on human
+skin2and on erythrocytes irradiation diminishes
+permeability, whereas Hassel [Gassul]^and
+Hoffmann^ indicate that permeability increases.
+The data of Kroetz-*^ and Kov^cs^are equally
+contradictory. Comparing the speed of chloride
+diffusion through the normal frog skin and
+through skin which had been exposed to 10 to
+* References not given but can be found in the ref-
+erences cited in Heilbrunn and Mazia [1936] .
+^Editorial comment: Brummer found that irradia-
+tion increases permeability in human skin.
+30 HED, the former demonstrated an increase
+in permeability [of the irradiated skin] of almost
+200%. Kov^cs, on the other hand, was unable
+to establish any difference [of permeability] due
+to X irradiation. Finally, Seckt (1902), while
+observing changes in the stomata openings after
+irradiation, established an increase in perme-
+ability due to irradiation on a single plant
+organism ( Tradescantia selloi).
+Viscosity . An investigation of changes in
+viscosity of the protoplasm due to the action of
+radiation of different wave lengths, ranging
+from the ultraviolet to X rays and radium
+[radiation], showed Heilbrunn [and Mazia] that
+the main mass of the protoplasm (Plasmosol)
+first became liquid and then, as the dosage was
+increased, more viscous. While the internal
+protoplasm became more viscous, the external
+layer became diluted to 1/4 of its original state.
+Changes in cytoplasm, after irradiation are
+similar in the tissues of various organisms,
+although the difference in the degree of radio-
+sensitivity of tissues, in general, is obvious.
+Temporary stimulation of the physiological
+processes is the first stage of the effects of
+X rays. This is followed by gradual diminution
+of activity and finally by complete inactivity.
+A great many observations were performed on
+protoplasmic movements (Lopriore [1897],
+Nadson [and] Rokhlina [1926, 1934], Williams
+[1923]) on motility of chondriosomes, fat glob-
+ules, etc. , which indicate corresponding
+changes in viscosity as well as the selective
+permeability of protoplasm (Nadson [and Rokh-
+lina, 1926 and 1934]). Protoplasmic strands
+are drawn into the permanent cytoplasm and
+accumulate around the nucleus or in some other
+place; their cytoplasm gradually becomes turgid
+as a result of formation of granular, small fat
+globules, whose number and size gradually in-
+crease, and finally, first small and then large
+vacuoles appear (Nadson and Rokhlina [1926,
+1934], Heilbrunn [and Mazia, 1936], et al).
+When these changes become irreversible, death
+occurs (Lopriore [1897], Nadson [and Rokhlina,
+1926 and 1934]). The vacuoles may increase in
+size or the protoplasm may disintegrate.
+Irradiation induces changes that are similar
+to Dauer modifications, which is particularly
+clearly demonstrated in Drosophila . These are
+cytoplasmic changes that in subsequent genera-
+tions revert to the original state. Many of
+these changes, for various characters, were
+described by Stein (1922 to the present [1946*])
+in irradiated snapdragons.
+Certain investigators have also noted that
+even where reversible changes were effected,
+the reversibility was often partial and that
+cytologically imperceptible changes may be
+retained and [later] manifest themselves by
+formation of new tissues and possess, in the
+final analysis, cytogenetic significance.
+62

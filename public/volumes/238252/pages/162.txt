@@ -1,0 +1,45 @@
+158 POPULAR SCIENCE MONTHLY.
+notice any apparent difference between the signals received in the day
+and those received at night until after the vessel had reached a dis-
+tance of 500 statute miles from Poldhu. At distances of over 700
+miles, the signals transmitted during the day failed entirely, while
+those sent at night remained quite strong up to 1,551 miles, and were
+clearly decipherable up to a distance of 2,099 miles from Poldhu.
+Mr. Marconi also noted that at distances of over 700 miles, the signals
+at 6 A. M., in the week between February 23 and March 1, were quite
+clear and distinct, whereas by 7 a. m. they had become weak almost to
+total disappearance. This fact led him at first to conclude that the
+cause of the weakening was due to the action of the daylight upon the
+transmitting aerial, and that as the sun rose over Poldhu, so the wave
+energy radiated, diminished, and he suggested as an explanation the
+known fact of the dissipating action of light upon a negative charge.
+Although the facts seem to support this view, another explanation
+may be suggested. It has been shown by Professor J. J. Thomson that
+gaseous ions or electrons can absorb the energy of an electric wave, if
+present in a space through which waves are being transmitted.* If it
+be a fact, as suggested by Professor J. J. Thomson, that the sun is
+projecting into space streams of electrons, and if these are continually
+falling in a shower upon the earth, in accordance with the fascinating
+hypothesis of Professor Arrhenius, then that portion of the earths
+atmosphere which is facing the sun will have present in it more elec-
+trons or gaseous ions than that portion which is turned towards the
+dark space, and it will therefore be less transparent to long Hertzian
+waves, f In other words, clear sunlit air, though extremely trans-
+parent to light waves, acts as if it were a slightly turbid medium for
+long Hertzian waves. The dividing line between that portion of the
+earths atmosphere which is impregnated with gaseous ions or electrons
+is not sharply delimited from the part not so illuminated, and there
+may be therefore a considerable penetration of these ions into the
+regions which I may call the twilight areas. Accordingly, as the earth
+rotates, a district in which Hertzian waves are being propagated is
+brought, towards the time of sunrise, into a position in which the
+atmosphere begins to be ionized, although far from as freely as is the
+case during the hours of bright sunshine.
+Mr. Marconi states that he has found a similar effect between inland
+* See Phil. Mag., Vol. IV., p. 253. Series 6, August, 1902. J. J. Thomson,
+On Some Consequences of the Emission of Negatively Electrified Corpuscles
+by Hot Bodies.
+t The opinion that ionization of the air by sunlight is a cause of obstruc-
+tion to Hertzian waves propagated over long distances has also been expressed
+by Mr. J. E. Taylor. See Proe. Roy. 80c. , Vol. LXXI., p. 225, 1903. Char-
+acteristics of Earth Current Disturbances and their Origin.

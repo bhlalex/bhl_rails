@@ -1,0 +1,35 @@
+PHILOSOPHY OF INDUCTIVE INFERENCE. 267
+Sir George Airy has also recorded a curious case, in
+which he accidentally fell by trial on a new geometrical
+property of the sphered Many of the most important and
+now trivial propositions in geometry, were probably thus
+discovered by the ancient Greek geometers ; and we have
+pretty clear evidence of this in the Commentaries of
+Proclus/ But discovery in such cases means nothing
+more than suggestion, and it is always by pure deduction
+that the general law is really established. As Proclus
+puts it, we must pass from sense to consideration.
+Given, for instance, the series of figures in the accom-
+panying diagram, a little examination and measurement
+will show that the curv-
+ed lines approximate to
+semicircles, and the rec-
+tilineal figures to right-
+angled triangles. These
+figures may seem to sug-
+gest to the mind the gen-
+eral law that angles in-
+scribed in semicircles are right angles ; but no number of
+instances, and no possible accuracy of measurement would
+really establish the truth of that general law. Availing
+ourselves of the suggestion furnished by the figures, we
+can only investigate deductively the consequences which
+flow from the definition of a circle, until we discover
+among them the property of containing right angles.
+Many persons, after much labour, have thought that they
+had discovered a method of trisecting angles by plane
+geometrical construction, because a certain complex ar-
+rangement of lines and circles had appeared to trisect an
+angle in every case tried by them, and they inferred, by a
+*i 'Philosophical Transactions/ [1866] vol. 146, p. 334.
+r Bk. ii. chap. iv.

@@ -1,0 +1,34 @@
+Chemistry. — "Sur une clause de functions admettant wie dérivée
+seconde generalised' . By Prof. Arnaud Denjoy.
+(Communicated at the meeting at May 29, 1920).
+üonsidérons une série trigonométrique partout convergente
+f(6) = a ±A l + A, + ...+A n + ...., . . . (1)
+oü A n = a n cos nd + b» s ^ n n & '» a «> a >» ^« étant indépendants
+de 6. Soit B» = — b„ cos nd -f- a n sinn0. Intégrons terme a terme
+la série (1), et posons:
+tp(6)=za o e-\- £+£, + ... + =~ + (2)
+en tout point 6 oü la série du second membre converge. A ux points
+oü cette série diverge, nous dirons que <p (6) n'existe pas. C est
+quelconque, indépendant de#. Integrant une fois de plus, nous trouvons:
+F{6) = ^8>±C6+C — il,-../ £... . . (3)
+2 n
+C' étant, comme C, indépendant de 6.
+Riemann a montré que la fonction continue F {&) admet f {6) pour
+dérivée seconde généralisée, c'est-a-dire que, si
+»/* , F{0 + u) + F{0-u)-2F{&)
+H
+on a ƒ {6) ■= Urn R {0,u), quel que soit 6 indépendant de u.
+ti— o
+Nous nous proposons dans cette note d'étudier les propriétés dif-
+férentielles du premier ordre de la fonction F (#). Il est bien connu
+que, si F {&) possède au point & une dérivée F' ((9,), la série (2)
+converge au même point et Pon a tp (# ) = F' (&,). La réciproque
+est exacte. Douc, <p {6) et la dérivée de F existent ou non simulta-
+nément, et coïncident cliaque fois qu'elles existent.
+Posons
+nin \ F(d + u)-F {0)
+Q (0, u) =
+u
+On montre que:
+Q [O, h] - ( a 6 + C + B, . . . + ^J
+tend vers avec u, si n \u\ reste com p ris entre deux nombres

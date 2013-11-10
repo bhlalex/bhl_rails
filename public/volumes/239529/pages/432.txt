@@ -1,0 +1,44 @@
+639
+may be repeated 5 or more times. When by stretching the remanent
+magnetism has been destroyed, further stretching does not recall the
+sound. Exactly the same phenomenon is observed during small torsions
+after magnetisation of the wire and also during a short heating of
+the wire e. g. by touching the wire with a Bunsen-flame, each time
+during part of a second. The sound heard during stretching, torsion
+or heating has quite the same character as that observed during the
+magnetisation. We therefore conclude : the destruction of the remanent
+magnetism in soft-iron by stretching, torsion or heating gives rise to
+discontinuities analogous to those occurring during the magnetisation
+or demagnetisation.
+A strong circular magnetisation causes a superponed magnetisation
+in longitudinal direction of the rod to take place without disconti-
+nuities. For the above mentioned 1 mm. thick soft-iron wire a current
+of 7 Amp. had to be sent through it to produce the circular mag-
+netisation before the sound vanished. During such an experiment the
+temperature of the wire is of course considerably higher and one
+might feel inclined to ascribe the failing of the discontinuities to
+the rise of temperature. However, immediately after the closing
+of the current of 7 Amp. the sound vanishes in the case of longi-
+tudinal magnetisation and immediately after the breaking of the
+current it reappeared. In both cases the change of temperature must
+be still small. These experiments therefore prove that it is the circular
+magnetisation that prevents the discontinuities in the longitudinal
+magnetisation taking place.
+An annealed iron wire shows further by this sensitive method of
+observation the following remarkable property. When the iron has
+received its remanent magnetism in the above described way, this
+may be destroyed under the characteristic iron sounds by bending
+the part of the rod within the solenoid alternately to the right and
+to the left. But when afterwards this bending is continued the
+characteristic sound remains audible though somewhat weaker. Also
+a freshly annealed wire that kas not been magnetised before, shows
+this last phenomenon. This bending may be repeated indefinitely,
+always the sound is heard with the same intensity. This experiment
+seems to be a proof for the theory of Wkiss on the spontaneous
+magnetisation of iron crystals. We may not consider the phenomenon
+to be due to the presence of the terrestrial field; for a weak direct
+current through the solenoid compensating or increasing the field in
+the coil has no influence whatever. We might formulate an explanation
+in the following way : by the bending the mutual positions of the
+spontaneously magnetised crystals are changed and by reversing
+4i* •

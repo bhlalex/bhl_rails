@@ -1,0 +1,56 @@
+( 52G )
+For values of q^ larger than the second member the beginning of
+2'=zf{x') is concave; these curves lie therefore above the curve. In
+the same way all the lines 7'=: ƒ(,!?') with convex beginning lie
+belo\v this cur\e.
+Again '7i=0, Avhen ^,=0 {initial direction 'Zi—^, (45°)). When 9,
+approaches to oc, q^ approaches to 2 ^^ -f 42\, 80 the limiting direc-
+tion becomes q^ = 2 q^ (63°,5). This curve lies entirel}' outside the
+two first, more to the left.
+Some points of tiie curve III follow.
+-%
+= n\e ' = 0.61
+2 „
+4 „
+6 „
+0,37
+0,13'
+0,05
+:2,20 7\ 1
+4,78 „
+10,1 „
+15,0 „
+Sl\\e ' = (),{)2'q, =r 19,6 1\
+10 „I 0,01 i 23,8 „
+(/. T/te curve IV, i. e.
+'h = - 4T, +
+15 „
+20 „I
+2 (7: 4- 4rj
+0,00
+0,00
+34,0 „
+44,0 „
+(8^n
+1 + /'
+If q.j is smaller than the second member, the end of T = f{x')
+will be concave; these lines lie accordingly left of the curve; on
+the right the lines 7'i=/'(,r') with convex end are found.
+For 7i = again q., = (initial direction q^ = 7, (45^^)). If ^^^ ■=■ co,
+72 evidently approaches nsi/niptoticaUy to ^j = — 42',, just as the
+curve I approached asymptotically to ^i ^= 47'^, when q., = co. Tlie
+cui-ve IV lies therefore only for a small part within the region of
+the positi\'e 7,, and will therefore necessarily cut the ^^-axis some-
+where in S.i, and yield a ma.rimion \'aiue J/, for 7.^ before that time.
+This curve too lies therefore entirely outside tiie preceding curves,
+and again more to the left.
+The 7j-axis is cut, when (jf', = \\ T^)
+or when
+This is satisfied by
+1 f ^
+^'/sr,
+= T,,
+— 2
+27',
+= 1.
+-|p = l,25', or 7, = 2£17\.

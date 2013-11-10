@@ -1,0 +1,44 @@
+HEBTZIAN WAVE WIRELESS TELEGRAPHY. 153
+a dot or a dash, according to the disposition of the holes on the first
+strip. Accordingly, taken as a whole, the receiving arrangement is not
+capable of being influenced so as to print a telegraphic sign except by
+the operation of a series of wave trains succeeding one another at cer-
+tain assigned intervals of time.
+An improvement has been latel}^ described by the same inventor*
+in which the apparatus used, although more complicated, performs the
+same functions. At each station two instruments have to be employed;
+at the transmitting station one to effect the conversion of Morse signals
+into the properly arranged series of wave trains, and at the receiving
+station an instrument to effect the reconversion of the series of wave
+trains into the Morse signals. These are called respectively the dis-
+])enser and the collector. The details of the arrangements are some-
+what complicated and can only be described by the aid of numerous
+detailed drawings, but the inventor states that he has been able to
+carry on Hertzian wave telegraphy by means of these arrangements
+for short distances. Moreover, the method lends itself to an arrange-
+ment of multiplex telegraphy, by sending out from different trans-
+mitters signals which are based upon different arrangements of time
+intervals between the electric wave trains. Although this method
+may succeed in preventing a receiving arrangement from being in-
+fluenced by vagrant waves or waves not intended for it, yet an objec-
+tion which arises is that there is nothing to prevent any one from
+intercepting these wave trains, and with a little skill interpreting their
+meaning. Thus, if the record were received in the ordinary way on
+a simple receiver, corresponding to a Morse dot would be printed five
+dots at unequal intervals, and corresponding to a Morse dash would
+be printed two such sets of five dots. A little skill would then enable
+an operator to interpret these arbitrary signals. On the other hand,
+the inventor asserts that he can overcome this difficulty by making
+intervals of time between the impulses in the series so long that the
+latter become longer than the intervals between each of the series of
+waves which are dispatched in continuous succession when the key is
+pressed for a dash. In this case, when telegraphing, the series of dots
+would overlap and intermingle with each other in a way which would
+make the record unintelligible if received in the usual manner, but
+would be perfectly legible if received and interpreted by a receiver
+adapted for the purpose.
+Another way of obliterating the record, as far as outsiders are con-
+cerned, is to interpolate between the groups of signals an irregular
+series of dots, i. e., of wave trains, which would affect an ordinary
+coherer, and so make an unintelligible record on an ordinary receiver,
+* See Electrician, Vol. I., p. 418, January 2, 1903.

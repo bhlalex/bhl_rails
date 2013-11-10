@@ -1,0 +1,40 @@
+60 PROCEEDINGS OF THE AMERICAN ACADEMY.
+from the cells so far measured seem of such value that I give them in this
+preliminary jjaper, hoping to extend the investigation to other salts and
+metals in the near future.
+For dilute water solutions the variation of the potential hetween a
+metal and a solution of a salt, whose kation is the metal of the electrode,
+is given by the well known Nernst formula,*
+^^ - ^^ = V ^°s« ^'
+where E^, E^, are the respective potentials for the concentrations C^, C, ;
+R, the gas constant ; T, the absolute temperature; and m, the valency of
+the metal. In the derivation of this formula the gas law, jo v= 11 T, is
+applied to the dissolved salt, and complete dissociation is assumed. In
+case the dissociation is not complete, Ci, Co, denote the concentration of
+the dissociated part.
+For fused salts, in case the solutions are sufficiently dilute, we might
+expect the same or an analogous formula to hold. Any experimental
+evidence, however, for the applicability of the gas law to fused salt solu-
+tions, or as to the amount of dissociation, has been lacking.
+Accordingly, the first question to be determined was whether or not,
+for any measureable range of concentrations, the potential difference
+would vary according to the Nernst formula.
+So far all my observations have been upon silver electrodes immersed
+in fused mixtures containing varying amounts of silver salts. Most of
+the cells measured were simple silver nitrate concentration cells of the
+type,
+Ag
+TiAgNOs
+in
+a:oAgN03
+y,KN03 + y^NaNOs
+Aff.
+The mixture of potassium and sodium nitrates, rather than either alone,
+was used as solvent in order to obtain a lower melting point.
+Experimental.
+General. — In a few preliminary measurements I tried keeping the
+temperature constant with an air bath, but was unable to attain much
+constancy, and therefore substituted a vapor bath. The practical ar-
+rangement of the cell in its constant temperature vapor bath is shown in
+the opposite figure.
+* See Nernst, Zeit. fiir phjs. Cliemie, IV. 129, 1889.

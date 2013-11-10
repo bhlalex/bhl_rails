@@ -1,0 +1,36 @@
+230 THE PRINCIPLES OF SCIENCE.
+there is a margin of error which can only be safely treated
+by the principles of probability.
+The method which we employ in the theory consists
+in calculating the number of all the cases or events
+concerning which our knowledge is equal. If we have
+even the slightest reason for suspecting that one event
+is more likely to occur than another, we should take this
+knowledge into account. This being done, we must
+determine the whole number of events which are, so far
+as we know, equally likely. Thus, if we have no reason
+for supposing that a penny will fall more often one way
+than another, there are two cases, head and tail, equally
+likely. But if from trial or otherwise we know, or think
+we know, that of 100 throws 55 will give tail, then the
+probability is measured by the ratio of 55 to 100.
+The mathematical formulae of the theory are exactly the
+same as those of the theory of combinations. In this
+latter theory, we determine in how many ways events may
+be joined together, and we now proceed to use this know-
+ledge in calculating the number of ways in which a certain
+event may come about, and thus defining its probability.
+If we throw three pennies into the air, what is the proba-
+bility that two of them will fall tail uppermost "? This
+amounts to asking in how many possible ways can we
+select two tails out of three, compared with the whole
+number of ways in which the coins can be placed. Now,
+the fourth line of the Arithmetical Triangle (p. 208) gives
+us the answer. The whole number of ways in which we
+can select or leave three things is eight, and the possible
+combinations of two things at a time is three ; hence the
+probability of two tails is the ratio of three to eight.
+From the numbers in the triangle we may draw all the
+following probabilities :
+One combination gives o tail. Probability ^.
+Three combinations give i tail. Probability f .

@@ -1,0 +1,26 @@
+L/
+f Hi/
+■/
+180'
+160"
+140'
+5 120'
+g_100'
+E
+^ 80'
+60°
+"^^0 1 2 3 4 5
+Pressure, kgm./cm.^ x 10^
+Carbon Tetrabromide
+Figure 18. Carbon Tetrabromide. The observed equilibrium tempera-
+tures and pressures.
+12 3 4 5
+Pressure, kgm./cm.^ x 10*
+Carbon Tetrabromide
+Figure 19. Carbon Tetrabromide. The observed differences of vohune
+between the several phases.
+12 3 4 5
+Pressure, kgm./cm.^ x ID*
+Carbon Tetrabromide
+Figure 20. Carbon Tetrabromide. The computed values of the heats of
+transition and the changes of internal energy.

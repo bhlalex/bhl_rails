@@ -1,0 +1,35 @@
+PEIRCE AND WILLSON. — THERMAL CONDUCTIVITIES. 11
+(4) The radius of the hase of a riglit cylinder of revolution of length
+Ms a. A function, V, harmonic within this cylinder, has the constant
+value Fq on one (the lower) base, the constant value F, on the upper
+base, and the conslant value Fon the convex surface. If, then, the axis
+of the cylinder be used as axis of z with origin at the centre of the lower
+base, Fis given by the equation
+• x^ . /i {Xp) . sinh ( '^-~ \
+(24)
+where J^ and J^ represent Bessel's P'unctiou of the zeroth and first
+order, respectively, and x^, is the jt»th root in order of magnitude of the
+ecjuation J^, (./) = 0. The first ten values of x for which the Bessel's
+Fuiictiuu of the zeroth order vanishes have been given by Meissel.*
+We have computed the next thirty values of the xj?, by the aid of
+Stokes's Formula,! and the values of the Bessel's Function of the first
+order corresponding to these forty a;^'s either from the series which usu-
+ally defines J^ (x) or from the semi-convergent series. This computation
+was done by means of Vega's ten place table of logarithms,^ except in
+the few cases where a greater number of places was necessary, and for
+these we had recourse to Thoman's tables.§ All the values have been
+checked by duplicate computation, and the first four values of Ji (x) by
+comparison with Meissel's tables. The results of this work appear in
+Table I. Table II. gives to seven places of decimals the values of the
+Xj's from p = 4\ to /) = 65. The values of Kon the axis of the cylin-
+der depend upon the corresponding values of the function
+S
+* Meissel, Matli. Abliandhiiigen der k. Akad. der Wissenscliaften zu Berlin,
+1888.
+t Stokes, Camb. Phil. Trans., IX. Lommel, Studien iiber die Bessel'schen
+Functionen, Leipzig, 1868. Hayleigb, The Tiieory of Sound, London, 1878.
+Byerly, Treatise on Fourier's Series, etc., Boston, 1893. Gray and Matiiews, Be»-
+sel Functions and their Applications to IMiysics.
+X Vega, Thesaurus Logarithniorum Completus, Lipsiae, 1794.
+§ Thoman, Tables de Logarithmes a 27 De'cimales pourles Calculs de Precision,
+Paris, 1867.

@@ -1,0 +1,35 @@
+372 HAYES— U. S. NAVY MV TYPE OF HYDROPHONE.
+6. By giving a fairly accurate, intermittent sounding record while
+the vessel is under way in water of any depth, providing the
+vessel is equipped with a suitable submarine sound-signaling
+device.
+7. By giving the distance of a submarine sound signal.
+8. By locating icebergs, derelicts, or precipitous coasts at ranges
+sufficient for avoiding collisions.
+Hydrophones Developed by the U. S. Navy.^
+The hydrophones developed by the United States Navy differ
+from all others in that they employ a multiplicity of non-resonant,
+underwater sound receivers, having sufficient time lag (compensa-
+tion) introduced into the path of energy traverse between each re-
+ceiver and the ear to bring the energy from all the receivers to the
+ears in phase.
+The receivers are placed at equal intervals along a horizontal
+line. The dimensions of the group of receivers (length of line) is
+sufficiently great to cause an appreciable change in phase relations
+between the responses from the several receivers whenever the
+direction of the sound-source relative to the line of receivers is
+changed.
+Navy hydrophones employing multiple receivers are of two
+classes, namely ; those employing fixed compensation wherein the
+line of receivers can be rotated about a vertical axis, and those em-
+ploying variable compensation wherein the receivers are fixed in
+position. The present paper deals with the latter class of hydro-
+phones, the so-called " MV Types."
+Why the Navy Tested the Ability of the MV Hydrophone
+TO Safeguard Navigation.
+At the time of the Armistice the MV type of hydrophone,
+although not completely developed, was proving to be superior to
+other types of on-board installations. Accordingly when the prob-
+1 For a more complete description of various types of hydrophones, see
+paper " Detection of Submarines," by Dr. H. C. Hayes, Proceedings of Amer-
+ican Philosophical Society, Vol. XIX., No. i, 1920.

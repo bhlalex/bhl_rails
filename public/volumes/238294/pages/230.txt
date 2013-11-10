@@ -1,0 +1,43 @@
+( Ö81 )
+bria, not in principle different from those given by van der Waals*
+theory. And very clear and special evidence must be brought forw^ard
+(which is not the case (cf. § 2)) to show that the two above men-
+tioned parts of an isotherm must not be united.
+Now, (cf. fig. 4) for a
+Fis;. 4.
+substance whicli exists in
+the liquid and solid states,
+call cd and e f the portions
+of the connodal of the liquid
+and solid ridges, gh and ik
+portions of isotherms on the
+liquid and solid ridges. It is
+clear that i and h may be
+joined by a continuous line.
+For the formation of two
+ridges it is clearly only neces-
+sary, that two isotherms g'h', i'k', should incline to the t'-axis very
+strongly, but still not differ much from the two preceding isotherms
+gh, ik, and also that h'i', hi should not differ much. With such
+small variations resulting from the above mentioned controlled changes
+of the isotherms with the temperature on the Gibbs' surface, we are very
+familiar since the a and b of van der Waals are taken as temperature
+functions. The difference between ik and the isotherm ^A is analogous
+to the difference between the true empirical isotherm gh and the simplest
+form of isotherm given by van der Waals who has long shown
+that h must necessarily be a volume function. The portion hi alone
+appears to have received a somewhat greater change which we may
+ascribe to a further change of b ^) with the volume.
+With this explanation of the cause for the displacement of the
+isotherm on the Gibbs' surface we do not come into collision with
+the assumptions of van der Waals, who assumes that b undergoes
+a change in the fluid state owing to the compression of the molecule.
+We thus only specify the possibility of a yet further change of the
+same sort, which finally produces a new equilibrium between ri
+and V in the solid state. Beforehand there can be no question of
+explaining the solid state by referring it to the same processes as
+those which exist in the liquid state. This can only be done when
+the relation of the elasticity for instantaneous changes of^olumeand
+the time of relaxation for the liquid and solid states are worked out
+1) We use the a and h of van der Waals in the most general manner given
+by this physicist.

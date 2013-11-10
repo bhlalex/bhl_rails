@@ -1,0 +1,128 @@
+Perthes assumes that all cells are sensitive to
+X rays in some degree. Nevertheless, the
+selective action of these rays is the essential
+basis for the effect they have on tumors. Perthes
+attaches special significance to the delayed
+effect of irradiation, both for practical purposes
+and for theoretical investigation. The time
+after which the influence of irradiation begins to
+manifest itself is extremely variable: the
+higher the dose and the sensitivity of the irradi-
+ated cell, the shorter the time interval. Perthes
+explains the delayed effect by the fact that irra-
+diation of the component parts of the cell,
+chiefly the nucleus, induces chemical changes,
+which proceed slowly and gradually increase
+the amount of harmful substances (probably
+insoluble products) that intensify first their
+stimulating and later their harmful action. He
+considers that his hypothesis is in complete
+agreement with the available data. In the first
+place, it shows that not only delay as such but
+its duration is, to a certain extent, in inverse
+ratio to the intensity of irradiation. In the sec-
+ond place, this hypothesis offers a good expla-
+nation for the fact that even during the period of
+delay (i.e., before the appearance of the main
+effects, the foremost of which are the abnormal
+reactions of the cells) cellular reactions slow
+down, etc. It also explains why in some object?
+the stimulating effect becomes harmful and inju-
+rious to the cells and tissues. Observations
+indicate that the substance affecting the cell is
+found at first in a minimum amount and then
+steadily increases under the influence of irra-
+diation.
+Alberti and Politzer (1924) in their first
+article devoted to the action of X rays on organ-
+isms write that even the very first biological
+X-ray experiments showed that resting cells
+were more resistant to the action of X rays than
+cells in mitosis or in any of the stages of mito-
+sis. If the various stages of mitosis are plotted
+on the abscissa and the sensitivity to X rays
+(expressing, for example, the number of dead
+ova of the horse ascarid) is plotted on the ordi-
+nate, we will then get a curve with a peak at
+metaphase. Consequently, a small amount of
+irradiation will disrupt only those mitoses
+which are in metaphase, higher doses will
+destroy those stages which are nearest to meta-
+phase, both before and after. Finally, there
+are doses which will lead to the necrosis of all
+stages of mitosis. Greater doses than any of
+the previous ones are required to kill the rest-
+ing cells.
+Geller's observations (1924) on irradiated
+beans, peas, wheat, and lilac buds permitted
+him to conclude that the effect of radiation is
+determined first by the species of the plant and
+secondly by their condition. Unsprouted seeds
+are more sensitive than germinated ones,
+swollen [ soaked] seeds are more sensitive than
+dry seeds. The age of the seeds does not affect
+their sensitivity. Changes in external conditions
+(temperature, humidity of the air) show up
+under irradiation. jQngling's* observation con-
+cerning the significance of the point of applica-
+tion of irradiation is very interesting. When the
+tip is irradiated, growth in the tip slows down,
+when the whole root is irradiated the side roots
+cease their development.
+Seide's article (1925*) summarizes experi-
+ments with animals, which indicate that major
+injuries occur in early stages of development
+with moderate doses of X rays and radium,
+whereas older stages are completely unaffected
+by these doses. Seide's own experiments reveal
+an extreme sensitivity of the stages when chro-
+mosomes begin to form (prophase). Stages
+when the chromosomes are completely formed
+(metaphase) are considerably less sensitive.
+Rokhlina and GleTkhgevikht (1925*) compared the
+action of X rays on sprouted seeds of Phaseolus
+vulgaris and Vicia faba. By irradiating them
+with identical dosages they established: 1) a
+differential sensitivity of these two plants, and
+2) a differential sensitivity among individuals.
+What is most interesting is that the authors
+discovered that the more sensitive the object,
+the more quickly is stimulation followed by
+retardation. Since retardation is induced by
+very small doses in Vicia faba equina, this plant
+is not suitable for investigation of the stimulat-
+ing effect of X rays. Therefore, the authors
+used Phaseolus vulgaris to study this effect.
+When the seedlings of the two kinds of plants
+were irradiated with an identical dose (1 1/2
+HED), two weeks later the seedlings of P.
+vulgaris were only slightly retarded in their
+growth, whereas the seedlings of V. faba had
+stopped growing altogether.
+Nemenov (1925 and 1926) considers that old
+cells are most sensitive to X rays. The age of
+the cell, in his view, is determined by the rela-
+tion of the already lived part of its life to the
+total life span of the given cell. The essence of
+the biological process in the X -irradiated cell,
+which leads to its aging, apparently consists of
+disruption of metabolism and retention of the
+products of metabolism within the cell.
+Iven (1925) also takes note of the differential
+X -ray sensitivity shown chiefly by different
+species of plants. After comparing the data of
+numerous experiments, he came to the conclu-
+sion that small seeds have low sensitivity to
+X rays, and large seeds have high sensitivity.
+The most sensitive objects are the seeds of
+Vicia faba , which are the largest in size (of
+those objects which have been subjected to irra-
+diation). He also noted the importance of the
+physiological condition of the seeds for success-
+ful irradiation, pointing out that soaked seeds
+react to irradiation to a considerably greater
+degree than dry seeds do. Cytological exami -
+nations have revealed that the nuclei of somatic
+cells are more stable than those of germ cells.
+The somatic cells, in turn, reveal a difference
+103

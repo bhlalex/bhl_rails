@@ -1,0 +1,32 @@
+SUBLETHAL EFFECTS
+GENERAL
+PCBs elicit a variety of biologic and toxic effects including skin
+lesions, a wasting syndrome, itmiunotoxicity, reproductive toxicity, genotoxic
+and epigenetic effects, hepatomegaly and related liver damage, and the
+induction of hepatic and extrahepatic drug-metabolizing enzymes. PCB
+accumulations from the diet and from other sources are high, and retention is
+lengthy in fatty tissues. Interspecies differences in sensitivity to PCBs are
+large, even between species that are closely related taxonomically.
+TERRESTRIAL MACROPHYTES
+A 5X increase in somatic mutations was observed in ostrich ferns
+( Matteuccia struthiopteris ) growing near the Housatonic River in Pittsfield,
+Massachusetts, on sediments containing mean PCB residues of 26 mg/kg (mostly
+as Aroclor 1254), when compared to ostrich ferns from control areas (Klekowski
+1982). No attempt was made to duplicate these observations under controlled
+conditions, and no evidence of genetic damage to other plants of the
+PCB-contaminated area was found (Klekowski 1982).
+AQUATIC ORGANISMS
+Bioconcentration of Aroclor 1254 from the medium by selected species of
+freshwater and marine organisms varied from 60 to 340,000X (Table 5). Various
+species of algae also concentrate PCBs over water levels by 10,000 to 100,000X
+(Ernst 1984). Oysters ( Crassostrea virginica ) held for 65 days in seawater
+solutions containing 0.0055 to 0.06 ug/1 of di-, tri-, tetra-, penta-, or
+hexachlorobi phenyls had bioconcentration factors of 1,200 to 4,800X; uptake
+was lowest for dichlorobiphenyls and became progressively higher with
+increasing chlorination of PCB congeners (Ernst 1984). Similar results were
+recorded for Daphnia magna exposed to five different C-14 labeled PCBs for 24
+hours. BCFs varied from 473 to 11,232; formulations lowest in water solubilty
+(highest chlorination) were accumulated most readily (Zhang et al . 1983). For
+all PCBs, BCFs were generally higher with increasing exposure period, with
+increasing PCB concentration, and with increasing chlorination of PCB
+44

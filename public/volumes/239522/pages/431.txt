@@ -1,0 +1,42 @@
+616 BRIDGMAN.
+indicating the correctness of the data of either BeUati and Ronianese
+or of Lussana. Lussana's method was not one adapted to give
+accurate results. He measured the time rate of heating or cooling
+and took the arrest points as the points of transition. These points
+differed by 5°, and the mean of the two points was taken as the true
+temperature of transition. The total effect of pressure over the range
+of 250 kgm. was little more than the width of the band of indifference
+of the individual measurements. The insensitiveness of the method
+is indicated by the fact that he found no variation of slope with pres-
+sure, whereas the variation ought to haAC been easily perceptible even
+over this low range. Lussana nevertheless, gives the results to three
+significant figures.
+On the III-IV curve the conditions are similar to those on the II-III
+curve. Lussana gives for the slope over the first 250 kgm. 0.0137
+against 0.0135 computed, and Tammann gives for the range up to
+the triple point the average slope 0.0220. I find for the average slope
+over the first 250 kgm. 0.0178, and for the average slope up to the
+triple point 0.0226, in sul)stantial agreement with Tammann. A
+thoroughgoing comparison of my results with those of Tammann is
+not possible, because he has not taken any account of the known
+curvature of the transition line in computing the values at atmospheric
+pressiu'e. It is evident, howe^•er, that both his results and mine
+would difter in the same direction from the only other data at at-
+mospheric pressure, namely those of Bellati and Romanese, and also
+from those of Lussana. It seems probable that there may be some
+considerable experimental error in the data of Bellati and Romanese,
+and that the curvature of the III-IV cur\e, although large, can ac-
+count for only part of the discrepancies.
+The coordinates that Tammann finds for the triple point II-III-IV
+are considerably diflferent from mine. He finds 64.16° and 930 kgm.
+against my values 63.3° and 860 kgm. For the average slope of the
+II-IV line between the triple point and 90° Tammann finds 0.01404
+and I find 0.01416. The agreement is better than usual.
+The pressure effect on the transition I-II has been previously
+measured only by Lussana. He finds 0.0116 for the average slope
+over the first 250 kgm. against my value 0.00962.
+The measurements of the difference of compressibility of the differ-
+ent phases at high pressures did not give any ver}- regular results.
+This much may be stated, however; I is more compressible than II,
+of the order O.OeS, and is more compressible than VI of the order O.OeS,
+and IV is more compressible than II of the order 0.068. This last is an

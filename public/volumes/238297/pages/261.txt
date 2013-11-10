@@ -1,0 +1,35 @@
+THE THEORY OF PROBABILITY. 235
+tide, or an earthquake and a storm, the probability of
+A or B happening is not the sum of their separate proba-
+bilities. For by the Laws of Thought we develop A | B
+into AB | Kb I aB, and substituting a and /3, the proba-
+bilities of A and B respectively we obtain a./3 + a.(i ft) +
+(i a) ./3 or a + /3 a . /3. But if events are incompossible or
+incapable of happening together, like a clear sky and rain,
+or a new moon and a full moon, then the events are not
+really A or B but A not-B, or B not-A or in symbols
+Ab | aB. Now if we take
+IUL probability of Ab
+v = probability of aB,
+then we may add simply, and probability of Ab ] aB = /m -f v.
+Let the reader observe that since the combination AB
+cannot exist, the probability of Ab is not the product of
+the probabilities of A and b.
+But when certain combinations are logically impossible,
+it is no longer allowable to substitute the probability of
+each term for the term, because the multiplication of r
+probabilities presupposes the independence of the events.
+A large part of the late Dr. Boole's Laws of Thought is
+devoted to an attempt to overcome this difficulty and
+produce a General Method in Probabilities, by which from
+certain logical conditions and certain given probabilities it
+would be possible to deduce the probability of any other
+combinations of events under those conditions. Boole
+pursued his task with wonderful ingenuity and power, but
+after spending much study on his work, I am compelled to
+adopt the conclusion that his method is fundamentally
+erroneous. As pointed out by Mr. Wilbrahams, Boole
+obtains his results by an arbitrary assumption, which is
+only the most probable, and not the only possible assump-
+s * Philosophical Magazine,' 4th Series, vol. vii. p. 465 ; vol. viii.
+p. 91.

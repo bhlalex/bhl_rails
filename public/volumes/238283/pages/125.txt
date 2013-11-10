@@ -1,0 +1,38 @@
+166 PROCEEDINGS OF THE AMERICAN ACADEMY.
+Hydrogen-metal Flutings.
+With the exception of tin, every metal thus far examined in the
+rotating metallic arc in hydrogen gives a characteristic set of spectrum
+lines which are not found in the arc in air. Inasmuch as compounds of
+hydrogen with some metals are known, I have, in lieu of a better hypoth-
+esis, supposed that these lines are due to such compounds formed in the
+arc. No new isolated lines, surely due to hydrogen, have been found.
+The following description takes up the metals in the order of the relative
+intensities of these flutings.
+Tin.
+No fluting has been discovered due to a combination of tin and hydro-
+gen. There are four lines of intensity ^ on Rowland's scale, at ap-
+proximately 3715, 3841, 4245, and 4386, which have not yet been
+identified. These may be weak tin lines not listed, or weak impurity
+lines. The deposit which is formed in the hood enclosing the arc is very
+small in amount and of a greenish color, and consists of very small
+globules. If this deposit is heated upon platinum foil in a Bunsen flame
+it quickly glows, and thereafter has a slate color ; and if this powder is
+placed in hydrochloric acid it dissolves when heat is applied and gives
+off bubbles of gas. If the dark powder, after the first heating, is reheated
+on foil in the flame, it glows again, apparently at a higher temperature
+than before, and then becomes a very white powder, both of which ex-
+periments go to show that the original powder is not metallic tin but is
+possibly some combination of tin and hydrogen.
+Coin Silver.
+This metal gives a delicate fluting with first head at 3333.86 and run-
+ning toward longer wave lengths. There are only about fifty lines in
+this fluting, and they have an average intensity rather less than ^ on
+Rowland's scale.
+Copper.
+This metal gives a rather open fluting, having the head at 4279,77 and
+running toward the longer wave lengths. The number of lines in this
+fluting is about sixty, and they are individually stronger than those of the
+coin-silver fluting. This fluting makes its appearance also when an
+atmosphere of ammonia or of steam is used. The deposit formed inside
+the hood is rather small in amount and of a brown color. The following
+table gives the wave lengths of the hydrogen-copper flutings : —

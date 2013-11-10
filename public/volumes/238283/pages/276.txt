@@ -1,0 +1,40 @@
+RICHARDS. — SOURCE OF CHEMICAL HEAT. 403
+which represents graphically the results recorded in the table. The ele-
+ments are arranged in the order of their atomic weights, and both sets of
+data are drawn as abscissae, because this method of treatment will facili-
+tate later comparison, and because it obviates certain irregularities due to
+periodicity. Each division stands for ten cubic centimeters of contraction
+on the left hand curve, and a hundred kilo joules of heat-energy on the
+right hand curve.
+The correspondence is obviously too close to be the result of chance.
+One is forced to believe that a fundamental relationship exists between
+the two phenomena.
+In these curves the compressibility is ascribed wholly to chlorine, and
+that of the other substance is neglected ; but when the latter is large, it
+also must enter into the problem. Unfortunately our data concerning
+compressibility are unusually limited ; but approximate calculations,
+based upon such as are known or may be guessed, show that at least
+some of the irregularities in the parallelism may be ascribed to this
+source.
+We may thus formulate the following law : The work needed for the
+compression involved in the formation, of one solid or liquid by the combi-
+nation of two others is approximately proportional to the heat evolved.
+While the general tendency of the law is manifest, and a correction
+for individual compressibilities would undoubtedly make it more so, there
+are nevertheless several exceptions to be explained. These may arise
+from several causes ; in the first place, many specific gravities of solids
+are known only approximately ; * in the next place, it is important that
+the same modifications of each substance should enter into each calcu-
+lation. A plausible explanation has been found even for the excep-
+tionally wide deviation exhibited by argentic chloride ; but this point
+will not be dwelt upon now, since it is being submitted to the test of
+experiment.
+The relation may be further illustrated by a table giving the data for
+a few bromides, and of course many other data might also be given. In
+order to eliminate as much as possible the contraction of the metal, it is
+well to choose for comparison a common non-metal possessing a compara-
+tively large coefficient of compressibility, hence both chlorine and
+bromine serve well.
+As a final example, the case of a single metal combining with several
+* See Richards, These Proceedings, 31, 163 (1895); also Ostvvald, Zeitschr.
+phys. Chem. 3, 143 (1889).

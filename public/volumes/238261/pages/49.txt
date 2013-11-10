@@ -1,0 +1,41 @@
+46 PROCEEDINGS OP THE AMERICAN ACADEMY.
+0.58 mm. iu diameter. The smaller German silver wire was connected
+with the corresponding copper wire by a thin joint of electrolytically
+deposited copper. These joints were very satisfactory, but extremely
+tedious to make.
+In some of our experiments we used fine wire thermal junctions in-
+serted in shallow grooves accurately cut in the faces of the slabs to be
+tested. These grooves were made in a Brown and Sharpe Universal
+Milling Machine by extremely thin hard steel saws (No. 34 B. & S.
+Gauge) held between flat disks of somewhat smaller diameters than the
+saws to prevent buckling. The wire that we used fitted the grooves very
+closely and we hoped that the indications of the thermal couples would
+enable us to determine the mean temperature of the walls of the groove
+when the grooved slab was placed against a flat one. We soon found,
+however, that the results were most irregular, and, although we have
+s[)eut some time in attempts to make observations obtained in this way
+trustworthy, we have met with little success. Sometimes our results
+have been good, and sometimes they have been considerably in error.
+We do not yet know how to make them always good. It appears that
+a thermal junction must be pressed firmly against a surface, the tempera-
+ture of which it is to take approximately. Although we are not ready
+to discuss this subject exhaustively, we mention our experiences to show
+why we have abandoned for the present this very obvious manner of
+inserting thermal junctions into a prism built up out of slabs, in favor
+of what at first sight seems a less satisfactory device. After some pre-
+liminary experiments with fine wire thermal junctions laid between the
+slabs, with and without sheets of tinfoil at the sides of the wire, we
+determined to use the thin ribbon thermal junctions, elsewhere described,
+with varnished edges, so that sheets of tinfoil of the same thickness might
+be laid at the sides of the ribbon, and in this way a sheet of metal be
+introduced between the slabs.
+It has been necessary for us to calibrate in the course of our work
+a large number of thermal elements. Some of these when properly
+protected we have heated with thermometers iu elaborately jacketed air
+baths or in tanks of water or oil, and some in vapor baths. We have
+had considerable quantities of nearly pure chloroform, benzol, a^thylen
+bromide, bromoform, anilin, paratoluidin, naphthalin, chinolin, a naph-
+thol, acetanilid, naphthylamin, diphenylarain, phenanthren, anthracen,
+and a few other substances, the boiling points of which divide the ordi-
+nary thermometric scale below the boiling point of sulphur into small in-
+tervals. A good number of these, but not all, we have actually used.

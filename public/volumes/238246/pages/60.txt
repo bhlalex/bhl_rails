@@ -1,0 +1,43 @@
+61
+We are here concerned with a conduction of the photo-growth
+reaction; the uiagiiitLule of the growth retardation in the lower
+zones will likewise depend on the energy applied.
+The curve, which represents the dependence of the growth
+retardation (ordinate) in respect of the energy applied in 5 mins.
+(abscissa), we call: groivth retardalion curve. From the numbers of
+table 1 we cannot very well consti-uct this curve, as there are too
+few data. There is however every reason for assuming that there
+is an ascending portion which can bring about positive curvatures
+and a descending one producing negative ones. Hence somewhere
+there is a maximum ; its existence and position will be determined
+later by another method. Since the rule of products will apply also
+to the photo growth reaction within certain limits, there belongs to
+every amount of energy {.r) a detinite retardation of growth (y) after
+a certain time (here ly, hour).
+Now in unilateral illutnination the front receives the full energy ') ;
+the back receives much less. If we are on the ascending part of
+the curve, the retardation of growth on the anterior side (y^) is
+greater than that on the posterior side (y^,) and only a positive
+curvature will occur. Now 20 M.C.S. is the practical threshold
+value for a readily visible curvature; on applying this amount of
+enei'gy therefore, there will occur a difference of growth retardation
+between the front and back, which is just sufficient to produce a
+curvature which can be readily detected macroscopically. The
+threshold value of 20 M.C.S. is however oidy applicable to plants
+which have been grown in the dark, and have received a quantity
+of light energy =: 0. It is different with plants which have had an
+oiïinilaleral fore-illumination. This can be done by rotating the
+plants before the source of light, so that successively all sides are
+illuminated; in this way all parts of the circumference receive an
+equal amount of light. If subsequently there is a unilaieral illumination,
+the threshold value for a positive curvature is found to be much
+higher. 1 will now consider some experiments of Arisz ^) on the
+socalled "disposition (German "Stimmung") to light" in oats and in
+the first place the omnilateial fore-illumination with less than 2000
+, M.C.S. applied within 3 minutes with an intensity below 25 M.C.
+The unilateral after-illumination always took place immediately after
+the omnilatei'al.
+1 find that all the changes, produced by the omnilateral
+^) Reflection etc. is here left out of account.
+*) Arisz i.e. Tables 24 and 25. See also Arisz: Adjustment lo light in oats.
+Proceedings Kon. Ak. v. Wet. Anslerdam. 1913.

@@ -1,0 +1,42 @@
+162
+15. The system S^^^ conlains oc^ curves witli a triple point T.
+If *S(^' is represented by
+((A + i3B -\- yC-{- öD 4- sE+rfF^ 0,
+the iocns of the points T is determined bj
+\AkiBM CjciUki^kiFui =0.
+6
+It is therefore a curve f 7') of order 6(« — 2)^).
+A T^' with triple point T determines with a nodal d» which has
+its node in T, a pencil of nodal ö" with fixed tangents d, d' . The
+net of the curves d" with node T therefore consists of go' similar
+pencils of which the tangents d,d' form an involution. Each of the
+two nodal raj^s c^, c^ is common cuspidal tangent for a pencil of
+cuspidal curves and each of these two pencils contains a y" with
+four-point tangent. The five null-rajs <;/ of 7^ are therefore represented
+by the straight lines 6\, c,, and the three tangents t^,t,,tz of the
+curve T". The points T are consequently not singular.
+16. In a sextuple infinite system /S''*^' each point 7' is triple point
+of a t". To T as mill-point the three tangents i^, t,, t^ ofr" are now
+associated as null-rays.
+In order to find the second characteristic number of this nidl-
+system, I consider the curves t", of which the point T lies on the
+straight line a and 1 try to find the order of the curve, which
+contains the groups of (n — 3) points E, in which t is moreover
+intersected by P2\
+If E lies in P, t" belongs to an S^^\ and T is oneofthe6(?i — 2)
+points which (§ 15) the curve {T) has in common with a. So E is
+a (6w^-'J 2)-fold point on the curve {E), which consequently has the
+order (7n— 15).
+The null-curve of P is therefore of order (7», — 15). As it passes
+three times through P, a straight line t passing through 7^ is tangent
+for {In — 18) curves t", which have their triple point T on t. A
+null-ray, therefore, has (In — 18) null points.
+17. The curves (7^), which belong to two systems /S^^) comprised
+in *SW, have the 15(?i — 2)' points T of the system /S^^^ in common,
+which forms the "intersection" of the two S^^l
+The remaining intersections are critical points, viz. each of them
+is triple point for a pencil of curves t", consequently singular null-
+point aS for {T, t). This null system has consequently 21(m — 2)*
+singular null-points.
+M If, for M = 3, the system Si^) has the base points £i, B^, B^, 5^, the curve
+(T) consists of the straight lines Bk Bi.
