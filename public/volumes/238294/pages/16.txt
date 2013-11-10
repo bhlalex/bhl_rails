@@ -1,0 +1,42 @@
+( 377 )
+Obviously tlic last values cannot be vcrv cei-tain.
+After (lins having formed (he total corrections to be ap|)lie(l to
+the mean lonu'iliide, Ihey have been I'ednced (o corrections of tlu^
+I'iglil ascensions. Kor this I'cdiiction I could use ihe \alues F and
+(r. «) giv(>n b_v Nkwco.mi; in his Table IX and XI. 'I'he vei'v small
+reduction from orbit longitude to ecliptic longitude could be neglected.
+(Comp. also /nre.^ti(/((tioii p. 12 and 14).
+7. The A (I corrected in this way were now used to derive from
+them the corrections of the true longitude, which depend on the
+sine and cosine of the, mean anomaly. In his JuvesfU/ation p. 16
+Newcomb has showen that for this purj)ose we may use instead of
+the residuals of true longitude those of right ascension and although
+the error of the longitude of the iiode which is assumed to be
+small lias increased since 18G8, his conclusion still holds.
+For each year the A a were arranged in 18 groups according to
+the values of the mean anomaly, the first group containing those
+between ƒ/ = 0^ and 2(V, the second those between </ = 20" and
+4(r etc. Then the sums and the means for each grouj) were formed
+and Avere regarded as corresponding to 7 =: 10'^, 7 = 3Cr etc. just
+as had been done by Newcomb.
+If we represent the corrections wiiich are to be applied to the
+true longitude of Hansen by
+d7 = — Ii sin (J — k cos g
+we obtain for each year 18 equations of the form
+c -|- h sin g -\- k cos ^ = ?'
+where c is the outstanding mean error of longitude, whilst for h
+and l the signs are in accordance Avitli Newcomb.
+The equations were solved for each year by least squares with
+due regard to the weights of r, which were assumed to be pro-
+portional to the number of observations used.
+So I obtained the following values of h and k -.
+h k
+1895.5 + 0"29 + 0"44
+1896.5 +O.GG +1.16
+1897.5 -fO.57 +1.77
+1898.5 +0.51 +2.10
+1899.5 —0.98 +2.83
+1900.5 —1.66 +1.12
+1901.5 —1.46 +0.52
+1902.5 —1.18 +0.01
+It is obvious that these coefficients cannot result from errors in the

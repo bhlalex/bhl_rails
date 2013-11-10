@@ -1,0 +1,45 @@
+A HUNDRED YEARS OF CHEMISTRY. 65
+pressure, temperature, and volume among gases find their equiva-
+lents in the phenomena exhibited by solutions. In Avogadro's
+law we learn that equal volumes of gases, under like conditions of
+temperature and pressure, contain equal numbers of molecules.
+According to the new generalizations, equal volumes of different
+solutions, if they exert the same osmotic pressure, also contain equal
+numbers of molecules. The parallelism is perfect. With these
+relations the freezing- and boiling-point phenomena are directly
+connected.
+But, both for gases and for solutions some apparent anomalies
+existed. Certain compounds, when vaporized, seemed not to con-
+form to Avogadro's law, and called for explanation. This proved
+to be simple, and was supplied by the fact that the anomalous com-
+pound, as such, did not exist as vapor, but was split up, dissociated,
+into other things. For instance, ammonium chloride, above a cer-
+tain temperature, is decomposed into a mixture of two gases — hy-
+drochloric acid and ammonia — which, on cooling, reunite and repro-
+duce the original compound. Twice as much vapor as is required
+by theory, and specifically half as heavy, is produced by this trans-
+formation, which is only one of a large class, all well understood.
+In the case of solutions it was found that certain compounds,
+notably the acids, alkalies, and metallic salts, caused a depression
+of freezing point which was twice as great as ought to be expected.
+This fact was illuminated by the phenomena observed in gases,
+and soon it was seen that here too a splitting up of molecules, a
+true dissociation, occurred. These anomalous solutions, moreover,
+were electrolytes — that is, they conducted electricity and under-
+went electrolytic decompositions — while normal substances, espe-
+cially solutions of carbon compounds, such as sugar, were not.
+Van t'Hoff's discoveries went far, but one more step was needed,
+and this was taken by Arrhenius in 1888. Electrolytic compounds,
+when dissolved, are actually dissociated into their ions, partially so
+in a strong solution, entirely so in one which is infinitely dilute,
+a statement which leads to some extraordinary conclusions. For
+instance, the ions of common salt are sodium and chlorine. In a
+dilute solution the salt itself ceases to exist, while atoms of sodium
+and atoms of chlorine wander about, chemically separated from
+each other but still in equilibrium. Sodium sulphate may be re-
+garded as made up of two parts — sodium and an acid radicle which
+contains one atom of sulphur to four of oxygen — and these parts,
+its ions, are severed apart during solution to move about independ-
+ent of each other.
+This theory of Arrhenius, the theory of electrolytic dissociation,
+is supported by many facts, and fits in well with the kinetic theory

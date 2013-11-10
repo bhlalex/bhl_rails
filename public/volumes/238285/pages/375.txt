@@ -1,0 +1,47 @@
+550 THE POPULAR SCIENCE MONTHLY.
+rent-regulator, identical with the combination used by Reis. Too
+loud shouting in either the Reis or Blake transmitters spoils the ar-
+ticulation by breaking the circuit.
+Reis's transmitters have been called make- and break-circuit instru-
+ments. If so, the Berliner and Blake transmitters, operating on the
+same principle, are also make- and break-circuit instruments. If, on
+the other hand, the Berliner and Blake transmitters, by their current-
+regulators, determine undulatory electric currents, in correspondence
+with the sound-waves, the Reis transmitters, by the same mechanism,
+necessarily do the same.
+The identity of the mechanism of the current-regulators in four of
+Reis's transmitters with the mechanism in six modern forms of trans-
+mitter is strikingly exhibited by Professor Thompson in a compara-
+tive plate.
+In connection with the Reis current-regulator, now in almost uni-
+versal use, it has been in later times found generally advisable to use
+an induction-coil. It is an interesting fact in the evolution of the
+telephone, though it may not be stated in the book before us, that
+Ferguson's chemistry, published in 1868, states that Dr. Wright in
+England used a Reis transmitter in the primary circuit of an induc-
+tion-coil. The combination of current-regulator and induction-coil in
+the modern transmitters is therefore old.
+In the third section of the appendix, Reis's receivers are compared
+with recent instruments. The examination in this case, also, is much
+aided by a comparative plate. Reis's electro-magnetic receiver is
+shown to combine the three following essential elements, which enter
+into the Yeates, Gray, Bell, Edison, and other receivers : 1. An arma-
+ture acted on by an electro-magnet ; 2. An armature elastically mount-
+ed ; 3. An armature of sufficiently extended surface to set in motion
+aerial sound-waves. This discussion has been anticipated in previous
+pages. Professor Thompson, in summing up his close analysis, points
+to Reis as the genius by whom the essential principles of all the elec-
+tro-magnetic receivers now in use were discovered and combined so
+as to reproduce articulate speech.
+A section in the appendix is devoted to the "undulatory" cur-
+rent in Reis's telephone. We have already seen that the function of
+the Reis transmitter was to vary the strength of the electric current,
+and not to break it. Reis was accustomed to speak of opening and
+closing the circuit in describing these instruments, not in the techni-
+cal sense of modern telegraphy, nor with the idea of sending inter-
+mittent signals, but in the sense of increasing or diminishing the
+current, without going so far as absolutely to break it. This is abun-
+dantly proved by the context in his descriptions, and by the operation
+of his instruments. He states, in his first memoir, that, to reproduce
+any sound, or combination of sounds, all that is necessary is to set up
+in the receiver vibrations whose curves are identical with those of the

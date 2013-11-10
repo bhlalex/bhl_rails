@@ -1,0 +1,50 @@
+( 489 )
+We have
+{Vs — Vf) — (.'•. — .';/•) ( ^^-'
+/■/pT
+Vsf.
+Vsf denotes the decrease of volunic pei- moleenhir quantity, when
+an inlijiitely sniall (luantity of the solid |(liasc passes into the co-
+existing phase at constant pressure and constant temperature.
+By substitution we get :
+d/'/
+,ƒ . dvf
+Ovf.OWf Ox f
+dxf
+or
+dvf
+(^^■
+Ovf.Oxf Ox/
+dxf
+Ö>
+diu
+^'sf
+Van uer Waals has hitely demonstrated that Vsf- can twice
+become zero when Cs. is smaller than ly-, in consequence of which
+dvf
+dXf
+becomes twice intinitely large.
+Further ^— ^ can also twice become zero, but this does not give
+ov/
+drf d'\p
+rise to an infinitely large value for , as, ^ .^ being zero, and
+(/■/■/■ Orf
+we being therefore in D or 7J' (Fig. 2 van dkk Waals), b\^f=z<x)
+dv f
+and — has therefore a tinite value.
+dxj
+If ?\ is largei' than Vf, which may also occur, then only one vertical
+tangent is [«ossiblc. This is atteudcil by a cliango also in the course
+of the lower |)art of llie line chi'li. In the aI)o\e ligui'c fli i-iiiis to
+the left for smaller \olumes, but then this cuivc must directly rim
+to the right, which means that the solubility of II in .1 inci-eases
+for smaller xolumes (larger pressures), a behaviour which may also
+be expected theoretically for smaller xolumes when initially /•ƒ• ^ r.,,
+whereas the reverse, so the usual course is found for larger \ olnmes.
+If, however, v,^ ^ Vf the course must be the abnormal one fi'om the
+beginning.
+For the better understanding of fig. 3 I shall add a few words
+about each of the ditferent regions.
+Let us assume that we have a mixture of the concentration ,r,
+for a volume ./■, /", ; we are then in tiie region of L -\- (J. If we
+draw the nodal line n v^ n^ through i\, n denotes the mol. vols, and

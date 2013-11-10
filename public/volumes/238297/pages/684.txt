@@ -1,0 +1,34 @@
+194 THE PRINCIPLES OF SCIENCE.
+attributed to various inconsiderable sources of error in the
+experimental processes. The strict method of procedure
+is to calculate, if possible, the probable error of the mean
+of the observed results (vol. i. p. 451), and then observe
+whether the theoretical result falls within the limits of
+probable error. If it does, and if, as we may say, the
+experimental results agree as well with theory as they
+agree with each other, then the probability of the theory
+is much increased, and we may employ the theory with
+more confidence in the anticipation of further results.
+The probable error, it should be remembered, gives a
+measure only of the effects of incidental and variable
+sources of error, but in no way or degree indicates the
+amount of fixed causes of error. Thus, if the mean results
+of any two modes of determining a quantity are so far
+apart that the limits of probable error do not overlap, we
+may infer the probable existence of some overlooked source
+of permanent error in one or both modes. We will further
+consider in a subsequent section the accordance or dis-
+cordance of measurements.
+Quantities determined by Theory and verified by
+Measurement.
+One of the most satisfactory tests of a theory consists
+in its application not only to predict the nature of a
+phenomenon, and the circumstances in which it may be
+observed, but also to assign the precise quantity of the
+phenomenon. If we can subsequently apply accurate
+instruments and measure the amount of the phenomenon
+witnessed, we have an excellent opportunity of verifying
+or negativing the theory. It was in this manner that
+Newton first attempted to verify his theory of gravitation.
+He knew approximately the velocity produced in falling
+bodies at the earth's surface, and if the law of the inverse

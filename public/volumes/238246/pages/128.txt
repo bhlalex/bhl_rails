@@ -1,0 +1,42 @@
+185
+mixture will be obtained containing a greater or smaller quantity
+of zincate-crystals. The formulae for such products are devoid of
+sense and should consequently disappear from the literature.
+Stability, preparation, etc. of zinc hydroxide.
+It is generally known, that as a rule zinc hydroxide is obtained
+as a gelatinous, voluminous mass. Now it was essential for the
+present investigation to determine whether this phase has a constant
+or a variable composition and to find out its stability regarding
+ZnO. There are many indications to be found in the literature that
+the hydroxides obtained in varying ways do not possess the same
+composition. Euler ^) prepared from the nitrate hydroxides which
+proved to have a varying solubility in ammonia. Hkrz ') and Hantzsch *)
+point out the great difficulties involved in obtaining Zn(OH, \n a
+pure state and specially the tenacity with which it retains sulphate-
+ions. It seems, that it is easier to obtain a pure hydroxide from
+the chloride or nitrate than from the sulphate. With the experiments
+made to confirm this statement, I proceeded from pure ZnO, which
+was dissolved in hydrochloric acid and nitric acid, upon which the
+hydroxide was precipitated by means of the addition of the quan-
+tity of ammonia calculated. If this precipitate is washed out with
+boiling water it almost immediately becomes more gritty, heavier
+and less gelatinous. After washing out a few times and following
+it up by desiccation at 100^ the product appeared to contain only
+0,6 Vo water. In conseqence of the washing-out the hydroxide is
+converted into oxide already at 100°. Hence Zn{üH)^ at 100° is no
+longer stable.
+We then tried to achie\'e a pure hydroxide by washing out at
+room-temperature. It appeared however, that even after prolonged
+and continued extraction the products were still chloridic or nitritic.
+Dui'ing the first hours of the extraction we observe a considerable
+decrease in the concentration of the adsorbed ion, afterwards it falls
+but very slowly. The following figures will further illustrate this
+statement :
+Hence it is practically impossible in this way to obtain a pure
+hydroxide from the chloride. The products from sulphate and nitrate
+yielded similar results and though it is stated in the literature, that
+the nitrate-ion is much less strongly absorbed than the other ions,
+we determined that even after an extraction continued for days the
+1) Ber. d. deutsch. Chem. Ges. 36, 3400 (1903).
+») Zeitschr. f. anorg. Chem. 30, 280 (1902); 31, 357 (1902\
+') Loc. cit.

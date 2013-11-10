@@ -1,0 +1,37 @@
+42 HAYES— DETECTION OF SUBMARINES.
+setting which brings a sound into focus causes it to appear binaurally
+centered and the rotating switch carries a scale and pointer indicating
+the bearing (ambiguous of course as to port or starboard).
+The ambiguity cannot be removed by comparing the intensity of
+the sound as given by each line of receivers (the method employed
+for an "on-board" installation) since there is no sound screen be-
+tween the two lines. It therefore becomes necessary to make a
+second compensator setting on two groups of receivers which have
+their line of centers in a different direction. This can be done by
+using six receivers in each eel. The direction will then be the com-
+mon angle of the two compensator settings as has been shown.
+A switching arrangement is provided whereby the twelve re-
+ceivers in the port eel, or the starboard eel, or the six forward re-
+ceivers of both eels, or the six rear receivers of both eels can be
+connected through the compensator to the two telephones. Further-
+more the compensator is so designed that the last stage of compen-
+sation, the binaural stage, can be uncoupled and varied independently
+of the other two stages which may be termed the maximum part of
+the compensation. Whenever compensation is effected across the
+two eels, i. e., between the head groups or tail groups of receivers, it
+will be seen that the binaural part of the compensation must be made
+independently of the maximum part.
+Suppose a binaural setting has been made on a sound when the
+12 receivers of, say the starboard eel, are connected through the
+compensator. The maximum part of the compensation is properly
+adjusted to bring the impulses from each group of 6 receivers — the
+head group and the tail group — into phase. The resultant of each
+group is brought into phase by the binaural part of the compensation
+and the compensator is so designed that the same angular rotation is
+required for both stages. Now if the six receivers in the head of
+the port eel are substituted for the rear six in the starboard eel and
+in the same order, it is evident that the compensator adjustment for
+maximum still holds for the reason that this is determined by the
+angle between the line of the receivers and the sound. This angle
+remains the same in both cases since the two eels are parallel. But
+the phase difference between the resultant of the two groups will in

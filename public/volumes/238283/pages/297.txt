@@ -1,0 +1,61 @@
+430
+PROCEEDINGS OF THE AMERICAN ACADEMY.
+In an atmo.sphere of nitrogen an excess of .05 per cent in the deposit
+was observed. Our own experiments in the same direction verify the
+results of these experiments, and need not be recorded here.
+Putting aside for the moment the question concerning the nature of
+the irregular compound which can thus be partly oxidized out of exist-
+ence, it seemed worth while to discover if an oxidizing asrent in the
+solution could remove this compound to such an extent as to cause the
+filter paper voltameter to yield accurate results. The only practical
+oxidizer for this purpose is hydrogen peroxide. A fairly strong solution
+was prepared from pure crystalline barium peroxide and dilute sulphuric
+acid. The excess of acid was removed with barium hydroxide, and the
+solution was filtered. In this solution the usual amount of silver nitrate
+was dissolved, and this was used in the large bowl as well as in the lipped
+crucible, both anodes being wrapped in filter paper. In the large bowl
+black crystals of argentic peroxide, or AgyNOu, were soon formed
+which bridged across to the kathode. While the result in the bowl thus
+became useless, the crucible showed no such disturbance, but yielded
+nevertheless a deficit of .14 per cent on comparison with a standard.
+This must have been due to a side reaction, especially since the kathode
+was found covered with small gas bubbles, which were probably oxygen.
+It is possible that negative electricity was carried from the kathode to
+the solution by the ionizing of a trace of oxygen. Better results were
+obtained after the hydrogen peroxide had been diluted to one-tenth its
+former strength ; these are recorded below: —
+TABLE IX.
+Standard vs. Filter Paper Voltameter containing H2O2.
+No. of
+Experiment.
+Standard.
+Filter paper
+Voltameter
++ II2O2.
+Difference.
+Percentage
+Difference.
+80
+31
+32
+grams.
+1.78593
+1.78593
+1.83375
+grams.
+1.78048
+1.78G42
+1.83406
+milligram.
+0.55
+0.40
+0.31
+per cent.
+0.031
+0.027
+0.017
+Mean .
+. . . .
++0.025
+The usual difference of from .04 to .08 per cent is thus reduced to
+.025 per cent ; therefore hydrogen peroxide seems to eliminate a part

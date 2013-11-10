@@ -1,0 +1,35 @@
+QUANTITATIVE INDUCTION. Ill
+general rule that the formula thus obtained yields the
+other numbers of the table to a considerable degree of
+approximation.
+In many cases even the second power of the variable
+will be unnecessary ; thus Regnault found that the results
+of his elaborate inquiry into the latent heat of steam at
+different pressures were represented with sufficient ac-
+curacy by the empirical formula
+X = 606-5 4- 0-305 t,
+in which X is the total heat of the steam, and t the tem-
+perature 6 . In other cases it may be requisite to include
+the third power of the variable. Thus physicists assume
+the law of the dilatation of liquids to be of the form
+i t = a t 4- b t 2 + c t 3 ,
+and they calculate from results of observation the values
+of the three constants a, b, c, which are usually small
+quantities not exceeding one hundredth part of a unit,
+but requiring to be determined with great accuracy d .
+Theoretically speaking, this process of empirical repre-
+sentation might be applied with any degree of accuracy ;
+we might include still higher powers in the formula, and
+with sufficient labour obtain the values of the constants,
+by using an equal number of experimental results.
+In a similar manner all periodic variations may be repre-
+sented with any required degree of accuracy by formulas
+involving the sines and cosines of angles and their mul-
+tiples. The form of any tidal or other wave may thus be
+expressed, as Sir G. B. Airy has explained 6 . Almost all
+the phenomena registered by meteorologists are periodic
+in character, and when freed from disturbing causes may
+be embodied in empirical formulas. Bessel has given a
+c Chemical Reports and Memoirs,' Cavendish Society, p. 294.
+d Jamin, ' Cours de Physique,' vol. ii. p. 38.
+e ' On Tides and Waves/ Encyclopaedia Metropolitan^ p. 366*.

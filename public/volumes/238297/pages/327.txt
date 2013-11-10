@@ -1,0 +1,36 @@
+THE INDUCTIVE OR INVERSE METHOD. 301
+are symptoms of disturbance which would prevent our
+placing much reliance on any inference from the prevailing
+order of the known planets to those undiscovered ones
+which may possibly exist at great distances. These and
+all like complications in no way invalidate the theoretic
+truth of the formula, but render their sound application
+much more difficult.
+Erroneous objections have been raised to the theory of
+probability, on the ground that we ought not to trust to
+our a priori conceptions of what is likely to happen, but
+should always endeavour to obtain precise experimental
+data to guide us e . This course, however, is perfectly in
+accordance with the theory, which is our best and only
+guide, whatever data we possess. We ought to be always
+applying the inverse method of probabilities so as to take
+into account all additional information. When we throw
+up a coin for the first time, we are probably quite ignorant
+whether it tends more to fall head or tail upwards, and
+we must therefore assume the probability of each event
+as -^. But if it shows head, for instance, in the first throw,
+we now have very slight experimental evidence in favour
+of a tendency to show head. The chance of two heads is
+now slightly greater than ^, which it appeared to be at
+first f , and as we go on throwing the coin time after time,
+the probability of head appearing next time constantly
+varies in a slight degree according to the character of our
+previous experience. As Laplace remarks, we ought
+always to have regard to such considerations in common
+life. Events when closely scrutinized will hardly ever
+prove to be quite independent, and the slightest pre-
+ponderance one way or the other is some evidence of
+connexion, and in the absence of better evidence should
+be taken into account.
+e J. S. Mill, ' System of Logic,' 5th Edition, bk. iii. chap, xviii. 3.
+f Todhunter's 'History,' pp. 472, 598.

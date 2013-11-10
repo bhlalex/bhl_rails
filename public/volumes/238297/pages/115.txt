@@ -1,0 +1,35 @@
+DISJUNCTIVE PROPOSITIONS. 89
+Various Forms of the Disjunctive Proposition.
+Disjunctive propositions may occur in a great variety of
+forms, of which the old logicians took very insufficient
+notice. There may be any number of alternatives each of
+which may be a combination of any number of simple
+terms, A proposition, again, may be disjunctive in one
+or both members. The proposition
+Solids or liquids or gases are electrics or conductors of
+electricity
+is an example of the doubly disjunctive form. The mean-
+ing of any such proposition is that whatever falls under
+any one or more alternatives on one side must fall under
+one or more alternatives on the other side. From what
+has been said before, it is apparent that the proposition
+A | B = C | D
+will correspond to
+ab = cd,
+each member of the latter being the negative of a
+member of the former proposition.
+As an instance of a complex disjunctive proposition
+I may give Senior's definition of wealth, namely * Wealth
+is what is transferable, limited in supply, and either
+productive of pleasure or preventive of pain s.'
+Let A = wealth
+B == transferable
+C = limited in supply
+D = productive of pleasure
+E = preventive of pain.
+The definition takes the form
+A = BC(D! E);
+but if we develop the alternatives by a method to be
+afterwards more fully considered, it becomes
+A = BODE |- BCDe-h BCdE.
+8 Boole's 'Laws of Thought,' p. 106. Jevous' 'Pure Logic/ p. 69.

@@ -1,0 +1,42 @@
+ON DROPS.
+547
+case corresponds to that of a simple pendulum started with a blow so
+violent as to break the string.
+But the liquid star and the complicated pattern on the smoked
+glass show that the splash is not a simple spreading out of the drop
+equally in all directions, to return again.
+^^^^^^^^^E^^^^H*'' ^^^1
+^Mi ^ -..-^
+H
+mik
+Fig. 7.
+Fig. 8.
+In order to observe the form of the drop at any given instant dur-
+ing the splash, it is necessary to make use of the electric spark, and to
+take advantage of the fact that drops of the same size falling from
+the same height will all behave in the same way.
+It will be necessary to let a drop, say of mercury, fall on a plate
+in comparative darkness, and to produce a strong spark at the instant
+the bottom of the drop comes in contact with the plate, and so illumine
+it ; the observer will then see the drop in the form it has at that m-
+stant.
+A second drop must be let fall in the same way, and be illumined
+by the spark not at the first moment of contact, but a shade later, say
+^i_ second later, when the drop will have spread itself out slightly on
+the plate; and similarly we must illuminate a third drop a shade later
+than the second, and so on. The observer can, after a little practice,
+draw from memory on each occasion the drop in the form in which he
+has seen it. It will be seen that the pi'ocess consists in isolating con-
+secutive phases of the splash from those that precede and follow, and
+which take place in darkness, and so do not confuse what has been
+seen as they would do in continuous daylight.
+The device adopted by the writer for so timing the appearance of
+the spark as to illumine the drop at any desired phase of the splash
+consisted essentially in breaking the current of an electro-magnet at
+the instant the drop began to fall*, the magnet, thus ceasing to act,
+releases a spring which immediately begins to pull the terminal wire
+of a strong electric current out of the other terminal, which is a cup
+of mercury, and the strength of the spring and the depth of immersion
+of the wire in the mercury are so adjusted that the wire leaves the
+surface of the mercury, and the required spark is produced at the
+instant the drop reaches the plate.

@@ -1,0 +1,41 @@
+14 PROCEEDINGS OF THE AMERICAN ACADEMY.
+cobalt, uickel, zinc, and magnesium sulphates,* but undoubtedly others
+exist. In a large majority of cases when an electrolyte is dissolved in
+water, the sura of the volumes of salt and of the solvent taken together
+considerably exceeds the volume of the solution. This contraction is
+usually ascribed wholly to the dissolved substance in dilute solutions,!
+but it seems to me that the behavior of the salts named above proves the
+falsity of this method of calculation. The water as well as the salt must
+contract when a salt is dissolved. So many complications are concerned
+in the act of the solution of an electrolyte that it is difficult to unravel
+the tangled clues ; but the wide deviations exhibited by different sub-
+stances seem to indicate that there are present overlapping contractions
+and expansions, the resultant of which is a smaller quantity than some
+of the individual influences. Such contractions and expansions are just
+what one would expect to find in a readjustment of affinities.
+In considering the simpler case of solid non-electrolytes, one usually
+finds here also a contraction upon solution, although less marked than in
+the extreme cases named above. For this reason, one is inclined to
+ascribe the act of solution of all kinds primarily to the affinity of the
+solvent for the dissolved substance. The solution tension of a metal or
+salt becomes simply a balance or ratio of attractions, — the separating
+tendency of heat upon the dissolving phase is much assisted by the
+attraction from outside. This is of course no new idea. The possible
+method of treating mathematically these balanced influences is suggested
+in a recent paper on the "driving tendency " of reaction. $
+That electi'olytic separation also should be assisted by the outside
+attraction for the solvent is almost a foregone conclusion. This may be
+inferred from the contraction shown by most electrolytes on dissolving.
+Hence may arise the various contact-potentials exhibited by the same
+substance in different solvents ; for different solvents must possess differ-
+ent affinities. Hence also one would expect to find a much greater
+potential needed for the dissociation of gases than for that of dissolved
+substances.
+The mechanism of electrolytic dissociation in gases is now usually
+* Thomsen, Thermochemische Untersuchungen, I. 45 (1882). MacGregor,
+Trans. Eoy. Soc. Canada, 1890, p. 19; 1891, p. 15; Trans. Nova Scotia Inst. Nat.
+Sc, 7, 368 (1890).
+t Van't Hoff, Vorlesung. phys. theoret. Cliem., III. p. 41 (1900). Drude and
+Nernst (Z. pliys. Cliera., 15, 79 (1896)) ascribe this contraction to "Electro-
+striction."
+t Ricliards, Jour. Phys. Chem., 4, 385 (1900). See specially p. 391.

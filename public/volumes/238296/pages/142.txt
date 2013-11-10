@@ -1,0 +1,40 @@
+1986 Badawi & Elwan, A taxonomic nudy 203
+permanent preparations stained in phloroglucinol and cone. Hcl using
+glycerin jelly as a mountant.
+Observations and rtumerical ar^lysis:
+Fifty-four morphological and anatomical characters have been recor-
+ded comparatively for all species. In numerical analysis coding is the
+most critical part; there is always discordancy regarding the fate of
+most characters to be coded. Therefore, a set of coded characters (see
+Table 1 ) was made to cover as much as possible aspects of variations
+in order to cover any operational or human error or misjudgment. However,
+some criteria are so difficult to define into appropriate states. These
+are left out of the computational analysis together with those characters
+in which the literature was consulted to fill the gaps resulting from
+lack of some parts (e.g. the fruit) from the herbarium specimens. These
+characters are given in Table 2 . The coded data were analysed by an
+agglomerative polythetic based on the most frequently used clustering
+strategy known as the unweighted pair groups method using arithmetic
+averages (UPGMA).
+Results and the proposed arrangement:
+The result of this analysis is given in the form of a dendrogram
+in the computer print out to the species level (agglomerative analysis).
+From which the hierarchical arrangement of the examined 255 species
+are drawn only to the 2 5 groups level. It seems reasonable to interpret
+the hierarchy at 3 different similarity levels. At 0.162 the taxonomic
+groups are termed GROUPs, those at 0.655 are Groups, while those at
+0.7 13 are groups.
+It is of vital importance that computed results should be scrutinized
+for any obvious errors or misclassification (in terms of the original
+recorded characters). Hence, a few realignments have been made, incor-
+porating the shift of 1 1 species. These realignments reduced the number
+of Groups to 8 and the number of groups to 23.
+The hierarchy of the proposed arrangement to that 25 groups level
+(after realignments) is given in Diagram I. The distribution of species
+in each group is given in Appendix 1.
+Taxonomic evaluation of the srrariRement:
+1. Internal evidence:
+At all levels the groups in the present arrangement of Liliaceae
+sensu lato in Appendix I and Diagram I are based on character correla-
+tions as seen in Table 1. In this table the distribution of each character
+subjected to computation among the 'groups' of the proposed arrangement

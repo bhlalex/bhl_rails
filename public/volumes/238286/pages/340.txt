@@ -1,0 +1,47 @@
+THE FIXED STARS. 507
+has yet been done. His measures included the visible stars, about five
+hundred in all, of the zone between 40 and 50 of north declination
+those passing overhead in the Northern United States and Canada.
+The light of a kerosene lamp, in Zollner's photometer, shines through a
+small round hole in a thin metallic plate, so as to form an imitation of
+a star, slightly brighter than the real stars with which it is compared.
+The light of this artificial star, having been polarized by passing
+through one Nicol prism, is partially cut off by turning another. The
+proportion of light so cut off depends on the angle of the second prism
+from parallelism with the first. Having thus found the amounts of
+light given by two or more stars, as compared with a fixed light, their
+differences of magnitude are calculated by applying the rule involving
+logarithms, alluded to above.
+Owing to the labor involved in making any large number of photo-
+metric comparisons, the less accurate but more convenient method of
+eye-estimates has not yet been entirely superseded. It becomes neces-
+sary, then, to find some way of reducing different observers to one uni-
+form scale, in order to have their work available for determination of
+variability and questions of distribution. Mr. Peirce, in his "Photo-
+metric Researches," recently published by the Harvard College Ob-
+servatory, has shown that this may be done by the simple process of
+counting. When we find in any catalogue a star recorded as of mag-
+nitude 4, say, though we can not tell exactly what degree of bright-
+ness this figure denotes, we yet know something definite, namely, that
+this observer classes the star in question as fainter than those he calls
+4 and brighter than those he calls 4f. And we know something more:
+if in the northern hemisphere a limited part of the heavens must be
+taken for the purpose, few catalogues being complete in southern stars
+he classes 200 stars in all as brighter than 4^, while he calls 25 stars
+4 exactly, he means to tell us that his 4^ magnitude stars would all
+fall between 200 and 225 on a list of northern stars arranged in order
+of brightness. It is by considering the order which stars would follow
+when so arranged, leaving entirely out of view the numbers by which
+their magnitudes are expressed, that Mr. Peirce brings all observers to
+a single standard of reference; for he is justified in assuming that each
+of them attaches the same idea of brightness to the 50th or 150th
+star in his order, as an assumption of some such nature must be made
+to have their estimates of any service at all. To reduce to mag-
+nitudes these numbers expressing order of arrangement, we have to
+notice that equal ratios among them correspond to equal differences
+in magnitude. If we take a good catalogue and find the number of
+stars in it brighter than 2*0, and add to this number successively
+the number between 2*0 and 30, 3*0 and 4-0, and so on, we shall
+find that our series of numbers increases geometrically, the common
+ratio being nearly 3f. This is a remarkable fact, but it is not difficult
+to account for, on the supposition that the stars are uniformly scat-

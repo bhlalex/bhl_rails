@@ -1,0 +1,36 @@
+68 PROCEEDINGS OF THE AMERICAN ACADEMY.
+L N N' L' minus the area M M' N' N. The former area is equal to
+P
+R T\n~, and if the latter be designated by A we have the equation,
+RT\nt = ET\n^,-A. (29)
+Now if the point M' is moved in the direction of greater volume, equa-
+tion (29) holds true continuously, and therefore is true if M' is taken at
+infinite volume. But at infinite volume
+^' --^ P',
+and therefore
+R T\n^ = PT\DP-A^, (30)
+if A^ represents the total area bounded by the line M N and the curves
+M M' and N N', each produced to infinity. This equation may be
+written,
+i?7'ln^ = -^^,orln^ = --^,or ^^Pe^^, (31a)
+where e is the base of natural logarithms.
+The deviation of the fugacity from the gas pressure is, therefore,
+dependent upon the area A^. The case that has been chosen in which
+the curve M M' lies within N N' is of course the common one. For
+gases of the opposite type, hydrogen and helium, the formulae will be,
+i? T'ln-^ = + ^^ and i/. = Pe^ • ' (31b)
+"We see at once that for all known gases and vapors except hydrogen
+and helium the escaping tendency is less than the gas pressure ; for
+these two, greater. The determination of the value of the fugacity at
+any pressure involves the estimation of the area A^. This must be
+done by integrating the most exact empirical equation of the isotherm of
+a gas between the pressure in question and the pressure zero. This
+method has the disadvantage of all extrapolation, but the value thus
+obtained may be checked by using a second empirical equation of
+another form and recalculating A^. If the two results coincide the
+value obtained will in all probability be very near the true value of A^.
+In conclusion it may be remarked that equation (29) applies to the
+isothermal of all substances, not merely to gases, and can be frequently
+of use. For example, if it is possible to pass continuously from vapor to
+liquid along an isothermal, it is evident that in passing from a saturated
+vapor to its liquid,

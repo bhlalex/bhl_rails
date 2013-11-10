@@ -1,0 +1,238 @@
+SPECIES
+GRADE
+1
+Hemlock
+2* piece stuff, S1S1E, 2"x4"-16'
+2
+Do (Lake States) . . .
+Boards, No. 1, SIS, I"x8"-16'
+3
+Do.. .
+Timbers, rough, 4"x4" to 8"x8"-16'
+4
+Do
+Fencing No. 1, SIS, I"x6"
+5
+Do. ..
+Lath No. 1, f"-4'
+6
+Do
+Mill run
+7
+Hemlock
+8/4 merch. 4" to 12," 10' to 20'
+8
+Do (Eastern and West Virginia). .
+4/4 merch. 6" and 8 "-16'
+9
+Do
+4/4 merch. 10" and 12"-16'
+10
+Do...
+4/4 merch. boards, 6" and up, SIS, clipped 12' 14' and 16'
+11
+Do
+4/4 boards, No. 2, 1 "x4"-12 ", 6'-20'
+12
+Do
+Mill run, mill culls out
+13
+Do
+Mill culls ' ' "
+14
+Do
+Mill run
+15
+Pine
+Flooring, No. 2, I"x4"xl0'-16'
+16
+Do (North Carolina) .
+Flooring No 3 I"x4"xl0'-16'. ...
+17
+Do
+Dimension (air dried), 2"x8" 16' and under
+18
+Do
+Roofers, 1 "x8", D. & M
+19
+Do
+Partition No. 1, 13/16"x3i", 10'-16'... .
+20
+Do ..
+No. 1 edge 4/4, under 12"
+21
+Do
+Box edge 4/4, under 12 " . . .
+29
+Do
+Mill run
+23
+Pine, white . . .
+Selects C and better, 5/4 (M. L.)
+24
+Do...
+Inch finish, C Selects, 10" (M L )
+25
+Do . .
+Shop No 1 8/4 (M L )
+26
+Do...
+Shop No. 3, 5/4 (M. L.)
+27
+Do ....
+Beveled siding C 6"-16'... .
+28
+Do...
+Boards No. 2, I"x8"-16'
+29
+Do
+Boards No 3 12", 10'-20'. . . .
+30
+Do
+Boards No. 4, mixed widths, 10'-20'. ...
+31
+Do. ..
+Fencing No. 2, SIS, 6 "-16'
+Do. ,
+Lath No 1 (W P )
+33
+Do...
+Lath No. 1 (mixed)
+34
+Do. .
+Mill run
+35
+Flooring B v g 13/16"x3J"
+36
+Do (Mississippi Valley Mills).. .
+Flooring, No. 2, D. & M., I"x4"
+Do .
+Flooring No 2 S2S and C M I"x6"
+38
+Do
+Flooring, B, flat, 13/16"x3i"
+39
+Do ,
+Finish, B and better, 6" and wider
+40
+Do...
+Dimension No. 1, S1S1E, 2"x8"-16'.
+41
+Do . .
+Com boards No 1, S2S, l"xlO" .
+42
+Do...
+Com. boards, No. 2, S2S, I"x8"
+43
+Do
+Com. boards, No. 2, S2S, I"xl2"..
+44
+Do.
+Timbers S1S1E 6"x8"-16'
+45
+Do...
+Car siding, B and better, I"x4* and 6"x9'-18'
+46
+Do.
+Com car lining No 1, I"x6"xl0'-20'.
+47
+Do
+Lath No 1 f"
+48
+Do . .
+Mill run
+49
+Finish, B and better, 6" and wider .
+50
+Do (Atlantic Coast Mills) ...
+Flooring, B and better, heart rift, 13/16"x2J"
+51
+Do . .
+Flooring, B and better sap rift 13/16"x2i*
+52
+Do...
+Flooring, B, heart rift, 13/1 6 "x2J"
+53
+Do .
+Flooring, B sap rift 13/16"x2i".
+54
+Do...
+Flooring, B, sap flat, 13/16"x3}"
+55
+Do
+Com. boards, No. 1, S2S, I"xl0"xl0'-16'.
+56
+Do . .
+Com boards No 2 S2S I"xl0"xl0'-16'
+57
+Do Merch grade (Sail)
+Plank and dimensions:
+Sizes 2"x6" to 8"x8", average 24'.
+58
+Do. .
+Sizes 2"x9" to 10"xlO" average 24'
+59
+Do...
+Sizes 2"xl2" to I2*xl2", average 24' . .
+60
+Do .
+Sizes 2"xl4* to 14"xl4", average 24'
+61
+Do .
+Sizes 2"xl6" to 16"xl6" average 24'
+62
+Do
+Mill run
+63
+Spruce (Eastern)
+Merch frames 9* and under 24' and under
+64
+Do
+Merch frames 10" "and 12" 24' and under
+65
+Do . .
+Merch random 10" and 12", 10' and up.. . .
+66
+Do
+Merch 2"x7" and under, 10' to 24'
+67
+Do
+Merch 2"x8"andup 10' to 24'.
+68
+Do .
+Lath. If". ..
+69
+Do
+Mill run
+70
+Do (Adirondack)
+Mill run mill culls out
+71
+Do .
+No. 1 and clear. ..
+72
+Do
+No 2 .
+73
+Do
+No 3
+74
+Do
+Mill culls
+75
+Do
+Mill run.
+76
+Do (West Virginia)
+Merch frames 3"x4" to 8"x8" 10' 16'
+77
+Do
+Merch frames 2 "xl 2" to 12"xl2", 10'-16'
+78
+i DO
+Boards merch 1 "xl2 " 10'-20'.
+79
+1 Do
+80
+Do
+Mill run

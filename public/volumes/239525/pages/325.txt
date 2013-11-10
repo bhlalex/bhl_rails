@@ -1,0 +1,32 @@
+498 PROCEEDINGS OF THE AMERICAN ACADEMY
+Substituting this value of c in [4], we obtain
+D (a x ) = log, a-a x ■ Dx. [e]
+The Differentials of the Trigonometrical Functions.
+Let z = x-\-h, then Dz= Dx, [1]
+also sin z = sin x cos h -\- cos x sin h,
+= cos h ' sin x -\- sin /j y/ 1 — sin 2 cc.
+n/ . . , rw • \ i •? — 2 sin x D (sin z)
+x> (sin z) = cos A • D (sin a:) -J- sin n . — •
+■* V 1 — sin 3 x
+= [cos h — sin h • \D (sin x). [2]
+COd JO I
+Combining [1] and [2]
+D (sin z) D (sin #) cos A cos x — sin h sin x
+D z D x cos x
+cos 2 Z> (sin x)
+cos a: D x '
+or, separating variables,
+[3]
+1 ■ D (sin 2) 1 ^ J> (sin z)
+cos z D z ' cos a; Dx '
+D (sin x) = c ' cos x • D x. [4]
+To determine c (x being the circular measure of the angle)
+Put cos x = sin I -- — x j.
+By [4] D (cos x) = c • cos ( ^ — a: ) D (^ — xj ,
+or D (cos a;) = — c sin x D x. [5]
+From [4] and [5] D (tan a;) = c sec 2 x D x. * [6]
+Now in [4] c cannot be greater than unity, for if it were, D (sin x)
+would exceed D x for all values of x less than a certain value.
+Hence, x and sin x starting together from zero, sin x would, for these
+values, exceed x, which is impossible.
+Again, from [6] c cannot be less than unity, for then D (tan x)

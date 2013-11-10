@@ -1,0 +1,41 @@
+221
+to advance. He then') gets C{I) = P ,■ F(/), and will therefore
+find from (7):
+oo
+(fi (.f) =r 4P iv {I) COS in Ix dl
+in which Pz= l(p (x) (hv is therefore a constant, i
+— a I
+We need not make this hypothesis; and it is exactly in this that
+the great significance of the method lies. When in spite of this we
+do submit to this restriction, we shall find that the curves I and II
+become dependent on each other. According to equation (23) and
+(24) we have namely :
+2 cos 4ji Im C (l) — 2 dn 4.-T lmS{l) =fl {d)
+2 si7i 4jr Im C (l) + 2 cos 4jt ImS (l) — — fll{cl)
+SO that S=^0 would lead to:
+— 11 {cl) - tg 4.-t ImX I {cl) ')
+Further the quantity V was a quantity that was not easy to
+estimate, and could, strictly speaking, only be determined from
+photometrical observations; it appears from its intricate definition
+= -j ■ that It is not continuous, and accordingly can never
+^ mnx-~\*J min-
+be i-egistered, but must be determined point for point. Equation (26),
+which is based on Michelson's visibility curve, holds therefore only
+for a symmetrical distribution of the energy and is not quite exact
+even in this case, while the F-curve is difficult to obtain, and then
+only very faint.
+Summing up we come to the conclusion that in the discussed
+arrangement we have found a means to read the distribution of
+energy, both over a narrow and over an extensive spectral region
+') After neglecting some terms mentioned in footnote 2.
+') Substituting this in equation (25), we should have expressed c:; {X} only by
+the aid of the curve /, and in this special case the cylinder lenses seem not to
+have been required; but in order to know m we must know II at least for one
+value of cl; hence the use of the cylinder lenses is inevitable even in this simple
+case, when we wish to work mathematically exactly. For the determination of
+J max — J min MiCHHLsoN has Considered C {I) and S [1) as constants in the
+differentiation with respect to l\ besides for S = we find C'(^) = PX l^C^) only
+for those values of I that satisfy S{1) =■ — tg 4,7rlmy^C {I), hence for an infinite
+number of values of I, but not for a continuously infinite number, which would,
+however, be required by mathematics if equation (26) is to follow from equation (7).
+15*

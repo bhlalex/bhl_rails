@@ -1,0 +1,45 @@
+CHAPTERS ON THE STARS. 511
+Now, we may consider the waves which form light when they strike
+our apparatus as beats in the ethereal medium which follow each other
+with extraordinary rapidity, millions of millions in a second, moving for-
+ward with a definite velocity of more than 186,000 miles a second.
+Each spectral line produced by a chemical element shows that that
+element, when incandescent, beats the ether a certain number of times
+in a second. These beats are transmitted as waves. Since the velocity
+is the same whether the number of beats per second is less or greater, it
+follows that, if the body is in motion in the direction in which it emits
+the light, the beats will be closer together than if it is at rest; if moving
+away they will be further apart. The fundamental fact on which this
+result depends is that the velocity of the light-beat through the ether
+is independent of the motion of the body causing the beat. To show
+A B X
+®
+®
+the result, let A be a luminous body at rest; let the seven dots to the
+right of A be the crests of seven waves or beats, the first of which, at the
+end of a certain time, has reached X. The wave-length will then be one
+seventh the distance A X. Now, suppose A in motion toward X with
+such speed that, when the first beat has reached X, A has reached the
+point B. Then the seven beats made by A while the first beat is trav-
+eling from A to X, and A traveling from A to B, will be crowded into
+the space B X, so that each wave will be one seventh shorter than before.
+In other words, the wave-lengths of the light emitted by any substance
+will be less or greater than their normal length, according to the motion
+of the substance in the direction in which its light is transmitted, or in
+the opposite direction.
+The position of a ray in the spectrum depends solely on the wave-
+length of the light. It follows that the rays produced by any substance
+will be displaced toward the blue or red end of the spectrum, according
+as the body emitting or absorbing the rays is moving towards or from us.
+This method of determining the motions of stars to or from us, or their
+velocity in the line of sight from us to the star, was first put into prac-
+tice by Mr. — now Sir William — Huggins, of London. The method has
+since been perfected by photographing the spectrum of a star, or other
+heavenly body, side by side with that of a terrestrial substance, rendered
+incandescent in the tube of a telescope. The rays of this substance pass
+through the same spectroscope as those from the star, so that, if the
+wave-lengths of the lines produced by the substance were the same as
+those found in the star spectrum, the two lines would correspond in
+position. The minute difference found on the photographic plate is the
+measure of the velocity of the star in the line of sight.
+It will be seen that the conclusion depends on the hypothesis that

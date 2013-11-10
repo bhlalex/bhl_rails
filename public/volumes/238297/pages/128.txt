@@ -1,0 +1,35 @@
+102 THE PRINCIPLES OF SCIENCE.
+This result is in strict accordance with the fundamental
+principles of inference, and it may be a question whether
+it is not a self-evident result, independent of the steps of
+deduction by which we have reached it. For where two
+classes are coincident like A and B, whatever is true
+of the one is true of the other ; what is excluded from
+the one must be excluded from the other similarly.
+Now as a bears to A exactly the same relation that b
+bears to B, the identity of either pair follows from the
+identity of the other pair. In every identity, equality,
+or similarity, we may argue from the negative of the
+one side to the negative of the other. Thus at ordinary
+temperatures
+Mercury = liquid-metal,
+hence obviously
+Not-mercury = not-liquid- metal ;
+or since
+Sirius = brightest fixed star,
+it follows that whatever star is not the brightest is not
+Sirius, and vice versd. Every correct definition is of the
+form A = B, and may often require to be applied in the
+equivalent negative form.
+Let us take as an illustration of the mode of using this
+result the argument following :
+Vowels are letters which can be sounded alone, (i)
+The letter w cannot be sounded alone ; (2)
+Therefore the letter w is not a vowel. (3)
+Here we have a definition (i), and a comparison of a
+thing with that definition (2), leading to exclusion of the
+thing from the class defined.
+Taking the terms
+A = vowel,
+B = letter which can be sounded alone,
+C = letter w

@@ -1,0 +1,39 @@
+624 BRIDGMAN.
+not the same, calling the first 3 and the second 2. It is significant,
+however, that crystallographically, both these phases are remarkably
+similar; Wallerant describes both as ortho rhombic, quasi-tetragonal,
+optically negative. The chief argument against their identity seems
+to be that they do not form a continuous mixed crystal series, but
+such a continuous series would be impossible in any e\'ent because of
+the anomolous behavior of the tetragonal form II. In fact it is the
+peculiar behavior of the tetragonal form that supplies Wallerant with
+the argument that the forms II and V of NH4NO3 are identical. On
+the whole, the evidence does not seem to me conclusive that 3 and 2
+are not identical; in view of the suggestiveness of the phase diagrams,
+further crystallographic investigation would be desirable. At any
+rate it is significant that the phases 3 and 2 are so much alike.
+Further identification of the phases of NH4NO3 is probably not
+possible; the phases 4 and 5 are not likely to exist in the other nitrates.
+These phases, if they are capable of existence at all elsewhere, are
+probably to be found at considerable negative pressures, which we
+cannot realize experimentally. On the other hand, it would not be
+strange if NH4NO3 had modifications peculiar to itself. The Radical
+NH4 cannot be surrounded by so simple a field of force as a single
+atom of Potassium, Rubidium, Caesium, or Thallium, and it is not
+surprising if in virtue of its greater complication larger numbers of
+stable forms are possible. Tutton has found the same behavior
+among the sulfates.
+Summary.
+The phase diagrams between 0° and 200° and fron^ 1 to 12000 kg.
+have been determined for NH4NO3, KNO3. RbX03, CsNOs, TINO3,
+and AgN03. One new phase has been found for NH4NO3 and two
+new ones for KNO3. The usual thermodynamic data, which include
+change of volume, latent heat of transition, difference of compressi-
+bility, thermal expansion, and specific heat, are given.
+AgNOs stands in a class by itself. The nitrates of Rb, Cs, and Tl
+have closely similar phase diagrams. The more complicated dia-
+grams of KXO3 and NH4NO3 may be brought into relation with these
+by a proper identification of the new high pressure forms with the
+atmospheric forms of RbNOs, CsNOs, TINO3. Additional crystallo-
+graphical work seems necessary, however, before this identification
+can be established. It is significant that at high pressures the dia-

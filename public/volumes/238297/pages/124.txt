@@ -1,0 +1,36 @@
+98 THE PRINCIPLES OF SCIENCE.
+To represent this process of inference symbolically we
+take the premise in the form
+A = AB. (i)
+We observe that by the Law of Duality the term not-B is
+thus described
+b = A.b -I- ab. (2)
+For A in this proposition we substitute its description
+as given in (i), obtaining
+b = AB6 I ab.
+But according to the Law of Contradiction the term
+AB6 must be excluded from thought or
+AB6 = o.
+Hence it results that b is either nothing at all, or it is
+ab ; and the conclusion is
+b = ab.
+As it will often be necessary to refer to a conclusion
+of this kind I shall call it, as is usual, the Contrapositive
+Proposition of the original. The reader need hardly be
+cautioned to observe that from all A's are B's it does not
+follow that all not-A's are not-B's. For by the Law
+of Duality we have
+a = aB | ab,
+and it will not be found possible to make any substitu-
+tion in this by our original premise A = AB. It still
+remains doubtful, therefore, whether not-metal is element
+or not-element.
+The proof of the Contrapositive Proposition given above
+is exactly the same as that which Euclid applies in the
+case of geometrical notions. De Morgan describes Euclid's
+process as follows d : ' From every not-B is not-A he pro-
+duces every A is B, thus If it be possible, let this A be
+not-B, but every not-B is not-A, therefore this A is not-A,
+which is absurd : whence every A is B/ Now De Morgan
+thinks that this proof is entirely needless, because common
+d 'Philosophical Magazine,' Dec. 1852 ; p. 437.

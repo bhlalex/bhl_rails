@@ -1,0 +1,27 @@
+6 PROCEEDINGS OP THE AMERICAN ACADEMY.
+/ f / "A (^) • n^ • '^^ ■'■ J ^^^1 since this result is iudependeut of the form
+of S and of the volume of the space euclosed by it, at every point within
+the solid
+90 h,.h,.h,\9(/]) 9(;'y) 9(,^)l .7.
+5^ _ /<s . h, . kj I 9 f^ 9/(0) \
+^^ 5^ _ //g . hr, . h^ f 9 fjtj_ 9F(0)
+9t xpiO) y9^\hr,lH' 9
+9_(k'k 9m\ 9(K^i 5m\\ (H)
+9v\/is/ii- 9ri J^9i\hiK- 9^ J)' ^''
+/Ji_
+9t xp{b) \9^\Ihhi' 9$
+LfA. l^M\+ 3 ( h^ 9_F(0)\'^
+9v\hsf'i' 3-n )^9C\l'iK' H JI'
+three different forms of the equation of continuity.
+In Cartesian co-ordinates, this eciuation becomes
+96 _ 1 (9 fK\9JW\,5 f>^m\ 9 f/^/(6)\^
+^-^(e)\9x\ 9x )'^9y\ 9y ) ^ 9 z\ 9z Jj
+^ v^i^C^). (10)
+-^(6)
++-(^'(*)-ii)}- ^">
+9
+1
+If the flow of heat within a solid is steady, -^ vanishes at every point,
+q is a solenoidal vector, and the equation of continuity in terms of Cartesian
+co-ordinates becomes
+Or

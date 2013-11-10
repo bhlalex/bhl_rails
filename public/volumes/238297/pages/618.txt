@@ -1,0 +1,36 @@
+128 THE PRINCIPLES OF SCIENCE.
+sideling the principles of approximation we found that a
+small portion of any curve will appear to be a straight
+| line. Whenever our modes of measurement are compara-
+tively rude, we must expect to be unable to detect the
+curvature. Thus Kepler made meritorious attempts to
+discover the law of refraction, and he slightly approxi-
+mated to it when he observed that the angles of incidence
+and refraction if small bear a constant ratio to each other.
+Angles when small are very nearly as their sines, so that
+he reached an approximate result of the true law. Cardan
+assumed, probably as a mere guess, that the force required
+to sustain a body on an inclined plane was simply propor-
+tional to the angle of elevation of the plane. This is
+approximately the case when the angle is very small, and
+it becomes true again when the angle is a right angle ;
+but in reality the law is much more complicated, the
+power required being proportional to the sine of the
+angle. The early thermometer-makers were quite unaware
+whether the expansion of mercury was exactly propor-
+tional or not to the heat communicated to it, and it is
+only in the present century that we have learnt it to be
+not so. We now know that even gases obey the law of
+uniform expansion by heat only in an approximate man-
+ner. Until some reason to the contrary is shown, we
+should do well to look upon every law of simple propor-
+tion as only provisionally true.
+Nevertheless, there are many of the most important
+i laws of nature which are in the form of simple propor-
+tions. Wherever a uniform cause acts in independence
+of its previous effects, we may expect this relation. Thus,
+an accelerating force acts equally upon a moving and a
+motionless body. Hence the velocity produced is always
+in simple proportion to the force, and also to the duration
+of its uniform action. As gravitating bodies never in-
+terfere with each other's gravity, this force is in direct

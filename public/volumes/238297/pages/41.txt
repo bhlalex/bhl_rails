@@ -1,0 +1,34 @@
+INTRODUCTION. 15
+plication, or the integral calculus rests upon the obser-
+vation and remembrance of the results of the differential
+calculus, so induction requires a prior knowledge of
+deduction. An inverse process is the undoing of the
+direct process. A person who enters a maze must either
+trust to chance to lead him out again, or he must carefully
+notice the road by which he entered. The facts furnished
+to us by experience are a maze of particular results ; we
+might by chance observe in them the fulfilment of a law,
+but this is scarcely possible, unless we thoroughly learn
+the effects which would attach to any particular law.
+Accordingly, the importance of deductive reasoning is
+doubly supreme. Even when we gain the results of in-
+duction they would be of little or no use without we
+could deductively apply them. But before we can gain
+them at all we must understand deduction, since it is the
+inversion of deduction which constitutes induction. Our
+first task then, in this work, must be to trace out fully the
+nature of identity in all its forms of occurrence. Having
+given any series of propositions we must be prepared to
+develop the whole meaning embodied in them, and the
+whole of the consequences which flow from them.
+Symbolic Expression of Logical Inference.
+In developing the results of the Principle of Inference
+we require to use an appropriate language of signs. It
+would indeed be quite possible to explain the processes of
+reasoning merely by the use of words found in the ordinary
+grammar and dictionary. Special examples of reasoning,
+too, may seem to be more readily apprehended than general
+and symbolic forms. But it has been abundantly proved
+in the mathematical sciences that the attainment of truth
+depends greatly upon the invention of a clear, brief, and
+appropriate system of symbols. Not only is such a

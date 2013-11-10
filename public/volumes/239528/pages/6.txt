@@ -1,0 +1,39 @@
+SUMMARY
+This account summarizes recent technical literature on the environmental
+chemistry of polychlorinated biphenyls (PCBs); lists PCB background
+concentrations in fish, wildlife, and invertebrates; documents their toxic and
+sublethal properties; and reviews and provides recommendations for the
+protection of sensitive species of aquatic organisms and wildlife.
+PCBs, a group of 209 synthetic halogenated aromatic hydrocarbons, have
+been used extensively in the electricity generating industry as insulating or
+cooling agents in transformers and capacitors. Due to human activities and
+the chemical characteristics of the products, PCBs are now distributed
+worldwide, with measurable concentrations reported in aquatic organisms and
+wildlife from North America, Europe, the United Kingdom, and the Atlantic and
+Pacific oceans. PCBs elicit a variety of biologic and toxic effects including
+death, birth defects, reproductive failure, liver damage, tumors, and a
+wasting syndrome. They are known to bioaccumulate and to biomagnify within
+the food chain. As a result of legislation, virtually all uses of PCBs and
+their manufacture have been prohibited in the United States since 1979. In
+general, the ban has been accompanied by declines in PCB residues in fishery
+and wildlife resources. However, the current environmental burden of PCBs in
+water, sediments, disposal sites, deployed transformers, and other PCB
+containers is now estimated at more than 82 million kg, much of it localized,
+and this continues to represent a potential hazard to associated fish and
+wildlife.
+The toxicological properties of individual PCBs are influenced primarily
+by two factors: the partition coefficient based on solubility in
+N-octanol /water (Kow); and steric factors, resulting from different patterns
+of chlorine substitution. In general, PCB isomers with high Kow values, and
+high numbers of substituted chlorines in adjacent positions, constitute the
+greatest environmental concern. Unfortunately, basic chemical information is
+lacking on many isomers. Also, biological responses to individual isomers or
+mixtures vary widely, even among closely related taxonomic species. The issue
+is further confounded by the presence of toxic impurities, such as
+polychlorinated dibenzofurans, which may have been formed during the PCB
+manufacturing process, or result from product usage. At this time, total PCB
+residues give a more reliable measure of environmental PCB contamination than
+do measurements of any Aroclor or other commercial mixtures. In view of the
+demonstrated differential toxicities within the array of PCB congeners, it may
+finally become necessary to modify existing standards and criteria based on
+m

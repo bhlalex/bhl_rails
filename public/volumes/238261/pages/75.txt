@@ -1,0 +1,87 @@
+98
+PROCEEDINGS OP THE AMERICAN ACADEMY.
+TABLE VI. Zinc versus Amalgam.
+t
+E (.Obs.)
+E (Calc.)
+1
+2G.0
+(0)
+.01075
+.01075
+.01085
+2
+25.7
+.01070
+.01080
+.01079
+3
+0.0
+.00580
+.00595
+.00565
+4
+25.3
+.01060
+.01085
+.01071
+5
+25.4
+.01065
+.01085
+.01073
+6
+21.5
+.00985
+.01010
+.00995
+7
+19.4
+.00960
+.00980
+.00953
+8
+24.2
+.01080
+.01080
+.01049
+9
+24.4
+.01080
+.01080
+.01053
+10
+0.0
+.00600
+.00600
+.00565
+11
+24.5
+.OlOSO
+.01085
+.01055
+12
+0.0
+.00595
+.00605
+.00565
+13
+24.8
+.01080
+.01100
+.01061
+a saturated amalgam may be considered the potential of the pure metal.
+In the case of zinc this is true within a few thousandths of a volt ; in the
+case of cadmium the difference between the solid metal and the saturated
+amalgam is 0.45 volt at 30°, and .054 volt at 0°.
+Summary.
+The main points of the present paper may be summarized as fol-
+lows : —
+(1) A convenient method of measuring electromotive force directly to
+any desired number of decimal places is described.
+(2) Cadmium amalgams as far as concentrations of three per cent and
+zinc amalgams to concentrations of at least one per cent obey closely the
+laws of dilute solution.
+(3) The use of the Helmholtz equation for the temperature coefficient
+of a cell offers in these cases an accurate method of determining thermal
+quantities.

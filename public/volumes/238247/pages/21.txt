@@ -1,0 +1,6 @@
+354
+PHYTOLOGIA November 1997 volume 83(5):345-365
+Figure 2. Projection of the OTUs onto the first three principal components. White -
+cluster A, Ught gray - cluster Sb, dark gray - cluster B, black - cluster Sp. Lines show
+links formed by Minimum Spanning Tree. The longest axis is the first axis, the
+vertical axis is the third axis.

@@ -1,0 +1,35 @@
+I9II.] WITH REFLECTING GRATING. 137
+ing X, the corresponding coefficients would be i\d(n -{- N)/d$, and
+these are much more in error, here and in the preceding cases. If
+from d9/dn, e is ehminated in terms of {n -\- N ) the equation is
+dd \ ' I
+(i6)
+dn D{n + N^cosi'
+so that for a given vahie of i, 6, jVq, they decrease in size with n.
+If ;/=o they reach the hmiting size
+dd \
+dn DN^ cos / '
+If the crack N ^JJ should be made infinitely small, they would be
+infinitely large. To pass through infinity, A'^ must be negative,
+which has no meaning for i > ^ or would place one eft'ective edge of
+the crack 5" behind the other. These inferences agree with the
+observations as above detailed. If, however, i <^ 0, a. negative value
+of Nq restores equation (i6) for //:^o to equation (17), as was
+actually observed (Figs. 2 and 3).
+Finally equation (14) might be used for observation in the incre-
+mented form
+. „ D cos i
+(17) A{de/de) = ^^^Ae;
+but I did not succeed with it. One loses track of the run of a
+fringe w^ith de.
+II. Colored Slit Images and Disc Colors of Coronas. — In the
+above experiment the fringes were but a few minutes apart. It is
+obvious, however, that if A''^ is sufficiently small the fringes will grow
+with decreasing 11, in angular magnitude, until there are but a few
+black bands in the spectrum. Under these circumstances the unde-
+viated image of the superimposed slits must appear colored, particu-
+larly so if an effect equivalent to A^^, is present throughout the
+grating. This phenomenon of colored slits is apparently of interest
+in its bearing on the theory of coronas, where there is also an inter-
+ference phenomenon superimposed upon a diffraction phenomenon,
+as is evidenced by the brilliant disc colors. For instance suppose

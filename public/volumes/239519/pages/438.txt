@@ -1,0 +1,32 @@
+CHAPTERS ON TEE STARS.
+649
+Beta Lyrse is always of the same brightness at the same hour of its
+period, and Algol has always the same magnitude at minimum. It is
+true that the length of the period varies slowly in the case of these
+stars. But this may arise from the action of other invisible bodies
+revolving around the visible stars. This general uniformity is in
+accord with the theory which attributes the apparent variations to the
+various aspects in which we see one and the same system of revolving
+stars.
+Another variable star showing some unique features is Eta Aquilse.
+What gives it special interest is that spectroscopic observations of its
+radial motion show it to have a dark body revolving round it in a very
+eccentric orbit, and in the same time as the period of variation. It
+might therefore be supposed that we have here a star of the Algol or
+Beta Lyrae type. But such is not the case. There is nothing in the law
+of variation to suggest an eclipsing of the bright star, nor does it seem
+that the variations can readily be represented by the varying aspects
+of any revolving system.
+The orbit of this star has been exhaustively investigated by Wright
+from Campbell's observations of the radial motion. The laws of change
+in the system are shown by the curves below, which are reproduced, in
+great part, from Wright's paper in the 'Astrophysical Journal.'
+5' t> d T*
+Fig. 4. Light-Curve and Radial Velocity of Eta Aqdilm.
+The lower curve is the light-curve of the star during a period of
+7.167 days. Starting from a maximum of 3.5 mag., it sinks, in the
+course of 5 days, to a minimum of 4.7m. It was found by Schwab
+that the diminution is not progressive, but that a secondary maximum
+of 3.8m. is reached at the end of the second day. After reaching the
+principal minimum it rises rapidly to the principal maximum in %\ days.
+The upper curve shows the radial velocity of the star during the

@@ -1,0 +1,41 @@
+252
+1 t[ie permutation number. For tt regions of the same extension we
+shall write here n . .s-^s- A permutation number is hie/her than an
+other one, when its first region is greater or, in the case of equality,
+when tfie second region is greater etc. Frobknius introduced the name
+of permutation class for ail permutations with the same permutation
+number. In the same way we sliall call the sum of all isomers
+with the same permutation number divided by p! the isomer class
+with that number. The number of classes is therefore equal to the
+number k of the whole positive solutions of the equation
+.r^ + 2.f, + 3^, + ... ^p . . . . . (3)
+The classes are arranged in ascending order and written :
+p I p p p
+if, u= — u , K^u , .... .... , üTfc u
+■p\
+The permutation number may be added as index on the left side
+e.g. for p z=z 6 :
+A class is called even or odd according as it consists of even or
+odd permutations.
+p
+Alternations and mixings. The affinor that is found from u by
+replacing each of t definite groups of s^,...,St factors (without
+displacing them) by the ideal factors of their alternating or symme-
+p
+trical product is called a simple alternation resp. mixing of u with
+the permutation number a\ , St and is written as:
+(A) p si,-,s, U- p
+A u resp. M u
+Tiie index (A) at the top on the right indicates the choice of the
+permutation regions. The aflinor is called, locally alternating resp.
+symmetrical in these regions and in general locally permutable.
+The sura of all simple alternations resp. mixings with the same
+permutation number divided by their number is called the general
+alternation resp. mixing with that number. The general alternations
+and mixings are arranged in ascending order and written as
+— /• /' — - 7' — P
+^, u = u , A^ u,... ..., A]e u
+— p p —P — P
+il/,u = u , M^vi,... ..., J/fc u,
+eventually, when desirable, with the permutation number as index on
+the left e.g. for p 1= 6 :

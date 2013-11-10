@@ -1,0 +1,244 @@
+14
+WHOLESALE PRICES OF LUMBER.
+Species.
+Line.
+Ash. .
+1
+Do
+2
+Do
+3
+Do
+4
+Basswood .
+5
+Do
+6
+Do
+7
+Do
+8
+Do ... I
+9
+Beech
+10
+Do
+11
+Do
+12
+Birch unselected
+13
+Do
+14
+Do
+15
+Do
+16
+Do
+17
+Chestnut
+18
+Do
+19
+Do
+20
+Do
+21
+Do
+22
+Cotton wood
+23
+Do
+24
+Do ..
+25
+Do
+26
+f v( Do
+27
+Cvoress
+28
+Do
+29 !
+Do
+30
+Do
+31
+Do
+32
+Do
+33 1
+Cvoress shingles
+34
+Do
+35
+Elm rock
+36
+Do .
+37
+Do
+38
+Do
+39
+Elm soft
+40
+Do
+41
+Do
+42
+Gum
+43
+Do
+44
+Do
+45
+Do
+46
+Do .
+47
+Do
+48
+Hickory . . ...
+49
+Do
+50
+Do
+51
+Do
+52
+Maple, hard .
+53
+Do
+54
+Do
+55
+Maple, soft
+56
+Do
+57
+Do
+58
+Do
+59
+Oak, plain..
+60
+Do
+61
+Do
+62
+Do
+63
+Do
+64
+Oak, red, quartered. . .
+65
+Do
+66
+Do..
+67
+Do
+68
+Oak, white, quartered
+69
+Do
+70
+Do
+71
+Do ....
+72
+Poplar
+73
+Do.. .
+74
+Do
+75
+Do...
+76
+Do
+77
+Tupelo (bay poplar)
+78
+70
+Do
+80 I
+Grade.
+First and seconds, 4/4
+No. 1 common, 4/4
+No. 2 common and better, 4/4 or log run. . .
+Mill run \\
+Firsts and seconds, 4/4
+No. 1 common, 4/4 '.'.'.',',
+No. 2 common, 4/4 ; . .
+Log run
+Mill run
+Firsts and seconds, 4/4
+No. 1 common, 4/4
+Mill run .."II"
+Firsts and seconds, 4/4 '.','.
+No. 1 common, 4/4
+No. 2 common, 4/4
+No. 2 common and better, 4/4 or log run
+Mill run
+.Firsts and seconds, 4/4
+No. 1 common, 4/4
+No. 2 common and S. W., 4/4
+No. 3 common, 4/4
+Mill run
+Firsts and seconds, 4/4, 6" to 12"
+Boxboards, 4/4, 13" to 17"
+No. 1 common, 4/4
+No. 2 common, 4/4
+MU1 run
+Firsts and seconds, clear, 4/4
+Selects, 4/4
+Shop, No. 1, 4/4
+No. 1 common, 4/4, random widths
+No. 2 common, 4/4, random widths
+Mill run
+Bests, 5"
+Primes, 5"
+Firsts and seconds, 8/4
+No. 1 common and better, 8/4
+No. 2 common and better, 8/4
+Mill run
+No. 1 common and better, 4/4
+No. 2 common and better, 4/4
+Mill run
+Firsts and seconds, 4/4. red
+No. 1 common, 4/4, red
+Firsts and seconds, 4/4, sap
+No. 1 common, 4/4, sap
+No. 2 common, 4/4
+Mill run
+Firsts and seconds, 8/4
+No. 1 common, 8/4
+No. 2 common, 8/4
+Mill run :
+Firsts and seconds, 4/4
+No. 1 common, 4/4
+Mill run
+No. 1 common and better, 4/4
+No. 3 common, 4/4
+Log run
+Mill run
+Firsts and seconds, 4/4
+No. 1 common, 4/4.
+No. 2 common, 4/4
+No. 3 common, 4/4
+Mill run
+Firsts and seconds, 4/4
+No. 1 common, 4/4
+No. 2 common, 4/4 . .
+Mill run
+Firsts and seconds, 4/4
+No. 1 common, 4/4
+No. 2 common, 4/4
+Mill run
+Firsts and seconds, 4/4
+Saps or selects, 4/4
+No. 1 common, 4/4
+No. 2 common, 4/4
+Mill run
+Firsts and seconds, clear, random, 4/4
+No. 1 common, random, 4/4
+Mill run...

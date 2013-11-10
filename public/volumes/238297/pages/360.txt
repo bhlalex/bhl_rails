@@ -1,0 +1,35 @@
+334 THE PRINCIPLES OF SCIENCE.
+meter to a standard current r . In short, he measures not
+the current itself but a known fraction of it.
+In many electrical and other experiments, we wish to
+measure the movements of a needle or other body, which
+are not only very slight in themselves, but the manifes-
+tations of exceedingly small forces. We cannot even
+approach a delicately balanced needle without disturbing
+it. Under these circumstances the only mode of proceed-
+ing with accuracy, is to attach a very small mirror to the
+moving body, and employ a ray of light reflected from
+the mirror as an index of its movements. The ray may
+be considered quite incapable of affecting the body, and
+yet by allowing the ray to pass to a sufficient distance,
+the motions of the mirror may be increased to almost any
+extent. A ray of light is in fact a perfectly weightless
+finger or index of indefinite length, with the additional
+advantage that the angular deviation is by the law of
+reflection double that of the mirror. This method, was
+introduced by Gauss, and is now of great importance ;
+but in Wollaston's reflecting goniometer a ray of light
+had previously been employed as an index finger. Lavoi-
+sier and Laplace had also used a telescope in connection
+with the pyrometer.
+It is a great advantage in some instruments that they
+can be readily made to manifest a phenomenon in a greater
+or less degree, by a very slight change in the construction.
+Thus either by enlarging the bulb or contracting the tube
+of the thermometer, we can make it give more conspicuous
+indications of change of temperature. The barometer, on
+the other hand, always gives the variations of pressure
+on one scale. The torsion balance is especially remark-
+able for the extreme delicacy which may be attained
+by increasing the length and lightness of the rod, and the
+r De la Rive's 'Electricity/ vol. ii. pp. 897, 98.

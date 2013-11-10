@@ -1,0 +1,43 @@
+126 POPULAR SCIENCE MONTHLY
+ism must be closely connected with some peculiar vibration or free
+period synchronous with the oscillation frequency of the light rays
+absorbed. The oscillation frequency, however, is about the same for
+all the substances just examined and lies between the limits 3,600 and
+3,800, no matter what the labile atom may be. We are, therefore,
+forced to the conclusion that the absorption bands can not be due
+directly to this oscillating labile atom, or, in other words, the vibration
+frequency of this atom is not identical with the oscillation frequency
+of the light absorbed. This inference is strongly substantiated by
+physical evidence which represents atomic motion as far less than that
+of this magnitude of light rays. There remains then but one final
+solution of this question, or the conclusion that the absorption band
+is due directly to the change of the linking which accompanies the
+wandering of the labile atom. In the case of the keto-enol tautomerism
+just discussed, we may represent the change graphically as follows:
+— CH=C— CH 2 — C—
+Ah ** D
+At some stage in its transformation the hydrogen atom must have
+wandered to the half-way point of its journey and have been linked
+definitely to neither the carbon nor the oxygen atoms. We should then
+have the phase in which the carbon and oxygen atoms change linking.
+— CH— C—
+(H)
+By the examination of countless numbers of organic compounds
+it is found that absorption bands in the ultra-violet region of the
+spectrum are shown only by compounds exhibiting some form of
+tautomerism, whether this be due to the keto-enolic type or to a periodic
+type, like that present in ring compounds. The oscillation frequency
+of the light absorbed in all cases of keto-enol tautomerism is about the
+same, but with an increase in the mass of the molecule as brought about
+by the displacement of one atom by a second atom or group of atoms
+of greater relative weight, a decrease in the oscillation frequency is
+observed. This displacement, however, is only small and does not
+interfere with the general assumption that there is present some condi-
+tion common to the whole group upon which the absorption directly
+depends.
+From the standpoint of modern theories regarding the structure
+of the molecule, there must arise in this tautomeric change a constant
+making and breaking of the Faraday tubes of force. This means a
+constant disturbance of the electron systems and, consequently, similar
+vibrational disturbances in the ether. From Hewitt's studies in
+fluorescence these electronic disturbances, due to dynamic isomerism,

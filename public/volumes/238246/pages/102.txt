@@ -1,0 +1,44 @@
+138
+If the current is off, the iron plunger in the evacuated glass
+vessel (r is down and keeps the mercury in the horizontal side-
+tube, allowing the main current to pass between the sealed in
+platinnm contacts. A rise of a fraction of a degree causes the
+large volume of mercury in the regulator C to make contact with
+the nickel spiral, starting the 8 volts current and thereby lifting
+the plunger out of the mercury in G. The running back of this
+mercury interrupts the main current and stops its heating effect
+very quickly, the heating wires being rapidly cooled, owing to
+their position in the open space between the table and the perforated
+bottom of the thermostat. Another advantage of this arrangement is
+the automatic stirring of the air in the thermostat by the jets of
+hot air rising through the holes in the bottom.
+The back and front walls are double glass windows; the
+latter can be lifted up, allowing the necessary operations to be
+performed in the thermostat. These take only a few minutes. The
+temperature in the inside is so quickly restored after shutting the
+window, that the apparatus are practically maintained at the required
+temperature.
+As will be seen in Fig. 18, the potentiometer is connected by
+thin wires, passing through the walls of the thermostat, with the elec-
+trode inside, with the capillary electrometer, mounted on a box,
+which contains an accumulator for its small lamp, and on the other
+side with the working accumulator and the Weston cell, contained
+in the third box.
+As mentioned in part 5 of this paper, a direct estimation of the
+concentration of hydroxyl-ions, or of poH, in 8 7o phosphate solu-
+tions had become indispensable.
+The principle, on which these determinations were based, was
+the following:
+By saturating a blacked platinum electrode with oxygen, an OH
+electrode may be obtained in the same way as a H electrode is
+made with hydrogen.
+If 7tc be the potential of the calomel electrode with saturated KCl
+solution and jro/^ that of the OH electrode, the electromotive force,
+measured in the usual way at 27° is
+C
+E = jTc 4" -TOH = -^c + 0,0595 Log — ,
+c
+where C represents the concentration of OH, corresponding to the
+electrolytic solution pressure of the OH electrode, and c the OHion
+concentration. In such a cell the oxygen electrode is positive, the
+calomel electrode negative.

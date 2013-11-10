@@ -1,0 +1,38 @@
+428
+where M denotes tlie maxiiiiuin of .r and ?/ , m the minimum for
+k=i 1, 2,... /('i — 1,) and such that at the same time -y <[ ! '';. <C ^i
+1
+and ^ < y^ < N, for k = 1,2,... /,\— 1. The points 1\, I\,...Pk,-i
+then are contained in //,Vi + ^ IL\\, and we have
+Since now at every point of the plane lim^^u = 0, at each point
+of V one of tlie two indices A\ and iVj satisfies tlie relation
+!ip„ — /mi if?,j j <^ f, wiiich proves the (inasi-iiniform convergence.
+n= oo
+Besides at the derivative of the limiting function is zero, and
+lim ^„(0) = + 00^).
+It follows from § 8 that the function P* {.v, y) cannot be quasi-
+uniformly convergent at the points of every set F. For T^ we choose:
+.r = 0, O'^y^a. Since the continuous function P* {x,y) for y 7^
+converges to zero and for y = to +00, the convergence is not
+quasi-uniform.
+14. If in a region G a series of analytical functions converges to
+an analytical function and if, besides, the series of derived f unctions
+converges quasi-uniformly at tlie points of every closed set contained
+in G, then it is permitted to differentiate the series termioise every-
+where within G.
+In the first place we observe that every region within G contains
+another region where the convergence is uniform '^), so that the
+term wise differentiation is permitted in this last region.
+Since f' iz) converges to a function which is continuous within G
+and coincides on an everywhere dense set of points with f\z), we
+have everywhere f'{z) = limf'{z).
+1) For any w, indeed,
+\Pn(t) — fPn{t)]dt: ^4n' + 2 ^ 2n*
+Ij r\Pn(t) — fpn{t)\dt ^4n' + 2 ^
+/
+n
+Since y)' (0) ^ n*, we have \P (0) I >
+3
+71» — 1
+IT
+') p. MoNTEL. These, p. 83.

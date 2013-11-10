@@ -1,0 +1,41 @@
+( 689 )
+altered portion, the two portions of the connodal solid- vapour are
+again drawn (unfortunately the altered connection is omitted in the
+figure). At m lies the maximum density of water under its own
+vapour pressure. The preliminary model made by us serves to show,
+that the most notable properties of H,, will be correctly given if
+we consider the ice ridge as an ordinary solid ridge on the surface, and
+the liquid ridge as changed by the last mentioned process owing to the
+association.
+We hope shortly to obtain models which will exhibit the trans-
+formation of the different modilications or allotropic states as well as
+the peculiarities of the expansion phenomena. In this way we hope
+to contribute to a somewhat better insight, at least to a better
+survey, of the thermodynamical character of the different substances.
+However in addition to the questions relating to association there
+are others, which have reference to mixtures, saturated solutions
+etc., and which would necessitate a long investigation. We hence
+think that the results now obtained from a sufficiently independent
+whole to be published.
+We have thus in the above made the meaning of our work
+clear and can now proceed to describe the models somewhat more
+fully and to show that the experimental data can really be obtained
+on these surfaces.
+I. The solid-liquid plait on the Gibbs' surface.
+(Representation of the continuity of the solid and gaseous states).
+The specific heat of the imaginary substance in the gaseous state
+has been assumed to be equal to half that of liquid carbon dioxide:
+the specific heat in the solid state as equal to that which is found
+by employing Neumann's law. Also the substance obeys the van der
+Waals equation of state for carbon dioxide in the liqLiid and gaseous
+states. It appeared useful to give for this model (pi. II, fig. J) front
+and side elevations and plan (pi. Ill fig. 1, 2, 3, 4) Avith the lines
+•>/ = const., i" =: const., 7'= const, (dashed lines) /}==: const, (dotted
+lines), for which the drawings are sufficiently explanatory. The con-
+nodal fluid (gas)-solid is drawn on this model and the coexisting
+states joined by steel wires.
+The principal difference between our representation and Tammann's
+is very clearly seen on comparing the plan (pi. Ill fig. 2) with his
+figure (Drude's Ann. 3 p. 190).
+This model is also useful for a comparison of our idea with the
+well known scheme given by Maxwell (Theory of Heat, p. 207)

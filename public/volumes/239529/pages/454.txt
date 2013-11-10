@@ -1,0 +1,42 @@
+683
+lowering of the point of solidification, and from that of the point of
+transition on analysis of the coexisting phases and on measurement
+of the thermal quantity Q.
+Rothmund, who examined the system CBi\ — CCl t , has not succeeded
+in determining .r, and x^ He could not
+observe the range of solidification, and
+only found the lowering of the point of
+solidification proportional to the total-
+concentration. Nor did he know the
+value of Q, so that he could not test
+formula (1).
+On the occasion of his examination of
+the system HgI,— HgBi\, Reinders 1 ) used
+Rothmund's formula for the first time
+applying it to the lowering of the trans-
+ition point.
+As Reinders's research was not ex-
+pressly undertaken with a view to testing
+Rothmund's formula, and as it was not
+accurate enough for this either, it can only be concluded from this part
+of his interesting treatise that probably Rothmund's formula will be
+confirmed here, and that when it is assumed that here really a
+definite conclnsion can be reached with regard to a molecular size,
+it will lead to the result that the molecular size of mercury bromide
+is the same in the two mixed crystal phases.
+It follows from the foregoing' that there was still a large lacuna,
+and that we were not at all able yet to say to what results the
+application of the let us say, limiting laws, to the equilibria with
+mixed crystals, lead.
+And because it is the study of the diluted mixed crystals that will
+be able in my opinion, to give us a deeper insight into the solid
+state, I resolved to set on foot a most careful inquiry into the
+question whether the law of partition also holds in case of coexistence
+with mixed crystal phases.
+It was to be foreseen that the investigation would be very difficult
+and laborious, for reliable results can only be expected when the
+mixed crystal is perfectly homogeneous, so that the internal concen-
+tration is the same as that of the surface. In order to bring this
+about it was necessary that the formation of the mixed crystals
+should take place exceedingly slowly amidst vigorous stirring.
+x ) Zeitschr. f. physik Chem. 32, 494 (1900).

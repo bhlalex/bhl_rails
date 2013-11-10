@@ -1,0 +1,37 @@
+394 JACKSON.
+ks-1
+Ws (u) = u^'^^ (0) + Z «y w*'^ (0) = 0, s=l,2,...,v-l,
+('«) i:-r
+W, (u) = uik.) (x) + 2: /3,wW (x) + 2: aju^^^ (0) = 0,
+j=0 ,7=0
+where
+I' - 1 ^ A;i > A;2 > • • • > ^\-i ^0, v - 1 ^ ^^ ^ 0;
+and we shall assume them in this form. It would be possible to
+simplify them still further, if there were any object in doing so. The
+coefficients a^-, aj, /?y, are any real or complex constants, and in
+particular some or all of them may vanish.
+The facts which we shall need concerning the form of solutions of the
+equation (15), apart from the question of any particular boundary
+conditions, may be taken from the papers of Birklioff already referred
+to. Following his notation, we shall use the symbol [a], where a
+is any constant, to represent a function of p = re^*, or of p and a second
+variable, which approaches the limit a uniformly with respect to 6, or
+with respect to d and the other variable, when r becomes infinite; the
+same symbol will be used to represent as many different functions of
+this sort as may occur. Furthermore, the roots of the equation
+w" -\- 1 = are denoted by wi, W2, . . . , i<v. Then it is possible to assign
+to each value of p a fundamental system of solutions of the equation
+(15), T/^.T, p), s = 1,2,. . ., V, in such a way that
+(17) ys{x,p) = e'>^s^[l],
+and at the same time
+(18) £, ys{x,p) = {pwsYe'^-'s- [1], k = \,2,. . .,v - \.
+These solutions have continuous derivatives of all orders with regard
+to .T, for each value of p. If I is any one of the numbers 0, 1, . . . , 2^ — 1,
+and p is restricted to the sector Si of the complex plane in which
+lir^ ^ (Z+l)7r
+— ^ arg p ^ ^^ —^
+V V
+the choice of this fundamental system may be so made that the func-
+tions t/g(.T, p) and their derivatives with regard to x shall be analytic
+functions of p for each value of x, at least throughout the part of the
+sector exterior to a circle of sufficiently large radius about the origin.

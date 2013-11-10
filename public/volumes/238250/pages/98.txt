@@ -1,0 +1,45 @@
+COLOR AND CHEMICAL CONSTITUTION 137
+colorless free nitrophenols present only the regular form of vibration
+known to the benzo'id structure and hence can give no oscillation of a
+frequency low enough to produce color. In the salts of these phenols,
+however, the quinoid type is developed and, though always in equilib-
+rium with a certain amount of the benzo'id type, isorropesis will be
+present to an extent dependent upon the degree of unsaturation of the
+atoms, and indicated by the appearance of color. In the case of meta-
+compounds a measure of the persistence of their absorption bands indi-
+cates a smaller amount of isorropesis and consequently they will be less
+colored than the ortho- and para-derivatives. In all of these investiga-
+tions care must be used in the selection of a proper solvent. Since
+water is known to possess a large amount of residual affinity its action
+upon the ethers of nitro-phenols will be quite apparent. Alcohol serves
+the purpose here because it is well known to exert little or no ionizing
+action upon ethers and esters. In general, the new free period of
+oscillation — isorropesis — may be represented by the equilibrium :
+Ri— C — C— R, 1^—0 = 0—11,
+I t ** i-k
+These are conditions which accord entirely with certain known
+chemical facts.
+In compounds of the benzol structure the cause of color begins with
+the particular vibrations of the molecule itself. These oscillations,
+however, as has been seen, are synchronous with light waves of a very
+high frequency and give rise to absorption bands in the ultra-violet
+region only. When some other influences can be brought to bear upon
+these movements, as, for example, the introduction of a potential keto-
+enol tautomerism, isorropesis is established and the oscillations, which
+are now of a less frequency, may be low enough to show the beginning
+of color. When the retardation of these oscillation frequencies is con-
+tinued, as, for example, by the introduction of heavier atomic com-
+plexes for the simpler and lighter hydrogen atoms, the absorption
+curves due to oscillation will gradually be made to travel toward the
+red end of the spectrum and the color, naturally, will travel into the
+blue. A very well-known example of this is the increase in depth of the
+blue color possessed by certain dyes which accompanies an increase
+in the number of methyl groups introduced into the molecule. The
+introduction of a chromophore group, one of a more or less unsaturated
+nature, may in this light be considered as among the best to push back
+the oscillation frequency. But with reference to the powerful effect
+these chromophore groups have upon the retardation of the pulsations
+of the molecule and the consequent establishment of a new type of
+linking always in equilibrium with that of the original nucleus, the
+interpretation of their influence seems best explained in the production
+of an entirely new, free period of vibration — isorropesis — within the

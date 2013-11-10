@@ -1,0 +1,15 @@
+POLYMORPHIC TRANSFORAIATIONS OF SOLIDS.
+113
+---f'
+.ts^.^:i:;
+23456789 10
+Pressure, kgm./cm ^ \ 10^
+Phenol
+11 12
+Figure 28. Phenol. The observed differences of vokime between the
+several phases.
+123456789 10 1112
+Pressure, kgm./cm.^ x 10^
+Phenol
+Figure 29. Phenol. The computed values of the heats of transition and
+the change of internal energy.

@@ -1,0 +1,39 @@
+Parameter Values of Potential Theory. 1 7.>
+It lias no piilf at /\= +1, while \= — 1 is not a singular value.
+The series is therefore convergent for |A.1=1- In (36) we may put
+\=±1 and thus obtain the densities of the simple strata which
+satisfy respectively the boundary problems
+da
+The series for the solutions (21) may be obtained from that equa-
+tion by substituting the values of PC'^p) and Q(pO). Further, if
+Ao=I, the functions II+^{ts) and Cr-^^{ps) given by (20) have no
+pole at \=1, while \=i — 1 is not a singular value. The series are
+therefore convergent for jA| = l, so that the terms decrease indefi-
+nitely. It follows that
+giving the electric distribution^. <j>r{t) in terms of the iterated
+functions hn(ts) : the limit assuming one of m different values,
+according to the surface upon which -'j lies: Similarly fiom the
+convergence of the second series (20) for lA|=l, it follows that
+II = »
+i.e.
+(37) V,.{t)=U g,,{ts)
+'ll = CC
+giving the conductor potential Vr(fj as the limit of the sequence
+gi{ts), g^i^-'^)- ■ ■ ■ which assumes m different values according to
+the surface on which s lies.
+§8. — Solution of fhe second hnundary problem for both inner
+and outer regions in terms of (t single function. — In the second
+boundary proljlem the values A=±l correspond to the inner and
+outer regions respectively. The former of these values is the only
+pole involved. The boundary problem (19b) becomes, for Ao=U
+and A=±l equivalent to the sepai-ate problems represented by
+^ ' ^ ^(t+)=~i(t) for A=+l
+dn
+'^^{r)=HO for A=:-l
+where in the former the boundary function i{t) is subject to the
+usual integral condition. The solutions to the problems given by
+(18) may be written
+(39) r(p)=/Gll(pO)i(e)dO
+and
+v{p}=/vtl(pe)t(e)de
+1 Cf. Potentialtheoretische Untersuchuiiuen S. 5S>.

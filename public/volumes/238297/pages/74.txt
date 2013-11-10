@@ -1,0 +1,36 @@
+48 THE PRINCIPLES OF SCIENCE.
+class in another, or of an object in a class. It was called
+a universal affirmative proposition, because the attribute
+vertebrate was affirmed of the whole subject mammalia ;
+but the attribute was said to be undistributed, because
+not all vertebrata were of necessity involved in the propo-
+sition. Aristotle, overlooking the importance of simple
+identities, and indeed almost denying their existence, un-
+fortunately founded his system upon the notion of inclusion
+in a class, in place of identity. He regarded inference as
+resting upon the rule that what is true of the containing
+class is true of the contained, instead of the vastly more
+general rule that what is true of a class or thing is true
+of the like. Thus he not only reduced logic to a fragment
+of its proper self, but destroyed the deep analogies which
+bind together logical and mathematical reasoning. Hence
+a crowd of defects, difficulties and errors which will long
+disfigure the first and simplest of the sciences.
+It is surely evident that the relation of inclusion rests
+upon a relation of identity. Mammalian animals cannot
+be included among vertebrates unless they be identical
+with part of the vertebrates. Cabinet Ministers are in-
+cluded almost always in the class Members of Parlia-
+ment, because they are identical with some who sit in
+Parliament. We may indicate this identity with a part
+of the larger class in various ways ; as for instance
+Mammalia = part of the vertebrata
+Diatoms = species of plants.
+Cabinet Ministers = some Members of Parliament.
+Iron = a metal.
+In ordinary language the verbs is or are express mere
+inclusion more often than not. Men are mortals, means
+that men form a part of the class mortal, but great con-
+fusion exists between this sense of the verb and that in
+which it expresses identity, as in ' The sun is the centre of
+the planetary system/ The introduction of the indefinite

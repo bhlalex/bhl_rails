@@ -1,0 +1,84 @@
+Clover, 66, 165
+Club-Mosses, 24
+Cobaea Scandens, 79
+Cockle-bur, 48
+Cocoanut, 45
+Coffee, 51, 52, 217
+Compass-Plant, 172
+Conifers, 25, 42
+Corn, 116, 168
+Cotton, 216
+Cottonwood, 115
+Cow Horn Orchid, 71
+Cowslip, 78, 162
+Cranesbill, 98
+Crocus, 37, 108, 145
+Cuckoo-Pint, 66, 88
+Cucumber, 51, 82
+Currant, 175
+Cyclamen, 161
+Cypress, 25 ,175, 182
+Daffodil, 37
+Daisy, 104, 162, 220
+Dandelion, 45, 47, 79, 102, 162,
+171, 175
+Date, 82, 216
+Date Palm, 35
+Datura, 171
+Day-Lily, 171
+Delphinium, 97
+Devil's Snuff Box, 159
+Devil's Thread, 62
+Dewberry, 220
+Diatoms, 127
+Dodder, 58, 62
+Duckweed, 46
+Dutch Clover, 165
+Dutchman's Pipe, 106
+Elder, 152, 159
+Elm, 25, 26, 42, 46, 115
+Enchanters' Nightshade, 151
+Epiphytes, 64, 72
+Eryptogams, 24
+Ferns, 22, 41, 43, 44, 190
+Feterita, 56
+Figwort, 87
+Fir, 103
+Fire Weed, 47
+Flagellates, 18
+Flax, 63, 216
+Four-leaved Clover, 162, 165,
+175
+Fox Glove, 160, 161
+Fuchia, 79, 93
+Fungus, 22, 34, 48, 58, 60,
+62, 139
+Gas Plant, 135
+Gentian, 97
+Giant Cactus, 67
+Goat's Beard, 171
+Goldenrod, 184
+Gorse, 86, 97
+Gossamer, 161
+Gourd, 210
+Grape, 67, 104
+Grass, 36, 41
+Grass of Parnassus, 193
+Groundsel, 146
+Harebell, 161
+Hawkweed, 80
+Hawkweed Picris, 171
+Hawthorn, 104
+Hazel, 36, 78
+Heliotrope, 181
+Hemlock, 160
+Hemp, 62
+Henna, 151
+Herban, 158
+Herb-Bennett, 159
+Herb-Paris, 160
+Hollyhock, 79, 97
+Hop, 35
+Horse Chestnut, 104
+Hortensia, 137
+Hyacinth, 37, 97, 108, 192

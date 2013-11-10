@@ -1,0 +1,30 @@
+TELEPHONE DIAPHRAGMS. 429
+Mechanics of the Receiver.
+The four essential and characteristic constants of any receiver, from
+the electromechanical point of view, are as follows:
+A, the "force factor," or the electromagnetic pull, in dynes on the
+diaphragm, per absampere ^ of alternating current, subject to the
+restrictions that A varies somewhat with the frequency and strength
+of the actuating current. The factor is supposed to be measured at a
+standard frequency, and with feeble currents (less than 3 milliamperes).
+m, the "equivalent mass" of the diaphragm, or the mass, in grams.
+'^.^^/?(
+Fig. 6. Fig. 7.
+Diagrams Illustrating a Telephone-Receiver Diaphragm Vibratory
+System Considered as Replaced by its Equivalent Simple Vibrator.
+which, moving with the velocity at the center, has the same kinetic
+energy as the whole diaphragm, with its actual distribution of mass and
+velocities.
+r, the "motional resistance" of the diaphragm, in dynes per unit
+velocity (cm. per sec), referred to the motion of the equivalent mass.
+This force, due to internal friction, eddy-current losses, and air pro-
+pulsion on the diaphragm, is assumed to be directly proportional to
+the velocity, and dissipates the energy of motion.
+s, the "stiffness constant" or the force per unit displacement (dynes
+per cm.), opposing the movement of the diaphragm, and referred to
+the equivalent mass at the center.
+Thus in Fig. 6, the actual diaphragm, DD, clamped around the
+2 C. G. S. Magnetic units are used in developing the theory, throughout
+this paper, with the distinguishing prefix ab- or abs-. The angle sign Z ap-
+pended to the unit of an equation indicates that each term is a complex
+quantity or "plane-vector."

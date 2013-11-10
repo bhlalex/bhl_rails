@@ -1,0 +1,34 @@
+36 THE PRINCIPLES OF SCIENCE.
+pitch as each separate sound. In the case of substantial
+terms, certain qualities may be present equally in each
+minutest part as in the whole. The chemical nature of
+the largest mass of pure carbonate of lime in existence is
+the same as the nature of the smallest particle. In the
+case of abstract terms, again, we cannot draw a distinction
+between whole and part ; what is true of redness in any
+case is always true of redness, so far as it is merely red.
+Synthesis of Terms.
+We continually combine simple terms together so as to
+form new terms of more complex meaning. Thus, to
+increase the intension of meaning of a term we write it
+with an adjective or a phrase of adjectival nature. By
+joining ' brittle ' to ' metal/ we obtain a combined term,
+'brittle metal,' which denotes a certain portion of the
+metals, namely such as are selected on account of pos-
+sessing the quality of brittleness. As we have already seen,
+'brittle metal' possesses less extension and greater in-
+tension than metal. Nouns, prepositional phrases, parti-
+cipial phrases and subordinate propositions may also be
+added to terms so as to increase their intension and
+decrease their extension.
+In our symbolic language we need some mode of
+indicating this junction of terms, and the most convenient
+device will be the simple juxtaposition of the distinct
+letter-terms. Thus if A mean brittle, and B mean metal,
+then AB will mean brittle metal. Nor need there be any
+limit to the number of letters thus joined together, or the
+complexity of the notions which they may represent.
+Thus if we take the letters
+P = metal,
+Q = white,
+E, = monovalent,

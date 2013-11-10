@@ -1,0 +1,44 @@
+176 G. E. Weatlierhurn :
+respectively, where the index represents the pole Xq= + 1 and the
+suffix the particular value of A. As noAv the pole Xo= + 1 is the
+•only one to be considered we may drop the index in what follows.
+These two solutions are expressed in terms of different functions
+<T + \{ps) and G^iips). It is our object to express both of these in
+terms of a single function. By means of the second equation (8)
+w^e may write
+(40) ( G^,{ps)^/G^,{pe)h{6s)d6=g{j^s)-T{r)
+» G-,{vs)+/G^,{pe)h{e.^)de^g{ps) - v{p)
+If we put
+{1B{ps) = G^r{ps) + G i(;«)
+\ 2R,{ps) = G^,{ps)-G ^,{ps)
+we obtain from the preceding by adding and subtracting
+(41 ) ( R{ps)-fR,Xpe)h{es)de=g{ps) - Tip)
+' Ri{p^^)-/R{pO)h{0s)de=O
+This last equation expresses B^ps) in terms of B(ps}; hence we
+may determine both G + i(ps)iind G-.\{p^) in terms of the single
+function S(ps). From (41) we find rliat F{p.<i) satisfies the integral
+equation
+B(ps) -/R(pe)h,{Os)dd=<j(ps) - T{p).
+As in §4, by the method of successive approximations, this integral
+•equation gives us an expansion for R{ps) and hence for R^(ps). We
+find
+( R{ps) = lffip.)-V{p)] + \!UP'^)-r{p)] + [ff,{ps)-T(p}]+ . .
+\ Ii,{P^^)=[y,{px)-V{p)]-\-[g.,lps)-T(p)]+ . . .
+Avhich are both convergent, being identical with tliose obtained by
+adding and subtracting the absolutely convergent sei'ies for G + i{ps)
+«-nd G- lips).
+The solutions of the second boundary problem for both the inner
+and the outer regions could also be expressed in terms of the
+function K(ts) introduced by Plemelj.i For from (8) we find
+G + \ps) - \l\j{pe)U^^ds)d6=z<i{ps)-T{p)
+In this we may putAr:r±l in turn, and thus obtain G + iips)
+and G-iips) in terms of H+i{ts) and 7/_i(te) respectively, and
+hence in terms of li(fn). Introducing the values of tlie functions
+we find
+G + i{ps)=y{ps)- Tip) +/;/(]>e)\ K(Os) +/h{6(r)K{crs)dcT\de
+= yips)-Tip) +/g(pe)K(ds)d6 +/g,(pO)K{Os)dO
+Similarlv
+G_,ips)=;,{ps)--Tip) -/(/ip6)Ki0s)d0+/;/,{pe)Ki0s)d6
+So that the solutions for both legions may be expressed in terms
+of K(ts).
+1. Potent. Unter. S. 79.

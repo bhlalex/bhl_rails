@@ -1,0 +1,36 @@
+456 THE PRINCIPLES OF SCIENCE.
+for the elimination of the error. As Flamsteed says <i, ' Om
+good instrument is of as much worth as a hundred in-
+different ones/ But an instrument is good or bad only in
+a comparative sense, and no instrument gives invariable
+and truthful results. Hence we must always ultimately
+fall back upon general probabilities for the selection of the
+final mean, when our other precautions are exhausted.
+Very difficult questions sometimes arise when one or
+more results of a method of experiment diverge widely
+from the mean of the rest. Are we or are we not to ex-
+clude them in adopting the supposed true mean result of
+the method. The drawing of a mean result rests, as I
+have frequently explained, upon the assumption that every
+error acting in one direction will probably be balanced by
+other errors acting iri an opposite direction. If then we
+know or can possibly discover any causes of error not
+agreeing with this assumption, we shall be justified in
+excluding results which seem to be affected by this cause.
+In reducing large series of astronomical observations, it is
+not uncommon to meet with numbers differing from others
+by a whole degree or half a degree, or some considerable in-
+tegral quantity. These are errors which could hardly arise
+in the act of observation or in instrumental irregularity ;
+but they might readily be accounted for by misreading
+of figures or mistaking of division marks. It would be
+absurd to trust to chance that such mistakes would
+balance each other in the long run, and it is therefore
+better to correct arbitrarily the supposed mistake, or
+better still, if new observations can be made, to strike
+out the divergent numbers altogether. When results
+come sometimes too great or too small in a regular
+manner, we should suspect that some part of the instru-
+ment slips through a definite space, or that a definite
+cause of error enters at times, and not at others. We
+<i Baily, ' Account of Flamsteed/ p. 56.

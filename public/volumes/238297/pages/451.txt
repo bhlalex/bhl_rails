@@ -1,0 +1,36 @@
+THE METHOD OF MEANS. 425
+the simplest possible case in the determination of the
+latitude of a place by observations of the Pole-star.
+Tycho Brahe suggested that if the elevation of any cir-
+cumpolar star were observed at its higher and lower
+passages across the meridian, half the sum of the elevations
+would be the latitude of the place, which is equal to the
+height of the pole. Such a star is as much above the
+pole at its highest point, as it is below at its lowest, so
+that the mean must necessarily give the height of the
+pole itself free from doubt, except as regards incidental
+errors of observation. The Pole-star is usually selected
+for the purpose of such observations because it describes
+the smallest circle, and is thus on the whole least affected
+by atmospheric refraction.
+Whenever several causes are in action, each of which
+at one time increases and at another time decreases the
+joint effect by equal quantities, we may apply this method
+and disentangle the effects. Thus the solar and lunar
+tides roll on in almost complete independence of each
+other. When the moon is new or full the solar tide coin-
+cides, or nearly so, with that caused by the moon, and the
+joint effect is the sum of the separate effects. When the
+moon is in quadrature, or half full, the two tides are
+acting in opposition, one raising and the other depressing
+the water, so that we observe only the difference of the
+effects. We have in fact
+Spring tide = lunar tide + solar tide
+Neap tide = lunar tide solar tide.
+We have only then to add together the heights of the
+maximum spring tide and the minimum neap tide, and
+half the sum is the true height of the lunar tide. Half
+the difference of the spring and neap tides on the other
+hand gives the solar tide.
+Effects of very small amount may with great approach
+to certainty be detected among much greater fluctuations,

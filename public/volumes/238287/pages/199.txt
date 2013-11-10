@@ -1,0 +1,45 @@
+On prime and ultimate Ratios. 187
+The part b of the ratio is called the antecedent) and a is
+its consequent.
+The antecedent may be equal to the .consequent, and
+then the ratio is called a ratio of equality ; though it would
+be more proper to say, the terms of the ratio are equal :—
+when the terms of a ratio are equal, its measure is always
+equal to unity.
+If the terms of a ratio vary, the measure of the ratio
+may have any magnitude whatever ; and if one term re-
+main constant while the olher\ varies, the measure of the
+ratio will vary with the varying term.
+Let — represent any ratio, and let a remain constant,
+while b is variable; it is obvious that if b decrease, the
+measure of the ratio will increase ; and, when b is become
+indefinitely small, the measure of the ratio is then indefi-
+nitely near to a; and when b entirely vanishes, the mea-
+sure of the ratio is exactly equal to a.
+On the contrary, when b increases, the measure of the
+ratio decreases. Again, let b remain constant while a is
+variable: then, as a increases the measure of the ratio in-
+creases, but it decreases as a decreases, and when a entirely
+vanishes the measure of the ratio is equal to —.
+As another example, suppose we have the ratio >
+where x is variable and a constant ; the measure of this
+ratio may vary through all possible degrees of magnitude, as
+in the preceding example.
+1. Let x continually increase ; then, the measure of the
+ratio — - will decrease; and when x is indefinitely great, it
+will become nearly a constant ratio, or a ratio of equality ;
+that is, the terms of the ratio will be nearly equal : be-
+cause the addition of a to a quantity x which is indefi-
+nitely great, will alter the measure of the ratio only in an
+indefinitely small degree: hence it continually verges to a
+ratio of equality as a limit.
+2. Let x decrease ; then, the measure of the ratio r
+x
+will increase; and when x is indefinitely small, the measure
+or the ratio is indefinitely .near to a:' when x vanishes, the
+ratio is equal to a, exactly.
+From the above illustrations it is exceedingly obvious,
+that a ratio in which the terms continually vary, or where
+one is variable and the other constant, or where part of one
+term is constant, as in this latter example, — it is obvious,
+I sa\>

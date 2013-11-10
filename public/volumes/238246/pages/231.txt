@@ -1,0 +1,40 @@
+332
+int
+vor durch Si, so sind
+'S, , o, , . . . , «Sy . . (2)
+die Substitutioneii des Kreiskörpers. Znr Abkürzuiig schreibe icli f/
+statt <f {in). Die Griippe der Zalilklassen {inod m) köniien vvii- also
+kurzweg die Griippe des Körpers rieiineii. Uiid wenn wir Unter-
+gruppen von (2) braiiclien, können wir die isoinorpiieii Untergrnppeii
+VOM (1) dafüf nehmeii.') Die Gruppe (1) bezeiclineii wir weiter
+durch G.
+Die Zalil m schreiben wir in der Form
+m = 2''* /,^i l^K
+wo /j, /,,.... nngerade Prinizahlen bezeichnen.
+Um die ABPHi'sclie Gruppe G durch eine Basis darzuslellen *)
+ueiiuieii wir die primitive Wurzeln i\, i\, . . . . resp. von /j^'i, /,''s, . . .
+Wir bestimmen die Zahlen ^o. -^*> A^ . . . . durch die Congruenzen :
+.4, = —1 {mod 2^*) = 1 {mod //'i ) ^ 1 {mod lj"i) ....
+^^j= o If ^=- 1 tl = 1 II ....
+A = \ = r =1
+-"■j — ^ f» — '1 »f — * »» ....
+-A^ rn^ i fy A 1» =^ ff }, • . • •
+Diese Zahlen bilden eine Basis von G. Jede Zahl aus G kann also
+nur auf eine Weise geschrieben werden in der Form
+^,«0 A^"* .4i"i .... (mod m)
+wobei die Exponenten durch die Bedingungen
+O <C u„ < 2 ; O ^ u^ < é 7* ; O < », < r/), ; . . . .
+bestimmt sind. Ziir Abkürzung ist dabei für q (2^'*), ^(//i) .... ge-
+schrieben worden : ff:/,, fp, . . . .
+Wir machen noch die folgenden Bemerkungen :
+1. Wenn h:^ = so tallen A^ und A>^ weg,
+2. Wenn /i* = 2 so fallt ^* weg.
+3. Der Fall A* =r 1 kann für das Folgende ausser Acht gelassen
+werden ').
+^ 2. Die Zerlegungs- und die Triigheitsgruppe eines Primideah.
+Satz 1. Die Tragheitsgruppe eines Primideals p das nicht teilbar
+ist auf 7?i, besteht nur aus der identischen Substitution.
+M Wir sprechen weiterhin also von der Substitution a, welches bedeutet die Sub-
+stitution die Z durch Z« ersetzl.
+«) ,W" 6 18.
+») ,W" § 20.

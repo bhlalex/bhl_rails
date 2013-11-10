@@ -1,0 +1,41 @@
+( 770 )
+by the dispersion of the singular tangents rMiew bitangents, of which
+V are isohited. So for tliis case too the equation (5) hokls good if
+we but extend 2'i\ to those higlier singularilics of which the point
+is imaginary but the tangent is real.
+Points of contact and tangents both real. Now j)oint ajid tangent
+of both imaginary singularities coincide. So tlie two branches touch each
+other. This may he an ordinary contact or a liigher ojie, as the
+PuisEUX-developments of both singularities correspond in tlie tirst terms
+(which are then real) ; the unequal terms are conjugate imaginarv.
+If t and V denote order and class of each of the siiignlarities and
+c a number which need not be known more closely, the numbers
+D and 7' respectively of the coinciding points of intersection and
+of the coinciding connnon tangents of both branches amount to
+^ (6)
+This ensues from a relation which always exists for two singular
+branches touching each other between the numbers 7) and T, namely
+T-D = (,?,* + 1) {^* -f 1) -- (X,* -4- 1) (X,* + 1).
+wdiere ,^1* and {i* denote the inflectional indices, v.* and •/.* the
+cuspidal indices of both singularities'). This relation was first deduced
+by Stephen Smith (I.e., p. 167). If according to (4)^) we express
+the indices in order and class of the singularities, we find
+T -D-- ,; i; - t^ t^,
+or, as in our case t^ =z t^ = t and i\ = r^ = r,
+T — D— c' — t\
+from which ensue the two equations (6).
+If therefore we disperse both singularities in such a way that the
+singular points and tangents begin to differ, this causes \Knnt and
+tangent to become imaginary, whilst D new double points and T
+new bitangents appear. If among these are D" isolated double points
+and T" isolated bitangents, then
+D" — t i- c' , j
+r"^v -\-c'.\
+which I shall prove more minutely in my dissertation.
+By the dispersion of the singularities the numbers of the isolated
+double points and bitangents have become d"-|- /-[-'' resp. t"-}-;--|-c'.
+So the equation (5) gives
+n + ^r + 2 (r" + + c') + i:' c, = k + x r 2 {Ö' i~ t + c) + r ^.
+So before that dispersion
+(7)
+V See note p. /6/ — 7GÖ.

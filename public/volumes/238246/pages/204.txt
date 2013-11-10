@@ -1,0 +1,48 @@
+299
+Then the NiCl, solution was healed for some time in a hydrogen
+atmosphere with finely divided Nickel that had been prepared bj'
+reduction of NiO at relatively low temperature, after which the experi-
+ment was repeated. As the following photo shows (fig. 2), the pheno-
+menon had now entirely disappeared.
+3. -If was already pointed out in the preceding communication,
+that as it wei'e, the rejiected image of the phenomenon was to be
+expected, when e.g. iron immersed in a ferro-ferri-salt-solution is made
+{Fe' )
+cathode. The ratio -= — will be greatest at the iron surface, because
+{Fe")
+the iron I)}' sending Fe" -\ou^ into solutions, strives to bring such a
+change in the boundary layer that in case of unary behaviour, it
+can be in equilibrium with it. Hem*e the farther the liquid layer is
+iFe" )
+from the iron, the smaller will be the ratio —- — . When therefore
+{I^e")
+iron, immer.sed in the supposed solution, is made cathode for a
+moment, the iron will be deposited from the boundary layer, and
+the ions from the following layer will diffuse into the boundary
+layer, and as the ratio ... is smaller in this following layer, the
+iron after cathodic polarisation comes *in contact with a liquid layer
+{Fe" )
+in which the ratio -= — is smaller than before the cathodic polari-
+{Fe")
+sation, which causes a stronger disturbance in noble direction, hence
+a less negative potential. After interruption of the current the said
+ratio will now increase again through the solution of the iron, so
+that the potential of the iron becomes again more negative. As on
+cathodic polarisation the iron gets covered with a layer of iron,
+which at first deviates from the unary iron in base direction, a
+phenomenon after catJiodir. pohirisation was really to be expected
+also here, which would have to consist in this, that after interruption
+of the current the potential of the iron, after cathodic polarisation,
+passes through a maximum value. ^)
+As the photo on fig. 3 shows, this supposition is confirmed. The
+maximum B lies about 30 m.V. less negative than the initial potential
+indicated by the line DE.
+It will now be examined whether the same phenomenon can also
+be observed for Nickel.
+Laboratory for (ireneral and Anorganic
+Amsterdam, June 27, 1919. ('hemistrg of the University.
+1) Through diminution of the total ion concentration the potential becomes more
+negative in a small degree, so that tliis circimistance still slightly counteracts the
+phenomenon under consideration.
+20
+Proceedings Royal Acad. Amsterdam. Vol XXII.

@@ -1,0 +1,41 @@
+682
+second component, i. e. when x x and x t are small, the above equa-
+tion may be simplified, for in consequence of the small value of
+x we may then write :
+( <r$\ _ Rr
+\dxSjp.T. *! (1— *i)
+and when we neglect x x by the side of 1, the coefficient of dx x
+becomes :
+*i
+When we now consider the equilibrium between a mixed crystal
+phase and a liquid, or between two mixed crystal phases at constant
+pressure, we get :
+(,?,— nJ dT = - RT ^~^ dx x
+and T(t] 3 — tj,) being = — M x Q x , we get:
+RT x.—x.
+dT = ——.— dx x
+M X Q x x
+or
+RT 9
+M X Q K ' lJ
+This is Rothmund's formula derived by another way. For the
+molecular lowering, i. e. for the lowering caused by 1 gr. mol. of
+the second component in 1000 gr. of the first the following equa-
+tion is obtained :
+dT RT % x.—x.
+...... (2)
+dx x 1000 Q x x
+From this it is seen that when the second phase is no mixed
+crystal, hence x t = O, this formula passes into that of Van 't Hoff.
+When we consider the lowering of the freezing point, brought
+about by addition of a second substance that forms mixed crystals
+with the first, only the second phase is a mixed crystal and the
+first a liquid. When we, however, direct our attention to a lowering
+of a transition point, the first phase is a mixed crystal, and in
+general the second will be so too, just as in the case of solidification.
+(Cf. the subjoined figure).
+It follows from the above relations that when we may treat
+diluted mixed crystal phases thermodynamically as diluted liquid
+solutions, the molecular size of the second substance present in the
+second phase in small concentration with regard to the molecular
+size of the same substance in the first phase, can be found from the

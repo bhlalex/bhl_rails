@@ -1,0 +1,30 @@
+CHAPTER XV.
+ANALYSIS OF QUANTITATIVE PHENOMENA.
+IN the two preceding chapters we have been engaged
+in considering how a phenomenon may be accurately
+measured and expressed. So delicate and complex an
+operation is a measurement which pretends to any con-
+siderable degree of exactness, that no small part of the
+skill and patience of physicists is usually spent upon this
+operation. Much of this difficulty arises from the fact that
+it is scarcely ever possible to measure one simple pheno-
+menon at a time. The ultimate object must be to discover
+the mathematical equation or law connecting a quantitative
+cause with its quantitative effect ; this purpose usually
+involves, as we shall see, the varying of one condition at
+a time, the other conditions being maintained constant.
+The labours of the experimentalist would be comparatively
+light if he could carry out this rule of varying one circum-
+stance at a time. He would then obtain a series of cor-
+responding values of the variable quantities concerned,
+from which he might by proper hypothetical treatment
+obtain the required law of connexion. But in reality
+it is seldom possible to carry out this direction except
+in an approximate manner. Before then we proceed to
+the consideration of the actual process of quantitative
+induction, it is necessary to review the several devices
+by which the complication of effects can be disentangled.
+Every phenomenon measured will usually be the sunij
+difference or product of two or more different effects,
+and these must be in some way analysed and separately
+c c 2

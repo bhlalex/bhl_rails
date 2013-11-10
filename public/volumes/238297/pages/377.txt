@@ -1,0 +1,33 @@
+THE EXACT MEASUREMENT OF PHENOMENA. 351
+In many instances we are indeed obliged to accept a
+very carefully constructed instrument as a standard, as in
+the case of a standard barometer. But it is then best to
+treat all inferior instruments comparatively only, and
+determine the values of their scales by comparison with
+the assumed standard.
+Systematic Performance of Measurements.
+When a large number of accurate measurements have
+to be effected, it is usually desirable to make a certain
+number of determinations with scrupulous care, and after-
+wards use them as points of reference for the remaining
+determinations. In the trigonometrical survey of a coun-
+try, the principal triangulation fixes the relative positions
+and distances of a few points with rigid accuracy. A
+minor triangulation refers every prominent hill or village
+to one of the principal points, and then the details are
+filled in by reference to the secondary points. The survey
+of the heavens is effected in a like manner. The ancient
+astronomers compared the right ascensions of a few prin-
+cipal stars with the moon, and thus ascertained their posi-
+tions with regard to the sun ; the minor stars were after-
+wards referred to the principal stars. Tycho followed
+the same method, except that he used the more slowly
+moving planet Venus instead of the moon. Flamsteed
+was in the habit of using about seven stars, favourably
+situated at points all round the heavens. The distances
+of the other stars from these standard points, were deter-
+mined in his early observations by the use of the quadrant P.
+Even since the introduction of the transit telescope and
+mural circle, tables of standard stars are formed at
+Greenwich, the positions being determined with every
+P Baily's 'Account of Flamsteed/ pp. 378-380.

@@ -1,0 +1,43 @@
+431
+Inside the supply-pipe of the gas-cliamber an amber tube of ±
+27, cm. is fitted for isolation, besides two taps: the one close to the
+cylinder, the other near the main-pipe leading to the gas-chamber.
+The whole cylinder is suspended in a trivet from which it is
+insulated by amber pins.
+The outlet is placed at about J m. over a large glass receiving-
+reservoir, in which a zinc plate rests on two wooden blocks. This
+tank is connected by a conducting-wire with the metal cylinder.
+In its turn the reservoir is isolated from the environment by a
+parafiin-plale supported on four amber feet.
+The whole apparatus is connected by a conducting-wire to an
+earthed electroscope.
+Thus the cylinder, the receiving-reservoir and the electroscope are
+connected inter se by an electric circuit; they are at the same time
+insulated fi-om the environment.
+The pressure in the air-pump and the gas-chamber, registered by
+a manometer, is brought up to two atmospheres, the cylinder is
+filled with i Liter of the liquid to be examined, and the two taps
+in the supply-pipe are opened, so that the liquid in the cylinder is
+subjected to a pressure of 2 atmospheres. Now when the lower tap
+is turned on, the fluid flows under a high pressure out of the glass
+tube and strikes at an angle of 90" against the zinc plate below it.
+This produces positive or negative electricity according to the nature
+of the liquid and causes a deflection of the electroscope.
+The deflection, registered by the electroscope after 1 minute's
+perfusion, is taken as the index for waterfall-electricity.
+The entire apparatus being of a rather large capacity the electroscope
+takes some time before deflecting, which does not occur before the
+whole capacity is electrified. This takes more time with some liquids
+than with others.
+For this reason the stopwatch is not put in operation before the
+electroscope begins to deflect and the liquid then continues flowing
+for a full minute after this.
+During the experiment the room is well aired, because the air in
+the room is also charged and that in a sense opposite to the charge
+of the liquid. It is obvious that this would greatlj^ interfere with
+the electrification of the liquid in the subsequent experiments.
+Moreover, the receiving reservoir is covered with a close-mesh
+iron gauze, provided with a circular opening in (he middle, through
+which the jet passes. This gauze serves to keep back the migrating
+droplets and possible foam, and to allow the extremely hazy nebula
+to spread in the surrounding air.

@@ -1,0 +1,30 @@
+256
+ment both solutions were cooled to 0°; then they were mixed while
+being well stirred. So in 0.5 L. are present one millimol of amine,
+one millimol of NaNO, and about 6 millimol HC1.
+After different periods 5 c.c. samples were drawn with a pipette,
+which had been cooled to 0° and coupled with 5 c.c. of a Schaffer's
+salt solution (3 gr. of Schaffer's salt -\- 3 gr. of NaOH per L.);
+then an excess of alkali is present, so that the diazo reaction is
+brought to a stand-still. We executed the coupling reaction at 0° in
+order to evade every decomposition of diazonium compound.
+From determinations performed in the laboratory for Physical
+Chemistry of the Technical High School here at Delft, we knew,
+that at 0°, even after 6 hours, w r e need not fear decomposition of
+the diazonium-compounds ; this disturbance appears only at 20°.
+Below we cite some affinity-constants for these reactions, in which
+N, is split off:
+For aniline /if 3 o° =0.0064 /C 35 o = 0.0124 K i0 o = 0.0248
+p. nitraniline VT 35 ° = 0.000869 K^* =0.00136
+„ sulphanilic acid AW>= 0.0033 #51.7°= 0.0078 K bl o= 0.0108
+From the coloured solutions, thus obtained after coupling, again
+5 c.c. were measured and diluted to 500 c.c. (with higher concen-
+trations Beer's law did not hold good). Assuming the last sample
+taken after about 6 hours to represent J00 /o» we compared this
+standard solution in a colorimeter with the colours obtained from
+the samples after 2, 4, 6, 10 etc. minutes. In this way we could
+directly read the percentage of inverted amine.
+Finally it should be observed that we used distilled water for all
+our experiments, as water from the main possessed too much colour
+of its own.
+Below we give same numerical data.

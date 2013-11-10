@@ -1,0 +1,35 @@
+J 53
+1
+j'^'wi ;>''«?«i
+__l*'''«i /'•'''«I
+I'^'^y, 1 l''^'',,^!
+i-'fa //.Ï
+til US also as
+y 1
+/"*'•-„
+so that the t'oiitril)iiti()ii of the term ) Fy_, . . . .j dx^, . . . dxy, (
+the value of (J) over e^ and (?, can be expressed as
+n 1 Öi'^a, ... a , J
+and the value of (1 1 over [i is obtained in the form:
+{indicatrix j^ a,, acq. indicatrix <£,.., «^;),
+where A repi-esents a point of n which may be different for different
+terms under the 22 sign.
+Hence it follows immediately, that, if Q is a two-sided />-dimen-
+sional net fragment situated in S, and R denotes the boundarj- of
+Q, while the indicatrices of Q and R correspond, then the value of
+(i) over R is equal to the value of (2) over Q.
+IV. To complete the |)roof of the theorem formulated in I, we
+consider a category if' of simplicial divisions of g such that the
+aggregate of the base sides possesses for if' uniformly continuously
+varying plane tangent spaces, and the i-atio of the volume of a base
+simplex to the {p — l)"^'' power of its greatest coordinate fluctuation
+does not fall below a certaiji minimum for if?. Let g' , g" , . . . be a
+sequence of indefinitely condensing simplicial approximations of g
+corresponding to if'. If, on g^''-'^ we construct an approximating simplicial
+representation ƒ/■"') of </^'), then, by choosing both n and r above a
+suitable limit, we can, in virtue of III, see to it that the values of
+(1) over g^y!^^ and ^'M differ from each other by as little as we please,
+whilst ^^C/^O is covered by <7(^'^) with degree one, so that the values of (^1)
+over g'!'-) and (/('•'"^ are equal. Thus there exists a value of (1) over
+g for If' which, natui-ally, does not change if, instead of if.', some
+other category of the same kind is chosen.

@@ -1,0 +1,39 @@
+EXPANSION PROBLEMS. 411
+Let p be restricted to the region To. Suppose first, for simplicity,
+that the last two of the boundary conditions do not involve the
+point 0, so that a^-i and av are zero. Then in each of the minors of
+the last two rows of the determinant, an exponential factor can be
+taken from each column, and the expansion according to these minors
+has the form
+(40) Z5y/f,ye''^"'^+"^')Ml],
+where 5^;^/ and ^jjf are determinants of i' — 2 rows and 2 rows respec-
+tively, with powers of the quantities lOt as constituents. Of these deter-
+minants, 5i2, 5i3, ^n, and fi3 are surely different form zero, having
+essentially the same form as 5i and 82 in the preceding section ; it is im-
+portant to observe that when the roots Wj are arranged in cyclic order, Wi
+and W2 are adjacent, and likewise Wi and W3. It is immediately recog-
+nized that if p is in the remote part of To, all the terms of (40) excepting
+possibly that with the subscripts 1, 3, are insignificant in comparison
+with the term that has the subscripts 1, 2, and may be merged with
+the latter term, by virtue of the latitude that is allowable in the
+interpretation of the bracket symbols. We may write
+(41) Ai = [dioSioleP^"^' + W2)n^ [Sisrisle"^"" + '^^''.
+This is on the assumption that a^^i and a^ are zero. Among the terms
+which have to be added to those already taken into account, if this
+restriction is removed, the worst that can occur is e"^'^ multiplied
+by a power of p, with a further factor which remains finite. Such a
+term will be negligible in comparison with e''^^i + ^^'^, provided that a
+power of p is negligible in comparison with e''^'^, which will be the case
+if the vertex W2 of the polygon representing the I'oots remains at the
+right of the axis of imaginaries after the polygon has been rotated
+through an angle of t/v, that is, if 27r/V < ^tt, v > 4:. As the condi-
+tion last stated was imposed at the beginning of the section, the
+terms containing power's of p may be incorporated in the expression
+[5i2fi2]e''^'^'+ ""'^^ and the validity of (41) is general.
+Suppose the bracket symbols in (41) replaced by their limiting
+values, and the resulting expression set equal to zero. Since
+W2 — Ws = e" — e " = e " \e " — e " j ,
+the equation so obtained, which obviously has only roots of the first
+order, is equivalent to the relation
+(42) 2pTi e "sin — = log ( — r^^ ) -f- 2mri,
+V \ 612^12/

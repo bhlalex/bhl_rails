@@ -1,0 +1,31 @@
+BLACK. — THE NEIGHBORHOOD OF A SINGULAR POINT. 307
+Let the result be written as follows : —
+C2'"i{[x3"'i + ri(y2)a:3"'i-' + + r,„,(9/r,)]E(i/^)-{-Z2Fs(x3,i/o,Z2)} =0.(k)
+From this last equation we deduce the following theorem : —
+AH points of the surface O = m the neighborhood of the curve
+are mapped upon a finite number of new neighborhoods which are
+1) neighborhoods of singular points of degree ^ m, which neighbor-
+hoods may be taken arbitrarily small ;
+2) neighborhoods of new multiple curves on surfaces constituted like
+the surface ^ (x, y, z) = of the lemma, the values of m thus arising
+never exceeding the original m of the lemma.
+By the same kind of reasoning as in § 1, 5, we show namely that for
+any one of the above values of a, the corresponding value of y^ being
+in or on the circle of convergence of the Taylor's development about
+the point z.2 = of the function
+^a(2/2)> A. = 1, 2, mi,
+all points of the surface $0 = i» the neighborhood of the curve
+4>{^,y) = ^, 2 = 0,
+are represented by points in the neighborhoods of points of the curve
+xz'^ + ri (2/0) Xg" -1 + + r„,^ (yo) = , Zj = ,
+on the surface $3 = 0, i. e. if such a value of y is b, so that the corre-
+sponding value of y, is (b — a), and if the roots of the equation
+xr^ + n (6 - a) X,"'-' + + r,„^ (b-a) = (/x)
+are ai, 02, a„, then points of the surface $2 =^ for which
+^2! < 8, l^ol < 3, !/ = b,
+are connected with the points of the surface (k) by the relation
+x^ = z„{x^ + a^), y„ = b — a, o- =1,2, m^.
+Further, if we limit y^ to a circle not reaching out to the nearest point
+for which qo(y.,) vanishes, we have an upper limit for a^- as a root of
+the equation (fx), and thus by taking ^2 and x^ small enough we can make
+X2 as small as we please. Then the transformations (8) and (Q still

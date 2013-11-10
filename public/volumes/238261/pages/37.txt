@@ -1,0 +1,50 @@
+30 PROCEEDINGS OF THE AMERICAN ACADEMY.
+at 0° C. The terms of the series which give the final temperature may
+be found without much difficulty by the aid of the numbers in the third
+column of Table V, Their values are
+1. +61.3980
+2. —19.6480
+3. + 7.8876
+4. - 3.7116
+5. + 1.8474
+6. - 1.0224
+7. + 0.5938
+8. — 0.3568
+9. + 0.2198
+10. - 0.1382
+11. + 0.0882
+12. - 0.0570
+13. + 0.0372
+14. - 0.0246
+15. + 0.0162
+16. — 0.0110
+17. + 0.0074
+18. — 0.0050
+19. + 0.0034
+20. - 0.0022
+etc., so that the temperature required is 47°. 12+ C.
+The terms of the series which give the final temperature at points for
+which z = 1, r = 2, can be found in a similar way by the help of the
+numbers in the third column of Table VI. Their values are
+1.
++57.8982
+2.
+-14.1020
+3.
++ 2.9988
+4.
+- 0.0904
+5.
+- 0.4716
+6.
++ 0.4020
+7.
+— 0.2192
+8.
++ 0.0782
+9.
+- 0.0018
+10.
+- 0.0254
+11.
++ -0.0256

@@ -1,0 +1,39 @@
+( 827 )
+published by Kalfmann ') in 1002. From each series lie has deduced
+two quantities ri and g, the "reduced" electric and magnetic dellexions,
+w
+which are related as follows to the ratio f^ = - :
+€
+Here if' (|i) is such a function, that the transverse mass is given by
+3 e'
+whereas l\ ank k.^ are constant in each series.
+It appears from the second of the formulae (30) that my theory
+leads likewise to an equation of the form (35) ; oidy Abraham's
+function /// (|J) must be replaced by
+3 8 ^ ^ '
+Hence, my theory requires that, if we substitute this value for
+If' (^) in (34), these equations shall still hold. Of course, in seeking
+to obtain a good agreement, we shall be justitied in giving to /(^ and /'.^
+other values than those of Kaufmann, and in taking for every measure-
+ment a proper value of the velocity h', or of the ratio /?. Writing
+3
+^>'/' -~ k' .^ and ^' for the new values, w^e may put (34) in the form
+4
+g
+^' = sk,- (3G)
+n
+and
+(i-n"''=^ > (37)
+Kaufmann has tested his equations by choosing for l\ such a value
+that, calculating ji and /., by means of (34), he got values for this
+latter number that remained constant in each series as w^ell as might
+be. This constancy was the proof of a sufticient agreement.
+I have followed a similar method, ushig however some of the
+numbers calculated by Kaufmann. I have computed for each measure-
+ment the value of the expression
+r, = (1 - p'VX.^) ^V (38)
+that may be got from (37) combined with the second of the equations
+(34). The values of tf' ii^) 'i-nd k.^ ha\e been taken from Kaufmann's
+tables and for ,?' I haxe substituted the value he has found for ^,
+multiplied by .y, the latter coefficient being chosen with a view to
+1) Kaufmann, Pliysik. Zeilsclir. 4 (^1902), p. uD.

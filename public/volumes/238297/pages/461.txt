@@ -1,0 +1,35 @@
+THE LAW OF ERROR. 435
+It is perfectly recognised by mathematicians that in
+each special case a special Law of Error may apply, and
+should be discovered and adopted if possible. ('Nothing
+can be more unlikely than that the errors committed in all
+classes of observations should follow the same law a / and
+the special Laws of Error which will apply to certain in-
+struments, as for instance the repeating circle, have been
+investigated by M. Bravais b . He concludes that every
+partial and distinct cause of error gives rise to a curve of
+possibility of errors, which may have any form whatever,
+a curve which we may either be able or unable to discover,
+and which in the first case may be determined by con-
+siderations a priori, on the peculiar nature of this cause,
+or which may be determined a posteriori by observation. '
+Whenever it is practicable and worth the labour, we ought
+to investigate these special conditions of error ; never-
+theless, when there are a great number of different sources
+of minute error, the general resultant will always tend to
+obey that general law which we are about to consider.
+Establishment of the Law of Error.
+Mathematicians agree far better as to the nature of the
+ultimate Law of Error than they do as to the manner in
+which it can be deduced and proved. They agree that
+among a number of discrepant results of observation, that
+mean quantity is probably the most nearly approximate
+to the truth which makes the sum of the squares of the
+errors as small as possible. But there are at least three
+different ways in which this principle has been arrived at
+respectively by Gauss, by Laplace, by Quetelet and by
+Sir John Herschel. Gauss proceeds much upon assump-
+a * Philosophical Magazine/ 3rd Series, vol. xxxvii. p. 324.
+b ' Letters on the Theory of Probabilities/ by Quetelet, transl. by 0. G.
+Downes, Notes to Letter XXVI. pp. 286-295.
+F f 2

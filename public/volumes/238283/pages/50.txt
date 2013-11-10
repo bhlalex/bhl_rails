@@ -1,0 +1,31 @@
+LEWIS. — THE LAW OF PHYSICO-CHEMICAL CHANGE. 53
+The total amouut of work gained, the sum of these terms, is equal to
+the total amount of heat transformed into work, that is,
+W, ^ W, + W, + W, = d Q = ^d T,
+from equation (3). Adding the terms we obtain,
+Q
+or writing so as to express the constancy of P,
+Q
+(9p\ _J
+T
+(7)
+This important result may be derived directly from equations (4) and
+(6) and for solids as well as liquids. Since the vapor pressure is a func-
+tion of the temperature, T, and the pressure on the surface, P, we may
+write
+^9 T J p \9 P y T
+Now, in general, when only a pure substance and its vapor are present,
+the change in pressure on the surface of the substance is merely the
+change in vapor pressure, that is,
+dP=dp.
+Moreover, ( ^^ ) = — , from equation (6), therefore,
+dp. • / ,\
+Substituting for -^ from equation (4),
+dT
+oritfe^ =A,
+9TL, v^T
+which is equation (7). "We have in this equation a marked simplifica-
+tion of the Clausius formula with no loss of exactness. We could now,
+by making the single assumption that the vapor obeys the gas law, throw
+equation (7) into the form analogous to (5), namely.
+\9T )p~ RT-'

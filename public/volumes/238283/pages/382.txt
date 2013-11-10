@@ -1,0 +1,69 @@
+MABERY AND GOLDSTEIN. — SPECIFIC HEATS OP HYDROCARBONS. 541
+Each hydrocarbon had been separated by a long process of distillatioa,
+and purified, by treatment with sulphuric acid, sodic hydrate, and drying
+over sodium.
+The determinations were made in a Bunseu ice calorimeter, to which
+was attached a capillary side tube 70 centimeters long, and the bore of
+such size that 1 centimeter contained 0.0579 grams of mercury. To
+maintain the temperature at 0° , the calorimeter was placed in a jar ot
+ice-water with an excess of ice, and this jar was placed in another jar
+and the space between filled with cotton. The calorimeter was filled
+with air-free water and dry mercury, and the inside film of ice, 2 to 3
+millimeters thick, was formed by evaporation of ether by an air blast
+within the inner tube. Approximately 2 grams of the hydrocarbon was
+placed in a small glass stoppered tube of thin glass, whose heat equiva-
+lent was determined. The tube and hydrocarbon were heated to 50°,
+in a larger tube placed in a beaker of water, kept at this temperature
+for at least 15 minutes, then transferred by a thread to the calorimeter.
+With care this could be done without loss of heat by radiation. The
+contraction of the mercury column was from 15 to 25 centimeters.
+This method can be used for the paraffine hydrocarbons from C6H14 to
+C16H34, the limit at which the hydrocarbons remain wholly liquid at 0°.
+After obtaining the water constant of the apparatus, three to six de-
+terminations of each hydrocarbon were made at the temperatures 0° and
+50°, with results given in the following table :
+Boiling Points.
+Specific Heat.
+CeHii
+68
+.5272
+C;-Hl6
+91
+.5005
+C^His
+98
+.5074
+CsHis
+125
+.5052
+^gll-iO
+151
+.5034
+W0H22
+162
+.4951
+^10^122
+172
+.5021
+^11^24
+195
+.5013
+^12 ^26
+214
+.4997
+^13H23
+226
+.4986
+CljHgo
+242
+.4973
+CisHga
+260
+.4966
+^161134
+275
+.4957
+Commercial Gasoline
+.5135
+Crude Ohio Petroleum
+.4951

@@ -1,0 +1,54 @@
+LEWIS. — THE LAW OF PHYSICO-CHEMICAL CHANGE.
+57
+Q,^, = Q, + ETln^- Q,, or Q, - Q, = Q,,, -ETln ^^.
+We may therefore write equation (9) as
+9 In
+n.
+9T
+QU2
+1 ^'
+>p
+BT' T
+Since we are dealing with infinitely dilute solutions in the same solvent,
+t/^i = p III and \p. = p Ha, therefore
+"^ r= — , and the above equation becomes
+4'2 ^2
+Pln^
+. 9 T
+Ql,2
+ET'
+in^
+7'
+(10)
+This is the desired equation connecting temperature and escaping
+tendency. Its form can be simplified by a slight rearrangement.
+Considering the quantity Tin -^ we notice that
+9T\n'tl 9\J'
+^^^T-^ + ln'^,ov
+9\J-^ . 9Tln'tl In?^
+^2
+9T ~ ' 9T ' ^"./.s'" dT
+Combining this equation with (10) gives
+£
+^
+{J/o
+^2
+9 T
+T
+9T\J-^
+IA2
+, 9T
+Ql.2
+ET
+(11)
+Leaving in this form for the present the equation connecting tempera-
+ture and fugacity at constant pressure, let us determine the influence of
+pressure on the fugacity at constant temperature. I have already dis-
+cussed this question in a previous paper,* but instead of using the
+general equation there derived it has seemed preferable to base all
+the reasoning of this paper directly upon the four laws stated in the
+introduction.
+Let us consider any simple substance and a solvent, so arranged f
+that the pressure upon the substance in question may be altered without
+* Loc. cit.
+t Several such arrangements are described in the paper just mentioned.

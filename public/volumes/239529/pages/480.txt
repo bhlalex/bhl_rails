@@ -1,0 +1,72 @@
+717
+a. The difference between the strongly and the slightly obscured
+regions is not noticeable at all with the bright D. M. stars up to
+6,5, and it is hardly noticeable with those up to the 8 th magnitude;
+it is only with those up to the 9 th that G and H differ considerably
+from the others. By the accidental uncertainty of the numbers the
+difference between the more or less obscured regions A — F is not
+clearly evident.
+b. The defect for the stars up to 15.9 is about as great as that
+for the stars up to 9.4. This corresponds to the results obtained by
+Dyson and Me lotte.
+c The Paris results for the fields E and F point to the fact that
+the logarithmic defect for the limiting magnitudes between 10 and
+15 is greater.
+If we take first the fields E and F, where the data are most
+complete, we see that their averages ( — 0,28, — 0,35, — 0,34
+— 0,59, — 0.40 for the 5 magnitudes), represented on our figure by
+open circles, concur pretty well with a curve (dotted in the figure)
+answering to £, = 5,5, £—1,5. The values of q x between 4 and 6
+with an absorption g<[2 give a maximum for the logarithmic defect
+for m 12 a 13, so that in this case we shall find, that the defect in
+stars for the magnitudes between the 9 th and the 15 th does not
+fluctuate very much.
+This, however, is contradicted by the results of the "Selected
+Areas' 1 . These could not be united with the former, because they
+comprise separate, smaller regions. The counts give the following results:
+Area 47 b = ~ 2l °
+Area 4/ surf. = 3600'
+b — -12°
+Area48 surf. = 1600'
+Number
+log N'
+log N'i N
+Number
+log N'
+log N>\ N
+>12.0
+>13.0
+>14.0
+> 15.0
+>16.0
+23
+29
+44
+70
+178
+1.36
+1.46
+1.64
+1.85
+2.25
+—0.32
+-0.58
+—0.73
+-0.83
+—0.75
+19
+37
+72
+84
+1.63
+1.92
+2.21
+2.62
+—0.15
+—0.25
+—0.31
+-0.22
+From the first field, falling within the region A of strong absorp-
+tion, we find :
+d. In the Selected Area 47 a regular, strong increase of the defect
+from the 12 th to the 15 th or 16 th magnitude is shown.

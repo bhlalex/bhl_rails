@@ -1,0 +1,37 @@
+422 PROCEEDINGS OF THE AMERICAN ACADEMY.
+Average deviation of two porous cup voltameters in series = ± y^^^
+Difference caused by sealing bottom of cup = — jq^^^
+Difference caused by use of zinc anode = ± ioo]ooo
+Difference (corrected) between gauze voltameter and cup voltameter ±0
+The agreement of these results is as close as could be expected, since
+the discrepancies do not exceed the possible experimental error. With
+Lord Rayleigh's method, when two precisely similar voltameters are
+compared, Kahle * and Rodger and Watson f have shown that an ac-
+curacy of 6 or 7 parts in 100,000 can be obtained. On the other hand,
+the least variation of size of kathode or anode, or of any other condition,
+causes large deviations which may amount to ten times as large an error.
+In our experiments given above, the most radical changes of method were
+introduced, without affecting the results.
+Among the efficient forms of apparatus described above, the porous
+cup voltameter with a silver anode is the most convenient. Hence for
+the further purposes of this paper it will be chosen as the standard
+method.
+II. The Separate Effect of each Anode Irregularity.
+It is obvious from the study of earlier work that more than one irreg-
+ularity exists at the anode in a silver cell ; and the separation and iden-
+tification of the individual effect of each irregularity became a matter of
+considerable interest. The outcome was instructive as an example of
+the multitude of hidden minor influences which so often modify the ob-
+vious outcome of chemical experiment.
+Qualitative testing revealed not only acid, but also nitrite, in the anode
+liquid ; and in those cases where the anode is very small, some experi-
+menters have indicated the formation of highly oxidized compounds of
+silver. Moreover, the singular crystalline silver dust which forms
+around the anode demands an explanation. In order to solve the prob-
+lem, of course an obvious available method was to introduce artificially
+each impurity in turn into the pure liquid around the kathode in the
+porous cup voltameter, and study its effect on the gain in weight of the
+kathode.
+The first impurity to be investigated was the nitrite. In order to pre-
+* Wied. Ann. N. F., 67, 22 (1809).
+t Phil. Trans., 186 A, G33 (1895).

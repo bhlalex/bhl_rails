@@ -1,0 +1,35 @@
+THE INDIRECT METHOD OF INFERENCE. 101
+C = some
+D = heavenly bodies,
+we have the premises
+A = AB, (i)
+CD = 6CD. (2)
+Now from (i) we can draw the Contrapositive
+b = ab,
+and substituting this expression for b in (2) we obtain
+CD = abCD,
+which expresses the conclusion of the argument that
+' some heavenly bodies are not fixed stars/
+Contrapositive of a Simple Identity.
+The reader should carefully note that when we apply
+the process of Indirect Inference to a simple identity
+of the form
+A = B,
+we may obtain further results. If we wish to know
+what is the term not-B, we have as before, by the Law of
+Duality,
+b = A.b [ ab>
+and substituting for A we obtain
+b = B6 -|. db = ab.
+But we may now also draw a second Contrapositive ; for
+we have
+a = aB -I- ab,
+and substituting for B its equivalent A we have
+a = ah. -I- ab = ab.
+Hence from the single identity A = B we can draw
+the two propositions
+a = ab
+b = ab,
+and observing that these propositions have a common
+term we can make a new substitution, getting
+a = b.

@@ -1,0 +1,41 @@
+185
+Hating the different quantities with respect to h and taking into
+consideration that p l has a constant value, we obtain :
+dM,' = d Pt + dMJ = dp f dM'.
+Omitting the constant we can write for the energy at the height h
+c, d^Q o 4 d*Q
+' aQ ~2dlt*~4!dh*""'
+1
+where q = — . Splitting this energy into a part e', corresponding to
+v
+the homogeneous phase and a part s", we may write
+e = V + s"
+Now the stationary equilibrium demands that both in the homo-
+geneous phase and in the passage layers fluid- vapour and fluid-
+solid wall
+s — XI] + p^v = \iM
+has a constant value. Here p^ represents therefore the pressure in
+the direction of the passage layer; in the homogeneous phase it has
+the same value as the constant pressure in the vessel. The equation
+expresses that layers lying in each other's neighbourhood will exchange
+the same number of particles in the same time.
+The change of the attraction (molecular pressure) in the direction
+of h from point to point is :
+dM,' = -2ydez=z— 2q (ds' + de") = 2uq d Q —2Q ds".
+This follows from the value of
+d*Q c, fdu
+v T ^ dh* 2 \dh
+in connection with
+c, d'Q
+8 = 8 n — ao .
+2 dh'
+dp -\- dM 1 = dp -\- 2ao dQ
+and so — 2Qch"=zdp or — 2ds"=vdp, whence p — p l =^ — I 2()de".
+For s — ri] -|- p 2 v = it M we may write s ' -(- e" — r x] -\- p v -f-
+~\~iPi — p)v = (jiM. By differentiation we find vdp-\-de"-\-d(p, — p)v=0,
+as dt' — xdri + pdv = \ this is evident when we regard the unit
+of mass (as homogeneous phase) as having first had the volume v
+at the height h and afterwards the volume v -\- dv at the height
+h -j- dh. For the passage from one state into the other we have:
+rdx] = de' -J- pdv.
+As further vdp= — 2dt", we have — de"-\-d{p t — p)v = and so

@@ -1,0 +1,35 @@
+92 THE PRINCIPLES OF SCIENCE.
+of any other gas u . This law is probably true only by
+approximation, but it is obvious that it would be true of
+the perfect gas with infinitely distant particles x .
+Mathematical Principles of Approximation.
+The whole subject of the approximate character of
+physical science will be rendered more plain if we con-
+sider it from a general mathematical point of view.
+Throughout quantitative investigations we deal with the
+relation of one quantity to certain other quantities, of
+which it is a function ; but the subject is quite sufficiently
+complicated if we view one quantity as a function of
+one other. Now, as a general rule, a function can be
+developed or expressed as the sum of certain other quanti-
+ties, the values of which depend upon the successive
+powers of the variable quantity. Thus, if y be the one
+quantity which is regarded as a function of x, then we
+may say that
+7/ = A + Bx-fCx 2 + Da 3 + Ea 4 +
+In this equation, A, B, C, D, &c., are fixed quantities, of
+different values in different cases. The terms may be
+infinite in number or after a time may cease to have any
+value. Any of the co-efficients A, B, C, &c., may be
+zero or negative ; but whatever they may be they are
+fixed. The quantity x on the other hand may be made
+what we like, being variable at our will. Suppose, in the
+first place, that x and y are both measurable lengths. Let
+us assume that 10> 1 000 part of an inch is the least that we
+can take note of. Then when x is one hundredth of an
+inch, we have x 2 = 10 * 000 , and if C be less than unity,
+the term C x 2 will be inappreciable, being less than we
+u Joule and Thomson, 'Philosophical Transactions/ 1854, vol. cxliv.
+P. 337-
+x The properties of a perfect gas have been described by Rankine,
+* Transactions of the Royal Society of Edinburgh/ vol. xxv. p. 561.

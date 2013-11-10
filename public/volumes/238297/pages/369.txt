@@ -1,0 +1,36 @@
+THE EXACT MEASUREMENT OF PHENOMENA. 343
+modes. When the moon is exactly half full, the moon,
+sun, and earth, are at the angles of a right-angled triangle.
+He proposed therefore at such a time to measure the
+moon's elongation from the sun, which would give him
+the two other angles of the triangle, and enable him to
+judge of the comparative distances of the moon and sun
+from the earth. His result, though very rude, was far
+more accurate than any notions previously entertained,
+and enabled him to form some estimate of the comparative
+magnitudes of the bodies. Eclipses of the moon were also
+very useful in ascertaining the longitudes of the stars,
+which were invisible when the sun w r as above the horizon.
+For the moon when eclipsed must be 180 distant from
+the sun ; hence it was only requisite to measure the
+distance of a fixed star in longitude from the eclipsed
+moon to obtain with ease its angular distance from the
+sun.
+In later times the eclipses of Jupiter have usefully
+served to give a measure of an angle ; for at the middle
+moment of the eclipse the satellite must be exactly in the
+same straight line with the planet and sun, so that we
+can learn from the known laws of movement of the
+satellite the longitude of Jupiter as seen from the sun.
+If at the same time we measure the elongation or ap-
+parent angular distance of Jupiter from the sun, as seen
+from the earth, we have all the angles of the triangle
+between Jupiter, the sun, and the earth, and can cal-
+culate the comparative magnitudes of the sides of the
+triangle by simple trigonometry.
+The transits of Venus over the sun's face are other
+natural events which seem to give most accurate measure-
+ments of the sun's parallax, or apparent difference of
+position as seen from distant points of the earth's surface.
+The sun forms a kind of background on which the place
+of the planet is marked, and serves as a measuring instru-

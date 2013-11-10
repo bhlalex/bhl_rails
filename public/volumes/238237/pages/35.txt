@@ -1,0 +1,21 @@
+32
+HAYES— DETECTION OF SUBMARINES.
+in phase for sound coming from any particular direction by properly
+adjusting the compensator. Also a similar adjustment of each
+compensator in the other three groups will bring the response from
+the three receivers of each group in phase at their respective junc-
+tions B, C, and D.
+For convenience the four junctions A, B, C, and D may be re-
+garded as four separate receivers located at points 2, 5, 8, and 11
+respectively. The responses from A and B can be brought together
+~3^ -(^
+Plate XII. Principle of M-V tube.
+in phase at E by means of another "■2-Spot" compensator and sim-
+ilarly the responses from C, and D can be brought in phase at F.
+Points E and F may, for convenience, be regarded as two sepa-
+rate receivers located at a point midway between 3 and 4 and be-
+tween 9 and 10 respectively. These two receivers connect with the
+ears through another compensator and the stethoscope leads L and
+R, and by properly adjusting the compensator the sound can be bi-
+naurally centered and the direction of the sound source determined
+with an ambiguity as to port or starboard. This ambiguity is readily

@@ -1,0 +1,40 @@
+which are the transmutated of the successive positive integral powers
+of x: the latter functions exist according to 2 and belong to the
+circle («). The above-mentioned theorem of Mac Laurin consists in
+slating the equality of the transmutations T and P, in a certain
+numerical tleld {a'), which is part of («) or identical with {((),
+if the further condition is added, that the latter transmutation is
+complete in {a') ^).
+In this statement there is something unsatisfying, if we compare
+it with Taylor's theorem for the Theory of Functions. The latter
+asserts: "if a function, in a certain circle, has some specified proper-
+ties (viz. a definite differential coefficient) it can be expanded in
+Taylor's series in that circle". It is therefore not necessarj- to impose
+further conditions on that series. Accordinglj' it would be desirable
+that also in the Functional Calculus the theorem might be stated in
+such a way that it were not necessary to impose any further con-
+dition on the series P corresponding to the given transmutation T,
+but that such conditions were implied in the properties of T. At the
+time it was our opinion that this was not the case. But now we
+are in a position to prove the following proposition:
+The series corresponding to a no r m a I additive transmutation
+represents a complete transmutation.
+For simplicity we consider a circular domain {o) round the origin
+as a centre and in this the infinite sequence of functions
+l,.r, .r', ...,r"', ... (4)
+to which, by definition, the infinite sequence of transmuted
+fee' ?i' Sa • • • !5»i' Ky)
+corresponds, the latter functions being regular in a circular domain
+(«)• If we denote by f an arbitrarily small positive quantity, then
+the sequence of functions
+1, , , ... , ... .... (6)
+derived from (4) converges uniformly to zero in the domain («).
+According to a simple property of continuity (I.e. II, n\ 1 1) the
+sequence of the transmuted of the latter functions, which, by the
+additive property of the transmutation, is represented by
+1) A transmutation P, represented by a series of the form (1), is called by me
+complete in a domain (a), if there is a certain circle {p), concentric with (a),
+such that all functions belonging to {p^ possess a transmuted, regular in (a). The
+minimum circle (y?), which may be taken for (/?), I called, the domain correspowdingr
+to («) (I.e. Vol. XIX, W. 6).
+1*

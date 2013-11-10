@@ -1,0 +1,42 @@
+( 682 )
+and the great change of the time of relaxation with the above men-
+tioned further change of b at the transformation from solid to liquid
+is explained on the same grounds. Still keeping this in view we may
+say that by prolonging the line hi till it reaches the solid state we
+have given what van der Waals calls the eqnation of state of the
+molecule.
+Now it follows immediately from this representation that the form
+of the connecting line Id must be taken as dependent upon the tem-
+perature and the inflection as decreasing and finally vanishing with
+rising temperature. Thus the above consideration of the form of the
+liquid ridge on the Gibbs' surface necessitates the assumption that the
+solid can be joined to the liquid ridge by a plait. This wdll be gene-
+rally perpendicular to the ^'-axis and will end in a plaitpoint i.e. this
+indicates the continuity of the gaseous and solid states of aggregation.
+With these considerations we have not treated the question whether
+the conditions in the plait which we assume to exist in the gap
+between the two states of aggregation (c.f. § 2 for outside the plait)
+are also conditions of equilibrium, labile or ollierwise. We have
+advanced no reason for this. This is as far as we know not done
+by othei'S either who have assumed the existence of similar condi-
+tions '). [n considering the vapour, we slated that there have not
+been observed metastable states connecting the solid with the gaseous
+and liquid states. However these appear very clearly and markedly
+between the gaseous and liquid states, and have an important bearing
+in the theory of van der Waals.
+Also it is not unlikely that van der Waals has never in his
+writings treated the continuity of the gaseous and solid states, and
+has expressly kept it in the background, because the use of such
+intermediate states as those above considered is only allowed theo-
+retically when it is shown — as van der Waals did for the inter-
+mediate vapour-liquid states — that these intermediate states may be
+treated as conditions of equilibrium. However we do not propose to
+determine "the molecular equation of state" from a given mechanism,
+but to seek for an empirical form for this from the known facts by
+induction. In this case we must use the most obvious analogies as
+indications and it is not allow^ed to deviate from the most simple
+suppositions without proving each step. With variable molecules it
+is probable that relations between entropy and volume can exist
+other than those which van der Waals has already treated in
+his equation of state based on the theory of cyclic motion. In order
+1) See especially Ostwald, Textbook of general cliemislry.

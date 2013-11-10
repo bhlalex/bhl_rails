@@ -1,0 +1,41 @@
+PROCEEDINGS OF THE AMERICAN ACADEMY.
+Two harmonic functions can only have the same level surfaces when
+one is a linear function of the other. If upon n given portions, Si, S^, S.^,
+. . . S,„ of a given closed surface, S, Fhas the constant values Oi, (7i, C3,
+. . . (7„, respectively, ami V the values, F {C^), F (C^), F (Gs), . . .
+F(C„), while upon the remainder of S, if there is any, the normal deriva-
+tives of V and V are zero, and if V and V are harmonic within S,
+V caunot in general be expressed as a linear function of V, and, if « is
+greater than 2, their level surfaces will not usually coincide. If n is 3,
+the condition of coincidence is evidently
+Ci F(00 1
+C. F(C,) 1
+C3 F(C,) 1
+= 0.
+(17)
+If U has the constant values Ci, Co, C3 ; V the constant values
+Ki, K2, A'a ; and W the constant values Zj, Z.j, L^ on Si, S.,, S^^, re-
+spectively, if the normal derivatives of these functions are equal to zero
+at every point of S not included in Si, S.,, or S3, and if all these func-
+tions are harmonic within S, W can always be expressed uniciuely in the
+form A(/+ UV-\- Z>, unless
+Ci Ki 1
+C\ K. 1
+c. a; 1
+= 0.
+(18)
+Before we were able to decide upon the forms and dimensions of our
+apparatus and upon the manner in which it should be used, we found
+it desirable to make some rather elaborate computations based on the
+mathematical solutions of certain problems in heat conduction. In de-
+scribing this work it will be convenient to state, first, some analytical
+results to which we sliull afterwards give various piiysical interpretations.
+We have purposely put these preliminary statements in purely mathe-
+matical language lest they should seem to be narrower in their applica-
+tions than they really are.
+(1) ,The square bases of a rectangular parallelopiped of height /are 2a
+long and 2 a broad. A function, V, harmonic within this parallelopiped,
+has the constant value V\ at the lower base and the constant value F, at
+the upper base. At every point of the other faces of the prism V satisfies
+the equation
+K^+/KF-F)=0, (19)

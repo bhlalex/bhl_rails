@@ -1,0 +1,43 @@
+( (^56 )
+If we draw the «f^^- and /^.^/ as ordinates and jj as abscis we obtain
+two curves which obviously touch each other at one point ; it is
+difficult, however, to define this point of contact precisely. If the
+same is done with p^j^ and jj^pi, the determination of the point of
+contact of the two curves is even less certain, owing to the circum-
+stance that, according to the table above, for x = 0,4035 =. p^-k ^Pxpi,
+which surely follows from the inaccuracy of the method. And the
+deduction of this point of contact from a graphical representation
+of the Vxk and i\-f,i is quite impossible because these volumes are
+known bv no means with sufficient accuracy.
+Therefore it seems to me that the best method is that of Quint
+who deduced the composition of the special mixture from the shape
+of the plaitpoint curve by searching on this curve the point where
+the bordercurve, Avhich terminates at that point, touches the plaitpoint
+curve. That point may be determined fairly accurately : we find
+for its coordinates 7/j =r 29'',0 and vk = Q^,S atms., whence again
+.,., = 0,44 and vt = 0,00500.
+By means of the gi-aphical representations of the t^^, jjj-j^ and v^k
+I find in the neighbourhood of .i-^- = 0,44, — ^ =:: — 20, — =— 30
+da; dx
+and — = 0,0020; hence « = — 0,07 /? = —0,50 and r = 0,40, so
+dx
+that the relations y = a — /? in - := 7,3 are confirmed in a satisfac-
+a
+tory way.
+By means of Quint's observations, by intei-- or extrapolation, partly
+also by using the law of corresponding states and the values of
+txk') pxk, ^xk found above, I have drawn the isothermals for the 6
+eX'-values considered, at the critical temperature 29". C. of the special
+mixture x = 0.44. Those isothermals are represented in the annexed
+figure, which thus shows the ^?-?;-diagram of the mixtures at the
+temperature 29°. C. The dot-dash line is the critical x = 0.44 with
+the critical point in C. The isothermal x = 0.40 is a dash line in
+the unstable part; owing to their small curvature the experimental
+isothermals are represented by straight lines. The border curve is
+a complete line like the observable parts of the isothermals.
+Under the p, t'-diagram I have represented the projection on the
+V, A'-surface. The critical isobar (63.8 atms.) is represented by a dot-
+dash line; some other isobars are drawn, like the projection of the
+connodal line (also projection of the afore-mentioned border curve),
+while the isobars in the unstable part, i. e. within the projection, are
+dotted. The temperature 29° being lower than the critical temperature

@@ -1,0 +1,24 @@
+HAYES— DETECTION OF SUBMARINES.
+19
+neither the maximum nor minimum is well defined it is impossible to
+determine direction with any degree of accuracy.
+The Mark II. receiver is very similar to the Mark I. except that
+it carries no sound screen. It is equally sensitive to sounds striking
+Ai
+/d.'^^K JT
+/^ ^ ^K ^
+Ajj^ifK^ '^M^fK
+Plate V. Principle of English listening devices.
+either side of the diaphragm. Thus there are two positions for the
+receiver where the sound intensity will be at a maximum and neither
+of these positions is" sharply defined. A sound proceeding in a
+direction parallel to the diaphragm afitects the two sides equally and
+in opposite sense so there is no motion of the diaphragm and the in-
+tensity of the received sound is practically zero. This minimum
+position is very sharply defined and will determine the direction of a
+sound with high accuracy except for an ambiguity of i8o degrees.
+In the Nash Fish and certain submarine installations both the
+Mark I. and the Mark II. are used, the line of direction being de-
+termined by the minimum setting on the Mark II. and the ambiguity
+being removed by the Mark I. These installations, especially the
+Nash Fish, are complicated due to the fact that remote control

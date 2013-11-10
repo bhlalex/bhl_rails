@@ -1,0 +1,36 @@
+INTRODUCTION. 21
+General Formula of Logical Inference.
+The one supreme rule of inference consists, as I have
+said, in the direction to affirm of anything whatever is
+known of its like, equal or equivalent. The Substitution
+of Similars is a phrase which seems aptly to express the
+power of mutual replacement existing between any two
+objects which are to a sufficient degree like or equivalent.
+It is a matter for further investigation to point out when
+and for what purposes a degree of similarity less than
+complete identity is sufficient to warrant substitution.
+For the present we think only of the exact sameness
+expressed in the form
+A = B.
+Now if we take the letter to denote any third con-
+ceivable object, and use the sign^in its stated meaning
+of indefinite relation, then the general formula of all
+inference may be thus exhibited :
+From A = B^C
+we may infer A ^ C
+or, in words In whatever relation a thing stands to a
+second thing, in the same relation it stands to the like or
+equivalent of that second thing. The identity between A
+and B allows us indifferently to place A where B was or
+B where A was, and there is no limit to the variety of
+special meanings which we can bestow upon the signs
+used in this formula consistently with its truth. Thus if
+we first specify only the meaning of the sign *o*, we may
+say that if C is the weight of B, then C is also the weight
+of A. Similarly
+If is the father of B, C is the father of A ;
+If C is a fragment of B, C is a fragment of A ;
+If C is a quality of B, C is a quality of A ;
+If C is a species of B, C is a species of A ;
+If C is the equal of B, C is the equal of A ;
+and so on ad infinitum.

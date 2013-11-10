@@ -1,0 +1,42 @@
+389
+tube through which the gas flows. We are not justified in accepting
+the diffusion formulae 6 or 3 there without reservation. On the
+contrary. On similar grounds as before on another occasion we
+rejected any thermodynamic calculation of electro-chemical gas-reac-
+tions on principle, we cannot unconditionally accept the application
+of the normal diffusion formulae here. For brevity we refer to the
+part dealing with this point of the cited paper. 1 )
+It seems, however, not devoid of interest, to demonstrate some
+points also in a direct way.
+We stated already that - — . 2,3.10 4 ccm. of univalent ions
+P
+are transported per mili-ampère.
+When we substitute in this e.g. A = 435 mA ^ = 0,76 mm., it
+would follow that also in the stationary state 96 ccm. (reduced to
+room-temperature) of gas flowed per second from the capillary, though
+the capacity of the whole capillary is only 0,2 ccm. ; moreover it
+should be considered that the gas in the capillary possesses a very
+high temperature, hence a very slight density. This is untenable.
+Though from the fact that the pressure effect at the anode (for the
+given value of /}) corresponds to an increase of pressure, we must
+conclude that at the anode a considerable quantity of charged atoms
+and molecules is discharged, we must certainly derive from the
+just given numerical example that the conduction of electricity in
+the luminous column takes place in a very important degree by
+free electrons, which are charged partially
+with matter (see figure) when entering the
+spherical space A. Further divested of any
+mathematical garment, the physical view
+arrived at must really deviate from that
+which led to the combination of equation
+(5) with the diffusion-equations.
+The application of the ordinary diffusion
+laws referring to the reflux of gas through CD now appears to be
+very questionable indeed. For the gas-molecules, which have partly
+originated through the discharge of tons at the anode, and are going
+to leave the space A for C, will for the greater part be scattered
+and charged by the electrons rushing from CD, after which they are
+again subjected to the electric field.
+When it is finally assumed that for pressures ranging between
+0,4 and 1 mm. no great variations in the bearers of the electricity
+!) L. Hambukger. Chem. Weekblad 16, 664 (1919).

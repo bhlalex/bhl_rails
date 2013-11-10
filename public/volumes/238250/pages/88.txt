@@ -1,0 +1,47 @@
+COLOR AND CHEMICAL CONSTITUTION 125
+spond in constitution to the two distinct forms, ketonic and enolic, of
+the free ethyl aceto-acetate. They may be graphically represented as
+follows :
+Ethyl ethyl-aceto-acetate Ethyl /3-ethoxy-crotonate
+(ketonic) (enolic)
+H
+3 — C— C— (
+O C 2 H 5
+CH 3 — C— C— C0 2 C 2 H B CH 3 — C=CH— O0>C 2 H 5
+C 2 H B OC 2 H B
+Upon examination of their absorption spectra, it was observed that the
+enolic compound exerts only a general absorption without a band,
+while the ketonic compound was practically free from absorption. This
+is exactly what might be anticipated from the results of Hartley, who
+had already shown that no difference exists between the absorption
+spectrum of the compound and that of its alkyl (here ethyl) de-
+rivative. Even a mixture of these two alkyl derivatives fails to
+show the presence of absorption bands in the spectrum. We may
+conclude, therefore, that an absorption band is not to be attributed
+,.to either the one or the other form of a tautomeric substance, but
+rather to the changing of one form into the other — a dynamical
+isomerism. If this intramolecular transformation is the source of the
+disturbance which produces the absorption bands, then an acceleration
+of this transformation should show itself in the increased persistence
+of the band, while retardation of the same should diminish this per-
+sistence. For some time it has been known that alkalies exert a
+marked positive influence upon the velocity of tautomeric changes and,
+as may be naturally inferred, acids retard this change. On the addi-
+tion of a small amount of sodium hydroxide to a solution of ethyl
+aceto-acetate, the form of the absorption-curve changes at once and a
+band appears. On the further addition of alkali, the depth of this
+curve, that is the persistence, increases until it reaches a maximum
+corresponding to the presence of a large excess of alkali. The absorp-
+tion-curve of the aluminium derivative of this ester has not the per-
+sistence of that of the sodium salt when the sodium hydroxide is
+present in excess of one molecular equivalent. "With the addition of
+hydrochloric acid a retarded action is developed and even the absorp-
+tion curve for the free ester is seen to diminish slightly in its persist-
+ence when an excess of acid is present, indicating, therefore, that the
+free ester is not entirely ketonic, but is in equilibrium with a very
+small quantity of its enolic modification. Spectroscopic evidence
+points out that the persistence of the absorption bands over concentra-
+tion changes is directly proportional to the number of molecules in the
+state of oscillation or, in other words, is a measure of the dynamical
+isomerism between substances in equilibrium with each other.
+From these considerations it is evident that this dynamical isomer-

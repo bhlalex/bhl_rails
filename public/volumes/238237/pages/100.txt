@@ -1,0 +1,196 @@
+MILLER— PARALLAXES OF FIFTY STARS.
+129
+No. 36. B.D. -f 27°.339i. 2 2525. (ig^ 22^5; + 27° 7'.)
+Mag. 7.5. Spectrum G.
+The measures are in longitude. This is a binary of long and un-
+certain period. The components are separated by about ©".5. The
+combined image of the components seemed sHghtly elongated. This
+image was bisected in the measures. Russell gives a hypothetical
+parallax of o".025 for this star.
+Hour
+Time in
+Parallax
+Date.
+Angle.
+Obs.
+100 Days,
+Factor, Solution, Wt.,
+Res.,
+Meas-
+h. m.
+r.
+P.
+m. p.
+t'. ured by
+Aug.
+25,
+1915..
+. +0 10
+P.
+—3-59
+—0.557 —0.155 .8
++0.007
+Sm.
+Sept.
+7,
+1915-
+• —0 3
+P.
+346
+.725
+.143 i-o
+—0.005
+Be.
+Sept.
+13,
+1915..
+. +0 2
+P.
+340
+.791
+.155 -8
++0.008
+Be.
+May
+20,
+1916. .
+• -fo 14
+M.
+— 0.90
++0.861
+•115 -5
+—0.0 1 1
+Sm.
+June
+I,
+1916.
+. —0 8
+P.
+0.78
+.738
+.126 .5
+.000
+Be.
+June
+4,
+1916.
+7
+P.
+0.75
+.702
+.141 .6
++0.015
+Sm.
+June
+12,
+1916.
+• +0 19
+S.
+0.67
+.600
+.117 .8
+— 0.008
+Be.
+Aug.
+18,
+1916.
+. 4-0 20
+P.
+— 0.00
+—0.465
+.116 .9
+— 0.008
+Sm.
+Aug.
+25,
+1916.
+37
+P.
++0.07
+.567
+.122 .9
+.002
+Be.
+Sept.
+21,
+1916.
+52
+M.
+0.34
+.872
+.123 .8
+.000
+Be.
+June
+I,
+1918..
+• —0 47
+D.
++6.52
++0.743
+.083 i.o
++0006
+Sm.
+June
+8,
+1918..
+56
+D.
+6.59
+.660
+.074 -9
+— -003
+Sm.
+Normal
+Equa
+tions:
+H- 9.5000 c 4-
+I
+9080 fi -
+- 0.3921-
+rr — I.I
+519-
++
+114
+•6285 + 134329
+— + 0.5674.
++ 4-5374
+- + O.I
+503-
+Solution: c = — o".i22.
+/A= + o".03i ± o".oo3.
+TT = + o".oi3 dz o".oi3.
+p. e. unit weight, ± ".023.
+Comparison Stars.
+No.
+X.
+Y.
+Dependence.
+Diameter.
+B. D. No.
+I
+-163.6
+— 171.2
++0.332
+0.59
++26° .3550
+3
++ 72.8
+76.8
+.210
+0.40
+5
+147.6
++ 109.6
+■193
+0.44
+6
+41.2
+196.4
+.265
+0.39
+JT
+0.0
+0.0
+0.63
++27°.339i

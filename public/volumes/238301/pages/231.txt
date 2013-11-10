@@ -1,0 +1,35 @@
+334
+THE POPULAR SCIENCE MONTHLY.
+of induction gives you over these wonderful and complicated phenom-
+ena. By those principles the various facts of our science are bound
+together to an organic whole. But we have not yet exhausted the
+fruit fulness of this principle.
+Consider the following problem. Usually we allow the electricity
+of the outer coating to escape to the earth. Suppose we try to utilize
+it. Place, then, your jar upon vulcanized India-rubber, and connect
+its outer coating by a wire with the knob or inner coating of a second
+jar. What will occur when the first jar is charged ? Why, the
+second one will be charged also by the electricity which has escaped
+from the outer coating of the first. And suppose you connect the
+outer coating of the second insulated jar with the inner coating of a
+third; what occurs? The third jar will obviously be charged with
+the electricity repelled from the outer coating of the second. Of
+course, we need not stop here. We may have a long series of insu-
+lated jars, the outer coating of each being connected with the inner
+coating of the next succeeding one. Connect the outer coating of the
+last jar with the earth, and charge the first jar. You charge thereby
+the entire series of jars. In this simple way you master practically,
+and grasp the theory of the celebrated ^''cascade battery''^ of Frank-
+lin, represented in Fig, 26, with coated glass tumblers. A, J3, C, Z*,
+Fig. 26.
+and so on. You must see that, before making the experiment, you
+could really have predicted what would occur. This power of pre-
+vision is one of the most striking characteristics of science.
+Sec. 19. Novel Ley den- Jars of the Simplest Form. — But, possessed
+of its principles, we can reduce the Leyden-jar to a far simpler form
+than any hitherto dealt with. Spread a sheet of tin-foil smoothly
+upon a table, and lay upon the foil a pane of glass, somewhat
+smaller than the foil in size. Remember that the glass, as usual, must
+be dry. Stick on to the glass by sealing-wax two loops of narrow
+silk ribbon, by which the pane may be lifted; and then lay smoothly
+upon the glass a second sheet of tin-foil, less than the pane in size.

@@ -1,0 +1,39 @@
+PEIRCE ANP VVILLSON. — THERMAL CONDUCTIVITIES. 49
+Experiment (a). A compound slab, made up of slabs Z? and A with
+their thermal elements, was placed between two other glass plates to form
+a prism. The thickness of B is 0.950 cm. and of A 0.935 cm. In the
+final state of the prism, the thermal elements on the warmer face of B,
+between B and A, and on the colder side of A, indicated 88°. 1, 63°. 4,
+and 38°. 9 respectively. A fall of 14°. 7 in 0.950 cm. is very nearly equal
+to a fall of 14°.5 in 0.935 cm.
+Experiment (b). In the final state of a prism made up of slabs A and
+B shut in between two other glass plates, the thermal elements on the
+warmer face of A, between A and i?, and on the colder face of B,
+indicated 85°.0, 62°.2, and 39°. 1 respectively. A fall of 22°. 8 in
+0.935 cm. is very nearly equal to a fall of 23°. 1 in 0.950 cm.
+Experiment (c) . Three slabs A, C, and E of the standard glass with
+three other glass plates, which we may denote by F, Q, and H, were
+built up into a prism PA Q C E R with thermal elements between P and
+A, A and Q, Q and (7, E and R. In the final state the temperatures
+of the thermal elements were very nearly 88° .2, 74°. 2, 58°.8 and 30°.0,
+respectively, so that the gradient in the slab A of thickness 0.935 cm. is
+almost exactly the same as in the double slab G E oi thickness 1.93 cm.
+There seemed to be, therefore, no appreciable contact resistance (Ueber-
+gangswiderstand) between the two slabs.
+Experiment (d). After experiment (c) had been finished, a narrow
+ring of blotting paper, the inside diameter of which was only slightly less
+than the diameter of the disks, was inserted between C and E so as to
+have a dead air space between them 0.7 mm. thick, when the prism was
+under pressure. In the final state the temperatures were now 89°. 9,
+78°. 3, 66°. 5, and 25°. 9, so that in this particular case the dead air space
+was nearly equivalent to a glass plate 4.8 mm. thick.
+Experiment (e). In this experiment Plate III., of 0.875 cm. thick-
+ness, was a part of a prism heated in the larger apparatus intended for
+the determination of absolute conductivities. The temperatures of the
+thermal elements on the faces of the plates in the final state were 69°. 7
+and 58°.8 respectively. In 9060 seconds 464.5 grams of ice were melted.
+Assuming the area of the bottom of the ice pot to be 126.7 square centi-
+meters and the latent heat of melting of ice to be 79.25, this corresponds
+to a conductivity of 0.00258. It is obvious, however, that the last
+figure of this number is not quite definitely determined.
+VOL. XXXIV. — 4

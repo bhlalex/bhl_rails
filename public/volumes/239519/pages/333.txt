@@ -1,0 +1,39 @@
+5O0 POPULAR SCIENCE MONTHLY.
+CHAPTEES ON THE STARS.
+By Professor SIMON NEWCOMB, U. S. N.
+THE SPECTEA OF THE STARS.
+THE principles on which spectrum analysis rests can be stated so
+concisely that I shall set them forth for the special use of such
+readers as may not be entirely familiar with the subject. Every one
+knows that when the rays of the sun pass through a triangular prism
+of glass or other transparent substance they are unequally refracted,
+and thus separated into rays of different colors. These colors are not
+distinct, but each runs into the other by insensible gradations, from
+deep red through orange, yellow, green and blue to a faint violet.
+This result is due to the fact that the light of the sun is composed
+of rays of an infinite number of wave-lengths, or, as we might express
+it, of an infinite number of shades of color, since to every wave-length
+corresponds a definite shade. Such a spreading out of elementary
+colors in the form of a visible sheet is called a spectrum. By the spec-
+trum of an incandescent object is meant the spectrum formed by the
+light emitted by the object when passed through a refracting prism, or
+otherwise separated into its elementary colors. The interest and value
+which attach to the study of spectra arise from the fact that different
+bodies give different kinds of spectra, according to their constitution,
+their temperature and the substances of which they are composed. In
+this manner it is possible, by a study of the spectrum of a body, to
+reach certain inferences respecting its constitution.
+In order that such a study should lead to a definite conclusion, we
+must recall that to each special shade of color corresponds a definite
+position in the spectrum. That is to say, there is a special kind of light
+having a certain wave-length and therefore a certain shade which will
+be refracted through a certain fixed angle, and will therefore fall into a
+definite position in the spectrum. This position is, for every possible
+kind of light, expressed by a number indicating its wave-length.
+If we form a spectrum with the light emitted by an ordinary in-
+candescent body, a gaslight for example, we shall find the series of
+colors to be unbroken from one end of the spectrum to the other. That
+is to say, there will be light in every part of the spectrum. Such a
+spectrum is said to be continuous. But if we form the spectrum by
+means of sunlight, we shall find the spectrum to be crossed by a great
+number of more or less dark lines. This shows that in the spectrum of

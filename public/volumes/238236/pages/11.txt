@@ -1,0 +1,59 @@
+electrons from the outer shell of the atoms and
+electrons separated from atoms or "free elec -
+trons. " The process of formation of X rays
+takes place in a vacuum tube filled with rarefied
+gas where by application of high voltage across
+the tube, free electrons are split off from indi-
+vidual atoms and directed at a very high speed
+toward the anode, thus forming a beam of "cath-
+ode rays. " The electrons are propelled in the
+tube at a speed approaching that of light. In
+order to impart such speed to electrons it is
+necessary to expend a large amount of energy,
+which is derived from a special source of cur-
+rent. If a metal plate is placed in the path of the
+electrons, they will strike it with tremendous
+force; their speed diminishes abruptly, and at
+that instant X rays are formed. This plate has
+to be made from a metal with a very high melt -
+ingpoint since electronic bombardment generates
+a large amount of heat. The plate is called the
+anode of the tube and the tube itself an X-ray
+tube. The most prevalent type of electronic tube
+is the so-called Coolidge tube which was made
+first in the United States in 1913. The X-ray
+tube is essentially a container from which the
+air has been pumped. Inside the container are
+two electrodes; one is connected to the anode,
+the other to the cathode, which constitutes the
+source of electrons (Fig. 1.) X rays are short
+wave electromagnetic radiations ranging in
+wave length from 0.02 to 100 angstroms, a
+unit of length equivalent to 1/10, 000 jli or
+1/lOm/j.. The energy radiated by the tube is
+not all of the same kind, it consists of both
+short and long wave radiation. The qualitative
+composition of the radiation depends on the
+voltage: the greater the voltage, the greater
+the quantity of short wave rays produced.
+X rays are invisible and can be detected only
+by their action. Three basic means are used to
+detect rays: 1) fluorescence, 2) photography, and
+3) ionization. The first method is based upon
+the ability of X rays to cause visible lumines-
+cence in certain substances. If a screen is made
+from such substances, it will light up every time
+that X rays impinge upon it (fluoroscopic exami-
+nation is based upon this principle). The photo-
+graphic action of X rays is similar to fluores-
+cence but more pronounced. It is possible, for
+example, to obtain photographic prints by means
+of X rays. These prints can be retained as doc-
+umentary evidence for an indefinite period.
+Kostov (1943) has had great success in photo-
+graphing ears of wheat by means of X rays, a me-
+thod that enables him to obtain not only the ex-
+ternal morphological appearance of the ears, but
+even the extent of development of the kernels inside
+;#&*»
+FIGURE 1. X-ray apparatus in action.

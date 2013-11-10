@@ -1,0 +1,43 @@
+( 587 )
+make the corresponding isothermals of tlie different diagrams coincide
+by shifting them only in the direction of the log v-axis.
+I found tliat it was not possible to place the diagrams in such
+a way over each other that the isothermals of the whole system
+coincided ; I, however, succeeded for the large volumes. According to
+Kamerlinoh Onnes this signifies that in the mixture the coel'ficients
+A,B,C,D,E,F of his series do not hang together with the coefficients of
+the pure substance at corresponding temperatures in such a manner as
+would follow from the law of corre8[)onding states, but that for the
+volumes where the terms with D, E, F in comparison with the others
+are still so small that we ma_y neglect the differences between these
+terms and those given by coefficients which would obey the law
+of corresponding states, the diagi-ams will coincide over such a large
+range of temperature that B and (' may still be regarded as corre-
+sponding functions of temperature, hence a critical temperature and
+a critical pressure holding for this range of volume and temperature
+may be deduced from the law of cori-esponding states.
+On the plate the diagrams are placed over each ' other so as
+to give the best agreement for the larger volumes. In the hori-
+pv
+zontal direction loij v is drawn, in the vertical hg — . The complete
+lines refer to carbon dioxide, the dash lines to the lirst mixture,
+the dash-dots lines refer to the second mixture. The points for
+carbon dioxide are enclosed in circles, those for the iirst mixture in
+triangles, for the second in squares. The different isothermals are
+indicated by the letters a, h, etc., with which they are communicated
+in IV § 2 and V §§ 2 and 3. The points at the beginning and the
+end of the condensation are marked by h.c. and e.c. ; they are con-
+nected by curves which thus sej^arate the homogeneous area from
+the area where separation occurs. Finally the plaitpoints and the
+points of contact are indicated by P and R, K is the point adopted
+according to IV ^ 5 for the critical point of carbon dioxide.
+It appears that the agreement for volumes larger than the critical
+is very satisfactory. In the smaller volumes, howe\'er, considerable
+systematic deviations from the law of corresponding states occur.
+We ha^'e already used these diagrams to determine the critical
+temperature, pressure and volume in the sense as explained above
+for the different mixtures. Although these results are satisfactory
+they will not be given here, as more accurate results may be expected
+from the same operations with diagrams projected on double the
+scale for the part concei-ned.
+If on a j>7^-diagram we draw the point of contact- and the plait-

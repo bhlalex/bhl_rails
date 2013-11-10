@@ -1,0 +1,43 @@
+( 492 )
+rp I Vapour tension I Mol. vols, of the
+^*" j in m.m. Hg. I vapour in liters
+133
+7C.(l
+33.35
+I3r,
+HOO
+31.82
+150
+900
+27.49
+160
+1000
+27.02
+170
+1010
+27.37
+185
+900
+31.75
+191
+7G0
+38.09
+Fig. 5.
+/ /3€ t^c /^ /<^^' '/o f^^ 'p >''^
+T
+laximinn at 170°
+The figures 5 and 6 are graphical represeulatioiis of the pt- and
+the rt-cm-vQS.
+We see, that tlie niaxiinuni in the j)t-cuvve lies at al)ünt 170',
+and that the niininiuni in the /V-eiirvL' lies at 101". The nia.xiniuni
+in lig. 5 is therefore not found at the same temfjerature as the
+niininiuni in tig. 6. (j). 403).
+Thai this must l)e the case can he easilv proved In applying the
+ecpialion /'r=//7'. If we diflei-enliale this (Mpiatiou, we get:
+dv dT dp
+7 " ~t'~~p
+or
+dv ^ f ^ -^ '^J'
+dv ^ ■ 1
+For the minimum in the i'/-curve -= =r is therefore
+dl

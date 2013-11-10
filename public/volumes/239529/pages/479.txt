@@ -1,0 +1,45 @@
+7J4
+greatly divergent from the average. This difficulty disappears, if the
+accidental irregularities can be abolished by reduction to one system,
+which is feasible if a great number of plates are joined so as to
+partly cover one another. With chart-plates this does not happen
+anywhere; but it does in the case of the Paris catalogue-plates, of
+which the zones 22°, 23° and 24° have been published complete.
+As in this case the centres of the one zone concur with the corners
+of an adjoining zone, each plate has a quadrant in common with
+each of the 4 surrounding plates. In this way it was possible to
+reduce all the plates of these three zones between S'^ö" 1 and 5 h 32 m
+to their average. A few particulars regarding this reduction will
+be added here.
+Two consecutive plates a and b of the central zone (23°) can be
+joined together by a plate of the iV-zone (24°) c, which has a qua-
+drant in common with both, and also by one of the *S-zone (22°) d.
+2 .1
+If we call the quadrants
+4.3
+J) Cj
+the density (b) : density (a) = — X — ,
+c 4 flt,
+and likewise = -j- X ~ "« For the logarithmic difference in density of
+a, a 4
+every two consecutive plates of the central zone we get therefore
+two values, the concurrence of which gives a measure of the aceu-
+rateness obtainable. We must bear in mind that the quadrants on
+the adjoining plates do not accurately concur, because of the con-
+vergence of the declination-circles, and because they stretch 65'
+from the centre. The results obtained, starting with log d (3 h 24 m )
+— logd(3 h 16 m ) and ending with log c/(5 h 40 m ) — log rf(5 h 32 m ) (in
+units of the 3rd decimal), are:
+from de N. plate +046 +070 —161 +030 +216 —240 +029 +369 -002
+from de S. plate +027 +106 —335 +233 +298 —535 —115 +490 -073
+adopted +036 +088 —248 +131 +257 —387 -040 +430 -037
++639 —816 +807 —552 +359 +094 —529 +500 —165
++469 —856 +637 —531 +382 +168 —588 +451 —120
++554 —836 +722 —541 +370 +131 -558 +476 -142
+Herefrom for every plate of the middle-zone the deviations from
+a medium-value were deduced and from these numbers the same was
+found for the N- and the S-zone ; these values, with contrary sign,
+give the logarithmic reduction for each plate, the logarithm of the
+factor, by which the number of stars on that plate is to be multiplied,
+in order to count for the same average limiting magnitude. They
+are in the sequence of decreasing R.A.:

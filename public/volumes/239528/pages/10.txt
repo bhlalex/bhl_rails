@@ -1,0 +1,38 @@
+INTRODUCTION
+As a result of human activity, polychlorinated biphenyls (PCBs) are now
+distributed worldwide, with measurable concentrations reported in polar bears
+( Ursus martinus ) from the Canadian Arctic, birds and fish from the Great
+Lakes, wildlife in Europe, Scandinavia, and the United Kingdom, marine
+organisms of the Atlantic and Pacific Oceans, and up to 91% of the adult human
+population in the United States. Their presence in the organisms has been
+shown to cause reproductive failure, birth defects, skin lesions, tumors,
+liver disorders, and, among sensitive species, death. PCB toxicity is further
+enhanced by their ability to bioaccumulate and to biomagnify within the food
+chain due to extremely high 1 iposolubi lity. These, and other, biological
+effects of PCBs have been extensively reviewed by Ayer (1976), Roberts et al .
+(1978), NAS (1979), EPA (1980), Pal et al . (1980), D'ltri and Kamrin (1983),
+Fleming et al . (1983), Ernst (1984), Stickel et al . (1984), Safe (1984),
+Simmons (1984), and Lucier and Hook (1985a, b).
+PCBs, a group of synthetic halogenated aromatic hydrocarbons, were first
+prepared in 1881, and since 1930 have been in general use in products that
+include heat transfer agents, lubricants, dielectric agents, flame retardants,
+plasticizers, and waterproofing materials (Roberts et al. 1978). After 1971,
+they were used almost exclusively as insulating or cooling agents in closed
+electrical systems, such as transformers and capacitors (NAS 1979).
+Environmental contamination resulted from industrial discharges, from leaks of
+supposedly closed systems, from disposal of PCB wastes to municipal sewage
+treatment plants, landfills, and equipment dumps, and especially through
+atmospheric transport of incompletely incinerated PCBs. Long-range
+atmospheric transport of PCBs by wind, rain, and snow is now well documented
+(NAS 1979). PCBs tend to bond tightly to particulate matter, notably soils
+and sediments of lakes, estuaries, and rivers, where they may remain available
+for resuspension for at least 8 to 15 years (Swain 1983). The North Atlantic
+Ocean seems to be the dominant sink for PCBs, accounting for 50 to 80% of the
+PCBs in the environment, while freshwater sediment is a major continental
+reservoir (NAS 1979). Other significant reservoirs of mobile PCBs still exist
+along with even larger, currently immobile, pools. The latter includes those
+materials containing PCBs that are still in service, and those deposited in
+landfills and dumps.
+Between 1930 and 1975, more than 630 million kg of PCBs were manufactured
+domestically (Safe 1984). At present, PCBs are not produced in the United
+States. PCB legislation under the Toxic Substances Control Act, effective

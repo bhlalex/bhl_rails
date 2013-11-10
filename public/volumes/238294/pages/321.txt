@@ -1,0 +1,41 @@
+( 826 )
+eorrcspoiidiii.u', in llio lu.iiiiier S[>eciüed in § iO, to the circular paths
+descrihod iji the other ease.
+§ 12. Jt remains to say some words about molecular motion. We
+may conceive that bodies in which this has a sensible influence or
+even predominates, undergo the same deformation as the systems of
+j)articles of constant I'elative position of whicii alone we have spoken
+till now. Indeed, in two systems of molecules 2£' and ^, the first
+without and the second with a translation, we may imagine molecular
+motions corres[)onding to each otiier in such a way that, if a particle
+in ^"' has a certain j)Osition at a definite instant, a particle in -^^
+occupies at the corresponding instant the corresponding position. This
+being assumed, we may use the relation (33) between the accelera-
+tions in all those cases in which the velocity of molecular motion
+is very small as compared to ir. In these cases the molecular forces
+may be taken to be determined by the relative positions, indepen-
+dently of the \elocities of molecular motion. If, finally, we suppose
+these forces to l)e limited to such small distances that, for particles
+acting on each other, the ditfei'ence of local times may be neglected,
+one of the particles, together with those which lie in its sphere of
+attraction or repulsion, will form a system which undergoes the
+often mentioned deformation. In virtue of the second hypothesis
+of § 8 we may therefore apply to the resulting molecular force
+acting on a t)article, the equation (21). Consequently, the proper
+relation between the forces and the accelerations will exist in the two
+cases, if we suppose that the masses of all particles are influenced
+by a translation to the same degree as the electroniagnetie masses of
+the eJectrons.
+§ 13. The values (30) which I have found for the longitudinal and
+transverse masses of an electron, expressed in terms of its velocity, are
+not the same as those that have been formerly obtained hj Abraham.
+The ground for this difference is solely to be sought in the circnm"
+stance that, in his theory, the electrons are treated as spheres of
+invariable dimensions. Now, as regards the transverse mass, the
+i-esults of Abraham have been confirmed in a most remarkable way
+by Kaufmann's measurements of the deflexion of radium-rays in
+electric and magnetic fields. Therefore, if there is not to be a most
+serious objection to the theory I have now })roposed, it must be
+])Ossible to show that those measurements agree with my values
+nearly as well as with those of Abraham.
+1 shall beuin bv discussing two of the series of measurements

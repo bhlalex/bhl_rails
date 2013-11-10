@@ -1,0 +1,42 @@
+( r)()4 )
+of („ by r,,, r. /'„, ''/-+i ^vc liiid llic iM|ii;ili(»us (1') oxteii<lc(l IVoiii
+(/^1,2) lu (/ = J. 2, . . . . // — J), wliicli (M|ii;ili(»)is cjuise llic ;il)(»ve-
+meiitioned 3(y/ — 1) equations to pass into tlie (Miuations (2'j, in liie
+same war extended from (/ =: 1, 2) to (/= 1, 2, . . . , n — i).
+4. Accordinu' to this iiolalioii lli(> system of the oy/ Pi.ïckkr's
+iiiiiulxM's of ('„ consists of three uiroiips : a Liroii|) of // -|- 2 tpiantilies
+r (numhcrs of rank),. a .ui'oiip ofv/ 1 (|iiaiilili('s r/ (iiiimhers of (h)iii)le
+points), a group of // — 1 (|iianlities / (uiuuIxm-s of (htuhlc taugeuls).
+We shall now indicate what is the exact siuiiilicalion (»l'lho>e t|iianlilies.
+Xnmhi'is of rdiiL We consich'r >\,, r^,, /';,_i sepai'ately.
+\\\ /•,, we understand the numltei- of siationaiy points of ('„ i.e.
+the mnnher of the points Ihrou.uli which //-j- i successive spaces
+N,) -1 through // successive poiids of the curve |)ass.
+1^'or yy = 1, 2, . . . , // we liiid ihal y^, iu(Hcale> ho\v many spaces
+;S^,_i throngii /> successive ixtinis of ('„ cut any space \^,; of these
+numlters /'i is th(^ order and r,, the class of ( \t.
+The Jiumher of stationary sjjaces /S,_-i of ('„., i.e. the mnnher of
+spaces S,^ \ ihrmigh // -[- 1 successive poiiils of (_\, is indicated
+by y'„-|_i.
+Xiinihers of (loiil)l(' poii/fs. 'j"he (pianlily r/,, is the nund)er of
+double points of th<^ section ( '^ of the hicus of the spaces .S^,_i
+through j) successive points of (-],-\-\ with a plane situated in the
+space ,s^,-|-i of that curve. So by returning from the projection ^),-fi
+to the given curxe ( \, we find the foHowing: If Ave ])rojecl th(^
+single inluiite number of spaces ,S^, i through /> successive ])oin1s of
+Cn out of any space ^„^,,-2 ^v(' hn<l -^ single intinile luunber of
+spaces ;Si-2 i^ii<l therefore a twofold inlinite number of intersections
+/S'„_4 of two non-successive spaces »S,-o . The locus of those spaces
+;S', 4 is a curved siiace ^vilh n — 2 dimensions, cut in a certain
+number of poiiUs by any plane. This numl)er of points, at the same
+time the order of this cnr\ed s|)ace, is d^,.
+Xiniihi'i's of «loiihic taiKjciits. The (piantity t^, is the minibei- of
+(p)
+<louble tangents of C-, . By ascendmg trom f^.^-i to f„ we ai-rive
+at the following: By projecting the single intinite mimbei' of spaces
+,s^, through 7>+l successi\e points of Cn out of any space >S'i y;-2,
+we lind a single infinite number of s[»aces ,S'„_i euveloi»ing a ciu-ved
+space of n — 1 dimensions. The mnnher of doidile tangents of any
+plane; section of this envelope is /,.
+For the rest it is easy to see that the lumdters d^, and /„_^, refer
+to ([uanlilies dnalistically o[)posite iji the space ;S'„.

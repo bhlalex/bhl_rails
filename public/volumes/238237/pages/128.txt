@@ -1,0 +1,38 @@
+ADAMS— THE EINSTEIN THEORY. 179
+the sun. In the same way, the two principles of physics that have
+kept their vaHdity — the law of the conservation of energy and the
+second law of thermodynamics — grew out of the failure to find any
+violations of them. As is the case with these two laws, the prin-
+ciple of relativity may be stated in a number of alternative ways.
+From the gravitational point of view Jeans has stated this principle
+" A planet cannot describe a perfect ellipse about the sun as focus,"
+and this statement expresses very distinctly the failure of the
+Newtonian mechanics to account for all known physical phenomena.
+Now instead of trying to modify Newton's laws of motion,
+Einstein goes back of them and uses views of space and time which
+are different from those upon which the Newtonian mechanics is
+founded. For the purpose of describing natural phenomena the
+Euclidean space has almost universally been considered sufficient.
+Whether or not Euclidean space represents anything which has
+a real existence has been a doubtful question among mathematicians
+from the earliest times. Other systems of geometry have been
+developed, following closely the plan of Euclid, keeping some of his
+axioms and rejecting others, and the consequences examined.
+Riemann, however, in his essay on the " Hypotheses which are the
+Foundation of Geometry " introduced a new system of geometry, and
+the development of Riemann's geometry supplied the altered concep-
+tion of space and time necessary for the Einstein theory.
+The Riemann geometry bears a relation to Euclidean geometry
+somewhat analogous to the relation of direct action to action at a
+distance in physics. According to Riemann, space is a three-dimen-
+sional continuum, by which is meant that a point in space may be
+represented continuously by three independent quantities, the co-
+ordinates of the point. Riemann considered the more general prob-
+lem of a continuum in which n independent coordinates are required
+to specify a point, thus developing an w-dimensional geometry. In
+order to define the metrical properties of space Riemann assumed
+that the square of the distance between two infinitely near points
+is a quadratic differential form of the relative cooordinates of the
+points, with coefficients not constant, but functions of the coordi-
+nates. In Euclidean space it is always possible to choose coordi-
+nates — the usual rectangular coordinates — such that the square of

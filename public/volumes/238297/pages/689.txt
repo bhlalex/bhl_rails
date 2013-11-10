@@ -1,0 +1,36 @@
+ACCORDANCE OF QUANTITATIVE THEORIES, <bc. 199
+explanation of the discrepancy may be accomplished in
+any one of at least four distinct ways, as follows :
+(1) The direct measurement may be erroneous owing to
+various sources of casual error.
+(2) The theory may be correct so far as regards the
+general form of the supposed laws, but some of the con-
+stant numbers or other quantitative data employed in the
+theoretical calculations may be inaccurate.
+(3) The theory may be false, in the sense that the
+forms of the mathematical equations assumed to express
+the laws of nature are incorrect.
+(4) The theory and the involved quantities may be
+approximately accurate, but some regular unknown cause
+may have interfered, so that the divergence may be re-
+garded as a residual effect representing possibly a new
+and interesting phenomenon.
+No precise rules can be laid down as to the best mode
+of proceeding to explain the divergence, and the experi-
+mentalist will have to depend upon his own insight and
+knowledge ; but the following general recommendations
+may perhaps be made.
+In the first place, if the experimental measurements are
+not numerous, repeat them and take a more extensive
+mean result, the probable accuracy of which, as regards
+freedom from casual errors of experiment, will increase as
+the square root of the number of experiments. Supposing
+that no considerable modification of the result is thus
+effected, we may suspect the existence of some more deep-
+seated and constant source of error in our method of
+measurement. The next resource will be to change the
+size and form of the apparatus employed, and to introduce
+various modifications in the materials employed or in the
+course .of procedure, in the hope, as before explained
+(vol. i. p. 462), that some cause of constant error may thus
+be removed. If the inconsistency with theory still re-

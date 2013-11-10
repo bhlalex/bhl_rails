@@ -1,0 +1,42 @@
+632 VERHOEFF AND BELL.
+and produce heat, certain particular wave frequencies fall into step,
+as it were, with the oscillation periods which depend on the mo-
+lecular structure, and so break up the molecules when the energy
+absorbed is sufficient. The particular kind of radiation which pro-
+duces this direct action depends on the character of the molecules.
+Thus, for instance, the green modification of silver bromide is readily
+broken up by radiation of wave length as great as 1 /jl, while it requires
+radiation of double this frequency to affect ordinary silver bromide,
+and the molecules of living protoplasm begin to break up only when
+the wave length is down to about 300 yu/x as we shall show. But most
+chemical compounds are unaffected by any practical amount of
+radiation which may fall upon them except as they may be heated to
+the point of decomposition. Any effect which is due to radiation
+is in the last analysis dependent on the absorption of that radiation,
+in that there is involved a transfer of energy to the molecules or their
+parts in order that they may be heated or shaken apart. Every sub-
+stance absorbs radiant energy in greater or less degree, and the amount
+of absorption bears a definite relation to the thickness of the body as
+well as to the particular wave length of the incident energy. Certain
+substances, like fluorite and to a less degree quartz, let pass with very
+little obstruction radiation from far into the infra red to wave length
+200 iJLiJL. Water absorbs the longer wave lengths of the infra red up
+to about 1.2 /i powerfully, and transmits nearly everything else up to
+the extreme ultra-violet, while pure air, generally speaking extremely
+transparent, produces some small but sharp absorption in the visible
+spectrum and completel}^ wipes out the extreme ultra violet. But
+whatever the wave length, the law connecting the absorption of energy
+with thickness of the medium is extremely definite. If a layer of unit
+thickness transmits a certain fraction T then any other thickness x will
+transmit a fraction T'^ of the incident energy. Thus, if a substance
+transmits badly, leading to a low value of T, very little energy gets
+through the outermost layers, while if it be fairly transparent a con-
+siderable amount of energy penetrates deeply. For example, a cer-
+tain Jena glass transmits violet light through 1 mm. of thickness
+with only a small fractional per cent of loss. It transmits the same
+light througli a cm. of thickness with the loss of only 2%, while
+near the extreme ultra violet of the solar spectrum it still transmits
+a little over 90% for a mm. of thickness, but barely 3S% through a cm.
+Where, therefore, radiant energy falls on a solid upon which through
+absorption it produces powerful chemical action, the immediate effect
+will be almost wholly superficial, and only by prolonged and intense

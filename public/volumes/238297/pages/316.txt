@@ -1,0 +1,36 @@
+290 THE PRINCIPLES OF SCIENCE.
+of certain similar events to the probability that there
+must have been a condition or cause for such events. We
+have found that the theory of probability, although never
+yielding a certain result, often enables us to establish an
+hypothesis beyond the reach of reasonable doubt. There
+is, however, another method of applying the theory,
+which possesses for us even greater interest, because it
+illustrates, in the most complete manner, the theory of
+inference adopted in this work, which theory indeed it
+suggested. The problem to be solved is as follows :
+An event having happened a certain number of times,
+and failed a certain number of times, required the pro-
+bability that it will happen any given number of times
+in the future under the same circumstances.
+All the larger planets hitherto discovered move in one
+direction round the sun ; what is the probability that, if a
+new planet exterior to Neptune be discovered, it will move
+in the same direction ? All known permanent gases, ex-
+cept chlorine, are colourless ; what is the probability that,
+if some new permanent gas should be discovered, it will
+be colourless \ In the general solution of this problem, we
+wish to infer the future happening of any event from the
+number of times that it has already been . observed to
+happen. Now, it is very instructive to find that there is
+no known process by which we can pass directly from the
+data to the conclusion. It is always requisite to recede
+from the data to the probability of some hypothesis, and
+to make that hypothesis the ground of our inference
+concerning future happenings. Mathematicians, in fact,
+make every hypothesis which is applicable to the question
+in hand ; they then calculate, by the inverse method, the
+probability of every such hypothesis according to the
+data, and the probability that if each hypothesis be true,
+the required future event will happen. The total pro-
+bability that the event will happen, is the sum of the

@@ -1,0 +1,66 @@
+410
+PROCEEDINGS OP THE AMERICAN ACADEMY.
+Specimen. Solvent.
+No.
+(1) Pure HF (gas)
+(2) Commercial cone, solution
+(3) 95% HF, 5% H2SO4
+(4) 90% HF, 10% H2SO4
+(5) 75% HF, 25% H2SO4
+(6) 50% HF, 50% H..SO4
+(7) 20% HF, 80% H2SO4
+Exposure.
+Angle JBH.
+Angle BAD.
+Minutes.
+^
+70
+13-14
+76
+2i
+12
+75
+5
+11-12
+75±
+H
+19
+74-78
+8
+19±
+76-78
+31 and 8
+23
+79±
+26± Indeterminable.
+The mixtures of acids were proportioned by volume.
+The table clearly expresses a rotation of the figures with increasing
+percentages of PI2SO4 in a right-handed direction, that opposed to the
+direction of movement in the water-dilution series. At the same time,
+the angle BAD grows larger, and thus the parallelogram tends more
+and more towards a rectangular outline. In both respects, the influence
+of sulphuric acid is in the shaping and the arranging the pits on the
+clinopinacoid, when etched by means of a mixture of that acid and
+hydrofluoric acid, the reverse of that of pure water mixed in the same
+manner with hydrofluoric acid. I am not prepared to offer any expla-
+nation of this interesting phenomenon.*
+It may be noted that the surface of cleavage (110) exhibits great
+changes in the etch-figures as the proportion of the sulphuric acid in-
+creases. With only 5% of the latter (Plate I. Fig. 24), there is a sen-
+sible variation iu look from the normal type, and in the 50% solution a
+strong suggestion of the Wolfsberg figure of common hornblende
+(Plate I. Figs. 25 a and 25 b).
+Tremolite and richterite afforded, on the clinopinacoid, etching phe-
+nomena identical with those described for actinolite when exposed to
+concentrated HF; the last mentioned experiments of mixture were not
+essayed in connection with them.
+* Baumhauer not only showed a rotation of the figures on the basal plane of
+apatite with increasing dilution of tlie solvent, hydrochloric acid, but he also
+established a rotation in the same direction when nitric acid was substituted for
+the hydrochloric, and a rotation in the opposite direction if sulphuric acid be simi-
+larly employed. Ref. in Bomer's article, Neues Jahrbuch fiir Min., 1801, Beil.
+Bd. VII. p. 538. The accumulation of such facts as these makes it difficult to
+follow Becke in the hypothesis that his " Hauptaetzflachen " have simple indices,
+because of greater molecular density in planes having such indices. The molecu-
+lar density evidently does not change with the solvent. (Min. u. petr. Mitth.,
+1887, Bd. VII. p. 200).

@@ -1,0 +1,38 @@
+HAYES— DETECTION OF SUBMARINES. 13
+either arrow 3 or arrow 4 it reaches the left ear first and will there-
+fore appear to the listener to come from his left. It is readily seen
+from the diagram that a rotation of the receivers in an anti-clock-
+wise direction will make the sound appear binaiirally centered when
+the small arrow at the center of the line of receivers points in the
+direction of these sounds respectively.
+In order to make this rule effective, the importance of attaching
+the proper receiver to the proper ear is obvious.
+A device that depends upon rotation for determining direction
+has two distinct disadvantages : first, it cannot be operated when the
+boat is running and second, it must be lowered before taking a
+bearing and hoisted before the boat can again get under way, thus
+causing considerable labor and loss of time. This defect was early,
+recognized and overcome by the workers at the Naval Experimental
+Station who developed a method whereby the binaural principle for
+determining direction could be employed without the inconvenience
+of rotating the two receivers. This development opened up a wide
+field for research which has resulted in the most serviceable types
+of submarine detectors.
+The Principle of Binaural Compensation is readily understood
+by referring to Fig. i, Plate III. Suppose the two receivers R and
+L are connected to the right and left ear respectively and sound
+comes from the direction indicated by arrow i. This sound reaches
+R first and as a result appears to the listener to be located on his
+right. If the tube leading to the right ear is lengthened by an
+amount equal to -/4oo the distance from R to C, the impulses from
+receiver R will be delayed so that the impulses from both receivers
+reach their respective ears simultaneously and the sound will appear
+to the listener to be binaurally centered. The same result could
+obviously be accomplished by shortening the sound path to the left
+ear or by lengthening the path from R half the amount and at the
+same time shortening the path L by the same amount, the only re-
+quirement for binaural centering being that the path difference be
+made equal to -/4oo of the distance R io C (-%oo being the ratio of
+the velocity of sound in air to the velocity in water).
+The path difference between the two receivers is directly de-
+pendent on the angular separation between the line of the receivers

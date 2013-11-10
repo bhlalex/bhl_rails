@@ -1,0 +1,42 @@
+321
+in a. If in h G gets tlie same composition as F, the curve /^touches
+the limit-curve Ek=^F-\-G, (consequent!)' the suhlimation-cui-ve of ^^)
+in b. If it is possible for L and G to get the same composition in
+a point c, the curve E then touches the limit-curve Er ^= L -\- G
+in c.
+The li:novvn conditions, under which pressure or temperature are
+stationary along curve E (maximum or minimnm) follow immediately
+from (7).
+When one of the phases e.g. F^ is a gas, then in general V^ is
+very large in comparison with V^ F, . . . . We now take on curve £'a
+point a, where ).^ = 0. Consequently curve E touches in this point
+a the limitline of the region F^. In this point a is:
+^- (XV), ^ (/, F, f . . . + A„^.i F„+i)a .... (13)
+and in general different from zero.
+In the vicinity of point a however A, is no more zero and for
+^i^V) the value from (8), not that from (13) remains true. Pj being
+large in comparison with F, F, . . ., ^X^ F) in (8) may be zero for a
+small value of /, already. When i:{XV)^0 then, according to (7)
+dT=i), consequently the temperature is maximum or minimum.
+Consequently we find : "when of the equilibrium
+E = F,-\-F.^ +....^f F„+i
+"one of the phases e.g. F^ is a gas the maximum (or the minimum)
+"of the temperature of curve E is situated in general in the proximity
+"of the point of contact of this curve with the limit-curve
+Er=F, + ....+ Fn^,
+"of the region (F,)."
+When we apply this to the equilibrium Ë ^ F" -\- L -{- G, discussed
+above, it is apparent, than this curve E has its point of maximum
+temperature in the vicinity of its point of contact with the melting
+line of F. We may also express this in the following way : the point
+of maximum-temperature of the equilibrium F" -{- L -{- 6^ diffei'S only
+slightly from the melting-point of F under its own vapour pressure.
+When we consider the ternary curve Ë =z F"^ -\- F, -\- L -\- G, it
+follows that this curve must have its point of maximum tempera-
+ture in the proximity of its point of contact with the limit-curve
+F^ -\- F^ -\- L, the common melting curve (or inversion-curve) of
+F^ + F^. We may also say : the point of maximum temperature of
+the equilibrium F, -\- F, -\- L -\- G differs only slightly from the
+common melting-point (or point of inversion) under its own vapour-
+pressure of Fi -{- F,.
+When we imagine the solutions of this equilibrium ^'toberepre-

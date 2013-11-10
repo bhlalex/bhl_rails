@@ -1,0 +1,37 @@
+100 THE PRINCIPLES OF SCIENCE.
+The mood Baroko gave much trouble to the old lo-
+gicians who could not reduce it to the first figure in
+the same manner as the other moods, and were obliged
+to invent, specially for it and for Bokardo, a method of
+Indirect Reduction closely analogous to the Indirect proof
+of Euclid. Now these moods require no exceptional
+processes in this system. Let us take as an instance of
+Baroko, the argument
+All heated solids give continuous spectra, (i)
+Some nebulae do not give continuous spectra ; (2)
+Therefore some nebulae are not heated solids. (3)
+Treating the little word some as an indeterminate
+adjective of selection, to which we assign a symbol like
+any other adjective, let
+A = some
+B = nebulae
+C = giving continuous spectra
+D = heated solid.
+The premises then become
+D = DC (i)
+AB = ABc. (2)
+Now from (i) we obtain by the Indirect method the
+Contrapositive
+c = cd,
+and if we substitute this expression for c in (2) we have
+AB = ABcd;
+the full meaning of which is that ' some nebulae do not
+give continuous spectra and are not solids/
+We might similarly apply the contrapositive in many
+other instances. Take the argument 'All fixed stars
+are self-luminous ; but some of the heavenly bodies are
+not self-luminous, and are therefore not fixed stars.'
+Taking our terms
+A fixed stars
+.^
+B = self-luminous

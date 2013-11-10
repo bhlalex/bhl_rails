@@ -1,0 +1,36 @@
+44 THE PRINCIPLES OF SCIENCE.
+that A is the cause of X, I must maintain invariable all
+surrounding objects and conditions, and I must then show
+that where A is X is, and where A is not X is not. Now
+this cannot really be accomplished in a single trial. If,
+for instance, a chemist places a certain suspected substance
+in the Marsh's test apparatus, and finds that it gives a
+small deposit of metallic arsenic, he cannot be sure that
+the arsenic really proceeded from the suspected substance ;
+for the impurity of the zinc or sulphuric acid might have
+been the cause of its appearance. It is therefore the
+practice of chemists to make what they call a blind ex-
+periment, that is to try whether arsenic appears in the
+absence of the suspected substance. The same precaution
+ought to be taken in all important analytical operations.
+Indeed, it is not merely a precaution, it is an essential
+part of any experiment. If the blind trial be not made,
+the chemist merely assumes that he knows what would
+happen. Whenever we assert that because A and X are
+found together A is the cause of X, we imply and assume
+that if A were absent X would be absent. But wherever
+it is possible, we ought clearly not to leave this as a
+mere assumption, or even as a matter of inference. Ex-
+perience is ultimately the basis of all our inferences,
+but if we can with care bring immediate experience
+to bear upon the point in question we should not trust
+to anything more remote and liable to error. When
+Faraday examined the magnetic properties of the bearing
+apparatus, in the absence of the substance to be ex-
+perimented on, he really made a blind experiment (see
+vol. ii. p. 41).
+We ought also, whenever we can, to test the sufficiency
+and accuracy of any method of experiment by introducing
+known amounts of the substance or force to be detected.
+Thus a new analytical process for the quantitative esti-
+mation of an element should be tested by performing it

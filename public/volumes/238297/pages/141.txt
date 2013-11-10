@@ -1,0 +1,35 @@
+THE INDIRECT METHOD OF INFERENCE. 115
+we can substitute in ( i ) obtaining the conclusion
+A = Ac.
+But the same result may be obtained by taking the
+eight combinations of A, B, C, of the abecedarium ; it will
+be found that only three combinations, namely
+aBC
+abc,
+are consistent with the premises, whence it results that
+A = Abe,
+or by the process of Ellipsis before described (p. 69)
+A = Ac.
+As a somewhat more complex example I take the
+argument thus stated, one which could not be thrown
+into the syllogistic form.
+* All metals except gold and silver are opaque ; there-
+fore what is not opaque is either gold or silver
+or is not-metal/
+There is more implied in this statement than is dis-
+tinctly asserted, the full meaning being as follows :
+All metals not gold or silver are opaque, (i)
+Gold is not opaque but is a metal. (2)
+Silver is not opaque but is a metal, (3)
+Gold and silver are distinct substances. (4)
+Taking our letters thus
+A metal C = silver
+B = gold D = opaque,
+we may state the premises in the form
+A&c = AfoD (i)
+B = ABeJ (2)
+C = ACd (3)
+B = Be. (4)
+To obtain a complete solution of the question we take
+the sixteen combinations of A, B, C, D, and striking out
+i 2

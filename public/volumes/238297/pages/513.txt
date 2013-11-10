@@ -1,0 +1,36 @@
+EXPERIMENT. 23
+of the earth with its attractive and electric properties ;
+the temperature and other powers of the persons pro-
+ducing motion ; the radiation from the sun, and to and
+from the sky ; the electric excitement possibly existing
+in any overhanging cloud ; even the positions of the
+heavenly bodies must be mentioned. Now on a priori
+grounds it is unsafe to assume that any one of these
+circumstances is without effect, and it is only on the
+results of experience that we can finally single out those
+precise conditions from which the observed heat of friction
+proceeds.
+The great method of experiment consists in removing,
+one at a time, each of those conditions which may be
+imagined to have an influence on the result. Our object
+in the experiment of rubbing sticks is to discover the
+exact circumstances under which heat appears. Now the
+presence of air may be requisite ; therefore prepare a
+vacuum, and rub the sticks in every respect as before,
+except that it is done in vacuo. If heat still appears we
+may say that air is not, in the presence of the other
+circumstances, a requisite condition. The conduction of
+heat from neighbouring bodies may be a condition.
+Prevent this by making all the surrounding bodies ice
+cold, which is practically what Davy aimed at in rubbing
+two pieces of ice together. If heat still appears we have
+eliminated another condition, and so we may go on until
+it becomes apparent that the expenditure of energy in the
+friction of two bodies is the sole condition of the produc-
+tion of heat.
+The great difficulty of experiment arises from the fact
+that we must not assume an independence to exist among
+the conditions. Thus previous to experiment we have no
+right to say that the rubbing of two sticks will produce
+heat in the same way when air is absent as before. We
+may have heat produced in one way when air is present,

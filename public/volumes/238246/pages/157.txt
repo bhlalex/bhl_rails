@@ -1,0 +1,42 @@
+220
+2y = l, ill consequence of whicli ilie following equation is left:
+00 00
+X (m) = il {d) cos ijT Irn dl — I £1 (d) d)i 4jt Im dl . . (25)
+""o
+In this I id) and 7/ (c/) are registered functions, which are zero
+for great values of / according to equations (21) and (22). When
+we wish to examine the finer structure of practicailjMiionochroinatic
+light, the Zand Z' curves for white light must first be determined.
+The distance of the zero points iV and iV' to the initial points of
+the curves follows namely sharply from this. The prism ie now
+again put in the same place as before at the beginning of the
+measurement'), and in another photographic plate the Zand Z'
+curves for less compound light are now registered ; now the zero
+points N and N' lie at the same distances from the initial points
+as before; without the previous measurements they would, however,
+hardly have been recognizable; for absolutely monochromatic light
+there would even have been no difference to be detected at all
+between the maxima or between the zero points.
+The white light, however, has as it were, gauged the photographic
+plate. A procedure as described above is lendered possible through
+the fact that the zero points are known, even for the most strictly
+monochromatic light, and it enables us here too at least to closely
+approximate the required function x(w). In practice this approximation
+cannot be carried to an extreme, because at too great differences
+of path the beams of light become incoherent on account of the
+irregular vibration of the source of light, a drawback that will
+adhere to every method that rests on interference.
+This limit for the dissolving power of an interferential spectros-
+cope, can of course not be exceeded here either. But all the data,
+with which interference phenomena can furnish us about the com-
+position of apparently monochromatic light are used mathematically
+in the simplest way according to the method discussed, and lead
+to the drawing up of a function, which resembles the required
+distribution of energy u{^') most closely*).
+MiCHELsoN first works up his data to a curve of visibility V, and
+concludes from this to the value of C" -|- /S', but has now to assume
+/S=0, i.e. a symmetrical distribution of energy in order to be able
+1) In this use can eg. be madeof the distinct movement of the photographic plate.
+') To make the approximation still closer, we should have to make the source
+of light vibrate more regularly, or possess an entirely different instrument, which
+does not rest on interference.

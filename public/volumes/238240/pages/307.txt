@@ -1,0 +1,37 @@
+•;64 RICHARDSON— DYNAMICAL EFFECTS OF [April 22,
+3. The Number of Electrons in an Atom.
+The behavior of very rapidly moving electrons in their passage
+through matter is a very interesting subject of investigation. Thanks
+to the discovery of the radio-active substances we are able to experi-
+ment, if we wish, with electrons whose speed is almost equal to that
+of light (3 X io^° centimeters per second). These rapidly moving
+electrons are able to shoot right through the atoms of bodies, but
+when in their flight they pass very close to one of the constituent
+electrons their paths are deviated. When a group of them passes
+through a considerable thickness of matter these deviations tend to
+accumulate ; so that a group of electrons, all of which were moving
+parallel to one another to start with, becomes divergent. Sir J. J.
+Thomson showed how the average deviation arising from a single
+impact could be calculated and also how the average divergence of
+the beam, which was caused by its passage through a given amount
+of matter, would depend on the number of electrons present in the
+matter traversed.
+Experiments made by Barkla showed that when matter, which
+was made up of elements of low atomic weight, was traversed by
+Roentgen rays it was caused to emit so-called secondary Roentgen
+rays, which were precisely similar in character to the primary
+Roentgen rays which excited them. A careful study of these second-
+ary rays showed that they were primary rays which had been scat-
+tered. The phenomenon is in fact very analogous to that which
+gives rise to the blue color of the sky, which was shown by Lord
+Rayleigh to arise from light scattered by innumerable small particles
+present in the atmosphere. The amount of such scattering depends
+on the number of particles which are engaged in doing it. In the
+case of the Roentgen rays these particles are the electrons present
+in the matter, each one of which is set into violent motion by the
+Roentgen ray pulse. The exact way in which the amount of the
+scattering should depend on the number of electrons engaged in the
+operation was figured out by Thomson who showed from Barkla's
+experimental results that the number of electrons reckoned per atom
+of the material was comparable with the atomic weight.
+We have seen already that information of a like nature may be

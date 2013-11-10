@@ -1,0 +1,79 @@
+( 380 )
+Newcomb, but the öliglitly modified values, which were obtained by
+taking he — -f 0".45 and h = + 0".26.
+Tlie three normal values obtained thus were :
+1852.6 iV = 200 7 Weight 1 (A — 6. — 9^0
+1868.5 161.9 ') 3 -[- 4.6
+1898.5 15.5 2 — 2.3
+and from them 1 derived a coiTected formula for iV^; I found :
+jVzzz 157°.3 + 19".35 (;f— 1868.5)
+or taking the mean year as zero-e[)Ocii
+^Y= 3Ü2°.4 + 19°.35 {t — 1876.0).
+The outstanding differences Obs. — Comp. are given above.
+If I had assigned e(|ual \veiglits to the three normal values, I
+should have found for the annual motion 19°. 45, while by excluding
+tlie first I should have found 19°. 12, both differing only slightly from
+the most ])robable value.
+At first when Newcomb's value for the annual variation of N
+appeared to be too large I had thought that the true value might
+be equal to the theoretical annual variation of the argument of the
+Jovian Evection, i.e. 20°. 65. It appears, however, that even the latter
+is too large to satisfy the observations.
+To judge in how far this is the case a comparison is given below
+of the values of N for each year as directly derived from obser-
+vations, first with my formula, secondly with the foi-mula we obtain
+if we assume the same value of iY for 1876.0, but take as annual
+variation 20^.65. The two sets of differences are given under the
+headings JVq — ^^c and JS^o — -^V-
+Epoch W.'ight Xo—Nc No—Xj
+1847.8
+1
+—
+56°
+— 19°
+48.9
+3
++
+11
+-f 46
+50.1
+3
++
+2
+-1- 36
+51.2
+3
+—
+22
+4- 10
+52.4
+4
+—
+30
++ 1
+53.5
+3
+—
+30
+— 1
+54.6
+3
+—
+37
+— 9
+55.8
+0.5
+-f
+7
+-h 33
+56.9
+3
+-f
+27
+-f 52
+58.1
+J
++
+101
+-j- 124
+1) With Newcomb's values of N we should have found 200.°5 and 161. °7.

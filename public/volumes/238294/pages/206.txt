@@ -1,0 +1,43 @@
+( ^^^' )
+of pure ethane (31°. 88), the connodal line consists of another part,
+Avhich I have not drawn, howeA'er, in order not to make the figure
+uselessly intricate. This second piece should have its apex, the critical
+point of contact, at about .rj^. = 0.92, and Vf/, = 006S, and would
+intersect the axis a' = 1 at 27 = 0.00472 and v = 0.01031.
+To this second piece of the connodal a second border curve cor-
+responds which would begin at a height /; = 46.1 (maximum tension
+of ethane at 29°.0 C.) and terminate at the plaitpoint 2)Tpi = 51.2,
+V2'jjI = 0.0063. But this border curve too I have omitted like the
+isothermal of pure ethane.
+At the lower part of the figure it maj be seen that the isobars
+in the neighbourhood of the critical point C, indeed to the first
+approximation, are hyperbolae of which one of the asj'mptotes, which
+agree with the critical pressure, is parallel to the ?;-axis, the other
+cuts this axis at a given angle. To the second approximation the
+first asymptote is a parabola which coincides with the projection of
+the connodal line.
+It were useless to investigate whether indeed the border curve is
+of the fourth degree and the connodol of the second degree ; for this
+the data are not numerous enough and the drawing not sufficiently
+accurate. But it is obvious why the bordei- curve should be of a
+higher order than the connodal. The j;, v, ^I'-surface, of which the
+projections on the surfaces p, v and x, v are shown in the fig., is in
+the neighbourhood of the critical point a saddle-shaped surface, which
+at the upper part of the figure is seen parallel to the tangent surface
+at the point C The isothermals of the mixtures ,v, ^ 0, x ^0.14
+and x = 0.40 are situated on the slope turned towards us ; the latter
+over a fairly extensive range (of large volumes to about ,?• = 0.006)
+forms nearly the border of the surface; the critical isothermal lies
+just beyond that border, but becomes visible at Tand remains visible
+foi- small volumes. The isothermals ,r =: 0.62, ,/' = 0.71 and .r = 1
+occur on the back of the p, v, ,i'-surface, yet for small volumes they
+become visible. The parabola :
+1 Wjj"
+p - pTk = - -, (t' - vtl)\
+which envelops the isothermals in the neighbourhood of the point C
+(1. c. p. 344 and fig. 16) is the api)arent outline of the surface in
+that neighbourhood.
+The lower part of the figure re^jresent the surface seen from above ;
+the isobars are there level-curves. The critical isobar forms a loop
+which agrees with the described shape of the surface. A section of
+a horizontal surface situated a little higher consists of two pieces,

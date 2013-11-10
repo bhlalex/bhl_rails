@@ -1,0 +1,42 @@
+7J3
+account of the inequality and uncertainty of the limiting - magnitude).
+The normal density N m was adopted from the lists "Groningen
+Publications 18"; the argument, the limiting magnitude after the
+scale of Groningen 18, was taken, according to Seeliger, dependent
+on the star-density, and was for the lowest limit still corrected
+by 0,11, ') which gave
+6,56— 0,023 (D— 0,7); 8,12— 0,068 (D— 0,7); 9,36— 0,246 {D— 0,7).
+On the average these limits in photometric scale are 6.6, 8.1
+and 9.4.
+b. Two of Kapteyn's "Selected Areas" come within this region:
+N°. 47 and N°. 48; N°. 48 is situated closer to the centre, but according to
+the chart of Dyson and Melotte just outside a region with strong-
+absorption ; N°. 47, though more distant, comes just within the dark
+field S.W. from £ Persei. In the "Durchmusterung of Selected
+Areas"") the numbers of stars were counted up to 12,0,13,0,14,0,
+15,0, and on Area 47 up to 16,0 (faintest stars 15,96 resp. 16,49).
+c. From the Dyson and Melotte chart, for every part of the
+legion from 3 h to 5 ,l 30 ,n and 20° up to 35° we could draw the
+star-density per 100 square minutes on the Franklin-Adams plates,
+already reduced to a common system. Regarding the limiting mag-
+nitude, for which these densities count, the authors say: "The
+limiting magnitude is not accurately fixed, but may be taken at
+about 15,8 and should be within m ,25 of this figure" 8 ). I have
+tried to control these data by making use of the three "Selected Areas"
+(47, 48, 49) falling within this region. To this end the log 1ST' for
+these places, as deduced from the Dyson and Melotte chart, was
+compared to that of Kapteyn for m = '13, 14, 15 (and 16) and
+thus, through interpolation or extrapolation of the deviations from
+the normal log iV" the limiting magnitude was deduced, The values
+thus obtained are 16,02, 15,83 and 15,90: their average 15,9 has
+been adopted. For the rest a mistake of 0,1 in this value gives a
+mistake in the log N of 0.03 only.
+d. The data of the photographic "Carte du Ciel" cannot in gene-
+ral be used here. The great accidental irregularities in the limiting
+magnitude of the separate plates does not prevent the fixing of
+average densities and an average limiting magnitude, it is true, but
+in this case it is the separate plates that count, and these can be
+') See with regard to this A. Pannekoek, Researches into the structure of the
+Galaxy. These Proceedings, Vol. XIII, p. 254.
+9 ) Annals of Harvard College Obsetvatory. Vol. Gl.
+5 ) 1. c. page. 4.

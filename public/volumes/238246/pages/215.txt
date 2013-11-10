@@ -1,0 +1,27 @@
+312
+occur. Hence in tlie search for series by the aid of equal resolutions
+hardly any result can be obtained by means of these curves. I have
+also tried it for tin and for antimony lines, which had a splitting
+up between 60 and 65, but likewise with no success.
+1 further examined whether there existed simple i-elations between
+the distances of the componeids for more than triple resolutions,
+which were rather accurately measured (weight 3 or 4). For Sb 3740,
+Sb 267J, and Sb 2878 I did not find simple relations. For Sn 3331
+the distances of the components ai-e in the ratio of 3 : 2, when the
+values 59,3 and 39,5, which lie within the limit of errors, are taken
+for them. For Pb 2802 the ratio is also as 3 : 2 with the values
+49,1:32,7, Pb 2873 gives 54,7:41,0 = 4:3; Sb 3723 gives
+72,6 : 36,3 = 2 : 1. There is, however, no mutual connection or a
+simple relation to the normal resolution.
+The results may be briefly summarized as follows :
+The ZKKMAN-effect was measured of 35 tin lines, 23 lead lines,
+27 antimony lines, and 16 bismuth lines. In this deviations were
+found with Purvis' results which refer only to a few lines, probably
+in consequence of his less accurate measurements. No relation was
+found between the resolutions of those lines of the examined metals
+for which it was proposed to arrange them in series or those which
+are arranged according to the laws of the 2"^^ kind of Kayser and
+RuNGE. The resolutions are pretty i-egularly distributed between
+values which amount to about 1 and 1,5 times the normal resolution.
+As an incidental result I found that a number of lines given by
+Schippers for antimony, are not real.

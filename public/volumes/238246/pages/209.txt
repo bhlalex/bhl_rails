@@ -1,0 +1,43 @@
+306
+For the other titi uiid aiiiiinoiiy series I liave obtained no line
+that was split up or only one.
+When we study (he above results, we see that of the series for
+which it is possible to give an opinion in how far they follow
+Preston's laws, only series XIII is not in conflict with these rules.
+In series VII the resolutions gradually increase; the first and the
+last splitting' up lie farther apart than the limit of errors. Besides a
+quadruplet occurs there in the midst of the triplets. Even if these
+triplets were at bottom quadruplets, of which only the middle com-
+ponent was seen unsplit, uMiich is very improbable, even then the
+amounts of the resolutions of the outer components would not be
+in agreement with each other. — The foregoing does not plead, in
+my opinion, in favour of v. Lohuizen's results, though there remains
+a possibility that there are series that do not follow the rule of Preston.
+The efficacy of the ZEEMAN-effects for the discrimination of spectrum
+series was very apparent when Runge and Paschen found double
+lines in the spectra of Mg, ()a, Sr, Ba, which lines were changed
+in the magnetic field in the same way as double lines in principal
+and subordinate series in the spectra of the alkali-metals, while
+similar results were also found for some double lines from the
+Ra-spectrum. The hopes raised in 1902 and 1904 by the said
+researches with regard to the finding of series are accordingly not
+realized as far as the metals examined by me, are concerned.
+I have further also tried to find regularities myself. For this
+purpose and also in what precedes I have made use of a graphical
+representation, which seemed convenient to me. I have arranged the
+resolutions in every element according to their amount, and then
+plotted them on the same scale vertically under each other, as is
+usually done when resolutions are to be compared inter se. Two
+successive resolutions on the whole differing but little in amount,
+there arises a curve. A vertical part represents a number of equal
+splittings up. When the corresponding lines are indicated by the
+side of the resolution figure, we have at once a survey of all the
+lines that possibly belong to a series. Comj)are the graphical i-epresentation.
+In this the resolution figures are only represented half, which,
+however, does not give rise to difficulties, as they are symmetrical.
+The components are not indicated by single lines; I have blackened
+the whole region, where they can be found according to the probable
+error. The vertical lines traced in the figure, are at distances = half
+the normal splitting up. A sloping straight part of the curve means
+that between two definite amounts of splitting up the resolutions
+are regularly distributed. When I examined this for the resolutions

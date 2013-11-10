@@ -1,0 +1,36 @@
+NICHOLS.
+THE VISIBLE RADIATION FROM CARBON.
+101
+melting-point was again tested in the manner just described. The result
+of this determination was 1687°. The latter reading was, I think, too
+high, since subsequent examination under the microscope showed that
+the loop of the wire behind the junction had been melted so that the
+junction was probably a few degrees too hot. It may safely be concluded
+from these determinations that the melting-point of the Wollaston wire
+was at least one hundred degree.s lower than that of pure platinum.
+Method of Checking the Constancy of the Acetylene Flame.
+To secure as complete a check as possible upon the constancy of the
+flame, the following method, based upon the assumption that so long as
+the radiation from the flame remained constant, its light-giving power
+I ,. II
+if!!
+FlGUKE 16.
+would not vary, was employed. A diaphragm {d, Figure 16) similar to
+that interposed between the slit and the flame, and having an aperture of
+the same size, and mounted on the opposite side of the latter and a thermo-
+pile /), was placed at a distance of about lo cm. from this opening. A
+second diaphragm, d' , with an intervening air space, served to cut oflT, iu
+large part, the radiation from the heated metal. Two thin sheets of
+glass forming the sides of an empty cell c, of the kind used in the study
+of absorption spectra, etc., were placed between the cone of the thermo-
+pile and the second diaphragm ; so that only those rays from the flame
+which were transmitted by the glass fell upon the face of the pile.
+The thermopile was connected with a sensitive d'Arsonval galvano-
+meter g, the circuit being kept permanently closed ; and a double metallic
+shutter s, which could be raised or lowered so as to open or close the
+opening in the diaphragm next to the flame, was so mounted that it could
+be readily operated by an observer at the telescope of the galvanometer.
+When a reading of the radiation from the flame was to be made, the
+zero point of the galvanometer was noted, and this shutter was raised
+during the short interval of time necessary to bring the needle, which
+was not strongly damped, to its first turning point. The shutter was

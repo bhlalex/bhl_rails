@@ -1,0 +1,34 @@
+90 THE PRINCIPLES OF SCIENCE.
+but those of reflection and refraction, and the only diffi-
+culty consisted in developing their full consequences.
+There is one instructive result of the theory of error
+which should always be borne in mind, namely that when
+a large variable error is combined with a small variable
+error, the uncertainty of the final result, as measured by
+its probable error, is scarcely at all affected by the small
+variable error s . Accordingly our efforts at accuracy must
+be devoted to the sources of error in the order of their
+magnitude. There is no use in making instruments to
+measure the heat of the sun with the last degree of
+accuracy, when the varying transparency of the atmo-
+sphere produces uncertainties of far greater amount. It
+is needless to observe a comet or other heavenly body with
+the very finest instruments if it appears low down on the
+horizon, where the atmospheric refraction is not accurately
+determinate. In short, minuter variable sources of error
+may be entirely neglected, so long as those of a consider-
+ably greater amount remain beyond our powers of correc-
+tion.
+Discovery of Hypoihetically Simple Laws.
+In some branches of science we meet with natural laws
+of a simple character which are in a certain point of view
+exactly true and. yet can never be manifested as exactly
+true in natural phenomena. Such, for instance, are the
+laws concerning what is called a perfect gas. The gaseous
+state of matter is that in which the general properties of
+matter are exhibited in the simplest and most general
+manner. There is much advantage accordingly in ap-
+proaching the question of molecular mechanics from this
+side. But when we ask the question What is a gas ?
+the answer must be a hypothetical one. Finding that
+8 Airy, 'Philosophical Transactions/ (1856) vol. cxlvi. p. 324.

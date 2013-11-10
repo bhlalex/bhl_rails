@@ -1,0 +1,29 @@
+CHAPTEE VI.
+THE INDIRECT METHOD OF INFERENCE.
+THE forms of deductive reasoning as yet considered, are
+mostly cases of Direct Deduction as distinguished from
+those which we are now about to treat. The method of
+Indirect Deduction may be described as that which points
+out what a thing is, by showing that it cannot be anything
+else. We can define a certain space upon a map, either by
+colouring that space, or by colouring all except the space ;
+the first mode is positive, the second negative. The dif-
+ference, it will be readily seen, is exactly analogous to that
+between the direct and indirect proof in geometry. Euclid
+often shows that two lines are equal, by showing that they
+cannot be unequal, and the proof rests upon the known num-
+ber of alternatives, greater, equal or less, which are alone
+conceivable. In other cases, as for instance in the seventh
+proposition of the first book, he shows that two lines must
+meet in a particular point, by showing that they cannot
+meet elsewhere.
+In logic we can always define with certainty the utmost
+number of alternatives which are conceivable. The Law
+of Duality (pp. 6, 88) enables us always to assert that any
+quality or circumstance whatsoever is either present or
+absent in anything. Whatever may be the meaning and
+nature of the terms A and B it is certainly true that
+A = AB | A6
+B = AB | aB.
+These are universal though tacit premises which may
+be employed in the solution of every problem, and which

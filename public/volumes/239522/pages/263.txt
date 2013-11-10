@@ -1,0 +1,36 @@
+384 JACKSON.
+of Liouville's irregular cases and a large class of others. The con-
+clusion reached is not at all that suggested by the analogy of the more
+familiar expansions. It is found that functions of the sort usually
+developed in uniformly convergent series of characteristic functions
+give rise here to series which are very rapidly divergent. The explana-
+tion is that while the characteristic functions are essentially of the
+nature of real trigonometric functions in the cases usually treated, the
+corresponding functions here involve real exponential factors by which
+the order of magnitude of the terms of the series is entirely changed.
+The problem will be treated, first of all, in one of its simplest par-
+ticular cases,^ which shows clearly the essential difference between the
+expansions now under consideration and the familiar ones (Section I).
+Then follows a generalization (Section II) which is more than sufficient
+to include all of Liouville's irregular boundary conditions. A subse-
+quent further generalization (Section III) illuminates more clearly
+the relation between these irregular cases and certain regular ones.
+I. Special Differential Equation of the Third Order.
+Let us consider the differential equation ^
+(1) S + ^'^ = ^
+in the interval ^ .r ^ tt, with the boundary conditions
+(2) u (0) = 0, w' (0) = 0, u (tt) = 0.
+The parameter p is permitted to take on complex as well as real values.
+If CO denotes the quantity
+2jri 1 1 _
+5 Cf. Liouville, loc cit. I; also H. Laudien, Dissertation, Breslau, 1914,
+pp. 67-90. In the latter memoir, with which the present writer became ac-
+quainted only after reaching the main conclusions now expressed, there is an
+extended discussion of this special case, and it is stated that the development
+of a function satisfying the usual conditions is uniformly convergent. Laudien
+appears to have been misled by a false analogy in thinkmg it allowable, in the
+demonstration of an auxiliary theorem, to dispense with a careful examina-
+tion of one of two cases, both of which are essential to the proof of the conver-
+gence of the expansion of any one arbitrary function.
+6 The discussion in the present section has numerous points of contact with
+the work of Liouville, loc. cit. I, and Laudien, loc. cit.

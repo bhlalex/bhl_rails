@@ -1,0 +1,35 @@
+ACp-\-Av-TA^
+66 BRIDGMAN.
+is necessary to compute these three quantities. But at a horizontal
+or vertical tangent, the relations simplify in such a way as to determine
+uniquely two of these three quantities without the necessity for a
+third relation. We shall assume for the deduction that we know
+AV and AH along the transition line. These date are, as a matter
+of fact, determined in the following work. We are at liberty there-
+fore to use the following relations:
+dAv dT .- .
+-r- = —A^-Aa
+dp dp
+dAH ^ dr
+dp dp'
+dr
+Now at a horizontal tangent, "i- = 0. We immediately see that at
+such a point the equations give us the means of determining both Aa
+and Aj8 from the transition data alone. These values are;
+dp
+^ T dp
+We cannot find ACp from the equations; the only method is direct
+experimental determination. These relations are of application to
+Hgl2. The equations furthermore show that for those substances
+which we may call normal [Aa>0, A/3>0], the maximum of the AH
+curve must come before the maximum of the transition curve.
+dj)
+At a vertical tangent, 3" ~ 0, and we get
+These relations are of application to water or benzol. We cannot
+determine Aa at a vertical tangent from the transition data alone.
+Two of the relations may be written in a simpler form, involving
+the curvature of the transition line. These relations are ;
+Aa = X curvature, at a horizontal tangent [~r — ^ j>
+fdr
+ACp = — r Ai) X curvature, at a vertical tangent ( ;/" = °°
+and

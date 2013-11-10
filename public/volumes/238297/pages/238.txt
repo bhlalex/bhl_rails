@@ -1,0 +1,36 @@
+212 THE PRINCIPLES OF SCIENCE.
+the number of ways in which I can select i, 2, 3, 4, 5, 6,
+7, and 8 things, out of 8 things. In general language, if
+I wish to know in how many ways m things can be
+selected in combinations out of n things, I must look
+in the n + I th line, and take the m + i th number, counting
+from the left, as the answer. In how many ways, for
+instance, can a sub-committee of five be chosen out of a
+committee of nine. The answer is 126, and is the sixth
+number in the tenth line ; it will be found equal to
+, which our previous formula (p. 206) would
+1.2.3.4.5
+give.
+The full utility of the figurate numbers will be more
+apparent when we reach the subject of probabilities, but I
+may give an illustration or two in this place. In how
+many ways can we arrange four pennies as regards head
+and tail \ The question amounts to asking in how
+many ways we can select o, i, 2, 3, or 4 heads out of 4
+heads, and the fifth line of the triangle gives us the
+complete answer, thus
+We can select No head and 4 tails in i way.
+i head and 3 tails in 4 ways.
+2 heads and 2 tails in 6 ways.
+3 heads and i tail in 4 ways.
+4 heads and o tail in i way.
+The total number of different cases is 16, or 2 4 , and
+when we come to the next chapter, it will be found that
+these numbers give us the respective probabilities of all
+throws with four pennies.
+I gave in p. 205 a calculation of the number of ways in
+which eight planets can meet in conjunction ; the reader
+will find all the numbers detailed in the ninth line of the
+arithmetical triangle. The sum of the whole line is 2 8 or
+256 ; but we must subtract a unit for the case where no
+planet appears, and 8 for the 8 cases in which only one

@@ -1,0 +1,98 @@
+TELEPHONE DIAPHRAGMS.
+439
+ing constant A = r/i2m), or the logarithmic decrement per second,
+as determined from the distribution of angular frequencies around the
+circumference of the motional-impedance circle. Column VII gives
+the equivalent mass m of the diaphragm, as obtained in each case from
+formula (5). It should be constant according to theory, if formula
+(5) holds; i. e., if the relative distribution of vibration amplitudes
+over the surface of the diaphragm remains unchanged under different
+loads. The computed equivalent mass m of the unloaded diaphragm
+is seen to vary between 0.968 and 0.953 gm. Column VIII gives the
+inferred mechanical resistance r, in dynes per kine. It will be seen
+that r increased, when the load increased. This increase in mechani-
+cal resistance might be partly accounted for by the increased frictional
+TABLE III.
+Comparison of Computed Diaphragm Constants with and without Loads.
+I
+II
+III
+IV
+V
+Set No.
+Added mass
+gm
+Resonant
+Angular Frequency
+rad/sec.
+Circle
+Diameter
+absohms
+Depression
+angle
+degrees
+m
+coo
+Zm
+2^
+1
+5645
+9.14 X 101°
+78.4°
+2
+0.980
+3980
+10.32 X IQi"
+68.5°
+3
+1.588
+3472
+9.51 X 1010
+66.9°
+4
+2.447
+2995
+8.54 X 1010
+59.5°
+VI
+VII
+VIII
+IX
+X
+Damping
+Constant
+per sec.
+Equivalent
+mass,
+gms.
+Meoh.
+Resist.
+dynes/kine
+Stiffness
+Constant
+mega-dynes/cm.
+Force-factor
+mega-dynes/absamp.
+m
+r
+s
+A
+211
+409
+30.86
+6.114
+132
+0.968
+514
+30.86
+7.283
+119
+0.953
+600
+30.38
+7.554
+100
+0.959
+681
+30.55
+7.627

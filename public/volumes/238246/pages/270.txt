@@ -1,0 +1,66 @@
+401
+same Teiler von ji iind m' ist) vvelche prim zu m ist. Eine solche
+Zahl X besteht, denn die Form enthalt eine unendliche Anzahl
+Primzahlen.
+Nun ist 7ix^=7i\l-\ y ] = 71 -\ ym' und wenn eine Zahl
+V 9/ 9 '
+n -}- s)u' init .p iniiltipliziert wird so gibt es wiederum eine Zahl
+derselben Form. Ware wei ter
+.r (n -1- sm') ^ ,v (?* -\- s'm') I 77iod — I ; a, «'<^ t
+m
+SO wlirde
+sein, und
+asm
+X (« — s') in
+also ê — s' ^^ {mod t)
+Dies ist unmöglich, da s und s' <^t sind. Es ist damit bewiesen
+(lasz die Zahlen 7i -J- sm' wo 5 = 0,1, ... . ^—1, nach Mnltiplikation
+mit xiinoil—] wiederum dieselben Zahlen ergeben. Hieraus ergibt
+sich :
+.r
+-
+5=0
+n -|- sm'
+t-l
+s—0
+-
+Also
+ist:
+t-l
+2
+n-{-sm'
+= 0.
+s-
+=0
+_
+J
+X (n -\- S7n')
+t—i
+= 2
+s=0
+n -|- am'
+Um den zweiten Teil des Satzes zu beweisen, bemerken wir dasz
+F =
+k/d
+n k/d
+-1 2n nki
+wenn k und m die Zahl d zum gröszlen gemeinsamen Teiler haben.
+k
+Die Zahl - kann mit m nur diejenigen Primfaktoren gemeinsam
+a
+haben, deren zugehörige Zahlen ^ = sind. Denn ware z.b. Ai„ 7^ 0,
+so ist (/ teilbar durch eine Potenz von /^ welche <] //" ist. Es
+ergibt sich also dasz 7ik/d und 7i zugleich alle Zahlen durchlaufen
+71 k/d 1 _^ ^ .
+^ ist. Also ist:
+fur welche
+F =
+k/d
+1 m
+V
+n=l
+2n ndi
+k/d
+— 1
+2ti di
+4. Wenn die Zahl d dieselbe Bedeutung hat wie oben, so ist
