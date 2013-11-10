@@ -1,0 +1,45 @@
+525
+The complete data on which this conclusion is based will be
+published shortly. At present we only give a summary of the in-
+vestigation, because the result tends to show the necessity of admit-
+ting, when looking for evidence as to the Einstein effect, that in the
+solar spectrum we are substantially dealing with dispersion lines.
+Adequate material for inquiring into the possible influence of
+neighbouring lines is to be found in W. S. Adams' measurements
+of the displacements of 467 lines in the spectrum of the sun's limb
+as compared with the spectrum of the centre of the disk. l ) But for
+two or three exceptions these lines are, in the limb spectrum, shifted
+towards the red with respect to their positions in the centre spectrum.
+That in this phenomenon gravitation potential should play any
+perceptible part, is of course excluded. Evkrshed has convincingly
+shown that these displacements can neither be due to pressure,
+whilst his alternative explanation based on the Doppler principle,
+requiring a specific repulsive force exerted by the earth on the solar
+gases 2 ), appears inacceptable. There is, therefore, sufficient cause to
+seek another explanation of this class of line-shifts. We connect
+these displacements with our hypothesis that Fraunhofer lines are
+in the main dispersion bands, which, indeed, envelop the real ab-
+sorption lines (which are extremely narrow) in a generally asym-
+metrical way.
+If this interpretation is correct, the above mutual influence of
+neighbouring lines must appear, for the shape of the dispersion curve
+in the environment of an absorption line is modified by the presence
+of another absorption line. How that modification must influence
+the degree of asymmetry of the dispersion line has been explained
+in Astrophysical Journal 43, 50 — 53 (1916).
+In order to select from Adams' list those lines for which, from
+the point of view of the dispersion theory, an excess or a deficiency
+of displacement towards the red is to be expected, we proceed as
+follows.
+The columns A and A' of his table are covered with strips of
+paper, so that the choice cannot be influenced by a knowledge of
+the observed displacements; then the environing region of each line
+of the table is inspected on the atlases of Rowland and Higgs, in
+order to ascertain whether the line may be presumed to have an
+"effective" companion. Cases in which on either side of the line a
+nearly equally effective companion is suspected, are of course omitted,
+as the opposite influences would neutralize each other wholly or for
+l ) W. S. Adams, Astroph. Journ. 31, 30 (1910); Mt. Wilson Contrib. N°. 43.
+8 ) Evershed, Kodaikanal Bull. 39.
+34
+Proceedings Royal Acad. Amsterdam. Vol. XXI11.

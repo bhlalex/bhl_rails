@@ -1,0 +1,50 @@
+57
+o</ , o<; M , x 4- ;., = ï , rf 2 <i.
+Transformons de menie Q\8,h'] et Q [8, AJ grace a O -\- h t .
+Soient respectivement 8 -f- A" et 6 -f- h\, les images-réduites
+propres a 6, des points 6 -\- h' , 8~\-li x par rapport au couple
+(0,6 + K). On a:
+Q L*. Al = Q [^ h" | ii" + Q [0, A,] v" f d ^ A
+K
+QWh^zzzQiOih'Jti', + Q[0A"K + éS-A
+avec
+0O'\f*\ ; < r", , ' x ; ^" + »" = f *' 1 +»' l = l.
+A 1 ;t'A"4*A !
+A, A.
+Done
+Q[ö,A] = Q[ö,A"]r+Q[ö,A' 1 ]A' 1 +Q[ö,A J ]A 2 +^
+avec
+A" = A'jLc" , ^ = A, ju', , A, =A'v" -f X 1 v\.
+Done
+o</", o<a'„ o<a„ r + /' i + ; i = i.
+Entin d'après A" < 9 A,', A' -}- A x = 1, Ie coefficient de ^ \4 peut
+... /A s A x '
+se rem placer a fortiori par 9 u yl |
+V|/*il |A,
+La methode de transformation de Q [8, A] est évidente. Nous
+définissons la suite A, A', A", ..., A (,,) , ... par cette condition que
+8 -f- A<"> est l'image-réduite propre a # de 8 -\- ti n — 1] par rapport
+au couple (8, 8 -f- A„). De même, k^ n'existant pas pour i <^ p et
+AyO') étant égal a h p par convention, la suite h p {n \ constituée de
+nombres de mêmes signes, sera définie, pour n ^> p, par la condi-
+tion que 6 -f- h p ■"' est l'image-réduite propre a #, de #-|-A y ,(" — ])
+par rapport au couple (0, # -|- A M ). On aura des relations telles que
+les suivantes :
+I K | <| V n) l < 3 I *« |*
+quel que soit p < ?i;
+Q [0, V"~ 1; ] = Q V°> V n) l ty 00 + Q L*. A„] V° 4- dpWA
+avec
+< f*/") , < u p (») , tyOO + !>,,(») = 1 . . .
+Le coefficient de S p W A peut a fortiori, être rena place par
+K
+9 A 8 w -i
+K
+Cette relation perme,t de justifier par recurrence la formule
+Q 10, A) = Q [0, AM] i(") + ... + Q [ö, fyW] JpC») H-...+ QL^+ *»] *« +
++ 9<L4
+.,*.
+A* A,
++ ..- +
+AV
+A„
+(5)

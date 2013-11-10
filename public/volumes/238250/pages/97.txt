@@ -1,0 +1,39 @@
+136 POPULAR SCIENCE MONTHLY
+two oxygen atoms. Other unsaturated atoms may show similar reac-
+tions. Thus the nitro-anilines, HJST — C 6 H 4 — N0 2 , give an absorp-
+tion-curve similar to that of para-benzoquinone. Here the residual
+affinities of the nitrogen atoms are disturbed by the motions of the
+benzol molecule. And, in addition, the unsaturated oxygen atoms of
+the nitro-group are disturbed by the hydrogen atoms of the amido-
+group (NH 2 ). These facts, together with the position of the absorp-
+tion band, point unmistakably to isorropesis, and the two distinct forms
+thus in equilibrium may be represented by the following figures :
+HO-N=0
+NH, NH
+A solution of nitro-aniline in hydrochloric acid gives a colorless
+solution showing no trace of absorption band to indicate isorropesis.
+The structure of the hydrochlorate, therefore, is purely benzoid in type
+and enters not into the quino'id form by reason of the saturation of
+both nitrogen atoms. In the case of the nitrophenols similar reasoning
+may be followed. The absorption band of para-nitrophenol, 2 N —
+C 6 H 4 — OH, in neutral alcoholic solution, is identical with that of
+para-nitroanisol, 2 N — C 6 H 4 — OCH 3 , the methyl ether of this
+phenol. Consequently their structures may be assumed to be identical.
+When the phenol, however, is converted into the sodium salt its absorp-
+tion-curve alters and a band similar to the band of nitro-aniline ap-
+pears in the visible blue region of the spectrum ;" in other words isor-
+ropesis has been brought about with the natural consequence — the
+appearance of color in the compound. The hydrogen atom of the free
+phenolic group (OH) is seen to be but slightly affected by the resid-
+ual affinities of the oxygen atoms of the nitro-group; the more
+electro-positive sodium atom, however, shows a greater activity and
+may be drawn over to one of the oxygen atoms of the nitro-group, and
+thus a quinoid type of linking established. In the equilibrium between
+0=N=0 0=N— ONa
+m-*~
+C
+H n H
+H y H
+OH
+these two forms we may unquestionably look for the conditions which
+underlie the formation of color in the salts of nitro-phenols. The

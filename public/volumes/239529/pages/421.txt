@@ -1,0 +1,36 @@
+«24
+As 6>, must satisfy (10) for all values of m lt this is also the case
+with each of the products X x R Xi of which 6 X is built up, hence
+also with R x . When in (10) the value of R x given by (12) is sub-
+stituted for #!, we find:
+X 3 a
+- A, V U J \{Cl V OJ =
+When in this
+- I, 1/ C J', (« I/O = ^ J (a j/C).
+«1/(7 = 5,
+and
+^=r, (13)
+is put, this equation assumes the form :
+y,gi^,(5i) = ^.(«,) ....... (14)
+This equation has an infinite number of roots, which ranged ac-
+cording to ascending value may be called:
+£ f 1 », £ ( 2 ),
+» 31 1
+They depend on the quantity y, defined by (13).
+To every root g belongs a value of the function ƒ£,. These func-
+tions become :
+r£.W
+J B 1 (t) = J, ^i_ , (A =1,2, . . .) (15)
+Like (11a), (lib) has also two particular solutions, one of which
+becomes zero for a\ = x> , and the other infinite. In connection with
+(9) the former must be chosen. Apart from a constant factor, this
+solution is :
+X l= =e Pl Xl (16)
+2?! is the positive root of the equation :
+v i£M! 2
+«! a 1
+which is found by substitution of (16) in (lift), and replacement
+of C by :
+a'
+The value of p x W is:
+^=-^ + i/f^m (17)

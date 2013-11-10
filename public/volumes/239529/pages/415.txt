@@ -1,0 +1,36 @@
+Physics. — "The Process of Solidification as a Problem of
+Conduction of Heat". By Dr. H. C. Burger. (Communicated
+by Prof. W. H. Julius).
+(Communicated at the meeting of June 26, 1920).
+§ 1. Introduction. The equilibrium between two phases has been
+fully investigated experimentally and theoretically. Little, however,
+is known about the cases in which there is no equilibrium, but
+one phase is converted into another. In the first case the thermo-
+dynamic laws may serve as basis of all considerations ; in the second
+case, however, such leading principles are entirely wanting. The
+researches on the dynamics of the conversion of phases are quite
+detached, and are often restricted to the collecting of empirical data
+the meaning of which is not quite clear.
+It would be very desirable to develop a general theory of
+dynamics, which will have to include "thermodynamics" as the
+special case of its statics. Whether this is possible from a purely
+phenomenological point of view, further experiment will have to
+teach.
+In what follows I have worked out a general method for the
+treatment of the special case of the solidification of a chemically
+simple substance.
+On transition of a supercooled melt into the solid condition the
+following processes should be sharply distinguished:
+1. The formation of particles of the solid phase in the supercooled
+liquid l ).
+2. The further growth of each of these particles, and also the
+growth of a particle of the solid substance put into the liquid
+purposely *).
+Only the second point will be treated in this communication. In
+this the particularities which are in connection with the anisotropy
+of the solid substance will not be taken into account. In this way
+the problem is simplified, but at the same time the idea of accounting
+for the formation of the crystalline form is abandoned.
+i) G. Tammann, Zeitschr. f. phys. Chem. 25, p. 442, 1898.
+s ) D. Gernez, Gompt. rend. 95, p. 1278, 1882.
+B. Mooke, Zeitschr. f Phys. Chem. 12, p. 545, 1893.

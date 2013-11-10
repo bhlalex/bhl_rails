@@ -1,0 +1,46 @@
+56 POPULAR SCIENCE MONTHLY.
+brush being formed at the terminal. In making this adjustment of
+inductance, we are tuning, as it is called, the Ley den jar discharge cir-
+cuit to the resonating bobbin. A very small variation of the inductance
+of the jar circuit causes the vacuum tube to change in luminosity. If,
+however, the natural time periods of these bobbins do not lie very far
+apart, then a faint luminosity will make its appearance in both the
+vacuum tubes. Supposing therefore that we connect to the oscillating
+circuit of the jar a number of bobbins having different time-periods of
+oscillation, like organ-pipes, and supply them all with one common
+alternating electromotive force. Those bobbins whose natural time-
+period is very different to that of the oscillating circuit or impressed
+electromotive force will not respond, but those bobbins of which the
+natural time-period lies near to, even if not quite exactly the same as,
+that of the impressed electromotive force will give evidence of being
+set in oscillation. A very violent electromotive force will cause them
+all to respond to some slight extent, no matter whether the period of
+that impulse is tuned to their common period precisely or not.
+At this point questions arise of great practical importance. A
+matter which has been in dispute in connection with practical Hertzian
+wave telegraphy is how far this electrical tuning is a sufficient solution
+of the practical problem of isolation. It is not denied that experiments
+such as those made with Seibts apparatus can be shown on a small
+scale; and, on a still larger scale, Mr. Marconi gave to the author in
+September, 1900, a demonstration in practical telegraphic work of
+sending two independent Hertzian wave messages and receiving
+them on two independent receivers attached to the same aerial.
+Since that date much experience has been gained and large power
+stations erected, and a statement has been frequently made that syntony
+is no protection against interference when one of the stations is sending
+out very powerful waves. The contention has been raised that large
+power stations producing electric waves will therefore play havoc with
+Hertzian wave telegraphy on a smaller scale, such as the ship to shore
+and intermarine communication. Under these circumstances, it ap-
+peared to the author important to subject the matter to a special test,
+and Mr. Marconi therefore offered to give a demonstration, with this
+object, in support of the opinion that he has expressed positively that
+waves from his power stations do not interfere with the working of
+his ship installations. This matter is vital to the whole question of
+practical Hertzian wave telegraphy, for the ship to shore communica-
+tion is of stupendous importance ; and if Mr. Marconi had done nothing
+else except render this possible and effective, he would have earned, as
+he has done, the gratitude of humanity for all time. Accordingly, the
+author embraced the opportunity of making some careful tests to settle
+the question, whether the powerful waves sent out from a station such
+as Poldhu did or did not affect the exchange of messages between ship

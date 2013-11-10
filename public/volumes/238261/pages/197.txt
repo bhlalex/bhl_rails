@@ -1,0 +1,56 @@
+278
+PROCEEDINGS OP THE AMERICAN ACADEMY.
+the same material over and over again, and it introduces a complication
+which might seriously retard the speed of attaining equilibrium, and
+hence the constancy of the desired point.
+After studying with care the published records of all the field of inor-
+ganic chemistry, about two dozen salts were selected as probably suitable
+lor the work in hand. Of these magnesic and nickelous sulphates, calcic
+and nickelous nitrates, nickelous chloride and borax were rejected as
+being too inconstant in their indications. The lack of constancy was due
+sometimes to the smallness of the latent heat of transition, and sometimes
+to a superabundance of crystalline hydrates. On the other hand, at least
+eight of the new salts gave results comparable in certainty with those
+given by the ever trustworthy Glauber's salt. These salts are given in
+the table below.
+TRANSITION TEMPERATURES OF NINE SALTS.
+Salt.
+By Jlercury
+Thermometer.
+By Hydrogen
+Tliermometer.
+Sodic Chromato, Na^CrOi . IOH2O . .
+19.7
+19.6
+Sodio Sulphate, NaoSO^ . lOII^O . . .
+32.484
+32.379
+Sodic Carbonate, Na^COs . lOHoO . .
+35.2
+35.1
+Sodic Thiosulphate, Na^S^Oa . 5IL0
+48.1
+48.0
+Sodic Bromide, NaBr . 2IL0 ....
+50.8
+50.7
+Manganous Chloride, MhCIq . 4IL0 . .
+57.9
+57.8
+Strontic Chloride, SrCl . GILO . . .
+Gl.l
+61.0
+Sodic riiosphate, NasPO^ . 12^,0 . .
+73.5
+73.4
+Baric Hydroxide, Ba(0H).2 . SH.^O . .
+78.0
+77.9
+The temperatures given above are only approximations, and are sul)-
+ject to future revision ; at this stage of the work our effort has been only
+to determine if the points were constant, and not to fix their absolute
+value. Besides these nine, several other salts promise well. Baric
+hydrate, given above, was our first trial of three components, for the car-
+bonate was naturally allowed to be present. The study of such quintuple
+points has now been interrupted by Messrs. Meyerhoffer and Saunders's
+claim.

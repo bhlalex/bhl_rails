@@ -1,0 +1,33 @@
+530 WRIGHT— RECENT SPECTROSCOPIC OBSERVATIONS.
+trically active stars, attention may be directed to a rather remarkable
+continuous spectrum which begins near the hmit of the Balmer
+series of hydrogen and extends toward the uhra-violet. The spec-
+trum may be seen in the photograph (Fig. 9) as a broad, faint band
+Fig. 9.
+lying to the left of the strong negular image. ^ A similar phenome-
+non has been observed by Evershed in the solar chromosphere. The
+spectrum is assumed to be due to hydrogen, though nothing of the
+sort has been found, with certainty, in the laboratory. It is perhaps
+significant that a spectrum would be expected there if we accept the
+Bohr atomic theory. From the atomic model which Bohr sets up,
+the Balmer line series of hydrogen develops from the recovery of a
+partially separated electron, while an extension of his equations
+to include the capture of free electrons by positive nuclei estab-
+lishes a continuous spectrum at just this place. I must confess
+that I venture into the domain of the physicist with trepidation, and
+I have, for the purposes of this small excursion, sought the hospi-
+table protection and guidance of Professor Millikan, which have
+been generously accorded. Professor Millikan has pointed out that
+the justification of this interpretation would depend upon the ratio
+of the energy of agitation of the electron to the energy expended
+in capture, that is to Planck's constant multiplied by the frequency
+of vibration at the limit of the Balmer series. A temperature of
+about 6000° centigrade would afiford the requisite amount of kinetic
+energy. As a matter of fact that is about the temperature of the
+solar chromosphere, which, as we have seen, also emits this spec-
+trum. It will be recalled in this connection that Buisson, Fabry, and
+Bourget have estimated the temperature of the Orion Nebula to be
+about 15000° Cent. It seems equally possible that the electronic
+^ This illustration, unlike the others, shows a spectrum recorded with a
+" slitless " spectograph. For this reason a bright line is represented by an
+image of the nebula, instead of by a narrow line, as in the other illustrations.

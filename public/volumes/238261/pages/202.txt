@@ -1,0 +1,34 @@
+ON THE THERMAL CONDUCTIVITY OF CAST IRON.
+By E. H. Hall and C. H. Ayres.
+Presented October 12, 1898. Received December 6, 1898.
+Two or three years ago an article entitled " On the Thermal Conduc-
+tivity of Mild Steel " was published by one of the authors * of the pres-
+ent paper. The method described at length in that article made use of
+a disk of soft steel, about 0.3 cm. thick and about 10 cm. in diameter,
+coated on each face with an electrolytic deposit of copper about 0.05 cm.
+thick. Thin copper wires attached electrolytically to these copper coat-
+ings led to a sensitive galvanometer, the deflections of which depended
+upon the thermo-electromotive force of the couple made by the steel of
+the disk and the copper of its coverings, and indicated the difference of
+temperature existing between the two faces of the steel itself.
+"Water of a known temperature was made to flow across one copper
+face of the disk and water eight or ten degrees warmer across the other
+copper face. The water delivery of one stream was measured, and its
+change of temperature between entering and leaving the vessel con-
+taining the disk was determined by means of two copper and German
+silver thermo-electric junctions.
+The apparatus containing the disk was surrounded by a water jacket
+having a temperature near that of the disk, so that the radiation to or
+from the exposed convex surface of the disk could be neglected.
+This hasty review shows that, if all the measurements indicated were
+correctly made, the thermal conductivity could be found by a simple cal-
+culation based on the data affoi-ded by the experiments. In fact, the
+experiments described in the article under discussion left something to
+)e desired ; for they showed that different parts of the same face of the
+lisk were not at the same temperature, and the process of calculation
+necessary to deduce from the observations the mean difference of tem-
+perature of the two faces of the disk was laborious, and perhaps to the
+casual reader not entirely convincing. This difficulty and the desira-
+bility of certain changes in the apparatus used were recognized in the
+article itself.
+* E. H. Hall, These Proceedings, Vol. XXXI. p. 271, 1896.

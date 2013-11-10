@@ -1,0 +1,38 @@
+6 HAYES— DETECTION OF SUBMARINES.
+sound is lost and, as has been stated, it is the quahty of a sound
+that enables the listener to name the instrument on which it is pro-
+duced. Secondly, resonant receivers do not faithfully reproduce
+phase and therefore are not well suited for use with devices operat-
+ing on the binaural principle or which employ multiple receivers.
+In this country emphasis has been laid on the development of
+non-resonant receivers. Such receivers are of the pressure type and
+though they are not so sensitive as the resonant type, and as a result
+can not give as great range when entirely free from disturbing
+noises, yet they do give a faithful reproduction of the sound thus
+making it possible for a trained listener to distinguish a submarine
+from other boats or water noises or noise from his own engines by
+the quality of the sound. Such receivers are suitable for use in bi-
+naural and multiple unit devices.
+These receivers consist of a flexible chamber or a rigid chamber
+carrying a flexible diaphragm, preferably rubber. Since the volume
+of the receiver changes readily under variation of hydrostatic pres-
+sure, the water in the neighborhood of the receiver will be subject to
+less or greater pressure than at other points in the wave front, de-
+pending upon whether the volume change in the receiver is positive
+or negative. In order to establish pressure equilibrium the particles
+of the highly incompressible medium will be forced toward or from
+the receiver for a considerable distance beyond its surface. The re-
+ceiver therefore absorbs the sound energy from a comparatively
+large volume of water which fact accounts for its rather high
+sensitivity.
+Types of Submarine Receivers.
+Five types of submarine receivers have thus far been developed.
+Plate I shows the principle of each of these five types.
+The Acoustic Receiver consists of a flexible chamber connected
+through a tube to the ear. The walls of the chamber are made of
+rubber or thin metal.
+The Geophone consists of two metallic plates between which is
+compressed a flexible rubber ring. The upper plate is made massive
+to give it inertia while the lower one is made lighter in order that its
+inertia may not seriously interfere with its motion. The intervening
+air space connects by tube through the inert plate to the ear. Such a

@@ -1,0 +1,38 @@
+HAYES— DETECTION OF SUBMARINES. 15
+variation in angle requires but slight change in air path and as a
+result a very slight error in determining the difference d in air path
+lengths will result in a large error in determining the angle. Sec-
+ondly, the direction so determined will be ambiguous.
+Fig. I shows that the time difference between the reception of
+the sound at receivers R and L will, from conditions of symmetry,
+be the same whether the sound comes from the direction indicated
+by arrow i or that indicated by arrow 2. It is, then, impossible to
+tell from the value oi d whether the sound comes from the direction
+of 9 or from the direction 2Tr—d.
+Both of these weaknesses are readily overcome, as will be seen
+by a consideration of Fig. 2, Plate III. Suppose the line connecting
+the two receivers R and L is perpendicular to the direction from
+which is measured and suppose the sound is proceeding from the
+same angle 6 that is represented by arrow i in Fig. i. The time dif-
+ference between the reception of the sound at the two receivers R
+and L is represented by the water path R-C, Fig. 2. But sound pro-
+ceeding from the direction represented by arrow 2, would, from con-
+ditions of symmetry, give a time interval between reception at the
+two receivers represented by the same length of water path. It
+will be impossible then to tell from the value of d whether the sound
+comes from the direction 6 or ir-O.
+The direction of the sound as determined by two receivers ori-
+ented as in Fig. i is determined as being either 6 or 2Tr-9 whi;lel
+the direction as determined from a pair of receivers oriented as in
+Fig. 2 is determined as 6 or -n-d. It must follow that the angle
+common to the two determinations, viz., 6, gives the true direction
+and thus the ambiguity is removed. Moreover, it is to be noticed
+that the angular range within which the determination of direction
+is subject to most error when the two receivers are oriented as in
+Fig. I is the region wherein direction is determined with greatest
+accuracy when the receivers are oriented as in Fig. 2. It therefore
+becomes possible to determine direction accurately at all angles pro-
+vided that reliance is placed on the proper pair of receivers.
+The line connecting the second pair of receivers need not neces-
+sarily be at right angles to that connecting the first pair, and the
+second pair of receivers may utilize one receiver of the first pair.

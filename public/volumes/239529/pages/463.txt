@@ -1,0 +1,42 @@
+694
+function of time, is also the distribution of temperature that prevails
+at a definite moment as function of place in the axis of the tube.
+This distribution of the temperature moves, as it were without
+changing with uniform velocity along the thermo-element, and the
+temperatures, existing simultaneously at the different points of the
+tube, are successively observed.
+In order to be able to derive the difference of temperature between
+the joint and the water in the thermostat, from the deviation of the
+galvanometer, the amount of the deviation corresponding with one
+degree, must also be known. For this purpose a current has been
+sent through the galvanometer circuit at the beginning and the end
+of every observation by an electromotive force of known value
+(2 X 10— 4 Volts) for some seconds. The deviation given by this
+current has also been registered.
+When the electromotive force of the thermo-element for one
+degree of temperature difference is known, the temperature may be
+derived by comparison of the deviations during the solidification and
+that which the known electromotive force has caused. A determi-
+nation of the electromotive force with thermo-sheet tin of the kind
+out of which the thermo-elements used had been cut, had as result
+that it amounted to 41.3 X 10~ fi Volts 1 ).
+As in these observations rapid variations of the temperature must
+be registered, the registering drum must rotate quickly. This being
+difficult to achieve with a clock-work provided with a balance, the
+balance was replaced by a flying-pinion. The objection to this way
+of propulsion, however, is that the movement of the registering
+drum is not uniform. For the determination of the temperature as
+function of the time from the temperature curves obtained, it was
+therefore necessary to place time signals on every curve. They
+were obtained as follows: a resistance was placed in the circuit
+of the Nernst lamp, which sends its light to the mirror of the gal-
+vanometer, and then in the registering drum. The extremities of
+the resistance were connected with a clock work, which every 10
+sec. effected a contact between them momentarily. In consequence
+of the diminished resistance the intensity of the lamp increased
+every 10 sec. for a short time; hence the registered line shows
+slightly thickened parts, which recur at intervals corresponding with
+this period. This method has the advantage that there are no gaps
+in the registered curve.
+J ) This result is in perfect harmony with what others have found for unrolled
+material.

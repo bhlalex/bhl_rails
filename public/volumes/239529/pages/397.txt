@@ -1,0 +1,43 @@
+594
+We remind 1 ) that the distance from the point {x -\- Lx, y + Ly,
+z-\-kz) to the plane of osculation at P is equal to =fc I ^7^7 > "+- f I .
+1 1
+where — and — represent the curvature and the tortuosity in Pand
+R T
+approaches to zero at the same time with L.s\ a stationary plane
+1
+of osculation appears therefore only when — — is equal to zero (i.e.
+besides at the points of inflexion there, where the tortuosity is equal
+to zero).
+We calculate the projections jf\ jf, J { * } of the acceleration of
+the second order on the tangent, the principal normal and the binormal.
+If a, a x , a, are the cosines of the angles which these make with the
+fixed X t -axis, we find from :
+v* dv
+Xl ! R ^ dt
+by the application of the formulae of Frenet — Serret
+(2) d fd y v v'\ S3v do v* dR\ v*
+Jxi = dt Jr ' = "{'M "" R>) + a \~Rjt~W>~dt)~ "' RÏ'
+Hence
+( 2 ) d*v v* (2) 3u dv v* dR (2) v'
+J* Z= ~dt*~R}^ h ~Tl~dt~~R i Tt^ b ~ RT'
+In the motion relative to 'J'/ of a fixed system connected with
+T m ,Jm]b is therefore equal to zero in those points where the plane
+of osculation is stationary and inversely, because — at least in the
+general case — no points appear where v m is equal to zero.
+The velocity being directed along the tangent and the acceleration
+(of the first order) lying in the plane of osculation, this plane is
+stationary at those points and at those points only where the velo-
+city, the acceleration and the acceleration of the second order lie in
+') See e.g. L. P. Eisenhart : Differential Geometry (Ginn and Go, Boston) p. 21,
+Ex. 10. If we lay the axes OX, OY, OZ along the tangent, the principal normal
+and the binormal at an ordinary point of the curve, this can be represented for
+sufficiently small values of s by :
+s % s 4 dR _ 8* s s dR s*
+X=S ~ÖR i + SR l ^^'"' y ~ 2R~ 6R>~ds + 24
+s l sTdl 1 d 1 "
+~QR7'~ 24 JsRl 1 Y'JsR
+d % 1 1 1
+ds'R R z RT'
++ ....
++

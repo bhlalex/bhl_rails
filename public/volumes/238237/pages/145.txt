@@ -1,0 +1,43 @@
+200 MUNROE-HOWELI^PRODUCTS OF DETONATION OF TNT.
+or not until later, we will leave undecided. When analyzing the gas one natu-
+rally has to absorb these hydrocarbons first by means of bromine and fuming
+sulphuric acid, for otherwise the methane determination will be incorrect. If
+the explosion gases are lead off through ammoniacal silver solution, a small
+precipitate is obtained which we claim to be acetylide. Moreover, the explo-
+sion gases contain in small quality products of the incomplete combustion,
+which probably account for their disagreeable sharp odor. We presume, on
+account of the color of fuchsine sulphurous acid, unsaturated aldehyde.
+We found further, in the explosion gases of trinitrotoluol significant
+quantities of ammonia, about 6 per cent. We ascertained this while we were
+introducing the gases and the ammonia set free from the residue of the ex-
+plosion by potash-lye, into standardized muriatic acid. The ammonia could
+have been formed, as Kast assumes, by direct combination of nitrogen and
+hydrogen. We are not willing to subscribe to this opinion, for then we
+should not be able to explain why only insignificant small quantities of am-
+monia are formed when picric acid is detonated. We are much more of
+the opinion, supported by Sabatier's experiments, that the ammonia is formed
+from nitric oxide and hydrogen. The nitric oxide must be formed in quan-
+tities which correspond to the equilibrium between oxygen and nitrogen.
+According to Sabatier^ 2NO -f- 2H2 = No + 2H0O (I). But in the case of
+greater hydrogen concentration, ammonia is formed, 2NO -\- 5H2 := 2H2O
+-I-2NH3 (II). In the case of picric acid only small quantities of hydrogen
+are contained in the explosion gases, therefore equation I is substantially real-
+ized. But in the case of trinitrotoluol the nitrogen present is converted into
+ammonia. These reactions occur with great speed; whether or not they are
+to be considered in arriving at the disintegration equation, later experiments
+will have to prove.
+Bichel in his "Table III. of 1904" definitely states that the data
+presented there is given in percentages by weight. Smith in report-
+ing the analyses of the different products of these experiments treats
+them as if they were stated all in the same terms whereas the re-
+sults in the second and third experiments he cites appear to be stated
+in percentages by volume. Poppenberg and Stephan do not state
+the terms in which they report their results, evidently assuming
+that the results of the analysis of a gas will be understood as being
+given in percentages by volume since this is the usual custom, and
+an examination of the data justifies this opinion.
+Taking the data of Bichel's experiment and subtracting the solid
+C the percentage by volume of the residual permanent gases under
+normal conditions may be found. The following result is thus
+obtained :
+8 Ann. de phys. et chem., 1905, 319.

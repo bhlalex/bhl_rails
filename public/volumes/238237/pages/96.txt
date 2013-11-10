@@ -1,0 +1,146 @@
+MILLER— PARALLAXES OF FIFTY STARS.
+125
+Hour
+Time in Parallax
+Date.
+Angle.
+Obs. 100 Days, Factor,
+Solution,
+Wt,
+Res.,
+Meas-
+h.
+m.
+T. P.
+m.
+P-
+f. iired by
+July i8, 1915.
+. —
+58
+M. — 0.27 —0.578
+—0.033
+•5
++0.003
+Be.
+July 23, 1915.
+I
+18
+M. 0.22 .653
+.035
+.8
+.003
+Be.
+Aug. 13, 1915-
+. +0
+7
+P. o.oi .878
+.030
+.8
+— 0.006
+Be.
+Aug. 14, 1915-
+I
+6
+Ma. 0.00 .887
+.041
+I.O
++0.005
+Be.
+Aug. 13, 1916.
+41
+M. + 3-65 -0.885
+—0.049
+.8
+— O.OIO
+Be.
+Aug. 18, 1916.
+3
+P. 370 .923
+.068
+1.0
++0.009
+Be.
+Apr. 16, 1917.
+10
+M. + 6.11 +0.803
+— 0.062
+.7
++0.006
+Be.
+May 12, 1917.
+. —0
+4
+M. 6.37 .473
+.065
+1.0
+.004
+Be.
+May 12, 1917.
+• +0
+35
+M. 6.37 .473
+.051
+1.0
+— O.OIO
+Be.
+Normal Equa
+tions:
++ ]
+[ 1 .0000 c —
+- 0.7200 /t — 0.8870 7r — —
+- 0.2900.
++ 403.9814 9.1 1.
+28 — -
+-2.6380.
++ 5-1534 — +
+O.I
+365.
+Solution:
+c
+— 0".026.
+o".o30 ± o".ooi.
+7r= + 0".05I ± 0".009.
+p. e. unit weight, ± o".oi9.
+Comparison Stars.
+No.
+I
+4
+5
+9
+IT
+X.
++202.0
+261.2
+— 66.8
+132.0
+0.0
+Y.
+— 20.0
++III.6
+206.0
+—153-2
+0.0
+Dependence.
++0.197
+.124
+.263
+.416
+Diameter.
+0.57
+0.80
+0.46
+0.76
+0.53
+B. D. No.
+.3306
+•3307
+—I -3343
+— 0°.330O
+No. 34. B.D. + 30°.3i28. 99b Herculis = Clark 15^ Br. 2278.
+(iS^^ 3™. 2; + 30° 33'.) Mag. 5.21. /A = — o^oo73 ; + o".o63.
+Spectrum Fg.
+The measures were in longitude. This is a binary with a period
+of 63 years, (Aitken). The components are separated by i".3 but
+appear to be perfectly round, perhaps because the fainter component
+did not impress itself on the plate on account of the rotating sector.

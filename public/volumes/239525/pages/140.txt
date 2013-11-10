@@ -1,0 +1,43 @@
+OF ARTS AND SCIENCES : FEBRUARY 8, 18T0. 207
+Case III.
+sin 3 0= V^si"^ ,
+2 sin y' tan 2 y'
+2
+sin 2j* = — sin y' sin (0 ± 60°).
+V o
+When $ is impossible in Case II., the formulas of Case III. must
+be used; and the upper or lower member of the double sign in the
+second equation must be taken according as sin 2 /3 is positive or nega-
+tive ; in order that sin 2 /x may have the same sign with sin 2 fi. All
+the auxiliary angles (f>, \^, and fi may be taken between the limits
+± 90°. Since sin 2 fi sin 2 /x is always positive, tan fi tan fi and tan
+fi cot fi are so likewise, since they are respectively equivalent to
+sin 2 fi sin 2 /u sin 2 /3 sin 2 /a
+j 2~o 2 and - — . . „ .
+4 cos' fi cos 11 /x 4 cos- fi sin- /x
+Let us take two auxiliary angles 6 and ff, determined by the equa-
+tions
+. _ tan? fi tan* /x cos fi cos 2 /x
+Sin - 8 -. t-t — : r ,
+sin 2 ff = -
+or by the equations
+sin 2 6 = q:
+sin /x cos (fi -4- fi)
+tan* fi cot* ii cos /3 cos 2 /x
+cos /x sin (fi — li)
+cos 2 fj. /sin 2 /3
+1 + /0 V si
+cos 03 + /x) y sin 2 /x'
+. . /1 , cos 2 u /sin 2 fi
+Sm 2 ' = T sin 03 - M ) V smT^'
+where the upper or lower of the signs must be taken according as
+cos fi . . . cos fi . . ,
+- in the first and in the second are positive or negative ;
+sin n cos /x °
+and 2 5 and 2 ff may also be taken within the limits ± 90°. The four
+values of x or tan a are then
+tan a = tan* /3 tan' ^ tan #,
+tan a = tan* /3 tan* /x cot 0,
+tan o- = tan* fi cot* /x tan ff,
+tan o- = tan* fi cot* /i cot ff.
+If the value of sin 2 or of sin 2 ^ does not fall within the limits

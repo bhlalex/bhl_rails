@@ -1,0 +1,50 @@
+EXPANSION PROBLEMS.
+407
+It is a diflference between the present problem and the special
+one treated in the preceding section that the coefficient of e''''"'^'^-^)
+in (34) is not a constant, in general, but an expression of the form
+Pn
+Pn
+ypm-\{x) E {x, p)
+Pn
+Pn
+The additional terms, however, are readil}' taken into account. The
+arbitrary number vi has not yet been assigned; let it be set equal to
+g + 3. Every one of the functions f{x) \pj{x), j = 1, 2, ...,?«, — 1,
+vanishes with its first q derivatives at the points and tt. Hence it
+may be shown by integrating by parts that
+X
+fix) \pj{x) e"""" ('^-^) dx
+<r' ?_ ^.nircot (it/")
+Since each integral of this sort is multiplied by the reciprocal of at least
+the first power of pn, and, of course,
+\r fix) E(x, p) e""^' ('^-^^ dx
+we see that
+I fix) Ki]e'"'«"^'^-^) dx-d\
+Jo
+< cse^'^^^^'^^^"^
+t^w^iSV
+/ 1 \3+2
+7', [ -J— ] pPn
+\PnWiJ
+gPn
+<^ L, t,nwCot U/v)
+A corresponding inequality holds for the integral involving the
+second term of (34), the constant C4 being replaced, if necessary, by a
+new constant C5. For t^S, the quantity gP-wK^-*) remains less in
+absolute value, as n becomes infinite, than e"""'"^ divided by any
+power of 71, and we may write
+Jo
+f{x)[d't] eP'^'"ti^-=^) dx
+<
+Ce
+gnTTCOtCTrA)^ ^ = 2,3, ...,v.
+Hence
+(37)
+; f(x)vn(x)dx- \ d\ ( — y "^"^ c""^' ^+d'2( — y ^^ e""'
+Jo [ ^ \pnWiJ \pnWiJ
+<
+,,9+3
+oTlir cot (Tr/y)
+Let d\ = e^'i-'^'2i^ where h\ and h'2 are real, so that d'o = e^'^+^'^\
+By using (20) and the relation xvi = cos(7r/i') — i sin(7r/j'), the first

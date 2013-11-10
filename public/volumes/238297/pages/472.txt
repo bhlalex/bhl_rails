@@ -1,0 +1,78 @@
+446
+THE PRINCIPLES OF SCIENCE.
+The reader will remark that the correspondence is
+remarkably close, except as regards larger errors, which
+are excessive in practice. It is one objection, indeed, to
+the theory of error, that, being expressed in a continuous
+mathematical function, it contemplates the possible exist-
+ence of errors of every magnitude, such indeed as could
+not practically occur ; yet in this case the theory seems to
+under-estimate the number of large errors.
+Another excellent comparison of the law with observa-
+tion has been made by Quetelet, who has investigated the
+errors of 487 determinations in time of the Right Ascen-
+sion of the Pole-star, made at Greenwich during the four
+years 1836-39. These observations, although carefully
+corrected for all known causes of error, as well as for
+nutation, precession, &c., are yet of course found to differ,
+and being classified as regards intervals of one-half second
+of time, and then proportionately increased in number, so
+that their sum may be one thousand, give the following
+results as compared with what theory would lead us to
+expect h :
+Magnitude of
+error in tenths
+of a second.
+Number of errors
+Magnitude of
+error in tenths
+of a second.
+Number of errors
+by
+Observation.
+by
+Theory.
+by
+Observation.
+by
+Theory.
+O'O
++ 0-5
++ I'O
++ 2'O
+1 68
+148
+129
+78
+33
+10
+2
+163
+H7
+112
+72
+4
+10
+I'O
+2'O
+-3'5
+'5
+126
+74
+43
+25
+12
+2
+152
+121
+82
+4 6
+22
+IO
+4
+In this instance the correspondence is also satisfactory,
+but the divergence between theory and fact is in the
+opposite direction to that discovered in the former com-
+h Quetelet, ' Letters on the Theory of Probabilities,' translated by
+Dowries, Letter XIX. p. 88. See also Galton's ' Hereditary Genius,'
+P- 379-

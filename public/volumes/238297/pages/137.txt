@@ -1,0 +1,36 @@
+THE INDIRECT METHOD OF INFERENCE. 1 1 1
+indirect process of inference becomes reduced to the repe-
+tition of a few uniform operations of classification, selection,
+and elimination of contradictories. Logical deduction even
+in the most complicated questions becomes a matter of
+mere routine, and the amount of labour required is the
+only impediment when once the meaning of the premises
+is rendered clear. But the amount of labour is often
+found to be considerable. The mere writing down of
+sixty-four combinations of six letters each is no small
+task, and, if we had a problem of five premises, each of
+the sixty-four combinations would have to be examined
+in connection with each premise. The requisite com-
+parison is often of a very tedious character and consider-
+able chance of errors thus arises.
+I have given much attention therefore to reducing both
+the manual and mental labour of the process, and I shall
+describe several devices which may be adapted for saving
+trouble and risk of mistake.
+In the first place, as the same sets of combinations
+occur over and over again in different problems, we may
+avoid the labour of writing them out by having the sets
+of letters ready printed upon small sheets of writing paper.
+It has also been suggested by a correspondent that, if any
+one series of combinations were marked upon the margin
+of a sheet of paper, and a slit cut between each pair of
+combinations, it would be easy to fold down any particular
+combination, and thus strike it out of view. The combi-
+nations consistent with the premises would then remain
+in a broken series. This method answers sufficiently well
+for occasional use.
+A more convenient mode, however, is to have the series
+of letters shown on p. 109, engraved upon a common
+school writing slate, of such a size, that the letters may
+occupy only about a third of the space on the left hand
+side of the slate. The conditions of the problem can then

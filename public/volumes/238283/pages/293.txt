@@ -1,0 +1,39 @@
+424 PROCEEDINGS OF THE AMERICAN ACADEMY.
+with boilino- water. The great bulk of nitrate may tlien be removed by
+one crystallization. If to the mother liquor is added a solution of ar-
+gentic nitrate, the argentic nitrite will precipitate at once as a thick
+yellow paste. This is washed and re-crystallized from hot water, until
+the color has changed to white. The pure nitrite was dissolved in a
+nitrate solution to saturation, and this was employed, first, with a porous
+cup (IG), and second, with a paper-wrapped anode (17).
+The results show that a saturated solution of nitrite really has the
+effect of increasing the kathode deposit.
+Since the increase due to a paper-wrapped anode over the weight
+found with a porous cup would have been from 0.04 to 0.08 per cent, the
+nitrite caused an increase of about the same amount in each case. But
+this increase happens only when the solution is saturated with nitrite ;
+hence it is interesting chiefly as a limiting effect, and can hardly be im-
+portant in solutions of nitrite as dilute as those formed spontaneously
+around the anode. The formation of nitrite is evidently the result of
+the breaking up of the IsOg" ion into the nitrite ion 1^0.~ and ox3'gen,
+and the latter is probably taken up by the silver in forming one of the
+oxidized compounds to be discussed later.
+It is not at all surprising that this side reaction should take place to a
+small extent. The current is normally cariied fi'om the anode to the
+solution by the formation of the silver ion from the metal ; but a slight
+tardiness in this reaction (which might be named " physico-chemical in-
+ertia") would result in assistance from the anions in the neighborhood.
+They would seek to adjust the potential by discharging their negative
+electricity on the anode. Of course the most plentiful anion in the vicin-
+ity is the nitrate ion ; its deionization would make possible the form-
+ation of the nitrite ion and oxygen, which might at once oxidize the
+silver plentifully present.* The reaction might be written thus: —
+NO3 -H 3Ag = Ag + -f NO2- -f Agp.
+Thus the electrolysis of a strong solution of argentic nitrate might be
+predicted to result, in the neutralization of a previously acid solution —
+a prediction which agrees with the fact discovered by Rodger and
+"Watson t with thirty per cent solutions of argentic nitrate. It is pos-
+sible that a higher oxide also would be found if the anode were small.
+* The probable presence of silver in supersaturated solution around the anode
+will be shown later.
+1 Rodger and Watson, Phil. Trans., 186 A, G31 (1895).

@@ -1,0 +1,36 @@
+DEDUCTIVE REASONING. 77
+Our principle of inference then includes the rule of nega-
+tive premises whenever it is true, and discriminates correctly
+between the cases where it does and does not apply.
+The paralogism, anciently called Undistributed Middle,
+is also easily exhibited and infallibly avoided by our
+system. Let the premises be
+Hydrogen is an element, (i)
+All metals are elements. (2)
+According to the syllogistic rules the middle term element
+is here undistributed, and no conclusion can be obtained ;
+we cannot tell then whether hydrogen is or is not a
+metal. Eepresent the terms as follows
+A = hydrogen
+B = element
+C = metal.
+The premises then become
+A = AB (i)
+C = CB. (2)
+The reader will here, as in a former page (p. 75), find
+it impossible to make any substitution. The only term
+which occurs in both premises is B, but it is combined
+with different letters. For CB we cannot substitute the
+equivalent of AB. We have no right to decompose
+combinations ; and if we adhere rigidly to the rule given,
+that if two terms are stated to be equivalent we may
+substitute one for the other, we cannot commit the
+fallacy. It is apparent that the form of premises given
+above is the same as that which we obtained by trans-
+lating two negative premises into the affirmative form.
+The old fallacy, technically called the Illicit Process of
+the Major Term, is more easy to commit and more diffi-
+cult to detect than any other breach of the syllogistic rules.
+In our system it could hardly occur. From the premises
+All planets are subject to gravity, (i)
+Fixed stars are not planets, (2)

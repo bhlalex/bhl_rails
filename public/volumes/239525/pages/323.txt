@@ -1,0 +1,33 @@
+496 PROCEEDINGS OF THE AMERICAN ACADEMY
+Again, in [4], putting n = -, q and p being positive integers,
+p C 1 = C q = q ;
+p
+whence O n = -. [6~\
+p x
+Again, in [3], making m =±= o,
+C = o,
+and, making m = — n, C n = — C n ,
+or, making n = -, 0„ = — -• l~71
+From [6] and [7] we have generally
+O m = m,
+and substituting this value of C m in [1],
+D (x m ) =' m x" 1 - 1 D x. [c]
+The Differential of the Logarithmic Function.
+Let z = mx, then will Dz = m Dx, [1]
+and log z = log m -\- log x, and D (log z) =Z> (log x). . [2]
+Dividing [2] by [1],
+D (log z) D (log x) x D (log. z)
+D z m . D x z Dx '
+since !■= *, ... • J ^ z) = x * ( 7 \°g *> = A [3]
+m z Dz Dx L J
+B denotes a constant depending upon the base of the system of
+logarithms. Denoting by b this base, and by log 6 a corresponding
+logarithm, we have
+D (log b x) = ^, [4]
+and by similar notation D (log a x) = .
+A relation between A and i? is found by differentiating the identical
+equation log a x = log a b log b x,
+., , , . . ^4 Z>rr , r BDx
+thus obtaining = log a o • ,
+whence A = B • log a b = log a S B ;
+a- 1 = J».

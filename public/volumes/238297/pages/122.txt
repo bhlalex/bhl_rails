@@ -1,0 +1,36 @@
+96 THE PRINCIPLES OF SCIENCE.
+are such invariable and necessary conditions of all thought,
+that they need not be specially laid down. The Law of
+Contradiction is a further condition of all thought and of
+all logical symbols ; it enables, and in fact obliges, us to
+reject from further consideration all terms which imply
+the presence and absence of the same quality. Now,
+whenever we bring both these Laws of Thought into ex-
+plicit action by the method of substitution, we employ the
+Indirect Method of Inference. It will be found that we
+can treat not only those arguments already exhibited
+according to the direct method, but we can also include an
+infinite multitude of other arguments which are incapable
+of solution by any other means.
+Some philosophers, especially those of France, have
+held that the Indirect Method of Proof has a certain infe-
+riority to a direct method, which should prevent our using
+it except when obliged. But there are an unlimited
+number of truths which we can prove only indirectly.
+We can prove that a number is a prime only by the
+purely indirect method of showing that it is not any of the
+numbers which have divisors, and the remarkable process
+known as Eratosthenes' Sieve is the only mode by which
+we can select the prime numbers a . It bears a strong
+analogy to the indirect method here to be described. We
+can also prove that the side and diameter of a square are
+incommensurable, but only in the negative or indirect
+manner, by showing that the contrary supposition con-
+stantly and inevitably leads to contradiction b . Many other
+demonstrations in various branches of the mathematical
+sciences rest upon a like method. Now if there is only
+one important truth which must be, and can only be
+a See Horsley, ' Philosophical Transactions/ 1772; vol. Ixii. p. 327.
+Montucla, ' Histoire des Mathematiques,' vol. i. p. 239. ' Penny
+Cyclopaedia,' article Eratostfienes.
+b Euclid, Book x. Prop. 117.

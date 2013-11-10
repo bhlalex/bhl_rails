@@ -1,0 +1,47 @@
+LESSOiVS IN ELECTRICITY. 333
+you to thorouglily analyze and understand the action of the Leyden-
+jar. In charging the jar, the outer coating is connected with the
+earth and the inner coating with the electrical machine. Let the
+machine, as usual, be of glass yielding positive electricity. When it
+is worked the electricity poured into the jar acts inductively across
+the glass upon the outer coating ; attracting its negative and repelling
+its positive to the earth. Two mutually attractive electric layers are
+thus in presence of each other, being separated merely by the glass.
+When the machine is in good order and the glass of the jar is thin,
+the attraction may be rendered strong enough to perforate the jar.
+Franklin saw and announced with clearness the escape of the
+electricity from the outer coating of the jar. His statement is that,
+whatever be the quantity of the " electric fire" thrown into the jar,
+an equal quantity was dislodged from the outside. We have now
+to prove by actual experiment that this explanation is correct.
+Place your Leyden-jar upon a table, and connect the outer coating
+with your electroscope. There is no divergence of the leaves when
+electricity is poured into the jar.
+But here the outer coating is connected through the table with the
+earth. Let us cut off this communication by an insulator. Place tlie
+jar upon a board supported by warm tumblers, or upon a piece of
+vulcanized India-rubber cloth, and again connect the outer coating
+with the electroscope. The moment electricity is communicated to
+the knob of the jar the leaves of Dutch metal diverge. Detach the
+wire by your discharger and test the quality of the electricity — it is
+positive, as theory declares it must be.
+Consider now the experiment of Klei&t and Cunoeus (Fig. 23).
+You will, I doubt not, penetrate its meaning. You will see that in
+their case the hand formed the outer coating of the jar. When
+electricity was communicated through the nail to the water within,
+that electricity acted across the glass inductively upon the hand, at-
+tracting the one fluid and repelling the other to the earth.
+Again I say, prove all things; and what is here affirmed may be
+proved by the following beautiful and conclusive experiment : Stand
+on your board, insulated by its four tumblers ; or upon a sheet of
+gutta-percha, or vulcanized India-rubber. Seize the old Leyden-phial
+with your left hand, and touch the electroscope with tlie right, or with
+a lath or a wire held in the right. When electricity is communicated
+to the nail, the leaves immediately diverge by the electricity driven
+from your left hand through your body to the electroscope.
+Here the nail may be electrified either by connecting it with the
+prime conductor of the machine, or by simply rubbing it with an
+excited glass rod. Indeed, I should prefer your resorting to the sim-
+plest and cheapest means in making these experiments.
+As a thoughtful and reflective boy you cannot, I think, help won-
+dering at the power which your thorough mastery of the principles

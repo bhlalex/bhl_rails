@@ -1,0 +1,36 @@
+DISJUNCTIVE PROPOSITIONS. 93
+A = gem
+B = rare stone
+C = beautiful stone,
+the proposition ( i ) is of the form
+A = B | C
+hence AB = B -|- BC
+and AC = BC -I- C ;
+but these inferences are not equivalent to the false ones
+(2) and (3).
+We can readily represent such disjunctive reasoning, when
+it is valid, by expressing the inconsistency of the alterna-
+tives explicitly. Thus if we resort to our instance of
+Water is either salt or fresh,
+and take A = Water
+B = salt
+C = fresh,
+then the premise is apparently of the form
+A = AB | AC ;
+but in reality there are the unexpressed conditions that
+* what is salt is not fresh/ and ' what is fresh is not salt ; '
+or, in letter-terms,
+B = Be
+C = 60.
+Now, if we substitute these descriptions in the original
+proposition, we obtain
+A = ABc | A6C ;
+uniting B to each side we infer
+AB = ABc l- AB6C
+or AB = ABc ;
+that is,
+Water which is salt is water salt and not fresh.
+I should weary the reader if I attempted to illustrate
+the multitude of forms which disjunctive reasoning may
+take ; and as in the next chapter we shall be constantly
+treating the subject, I must here restrict myself to a single

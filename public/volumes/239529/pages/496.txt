@@ -1,0 +1,51 @@
+737
+component and a component tangent to the circular orbit; in such
+a manner that these four directions will be all perpendicular to each
+other. Now, if (he planet with the geodesical falling axes comes across
+some particular set of local axes, the axes of time, both the falling
+and the local, will coincide, and therefore the spaces of the falling
+and of the local axes too will be the same. Thus the position of
+the falling axes relative to the local ones can be stated and the
+positions before and after a revolution compared.
+The gravitational tield of the sun is given by the form of the
+infinitesimal interval :
+dr*
+ds' = (1 — tt/r) dt* — r* dO* — r* sin* O d<p\
+1 — a/r
+In this field a circular motion is possible in the plane 6 = ^jt,
+with "radius" R and with angular velocity
+dipjdt = cd= Vailll*.
+Now, everywhere along the track define four vectors A a ,A a l ,A a 9 ,A a t ,
+as follows
+(0) (1) (2) (3)
+A».
+\/——, o, o, IL/IZI.
+V 2R—%a RV 2R-Sa
+0'
+1/1-
+-a/R,
+o,
+o,
+o,
+o,
+1/22,
+0,
+A a
+1/ « R o o i|/^Zf>
+V (R—a) (2 R—Sa) 1 ' R V 2 R— 3«'
+It will be seen that these vectors are all of unit length and
+perpendicular to one another. They define the local axes.
+A set of these vectors in one particular point-instant can be taken
+as the starting vectors of the geodesic falling coordinates. To find
+the directions of the falling axes after a lapse of interval ds (com-
+ponents A n 9 ds) we need the values of Christoffel's symbols. These are,
+in coordinates t, r, 6, (p :
+101) a
+I j — 2R{R^a)'
+00 1 «(/?-«) |11) (22 } ,„ , (33) m . . ,.,
+1 ) 2 R* ' j \)2R{R—<x)'l \\ '| 1
+12 J __ 1 i 13 1 _ 1
+2 | — R' | 3 j ~~ R'
+33 j 1231 cosö mi
+\= — sin0cos6, ==- — — -. The remaining symbols vanish.
+2 1 I 3 \ sin a

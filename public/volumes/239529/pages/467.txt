@@ -1,0 +1,42 @@
+700
+The substances with known and unknown conductivity respectively
+are placed between three parallel copper plates. The upmost plate is
+electrically heated, the downmost is cooled with water. The differences
+of temperature between the plates have been measured thermo-
+electrically. The ratio of the conductivity of the two substances is
+found from the differences of the temperature and the thicknesses
+of the layers. When for glycerine the value :
+X = 72.5 X 10- 5
+is taken for the conductivity, the following values are found for
+solid and liquid salol respectively :
+A, = 60 X 10- 5
+A, = 43 x 10- 5 .
+It is worthy of note here, that the difficulties which are met with
+in measurements of conductivity of heat are greater than those in the
+other measurements which have been mentioned in this paper. Errors
+should therefore, for the greater part be attributed to the measure-
+ments of the conductivity.
+6. The exterior diameter of the tubes used has been measured
+with a micrometer screw. The interior diameter is determined by
+weighing of a quantity of mercury, which has filled a known length
+of the tube.
+The conductivity óf glass, which has also influence on the meas-
+ured temperature, has not been determined. For this quantity
+different values have, indeed, been found according to the kind of
+glass that was examined, but the influence of the thermal conduc-
+tivity in the glass wall is comparatively small, so that a mean value
+suffices. For this has been taken :
+l g = 180 X 10- 5 .
+By the aid of the results of the said measurements, the tempera-
+ture on solidification in a definite tube can be numerically calculated.
+The measurements having been carried out in a point of the axis
+of the tube, r = should be put in the formulae. The calculation
+has only been completely carried out for a single case. The compar-
+ison of theory and direct observation cannot yield new results, but
+only corroborate the correctness of theory and observations.
+The tube for which the calculation was made, has as bore:
+a = 0.88 mm.
+The thickness of the glass wall was :
+(f = 0.91 mm.
+The temperature of the thermostat was 16° during the observations.
+At this temperature the velocity of crystallisation was maximum in

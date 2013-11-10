@@ -1,0 +1,36 @@
+THE INDIRECT METHOD OF INFERENCE. 99
+logic gives the inference without the use of any geo-
+metrical reasoning. I conceive however that v logic gives
+the inference only by an indirect process. De Morgan
+claims 'to see identity in every A is B and every not-B
+is not-A, by a process of thought prior to syllogism/
+But whether prior to syUogism or not, I claim that it
+is not prior to the laws of thought and the process of
+substitutive inference by which it may be undoubtedly
+demonstrated.
+Employment of the Contrapositive Proposition.
+We can frequently employ the contrapositive form of
+a proposition by the method of substitution ; and certain
+moods of the ancient syllogism, which we have hitherto
+passed over, may thus be satisfactorily comprehended
+in our system. Take for instance the following syllogism
+in the mood Camestres :-
+' Whales are not true fish : for they do not respire
+water, whereas true fish do respire water.'
+Let us take
+A = whales,
+B = true fish,
+C = respiring water.
+The premises are of the form
+A = Ac, (i)
+B = BC. (2)
+Now, by the process of contraposition we obtain from (2)
+c = be,
+and we can substitute this expression for c in (i), ob-
+taining
+A = Abe,
+or ' Whales are not true fish, not respiring water/
+The mood Cesare does not really differ from Camestres
+except in the order of the premises, and it could be
+exhibited in an exactly similar manner.
+H 2

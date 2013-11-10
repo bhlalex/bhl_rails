@@ -1,0 +1,215 @@
+MILLER— PARALLAXES OF FIFTY STARS.
+119
+No. 28. B.D. + i7°.26ii. yg 800. (13'' ii'^.g; + 17° 33'.)
+Mag. 7.0-10. /A = + o^o445 ; — o".269.
+The measures were in longitude. This is a binary star whose
+large proper motion and large orbital motion indicates that it is com-
+paratively near to us. The measures were made on the principal
+component. Adams found a parallax of this star spectroscopically
+to be o".o8y.
+Hour
+Time in
+Parallax
+Date.
+Angle.
+Obs.
+100 Days,
+Factor,
+Solution,
+Wt.,
+Res.,
+Meas-
+h. m.
+T.
+P.
+m.
+^.
+V. ured by.
+June
+4,
+1915- ••
++0 3
+P.
+—4.28
+—0.75
++
+0.025
+.7
+— O.OOI
+Be.
+June
+5,
+1915-..
+9
+Ma.
+4.27
+■77
+.023
+.8
+-fo.ooi
+Be.
+Feb.
+3,
+1916. . .
+— 31
+P.
+—1.84
++0.83
+•134
+I.O
+-f-O.OOI
+Be.
+Apr.
+30,
+1916. . .
++0 10
+S.
+—0.97
+—0.35
+.142
+•5
++0.007
+Be.
+May
+26,
+1916. . .
+27
+P.
+0.71
+.68
+.167
+.5
+— 0.014
+Be.
+June
+I,
+1916...
+48
+M.
+0.65
+■73
+•147
+•7
++0.008
+Be.
+Jan.
+26,
+1917.. -
+-0 38
+Ma.
++1-74
++0.87
+-255
+•5
++0.010
+Be.
+Jan.
+26,
+1917...
+Ma.
+1-74
+.87
+.264
+•9
+.001
+Be.
+Feb.
+12,
+1917.. -
++0 55
+M.
+1.91
+•75
+.269
+•9
+0.000
+Be.
+Mar.
+12,
+1917...
+28
+M.
+2.19
+•41
+.283
+.6
+— 0.009
+Be.
+Mar.
+12,
+1917...
+I 13
+M.
+2.19
+•41
+.280
+•5
+.006
+Be.
+May
+30,
+1917- ••
+35
+P.
++2.98
+—0.72
+.282
+.8
++0.003
+Be.
+Normal
+Equatio
+ns:
++ 8
+.4000 c
+—
+.5990/^ + 0.43
+[Ott -f
+1.5699.
++ 51
+•7150
++ 6.7732
++ 4-3880
+- +
+1-8534-
+0.3910.
+Solution: c = + o".i89.
+/A = + o".i69 ± o".oo3.
+7r= + 0".070 ± 0".0I0.
+p. e. unit weight, ± o".oi8.
+Comparison
+Stars.
+No.
+X.
+Y.
+Deper
+idence.
+Diameter.
+B. D. No.
+I
+—215.2
+— 37.2
++0.451
+0.43
+2
+82.4
++178.0
+.162
+0.68
++l8°.2707
+5
++212.0
+218.8
+•045
+0.51
++i8°.27ii
+7
+294.2
+— 62.4
+.042
+0.41
+IT
+0.0
+0.0
+0.60
++i7°.26ii

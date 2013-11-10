@@ -1,0 +1,42 @@
+108 BRIDGMAN.
+shape of the indifferent region makes it impossible to obtain equilib-
+rium values on the ascending branch by shutting the pressure within
+two limits approached from above and below. The best that could be
+done here was to use the method of varying temperature at constant
+volume, varying the temperature by small steps, and relying on the
+relatively small amount of superheating to get a fairly good value for
+the transition temperature. The change of volume can be determined
+from these data by methods already used. Evidently the failure of
+this method to give any results at 2250 kgm. on the first trial men-
+tioned above was because the temperature was not raised sufficiently
+high.
+The shape of the region of indifference gives rise to curious effects
+in the neighborhood of the maximum. Thus at room temperature,
+the pressure was once raised to 6500, the temperature was then raised
+to 165°, and pressure was raised, with a transition at the expected
+place, but on releasing pressure no reverse transition was found on
+crossing either branch of the curve. The location of the indifferent
+region evidently explains this. On another occasion, temperature was
+raised at 6600 completely through the indifferent band, the transition
+running as to be expected on emerging at 180°, but on lowering tem-
+perature to 175° and reducing pressure, no reverse transition could be
+foimd.
+The existence of the maximum was further established by the
+following runs. First, temperature was raised to 190° at about 2500
+kgm., giving the regular transition point at about 165°. At 190°,
+pressure was increased to 10,000 with no transition; at 10,000 tem-
+perature Avas lowered to 120° with no transition, and at 120° the tran-
+sition was found again at the point to be expected on lowering pressure.
+Again, starting at 120° and 9000 kgm., temperature was raised to
+195° with the transition at the expected point; at 195° pressure was
+lowered to 4600 with no transition; at 4600 kgm. temperature was
+lowered in steps of 10° to 120°, passing a transition with almost im-
+perceptibly small change of volume at 134°, which therefore marks the
+lower limit of the indifferent region, and at 120°, pressure was raised
+again, the volume returning to its initial value when the initial pres-
+sure was reached. To make still more certain that the initial con-
+ditions had been recovered, pressure was increased beyond its initial
+value at 120°, and the regular transition found both from above and
+below. That is, we have here the experiment of describing a complete
+circuit and coming back to the starting point, with practically only
+one discontinuous change of volume. If the pressure of decreasing

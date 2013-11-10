@@ -1,0 +1,36 @@
+88 PROCEEDINGS OP THE AMERICAN ACADEMY.
+amalgams follow rigidly the laws of dilute solutions, oa account of wide
+deviations in the observed values.
+It has been the object of the present research to determine the electro-
+motive forces of cells of the above type at varying temperatures, and
+with amalgams of all degrees of concentration, and also of similar cells
+in which one amalgam is replaced by the pure metal. Zinc and cad-
+mium as metals, and normal solutions of their sulphates as electrolytes,
+were chosen as best adapted to the purpose. The experimental results
+were studied in relation to the two following equations: —
+£= — Tin — = .0000^0 T log -^. (2)
+dE _E Q
+Equation (2) is the simpler form that (1) assumes when the atomic
+weight is substituted for M. E is the observed electromotive force ; R
+is the gas constant ; n, the valence of the metal in question (« = 2 in the
+case of zinc and cadmium) ; e^ is the quantity of electricity in coulombs
+which is carried by one gram-equivalent; In — is the natural logarithm
+of the concentration ratio. A comparison of this formula with the
+experimental results shows the extent of applicability of the laws of
+dilute solutions to amalgams (assuming the molecule of the metal to be
+monatomic when amalgamated).
+Equation (3) is the Ilelmholtz equation for the temperature coefficient
+of a cell, where Q is the heat given off by the cell during a transfer of
+n gram-equivalents. In the cells under consideration the only change
+produced by the current is the transfer of metal from the solid electrode
+to the amalgam, or from one amalgam to another more dilute. Q then
+represents either the heat of amalgamation of w gram-ecjuivalents (one
+gram-atom) of the metal, or the heat of dilution of an amalgam contain-
+ing one gram-atom. The use of this equation permits the calculation of
+these quantities from the temperature coefficient of the cell.*
+Since the heat capacity of the amalgam is approximately the sum
+of the heat capacities of its constituents, the heat of amalgamation is
+Q
+practically constant. If we place a constant, h, in place of — , equation
+(3) becomes
+* Compare the interesting paper by Bugarszky, Zeit. anorg. Chem., XIV. 145.

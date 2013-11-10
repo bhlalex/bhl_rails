@@ -1,0 +1,28 @@
+292 PROCEEDINGS OF THE AMERICAN ACADEMY,
+the coordinates being connected by the relations
+By the neighborhood of the line
+is here meant the set of points (f, -q, C) which satisfy the condition
+The singularities of the surfaces
+ffr (^^' V, 0=0
+at the points (0, 0, 0) are at most of order m. Their further proper-
+ties will be considered later.
+Let G be an arbitrarily chosen (large) positive quantity, 8 a second
+suitably chosen j^ositive quantity : then any point of T, for which
+\^\<GU\, \v\<G\C\, 0<\i\<8,
+is carried by the transformation (4) into one of the neighborhoods above
+considered on the surfaces y^ = 0. If ^ = 0, but ^, r] do not both van-
+ish, then the point (f, rj, Q is carried by (5) into one of the neighbor-
+hoods considered on the surfaces g^ = 0.
+In (3), the function <^ ($, r}) contains the term f "* by 3, 2). Apply the
+transformation
+V-^^Vi. (6)
+whence (3) takes the form
+^ a, V, = r [<^i (?, vi) + (xi (I vi^ 0].
+In 4>i (t? Vi)f take out all terms not containing rji, so that
+i>i (i, Vi) = n (^ — a^) -f 7/1 1//1 (^, Tji), fii + + ft, = m.
+Then make the transformation
+^-a. = 4 (6')
+and we have
+4) {$, ^, = r [t/ i' (4 + a, - a^.T"' + V^^ a., Vi)+Cx (i.^ Vi^ 0]
+(r';= 1
+= ^"'ff. (I., Vu = (7)

@@ -1,0 +1,34 @@
+28 PROCKEDINGS OF THE AMERICAN ACADEMY.
+the temperature at no point within the cylinder of radius I co-axial with
+the disk differs by more than 0°.02 from the temperature at the corre-
+sponding point in an infinite disk of the same tliickness and same face
+temperatures. In practice there is always a gradual fall in edge temper-
+atures as z increases from to /, and in such a case we may consider a
+guard ring of width 4/ amply large- enough to make the final temperatures
+within a right cylinder of radius / and thickness I sensibly ecjual to those
+within an infinite slab of the same thickness and same face temperatures.
+In our experimental work we have sometimes found it desirable to
+introduce between two slabs of low conductivity a thin sheet of tinfoil of
+comparatively very high conductivity. It is evident that under con-
+ceivable conditions such a layer of metal might seriously affect the final
+temperatures in the slabs near their common axis. To investigate the
+disturbances that miglit arise from this cause, we may apply the solution
+of Problem 5 given above to the extreme case where the uniform edge
+temperature is equal to one of the face temperatures, and where ki — k^.
+If we attempt to compute numerical values of the series
+S-.-^y)- frO
+p =
+by using the expression for A^ given in equation (32), we shall find the
+amount of labor involved enormous ; we will therefore change the form
+of the expression so as to make the nature of its dependence upon the
+dimensions of the cylinders and upon their conductivities more evident,
+keeping in mind the fact that the ratio of ^o to ki is very large. If we
+denote the denominator of the second member of (i32) by D, and write
+«=sinh~^s', « -f 8 = sinh~ ^ s", and Mo^sinh^^s,
+we have
+Z> = S {(/. 5" 2 _ c" ') (fX C' "-s"-)-{l- /x)- C' S' C" S"}
++ c{\~fj.) {s" c" (/. c' 2 - ,' ■') - s' c' Ox c" ■' - /' ')}
+= 1 s{(l _/x)2cosh 28 + (/x2 - 1 ) [cosh 2 (« + 8) - cosh 2 «] - (1 + /x)^}
+— ^e(l— ;ut)-sinh28 + |c(l — /x2)[sinh 2(«-f 5)-sinli 2m]
+= i {(1 - fxY smh («„ — 2 8) - (1 + fiY s\nh «„
+— (1 — /x-)[sinh («o — 2« — 2 8) — sinh («o — 2(t)']},

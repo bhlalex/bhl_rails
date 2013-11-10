@@ -1,0 +1,31 @@
+312
+PROCEEDINGS OF THE AMERICAN ACADEMY.
+and all the resulting linear factors would have to vanish when
+^ = 0, ^ = 0,
+and so not contain ^.
+Also by a linear homogeneous transformation in ^ and r; we can se-
+cure the presence of terms in ^ and rp, and in such case every linear
+factor of <f) (f, rj), which here is (^, jf)^ itself, will contain ^ and thus
+secure condition 3) of § 1, 3.
+B. — Quadratic Transformations.
+3. The succession of surfaces and corresponding quadratic transfor-
+mations which are applied to the new singular points as found, so long
+as they do not reduce the degree, can be written in the form
+(14)
+Apply to the surface (13) the transformation
+t —
+= ^U,
+V — ViC,
+and we have
+^{$, r), = C"[{^i, ViU + U^u Vi, l)»-+i + ]
+^S"[($l,Vl)mH^(^l,Vi,0'] (15)
+As we assume the transformation does not reduce the degree of the
+singular point, there can be no term of degree less than m in the part
+C^iii) Vi^ ^^^ ^^ ^^^ terms of this contain ^, when we put the expres-
+sion in the form
+^1 (^1, ^1, = (il, VV Om + (^1, m, 0,„+l + (16)
+we will secure reduction by another quadratic transformation unless
+(^]) Vii Om is the product of m linear factors with a common line of
+intersection. In this case the factors cannot be all equal, for then
+(^i> ^15 0)m would have its linear factors all equal, but these are the
+factors of (|i, 171)^. Also the common point of intersection of the lines

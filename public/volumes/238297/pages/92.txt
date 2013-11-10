@@ -1,0 +1,33 @@
+66 THE PRINCIPLES OF SCIEXCE.
+the propositions are of the form
+A = AB
+K = c;
+whence, by substitution,
+A - Ac.
+Inference of a Partial from Two Partial Identities.
+However common be the cases of inference already
+noticed, there is a form occurring almost more frequently,
+and which deserves much attention because it occupied a
+prominent place in the ancient syllogistic system. That
+system strangely overlooked all the kinds of argument we
+have as yet considered, and selected as the type of all
+reasoning one which employs two partial identities as
+premises. Thus from the propositions
+Sodium is a metal (i)
+Metals conduct electricity, (2)
+we may conclude that
+Sodium conducts electricity. (3)
+Taking A, B, C, respectively to represent the three terms,
+the premises are of the form
+A = AB (i)
+B = BC. (2)
+Now for B in (i) we can substitute its description as
+given in (2), obtaining
+A = ABC, (3)
+or, in words, from
+Sodium = sodium metal (i)
+Metal = metal conducting electricity, (2)
+we infer
+Sodium = sodium metal conducting electricity, (3)
+which in the elliptical language of common life becomes
+' Sodium conducts electricity.'

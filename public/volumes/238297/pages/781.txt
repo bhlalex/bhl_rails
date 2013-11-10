@@ -1,0 +1,37 @@
+ANALOGY. 291
+sents some algebraic equation, we are presented by simple
+observation of many mechanical movements with abun-
+dant suggestions towards the discovery of mathematical
+problems. Every particle of a carriage- wheel when mov-
+ing on a level road is constantly describing a cycloidal
+curve, the curious properties of which exercised the in-
+genuity of all the most skilful mathematicians of the
+seventeenth century, and led to important advancements
+in algebraic power. It may well be held even that the
+discovery of the Differential Calculus is mainly due to
+geometrical analogy, because mathematicians, in attempt-
+ing to treat algebraically the tangent of a continuously
+varying curve, were obliged to entertain the notion of
+infinitely small quantities d . There can be no doubt
+that Newton's fluxional, or in fact geometrical mode of
+stating the differential calculus, however much it sub-
+sequently retarded its progress in England, facilitated its
+apprehension at first, and I should think it almost certain
+that Newton discovered the calculus geometrically.
+We may accordingly look upon this discovery of
+analogy, this happy alliance, as Bossut calls it e , between
+geometry and algebra, as the chief source of discoveries
+which have been made for three centuries past in mathe-
+matical methods. This is certainly the opinion of no less
+an authority than Lagrange, who has said, ' So long as
+algebra and geometry have been separate, their progress
+was slow, and their employment limited ; but since these
+two sciences have been united, they have lent each other
+mutual strength, and have marched together with a rapid
+step towards perfection/
+The advancement of mechanical science has also been
+greatly aided by analogy. An abstract and intangible
+a Lacroix, < Trait Eldmentaire de Calcul Diff&entiel et de Calcul
+Integral/ 5 me ddit. p. 699.
+e ' Histoire des Math&natiques/ vol. i. p. 298.
+U 2

@@ -1,0 +1,35 @@
+10
+sni < nk^^ (1 + 6)< (/li — V)2^ (1 + f)< n^' (1 + e). • (42')
+Tlie inequalities (42) siiow tliat the npper limit of s'^^^ for n = co
+is. indeed, at most equivalent to ii^^. On the otlier hand it is easily
+seen that n^^ is exactly the power of n to vviiich the upper limit
+of ó"(2) for 71 = CD is equivalent, but this is of no importance for
+our purpose.
+We now construct a function y(/) by means of the so-determined
+series of coefficients (40)
+00
+y (0 = ^ a„ <" . (2)
+For this we may also write
+00 00
+(p (t) ^ (l—t) Sli 5„^' = (l-<)' \^S„(2)en , . (43)
+The last member of this equality shews of what order <p {t) is
+at most for t = 1 — S. Since wo have seen just now, that the upper
+limit of .s'^2) for n:= <x> is at most equivalent to n-^, the function
+B
+is, for ^ = 1, at most of order 1 : {l—iy+^^. Hence (p (i) is for t = 1
+equal to zero, if ^ <^ h and for k <^ ^^ <C^ at most of order
+1:(1— /)2«-i. Thus we have
+A = for <9 <
+A =2^—1 for <9>è.
+Since 2^ — 1 =: <9— (1 — 0) and «^<^1, we have in both cases
+From the lemma proved in the preceding paragraph it now fol-
+lows, since the upper limit of 6^^ foi" n = co is equivalent to 7i^,
+that the series of factorials
+r{.v)yi (6)
+.^— c Fix + n -\- 1 )
+n / a,,
+r{x + n + 1)
+diverges for R{.r) <^ 0. Hence it is not true here that this series con-
+verges for R{:v) ]> a'(= 0) a7id R{.r) > A, a77d a fo7'tio7n not that a
+certain integral of the for7n (1), for all such values of x, might be
+expanded m such a se7'ies. Therefore Nielsen's theo7r7n is i7iexact.

@@ -1,0 +1,39 @@
+332
+KENNELLY-NABESHIMA— ESTABLISHING A
+0.0631/85° 25' 8" = (5.058 + y 40^) 10-3 hyps Z.
+Linear angle a at 60.6'—',
+1.307 X 10-3/85° 25' 8" = (0.1048 + y 1.302) 10-3
+= (0.1048 + y 0.8293) 10-3 hyp/km.
+Linear angle a at 60.6^ — ',
+2.103 X 10-3/85° 25' 8" = (0.1686 + y 2.096) 10-3
+= (0.1686 + y 1.335 ) 10-3 hyp/mile.
+Lumpiness correction of line, or of any section, in steady state, at 60.6 '~-',
+9
+— /sinh — = 1. 0002 Vo°. 0002.
+The lumpiness correction factor of this Hne in the steady state
+is 1.0002 V o°.ooo2 at 60'— ', which, for practical purposes, is quite
+insignificant. This means that, for a.-c. transmission in the steady
+state, at 60'~', this lumpy artificial line is equivalant to the smooth
+uniform line having the linear constants r, g, I and c of Table 11.
+At 189.4 '— ', however, the lumpiness correction factor, in the steady
+state, is 1.002 ^ o°.oi, and at yet higher frequencies, it becomes
+very appreciable. A picture of part of this line appears in Fig. 8.
+In most of the measurements of transients made on this line,
+the full length of 26 sections, 1255 km., or 780 miles, was employed.
+At 60.6'—' — the frequency ordinarily used — this length is nearly a
+quarter wavelength,^ so that, in the steady state, with the distant
+end B free, the voltage at B with the oscillograph connected there,
+rises to 5.627 V 110°. 6 times the voltage impressed at A.
+Electrical Connections. — The electrical connections most fre-
+quently employed in the tests are indicated in Fig. 3. AB is the
+S
+<r1
+"^ — r^'^^
+OaU
+The Artificial Line
+"TraJOTVOTOTTT-r
+Fig. 3. Electrical Connections of Artificial Line.
+artificial -n- line. At the generator end A, is a single-pole motor-
+controlled line switch S, for closing the circuit at any desired phase
+of e.m.f. from the alternator G. A current-recording oscillograph
+6 Bibliography 13, p. 82.

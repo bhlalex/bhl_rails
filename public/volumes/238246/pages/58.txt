@@ -1,0 +1,54 @@
+59
+much less light energy in order to obtain the same reaction, than
+with light coming vertically from above. Therefore the intensity and
+the energy numbers must be divided by a certain coefticient.
+Now VoGT found that already after a few minutes the rate of growth
+began to fall off. This led after about 25 minutes to a minimum,
+while after 30—40 minutes the zero point was again passed. Then
+an acceleration of growth occurred, leading to a maximum, so that
+at about 60 minutes after the beginning of illumination the first
+rate of growth had been reestablished. After that the growth oscil-
+lated for a long time, at first with considerable but later with grad-
+ually decreasing maxima and minima.
+I have now calculated from Vogt's tables '), how many ft the
+plants grew less during the first retardation period than if they had
+continued their growth in the dark. The following figures therefore
+give, in fi, the total retardation of growth nntil the zero-point is
+again reached and the acceleration of growth begins. It should always
+be remembered that the intensity numbers must be divided by a coef-
+ficient before being comparable to those of horizontally incident light.
+TABLE I.
+Intensity.
+Duration of illumination.
+1 min.
+3 min.
+15 min.
+continuous.
+16 M.C.
+39
+83
+64 M.C.
+53
+100 M.C.
+102
+104
+90?
+500 M.C.
+122
+123
+1000 M.C.
+294
+76
+147
+1500 M.C.
+89
+Since in unilateral illumination the front is always more strongly
+illuminated than the back, the former is retarded more than the
+latter, if the retardation of growth increases with increasing intensity.
+Consequently a positive phototropic reaction occurs, provided the
+difference in growth retardation is sufficient to give a visible cur-
+vature. If the retardation of growth diminishes again with increasing
+intensity, a negative reaction will occui-, for in this case the back
+side is retarded more than the front. It is seen from the table that
+the first and second columns will give positive cui-vatures. We cannot
+1) VoGT I.e. Tables 8, 9 and 11.

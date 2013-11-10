@@ -1,0 +1,35 @@
+120 THE PRINCIPLES OF SCIENCE.
+geometrical process, and obtain to a very close approxi-
+mation the true ordinates instead of those denoting
+areas".
+Interpolation and Extrapolation.
+When we have by experiment obtained two or more
+numerical results, and endeavour, without further resort
+to experiment, to infer and calculate intermediate results,
+we are said to interpolate. If we wish to assign by
+reasoning results lying beyond the limits of experiment,
+we may be said, using an expression of Sir George Airy,
+to extrapolate. These two operations are to a certain
+extent the same in principle, but differ in practicability.
+It is a matter of great scientific importance to appre-
+hend precisely how far we can interpolate or extend
+experimental results by extrapolation, and on what
+grounds we proceed.
+In the first place, if the interpolation is to be more
+than empirical and speculative, we must have not only
+the experimental results, but the laws which they obey
+we must in fact go through the complete process of scien-
+tific investigation. Having discovered the laws of nature
+applying to the case, and verified them by showing that
+they agree with the experiments in question, we are then
+in a fair position to anticipate the results of any similar
+experiments. Our knowledge even now is not certain,
+because we cannot completely prove the truth of any
+assumed law, and we cannot possibly exhaust all the cir-
+cumstances which may more or less affect the result.
+Even at the best then our interpolations will partake of
+the want of certainty and precision attaching to all our
+knowledge of nature. Yet having the supposed laws, our
+n J. W. Strutt, * On a correction sometimes required in curves pro-
+fessing to represent the connexion between two physical magnitudes/
+'Philosophical Magazine,' 4th Series, vol. xlii. p. 441.

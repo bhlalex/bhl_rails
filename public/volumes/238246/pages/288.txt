@@ -1,0 +1,43 @@
+425
+ƒ {z)—f {z,)
+of -" For X = y =z z f* {x, y) coincides with ƒ' {z), lience
+z —z, " '
+f'{z) converges also. If 6' denotes a circle situated witliin z <^a,
+with centre z^, then /'* (c,, z) converges quasi-iiniformij within C.
+This function is continuous in C and for 2: ^ 2^, coincides with ƒ '(^).
+In consequence of the quasi-uniform convergence the limiting function
+f (z) fu )
+is also continuous within 6'. Tljis limiting function is " '
+for z^ z^.
+Hence
+lim — — hmf (ej,
+2=^0 ^ ■Sj n=oo "
+whence it follows that ƒ ' (^rj does exist and ƒ' (^J =: /mj ƒ' (^J. Since
+n=z 00
+z^ may be chosen arbitrarily within \z\ <^ a the theorem is hereby
+established.
+9. If the sequence of functions f\{z),j\{z), , each of which is
+analytical for c' <^a, i}i this region converges everywhere to an
+analytical function f{z) and if besides for any z the following
+relation holds
+f{z) = limf'y),
+n=- CO
+f{x)—f{y)
+then the function f* (x, y) = ~ ^L!— converges quasi-uniformly
+" '^' — y
+at the points of every closed set internal to |.f' <^ «, y <^a.
+In consequence of ƒ being convergent f^{x,y) converges to
+f{x)—f{y)
+--^ for x^y and to /''(2) for .t- = v = 2, since there /* (.r, v) =
+X — y ' '' n ^ '^'
+f'Jz)- The function ƒ * (.c, y), which is every where continuous therefore
+converges to a function which, since ƒ is analytical, is also every-
+where continuous. This involves the quasi-uniform convergence of
+f*{x,y)^zf'^{z) at the points of every closed set within >k| <[ a,
+l.vl < ^■
+10. The theorems of $ 8 and 9 may be resumed concisely as follows :
+A necessary and sufficient condition that it should be permitted to
+diferentiate terniwise a convergent series of analytical functions is
+the quasi-uniform convergence of the series 2 f* {x,y).
+11. If within c <^a a convergent series of analytical functions
+28*

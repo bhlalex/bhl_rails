@@ -1,0 +1,33 @@
+THE THEORY OF PROBABILITY. 239
+mean to be afterwards more fully considered. It illus-
+trates the connection between combinations and permu-
+tations, which is exhibited in the Arithmetical Triangle,
+and which underlies many of the most important
+theorems of science.
+Probable Deductive Arguments.
+With the aid of the theory of probabilities, we may
+extend the sphere of deductive argument. Hitherto we
+have treated propositions as certain, and on the hypo-
+thesis of certainty have deduced conclusions equally
+certain. But the information on which we reason in
+ordinary life is seldom or never certain, and almost all
+reasoning is really a question of probability. We ought
+therefore to be fully aware of the mode and degree in
+which the forms of deductive reasoning are affected by
+the theory of probability, and many persons might be
+surprised at the results which must be admitted. Many
+controversial writers appear to consider, as De Morgan
+remarked k , that an inference from several equally pro-
+bable premises is itself as probable as any of them, but
+the true result is very different. If a fact or argument
+involves many propositions, and each of them is uncertain,
+the conclusion will be of very little force.
+The truth of a conclusion may be regarded as a com-\
+pound event, depending upon the premises happening
+to be true ; thus, to obtain the probability of the conclusion,
+we must multiply together the fractions expressing the
+probabilities of the premises. Thus, if the probability is
+^ that A is B, and also ^ that B is C, the conclusion that
+A is C, on the ground of these premises, is \ x ^ or ^.
+Similarly if there be any number of premises requisite to
+k ' Encyclopaedia Metrop.' art. Probabilities, p. 396.

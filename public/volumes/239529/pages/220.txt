@@ -1,0 +1,42 @@
+317
+On the other hand, Skrabal got the value 45 for the temperature
+coefficient of the reaction 31, + 60H' = 51' -f 10', + 3H 2 0, in
+presence of sodium carbonate and bicarbonate. Here the hydrolysis
+of the salts produce OH' ions which are active in the change and
+helps the effect of temperature. The increase of temperature increases
+the hydrolysis and hence the OH' ions are also increased and the
+velocity of the reaction is increased due to this effect in addition to
+the usual effect of temperature increasing the velocity of the reaction.
+In other words, the effect of temperature is intensified.
+Hence the abnormally large effect of temperature is explained.
+Summary :
+a. A dilute solution of iodic acid and potassium iodide react very
+rapidly even at 0°. The temperature coefficient cannot be exactly
+determined and is probably equal to unity.
+b. In presence of sodium and magnesium sulphates slightly less
+iodine is liberated from iodic acid and potassium iodide at higher
+than at lower temperatures. The explanation is that at higher temper-
+atures more OH' ions are produced due to increased hydrolysis of
+sodium or magnesium sulphate and these OH' ions react on the
+iodine which is forming and thus regenerate iodide and iodate.
+Hence in presence of Na,S0 4 , the temperature effect is partly
+counter-acted.
+c. Manganese sulphate, potassium sulphate, alum etc. have no
+action, whilst in presence of ammonium and zinc sulphates, the
+temperature coefficient of the reaction between iodic acid and
+potassium iodide becomes greater than unity. Solutions of zinc and
+ammonium sulphates produce more H' ions at higher temperatures
+and these ions are very active in liberating iodine from iodic acid
+and potassium iodide.
+d. A similar explanation is applicable to the small temperature
+coefficients obtained in the reactions between 1. iodic acid and
+potassium iodide in presence of sodium acetate, sodium phosphate,
+potassium fluoride etc., 2. chromic acid and oxalic acid in presence
+of , sodium sulphate, magnesium sulphate, sodium fluoride etc.,
+3. hydrogen peroxide and hydrogen iodide in presence of sodium
+bicarbonate.
+e. Abnormally large values of temperature coefficient for the
+reaction 3I a -f 60H' = 51' -f 10', -f 3H 2 0, in presence of Na a C0 8
+and NaHCOj, are also due to hydrolysis of the carbonates.
+ƒ. The following reactions have measurable velocities and their
+21*

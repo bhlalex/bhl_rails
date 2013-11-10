@@ -1,0 +1,36 @@
+THE METHOD OF MEANS. 429
+affected by the very principles of gravity. Nevertheless
+it can be detected ; for if we place one plumb-line to the
+north of a mountain, and another to the south, they will
+be about equally deflected in opposite directions, and if
+by observations on the same star we can measure the angle
+between the plumb-lines, half the inclination will be the
+deviation of either, after allowance has been made for the
+inclination due to the difference of latitude of the two
+places of observation. By this mode of observation ap-
+plied to the mountain Schehallien the deviation of the
+plumb-line was accurately measured by Maskelyne, and
+thus a comparison instituted between the attractive forces
+of the mountain and the whole globe, which led to a very
+probable estimate of the earth's average density.
+In some cases it is actually better to determine the zero
+point by the average of equally diverging quantities than .
+by direct observations. Thus in delicate weighings by a
+chemical balance it is requisite to ascertain exactly the
+point at which the beam comes to rest, and when standard
+weights are being compared the position of the beam is
+ascertained by a carefully divided scale viewed through a
+microscope. But when the beam is just coming to rest,
+friction, small impediments or other accidental causes
+may readily obstruct it, because it is near the point at
+which the force of stability becomes infinitely small.
+Hence it is found better to let the beam vibrate and
+observe the terminal points of the vibrations. The mean
+between two extreme points will nearly indicate the posi-
+tion of rest. Friction and the resistance of air tend to
+reduce the vibrations, so that this mean will be erroneous
+by half the amount of this effect during a half vibration.
+But by taking several observations we may determine
+this retardation and allow for it. Thus if a, ~b, c be the
+terminal points of three excursions of the beam from the
+zero of the scale, then ^ (a + b) will be about as much

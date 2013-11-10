@@ -1,0 +1,8 @@
+317
+By means of (12) and (13) the equation {U) finally passes into
+the required identity (7).
+The above argument may further be used to prove the same
+identity for h < g < h -\- L if it has already been established for
+g<h, It being- a positive integral number. The general validity has
+therefoie been proved.
+21*

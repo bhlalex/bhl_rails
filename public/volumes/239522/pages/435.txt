@@ -1,0 +1,42 @@
+622 BRIDGMAN.
+CsNOg and TINO3 a line 8-7 like that of RbNOg. Such a line has
+not been found, however. Failure to find it for TINO3 is not strange ;
+the transition 8-7 may well have risen above the melting point, which
+is comparatively low, only 205°. But failure to find it for CsNOs
+is not so easy to explain. If the transition point has risen above the
+melting point, which for CsXOs is at 414°, the effect of increasing
+molecular weight on the transitions 8-7 and 7-6 is very different in
+going from RbNOa to CsNOa; the latter is depressed from 164° to 154°,
+while the former would be raised from 219° to over 414°. It seems
+quite possible that the transition for CsNOs may have been over-
+looked, and that a careful search up to 414° would be worth while.
+The mixed crystal diagrams of RbNOs with CsNOs and TINO3 suggest
+that both the latter salts would show the modification 8 if it were not
+for the interference of the liquidus line.
+With regard to the transition 6-2 of TINO3 there is certain indirect
+evidence that such transitions exist for both CsNOs and RbNOs,
+although their existence has not been directly proved. Wallerant
+states that CsNOs passes to another modification on cooling in liquid
+air. The crystalline form of this new modification he found to be
+rhombohedric, approximately cubic. This is not the same as the
+crystalline system of TINO3, 2, which is orthorhombic, but the diffi-
+culty of crystallographic observation at very low temperatures does
+not make it absurd to suppose that the system may have been in-
+correctly determined. The existence of another modification is of
+itself significant. With regard to RbNOs, Wallerant's observations on
+mixed crystals of the system NH4NO3 - RbNOs make it almost certain
+that at low temperatures RbNOs has another modification. In the
+mixed crystal diagram there is a range of concentration, varying with
+temperature, within which RbNOs and NH4NO3 crystallize together
+in a form with all the characteristics of TINO3, 2, a form which has not
+been found for either pure RbNOs or NH4NOS. An easy extrapola-
+tion of the region of the mixed crystals indicates at low temperatures
+the existence of the phase as pure RbNOs. I am not aware that
+Wallerant made the same examination of RbNOs down to liquid air
+that he did of CsNOs. If it should turn out that RbNOs and CsNOs
+have the phase 2, the transition point to 6 would be quite differently
+situated for these two salts than it is for TINO3. This need not be
+surprising; the work of Tutton on the sulfates, for example, has
+shown that although the Thallium salts are closely related to those of
+the alkaline metals proper, yet a detailed analysis shows abrupt dis-
+continuites in the numerical magnitudes.

@@ -1,0 +1,95 @@
+Table 4. Toxicities of Aroclor PCBs to selected species of birds and
+mammals administered via dietary, oral, dermal, or intraperitoneal routes.
+Taxonomic group, route Exposure
+of administration, units, period
+organism, and compound
+LD-50
+Reference'
+Birds
+Dietary (mg/kg diet)
+Northern
+bobwhite.
+Co'
+linus virginianus
+1221
+5 days on >6,000
+1232
+treated diet 3,002
+1242
+plus 3 days 2,098
+1248
+untreated 1,175
+1254
+604
+1260
+747
+1262
+871
+Mallard,
+Anas
+platyrhynchos
+1242
+5 days on 3,182
+1248
+treated diet 2,798
+1254
+plus 3 days 2,699
+1260
+untreated 1,975
+1262
+3,004
+Ring-necl
+<ed ph
+leasant.
+Phasianus colchicus
+1221
+5 days on >4,000
+1232
+treated diet 3,146
+1242
+plus 3 days 2,078
+1248
+untreated 1,312
+1254
+1,091
+1260
+1,260
+1262
+1,234
+Japanese
+quail
+, Coturnix coturnix japonica
+1221
+5 days on >6,000
+1232
+treated diet >5,000
+1242
+plus 3 days >6,000
+1248
+untreated 4,844
+1254
+2,898
+1260
+2,186
+1262
+2,291
+European
+starl
+ing.
+Sti
+jrnus vulgaris
+1254
+4 days 1,500
+Red-winged blackbi
+rd.
+Agelaius phoeniceus
+1254
+6 days 1,500
+Brown-headed cowbi
+rd.
+Molothrus ater
+1254
+7 days 1,500
+Heath et al . 1972
+Stickel et al. 1984
+40

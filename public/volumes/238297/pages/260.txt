@@ -1,0 +1,34 @@
+234 THE PRINCIPLES OF SCIENCE.
+one head in two throws, but in our addition we have
+involved the case in which two heads also appear. The
+true result is ^ -f ^ x \ or |- , or the probability of head at
+the first throw, added to the exclusive probability that if it
+does not come at the first, it will come at the second.
+Some of the greatest difficulties of the theory and the
+subtlest errors arise from the confusion of exclusive and
+unexclusive alternatives. I may remind the reader that
+the possibility of unexclusive alternatives was a point
+previously discussed (p. 81), and to the reasons then given
+for considering alternation as logically unexclusive, may be
+added the existence of these difficulties in the theory of
+probability. The expression
+Headfirst throw or head second throw
+ought to be interpreted in our logical system as including
+both cases at once, and so it is in practice.
+Employment of the Logical Abecedarium in questions of
+Probability.
+When the probabilities of certain events are given, and
+it is required to deduce the probabilities of compound
+events, the Logical Abecedarium may give assistance, pro-
+vided that there are no special logical conditions and all
+the combinations are possible. Thus, if there be three
+events A, B, C, of which the probabilities are a, (3, y, then
+the negatives of those events, expressing the absence
+of the events, will have the probabilities i a, i /3, iy.
+We have only to insert these values for the letters of the
+combinations and multiply, and we obtain the probability
+of each combination. Thus the probability of ABC is
+a/3 7 ; of Kbc, a(i -/3)(l - 7).
+We can now clearly distinguish between the probabilities
+of exclusive and unexclusive events. Thus if A and B
+are events which may happen together like rain and high

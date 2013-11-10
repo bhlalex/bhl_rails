@@ -1,0 +1,37 @@
+404 JACKSON.
+involve only the point tt and not the point 0. The latter point
+surely will be involved in the remaining condition of the adjoint set.
+For ^^ the j/th row of the product matrix, like the last v — 1 rows,
+involves only zeros in the first v columns, and it follows that the
+remaining v rows, the (v + l)th in particular, must contain elements
+different from zero in these columns, since the determinant of the
+matrix can not vanish. The adjoint conditions may be simplified
+by linear combination to a form resembling that of the original condi-
+tions in (16). No confusion will be caused if we denote the simplified
+conditions by Fg (i") =0, 5=1, 2,..., v; the conflicting notation
+hitherto used will not be referred to again. We may write
+fa'— 1 ;-— 1
+Fi (v) = i;(^-'') (0) + Z a/ v^''^ (0) + Z ft' ^'^^■' (tt) = 0,
+(30) ^-
+Vs (v) = ij(*^') (tt) + Z ^y' ^^'^ (tt) = 0, s = 2,3,...,v,
+3=0
+where
+v-i^kx ^Q, v-i^ w > ^-3 '> • • • > A-; ^ 0.
+For each value of p, a fundamental system of solutions of the equa-
+tion (29), 2;j(.T, p), s = 1, 2,. . ., V, can be assigned in such a way that
+(31) ^^zsix,p)^{-pws)''e-'>^sxiii k^O,h...,p-l.
+It is important for us now, however, to notice that the bracket symbol
+may be given a much more precise interpretation than was done before.
+Both the relations (31) and the relations (17), (18), remain true ^°
+if [a], where a is any constant, is understood to mean an expression of
+the form
+I 'AiC^O , hi'i-) , , 'Am-i( .r) E(x, p)
+p p^ p^-^ p^
+where m is an integer that may be assigned arbitrarily in advance, the
+functions \pj{x),j — 1, 2, . . ., m — 1, are continuous with their de-
+rivatives of all orders for ^ .r ^ tt, and E{.v, p) is a function of x
+29 The statement may also be proved by observing that on the contrary
+assumption the adjoint conditions could be reduced to the form i'(7r) = v'iir) =
+. . = I' (""!) (tt) =0, and the adjoint system could have no characteristic
+values.
+30 See Birkhoff, I, II.

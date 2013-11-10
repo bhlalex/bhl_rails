@@ -1,0 +1,67 @@
+306
+Picric acid.
+Cone, of acid.
+Cone, of
+Sodium picrate.
+Acid Cone.
+Salt. Cone.
+K,
+•03 N
+—
+—
+0-00135
+»
+0-0031 N
+967
+000139
+H
+0-0050 N
+6.00
+0.00141
+ii
+0-0513 N
+0-58
+0-00173
+ii
+0-0778 N
+038
+0-00160
+ii
+0-1161 N
+0-25
+0-00153
+H
+0-1597 N
+0-18
+0.00134
+ii
+03066 N
+0-09
+000122
+It will be evident from the foregoing tables that the velocity
+coefficients do not decrease proportionally with the decrease in the
+concentration of the hydrogen ions. In the case of oxalic acid the
+velocity coefficients fall off with the concentration of potassium
+oxalate; whilst in the case of picric acid the addition of sodium
+picrate produces at first an increase in the velocity coefficient and
+then when the concentration of sodium picrate reaches the value of
+0-159 N, the velocity coefficients begin to fall off. This is explicable
+on the assumption that even undissociated acids are catalytically
+active in the hydrolysis of esters. But in view of the work of
+Walden (Jour. Amer. Chem. Soc. 1912, 35, 1649) on the measure-
+ment of the di-electric constants of solutions, a different interpretation
+of these results is possible. Walden has shown with non-aqueous
+solutions that the di-electric constant and the ionising power of a
+solvent are enormously increased when electrolyts are dissolved in
+it. Naturally the degree of ionisation of the dissolved acid and along
+with it the concentration of hydrogen ions are also increased. Thus
+by the addition of salts of the same acids, there are two effects:
+1. The diminution of hydrogen ions due to the increase of the
+common negative ion.
+2. The increase in the concentration of the hydrogen ions due to
+the greater ionisation of the acid caused by the increase in the
+di-electric constant of the solvent.
+It is evident that these two effects counteract each other.
+In the case of potassium oxalate the first effect preponderates
+over the second and hence the velocity coefficient falls off with the
+concentration of potassium oxalate, whilst in the case of picric acid

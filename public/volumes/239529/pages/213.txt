@@ -1,0 +1,36 @@
+Chemistry. — "Catalysis. IX. Thermal and photochemical reactions"
+By Nil Ratan Dhar. (Communicated by Prof. Ernst Cohen).
+(Communicated at the meeting of September 25, 1920).
+In a foregoing paper (Dhar, Trans. Chem. Soc. 1917 111, 707)
+it was shown (hat the temperature coefficient of the oxidation of
+potassium oxalate by iodine has the value 7.2 for a 10° rise in the
+dark and this reaction is extremely sensitive to light.
+It occurred to me that all reactions which have high temperature
+coefficients should be sensitive to light.
+I have shown previously that most uni-molecular reactions have
+high temperature coefficients and 1 investigated the effect of tropical
+sunlight on several of these reactions, and the following results were
+obtained.
+Ammonium nitrite decomposes fairly readily at about 33° in
+sunlight, whilst at 33° in the dark there is hardly any decomposition.
+The temperature coefficient for a 10° rise in the dark is about 4.5
+(Arndt, Zeit. Phys. Chem. 1901, 39, 64).
+The intramolecular transformation of acetyl chloranilide to para-
+chloracetanilide has the temperature coefficient 3.2 in the dark.
+(Rivett, Zeit. Phys. Chem. 1913, 82, 201) and Blanksma (Rec. trav.
+Pays. 1903, 22, 290) has shown that the change is sensitive to light.
+Similarly the pseudo-unimolecular reactions, the hydrolysis of
+cane sugar and the decomposition of potassium persulphate, are highly
+influenced by light. An aqueous solution of cane sugar when exposed
+for several days to tropical sunlight, becomes converted into the
+invert sugars.
+Green and Masson (Trans. Chem. Soc. 1910, 97, 2083) have
+shown that potassium persulphate is slowly decomposed by water
+according to the following equation
+K, S % O e +#, O = 2 KHS 4 + O.
+This reaction has the temperature coefficient 5 in the dark. I found
+that the reaction is very sensitive to light and the 0x3 gen given off
+in 24 hours in sunlight is practically equal to that produced in
+about 15 days in the dark at 27°.
+The decompositions of the sulfine bases and the tetraammonium
+compounds studied by Von Halban have high temperature coefficients

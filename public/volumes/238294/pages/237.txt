@@ -1,0 +1,33 @@
+( 690 )
+oiu' plan is easily compared with the latter for the small volume
+part. To find how our vapour plait will be connected with this
+portion, it is only necessary to use pi. Ill fig. 2. Tlie chief difference
+is seen in the different forms of the spinodal line. Ours is given
+by the dot-dash line of fig. 6 and Maxwell's in fig. 7. Ours consists
+of two portions which remain apart to the lowest temperature
+Fig. 6. Fig. 7.
+(T=0), while Maxwell's shows only a secondary loop. Quite
+improbable are Maxwell's isotherms. They show in the vapour plait
+a point of inflection in the isotherms. Thereby they differ entirely
+from the equation of state of van der Waals, which is certainly
+qualitatively correct for vapour and liquid.
+II. The Gibbs' surface for CO^.
+{The general model).
+This model was constructed by the help of the empirical equation
+of state given in Comms. Nos. 71 and 74 with the assistance of the
+thermodynamical formulae obtained in No. 66.
+^oT —
+Tk vk Tk V T
+nvT — r^]c
+whence
+c^{T — Ti) — ^u Vk
+pkVk b, + 2 1-3 + 4 b,
+Tk vk Ik V ' T
+b, + 2(>3 + 4b, pkvk c,+2c3 4-4c,
+^+4 + 4
+Pk v^• t t'
++
+Pk Vk"
+2 v^
++
+(1)

@@ -1,0 +1,36 @@
+THEORY OF APPROXIMATION. 87
+heat, disregarded the heat absorbed by the box containing
+the water heated and by other parts of the apparatus,
+otherwise he would in Dr. Joule's opinion, have come
+nearly to the correct result.
+It is surprising to learn the number of causes of error
+which enter into even the simplest experiment, when we
+strive to attain the most rigid accuracy. Thus we cannot
+perform the simple experiment of compressing a portion
+of gas in a bent tube by a column of mercury, in order to
+test the truth of Boyle's Law, without paying regard to,
+( i ) the variations of atmospheric pressure, which are com-
+municated to the gas through the mercury; (2) the
+compressibility of mercury, which causes the column of
+mercury to vary in density ; (3) the" temperature of the
+mercury throughout the column ; (4) the temperature of
+the gas which is with difficulty maintained invariable ;
+(5) the expansion of the glass tube containing the gas.
+Although Regnault took all these circumstances into ac-
+count in his accurate examination of the law , there is no
+reason for supposing that he exhausted the sources of
+inaccuracy.
+All the earlier investigations concerning the nature of
+waves in elastic media proceeded upon the assumption
+that waves of different length would travel with equal
+speed. Newton's theory of sound had led him to this
+conclusion, and experiment, or indeed the commonest
+observations (see vol. i. p. 344) had sufficiently verified the
+inference. When the undulatory theory came to be
+applied at the commencement of this century to explain
+the phenomena of light, a great difficulty was encountered.
+The angle at which a ray of light is refracted in entering
+a denser medium depends, according to that theory, on the
+velocity with which the wave travels, so that if all waves
+of light were to travel with equal velocity in the same
+Jamin, ' Cours cle Physique,' vol. i. pp. 282-3.

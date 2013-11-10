@@ -1,0 +1,42 @@
+11
+12. It is convenient to observe on this occasion that by means of
+the proposition of N°. 10 we may infer from the tiist part of for-
+mula (43) that never convergence of the series of factorials (6) takes
+place for R{x) «^ ^, a truth already shewn in another way in W. 9
+of the preceding communication.
+For, if the upper limit of Sn for 7z = oo is equivalent to n^, then
+the function represented by the series
+00
+is, for t = i, at most of order 1 : (1 — ty+^ and hence ff {t) is at
+most of order 1 : (1 — tf, so that the number P. is not greater than (^>^,
+whereas the limit between convergence and divergence of the series
+of factorials according to the lemma mentioned, is afforded by R{j;) = 0.
+13. At the end of the first communication we said that, if a
+certain argument mentioned there and used by Nielsen were not
+eri'oneous, then another very general case of the possibility of expand-
+ing the integral
+1
+si{x)= ^<p{t){\-tY-^dt (1)
+%J
+in a series of factorials would be proved by it, viz. the case when
+the series of factorials corresponding to that integral converges. We
+shall now prove that this case, though not established by
+Nielsen, is, indeed, exact. In order to do this we shall make use
+of the following lemmas:
+1. // the series of factorials converges for a certain value x := c,
+then it converges for any value of x whose real part R{x) is greater
+than that of c.
+Let
+^
+r{c + m^ 1)
+= Sn,U (44)
+then we find on summation by parts
+/ I
+-^-^ m ! a,„ ^— » m! am r(c -\- m -{- \\
+> /« ^ > 7/1 — . =
+^^ r {x ^m -\- 1) ^^ r{c ^ m -Y 1) r(^ + m+ l)
+n n
+l-l
+s„,i r(c + z + 1) ^. «„.,„ r{c A-m-\-i)
+= ; -f- (X — C) > ?n .
+r (^ + / + 1) ^ ^ ^ jL^ ^(.^' + w + 2)

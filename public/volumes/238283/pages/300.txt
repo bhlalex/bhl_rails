@@ -1,0 +1,42 @@
+RICHARDS AND HEIMROD. — THE IMPROVED VOLTAMETER. 433
+on one of platinum by the same current when only filter paper is used
+to protect the kathode. The results of Kahle and others seem to indi-
+cate that the presence of acid, which prevents the formation of the simple
+oxycomplex, is fiivorable to the formation of the ion Agg + . This is
+not surprising, since the oxycomplex is probably formed at the expense
+of some of the silver which would otherwise remain in the polymerized
+condition. The fact that the kathode deposit in the common voltameter
+consists of comparatively few I.arge crystals, while the porous cup voltam-
+eter yields a host of evenly distributed small crystals, is also explained
+by this interpretation. Solutions having a tendency to supersaturation
+always tend to deposit large crystals, for obvious reasons. When
+the absence of acid increases the number of available hydroxy! ions,
+the formation of the silver-complex is less considerable ; but the oxide-
+complexes then begin to affect the result. In concentrated solutions of
+the nitrate, this ion also enters into the irregularities. Thus the various
+irregularities are not necessarily coexistent ; circumstances determine
+which one shall play the most important part.
+There seems, then, to be concordant evidence of conflicting tendencies
+at work, some oxidizing and some reducing ; some tending to cause the
+dissolving of too much silver at the anode, and some to cause the dissolv-
+ing of too little. It seemed worth while to test the complicated conclu-
+sion by determining accurately the loss of weight of silver at the anode,
+in order to obtain a last ray of light upon the question. The disintegration
+of the anode renders the determination of the loss somewhat difficult ;
+but by carefully collecting all the silver powder left in the porous cup
+(when no filter paper is used) on a Gooch crucible, and adding this
+weight to the weight of the coherent part of the anode, fairly good
+results may be obtained. The following table records a series of such
+determinations. In each case the current strength amounted to about
+0.25 ampere. The experiments are arranged below in the order of cur-
+rent density.
+In some cases the anode loses more than the ideal amount, in other
+cases less. Such results can only be explained by the assumption of
+several causes of inaccuracy, and the four which we have discussed seem
+capable of explaining all the changes, l^ut it is not worth while to
+trace out every possible variation ; enough has been said to emphasize
+the great complexity of the side reactions which interpenetrate a
+process apparently so simple, and at the same time to permit those
+readers who are especially interested to work out the combinations for
+themselves.
+VOL. xxxvii. — 28

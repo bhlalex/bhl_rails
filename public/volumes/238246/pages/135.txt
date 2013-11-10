@@ -1,0 +1,51 @@
+192
+split up into different paths, each with a somewhat different energy
+value, so that when jumping from and to tliese transformed paths
+the electrons would emit a vibration with a somewhat changed
+frequency ?
+If this question should be answered in tho aftirmative, it would
+follow from this that given the modes of splitting up of each of
+the paths (/7. 2 etc.), the observed types of ZKEMAN-effect might be
+found from this by simple subtraction, in other words, that the
+anomalous ZEEMAN-effect would follow the so-called "Kombinations-
+prinzip".
+To answer the questions put I have done exactly the reverse. T
+have namely tried to determine whether in the material of obser-
+vation of the anomalous ZEEMAN-effect indications were to be found
+of the validity or non-validity of the "Kombinationsprinzip".
+In what follows 1 will communicate some of the results obtained
+by me.
+As material has served what I had collected in (I.e.). In order
+to be able to treat a number of complexes as large as possible with
+a number of sequences as small as possible I have confined myself
+for my first investigation to the triple complexes, and added to this
+some single complexes with strange asymptote.
+These are collected in the following table:
+initial path
+final path^^^^-^
+^
+A
+A"
+d
+77
+7/ £
+77A
+77A"
+nd
+77'
+77'^
+77'A
+77'A"
+n'd
+77"
+/7"^
+77" A
+77" A"
+II" d
+For the types of ZEEMAN-effect that these complexes present, see (I.e.).
+From this material some general conclusions may first of all be made.
+When the electron jumps from an initial path to a 77-path, the
+ZEEMAN-effect is more complicated than when from the same initial
+path it jumps to a 77'-path, and this in its turns is again more com-
+plicated than when from the same initial path it jumps to a 77"-path.
+It is therefore natural to assume that in a magnetic field the

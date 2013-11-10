@@ -1,0 +1,75 @@
+( 879 )
+Prom these v.aliies fonniihie were derived, wliieh after a traiis-
+forination in oi'der to bring the zero-e|)()ch on 1868.5 beeonie :
+h=z^ ()".45 ~ r.Wsh/ [KiTM + 20° (^—1868.5)]
+/• = + ()".-2(; + 1".4(5 cos [I4ir.a + '20" (/— 1868.5)].
+II' w (' assume that the anipliliidc and the argunu'iil of the two
+periodie terms musi he ecjual, tiie formnkic become:
+h = Jf- ()".45 — 1".37 .vm [L57\7 + 20' (#—1868.5)]
+/• = + 0".26 + 1".37 cos [157^7 + 20° (/— 1868.5)].
+The objeet of tlie seeond operation was to derive from the obser-
+vations 1895 — 1902 the most reUable value of jV for the mi(Ulle-
+epoeh, assuming its annual variation to be 20°. Starting fi-om tlie
+8 X 18 vahies of r and assuming as known only the values of c,
+(as found from the solution of the equations for eaeh year) and those
+of hr and Zv (as found aboxe), 1 lirst subtracted the c from the r
+and then freed the latter from the intluence of A, and /v-
+The residuals must then be of the form:
+r' = — « sl)i jSfshig -}- a cos N cos g = « cos {g -\- No -\- 1 y, 20")
+and now it is clear that the 8 X 18 residuals correspond with only
+18 ditferent values of the argument i\^„ -f-// ~f" ^ X 20\ Consequently
+these residuals could be combined in 18 values, for instance the
+/ ÏOYg = W in 1895 could be combined with that for 7 = 350° in
+1896, with that for ^ = 330^ in 1897 etc.
+Having due regard to the weights, the following mean values of
+!•' were derived. The arguments g hold for 1898 i.e. for 1898.5.
+10°
+r
++ r'6i
+130°
+r
+— 1"32
+'J
+250°
+r
++ 0"13
+30
++ 1.68
+150
+— 1.29
+270
++ 0.04
+50
++ 0.65
+170
+— 1.31
+290
++ 0.62
+70
++ 0.23
+190
+— 1.05
+310
+4- 1.27
+90
+- 1.12
+210
+— 1.09
+330
++ 1.66
+110
+— 1.17
+230
+— 0.77
+350
+4- 1.48
+These values are represented by the formula:
+— 0".42 sing + 1".51 cos g = + 1".57 cos {g + 15°.5j.
+and 15"^. 5 will be a i)retty accurate normal value of jV for 1898.5.
+For the derivation of a similar normal value from each of the two
+series of Nkwcomb I chose a less direct but simpler method. In each
+series I reduced the JSJ' derived from each year to a mean epoch by
+means of the annual variation 20° and then combined them with the
+weights as given by Nevvcomb ^). I did not however use the iV of
+^) Applying the same method to the observations 1895—1902 I should have
+found for iV, 16°.9 instead of l5^5.

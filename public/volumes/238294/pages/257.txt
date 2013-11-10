@@ -1,0 +1,40 @@
+( 728 )
+'OYi, ozr
+pXu OW,
+is no more equiangular to the right, but to the left, or if we suppose
+'OF/, OZ;
+OX/, OW,
+to be also equiangular to the right, we must take as indicating vector
+in Si that vector in the direction of which W would move together
+with S^, not the one moving together with ^4 in the direction of TF.
+We shall do the latter. The advantage of this choice will be evident
+from what follow^s.'
+We have still to remark, that if only the position of Sj. and Si is
+determined, the position of S^ ensues from it not in one, but in
+two ways; for, a position of /S^ gives no other positions of S,- and
+Si as its "opposite position" for which all vectors are reversed ; that
+opposite position can be obtained by an arbitrary equiangular double
+rotation over an angle jr; Sr and Si then rotate 2 n and are again
+in their former position.
+But a continuous motion of S^ out of a given initial position is
+unequivocally determined by the given continuous movements of
+Sr and >S/ out of the corresponding initial positions. So we shall
+have completely answered the question how a solid S^ moves under
+the action of determined forces if we can point out how Sr and Si
+move under those actions; in other words if we can point out "the
+cones of rotation in the solid and in space".
+APPLICATION. The Euler motion in S,.
+The equations of motion for this have been given for the first
+time by Frahm in the "Mathematische Annalen" Band 8, 1874 p. 35.
+The system of- coordinates OX^ X^ X^ X^ in the solid we shall
+choose in such a way that the products of inertia disappear. We
+shall suppose
+'OX,, OX,
+OX,, OX,^
+to be equiangular to the right.
+And we choose OXr ïr Zr and OXi Yi Zi in such a way that
+OX,, OX,, 0X3, OX,
+OXr, OYr, OZr, OW
+is equiangular to the right and
+0X„ 0X„ 0X3, OX,
+OXi, OYi, OZi, OW^

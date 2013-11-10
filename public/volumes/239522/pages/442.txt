@@ -1,0 +1,39 @@
+EFFECTS OF RADIANT ENERGY ON THE EYE. G31
+action of the ultra violet. It, therefore, becomes of fundamental
+importance to examine the effects of radiant energy with special refer-
+ence to their relation to the wave length of the radiation.
+Nature and Distribution of Radiant Energy.
+All radiant energy is at present believed to consist of transverse
+vibrations in the hypothetical ether, all propagated at the same rate
+and differing only in amplitude and wave length, hence in frequency,
+which is the reciprocal of wave length. The uniform propagation
+rate in vacuo is very nearly 300,000 km. per second and the wave
+lengths so far as ordinarily dealt with range from about .01 to about
+.0002 mm. For ordinary purposes no attention need be paid to the
+extremely long wave lengths ranging to .1 mm., to the extremely
+short ones between .0001 and .0002 mm., or to the enormously shorter
+one still of the order of magnitude of .0000001 mm. such as the X-rays
+are believed to be. For the very long waves are not present in material
+amount in the radiation from ordinary sources. The very short ones
+are absorbed by a few cm. or dm. of air, and the X-rays are practically
+only produced in apparatus intended for that purpose. The spectra
+given by all ordinary sources range between the more modest limits
+just given. In the earlier literature this spectral range used to be
+divided into heat rays, light rays, and actinic rays, a distinction
+wholly artificial since the three effects implied are far from being
+sharply defined. More generally the whole range is divided into the
+infra red portion, not ordinarily visible and extending from the longest
+waves to those of about 760 ixfj., the visible spectrum, extending from
+about 760 fj-fx to about 395 ix/jl, and the ultra violet portion reaching
+from 395 nij. to the neighborhood of 200 mm- This distinction is not
+rigorous or with sharp limits. While artificial distinctions have led
+to many misunderstandings, all radiation of whatever wave length
+is convertible into heat when absorbed by material bodies and may
+produce chemical changes as well. As a matter of fact these latter
+show a general tendency to increase with the frequency of the oscilla-
+tions, so that chemical changes are rare in the infra red and increasingly
+frequent as one approaches the extreme ultra violet. It is this tend-
+ency that is shown in the pathological changes which may be caused
+in living cells by the incidence of radiation.
+The rationale of the chemical effect of radiation seems to be that
+while all radiation transfers energy to the molecules which absorb it

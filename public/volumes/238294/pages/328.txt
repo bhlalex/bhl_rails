@@ -1,0 +1,39 @@
+( 835 )
+fVoin \vliic'Ii ensues the detenrünaiit type for equiangular double
+rotation to tlie left :
+— jr, — rr, rr, .t^
+(III)
+and for tliis too the {)foperty of a group can he verified.
+If we call (I') the determinant type formed by interchange of the
+rows and colunuis of (I), we can remark :
+If we reverse the signs in the bottom row of type (II) type (I')
+appears.
+If we reverse tJie signs in tiie last column of type (III) type (I')
+appears.
+If we ask oursehes wiiether each arbitrary congruent transformation
+can be replaced by tiie succession of a transformation (III) and a
+transformation (II) the answei' must be afiirmative ; for we shall have
+but to take those transformations (III) and (II) belonging to the
+transformations (I') whicli when successively applied transfer the
+given initial position into the given linal one. (For those two ways
+only the intermediate positions will (Htfer in as far as tliey will l)e
+each otiier's retlection with regard to their A^'^-axis.)
+This is the algebraic proof of 1".
+At the same time it lias become evident that the meaning of
+the type (I') is an arl)itrary e(iuiangular double rotation to the
+right preceded by a retlection accor(bng to tiie AVii^ij^ (tiiat is the
+AV^^xis of tiie initial position) or an arbitrary equiangular double
+rotation to the left followed by a reflection according to the A>axis
+(that is the AV^ixis of the final position), and that the meaning of
+the ty[)e (1) is an arbitrary e({uiangular double rotation to the right
+followed by a reflection according to the AVti^xis or an arbitrary
+eqniangular double rotation to the left preceded by a reflection according
+to the AV^xis.
+Thus according to a preceding communication made in this meeting
+of the Academy (see page 785) it has been proved that the types (I)
+and (I') represent the most general symmetric transformation of S^,
+of which the determinant type has been simplified only by jiarticular
+choice of the system of coordinates.
+We shall now give a i)roof for 2".
+Out of the relations {a) for equiangular double rotation to the
+55*

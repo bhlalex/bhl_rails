@@ -1,0 +1,37 @@
+THEORY OF APPROXIMATION. 83
+Potassium is the only element whose atomic weight has
+been determined with great care, but which has not
+shown an approach to a simple ratio with the other ele-
+ments. This exception may be due to some unsuspected
+cause of error *. A similar assumption is also made in the
+law of definite combining volumes of gases, and Sir B. C.
+Brodie has clearly pointed out the line of argument by
+which the chemist, observing that the discrepancies be-
+tween the law and fact are within the limits of experi-
+mental error, assumes that they are due to error k .
+Faraday, in one of his researches, expressly makes an
+assumption of the same kind. Having shown, with some
+degree of experimental precision, that there exists a simple
+proportion between quantities of electrical energy and the
+quantities of chemical substances which it can decompose,
+so that for every atom dissolved in the battery cell an
+atom ought theoretically, that is without regard to dissi-
+pation of some of the energy, to be decomposed in the
+electrolytic cell, he does not stop at his numerical results.-
+' 1 have not hesitated,' he says, ' to apply the more strict
+results of chemical analysis to correct the numbers ob-
+tained as electrolytic results. This, it is evident, may be
+done in a great number of cases 1, without using too much
+liberty towards the due severity of scientific research/
+The law of the conservation of energy itself, one of the
+widest of all physical generalizations, must rest upon the
+same footing. The most that we can do by experiment is
+to show that the energy entering into any experimental
+combination is almost exactly equal to what comes out of
+it, and more nearly so the more accurately we perform all
+the measurements. Absolute equality is always a matter
+of assumption. We cannot even prove the indestructibility
+i Watts, 'Dictionary of Chemistry,' vol. i. p. 455.
+k ' Philosophical Transactions/ (1866) vol. clvi. p. 809.
+1 ' Experimental Researches in Electricity/ vol. i. p. 246.
+G 2

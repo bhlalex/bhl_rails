@@ -1,0 +1,42 @@
+386
+5. 760 . 400 . 200.2,3 . 10-4
+AP= - 15 . 38090 . 8 . l ö=TT- = 335 ' 5 ""^ = '°' 29 mm ' '
+This amount for Ap is considerably greater than the experimen-
+tally found value (viz. about 0.08 1 mm.) with the substituted value
+of p. That the calculation gives a result that deviates from the value
+determined experimentally was only to be expected, seeing the
+arbitrary character of the suppositions. When e.g. in the beginning
+of $ 5 sub b we had changed our assumptions in that sense that
+on discharge of the positive ions not 50 %> Dut 0I, ly 15 0/ less
+molecules are formed, then on transition of the negative ions into
+the "neutral" gas state, we should have found for the calculated
+pressure effect a value of u.u87 mm., which practically would have
+been in agreement with the empirically found value.
+c. However even the supposition that, an equal number of negative
+and of positive ions take part in the conveyance of the current, will
+not correspond with reality. As will be shown presently, we should,
+however, have arrived at similar results, when it had e.g. been
+assumed that per positive ion an equal number of gas molecules
+are formed on discharge as per negative ion, but that a much greater
+part of the current-conveyance takes place by the negative ions
+than by the positive ones ] ).
+There is, indeed, a certain ground for the supposition that a
+greater part of the current conveyance takes place through the
+negative ions than through the positive ones.
+In the paper cited by us (BoLTZMANN-Festschrift 1904) Stark already
+used the formula V n = l,37 X. V p for air, when the positive and
+the negative ions are "molecule-ions", in which formula V n and
+V p are the different specific velocities of the negative and the posi-
+tive ions. Also Ratner (Phil. Mag. (6) 32, 441, 1916) uses this
+value for normal cases, pointing out, however, that on change of
+the gas pressure and of the electric force, this quantity does not
+remain constant. When we assume the value 1,3 for the ratio
+V n
+—, the current conveyance -takes place for 56,5 °/« through the
+negative ions, and for 43,5 °/ through the positive ions
+100 =43,5
+.1,3 + 1
+Among the circumstances described in this $ 5 under c we find
+x ) It is further plausible that the too high result is owing to the fact that also
+in the pressure region considered here for a great part free electrons will reach
+the anode. This will be further discussed presently.

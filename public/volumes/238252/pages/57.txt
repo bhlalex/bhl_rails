@@ -1,0 +1,38 @@
+POPULAR SCIENCE MONTHLY. 53
+HERTZIAN WAVE WIEELESS TELEGRAPHY. VI.
+By Dr. J. A. FLEMING, F.R.S.,
+PROPESSOH OF ELECTRICAL ENGINEERING, UNIVERSITY COLLEGE, LONDOK.
+It remains then to consider some of the questions connected with
+practical Hertzian wave telegraphy and the problem of the limita-
+tion of communication. These matters at the present moment very
+much occupy the public attention, and many conflicting opinions are
+expressed concerning them.
+It may be observed at the outset that the difficulty of dealing with
+the subject as freely as many desire is that Hertzian wave telegraphy is
+no longer merely a subject of scientific investigation, but has developed
+into a business and involves therefore other interests than the simple
+advancement of scientific knowledge. We can, however, discuss in a
+general manner some of the scientific problems which present them-
+selves for solution. The first of these is the independence of com-
+munication between stations. It is desirable, at the outset, to clear
+up a little misunderstanding. There is a great difference between pre-
+venting the reception of communication when it is not desired by the
+recipient and preventing it when it is the object of the latter to over-
+hear if he can. It is therefore necessary to distinguish between isola-
+tion and overhearing. We may say that a station is isolated when it
+is not affected by Hertzian waves other than those it desires to receive ;
+but that a station overhears when it can, if it chooses, pick up commu-
+nications not intended for it, or can not help receiving them against
+its will.
+This distinction is a perfectly fair one. Any telegraph or tele-
+phone wire can be tapped, if it is desired, but unless there is some
+fault on the line, no station will receive a message against its desires.
+Moreover, it may be noted that there are penalties attaching to tapping
+a telegraph wire, and at present there are none connected with the mis-
+appropriation of an ether wave.
+We shall therefore consider in the first place the methods so far
+proposed for preventing any given receiver from being affected by
+Hertzian waves sent out from other stations, except that of those from
+which it is desired to receive them. The first method is that which has
+been called the method of electrical syntony, and consists in adjusting
+the electrical capacity and inductance of the various open and closed

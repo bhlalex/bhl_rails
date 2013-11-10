@@ -1,0 +1,46 @@
+HERTZIAN WAVE WIRELESS TELEGRAPHY. 59
+can be accumulated only by the prolonged action of impulses tuned to a
+particular period.
+A mechanical analogue of this difference may be found in consid-
+ering the different behavior of elastic bodies to mechanical blows.
+Take, for instance, a piece of elastic steel and fix the bottom end in a
+vise. The steel strip may be thrown into vibration by deflecting the
+upper end. It has, however, a very small mass, and therefore any vio-
+lent blow or blows, even although not repeated, will set it in oscillation.
+If, however, we add mass to it by fixing at the other end a heavy
+weight, such as a ball of lead, and at the same time make the spring
+stiffer, we have an arrangement which is capable of being sent into con-
+siderable oscillation only by the action of a series of impulses or blows
+which are timed at a particular rate.
+Keturning then to the electrical problem, we see that in order to pre-
+serve a kumascope or wave detector from being operated on by any va-
+grant wave or waves having a period very different to an assigned
+period, it must be associated with an electrical circuit of the kind above
+called a stiff circuit.
+We will now consider the manner in which the problem has been
+practically attacked by Mr. Marconi, Dr. Slaby, Sir Oliver Lodge and
+others, who have invented forms of receiver and transmitter, which are
+syntonic or sympathetic to one another.
+Some of the methods which Mr. Marconi has devised for the
+achievement of syntonic wireless telegraphy were fully described by him
+in a paper read before the Society of Arts on May 17, 1901.*
+On referring to his paper, it will be seen that in one form his trans-
+mitter consists of an aerial, near the base of which is inserted the second-
+ary circuit of an oscillation transformer or transmitting jigger. One
+end of this secondary circuit is attached to the aerial and the other end
+is connected to the earth through a variable inductance coil. The pri-
+mary circuit of this oscillation transformer is connected in series with
+a condenser, consisting of a battery of Leyden jars, and the two together
+are connected across to the spark balls which close the secondary circuit
+of an induction coil, having the usual make and break key in the pri-
+mary circuit. Mr. Marconi so adjusts the induction of the aerial and
+the capacity of the condenser, or battery of Leyden jars, that the two
+circuits, consisting respectively of this battery of Leyden jars and the
+primary circuit of the transformer, and on the other hand of the capa-
+city of the aerial and the inductance in series with it, and that of the
+secondary circuit of the transformer have the same time period. In
+other words, these two inductive circuits are tuned together. At the
+receiving end, the aerial is connected in series with a variable induct-
+ance and with the primary circuit of another oscillation transformer,
+* See Journal of the Society of Arts, Vol. XLIX., p. 505. Syntonic
+Wireless Telegraphy/ by G. Marconi.

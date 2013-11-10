@@ -1,0 +1,41 @@
+OF ARTS AND SCIENCES : JUNE 4, 1872. 457
+the wonderful powers of this machine. - It bore about the same rela-
+tion to the other that algebra does to arithmetic, and, instead of merely
+computing arithmetical tables, it was designed to deal with all forms of
+analytical operations. Suppose we have any formula whatsoever from
+which we wish to compute a series of numerical values. Two sets of
+cards, like those of a Jacquard loom, are furnished the engine, the first
+to direct the nature of the operations to be performed, and the second
+to show which variables are to be acted upon. The numerical values
+of the constants being placed on the wheels, it would compute and
+print the results of the formula. If, during the operation, it wanted
+some other quantity, as the logarithm of a given number, it would ring
+a bell, and then stop. The attendant would find out what was wanted,
+and, procuring the logarithmic card, would place it in the machine. The
+latter would first see if it was correct, and, if not, would ring a louder
+bell and again stop. It would express every number it used to fifty
+places of figures, and would multiply two such numbers, giving a hun-
+dred places in the product, in about a minute. The complication of
+this instrument was such that it was impossible to represent it by or-
+dinary drawings. Babbage, therefore, used a system of mechanical
+notation which he had devised, and without which he claimed that it
+could not have existed even upon paper.
+In 1833, a portion of the Difference Engine was put together
+and worked admirably, computing tables with two or three orders of
+differences to sixteen places ; but, unfortunately, the new invention
+seemed to supersede it, and finally, in 1842, the government, after
+spending £17,000 on the project, refused to give any further aid.
+Babbage now devoted his whole attention to the engrossing subject of
+the Analytical Engine, and succeeded so far that, with sufficient
+means, there seems to be little doubt that he would have attained all
+that he claimed.
+His health suffered severely from the intense mental strain to which
+he was subjected in designing his engines, and, in consequence, he
+travelled a great deal both in England and on the Continent. As he
+seems to have availed himself of every opportunity to inspect in per-
+son any novelty he met with, we find him in many strange positions,
+and often narrowly escaping serious accidents. Thus, as a boy he was
+nearly drowned while testing a swimming-machine he had constructed.
+Again, in the Thames Tunnel, in company with Brunei, the water
+breaks in, and, but for the presence of mind of the latter, both would
+vol. viii. 58

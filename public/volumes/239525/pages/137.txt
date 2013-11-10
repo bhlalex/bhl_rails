@@ -1,0 +1,34 @@
+204 PROCEEDINGS OF THE AMERICAN ACADEMY
+There is a very simple geometrical construction of the roots of the
+equation in a. Making cos o- = x> and sm v = V' tne values of x and
+y are the co-ordinates of the intersections of the curves whose equa-
+tions are
+x 2 + f=h
+(x~a)(j-b) = ab
+Consequently, if we construct the equilateral hyperbola whose equa-
+tion is
+x y=±l,
+and from a point on it, whose co-ordinates are
+.1 a
+y l = -
+V ±ab'
+• iab'
+as centre, we describe a circle, whose radius is , and then draw
+V/±ab
+radii to the points of intersection of the curves, the angles made by these
+radii with the x axis °f co-ordinates are the values of or. Since the
+centre of the circle is on the hyperbola, there are at least two intersec-
+tions, and thus the equation in o- has at least two real roots. The geo-
+metrical construction readily affords the condition which a and b must
+satisfy in order that there may be four real roots. The condition is,
+that the length of the straight line drawn from the point a, b, on the hy-
+perbola whose equation is
+xy=ab
+normal to the opposite branch, shall be less than unity. The equation
+to the normal which passes through the point %", y" on this curve, is
+x"(x-x")-y"(y-f) = o.
+The condition that it passes through the point a, b, gives
+X (X - a) - y" (y" - b) = 0,
+X V" = a b.
+If we multiply the first of these by x"% we get
+X"*(X" — a) -ab(ab — b *") = 0,

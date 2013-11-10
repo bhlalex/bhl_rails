@@ -1,0 +1,38 @@
+c _^1_ ■' ^' ^^x'^
+^"(j + 5'o;4-6r'*--((j + 0'" ^^
+will converge nniformI>'^ to zei-o in tlie domain («); because a normal
+transmutation is continuous in a pair of conjugate fields. For suf-
+ficiently large /«-values we have therefore in all points of («)
+I '«I <(^ + f)'" ."•..... (7)
+From the equation (2) it is now easily derived that an analogous
+inequality holds for the functions a,n occurring in the series (1), thai
+is to say, that these functions, too, are less in value than the m*''
+power of a certain number independent of m. For if (7) is valid
+for m > riio, we have by (2), \.i\ being at most equal to a,
+"'0
+la,.
+'«0+1
+< ^ > + \k <(r J.
+<; ^ ^ 4- (^ + ^^ _f g)m
+The first part of the second member of this inequality consists of
+a fixed number of tei-ms, each of which is, for sufficiently large
+771- values, less than {a -\- e)"\ so that the same holds for their sum.
+The second part is greater than the latter quantity, hence we have
+for sufficiently large ?/z-values at all points of the domain («)
+|«„.| <((?+ « + «•)'« ...... (8)
+and therefore also
+1
+Urn \am\ <^ O -\- a (8')
+m = 00
+Thus the upper limit in the left-hand member of this inequality
+is finite, and this is (Vol. XIX, N'. 6) the very condition under which
+the transmuting series (1) is complete in the domain (a); moi-eover
+we infer that the correspojiding domain [,-i) has a radius ji, no greater
+than G -\- 2«. For all functions u belonging to the circle ((J-|-2«) the
+series P therefore produces a transmuted function Pu in the domain
+(«), and this transmuted is equal to Tu, according to the functional
+theorem of Mac Laurin we gave in the form (Vol. XX, N°. 3):
+If the series P, ansioering to a normal additive transmutation T,
+is complete in the circidar domain («) forming the ^V. F. 0. of T,
+we have in this domain Tu =:: Pu f or such functions of the functional
+field F {T) of T as belong to the circle (d) corresponding to («)•

@@ -1,0 +1,42 @@
+POLYMORPHIC TRANSFORMATIONS OF SOLIDS. 117
+There are three different methods of attack on the values for the
+difference of compressibility, expansion, and specific heat for this
+substance. In the first place, a direct measurement of the difference
+of thermal expansion of the liquid and the solid I was possible at low
+pressures. The phenol was so pure that the rounding of the corners
+was very slight, and this value ought to be fairly good. Then direct
+measurements were made of the difference of compressibility of I
+and II along the transition line. These values are fairly good, espe-
+cially at the lower temperature. And finally, at the triple point, we
+have theoretically the means to calculate all the differences between
+the two phases. But actually the various derivatives are not known
+accurately enough to permit this calculation at the triple point. For
+instance, a rigorous solution of the six equations at this point demands
+that I is less compressible than II, whereas direct experiment shows
+that it is more compressible. The values follow. At 77 kgm. the
+liquid is more compressible, more expansible and has a greater specific
+heat than I, as follows:
+Aa = 0.000025 ]
+A^ = 0.00027 [
+ACp = 6.9 [kgm. cm./gm.] J
+A/? was found by direct experiment and the others were computed.
+The value found by Block ^^ for A/3 is considerably less than that
+found here, 0.00017 against 0.00027.
+At the triple point it was established by direct experiment that
+I is more compressible than II. The difference of compressibility
+increases somewhat at the lower temperatures. At the triple point
+the difference is of the order of 0.000005. The difference of compres-
+sibility between liquid and I calculated from this is about O.O4I5.
+This value may probably be counted on with some certainty because it
+is not much affected by changes in the value of Aan. The differences
+in expansion between the two phases are, however, very susceptible
+to errors in the compressibility. One cannot conclude with certainty
+which of I or II is more expansible. The liquid is certainly more
+expansible than I and the difference is of the order of 0.0002. More
+than this cannot be stated. The differences of specific heats between
+the liquid and the two solids are also very susceptible to slight errors ;
+small changes in the constants may change the sign. The difference
+of specific heat between the two solids is not so sensitive, however,
+and it seems fairly certain that the specific heat of I is lower than that
+of II, perhaps a surprising result. The difference is small, and of the
+order of 0.3 kgm. cm. per gm.

@@ -1,0 +1,45 @@
+( ^32 )
+"cone in space" for Sr is found. Analogously the "cone in space"
+is determined for Si with respect to i?if' + {^)(f-
+We shall just show that as soon as two of the squares of inertia
+F become equal, which means the same as two ^'s becoming equal
+we can do with usual elliptic functions only.
+For instance let A^ = A^, thus also «2 = ^3 = 3^8 ; ^a = ^s = Jh-
+Let us call ^(p, and ^r/Zj the value of the decomponents of (/? and i^ in
+the FZ-plane, r^ and f,^ the anomalies of those decoraponents (counted
+from F to Z), and f the difference of anomaly of jU'3 and ^ '3; then
+the equations (h) become for this case:
+«1 'JPi — — 2*3 s^Ps -^Pz «"* f" «1 V^ = 2^3 2^p3 sV's «^'^^ '-"
+2«3 JPz ~ -Pz 'Pi ^Vz ^^n F ,a, ,t('3 = — ,h, ,<ƒ 3 xp, sin f
+&1 . 2^3 2»^ • ^1 A , 2^3
+F« ::= tf^i ^1 COS F F.i, =Z ff^ if?^ COS F
+a^S 2^3 ^93 2''*3 2^3 2V'3
+^1 , , , , 2^>3 /^ 2^3 , ,'Pz\
+F =— (9)1— l^'i) -f — COS F f/), V'l -7-
+2«3 2«3 V 2<^3 2^P3/
+from which we deduce four integral relations between
+9i ' 2^3 ' ^1 » 2V^3 -^nd F, namely
+9i+^\ = 7^ (^)
+2«3 2<f3'' + «I ^l' = C2' . • (^^), 2«3 2^f'3' + «1 ^f^l' = ^3^ ' ' (^^^)
+2«3 2^8 29^3 2'^f'8 ^OS F -]- ü, b, (f, Jp, = C^ . . . . {IV)
+If we put in these
+^2 c,
+— -cosïi, <Pi = -ry
+K2«3 K«l
+3^3 = r7~~ ^^^ '*h 'Pi = -TTT *^^^ '*2'
+2^3 = 77— cos S V'l = 77— «*^ ?.
+we have the differential eqations
+2^3 ;. . r "^3
+t] = Cj COS ^ s^w F , b = 7 — C3 cos 1] sm f
+2«3 K «1 2«3 1/ «t
+with the two . integrals :
+Cj sin 1^ -|~ ^3 ^''^ ? = Cj,
+c,
+2^3 cos i\ cos ^ cos F -\- 6j sin ij sin S =
+Cj Cg
+so that after elimination we obtain the following differential equation in tj :
+,03" a, c^^ . cos "tï . tj^ r= {^b^^—b,^) c," sm \
+— 2c,{,b^' — b^')c,'sin\
++ I 0,' (A'-K^) - (c,H «3^) 2^3^- 2 c, . ^ I c,^ sm ^»2
+4- 2 Cj (c,* . ,63' + C4 . b^) c, sin 1]
++ c,^ (c3^-0 A^-c,^

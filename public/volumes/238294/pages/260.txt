@@ -1,0 +1,40 @@
+( 731 )
+If we put R"" — Afj^ = a^j and RAp -\- Aq A, = bp, and if we
+represent the vector a^ ip^ i + a^ cp^j -\- a^ (p^ k, by (a) (f, we can write
+the six equations of motion :
+(a) ip= V.{b)xp.(p^ 2Rii — 2Av
+{a)rp= V. (b) <p.xp i- 2Rv — 2A^i.
+For absence of external forces:
+(a) (f z= V . {b) \\i . (fi j
+(h)
+(a) ip = F . (6) y . ip I
+In this form we can directly read :
+l'*^ If in the initial position (p = tf', then <p remains equal to if%
+i. e. if the initial rotation of S^ is a rotation // to a principal space
+of inertia, then the motion remains a rotation // to that space. The
+equations of motion for that case can be reduced to a system to be
+treated as the well known Euler motion in S^ when the forces are
+missing.
+2'^'^. For unequal ^'s "invariable rotating" is only possible under
+the following two conditions which are each in itself sufficient:
+a. for (f and tp both directed along one and the same axis of
+coordinate {X-, Y- or ^-axis of the representing spaces) i. e. for a
+double rotation of S^ about a pair of principal phmes of inertia;
+b. for (p = or xp = 0, i. e. for an equiajigular double rotation
+of S,.
+It has been pointed out by Kotter (see "Berliner Berichte"
+1891, p. 47), how a system of equations analogous with what was
+given, can be integrated. (The problem treated there is the motion of
+a solid in a liquid). According to the method followed by him the
+six components of rotation can be expressed explicitly by hyper-
+elliptic functions in the time. If however we have y^, y-^, «/g, if>,, tf'j, if'j
+expressed in the time, we have the "cones in the solid" for Sr and
+Si. To deduce from these the "cones in space" we set about as
+follows. We notice that the moment of motion to the right i?y + (yl) ip
+in S^ remains invariable "in space" (in Si that vector changes of
+course its direction, but there Rip -\- {A) p remains invariable) ; calling
+the two spheric coordinates ("polar distance" and "length") of <ƒ; with
+respect to Rp + (A) jp during the motion of .p in space ^h and / and
+remarking that each element of the "cone in space" at the moment
+of contact coincides with the corresponding element of the "cone in
+the solid", we can express i^, x^ and x in the time, with which the

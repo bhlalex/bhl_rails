@@ -1,0 +1,43 @@
+( 42<S )
+tr;msil (»\'er llic middle tliivad should lake place nxm'v near ihc middle,
+tlie transits over the otliei' threads were ohserxed on either side of'
+it. it niav he easily slio\\ n. however, that in the present ease no
+appreciable errors can arise from this.
+in th(^ lii'st place we sludl show that e\'eii the (M-rors in tjie ahso-
+Inte zcjiith distances g-enerally will he small. l»y the symmeti-ical
+arranti'einenl of the ol)ser\ati()ns, the inHnence of" an inclination of the
+I'eticnle as a \\ hole will he eliminated from the mean resnlt and
+the intlnence of the cnr\atni-e of the parallel of altitude ^vill always
+he small for my observations. A\ a horizontal distance c from the
+middle of the tield the influence of the cnr\atui'e of the parallel on
+the zenith distance is :
+1 .
+A r = — <•'■' c<>f(i. : xiii 1"
+2
+Now the pro[»ortio]i of the hoi'izontal to the vertical motion, putting
+for the parallactic angle ^>, is cotj/. [j, and for a transit over a thread
+at a distance / fVom the middle thread the cori-ection of the zenith
+distance will be
+A^ = — /'" rof(r p cotq z sin 1"
+2 ■
+while the extreme threads ai-e at distances of alx>nt IT"* or 250" from
+the middle thread. In one observation, tiiat of 1901 Febi-. 25, \vhich
+owing to the inifavonrable i-elative ])ositions of the moon and the
+star ])erhaps had best l)e excluded, the value of <"('///. /> was 0.(58,
+while for the rest its greatest value amoiiuted to 0.34 and it was
+generally nuich smaller. In the uiost nnfavourable case, therefore, we
+have for the extreme threads <■ = 170" and A: = 0".08. Tn all the
+other observati<nis we have always A: <^ 0".02.
+The inlluence on the dillereuce between the zenith distances of
+the moon and the stai', however, is nnich smaller still, as the moon
+and the stai' always differed little in declination and hence at the
+nn)meins of the ol)servalions wci-e at about the same ]»arallactic
+angle. The dilference between the juirallactic angles was, excluding
+the obsei'xatiou of 1901 Fein-. 25. foi' which p — y/=:7^ in maxinio
+l)°. So the inlluence of the cur\ature of the pai'allel is almost entirely
+eliminated iji the results of the observations. The same is the case
+with the inlbuMice of the inclination of the indixidual threads.
+That 1 did uoi follow the star in azimuth has therefore had no
+injurious consecpiences and uo coi-rec(ions are reipiired. ()n the other
+hand the consequence may ha^•e been that the stability of the instrument
+during each transit was greater.

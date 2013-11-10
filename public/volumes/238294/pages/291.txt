@@ -1,0 +1,41 @@
+( 768 )
+from this paragraph the manifold higher singularities, point and
+tangent of conjugate imaginary singularities must both be imaginary.
+If Ave decompose those singularities into the equivalent ones of
+Plückkk in the manner indicated l)y Hkill (see note), thus without
+changing order and class of the curve, then of those PLÜCKEii-singu-
+larities point as well as tangent are imaginary, as was also the case
+with the original singularities. So jio PLÜCKER-singularities are formed,
+which appear in the equation of Klein, so that that equation inva-
+I'iably holds good for a curve, possessing only higher singidarities
+of which [)oint and tangent are both imaginary.
+Comprising the results of this paragraph, we thus find for a curve
+without manifold higher singularities the equation
+H + ,i + 2t" + ^'>\ = k + k' + 2d" -f 2:\ , . . . (5)
+where the summations must be extended on]y to the real higher dngu-
+hritles.
+§ 2. Curo'i'.s wltli j'f'td eqitjitioif. and ivith
+manifold IdcfJier .singidarities.
+If the curve has manifold higher singularities, we can imagine
+that these are driven asunder in the sepai'ate singularities in such
+a wa}' by a slight n'ol modification in the equation of the curve
+retaining order and class of the curve, that its singular points and
+tangents all differ, but without tlie nature of the separate singularities
+having undergojie a change. This operation which 1 shall explain
+more minutely in my dissertation for the case of one manifold
+singularity only, I call tiie disptn-sion of the manifold singularity ^).
+mation of a higlier singularily •/.*' — /3*' + 2 (S*" — t*") retains the same value,
+■which he calls the index of reality of that singularity. Here k*', |3*', I*", t*''
+represent the numhers of the real cusps and inflexions and of the isolated double
+j)oints and bitangenls, generated at the deformation. How large those numbers are
+separately depends on the manner of deformation.
+This however is not a new result, but an immediate conse(|uence of the equation of
+Klein if after various deformations we apply it to a curve possessing at first but
+one higher singularity.
+Brill (1. c. p. 391) says he intends to point out elsewhere that the index of
+.reality of a singularity (however, this must run: of a real singularity) amounts
+to J4* — (3*, so according to (4) to t — v. in connection with
+/? + (3' + 2r" + /3*' + 2t*" = ^• + x' + '21" + A*' + 2r "
+the equation (3) follows immediately from it. However 1 am not aware where
+Brill gives the promised proof.
+^) So here we leave the one-sided point ot view of the beginning q{ % 1,

@@ -1,0 +1,37 @@
+322 REID— THE DISTRIBUTION OF LAND
+remain the same. All that is necessary is that the temperatures
+should change rapidly near the bases of the cones.
+Let us calculate the difference of mean temperature of the land
+and sea cones under some simple distributions of temperature.
+Suppose the apices of the cones to have the same temperature and
+the bases to differ by i6° C. ; and suppose the temperature gradient
+to be uniform in each cone from the apex to the base. An easy
+calculation shows that the difference of the mean temperature of
+the cones would be three quarters of i6°, or 12°. And with the
+coefficient of expansion adopted by Trabert, this would account for
+a difference of level of the bases of 770 meters, or about one seventh
+of the actual amount. A constant temperature gradient in the
+earth is of course impossible. With a gradient of 1° per 100 meters,
+which is rertainly smaller than that observed at the surface, we
+should have a central temperature of over 127,000°.
+As a second example let us suppose that the earth has cooled in
+accordance with Lord Kelvin's theory. We shall take the original
+temperature at 1170°, the present land surface temperature at 16°,
+the sea bottom at 0°. For the sake of making the difference as
+great as possible, we shall assume an age for the earth of 500 mil-
+lion years. We find that below a depth of one tenth of the radius
+the two cones have practically the same temperature and that the
+mean difference in the two shells above this depth is somewhat less
+than 4°, accounting for a diff'erence of level of the bases of the two
+cones of about 25 meters.
+If we ascribe the earth's heat to radioactive substances, we are
+confronted with our ignorance of the relative quantities under the
+land and under the sea. They seem to be somewhat more abundant
+in the more siliceous rocks of continental areas, though the red clay
+of the deep sea seems to have a high content ; on the other hand the
+less siliceous rocks of the oceanic areas have a lower conductivity
+for heat. We may then as a rough approximation assume that the
+temperature curve has the same form under the two regions,
+differing, however, by 16° in temperature at the same depth below
+the surface. This would only hold for moderate depths, say, for a
+few hundred miles. Farther than this there would be a diminution

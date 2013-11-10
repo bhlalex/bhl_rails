@@ -1,0 +1,40 @@
+206
+is only a matlieniatical artifice, to which no physical meaning must
+be assigned. Points P^, which in their movement were first c{in
+behind compared with P^, and whose vector lay, therefore, at an
+angle c^m on the righthand side of the time direction, will now be
+as it were c^ni in advance of P^, and give a vector which again
+forms an angle c^iii with the time direction, but now lies on the
+lefthand side of it. The angle between every vector and the time-
+direction being proportional to ///, all tiie vectors will reflect in this
+direction, and the form of the fan, and with it the resultant, hence
+the intensity, will i-emain unchanged. Hence for any instrument in
+which light propagates normally, the intensity will be an even
+function of the number of waves. In this absolutely monochromatic light
+is supposed, because for compound light the intensity is no function
+of the number of waves on account of the integration with respect
+to m between definite limits.
+Now we shall, however, also admit reflections against a denser
+medium in the instrument. In this the phase shifts suddenly jr;
+such an abrupt change of phase we shall call a phase shifting. Let
+us suppose that some points P' of the instrument are illuminated by
+rays which have undergone such a reflection an uneven number of
+times. Their vectors now no longer make the angle c'li}, but the
+angle c'm -\- Jt with the time-direction. Before P, gave a vector by
+the aid of whose direction the time-direction was defined. When,
+however, the point P^ belongs also to the points P' , its vector
+will also turn over an angle Jt, hence obtain the opposite direction
+from what it had before. As the other group of points of the
+apparatus continues to receive normally propagated light, their vectors
+continue to form the angles cm with P's former vector.
+When we now define the time-direction anew, and do so as the
+direction of the vector originating from that point P^ of the apparatus
+through which the shortest optical way passes from the source of
+light L to the point of observation Q, quite apart from all possible
+phase shiftings, the time-direction will always be the constant direction
+in the following considerations, with respect to which we determine
+the position of the vectors. We shall again think it to be always
+directed vertically upward. A reasoning based on this time-direction
+will therefore hold both for the case that this point P, receives light
+that has changed its phase, and for the case that normally propagated
+light falls on it. We shall let the constants c keep their value, because

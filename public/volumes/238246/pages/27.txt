@@ -1,0 +1,42 @@
+20
+•I
+ference of the circle (1,1). Tlie coefficient-function is then defined
+by the integral
+2-^.r/^(0«^-^^^ ••••.••• (6)
+(U)
+taken round tlie just mentioned circle, and this integral is easily
+seen to be equal to the binomial series (1) in (he half-plane of x
+on the right of the imaginary axis, provided definite agreements as
+to the value of if*~^ be made. It may, however, be difficult to
+investigate whether the integral (6) is equal to the given function
+to (a*). And in any case the investigation is intricate if A' ^ — 1,
+especially wheu the difference between / ' and — 1 is rather great.
+For the coefficient-function of q) {t) is then brought into relation with
+that of another generating function, with ^■' <^ — 1, by means of a
+polynomial consisting of a very large number of terms.
+The question therefore naturally suggests itself, if it is possible,
+to find simpler tests which are sufficient for a functioi] to be
+expanded in a binomial series. This is, indeed, the case, and we
+may, moreover, say that the obtained properties are about ?i(^c^,v5ary ^).
+For we can prove the following theorem:
+J f a function to [x] is i^egular in the finite part of the half-plane
+R {ai)> y ') (y = real), and if, in that domain, it satisfies the inequality
+I oi {x) 1< i¥ 1 {x 4- hf a^—i I , (7)
+lühere M is a positive and I and b are real numbers, the latter such
+that 6 -j- y ]!> ^> further a a complex number on the circumference
+of the circle (1,1), variable luith the argument ip of x — y, the argu-
+ment a of a being equal to — ip so that
+a r= 2 cos If) e— '^, (8)
+then, in the domain {[3 z=real'^ y).
+R{^)>1 + ^-^, (9)
+1) For the sake of comparison we observe that for the expansion of a function
+in a series of factorials
+E
+x{x + l) . . . {x + n)
+there is a necessary and sufficient condition, stated by Nielsen and simplified by
+PiNCHERLE, which has some similarity with the above condition for binomial series.
+But it is not possible to find simple tests for the expansion of a function in a
+series of factorials. The only simple sufficient condition which may be given in
+this case, is that a function can be expanded in a series of factorials, if it is
+regular and of zero value at infinity. But this condition is far from necessary.
+') R (x) means the real part of x.

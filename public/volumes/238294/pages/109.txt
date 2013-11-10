@@ -1,0 +1,38 @@
+( 508 )
+J J J., willi ('" (leteriuiiies a ai-oiij) of the f' of which llic i-cmaiiiin^-
+\\\{) [)(>iiil> furnish the second ri,uii( lijie of ihc <l(',u-eiie)-;ile(l ("' :
+thirdlv eacli of ihe poijils J^, .1, is coliiiicai- willi 2 (// — Ij pairs of
+tli(^ /•'. So w (' ha\e cf = // — 2 -f y/ -|- 4 (// — J ) = I) (// — 1).
+For .v = 4 we ^^allt Iml one li\(>d point J,. There are 3 (// — 2)
+colHnear Iri|)le1s and '.\ (// —.1) |)airs of lines, ^\•hel•e eacli (tf the
+ri^hl Hnes hears \\\i\ points of a uronp of V\ so here \ve liml
+Ó = 'A in. — 2) + 3 (// — -[) — 3 {'hi ~ 'M.
+(i. The correspoiKhMice lA', A'') has foi- n < 5 ihe cliaracterizing
+nnnilxM' (2// — s){'hi — .v — \): in the correspon(h;'nce (/^A') eacli
+poiiil P is c(nijnf>'ate to (2// — x) poinls A', each point Alo.v(2/v — -v)
+points l\ As /■'•■ conlaijis 2 (.v — 1) coincidences the nnnihcr of c(tnics
+of rf'-"] touching' ^ '" is now re|)resejited bv 2;2// — .y)(2y/ — .v — 'i) +
++ 2 (2y/ — .v) {s + 1) -f 2 (.s- — 1 j = 2(2// — 1 )(2// — s-\- 1 ), whicli corres-
+ponds to the value the nnmber {l-\i -f- /'»') yiossesses here.
+The cori-espondence (A. A') f<»i' an /"-' is of ordei' (2// — 2) (2// — 3):
+it has (2// — 2) (2// — 3) jiairs in coniinon with P.
+So die Msteni [T"'] contains (// — J; '2// — 3) c(niics hcarin^j^- eacli
+two jtairs of the ({uadraUc involulion.
+Mathematics. — •' FunddDu'tital niritlntions on fiifion((l ciirri's of
+orih-r firc^' l»v Prof. J.vN DK \'kiks.
+1. If the points of a rational curve of order five, ('\ with six
+double points JJk (/• = 1. 2. 3, 4. 5, (>j. are arranged in the pairs P',
+P" of an involntion /-'. the line P' P" enveUipes a directing curve
+of class four. For, the indicated involntion has four |>airs in coninion
+with the central involution of order live, which is deteiiuined by the
+rays of a pencil. If a paii' of the /' is formed by the jioints D\
+and }y\ lying in I), on Ihe two branches of the C\ the directing
+curve breaks up into a curve of (dass three and the pencil of i-ays
+having its vertex in ]),,. If a second paii' consists of the points //^
+and //',, the real directing curve will be a conic. Then we evidently
+gel an /' given with P'' : we shall therefore call it -a /nnddiiiciital
+involution. It is determined by the pencil of conies with the base-p(Mnts
+/A, a, 7J„ />,.
+2. The bearer of a pair of points of the fundamental involntion
+P meets P' in three points more 7", T" , 7"" forming a group
+t»f a cubic involution. For, of the tangents out of a point 7" = 7^

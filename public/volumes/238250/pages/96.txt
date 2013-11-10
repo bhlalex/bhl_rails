@@ -1,0 +1,46 @@
+COLOR AND CHEMICAL CONSTITUTION 135
+the para-position. Now the activity of these oxygen atoms is to be
+attributed to the residual affinity which each is known to possess, and
+hence by the assertion of this affinity when in close proximity to each
+other, followed quickly by a break in the same, we arrive at the condi-
+tion known as isorropesis, upon which form of oscillation the color
+depends. It is necessary in this process that the active groups under-
+going isorropesis should be adjacent. The pulsations of the benzol
+ring readily furnish the means by which the two para-atoms are suc-
+cessively brought under the influence of each other, and hence their
+positions will approach more nearly to that of adjacent atoms, a point
+that was confirmed by the similarity in the absorption spectra between
+para-benzo-quinone and compounds where the two carbonyl groups
+were actually adjacent. The study of ortho-quinones falls in the same
+category as the para-quinones and may be explained in a similar
+manner. Meta-quinones, however, can exist, but momentarily on the
+hypothesis of the benzol pulsations and hence are unstable.
+Isorropesis, as has just been indicated, occurs between adjacent
+atoms possessing residual affinity. It is also to be remembered that
+some disturbing force must be brought to bear upon these atoms, for
+otherwise no make-and-break and consequently no oscillation can take
+place. In the simplest case studied, that of diacetyl (CH 3 — CO —
+CO — CH 3 ), the disturbing influence rests undoubtedly with the
+hydrogen atoms of the methyl groups which from their electro-positive
+nature exert a strong attraction for the electro-negative atoms of
+oxygen. This constitutes a sort of keto-enol tautomerism, the presence
+of which should certainly be accounted for in the appearance of the
+absorption-curve; indeed, the slight extension of the absorption-curve
+of this compound near the oscillation frequency 3,800 corresponds
+exactly to the location of a band due to keto-enol tautomerism. The
+cause of isorropesis in a compound rests, then, upon the disturbances
+of the residual affinities of the two atoms in juxtaposition. In the
+examples already cited, those of pyruvic acid and oxalic acid, the
+hydroxyl group is next to the active carbonyl group. The slight posi-
+tive nature of the hydrogen atom in this capacity will diminish its
+disturbing effect upon the second oxygen atom, or that of the carbonyl
+group, and consequently only the slightest amount of isorropesis will be
+possible. With the alkyl ester of pyruvic acid the conditions will
+favor a slight isorropesis, as we have seen, but with oxalic acid there
+should be none at all. In quinones the residual affinities of the benzol
+ring constitute the disturbing factors. The hydrogen atoms of the
+benzol molecule may also exert some disturbance. In general, we may
+say that the amount of isorropesis must rest upon the disturbing in-
+fluences which can be brought to bear upon the active groups showing
+residual affinity, or those susceptible of this new kind of oscillation.
+Isorropesis need not always be confined to residual affinities between

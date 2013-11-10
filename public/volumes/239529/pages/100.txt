@@ -1,0 +1,42 @@
+127
+two electrons might be regarded as that of a sphere over the whole
+surface of which the electrons circulate uniformly. The formula for
+sin H
+a
+the diminishing-factor then becomes — , where (/is the radius
+a
+of the spherical surface in question and a the edge of the elemen-
+tary cube, so that we must put for A :
+sin H
+A = 2 e-^ ■ 10 ~ 3 # a — - .
+a
+For the electrons of the binding rings we have only to attend to
+the heat motion. Thus I replaced B by e~ aiH<i .
+When we compare the righthand sides of the equations, that of the
+first, viz. that for (111), is exceedingly large. When however
+we compare the left hand sides, the terms containing B show that
+in t tie equation for (111) this left hand side will become smaller
+than the left hand sides of the other equations. This difficulty will
+however not be met with, when « 2 is chosen so great, that the
+terms with B may be neglected. This comes about to the same as
+the ascribing of the decreasing of the line intensity with H\ observed
+by Debije and Schkrrkr, only to the circulation of the two remain-
+ing electrons about the nucleus. I calculated that for the radius
+of the spherical surface over which as a mean these electrons may
+be regarded to move, the value 0.075a had then to be chosen. This
+is about thrice the radius of the BoHR-ring (one-quantum for each
+electron) about the nucleus. This would not be an improbable value
+of the radius of that sphere. Then however we must take cr at
+least equal to 0,6 in order to find somewhat fitting solutions of the
+2*V
+equations. When we put « 2 = (r = mean deviation by the
+(i 1
+heat motion) r should thus become somewhat smaller than 0,2 a
+and such a great deviation seems to be in contradiction with recent
+conceptions on the specific heat of solid bodies, to which the elec-
+trons contribute to a small degree only. We may lower the «-value
+wanted by taking for the radius of the electronic sphere about the
+nucleus 4 or 5 times instead of 3 times the radius of a ring of
+one quantum; then however this radius becomes improbably large
+and « a remains still too large. : )
+l ) In my opinion Coster I.e. would also have met with these difficulties when

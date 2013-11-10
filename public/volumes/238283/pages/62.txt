@@ -1,0 +1,20 @@
+LEWIS. — THE LAW OF PHYSICO-CHEMICAL CHANGE.
+67
+stance is the same as that of the vapor in equilibrium with it. It is
+important therefore to know what relation exists in general between the
+fugacity of any gas or vapor and its pressure.
+Figure 3.
+If a section of the isothermal of any vapor is plotted on the P V dia-
+gram (Figure 3) we obtain a curve such as M M', which, according to
+the third law stated in the introduction, approaches asymptotically the
+hyperbola N N', whose equation is,
+Let us determine the value of \]/ for any point M of the curve. The
+variation of \\/ with P is given by equation (20), which may be written
+for constant temperature,
+dRT\x\x\, = vdP.
+Between the two points M and M' we find by integration
+RT
+V d p.
+Now if the lines of constant pressure L M N and L' M' N' are drawn,
+O M
+V dP is equal to the area M M' L' L, and this is equal to the area

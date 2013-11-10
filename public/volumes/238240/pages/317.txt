@@ -1,0 +1,37 @@
+376 WHITEHEAD— HIGH VOLTAGE CORONA IN AIR. [April 21,
+and the corrective factor for the maximum vahie is obtained from
+the shape of the wave.
+Many of the inconsistencies among the measurements on existing
+transmission hues and those made in laboratories arise in the difficul-
+ties of measuring the power in high voltage circuits ; the instruments
+must be placed in the low voltage side of transforming apparatus, the
+losses in which, being generally greater than those to be measured,
+introduct a troublesome source of error. The appearance of the
+visible corona has been used by laboratory workers as an indication
+of the beginning of loss through the air. With proper precautions
+this method may be very reliable but its use is generally attended by
+danger of subjective and other error. As a result of the discrepan-
+cies among these approximate determinations of various investiga-
+tors, there has appeared much speculative suggestion of the presence
+of other unrecognized influences, as for example the moisture con-
+tent of the air, the presence of " free " or natural ionization, an ab-
+normal property of air when near a small wire, etc.
+The present problem therefore resolves itself into two parts:
+first, a satisfactory method for the determination of the law under
+which the air in the neighborhood of a long straight and usually
+cylindrical conductor breaks down under electric strain ; and second,
+the law governing the amount of loss when the voltage is carried
+above the critical value. A year ago the writer^ described a method
+by which it is possible to determine the voltage at which the air
+breaks down near a round wire to a maximum inaccuracy of a few
+tenths of one per cent. The original paper may be consulted for
+the details, but the principle is simple and may be described briefly.
+The wire is stretched along the axis of a metal cylinder and the
+voltage is applied between them. Air may be passed through the
+cylinder by means of two lateral tubes near the ends, the walls of
+the cylinder at these points being drilled with a number of small
+holes. Close to one set of these holes and outside the cylinder a wire
+mesh electrode connected to a sensitive electroscope is placed. As
+soon as the air around the wire breaks down under increasing volt-
+age, copious ionization sets in which causes a rapid leak from the
+'J. B. Whitcliead, Proc. A.I.E.E., p. 1059, July, 1910.

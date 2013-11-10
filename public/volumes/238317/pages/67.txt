@@ -1,0 +1,42 @@
+84 H. J. Grayson :
+Although it may not Ije absolutely essential that both thrust faces
+sliould be strictly parallel and perpendicular to the screw axis, one of
+them must be exactly so placed and the other as nearly so as pos-
+sible; hence the adjustment of both was effected as part of the same
+operation.
+In the first place, the cone and flat of the inserted screw thrust
+was ground Avith all due precaution in the lathe and a surface
+approximately perpendicular to the axis of the screw Avas obtained.
+This, however, was not accurate enough for the purpose required
+and, as the further adjustment of the end of the screw was related
+to that of the sapphire face, the method adopted for their mutual
+correction will be exj^lained with the setting up of the thrust block.
+In order to obtain a close approxiniation to its true position the
+sapphire thrust block was first set up with the aid of the usual mecha-
+nical appliances. More exact adjustment was obtained by the use of
+a well-known optical method of setting up a mirror normal to a rota-
+ting axis. A round bar of steel, rather longer than the screw, was
+accurately ground at each end to the same diameter as the screw
+bearings. This bar formed the counterpai't of the screw without
+its threads, and hence could be used with greater freedom and with-
+out risk. To one end of the bar, representing the thrust end of the-
+screw, a truly plane quartz mirror was attached by means of a
+slightly plastic cement. This rod was placed in the bearings of the
+ruling machine, and the mirror firmly pressed without rotation
+against the sapphire thrust face. The rod was then transferred tO'
+V bearings so placed that by means of a reading telescope of fairly
+high power a distant illuminated disc Avith cross wires and perpen-
+dicular scales could be viewed by means of the quartz mirror.
+Rotating the rod caused the image of the cross wires to move in the
+field of view unless the surface of the mirror Avas normal to the axis
+of the rod. Definite movements corresponded, as was soon found,
+to definite errors in the thrust and so by means of trial and error
+the thrust Avas, after considerable AA'ork, adjusted until the image
+of the cross wires remained fixed during a rotation. As the sapphire
+thrust had already- l>een adjusted to a nearly correct position, these
+later adjustments Avere only of microscopic dimensions. For adjust-
+ment in a horizontal plane, the small movements required were
+effected with the aid of tAA-o micrometer scrcAvs placed one on the
+right and the other on the left of the thriist block to which they
+could be made to impart a minute rotary movement. Adjustment of
+the block in a vertical direction Avas obtained by slightly grinding

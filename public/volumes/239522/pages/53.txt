@@ -1,0 +1,41 @@
+56 BRIDGMAN.
+range of this paper is from 0° to 200°, and from 1 to 12000 kgm. The
+measurements to be given here must be regarded as only the beginning
+of an attack on an immense field. The most important immediate
+task would seem to be the collection of a large mass of data, so that
+we may become familiar with the general types of phenomena. About
+the only discussion that can be attempted is a thermodynamic one,
+and even from this narrow point of view the measurements are not
+sufficient to completely determine the behavior of the several phases.
+We can go only a little way toward the solution of the general problem,
+which is to predict from the properties of any one phase when to expect
+new polymorphic phases, and what their properties will be. We may
+perhaps expect more definite results when methods such as are used
+here are taken in conjunction with recent X-ray methods for determin-
+ing crystal structure.
+Thermodynamically, the transition between two solids is charac-
+terized by the same elements as determine the melting and the vapori-
+zation curves, and from this point of view the discussion of previous
+papers ^ is applicable. As a matter of fact, however, the character
+of the solid-solid curves may vary much more widely than that of
+the melting or vaporization curves. For instance, all vaporization or
+melting curves, absolutely without exception, either rise or fall over
+their entire length, while solid-solid curves may have either a maxi-
+mum temperature or pressure. In the previous discussion it was not
+necessary, therefore, to consider certain special relations between the
+thermodynamic constants at the maximum points, but now these
+relations become of importance. A discussion of these is given in the
+following. Another matter that needs reconsideration is that of
+the effect of impurities at a point of maximum pressure. Evidently
+the usual statement of the effect of impurity as causing a displaced
+temperature of equilibrium will not serve here. In the following are
+given the slight modifications necessary in the usual discussion to find
+the pressure shift of the equilibrium line.
+It has been possible to give a much more thorough investigation of
+the difference of compressibility, thermal expansion, and specific heat
+between the several phases than was possible in the case of melting.
+The reason for this is the much greater relial)ility of the experimental
+measurements of the difference of compressibility between the separate
+phases, because, except in those cases where the impurity forms mixed
+crystals, there is absolutely no rounding of the corners of the volume-
+1 P. W. Bridgman, Phys. Rev. 3, 126-203 (1914), and 6, 1-33 (1915).

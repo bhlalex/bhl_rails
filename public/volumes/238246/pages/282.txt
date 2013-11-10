@@ -1,0 +1,37 @@
+Mathematics. — "Some applications of the quasi-unifonn convergence
+on sequences of real and of holomorphic functions ' . By Prof.
+J. Wolff. (Coinmunicated hy Prof. L. E. J. Brouwer).
+(Communicated in the meeting of September 27, 1919).
+We consider a region G of the coinplex plane, and a sequence
+of functions /i,/\, ■ ■ ■ ■ whicii are all analytical within G. If tlie
+sequence converges uniformly in any closed region within G, then
+the limiting function ƒ is analytical within G. This theorem however,
+enunciated by Weikrstrasz, has of late been considerably extended.
+If it is knowji that the sequence convei-ges at the points of a set
+having a point of the interior of G for a limiting point, and
+besides, that (he sequence is uniformly limited in every closed
+region internal to G, then this is alieady sufficient to conclude to
+the uniform convergence of the sequence in any closed region
+within G, which involves that the limiting function ƒ is analylieaP).
+This same conclusion may be di-awn, G being a circle, if only the
+sequence of functions is supposed to be uniformly limited within
+00
+G and convergent at the points Zj,z^, . . ., such that 77 (2/c— 2,) =- 0,
+1
+where z„ is the centre of G and Zky^^o^)'^ also if it is only supposed
+that there exist two definite numbers a and /; such that nowhei'e
+in the interior of (r one of these two values is assumed by a
+function of the sequence, and besides that the sequence converges
+at the points of a set having a point internal to G for a limiting
+point'). None of these theorems lead to other sequences of functions
+than those whicli are embraced already by Wkii-irstrasz' theorem.
+The question now could be raised whether it is possible that
+a sequence of functions, each of which is analytical within a
+region G, may converge to a function, analytical within (r, without
+this coiivergence i^eing uniform in every closed region contained in
+G. That such sequences actually exist is shown by an example,
+1) G. ViTALi. Aiinali di Malematica, Serie 3% tomo 10 (1904), p. 65.
+For a simple proof vide a.o. Verb, der Kon. Ac. v. W., dl. 27 (1918), p. 319.
+') W. Blaschke. Leipz. Berichte, Band 67 (1915), p. 194.
+*) C. Carathéodory and E. Landau. Sitz. Ber. Ak. v. W. Berlin, Band 32
+(1911), p. 587.

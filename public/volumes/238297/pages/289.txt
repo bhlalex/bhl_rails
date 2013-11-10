@@ -1,0 +1,34 @@
+PHILOSOPHY OF INDUCTIVE INFERENCE. 263
+which tended, in the creation of things, to associate these
+properties together, and I expect to find them associated
+in the next instance. But there always is the possibility
+that some unknown change may take place between past,
+and future cases. The clock may run down, or be subject
+to any one of a hundred accidents altering its condition.
+There is no reason in the nature of things, so far as known
+to us, why yellow colour, ductility, high specific gravity,
+and incorrodibility, should always be associated together ;
+and in other like cases, if not in this, men's expectations
+have been deceived. Our inferences, therefore, always \
+retain more or less of a hypothetical character, and are so I
+far open to doubt. Only in proportion as our induction/
+approximates to the character of perfect induction, does
+it approximate to certainty. The amount of uncertainty
+corresponds to the probability that other objects than
+those examined, may exist and falsify our inferences ; the
+amount of probability corresponds to the amount of infor-
+mation yielded by our examination ; and the theory of
+probability will be needed to prevent our over-estimating
+or under-estimating the knowledge we possess.
+Illustrations of the Inductive Process.
+To illustrate the passage from the known to the ap-
+parently unknown, let us suppose that the phenomena
+under investigation consist of numbers, and that the
+following six numbers being exhibited to us, we are
+required to infer the character of the next in the
+series :
+5, .15, 35, 45, 65, 95.
+The question first of all arises, How may we describe this
+series of numbers ? What is uniformly true of them ?
+The reader cannot fail to perceive at the first glance that
+they all end in five, and the problem is, from the proper-

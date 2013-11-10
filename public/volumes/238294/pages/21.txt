@@ -1,0 +1,51 @@
+( 382 )
+6 II
+i\L-
+I
+— 0"08
+-h 0"4i
+II
++ 0.2(5
+— 0.02
+III
+— 0.14
+— 0.35
+IV
+0.62
+— 0.13
+Ö h, = —
+0"14
+Ö /•, = —
+0"02
+Hence
+(i a = — 0"3li act'()r(liiiu' lo llic //
+= + 0.25 „ ' .. .. /•
+Mean value of d « = — 0.05
+The two values for a ol)tai]ie(l iu this wav do jjot aaree satis-
+factorily. The mean value «=1".45. however, dilfei's little from that
+deduced above bv assumin,ii' the aujiual \ariatioji of X to be 2(P.
+The values of //,,• and /lV- reuiaiu also uioi-e or less ujicerlaiu. The
+(ill and (^k show a systematic character cncu to a higher decree than
+the <i X , but I did not succeed in lijidiug the real law of the discor-
+dances. If, for instance, we assume that //,.. and /;. vary proporl ion-
+ally with the time, the agreement does not improve.
+As the most prol)al)le results of my investigation I adopt:
+// = -[- 0".31 — T'.45 sin [302°.4 + 19'. 35 {t — 1876.0)]
+/;■ = -[- 0".24 -I- i".45 co.s [302^4 + 19\35 (/ — 1876.0)]
+Thence follow as cori'ections of the eccenlricity aiid of the longitude
+of the j>erigee :
+ÖP = — 0".16
+rri.-T = -[-0".I2
+rf\-r — _^ 2".2
+while an eventual correction of the motion of the perigee remains
+entirely uncertain.
+The correction of the true longitude of the moon thus l)ecomes:
+öl= — 0''.31 sin ,j — 0".24 cos ,j 4-
+-f 1".45 Hin [ij -f 212°.4 -f 19".35 (/ — 1876.0)].
+With this formula we may conijnire the two results, \vliich
+Battekmann derived from his occnltations and which hold for about
+1885.0 and 1896.0.
+Battermann found for the total corrections depending on ij U'omp.
+n°. 5 p. 41, n". 11 p. 52).
+1885.0 fl7 = — 1".14 sin <j -\- 2".67 cos g
+1896.0 ,/ — — 0".90 mi ij — 1".35 cos g

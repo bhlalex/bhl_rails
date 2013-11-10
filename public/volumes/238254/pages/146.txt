@@ -1,0 +1,35 @@
+Pantiiietrr Vulues of Potential Theory. 171
+and the tirst c(|uati()n ("iO) becomes
+("^') |^(^y;)=.[/K//>)-|T(<;.)]+A[A,(/;>)-lp(/p)]+ ...
+Introducinp' these values in (18) we have, for the solutions of the
+boundary problems (li))
+(21) I w{p)=/no){[h{ep)^lF{ep)'] +x[a,(^p)-1p(p^)] + .. }d^.
+) np)==/{[y{j>0)-Q{pe)] + x[g,ip6)-lQ{j>0)'^ +..]HO)dO.
+We may further obtain expansions for the moment i'(/,), and the
+density [ji{t) of the strata satisfying (19); for these are solutions of
+the integral equations
+( v{t) - Xfv{6)h{$t)de=i{t) -/i{0)F(Ot)dO=^{t), say
+I ix{t) - X/h{tO)fjL(d)dd=i{t) -/P{tO) iiO)dd = F{t), say,
+and are therefore given by the expansions
+(22) I v(0=E(0+AEi(0 + A%(0+ ....
+) fM{i)=F{t)+\F,'{t)+X,F,'{t)+ ....
+where the successive functions are given by
+E,{t)=/F40)h(ef)dH
+E.,(t)=rE,{6)h{6t.)d6, &c.
+and
+¥,'(()=/ h{te)F{6)de
+F.J{f)=/h{td)Fi'{0)de, &c.
+If we evaluate these functions we find
+Ea{t)=/l(e)h„,_-^(6t)dO-\/i{0)F{ef.)dO
+Fn'(0 =J'K- imi {0)de - ^/P{fO) HO)dB
+If now we form double and simple strata with moment and density
+given by (22) we find exactly the series (21) over again.
+§5. — Forimd(E of Reciprocity. — The Green's function G(p5)
+admits certain theorems of reciprocity. The argument used to
+establish these for the ordinary potential^ is equally valid for the
+generalised, the symbols having their altered significance. These
+relations may be stated
+i. If the points p and q are both in the same region or both on
+the Ixiuiidary
+(23) G(/^) = C(y/)
+1. Pleraelj. F.oc. fit., S. 39fi-3i)8.

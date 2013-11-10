@@ -1,0 +1,39 @@
+210
+of just now, and wliicli liad ali-oady undergone tlie phase bliifting
+discussed then, is besides subjected to a metal reflection, which can
+take place for all four of them in exactly the same way, this will
+mean for each of the beams a same phase shifting ^. This latter
+does not deform the fan, as it revolves as a whole over an angle /?,
+since all the points P have participated in the new change of phase.
+For some four beams of other frequency the fan will indeed be
+rotated through another angle ^' , but fans drawn up for different
+frequencies, must yet not be composed vectorially, because two
+different kinds of light can never interfere. Hence also when com-
+pound light falls on the apparatus, metal reflections will have no
+influence on the intensity, if each of the beams undergo them an
+equal number of times in the identical way; this latter peculiarity
+is always met with in the current interferometers for reasons of a
+practical nature. The same thing applies for the phase-shiftings
+which take place with total reflections.
+We must, therefore, devise an instrument in which first of all
+the condition of identical metal reflections and of identical
+total reflections is fulfilled, but that besides has the property to be
+illuminated for one half by rays which apart from metal and total
+reflections, have undergone none or only phase shiflings of ^, and
+to be illuminated for the other half by rays which apart from metal
+and total reflections, have been besides subjected to an extra
+phase shifting «, which differs from tt, and must be independent of
+the number of waves; the rays of the first and of the second kind
+must besides be coherent in order to be able to interfere.
+When we now put the question what constant phase-shiftings we
+have now at our disposal, we come to the following answer:
+1. a phase-shifting of rr in case of reflections against a denser
+medium ;
+2. a phase-shifting of n, when a beam of light is narrowed to pass
+through a focus ^) ;
+3. a phase-shifting - forward, when a beam must pass through
+a focal line ^).
+The last two shiftings take place respectively in the focus and
+in the focal line; the latter alone differs from rr, and this is the
+only one we can therefore use for our purpose. We shall, therefore.
+^) GouY, Ann. de Chimie et de Physique (6), 24. 1891.

@@ -1,0 +1,42 @@
+( 653 )
+border curve of tlie mixture x in the p, r, T diagram. To the first
+approximation its equation is :
+k- k
+P—P.ck= "^" (y — I'rA: )% (11)
+as for a simple substance ^). Hence to tlie lirst approximation the
+border curve satisfies the law of cor responding states.
+That the border curve, apart from the deviations existing already
+in pure substances does not altogether satisfy the law of correspon-
+ding states, has a double cause. It is not only for mixtures which
+differ little from the special mixture a^ that the experimental isother-
+mal shows a slight slope, but this is even the case for the mixture
+.Tk itself; only at the plaitpoint temperature it is perfectly horizontal
+so that already for the mixture .% the border curve must deviate
+from the law of corresponding states. If as before ^) we develop the
+equation of the experimental isothermal :
+x—XTk — ^ 5
+we find :
+1 m., 7n,. 1 in"
+p—pTk = m^, — h ^ {^v — WTkY
+-8m\, ^ ^--- '-^^ (v-VTk) {•v-.VTky + . (12)
+Q I 30
+m\^ H ■
+.i?/,(l— .Pfc)
+and hence, for ,v = x/,,
+1 WijiWioi 1 m-
+m„„--
+3 m,„ 5 ?n%„ J (T-TvY
+p=Pk+K. {T- T,)-8m%„ ^ ^Y^- ^^ i^-nt-^'i- + (13)
+771', H
+" (.tv^l-'-i-)
+only for .Vk=:0 or 1, that is to say for the pure substances, the
+third term is left out — and in the same way all the terms which
+contain v — vk.
+If now by elimination of T—Ti between the equation of state
+of the mixture x^ (equation (2), 1. c. p. 323) and the experimental
+isothermal (10), we search for the border curve for that special
+mixture, we see that the slope of the experimental isothermal only
+influences the third term — viz. with {v — v^.)" — in the development
+(11) of the border curve, so that this border curve only to a third
+approximation shows a deviation from the law of corresponding
+1) These Proc. V, Oct. 25, 1902, p. 336.

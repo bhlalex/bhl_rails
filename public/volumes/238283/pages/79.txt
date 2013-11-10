@@ -1,0 +1,41 @@
+108 PROCEEDINGS OF THE AMERICAN ACADEMY.
+In order to bring the observations upon the various rods to a common
+scale, isochroms from the readings for each rod vpere plotted. The gen-
+eral character of these curves is shown in Figure 18, in which the isochroms
+corresponding to the isotherms of Figure 17 are given. From the ordinate
+at 1000° of the isochrom for .6^/, which for convenience was taken as
+unity for the entire set, a reduction factor was obtained by means of which
+all the curves for all the carbons were brought to the same scale. A new
+set of isochroms was then plotted for each of the wave lengths .75^«, .70^,
+,65^, .GO^a, .oo^t, .50 fi, and Ao^, in the drawing of wliich all the obser-
+vations upon the rods were used. While this method did not bring the
+various sets of observations into perfect agreement, the results were
+sufficiently definite to indicate with a close degree of approximation the
+trend of these curves for temperatures up to 1400°. The result of this
+compilation for the wave lengths just mentioned is shown graphically in
+Figure 19. From these curves in turn, isotherms for the temperatures
+900°, 1000°, 1100°, 1200°, 1300°, and 1400° were plotted. These curves
+are given in Figure 20. Had the law of increasing intensities throughout
+the spectrum with rising temperature been that anticipated at the begin-
+ning of this investigation, the trend of the isochroms would necessarily
+have been such as to bring all the curves together at a common point
+corresponding to the temperature of the acetylene flame. In other words,
+if the spectrum of the acetylene flame were identical throughout with that
+of the carbon rod at the same temperature, the isotherm of the spectrum
+of the rod at that temperature would be a horizontal line. It is obvious,
+however, that if the wave lengths of the middle of the spectrum should
+continue to increase faster than the red and the violet, a condition would
+presently be attained in which the ordinate of the isotherm would be
+greater in the yellow or green than at either end of the spectrum. We
+see indications of the approach of this condition in the diagram of iso-
+chroms (Figure 19), from which it is evident that the curves for .65^ and
+.QOfi would cut each other and would cut the curve for JO/j at some tem-
+perature not far above 1400° ; whereas the isochroms for the shorter
+wave lengths would not be likely to cut the curves for the red until some
+much higher temperature had been reached.
+The curves in Figure 20 show the nature of this unexpected development
+of the spectrum in a somewhat different aspect. It will be seen from
+this figure that the growth in the extreme red so far lags behind that of the
+full red, and this in turn behind that of the orange, and this in turn
+behind that of the wave length .6^, that at 1400° the isotherm, instead of
+being convex to the base line throughout, actually becomes convex. I

@@ -1,0 +1,21 @@
+17
+We cannot say, however, that this proposition is a substitute for
+that of Nielsen, because a series of factorials sometimes converges
+for R{x) <^ o)^. Take, for instance, (he function of Weierstrass
+rp (0 = 1 + ^^ + ^^ f ^« + . . . + f* V . . .
+This function has its circle of convergence as a natural limit,
+because all parts of the circumference are equivalent, as appears
+from the substitution
+2n ih
+where k and h are arbitrary integral numbers. The order to„ in the
+point t = 1 cannot, therefore, differ from the order to along the
+ivhole circumference, and this order is equal to 1, the characteristic
+A' of the coefficients of the power-series being zero. The quantity X
+is, however, also zero and the series of factorials converges for
+i?(,i') ^ and is, for all these values of x, equal to the integral (1) ^).
+1) The convergence of the series of factorials is, in this case, absolute, in the
+strip of plane 0<Rix)<\^ owing to the large distance between the coefficients
+of (pit) which differ from zero. If, therefore, we spoke continually in the preceding
+investigations of conditional convergence for R (x) < A' + 1, we meant this in
+general.
+Proceedings Royal Acad. Amsterdam. Vol. XXII.

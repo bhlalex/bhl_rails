@@ -1,0 +1,35 @@
+DISJUNCTIVE PROPOSITIONS. 87
+qualities is wanting, the combined term will not apply.
+Hence the negative of the whole term is
+o
+Not-malleable or not-dense or not-metallic.
+In the above the conjunction or must clearly be inter-
+preted as unexclusive ; for there may readily be objects
+which are both not-malleable, and not-dense, and perhaps
+not-metallic at the same time. If in fact we were required
+to use or in a strictly exclusive manner, it would be
+requisite to specify seven distinct alternatives in order to
+describe the negative of a combination of three single
+terms. The negatives of four or five terms would consist
+of fifteen or thirty-one alternatives. This consideration
+alone is sufficient to prove that the meaning of or can-
+not be always exclusive in common language.
+Expressed symbolically, we may say that the negative
+of
+ABC
+is not- A or not-B or not-C ;
+that is, a [ b [ c.
+Reciprocally the negative of
+P I- Q I R
+is pqr.
+Every disjunctive term, then, is the negative of a
+combined term, and vice versa.
+Apply this result to the combined term AAA, and its
+negative is
+a -I- a [ a.
+Now since AAA is by the Law of Simplicity equivalent to
+A, so a -I- a -\- a must be by the Law of Unity equivalent
+to a. Each law thus necessarily presupposes the other.
+Symbolic expression of the Law of Duality.
+We may now employ our symbol of alternation to express
+in a clear and formal manner the third Fundamental Law

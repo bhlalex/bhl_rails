@@ -1,0 +1,45 @@
+( 680 )
+Mi
+Fig. 3.
+from the side of large v, we
+>^ should see a succession of ridges,
+and where we for simplicity con-
+sider the case of a single solid
+state of aggregation, we should
+see the resulting ridge rising at
+lower temperatures above the
+liquid ridge (cf. fig. 3).
+To find the coexisting phases from the region a' a" or from the
+region U with the vapour phase from the region c, one must lay
+the common tangent plane on the curved surface in c and the given
+ridge. In the case that a rarefied gas phase occurs in c, the ridges
+would be represented approximately by curved lines. This is then
+also to be permitted in the search for the corners a and b of the funda-
+mental triangle of the triple point. The general thermodynamical
+character of a solid state occurring together with the Van der Waals
+state (liquid, gas and labile intermediate states) would be thus obtained
+by representing it on a Gibbs' surface by a ridge of a somewhat
+other position and form but generally analagous to the liquid ridge.
+There is thus every reason to suppose that outside the region
+of observations and towards the large volumes the first continuations
+of the isotherms obey an analogous law as to form and change
+of form with temperature as tlie liquid isotherms, and thus by
+a slight extension really produce a ridge. This appears to be more
+probable when one notices that there is also a ridge on the Gibbs'
+surface which does not correspond to the original equation of
+VAN DER Waals where a and h are taken as unchangeable but
+which belongs to the equation into which this changes when a and
+h are taken as functions of temperature and volume. Thus when
+shifting the variable or corrected isotherms (cf. ls\ 66 § 3 end) in
+place of the original constant one a similar ridge as that Avhich
+we have considered would also be always formed, though the suc-
+cessive isotherms are no longer equal and similar, but show a small
+continuous change with temperature. In this way one cannot escape
+the conclusion that metastable states occur at the side of the solid
+s'ate between solid and gas.
+The observed part of the isotherm on the vapour side for tempe-
+ratures far below the furthest limit of the observed undercooling of
+liquid does not extend beyond the sublimation line. Still from ana-
+logy with what is known for vapour at higher temperatures, it must
+be assumed until the contrary is proved, that the Gibbs' surface extends
+inside the sublimation line to metastable and even to labile equili-

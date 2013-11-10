@@ -1,0 +1,243 @@
+191 1.] HINRICHS— ATOMIC WEIGHT OF VANADIUM.
+209
+TABLE V.
+The Departure. Determined from Eighty Years of Work.
+Line in
+Reac-
+No.
+Analyt.
+Departure, e, in
+Thousandths.
+True
+Atomic Weight
+Dia-
+Chemist.
+tion.
+of De-
+term.
+Excess,
+e.
+gram.
+Va
+CI
+Metal.
+Va.
+0.
+A
+Berzelius
+a
+I
+892
+1062
+263
+—326
+52.06
+16.26
+B
+"
+98
+3
+—304
+800
+—245
+51.80
+15-75
+B*
+"
+98
+I
+—288
+784
+—241
+.78
+.76
+C
+Prandtl
+98
+4
+—225
+594
+-183
+•59
+.82
+D
+Berzelius
+c
+I
+432
+400
+— 310
+_47o9
+- 77"
+.40
+.69
+E
+Roscoe
+a
+4
+158
+195
+47
+-58
+.20
+16.47
+F
+"
+98
+5
+— 73
+192
+— 59
+.19 15.41
+Ag:
+G
+Berzelius
+270
+I
+140
+153
+153
+83
+-125
+• 15
+16.15
+M
+Roscoe (B)
+269
+3
+189
+150
+150
+50
+— 95
+• 15
+-15
+H
+" (A)
+270
+6
+81
+87
+87
+47
+— 71
+.09
+.09
+I
+" (A, B)
+270
+8
+76
+83
+83
+45
+— 68
+.08
+.08
+K
+" (B)
+270
+2
+60
+65
+65
+36
+— 54
+.07
+.07
+L
+Prandtl, I
+270
+5
+57
+62
+62
+34
+- 51
+.06
+.06
+N
+Roscoe (M, R)
+269
+9
+37
+30
+30
+10
+— 19
+•03
+•03
+Prandtl, III
+270
+4
+14
+15
+15
+7
+— 12
+.01
+.01
+P
+II
+270
+6
+12
+13
+13
+7
+— II
+Na:
+.01
+.01
+Q
+Smith-McAdams
+3"
+5
+— 20
+13
+4
+— 2
+— 12
+Ag:
+20
+51.01
+16.00
+R
+Roscoe (A)
+269
+6
+— 39
+— 31
+— 31
+— 10
+50-97
+15-97
+T
+Berzelius
+h
+I
+—527
+—307
+—330
+7769' 77611
+.69
+15.67
+H.
+Ba.
+VI. Our Graphics.
+The values of all departures given in Table V. are represented to
+the eye in our two graphics.
+Fig. I gives all the larger departures and as many of the smaller
+ones as space would permit. The scale used is 200 thousandths of
+the unit of atomic weights to the inch ; or, what amounts to the same,
+the unit of the atomic weights is represented by five inches in length.
+Fig. 2 gives all the departures of the central region on a scale
+which is five times the one used in the construction of the first figure.
+Hence in Fig. 2 the unit is represented by a line of twenty-five inches ;
+or, in other words, it shows forty thousandths to the inch.
+The vertical of the ordinate represents the departures of vana-
+dium, while the departures of the elements combined with vanadium
+are set off on the horizontal as abscissse.
+The results for a complete analysis of any given compound are
+therefore set off on the horizontal line drawn through the point on
+the vertical determined by the departure for vanadium.

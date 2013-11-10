@@ -1,0 +1,43 @@
+554
+refractory stage is shortened and consequently the subsequent sinus-
+impulse can elicit a ventricular systole. Owing to the short duration
+of the preceding ventricular pause this systole will also be short and
+accordingly will have only a short refractory stage. Therefore, here
+also the next sinusimpulse is followed by a systole of the ventricle.
+Thus the ventricular halved-rhythm is changed into the normal
+rhythm of double velocity. The extra stimulus during the halved-
+rhythm may, however, be administered towards the end of the pause
+instead of during the diastole. Then the next sinusimpulse reaches
+the ventricle during the diastole of the extrasystole and elicits a
+small ventricular systole. Whereas in the first case the normal ven-
+tricular rhythm was initiated by a small exlrasy stole, there now
+appears the normal rhythm under the influence of a sinusimpulse, which
+reaches the ventricle in the diastole of an extrasystole and, therefore,
+yields a small systole. In both cases it was a small ventricular systole
+with a short refractory stage, that made the normal rhythm possible.
+In the second place we can change the halved rhythm into the
+normal rhythm of twice its velocity by cooling the sinus venosus.
+Then the tempo of the sinusimpulse is slackened by which the
+sinusperiods are lengthened. We will elucidate some of the above
+artificial changes of rhythm by some results obtained in experiments
+with the bled frog's heart. ')
+Let us first look at Fig. 5 of the previous publication. 2 ) The
+stimulating electrode is applied in the auriculoventricular groove.
+At the downward deflection of the signal the ventricle receives a
+closing inductionshock, which engenders an extrasystole. At the end
+of the diastole of the postcompensatory systole which has been
+enlarged, an opening inductionshock is administered, which results
+in an extrapause of the ventricle. 3 )
+After the extrapause the first ventricular systole has increased
+still more in magnitude and in breadth, so that now the next sinus-
+impulse rebounds on the refractory stage. The subsequent prolonged
+ventricular pause again causes an enlarged ventricular systole with
+a prolonged refractory stage.
+Again the next sinusimpulse does not result in a ventricular
+systole. Thus the ventricle, pulsating in the halved rhythm through
+the prolonged refractory stage is, so to speak, caught in its own
+l ) In all the figures of this publication the upper row represents the suspension-
+curves of the ventricle, the lower row the suspension curves of the auricles.
+s ) S. de Boer. On the artificial extrapause of the ventricle in the frog's heart.
+These Proceedings p. 542.
+J ) For the causes of this extrapause I refer to the previous publication.

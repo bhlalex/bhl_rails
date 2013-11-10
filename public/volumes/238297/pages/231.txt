@@ -1,0 +1,37 @@
+COMBINATIONS AND PERMUTATIONS. 205
+number of ways of choosing 1326x25x24. But the fact
+that one choice succeeded another has caused us to obtain
+the same combinations of letters in different orders ; we
+should get, for instance, a, p, r at one time, and p, r, a at
+another, and every three distinct letters will appear six
+times over, because three things can be arranged in six
+permutations. Thus the true number of combinations
+.-,, i 24 x 23 x 22
+will be - , or 2024.
+1x2x3
+It is apparent that we need the doctrine of permuta-
+tions in order that we may in many questions counteract
+the exaggerating effect of successive selection. If out of
+a senate of 30 persons we have to choose a committee of 5,
+we may choose any of 30 first, any of 29 next, and so on,
+in fact there will be 30 x 29 x28 x 27 x 26 selections;
+but as the actual character of the members of the committee
+will not be affected by the accidental order of their selec-
+tion, we divide by 1x2x3x4x5, and the possible num-
+ber of different committees will be 142,506. Similarly
+if we want to calculate the number of ways in which the
+eight major planets may come into conjunction, it is evi-
+dent that they may meet either two at a time or three at
+a time, or four or more at a time, and as nothing is said as to
+the relative order or place in the conjunction, we require
+the number of combinations. Now a selection of 2 out of 8
+Q . Q . >
+is possible in - or 28 ways; of 3 out of 8 in
+or 56 ways ; of 4 out of 8 in ^-^ or 70 ways; and it
+may be similarly shown that for 5, 6, 7, and 8 planets,
+meeting at one time, the number of ways is 56, 28, 8
+and i. Thus we have solved the whole question of the
+variety of conjunctions of eight planets; .and adding all the
+numbers together, we find that 247 is the utmost possible
+number of modes of meeting.
+In general a]gebraic language, we may say that a group

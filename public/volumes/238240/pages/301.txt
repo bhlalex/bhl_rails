@@ -1,0 +1,38 @@
+356 RICHARDSON— DYNAMICAL EFFECTS OF [April 22,
+effective specific inductive capacity of the medium. Xow the spe-
+cific inductive capacity of an insulating medium is equal to unity
+plus the product of the numl^cr of electrons per unit volume by
+their average displacement in unit electric field. When the material
+is subjected to constant electric forces the displacements of the elec-
+trons are always proportional to the forces and the specific inductive
+capacity is therefore a constant quantity. When the force is an
+oscillating one the matter is complicated by the fact that the elec-
+trons try, as it were, to strike a balance between their own natural
+period of oscillation and that of the force acting on them. They
+end by oscillating with the same frequency as the force which
+excites them but the distance thev travel from their e(iuilibrium
+position depends a good deal on their natural periods as well. Thus
+the specific inductive capacity for oscillating forces will not be a
+constant quantity b'ut will depend to some extent on the frequency
+of oscillation of the force. By the effective specific inductive ca-
+pacity we mean the specific inductive capacity for electric forces
+which oscillate with the frequency of the light under consideration.
+It is evident from what has been said that the refractive index
+of an insulating substance depends upon the frequency or, in other
+words, upon the color of the light. W^e see at once why a beam of
+white light is split up by a prism into the constituent spectral colors.
+For each ray is deviated by the prism according to the value of its
+refractive index.
+Perhaps the most interesting question in this part of our subject
+is that of the behavior of a substance towards light whose frequency
+is close to that of the natural periods of the substance. In that case
+the electrons are set into violent motion owing to the occurrence of
+what are sometimes called sympathetic vibrations. The nature of
+this phenomenon may best be illustrated by considering a simple
+mechanical analogy. Imagine a spiral wire with a weight at one
+end to be hung from a shaking support. If the weight is pulled
+down and let go it will oscillate backwards and forwards with a
+definite natural freffucncy which depends on the stift'ness of the
+spring and the heaviness of the weight. If the shakiness of the
+support arises from tremors in the building, to the walls of which we
+will suppose it bolted, as a rule the frequency of its vibrations will

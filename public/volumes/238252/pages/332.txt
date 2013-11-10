@@ -1,0 +1,46 @@
+328 POPULAR SCIENCE MONTHLY.
+the northwest frontier of Persia under Nasr-ed-Din as chief astronomer.
+Here the Ilkhanic tables were prepared. Ulugh-Beg, prince of
+Samarkand, a grandson of Tamerlane, founded a great observatory in
+1420, on the hill of Kolik, where a hundred observers and calculators
+were employed. Albategnius, another Arab prince, possessed ad-
+mirable instruments, as we have seen. Astronomy was in favor with
+princes and caliphs, and flourished accordingly. We have seen that
+some of the instruments of Albategnius read to one minute of arc
+(1) and were very likely divided to 2. The observatory of Nisapur,
+in Khorassan, had in A. D. 851 a huge armilla reading to 1. In
+992 Al Chogandi set up at Bagdad a sextant of sixty feet radius. In
+1260 the observatory of Meraga possessed, among many other in-
+struments, a mural quadrant of twelve feet radius. Ulugh-Beg had
+a quadrant (perhaps a species of sun-dial) that had a radius of 180
+feet. Colossal instruments of the sort permitted accurate readings
+of angles because the space corresponding to an arc of one minute
+was correspondingly large. Until the invention of the telescope
+accuracy was only to be attained by the use of large circles, and the
+Arabian school anticipated Tycho Brahe in the use of such instru-
+ments by several centuries. Some of the Arabian observers employed
+free-swinging pendulums to measure short intervals of time; and the
+science of gnomonics — the theory of sun-dialing — was extensively de-
+veloped by them.
+This is the place to describe the system by which Ptolemy explained
+the world. It will be sufficient to explain the two main problems
+that any system of astronomy was bound to consider, and to leave
+details to one side. These two chief problems were: (1) How to
+account for the rising and setting of the sun, moon, stars and planets
+— how to explain the general diurnal motion of all celestial bodies;
+(2) how to explain the motions of the planets among the stars. These
+motions are, in general, towards the east — but are varied by occasional
+westward motions, and interrupted by periods of no motion at: the
+stations. As we have seen, Ptolemy declared the earth to be a
+sphere fixed in the center of the heavens. The sphere of the fixed
+stars was at an immense distance, so that the earth was a mere point
+in respect of the distance of the stars and the stars revolved about
+the earth. All the observed phenomena of the rising and setting of
+the stars are satisfactorily explained in this way. Ptolemy perfectly
+understood that they could also be explained by the hypothesis of a
+rotating earth, but he concluded that it was easier to attribute motion
+to bodies like the stars which seem to be of the nature of fire, than
+to the solid earth. The sun, moon and planets share in the diurnal
+motion of the stars. It will be seen that no mechanical conception
+of the diurnal motion is attainable in this way without the assump-
+tion of crystal spheres. Ptolemy sought an analytic device by which

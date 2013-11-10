@@ -1,0 +1,46 @@
+PHYSICS 329
+electric charge. These processions are always double, the atomic
+carriers of the positive charge moving in one direction, those carrying
+the negative charge in the other. The same quantity of positive elec-
+tricity is carried by one procession, as negative electricity by the other.
+We have not only measured the charge carried by a single atom, but the
+average speed with which the atoms traverse the solution. It has been
+found, further, that atoms of the different chemical elements having the
+same mating value, technically called valence, always carry the same
+unvarying charge, whether the atoms themselves be light or heavy.
+These charged atoms, in some cases atom groups, are spoken of as ions.
+Such electrolytic experiments as these have led to two surprising
+results. First : no electric charge smaller than that carried by an atom
+of the hydrogen valence has yet been found. Second : all other small
+charges are exact multiples of this value.
+We have long been familiar with the idea of atoms of matter, but
+here for the first time we come across something which looks very like
+an atom, or natural unit, of electricity. The justification for calling it
+an atom of electricity is like the argument for the atom of matter.
+Moreover, we know some eighty different kinds of material atoms, but
+only two kinds of electric atoms, a positive and a negative. Thus the
+electric atom of the two has the greater claim to simplicity. When we
+speak of an electric atom disregarding for the time the matter asso-
+ciated with it, we call it, not an ion, but an electron. Evidence will
+later be given suggesting ways by which we may wrench a negative
+electron wholly free from matter, and experiment with it in its detached
+and pure state.
+We are now in a position to consider the role electric forces play in
+holding atoms together within a compound molecule, for, from the
+foregoing, it appears when a molecule is broken in two, the fragments
+are always found equally and oppositely charged, and they doubtless
+held these charges within the molecule. But the distance separating
+the two parts was then so small that all the lines of force from the
+positive charge ended at once on the equal negative charge, and no
+force lines strayed beyond the molecular boundary. Hence no evidence
+of an electrical charge could be found in the ether outside the molecule.
+It seems probable, therefore, that the electric force between the atoms
+of matter in the molecule supplies the chemist with the cement he has
+long called chemical affinity.
+The ratio of the electric charge to the mass of the particle on which
+it rides (in our processions) has come to be one of the most important
+quantities in physics. As we know both the quantity of matter and
+quantity of electricity transferred by a given electric current, we can
+express this ratio for each chemical element. Hydrogen gives the
+largest ratio found in solutions.
+Systematic study of the conduction of electricity in gases is of more

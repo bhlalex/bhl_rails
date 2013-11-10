@@ -1,0 +1,26 @@
+328 KENNELLY-NABESHIMA— ESTABLISHING A
+rent will be splashless ; i.e., they will be sinusoidal and in cophase
+from the very start. In such a case, because there can be no
+reflection from the distant end, the initial outgoing current will be
+the same, both as to magnitude and phase, as the final outgoing
+Fig. I. Diagram of A. C. Generator Connected to Line.
+current ; or there will be no transient wave. In this particular and
+simple case, if 2q is the reactanceless surge impedance of the line, in
+ohms, E^ the maximum cyclic e.m.f. in vector volts at standard
+phase, the initial and final outgoing current will be
+/o = — , max. eye. amperes Z. (i)
+If the frequency of the impressed e.m.f. is / cycles per second, and
+the corresponding angular velocity w = 27r/ radians per second, then,
+at time t seconds after the switch closure, the instantaneous voltage
+and current at A will be
+e = E^ sin (at instantaneous volts, (2)
+E
+i= — sin wt instantaneous amperes. (3)
+^0
+Because of the simple conditions assumed in this case, including
+infinite line length, the current defined by (3) is instantly de-
+veloped without the intervention of any transient. If the line has
+"finite length, but is grounded at B through an impedance equal to
+the surge impedance Zq, it will give rise to no reflections from B, and
+will behave, in this respect, like a line of infinite length. Such a
+case is represented in Fig. 12 (film 35).

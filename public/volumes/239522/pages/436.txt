@@ -1,0 +1,42 @@
+EFFECTS OF PRESSURE ON NITRATES. 023
+The diagram of KNO3 next demands attention. The phase I or
+8 is the same as the phase 8 of RbNOs. It is most tempting- to call
+the new high pressure phase III the same as 7 and IV the same as 6,
+for this would mean that at high pressures, by a simple displacement
+of the origin of pressure, the diagram of KNO3 takes its place with
+those of higher molecular weight, RbNOs, CsNOs, TINO3. Further-
+more, a shift of the pressure origin in this direction, corresponding to a
+decrease in molecular weight, seems a not unnatural result of the
+corresponding decrease of internal pressure. It is unfortunate that a
+comparison of numerical results is not favorable to this identification.
+The only data which we can use are for the line III-IV; we are to
+inquire whether this can correspond to the line 7-6 of RbNOs, CsNOs,
+and TINO3. The slope of the line III-IV is 0. 3, while that of 7-6
+varies from 0.008 to 0.009 and the change of volume on the line III-
+IV is 5.5% against 1.6, 1.3, and 1.3% respectively for the other three
+salts. Another bit of presumptive evidence against the identification
+of III with 7 is that the unstable form of KNO3 found below the transi-
+tion I-II at atmospheric pressure is rhombohedric. It is plausible,
+but not necessary, to suppose that this unstable form is the same as
+III. But the form of 7 is cubic. The evidence is not conclusive
+either way, however, and it would be worth while to make special
+effort to find the system of KNO3 III; the triple point I-II-III is at
+such a low pressure that it would not be out of the question to try for
+a microscopic examination in a heavy glass capillary.
+In the case of NH4NO3 the probability is fairly good that the new
+phase VI stable only at high pressures is the same as 6 of Rb, C's, and
+Tl. This is indicated not only by its position with respect to 7
+(NH4NO3, I) but also by the numerical values. The average slope of
+7-VI is 0.0075 and the change of volume 1 .4% ; both of these are very
+close to the corresponding values for the Rb, Cs, and Tl salts. The
+probability is further much increased by the mixed crystal diagrams
+of NH4NO3 with RbNOs and CsNOs. Mixed crystals of RbNOg or
+CsNOs, 6, are stable over a very wide range of concentration, which
+comes closest to pure NH4NO3 at the same temperature as that
+indicated by an easy extrapolation of the line I-VI for NH4NOS to
+atmospheric pressure. The same argument cannot be applied to the
+mixed crystal diagram of NH4NOS with TINO3 because of the anomo-
+lous behavior of NH4NO3, II.
+To make the correspondence of NH4NO3 with the heavier nitrates
+complete, the phase IV of NH4NO3 should be identical with III of
+TINO3. But both Groth and Wallerant treat these two phases as

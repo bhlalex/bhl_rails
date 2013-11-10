@@ -1,0 +1,99 @@
+484
+POPULAR SCIENCE MONTHLY.
+Inches.
+Measared.
+Computed.
+S3
+5
+7
+34
+31
+29
+35
+141
+110
+36
+322
+323
+37
+732
+732
+38
+1,305
+1,333
+39
+1,867
+1,838
+40
+1,882
+1,987
+41
+1,628
+1,675
+42
+1,148
+1,096
+43
+645
+560
+44
+160
+221
+45
+87
+69
+46
+88
+16
+47
+7
+3
+48
+2
+1
+For example, the chest measurements of 5,738 soldiers gave the
+following results :
+If the number of events had
+heen five hundred thousand or
+five million instead of five thou-
+sand, the agreement between the
+computed and observed frequency
+of each degree of departure from
+the mean would have been very
+much closer. When the number
+of cases is unlimited, the agree-
+ment is perfect.
+Galton gives the following il-
+lustration of the significance of a
+type:
+Suppose a large island inhab-
+ited by a single race, who inter-
+marry freely, and who have lived for many generations under
+constant conditions, then the average height of the adult male of
+that population will undoubtedly be the same year after year.
+Also still arguing from the experience of modern statistics,
+which are found to give constant results in far less carefully
+guarded examples we should undoubtedly find year after year
+the same proportion maintained between the number of men of
+difi'erent heights. I mean if the average stature was found to be
+sixty-six inches, and if it was also found in any one year that one
+hundred per million exceeded seventy-eight inches, the same pro-
+portion of one hundred per million would be closely maintained
+in all other years.
+An equal constancy of proportion would be maintained be-
+tween any other limits of height we please to specify, as between
+seventy-one and seventy-two inches, between seventy-two and
+seventy-three, and so on. Now, at this point the law of deviation
+from an average steps in. It shows that the number per million,
+whose heights range between seventy-one and seventy-two inches,
+or between any other limits we please to name, could be predicted
+from the previous datum of the average, and of any other one
+fact, such as that of one hundred per million exceeding seventy-
+eight inches.
+Suppose a million of the men to stand in turns with their
+backs against a vertical board of sufiicient height, and their
+heights to be dotted off upon it. The line of average height is
+that which divides the dots into two equal parts, and stands, in
+the case we have assumed, at the height of sixty-six inches. The
+dots will be found to be ranged so symmetrically on either side of
+the line of average that the lower half of the board will be almost

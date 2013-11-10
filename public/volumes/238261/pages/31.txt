@@ -1,0 +1,37 @@
+22 PROCEEDINGS OP THE AMERICAN ACADEMY.
+Ai s' = A^s' + B^ c, Jc^ Ai c' — kz {A^ c' + B^ s'),
+A^ s" + B., c" = As s" + Bs c", yC-2 A^c" + k^B^ s" ^ k^ A^ c" + t, B^ s",
+AsS + BsC = il .
+The determinant of the coefficients of the s's and c's may be reduced
+to the form
+c's'iki-k^) kic'^-k^s'^
+c s" s c" — c s" c c"
+k^ c c" ks {s s" — c c") kz c s"
+(30)
+and
+A, = (31)
+— ko Ag c n
+c's'{ICi—k2) \ k-2CS"{sc"—CS")+k^Cc"(cc"S!i") j ■j-(kiC"^k<^'^) { Cs"/g(.ss"-Cf ")+^2Cc"(s"c-Ac") I
+If in the special case where ^i and k^ are equal, we write ki = /x k^ = k.^ ,
+we get
+A, = (32)
+-Mfl
+c's'(fi. — l)\s"(sc" — cs") + fxc" {cc" — ss")\ + {fjLc''^ — s"^) \fj.s"(ss"—cc")+c"{s"c — sc")\
+with corresponding values for the other coefficients.
+We shall need at the outset only two or three applications of the fore-
+going theory. We may ask first what must be the relative dimensions of a
+homogeneous regular right prism, one end of which is kept at the uniform
+temperature ^o ^I'J the other end at the uniform temperature 6„ while
+its other faces are kept at some uniform temperature 6, between 6q and 61,
+in order that the tem{)eratures on the axis of the prism in the final state
+shall be sensibly the same whatever value has. If, for instance, the
+difference between 60 and 61 is 100° C, what must be the ratio of the
+radius a of the circumference inscribed in a right section of the prism to
+the height I of the prism, in order that the temperature of every point on
+the axis may be the same within less than 0°.01 C, whether 6 is ecjual
+to 60 or to 61 ? Since we need merely to find a lower limit for a -^ /,
+we shall do well to substitute for the prism the inscribed right cylinder
+of revolution, and then apply the solution of Problem 4 given above.
+We are to find a function of r and z, harmonic for values of r between
+and a and values of z between and I, which (1) has the uniform
+value F (Oo) when z — 0, whatever ?• is ; (2) has the uniform value F (0,)

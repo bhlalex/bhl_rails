@@ -1,0 +1,38 @@
+191 1.] BOLTW'OOD— RADIOACTIVITY. 337
+supposed to consist of electromagnetic pulses in the ether. A rather
+ingenious corpuscular theory as to the nature of these rays has been
+proposed by Bragg, but has not met with general acceptance owing
+to the fact that it appears to be not altogether in accord with the
+experimental evidence.
+The origin of gamma rays seems to be very intimately connected
+with the emission of beta particles, for the two types of radiation
+have been observed to appear simultaneously and bear a certain defi-
+nite relation to one another. A\'hen the expelled beta particle has a
+high velocity the gamma ray is of a very penetrating character, while
+if the velocity of the beta particle is low the gamma ray emitted has
+but little power of penetrating ordinary matter.
+The disintegration of the radio-elements takes place according
+to a verv simple law and the number of atoms of any radio-element
+which undergo transformation in the unit time is a definite propor-
+tion of the total number of atoms initially present. The number
+of atoms A' remaining unchanged after any time t is given by
+A'^Xoc'^*, where No is the initial number of atoms and A is the
+fraction undergoing transformation in the unit of time. This frac-
+tion has a fixed and invariable value for each separate radio-element
+and for this reason is known as the constant of cluing c for the ele-
+ment in question. It is a relatively simple matter to determine the
+period of time required under these conditions for exactly half of
+any given quantity of a radio-element to be converted into other
+substances and this time is known as tlic half zxiluc period. The
+rate of change and the corresponding half value period is a definite
+characteristic for each of the radio-elements but is very different for
+the dift'erent radioactive substances. The half-value period of ura-
+nium, for example, is over five billion years while the half-value
+period of certain other radio-elements is only a few seconds.
+Although the disintegration of some of the radio-elements has
+been examined over wide extremes of temperature and pressure, and
+under various other special conditions which would greatly influence
+the course of ordinary chemical reactions, it has not been found pos-
+sible to definitely alter or effect the rate at which transformation
+takes place to the slightest measurable degree. It is therefore evident
+PROC. AMER. PHTL. SOC., L. 200 V, PRINTED JULY 3I, I9II.

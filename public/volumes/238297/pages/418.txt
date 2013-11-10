@@ -1,0 +1,36 @@
+392 THE PRINCIPLES OF SCIENCE.
+which are called errors in one case, may really be most
+important and interesting phenomena in another inves-
+tigation. When we speak of eliminating error we really
+mean disentangling the complicated phenomena of nature.
+The physicist rightly wishes to treat one thing at a time,
+but as this object can seldom be rigorously carried into
+practice, he has to seek some mode of counteracting the
+tendency to error.
+The general principle of the subject is that a single
+observation can render known only a single quantity.
+Hence if several different quantitative effects are known
+to enter into any investigation, we must have at least
+as many distinct results of observation as there are
+quantities to be determined. Every complete experiment
+will therefore consist in general of several operations.
+Guided if possible by previous knowledge of the causes
+in action, we must arrange these determinations, so that
+by a simple mathematical process we may distinguish the
+separate quantities. There appear to be five principal
+methods in which we may accomplish this object ; these
+methods are specified below and illustrated in the suc-
+ceeding sections.
+(1) The Method of Avoidance. The physicist may seek
+for some special mode of experiment or opportunity of
+observation, in which the error is non-existent or inap-
+preciable.
+(2) The Differential Method. He may find opportunities
+of observation when all interfering phenomena remain
+constant, and only the subject of observation is at one time
+present and another time absent ; the difference between
+two exact observations then gives its amount.
+(3) The Method of Correction. He may endeavour to
+estimate the amount of the interfering force by the best
+available mode, and then make a corresponding correction
+in the results of observation.

@@ -1,0 +1,101 @@
+WHITEHEAD— HIGH VOLTAGE CORONA IN AIR.
+249
+No explanation has been offered for the foregoing law, nor does
+an obvious explanatioin suggest itself. It is not difficult, however,
+to see that the loss should increase sharply above the critical voltage.
+Corona first begins when the maximum of the alternating voltage
+reaches a definite value, which, in the case of a smooth round wire,
+is very sharply marked. Above this value corona starts on each
+half wave at this same definite value, whatever the maximum value
+of the voltage wave may be, and on the descending half wave
+corona ceases at about the same value or very little below it.
+Corona is thus periodic and with increasing voltage occupies a
+larger and larger area at the top of successive half waves of alter-
+nating voltage. (See Fig. 3.) In the neighborhood of the critical
+/
+k
+i X
+/#
+y/A
+k
+i
+^
+i^
+VA
+y/,
+A
+\
+~*"
+r
+-^
+-^
+'^
+%
+"■
+"
+"
+i \
+^
+/
+/
+)
+f
+<ij
+/
+\
+/
+\
+'
+\
+' ■
+\
+\
+1
+\
+/
+1
+i
+y
+/
+c
+OF
+.0
+NA
+or
+J
+\
+/
+\
+-A 99;
+TTi
+7k
+f
+^L
+TE
+R
+\K
+■|h
+llG
+\Jc
+LT
+AG
+r
+M
+\e\
+?////
+%
+^J
+\
+i
+'
+\^
+V
+Fig. 3.
+corona forming value, when corona is limited to a short interval at
+the crest of the wave, the loss will evidently be proportional to the
+frequency since the number of breakdowns per second increase with
+the frequency. However, with increasing voltage the aggregate
+time during which the corona actually exists becomes more and
+more nearly equal for all frequencies. As to the influence of
+voltage, with increasing voltage the volume of corona increases,
+and since this means increased ionization and conductivity of the

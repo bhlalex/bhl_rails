@@ -1,0 +1,36 @@
+DEDUCTIVE REASONING. 73
+for in (2) we can substitute its equivalent in (3). We
+shall obtain as an intermediate result,
+A = ABC,
+and from this the complete conclusion
+A = ABCD. (4)
+The full interpretation is that Iron is iron, metal, good
+conductor of electricity, useful for telegraphic purposes,
+which is abridged in common language by the ellipsis of
+the circumstances which are not of immediate importance.
+Instead of all the propositions being of one type, as in
+the last example, we may have a series of premises of
+various character ; for instance
+Common salt is sodium chloride (i)
+Sodium chloride crystallizes in a cubical form (2)
+What crystallizes in a cubical form does not
+possess the power of double refraction ; (3)
+it will follow that
+Common salt does not possess the power of
+double refraction. (4)
+Taking our letter-terms thus
+A = Common salt,
+B = Sodium chloride,
+C = Crystallizing in a cubical form,
+D = Possessing the power of double refraction,
+we may state the premises in the form
+A = B, (i)
+B = BO, (2)
+C = Cd. (3)
+Substituting by (2) in (i) and by (3) in (2) we obtain
+A = BCd, (4)
+which is a more precise version of the common conclusion.
+We often meet with a series of propositions describing
+the qualities or circumstances of one same thing, and we
+may if we like combine them all into one proposition
+by the process of substitution. This case is, in fact,

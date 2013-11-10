@@ -1,0 +1,212 @@
+130
+MILLER— PARALLAXES OF FIFTY STARS.
+Mag, 6.26-6.37. /*^
+Spectrum F.
+No. 37. B.D. 4- 50°.2847-8. 16 Cygni. (19'^ sg"".! ; + 50° 18'.)
+' — o^oI62 ; — o".i52.
+— 0^0138 ; — o",i56.
+The measures were in longitude. This is a star of the 61 Cyngi
+type. Other parallaxes published are :
+Slocum and Mitchell, Preceding, -1- o".043 ±: o".oo8.
+Following, -f o".028 dr o".009.
+Adams, Preceding, -|- o".o63.
+Following, + o".040.
+Jost, +o".i5 ±0".O3i.
+The same comparison field was used for both components.
+Table and Solutions for the Preceding Component of 16 Cygni.
+H
+Dur
+Time in
+Parallax
+Date.
+Angle.
+Obs.
+100 Days,
+Factor,
+Solution,
+Wt.,
+Res.,
+Meas-
+h.
+m.
+T.
+P.
+m.
+p.
+V. ured by
+Sept.
+19,
+191S
+... +0
+6
+M.
+—4.09
+—0.591
+—0.094
+I.O
++0.008
+M.
+June
+5,
+1916
+.. +0
+16
+S.
+—1.49
++0.917
+•093
+•7
+— 0.004
+M.
+June
+13,
+1916
+.. —0
+9
+P.
+1. 41
+.851
+.079
+•9
+.019
+M.
+June
+30,
+1916
+44
+P.
+1.24
+.663
+.III
+.8
++0.010
+M.
+July
+7,
+1916
+59
+s.
+1. 17
+•569
+.103
+1.0
+.001
+M.
+Sept.
+17,
+1916
+.. +0
+II
+M.
+—0.45
+—0.573
+.128
+.8
++0.010
+M.
+Sept.
+19,
+1916
+7
+M.
+0.43
+.600
+.119
+.8
+.001
+M.
+Sept.
+25,
+1916
+. . —
+42
+P.
+0.37
+.678
+.103
+.8
+— 0.016
+M.
+Sept.
+28,
+1916
+.. +0
+12
+M.
+0.34
+•715
+.116
+•7
+.004
+M.
+Oct.
+6,
+1916
+. . —
+15
+P.
+0.26
+.803
+.123
+.9
++0.002
+M.
+June
+17,
+1917
+. . —
+6
+P.
++2.28
++0.815
+.138
+.6
++0.008
+M.
+June
+17,
+1917
+.. +0
+8
+P.
+2.28
+.815
+.138
+•9
+.008
+M.
+Oct.
+2
+1917
+.. +0
+8
+M.
++3-35
+—0.757
+.150
+1.0
+—0.003
+M.
+Oct.
+3,
+1917
+. . —0
+10
+P.
+3.36
+.768
+•152
+.8
+.001
+M.
+Normal Equations:
++ 11 .7000 C 0.5780 IX 0.9367 TT :
++ 51.2834 —1.7842 :
++ 6.1629 :
+Solution: c=^ — o".ii'j.
+iu, = — o".04i ± o".oo4.
+TT ^ + o",o37 ± o".oi2.
+p. e. unit weight, d= o".028.
+^— I-3725-
+: 0.3968.
+: + 0.1747.

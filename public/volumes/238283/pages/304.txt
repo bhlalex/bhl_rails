@@ -1,0 +1,69 @@
+RICHARDS AND HEIMROD. — THE IMPROVED VOLTAMETER. 439
+made exactly according to Lord Rayleigh's directions. These are given
+below, together with the two determinations given in the last paper.
+TABLE XIV.
+Comparison of Porous Cup with Original Ratleigh Voltameteb.
+No. of
+Experiment.
+Weiffht of
+Silv.-r in
+Standard.
+Weight of
+Silver in
+Lord Rayleigh's
+B'orm.
+Difference.
+Percentage
+Difference.
+grams.
+grams.
+milligrams.
+per cent.
+A. 40
+3.0'.)G29
+3.09918
+2.89
++0.093
+A. 41
+2.53256
+2.53439
+1.83
++0.072
+71
+2.16129
+2.16538
+1.09
++0.050
+72
+2.09580
+2.09653
+0.73
++0.035
+73
+1.65487
+1.65549
+0.62
++0.038
+Mean
+. . . .
+. +0.058
+Tliis is 0.017 per cent more than the average of the preceding series.
+Probably a mean of the average of the two series, or +0.050 per cent,
+represents as nearly as possible the correction to be applied to Lord
+Rayleigh's voltameter. This value is not only an average of averages,
+involving twenty-three determinations, but is also very nearly the mean
+between the two extreme results 0.012 and 0.093. It may probably be
+relied upon to within 0.01 per cent of the total weight of the silver.
+It finds support in some results given in Kahle's * paper. He made a
+comparison between an ordinary voltameter and one in which the anode
+solution was constantly siphoned off and thus prevented, more or less
+perfectly, from reaching the kathode. The solution in both voltameters
+was strongly acid, but equally so. The siphon voltameter de[)osited, in
+good agreement with the above results, O.Oo per cent less silver than
+the ordinary voltameter.
+The fact, however, that the extremes vary from .012 per cent to .093
+per cent indicates that unless great care is taken in the way in which
+the anode is wrapped, in the strength of the current and in the size of
+the anode, the depositions in the ordinary voltameter according to Lord
+Rayleigh are untrustworthy.
+* Wied. Ann. N. F., 67, 30 (1899).

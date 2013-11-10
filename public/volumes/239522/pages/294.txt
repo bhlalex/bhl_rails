@@ -1,0 +1,43 @@
+TELEPHONE DIAPHRAGMS. 423
+these coils increases when the frequency is increased, although not in
+direct proportion. Thus, Figure 1 represents the locus of the imped-
+ance of a particular receiver when measured by Rayleigh bridge, with
+constant sinusoidal alternating-current strength, but with varying
+frequency. Apparent resistances are measured parallel to the axis
+QR, and apparent reactances parallel to the axis QX. As the fre-
+quency of the exciting alternating current is increased from 400 ^
+to 2500 c^J , the locus of the impedance is the curve A B C D. Thus
+at 804 f^^ , the impedance is found to be OB, and at 1190 c^^ , it is in-
+creased to OC, where O is the origin (not shown). The increase
+in apparent resistance is due to increasing power loss at rising fre-
+quencies. The increase in reactance j X = ; Leo ohms, is to be attrib-
+uted to increase in the angular velocity co = 2 tt/ radians per second;
+where / is the frequency. The apparent inductance L henrys actually
+diminishes as the frequency rises; so that the increase in the re-
+actance OX is less rapid than the increase in frequency. The imped-
+ance measured in this manner is called the "damped impedance."
+If now the measurement of the impedance is repeated over the same
+range of frequency' but with the diaphragm released, so as to be able
+to react electromagnetically on the winding, the locus is found to be a
+looped curve, such as is represented in Fig. 2; so that one and the
+same vector impedance OP is found at two distinctly different fre-
+quencies. Thus at 702 ~, the "free impedance" has a magnitude
+of 153 +i 161.5 ohms, and at 1050 ~ , 148 + j 144 ohms. This
+peculiar dual valued behavior of the free impedance is due to the
+motion of the diaphragm.
+If at each of a series of successive rising frequencies, we subtract
+the vector damped impedance from the vector free impedance, as
+indicated in Figure 3, it is found that the successive vector differences,
+due to the motion of the diaphragm, and, therefore, called " motional
+impedances," lie approximately on a certain circular locus as shown in
+Figure 4. This circular locus is called the motional-impedance circle
+for the particular instrument.
+The same facts may also be presented in a scalar or non-vector
+diagram. Figure 5. Here the abscissas represent impressed frequency.
+The ordinates represent, to the left-hand scale, the magnitude or
+"vector modulus" of the telephone-receiver impedance. To the
+right-hand scale, they represent the phase angle or "argument."
+Heavy curves represent measurements of free impedance, and broken
+curves corresponding measurements of damped impedance. The
+measurements made on the particular receiver C, referred to in Figures,
+1 to 5, are recorded in Table I.

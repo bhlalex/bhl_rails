@@ -1,0 +1,35 @@
+Physics. — "The osmotic pressure, regarded as a capillary pheno-
+menon". By H. Hulshof. (Communicated by Prof. H. A.Lorentz).
+(Communicated at the meeting of March 27, 1920).
+In this paper an attempt will be made to give an explanation of the
+osmotic pressure by regarding this pressure as the consequence of
+capillary actions. Though some difficulties remain, in my opinion
+a trial in this direction might lie made. In a former communication
+(these Proceedings January 1900) the surface tension has been defined.
+To that end we supposed at a point of the passage layer fluid-
+vapour the influence of the attraction in different directions to have
+different values. Now we shall base our considerations on the same
+suppositions. For a plane m the direction of the passage layer p x is
+the whole force per unit of surface (pressure) exerted by the matter
+on one side of' the plane on that on the other side. It consists of
+the attraction q x and what may be called the thermic pressure ,
+so that
+Px = — <7i + #■
+For a surface element perpendicular to the passage layer we can
+also speak of the total force exerted by the part of the system on
+one side on the part on the other side. Let us call this p 3 and let
+us write q t for the attraction between the two parts and # for the
+thermic pressure. Then we have:
+p* = — q> + #•
+Instead of the attraction q x and q 2 we may also consider the
+molecular pressure M/ and M 2 ' ; q x = M x ' and q t = MJ ; in homo-
+geneous phases q = M' = ao* — — . The thermic pressure =
+v 1
+MET .,,
+, will be supposed to have in all directions a value equal to
+that in a homogeneous phase of the density at the point in question.
+p 1 -f m x ' = Pi -t- m; —p f M' = &.
+The index 1 refers to the direction perpendicular to the passage
+layer, the index 2 to a direction in this layer; as to gravity we
+assume that it only causes the layers to be horizontal; the height
+h is measured upward perpendicular to the passage layer. Difleren-

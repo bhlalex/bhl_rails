@@ -1,0 +1,47 @@
+364 PHYTOLOGIA May 1998 volume 84(5): 363-367
+Prop. HH (Greuter & Hawksworth 1999), if approved at the next Botanical Congress,
+will alter automatically the orthography of Saxe-Gothaea to Saxegothaea. We are
+using Saxegothaeales, Saxegothaeaceae, and Saxegothaea in anticipation of adoption
+of one of these proposals following Rec. 14A of the International Code of Botanical
+Nomenclature (Greuter et al. 1994).
+In adopting Gaussen's (1979: p. 6) concept that the conifers (his "Coniferae")
+consist of three distinct "megaphyla" or "ensembles" (his "Pinodines," 'Taxines," and
+"Podocarpines"), we establish the two new classes, Taxopsida and Podocarpopsida,
+in accordance with the rules and ranks estabUshed by the International Code of
+Botanical Nomenclature (Greuter et al. 1994). Taxopsida (originally suggested by
+Florin [1944, 1948a, 1948b, as 'Taxales" or 'Taxineae"], Pilger & Melchior [1954]
+and Pant [1959] - all invaUdly published [Art. 32.1(c), 36.1]) with arillate seeds
+represents a distinct taxon within gymnospermous seed evolution, being rooted among
+the extinct cupular pteridosperms (Lyginopteridophyta). The origin of the
+Podocarpopsida with their peculiar epimatial structures around the seed is thought to
+be among the extinct cone-bearing Walchiaceae-Voltziaceae assemblages, having a
+detached, but common origin with the extant Pinopsida Burnett {e.g., Araucariaceae of
+Pinopsida is linked to Saxegothaeales of Podocarpopsida by their strobilar structures).
+The problems associated with the origins and phylogenetic interrelationships of the
+three classes of Pinophyta will be addressed more extensively in Doweld's new book.
+The family name Saxegothaeaceae, originally suggested but not validated by
+Gaussen (1974a, 1974b, 1976), is validated to accommodate the Chilean genus
+Saxegothaea Lindl. The new family differs from the remainder of Podocarpaceae
+(excluding the anomalous Tasmanian genus Microcachrys Hook./.) by their taxaceous
+habit, cone-like aggregations of female strobili and amentaceous rnale strobili, and
+other characters as noted by Gaussen. It is noteworthy that in proposing the
+illegitimate name Squamataxus for Saxegothaea, Nelson (1866: 168) emphasized the
+sinularities of likeness of their bracteose strobili with the fleshy ones in Taxus L. By
+taking into account these differences, it is proposed that Saxegothaeaceae be
+maintained apart from the other families of Podocarpales PuUe ex Reveal
+(Pherosphaeraceae [Pilg.] Nakai, Podocarpaceae Endl., Nageiaceae Fu, and the
+recendy established Acmopylaceae Bobr. & Melik.) by placing them in their own
+order, Saxegothaeales. The recognition of Saxegothaeaceae brings into question the
+relationship of the arborescent Chilean genus Saxegothaea with the shrubby
+Tasmanian genus Microcachrys. In addition to their distinct habit, the several
+morphological differences in their reproductive structures (Morvan 1990) and the
+numerous differences in their vegetative features leads us to establish a new
+monogeneric family, Microcachrydaceae, for the isolated endemic. We hereby assign
+Microcachrydaceae to the Saxegothaeales.
+Taxopsida R. Florin & Doweld et Reveal, class, nov. TYPUS: Taxus L., Sp. PI.
+2:1040. 1753.; Taxaceae Gray, Nat. Arr. Brit. PL 2:222, 226. 1821., nom.
+cons.
+Ab classis Pinopsida habitum fruticibus vel arbusculis ramosissimis,
+lignum pycnoxylicum resiniferum, tracheidas spirales tertiarias, lepides nullae,
+'stamina' squamata peltataque, microsporangiis 2-8, unilocularibus, grana
+pollinis asaccata, ovula solitaria vel cum brachyblasto squamoso, semina

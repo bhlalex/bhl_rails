@@ -1,0 +1,36 @@
+162 THE PRINCIPLES OF SCIENCE.
+of negatives. This table then presents the results of
+a complete analysis of all the possible logical relations
+arising in the case of three terms, and the old syllogism
+forms but one out of fifteen typical forms. Generally
+speaking every form can be converted into apparently
+different propositions ; thus the fourth type A = B, B = BC
+may appear in the form A = ABC, a = ab, or again in the
+form of three propositions A = AB, B = BC, aB = aBc ; but
+all these sets of premises yield identically the same series
+of combinations, and are therefore of exactly equivalent
+logical meaning. The fifth type, or Barbara, can also be
+thrown into the equivalent forms A = ABC, aB = aBC and
+A = AC, B = A I aBC. In other cases I have obtained the
+very same logical conditions in four modes of statement.
+As regards mere appearance and mode of statement, the
+number of possible premises would be almost unlimited.
+The most remarkable of all the types of logical condition
+is the fourteenth, namely A = BC I be. It is that which
+expresses the division of a genus into two doubly marked
+species, arid might be illustrated by the example ' Com-
+ponent of the physical universe = matter, gravitating, or
+not-matter (ether), not-gravitating.'
+It is capable of only two distinct logical variations,
+namely, A BC I be and A = Be I bC. By transposition
+or negative change of the letters we can indeed obtain
+six different expressions of each of these propositions ;
+but when their meanings are analysed, by working out
+the combinations, they are found to be logically equiva-
+lent to one or other of the above two. Thus the proposi-
+tion A = BC I be can be written in any of the following
+five other modes,
+a = 60 -I- Be, B = CAica, 6=cA|Ca,
+C = ABIa6, c=aBtA6.
+I do not think it needful at present to publish the
+complete table of 193 series of combinations and the

@@ -1,0 +1,35 @@
+328 PROCEEDINGS OF THE AMERICAN ACADEMY,
+Then, for a transformation of type (49), supposing the new K's to be
+K/, K/, we have
+K/ = Ks + n„
+K/ = K, + n„
+and so
+K/ - KJ = Kt- Ks - (n. - n,) < K, - K,.
+Also, for a transformation of type (50), if the new II's are IT/ 11/, we
+have
+n/ = n, + K„
+n/ = n, + K„
+and
+IT/ - n/ = n, - n, - (k, - k,) < n, - n,.
+So when a condition of type (52) holds, any transformation applied will
+reduce the difference of either the II's or K's, if in fact it does not
+change the sien of the difference. Further, the reduction is each time
+by a value not infinitesimal, for it is at least 1 j st, as is seen by con-
+sidering the values of K;. and IT,, in (51). So the succession of trans-
+formations of whatever kind must finally reduce the difference of either
+the it's or the K's to zero, or change its sign, and then we secure either
+condition a) or b).
+When one of these conditions has once been secured, any further
+transformation will not change it; for, in condition a), a transformation
+of type (49) will add at least as much to the K^ as to the K,, and so
+retain the inequality of the same order, and similar conditions are seen
+to hold in the other cases. Also, as one of the conditions a) or b) must
+hold finally, whatever the pair of values s and t, we shall have some
+value as ?■ such that
+n, < n„ K, < K„ s = 2, 3, m.
+from which follows the required condition
+'' ' ' L s=2,3, m.
+r ~ s J
+11. The method of G, applied to the surface resulting from the treat-
+ment of 10, will secure the result of 6. It may be that already either
+p, < r or q, < r, but in such a case the number of transformations of

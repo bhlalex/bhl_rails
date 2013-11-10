@@ -1,0 +1,117 @@
+the frequency of spontaneous mutations, but
+also the action of short waves that induce muta-
+tions. However, the mechanism of the action
+upon which this fact is based is completely un-
+known. Since up to now [Doring and] Stubbe
+(1938) have investigated the absence of those
+elements (nitrogen, phosphorus, and sulphur)
+which enter the composition of the chromo-
+somes, it is understandable that disruption in the
+metabolic function of these elements leads to
+irregularities in the structure of the substance
+of the genes, i.e., to mutations. A calcium
+deficiency does not increase the percentage of
+mutations, but then calcium is not an essential
+part of the substance of the gene.
+Stadler (1929) adopts an extremely interesting
+point of view in explaining the diversity of the
+effects of X rays on various species and genera
+of plants. He established that different species
+of the same genus manifest differences in their
+ability to undergo mutations. The irradiation
+of seeds of Avena sativa, A. bysantina , A.
+strigosa, Triticum monococcum, T. dicoccum ,
+T. durum, and T. vulgare with identical doses
+leads to different results. Whereas the species
+A. brevis and A. strigosa show increases in
+the percentage~bf mutations when subjected to
+irradiation, A. bysantina and A. sativa do not
+react at all in this respect. Similarly in T.
+monococcum, the percentage of mutations is
+very great and it falls gradually through dicoc-
+cum and durum to vulgarum , which doesnT
+exhibit any mutations (Table 38).
+By comparing the data of this table we see
+that the frequency of observable mutations de-
+creases as the number of chromosomes in-
+creases. By way of explanation Stadler offers
+the following hypothesis. If we assume that in
+A. bysantina and A. sativa the same gene is
+present in each genome in a dominant condition,
+then the formula for this genome will be
+A ^ Ag A;
+A J Ag A3
+If a mutation occurs from A to a.
+it will lead to a heterozygous condition
+AAA
+^ "^ "3 ' which in time will lead to a homo-
+a 1 A2 A3
+zygous condition
+Ao Aq
+■ This plant will not
+a I A2 A3
+show any change since the four dominant allelo-
+morphs will mask the two that have undergone
+Table 37
+Combined Tables. Experiments with Anitrrhinum majus L .
+(based on [Doring and] Stubbe' s data, 1938)
+Type of Action
+Full diet (unirradiated)
+Phosphorus deficiency (unirradiated)
+Full diet (4^,000 r)
+Phosphorus deficiency (4-6, 000 r)
+Cultures
+498
+587
+543
+966
+Number of
+Mutations
+44
+118
+Mutations in each
+100 [Fg] Plants
+1.004 + 0.44
+1.362 j- 0.47
+7.099 + 1.10
+11.211 -f 1.01
+Table 38
+Frequency of mutations obtained by experimental means
+in various species of Avena and Triticum .
+(based on Stadler' s data, 1929)
+Species
+Number
+of
+Chromo.
+Frequency of
+Mutations
+Per Unit
+Species
+Number
+of
+Chromo.
+Frequency of
+Mutations
+Per Unit
+Avena brevis
+7
+4.1 -i- 1.2
+Triticum monococcum
+7
+10.4 + 3.4
+A. sativa
+7
+2.6 + 0.6
+T. dicoccum
+14
+2.0 + 1.3
+A. bysantina
+21
+T. durum
+14
+1.9 + 0.5
+A. sativa
+21
+T. vulgare
+21
+106

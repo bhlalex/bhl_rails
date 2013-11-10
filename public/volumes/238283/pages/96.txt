@@ -1,0 +1,35 @@
+MORENO. — ON RULED LOCI IN W-FOLD SPACE.
+131
+The elimiuation of the parameter from these equations gives a re-
+stricted system equivaleut to n — 1 iudepeudent equations, the equation
+of aS'j whose order is n (m — n -\- 1).
+We can find the equations of those exceptional points where n -\- I
+consecutive i^„_i's intersect iu a point, if we eliminate the parameter from
+the n -{- 1 equations
+a r-" + (/« — n) b"'-"-^ +.... =
+b r-" + (m — n) c"'-"-^ +.... =
++et+f=0.
+The result is a restricted system equivalent to « independent equa-
+tions; it is of order (n + 1) [m — n), which is the number of such
+points, cusps on Si- We may verify this result by forming the resultant
+of these (« -f 1) equations. If we eliminate the variables from these
+equations we have a determinant of order n -\- 1. If we expand this
+result t enters to the degree (n + 1) (m — n) so that there are (n + 1)
+(m — n) values of t that cause this resultant to vanish. These values of
+t give the special points in question.*
+Any double point on *^„_j must lie on two i^„_2's. We may find the
+equations of the total double spread on »S'„_i, by expressing the conditions
+that the equations of an i^„_2 regarded as equations in the parameter,
+have two roots in common. These conditions are f
+(I)
+a, (m - 1) b, i ^ '- c,
+a, {771 — 1) b,
+e
+b, (/7l — 1) c,
+b,
+("« — 1) e,/
+= 0,
+* For n = 3, these results agree with those of Salmon, Geometry of Three
+Dimensions, p. 296. Neither the results there nor these hold when the system has
+stationary (n — l)-flats.
+t Salmon, Higher Algebra, art. 275.

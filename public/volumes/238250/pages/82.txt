@@ -1,0 +1,45 @@
+COLOR AND CHEMICAL CONSTITUTION 117
+Fraunhofer had noticed that the yellow spectrum line from com-
+mon salt, when fed into a spirit lamp, was identical in position with
+the D-line of the solar spectrum. But though the formation of these
+discontinuous spectra from various salts in a flame was generally
+known, it was not until 1859 that the presence of the Fraunhofer lines
+in the solar spectrum was clearly explained by Kirchhoff, who deduced
+the following law : " The relation between the powers of emission and
+the powers of absorption for rays of the same wave-length is constant
+for all bodies at the same temperature." Thus the particles of a sub-
+stance under the excitement of some outside force are thrown into a
+state of vibration which is dependent upon the chemical nature of the
+substance itself. This vibratory motion gives rise to waves in the ether
+and we have the phenomenon of emission. Again the particles of a
+substance are most responsive to these same characteristic vibrations
+and will absorb them whenever present, just as, by analogy, the strings
+of a piano pick up sound waves of the exact period in which they
+vibrate when these waves are set in motion by other musical instru-
+ments in the neighborhood. Kirchhoff explained the solar spectrum
+as one produced by a strong white light from an interior sphere passing
+through a concentric layer of vapors of many substances, each of which
+absorbs those particular rays that correspond to their own periods of
+vibration. The light, thus deprived of many definite rays, indicated
+their absence when its spectrum was cast upon a screen by the appear-
+ance of dark lines — the images of the slit through which the light
+passed — corresponding always to the wave-lengths absorbed. It must
+not be assumed that these lines of absorption are regions of total dark-
+ness. The particles set in vibration by the rays absorbed will naturally
+give out some light of this same vibration period, but the light emitted
+is so small in comparison with the rays from the original source which
+pass through unmolested that the image cast upon the screen will give
+the appearance of almost total darkness.
+Now when a substance is yellow in color we can readily ascertain
+that the spectrum of the light it reflects is lacking in a number of
+rays of various wave-lengths. These rays correspond to the comple-
+ment of the color reflected, and in the case of a yellow substance
+belong to that magnitude found in the blue end of the spectrum. If
+no wave-lengths of the visible spectrum had been absorbed, we should
+have had the continuous spectrum of white light in the light reflected,
+i. e., the body itself would not be colored. Colored substances, there-
+fore, absorb the rays of their complementary colors and, consequently,
+when white light is transmitted through them their spectra will indi-
+cate the regions of this absorption by dark bands of varying intensity.
+The absorption spectrum coincides always with the spectrum obtained
+from the reflected light.

@@ -1,0 +1,35 @@
+THEORY OF APPROXIMATION. 101
+expansion may also be considered as being three times as
+great as the linear expansion. For if the increase of tem-
+perature expands a bar of metal in the ratio of i to i 4- a,
+and the expansion be equal in all directions, then a cube
+of the same metal would expand as i to (i+a) 3 , or as
+i to i + 3 a + 3 a 2 + a 3 . When a is a very small quantity
+the third term 3 a 2 will be imperceptible, and still more so
+the fourth term* a 3 . The coefficients of expansion of
+solids are in fact so small, and so imperfectly determined,
+that physicists seldom take into account their second and
+higher powers.
+It is an universal and important result of these prin-
+ciples that all very small errors may be assumed to vary
+in simple proportion to their causes ; a new reason why, in
+eliminating errors, we should first of all make them as
+small as possible. Let us suppose, with De Morgan, that
+there is a right-angled triangle of which the two sides
+containing the right angle are really of the lengths 3 and
+4, so that the hypothenuse is v /3 2 + 4 2 or 5. Now if in
+two measurements of the first side we commit slight
+errors, making it successively 4*001 and 4*002, then calcu-
+lation will give the lengths of the hypothenuse as almost
+exactly 5*0008 and 5*00016, so that the error in the
+hypothenuse will seem to vary in simple proportion to
+that of the side, although it does not really do so with
+perfect exactness a . The logarithm of a number does
+not vary in proportion to that number nevertheless we
+should find the difference between the logarithms of the
+numbers 100000 and 100001 to be almost exactly equal to
+that between the numbers 100001 and 100002. It is thus
+a general rule that very small differences between suc-
+cessive values of a function are approximately proportional
+to the small differences of the variable quantity.
+a De Morgan's ' Differential Calculus.'

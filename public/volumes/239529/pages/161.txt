@@ -1,0 +1,44 @@
+224
+Je dis que 1'ensemble des points oü F (6) ne possède pas de
+dérivée est de mesure nulle.
+En effet, supposons que eet ensemble ait une mesure positive
+(qu'il soit épais) 1 ). Il contient done iin ensemble parfait épais en
+lui-même P. Il existe une portion de P, soit P lf oü ip {8) est borné.
+Or P, élant épais, contient des points oü son épaisseur est egale
+a 1. Soit 6 a uu de ces points. Il existe un nombre positif r\, tel
+que, dans tont intervalle contenant 6 % et de longueur inférieure a %
+1'ensemble P l possède une épaisseur moyenne supérieure a l / t .
+Done, dans l'intervalle 6> -f- a ff -f- — - , la mesure de P x est
+positive. Done P x possède des points dans eet intervalle. Soit#-|~A„
+l'un d'eux. La suite h n vérifie la condition 1 <^ — — < 4 et ty{6 -\-h n )
+est inférieur, quel que soit n, au maximum fini de \\> {6) sur P.
+Le tliéorème general s'applique. Done, contrairement a notre
+hypothese, F[6) possède une dérivée en 6 .
+Done, 1'ensemble E des points oh F' {&) n' existe pas, ensemble
+coïncidant avec celui oh la série (2) diverge, eet ensemble est de
+mesure nulle, résultat déja connu et démontré en particulier par
+M. Fatou, mais que nous établissons sans recours a l'intégration.
+Considérons 1'ensemble E x oü </ (6) existe. Je dis que cp {&) possede
+une dérivée approximative ') egale a f {6) en tout point de E x sauf
+éventuellement sur un ensemble de mesure nulle 3 ).
+On montre d'abord par un type de raisonnement que j'ai indiqué
+') Je dis qu'u-n ensemble E est épais si sa mesure est positive; qu'il est épais
+dans un intervalle ab, si les points de E intérieurs a ab forment un ensemble
+de mesure positive; épais en un point, s'il est épais dans tout intervalle contenant
+ce point ; épais en lui-même, s'il est épais en chacun de ses points. Si les points
+de E compris entre a et b (a < b) forment un ensemble de mesure m(b) — m(a),
+m(b) — m(a) , „ „ , .
+le rapport s appelle 1 épaisseur moyenne de E sur 1 intervalle ab.
+b—a
+V épaisseur de E en un point x est la limite, si elle existe, de l'épaisseur moyenne
+de E sur un intervalle contenant x et tendant indif'féremment vers en longueur
+(voir ma note de la précédente séance pour les cas oü l'épaisseur n'existe pas).
+') On dit que <p (d) possède une dérivée approximative A en un point 6 (oü f
+est définie) si le quotient tend vers A, quand $ tend vers S en se dépla-
+6 — 6
+<^ant indifféremment sur un ensemble (oü <p est suppose défini) dont l'épaisseur en 6
+est egale a 1. (M. Kintchine emploie dans le même sens l'expression de dérivée
+asymptotique).
+3 ) ,,Sur un ensemble contenu dans E x et de même mesure que lui" s'exprime
+par la locution „presque partout sur E{" de M. Lebesque ou par celle.ci „sur une
+pleine épaisseur de E{' que j'ai proposée.

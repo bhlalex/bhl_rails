@@ -1,0 +1,33 @@
+Mathematics. — "On the necessary and sufficient conditions for
+the expansion of a function in a Binomial Series". By Dr.
+H. B. A. BocKWiNKKL. (Communicated by Prof. H. A. Lorentz).
+(Communicated in the meeting of May 3, 1919)
+PiNCHERLE has given a necessary and sufficient condition for the
+expansion of a function in a binomial series {Binomialkoeffzienten-
+reilie) ^). It runs thus :
+The necessary and sufficient condition that an analytic function
+ui{x) may be expanded in a series of the form
+tt> (x) — 2» <^n\ I (1)
+is that a)(,r) be co efficient- f unction {fonction coefficiente) of
+another analytic funtion qit), lohich is regular and zero at infinity
+and ivhose singidarities lie all within the circle (1,1), 2vith centre t=l
+and radius r = 1, or on the circumference of it, provided that, in
+the latter case, the order of (f{t) on the circumference, taken in the
+sense defined by Haüamard, be finite or negative infuite^).
+By a coefficient function lo{.v) of an analytic function rf{t) of the
+kind mentioned P[NCHER1-e means a function which can be deduced
+from q[t) in a more or less simple manner, acconling to the order
+of <f{t). The relation between the two functions is, however, always
+such that conversely (fit), called by Pincherle the (^^>2é?ra/m^ function
+(fonction génératrice) of uj{x), follows from ixj{.c) by the equation
+00
+•t-^ CO (n -+- 1)
+This means: the coefficients of the series of negative integral
+powers of t, in which f/{t) may be expanded in a neighbourhood
+of ^ ^ GO, are equal to the values of oj{.v) for positive integral values
+of .^' ; the name coef f cientf unction for to(.c) is due to this circum-
+stance.
+The question now arises, how it must be discriminated if & given
+function may ne expanded in a binomial series. This question is not
+1) S. PiNCHERLE, '"Sur les fonctions déterminantes", Anna), de TEcole Normale, 1905.
+2) A circle with centre y. and radius r will be denoled by [y., r).

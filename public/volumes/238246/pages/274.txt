@@ -1,0 +1,46 @@
+407
+die Substitution s ^= [Z : Z^^). Demi es sei Si eiue reelle gauze Zahl,
+so ist
+i2 = a„ + a, Z + . . . .
+2jr sill 4 jr
+rtj sin 1- ttj 1- , . . . =
+m m
+und
+2jr
+a éS2 ::= a -|- a, Z"~^ -}-.... =. a^ -\- a^ cos \- . . , .
+m
+Also :
+Si — s£>=0.
+Ebensoleiclit bevveist man, umgekelirt, 'dasz eiue jede Zalil, welche
+durcli die Substitution s nicht geandert wird, eiue reelle Zald ist.
+Man ei'sielit Iiieraus dasz jeder reelle Unterkorper von K ein ünter-
+körper ist des zu der Gruppe .v, s* gehöi-enden Unterkorpers und
+dasz ein Unteikürper, der zu einer Untergrup|)e geliört, welche die
+Substitution .s' nicht enthalt, iniaginar ist. Wenn nun nicht alle Sum-
+men f)on-^bui-\- • • • ■ gerade sind, so gentigt das System a„ = 1 ;
+^/^ := 0; ^/j = i r/.j . . . . den ('ongrnenzen (3) nicht; die Untergruppe
+g kann dalier in diesem Falle die Substitution s nicht enthalten.
+Der Kurper k ist imaginar.
+2. Wenn die Summe bon -\- bu> -\- nicht fVir alle Werte von 7i
+einen geraden Wert hat, so ist die Anzahl der Systeme der b, fiir
+welche dieser Wert ungerade ist, gleich — .
+Beweis : Alle Systeme der b fur welche die Summe gerade ist,
+bilden eine Gruppe, da 2, r/^, r/)^, . . . . gerade sind. Um aus dieser
+Gruppe, die Gruppe aller Systeme der b zu bekommen, musz njan
+die erstgenannte Gruppe multiplizieren mit einer Gruppe in welcher
+jedes System der b (ausgenommen die identische Substitution boi = 0,
+6^j = 0, . . . .) eine ungerade Summe besitzt. Wenn, in dieser letzten
+Gruppe, sich zwei Systeme der b vorfanden mit ungerader Summe,
+so wiirde das System, dasz man durcli Aufzahlung der übereinstim-
+menden Zahlen dieser beiden Systemen erhielt, eine gerade Summe
+bou -\- bin -\- . . . . haben. Ein solches System kann aber in dieser
+Gruppe nicht auftreten. In der Gruppe können also niclit zwei
+Systeme vorkommen (ausser boi = b^^,^ = . . . . = 0). Die Gruppe hat
+dalier den Grad 2.
+Es gibt also A .- Systeme der b, welche eine gerade Summe haben
+7'
+und naturlich gleich viel mit ungerader Summe.
+Bestlmmung der Zahl x ^).
+1) „H.", S. 229.
+27
+Proceedings Royal Acad. Amsterdam. Vol. XXII.

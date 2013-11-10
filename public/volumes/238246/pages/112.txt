@@ -1,0 +1,39 @@
+147-
+side is required as long as the sign of r has not been settled, but
+may be chosen at will; tlie -j- sign holds for positive, the — sign for
+negative /•. If the sign is taken positive, the moment/ — ^ - is earlier
+than t and <( ^ must then be taken as a delayed potential. If the
+negative sign is chosen, the moment t is iatei- than / and ^^is
+('
+to be considered as an advanced potential.
+Every fimction (f^ [x, i/, z, t), therefore, irhlck mtisjles the differential
+equation (3), may be considered either as a delayed or as an advanced
+potential, if only the contribution to the potential ivhich is due to
+the boundary surface F {which may also be moved to injinity) is
+taken into account.
+It follows that every electro-magnetic field, i. e. every field for
+which the Maxweij.-Lorentz equations hold, may be calculated for
+a moment t either from the condition at the time t — — or from
+c
+that at the time / -j , if only the conti-ibution by the boundary
+c ' . .
+surface is taken into account. This contribution is necessarily diffe-
+rent in the two cases.
+If the surface F is made to move to infinity and if at the same
+time the condition is laid down, that at the boundary the surface-
+integral has the value zero, if the potential is considered as a delayed
+potential, the ordinary solution is obtained of the problem to calcu-
+late the field from the charges. Hut this solution is oidy one parti-
+cular one: there are an infinite number of othei-s.
+The author may be excused for having discussed this question
+at some length: it seemed to him that it is not alvvays sufficiently
+kept in view.
+We shall now prove, that every periodical motion of electricity
+allows the assumption of a field such that no energy is radiated.
+The separate points of the electric charges will be identified by
+means of 3 parameters %, ^i, ?. Every set of values |, ?;, C, therefore,
+denotes a definite point in the electricity sharing the motion of the
+latter. The motion is completely described by the equations
+y = t/ (§, tj, ?, 0, ' (7)
+Z Z= Z {%, 7J, ?, t), \
+that is to say, for given values of I, ^i, b the coordinates x,y,z are

@@ -1,0 +1,40 @@
+172 C. E. Weatherbuim :
+ii. If p is a point of the iuiier region, </ of the outer, and t a
+point on the boundary.
+(24) (1+A)G(;.^)=(1-X)G(^/.)
+G(tp) = {l-\-X)G{pt)
+G{t^)={l-k)Q{^t)
+From (23) and (6) we deduce immediately that if p and q are
+both in the same region, or both on the boundary,
+(25) ( Q{p^) = QU/p)
+If, however, p and ^ are in the inner and outer regions respectively,
+we find on substituting from (G) in the first of (24), multiplying by
+Aq— A and putting A=:Ao
+(26) ^{\+X,)Q(p^) = {l-X,)q{^p)
+I (1+a)6'(m)=(1 -^)G(^p)+j^^-Q(n')
+Similarly from the second and third of (24) we find
+(27) ( Q{tp) = (l+X,)Q(pf,)
+I Q(^.;)==(l-A„)Q(./0
+and thence
+(28) S 0{fp) = {\ +X)G(pt)-X,q(pt)
+( G{t^) = {l-k)G{^/t)+X,Q{^/t)
+II. — The ordinary pofeiti led.
+§6. — Integral Relatione. — The preceding properties are common
+to ordinary and generalised potentials. We know, however, that
+while the values A:= + l, Avhich correspond to the problems for the
+inner and outer regions separately, may both be characteristic
+numbers for the ordinary potential, they are nofl singiilar for the
+generalised. The properties arising from the existence of these
+poles are then peculiar to the ordinary potential. Other special
+relations arise from the fact that foi' this potential the function
+h(tp) satisfies ihe integral relation2
+(29) /h{tp)dt=2, 1, or
+according as p is within the closed surface, on the l)oundary or
+outside, and the integration is extended over the boundary. W©
+shall find furthci- on a cori-esponding formula for the generalised
+potential from which tliis may be deduced by putting A;=0.
+Let us suppose that tiie boundary consists of m independent
+surfaces each possessing at every ])oint a definite tangent plane
+and two definite principal radii of curvature. The value A=l
+1. Weatherburu. Loc. cit., § 3.
+2. I'lemelj. Noc. cit., S. ^41-4. Another proof is 1).\ (Jrecn's TheoriMii as in S i) of this pujier.

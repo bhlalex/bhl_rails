@@ -1,0 +1,116 @@
+i86
+WRIGHT
+Percentage of white and colored of total population of District of Columbia, from
+1800 to 1890.
+Census
+Years.
+White.
+Colored.
+Census
+Years,
+White.
+Colored.
+1800
+1810
+1820
+1830
+1840
+66.93
+68.45
+69.19
+70.13
+28.57
+3307
+31-55
+30.81
+29-87
+1850
+i860
+1870
+1880
+1890
+7341
+80.93
+67.03
+66.44
+67.14
+26.59
+19.07
+32.97
+32.86
+Population of Alexandria, Virginia, from 1790 to 1890.
+Census Years.
+Population.
+Census Years.
+Population.
+1790
+2,748
+1850
+8,734
+1800
+4,971 J
+i860
+12,652
+1810
+7,227*
+1870
+13.570
+1820
+8,218 1
+1880
+13,659
+1830
+8,263 J
+1890
+14.339
+1840
+8,459'
+Population of Georgetown, District of Columbia, from
+1810 to 1890.
+Census Years.
+Population.
+Census Years.
+Population,
+1810
+1820
+1830
+1840
+1850
+81441
+7,312
+8,366
+i860
+1870
+1880
+1890
+8,733
+",384
+12,578
+14,046
+True valuation of real and personal property, total and per capita, in District of
+Columbia, from 1850 to 1890.
+Census Years,
+Total Valuation,
+Per Capita,
+Per Capita U, S.
+1850
+i860
+1870
+1880
+1890
+$ 14,018,874
+41,084,945
+126,873,618
+220,000,000
+343.596,733
+$ 271
+547
+963
+1.239
+1,491
+$ 308
+780
+870
+1,036*
+* Part of District of Columbia ; receded to Virginia, July 9, 1846,
+* In computing this per capita the true valuation of Indian Territory is excluded.

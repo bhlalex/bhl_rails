@@ -1,0 +1,38 @@
+J 52
+indicatrix and situated in -S, /' a sequence of indefinitely condensing
+simplicial approximations P' , P", ... of F corresponding to a
+category ip of simplicial divisions. If the values of (3) over /-*', P", . . .
+converge to a limit which is independent of the choice of /' so far
+as it is left free by xp, then we call ihis limit the value of (3) over
+F for ip.
+III. We shall now occupy ourselves with the value of (1) over
+the boundary ^ of a /^-dimensional simplex o provided with an
+indicatrix and situated in S. In doing so we take it that the indi-
+catrices of ,'•? and o correspond, that is to say, the indicatrix of an
+arbitrary (/> — l)-(limensional side of *> is obtained by placing the
+vertex of n which does not belong to this side last in the indicatrix
+of <'t and subsequently omitting it. We begin by confining ourselves
+to the contribution of the single term
+.P-
+OiXa.\ .... (IX Bi
+u — 1 /I — 1
+to the value of (1) over ^. By a suitable simplicial division i, of
+the space (^Vi, ■ ■ • ^'a ) we determine a simplicial division of ji,
+whose base simplexes correspond in pairs to those of {xu^, . . .Xr,, _^).
+The family of those (?<(—/) -f- l)-dimensional spaces within which
+Xy,^, . . . x._, are constant, cuts the plane /^-dimensional space in
+which (1 is conrained, in a family of straight lines which connect
+pairs of corresponding base simplexes of /•? into /^-dimensional trun-
+cated simplicial prisms. If e^ and e^ are a pair of corresponding base
+simplexes of /i, d the concomitant truncated simplicial prism, /aline
+segment having components ;v. , . . . ?v. which leads from, a point
+of e^ to the corresponding point of e^, then the contribution of the
+tern) { Fy, . . . . « dxy, .... dx.^ to the value of (1) over e, and
+e, becomes
+=7'
+dx,y.
+where A denotes a point of 'X which may be different for the diffe-
+rent terms undei- the 2 sign, and f becomes indefinitely small with
+respect to e^iu^ . . . y. for indefinite condensation of $.
+Now let B^Bj. . . . B,, be a vertex indicatrix of ^, and -.^Vy the
+value of A>. at B,, then the value of Va . ^'«1 •••«_, ^^n be expressed as

@@ -1,0 +1,38 @@
+191 1.] AGGREGATES OF ELECTRONS. 353
+is higher the higher the temperature. Clearly, at a sufficiently high
+temperature some of the particles will have enough energy from their
+heat motion to be able to break through the surface. Aloreover, the
+number which are able to escape will be greater the higher the
+temperature.
+A theory following these lines has succeeded in predicting the
+way in which the emission of the electrons depends upon the tem-
+perature as well as a number of other interesting relations between
+the thermal and electrical behavior of substances. It will be re-
+marked that the view which has been outlined is very similar to the
+view of the phenomenon of evaporation which is afforded by the
+kinetic theory of matter. According to that theory the particles of
+the liquid escape into the vapor when their kinetic energy (to be
+accurate we ought to say that part of it which depends on the com-
+ponent of velocity normal to the surface) exceeds the work they
+have to do in order to pass through the surface. Thermionic emis-
+sion may be looked upon then simply as the evaporation of electrons
+which may be regarded as dissolved in the metal. Just as water is
+cooled when it evaporates and heated when steam condenses into it;
+so we should expect a conductor to be cooled when it emits electrons
+and heated when it absorbs them. Both these effects have recently
+been discovered, the former by W'ehnelt and Jentzsch and the latter
+by Richardson and Cook.
+There is one point in this connection which is worthy of further
+consideration. We have seen that it is necessary to suppose that
+the electrons in a metal behave like the molecules of a gas. The
+same will be at least as true of them after they have been emitted.
+Thus when a metal at a high temperature lies in an air-tight en-
+closure there will be two atmospheres of electrons, one at a high
+pressure inside the metal and the other at a low pressure in the
+enclosure outside of the metal. If the principles of the kinetic
+theory of matter are well grounded it can be shown that in both of
+these atmospheres the electrons are moving about with all possible
+speeds but that the proportion of them which have a given speed is
+the same for each atmosphere. Moreover, the proportion is the same
+known function of the temperature in each case and in each case also
+PROG. AMER. PHIL. SOC, L. 200 \V, PRINTED AUG. 4, I9II.

@@ -1,0 +1,48 @@
+293
+As (— J =0 is identical with the expression (2) or (26) derived
+\dvj t
+'d*p\ d
+from it, ( — 1 =0 is identical with —
+dv % )t dv
+l / 4 RTv — [a A -f
+AB
+= 0.
+When we take (2) instead of {2b),
+7, RTv N = (2— as) a 1 — 2 x (1—x) « A + x (1— x>) (1—6') A 1
+should be differentiated with respect to v ( T constant) ; which yields,
+when again, as in §11, f ^- ) = A b is put =0, so that b is only
+\P*Jo
+a function of v:
+/dx\ fdx\
+iRT(N^N'v)=2(2-x)ait'-a t {— )-2#(l-*0a'A + 2(2*-l)« A — -
+\dvji \dvjt
+— x (\ — x % ) b" A' — (3 x 2 — 1) (1—6') A s ( — .
+\dvjt
+After muUiplication by v and substitution for l / i RTv of its value
+(2b), we get :
+/ AB\ / v A \
+{aL + —J IN + m (l-r) (2 *-l) — b' -- (2-x) (I + *) 6" ,J =
+= 2«'i) i? — t>
+dvjt
+« 2 -2(2.^-l)«A -f- (3^- 1 ){l-b') A'
+-«(I-.t^'vA*.
+For from JV= 2 — (2— j?)(l+ü)ft' follows AT' = —(2— x){i-\-x)b" -\-
+x(l — x) A
+\dvj t
+4- (2x — 1) b' ( — ) , hence N'v becomes with ,
+\dv J \ \dvji v — o J3
+which is written down above. Further (2 — x) a — x (1 — x) A has
+been replaced by B.
+fdrt\ d fv—b \ „ , (\-V v~b\ /
+For a' = — =- - -l/a we find |/a +
+vw< c?wV v /* V v v J
+v — b fdx\
+-| — A|/a — J, hence
+v \do J t
+«^«/^(i-^Vh 1 -^
+so that we find :
+/ AB\{ v A\
+(«A + _} (jV + . (1-,) (2 —1) — b ^J -
+2—.?) (TV a A+AB) — a- (1— x) N A ;
+(1 -f x) b" v
+N

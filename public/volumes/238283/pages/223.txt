@@ -1,0 +1,33 @@
+318 PROCEEDINGS OP THE AMERICAN ACADEMY.
+For suppose such a term to be aljrjj'l'', where /+ g < m. Then, by
+a succession of p transformations such as defined, we have
+^y = ^i'$v+p-, V''='Q'-nv+p,
+(derived from form of (19) when all y's and 8's are 0). Substituting
+this in the expression above we get
+But we must divide out of this C^'', so that we have left the term
+" t v+p Vv+P *=
+This term could not combine with any other derived in a similar way,
+for if we had another term 6 J-^t;^^*", we should get
+7 >/ 9 c-k+plf+g—m)
+0$y+pVu+pC
+and this would not combine with the other unless k = h. Now, if the
+degree of the singular point is not reduced, we must have for the sum
+of the exponents
+f+ 9 + h + p(f+ g — m) ^m
+or (p + l)(m -f—g)S h,
+and SiS m > f -{- g
+h
++ 1^
+m —/— g
+thus securing an upper limit for p, the number of transformations which
+leave the term and the singular point of the ?«th order.
+So it is only in the case in which all terms of Vl (tV, y]v, ^^^ ^^
+degree not less than m in I" and 7]^ together that we do not have a re-
+duction of singularity by the succession of transformations of type (14).
+But, in this exceptional case, we have the conditions of the Lemma of
+§ 2, where in equation (6) we take
+the singular line being
+^. = 0, 1 = 0.
+There is in Q (IJ,, rj^, ^) a term in H,*", and so the expression go (y^
+does not vanish when ^2 = 0. Accordingly, within a neighborhood
+about this point, we can break up the singularity by the methods of

@@ -1,0 +1,33 @@
+410 JACKSON.
+characteristic values occur on the ray arg p = t^Iv, which bounds So,
+the corresponding values on the ray arg p = — tt/v may be left out of
+account. It will be convenient now to have a definite understanding
+as to four of the subscripts of the roots uy, we shall write
+iri W 3)r» Sttx
+Wi = e " , 102 = 6", wz = e " , Wi= e " ,
+so that the first four subscripts are assigned to the four right-hand
+vertices of the j'-sided regular polygon w^hich represents the v roots.
+If the polygon is rotated in the positive direction through an angle
+6 between and ir/v, the vertices representing the numbers wie*', ....
+?f"4e^^ will be those furthest to the right, in the order of decreasing
+abscissas. The order of the remaining subscripts is immaterial.
+The quantities Wg (yi) have the asymptotic expressions:
+TVs (yt) = (pwO*« e ""^t^ [1] + as {pwiYil], s=v-1,p,
+where Ks is the order of the highest derivative whose value at the point
+actually enters into the s-th. condition, for the last two values of s,
+and as is the corresponding coefficient, or is zero if the condition does
+not involve the point at all. Let the factor p ^s be divided from the
+s-th row of the determinant of these quantities, s = 1, 2, . . ., v, and
+in the last two rows let js he \\Titten for Ks — kg- Then the condition
+for a characteristic value is expressed by the vanishing of a determi-
+nant Ai of the following form : ^*
+V'[l] w-z'^'ll] ••• t^>[l]
++ a.-i p'^f-i wi""-' [1] ) ( + a,_i p-'v-i w-i'v-' [1]
+f W/"-! e""'"'' [1] 1
+\ + a,_i p^j.-i MJ/'"-! [1] j
+w/"" e""'"^ [1] ) j 10'^^ C'"-'^ [1]
++ a, pT" Wi"" [1] j 1 + a, py w-^" [1]
+wj"" e''"''''^[l]
++ a. pyw/il]
+34 This does not correspond precisely to the determinant Ai of the preceding
+section, as no exponential factor has been divided from the last rows.

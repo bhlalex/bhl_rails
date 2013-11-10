@@ -1,0 +1,35 @@
+THE THEORY OF PROBABILITY. 245
+instance, that the probabilities would be the same when
+coins are thrown successively as when thrown simul-
+taneously. a Some men of high ability, such as Ancillon,
+Moses Mendelssohn, Grarve, b Auguste Comte c and J. S.
+Mill, d have so far misapprehended the theory, as to
+question its value or even to dispute altogether its
+validity.
+Many persons have a fallacious tendency to believe that
+when a chance event has happened several times together
+in an unusual conjunction, it is less likely to happen
+again. D'Alembert seriously held that if head was thrown
+three times running with a coin, tail would more probably
+appear at the next trial. 6 Bequelin adopted the same
+opinion, and yet there is no reason for it whatever. If
+the event be really casual, what has gone before cannot in
+the slightest degree influence it.
+As a matter of fact, the more often the most casual
+event takes place the more likely it is to happen again;
+because there is some slight empirical evidence of a
+tendency, as will afterwards be pointed out. The source of j
+the fallacy is to be found entirely in the feelings of/
+surprise with which we witness an event happening by .
+apparent chance, in a manner which seems to proceed from
+design.
+Misapprehension may also arise from overlooking the
+difference between permutations and combinations. To
+throw ten heads in succession with a coin is no more
+unlikely than to throw any other particular succession
+of heads and tails, but it is much less likely than five
+heads and five tails without regard to their order, be-
+a Todhunter, p. 279. . b Ibid. p. 453.
+c 'Positive Philosophy,' translated by Martineau, vol. ii. p. 120.
+d 'System of Logic/ bk. iii. chap. 18. 5th Ed. vol. ii. p. 61.
+e Montucla, ' Histoire,' vol. iii. p. 405. Todhunter, p. 263.

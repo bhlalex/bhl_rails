@@ -1,0 +1,47 @@
+HELIUM. 341
+the first *^set" and thirty-eight to the second. Of the twenty
+" visual " lines, thirteen have been observed in the spectrum of
+the chromosphere ; the missing lines all belong to the second sub-
+ordinate series of the first " set," and are so faint in the artificial
+spectrum of the gas that their failure to be found in the chromo-
+sphere needs no explanation.
+The fact that the lines thus divide into two mathematically
+independent " sets " has led Runge to believe that the helium ob-
+tained from the minerals is really a mixture of two distinct gases,
+and he has found it possible to partially separate the two by a
+process of diffusion. The true helium, the element that gives D3
+and the other lines that are always present in the chromosphere
+spectrum, he considers to be the denser of the two ; the spectrum
+of the other contains most of the lines that appear only occasion-
+ally in prominences. The lighter component has as yet received
+no name. Lockyer calls it simply X.
+The lines of the series to which D3 belongs are all double, hav-
+ing a very faint companion on the lower (i. e., red- ward) side, ex-
+tremely close to the principal line. When Runge announced this
+discovery early in June it at first produced something like con-
+sternation among spectroscopists, for at that time there still re-
+mained more or less doubt as to the validity of Ramsay's identifi-
+cation, and the solar D3 had never been observed to have such a
+companion. Very soon, however, Hale, Huggins, Lockyer, Reed
+of Princeton, and other observers who had sufficiently powerful
+instruments, detected the little attendant of D3 in the spectrum of
+prominences, so that the momentary distrust was replaced by ab-
+solute confidence.
+As to the physical and chemical properties of the new gas, our
+knowledge is still limited and our conclusions are embarrassed by
+the uncertainty whether we are dealing with a single element or
+a mixture whether Dr. Ramsay has introduced to the world one
+infant or a pair of twins.
+The gas liberated from cleveite, and purified as far as possible,
+shows a density just a little more than double that of hydrogen,
+and is therefore much lighter than any other known gas except
+hydrogen itself. If it is a mixture, the lighter gas must have a
+density less than two, and may even prove to be lighter than
+hydrogen ; while the true D3 helium may have a density any-
+where between two and four, depending on the proportions of the
+mixture and the density of the lighter compound. In any case
+both the true helium and X are lighter than anything else but
+hydrogen.
+It would be very fine, we may remark in passing, if the lighter
+component could have been identified with " coronium," but this
+seems impossible since the characteristic 1,474 line (A 5,316) does

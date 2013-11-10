@@ -1,0 +1,57 @@
+91
+Explanation of table I:
+In this table 6(0,/) calculated for the values of cos i is given in the first column
+for three different values of A by the aid of (3). In column 3 the found values of
+6(0,/) have been multiplied by a factor in order to render a comparison with
+Abbot's values, recorded in the fourth column, possible.
+By tlie aid of (3) and Abbot's values, which 1 subjoin, Defant
+tries to draw^ a conclusion on the effective temperature of the sun.
+Wavelength in fx
+Radiation in the centre of
+the sun's disc.
+0.323
+144
+0.386
+338
+0.433
+456
+0.456
+515
+0.481
+511
+0.501
+489
+0.534
+463
+0.604
+399
+0.670
+333
+0.699
+307
+0.866
+174
+1.031
+111
+1.225
+77.6
+1.655
+39.5
+2.097
+14.0
+(Abbot's values).
+His reasoning is as follows:
+For z = we obtain h{0,0) i.e. formula (3) then gives for every wave-
+length P. tlie intensity of radiation passing out in the centre of the sun's
+disc, when that of the area of the photosphere for this ^. is put equal
+to i. What we measure is, however, not the quantity 6(0,0), but
+the radiation iy, actually passing out, which is in relation with 6(0,0)
+through the formula:
+i)
+(4)
+Ix =
+6(0,0)
+in which 7; is the intensity of radiation in the spectrum of the
+photosphere (considered as absolutely black body) for the wavelength P..
+By the aid of (3) and (4) and Abbot's values the following table
+can, therefore, be calculated for /; (table II). According to our

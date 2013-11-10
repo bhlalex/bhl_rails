@@ -1,0 +1,36 @@
+Physiology. — "On the Artificial Extra-pause of the Ventricle
+of the Frog's Heart." By Dr. S. dv, Boer. (Communicated by
+Prof. W. Einthoven).
+(Communicated at the meeting of June 26, 1920).
+Dastke and Langendorff were the first to show that sometimes
+after applying an artificial stimulus to the auricles of the frog's heart,
+a prolonged ventricular pause arises, which is not initiated by an
+extrasystole of the ventricle. Engklmann was in position to corroborate
+this experiment and to elucidate it. He pointed out that the experiment
+succeeds only when the stimulus is given to the auricles at the
+commencement of the ventricular systole, after which an extrasystole
+of the auricles will ensue. After this the excitation proceeds to the
+ventricle and reaches it before the close of the refractory stage, so
+that no ventricular systole follows. Only after the compensatory
+pause which succeeds the extrasystole of the auricles do the auricles
+and the ventricles resume their normal rhythm. This experiment,
+however, seldom succeeds. It is instanced in fig. 1. At 1 the auricles
+were given an induction shock *) at the commencement of the ven-
+tricular systole. After the auricular extrasystole evoked by this shock
+the excitation reached the ventricle during the refractory stage, so
+that no systole of this chamber arose.
+Not before the end of the compensatory pause of' the auricles did
+an auricular systole arise again, followed by a ventricular systole.
+I have now been more successful in this experiment, by lengthen-
+ing' the duration of the refractory stage of the ventricle. Then
+the excitation after the artificial extras) stole of the auricles will
+with greater certainty reach the ventricle still in the refractory
+stage. This lengthening of the refractory stage of the ventricle may
+be effected in different ways. First of all we know ever since
+Langendorff wrote, that the duration of the postcompensatory sys-
+tole has increased. 1 now found that during the postcompensatory
+systole also the duration of the refractory stage has increased. It
+') In all figures the closing of the primary circuit was indicated by a downward
+deflection of the signal. At the opening of the primary circuit an upward deflection
+of the signal was effected. In figs. 1, 2, 3, 4, and 6 the closing stimuli were shut
+off and consequently they did not reach the heart.

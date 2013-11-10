@@ -1,0 +1,32 @@
+382 HAYES— U. S. NAVY MV TYPE OF HYDROPHONE.
+make the sound appear centered in the listener's head. It has been
+found in practice that the average listener can determine the path
+difference in water to within about one half inch.
+B/naum/ Arm AB'C
+CompensofJon c/'Cco3
+^rror /nCbmpen.sat/cir> t S
+frror /nAng/e a(?-'(?Co3'-^
+ERROR IN ANCLE 'O'DUETO ERROR IN CDMPENSATnR SETTING
+Fig. 6.
+Referring to Fig. 6, it will be seen that this error due to the per-
+sonal element may introduce a relatively large error in the determi-
+nation of 9 and hence the same error in the sounding angle $ which
+is the supplement of 6.
+For simplicity assume the hydrophone to consist of two single
+receivers {A) and {B), Fig. 6, one connecting with each ear and
+separated a fixed distance (C). Sound approaching from the direc-
+tion represented by vector {V) makes an angle 6 with the line joining
+the two receivers. The operator determines this angle by measuring
+the distance {d) to within one half inch. Calling this error 8 we
+have the following relation
+= cos"^
+"c ■
+The accuracy with which this equation determines 6 is propor-
+tional to (C), the distance between the two receivers, and varies
+with the value of {d). Since the value of the cosine changes slowly
+with change of angle as the value of the angle approaches zero, it
+is evident that the value of 8 will produce an abnormally large error
+in the determination of 6 when the direction of the sound approaches
+parallelism with the line connecting the receivers. It is to be noticed
+that in determining the sounding angle $ this condition is approached
+when the vessel enters shallow water.

@@ -1,0 +1,33 @@
+THE SECULAR EFFECTS OF THE IXXREASE OF THE
+SUN'S MASS UPON THE MEAN MOTIONS, MAJOR
+AXES AND ECCENTRICITIES OF THE
+ORBITS OF THE PLANETS.
+Bv T. J. J. SEE.
+{Read April _'/, 1911.)
+In the days of Newton, Lagrange and Laplace, it was assumed
+that the formation of the planetary system was essentially complete,
+and the sun's attraction rigorously constant from age to age ; and it
+was scarcely deemed necessary to consider the secular efit'ects of
+slight modifying causes such as the downfall of cosmical dust upon
+the bodies composing the solar system. But the progress of the past
+century has shown that the Newtonian hypothesis of a constant
+mass and a central attraction depending wholly on the distance, but
+not on the time, is at best a very rough approximation to the truth;
+for in addition to the downfall of cosmical dust upon all the bodies
+of our system, it has been shown by the researches of Arrhenius,
+Schwartzchild and others, that the sun especially is losing finely
+divided matter under the action of repulsive forces such as we see
+illustrated in the streamers of the corona and the tails of comets.
+In our modern studies of the orbital motions of the heavenly bodies,
+therefore, we have to take the central mass as variable with the
+time, and consider the small secular changes which will follow from
+a variation of the central attraction incident to a gradual change of
+mass.
+These questions have been treated in some form by many of the
+successors of Newton ; and even this great philosopher himself in
+one case supposed that the central mass might be varied by a comet
+falling into the sun.^ Laplace devotes considerable attention to the
+secular equations for determining the eltects of the decrease of the
+sun's mass due to loss of light, then supposed to be of corpuscular
+* " Principia." Lib. III., last proposition.
+269

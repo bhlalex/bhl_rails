@@ -1,0 +1,44 @@
+544
+in
+ent of a ventricular systole. After the evoked extrasystole
+of the auricles the excitation reached the ventricle after the refractory
+stage, so that a premature ventricular systole ensued. When, how-
+ever, at the next upward deflection of the signal the stimulus is
+repeated at the commencement of the postcompensatory systole, the
+excitation after the extra auricular systole thus evoked, readily
+reaches the ventricle during the refractory stage. Now an extrapause
+of the ventricle follows. In this way it is easy to repeat the ex-
+periment during every following ventricular systole, which is broad-
+ened every time. At last it is even unnecessary to stimulate the
+auricles at the commencement of the ventricular systole, the last
+stimulus being given about the middle of the ventricular systole
+without diminishing the success of the experiment. This, indeed, is
+easily understood, if we look more carefully at the ventricular
+systoles of this artificial halved ventricular rhythm. We then observe
+that after the compensatory pause the postcompensatory systole is
+broader than the preceding ventricular systoles, and that every suc-
+ceeding systole surpasses its predecessor in broadness. We see then
+that the contractility of the ventricular muscle increases after every
+lengthened ventricular pause. This restoration of the ventricular
+muscle in the artificial halved rhythm involves an increase indura-
+tion of the refractory stage from systole to systole. This is why
+ultimately the stimulus can be administered to the auricles later in
+the ventricular period, without interfering with the success of the
+experiment. After the last stimulus the ventricle resumes again the
+normal rhythm. l )
+In the second place we can lengthen the refractory stage of the
+ventricle by poisons, namely digitalis, veratrin, antiarin or barium-
+chloride and, by doing so, ensure success of our experiment. The
+curves of Fig. 2 refer to a frog's heart that had been poisoned
+with bariumchloride. At every upward deflection of the signal the
+auricles receive an opening induction shock at the commencement
+of a ventricular systole. Every time there appears an extrasystole
+of the auricles and every time after this the excitation reaches the
+ventricle during the refractory stage, so that extrapauses of the ventricle
+originate, which are not preceded by premature ventricular systoles *).
+1 ) After poisoning with veratrin, digitalis, antiarin or barium-chloride, the halved
+rhythm of the ventricle can persist after one or more extra-pauses of the ventricle,
+without stimulating the heart any more. This also occurs after bleeding the non-
+poisoned frog's heart. (See fig. 5).
+-) In a later stage of this intoxication the ventricle maintains its pulsation in
+the halved rhythm after such an artificial extrapause.

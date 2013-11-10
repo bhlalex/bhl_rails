@@ -1,0 +1,46 @@
+Proteids.
+4000 General.
+4010 Auiiiiiil proteids. (See also Q 1100-1190, 8330, 8440,
+9140).
+4020 Vegetable.
+Entries in these two groups shall be arranged alphabetically.
+Coloured Compounds.
+5000 General.
+5010 Coloured substances not dyestuffs.
+5020 Dyestuffs.
+These divisions shall be subdivided — 5010 into Il^'drocai'bous
+(coloured), Alcohols (coloured). Ketones (coloured), &c. ; 5020
+into Azo - dyes, Triphen3l methane - dyes, Antliiaceue - dyes,
+Dyestuffs of vegetable origin. Unclassified dyes, kc, in each of
+which subdivision entries shall be arranged alphabetically.
+5500 Operations in Organic Chemistry.
+Entries shall be made in this division under headings such as
+dissolution and solvents, distillation, &c., oxidation, nitration,
+acetylation, In^drolysis, &c., &c.
+Analytical Chemistry.
+6000 General.
+6100 Detection of elements.
+6150 „ compounds.
+. 6200 Estimation of elements
+6300 „ compounds.
+6400 Gas analysis.
+6500 Applied analysis.
+All entries of a general character relating to apparatus,
+methods, &c., «&c., shall be arranged in division 6000, under
+appropriate headings.
+Division 6200 shall include all entries relating to tlie determi-
+nation of individual elements in their compounds and in mixtures,
+excluding determinations of atomic weight. The entries shall
+be arranged in sections distinguished by the elementary symbols
+used as registration symbols.
+Division 0300 shall include all entries i-elating to the deter-
+mination of individual compounds — e.g., alkaloids, carbohydrates,
+&c., including that of compound radicles such as acetyl in
+acetates, methyl in ethers, &c., but excluding gases. The
+entries shall be arranged in sections distinguished by the
+elementary symbols of the dominant elements in the compounds
+used as registration symbols, or in the case of organic com-
+pounds by the registration symbols of the groups to Avhich they
+belong. If necessary, gravimetric, volumetric, electrolytic,
+physical, &c., methods may be distinguished by letters, such as
+g, V, &c.

@@ -1,0 +1,49 @@
+55
+Les deux formules coïneident indépendamment de m, sauf par
+les coefficients to et w^. Si m = Q, ou a u)=to 1 = 0.
+Nous écrivons ainsi la relation générale :
+F {6 + k) — F{0) _F{0 + 2m k x + k) — F (O) 2m ^ + A
+& 2m £, -|- ^ &
+F (0 4- k.) — F(0) -2mA:. to'
+ay' étant to ou w, selon que ?» est positif ou négatif. Posons
+k -f- 2m Aij = &'
+k'
+2m &,
+= fi,
+Il vient
+Q [0, k] = Q [d,k'] n -f Q \0, AJ i' -f <M
+/:
+Soit
+= r suppose au moins égal a J, et e défini par
+k
+»■ = !,
+S F>°-
+Nous choisirons 1' image &' d'abord de maniere que \i soit positif
+et v non négatif. D'après fA — |- i' = 1 , cette condition sera
+— 2mk,
+0<
+"<
+Done m a Ie signe de — e, si m 7^ 0, et en outre 2|?/i|<[ r. Done,
+1
+sie=:-|-l, — r<^2ra<^0, to^to^/P
+Si e= |-l,r>2m>0, tü'=u)=k'
+Done, dans tons les cas,
+i+i
++•• + i
+2mV
+1+ v).
+2m-l
+<2\m\k*
+<2mk\
+(O
+6 A — peut être remplacé par 2ómkA.
+k
+La substitution est exacte même pour m = 0.
+La condition ,u ^> 0, montre que k' et k sont de mème signe. Parmi
+toutes les images O -\- k -f- 2mk x de 6 -f k, situées dumêmecótéde
+6 que 6 -j- &, choisissons celle qui, sans être inférieure a l'intervalle
+6 — k lf 6 -f- k lt est la plus voisine de 6.
+Nous appellerons ce point O -\- k' V image-r éduite propre a O
+du point 6 -j- k par rapport au couple {6, 6 -f- k x ). La distance de
+deux images consécutives obtenue par une suite de reflexions doubles
+sur Ie couple (#, 6 -f- k x ) étant 1k x , k' vérifie les conditions

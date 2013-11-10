@@ -1,0 +1,46 @@
+( 767 )
+mnltiplicitv of the singular point as point of intersection of the curve
+with the lirst polar of an arbitrarv point.
+Influence of a rkat. singularity. Suppose when dissolving a
+real higher sinciularitv with a reduction of class r/^, we arrive nt ^\
+real inflexions and t'\ isolated bitangents. The class then becomes
+/■_!_(/ so that ensues from the equation of Klein, if for simplicity's
+sake Ave think the cu)-ve to possess but one higher singularity:
+M + ^' + 2t" 4- ^\ + -^r", = k + '/, + h' + 20".
+What the value is of ,^\ and of t'\ separately, depends upon the
+manner of dissolution. If however Ave a[)ply the above equation to
+curves formed in different manners of dissolution, we find that
+,:?\-f 2r'\ has always the same value, called by me the reduction of
+reaUtij of the singularity. In my dissertation I shall deduce out of a
+definite manner of dissolution for that reduction of reality the
+value d^-\-i\ — t-^, which causes the latter equation to become
+n + .i' + 2t" + V, = k + k' + 2d" -f- ^ ^) . . . . (3)
+Influence of two conjugate lmaginaky sin(;ularities. As we excluded
+1) This equation agrees with the uidex of rmUty given by A. Brill (Uebcr
+Singularitiiten ebener algebraischer Curven und eine neue Curvenspecies. Math.
+Ann., Bd. 16 (1880), p. 848, spec. p. 391) based upon the decomposition of the
+higher singularity in PLÜcKER-singularilies. A. Cayley (On the Higher Singularities
+of a Plane Curve. Quart. Jouni. of Math., Vol.! (1866), p. ^2\% CoUected Math,
+papers, Vol. 5, p. 520) has namely shown, although in a not entirely satisfactory
+way, that the PLÜCKER-equations as well as the equation of deficiency keep holding
+good for curves with higher singularities, if we regard such a singularity as equi-
+valent to X* cusps, |3* inflexions, 5* double points and t* bitangents. For k* and ^*
+Cayley gives
+^* = t-[ , ^* = v-l , (4)
+and he indicates how 5* and t* can be deduced from the PuiSEUx-developments
+in point and line coordinates.
+Later on fuller proofs for the results of Cay'ley have been furnished, among wliicli
+that of Stephen Smith excels for its simplicity and rigorousness (1. c, p. 153— 16:2),
+based upon the line of thoughts of Cayley. For the CAYLEY-numbers of equivalence
+Smith introduces (1. c , p. 161) the names cuspidal index, uiflexional i)id(\c,)iodal
+index and Ijitangetitial index and among them he finds a simple relation (1. c, p. 166).
+Brill has shown that this CAYLEY-equivalence does not only completely satisfy the
+PLÜCKER-equations and the equation of deficiency, but tliat if is possible to deform
+the curve retaining order, class and deficiency in such a way that the higher singu-
+larities are decomposed into the equivalent ones of Plücker. Brill calls tliis opera-
+tion a deformation of tiie singularity (I.e. p. 361). Already Cavlev (On the Cusp
+of the second kind or Nodecnsp. Qnart. .Journ. of Math., Vol. 6 (1864), p. 74,
+Collected Math, papers, Vol. 5, p. -265) gives for the case of a ramphoid cusp an example
+of a such like deformation although he does not emphatically draw the attention
+to the fact tliat class and deficiency remain unaltered.
+hi an elegant way Biull indicates further algebraically, that for every real defor-

@@ -1,0 +1,122 @@
+1922]
+NATURAL SCIENCES OF PHILADELPHIA
+115
+crystals, or to poor reflections. The results of the measurements
+of the others are given in Table II.
+The following forms were noted, (fig. 1) : a (100), b (010), m (110)
+w (650), 1 (430), B (10.7.0), z (850), and p (101), of which w, B,
+and z are new. Their characters in brief are: a (100) exists as a
+very narrow face; b (010) is a large brilliant face which usually
+gives multiple reflections; m (110) is a wide pearly face, free of
+striations, and usually giving fair, bright reflections; w (650), 1
+(430), B (10.7.0), and z (850) are line faces forming a striated zone
+between m (110) and a (100); p (101) is a wide, deeply striated
+dome, giving a series of multiple reflections, of which the p angle
+is fairly constant.
+The average coordinate angles of m (110) and p (101) were used
+to determine the axial elements given at the top of Table II.
+The cleavage of wavellite was given by Senff as parallel to p
+(101) and b (010) rather perfect; and by Des Cloizeaux as parallel
+to m (110) and b (101). The only cleavage noted by the writer
+was a very perfect one parallel to m (110).
+Table II. Wavellite Forms, Llallagua, Bolivia
+a :b : c = .5520 : 1 : .4067
+po = .7365; qo = .4067
+Let-
+Form
+Faces
+ter
+meas-
+Calculated
+Measured
+Signal
+Miller
+Gds.
+ured
+<P
+P
+<P
+P
+/
+o /
+o /
+o /
+a
+100
+ooO
+7
+90 00
+90 00
+89 52
+89 48
+Poor, faint
+b
+010
+Ooo
+12
+90 00
+6
+89 59
+Fair, multiple
+m
+110
+00
+21
+61 6
+90 00
+61 6
+89 52
+Fair, bright
+w*
+650
+|oo
+2
+65 17
+90 00
+65 24
+89 57
+Fair, faint
+1
+430
+foo
+4
+67 30
+90 00
+67 22
+90 12
+Fair, faint
+B*
+10.7.0
+V-a>
+4
+68 52
+90 00
+68 55
+89 56
+Poor, faint
+z*
+850
+'8
+"5 00
+3
+70 58
+90 00
+70 52
+89 59
+Poor, faint
+P
+101
+10
+12
+90 00
+36 23
+90 1
+36 23
+Fair, multiple
+New forms marked *
+Wavellite, Trimble's Mine, Pennsylvania
+Trimble's mine is the famous locality for wavellite listed in the
+older books as "White Horse Station, Chester County." The old
+abandoned limonite pit so described is situated about a mi l e
+northwest of Planebrook Station on the Philadelphia and Chester
+Valley branch of the Philadelphia and Reading Railroad, in Chester

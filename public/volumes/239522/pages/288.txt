@@ -1,0 +1,37 @@
+EXPANSION PKOBLEMS. 417
+verges uniformly, its sum must necessarily have continuous deriva-
+tives of all orders.
+Of the adjoint boundary conditions, v — fx, depend on the point
+TT only, while the remaining fjt, contain linearly independent combina-
+tions of the values of v and its derivatives at the point 0. The char-
+acteristic functions of the adjoint system have an expression
+Vn (x) = [d'l] e'"'«'M('^^) + [d'o] eP''«'M+i('^^),
+the interpretation of which is similar to that of (48). Finally, the
+general coefficient in the formal development of the function (14)
+may be treated as in the previous cases, and it may be shown that for
+infinitely many positive integral values *^ of q the series diverges at
+every interior point of the interval (0, tt).
+It has been pointed out that the numbers pnWf^ and pmOf^+i, which
+figure in the formula (48), are situated along rays which become
+less and less inclined to the axis of pure imaginaries as [x increases.
+If an analogous formula were to hold in the case that v is even and
+IJ. = ^v, which has been excluded by our hypotheses, the corresponding
+numbers would be distributed along the axis of imaginaries itself,
+and the formula would resemble those which Birkhoff finds in the case
+of regular boundary conditions.*^ As a matter of fact, the boundary
+conditions do become regular when (x = ^v, ii the order of the deriva-
+tives at the point involved in the last /x conditions is not too high.
+This is precisely what happens in the case of Liouville's conditions,
+with /i = 1, when v is equal to 2.
+41 In the formula corresponding to (46), there will be a determinant contain-
+ing wi,..., Wfi-i, w^, and one containing Wi,. . ., w^-i, w^i. When /x is odd, a
+common factor is disclosed by dividing the first determinant by a power of wi,
+and the second by the like power of w^; when jj. is even, the second determinant
+is to be divided by a power of Wi, and the first by this power of W2. Among
+V successive values of q, there will be just m — 1 values for which the determi-
+nants vanish. Not more than one other value is excluded by the requirement
+as to the order of magnitude of the quantity corresponding to (47), and there
+remain at least p — /j. oi every v consecutive values of q, which are available
+for the purposes of the demonstration.
+42 In the paper II, p. 389. The analogy is not perfect; the determination
+of the characteristic values becomes less simple in the regular case.

@@ -1,0 +1,46 @@
+i 3 8 POPULAR SCIENCE MONTHLY
+molecule itself. Now the term isorropesis is used to define the oscilla-
+tion that takes place between the residual affinities of atoms in juxta-
+position. The idea, however, may have already presented itself that
+in the case of the benzol structure the presence of keto-enol tautomerism
+with its particular period of vibration together with the oscillations
+occurring in the benzol nucleus, might, by a mutual combination of
+these two periods, give a period of greater wave-length and thus
+coincide with light rays in the visible region of the spectrum. If this
+were true, then these two conditions just stated might be looked upon
+as potential color systems. The actual presence of the conditions for
+isorropesis in the aliphatic series argues most strongly for the same
+sort of oscillation in the aromatic series wherever circumstances are
+favorable for its existence. In fact it seems highly probable that its
+presence alone will account for all the color-formations in the aromatic
+series. Other vibratory centers may exist and in fact do exist in the
+various compounds, but their presence only influences the amount of
+isorropesis that can take place and does not altogether destroy this
+particular form of oscillation.
+In the quinoid type of compounds the actual existence of the two
+distinct modifications which underlie isorropesis has already been
+shown. The change of one of these forms into the other and vice versa
+necessitates a change in manner of linking throughout the molecule
+which accompanies the oscillation in question. The fact that no one
+arrangement of atoms, no matter what their method of linking, can
+be made to show an absorption band is sufficient in itself to argue for
+the make-and-break in the two forms of the quinone as the cause of
+the color that exists among members of this class. For many years
+the quinoid linking has been supposed to be the source of color in
+compounds of quinone formation. It was not until recently, how-
+ever, that Gomberg has been able to prove conclusively that the
+quinoid type of linking actually exists in colored compounds of this
+nature. Not alone the presence of the quinoid type, but also the
+benzo'id type has been shown to be present. In fact he has been able
+to interpret the conditions which determine the equilibrium always
+existent between these two forms and thus has succeeded in establishing
+by purely chemical means the amount of quinoid formation and con-
+sequently of isorropesis possible among aromatic derivatives. The
+spectroscopic evidence, therefore, on the existence of just such a type
+of oscillation as may be present in equilibria of this nature is corrob-
+orated. Upon the amount of isorropesis shown — a factor always
+dependent upon the relative unsaturated condition of the atoms coming
+into juxtaposition — we arrive at the depth of color in any given equi-
+librium. The presence of other groups may augment or retard the
+influence of these unsaturated atoms undergoing isorropesis, and con-
+sequently the corresponding variations in the oscillation frequency

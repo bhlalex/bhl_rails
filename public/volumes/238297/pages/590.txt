@@ -1,0 +1,36 @@
+100 THE PRINCIPLES OF SCIENCE.
+may even be doubtful whether he could treat it in any other
+manner. Nevertheless there is no error in the final results,
+because having obtained the formulae flowing from this
+supposition, each straight line is then regarded as be-
+coming infinitely small, and the polygonal line becomes
+^indistinguishable from a perfect curve z .
+In abstract mathematical theorems the approximation
+to absolute truth is perfect, because we can treat of in-
+finitesimals. In physical science, on the contrary, we treat
+of the least quantities which are perceptible. Neverthe-
+less, while carefully distinguishing between these two dif-
+ferent cases, we may fearlessly apply to both the principle
+of the superposition of small motions or effects. In
+physical science we have only to take care that the effects
+really are so small that any joint effect will be unquestion-
+ably imperceptible. Suppose, for instance, that there is
+some cause which alters the dimensions of a body in the
+ratio of i to i + a, and another cause which produces an
+alteration in the ratio of i to i + ft. If they both act at
+once the change will be in the ratio of i to (i + a) (i -f ft),
+or as i to i + a + ft + aft. But if a and ft be both very
+small fractions of the total dimensions, aft will be yet far
+smaller and may be disregarded ; the ratio of change is
+then approximately that of i to i+a+ft, or the joint
+effect is the sum of the separate effects. Thus if a body
+were subjected to three strains at right angles to each
+other, the total change in the volume of the body would
+be approximately equal to the sum of the changes pro-
+duced by the separate strains, provided that these are of
+very small amount. In like manner not only is the ex-
+pansion of every solid and liquid substance by heat
+approximately proportional to the change of temperature,
+when this change is very small in amount, but the cubic
+z Challis, ' Notes on the Principles of Pure and Applied Calculation/
+1869, p. 83.

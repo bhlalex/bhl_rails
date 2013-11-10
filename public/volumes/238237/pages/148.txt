@@ -1,0 +1,36 @@
+MUNROE-HOWELL— PRODUCTS OF DETONATION OF TNT. 203
+gages showed their volumes to be 15.3 and 20.6 liters respectively
+and these latter volumes are made use of here in ascertaining the
+loading or charging density. It is to be noted that the pressure in the
+gage is reduced to 50 d= 5 millimeters before the explosive is fired.
+Unless otherwise stated a No. 8 electric detonator, containing in
+its copper capsule 2 grams of composition consisting of mercuric
+fulminate 80 per cent, and potassium chlorate 20 per cent., was used
+to detonate each charge of TNT.
+As before stated the explosive used was Grade I TNT prepared
+for the Ordnance Department of the U. S. Army. The material
+was received in bulk and in preparing it for the gage the weighed
+charge was packed in a tinfoil wrapper. This tinfoil varied in
+weight from 1.5 grams on the 25 gram charge to 9 grams for the
+400 gram charge of TNT.
+The pressure of the permanent gases in the gage was measured
+on a calibrated Schaefifer and Buddenberg gage 5 minutes after
+firing the shot, and a differential sample of the gases drawn oi¥ over
+mercury for analysis one half hour after firing the shot, the tem-
+perature of the gage and the gases being read at the same time.
+In those tests where a charge of 250 grams or more was used,
+the pressure of the gases was greater than the capacity of the
+Schaefifer and Buddenberg gage. Accordingly, in order to be able
+to make a reading, immediately after firing the shot, the gases were
+allowed to equalize in pressure between the 15-liter gage and a 20-
+liter gage previously evacuated at 50 millimeter pressure, connected
+together for that purpose. The observed pressure reading in those
+tests is the pressure obtained in the two gages after equalization.
+The gases were analyzed in the Burrell modification of the Orsat
+apparatus described as to its construction and operation by Burrell
+and OberfalP' being determined in the order CO„, O, CO, H, CH^
+and N, and the results of the analyses are presented as determined
+in percentages by volume.
+12 "The Use of Copper Oxide for Fractionation Combustion of Hydrogen
+and Carbon Monoxide in Gas Mixtures," G. A. Burrell and G. G. Oberfall.
+Jour. Ind. Eng. Chem., 8, 228-31. 1916.

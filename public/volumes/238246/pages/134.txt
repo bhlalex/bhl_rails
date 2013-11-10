@@ -1,0 +1,59 @@
+19J
+V = tp {i) — (fi {k)
+Jc = 2 .3.4
+(3)
+I Iiave extensively set this fortli in mj treatise "Le Piiénomène
+de Zeeman et les séries spectrales" ^), and will henceforth refer to this.
+There I hare demonstrated among others that for every "complex"
+of spectrnm lines, i.e. all the spectrnm lines whose freqnencies satisfy
+eqnation (3) when the functions if' and (f are given, and i and k
+each pass through the series of the whole positive values, a definite
+type of anomalous ZEEMAN-effect holds, provided the influence of the
+PASCHEN-BACK-effect be taken into account. Hence we may briefly
+say that everj^ type of anomalous ZEEMAN-effect is determined by the
+form of the functions xp and (p. When these functions have once been
+determined, the difference of these functions for positive whole values
+of the argument always yields a spectrum line with a definite type
+of ZEEMAN-effect.
+As has been shown more at length in my cited paper"), these
+functions may be indicated as :
+Single
+P
+s
+d
+/
+Double
+P
+P'
+S S'
+D I)'
+F
+F'
+Triple
+n
+77'
+n"
+t;
+2'
+2"
+A
+A'
+A"
+0'
+<p"
+Accordingly the symbol nn is the brief way of writing:
+i' =r 1 . 2 . 3 . . .
+k=2 .3.4:...
+v= n{i) — 2 {k)
+For the ZEEMAN-effects belonging to every complex I refer to (I.e.)-
+The above question may, therefore, now also be worded as follows :
+Is each of the above-mentioned functions ("sequences") separately
+changed by a magnetic field, and is, therefore, the ZEEMAN-effect
+that is observed the result of the change of the two sequences together?
+Or could we ask when speaking of //-paths, ^-paths etc., by
+which we therefore express that an electron that jumps from an
+-^-path to a //-path gives rise to a spectrum line belonging to the
+complex n^ :
+Is every //-path, -^""-parth, etc. in a magnetic field each in itself
+1) T. VAN LoHUiZEN, Arch. Musée Teyler (III) 2, p. 165. 1914.
+') Henceforth to be indicated as (1. c).

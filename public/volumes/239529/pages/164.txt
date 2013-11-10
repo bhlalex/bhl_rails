@@ -1,0 +1,46 @@
+227
+nation comprises entre
+J 20 , 120 ,
+a et -r— a, ce qui est incompatible avec
+1 J!i x l Z l
+la 4 e condition ci-dessus; car l'épaisseur de j (s) en 6 t est 1.
+Supposons \6 — 0,|<C*> ^ et ^j étant s,u ' iG s> )- Puisque K a une
+5
+épaissenr supérieure a — daus tout intervalle contenant 6 ou #, et
+6
+de longueur inférieure a s, nous pouvons trouver sur K deux suites
+de nombres 6 -J- h n , 6 % -\-k n de maniere que
+<3 et 2<
+< 3.
+1°. A, =z — k x =6 t — d % 2°. 2 <
+D'après tf> (#',.?) < — - quel que soit 6' sur K, on adonc(« = 3):
+1 al
+Q, (6, 6,-6) = <p, (6) + Q0Ó A {6 t - 6)
+et de même
+Q, <*,. # - 0*) = <Pi (*.) + 60 <*' ^{* ~ *.)■
+D'après l'égalité des premiers membres de ces deux relations
+Vx(0) -'/>,(*,) -■>.■<*
+6-6 n
+= 120 (V
+121
+(8\ S'\ *'" < 1).
+Cette relation est exacte quels que soient ^ et #, sur j(s), si
+|0 — #,|<.s\ Done les nombres derives de </>, {&) au point #„ spécia-
+, 120 ,
+lement a ; (s), sont inferieurs è, — cl en valeur absolue, ce qui est
+J J i
+oppose è. l'hypothèse 4.
+.En résumé, /' ensemble des points oü F (6) ne possède pas une
+dérivée ordinaire <r(6) est de mesure nulle. Soit E eet ensemble, et
+E x son complémentaire. La fonction ( p{6), définie seulement sur E u
+possède une dérivée approximative egale a f (6), sauf éventuellement
+en des points formant un ensemble de mesure nulle.
+Soit maintenant P un ensemble parfait discontinu quelconque,
+situé sur l'axe des 6. Soit M un point de P. Ajoutons a P son
+sjmétrique par rapport a M. Nous obtenons un ensemble parfait
+discontinu P(M), sjmétrique par rapport a M. M est done un point
+de seconde espèce (ou limite des deux cótés) de P{M). Pourchacun
+des intervalles contigus i de P{M) formons Ie rapport l(i) des distances
+respectives a M de l'extrémité de i la plus éloignée et de l'extrémité
+de i la plus rapprochée de M.
+l(i) est borné indépendamment de i et de M, si la distance de i

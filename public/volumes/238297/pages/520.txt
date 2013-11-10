@@ -1,0 +1,34 @@
+30 THE PRINCIPLES OF SCIENCE.
+upon its form or texture. It may be added that the
+temperature, electric condition, pressure, state of motion,
+chemical qualities, and all other circumstances concerning
+matter, except its mass, are indifferent as regards its gra-
+vitating power.
+As natural science progresses, physicists gain a kind of
+insight and tact in judging what qualities of a substance
+are likely to be concerned in any class of phenomena. The
+physical astronomer treats matter in one point of view,
+the chemist in another, and the students of physical optics,
+sound, mechanics, electricity, &c., make a fair division of
+the qualities among them. But errors will arise if too
+much confidence be placed in this independence of various
+kinds of phenomena, so that it is desirable from time to
+time, especially when any unexplained discrepancies come
+into notice, to question the indifference which is assumed
+to exist, and to test its real existence by appropriate
+experiments.
+Simplification of Experiments.
+One of the most requisite precautions in experimentation
+is to vary only one circumstance at a time, and to main-
+tain all other circumstances rigidly unchanged. There are
+two distinct reasons for this rule, the first and most ob-
+vious being that if we vary two conditions at a time, and
+find some effect, we cannot tell whether the effect is due
+to one or the other, or to both jointly. A second reason
+is that if no effect ensues we cannot safely conclude that
+either of them is indifferent ; for the one may have neu-
+tralized the effect of the other. In our logical formula,
+A (B -I- &) is identical with A (see vol. i. p. 112), and B may
+be indifferently present or absent ; but A (BC -|- be) is not
+identical with A, and none of our logical processes enabled
+us to make the reduction.

@@ -1,0 +1,50 @@
+278 Application of Barometer for indicating the Weather 9
+4thly Seek in the column of temperatures, Table I., for
+the temperature observed at the stations, (or for the mean
+of the two, if they differ,) and note down the number of
+feet, tenths, and hundredths, which are placed opposite to
+that temperature in the adjoining column.
+5thly. Make corrections (if requisite) from Table II.
+6thly. Multiply the numbers, so found and corrected,
+by the difference between the altitudes of the barometer at
+the lower and upper stations.
+7thlv. Add to the product the increased ratio, from
+Table III., which finishes the process.
+Table I exhibits the number of feet, tenths, and hun-
+dredths, in perpendicular altitude, indicated by the descent
+of the mercury in the barometer for each hundredth part
+of an inch; which descent varies according to the tem-
+perature of the air, at the rate shown in the corresponding
+column. This table is constructed on the supposition that
+the barometer at the lower station is at 30 inches.
+N. B. Although this calculation be given for each hun-
+dredth part of an inch of variation on the barometer, it may
+be used for variations of one tenth, or of one inch, by merely
+altering the denomination of the figures in the column, thus :
+Feet. Tenth Hund.
+The variation of 100th part of an inch, at temO .
+perature 90°, indicates altitude of r' '
+Feet. Tenth.
+The variation of a 10th part of an inch 99 > 5.
+Feet.
+The variation of an inch 995.
+Table II. shows the alteration which must be made in
+the numbers taken from Table I., when the barometer is
+not at 30 inches in the lower station. If it be lower than
+30 inches, the number of feet, which are placed opposite to
+the barometer's height in this table, must be added to the
+feet r& altitude corresponding with the descent of the mer-
+cury in the barometer for one inch. If it be higher than 30
+inches, subtract instead of adding.
+N. B. It the variation of the barometer be not so much
+as an inch, but only some tenths of an inch, then the
+figures in the second column will not represent feet, but
+tenths of feet to be added or subtracted.
+Table III. shows the number of feet to be ultimately
+added to each 100 feet of altitude. This number varies
+from 1 to 46 > according as the barometer in the upper sta-
+tion stands between the altitudes of 31 and 14 inches.
+N. B. A table for the correction, or equation of heat,, in
+the barometer, when the temperature of the atmosphere
+differs at the upper and lower stations, is provided for here,
+by the adjustment of the table of temperatures. T\ble

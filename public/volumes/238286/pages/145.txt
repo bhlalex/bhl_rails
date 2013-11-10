@@ -1,0 +1,47 @@
+208 THE POPULAR SCIENCE MONTHLY.
+intensity of the radiant center is inversely proportionate to the square
+of the distance from the screen, a very reliable comparison is attain-
+able. But the weak point is the variable and ill-defined character of
+the unit of comparison. In the French experiments this defect is to a
+great extent avoided by the use of a Carcel lamp, which not only is
+intended to consume a given quantity of oil per hour, but is further
+weighed at the commencement and at the close of each observation, so
+that a correction is made in case of any variation in the actual com-
+bustion. Still, the Carcel lamp is an arbitrary unit. It is equal to
+about 9/6 English standard sperm candles ; but when we have said
+that, we have only compared one arbitrary unit with another. In the
+case of the unit of heat, although it has been arrived at in terms of
+capacity (as regards the water heated) and of Fahrenheit's thermome-
+ter, which is in itself an arbitrary scale, it so happens that the Joule
+equivalent is exactly equal to the quantity of heat that is liberated by
+the combustion (if chemically perfect) of half a grain of carbon. If
+we take the same unit for the measurement of light, it must further
+be specified that the combustion of the carbon must be so effected as
+to produce carbonic acid and not carbonic oxide, and that it must take
+place in atmospheric air, and not in pure oxygen, or any other medium.
+That being borne in mind, it is probable that the combustion of a defi-
+nite quantity of carbon would prove a better measure of light than
+any that has yet been tried. It would, at all events, link the phenom-
+ena of luminiferous to those of calorific combustion, and afford a
+ready means of detecting waste of illuminative power.
+Various analyses have been given of ordinary coal-gas. Indeed,
+not only does that gas vary according to the quality of the coal from
+which it is- produced, but it differs according to the process by which
+it is produced from coal of the same quality. Experts are divided,
+for example, as to the degrees of heat at which it is best to effect the
+distillation of coal-gas. But for our present inquiry it is enough to
+assume the composition of coal-gas as analyzed by Mr. Vernon Har-
+court, who gives the proportions of fifty-eight per cent, of carbon and
+twenty-three per cent, of hydrogen. The details are given by Mr. D.
+K. Clark, in his invaluable work, the " Manual of Rules, Tables, and
+Data for Mechanical Engineers." Of this gas thirty cubic feet, at the
+temperature of 62 Fahr., weigh one pound. And the heating power
+of one pound of this gas (chemically speaking) is given by the same
+analyst at 22,684 British units of heat, of which sixty- three per cent.
+is due to the combustion of the hydrogen, and thirty-seven per cent,
+to that of the carbon. It thus follows that coal-gas is far more highly
+effective as a fuel than it is as a source of illumination. Other analy-
+ses give a yet higher proportion of hydrogen, the heat-giving element.
+There is, however, a mineral fuel in which this distribution of the
+elements is very different. Petroleum is a natural fluid, consisting of
+hydrogen and carbon, which has been distilled in the great laboratory

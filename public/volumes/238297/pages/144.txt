@@ -1,0 +1,35 @@
+118 THE PRINCIPLES OF SCIENCE.
+Fallacies analysed by the Indirect Method.
+It has been sufficiently shown, perhaps, that we can by
+the Indirect Method of Inference extract the whole truth
+from any series of propositions, and exhibit it anew in any
+required form of conclusion. But it may also need to be
+shown by examples that so long as we follow correctly
+the almost mechanical rules of the method, we cannot fall
+into any of the common fallacies or paralogisms which are
+not seldom committed in ordinary discussion. Let us
+take the example of a fallacious argument, previously
+treated by the Method of Direct Inference (p. 75),
+Granite is not a sedimentary rock, ( i )
+Basalt is not a sedimentary rock, (2)
+and let us ascertain whether any precise conclusion can be
+drawn concerning the relation of granite and basalt.
+Taking as before
+A = granite,
+B = sedimentary rock,
+C = basalt,
+the premises become A = Kb, (i)
+C ='Cb. , (2)
+Of the eight conceivable combinations of A, B, C, five agree
+with these conditions, namely
+A6C aBc
+Abe abC
+abc ;
+the description of granite is found to be
+A = A6C -I- Abc = A.b(G -I- c),
+that is, granite is not a sedimentary rock but is either
+basalt or not-basalt. If we want a description of basalt
+the answer is of like form
+G = A6C [ abC = bC (A | a).
+Basalt is a sedimentary rock, and either granite or not-
+granite. As it is already perfectly evident that basalt

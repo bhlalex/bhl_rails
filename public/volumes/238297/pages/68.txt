@@ -1,0 +1,27 @@
+42 THE PRINCIPLES OF SCIENCE.
+The late Professor Boole first drew attention, so far as
+I know, to this property of logical terms, and he called
+it the property of Commutativeness e . He not only stated
+the law with the utmost clearness, but pointed out that
+it is a Law of Thought rather than a Law of Things.
+I shall have in various parts of the following pages to
+show how the necessary imperfection of our symbols
+expressed in this law clings to our modes of expression,
+and introduces complication into the whole body of
+mathematical formulae, which are really founded on a
+logical basis.
+It is of course apparent that the power of commutation
+belongs only to terms related in the simple logical mode
+of synthesis. No one can confuse 'a house of bricks/
+with * bricks of a house/ ' twelve square feet' with ' twelve
+feet square/ 'the water of cry stall ization' with 'the
+crystallization of water/ All relations which involve
+differences of time and space are inconvertible ; the
+higher must not be made to change place with the
+lower, or the first with the last. For the parties con-
+cerned there is all the difference in the world between A
+killing B and B killing A. The law of commutativeness
+simply asserts that difference of order does not attach to
+the connection between the properties and circumstances
+of a thing to what I shall call simple logical relations.
+e 'Laws of Thought/ p. 29^

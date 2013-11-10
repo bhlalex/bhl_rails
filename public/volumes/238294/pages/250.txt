@@ -1,0 +1,37 @@
+( 699 )
+binodal curve is given by the line drawn in fig. 4 PI. IV. It is easy
+dp dp
+to see that now — <^ at the triple point 251^ and --^0 at lower
+dt dt
+temperatures. The transformation line has thus the course drawn in
+fig. 5 PI. IV, which qualitatively is in complete agreement with
+Tammann's determinations for this line.
+The transformation line from ice I to ice II is xerj similar to
+that from ice I to ice III. Since the ice II ridge distinctly rises more
+steeplj' than the ice III ridge the line of transformation from ice I
+to ice II is more curved than that for ice I to ice III. The result
+is that the line of transformation from ice I to ice II cuts, above
+the absolute zero, the vapour pressure line of ice I, wiiich runs verv
+close to the T-axis (see fig. 6 PI. IV). A triple point vapour
+— ice I — ice II corresponds with this common point, this has not
+been observed, but Tajdiann holds its existence as probable. Also the
+transformation curve from ice I to ice III (PI IV fig. 5) when
+produced cuts the T-axis. The common point then corresponds to a
+negative temperature, and thus this triple point cannot be realised.
+The cur\e of transformation from ice II to ice III was not deter-
+mined by Tammann, but its course can be seen on our model.
+From the model it follows that Tammann could obtain ice II by
+cooling to — 80" C, w^hile less cooling would be sufficient for ice III.
+Owing to the form which we have chosen for the liquid ridge,
+the expansion coefficient of water near 0° C. would be negative and
+Avater would show a maximum density, while the expansion coeffi-
+cient of ice would be positive, all in agreement with experiment.
+The pressure lines for w^ater (see fig. 7 PI. IV) run in accordance
+with this (at least near 0°) from larger to smaller value of v, and
+simultaneously from lower to higher temperatures. The maxinuim
+density of water, on our model, is shifted by increase of pressure
+towards decreasing temperature, while at the same time it becomes
+less marked and finally vanishes; also in agreement with experiment. ^)
+1) Amagat. Recherches sur les gaz.
+V. D. Waals. Arch. Néerl. Vol. XII. p. 457.
+Grassi. Ann. d. chim. 3. 31, p. 437. 1851.
