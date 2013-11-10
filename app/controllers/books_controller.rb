@@ -17,7 +17,6 @@ class BooksController < ApplicationController
     @view = @url_params[:view] ? @url_params[:view] : ''
     @lang = 'test'
     
-  
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
     
@@ -40,7 +39,7 @@ class BooksController < ApplicationController
         @types = {:author => I18n.t(:book_author_title), 
                   :geo_location => I18n.t(:book_publish_place_title),
                   :subject => I18n.t(:book_subject_title),
-                }      
+                 }
       elsif @current == 'mods'
         mods = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).mods
         mods.slice!(0) if mods[0] == "?" # This should remove leading "?" from mods
