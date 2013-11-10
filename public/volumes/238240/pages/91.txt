@@ -1,0 +1,36 @@
+120 BARUS— THE TRANSPIRATION OF AIR [April 21,
+In the intermediate time, I did not return to the measurements
+until quite recently (January, 191 1), when a second series of obser-
+vations was made. As much as one fourth of the air contained in
+1900 had now, however, escaped, in consequence of which the above
+method had to be modified and all heads measured in terms of
+mercury. Hence if H denotes the height of the barometer diminished
+by the head equivalent to the vapor pressure of water, and if m/M
+be neglected in comparison with i (about .06 per cent.) the equation
+becomes
+R
+(2)
+in which the first factor of the right-hand member is constant. If
+the observations are made at the instant the swimmer sinks from
+the free surface in A, Fig. 2, H must be increased by the mercury
+equivalent of the height h' of v. The table contains all the data
+reduced to mercury heads. A ^Mgp„,/R. Consequently 1,842 X
+10"^ grams of the imprisoned air escaped in the intervening 10.92
+years ; i. c, .265 of the original mass of air. In other words
+168.7 X lO""*^ grams per year, .462 X lO"*' grams per day, or 5.35 X
+lO"^- grams of dry air per second.
+6. Conditions of Flour. — It is now necessary to analyze the above
+experiment preparatory to the computation of constants. The mouth
+of the swimmer had an area of but .0314 cm.- When sunk the
+head of water above the surface z' was li" = 2^ cm. The column
+of water between z' and d was h"' = S> cm. Hence the length of
+column within which transpiration took place was 24 -j- 2 X 8 = 40
+cm. The right section of this column is taken as .0314 cm.- through-
+out. Naturally such an assumption, accepted in the absence of a
+better one, is somewhat precarious ; but it may be admitted, inas-
+much as the pressure of the gas sinks in the same proportion in
+which the breadth of the channel enlarges. Thus there must be
+at least an approximate compensation. In more definite experiments
+a cylindrical swimmer whose internal area is the same as the annular
+area without will obviate this difficulty (see Fig. 2).
+The pressure difference urging the flow of air from f is

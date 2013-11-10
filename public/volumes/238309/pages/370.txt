@@ -1,0 +1,33 @@
+THE TELEPHONE AND ITS INVENTOR.
+545
+regulator, or loose-contact mechanism, consisting of the spring g bear-
+ing on the lever c cl, actuated by the elastic membrane o.
+The receiver in this figure consists of an electro-magnet, m, on a
+sounding-board, with an armature, regulated by an adjustable spring, g,
+pendulum-mounted, and " connected with a lever, i, which is as long as
+possible, but light and broad." This expansion of the armature is for
+the purpose of increasing its superficial contact with the air for the
+propagation of sound-waves. The Reis armature, so equipped, is the
+equivalent of the "diaphragm " in what is commonly called " the Bell
+receiver," a form, however, which appears to have originated with
+Elisha Gray. In the " Bell receiver " the diaphragm is an elastic, ex-
+panded, circular armature. The Reis electro-magnetic receiver is thus
+a complete and perfect anticipation of that of Yeates, of Dublin, in
+1865, and of the later receiver of Gray or Bell. The function of all is
+to move an elastically supported armature backward and forward, and
+so throw it into vibrations corresponding to those imparted by the
+sound-waves to the transmitting apparatus.
+Fig. 2 is copied from the " Prospectus " of Reis, dated August,
+18G3, containing instructions to accompany the telephones constructed
+for him, and sold by W. Albert, of Frankfort. The transmitter here
+shown has been usually called the "box-instrument." In this type,
+instead of a spring adjustment of the current-regulator or loose-con-
+tact mechanism, as in Fig. 1, we have the angle-shaped " Hammer-
+chen," as Reis called it, or little hammer, poised on the supports a b,
+Fig. 2.
+and resting by gravity on the strip of platinum-foil at the center of
+the tympanum seen below. A little drop of mercury at b makes per-
+fect electric communication between the little hammer and neighbor-
+ing screw-cup. The elastic feature of this loose-contact arrangement
+is confined to the animal or other membrane of the tympanum itself.
+vol.. xxiii. 35

@@ -1,0 +1,41 @@
+(801 )
+11 b'' b' b
+b \-B \-C —
+'' + ? =ir ' + tt^— ^S ■ ■ («>
+26 + -T- + CV
+or
+a \_RT i . b o b^ b'
+i-' + Tr) = -!i+7 + 8^ + .V •••('>
+but this conclusion would be unjustifiable. For it is possible, nay
+even probable, that the coefficients of numerator and denominator in
+(6) decrease rapidly ; it is therefore possible, that the true form is
+accurately represented by a quotient of two forms, which have each
+only three or four terms; from this folloAvs by no means, that also
+in the form (7) we should get a close approximation with three or
+four terms, for the coefticients of the higher powers in (7) do not
+depend only on the coefficients of the li'ujlier powers in numerator
+and denominator of (6), l)ut they are also fimctions of the coefficients
+of the lower powers 1; '\/g; 2; ^''l^^; and in such a way that they
+do not become zero, when the coefficients of the higher powers in
+(6) do so. Now the difference between (6) and (7) vanishes, of course,
+for such large values of v, that the series (7) converges strongly,
+but for the critical volume and even more so for licpiid volumes the
+difference is very pronounced. This appears already from the simple
+fact, that a form as (6) can easily yield a minimum volume ; but
+(7) only when an infinite number of tei'uis is taken into account.
+And also the before mentioned difference l)etween the resuhs of
+DiETERici on one side, and van Laah and van dek Waat.s on the
+other side, prove how careful we must be \\\i\\ the introduction of
+simplifications which seem perfectly allowable.
+§ 4. Also the other ways proposed for finding the equation of
+state, arrive at similar final results.
+Tiiis is easy to see for the most direct way, indicated l)y Boi/pzmann ^).
+For it is clear, that liis formula (4), which leads to the form:
+a \ c — 2b
+/' + ;tJ JT"^^'^ (^>
+r
+requires another correction on account of the fact that the distance
+spheres cover each otliei- partially. The mimeratoi' of tliis fraction
+') Gastheorie p. 'J.
+53
+Proceedings Royal Acad. Amsterdam. Vol. VI.

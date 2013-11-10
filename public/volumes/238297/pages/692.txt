@@ -1,0 +1,36 @@
+202 THE PRINCIPLES OF SCIENCE.
+long assumed by astronomers as being about 95,274,000
+miles, this result being deduced by Bessel from the ob-
+servations of the transit of Venus, which occurred in 1769,
+and which were found to give the solar parallax, or what
+is the same thing, the apparent size of the earth as seen
+from the sun, as equal to S"'5j8. Now, dividing the
+mean distance of the sun and earth by the number of
+seconds in 8 m . 1 3 s . 3 we find the velocity of light to be about
+192,000 miles per second.
+Nearly the same result was obtained in an apparently
+very different manner. The aberration of light is the
+apparent change in the direction of a ray of light owing
+to the composition of its motion with that of the earth's
+motion round the sun. If we know the amount of aber-
+ration and the mean velocity of the earth we can very
+simply estimate that of light which is thus found to be
+191,102 miles (166,072 geographical miles) per second.
+Now this determination depends upon an entirely new
+physical quantity, that of aberration, which is ascertained
+by direct observation of the stars, so that the close accord-
+ance of the estimates of the velocity of light as thus arrived
+at by different methods might seem to leave little room
+for doubt, the difference being less than one per cent.
+Nevertheless, experimentalists were not satisfied until
+they had succeeded in actually measuring the velocity of
+light by direct experiments performed upon the earth's
+surface. Fizeau, by a rapidly revolving toothed wheel,
+estimated the velocity at 195,920 miles per second. As
+this result differed by about one part in sixty from esti-
+mates previously accepted, there was thought to be room
+for further investigation. The revolving mirror, previously
+used by Mr. Wheatstone in measuring the velocity of elec-
+tricity, was now applied in a more refined manner by
+Fizeau and by Foucault to determine the velocity of
+light. The latter physicist finally came to the startling

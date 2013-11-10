@@ -1,0 +1,130 @@
+place, the vacuoles diminish in size. This
+phase is not reversible. In other cases the
+protoplasm of the cell is broken down by auto-
+matic processes, as a result of which all that
+remains are a few fat globules.
+In order to determine the changes in viscosity
+of protoplasm under X irradiation, Breslavets
+(1936) selected pollen grains as objects in which
+these changes can be most easily observed by
+means of centrifugation since the greater part of
+these individual cells, at a certain stage in their
+development, becomes filled with a large num-
+ber of starch granules, which can be displaced
+by centrifugation. In this respect the pollen
+grains of hyacinth are particularly convenient,
+since the transparent integument of the grains
+permits microscopic observation of the entire
+thickness of the protoplasm. Preliminary experi-
+ments have shown that, depending on the time of
+irradiation, a greater or lesser displacement
+of the starch granules takes place. The follow-
+ing method was used for the determination of the
+viscosity of the protoplasm: the centrifuge tubes
+were filled with 5 cubic centimeters of 10%
+solution of cane sugar; into each of the four tubes
+one anther from the same flower was placed,
+and the centrifuge set in motion (2000 rpm).
+After 5 minutes, an anther was removed from
+one of the tubes and placed on a microscope
+slide with a drop of iodine in potassium iodide,
+and the centrifuge was set in motion once more.
+After 15 minutes a second anther was removed
+and placed on a cover glass, a third was re-
+moved after 30 minutes, and a fourth after 60
+minutes. Due to the action of the iodine the
+starch granules became dark blue in color and
+their displacement (which depended on the dura-
+tion of centrifugation) within the pollen grain
+could be easily observed. A 5 -minute action
+[of the centrifuge] cleared 1/6 of the space from
+starch granules; 15 minutes, 1/2; 30 minutes,
+2/3; and 60 minutes, 3/4. Thus, the displace-
+ment of starch granules is proportional to the
+time of action of the centrifugal force. Prelimi-
+nary experiments have shown that the viscosity
+of protoplasm in young pollen grains is very
+great. It is precisely these young pollen grains
+which had to be used for the experiment, since
+in them the starch granules reach their maxi-
+mum size. For this reason, experiments to
+study protoplasmic viscosity were begun with
+large doses of X rays. The conditions of irra-
+diation were as follows: 220 kilovolts, 5 mil-
+liamperes, distance from the tube: 70 millime-
+ters, no filters (Table 24).
+These experiments indicate that the viscosity
+of the protoplasm begins to increase only with
+the action of 4000 r, and that it continues to
+increase up to a dose of 48, 000 r, inclusive.
+Apparently, the centrifugation method is too
+coarse to distinguish finer differences in vis-
+cosity of the protoplasm due to X irradiation.
+It is interesting to note that pollen grains germi-
+nated even after the action of such doses as
+48,000 r. Microscopic examinations (Bresla-
+vets, 1937) indicate that only doses of 16, 000 r
+begin to change the structure of protoplasm,
+making it more coarsely grained.
+Erdmann (1936) investigated the relationship
+between the loss of water contained in proto-
+plasm and the action of X rays. The author
+points out that yeast is an object in which it is
+possible to measure the water content in living
+cells, and that it is possible in yeast to measure
+the effect of X rays by the depression of their
+ability to multiply. The water content was
+measured by: 1) hypertonic solution, 2) drying
+in a desiccator, 3) natural aging of the yeast
+cells.
+It should be kept in mind that all plant cells
+contain free water in addition to water bound in
+the protoplasm. By removing this water with
+hypertonic solutions it is possible to cause a
+shrinking of protoplasm [due to loss of water].
+Table 24
+The effect of centrifugal force on the displacement of starch granules
+in irradiated pollen after various time intervals.
+(based on Breslavets' data, 1936b)
+Dose
+(r)
+5 min
+10 min
+20 min
+30 min
+Control
+2/3
+3/4-7/8
+3/4-7/8
+7/8
+2,000
+2/3
+3/4
+7/8
+-
+4,000
+1/3
+1/3
+2/3
+3/4
+8,000
+1/3
+3/4
+3/4
+7/8
+16, 000
+1/3
+1/3
+3/4
+3/4
+32, 000
+1/3-1/2
+1/2
+1/2
+3/4-7/8
+48, 000
+1/3-1/2
+1/3-1/2
+1/3-1/2
+1/2-3/4
+61

@@ -1,0 +1,105 @@
+Table 2. PCB concentrations in field collections of selected
+species of flora and fauna. Values shown are in mg/kg (ppm)
+fresh weight (FW), dry weight (DW), or lipid weight (LW).
+Taxonomic group.
+Concentration^
+Reference
+organism, tissue.
+(ppm)
+location, and other
+variables
+Plants
+Northeast and central New York
+18 spp., 1979
+Fol iage
+0.03
+-0.29
+DW
+Buckley 1983
+Hay
+0.08
+-0.10
+DW
+Brome grass, Bromus inermis
+Hay, 1979
+0.14
+DW
+Perennial rye, Lolium perenne
+Hay, 1979
+0.08
+DW
+Timothy, Phleum pratense
+Hay, 1979
+0.10
+DW
+Trembling aspen, Populus tremuli
+Dides
+Leaves
+1978
+0.12
+DW
+1979
+0.09
+nw
+1980
+0.07
+DW
+Goldenrod, Soli dago gramini folia
+Leaves
+1978
+0.32
+DW
+1979
+0.25
+DW
+1980
+0.18
+DW
+Invertebrates
+Chironomid, Chironomus plumosus.
+near Swedish sewage plant outfall
+From sediments with
+0.04 FW
+; 0.3
+DW
+Larsson 1984
+Larvae
+0.1 FW;
+10.0
+LW
+Adults
+0.2 FW
+; 8.9
+LW
+From sediments with
+0.6 FW
+; 4.2
+DW
+Larvae
+8.6 FW;
+757.0
+LW
+Adults
+19.4 FW;
+665.0
+LW
+From sediments with
+7.0 FW;
+28.0
+DW
+Larvae 35
+.5 FW; 3,
+583.0
+LW
+Adults 124
+.0 FW; 4,
+234.0
+LW
+Mysid, Mysis relicta
+Lake Michigan, 1980-1981
+Whole
+0.
+1-0.5
+DW
+Evans et al . 1982
+11

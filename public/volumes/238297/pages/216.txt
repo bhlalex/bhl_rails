@@ -1,0 +1,34 @@
+190 THE PRINCIPLES OF SCIENCE.
+number we are only at the first step of an extensive
+series of generalizations. A number is general as compared
+with the particular things numbered, so we may have
+general symbols for numbers, or general symbols not for
+numbers, but for the relations between undetermined num-
+bers. There is, in fact, an unlimited hierarchy of successive
+generalizations.
+Numerically Definite Reasoning.
+It was first discovered by Prof, de Morgan that many
+arguments are valid which combine logical and numerical
+reasoning, although they could in no way be included in
+the ancient logical formulas. He developed the doctrine
+of the 'Numerically Definite Syllogism,' fully explained
+in his 'Formal Logic' (pp. 141-170). Dr. Boole also
+devoted considerable' attention to the determination of
+what he called ' Statistical Conditions/ meaning the
+numerical conditions of logical classes. In a paper pub-
+lished among the Memoirs of the Manchester Literary and
+Philosophical Society, Third Series, vol. IV. p. 330
+(Session 1869-70), I have pointed out that we can apply
+arithmetical calculation to the Logical Abecedarium.
+Having given certain logical conditions and the numbers of
+objects in certain classes, we can either determine the
+number of objects in other classes governed by those con-
+ditions, or can show what further data are required to
+determine them. As an example of the kind of questions
+treated in numerical logic, and the mode of treatment, I
+give the following problem suggested by De Morgan, with
+my mode of representing its solution f .
+f It has been pointed out to me by Mr. A. J. Ellis, F.R.S., that my
+solution, as given in the Memoirs of the Manchester Philosophical Society,
+does not exactly answer to the conditions of the problem, and I therefore
+substitute above a more satisfactory solution.

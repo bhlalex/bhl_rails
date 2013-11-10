@@ -1,0 +1,34 @@
+UNITS AND STANDARDS OF MEASUREMENT. 383
+to reward the enormous labour which must be undertaken
+in these calculations. Such labours once successfully com-
+pleted must benefit the whole human race as long as it
+shall exist. A valuable account of all the chief mathe-
+matical tables yet published will be found in De Morgan's
+article on Tables, in the 'English Cyclopaedia/ Division
+of Arts and Sciences, vol. vii. p. 976.
+Physical Constants.
+The second class of constants contains those which refer
+to the actual constitution of matter. For the most part
+they depend upon the peculiarities of the chemical sub-
+stance in question, but we may begin with those which
+are of the most general character. In a first sub-class
+we may place the velocity of light or heat undulations,
+the numbers expressing the relation between the lengths
+of the undulations, and. the rapidity of the undulations,
+these numbers depending only on the properties of the
+ethereal medium, and being probably the same in all parts
+of the universe. The theory of heat gives rise to several
+numbers of the highest importance, especially Joule's
+mechanical equivalent of heat, the absolute zero of tempe-
+rature, the mean temperature of empty space, &c.
+Taking into account the diverse properties of the
+elements we must have tables of the atomic weights,
+the specific heats, the specific gravities, the refractive
+powers, not only of the elements, but their almost in-
+finitely numerous compounds. The properties of hardness,
+elasticity, viscosity, expansion by heat, conducting powers
+for heat and electricity, must also be determined in
+immense detail. There are, however, certain of these
+numbers which stand out prominently because they serve
+as intermediate units or terms of comparison. Such are,
+for instance, the absolute coefficients of expansion of air,

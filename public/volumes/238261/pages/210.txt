@@ -1,0 +1,42 @@
+HALL AND AYRES. — HEAT CONDUCTION IN IRON. 293
+Determination op the Difference op Temperature of the Ingo-
+ing AND OuTCOMING WaTER AT THE ChAMBEK ABOVE THE DlSK.
+The method of making this measurement has already been indicated.
+Two copper-German silver junctions, each like that shown in Figure 3,
+were used, one at Jx in Figure 2, the other at J^ in the same figure. The
+German silver wire used, about 0.015 cm. in diameter, was continuous
+from /i, Figure'3, to the corresponding junction in the other plug. Its
+length was perhaps 30 cm. The fine copper wire, 0.018 cm. in diameter
+(from the same piece as the wires attached to the coatings of the disk),
+leading from t/j, Figure 3, did not extend completely through the hard
+rubber plug, or holder, but was soldered carefully, some distance from
+the outer end of the plug, to a larger copper wire, which led off toward
+an astatic galvanometer. The arrangement of copper wires at the other
+plug was quite similar. The fine wires of each junction were coated
+thinly with shellac.
+The two copper-German silver junctions thus described, or similar
+ones,* were tested, or " calibrated," by means of streams of water, of a
+known difference of temperature, flowing past the junctions according to
+the arrows in Figure 3. The ditierence of temperature of the streams was
+found by means of the same pair of thermometers that are indicated in
+* In accorrlance with my advice, I\Ir. A3Tes made 07ily such experiments in the
+calibration of liis copper-German silver junctions as to show that their performance
+differed but little from that of similar junctions used previously by myself. After
+this, in all his calculations of the conductivity, he took his values of the thermo
+e. m. f. of copper-German silver from Figure 8 of my previous paper, already re-
+ferred to, "On the Conductivity of Mild Steel." In preparing the present paper, I
+have had some misgivings as to the accuracy of these values, and therefore in
+October, 1898, I made more experiments upon a pair of junctions quite similar to
+those used by Mr. Ayres. Tlie results are given in the second column below.
+The third column gives values, for the same temperatures, taken from the figure
+used by Mr. Ayres : —
+Mean Temn Electromotive Force, in Volts, per I'' C. DifiFerence of
+Temperature of Junctions.
+20° 3 .00001743 .00001732
+37°.9 .00001826 .000018.30
+58°.2 .00001944 .00001942
+From the old observations and the new combined a curve representing the ther-
+mo e. m. f. at temperatures ranging from 15° to 65° was constructed, and the values
+of the conductivity found by Mr. Ayres were revised accordingly. The resulting
+changes of conductivity were slight, but they had considerable effect upon the
+estimated temperature coefficient of conductivity. — E. H. II.

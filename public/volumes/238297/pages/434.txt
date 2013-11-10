@@ -1,0 +1,35 @@
+408 THE PRINCIPLES OF SCIENCE.
+glass. But any such envelope is sure to be more or less
+affected by the magnet, so that it becomes difficult to
+distinguish between three forces which enter the problem ;
+namely, the magnetism of the gas in question, that of the
+envelope, and that of the surrounding atmospheric air.
+Faraday avoided all difficulties by employing two exactly
+equal and similar glass tubes connected together, and so
+suspended from the arm of a torsion balance that the
+tubes were in similar parts of the magnetic field. One
+tube being filled with nitrogen and the other with oxygen,
+it was found that the oxygen seemed to be attracted and
+the nitrogen repelled. The suspending thread of the
+balance was then turned until the force of torsion restored
+the tubes to their original places, where the magnetism of
+the tubes as well as that of the surrounding air, being
+exactly the same and in the opposite direction upon the
+two tubes, could not produce any interference. The force
+thus required to restore the tubes was measured by the
+amount of torsion of the thread, and it indicated correctly
+the comparative attractive powers of oxygen and nitrogen.
+The oxygen was then withdrawn from one of the tubes,
+and a second experiment made, so as to compare a vacuum
+with nitrogen. No force was now required to maintain
+the tubes in their places, so that nitrogen was found to
+be, approximately speaking, indifferent to the magnet,
+that is, neither magnetic nor diamagnetic, while oxygen
+was proved to be positively magnetic f . It required the
+highest experimental skill on the part of Faraday and
+Tyndall, to distinguish between what is apparent and real
+in magnetic attraction and repulsion.
+Experience alone can absolutely decide when a com-
+pensating arrangement is conducive to accuracy. As a
+general rule mechanical compensation is the last resource,
+f Tyndall's 'Faraday/ pp. 114-15.

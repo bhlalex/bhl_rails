@@ -1,0 +1,21 @@
+STEADILY ALTERNATING CURRENT ON A LONG LINE. 337
+at the proper predetermined phase of minimum splash. The auto-
+matic switch So then immediately follows, so as to keep the contact
+closed on the line after the brushes B-^B2 have passed off the contact
+segment. Before the brushes 8^82 close, the photographic shutter
+is opened by the electromagnet Q, under the action of an automatic
+switch S^. After one complete revolution of the photographic-film
+drum, another shutter is closed by the electromagnet C2, under the
+control of an auxiliary automatic switch ^'4. This cuts off the arc
+light from the recording film, after about nine cycles have been
+recorded on all three oscillographs. The whole mechanism can
+then be arrested, by hand, at leisure. Lastly, the photographic drum
+is removed and taken to the dark room for development.
+A photographic view of the artificial line and the oscillographic
+apparatus is shown in Fig. 8.
+Fig. 8. Artificial Power Transmission Line, Oscillograph and Switching
+Apparatus.
+Case of Regular Transients. — About 150 different triple oscillo-
+grams have been secured of initial electromagnetic wave transients,
+under various conditions, over artificial lines. Only a few of these
+can be dealt with in this paper.

@@ -1,0 +1,33 @@
+BLACK. THE NEIGHBORHOOD OF A SINGULAR POINT. 287
+present article, supply the deficiency, and treat at once the more general
+case of an analytic surface, i. e., the case that the function F (ar, y, z) is
+not merely a polynomial, but is any analytic function which vanishes
+at the point (a, b, c.)
+§ 1
+A. — The Fundamental Theorem.
+1. The theorem, the proof of which forms the subject of this article,
+is the following.
+Theorem : Let F (x, y, z) be a function such that
+1) F (x, i/, z) is analytic in the three independent variables in the
+neighborhood of the point x = a, y = b, z = c ;
+2) F(a, b,c) = 0;
+Vc'-^/ia.fc.o) \52//,a.6,c) \9zjia,b,c)
+then ive can represent all values of {x, y^ z) satisfying the equation
+F{x,y, z)=0
+and lying in the neighborhood of the point (a, b, c) :
+|x-al<8, \y-b\<h, \z-c\<Z,
+by a finite number of parametric formulae of the following type:
+x — <i>p (u, v) 1
+y = ,l;p(u, V) V p = 1, 2, p, (A)
+where «/)p, \pp, Xp ^'"^ analytic in the arguments (it, v) throughout a cer-
+tain region ; further for each set of values of (x, y, z), the values (0, 0, 0)
+excepted, there corresponds for at least one value of p a pair of values
+(m, v) lying within the region in which the functions 4>p, i//p, Xp <^^^ con-
+sidered, and for any value of p for which this is the case, there corresponds
+no second pair of values. To the set of values (0, 0, 0) corresponds at
+least one, and in general an infinite number of pairs of values {u, v) for
+every value of p.
+2. Explanation of Symbols. The symbol (x, y, z, )„ indicates,
+in the expression in which it appears, the total collection of terms
+of degree n in the arguments taken together, which belong to that
+expression.

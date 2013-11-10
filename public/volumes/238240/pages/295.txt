@@ -1,0 +1,38 @@
+348 RICHARDSON— DYNAMICAL EFFECTS OF [April 22,
+removed. There will be no transportation of electrons and that is
+what, on the electron theory, constitutes an electric current. The
+electric field across the slab is, nevertheless, dift'erent from what
+it would be if the material were not present. The difference be-
+tween dift'erent insulating materials in this respect depends solely
+on the comparative ease of displacement of the electrons they con-
+tain. The specific inductive capacity of dielectrics, which, you will
+remember, was discovered by Cavendish and Faraday, is, in fact, a
+measure of the product of the number of electrons in unit volume
+of the material b_\- the average displacement which they undergo in
+unit field.
+The behavior of the second kind of material is quite dift'erent.
+Even in the absence of the electric field, the so-called free electrons
+are moving about in it in an irregular manner in all directions. The
+effect of an external field is to superpose on the irregular motion a
+definite drift, on the average, in the direction of the current. This
+drift of the electrons involves traiisportafion of electricity and there-
+fore implies the existence of an electric current.
+All the laws which regulate the transference of electricity across
+conductors, such as, for example, Ohm's Law, which states that the
+current is proportional to the applied electromotive force, and Joule's
+Law, which states that the rate of production of heat by a current
+is equal to the product of the resistance of the circuit by the square
+of the current, follow at once from this simple hypothesis. It is not
+necessary to suppose that all the electrons in the material are present
+in the free condition ; some of them may be, and in all probability
+the majority are, in a state of equilibrium similar to that which occurs
+in insulators. All that is necessary is that some of the electrons
+should be able to move without restraint. When the other conditions
+are the same the magnitude of the current which a given material
+will transport is proportional to the number of carriers available;
+that is, to the number of free electrons per unit volume.
+It is in the explanation of the relation between the conductivity
+of substances for electricit}- and for heat that the electron theory
+has scored one of its most notable triumphs. Everybody knows that
+the best conductors for electricity are also the best conductors for
+heat. It is not so generally known how very close the relationship

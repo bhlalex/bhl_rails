@@ -1,0 +1,35 @@
+421
+//■ a seqiuitce of /iinctioii.^' /^(,f) is (/irni each of which is
+continuous for O^x^a and has a piile derivative /' (0) at 0,
+and if, for ()^.r<a, Hmfjx)=zf{x), then a necessary and
+sufjicient condition that /{,i;) should luire a finite derivative at
+is: the quasi-uniform convergence of the sequence of functions
+V'„U'.//) = at the points of every set{d\,y^),
+xy
+['I'i, yj, ■ ■ • where 0<^.v <r/, O^y <a, and lini A =0, //my — 0.
+' * A;=oo * i-=« *
+4. We observe that in this theoiem nothing is supposed about
+the convergence or divergence of the sequence ƒ'(()). Let this sequence
+be convergent. Then the sequence of continuous functions /* (.?;) is
+convergent for O^x^a and converges to f*{x) for .f > 0, to I
+= limfl{0) for x = 0.
+If ƒ '(0) r= lim fl (0) then
+»)=00
+limf''{x)=z). ........ (5)
+a:=0
+We now consider a set of points x^,x^,..., where Urn x =r 0.
+By 8, X we denote two given positive Jiunibers. Then there exists
+an index N ^ ^ N^ such that
+l/'v (0)--^i<e (6)
+Since ƒ' (0) == ƒ* (0) and /'* (.i') is continuous and because of (5),
+there exists a certain number k\ such that for every k'^ l\
+Since at each of the finite number of points wiiere k<k^ an
+index Xk^ -N can be found such that
+it appears that the sequence of functions /* [x) converges quasi-
+uniformly at the points of tlje considei-ed set.
+If this sequence of functions converges quasi-nniformlj* at the
+points of every set of tlie above-considered kind, then it results from
+an argument as held in ^ 2 that
+/'(0)=:/*m/;(0).
+We have therefore the following theorem:
+If a series of functions f (.r) be given, each of ivhich is continuous

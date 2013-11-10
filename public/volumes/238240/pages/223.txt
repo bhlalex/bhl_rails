@@ -1,0 +1,21 @@
+276 LAMBERT— ON THE SOLUTION OF [April 2^.
+Equating to zero the coefficients of the powers of 5" in this identity,
+there result the following differential equations for the determina-
+tion of yo,yi,y2>yz> ••••
+The equation in v,, is a homogeneous linear differential equation
+and its solution is
+Substituting this value of y,, the equation for determining y^
+becomes
+ax'- ax ^
+This equation becomes exact when multiplied by .t'"""\ The
+resulting equation integrated gives a linear equation of the first order,
+the solution of which is
+-^'1 ^ 2\n^) "^ 2\n- i) ■
+Substituting this value of a'i in the equation for determining y^
+and proceeding in the same manner
+V = 1
+2*. 2 !(/^ -I- i)(« + 2) ^ 2'- 2 !(;/— i){n — 2)
+In like manner
+_ Ax''+^ 5;t'-"+«
+J', = 2^7! (;r+ i)(« + 2){n + 3) "^ 2''.3!(^/- i)(«- 2)(^z-3)'
+and so on.

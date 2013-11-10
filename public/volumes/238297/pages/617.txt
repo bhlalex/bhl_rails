@@ -1,0 +1,34 @@
+QUANTITATIVE INDUCTION. 127
+laboured on the subject without exhausting it, and Brink-
+ley and Ivory have since treated it. A closely connected
+problem, that regarding the relation between the pressure
+and elevation in different strata of the atmosphere, has
+received the attention of a long succession of physicists
+and was most carefully investigated by Laplace. Yet no
+invariable and general law has been detected. The same
+may be said concerning the law of human mortality ;
+abundant statistics on this subject are available, and many
+hypotheses more or less satisfactory have been put for-
+ward as to the general form of the curve of mortality,
+but it seems to be impossible to discover more than an
+approximate law.
+It may perhaps be urged that in such subjects no single
+invariable law can be expected. The atmosphere may be
+divided into several variable strata which by their uncon-
+nected changes frustrate the exact calculations of astro-
+nomers. Human life may be subject at different ages to
+a succession of different influences incapable of reduction
+under any one law. The results observed may in fact be
+aggregates of an immense number of separate results each
+governed by their own separate laws, so that the subjects
+may be complicated beyond the possibility of complete
+resolution by empirical methods. This is certainly true
+of the mathematical functions which must some time or
+other be introduced into the science of political economy.
+Simple Proportional Variation.
+When we first treat numerical results in any novel kind
+of investigation, our impression will probably be that one
+quantity varies in simple proportion to another, so as
+to obey the law y = mx + n. We must learn to distinguish
+carefully between the cases where this proportionality is
+really, and where it is only apparently true. When con-

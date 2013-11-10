@@ -1,0 +1,39 @@
+RICHARDS AND HEIMROD. — THE IMPROVED VOLTAMETER. 441
+and Patterson and Guthe have attracted most attention. Since the first
+three investigations used a voltameter of the original Lord llayleigh
+type, a correction of —0.05 per cent should be applied to each. More-
+over, Kohlrausch and Kahle did not heat their deposits to redness ;
+hence an additional reduction of about 0.016 per cent* is necessary.
+Finally, Kohlrausch deposited the silver on a silver kathode, while
+Lord Rayleigh and Kahle made tlieir determinations with platinum
+kathodes — a correction which leads to a further reduction of .01 per
+cent for Kohlrausch's value, or 0.076 in all. Patterson and Guthe, on
+the other hand, deposited the silver on platinum, but used old solutions
+saturated with silver oxide. Such solutions may have yielded about
+0.135 more silver than the standard. When the correction for heating
+is added to this the total reduction becomes 0.15 per cent. Thus we are
+led to the following table : —
+TABLE XVL
+The Corrected Electrochemical Equivalent of Silver.
+(1) Lord Rayleigh and Mrs. Sidgwick,t 0.0011179 -0.050% 0.0011173
+(2) Fr. «fe W. Kohlrausch,! 0.001 1183 -0.07G 0.0011175
+(3) Kahle,§ 0.0011183 -0.066 0.0011176
+(4) Patterson & Guthe, II 0.0011192-0.150 0.0011175
+Average 0.0011175
+The greatest deviation from this average is 0.02 per cent, a remark-
+able agreement considering the variety of physical method used by the
+experimenters. Lord Rayleigh and Kahle used an electro-dynamometer
+and Kohlrausch an accurate tangent galvanometer for the calculation of
+the current, while Patterson and Guthe made themselves entirely free
+from the acceleration of gravity or the strength of the magnetic field by
+means of an absolute electro-dynamometer. Hence for the present the
+great bulk of evidence seems to favor the value 0.0011175, the mean of
+four entirely independent determinations, as the true electrochemical
+equivalent of silver. Our data also give the electrochemical equivalent
+of copper in the cupric condition as 0.00032929 gram per ampere per
+second.
+The number of coulombs attached to one gram equivalent of any
+electrolyte is therefore 96,580.
+* The average of Lord Rayleigh's results and ours.
+t Phil. Trans., 175, 411 (1884). J Wied. Ann. N. F., 27, p. 1 (1886).
+§ Wied. Ann. N. F., 67, 1 (1809). 1| Vhys. Review, 7, 257 (1898).

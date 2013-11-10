@@ -1,0 +1,31 @@
+63
+the slope of the curve becomes, i.e. the greater x becomes.
+We call the energy on the anterior and posterior sides respectively
+Xa and x^„ the retardations of growth y^ and y^-
+growth retardation
+Fig. 1.
+energy
+In a straight w^ith Xc, — x^ constant =6 M.C.S. the difference
+in growth retardation ?/« — y^ is always = q (fig. 1).
+m-
+\n a curve with decreasing slope, with Xa — x^, constant = h
+m
+M.C.S. the difference in growth retardation ?/« — y^ is smaller
+according as Xa is larger (fig. 2).
+Now Xa will become greater by omnilateral fore-illumination, for
+a m — 1
+Xa = - -\- b M.C.S. The absohite energy difference b M.C.S. or
+rather the energy of 6 MC.S. applied unilaterally, will therefore give
+a smaller difference of growl ii retardation i. e. a smaller curvature,
+according as the energy of fore-ilhimination a is greater. In order
+nevertheless to obtain a constant difference of growth retardation,
+, »^ — 1
+giving a just visible curvature, b and therefore also 6 will have
+m
+to be greater.
+If the energy of fore-illumination becomes
+greater, the threshold value will rise, as soon
+as the curve of growth retardation is a curve
+with decreasing slope. Here we need not yet
+assert anything about the further relation be-
+tween the magnitude of the slope and x.

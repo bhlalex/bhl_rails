@@ -1,0 +1,17 @@
+830
+«=00 /)
+IV. Lim ^„ = and either 6„ > O, or tlie series ^ — ~ converges
+ri— *oc ,1=1 nq
+for an unlimited number of intef!;ers q and the sum of tiiis series
+is different from zero. In tlie latter supposition we iiave
+Um{l—x)N{a6r) -^ ^. ^
+a— >1 j,=i nq
+V. bu^O and moieover
+1
+Lim — [/>9+/, + 627+/. + . . . + èm/-f-/, ] =
+n — ^00
+n
+(A = 0,1,2,.. .,q 1)
+for an unlimited number of integers q.
+1) By a totally different method Franck deduced this formula in his paper:
+Sur la theorie des séries. Math. Annalen, Bd. 52. 1899, p. 521i.

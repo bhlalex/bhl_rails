@@ -1,0 +1,41 @@
+304 PROCEEDINGS OP THE AMERICAN ACADEMY.
+of hard wood. S, S, S, in the figure, are parts of this wooden support
+which would have been cut through by a vertical longitudinal section
+through the middle of the apparatus. Certain edges of the support which
+do not form part of the section shown are indicated in the figure by
+light dotted lines. Behind, to the left of, the block Bi B^^ is shown a
+copper wire TFj, about 0.1 cm. in diameter, which extends through the
+centre of a wooden rod r and bears against Bi B^, thus making a back-
+stop for the pressure exerted at the other end of the apparatus. From
+the block B^ B.2 another copper wire, W^, held in firm contact with Bo B,,
+leads away. The wires Wi and W2 are parts of the thermo-electric cir-
+cuit of the apparatus, and are in metallic connection with the terminals
+of a galvanometer. B^ Bi is provided with a water jacket Ji J^, the
+construction of which is indicated by certain lines in Figure 5 and in
+Figures 6, 7, and 8. Thus, Figure 6 shows a vertical cross-section
+through Ji Jx near the left end of ^1 B^, the dotted lines indicating cer-
+tain edges not lying in this section. Figure 7 shows a vertical cross-
+section through t/i ^1, through B^B-^. and through the thermometer T^
+(Fig. 5). Figure 8 shows a horizontal section through J^ J^ and Bi By.
+The block B2 B2 is protected by a jacket quite similar to Ji J^. Wads of
+cotton were used to protect certain parts of each block which were not
+covered by the jackets.
+The course of the water through the apparatus is indicated by arrows.
+Thus, at the left hand the streams enters at A^ passes down along the
+bulb of Ti through B^ i?i, thence by a rubber tube, longer in fact than
+in the figure, to J\J\^ thence by another rubber tube to j^-, and out at
+E]^. The flow of the right hand stream is strictly analogous. Each
+stream usually carried 20 or more grams of water per second. The
+thermometers T-^ and To were the same that were used with the 15 cm.
+bar of iron and in previous tests of thermo-electric junctions. Sets of
+observations at a given mean temperature were made in pairs, one set
+having T^ the warmer, the other set having To the warmer.
+It was necessary to give careful attention to the electrical resistance of
+the column of short iron bars ; for it could not be safely assumed that
+this resistance would be either small or constant. It was found, naturally,
+to depend somewhat upon the magnitude of the pressure applied at the
+ends of the column. In the experiments upon soft iron which we are
+just now considering, the pressure was exerted by means of a compressed
+piece of india-rubber tubing, not shown in Figure 5. In later experi-
+ments, with cast iron, it was applied through a lever as in Figure 5,
+the force F being exerted upon the end of the lever by means of a

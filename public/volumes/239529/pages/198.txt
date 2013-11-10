@@ -1,0 +1,47 @@
+T x ^4Tc
+289
+Hence dx /dv is always negative at
+the critical temperature itself, when
+A [/a has such a high value as in
+mercury and similar substances. Then
+the degree of dissociation of the double
+molecules Hg, decreases when the
+volume becomes greater, instead of
+increasing — as it generally does.
+As a (v— b) : v* {a and /; assumed
+constant) has its maximum value at
+v=2b, the transition temperature for
+v->oo values of v both about < 26 and
+> 2b will be lower than that (7\) at
+v = 2b, which latter will be only little higher than that at v = v c
+(about 4 Tr) 1 ). See fig. 1.
+The decrease of x with increasing volume is of course accounted
+for in this way, that on increase of the degree of dissociation x with
+increasing volume also a becomes greater. But this causes the volume
+to decrease again, in which the decrease in the end exceeds the
+original increase.
+At high temperature the pressure will be comparatively great,
+so that then, in consequence of an increase of a, p -\- n /,v will be
+increased little; v — b, hence also v, will then be lowered compara-
+tively little. For this reason dx /d v will always be positive at high
+/VCr. /
+i) The righthand branch of the transition curve (dotted in the figure) will get
+more to the left, and 1\ possibly slightly lower than would follow from the above
+calculation, because then x can no more be assumed near 0. The intersection with the
+vapour branch of the saturation curve takes place at T = about 0,8 T c - For
+from pv = 7 2 (1 -\-x) RT and p =p c e — M4(l/»i— 1)^ w j iere 4^4 i s the vapour pressure
+factor f = 1,8 X 2,303 and m = T: T c , follows p c v e~ e ' c - = >/ 2 (1 + *) mRT c . When
+x is put approximately = V2. then ne~ etc ' becomes = ^l^ms (with v = nv c and
+RTc:pcVc = s). Now in mercury s='2,62 (see the cited first part), so that finally
+n = 1,965 me 4 ' 1 ^ 1 !" 1 " 1 ' 1 (saturation curve). This must now be combined with
+a v — b A[/a
+RT=±
+In this Lya = 30 . 10~ 2 , while Va becomes = 25.10-2
+v v [/a
+with x= y 2 . When at the point of intersection a is put about = l 1 /* «c b = l'/ 4 b c ,
+a r nv P ~Vl.b c . ., ., „ T , _,„, 20 a c
+then mRTc = 6 — — '—, 1. e. with v c = 1,8 b c and RT C = jr= — (see
+nv c nv c ï 1 o c
+above) m = 2,5 — (transition curve). Both equations are satisfied by
+m = 0,778, n = 4,99 (point of intersection), so that this will lie at about
+T = 0,8 T c , where v = 5v c .

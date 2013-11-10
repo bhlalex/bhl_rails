@@ -1,0 +1,34 @@
+44 THE PRINCIPLES OF SCIENCE.
+of gravity is directly as the product of the masses, and
+inversely as the square of the distance/ are propositions
+concerning magnitude or degree. Logicians have not paid
+adequate attention to the great variety of propositions
+which can be stated by the use of the little conjunction
+as, together with so. ' As the home so the people/ is a
+proposition expressing identity of manner ; and a great
+number of similar propositions all indicating some kind of
+resemblance might be quoted. Whatever be the special
+kind or form of identity, all such expressions of identity
+are subject to the great principle of inference ; but as we
+shall in later parts of this work treat more particularly
+of inference in cases of number and magnitude, we will
+here confine our attention to the logical propositions
+which involve only notions of quality.
+Simple Identities.
+The most important class of propositions consists of
+those which fall under the formula
+A = B,
+and may be called simple identities. I may instance, in
+the first place, those most elementary propositions which
+express the exact similarity of a quality encountered in
+two or more objects. I may compare by memory or
+otherwise the colour of the Pacific ocean with that of
+the Atlantic, and declare them identical. I may assert
+that 'the smell of a rotten egg is that of hydrogen
+sulphide/ ' the taste of silver hyposulphite is that of
+cane sugar/ ' the sound of an earthquake is that of distant
+artillery.' Such are propositions stating, accurately or
+otherwise, the identity or non-identity of simple physical
+sensations. Judgments of this kind are necessarily pre-
+supposed in more complex judgments. If I declare that
+1 this coin is made of gold/ I must base the judgment upon

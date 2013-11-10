@@ -1,0 +1,38 @@
+362 RICHARDSON— DYNAMICAL EFFECTS OF [April 22,
+not to be expected. At present the balance of evidence seems to be
+decidedly against the corpuscular view.
+I am inclined to think that the primary Roentgen rays originate
+largely as the result of secondary actions due to the stirring up
+of the electrons in the atoms of the anti-cathode by the rapidly mov-
+ing cathode rays which impinge on them. On this view the con-
+stituent frequencies of the rays would be, to a considerable extent,
+a matter of the atoms in which they originate ; and it may be that the
+gap in electro-magnetic radiations between ultra-violet light and the
+Roentgen rays, which exists at present, may never be filled up ; as
+there may be no atoms which have natural periods in the neighbor-
+hood of these frequencies.
+Recent years have seen the accumulation of a very large quantity
+of material relating to optical efl^ects which are produced by a mag-
+netic field. It is impossible, within the limits of this discussion, to
+attempt to show the enormous usefulness of the electron theory in
+the development of the science of magneto-optics ; but there is one
+phenomenon which we cannot afford to pass by entirely, if only on
+account of its historical importance. I refer to the Zeeman effect.
+This effect was called after its discoverer, who showed that the
+spectral lines which are emitted by all gaseous substances under
+suitable conditions of excitation, were slightly displaced by a very
+strong magnetic field. The true explanation of this phenomenon
+was at once given by H. A. Lorentz. He pointed out that if the
+monochromatic light was emitted by vibrating electrons the fre-
+quency of the vibrations would be altered if the atom which con-
+tained the electrons found itself in a magnetic field. This change
+in the frequency, of course, corresponds with a change in the wave-
+lengths of the emitted light. He also predicted that the emitted
+light would be polarized in a certain v/ay and this was confirmed by
+experiment. Lorentz showed, in addition, that the value of the
+electric charge of an electron, divided by its mass, could be calculated
+from the displacement of the spectral lines in the magnetic field.
+The results of these calculations showed that the value of this ratio
+was the same as that found by Sir J. J. Thomson and Wiechert for
+the cathode rays in a discharged tube. Thus the Zeeman effect and
+the cathode rays were the first two phenomena which aff'orded ex-

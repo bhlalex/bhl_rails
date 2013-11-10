@@ -1,0 +1,43 @@
+30 colour-sight and colour-blindness
+Light and its Composition.
+Sir Isaac Newton (1642-1727) said " White light is com-
+posed of rays differently refrangible."
+If a beam of sunlight be admitted to a dark room
+through a very narrow slit in a shutter and received on the
+edge of a triangular prism — the drop of a chandelier will do —
+it will be bent from its straight course and may be projected on
+a screen as a brilliant rainbow-like band of many coloured
+lights — the spectrum. The beam has been decomposed or dis-
+persed by refraction and the seven so-called primary colours
+result — red, orange, yellow, green, blue, indigo and violet ; red
+being the colour of least refraction, violet of most. This
+division into seven is purely arbitrary, and Professor Leslie
+suggests that Newton " in the choice of that number was
+apparently influenced by some lurking disposition towards
+mysticism."
+If the solar beam be examined through a spectroscope, the
+spectrum obtained is broken up by numerous fine transverse
+lines, named after their discoverer Frauenhofer's (1787-1826)
+lines. The more prominent of these are lettered, A being at
+the extreme end of the red and H of the violet, and, as their
+positions are fixed, they are the standards by which places in
+the spectrum are located and referred to. In the spectrum
+mentioned, the red, orange, yellow and green are crowded up,
+making together half the luminous band, while the blue, indigo
+and violet are extended, and make the other half.
+Spectra are produced by other means than prismatic refrac-
+tions ; by a diffraction grating, the polariscope, phosphorescent and
+fluorescent bodies, thin films and the action of coloured bodies.
+The diffraction spectrum is not so brilliant nor so pure as
+the refraction one ; but the distances between the colours are in
+proportion to their wave lengths, hence it is called the normal
+spectrum and yellow is in the middle of it.
+The spectrum has been divided into a thousand (1000)
+parts ; the positions of the colours and the spaces occupied by
+them have been defined and the fixed lines of Frauenhofer have
+their allotted places, even to decimal points. Then as difference
+of wave length gives rise to difference of colour, these waves
+have been calculated to the ten-millionths of a millimetre and
+so also with the fixed lines.
+Sir David Brewster (1781-1868) reduced Newton's pri-
+maries to three : — red, yellow, and blue, and this seemed

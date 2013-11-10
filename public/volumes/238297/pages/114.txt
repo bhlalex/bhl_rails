@@ -1,0 +1,35 @@
+88 THE PRINCIPLES OF SCIENCE.
+of Thought, which I have called the Law of Duality.
+Taking A to represent any class or object or quality, and
+B any other class, object or quality, we may always
+assert that A either agrees with B, or does not agree.
+Thus we may say
+A = AB I- Aft.
+This is a formula which will henceforth be constantly
+employed, and it lies at the basis of reasoning.
+The reader may perhaps wish to know why A is inserted
+in both alternatives of the second member of the identity,
+and why the law is not stated in the form
+A=Bf&.
+But if he will consider the contents of the last section
+(p. 87), he will see that the latter expression cannot be
+correct, otherwise no term would have any negative.
+For the negative of B -I- & is 5B, or a self-contradictory
+term ; so that if A were identical with B | b, its nega-
+tive a would be non-existent. This result would generally
+be an absurd one, and I see much reason to think that in
+a strictly logical point of view it would always be absurd.
+In all probability we ought to assume as a fundamental
+logical axiom that every term has its negative in thought.
+We cannot think at all without separating what we think
+about from other different things, and these things neces-
+sarily form the negative notion f . If so, it follows that
+any term of the form B ! b is just as self-contradictory
+as one of the form B&.
+It will be convenient to recapitulate in this place the
+three great Laws of Thought in their symbolic form, thus
+Law of Identity A = A.
+Law of Contradiction Aa = o.
+Law of Duality A = AB -|- A&-.
+f 'Pure Logic,' p. 65. See also the criticism of this point by De
+Morgan in the 'Athenaeum,' No. 1892, 3oth January, 1864 ; p. 155.

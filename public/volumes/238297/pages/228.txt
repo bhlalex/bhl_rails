@@ -1,0 +1,36 @@
+202 THE PRINCIPLES OF SCIENCE.
+The reader will see that the numbers which we reach in
+questions of permutation, increase in a more extraordinary
+manner even than in combination. Each new object or
+term doubles the number of combinations (p. 195), but
+increases the permutations by a factor continually
+growing. Instead of2x2x2x2x we have
+2x3x4x5x and the products of the latter
+expression indefinitely exceed those of the former. These
+products of continually increasing factors are constantly
+employed, as we shall see, in questions both of permu-
+tation and combination. They are technically called
+factorials, that is to say, the product of all integer
+numbers, from unity up to any number n, is the factorial
+of n, and is often indicated symbolically by jj*. I give
+below the factorials up to that of fifteen :
+6 = 1.2.3
+24 = 1.2 . 3.4
+120 = i . 2 5
+720 = i . 2 .... 6
+5,040 = |_7_
+40,320 = !_?_
+362,880 - |_9_
+3,628,800 = |io
+39,916,800 = | ii
+479,001,600 = I 12
+6,227,020,800 = |][_3
+87,178,291,200 = |4
+1,307,674,368,000 = |5
+The factorials up to [36 are given in Rees' * Cyclopaedia/
+art. Cipher, and the logarithms of products up to [265
+are given at the end of the table of logarithms published
+under the superintendence of the Society for the Diffusion
+of Useful Knowledge (p. 215). To express the factorial
+[265 would require 529 places of figures.
+Many writers have from time to time remarked upon

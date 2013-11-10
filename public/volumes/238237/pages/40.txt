@@ -1,0 +1,20 @@
+HAYES— DETECTION OF SUBMARINES.
+39
+The statement that no increase in range is to be gained by increas-
+ing the sensitiveness of the receivers beyond a certain point ob-
+viously does not apply when the receivers are used in multiple since
+the local and other disturbing noises are not intensified in the same
+proportion as the sound upon which the receivers are focused. More
+sensitive receivers can be effectively employed in multiple unit de-
+vices than in single unit devices such as the " 3-spot " and " 4-spot."
+The sensitiveness of the acoustical receivers is not as high as can
+A
+B
+Plate XV. The microphone housing developed at the U. S. Naval Ex-
+perimental Station. A, Section through interior showing microphone. B,
+Complete receiver unit, about ^ natural size.
+be advantageously used in multiple unit devices. This fact, together
+with the need for a long range listening device led to the develop-
+ment of several types of electrical listening devices employing mul-
+tiple receivers. A description of these devices follows :
+The U-3 Tube is a submarine sound-detecting device which can

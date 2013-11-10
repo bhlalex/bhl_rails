@@ -1,0 +1,34 @@
+460 THE PRINCIPLES OF SCIENCE.
+found and original remarks concerning the theory generally.
+In Lubbock and Drink water's work on ' Probability,' in the
+Library of Useful Knowledge, we have a very concise but
+good statement of a number of important problems. The
+Rev. W. A. Whitworth has given, in an interesting little
+work entitled ' Choice and Chance,' a number of good illus-
+trations of the calculations both in the theories of Com-
+binations and Probabilities. In Mr. Todhunter's admirable
+History we have an exhaustive critical account of almost all
+writings upon the subject of probability down, to the cul-
+mination of the theory in Laplace's works. In spite of the
+existence of these and some other good English works, there
+seems to be a want of an easy and yet pretty complete
+introduction to the study of the theory of probabilities.
+Among French works the ' Traite Elementaire du Cal-
+cul des Probabilites/ by S. F. Lacroix, of which several
+editions have been published, and which is not difficult
+to obtain, forms probably the best elementary treatise.
+Poisson's ' Eecherches sur la Probabilite des Jugements,'
+(Paris, 1837), commences with an admirable investigation
+of the grounds and methods of the theory. While La-
+place's great ' Theorie Analytique des Probabilites ' is of
+course the ' Principia' of the subject, his 'Essai Philo-
+sophique sur les Probabilites ' is a popular discourse, and
+is one of the most profound and interesting essays ever
+published. It should be familiar to every student of
+logical method, and has lost little or none of its import-
+ance by lapse of time.
+Detection of Constant Errors.
+The Method of Means is absolutely incapable of elimi-
+nating any error which is always the same, and which
+always lies in one direction. We sometimes require to be
+aroused from a false feeling of security, and to be urged

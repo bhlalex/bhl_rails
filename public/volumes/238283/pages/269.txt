@@ -1,0 +1,41 @@
+394 PROCEEDINGS OF THE AMERICAN ACADEMY.
+during the analysis ; for every step of this procedure was verified by
+confirmatory evidence. If a flaw existed, it must have been in the
+purity of the original substance. Since the observed atomic weight is
+lower than the former results, it is important to examine into only
+those possible irregularities which could have had the effect of lowering
+the apparent value.
+The probable impurities tending to lower the atomic weight are, first,
+sodic bromide ; second, hydrobromic acid ; third, free bromine ; fourth,
+uranic pentabromide ; and fifth, an unknown metal with a lesser equiva-
+lent. The first impurity was found to be present, its amount was deter-
+mined, and a suitable correction was applied. The second could not have
+been formed during the sublimation of the uranous bromide, because com-
+pounds of hydrogen were scrupulously excluded. If formed by the action
+of water after the sublimation, the atomic weight would have appeared
+too high — for moist uranous bromide emits hydrobromic acid instead of
+absorbing it. The third impurity, free bromine, could hardly have been
+imprisoned or absorbed by the sharply crystalline salt to any appreciable
+extent, since the concentration of the bromine vapor in the issuing gases
+was but small.
+The evidence in regard to the absence of pentabromide is fiiirly conclu-
+sive, although somewhat indirect. All attempts by many investigators
+to form this compound have failed, in spite of the recognized existence of
+the corresponding chlorine compound. It seemed possible, however,
+that while this compound is not formed at high temperatures, lower
+temperatures might permit the addition of the extra bromine. Accord-
+ingly the jireparations used in Analyses 7, 8, 10, and 11, were cooled
+in a current of dilute bromine vapor, instead of in pure nitrogen. The
+presence of a comparatively small amount of pentabromide would make
+a very decided difference in the quantity of bromine found. Hence the
+essential agreement of the average result of these analyses, 238.50, with
+the average result of all the others, 238.52, is good evidence of the
+absence of uranium pentabromide.
+"With regard to the fifth possible impurity nothing can be said except
+to point out the many operations involved in the purifications. These
+seem to point toward probable purity ; but it is nevertheless to be re-
+gretted that lack of time prevented the analysis of many different fractions
+of material, prepared in varying ways.
+The presence of oxybromide would of course cause low bromine anal-
+yses, and too high an apparent atomic weight. Therefore this possible
+cause of error need not be considered, even if the oxybromide had ever

@@ -1,0 +1,49 @@
+62
+fore-illumination, can be satisfactorily explained by assuming thai
+at every point of tlie circumference the energy of the unilateral
+after-illumination is simply added to that of tlie fore-illumination.
+The retardation at a given point of the circumference will
+therefore depend on the total energy i-eceived from the two
+illuminations together. If the energy difference between the
+anterior and posterior sides is then sufficiently great to give the
+difference of growth retardation required for a visible curvature,
+the threshold value will be reached. I have nowhere assumed a
+change in sensitiveness, in contradistinction to Bremekamp ^), who
+attempts to explain the increase in the threshold value by the
+hypothesis, that the plani has become less sensitive as a result of
+the unilateral fore-illumination and thus imagines a change in the
+perception-basis.
+If we apply unilaterally b M. C S., the front will receive h, and
+h
+of this the back — M. C. S. ; m is greater than 1, since the back
+m
+receives less than the front. If we had, however, previously given
+a M. C. S. omnilaterally, the later front would have received of this
+a a
+- M. C. S., the later back also — M. C. S. ; a unilateral after-illu-
+n n
+mination will then supply to the front in addition h M. C. S., alto-
+a
+gether therefore — -\- b M. C. S. ; the back receives altogether
+o h
+1 M. C. S. In both cases the absolute energy difference between
+n m
+h ,m— 1
+the front and back remains constant, i.e. b = 6 M. C. S.
+m m
+Now the resultant curvature entirely depends on the
+difference of growth retardation, which corresponds
+m — 1
+to an energy difference of /; M.C.S. If the growth retar-
+m
+dation curve were a straight line, there would always correspond
+?/i — 1
+to an energy difference of b M .C. S. one and the same differ-
+m
+ence of growth retardation, whatever place of the abscissa we may
+consider; the threshold value would then necessarily be constant. If
+the growth retardation curve is, however, a curve with decreasing
+slope, the growth retardation difference corresponding to an abscissa
+m — 1
+difference of 6 M. C. S. will become the smaller, the gentler
+^) Bremekamp I.e.

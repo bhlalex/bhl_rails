@@ -1,0 +1,50 @@
+CHAPTERS ON THE .STARS. 647
+A B
+Position ( 1 ) , stars at pericenter *
+Interval, 16 hours.
+Position (2) , A eclipses B
+Interval, 20 hours.
+B A
+Postion ( 3 ) , stars at apocenter 4
+Interval, 20 hours.
+Position (4) , B eclipses A
+Interval, 16 hours.
+Position ( 1 ) is repeated *
+U Pegasi is a star which proved as perplexing as Tan Cygni. It was
+first supposed to be of the Algol type, with a period of about two days.
+Then it was found that a number of minima occurred during this
+period, and that the actual interval between them was only a few hours.
+The great difficulty in the case arises from the minuteness of the
+variation, which is but little more than half a magnitude between the
+extremes. The observations of Wendell, at the Harvard Observatory,
+with the polarizing photometer, enabled Pickering to reach a con-
+Q A X A 2 A 3 A ^A S A qA. 7 A. qA 9A
+92
+93
+94
+9S
+A
+196
+/
+,97
+/
+98
+/
+99
+/
+100
+Fig. 3. Light Curve or U Pegasi, of the Beta Lyr« Type, from Observa-
+tions by Wendell at the Harvard Observatory. Magnitude at
+Maximum, 9.32; at Principal Minimum, 9.90; at Secondary Minimum,
+9.76. Period, 9 hours.
+elusion which, though it may still be open to some doubt, seems to be
+the most likely yet attainable. The star is of the Beta Lyras type; its
+complete period is 8 hours 59 minutes 41 seconds, or 19 seconds less
+than nine hours; during this period it passes through two equal maxima,
+each of magnitude 9.3, and two unequal minima 9.76 and 9.9, alter-
+nately.
+The difference of these minima, Om. 14, is less than the errors which
+really ordinarily affect measures of a star's magnitude with the best
+photometers. Some skepticism has, therefore, been felt as to the
+reality of the difference which, if it does not exist, would reduce the
+periodic time below four and one-half hours, the shortest yet known.

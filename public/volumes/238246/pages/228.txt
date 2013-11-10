@@ -1,0 +1,42 @@
+329
+hence equation (9) shews completely the behaviour of M {,/■ 0^'),
+when .r -^ 1.
+In fact, we may write
+2sin— l+jrzVi.^/-^ |[(10)
+Um\M{x8i')--M{xi^)\^\ogq ^ \h\og
+x-^\ q h=i (
+and again we may notice that onlj' the real part of i/ (.i- ^/') becomes
+infinite, the imaginary part tending to a finite limit.
+Taking, for instance, p = l, qz=2, we shall find
+Lim I Mi— .v) — Mix*) I = è log 2,
+a— ►!
+or
+yi(l + ;i;2«-l)
+Lim = |/2,
+/Z(l 4- ;r2")
+1
+a known result in the theory of the t>-functions.
+4. Finally, I will state that the discussion of the fundamental
+equations (1), (2) and (3) furnishes the proof that the function
+N (z) = :s 6,.
+n=l l—Z''
+cannot be continued beyond the circle \z\ = 1 in each of the
+following cases :
+I. ^>6,>fi>0.
+In this case we shall have
+A \—x B
+- > Lim N{x <9/^) > -.
+q r-^i , 1 q
+log-
+1 — X
+II. Lim bn = A^ 0.
+Now it will be seen that
+l—x A
+Lim iV (x 6p)=z — .
+x-^\ . 1 q
+logl
+1 — X
+III. Lim- = ^;zéO, *>0.
+In this case the equation holds
+A
+Lim {I— xy+^ N {x(9p) = -— r(l + «)?(1 + s).

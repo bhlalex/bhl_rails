@@ -1,0 +1,60 @@
+286
+tor to we now find for — :
+ax
+da)
+dx
+= i RT [log (v—b + (i\ | \ (1 -\-x) RT
+1 rfr 6 Lb "
+a
+~x~
+v — b dx b v — b
+a dv \ d
+v * d x v d
+dv
+dx
+dv
+In this all the terms with — are eliminated in consequence of
+dx
+the equation of state, and we keep :
+1 dm " b Lb. 1 da
+— — = ^ r^ (»-fc) + &\ - \ i ■+») - — j.4- _ - .
+/(7 «# b B v—b RTv dx
+With regard to the quantity «, the following equation may he
+given :
+l/a=a l/a, + 7,(1 —a?) j/a 1 =7, l/a, f «O^a, - V, l/a,)^ 1 /, l/a,+ *A|/a,
+when \/a x refers to one single molecule and l/^ s to one double
+molecule, and L\ a represents the Increase of the attraction, when
+7, double molecule passes into J single molecule (atom). As for
+mercury 7» V a °. ' s about = 10.. 10 -8 and \/a x about = 40 . If)-' 2 ,
+Aj/a has there the exceedingly high value 30. 10~ 2 , i.e. L\/a three
+times the value of [/a,.
+Hence from a = (]/a)' follows dn / c i i: = 2\ / a. L\/a, and thus the
+equation (b) becomes finally :
+1 as* 1
+— loq = C -I —
+2 ,7 1— x 3 2
+/o<7
+7,0+*)
++ #
+— 4 0+*)
+6 A6 2\/a.L[/a
+b„v -b
+RTv
+,(<■)
+i/ (7 _ Q
+when we combine 8 — - — £ — loq 2 to one constant (tempera-
+ture function) C\, and write for c, and c, resp. c, = # : 7 2 + #)
+and c, = 7, (1— *)': 7, (1 + *).
+It is now this last equation that serves as basis for the determi-
+nation of the degree of dissociation x of the double molecules, i. e.
+dx
+for the determination of the quantit} T — -, which will occur in the
+dv
+dp d'p
+expressions for — and — . In the equation mentioned the quantity
+dv dv*
+Lb will probably be always exceedingly small, and may be neglect-
+ed in most cases, whereas on the contrary in this special case,
+where the dissociation of the double molecules Hg t leads to isolated
+atoms Hg, L\/a will possess a very large value, which quite governs
+the modification of the critical quantities.

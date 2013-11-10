@@ -1,0 +1,36 @@
+INDUCTION. 159
+varieties may not be equivalent to others ; and trial
+shows, in fact, that AB = ABC is exactly the same in
+meaning as Ac = Kbc or Be = Bca. Thus the law in
+question has but eight varieties of distinct logical mean-
+ing. I now ascertain by actual deductive reasoning which
+of the 256 series of combinations result from each of
+these distinct laws, and mark them off as soon as found.
+I now proceed to some other form of law, for instance
+A = ABC, meaning that whatever has the qualities of A has
+those also of B and C. I find that it admits of twenty-
+four variations, all of which are found to be logically
+distinct ; the combinations being worked out, I am able
+to mark off twenty-four more of the list of 256 series. I
+proceed in this way to work out the results of every form of
+law which I can find or invent. If in the course of this
+work I obtain any series of combinations which had been
+previously marked off, I learn at once that the law is
+logically equivalent to some law previously treated. It
+may be safely inferred that every variety of the ap-
+parently new law will coincide in meaning with some
+variety of the former expression of the same law. I
+have sufficiently verified this assumption in some cases
+and have never found it lead to error. Thus just as
+AB = ABC is equivalent to Ac = A&c, so we find that
+ab = ab(j is equivalent to ac==acB.
+Among the laws treated were the two A = AB and
+A = B which involve only two terms, because it may of
+course happen that among three things two only are
+in special logical relation, and the third independent ; and
+the series of combinations representing such cases of
+relation are sure to occur in the complete enumeration.
+All single propositions which I could invent having been
+treated, pairs of propositions were next investigated.
+Thus we have the relations, 'All A's are B's and all
+B's are C's/ of which the old logical syllogism is the

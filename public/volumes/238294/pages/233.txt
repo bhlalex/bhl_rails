@@ -1,0 +1,43 @@
+( 686 )
+different in principle, we confine ourselves to the simplest group
+of substances.
+For these we have constructed the representation which we shall
+further develop in the following.
+In agreement with Tammann, we also assume, although under-
+cooling only occurs to a limited extent, that the liquid ridge
+continues to very low temperatures (at first we may assume to the
+absolute zero) states with increasing times of relaxation up to the
+glass condition being encountered in passing over the ridge towards
+decreasing temperature. Thus we do not come into collision with the
+observations. Still we do not mean that it is quite impossible for
+crystalline properties to be found on the glassy ridge e.g. at very low
+temperatures. Further we do not suppose that the existence of one
+such a ridge would exclude the possibility of other amorphous condi-
+tions where other equilibrium relations between entropy and volume
+could equally be found. Moreover it is highly doubtful if the term
+amorphous does not include very various structures in the solid state,
+so that it is certainly not necessary that an amorphous condition
+should be present on the ridge where liquid would be found at a
+higher temperature. As to the crystalline ridge, our whole represen-
+tation makes it appear more probable to us, that the crystalline
+ridge in the simplest case should run next to the liquid ridge down
+to very low temperatures, than that it should follow Tammann's ring
+shaped form (c. f. § 4).
+The process of transformation from the crystalline to the gaseous
+(below the liquid-gas critical temperature, liquid) state does not at all
+disagree with the usual assumptions concerning the molecular forces,
+but is immediately to be deduced from them. A very satisfactory
+agreement with the suppositions would be obtained when the charac-
+teristic difference between two ridges appeared to result from the
+differences of density and entropy (specific heat) of the modifications,
+the crystalline or amorphous form taken by each of these modifications
+being thermodynaraically of secondary importance, so that for a first
+investigation they would not come into account in comparison with
+the cliange of properties of the solid phase due to difïerences of
+density and entropy.
+However it may be, we must certainly assume that the crystalline
+form will result from the molecules being by choice oriented and
+arranged in a giA'en manner owing to the forces from the not
+corresponding points. The directing and arranging forces will then
+be different for different densities and entropies, whence the most
+probably occurring orientation and arrangement will be different

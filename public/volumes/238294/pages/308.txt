@@ -1,0 +1,43 @@
+( 789 )
+use of the word leii;i^lli of path. If we a\<>i<l tin's, every one will
+see throiifj^h tlie niistuke; for i-eiilly the reason inii' e(nnes to this: In
+a certain time a numl)er of [)artieles j*eaeii a eerlain snrface .l;now
+every partiele reaches a snrface /> somewhat sooner, so more particles
+I'each ]j than A in the same time. In essentially the same way we
+iniu'hl show that more vertical fallin<2; raindrops would strike a pointed
+roof than a flat one of a section of equal area. Nobody will make
+this mistake, because it is cleai- that the number of raindrops fallinji,'
+()]! the roof depends solely on the (piaiitities, Avhich <;overii the
+stream of those drops and on the area of the section of the roof.
+The same holds foi" the niolecules ; and tluMpiantities which determine
+the strength of the stream of molecules are only the velocity of
+the molecules, the law^ of the distribution of velocity which is the
+same, whatever the form be of the molecules, and the number of
+molecules per unit of volume.
+I said already, that the opposed opinion derives its force from the
+ambiguous use of the Avord "length of path." We might also justly
+say of the raindrops that the path which they describe to get from
+a certain point to the roof, is shortened, wdien w^e think the roof
+pointed. In the same way we may say of the molecules, that the
+path from a certain Ji,red point to the sphere is shorter than that to
+the disc, but this does not hold for the mean path and of course
+the latter only is iji inverse ratio to the numl)er of collisions. The
+A'alidity of this reasoning is easy to see by means of any of the
+seemingly different definitions for the length of path. I shall for
+shortness, confine myself to that according to which the mean length
+of path of molecules moving with the velocity c, if? found by
+examining, how^ many molecules strike against a certain molecide
+within a certain interval of time, by adding the })alhs described by
+any of those molecules between this collision and the preceding one,
+and by dividing this sum by the number of those molecules. Let us
+now^ determine the mean path of the molecules which strike with a
+Aelocity c from a direction P 1^ either against the disc S, or the
+spherical surface B (Fig. 1). We shall call these molecules the
+molecules of the group in question. The fact that a molecule of the
+group in question whose last collision before it reached 7>or>S'took
+place in a point ^4 ^), will have a shorter i)ath to B than to S, does
+not call for discussion. In so far van dek Waals and Korteweg are
+^) We shall call such a point henceforth the "last point of collision". This is
+therefore the point where the collision takes place, which makes a molecule pass
+into the "group in question". The collision with B or S makes the molecule leave
+this group again.

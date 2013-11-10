@@ -1,0 +1,35 @@
+UNITS AND STANDARDS OF MEASUREMENT. 375
+Derived Units.
+The standard units of time, space, and mass having been
+once fixed, it becomes obvious that many kinds of magnitude
+are naturally measured by units immediately derived from
+one or more of the three principal ones. From the standard
+metre of linear magnitude follows in the most obvious
+manner the centaire or square metre, the unit of super-
+ficial magnitude, and the litre or cube of the tenth part
+of a metre, the standard of capacity or volume. Telocity
+of motion, again, is expressed by the ratio of the space
+passed over, when the motion is uniform, to the time
+occupied ; hence the unit velocity will be that of a
+body which passes over a unit of space in a unit of time,
+say one metre per second. Momentum is measured by
+the mass moving, regard being paid both to the amount
+of matter and the velocity at which it is moving. Hence
+the unit of momentum will be that of a unit volume of
+matter of the unit density moving with the unit velocity,
+or in the French system, a cubic centimetre of water of
+the maximum density moving one metre per second.
+An accelerating force is measured by the ratio of the
+momentum generated to the time occupied, the force
+being supposed to act uniformly. The unit of force will
+therefore be that which generates a unit of momentum
+in a unit of time, or which causes, in the French system,
+one cubic centimetre of water at maximum density to
+acquire in one second a velocity of one metre per second.
+The force of gravity is the most familiar kind of force,
+and as when acting unimpeded upon any substance it
+produces in a second a velocity of 9*80868 .... metres
+per second in Paris, it follows that the absolute unit
+of force is about the tenth part of the force of gravity.
+If we employ British weights and measures, the absolute
+unit of force is represented by the gravity of about half

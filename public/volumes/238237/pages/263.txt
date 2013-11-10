@@ -1,0 +1,51 @@
+378 HAYES— U. S. NAVY MV TYPE OF HYDROPHONE.
+R^= 2D cot e^,
+i?2 = 2D cot (f)2,
+the depth (D) being taken from the chart. It is to be noticed that
+for ranges ahead the compensator reading, 6, occurs in the equation
+while for ranges astern the " sounding angle," (j>, is used.
+■c
+A
+-^
+^./'.Miuua^
+^
+\
+KCY
+O-Ct-i fonp
+p,-an cote.
+RfiDcofP,
+t -^l '^^"^
+\
+\
+° \
+\
+\ '/!
+> / /
+\ / /
+/ \
+/ \ '
+\ / \l
+__ J-/^ Vg
+^^TT-
+in::
+/
+\
+METHOD OF SOUNDING /\ND RANGE FINDING BY M-V HYDROPHONE
+Fig. 4.
+If the depth is not too great, {D) can be determined by the hydro-
+phone as outlined above and the range formulas become
+R, = L
+R., = L
+Tan$
+Tan^i '
+Tan$
+Tan *2 '
+where (R) is the range to be determined, (L) the distance between
+the sound-source and hydrophone on the listening vessel, and 6^, 6.-,,
+and $ are the angles which the reflected sound from the three vessels
+make with the surface as shown.
+It is evident that the range to which these formulae will give rea-
+sonably accurate determinations is proportional to the depth of water
+in which the vessels are operating.
+The equation connecting {D), the depth, and $, the angle which
+the reflected sound makes with the surface, becomes somewhat com-

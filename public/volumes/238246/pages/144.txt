@@ -1,0 +1,53 @@
+205.
+\^ b . \
+\?
+\
+\
+Pn., Rn
+\
+\
+'x,
+\
+\
+\
+\
+ISMM
+\
+\
+\
+\
+PI
+Fig. 2.
+Fig. 3.
+x^ sin S
+interfere under a phase difference In. Hence <^A^OA^ is
+2.Tj iin
+JT, or if in the earlier notation we put this equal to c^, it
+appears that c^ in = 2ji x^ shi &, hence that it is a constant') that
+2.1;, sin 6
+depends exclusively on distances; <] A^OA^ = Jt,<^An()A^ =
+2 b sin 6
+jr, when h is the width of the glass plates. The other
+fans are congruent with the first, the last ray of a fan always
+forming the same angle mn with the first of the next; <[ «7>i is
+namely the phase difference due to the difference of two paths of
+light, one going from a point of the righthand edge of a plate to
+Q, and the other from the lefthand edge of the following plate to
+the same point Q. When \x and d are the index of refraction and
+the thickness of every plate, then « is = fjc/ — dcos8, hence again a
+constant, depending on measures of length and physical constants.
+This constant distinguishes itself from the first, because it
+depends on the wave length in consequence of the appearance of/ii.
+However ii and hence a too, is an even function of m and for this
+reason we may consider it as a constant in the following discussion.
+Let us now return to the general case.
+When the instrument is struck by light of a twice as small
+wavelength, the fan will be drawn out twice as far, all the angles
+with the time-direction being proportional to m. It appears parti-
+cularly clearly with the echelon how in consequence of this the
+resulting vector, and together with this the intensity in the point
+of observation Q will change its value. The intensity is, therefore,
+a function of the number of waves m, and in order to prove that
+this is an even function of it, we shall reverse the sign of m. This
+1) i. e. independent of m.
+14*

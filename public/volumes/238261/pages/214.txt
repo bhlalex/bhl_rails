@@ -1,0 +1,144 @@
+■ HALL AND AYRES. — HEAT CONDUCTION IN IRON. 297
+cause made the later values at a given temperature about one per cent
+greater than they would have been had they been obtained at the same
+temperature in May or June. In these earlier months sets of observa-
+tions were made at various temperatures from near 20° to near 75°. In
+July and August sets near 28° were intermingled with sets near 57°. It
+is possible, therefore, to make for each period an independent determina-
+tion of the temperature coefficient of K.
+We have from the May and June division : —
+Date.
+Mean Temp.
+A-.
+K,
+K
+May 11
+21°
+0.1471
+0.1495
+0.1483
+" 13
+19°.6
+0.1489
+0.1558
+0.1524
+" 15
+20°.4
+0.1503
+0.1511
+0.1507
+« 25
+22°
+0.1522
+0.1515
+0.1519
+« 28
+20°. 6
+0.1533
+0.1507
+0.1520
+June 23
+2r.7
+0.1536
+0.1465
+0.1501
+20° .9
+0.1509
+0.1509
+0.1509
+May 18
+39°.l
+0.1485
+0.1489
+0.1487
+" 20
+40°.9
+0.1512
+0.1520
+. 0.1516
+" 26
+40°.2
+0.1482
+0.1494
+0.1488
+" 29
+35°.7
+0.1523
+0.1494
+0.1509
+38°.9
+0.1501
+0.1499
+0.15U0
+June 26
+56° .2
+0.1506
+0.1407
+0.1457
+June 7
+74°
+0.1421
+0.1309
+0.1365
+« 8
+72°.9
+0.1523
+0.1559
+0.1541
+« 21
+77°.3
+74°.7
+0.1382
+0.1400
+0.1391
+0.1442
+0.1423
+0.1432
+From July
+and August we hav
+e : —
+Date.
+Mean Temp.
+K,
+K,
+Mean K
+July 26
+, 28°.4
+0.1496
+0.1504
+0.1500
+Aug. 4
+27°.5
+0.1557
+0.1528
+0.1543
+" 7
+27°.0
+0.1519
+0.1515
+0.1517
+27°. 6
+0.1524
+0.1516
+0.1520
+July 23
+54°.2
+0.1518
+0.1487
+0.1503
+" 24
+57°.3
+0.1485
+0.1423
+0.1454
+Aug. 3
+56°.5
+0.1427
+0.1441
+0.1434
+" 8
+59°. 2
+0.1470
+0.1446
+0.1458
+56°.8 0.1475 0.1449 0.1462

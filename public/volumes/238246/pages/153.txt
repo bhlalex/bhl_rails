@@ -1,0 +1,41 @@
+216
+m,
+J' [I') := 2 I X {^n) dm — 2 1 X [m) sin 4jt I'm dm
+1 »>»
+nil '"i
+(14)
+J {l)z=.2 j X (m) dm f 2 I X (wi) coa 47r /m cZm
+in which /' = ^ + tJ when w = jn(9— jo— (i) f c?
+A diaphragm wirh two fine apertures at the place of the points
+Q and Q' casts two beams of light of the above mentioned intensity
+on a photographic plate. When the movable prism is slowly shifted, the
+intensities of these beams change on account of the change in the para-
+meters / and /' in (14). Tfie difference /' — / remains, however,
+constant, namely equal to v, which quantity is an instrument con-
+stant, as appears from (10), if ft does not appear in it. For that the
+prisms must be made of different size and so, that q^^ p -\- d. A
+small error in their size once for all can be neutralised by turning
+the plate PL over a small angle. Now v becomes = d, iience an
+instrument constant. When the photographic plate is shifted over
+large distances and in its own plane with a slight movement ot
+the prism through coupling, and when care is taken that the shifting
+of the plate is always proportional to that of the prism, and further
+that the shifting of the prism always takes place witli uniform
+velocity ^), the two beams will leave behind two bands on the
+photographic plate, where the blackening is different point for point,
+and which, when they are afterwards measured photometricall}'
+with the photometer and thermopile of Dr. MoU;, yield two curves,
+which will be of great importance for the determination of the
+desired function cf){a:).
+We shall call the curves that arise when the bands are measured,
+Z{cl) or Z' {cV), according as their ordinates i-epresent the course
+of the blackening in the lower or the upper band, which is, therefore,
+made in Q oi' in Q. When - denotes the ratio of the shifting of the
+c
+prism, and the corresponding displacement of the photographic plate,
+and when in the upper band that point is assumed as zero point
+N that was placed in Q when the prism passed through the position
+/=:0, then light, the intensity of which corresponds to the position
+/ of the prism, and is therefore indicated by equation (4), will have
+fallen on that band in a point whose abscissa amounts to c/ measured
+1) In order to keep the time of exposure the same for every position of the prism.

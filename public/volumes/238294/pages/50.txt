@@ -1,0 +1,51 @@
+200 :a
+Wci.u'li
+1 1
+O-
+('=^ i:i\7
+1()8.7
+1<S.<)
+2
+— ;i .(5
+( 419 )
+l<S52.n .V
+l8(j<s.ri
+181)8.5
+wlinice
+y = 806=.9 + Ï'XM (/ — 187(>.0)
+The annual variation of .V arcordiiiu- lo llio now loi-ninla is
+|)ra('(ically e(|ual lo the \alue found befoi'e. 'i'lie "values of O — (
+\\ hirh are joined to those of A' in the tai)le alxtve show, however,
+that the svsteniatic discordances are still ^'reat and the outstandiiifi:
+errors of the three noi'uial values are even somewhat greater than
+before.
+In the second place T have detei-niined anew the coefiicieni of
+the inequality. 1 have n(tt done this l)y dei-iving directly values for
+each year from the corrected h and /• and then taking the mean
+of the separate values, as by doing so 1 should have obtained a too
+large coeflicient. Hut I ha\e represented the corrected h and k by the
+formulae :
+h' ^ — c( sin N
+k' = -j- « cos N
+assuming for .V the computed values.
+In this ^vay I derived
+from the //' a =z -^ J ".23
+from the /' = + 1 -34
+from the two cond)ined « =: -|- J .28.
+Hence the fornndae for //' and /' become
+h' = — 1".28 sin [307" + 19°.4 {t — 1876.0)]
+/•' = 4- 1".28 ros [307° + 19^4 (t - 187(3.0)1
+while from the theoretical term II, the -lovian Evection, there would
+follow :
+hjj — — 0".88 sin [329' -f 20°. 68 (t — 1876.0)j
+ku — 4- 0".88 cos [329" + 20°.68 {t — 1876.0)].
+There still remains a considerable diffeience bet^veen the empirical
+and the theoretical values; for 1902 the difference between the
+arguments amounts to as much as 57^. Therefore we cannot but
+conclude that still other inequalities join their intluence to that of
+the Jovian Evection.
+17. The expressions obtained for k and /• according to the two
+I)receding sections are therefore :
+h =: h,; + h' -f liiii
+k == ^v -f h' -f km -f- k[y
+28*

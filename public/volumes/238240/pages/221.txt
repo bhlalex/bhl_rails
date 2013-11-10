@@ -1,0 +1,27 @@
+ON THE SOLUTION OF LINEAR DIFFERENTIAL EQUA-
+TIONS OF SUCCESSIVE APPRONIMATIONS.
+Bv PRESTON A. LAMBERT.
+(Read April 30, 191 1.)
+The object of this paper is to apply to the solution of linear differ-
+ential equations, both ordinary and partial, the method of expansion
+into series used in the solution of algebraic equations in the papers
+read by the author before the Philosophical Society in April, 1903,
+and in April, 1908.
+Let the given differential equation be
+f dy d'y (t\v\
+o.
+The method of solution consists of the followirg steps :
+(a) Break up the left-hand member of the dift'erential equation
+into two parts.
+and
+/ dy d\v d"y\
+-^\''''^''dv'dP^ ■'■'dr^)
+j\^^y^ dx • dx-' '"' dx")'
+such that the first part equated to zero can be integrated by some
+known method, and multiply the second part by a parameter 5", inde-
+pendent of .r and 3'. Replace the given equation by
+, . rf dy d^y d"y\ ( dy d'y d"y\
+(6) Assume that
+(3) 3' = Vo + y\S + r.^-^' + yS-^ + r A* + • • •
+makes equation (2) an identity.
+274

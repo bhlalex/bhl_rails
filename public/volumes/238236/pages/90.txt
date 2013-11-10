@@ -1,0 +1,120 @@
+Pycnosis 58, 59, 66, 67, 77
+Quamoclit coccinea 104
+Radiation, ionizing 37, 111
+natural HI, 113
+quality of 97-113
+quantity of 97-113
+short-wave 43, 98, 101, HI
+ultraviolet 37
+Radiogenetics 33
+Radiomorph 42, 44
+Radiophylaxis 98
+Radiosensitivity 6, 13, 14, 21, 25, 46, 62,
+73, 74, 76, 101-105, 107, 108
+Radish 5
+Radium 34, 35, 44, 62, 98, 102, 103, 113
+Raphanus 6
+Ray, cosnnic 111-113
+gamma 111, 113
+ultraviolet 99-101
+X ray see X ray
+Respiration 11-13, 102
+Retention of effect 109
+Rhoeo discolor 69
+Rhubarb 13
+Riccia fluitans 34
+Rice 6
+Roentgen unit 3, 107
+Root 6, 9, 13, 18, 25-27, 58, 59, 66, 67, 69,
+70, 72, 73, 77, 79, 80, 82-84, 87, 98, 103,
+104, 108-110
+Rootlet 10, 11, 18, 20, 47, 58, 59, 66, 72, 73
+Rye 6, 10, 11, 15, 16, 18-21, 25, 26, 38, 46,
+47, 77-82, 86, 87, 100, 104, 108
+Rye grass, Vesterval'd 26
+Saccharomyces cereviseae 37
+Salt, heavy metal 35, 36, 76
+Saxifraga umbrosa 57
+Scrophulariaceae 105
+Secale cereale 69
+Seed 5, 7, 8, 9, 11, 12, 17-21, 23-26, 35,
+37-39, 42-45, 47, 49, 58, 66, 69, 78, 82,
+84, 86, 98, 102-105, 107-109
+Seedling 4, 13, 98, 102-105, 108, 109
+Sex, change of 46, 49, 51-53, 97
+Sinapis alba 10
+Sinapis arvensis 6
+Size, cell 46, 58, 59, 80, 81, 108
+plant 5, 6, 13, 37-39, 41, 44, 46, 47,
+53, 84, 87, 104
+Skin erythema dose (HED) 3, 107
+Snapdragon 33, 37, 43, 45, 62, 63, 99, 100,
+104, 105
+Solanaceae 13, 105
+Solanum annum 41
+Solanum melongena 41
+Soya r2, 98
+Spartina townsendii 111
+Specificity, genetic 46
+Speltoid 37, 38
+Spinacia oleracea 104
+Sphaerocarpus donnellii 46
+Spinach 39, 104
+Spirogyra 57, 58
+Spore 46, 63, 73
+Sprout 5, 7, 9-11, 13, 15, 18, 20, 24, 27, 37,
+40-42, 45, 47, 57, 72, 73, 78, 104
+Squash 5
+Stalk, secondary 24
+Stamen hair 57
+Starch 12, 61
+Stem 9, 10, 13, 17, 20, 26, 27, 37, 39-42,
+44, 47, 50, 53, 104, 108
+Stem hair 57
+Stimulating dose 4, 8, 9, 14, 15, 23-25, 83,
+86
+Sugar content 11, 12
+Sunberry 13, 15
+Sunflower 5, 11, 13
+Survival, differential 51, 53
+Sweet pea 13
+Tea 53
+Temperature 5, 6, 9, 74, 102, 113
+Temperature coefficient 102
+Thallus 34
+Thistle 13
+Time, exposure 6, 7, 10, 12, 40, 59, 97
+Timothy 27
+Tobacco 13, 14, 34, 37, 41, 53, 63, 112
+Tomato 12, 39, 43
+Tradescantia bracteata 71
+Tradescantia reflexa 73
+Tradescantia selloi 57, 62
+Tradescantia virginiana 57
+Trillium 77
+Triticum dicoccum 106, 107
+Triticum durum 12, 67, 84, 106, 107
+Triticum monococcum 106
+Triticum sativum 7
+Triticum vulgare 6, 9, 67, 84, 106, 107, 109,
+112
+Tuber 10, 12, 40
+Tulip 13, 39, 70
+Tulipa silvestris 69
+Vallisneria spiralis 5, 57, 63
+Viability 23, 42, 44, 46, 47, 59, 69
+Vicia 77
+Viciafaba 5, 7, 8, 10, 13, 14, 58, 59, 65-67,
+71-73, 97, 98, 102, 103
+Vicia sativa 5, 7, 8
+Viscosity, protoplasmic 62
+Water 5-8, 13, 23, 24, 103, 105, 107
+Wheat 7, 9, 11, 12, 19, 23-26, 37-39, 67, 77,
+84-87, 103, 108, 110
+X ray, constancy of 8
+definition of 2
+detection of 2
+discovery of 1
+effect of see specific subject
+formation of 2
+121

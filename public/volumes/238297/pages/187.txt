@@ -1,0 +1,94 @@
+INDUCTION.
+161
+the combinations of three terms, forming the premises
+of fifteen essentially different kinds of arguments. The
+following table contains a statement of these conditions,
+together with the number of combinations which are
+contradicted or destroyed by each, and the number of
+logically distinct variations of which the law is capable.
+There might be also added, as a sixteenth case, that case
+where no special logical condition exists, so that all the
+eight combinations remain.
+Reference
+Number.
+Propositions expressing the general
+type of the logical conditions.
+Number of dis-
+tinct logical
+variations.
+Number of
+combinations
+contradicted
+by each.
+I.
+A=B
+6
+4
+II.
+A = AB
+12
+2
+III.
+A = B, B = C
+4
+6
+IV.
+A = B, B = BC
+24
+5
+V.
+A = AB, B = BC
+24
+4
+VI.
+A = BC
+24
+4
+VII.
+A = ABC
+24
+3
+VIIL
+AB-ABC
+8
+IX.
+A = AB, aB = Bc
+24
+3
+X,
+A = ABC, a& = a6C
+8
+4
+XI.
+AB^ABC, a& = 6c
+4
+2
+XII.
+AB = AC
+12
+2
+XIII.
+A = BC.|.A&c
+8
+3
+XIV.
+A-BC-I-&C
+2
+4
+XV.
+A -ABC, a = Bc-|-&C'
+8
+5
+192
+There are sixty-three series of combinations derived from
+self-contradictory premises, which with the above 192 series
+and the one case where there are no conditions or laws at
+all, make up the whole conceivable number of 256 series.
+We learn from this table, for instance, that two pro-
+positions of the form A = AB, B = BC, which are such
+as constitute the premises of the old syllogism Barbara,
+negative or render impossible four of the eight combi-
+nations in which three terms may be united, and that
+these propositions are capable of taking twenty-four vari-
+ations by transpositions of the terms or the introduction
+M

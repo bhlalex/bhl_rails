@@ -1,0 +1,207 @@
+108
+MILLER— PARALLAXES OF FIFTY STARS.
+No.
+i8. B.D. -f 8°.866. 02 98= 14 Ononis. (5'^ 2^.5 ; + 8° 22'.)
+Mag. 6.0-6.8. ju, = 4- 0^0017 ; — o".o6i. Spectrum F.
+The measures are in longitude. This is a binary of very long
+period. The components are separated about o".9. Their combined
+images formed a very slightly elongated image. The attempt was to
+bisect this image.
+No other parallaxes of this star have been published.
+H(
+5ur
+Time in Parallax
+Date.
+Angle.
+Obs.
+100 Days, Factor, Solution,
+Wt.,
+Res.,
+Meas-
+h.
+m.
+T. P.
+m.
+p-
+V. ured by
+Feb.
+19,
+1915..
++0
+10
+P.
+—4.56 —0.954 -
+-0.206
+■7
+— 0.007
+Be.
+Feb.
+21,
+1915..
+36
+M.
+4.54 -962
+.225
+■9
++ .012
+Be.
+Oct.
+II,
+1915..
++0
+50
+M.
+— 2.22 -I-O.84I
+.190
+•9
+— 0.014
+Be.
+Nov.
+6,
+1915..
+—0
+17
+P.
+1.96 .517
+.209
+•5
++0.005
+Be.
+Nov.
+9,
+1915..
++0
+34
+P.
+1-93 -472
+.205
+.8
+.001
+Be.
+Oct.
+7,
+1916. .
++0
+32
+M.
+-t-1.40 -\-0.870
+.200
+•5
+-J-O.OOI
+Be.
+Oct.
+14,
+1916..
+27
+M.
+1.47 -804
+.212
+.8
+.013
+Be.
+Oct.
+24,
+1916. .
+—0
+30
+P.
+1.57 .687
+.020
+I.O
+.002
+Be.
+Jan.
+28,
+1917..
++0
+17
+M.
++2.53 —0.787
+.190
+I.O
+— 0.014
+Be.
+Feb.
+12,
+1917..
+46
+M.
+2.68 .917
+.211
+■5
++0.007
+Be.
+Feb.
+18,
+1917..
+29
+M.
+2.74 -951
+•215
+.8
+.Oil
+Be.
+Feb.
+21,
+1917..
+7
+P.
+2.77 -965
+.198
+I.O
+—0.005
+Be.
+Normal
+Eqitat
+ions:
++
+9.4000 c
++
+.4780^—1.3467
+TT
+I-9233-
++ 71
+.2869 — 1.2843
++ 6.4805
+- +
+0.0118.
+0.2959.
+Solution: c = — 0^.204.
+/x,= -|-o".oo6 ± o".oo4.
+TT^ + o".oi6 =h 0".0I2.
+p. e. unit weight, ± o".03i.
+Com
+PARisoN Stars
+No.
+X.
+y.
+Dependence.
+Diameter.
+B. D. No
+2
+189.6
+152.0
+0.182
+0.76
++8° .861
+9
++ 148.0
+106.4
+.211
+0.71
++8°.87i
+II
+200.0
+— 59-2
+•295
+0.54
+13
+— 187.2
+—104.4
+.312
+0.38
+TT
+0.0
+0.0
+0.60
++8°.866

@@ -1,0 +1,40 @@
+208
+contain J cos A:rt Jx for absolutely monochromatic light, for which
+can also be written J cos 4: jrl (m — 7?iV But for single light the intensity
+must be an even function in m, as we saw; heAice J cos 4:Ji l{m — m)
+can only occur in that combination which reduces it to
+J cos -An- Im, which is even in m, i. e. it can only be met with in
+forms like:
+COS AlJi Im J cos 4jr I (m — m) — ain An Im J sin 4/r I (w — m) Of
+cot in Im J cos 4jr Ix — sin Ajtlm J sin 4jr Ix (8)
+To extend reversely the formula of intensitjf for single light to
+that for compound light we must substitute (f [x) dx for J in the
+former, and then integrate with respect to x. The grouping (8) then
+passes into cos 4n Im C — si?i 4: Jt Im S, exactly that of equation (4).
+The preceding has therefore proved that none of these instruments
+can yield a second equation between C and S which is independent
+of equation (4). C and S can, therefore, not be separated from
+their combination, it seems, therefore, that y (x) cannot be solved. ')
+It is now obvious that the first thing to do is to examine whether
+the function y (.t) can perhaps be determined, if the light in some
+instrument or other can undergo a phase shifting a, which difTers
+from 3t, it being of no consequence whether it is caused by metal
+reflections or other phenomena. Suppose that part of these points P,
+now marked by double or triple accents, receives such light. The
+angles of the corresponding vectors with the time direction would
+have to be c/'w, cj'm..., c,"m, c,"ni...., if the light travelled in the
+same directions, but everywhere in a normal way ; now they are,
+therefore, c"m -\- o: or c"'m-\- a -\- jt, according as on the point P"
+') In passing we may remark that C and 5 do not occur combined in another
+way in the formula of intensity that determines the distribution of intensity for
+the echelon over the whole focal plane of the telescope. This depends for the dilferent
+points on a parameter, which we might call I'. 1 have proved by a computation
+which is left out here that this function of I' satisfies a differential equation of the
+second order, in which only combinations of C and S of the kind as in equation
+(4), to be taken for some values of I in connection with l\ occur as coefficients.
+Thus the dependence between the intensities in the image of reflection of the
+echelon and that in the image of interference in Michelson's interferometer had
+been proved purely analytically. Though the formula of intensity for the echelon
+could be greatly modified by the supposition that diaphragms of a particular shape
+were placed before the glass plates, such a differential equation of the second order
+remained of force all the same, and so the dependence continued to exist.

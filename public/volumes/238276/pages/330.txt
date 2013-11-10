@@ -1,0 +1,192 @@
+SPECIES
+GRADE
+1
+Ash
+Firsts and seconds 4/4
+2
+Do.
+3
+Do
+No 2 common and better 4/4 or log run
+4
+Do
+Mill run
+5
+Firsts and seconds 4/4
+6
+Do
+7
+Do .
+No 2 common 4/4
+8
+Do . .
+Log run
+9
+Do
+Mill run
+10
+Beech . .
+Firsts and seconds 4/4
+U
+Do
+12
+Do. .
+Mill run
+13
+Birch unselected
+Firsts and seconds 4/4 .
+14
+Do. .
+15
+Do
+No 2 common 4/4 .
+16
+Do
+No 2 common and better, 4/4 or log run .
+17
+Do . . .
+Mill run. .
+18
+Firsts and seconds 4/4 .
+19
+Do . .
+No 1 common 4/4. .
+20
+Do
+No 2 common and S W 4/4
+21
+Do . .
+22
+Do
+Mi 1 l run. .
+?1
+Cottonwood
+Firsts and seconds 4/4, 6* to 12* . .
+Do
+Boxboards 4/4 13" to 17*
+25
+DO'::
+26
+Do
+27
+Do
+Mill run
+28
+Cypress .
+Firsts and seconds clear 4/4 .
+29
+Y Do
+Selects 4/4
+30
+Do. .
+Shop No 1,4/4
+31
+Do
+32
+Do. .
+33
+Do
+34
+Cypress shingles
+Bests 5 "
+35
+Do. .
+36
+Elm rock
+37
+Do .
+38
+Do
+No 2 common and better 8/4
+39
+Do . .
+Mill run
+40
+Elm soft
+41
+Do
+42
+Do . .
+Mill run. .
+43
+44
+Do.
+45
+Do
+46
+Do . .
+47
+Do
+48
+Do
+Mill run
+49
+Hickory
+50
+Do
+51
+Do.
+52
+Do. .
+Mill run .
+53
+Maple, hard
+54
+Do. .
+55
+Do
+Mill run
+56
+57
+Do. .
+58
+Do
+59
+Do. ..
+Mill run. . .
+60
+Oak plain
+61
+Do
+62
+Do.
+63
+Do .
+64
+Do
+65
+Oak red quartered
+66
+Do
+67
+Do
+68
+Do. .
+Mill run
+69
+70
+Do
+71
+Do.
+72
+Do
+Mill run
+73
+Poplar
+74
+Do.
+75
+Do
+76
+Do. .
+77
+Do. .
+Mill run
+78
+Tupelo (Bay Poplar).
+79
+Do
+80
+Do
+Mill run I
+16

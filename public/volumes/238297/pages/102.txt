@@ -1,0 +1,36 @@
+76 THE PRINCIPLES OF SCIENCE.
+The reader will find it impossible by the rule of substitu-
+tion to discover a relation between A and C. Three terms
+occur in these premises, namely A, 6, and C ; but they
+are so combined that no term occurring in one has its
+exact equivalent stated in the other. No substitution
+can therefore be made, and the principle holds true.
+Fallacy is impossible.
+It would be a mistake to suppose that the mere
+occurrence of negative terms in both premises render
+them incapable of yielding a conclusion. The old rules
+of logic informed us that from two negative premises no
+conclusion could be drawn, but it is a fact that the rule
+in this bare form does not hold universally true ; and I
+am not aware that any precise explanation has been
+given of the conditions under which it is or is not
+imperative. Consider the following example
+Whatever is not metallic is not capable of power-
+ful magnetic influence, (i)
+Carbon is not metallic, (2)
+Therefore, carbon is not capable of powerful mag-
+netic influence. (3)
+Here we have two distinctly negative premises (i) and
+(2), and yet they yield a perfectly valid negative con-
+clusion (3). The syllogistic rule is actually falsified in
+its bare and general statement. In this and many other
+cases we can convert the propositions into affirmative
+ones which yield a conclusion. To show this let
+A = carbon, B = metallic,
+C = capable of powerful magnetic influence.
+The premises readily take the form
+b = be (i)
+A = A6 f . (2)
+and substitution for b in (2) by means of (i), gives the
+conclusion
+A = Kbc (3)

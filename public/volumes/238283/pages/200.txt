@@ -1,0 +1,25 @@
+BLACK. — THE NEIGHBORHOOD OF A SINGULAR POINT. 291
+Now, the transformation (2) being made, the points of the region
+^= l^i<S, \v\<8, |C|<8,
+which lie in the neighborhoods of" the lines
+(-^A=ol " = '■'' ''
+can, with the exception of the point (0, 0, 0), be transformed in a one-
+to-one manner on the neighborhoods of the points (0, 0, 0) of a set of
+surfaces
+ffAi.,vi,0 = o, <T=i,2, s,
+the coordinates being connected by the relation
+By the neighborhood of the above line is here meant the set of points
+(^, ■>?, 'Q which satisfy the condition
+To deal with the points for which a, /3 would be infinite, cut the
+surface
+by the plane
+The equations of the tangents to the curve of intersection at (0, 0, 0)
+are
+^^A T=l, 2, t<Tn.
+By means of a transformation corresponding to (2),
+the points of T which lie in the neighborhoods of the lines
+^^A r=l,2, t<m,
+can, with the exception of the point (0, 0, 0), be transformed in a one-
+to-one manner on the neighborhoods of the points (0, 0, 0) of the set
+of surfaces
+9r (^V V>1) = 0, T = 1, 2, t<m,

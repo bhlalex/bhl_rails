@@ -1,0 +1,45 @@
+654 POPULAR SCIENCE MONTHLY.
+extent of the solar system was supposed contrary to all probability.
+The actual infinity of space; the consideration that one had only to
+enlarge his conceptions a little to see spaces a thousand times the size
+of the solar system look as insignificant as the region of a few yards
+round a grain of sand, does not seem to have occurred to anyone.
+Considerations drawn from photometry were also lost sight of, be-
+cause that art was still undeveloped. Kepler saw that the sun might
+well be of the nature of a star; in fact, that the stars were probably
+suns. Had he and his contemporaries known that the light of the sun
+was more than ten thousand million times that of a bright star, they
+would have seen that it must be placed at one hundred thousand times
+its present distance to shine as a bright star. If, then, the stars are
+as bright as the sun, they must be one hundred thousand times as
+far away, and their annual parallax would then have been too small for
+detection with the instruments of the time. Such considerations as
+this would have removed the real difficulty.
+The efforts to discover stellar parallax were, of course, still con-
+tinued. Bradley, about 1740, made observations on y Draconis, which
+passed the meridian near his zenith, with an instrument of an accuracy
+before unequalled. He thus detected an annual swing of 20" on each
+side of the mean. But this swing did not have the right phase to be
+due to the motion of the earth; the star appeared at one or the other
+extremity of its swing when it should have been at the middle point,
+and vice versa. What he saw was really the effect of aberration,
+depending on the ratio of the velocity of the earth in its orbit to the
+velocity of light. It proved the motion of the earth, but in a different
+way from what was expected. All that Bradley could prove was that
+the distances of the stars must be hundreds of thousands of times that
+of the sun.
+An introductory remark on the use of the word parallax may preface
+a statement of the results of researches now to be considered.
+In a general way, the change of apparent direction of an object
+arising from a change in the position of an observer is termed parallax.
+More especially, the parallax of a star is the difference of its direction
+as seen from the sun and from that point of the earth's orbit from
+which the apparent direction will be changed by the greatest amount.
+It is equal to the angle subtended by the radius of the earth's orbit, as
+seen from the star. The simplest conception of an arc of one second
+is reached by thinking of it as the angle subtended by a short line
+at a distance of two hundred and six thousand times its length. To
+say that a star has a parallax of 1" would therefore be the same thing
+as saying that it was at a distance of a little more than two hundred
+thousand times that of the earth from the sun. A parallax of one-half
+a second implies a distance twice as great; one of one-third, three times

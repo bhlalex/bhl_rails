@@ -1,0 +1,36 @@
+Physics. — ''The Anomalous Zmuk^-Effect." By Dr T. van LoHUtzEN.
+(Cominunicated by Prof. H. A. Lökkntz).
+(Gommunicaled in the meeting of May 31, 1919).
+DilTeienf attempts have alread}' been made to explain the Zkeman-
+Effeot from the atom model of Bohk ^). As yet only the normal
+LoRENTZ triplet has been explained, often with superfluous components,
+which however have disappeared in the theory of Rubinowicz.
+The theory of the anomalous Zi<:EMAN-effect has not yet advanced
+much, nor is the explanation of the PASCHEN-BACK-effect much further.
+It may, however, be tried to bring one of the parts of the problem
+to a solution, so that possibly the results obtained in this way might
+be serviceable for the complete solution of the |)roblem.
+One of the questions that presents itself here, and which I have
+set myself the task to answer, is this:
+Does the magnetic splitting up exclusively depend on the initial
+and the final path in which the electron moves, or does the transition
+play a part in it?
+In other words:
+Is in the presence of a magnetic field the formula:
+h
+valid, or should it be replaced by a formula as e.g.
+(•)
+(2)
+li 4.T: mc
+as Bohr ") thinks he has to assume.
+I will put the question into still another form, because expressed
+in these words the solution is easiest to give.
+It is known that the frequency of the vibrations of every spectrum
+line may be represented* as the difference of two functions, so-called
+"seq'uences", e.g.:
+1) N. BüHR, Phil. Mag. 27, p. 506. 1914.
+K. Herzfeld, Phys. Zs. 15, p. 193. 1914.
+P. DEBgYE, Gött. Naehr. 1916, p. 142, Phys. Zs. 17, p. 507. 1916.
+A. SoMMEEFELD, Phys. Zs. 17, p. 491. 1916.
+A. Rubinowicz, Phys. Zs. 19, p. 441 en 465. 1918.
+») N. Bohr, Phil. Mag 27, p. 506. 1914.

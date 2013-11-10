@@ -1,0 +1,43 @@
+51
+positifs indépendants de u. Les propriétés différentielles du premier
+ordre de F {6) et Ie mode de convergence ou de divergence de la
+série (2) sont ainsi étroitement lies.
+n étant choisi comme il vient d'etre dit, la difference
+Q [6 + M«, *«] - («. # + C + B t + . • . + ~ J
+tend aussi vers avec u, uniformèment dans Ie champ: quelconque,
+1
+cc, <*, - bornes. Enfin, si p "f / J i "f + Pr = 0> l'expression
+?>o Q \o, «1 + p, Q \o + f, », a, «] + ...+ pr Q [0 -f f»» «, A r u]
+tend uniformèment vers avec w dans Ie champ: # quelconque,
+2\w -\- 2/,- 1 1 p, | , 2 1 pf \ pi\ , ^ A/' | pi | ,2"
+o ooo
+tous bornés (tc = 0, ^ = 1).
+A,
+La demonstration se fait en remarquant que, si y/a n * -\- b^ = p,„
+Q n tend vers 0, d'après la convergence de la série (1). Done, si
+» " * p (m) co" (n)
+2 Q (in) =: n co (n) , 2, m q (m) = w 3 co (ii) , J£ = ,
+1 1 n+i m* 11
+les coefficients co (n), co' (n), co" (n) tendent vers quand n croït.
+On a :
+A m (0 -\- u) = A m (6) cos mu -f- B m (6) sin raw.
+D'oü
+A m [6 -\- (X -f- et) u] — A m \d -\- it "] ~ A m (6) \cos ra li -)- A u — cos m ti u] -f
+-f B m (6) \sin m (cc -\- ).) u — sin m ii u].
+Si m <^n, nous transformons les coefficients de A m (6) et B m (6)
+par les formules:
+(£• — cc')
+cos /? — cos cc — cf (rf* <C 1 )
+sin /} — sin « rrr (/? — «)
+l-#
+/?' + «£ + «'"
+6
+(0<Ö<1).
+Si m^>n, nous remplacons les mêraes coefficients par 2^, 2'V
+avec *5», ()" < 1.
+Les resul tats énoncés paraissent alors en evidence. Sous leur forme
+la plus simple (p 9 = — p x == 1, /;, = 0, p 2 = . . . = 0), la propriété
+que Q [6, u] — Q [&, Xu] tend uniformèment vers avec u, dans Ie
+champ: 6 quelconque, X et - bornés, donne lieu a la re marque
+suivante.
+4*

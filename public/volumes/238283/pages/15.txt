@@ -1,0 +1,41 @@
+8 PROCEEDINGS OF THE AMEKICAN ACADEMY.
+sion already existing in any given substance. But the comparison of
+different substances involves the dangerous assumption that all substances
+would be alike compressible if freed from self-affinity, — an assumption
+which seems more probable than the last, but which nevertheless must
+be rejected. A much safer measure of the stress under which a single
+substance rests is the work which heat is able to do upon it. The
+changing of a simple substance from t° to t° + dt° Centigrade must
+involve the addition to it of an amount of internal work which is
+represented by the rise of temperature multiplied by the heat capacity
+of the substance, or C dt. In a simple elementary substance, when this
+work does not involve the alteration of crystalline form or any other
+apparent change except increase in size, it seems reasonable to consider
+no other variables, at least as a working hypothesis. If this is the case,
+we may write G dt — P dv, in which P is the internal stress against
+which the heat-energy is doing work, G the molecular lieat capacity, t
+temperature, and v volume. The stress against which this work is
+being done is due only to the internal stress and to atmospheric pressure
+(which latter may be neglected by comparison with the very large value
+G dt
+of the former), hence the stress — P =— — This can apply precisely
+only to infinitesimal changes, because in all probability P will vary with
+the volume. While it cannot be claimed that the expression just given
+certainly expresses a single pressure pitted against temperature-work, the
+expression certainly represents a resultant tendency which opposes
+expansion by heat, and therefore, by infereuoe, opposes all other forms of
+expansion.* It is the inward tendency, the opposite to the driving
+tendency t or fugacity.t
+While then this stress, represented by the quotient of energy divided
+by change of volume, can hardly represent anything very definite, it
+must nevertheless be supposed in a general way to increase when the
+self-affinity increases. Hence, while giving no certain knowledge, its
+study may give an indication of affinity.
+A typical comparison may be made of the two elements zinc and
+mercury. They are simple, similar, and yet widely different as to their
+power of holding oxygen. In each case the atomic contraction on union
+with oxygen is about the same. If we take as the atomic volume of
+* All the slight data which we possess upon compressibility seem to run
+parallel with the coefficients of expansion.
+1- Richards, These Proceedings, 35, 471.
+J Lewis.

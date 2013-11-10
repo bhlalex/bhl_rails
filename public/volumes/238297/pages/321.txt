@@ -1,0 +1,35 @@
+THE INDUCTIVE OR INVERSE METHOD. 295
+General Solution of the Inverse Problem.
+In the instance of the inverse method described in the
+last section, a very few balls were supposed to be in the
+ballot-box for the purpose of simplifying the calculation.
+In order that our solution may apply to natural phe-
+nomena, we must render our hypothesis as little arbitrary
+as possible. Having no a priori knowledge of the con-
+ditions of the phenomena in question, there is no limit
+to the variety of hypotheses which might be suggested.
+Mathematicians have therefore had recourse to the most
+extensive suppositions which can be made, namely, that
+the ballot-box contains an infinite number of balls ; they
+have thus varied the proportion of white balls to black
+balls continuously, from the smallest to the greatest
+possible proportion, and estimated the aggregate proba-
+bility which results from this comprehensive supposition.
+To explain their procedure, let us imagine that, instead
+of an infinite number, the ballot-box contained a large
+finite number of balls, say 1000. Then the number of
+white balls might be i or 2 or 3 or 4, and so on, up
+to 999. Supposing that three white and one black ball
+have been drawn from the urn as before, there is a certain
+very small probability that this would have occurred in
+the case of a box containing one white and 999 black
+balls ; there is also a small probability that from such a
+box the next ball would be white. Compound these
+probabilities, and we have the probability that the next
+ball really will be white, in consequence of the ex-
+istence of that proportion of balls. If there be two
+white and 998 black balls in the box, the probability
+is greater, and will increase until the balls are supposed
+to be in the proportion of those drawn. Now 999 different
+hypotheses are possible, and the calculation is to be made
+for each of these, and their aggregate taken as the final

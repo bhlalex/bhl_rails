@@ -1,0 +1,47 @@
+THE TELEPHONE AND ITS IN VENT OB. 549
+telephone for an hour at a time, the distance of the stations from each
+other heing about one hundred and fifty feet. He says : " I remem-
+ber especially that Mr. Reis speaking through his instrument I dis-
+tinctly heard the words, 'Guten Morgen, Ilerr Fischer' ; 'Ich komme
+gleich ' ; ' Passe auf ' ; ' Wie viel Uhr ist es ? ' ' Wie heisst du ? ' "
+Heinrich Hold, a colleague of Reis in the same institute, gives de-
+tailed testimony of talking successfully through the telephone. Hein-
+rich F. Peter, the musical teacher, then and still at Garnier's Institute,
+says, "Philipp Schmidt read long sentences from Spiess's 'Turnbuch,'
+which sentences Philipp Reis, who was listening, understood perfectly,
+and repeated to us." Being incredulous, and to further test it, Herr
+Peter spoke some impromptu nonsensical sentences through the tele-
+phone, such as "Die Sonne ist von Kupfer," which Reis understood
+as " Die Sonne ist von Zucker."
+Mr. S. M. Yeates, instrument-maker of Dublin, writes that in 1865
+he exhibited Reis's telephone to the Dublin Philosophical Society,
+substituting an improved electro-magnetic receiver for the knitting-
+needle receiver (shown in Fig. 2), the transmitter being the same as in
+that figure. Yeates's receiver was an electro-magnet with a vibrating
+armature, mounted on a spring attached to a sounding-box. William
+Frazer, M. D., member of the Council of the Royal Irish Academy,
+writes, March 13, 1883, that he was present on this occasion, that
+various questions were asked and answered, and that "the separate
+words were most distinct, the singing less so." The individual who
+spoke was easily recognized by his voice. (It has been stated else-
+where that Yeates improved the Reis transmitter by placing a drop
+of water between the platinum surfaces of loose contact.)
+In an appendix, which is not really separable from nor less impor-
+tant than the rest of the work, Professor Thompson discusses the rela-
+tion of Reis's instruments to those now in use, and also Reis's devel-
+opment and use of the variable or "undulatory" electric current,
+corresponding to the undulatory curves of sound-pressure, which he
+graphically represents, and to which he often refers.
+In the first section, Professor Thompson points out that Reis's
+transmitters preserve throughout, first, the tympanum to collect the
+voice-waves, and, second, two or more electric elements in loose or
+imperfect contact with each other, so combined with the tympanum
+that the motions of the latter correspondingly alter the current of
+electricity flowing between the contact-pieces. Reis's apparatus is
+not, therefore, an " interruptor," but a " current-regulator." The con-
+tact-pieces, one or both, were mounted with adjustable springs, or held
+together by gravity, so as to vary the current without completely
+breaking contact, in the same way, and for the same purpose, as in
+the Berliner, Blake, and other modern transmitters. Disregarding
+induction-coils and other accessories, the fundamental principle of
+these later instruments is the combination of a tympanum with a cur-

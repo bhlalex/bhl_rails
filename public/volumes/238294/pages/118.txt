@@ -1,0 +1,35 @@
+( 5i9 )
+the simplifications in (he considerations and calcidations — tliat tliese
+cases may l)e adopted as the normal ones, from vvhicli all the other
+cases are to he considered as devialions in greater or smaller degree.
+In our case the consideration of the limiting- case « = 0, «' ^
+otfers another advantage, viz. that much of what will be deduced
+in ^^•llal follows, may he transferretl with some restrictions to the
+hoilingpohit-Une.s for ideal liquid and gaseous phases. For the thermo-
+dynamic relations of equilibrium agree perfectly, when the distinguish-
+ing feature between Ihe two kinds of equilibrium, viz. the degree of
+the mutual influence of the two components in each of the phases has
+vanished. The difference consists only in this, that for the processes
+of melting the pure latent heat of melting may be assumed to be inde-
+pendent of the tempei-ature, whereas for the processes of boiling the
+latent heat of evaporation will decrease with increasing temperature.
+Only in those cases, therefore, in Avhich the boiling points of the two
+components do not differ much, the following considerations may be
+transferred to boilingpoint-curves of liquids, where « may be put
+= 0. When the difference betweeii the boiling points is larger, this
+cannot be done any more.
+II. The fundamental equations (2) of my first paper ') become
+fa , a' \
+/? = -=0, /?'=:- =zO simply:
+\ 9i li J
+1 H log 1 -I log
+It is now possible to eliminate x', and to express cc explicitly in
+7, and in the same Wi,iy to express the quantity x' explicitly in T
+after eliminating x.
+In the first place we find:
+1 iV ' ,v
+(2)
+so that, when for shortness we put:
+we get, in consequence of (1 — x')-\-x'=zl, the relation:
+(1 — ,v) e ^ -\- xe ' ^=--\.
+1) These Proc. VI, .June 27, 1903, p. 151.

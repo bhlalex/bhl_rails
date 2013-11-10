@@ -1,0 +1,35 @@
+UNITS AND STANDARDS OF MEASUREMENT. 369
+The French Government and the present International
+Metrical Commission have for obvious reasons decided in
+favour of the latter course, and have thus reverted to the
+first method of defining the metre by a given bar. As
+from time to time the ratio between this assumed
+standard metre and the dimensions of the earth becomes
+more and more accurately known, we have the better
+means of restoring that metre by actual reference to the
+globe if required. But until lost, destroyed, or for some
+clear reason discredited, the bar metre and not the globe
+is the standard. Any of the more accurate measurements
+of the English trigonometrical survey might in like
+manner be employed to restore our standard yard, in terms
+of which the results are recorded 1
+The Pendulum Standard.
+The third method of defining a standard length, by
+reference to the seconds' pendulum, was first proposed by
+Huyghens, and was at one time adopted by the English
+Government. From the principle of the pendulum (p. 353)
+it clearly appears that if the time of oscillation and the
+force actuating the pendulum be the same, the length
+must be the same. We do not get rid of theoretical
+difficulties, for we must practically assume the attraction
+of gravity at some point of the earth's surface, say
+London, to be unchanged from time to time, and the
+sidereal day to be invariable, neither assumption being
+absolutely correct so far as we can judge. The pendulum,
+in short, is only an indirect means of making one physi-
+cal quantity of space depend upon two other physical
+quantities of time and force.
+The practical difficulties are, however, of a far more
+q Thomson and Tait's ' Elements of Natural Philosophy/ Part i.
+p. 119.
+Bb

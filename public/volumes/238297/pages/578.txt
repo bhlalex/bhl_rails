@@ -1,0 +1,36 @@
+THE PRINCIPLES OF SCIENCE.
+medium, the dispersion of mixed light by the prism and
+the production of the spectrum could not take place.
+Some of the most striking phenomena were thus in direct
+conflict with the theory. The great French mathema-
+tician, Cauchy, first pointed out the true explanation,
+namely that all previous investigators had made an
+arbitrary assumption for the sake of simplifying the
+calculations. They had assumed that the particles of
+the vibrating medium are so close together that the
+intervals are quite inconsiderable compared with the
+length of the wave, or in other terms infinitely small.
+This hypothesis happened to be approximately true in the
+case of air, so that no error was discovered in experiments
+on sound. Had it not been so, the earlier analysts would
+probably have failed to give any solution, and the pro-
+gress of the subject might have been retarded. Cauchy
+was able to make a new approximation to truth under
+the more difficult supposition, that the particles of the
+vibrating medium are situated at considerable distances,
+and act and react upon the neighbouring particles by
+attractive and repulsive forces. To calculate the rate of
+propagation of a disturbance in such a medium is a work
+of excessive difficulty. The complete solution of the
+problem appears indeed to be beyond human power, so
+that we must be content, as in the case of the planetary
+motions, to look forward to successive approximations.
+All that Cauchy could do was to show that certain mathe-
+matical terms or quantities, neglected in previous theories,
+became of considerable amount under the new conditions
+of the problem, so that there will exist a relation between
+the length of the wave, and the velocity at which it
+travels. To remove, then, the difficulties in the way of
+the undulatory theory of light, a new approach to pro-
+bable conditions was needed?.
+P Lloyd's 'Lectures on the Wave Theory/ pp. 22, 23.

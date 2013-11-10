@@ -1,0 +1,83 @@
+SPECIES
+GRADE
+1 Ash Firsts and seconds 4/4
+2 Do No. 1 common 4/4
+3 Do No. 2 common and better, 4/4 or log run
+4 Do Mill run
+5 Basswood Firsts and seconds 4/4
+6 Do No. 1 common 4/4
+7 Do No. 2 common 4/4
+8 Do Log run
+9 Do Mill run
+10 Beech Firsts and seconds 4/4
+11 Do No. 1 common 4/4
+12 Do Mill run
+13 Birch, unselected Firsts and seconds 4/4
+14 Do No. 1 common 4/4
+15 Do No. 2 common 4/4
+16 Do No. 2 common and better, 4/4 or log run
+17 Do Mill run
+18 : Chestnut Firsts and seconds 4/4 '
+19 ^ Do No. 1 common 4/4
+20 Do No. 2 common and S. W. 4/4
+21 Do .*. . No. 3 common 4/4
+22 Do Mill run
+23 Cottonwood Firsts and seconds 4/4, 6* to 12 "
+24 Do Boxboards 4/4, 13" to 17"
+25 Do No. 1 common 4/4
+26 Do No. 2 common 4/4
+27 Do Mill run
+28 Cypress Firsts and seconds clear 4/4
+29 Do ! Selects 4/4
+30 Do Shop, No. 1, 4/4
+31 Do No. 1 common 4/4, random widths
+32 Do No. 2 common 4/4, random widths
+33 Do Mill run
+34 Cypress, shingles Bests 5"
+35 Do Primes 5"
+36 Elm, rock Firsts and seconds 8/4
+37 Do No. 1 common and better 8/4
+38 Do No. 2 common and better 8/4
+39 Do Mill run
+40 Elm, soft No. 1 common and better 4/4
+41 Do No. 2 common and better 4/4 ,
+42 Do Mill run
+43 Gum Firsts and seconds 4/4, red
+44 Do No. 1 common 4/4, red
+45 Do Firsts and seconds 4/4, sap
+46 Do No. 1 common 4/4, sap
+47 Do No. 2 common 4/4
+48 Do Mill run
+49 Hickory j Firsts and seconds 8/4
+50 Do No. 1 common 8/4
+51 Do No. 2 common 8/4
+52 Do Mill run
+53 Maple, hard Firsts and seconds 4/4
+54 k. Do No. 1 common 4/4
+55 * Do Mill run
+56 Maple, soft No. 1 common and better 4/4
+57 Do No. 3 common 4/4
+58 Do Log run
+59 Do Mill run
+60 Oak, plain Firsts and seconds, 4/4
+61 Do No. 1 common 4/4
+62 Do No. 2 common 4/4
+63 . Do No. 3 common 4/4 ."
+64 Do MiUrun
+65 Oak, red, quartered Firsts and seconds 4/4
+66 Do No. 1 common 4/4
+67 Do No. 2 common 4/4
+68 Do Mill run
+69 Oak, white, quartered Firsts and seconds 4/4
+70 Do No. 1 common 4/4
+71 Do No. 2 common 4/4
+72 Do Mill run
+73 Poplar Firsts and seconds 4/4
+74 Do Saps or selects 4/4
+75 Do No. 1 common 4/4
+76 Do No. 2 common 4/4
+77 Do Mill run
+78 Tupelo (Bay Poplar) Firsts and seconds clear, random 4/4
+79 Do No. 1 common, random 4/4
+80 Do... Mill run
+12

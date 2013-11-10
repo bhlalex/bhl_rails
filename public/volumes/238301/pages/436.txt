@@ -1,0 +1,38 @@
+THE CONSTANTS OF COLOR.
+645
+be altered; but the black-and-Avhite will blend into a gray. This
+gray can be altered in its brightness till it seems about as luminous
+as the red. If we find, for example, that with the disk three-quarters
+black and one-quarter white an equality appears to be established,
+we conclude that the luminosity of our red surface is twenty-five per
+cent, of that of white paper. This is of course based on the supposition
+that the black paper reflects no light ; it actually reflects from tw^o
+to five per cent., the reflecting power of white paper being put at
+100. The results thus obtained are always inexact, and the same ob-
+FiG. 3. — Colored Disk with Small Black-and-White
+Disk.
+Fig. i.—y^y,u^r.n.u i^i.-n. .. i 1 H
+Small Black-and-White
+Disk in Rotation.
+server will often obtain different results on different days, though
+those of a single day may agree pretty well among themselves. In
+the appendix to this chapter, a peculiar photometer will be described,
+which has been contrived by the author for the purpose of comparing
+more accurately together the relative luminosity of different colored
+surfaces, or that of colored and white surfaces.
+But to resume our search for color-constants. We may meet with
+two portions of colored light, having the same degree of purity and
+the same apparent brightness, which nevertheless appear to the eye
+totally different ; one may excite the sensation of blue, the other that
+of red ; we say the tones are entirely different. The tone of the color
+is, then, our third and last constant, or, as the physicist would say, the
+degree of refrangibility, or the wave-length of the light. It has in a
+previous chapter been shown that the spectrum offers all possible tones
+except the purples, well arranged in an orderly series ; and the purples
+themselves can be produced with some trouble, by causing the blue
+or violet of the spectrum to mingle in certain proportions with the
+red. Rutherford's automatic six-prism spectroscope can very con-
+veniently be employed for the determination of the tone. {See Fig.
+5.) A peculiar eye-piece is to be used, which isolates a little slice
+of the spectrum in its upper half, as indicated in Fig. 6. In the lower
+half of the field the fixed lines are seen, and the tone selected as match-

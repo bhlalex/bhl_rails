@@ -1,0 +1,44 @@
+On Crystallography. 129
+method of indicative signs. Let us conceive that there is
+made upon the angle O, ascending, a decrement which pro-
+duces a face parallel to the plane n r s, and the expression
+of winch is (OD*F 4 ), whence it follows that on = 3crf
+{fig. 2), Or = 4cb, and Os= Qcg.
+This being done, the expression of the decrement on the
+left of the angle O will be (^OD J H 2 ), and that of the de-
+crement to the right of the same angle (0 T F 4 H>).
+25. Tn order to determine the angles formed by the faces
+produced by the intermediary decrements with the corre-
+sponding faces of the nucleus, what presents itself as the
+simplest is to consider every little group of molecules,
+which results from the decrement, as forming one single
+molecule ; which brings back the calculation to that which
+is employed for the ordinary decrements on the angles.
+Let us take for example the decrement on the angle O
+i
+ascending, represented (OD*F 4 ). Tt is easy to judge that
+in this case, the group which represents two subtractive
+molecules placed the one above the other, is that which we
+sec fig. 6, and in which the side mn is composed of three
+ridges of molecule, the side np of four ridges, and the
+side nk of two ridges, on account of the decrement by
+two ranges in height.
+Having traced on the bases the diagonals mp 9 i o, I
+draw vt perpendicular upon wp, then us perpendicular as
+well upon mp as upon io.
+Let n ty (fig. 7) be the mensurator triangle, in which
+nt being regarded as lying on the plane AEOE (fig. 5)
+will be equal to the same line (fig. 6). Besides, we shall
+have ty (fig. 7) = u s (fig. 6), and the angle nty (fig. 7)
+will be equal to that formed by the plane mpoi (fig. 6)
+with the triangle i k o. Thus it will be easy to find the
+angle yn t (fig. 7) which measures the inclination wanted.
+26*. The solutions of problems of this kind are often sim-
+plified in practice, by a series of the regular form of mole-
+cules. Let us suppose, for example, that the latter are
+cubes. Let us designate each of their ridges by unity.
+We shall have (fig. 6) m n = 3, np = 4, nk = 2, mp =
+V (mn) 1 + hip) 1 — V 25 = 5. nt — = ---.«$ = 72 A = 2.
+x ' v r/ rnp 5
+Thus also nt (fig. 7) = -7-, ty = 2.
+Vol. 36. No. 148. August 1810. I Thus

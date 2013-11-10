@@ -1,0 +1,38 @@
+196 HINRICHS— ATOMIC WEIGHT OF VANADIUM. [Apm 21,
+in our necessary calculati(3ns, because the departures are small
+quantities ; hence, all calculations, even involving the most complex
+mathematical functions, are reduced to the simple rule of three and
+carried out by proportional parts. The importance will soon be
+recognized by the practice of the method.
+The actual laboratory z^'ork consists essentially in the deter-
+mination of tii'o weights which we denote by p and q and which rep-
+resent chemically pure compounds of the formula P and respec-
+tively. The necessary condition is that the weight p has been com-
+pletely changed into q according to the exact formulae P and Q by
+means of a suitable chcuiical reaction. Of such reactions we have
+tabulated and examined over three hundred that have been actually
+used for atomic weight determinations. We designate each such
+reaction by a number for ready reference. This number is simply
+marking their place in our table above referred to ; it is arbitrary
+but a practical necessity. We have already above referred to the
+remarkable chemical reaction, recently applied in the Harrison Labo-
+ratory of the University of Pennsylvania as reaction no. 311.
+Substituting the absolute atomic weights a for the chemical sym-
+bols in the formulae of the two compounds P and 0, we can readily
+calculate the value of the quotient P/Q which we call the atomic
+ratio R and calculate the same to five decimals, the limit of precision
+today. On the following pages, giving the data for the chemical
+reactions that have been used for the determination of the atomic
+weight of vanadium there will be found examples of these and of
+all other processes, to which we request the reader to turn as new
+operations are defined.
+On the other hand, the weights actually taken in the laboratory
+and designated by the letters p and q will give the analytical ratio r
+which w^e calculate also to five decimal places. The analytical ratios
+determined by the different experiments with the same two com-
+pounds P and will give hardly any identical values of r ; we notice
+their extreme values, that is the maximum and the minimum in any
+given series of determinations made in the same manner with the
+identical material. The differance between the greatest and the
+least value of the analytical ratios of a series is the range of that
+series. This characterizes the concordance of the different deter-

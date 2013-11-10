@@ -1,0 +1,41 @@
+61
+force acting at this extremity, the execution of the required con-
+struction would only increase the difficulty mentioned at the begin-
+ning of this §.
+Yet all the auxiliaries for a fit construction of the elastic link-
+polygon of a beam on five or more points of support have been
+provided, as will appear from the following.
+13. Beam on more than four points of support.
+Let the beam on n points of support A, B, C, . . . U, V, IV, be
+given, and let it for the present be required to determine the descent
+and the inclination at the last point of support W, when the beam
+is successively charged at W by a unit force and a unit moment.
+Then the experience gained in the preceding §§ leads to the expec-
+tation that the quantities in question only depend upon the corre-
+sponding ones for the beam A, B, C, . . . U, F, i. e. upon the descent
+and the inclination which will appear at the last point of support
+of the beam A, B, C, . . . U, V, when in V a unit force, resp. a
+unit moment, acts.
+Let us suppose these latter quantities, which may be indicated by
+y H -'A, (Pn—z, f/n—2, f fn— 2, for a moment to be known, and let us attempt
+to derive from them the y n —i, <Pn—i, ,y«-i, ( fn— 1 required. In deter-
+mining each of these quantities we might again use the introduction
+of different moments of transition M y above V.
+For each moment of transition My it would be necessary to
+determine the situation of the point W in two ways:
+1. by the aid of the equations of equilibrium of the field V W
+to the right, supposed to be free, by means of which a point W
+is found ;
+2. by means of an elastic link-polygon belonging to the beam
+A, B, C, . . . U, V, W, which gives a point W.
+If then the series of points IV and W should appear to be similar,
+it would be possible to construct their double point, i.e. the extreme
+point of the link-polygon determining the required quantities.
+If the line of action described really causes y n -l, <pn—i, y>i—\,
+<f n -\ to be found, we must accordingly attempt to determine the
+corresponding quantities of the beam ABC ... D V on (n — 1) points
+of support.
+But this would be possible if under the same conditions of charge
+the inclination and descent were known for the beam ABC...Uiï
+on (n — 2) points of support.
+On arguing further in this way, we are driven back to the beam

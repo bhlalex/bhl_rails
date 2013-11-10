@@ -1,0 +1,39 @@
+TELEPHONE DIAPHRAGMS. 431
+The above data provide only three equations, (1), (2) and (3),
+whereas there are four unknown quantities to be determined; namely,
+A, VI, r and s. A fourth independent equation, containing an addi-
+tional experimental relation, is needed, in order to determine these
+four constants.
+For supplying the missing fourth equation, it should be sufficient,
+theoretically, either to measure any one of the four constants directly,
+by an independent method ; or to alter any one of the three constants
+m, r, and s, to a known extent, without changing the others, and then
+to repeat the circle diagram. From the difference between the circle
+diagrams, taken before and after the change, a fourth and independ-
+ent equation should be forthcoming.
+Object of the New Research here Reported.
+The object of the research here described, was to ascertain how the
+missing fourth equation might best be obtained for evaluating a,
+m, r, and s. Several methods have been tried, and one, in particular,
+is recommended. Certainly by this preferred method, or perhaps by
+one of the other methods, these four constants can now be measured
+for any telephone receiver. Numerical values of these constants are
+tabulated for certain receivers.
+Attention has also been given to the effects of variations in struc-
+ture and environment, upon the motional-impedance circle diagram,
+and on the characteristic constants. Nearly one hundred circle
+diagrams, in all, on various receivers, have been made and examined
+during the course of the work.
+Evaluation of the Telephone-Receiver Characteristic Con-
+stants .1, m, r, AND s.
+The following methods have either been tried or suggested, at differ-
+ent times, for evaluating the characteristic constants of a telephone
+receiver.
+(1) By the direct measurement of a.
+" " " " s.
+m.
+(4) By loading the diaphragm with a known mass at the center.
+(5) By varying the elastic constant s.
+(6) By measuring the amplitudes of vibration over the air-gap.
+(2)
+(3)

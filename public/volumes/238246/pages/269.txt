@@ -1,0 +1,36 @@
+400
+wiederum gleicli. Isl, ztiin Scliliis/-, />(,„ ^ O uiid n iingerade, so ist
+audi n -j- ~ uiigerade und
+On
+Fih' die übrigen Sjmbole kanii inan die Gleiclilieit auf analoge
+Art beweisen.
+3. Wenn die Zalil d dieselbe Bedeutiing Iiat wie oben, so ist
+F\e y = wenn der gröszte gemeinschaftliche Teiler von k und
+m 7^ d ist, und
+" kjd
+F I e "»
+wenn dieser gröszte gerneinscliaftliclie Teiler wolil =: d ist.
+Beweis :
+7!=I
+tl -(- ??i/(i
+n=l
+n -\- m/d
+2-:nki
+2n(n-}-mld)ki
+Es durchlaüft n + y zugleicli niit ?i alle Zahlen für welche das
+Symbol 7^0 ist, weil zufolge der Delinition der Zahl d, die Zahl
+m/d prim ist zu den Zahlen welche ii durchlaüft. Also tindet man :
+2hu
+F = e^ F
+1st k nicht durch (/ teilbar, so ergibt sich hieraus F==0.
+Nehmen wir nunmehr au dasz k durch d teilbar ist; dasz aber
+k = dtv, m z= dtm' so dasz dt der gröszte gemeinsame Teiler ist von
+k und ?u, t^l. Man hat nun:
+2 TT i; Hl
+vi' ^J^ dt
+n -\- sm
+n -\- sm'
+und wegen 2
+Wir werden zeigen dasz der Wert der letzteu Summe Null ist.
+ni
+Es sei .1' eine Zahl der Form l -| y (wo g der gröszte gemem-

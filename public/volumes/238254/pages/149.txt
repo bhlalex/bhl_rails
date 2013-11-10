@@ -1,0 +1,42 @@
+174 C. E. Weatherbiirn :
+This is an identity in A, and P+^(<s) does not contain X. We may
+therefore put X— 1 giving
+/P+Hts)dt=l
+which may also be deduced from (31) in virtue of the properties of
+the distribution <^r(0- This last relation combined with (33')
+shows that
+(34) /H+Hts)d(=0
+while from (32) and (33) it follows that
+(34') {1-Xyil[ts)dt = l A,±l.
+This may also be proved from the first of (8), multiplying by df
+and integrating over the boundary.
+^7. — Expansions. — The second member of the equation (19a)
+assumes, when X,, =1. the form
+E(0 = f (0 -./■£ {0)<l>riO)de = f (0 - Gr
+r= I, 2, . . . . , m
+according as f is on the 1st, 2nd . . . ?»th surface.
+The series (22a) now becomes, by (29)
+(35) v{t) = [i{t)-Gr] + X[f,{t)-Gr]+X\Ut)-Cr]+ ....
+and since v(^) noAv possesses no pole at X= +1, while X= — 1 is not
+a singular value, this series is convergent for |Aj = l. The terms
+therefore decrciise indefinitely, and we have for the constant Or
+the value!
+n= cc
+=Lt j'i{6)hn{et)de
+n=cc
+whei-e f is on tlie rth surface. The constant C,- assumes m different
+constant values, one on eacli of the surfaces.
+In (35) we may put A= + 1 and tluis obtain tlie moments of the
+strata, which satisfy i-espectively the boundary problems.
+W(<-)=-[f(0-C,]
+W{t+)=i{t)-Or
+The singular value A — I also corresponds to the second problem
+for the inner region. The second member of (19b) for this pole
+takes the form
+V{t)=i{t)-/'P{te)i{e)d6
+^i{f)-MnfHO)dO = i(t)
+provided the usual condition for the inner region, viz.,
+/i{e)dO =
+be satisfied. The function /u(^) represented by (22b) now becomes
+(36) fL{t) = i{t) + Xi,'{t)-i-X\'{t)+
+1 Cf. Plemelj. Potentialtheorctische lliitersuch\iiigeii, S. 60.

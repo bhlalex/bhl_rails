@@ -1,0 +1,38 @@
+Physics. "Observations of the Temperature during Solidification" . By
+Dr. H. C. Burger. (Communicated by Prof. H. A. Lorentz).
+(Communicated at the meeting of June 26, 1920).
+1. When in a supercooled liquid in a cylindrical tube, a seed
+of the solid substance is inserted, the boundary plane of the solid
+substance moves with uniform velocity. This velocity (linear velocity
+of crystallisation) has been measured by many investigators as func-
+tion of the temperature of the surroundings (thermostat), in which
+the tube is placed. They have, however, not measured the temperature
+prevailing during the solidification in the two phases and at their
+boundary plane, though it is the measurement of this temperature
+that is of great importance for the true insight into the process of
+solidification. More than once the opinion has been expressed that
+at the boundary plane solid-liquid the melting-point-temperature would
+prevail 1 ), but no grounds were adduced in support of this statement.
+As, however, appears from my observations this is not the case, at
+least not for the substance examined by me.
+The small quantity of substance, hence the small quantity of heat
+which is generated, renders it necessary that the instrument with which
+the temperature is measured, should have a very small heat capacity.
+If this is not the case, the distribution of the temperature in the
+substance is disturbed by the insertion of the instrument to such a
+degree that the temperature that is observed, is by no means equal
+to the temperature that would prevail at the same place, when this
+was absent. Besides the measurement of the temperature must take
+place with an instrument that possesses slight inertia, because the
+temperature that is measured at a fixed point of the tube, rapidly
+changes with the time. The temperature further should be registered,
+because reading is impossible on account of the rapid variation.
+Consequently a temperature measurement must be chosen which
+is made by the aid of a thermo-element, which must have as small
+a mass as possible. The current supplied by this thermo-element in
+consequence of the rise of temperature in the tube, must be observed
+with a galvanometer, which is sufficiently rapid to follow the process
+!) W. Hergesell, Ann. d. Phys. u. Ghem , 15, 1882. p. 19.
+G. Tammann, Kristallisieren und Schmelzen, 1903, p. 135.
+45
+Proceedings Royal Acad. Amsterdam. Vol. XXI 11.

@@ -1,0 +1,42 @@
+85
+or, — if the electronic dissociation of these salts is laken into
+account, perhaps better by the relations :
+2 \Co(C\0 4 \r = 2 \Co(C\0 4 \\' + 0\O: + 2 CO„
+and \Co(C\C\) 2 \"^lCo" + 2 C\0 4 ".
+§ 2. The photochemical reaction mentioned was, for the first time,
+studied systematically in 1917 by Vrunkk *), under conditions of
+experiment very widely differing from ours. This author studied
+extremely dilute solutions of the salt, with concentrations ranging
+from 0,01 to 0,0001 mol. per Liter, and experimented always
+with very small volumes of the solution, — conditions made necessary
+by the optical method followed by him in this investigation.
+Nevertheless, the measurements were carried out with much care and
+a precision as great as possible, yet the results obtained give the
+impression that the reaction is in reality much more complicated
+than the author himself seems to believe. For, on the one hand, he
+thinks it probable with respect to the numbers obtained, that the
+reaction is a bimolecular one, in agreement with the ionic equation
+suggested above; but his absorption-measurements do not give any
+numbers, which might be looked upon as true reaction-"constants",
+and it can be easily seen, that they do not agree really either
+with a mtmomoleeular or with a ó /'molecular process, so that it
+were better to speak in this case of an accelerated bimolecular,
+or of a retarded monomolecular reaction. By spectrophotometry
+observation, he was, moreover, able to demonstrate, that the eme-
+raldgreen solutions have two principal absorption-maxima, for
+A = 4260 A. U., and for I = 6050 A. U. respectively; and he stated,
+that the reaction goes on in darkness as well, light-radiation
+therefore chiefly acting as an accelerator. The temperature-coefficient
+of the dark reaction appeared to be rather great (4,56), but that of
+the photoeatalysis, on the contrary, very small; finally an appre-
+ciable BECQUEREL-effect through the total volume of liquid is mani-
+fested, as soon as it is exposed to the light, which fact could be
+demonstrated by means of measurements of the electromotive force
+produced in mixed solutions of cobalto- and cobalti-s&lt with respect
+to a normal calomel-e\ecivode, if the solutions are brought from
+the dark into the neighbourhood of a source of light. VKaNEK
+could state as disturbing factors: 1. the slight solubility of the
+cobalto-oxalate formed in the solution of potassium-oxalate ; 2. the
+retarding action exerted on the photocatalytic process by the potas-
+sium-oxalate formed in the reaction, — which influence, however,
+!) J. Vrének, Zeits. f. Elektrochem., 23, 336, (1917).

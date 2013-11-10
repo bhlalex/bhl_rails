@@ -1,0 +1,38 @@
+166 G. E. Weatherhurn:
+' ' V yiP'j) = log ^01' t-lie logarithmic potential
+y{p'l) = ^' ^or the Newtonian potential
+which are solutions of Laplace's equation; and
+^^'^ I il(.P<]) ^ -/U''-) fo>" tlie plane
+( !?(y"7) = - •«"*'■/*■ ^O'' •'^P^c^
+■when the potential is generalised correspduding to the equation
+(2). In this /• is the radius vector joining the i)(>ints /; and q,
+and f{z) has the same meaning as in my paper already referi-ed
+to. The functions H(</j) and G(^0 '^'^'^ equal to tlie correspond-
+ing expressions of (3') in st|uare brackets. The foiiuer is an ex-
+tension of the solving function in which any ])oint y rejilaces the
+boundary point .*;. The latter may be defined more generally for
+any two points pq by —
+G(m) = 'An) + Vi/(p^)H(%)f^«
+This function is the Green's functicni^ for the lioundary problems
+(1). It will be seen that H(#/;) can be expressed in terms of it by
+normal differentiation, so that both solutions (•)) can be given
+in terms of it by a representation of Green's type. It is easily
+verified that
+j'g{qt)VL{tp)dt = /'G {q()h{tp)dt
+.so that the equations defining and connecting these tinutions aie —
+(5) j liitp) - hilp) = XJ'h{l6)\l{ep)dd=\i H{/0)h{dp)d&
+\ G{qp)~g{qp)^\/cj{qd}K{dp)d6 = k/\;(qO)h{6p)d6
+Now when X. is ecjual to a characteristic number (singular value)
+Ao, each of the functions 'il{tp) and G{qp) has a simple pole."^ The
+solutions expressed by (3) are therefore infinite, and cease to have
+.a meaning. Since the pole is simple we mav write —
+where IHjp) and <'(/j[') are functions of A, which depend on A,,
+and remain tinite when A— A,, ; the residues !'(//>) and A„ Qiqp)
+-do not involve A but depend on A„. It iiow v.e siiiistitute from
+.(6) in (5), multiply l)y (Ay-A) and pr<icecd to the limit A=A,„
+we obtain tlie following relations : —
+(7) ( ¥{tp) = \jTite)h{0p)de = Xj7,{tt^)V{Up)dO
+) Q(qp)=/y{q6)'P{dp)de = XJ-q(q(J)hidp)de
+1 Of. VVeatheibuni. "Green's Functions for the equntioii A "-^ (/-/.-'.!(( =0, etc." (^Hiarterly
+Journal, vol. 4G. The remaining references are to my earlier paper.
+•2 Weatherburii. Loc. cit. § 3.

@@ -1,0 +1,35 @@
+308 PROCEEDINGS OP THE AMERICAN ACADEMY.
+secure a limit for the values of x and 2, and thus we have represented
+a neighborhood of the curve
+(f>(x,y) = 0, « = 0,
+on the surface
+^ (x, y» 2) =
+as required.
+Now, however small the neighborhood we shut off about the points
+in the region |^| < h for which qo(y) vanishes, since the results estab-
+lished above would hold also in a circle of radius hi > h, but still less
+than the radius of convergence of the series for p (t/) in (/3), we can fill
+up the remainder of the circle of radius h with circles within which
+go (y) does not vanish, these circles overlapping at all points the bounda-
+ries of the excepted neighborhoods and not reaching up to the excepted
+points. Within each of these circles we have a development of type
+(k). Consider one of these new circles. We want to consider the
+neighborhood of the curve
+«^3 (^8' ^2) = ^a"* + n (2/2) ara™ -1 + + r^^iy^) = 0. (v)
+If this is a multiple curve of the mi-th order and nii < m, we have
+reduction. Moreover, if nii = m, but
+iCs"' + ^1(^2) a^s"!-' + + r„^(yz) ^ [^3 + Pz(.y^)T^^
+we also have reduction. We need consider, therefore, only the case
+that
+a^s'i + n (y2)a:3'"i-' + + ^m, (^2) = [a^s + />3 (^2)]'"', > , ,-.
+mi = m, )
+and show that this case can repeat itself at most but a finite number of
+times.
+4. Suppose the function <jiz{xz^ y^) has the form (v'). Apply to the
+surface <^3 (xg, y^, z^ = 0, (k), the transformation
+and reduce the result to the form
+^4(2^4, ^2, 22) = ^i"'^(y2) + ZzFii^i, ys. 22) = (0). (o)
+If any term in ZoFi(xi, y^i ^2) is of degree in x^ and z^ together less
+than mi, it appears at once that we have a line of lower order. So we
+assume there are no such terms. Also, as the coefficient of x^^i does
+not vanish identically in ^2 (io fact, not at all) no transformation of

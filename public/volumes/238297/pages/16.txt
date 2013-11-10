@@ -1,0 +1,43 @@
+CONTENTS.
+CHAPTEE III.
+PROPOSITIONS.
+SECTION PAGE
+1. Propositions . . . . . . .43
+2. Simple Identities . . . . . .44
+3. Partial Identities . . . . . .47
+4. Limited Identities . . . . . .51
+5. Negative Propositions . . . . .52
+6. Conversion of Propositions . . . . .55
+7. Twofold Interpretation of Propositions . . .57
+CHAPTER IV.
+DEDUCTIVE REASONING.
+1. Deductive Reasoning . . . . .59
+2. Immediate Inference . . . . . .60
+3. Inference with Two Simple Identities . . .61
+4. Inference with a Simple and a Partial Identity . .64
+5. Inference of a Partial from Two Partial Identities . . 66
+6. On the Ellipsis of Terms in Partial Identities . .69
+7. Inference of a Simple from Two Partial Identities . . 70
+8. Inference of a Limited from Two Partial Identities . .71
+9. Miscellaneous Forms of Deductive Inference . . .72
+10. Fallacies . . . . . . .74
+CHAPTER V.
+DISJUNCTIVE PROPOSITIONS.
+1. Disjunctive Propositions ... .79
+2. Expression of the Alternative Relation . . .81
+3. Nature of the Alternative Relation . . . .81
+4. Laws of the Disjunctive Relation . . . .85
+5. Symbolic Expression of the Law of Duality . . .87
+6. Various Forms of the Disjunctive Proposition . .89
+7. Inference by Disjunctive Propositions . . .90
+CHAPTER VI.
+THE INDIRECT METHOD OF INFERENCE.
+1. The Indirect Method of Inference . . . .95
+2. Simple Illustrations . . . . . .97
+3. Employment of the Contrapositive Proposition . . 99
+4. Contrapositive of a Simple Identity . . . .101
+fi. Miscellaneous Examples of the Method . . .103
+6. Abbreviation of the Process . . . . .105
+7. The Logical Abecedarium . . . . .109
+8. The Logical Slate . . . . . .110
+9. Abstraction of Indifferent Circumstances 112

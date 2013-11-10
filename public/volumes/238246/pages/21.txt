@@ -1,0 +1,51 @@
+12
+On account of the supposed finiteness of Sn,cc, the limit of the
+first ter-in of the last member is for /i'(./) > R{c) equal to zero, if /
+increases indefinitely and the series in that member converges abso-
+lutely. Hence the series in the first member converges also and
+we have
+^
+m/ a,,
+r(.z; + m -f 1)
+(x — c) >i
+Sn,vi r{G 4- m + 1)
+r{x ^ m 4- 2)
+(45)
+by which the lemma is proved. It follows from it that the limit
+betiüeen the doinain of convergence and the domain of divergence of
+a series of factorials is formed by a straight line parallel to the
+imaginary axis.
+Moreover we may infer from the equality (45) the following
+lemma:
+II. 7n a7iy finite part S of the hal f -plane R{x) ]> R{c) + rf, () being
+a fixed, but arbitrarily small real positive quantity, the series of
+factorials converges u n if o v m ly.
+For n may be chosen so large, corresponding to any arbitrarily
+given e, that for all m > n
+Sn,m r(c + m + 1)
+r {x + m -h 2)
+<
+lR(x — C)-\-\
+and thus
+{x — c) Nm
+Sn,m r(c + m -^ 1)
+r{x -h m + 2)
+<
+R {x — c) n^^(^~c)
+(46)
+Since R{x — c) > «f , the right-hand member of this inequality is,
+for a sufficiently large /rvalue, which is independent of the value of
+X in the domain S, less than s. This was to be proved.
+From the inequality (46j we may infer the corollary lla : If the
+series of factorials (6) converges for a certain value x = c, then it
+converges uniformly on the hal f line beginning at x = c and
+having the direction of the positive part of the real axis.
+For on this line R{x — c) =r x — c; hence the right-hand meml:)er
+of (46) passes into s: n^'^^—'^) and this is less than s independently
+of the place of x on that line. The corollary is an analogon of a
+well-known proposition of Abel on the uniform convergence of a
+power-series along the radius of a certain point of its circle of con-
+vergence, if that power-series converges at that point.
+From lemma II, in connection with the fact that the terms of the
+series of factorials (6) are co/i^mMO?i.9 functions of .t-, it may be inferred
+that such a series represents a continuous function of .ïmu the domain

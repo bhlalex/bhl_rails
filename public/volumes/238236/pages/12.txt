@@ -1,0 +1,106 @@
+the ear due to the penetrating action of X rays.
+Such photographs are known as radiographs.
+The ionization method is based on the ability
+of Xrays to cause air and other gases to become
+conductors by imparting positive or negative
+charges to ions of uncharged gas molecules.
+The amount of current passing through the ion-
+ized gas with a given difference in potential is
+proportional to the intensity of the X rays causing
+the ionization. Special ionizing chambers which
+are used to measure the degree of ionization of
+the gas can serve as dosimeters for quantitative
+measurement of X rays.
+In their optical properties X rays show all of
+the characteristics of light rays. They can be
+refracted and reflected. They exhibit the phe-
+nomena of polarization and diffraction. The
+ability of X rays to penetrate deep into tissues
+and to induce various changes there is of partic-
+ular significance in biology. It should be noted
+that only rays which are absorbed exert any
+effect. Rays which penetrate feebly or those
+which are completely reflected have no action.
+The ability to penetrate increases as the wave
+length shortens.
+During the first year of discovery of X rays
+people working with them experienced serious
+inflammations of the skin accompanied by loss
+of hair. It soon became apparent that the action
+of the rays is not limited to their effect on the
+skin, but that all the internal organs of men and
+animals are affected if the amounts of exposure
+are sufficiently great. Radiation therapy is
+based upon this phenomenon.
+In 1903 Heinecke* amazed everyone by his
+discovery that mice and guinea pigs can be
+killed by X rays. Autopsy of animals killed in
+this manner showed that their spleens were
+small and dark; histological examination re-
+vealed an extraordinary increase in the amount
+of pigment and the disappearance of follicles
+and cellular elements of the spleen. Similar
+changes took place in the lymph nodes, bone
+marrow, etc. In cases of sub -lethal dosage a
+regeneration of lymphatic tissue commences
+after several days. However, a discussion of
+this aspect of X ray action is outside the scope
+of this book; those interested in this phenomenon
+are referred to the book written by Nemenov in
+1926 [1933?]. 2
+The Measurement of Energy. Before pro-
+ceeding further some concept of the units of
+measurement of X rays should be established.
+This is particularly imperative because the use
+of various units of measurement by the numer-
+ous workers in this field increases the difficulty
+of comparing the results obtained in the radia-
+tion of various plants and animals.
+The most widespread unit of measurement,
+up to recent years, was a dosage bearing the
+abbreviation HED [Skin Erythema Dose], This
+dose is equivalent to that amount of radiation
+which results in a reddening and peeling of the
+skin in man ten days after exposure to radia-
+tion. But this measure, like most biological
+units, is too inaccurate since the indicated skin
+symptoms vary with the age, physical condition,
+and skin pigmentation of a given patient. Clark 3
+who examined many patients in various clinics,
+has shown that the erythemic dose varies from
+400 r to 1200 r (roentgen units) depending on
+individual differences, and that the average
+dose equals about 840 r.
+Many German and French investigators
+used the Holtzknecht unit (H) (equal to about
+1/5 of the erythemic dose) to measure X
+rays.
+This latter unit was abandoned in favor of a
+new international unit r (roentgen unit) which
+corresponds to the amount of energy required
+to produce, as a result of complete ionization
+in air, at zero degrees centigrade and normal
+atmospheric pressure, charges of one electro-
+static unit per cubic centimeter of the irra-
+diated object. 4
+Dosimeters used for quantitative determina-
+tion of X rays give the measurement in roentgen
+units. The majority of investigators, however,
+are not content to indicate the amount of X rays
+in roentgen units; they also indicate the source
+of radiation, voltage, amperage, distance of
+the object from the tube, duration of exposure,
+and nature (or absence) of the filters.
+Filters are very thin plates (of aluminum,
+copper, etc. ) and serve to dissipate the X
+rays of specific wave lengths. This makes it
+possible to achieve some uniformity [ of wave
+lengths] in the beam which irradiates the
+obj ect .
+^o 1926 reference given; see 1933 reference.
+'Reference not given. Can be found in Discussion
+to Packard, C. 1934. Biological dosimeters in radi-
+ology. Cold Spring Harbor Symposia Quant. Biol . 2,
+264-273.
+^Editor's note: Not the currently accepted definition
+in general usage.

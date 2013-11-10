@@ -1,0 +1,41 @@
+225
+ailleurs (Buil. de la Soc. Math, de Fv., 1915) que, si (p (8) n'admet
+pas en 8 9 la dérivée approximative f (# ), il exisle un nombre positif
+d(8 v ) on d tel que l'ensemble e(d ) des points 8 vérifiant
+<p {&) — ip (8 t ) I
+o—o
+possède en 8 une épaisseur supérieure positive, pour un cóté au moins.
+Si Ie tliéorème énoncé était inexact, l'ensemble H des points
+8 precedents anrait une mesure positive.
+Nous pouvons évidemment snpposer que la fonction d(8 ) de 8 n est
+mesurable [il suffit pour cela que d{8 ü ) soit par exemple la moitié
+de la borne supérieure stricte des nombres d tels que l'épaisseur
+supérieure en 8 de l'ensemble e(d) soit positive]. Soit H n l'ensemble
+des 8 tels que w/(# )>l.
+H est la reunion des H n . Done l'un au moins des H n a une
+mesure positive. Il existe done un nombre positif d, tel que l'ensemble
+H' des 8 vérifiant d(8 ) ^> d a une mesure positive.
+H' contient un ensemble parfait Q épais en lui-même.
+f (8) étant limite de functions continues est ponctuellement discontinue
+sur Q (Baire). Si petit que soit d' , l'ensemble des points de Q ou
+l'oscillation de f (6) sur Q est au moins egale a d' , eet ensemble est non
+d
+dense sur Q. Prenons d' = — — . Il existe une portion Q x de Q en tout
+point de laquelle l'oscillation de ƒ sur Q (done aussi sur Q x ) est inférieure
+a d' . Done, si 8 X est un point particulier de Q x , il existe un intervalle
+i contenant <9, et tel qu'en cliaque point 6 de Q situé sur Ie segment i,
+i/(ö)-m)i<^
+Soit Q, la portion de Q l déterminée par l'intervalle i. (Q, est
+l'ensemble parfait situé sur Ie segment i et coïncidant avec Q l dans
+l' intervalle i).
+Cliacun, sauf Ie dernier, des ensembles E x , H, H', Q, Q x , Q, con-
+tient Ie suivant. Done, en tout point de Q„ y{6) existe (puisque Q t
+est dans E x ), f (8) est compris entre f(8 1 ) — -— - et f(8 x ) -f- — —
+1 Z 1. 1 Z I
+(dernière condition de Q 3 ), et <f{8) possède, en tout point 8 7 de Q 1t
+et sur tout ensemble <o(#,) d'épaisseur 1 en 8 it un nombre dérivé
+spécial a co (8^) et ditférant de f {8) de plus de c/ en valeur absolue
+(puisque Q, est dans H').
+8*
+Considérons F x {8) = F(8) — — ƒ(#,). Cette fonction continue possède
+en tout point de Q, la dérivée <f x {8) = <j(8) — 8f{8 l ). F x {8) possède

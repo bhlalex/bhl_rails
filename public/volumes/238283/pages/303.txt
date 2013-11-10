@@ -1,0 +1,38 @@
+436 PROCEEDINGS OF THE AMERICAN ACADEMY.
+alloy, — although several times this could not be prevented. For heat-
+ing the deposits oti platinum gauze (see Table IX), a small oven was
+constructed from a large porcelain crucible, covered by a platinum fun-
+nel. The platinum disc vi^as supported by a wire reaching through the
+tube of the funnel. In this case, the silver in the platinum crucibles
+with which that on the gauze was to be compared, was heated in the
+oven also, in order to expose both to the same temperature. Since the
+figures of this comparison are given in Table IX, it is necessary only to
+tabulate here the loss observed in crucibles when heated directly. Of
+course allowance has been made for the very slight hygroscopic loss
+(0.10 milligram) which a platinum crucible without silver deposit would
+have undergone. The silver films were usually those remaining from
+some of the preceding determinations.
+This perceutage loss is slightly higher than that given by Lord Ray-
+leigh, and still larger than that determined indirectly by Richards and
+Collins. It is evident that the amount of included mother liquor varies
+according to the rate and mode of deposition, and it is quite possible that
+different average amounts were really included in the several investiga-
+tions. The inclusion is probably chiefly in recesses in the platinum
+kathode. The differences in included liquid given in the above table are
+of the same order as the differences in the uncorrected weights of silver
+given at first ; * hence we may ascribe at least a part 6f the differences
+in the early table to inclusion of mother liquor.
+All this evidence unites in indicating that even under the best condi-
+tions the silver does not exceed a purity of 99.99 per cent ; and in apply-
+ing a correction, one should obviously use the value found in the particular
+investigation under review.
+IV. The Atomic Weight of Copper.
+Having thus clear light upon the various errors of the silver voltam-
+eter, it became a matter of great interest to recur to the original ques-
+tion which started the whole investigation, namely, the quantitative
+accuracy of Faraday's law.
+Accordingly, a voltameter like that used by Richards and Collins f —
+a modified form of Lord Rayleigh's instrument — was compared with
+a standard porous cup voltameter, neither precipitate being ignited. The
+* See page 418.
+t Tliese Proceedings, 35, 133 (1899).

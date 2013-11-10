@@ -1,0 +1,33 @@
+104
+BKIDGMAN.
+indications are that the difference of specific heat between I and II
+changes sign along the transition line; at atmospheric pressure I has
+the smaller specific heat, but at the triple point that of II is the smaller.
+It must be insisted, however, that all these values are exceedinglv
+, dAV , clAH
+rough ;
+and
+are not given at all accuratelv bv the above
+dp dp
+data.
+No other modifications were found to 12000 kgm. at either 20° or
+200°.
+The form of I is cubic and that of II hexagonal, but the two forms
+are very little different.
+Mercuric Iodide. This substance is the only one found so far
+which shows a maximum transition temperature between two solids,
+a result both unexpected and important. A great deal of time was
+spent on this substance in order to exhaust every other possible ex-
+23456789
+Pressure, kgm. /cm. ^ x lO"*
+Mercuric Iodide
+10 U
+Figure 24. Mercuric Iodide. The observed equilibrium temperatures and
+pressures. It was not possible for this substance to shut the equilibrium
+conditions within narrow limits, and in the figure the limits of the reaction
+are shown. The text should be consulted for further particulars.
+planation of the effects, and to establish this result beyond doubt.
+It is particularly difficult to get accurate results for this substance,
+because of the unusually wide region of indifference. The interpreta-
+tion of the earlier results was also obscured liy occasional leaks through
+a minute flaw in the cylinder; this flaw was due to amalgamation

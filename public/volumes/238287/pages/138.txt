@@ -1,0 +1,48 @@
+126 On Crystallography.
+The smallest number of faces which the secondary cry-
+stal can have is twelve. Then all the decrements consi-
+dered two by two, setting out from one and the same ridgey
+v. ill be inverse to each other.
+The simplest case is that in which the generator parallelo-
+pipedon being a cube, we have n— i and //— l. On this
+•hypothesis, the secondary solid is a dodecahedron with
+rhombic planes all equal and similar, as we have explained
+m the reasoning part of the work.
+16* We now proceed to the method of determining the
+decrements upon the angles. But we mav previously re-
+mark, that in this case the decreasing parts of the lamina?:
+of superposition form angles alternately re-entering and
+salient^ in Stteb a way, however, that all the ridges of mo-
+lecule situated at the places of the salient angles are on
+one and the same plan : we shall consequently designate
+the series of these ridges by the name of lateral face.
+This being done, let us conceive that decrements in
+breadth are produced by equal numbers of rows on all the
+angles of the parallelopipedon, fig. 1 ; and let us take for
+instance that which takes place upon the angle BCD.
+Let Ckl be the mensurator triangle, in which C/e measures
+the distance between the point C and the first lamina of
+superposition, kl is regarded as being applied on the cor-
+responding lateral face, the height of which it measures,
+and C / coincides with the face of the secondary crystal,
+produced by the decrement in question.
+Having traced the diagonals db,fh (fig. 2) on the
+bases of the molecules, I draw ct perpendicular upon d b,
+and x% perpendicular as well upon db as upOQ\fk,
+Let N be the number of rows subtracted. We shall
+have Ck (6g..l) ssNXcf (fig. $}, and k I (fig. 1) = x z
+(fig. 2); besides the angle Ckl (fig. l) will be equal to
+that formed by the plane bdfk (fig. 2) with fgh. Now
+these three quantities are regarded as being known, since
+the form of the molecule is determined. Thus it will be
+easy to find the angle kCl (tig. l) which measures the
+inclination of the face produced by the decrement upon
+the parallelogram ABCD. We shall conduct ourselves in
+the same manner in order to calculate the effects of the de-
+crements on the other angles.
+17. Let us now consider the hypothesis in which the
+decrements which take place on the two angles DCG,
+BCG would have such a connexion with that which acts
+on the angle BCD, that the faces produced by these three
+decrements would coincide on one and the same plane.
+Let

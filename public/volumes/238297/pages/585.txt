@@ -1,0 +1,35 @@
+THEORY OF APPROXIMATION. 95
+rnence 'by discovering linear, and afterwards proceed to
+elliptic or more complicated laws of variation. The ap-
+proximate curves which we employ are all, according to
+De Morgan's use of the name, parabolas of some order
+or other ; and since the common parabola of the second
+order is approximately the same as a very elongated
+ellipse, arid is in fact an infinitely elongated ellipse, it
+is convenient and proper to call variation of the second
+order elliptic. It might also be called quadric variation.
+As regards many important phenomena we are yet only
+in the first stage of approximation. We know that the sun
+arid many so-called fixed stars, especially 61 Cygni, have
+a proper motion through space, and the direction of this
+motio.n at the present time is known with some degree
+of accuracy. But it is hardly consistent with the theory
+of gravity that the path of any body should really be a
+straight line. Hence, we must regard a rectilinear path
+as only an approximate and provisional description of the
+motion, and look forward to the time when its curva-
+ture will be ultimately detected and measured, though
+centuries perhaps must first elapse.
+On the surface of the earth we are accustomed to
+assume that the force of gravity is uniform at all ordinary
+heights above or below the surface, because the variation
+is of so slight an amount that we are scarcely able to
+detect it. But supposing we could measure the variation,
+we should find it simply proportional to the height.
+Taking the earth's radius to be unity, let h be the height
+at which we measure the force of gravity. Then by the
+well-known law of the inverse square, that force will be
+proportional to
+^ w , or to </(! -2h+ 3 K'-4h>+ ).
+But at all heights to which we can attain h will be so
+small a fraction of the earth's radius that 3 h 2 will be in-

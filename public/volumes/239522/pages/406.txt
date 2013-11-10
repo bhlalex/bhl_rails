@@ -1,0 +1,43 @@
+EFFECTS OF PRESSURE ON NITRATES. 585
+the large probable error because of the great width of the region of
+dr
+indifference at the lower end of the curve, no values of AH or -t~ are
+dp
+tabulated for this part of the curve.
+The feature of particular interest for AgNOs is the remarkably
+sudden increase of curvature of the transition line beyond 6000 kgm.,
+a feature unique to this substance. In fact, the increase of curvature
+is so great that when I first found the transition at 20°, it seemed as
+if there must be a third modification, and that the phase diagram would
+look like that of Agl. The whole of the field was very carefully
+explored for other modifications; the strongest motive for repeating
+the measurements was that the discordant At; points lent color to the
+suspicion that there might have been an undetected third modifica-
+tion near the bend with a small A?;. No other form could be found,
+however, to 12000 kgm. at room temperature, or at 200°, and on the
+repetition of the experiment none could be found in the neighborhood
+of the bend.
+It is possible to pass over the curve at any point without the reac-
+tion starting. The width of the region of indifference within which
+the reaction does not run after it has once started changes in a curious
+way with the pressure. The detailed data for this effect are to be
+given in the succeeding paper.
+There are several measurements of the transition data at atmos-
+pheric pressure. Schwarz ^ gives 159.2° to 159.7° by an optical
+method for the transition temperature, Hissink ^ finds 159.8° with a
+dilatometer, and Guinchant * gives 159°. The value found by extra-
+polation of the above data of my own was 159.4°. The change of
+linear dimensions during the transition has been measured by Guin-
+chant,* who found an increase of from 0.22 to 0.25% on cooling, and a
+decrease of 0.17% on heating. Assuming 4.3 for the density, this is
+equivalent to about 0.00047 cm^ per gm., against 0.00250 found
+above by direct methods. This shows that the change of volume
+during the transition does not take place equally in all directions, an
+effect shown by other substances also. Guinchant ^ has also found
+the latent heat of the transition to be 4.9 cal. against 3.4 found above.
+The agreement should be closer.
+The difference of compressibility of the two modifications was
+2 W. Schwarz, Diss. Gott. 1892; Beibl. 17, 629 (189:3).
+3 D. J. Hissink, ZS. phys. Chem. 32, 537-563 (1900).
+4 J. Guinchant, C. R. 149, 569-571 (1909).
+5 J. Guinchant, C. R. 145, 320-322 (1907).

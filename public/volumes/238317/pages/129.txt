@@ -1,0 +1,32 @@
+[Proc. Koy. Soc. Victoria, 30 (N.S.), Pt. II., 1918].
+Art. XII. — Magnetic Deflection of fi-Rays: Tabulation of v
+against RH assuming Lorentz Theory.
+By miss N. C. B. ALLEN, B.Sc.
+(Communicated by Professor T. H. Laby, M.A.).
+[Read 8th November, 1917].
+The negative electron, when it possesses a velocity v cms/sec, is
+•deflected by a uniform magnetic field, H gauss, at right angles to
+its direction of motion, into a circular path of radius R cms. such
+that RH = vw/e, m grams being the transverse mass of the nega-
+tive electron for a velocity v cms/sec. rn = nif,(f)(f3), where ^ = v/V,
+V crns/sec Ijeing the velocity of light. In experiments on cathode
+and (3 rays it is frequently necessary to calculate the velocity of the
+rays when RH is known. Since e/nif, is now well known, and
+Lorentz' s theory that mz=:mjl — fS')"- has teen confirmed by
+Bucherer, it is convenient to tabulate v with RH as argument.
+The following values for e/Wg have been obtained by different
+observers : —
+Bucher 1908 ... 1.763 x lO'E.M.U.gm-i
+Classen 1908 ... 1.776
+Wolz 1909 ... 1.767
+Lerp 1911 ... L72
+Malassez 1911 ... 1.769
+Bestelmeyer 1911 ... 1.75
+Bestelmeyer 1911 ... 1.766
+Alberti 1912 ... 1.756
+Jones 19U ... 1.75
+From a consideration of these the value 1.763 x 10^ was chosen
+for e/m^. The velocity of light w^as taken as 2.9986x10^0 cms/
+sec.
+The table expresses RH in gauss-cms and v in 108 cms/sec.
+Example: If RH=:2315 gauss-cms. then v = 241.64xl08 cms. /sec.

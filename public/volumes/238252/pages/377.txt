@@ -1,0 +1,45 @@
+WHAT IS GROUP THEORY? 373
+ferent from the group formed by the four roots of the equation x^ = 1.
+It is easy to prove that these two groups represent all the possible types
+of groups of four operations ; that is, there are only two abstract groups
+of four operations. In general, the number of groups which can be
+formed with n operations increases very rapidly with the number of
+factors of n. When n ^ 8 or 12 the number of possible abstract
+groups is 5.
+Similarly, all the movements of space which transform a given solid
+into itself form a group. For instance, the cube is transformed into
+itself by twenty-four distinct movements. Nine around the lines
+which join the middle points of opposite faces, six around those which
+join the middle points of opposite edges, eight around the diagonals,
+and the identity. The group formed by these twenty-four movements
+is simply isomorphic with the one formed by the total number of
+permutations of four things. The regular octahedron has the same
+group, while the group of the regular tetrahedron is a subgroup of this
+group. The icosahedron and the duodecahedron have a common group
+of sixty operations. The groups of the regular solids play an impor-
+tant role in the theory of transformations of space. They are treated
+at considerable length in Kleins Ikosaeder as well as in many other
+works.
+All the preceding examples relate to groups of a finite number of
+operations, or of a finite order. During recent years the applications
+of groups of infinite order have been studied very extensively. As
+the theory of groups of finite order had its origin in the theory of
+algebraic equations, so the theory of groups of an infinite order might
+be said to have had its origin in the theory of differential equations.
+The rapid development of both of these theories is, however, due to the
+fact that much wider applications soon presented themselves. This is
+especially true of the latter. In fact, the earliest developments of the
+groups of infinite order were made without any view to their applica-
+tion to differential equations.
+One of the simplest examples of groups of infinite order is fur-
+nished by the integral numbers when they are combined with respect
+to addition. The totality of the rational numbers clearly becomes a
+group when they are combined with respect to either of the operations
+addition or multiplication. The same remark applies evidently to all
+the real numbers as well as to all the complex numbers. These
+additive groups of infinite order are frequently represented by the
+equation x ^^= x -]- a, where a may assume all the values of one of
+the given groups. If a may assume all real values the group is said
+to be continuous. When a is restricted to rational values the group
+is said to be discontinuous, notwithstanding the fact that it transforms
+every finite point into a point which is indefinitely close to it.

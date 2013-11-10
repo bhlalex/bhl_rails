@@ -1,0 +1,34 @@
+316 PROCEEDINGS OP THE AMERICAN ACADEMY.
+in 4, the succession of transformations (14) which leaves the degree of
+T unchanged will secure for equation (31) a form
+The left side of the equation is divisible by ^^ and so the right side
+must be,
+V < X,
+and we have an upper limit for y, the number of transformations which
+leave the factor N^. of the second degree, and as a result leave the func-
+tion T of the nth degree. So, unless the function T{rj, C) in (28) is
+composed of ?^ equal factors of form
+Lv + ^ (OT, (32)
+the transformation of (14) will finally reduce its degree. Then, by ap-
+plying the same reasoning to the resulting function, we see that finally
+the function corresponding to S(r}, ^) either becomes an J^ function or
+has besides the JiJ factor a factor of form (32), thus securing the form
+(25) if we divide out the factor ^("•-D",
+The condition (26) is secured by using on the second equation in
+(20) the same kind of reasoning as applied in 4 and 5. Then we take
+for V the larger of the two values required to secure conditions (25)
+and (26).
+C. — Further Transformations.
+6. A transformation
+^V = iw — Wg (0 ) .ggs
+Vv = rj„ — 0)1 (^) )
+applied to the surface
+^.(^., /i., =
+in 5 will secure a form in which the singularity will be reduced by
+either
+1 ) a further succession of transformations as in 3,
+2) the method of the Lemma, § 2.
+Let us consider here the case in which either rj or r, in (25) and (26)
+is zero. Then in one of the equations a further succession of trans-
+formations of type (14) will not change the power of ^ as a factor on
+the right ; and if there are /x such further transformations, the reasoning

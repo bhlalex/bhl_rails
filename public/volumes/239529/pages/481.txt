@@ -1,0 +1,43 @@
+718
+Separately considered these values represented on our figure by
+crosses, especially if supplemented by the value for 9,4 of field A,
+can well be harmonized with a curve for o, = 7,5 (in which case
+the decrease of 15 m to 16 m is not real). But the result (d) is utterly
+opposed to (he result (b); the numbers of stars in the S.A. demon-
+strate, that the defect in stars for 9,4 and 15,9 cannot be about
+equal, cannot have a maximum at 12 m and afterwards decline.
+The contradiction does not lie simply in a difference between the
+Franklin- A dams plates and the Selected Areas. The S.A. 47 com-
+prises only 1 square degree of strong absorption, in which the counts
+on the F. A. plate give a defect of 0,71, about the same therefore —
+and this is only natural, the limiting magnitude employed, viz. 15,9,
+having been deduced from these Selected Areas themselves. The
+case might be explained by the fact that there is a real difference
+in structure between S.A. 47 and region A on the one side, (the
+small values for A from 6,5 to 9,4 i.e. the slight defect in B.D.
+stars would then be considered as real) and the other regions of
+absorption on the other side; that therefore A is caused by another
+nebula at a far greater distance. It may be questioned, however,
+whether the data are accurate enough to allow of such a conclusion.
+The values for the B.D. in A are based on a moderate number of
+stars only; the numbers of stars 12 — 14 in S.A. 47 are very small,
+so that accidental irregularities in the distribution play a great part;
+and the taking of averages for the F.A. plates from the irregularly
+distributed density-numbers is somewhat uncertain also. This proves
+once more, that as yet we dispose of much too small a number of
+data concerning the star-density for the fainter stars 10 m — 16 m over
+sufficiently extensive regions.
+Now, according to § 2, the determination of the distance of ab-
+sorbing nebulae depends mainly on the bright stars; the uncertainty
+in the numbers of the weaker magnitudes is of very little importance
+here. It is upon the data of the B.D. therefore that this determina-
+tion must almost exclusively be based. To avoid accidental mistakes,
+we will therefore unite these 8 fields 2 by 2 into groups, in the
+order of the iV' (15,9).
+Also now the accidental uncertainties still give an irregular course.
+Between the three first groups A — F no marked difference presents
+itself for these magnitudes; therefore these have still been combined
+to a general average, to which the values in the last column apply
+and which are represented in the figure by dots. The slight depend-
+ence on the absorption e can be taken into account in such a way,
+that corrections are introduced to reduce them to the limiting value

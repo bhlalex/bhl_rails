@@ -1,0 +1,41 @@
+122 BRIDGMAN.
+The transition line I-II is somewhat unusual in that A F increases with
+increasing temperature.
+The band of indifference shows interesting variations. On each of
+the three curves, I-III, I-II, and II-III, the band decreases in width
+with increasing temperature; but besides the general effect of tempera-
+ture, there is a very marked specific effect of the nature of the reacting
+phases. Both the bands I-II and II-III are broader at their lower
+ends than I-III is at its upper end, although the temperature of the
+lower end of the first two bands is the same as that of the upper end of
+the I-III band. The actual widths are as follows. I-III is 200 kgm.
+wide at 0°, and 60 kgm. wide at 25.2°; I-II is 250 kgm. wide at 35.3°,
+75 kgm. at 50°, 20 kgm. at 58°; II-III is 60 kgm. wide at 35.3°, 20
+kgm. at 50°, and 3 kgm. at 70.2°. Along with this change in the width
+of the band there goes a parallel change in the reaction velocity. No
+trouble was ever found in forcing the desired reaction to take place;
+but no observations were made of the precise amount of subcooling
+or superheating. It was observed once at 50° that I had to be car-
+ried 650 kgm. across the line before II appeared.
+No other transitions were found to 12700 kgm. at either room tem-
+perature or 153°.
+The efltect of pressure on the melting point of urethan has also been
+measured by Tammann,^^ who did not find any other modifications.
+Tammann's pressure range was to 2905 kgm. At the upper end of the
+melting curve he must therefore, have had the modification II without
+knowing it. Tammann remarks that below 1500 kgm. the melting
+curve is parabolic, but that above 1500 it is nearly linear; this linear-
+ity is evidently the effect of the overlooked transition. In fact, if one
+plots Tammann's points, he will find some evidence for the change in
+direction of the curve above the triple point, although the points are
+rather irregular. Tammann also looked for other modifications of the
+solid out to 3000 kgm. at 40°; if he had tried 60° instead, he would
+probably have found II. The melting point at atmospheric pressure
+was 48.14° against 47.90° above. The presumption from this alone
+would be, therefore, that Tammann's specimen was purer than mine.
+But at high pressures his curve drops below mine, being 1 .8° lower at
+the upper end, and he also states that the reaction was unusually slow
+for a melting reaction. Both of these points suggest impurity. In
+the work above, the melting set in as rapidly as for any normal liquid.
+It almost seems as if the design of Tammann's apparatus had been
+32 G. Tammann, "K. und S.," p. 239.

@@ -1,0 +1,36 @@
+12 THE PRINCIPLES OF SCIENCE.
+staff, string, or other kind of measure may be employed
+to represent the length of one object, and according as it
+agrees or not with the other, so must the two objects
+agree or differ. In this case the proxy or sample repre-
+sents length ; but the fact that lengths can be added and
+multiplied renders it unnecessary that the proxy should
+always be as large as the object. Any standard of con-
+venient length, such as a common foot-rule, may be made
+the medium of comparison. The height of a church in
+one town may be carried to that in another, and objects
+existing immoveably at opposite sides of the earth may be
+vicariously measured against each other. We obviously
+employ the rule that whatever is true of a thing as
+regards its length, is true of its equal.
+To every other simple phenomenon in nature the same
+principle of substitution is applicable. We may compare
+weights or densities or degrees of hardness, and all other
+qualities, in like manner. To ascertain whether two
+sounds are in unison we need not compare them directly,
+but a third sound may be the go-between. If a tuning-
+fork is in unison with the middle C of York Minster
+organ, and we afterwards find it to be in unison with the
+same note of the organ in Westminster Abbey, then it
+follows that the two organs are tuned in unison. The
+rule of inference now is that what is true, as regards
+pitch, of the tuning-fork, is true of any sound in unison
+with it.
+The skilful employment of this substitutive process
+enables us to make measurements beyond the powers of
+our senses. No one can count the vibrations, for instance,
+of an organ pipe. But we can construct an instrument
+called the syren, so that while producing a sound of any
+pitch it shall register the number of vibrations consti-
+tuting the sound. Adjusting the sound of the syren in
+unison, with an organ pipe, we measure indirectly the

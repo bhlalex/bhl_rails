@@ -1,0 +1,69 @@
+595
+the same plane. For the locus in question we find therefore the
+surface represented by :
+v m,x
+Jm,x
+M
+Jm,x
+v m,y
+v m,z
+Jm,z
+Jm,z
+— 0.
+The locus of the points the paths of which have at the considered
+moment a stationary plane of osculation, is a surface of the third
+order.
+In the same way we show that the locus of the points the paths
+of which have at the considered moment a contact of the fourth
+order with the plane of osculation, is represented by
+'m, y
+m,x
+(2)
+m,x
+(3)
+(2)
+™,y
+(3)
+J.
+(2)
+(3)
+= 0,
+i.e. to this locus belong the common points of the four surfaces of
+the third order of which the equations appear by successively omit-
+ting a ray out of the above-mentioned matrix. The required locus
+is therefore according to a well known theorem of the determinants
+the curve of intersection of
+Vffl, X
+^'">,V
+V,n, z
+Jm, x
+J™, y
+Jm, z
+,(2)
+Jm,x
+,(2)
+J» 1 .!/
+Jm,z
+and
+Jm, a
+,(3)
+Jm, i
+J™, y
+,(3)
+Jm.z
+,(3)
+Jm,z
+=
+provided we do not count the points defined by
+= 0,
+v m, x v m,y v m,z
+Jm,x J»>,y Jm,z
+i.e. the cubic we found before as the locus of the points of inflexion.
+The common points of the four cubical surfaces form therefore a
+twisted curve of the sixth order.
+The locus of the points of which the paths at the considered moment
+have a contact of the fourth order with the plane of osculation, is
+a twisted curve of the sixth order.
+$ 6. Let P(x,y,z) be a point of the fixed system connected to
+T m and P' (x\ y' , z') the centre of the sphere of curvature of the
+path of P; in this case P' has the characteristic property that the

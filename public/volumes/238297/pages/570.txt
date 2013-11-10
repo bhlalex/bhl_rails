@@ -1,0 +1,35 @@
+80 THE PRINCIPLES OF SCIENCE.
+that there is any inexactness in the laws of nature. We
+may even discover a law which we believe to represent
+the action of forces with perfect exactness. The mind
+may seem to pass in advance of its data, and choose out
+certain numerical results as absolutely true. We can
+never really pass beyond our data, and so far as assump-
+tion enters in, so far want of certainty will attach to our
+conclusions ; nevertheless we may in many cases rightly
+prefer a probable assumption of a precise law to numerical
+results, which are at the best only approximative. We
+must accordingly draw a strong distinction between the
+laws of nature which we believe to be accurately stated in
+our formulas, and those to which our statements only
+make an approximation, so that at a future time the law
+will be differently stated.
+The law of gravitation is expressed in the form
+F=-ppr, meaning that gravity is proportional directly to
+the product of the gravitating masses, and indirectly to the
+square of their distance. The latent heat of steam, again,
+is expressed by the equation log F = a + W + eft
+in which are five quantities a, 6, c, a, /?, to be deter-
+mined by experiment. Now there is every reason, to
+believe that in the progress of science the law of gravity
+will remain entirely unaltered, and the only effect of
+further inquiry will be to render it a more and more
+probable expression of the absolute truth. The law of
+the latent heat of steam, on the other hand, will be
+modified by every new series of experiments, and it may
+not improbably be shown that the assumed law can never
+be made to agree with the results of experiment.
+Philosophers have by no means always supposed that
+the law of gravity was exactly true. Xewton, though he
+had the highest confidence in its truth, admitted that
+there were motions in the planetary system which he

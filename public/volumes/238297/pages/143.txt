@@ -1,0 +1,35 @@
+THE INDIRECT METHOD OF INFERENCE. 117
+In these combinations the only A which appears is
+joined to c, and similarly C is joined to a, or A is incon-
+sistent with C.
+A more complex argument, also given by De Morgan f ,
+contains five terms, and is as stated below, except that I
+have altered the letters.
+' Every A is one only of the two B or C ; D is both B
+and C, except when B is E, and then it is
+neither ; therefore no A is D/
+A little reflection will show that these premises are
+capable of expression in the following symbolic forms
+A = ABc + AJO, (i)
+De = DeBC, (2)
+DE=DE6c. (3)
+As five letters, A, B, C, D, E, enter into, these premises it
+is requisite to treat their thirty-two combinations, and it
+will be found that fourteen of them remain consistent with
+the premises, namely
+ABcdE " aRCVe abCdE
+KEcde aBCdE abCde
+AbCdE aRCde abcDft
+AbCde aBcdE abcdft
+aBcde abode.
+Now if we examine the first four combinations, all of
+which contain A, we find that they none of them contain
+D ; or again if we select those which contain D, we have
+only two, thus
+D = aBCDe I a&cDE.
+Hence it is clear that no A is D, and vice versa no D is A.
+We might also draw many other conclusions from the
+premises ; for instance
+DE = a&cDE,
+or D and E never meet but in the absence of A, B, and C.
+f 'Formal Logic/ p. 124.

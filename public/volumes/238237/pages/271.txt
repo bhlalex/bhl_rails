@@ -1,0 +1,36 @@
+388 HAYES— U. S. NAVY MV TYPE OF HYDROPHONE.
+This method of sounding, which is very simple in principle, is
+not new. It differs from the first method described in that it depends
+upon the accurate measurement of a tune interval (a difficult opera-
+tion in practice), whereas the new method depends upon the meas-
+urement of an angle (a comparatively easy operation). Moreover,
+the error in soundings due to incorrect determination of the time
+interval is as great for shallow as for deep water, whereas the error
+due to incorrect determination of the sounding angle becomes very
+small for shallow water.
+The velocity of sound in sea water at the ordinary temperatures
+met in practice is roughly 4,4CX) feet per second. This velocity is so
+great that stop-watch methods are not sufficiently accurate for meas-
+uring the time intervals, since an error of one fifth second results in
+a discrepancy of over 70 fathoms in the determining of depth. The
+various laboratory methods of measuring time intervals with a high
+degree of accuracy require a skilled operator and in general can not
+be "employed on board ships. Several devices designed for marine
+use in connection with this problem have been perfected but have all
+proven to be too complicated to be successfully operated by a ship's
+personnel.
+The writer is at present developing a new method which looks
+very promising and by which the time interval between two signals
+can be determined with a high degree of accuracy on shipboard.
+The perfection of such a device will make possible the taking of
+soundings with a fair degree of accuracy in water of any depth
+while the vessel is steaming at full speed.
+Determination of the Range of a Sound-Source.
+If both a radio and an underwater sound signal are sent simul-
+taneously from one point, the distance to the same can be determined
+by measuring the time interval which elapses between reception of
+the two signals at a distant point. In this way lightships or other
+points provided with underwater navigation signals can be accurately
+located. This procedure has been tried by stop-watch methods with
+mediocre success, but it is believed that the device mentioned above
+will make it possible to determine the range of a sound-source with

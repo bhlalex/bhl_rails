@@ -1,0 +1,177 @@
+MILLER— PARALLAXES OF FIFTY STARS.
+89
+No. 3. B.D. -f 46°.243. 02 21. (o^ 57'"-3; + 46° 50'.)
+Mag. 6.36. ix^-\- o".o68 in 104°. 5. Spectrum F.
+This is a close double star, which is, apparently, in rapid orbital
+motion. The measures are in longitude. No parallax of this star
+has been published.
+Hour
+Time in Parallax
+Date. Angle.
+Obs.
+100 Days, Factor, So
+ution.
+wt.,
+Res.,
+Meas-
+h. in.
+T. P.
+in.
+p-
+V. ured by
+Dec.
+15,
+1915... +0 2
+P.
+—3-37 —0.736 -f 0.083
+■7
++0.001
+Be.
+Dec.
+22,
+1915... —0 5
+P.
+3.30 .811
+.078
+.8
+.006
+Be.
+Aug.
+19,
+1916... —0 37
+P.
+—0.89 +0.934
+.103
+I.O
+— 0.008
+Be.
+Aug.
+25,
+1916... -fo 5
+Ma.
+0.83 .889
+.092
+.8
++0.003
+Sm.
+Sept.
+II,
+I9I6. . . —0 36
+P.
+0.66 .714
+■095
+1.0
+.000
+Be.
+Dec.
+17,
+1916... —0 6
+M.
++0.31 —0.767
+.104
+•9
+—0.008
+Be.
+Dec.
+23,
+I916. . . 2
+Ma.
+0.37 .828
+.100
+1.0
+.004
+Sm.
+Jan.
+6,
+1917- •• 3
+Ma.
+0.51 -933
+.091
+■9
++0.005
+Be.
+Aug.
+4,
+1917. . . — 24
+M.
++2.61 +1.004
+.099
+.8
++0.007
+Sm.
+Aug.
+5,
+1917... I 34
+P.
+2.62 1.002
+.102
+•9
+.004
+Sm.
+Aug.
+10,
+1917. •• 045
+Ma.
+2.67 0.985
+.108
+1.0
+— 0.002
+Sm.
+Normal
+Equations:
+-\- 9.8000 c
++ I.
+01 10 /A + 1.5272 TT +
+0.9466.
++ 37-6547 +8.1249
++
+0.2262.
++ 7-5985
++
+0.1830.
+Solutions:
+c
+— -\-
+o".096.
+/^
+- +
+o".oi5 ± o".oo3.
+7T
++
+o".oo7 ±: o".oo8.
+p. e.
+unit weight, ± o".oi8.
+Comparison Stars.
+No.
+X.
+Y.
+Dependence. Diameter.
+B. D. No.
+5
++ 63.4
+-262.3
++0.283
+•47
+8
+203.5
+11.2
+.246
+•55
++46° .249
+I
+5
+244.6 + 90.6
+.249
+•56
++46°.23i
+I
+8
+31.9
+246.0
+.222
+.68
+IT
+0.0
+0.0
+S6
++46°.243

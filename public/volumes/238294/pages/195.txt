@@ -1,0 +1,37 @@
+( 648 )
+disadvantageous five of tliose elements, in order to obtain an
+equal distribution of the current each with a series-resistance of
+5000 ^i, are connected parallel to each other. Finally, when the
+adjustment is obtained, the battery which has served in the regulation
+is replaced by altering a plug in the commutator, by a battery
+arranged in the same way, which serves for the measurements.
+The peculiarit}' of this arrangement is that we can make imme-
+diately after each other all the readings required for the measurements
+by handling the commutator-boards (comp. successively PI. V Comm.
+N". 27) and without making other contacts than those of mercury- ; this
+would be impossible without the commutators and the current-rever-
+sers with mercury -contacts. This again reveals the great advantages
+which these apparatus offer for similar measurements. It seems,
+however, that little attention has been paid to them.
+The whole arrangement with 6 current-rexersers 1, 2, 3, 4, 5, 6
+and 4 commutators A, B, C, D for both deflection- and zero-method
+as it has become now may be easily seen on PI. II. The current-
+reversers and commutators with mercury-contacts have been indicated
+by three and four parallel lines respectively.
+1 serves to connect one of the two galvanometers, that of Hart-
+MAXN and Brain, described in Comm. K". 27 or a magnetically
+protected galvanometer of Du Bois and Rubens.
+2 and 4 to switch the galvanometer on to one of the three
+branches A, B, C,
+3 to switch the battery of comparison-elements on to the branch
+A or on to B,
+5 to introduce the observation-element and the comparison-battery
+separately or in series or in opposition (cf. 3),
+6 to introduce either the observation-element or the comparison-
+elements.
+A, B and C make and reverse the connection of the three circuits
+with the galvanometer, D reverses the accunudator. The commutators
+and tlie current-reA'ersers, like the Weston- battery have Iteen packed
+in cottonwool, placed together in large cases. Only the tubes where
+the contact of the mercury is made by handling tlie commutator-
+board (see PI. V Comm. N". 27) project beyond it.

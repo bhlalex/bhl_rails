@@ -1,0 +1,25 @@
+POLYMORPHIC TRANSFORMATIONS OF SOLIDS.
+97
+has also remarked on the sharpness of the transition at atmospheric
+pressure. The essential agreement of Wahl's and my results at high
+pressures for the width of the band of indifference, by methods entirely
+different, would seem to indicate some real physical significance in the
+absolute values found by us, characteristic of the substance, and not a
+property of the particular form of apparatus. The width of the II-III
+band was distinctly greater than that of the I-II band, being from
+70 to 100 kgm., while that of the I-IIT band was less, 11 to 33 kgm.
+There seem to be no previous determinations of either AV or AH for
+the transition.
+The data do not justify any attempt at estimating Aa, A^, or ACp.
+Silver Iodide. — This substance was Eimer and Amend's purest,
+used without further purification. Only one filling of the apparatus
+was necessary in getting the high pressure points, and one for the low
+J1234567
+Pressure, kgm./cm.^ x 10*
+Silver Iodide
+Figure 21. Silver Iodide. The observed equilibrium temperatures and
+pressures.
+pressure points. The transitions ran cleanly, and gave no such
+trouble from lag as was found by Tammann.^^ The dry powder was
+13 G. Tammann, "K. and S," p. 302, and ZS. f. Phys. Chem. 75, 733-762
+(1911).

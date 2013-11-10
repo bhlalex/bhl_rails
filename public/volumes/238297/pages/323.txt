@@ -1,0 +1,35 @@
+THE INDUCTIVE OR INVERSE METHOD. 297
+opening for the doubt which Boole has cast upon it b .
+But it may be replied, (i) that the supposition of an infinite
+number of balls treated in the manner of Laplace is less
+arbitrary and more comprehensive than any other that
+could be suggested. (2) The result does not differ much
+from that which would be obtained on the hypothesis of
+any very ]arge finite number of balls. (3) The supposition
+leads to a series of simple formulae which can be applied
+with ease in many cases, and which bear all the appearance
+of truth so far as it can be independently judged by a
+sound and practiced understanding.
+Rules of the Inverse Method.
+By the solution of the problem, as described in the last
+section, we obtain the following series of simple rules.
+1. To find the probability that an event which has not
+hitherto ~been observed to fail will happen once more,
+divide the number of times the event has been observed
+increased by one, by the same number increased by two.
+If there have been m occasions on which a certain event
+might have been observed to happen, and it has happened
+on all those occasions, then the probability that it will
+happen on the next occasion of the same kind is ^il
+m+2'
+For instance, we may say that there are nine places in
+the planetary system where planets might exist obeying
+Bode's law of distance, and in every place there is a
+planet obeying the law more or less exactly, although
+no reason is known for the coincidence. Hence the pro-
+bability that the next planet beyond Neptune will
+conform to the law is ~.
+2. To find the probability that an event which has not
+hitherto failed will not fail for a certain number of new
+occasions, divide the number of times the event has hap-
+b 'Laws of Thought,' pp. 368-375.

@@ -1,0 +1,29 @@
+STEADILY ALTERNATING CURRENT ON A LONG LINE. 341
+made to analyze these curves as yet, owing to the bad splash and
+lumpiness transients they indicate.
+Splash Transient Occurring Singly. — If the line is made vir-
+tually of infinite length with respect to the sending end, by ground-
+ing it at B through an impedance equal to its surge impedance -sTq,
+a splash produced by the closing of the line switch ofif zero e.m.f.,
+will give rise to a splash transient, that will vanish very quickly at
+A; because no reflected waves can return from the distant end.
+An example of this case is presented in Fig. 12 (Film No. 35).
+•Film. No,35. Line A. Endqrounded through
+Fig. 12. Non-recurring Splash and Casual Transients.
+Approximately the same half-length artificial line as in Fig. 11
+(580 km.), is here grounded at B through a combination of resist-
+ance and condenser, so as to produce an impedance, at 60.6'—', of
+342.5 x' 4°. 4 ohms. The line switch was closed at a phase of about
+20 electrical degrees later than the zero of ascending e.m.f. This is
+seen to produce a splash both in Cs and is, the initial outgoing waves
+of e.m.f. and current. This splash is also seen to be repeated in the
+B-end voltage Cr, where the load (^0) is connected. The splash
+gives rise also to a lumpiness transient, as may be seen by the ripples
+in is, the entering current, during the first alternation. A similar
+lumpiness ripple transient is faintly perceptible in the first alterna-
+tion of e,- at B. Neither splash nor lumpiness transients are visible,
+however, in the second or succeeding alternations in any of the
+curves, these disturbances, according to theory, being all absorbed
+at the B end, by the load Sq.
+Casual Transients. — At the point Aeg, Fig, 12, in the fourth
+PROC. AMER. PHIL. SOC, VOL. LIX, v, DEC. I4, I92O.

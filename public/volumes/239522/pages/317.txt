@@ -1,0 +1,38 @@
+452 KENXELLY AND AFFEL.
+quadrantal points of the circle are 983 and 1065 ~ respectively, or in
+angular velocity 6176 and 6692 radians per second. Half the differ-
+ence between these is 258, which represents A, the damping constant.
+When A is required with greater precision, however, it is better to
+take a number of frequency points around the circle into account,
+by means of formulas (20) to (23).
+The resonance curve for this case, giving central maximum cyclic
+velocities of the diaphragm, against impressed frequency, appears in
+Figure 15. It is a fairly representative curve for telephonic receivers
+as a class. The curve of diaphragm velocity is drawn through ob-
+servation-points with the explorer, while the small circles represent
+the corresponding points as computed by formula. The motional
+impedance curve is also drawn through the observations. Theoreti-
+cally, the ordinates of the two cm"ves should retain a constant ratio.
+It should be remembered, however, that at frequencies remote from
+resonance, not only are the amplitudes hard to measure, but the force
+constant a needs correction.
+The third part of the Table gives the results of the calculated data,
+in terms of A, m, r and s. The numbers of turns N, in the windings
+not being known, the value of a/x, which is a characteristic quantity
+for a receiver, is omitted.
+The equivalent mass factor vi/m was obtained in tests A and B by
+two different and independent methods ; namely, by the computation
+of m as in Formula (49) AppendLx I, and through exploration, by Dr.
+H. O. Taylor, of the amplitudes ■'•'^ over the surface of the diaphragm,
+in the manner described in Appendix II. The fact that these two
+values of the mass-factor compare favorably, constitutes a check upon
+the validity of the amplitude method of determination.
+Influences which Affect the Instrument Constants.
+The telephone receiver is so sensitive to external influences, which
+effect the motional-impedance circle, that there are numerous ways in
+which such influences might be exerted and their effects thus revealed.
+It is proposed here to consider, however, only a few of these influences,
+and their general effects on certain receivers as deduced from the
+changes produced in their motional-impedance circles. The influences
+selected were (1), variations in the screw-clamping of the cap, (2),
+17 Bibliography, No. 17.

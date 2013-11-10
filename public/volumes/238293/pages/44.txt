@@ -1,0 +1,22 @@
+37
+Catalogo Internazionale della Letteratura Scientifica.
+(D.) CHIMICA.
+0000 Filosofia.
+0010 Storia. Biografla.
+0020 Periodiei. Resoconti d' I&tituti, Societa, Congressi, ecc.
+0030 Trattati g-enerali. Libri di testo, Dizionari, Bibliografie.
+Tavole.
+0040 Discorsi, Letture.
+0050 Pedagogia.
+0C60 Istituii scientifici, Collezioni, Applicazioni pratiche.
+0070 Xomenclatura.
+Chimica degli element! come tali.
+0100 Generalita.
+TuTTO quelle che si riferisce specificamente alia chimica degli eionienti
+in g-ecera^e, eccetto il carbouio, dev'essere collocato sotto questa
+intestazione. Nel caso del carbonic vi si coUochera soltanto quel cLe
+rig'uarda 1' elemento o quel suoi composti (cianogeno ecc.) che non sono
+riguardati come derivati degl' idrocarburi.
+Gli elemeuti devono essere disposti secondo i' ordine alfabetico del
+lorosimboli e numerati da 0110 in su, coi lore simboli in corrispondenza
+di ciascun numero.

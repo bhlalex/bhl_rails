@@ -1,0 +1,36 @@
+COMBINATIONS AND PERMUTATIONS. 221
+various duration and succession, and the scheme would be
+easy of execution if needed.
+Let us calculate the number of combinations of dif-
+ferent orders which may arise out of the presence or
+absence of a single mark, say A. Thus in
+i A i Ai ran i i m i \ i
+we have four distinct varieties. Form them into a group
+of a higher order, and consider in how many ways we
+may vary that group by omitting one or more of the
+component parts. Now, as there are four parts, and any
+one may be present or absent, the possible varieties will
+be 2 x 2 x 2 x 2, or 16 in number. Form these into a new
+whole, and proceed again to create variety by omitting
+any one or more of the sixteen. The number of pos-
+sible changes will now be 2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2,
+or 2 16 , and we can repeat the process again and again if
+we wish. It will be easily seen that we are imagining
+the creation of objects, whose numbers are represented
+in the series of expressions
+2
+2 2
+222
+2222, and so on.
+At the first step we have 2 ; at the next 2 2 , or 4 ;
+2
+at the third 2 2 , or 16, numbers of very moderate amount.
+Let the reader calculate the next term, and he will
+be surprised to find it leap up to 65,536. But at the
+next step he has to calculate the value of 65,536
+two's multiplied together, and it is so great that we
+could not possibly compute it, the mere expression of
+the result requiring 19,729 places of figures. But go
+one step more and we pass the bounds of all reason.
+The sixth order of the powers of two becomes so
+great, that we could not even express the number of

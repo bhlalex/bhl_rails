@@ -1,0 +1,32 @@
+126
+THE PRINCIPLES OF SCIENCE.
+If there be a second premise, for instance
+we press in like manner the keys
+B (subj.), copula, B (pred.), C (pred.), full stop.
+The process is exactly the same however numerous the
+premises may be. When they are completed the operator
+will see indicated on the face of the machine the exact
+combinations of letters which are consistent with the
+premises according to the principles of thought.
+As shown in the figure opposite the title-page, the
+machine exhibits in front an abecedarium of sixteen com-
+binations, exactly like that of the abacus, except that the
+letters of each combination are separated by a certain
+interval. After the above problem has been worked upon
+the machine the abecedarium will present the following
+appearance
+A A
+a I a I a I a
+B B
+B B
+b 666
+C C
+C C
+C \ C \ c \ c
+D d
+D I d
+D \ d \ D \ d
+The operator will collect the various conclusions, as for
+instance that A is always C, that not-C is not-B and
+not- A ; that not-B is not- A but either C or not-C, as
+in the use of the Logical Slate or Abacus.

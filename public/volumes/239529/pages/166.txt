@@ -1,0 +1,42 @@
+229
+Si l' ensemble des points de P oü Vindice de P est fini, est partout
+dense sur P, ï ensemble Ei des points d' existence de 'f (#) est partout
+dense sur P.
+Nous relrouvons comme cas particulier Ie tliéorème que l'ensemble
+E x des points d'existence de <p {O) est partout dense sur tout ensemble
+épais, eten consequence, que E, eomplémentairede E ïy est de mesurenulle.
+Si un ensemble parfait P possède en chacun de ses points un indice
+fini, l'ensemble des points oü <ƒ>(#) nexiste pas, ou est discontinue
+sur P, ou possède spécialement a P au moins un nombre dérivé
+infini, eet ensemble est non dense sur P.
+De plus, l'ensemble des points oü ( p{&) est derivable spécialement
+a P et oü sa dérivée spéciale a P est egale a f{&), eet ensemble est
+partout dense sur P.
+Comme exemple particulièrement simple d'ensemble dont l'indice
+est partout fini, nous citerons l'ensemble parfait classique de Cantor,
+obtenu en retrancliant d'un segment continu l'intervalle occupant
+Ie tiers median de ce segment, puis en reeommencant Topération
+sur chacun des deux segments conserves et en la répétant indéfini-
+ment. X (il/) est pour eet ensemble P au plus égal a -| en tont
+point. Dans Ie cas Ie plus general, il existe sur P un ensemble
+ferme non dense K 0) tel que sur toute portion de P sans points
+communs avec K, F' (6) = <p (6) existe, est continue et clouée spéciale-
+ment a P t de nombres derives finis; de plus, en tous les points d'un
+ensemble partout dense sur P t , (p{6) admet f {6) pour dérivée spéciale a P t .
+Soit P un ensemble parfait quelconque, M un de ses points, 6
+l'abscisse de M, P{M) l'ensemble parfait obtenu comme il a été
+dit plus haut.
+Pourchaqueintervalle/our.9(#<V<C s) contigu a P{M) et pour lequel
+l{i) ^> 2 (on pourrait remplacer 2 par tout autre nombre indépendant
+{s—Qy
+superieur al), formons Ie rapport — - = ju (i) du carré de la
+r—-0
+distance a M de l'extrémité s de i la plus éloignée de M, a la
+distance a M de l'extrémité r de i la plus proche de M.
+Il est aisé de voir que si la série (i (i) est convergente, il est pos-
+sible de determiner y\ne suite 6 -j- h n située sur P et telle que la
+serie - — - soit convergente. La réciproque est evidente. Nous dirons
+que P est normal ou anormal en M selon que la série n (i) relative
+k M est convergente ou divergente.
+Toute portion de P contenant M entre ses extrémités est, en même
+temps que P, normale ou anormale en M.

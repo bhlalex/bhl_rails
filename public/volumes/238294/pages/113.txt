@@ -1,0 +1,68 @@
+( 514 )
+dp
+for the nnantitv ^, doiivod hv A.ma(;at from tlio isotherm is not
+' f>,.
+coiistjint, which points to the tact thai Ity assiimiim- the constants
+independent of the teniperatnre, no {)crfect agreement with the
+observations will be obtained.
+By means of the formnla:
+dp_i l ^a)(l-b^).a
+dt„ V — b
+whicli is derived from tlie equation of state, when tlie constants are
+put independent ot the temperature, I liave determined the ^— for
+dt
+different vohimes, and compai-ed these vahies with tliose found by
+A MAG at/)
+TAB L E II.
+7'
+(observed)
+t^l (0°- 100°)
+(observed)
+(calcul-
+ated)
+A
+9730
+lOO
+0.4G2
+0,458
+1
+0.9
+5050
+2(;o
+•1.105
+•1.C73
+2.9
+3G5S
+300
+l.SOO
+1.750
+2.8
+303G
+4('0
+2.470
+2.407
+2.5
+2080
+.500
+3.085
+3 042
+-1.4
+1
+2450
+noo
+3.718
+3.648
+1.9
+dp
+Iji the third cohimu ot tabh' II the values of — are 0:1 ven derived
+by Amagat from his detei'miuation of isotherms at 0'' and at 100', in
+the fourth column the calculated \alues, and in the fifth the devia-
+dp
+tions expressed in per cents ot ,— .
+dp
+If b\ means of the formula for -- we calculate from the pressure
+at 15°, 7 the [)ressure at 25'. then the deviation of 0,0 " „ in the
+-— passes into one ot 0.04 " „ in the jtressure tor the \'olume 9730.
+dt^ ^ » i
+The devialioji of ihe p iutroihiccd iu this way, is smaller than
+1) 1. c. Table 2G.

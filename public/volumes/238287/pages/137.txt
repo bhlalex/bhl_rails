@@ -1,0 +1,47 @@
+On Crystallography, 125
+(fig. 2), and oilier cs. Thus it will be easy to determine
+the ancrle which the face produced by the decrement forms
+with BCGH (fig. 1 )
+13. It may happen that the two decrements which act
+on both sides of the ridge BC have such a connexion
+with each other that the two faces which will result from
+them will coincide upon one and the same plane, so that
+the side oh of the triangle oih is upon the direction of
+the side ou which belongs to the triangle upo, as we see
+in fig. 3. . To prove this, we may remark, that in this
+case the triangles upo, oik are similar, as well on ac-
+count of the equality of the angles op u, hi o, and the pa-
+rallelism of the sides op, i h, as on account of the coinci-
+dence of the sides ou, ho upon one and the same direction.
+Therefore pu : op : : oi : ill.
+Or rather cs (fig. 2) : n x cr : :n' x cs : cr.
+Which gives n' = — .
+That is to say, the case in question will happen every
+time that the decrements which take place on proceeding
+from BC towards GU are in the inverse ratio to those
+which take place in going from BC towards AD, or, what
+comes to the same thing, at all times when there is on one
+side a decrement in height equal to that which shall be on
+the opposite side. We may easily conceive that the two
+faces will be still on one and the same plane in the peculiar
+case of a decrement by one row on both sides.
+14. Hence we may conclude, that in all circumstances-
+similar to those which have been cited, we may make abs-
+traction of one of the two decrements, by considering the
+face which results from it as the continuation of that which
+arises from the other decrement.
+We see what would have been necessary for determining
+in a similar way the incidences of the faces produced by
+the other decrements upon the analogous faces of the
+generator parallelopipedon.
+15. The greatest number of faces which the secondary
+solid can have, is twenty-four, since the generator parallelo-
+pipedon has twelve ridges, each of which is the line of
+departure of two decrements which act in an opposite direc-
+tion. These faces will all be triangles, or some triangles and
+others trapeziums, according as the generator paralielopipe- ■'
+don will be found more elongated in one. direction than in
+the other, or as the decrements which will take place pa-
+rallel to certain edges will follow a more rapid course than
+those which would act parallel to other edges.
+The

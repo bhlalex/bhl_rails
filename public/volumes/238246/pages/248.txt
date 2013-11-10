@@ -1,0 +1,85 @@
+355
+(4) d-arabinose
+C-OH
+OH-C-H
+I
+H-C-OH
+1
+H-C-OH
+I
+CH2OH
+(5) d-xylose
+C-OH
+I
+OH-C-H
+H-C-OH
+I
+OH-C-H
+I
+CH2OH
+(6) d-lykose
+C-OH
+I
+OH-C-H
+I
+OH-CH
+I
+H-C-OH
+CH2OH
+(7) 1-ribose
+C-OH
+OH-C-H
+I
+OH-C-H
+I
+OH-C-H
+I
+CH2OH
+Of tliese 4 pentoses we were able (o investigate only the first
+two; quite in accordance wiili what was to be expected there was
+no question of any retention of d-arabinose.
+It was different in the case of d-xylose of wliich again a part
+was retained.
+Let us add to this still that neither of the d-1-arabinose nor of
+the d- and l-arabinose anything was retained.
+The tetroses could not be examined ; if this had been the case it
+was to be expected that
+d-erythrose
+and
+d-threose
+C-OH
+1
+C-OH
+H-C-OH
+1
+H-C-OH
+H-C-OH
+1
+OH-C-H
+j
+CH2OH
+CH2OH
+would be retained and
+1-erythrose
+and
+l-threose
+C-OH
+C-OH
+1
+OH-C— H
+1
+OH-C-H
+1
+OH-C-H
+1
+H-C-OH
+1
+CH2OH
+CH2OH
+allowed to pass through.
+To simplify the survey we give here a table in which the results
+of the experiments are summed up. J^et it be remarked here however
+that with d-galactose and 1-xylose a much larger amount of experi-
+ments have been make. These will find a place in the following article.
+Summarising the results of the above described experiments
+we mnst come to the conclntion that the hypothesis which makes

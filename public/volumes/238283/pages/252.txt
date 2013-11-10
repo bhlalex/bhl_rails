@@ -1,0 +1,40 @@
+RICHARDS AND ARCHIBALD. — CONCENTRATED SOLUTIONS. 355
+The shape of the first section of the curves, where the concentration of
+the mercury present increases at a greater rate than does the correspond-
+inw amount of electrolyte, suggests at first tliat the undissociated part of
+the latter is the portion concerned in the reaction ; but the curve repre-
+seutinnf a power of the concentration of the ionized chlorine has of course
+a similar tendency.
+Hence the general shape of the curve is an insufficient basis for de-
+cision between the two hypotheses.
+The fact that strong solutions of cadmic chloride have little or no
+influence on mercurous chloride supports the latter of the two hypotheses,
+since concentrated cadmic chloride solutions contain but a very small
+concentration of ionized chlorine.
+More direct light upon the question is obtained by the measurement
+of electrolytic conductivity. According to the first hypothesis, which
+demands the presence of an undissociated double salt, the conductivity of
+salt solution should be considerably decreased by the addition of mercuric
+chloride. As a matter oE fact, we found that the dissolving of mercuric
+chloride to saturation in a twice normal solution of common salt dimin-
+ished but slightly the conductivity of the solution. The work of Le Blanc
+and Noyes* furnishes similar results concerning hydrochloric acid; and
+moreover these investigators showed by the catalysis of methyl acetate
+that the concentration of the hydrogen ion was undiminished by the addi-
+tion of mercuric chloride. Hence the new compound is to be considered
+as highly ionized.
+Yet further evidence is to be obtained by referring to the specific con-
+ductivities of strong solutions of the chlorides studied. f Here we find
+that while the conductivities of solutions of sodic and baric chlorides
+increase with the concentration as far as they may be followed, those of
+calcic and hydric chlorides exhibit maxima at a concentration about six
+times normal. The agreement between these maxima and those ex-
+hibited by our own curves at seven times normal is close enough to
+suggest an essential relation between the cause of conductivity and the
+cause of Miahle's reaction.
+The evidence thus furnished is all consistent in indicating that the
+nature of the reaction is the addition of HgCL to the chlorine ion, with
+the formation of a complex ion. This conclusion agrees with that of Le
+Blanc and Noyes, based upon other data.
+* Le Blanc and Noyes, Zeitschr. phys. Chem., 6, 389, seq. (1890).
+t See Kohlrausch and Holborn (1898), Leitvermiigen d . Electrol., pp. 145-154.

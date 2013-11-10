@@ -1,0 +1,45 @@
+( 799 )
+and at the same time a way ■^ APr cos f dt is saved by the collisions,
+those moleeules seem to move Avith a xeloeitv Pr cos¥d({\ -{- 4iA),
+and so the number of collisions has increased in the same ratio.
+KoKTKWEG, however, continues: "In order to obtain therefore the
+same number of collisions with llie plane AB, the molecules will
+only Iiave fo pass over a way Pecos f dt, ijistead of over a wav
+Pvcosi{i — 'iA)dt, in other words, the number of collisions of this
+system increases in the I'atio (1 — 4.1): A." Now between the two
+results there is onlv diflference of order — aiid iji so far as we wish
+A''
+to neglect the (piantities of this ordei', Koktk\vk<;'s i-esult may cer-
+taiidy be accepted. If, however, we wish to solve the proldem
+rigorously, the fu'st result alone can be accepted.
+For KoRTEWEG makes it appear, as if — taking into account the part
+of the way being saved — an ecpially long way is described in the
+time (1 — 4:A)dt, as in the time dt without doing so. Now in the
+last case the molecules pass over a way Pv cos 8 dt iji the time dt,
+so PvcosBdt{\ — 4J) iji the time (1 — ^A)dt. hi the time dt there
+is saved -i APi: cos t dt. in the time (i — ^A)dt therefore (1 — 4.1)
+4: APr cos 8 dt : so the <listauce, passed over in the time (1 — 4.1)(/^
+by saxijig way and really moving together is somewhat slighter
+(viz. 1() A' l*r cos 8 dt) than that passed o\ er by the i-eal motion alone
+in the time dt ^).
+^) Perhaps Kokteweg was led when drawing up the formula nieutiuned in the
+text by the solution of the problem in one dimension wliich be has given in
+Nature (loc. eit.) later on. He linds there — i)erfectly accurately — Ibr Ibe time
+passing between two collisions against the wall of a row of >? [larticles ol'tliameter
+A wliicli can move over a total distance L witii a velocity V:
+, , _ V
+~ L^nY
+This formula reminds us more of Korteweg's result than of ours, really however
+it agrees with the latter, not with the former. For, if we determine the ratio of
+the number of collisions with and without saving wav, it is Q = . Now L is the
+total distance over which the molecules can move, so the path described by their
+own motion + the path saved; nX is the path saved. So L corresponds with
+(1 4- 4 ^i) P f cos fc dt, nx with 4 A P v C08 i dt ; so the ratio of the collisions is here
+agaiji (1+4 .4) : 1. To Kohteweg's result 1 : (1—4 A) would the formula Q = ~ ' ^
+L-~2 «A
+correspond, which agrees with the first as to the terms of llie ordei' , but which
+is certainly not strictly accurate.
+It is true that with the formula for one dimension, with regard to its physical
+meaning, an equation of state agrees, in which a quantity is subtracted from tlie
+volume whirb is a function of 6 and r, not a formula of form (1); but we shall
+see that our formula derived in the text, leads also to such a linal form.

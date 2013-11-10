@@ -1,0 +1,25 @@
+TELEPHONE DIAPHRAGMS.
+433
+of the voltaic cell E. Readings of the advance of the point P, could be
+made on the micrometer head to 10"^ inch (25 fj.) and could be well
+estimated to 10~* inch (2.5 fx). Impressed forces were used in suc-
+cession up to about 100 grams wt. (10^ dynes).
+Fig. 8. — Apparatus for Diaphragm Elasticity Measurement.
+Figure 9 shows the results obtained, with ordinates deflections in
+microns, and abscissas impressed central force in dynes. The different
+curves refer to diaphragms of different thickness. In every case the
+clamping circle of the diaphragm in the receiver had a diameter of
+5.0 cms. The dotted curves show the deflections with the permanent
+magnet of the telephone removed. The full curves show the corre-
+ponding deflections with the permanent magnet present.
+It will be seen that the deflections obtained with varying impressed
+forces, follow substantially straight-line laws, up to say 50 microns,
+a range of deflection considerably in excess of what the telephone dia-
+pl ragm has ordinarily to undergo in practice. There is, however, a
+considerable difference between the deflection produced by a given
+impressed force when the permanent magnets were present, and when
+they were removed. This difference is accentuated in the cases of the
+thinnest diaphragms. The presence of the permanent magnet causes
+the diaphragm to be bowed from the plane of the clamping circle,
+and subsequent deflections, due to impressed forces, occur from this
+distorted position of equilibrium.

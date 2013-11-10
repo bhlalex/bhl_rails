@@ -1,0 +1,39 @@
+124
+YN„ ^ rnri9^^TtYnN {6h)
+When we now make the non-metal electrode iV anode, we
+withdraw the electrons. If we had to deal with a metal, hence if
+N was a metal, the electrode could maintain its potential in conse-
+quence of the fact that the withdrawn electrons are supplied in time
+by the reaction (6a), the positive ions formed going into solution.
+As JV is however a non-metal, and the positive ions j.V' do not
+practically go into solution, the reaction (6a) will not take place
+to a degree of any importance.
+The only way in which the non-metal jV will be able to maintain
+its potential in the case supposed here, is this that negative ions N''
+from the electrolyte are deposited on the electrode, and there supply
+the deficit of electrons by the splitting off of electrons.
+The processes that take place may be represented as follows :
+t
+'' t
+As the heterogeneous equilibrium in the boundary layer between
+the negative ions in the electiode and in the electrolyte must set
+in with very great rapidity, it is clear that it will depend on the
+velocity of the splitting off of electrons of the negative ions whether
+the electrode maintains its potential or whether it does not. Above
+a definite current density, i.e. above a definite velocity of withdrawal
+of electrons this will no longer be the case, and a consequence of this
+will be that the electrode will contain too few electrons and too
+many negative ions.
+It follows from equation (7) for this case that the potential diffe-
+rence will become more stronglj^ positive.
+This phenomenon of polarisation is called ^'sujier tension" in the
+case of gases, but it is not essentially different from the phenomenon
+of anodic polarisation for metals.
+It is clear that when we now proceed to the cathodic polarisation
+for non-metals this phenomenon should be ascribed to this that the
+added electrons are not quickly enough absorbed by the uncharged
+molecules or atoms, so the electron possesses a too high concentra-
+tion of electrons, and a too small concentration of negative ions.
+According to our equation (7) this gives rise to a less positive value
+of the potential difference.
+As we do not measure the potential difference, but the experi-

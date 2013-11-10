@@ -1,0 +1,32 @@
+325
+{\—x''^+^ah) and (l—u,-"'/ e»/'/') always exceed a fixed value, hence
+Th{^i\l)) remains finite as x tends to unity. Accordingly tlie difference
+L{xOp) —qL{xi^)
+is always finite, therefore the point Op must be a singular point of
+L{z] and the continuation of L{z) across the circumference must be
+regarded impossible.
+To examine the behaviour of L{.i;8r) if x-^{, it will besufïicient
+to deduce a suitable expansion of the function Th (r, p).
+Putting
+1 ^^-l-» 1
+<f [u) z=z z=z — \ -r- ^
+we have at once
+U=Z CO
+and from this expression it is seen, that the application of a suitable
+summation-formula will lead to the desired result.
+I consider the set of trigonometrical series
+1 ^ sin 2 T ^^
+9Ai) = ^ ,
+jr 1 k
+1 *cos2jr^^
+^ 2.T' 1 P '
+. . , 1 ^ sin 2jr kt
+^'^^ ^2':t'T k* '
+and the identity
+dt .... {la)
+Integration by parts transforms the indetinite integral into the
+expression
+I / A \ 1 i=:2m— 1 , /" h\ )
++ ?^'\'^^"'J \92m(t--j-g2,n{t)\ ^ ' '"''\t q y) dt
+and here we have to introduce the limits and x . In doing so
+we must take into account the discontinuities oï c/J t J and of

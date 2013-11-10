@@ -1,0 +1,39 @@
+162 PROCEEDINGS OF THE AMERICAN ACADEMY.
+Apparatus.
+In searching for these lines I have employed the rotating metallic arc,*
+which enables one to use chemically pure electrodes having little or no
+chemical reaction with the gas employed. In this arc, then, one may
+expect the gas to give off its characteristic radiations with greater in-
+tensity than in one where the gas may enter into chemical compounds
+before a temperature is reached at which it becomes luminous. This arc
+enables one also to select such metals as do not have strong lines in the
+neighborhood of the lines sought for, while in the spectrum of the carbon
+arc there are few sjjaces not already occupied by lines of carbon or of an
+impurity.
+In the rotating arc, one electrode, either a disc or a rod of metal,
+rotates upon an axis, making about 700 rotations per minute, while the
+other electrode has a slow movement of translation toward the axis of
+rotation. The rotation not only prevents the excessive heating and
+welding together of the electrodes, but it throws the hot gases to one
+side, so that the arc has the appearance of a small fan. The part of the
+flame thus separated from the poles is very free from continuous
+spectrum.
+In the apparatus used in these experiments the arc is enclosed in a
+brass box, or " hood," having a volume of about 1^ litres and being com-
+paratively gas-tight. The light from the arc issues through a long brass
+tube closed with a lens at the outer end ; the lens thus forms part of the
+wall of the hood, but is so far removed from the arc that it receives com-
+paratively little of the deposit sometimes formed inside the hood, and
+hence remains clean.
+A stream of gas enters the hood at one stoi^-cock and leaves it at
+another ; a third cock is provided for attachment to a manometer. Al-
+though the hood is not absolutely gas-tight, the purity of the gas inside
+was preserved, in these experiments, partly by the small excess of pres-
+sure inside the hood above that outside, and partly by the fresh supply of
+pure gas constantly running through the hood. The hydrogen used was
+generated electrolytically, and varied in quantity from 10 to 15 litres
+per hour.
+The spectra have been examined both visually and photographically
+by means of a small plane grating spectroscope and by means of a large
+concave grating spectroscope.
+* Crew and Tatnall, Phil. Mag., 38, 379 (1894).

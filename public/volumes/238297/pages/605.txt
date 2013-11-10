@@ -1,0 +1,37 @@
+Q UA NTITA Tl VE IND UCTION. 1 1 5
+be a closed one, or whether it has infinite branches ;
+whether such branches are asymptotic, that is, approach
+indefinitely towards straight lines ; whether it is loga-
+rithmic in character, oj; trigonometric. This indeed we
+can only do if we remember the results of previous in-
+vestigations. The process is still inversely deductive, and/
+consists in noting what laws gave particular curves, and
+then inferring inversely that such curves belong to such
+laws. If we can in this way discover the class of func-
+tions to which the required law belongs, our chances of
+complete success are much increased, because our hap-
+hazard trials are now reduced within a narrower sphere.
+But, unless we have almost the whole curve before us, the
+identification of its character must be a matter of great
+uncertainty ; and if, as in most physical investigations,
+we have a mere fragment of the curve, the assistance
+given would be quite illusory. Curves of almost any
+character can be made to approximate to each other for a
+limited extent, so that it is only by a kind of divination
+that we can fall upon the actual function, unless we have
+theoretical knowledge of the kind of function applicable
+to the case.
+When we have once obtained what we believe to be the
+correct form of function, the remainder of the work is
+mere mathematical computation to be performed infallibly
+according to fixed rules*, which include those employed
+in the determination of empirical formulas (vol. ii. p. no).
+The function will involve two or three or more unknown
+constants, the values of which we need to determine by
+our experimental results. Selecting some of our results
+widely apart and nearly equidistant, we must form by
+means of them, as many equations as there are constant
+quantities to be determined. The solution of these equa-
+tions will then give us the constants required, and having
+i See Jamin, * Cours de Physique,' vol. ii. p. 50.
+I 2

@@ -1,0 +1,41 @@
+^
+14
+m ! a,n if' (.1; + m + 1 )
+r(.r + m + 1)
+s log n
+that is <^ f, since {log n) -. n^ is zero for n = 00. By this the conver-
+gence of the first part of the series of derivatives (47) has been
+proved, together with the unifoiin convergence in S. The second
+part need not be examined more closely, since this part forms a
+series which, save as to the factor \Y{x) not depending on n, is
+equal to the series of factorials itself.
+On account of its uniform convergence in the domain S and the
+continuity of its individual terms the series of derivatives in question
+represents in S the derivative of the function determined by the
+original series of factorials. The differential coefficient of this function
+is therefore determined at any point of aS', and is independent of the
+direction in which it is taken : thus the series of factorials represents
+an analytic function in the domain S.
+14., We now proceed to settle the question indicated at the
+beginning of the preceding section, and we first consider the case
+A' = 0, in which the upper limit of «„ for n ^ 00 is equivalent to
+7^". We further assume the limit of convergence and divergence of
+the series (6) to be given by R{._t:i)=z6, 6 being a positive number
+less than unity. Since, as we showed, the number I is in any case
+not greater than 6, we have
+lim {l—t)^<p{t) = for R (r) > <9 .
+From this it follows that the integral (1) converges absolutely
+for R{x) > <9. At the same time tiiis convergence is uniform in any
+domain S wholly included in the finite part of the half-plane
+B{x) ^ G -\- Ó, where cf is a certain fixed, but for the rest arbitrarily
+small positive number. The same holds for the integral
+ƒ
+(p {t) (1—0^—1 log (1—0 dt,
+which may be deduced from the integral (1) by differentiating the
+latter under the integration-sign with regard to x. Hence this integral
+represents in aS the derivative with regard to x of the integral (1),
+so that the latter is an analytic function of .^■ in the domain 5. ^)
+1) The statements mentioned here briefly have been established by Pincherle
+in his paper "Sur ^es /"o^ciio^s de/!ermma7?ies", Ann. de I'Ec. Norm. (3) XXII, 1905,
+p. 13—17. Their analogy with those we proved in the preceding section is
+manifest.

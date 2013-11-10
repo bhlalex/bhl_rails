@@ -1,0 +1,41 @@
+218
+2 jx (m) sin 4.-T /'rn rfm ^ — ƒ Z' {cl') + ^ ƒ ^,«ar. • • (20)
+In this Zmax 19 <l>e measured ordinate of tlie higiiest point of the
+^-curve; the bottom point of this ordinate was the zero-point xY,
+from which cl must therefore be measured along the axis of abscissae
+of the ^-curve. When a line is drawn parallel this axis and at a
+distance ^ Z,n„x from it, parts will remain of the ordinates the
+lengtli of which will again be a function of cI, which function we
+shall call 1 (cl).
+According to (19) and (20) we now have :
+"•1
+2 r
+I{cl) = Z {cl) — 4 ■^max. = — r I X ("0 COS 4:71 Im dm .
+(21)
+When the same line is drawn through the Z' curve, the remain-
+ing parts of the ordinates will represent a function II {cl') so that:
+"'i
+2 r
+ir {cl') ^ Z' {cl') — è Z,nax. = - y X ("^) sin 4.T I'rn dm . . (22)
+The zero point JV' on the axis of abscissae of the Z' curve may
+be determined on the following consideration. The function II {cl')
+is zero for /' = 0, but has several zero points, so that it is not yet
+known which of them is to be taken as N'; it appears, however,
+from equation (22) that the fnnction is uneven in /'. When, therefore,
+of the function II we determine the zero point with respect to which
+the other zero points lie sj^ra metrically, we have found the point
+c'/= 0, hence the zero point N' on the axis of abscissae. This is
+the zero point, from which cl' must be measured on the axis of
+the ^'-curve. Especially for multichromatic light this symmetry will
+be very apparent. The reasoning involves that observations must
+have been made also for negative values of /', i.e. that we must
+start with putting the movable prism somewhat nearer than would
+correspond with /' = 0, hence with /= — d. When we, therefore,
+begin with placing the prism at a distance greater than d before
+the plane of reference R, and moving it from there with uniform
+velocity, we begin with a negative value both of / and of /', so
+that the initial points of the bands have negative abscissae.
+We may cursorily remark that the quantit} ?; = c/ can be accurately
+determined from the situation of the zeio points JV and xV.
+The photographic plate was namely every moment struck by two
+beams of light, the intensities of which depended on two parameters

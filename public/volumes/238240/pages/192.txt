@@ -1,0 +1,38 @@
+191 1.] ABBOT— SOLAR CONSTANT OF RADIATION. 239
+zenith distance.' Solar-constant determinations require no higher
+values of zenith distance than these to be considered.
+Radau and Langley proved the necessity of confining the atmo-
+spheric use of Bouguer's formula to approximately monochromatic
+rays. In general, for a reason which Lord Rayleigh has shown, the
+transmission of the atmosphere increases gradually with increasing
+wave-lengths. Thus in the violet the transmission for a vertical ray
+to sea level may be 50 per cent., and for a deep red ray 80 per cent.
+But besides this gradual change there are also spectral regions of
+almost complete absorption by atmospheric oxygen, and by water-
+vapor, so that in these regions the transmission approaches zero.
+If we should disregard these differences, and determine the con-
+stants of the exponential formula above, by pyrheliometric measure-
+ments alone at dift'erent solar zenith distances, our result E^ for
+the intensity outside the atmosphere must necessarily be too small.*
+Langley was the first to act upon this, and 'to devise apparatus
+and methods for measuring the energy and the atmospheric trans-
+mission at all parts of the spectrum. For this purpose he invented
+the bolometer about 1880, and automatic registration of its indica-
+tions about 1890. As we now use it the bolometer comprises two
+similar tapes of platinum, each about i cm. long, o.oi cm. wide and
+o.ooi cm. thick. These are coated with lamp-black by smoking over
+a camphor flame. They lie parallel to the spectrum lines, and
+about 0.8 cm. apart. One tape may be shined upon by the rays,
+the other can not. Hence the heat absorbed from a narrow region
+of spectrum, usually about twice the extent comprised between the
+D lines, raises the temperature of the exposed tape with reference to
+the other. The two tapes and two resistance coils are combined to
+form a Wheatstone's bridge, and the rise of temperature produced
+as above stated deflects a sensitive galvanometer. The galvanometer
+needle reflects a tiny spot of light on a photographic plate, which
+moves vertically as driven by clock work. The same clock work
+moves the spectrum slowly over the bolometer tape. In this way
+may be produced in from eight to twelve minutes, according to the
+spectroscopic outfit employed, a holograph, or spectrum energy
+' Loc. cit., p. 59.
+* Loc. cit.. p. 16.

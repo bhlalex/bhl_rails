@@ -1,0 +1,43 @@
+530
+lines may have on the estimation óf their distance must be practically
+identical in the two spectra: the exaggeration of the distance in the
+o
+limb spectrum would also be 0,003 A. A mutual influence depending
+on errors of estimation will not appear iu the limb-centre differences.
+The well-established fact that neighbouring lines are nevertheless
+more distant in the spectrum of the limb than in the spectrum of
+the centre must therefore be a real phenomenon.
+The only way to explain this mutual repulsion of neighbouring
+lines seems to be the one indicated by the dispersion theory owing
+to which, moreover, the phenomenon was discovered. A powerful
+support is thus given to our contention that Fraunhofer lines have
+indeed to be considered as dispersion lines, enveloping the (much
+weaker and narrower) real absorption lines in a generally asym-
+metrical way.
+The observational data, as ijet available contradict the inference that
+the Fraunhofer lines should be displaced by gravitation.
+We shall now refer to the displacements of' Fraunhofer lines in
+the spectrum of the central parts of the solar disk with respect to
+the corresponding lines in terrestrial arc spectra.
+The laws of these displacements are less easily derived from direct
+observations than those of the limb-centre displacements, because in
+many cases the wave-lengths of the arc lines have not yet been
+determined with sufficient precision. It has however been established
+beyond doubt that here again the same peculiarities appear: great
+variety in magnitude of the displacements; dependence on line-inten-
+sity ; mutual influencing of the neighbouring lines 1 ). This agrees
+with the conception of Fraunhofer lines as dispersion lines; indeed,
+also the radiation coming from the centre of the disk has been
+weakened by anomalous dispersion on its way through thick layers
+of gas, and therefore shows dispersion lines in its spectrum. As a
+rule these dispersion lines will cover the cores of the lines asym-
+metrically. (The positions of the cores are determined by the solar
+values of their proper frequencies).
+As the radiation from the centre of the disk has in general travelled
+along shorter paths through the refracting and scattering gaseous
+') Albrecht, Astroph. Journ. 41, 333 (95); 44, 1 (1916). Royds, who
+challenges Albrecht's conclusions, yet finds himself that 17 lines with companion
+o
+on the red side give a mean sun-arc displacement towards the red oi only 0,0082 A,
+whereas 30 lines with a violet companion give a displacement towards the red
+of 0,0079 A. (Kodaikanal Bull. 48).

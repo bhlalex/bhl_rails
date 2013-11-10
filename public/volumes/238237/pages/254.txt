@@ -1,0 +1,36 @@
+STEADILY ALTERNATING CURRENT ON A LONG LINE. 347
+of regular current transients at A. The oscillogram of is should
+coincide with this line, if there were no errors in assumptions or
+computation. The actual oscillographed is wave is shown by a
+chain line in Fig. i6, and the deviations of this from the heavy line
+are marked thereon at the successive crests. It will be seen that,
+in the first wave, the discrepancy is small. The discrepancy in-
+creases up to wave No. 3, when it reaches 17.5 per cent. The dis-
+crepancy then dies away, almost to zero, in the last wave. No. 13.
+This discrepancy in current amplitude, reaching a maximum at
+the third wave, is too large to be attributable to errors of interpreta-
+tion in the oscillogram. It may be attributed therefore either to
+(i) small higher harmonics in the wave of impressed e.m.f . ; i.e.,
+to deviation from the sinusoidal form, with initial wave tran-
+sients resulting therefrom,
+(2) imperfect regulation of impressed e.m.f., or initial deviation of
+Cs from the normal amplitude, with initiating wave transients
+resulting therefrom,
+(3) lumpiness in the artificial hne, with corresponding initiating
+wave transients,
+(4) secondary reflections at A from the internal impedance of the
+alternator, not taken into account.
+The shares of the above possible sources of discrepancy in is have
+not been determined. It is intended, however, to substitute a taper-
+ing pair of smaller tt sections, for the first section at the A end of
+the line, so as to diminish the lumpiness of the line at the generating
+end, where the waves start. Ordinarily, the greatest discrepancies
+between theory and observation are to be expected in the initiating
+wave transients of current at the sending end. All errors are
+exaggerated at this point. Considering the complexity of the con-
+ditions, it is remarkable that the discrepancies have not been larger.
+Of the considerable number of initiating wave transient oscil-
+lograms which have been obtained on this and other artificial lines,
+Fig. 9 is a fair sample, and not a specially selected case. It has
+been analyzed to a greater extent, however, than any of the rest.
+The conclusion to be drawn from this analysis seems to be sup-

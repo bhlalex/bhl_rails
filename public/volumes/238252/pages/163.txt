@@ -1,0 +1,45 @@
+HERTZIAN WAVE WIRELESS TELEGRAPHY. 159
+stations, signals having Ijeen received by him during the night between
+Poldhu and Poole with an aerial the height of which was not suffi-
+cient to receive them by day. It has been found, however, that the
+effect simply amounts to this, that rather more power is required by
+day than by night to send signals by Hertzian waves over long dis-
+tances.
+Some interesting observations have also been made by Captain H.
+B. Jackson, E.jST.,* on the influence of various states of the atmosphere
+upon Hertzian wave telegraphy. These experiments were all made
+between ships of the British Eoyal Navy, furnished with Hertzian wave
+telegraphy apparatus on the Marconi system. Some of his observa-
+tions concerned the effect of the interposition of land between two
+ships. He found that the interposition of land containing iron ores
+reduced the signaling distances, compared with the maximum distance
+at open sea, to about 30 per cent, of the latter; whilst hard limestone
+reduced it to nearly 60 per cent, and soft sandstone or shale to 70 per
+cent. These results show that there is a considerable absorption effect
+when waves of certain wave-length pass through or over hard rocks
+containing iron ores. It would be interesting to know, however,
+whether this reduction was in any degree proportional to the dryness
+or moisture of the soil. Earth conductivity is far more dependent
+upon the presence. or absence of moisture than upon the particular
+nature of the material which composes it other than water.
+The observations of Captain Jackson, however, only confirm the
+already well-known fact that Hertzian waves, as employed in the
+Marconi system of wireless telegraphy, within a certain range of
+wave-length, are considerably weakened by their passage through
+land, over land or round land. In some cases he noticed that
+quite sharp electric shadows were produced by rocky promontories
+projecting into the line of transmission. His attention was also
+directed (loc. cit.) to the more important matter of the effect of
+atmospheric electrical conditions upon the transmission. The effect
+of all lightning discharges, whether visible or invisible, is to make a
+record on the telegraphic receiver. On the approach of an atmospheric
+electrical disturbance towards the receiving station on a ship, the first
+visible indications generally are the recording of dots at intervals from
+a few minutes to a few seconds on the telegraphic tape. Captain Jack-
+son states that the most frequent record is that of three dots, the first
+being separated from the other two by a slight interval like the letters
+E I on the Morse code, and this is the sign most frequently recorded
+by distant lightning. But in addition to this, dashes are recorded and
+* See Proc. Roy. 80c., May 15, 1902. On Some Phenomena affecting the
+Transmission of Electric Waves over the Surface of the Sea and Earth, by
+Capt. H. B. Jackson, R.N., F.R.S.

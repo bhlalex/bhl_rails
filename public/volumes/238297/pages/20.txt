@@ -1,0 +1,33 @@
+xvi CONTENTS.
+SECTION PAGE
+4. Method of Avoidance of Error . . . .393
+5. Differential Method . . . . . .398
+6. Method of Correction ..... 400
+7. Method of Compensation . . . . . 406
+8. Method of Reversal . . . . . .410
+CHAPTER XVI.
+THE METHOD OP MEANS.
+.1. The Method of Means . . . . .414
+2 . Several Uses of the Mean Result . . . .416
+3. The Significations of the Terms Mean and Average . .418
+4. On the Fictitious Mean or Average Result . . . 422
+5. The Precise Mean Result . . . . .424
+6. Determination of the Zero Point by the Method of Means . 428
+7. Determination of Maximum Points . . . .431
+CHAPTER XVII.
+THE LAW OF ERROR.
+1. The Law of Error . . . . . .434
+2. Establishment of the Law of Error . . . .435
+3. Herschel's Geometrical Proof . . . .437
+4. Laplace's and Quetelet's Proof of the Law of Error . . 438
+5. Derivation of the Law of Error from Simple Logical Prin-
+ciples ....... 443
+6. Verification of the Law of Error . . .444
+7. Remarks on the General Law of Error . .447
+8. The Probable Mean Result as defined by the Law of Error 447
+9. Weighted Observations . . . .449
+10. The Probable Error of Mean Results . 451
+11. The Rejection of the Mean Result . .454
+12. Method of Least Squares . . 458
+13. Works upon the Theory of Probability and the Law of Error 459
+14. Detection of Constant Errors . . 460

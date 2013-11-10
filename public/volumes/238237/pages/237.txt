@@ -1,0 +1,38 @@
+326 KENNELLY-NABESHIMA— ESTABLISHING A
+upon the circuit. A permanent or steady electromagnetic state can-
+not therefore contain transients to any appreciable extent; although
+transients will probably have been involved in the production of
+that state. It is true that transient phenomena persist with pro-
+gressive attentuation for an indefinitely long period, and, in that
+sense, never completely disappear. From an engineering point of
+view, however, transients diminish into practical negligibility in a
+period of time that is ordinarily measured in milliseconds ; so that
+they may be regarded as having vanished, when the steady state is
+accepted as having been attained.
+For the purposes of discussion, transients are subdivided as
+shown in Table I.
+Class A includes transients of all kinds, mechanical and elec-
+trical. Thus, a kick of the pen of a recording ammeter pointer
+might represent a mechanical transient due to an electrical transient.
+Prominent among transients are electromagnetic-wave transient
+disturbances, or zvave transients.
+An important class of wave transients are those which accom-
+pany the establishment of an alternating current over a line. These
+may be classed collectively as initiating a.-c. transients. This is the
+principal class of transients discussed in this paper.
+Initiating alternating-current wave transients occur, in general,
+whenever a switch is closed at the generating end of an a.-c, line.
+If the switch could be closed in such a manner as to produce no
+electric " splash," the outgoing wave transient would be the " regu-
+lar " transient, which accompanies the regular formation of the
+final alternating-current state.
+Infinite Distortionless Line Closed at Zero E.m.f. {No Tran-
+sients). — If we assume, for simplicity, a perfectly regulated sine-
+wave generator, of negligible internal impedance, connected as in
+Fig. I to an indefinitely long uniform distortionless line,^ then if the
+switch S is closed at some instant when the alternating e.m.f. is
+passing through zero, the initial outgoing waves of e.m.f. and cur-
+2 A distortionless line was originally defined by Heaviside as a line in
+which l/r = c/g. In such a line, the surge impedance s^ must have zero
+slope at all frequencies, or becomes reactanceless. See Bibliography (i),
+page 126, Vol. II.; also Bibliography (30), page 154.

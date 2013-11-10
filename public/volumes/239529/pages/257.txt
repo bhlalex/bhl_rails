@@ -1,0 +1,44 @@
+384
+«, eVl n
+2m n c n
+When on discharge every positive ion gives a x gas molecules,
+and ever} 7 negative ion a, gas molecules, it is seen that at the
+cathode per unit of time the number of gas molecules plus ions
+will be diminished by :
+n. eV X„ a. n, eV ). v a.
+-~ ■—- £-i (4)
+2ra„ c n 2m r c^
+whereas at the anode a corresponding increase of gas molecules
+will take place.
+Hence it is seen that as was already stated in the author's thesis
+for the doctorate, the differences of pressure must depend on the number,
+mass, charge and mobility of the positive and the negative ions.
+The supposition made here that only univalent ions would occur,
+does not answer to reality. Many kinds of ions will be found side
+by side, and at different places of the path of the current the con-
+dition differs. The current conduction is very complicated in its
+nature. We pointed this out already before *) in connection with the
+destructive action of the discharge on the particles affected by it.
+It is, therefore, to say the least of it, very hazardous to draw far
+reaching conclusions from the measured pressure effects with regard
+to the nature of the bearers of the electricity. It will always be
+necessary to take also other methods into account, e.g. those which
+have been followed with such fruitful results by J. J. Thomson,
+J. Stark and others.
+It is, however, possible to demonstrate, that, as regards the order
+of magnitude of the calculated results, the view must be valid that
+the mass-transportation by means of the electric current must be
+chiefly responsible for the observed pressure effects.
+Thus considered there can be no objection to taking a single
+simplified case as a subject of further consideration, in which as
+gas nitrogen may be chosen.
+b. Let us assume that per unit of time an equal number of posi-
+tive, univalent nitrogen-ions leave the capillary space on one side
+as negative univalent nitrogen ions on the other side, and let us
+suppose that on discharge per negative ion one gas-molecule is sup-
+plied, whereas at the cathode two positive ions are required for this.
+A gram-molecule of an ion (== 22400 ccm.) considered as gas
+under normal conditions cedes 96540 coulombs on neutralisation.
+A milh-ampere transports per second ccm. of gas under
+1 H l 96540.1000 5
+l ) L. Hamburger. Ghem. Weekblad 15, 932 (1918;.

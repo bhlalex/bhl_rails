@@ -1,0 +1,36 @@
+PROPOSITIONS. 49
+article a often seems to express partiality, as when we say
+* Iron is a metal ' we clearly mean one only of several
+metals.
+Certain eminent recent logicians have proposed to avoid
+the indefiniteness in question by w^hat is called the Quan-
+tification of the Predicate, and they have generally used
+the little word some to show that only a part of the
+predicate is identical with the subject . Some is an in-
+determinate. adjective; it implies unknown qualities by
+which we might select the part in question if they were
+known, but it gives no hint as to their nature. I might
+make extensive use of such an indeterminate sign to
+express partial identities in this work. Thus, taking the
+special symbol V = some, the general form of a partial
+identity would be A = VB, and in Boole's Logic expres-
+sions of the kind were freely used. But I find that
+indeterminate symbols only introduce complexity, and
+destroy the beauty and simple universality of the system
+which may be created without their use. A vague word
+like some is only used in ordinary language by ellipsis,
+and to avoid the trouble of attaining accuracy. We can
+always substitute for it more definite expressions if we
+like ; but when once the indefinite some is introduced we
+cannot replace it by the special description. We do not
+know whether some colour is red, yellow, blue, or what it
+is ; but on the other hand red colour is certainly some
+colour ; as is also yellow, blue, &c.
+Throughout this system of logic I shall usually dispense
+with all such indefinite expressions ; and this can readily
+be done by substituting one of the other terms. To
+express the proposition * All As are some BV I shall not
+use the form A = VB, but
+c 'Elementary Lessons in Logic/p. 183. ' Substitution of Similars/
+p. 7.
+E

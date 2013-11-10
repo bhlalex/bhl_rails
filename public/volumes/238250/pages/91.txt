@@ -1,0 +1,40 @@
+i28 POPULAR SCIENCE MONTHLY
+attached an atom of hydrogen, but as carbon is usually considered
+quadrivalent, a fourth seemingly unused bond of affinity remains free
+to each of these carbon atoms. This affinity may be considered as the
+residual affinity. To this substance Kekule has assigned the structure
+illustrated by the graphical formula :
+H
+The introduction of three double linkings between the alternate
+pairs of carbon atoms satisfies the demands for quadrivalence in these
+atoms. But Kekule clearly called attention to the fact that a sort of
+equilibrium existed between all the carbon atoms, such that the pres-
+ence of one of the three double linkings between any two adjacent car-
+bon atoms, when both were involved in the formation of a derivative,
+would not necessarily change the properties of the derivative from that
+one formed when two adjacent carbon atoms were united by only a
+single bond. Xow the Kekule formula, and in fact all the older
+formula? assigned to this compound, represent only particular phases
+in the motions of the molecule. The space-formula proposed by
+Collie, 2 in which the atoms are represented as in a state of continual
+vibration, serves well for the basis of our modern conception. Upon
+examination of the absorption spectrum of benzol we note the presence
+of seven distinct bands all quite similar and closely situated with
+reference to each other, appearing between the oscillation frequencies
+3,725 and 4,200. These bands are in that part of the ultra-violet spec-
+trum where the absorption bands due to keto-enol tautomerism displayed
+themselves. At once the idea of a similar make-and-break of linkings
+between the carbon atoms suggested itself, and, in exact accordance
+with this hypothesis, the seven distinct bands may find here their cause
+of formation.
+In keto-enol (aliphatic) tautomerism an even number of carbon
+atoms is always involved in the make-and-break of linkings. Accord-
+ingly with the benzol molecule we may assume that two, four or six
+carbon atoms may enter into this phase at one time. If the carbon
+atoms are numbered consecutively from 1 to 6, we should have in
+order the following conditions which represent the change of linkings
+between certain numbered carbon atoms: (1 and 2), (1 and 3), (1
+and 4), (1 and 2, with 3 and 4), (1 and 2, with 3 and 5), (1 and 2,
+with 4 and 6), (1 and 2, with 3 and 4, with 5 and 6). At the outset
+we shall suppose the benzol ring to be elastic and capable of under-
+2 Chem. Soc. Trans., 71, 1013, 1897.

@@ -1,0 +1,35 @@
+586
+BRIDGMAN.
+dii'ectly measured at several points. These values, which are some-
+what more self consistent than usual, are shown in Figure 3. At low
+pressures (high temperatures), the form with the larger volume is
+more compressible, but as we go along the transition curve to higher
+pressures and lower temperatures, the difference of compressibility
+become less, and finally reverses sign in the neighborhood of the
+region of rapid curvature. Below 70° the modification stable at the
+higher temperature is the more compressible. This is perhaps what
+one might be at first inclined to call the normal behavior, but it is to
+be noticed that there are two opposite factors here. It is natural to
+think that the phase of greater volume, as well as the high tempera-
+ture phase would be the more compressible. Evidently both of these
+things cannot happen at the same time on this curve. At low pres-
+<-.0„6
+12345678 9
+Pressure, kgm./cm.^ x 10^
+Silver Nitrate
+10
+Figure 3. Silver Nitrate. The observed differences of compressibility
+between the two phases.
+sures it is the phase of greater volume which is the more compres-
+sible, but at high pressures it is the high temperature phase which is
+the more compressible. The relations in this regard at the high
+pressure end of the curve are similar to those on the melting curve of
+water and ice I, where water, although of smaller volume, is more
+compressible than ice. It should be remarked that this reversal in
+the sign of the compressibility is not to be regarded as remarkable
+in view of the sudden change of direction of the transition curve.
+The transition curve is unusual in this respect; one may expect
+unusual features in the behavior of the two phases to correspond.
+The differences of the expansion and of the specific heats may be
+calculated from the difference of compressibility, and are shown in
+Table II. The difference of expansion runs roughly parallel to the

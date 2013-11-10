@@ -1,0 +1,45 @@
+228
+a M surpasse un nombre donné. Quand i tend vers M, /(^possède
+une plus grande limite X(M) que nous appel lerons indice de Pen M.
+L'indice est un nombre au moins égal a 1 et peut être infini,
+même en tout point de P.
+6 étant 1'abscisse de M, l'indice I (M) pent encore être ainsi
+caractérisé (s'il est fmi). Si petit que soit e positif, il existe une suite
+de points 6 -f- h n situés sur P l tendant vers Met tels que, pour toute
+h n
+<^ I (M) -\- &. II n'existe pas de suite ana-
+valeur de n, 1 <^
+logue telle que 1 <[
+Afi+i
+< ;. (M) - e .
+En tout point (sauf peut-être aux points extremes) d'une portion
+Pj de P, l'indice de P x et celui de P coincident.
+Si P est épais, A (M) = 1 en tons les points M oü l'épaisseur de
+P est 1. Mais, même si P est épais en lui-même, l'indice X (M) pent
+être infini en certains points, et même en un ensemble dense de
+points de P.
+On montre, selon un type de raisonnement maintes fois rencontre
+(voir par exemple, le Premier Tliéorème des nombres derives,
+Journal de Jordan, 1916) les propositions suivantes:
+1. Si l'ensemble des points M oü A (M) = oo est partout dense sur
+P, cet ensemble est un résiduel de P. De même pour l'ensemble
+X(M)>a> 1.
+2. Si P possède en cliacun de ses points nn indice fini, l'ensemble
+K des points de P an voisinage desquels cet indice est non borné,
+K est non dense sur P.
+3. Si l'indice de P est en tout point inférieur a un nombre fixe
+«^>1, il existe un nombre i\ positif et une portion P l de P, tels
+que, 1° si 6 est quelconque sur P lf 2° si 6' est quelconque a la
+fois sur P et dans Pintervalle 6 — i], 6 -\- y, il existe un nombre
+S'—d
+6" situe sur P et verifiant les inégalités 1 <[
+d"—8
+<«.
+(Jar l'inexactitude de cette conclusion entraïnerait sur un résiduel
+de P, 1'inégalité X(M)><(.
+La proposition précedente peut être appliquée a toute portion tü" de
+P. Les portions P l pour lesquelles existe un nombre i\ sont done
+partout den ses sur P.
+L'application de ces remarques è, l'étude de F (6) est immediate.
+11 est évident qu'en tout point de P oü l'indice est fini et autour
+duquel, sur P, ty{6) est borné, (p{6) existe. Done:

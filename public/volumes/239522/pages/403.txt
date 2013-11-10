@@ -1,0 +1,40 @@
+582
+BRIDGMAN.
+The data are presented in the order of compHcation of the phase
+diagrams, and inehide the coordinates of the transition curves, the
+change of volume, latent heat and internal energy, and in those cases
+where the measurements were sufficiently accurate, an estimate of
+the difference of compressibility, thermal expansion, and specific
+heat of the different modifications. In the discussion of the relations
+of the various forms it will appear that the three simplest nitrates,
+those of Rubidium, Caesium, and Thallium, are much alike in their
+behavior under pressure; the nitrates of Ammonium and Potassium
+are much less simple in their relations, and Silver Nitrate is appar-
+ently not connected with these at all.
+Detailed Data.
+Silver Nitrate. — Two batches of this substance were used.
+The first was from Eimer and Amend, c. p., and was used both for
+the run at atmospheric pressure and for the runs over the entire high
+pressure range. For the determinations at high pressures it was
+hammered dry into an open steel shell. The high pressure points
+were found in the order of decreasing pressure and increasing tempera-
+ture. For the measurement at low pressure, the AgNOs was fused
+into a glass tube, in which it remained. The second batch was from
+the J. T. Baker Chemical Co., "analyzed chemicals," and showed
+by analysis less than 0.002% of impurity. This was fused into glass
+moulds, from which it was removed for the measurements. The
+moulds were of such a size that the sticks of AgNOs fitted loosely
+the inside of the pressure cylinder. In all cases, pressure was trans-
+mitted directly to the AgNOs by kerosene. With this second batch,
+five of the high pressure points were repeated, between 6000 and 12000
+kgm., six months after the original determinations. Every part of
+the apparatus was different from the original, which had been de-
+stroyed piece by piece in the meantime by various explosions. The
+agreement of the p-t values of these two determinations is good.
+This repetition was made necessary because of an accidental distribu-
+tion of error in the two lowest Av points of the original measurements,
+such that there appeared to be a discontinuity in the A^ curve, so that
+there was consequently a possibility that another modification might
+exist.
+No perceptible decomposition of the AgNOs could be detected
+where it came in contact with the steel, although such might be
