@@ -1,0 +1,36 @@
+THEORY OF APPROXIMATION. 73
+theoretical point of view, the planets never move according
+to those laws. Even if we could observe the motions of a
+planet, of a perfect globular form, free from all perturbing
+or retarding forces, we could never perfectly prove that it
+moved in an ellipse. To prove the elliptical form we
+should have to measure infinitely small angles, and in-
+finitely small fractions of a second ; we should have to
+perform impossibilities. All we can do is to show that
+the motion of an unperturbed planet approaches very
+nearly to the form of an ellipse, and the more nearly the
+more accurately our observations are made. But if we go
+on to assert that the path is an ellipse we pass beyond
+our data, and make an assumption which may be more or
+less probable, but cannot be proved, in the strict sense of
+that term.
+But, secondly, as a matter of fact no planet does move
+in a perfect ellipse, or manifest the truth of Kepler's laws
+exactly. The very law of gravity prevents its own results
+from being clearly exhibited, because the mutual pertur-
+bations of the planets distort the elliptical paths. Those
+laws again hold exactly true only of infinitely small
+planetary bodies, and when two great globes, like the sun
+and Jupiter, attract each other, the law must be modified.
+The periodic time is then shortened in the ratio of the
+square root of the number expressing the sun's mass, to
+that of the sum of the numbers expressing the masses of
+the sun and planet, as was shown by Newton a . Even at
+the present day discrepancies exist between the observed
+dimensions of the planet's orbits and their theoretical
+magnitudes, after making allowance for all disturbing
+causes b . Nothing, in fact, is more certain in scientific
+method than that approximate coincidence can alone be
+expected. In the measurement of continuous quantity
+a 'Principia/ bk. III. Prop. 15.
+b See Lockyer's 'Lessons in Elementary Astronomy/ p. 301.

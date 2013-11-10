@@ -1,0 +1,43 @@
+( 371 )
+111 1876 Newco:\[i? published a coiiiparisoii of (lie observations of
+the moon from 1862 — 1874 with the tables of Hansen ^) and showed
+the existence of slowly increasing errors in the tabular mean longitude.
+On the other hand, after having applied theoretical corrections to
+ihe coefficients of some of Hansen's inequalities of short period, ho
+found a hitherto unsuspected inequality in the true longitude of the
+form a sin((/ -\- N), where (/ represents (he mean anomaly and N
+an angle increasing by about 20^ per annum. The long period errors
+were further investigated by Newcomb in his Resedrches ^), which
+appeared in 1878. After an elaborate investigation of all the obser-
+vations before 1750, he embodied the errors found in an empirical
+formula, which apparently satisfied all the available observations.
+In the same year he published his "Corrections to Hansen's tablc\^
+of' the moon'', where tallies were given for the application of the
+long i^eriod corrections according to the empirical formula alluded to
+above and for the correction of a term of the true longitude accidentally
+introduced into the tables with a wrouü' si"n. For the time being he
+(Hd not consider it advisable to apply other corrections. These
+"Correction.^" have since been introduced into all the lunar ephenierides.
+For the enqnrical term of long period no theoretical basis has
+been found until now. As for the term depending on </ -j- JV^,
+Neison's and Hill's investigations have shown that it may be the
+"Jorian Erection".
+f I. Inve.^t.i<icition of the errors of lonxjitude.
+3. In my investigation I followed the same method as Newcomb
+in his paper of 1876, that is to say, instead of the errors of longitude
+and latitude 1 used those of right ascension and declination. Although
+in this way the calculations become somewhat more intricate, it offers
+tlio great advantage that the errors of observation, tlie systematic
+and Ihe chance errors, in the two coordinates do not become intermixed.
+Thus in in\estigating the errors of longitude, I started from the
+dilferences A «, which, in accordance with Newcomb I take in the
+sense : Computation — Observation.
+4. In the lirst place I had to investigate the systematic errors
+in tlie observed transits of the two limbs, but, as it is welMviiown,
+tiie values found for them depend to a high degree on the value
+adopted for the parallactic inequality. This renders an independent
+determination of the two very difficult, as, for instance, it may be
+^) S. Newcomb, Invedtigation of corrections to Hansen's tables of the moon with
+tables for tlieir application. Washington 187ü.
+-j S. Newcomb, Researches on the motion of the mopu. Washington 1878.
+25*

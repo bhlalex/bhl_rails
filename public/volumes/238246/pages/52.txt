@@ -1,0 +1,35 @@
+Chemistry. — ''On the Condensation of Formaldehyde loitk some
+Unsaturated Compounds." By H. J. Prins. (Communicated by
+Prof. J. Böeseken).
+(^Communicated in the meeting of May 3, 1919).
+Some time ago ^) the author discussed the mutual condensation of
+unsaturated compounds, examining the condensation of formaldehyde
+with sty rol, anethol, isosafrol, pinene, d. limonene, camphene and
+cedrene. The condensation was effected either by warming the compo-
+'nents in acetic acid solution, or by sulphuric acid in an aqueous or
+acetic acid solution. For the aqueous solutions we availed ourselves
+of the 407o solution as supplied by the trade, the acetic acid solution
+was obtained by warming trioxymethylene in acetic acid with or
+without the presence of sulphuric acid.
+The aqueous and acetic acid solutions of sulphuric acid and formalde-
+hyde behave differently as regards certain compounds, styrol, cam-
+phene and cedrene react but extremely slowly or not at all with
+the aqueous solution whereas anethol and isasofrol do react.
+Contrary to isosafrol safrol does not affect an aqueous solution.
+It many be assumed, that the reaction begins with an addition of
+the CO group to the C = C group, so that primarily a four-ring
+is formed.
+R.H.C = C.H.R-f- H,CO = R . H . C-C . H . R
+I i
+H,C—
+The four-ring can now :
+1. absorb water and form a 1.3 glycol: R.H.C— CHOH.R
+H,COH
+2. absorb formaldehyde and form a methylene ether:
+R . HC~CH . R
+I I
+H,C
+I I
+0— CH.
+1) Ghem. Weekbl. 10, 1003. (1913).
+ibid. 14, 932. (1917).

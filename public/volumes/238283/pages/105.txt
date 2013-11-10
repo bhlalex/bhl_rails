@@ -1,0 +1,60 @@
+142
+PROCEEDINGS OP THE AMERICAN ACADEMY.
+X
+9''U'
+x
+Ti-^y
+9^U'
+X
+9^V'
+■ X'
+1 + ^
+9 x' 9y'
+9W
+9x' 9y'
+9W
+9x'
+9V'
++
+'"" 9
+9'U'
+7 +
+x
+x' 9 y'
+9^V>
+9 x' 9 y
+9x'
+9W
+9U>
+9y' '-'-'
+9V' _
+9y' ' ' '
+= 0.
+This determinant and its derivatives vanish for the point P', therefore
+the locus is a quadratic three-way cone with its vertex at P'. This
+cone is intersected by the tangent plane at P' iu a pair of straight lines
+which is the required locus. If a point cc, ?/, . . . , be taken on either of
+these lines, we have three independent equations just sufficient to deter-
+mine the ratios of the four differentials ; i. e., just sufficient to determine
+the consecutive point P", so that the tangent plane at this consecutive
+point will intersect the tangent plane at P' in the point selected. That
+these two consecutive tangent planes have no further intersection may
+be further shown by forming the equation of the plane that goes through
+their common intersection and through both the points P' and P". The
+equations of this plane are
+A" V . AU' - A" U' . A F =0,
+A' V" . AU" — A' U" . AV" = 0.
+These equations in general represent a definite plane so long as P' and
+P" are not coincident.
+It would be of interest to examine the motion of the point of inter-
+section along these lines as the point P" circles about the point P', and
+to see whether at any time the consecutive tangent planes intersect in
+one of these lines.
+These lines are not inflexional tangents to the surface ; lines meeting
+the surface in three consecutive points do not generally exist in a space
+of more than three ways. For such lines would have to satisfy both
+AU' = 0,
+A F' = 0,
+and
+A" U' = 0,
+A^ V = 0,

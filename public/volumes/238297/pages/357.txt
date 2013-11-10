@@ -1,0 +1,36 @@
+THE EXACT MEASUREMENT OF PHENOMENA. 331
+The moving globe itself is the real standard clock, and the
+transit instrument the finger of the clock, while the stars
+are the hour, minute, and second marks, none the less
+useful or accurate because they are disposed at unequal
+intervals. The photometer is a simple instrument, by
+which we compare the relative intensity of rays of light
+falling upon a given spot. The galvanometer shows the
+comparative intensity of electric currents passing through
+a wire. The calorimeter guages the quantity of heat
+passing from a given object. But no such instruments
+furnish the standard unit in terms of which our results are
+to be expressed. In one peculiar case alone does the same
+instrument combine the unit of measurement and the
+means of comparison. A theodolite, mural circle, sextant,
+or other instrument for the measurement of angular mag-
+nitudes has no need of an additional physical unit ; for
+the very circle itself, or complete revolution, is the natural
+unit to which all greater or lesser amounts of angular
+magnitude are referred.
+The result of every measurement is to make known the
+purely numerical ratio existing between the magnitude
+to be measured, and a certain other magnitude, which
+should, when possible, be a fixed unit or standard magni-
+tude, or at least an intermediate unit of which the value
+can be ascertained in terms of the ultimate standard. But
+though a ratio is the required result, an equation is the
+mode in which the ratio is determined and expressed. In
+every measurement we equate some multiple or submul-
+tiple of one quantity, with some multiple or submultiple
+of another, and equality is always the fact which we
+ascertain by the senses. By the eye, the ear, or the touch,
+we judge whether there is a discrepancy or not between
+two lights, two sounds, two intervals of time, two bars of
+metal. Often indeed we substitute one sense for the other,
+as when the efflux of time is judged by the marks upon

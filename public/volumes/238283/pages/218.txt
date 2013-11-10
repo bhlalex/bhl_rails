@@ -1,0 +1,29 @@
+BLACK. — THE NEIGHBORHOOD OP A SINGULAR POINT. 313
+in which the plane ^ = 1 cuts the planes corresponding to these factors
+is at a finite distance. We have now the conditions 2) and 3) of § 1, 3,
+and are ready to apply the transformations
+giving
+^i (iu Vi^ = C' [(li, Vu 1)- + C(li. Vu l).+i + ] = 0. (17)
+Now if f] = y2, 7/1 = 8oj is the common point for which the m factors of
+(li> Vi) ^)m vanish, then the substitution
+^2 = ?1 — 72 J V2 = Vl ~ ^2i
+gives a group of mth degree terms in ^^ and r]^ exactly corresponding to
+the terms of ($, t])„. So in the successive collection of terms of the
+mth degree, the terms of (i, r])„ are always carried over with merely
+a change of subscript, and thus we never introduce the condition of m
+equal linear factors. Accordingly so long as the degree of the singular
+point is not reduced, the intermediate transformations are of the type
+thus securing the succession of transformations (14).
+4, The succession of transformations in 3 will lead to the relation
+e^L (^„ r,^ ^^ + ^{U V^^O ^'"-'"' ^ = Ji(yj,^)$0 (18)
+where
+Combining transformations (14) we have the relations
+^ = 71^+72^^ + + 7.^' + ^"$.)
+r) = 8U+ 82^' + + 8,C + ^"7?. \ ^^^^
+As $ contains both ^^ and rj"' terms, we can develop by Weierstrass's
+Theorem.
+a>(^, rj, = [e"+p,(v, oe'-' + +Pn.{v,o:iM^, v, o]
+^(i, V, = [r + qid. Ov""' + + qm(i, 0]^2(l, V,
+As the function E-, (f, -q, ^) contains a constant term, when the first trans-
+formation of (14; is made, the factor C" must come out of the <P, and a
+(20)

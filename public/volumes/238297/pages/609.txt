@@ -1,0 +1,35 @@
+QUANTITATIVE INDUCTION. 119
+Engraved sheets of paper ready prepared for the draw-
+ing of curves may be obtained from Mr. Stanford, at
+6 and 7 Charing Cross, or from Messrs. W. and A. K
+Johnston, of London and Edinburgh. When we do
+not require great accuracy, paper ruled by the common
+machine-ruler into equal squares of about one-fifth or one-
+sixth of an inch square will serve well enough. I have
+found Vere Foster's Exercise Book, No. 1 2 m , which is
+ruled in this way, very useful for statistical or other
+numerical purposes. I have also met with engineers' and
+surveyors' memorandum books ruled with one-twelfth inch
+squares. When a number of complicated curves have to
+be drawn, I have found it best to rule a good sheet of
+drawing paper with lines carefully adjusted at the most
+convenient distances, and then to prick the points of the
+curve through it upon another sheet fixed underneath.
+In this way we obtain an accurate curve upon a blank
+sheet, and need only introduce such division lines as are
+requisite to the understanding of the curve.
+In some cases our numerical results will correspond,
+not to the height of single ordinates, but to the area of
+the curve between two ordinates, or the average height of
+ordinates between certain limits. If we measure, for
+instance, the quantities of heat absorbed by water when
+raised in temperature from o to 5, from 5 to 10, and so
+on, these quantities will really be represented by areas of
+the curve denoting the specific heat of water; and, since
+the specific heat varies continuously between every two
+points of temperature, we shall not get the correct curve
+by simply laying off the quantities of heat at the mean
+temperatures, namely 2^, 7^, and so on. Mr. J. W.
+Strutt has shown that if we have drawn such an incorrect
+curve, we can with little trouble correct it by a simple
+m Published by Whittaker & Co., London.

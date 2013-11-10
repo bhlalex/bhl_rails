@@ -1,0 +1,43 @@
+DALY. AMPHIBOLES AND PYROXENES. 313
+metry in C E, and B C G a, plane cutting the vertical zone at right
+angles. Let P represent the vertical crystallographic axis, D the
+direction of extinction on (010), A (9 and B the optic axes. Let 0' P^
+be the rectangular projection of P on B C G, 0' representing the sim-
+ilar projection of on B G. Further, let O'D' be the direction of
+extinction on BOG, and A' (/ and B' 0' respectively the lines of inter-
+section of the planes A 0' and BOO' with the plane B C G. Let
+the angle B C B' ^ C, ZP A = a, ZP B = /3, ZP'O'A' = a',
+ZP'd'B' = /3'. We have also ZP'O'B' = 6 and ZPOB^p.
+This construction represents an application of Fresnel's fundamental
+law that, for a biaxial mineral, the direction of extinction in any section
+is found by taking the intersection of the plane of the section with that
+which bisects the angle between the two planes respectively containing
+an optic axis and the line (ray of light), perpendicular to the section.
+It follows that
+a + ^ a — ft
+and 6 =
+tan a ■=
+tan/3 =
+2 2
+2
+tan a
+cos G '
+tan^'
+(1) tan 2 p =
+cos O
+tan a — tan /?
+1 + tan a tan /3 '
+(2) tan2^=,^^"'"^-/""^>"l^.
+^ ^ 1 + tana tan ^' cos^ O
+Equation (2) is a special case of Michel Levy's general formula on
+page 65 of the " Mineralogie Micrographique," and also of the new for-
+mula by Cesaro for expressing the extinction on any face of a zone.*
+The mathematical treatment of these expressions shows that, as the sec-
+tion moves continuously from the position (010) to the position (100),
+it will pass through an intermediate position of maximum extinction if
+the angle 2 F be less than 90°, or the angle (a + /3) greater than 90°.
+Thus, has a maximum when cos c = .f This is true of
+V tan a tan ft
+* Me'moires de TAcademie Royale des Sciences, etc. de Belgique, 1895, Vol. LIV,
+p. 26. Kef. in Zeit. fiir Kryst., etc., 1897, p. 181.
+1 The position of tiie section where an extinction may be observed between

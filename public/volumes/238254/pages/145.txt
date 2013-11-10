@@ -1,0 +1,35 @@
+170 C. E. Weatherhurn
+In virtue of (7) and (8) the second member reduces to the first two-
+terms; so tliat V(p) satisfies the boundary problem.
+All the functions involved are regular for the singular value X = Ao,
+so that F(/j) is the solution of the problem (19b) regular even when
+X is equal to this singular value. The problem (lb) does not
+admit a solution by simple stratum only, Avhen X=Ap, unless the
+condition
+/F{te)i{e)d$=:0
+is satisfied, in which case the required solution is obviously V(p),
+Tlie problems (19), derived from (1) by altering the second member,
+we shall speak of as the modified problem for the singular value Ao-
+The functions H(t-p) and G{2)t) bear the same relation to the solution
+of the modified problems that 'H.(fp) and G{pf) bear to the original
+problems (1).
+iil. — Expansions. — From the formulae (8) and (18) we may ob-
+tain, by the method of successive approximations, expansions for
+the various functions in ascending powers of X. These are cer-
+tainly true for | X | < 1, and in particular cases even for jXl^l.
+For the present we shall assume that the absolute value of X is less
+than unity.
+Thus from (8) in virute of (7) we find
+(20) [H{ts)=^[]i{ts) - IP(^«)] +x[a,(<s) - \-;P{ts)]
+G{ps)=[g{ps) -q{ps)-\ + x]^l,{ps)- ^ q{ps)\
++ >^'[0.{ps) -\.^{Vs]+ ••••
+where the suflixes denote functions formed by successive operations
+h,{ts) = /h{t6)h{es)de,
+h.lts)=/K{te)h{es)dd, etc.
+and
+g,{ps)=/c,(j^e)h{e.)d6,
+r,.Xps)=/g,{p$)Hes)de, etc.
+If Ave extend the notation and repbue •>-• by any point p we may
+write
+h^(t/>)=/ h(te)h(ep)d6,
+h,,{fp)=/hn^,{fe)/i{ep)de, etc.

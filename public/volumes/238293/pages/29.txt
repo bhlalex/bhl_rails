@@ -1,0 +1,46 @@
+18
+Cetones.
+1500 Geueralites.
+1510 Cetones saturees.
+1520 Cetones non saturees a chaine ouverte.
+1530 Cetones benzeniques.
+1540 Cetones hydrobenzeniques. Cetones cycliques autres
+que les cetones benzeniques.
+1550 Cetones non classees.
+Chacune de ces divisions sera subdivisee suivaut le uou.bre
+d'atomes d'oxygene renferines dans la cetone, une nouvelle sub-
+division etant faite comme dans le cas des hydrocarbures.
+Composes amines.
+1600 Generalites.
+1610 Derives amines des carbnres satures.
+1620 Derives amines des carbures non satures a chaine
+ouverte.
+1630 Derives amines des carbures benzeniques.
+1640 Derives amines des carbures hydrobenzeniques et des
+carbures c^^cliqnes.
+1650 Composes amines non classes.
+1 660 Imides, imido-ethers, etc.
+Chacune de ces divisions 1610-1640 sera subdivisee en derives
+monamines- diamines, etc., qui seront classes comme dans les
+autres series.
+Les derives de I'hydroxylamine constitueront une sous-section
+des derives monamines ; les derives de I'hydrazine, les amidines,
+les amidoximes une sous-section des derives diamines ; et les
+diazoimides (N^H) una sous-section des derives triamines.
+Les amines secondaires et terliaires seront classees avec les
+amines primaires, desquelles elles sont derivees.
+Les derive's de I'ammonium sei'oiit classe's avec les derives
+amines correspondants.
+Composes azoiques.
+1700 Generalites.
+1710 Azoiques a chaine ouserte.
+1720 Azoiques a chaine fermee.
+1730 Diazoiqucs a chaine ouverte.
+1740 Diazoiques a chaine fermee.
+1750 Composes azoiques non classes.
+Les hydrazoiques et les oxyazoiques seront classes avec les
+derives azoiques correspondants.
+Tous les composes renfermant le groupenient azoique {ex. les
+bis diazoiques, etc.) seront classes dans cette section.
+Dans les divisions de 1700 a 1750 il faudra douner les formules
+empiriques des composes.

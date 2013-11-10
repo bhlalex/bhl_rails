@@ -1,0 +1,42 @@
+( 765 )
+With Plücker M we nnderstand by I lie order t of a single sin-
+gularity the nninbei* of the points of intersection coinciding in the
+(singnhir) point with an arbid'ary hue of irifersection through that
+point. If eventually more branches [»ass Ibrough Ihe singular point,
+we must of course count lliose points of intersection only, which l)y
+a slight displacement of the intersecting Hue are found on the
+branch belonging to the singularity in (piestion. (correlative to the
+order is the chtss r of the singularity. This class is at tiie same
+time equal to the number of points of intersection ap|)roaciiing the
+(singular) point along the branch in question witii an intersecting
+line passing through that ))oint and al)out to coincide with the (sin-
+gular) tangent.
+If we regard this last quality as the definition of the class of
+a singularity, tlien the development in point coonhnates with the
+(singular) point as origin ajid the (singular) tangent as axis of -/;
+t-\-0
+becomes y =: a ,r: -|- . . . . , after having given all exponents an
+equal denominator though as small as possible (for a small value
+of .li gives t small roots //,. o]i the contrary a small value of //
+gives I -j- V small roots ,*;). If farthermore ^Y aiul Y are tiie line
+coordiiiates of the straight line y -j- X .c -j- }"= 0, then the development
+in line coordinates becomes Y=zAJ( " -{-... '^), from which ensues
+the correlativeness of / and i\ At the same time it is evident from
+this that order and class of a singularity can l)e read immediately
+from the corresponding development, from those in pointcoordinates
+as well as from those in Hue coordinates.
+In (2) ^'/j denote.'^ a .miuinatioii frith i-espect to the suuiuhtrltles
+witJi retd point, 2'v^to the .siiKjidarities iridt real t<tn,(/ e n,t, whe.vG
+a manifold singularity must be taken into consideration as many times
+as it possesses single singularities. Ilei-e not only tiie higher and
+PLÜCKER-singularities must be counted, but also those elements of
+the curve, the counting of which has an influence on the ecpuition
+(2); thus also those elements {t = r =: ^) of which the point is real
+and the tangent imaginai-y or reversely. It is clearly inditterent
+Ï) J. Plücker. Theorie der algebraischen Curven. Bonn, A. MAiicuri, 1839, p. 205.
+~) 0. SroLZ. Ueber die singulüren Punkte der algeljraisclien Functiouen und
+Curven. Math. Ann., Bd. 8 (1875), p. 415 (spec. p. 441—442).
+H. G. Zeuthen. Note sur les singularités des courbes planes. Math. Ann. Bd.
+10, p. 210 (spec. p. 211—212).
+H. J. Stephen Smith. On the Higher Singularities ofplane Curves. Proc. London
+Math, Soc, Vol G (1874-75), p. 153 (spec. p. 163-1G4).

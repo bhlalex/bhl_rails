@@ -1,0 +1,44 @@
+731
+ecliptic. This involves a complication in comparing the relative
+positions of the two sets of spatial axes of reference. In the case
+of a planet moving in a circular orbit this difficulty is readily
+overcome.
+If then we compare the falling axes, before and after a year's
+revolution, with axes (ixed to the sun and directed to fixed points
+in the heavens, we find a precession to the amount stated above.
+As pointed out by De Sitter the difficulty in testing the predicted
+precession by a comparison with observation lies not so much in
+the limits of accuracy of observation as in the fact that owing to
+our ignorance of the true values of the earth's principal moments
+of inertia we do not know with the precision required how much of
+the observed precession is accounted for by the actions of sun and
+moon according to Newton's law.
+We now proceed to the analytical treatment of the problem.
+The geodesic falling coordinates.
+Consider some point-instant in an arbitrary field of gravitation,
+where the potentials are denoted by g„b, {a, b =0, 1, 2, 3), a\ being
+the time and x {1 ), scffl, #( 3 ' space-coordinates. In the usual way we
+write the symbols of Christoffel:
+, ab ) Vab
+m
+dgam dg bl)l dg ab '
+d.v'> dx a dx m
+where g cm are the algebraical complements of the g cm .
+A vector V n is displaced parallel to itself over an interval dx m ,
+if its components decrease during the displacement according to the
+formula
+Ibm \
+Vl> da:'».
+a \
+In the point-instant considered : x n (a = 0,1, 2,3), choose a vector
+of unit length having time-character A a :
+S g al) A\A\ — \ %
+and three other vectors of unit length, all perpendicular to the
+former and to one another: A a } , A a 9 , A a t , such that
+2 gabAVyA^^ — 1, and 2 g nb A a i A b j — if i jé j.
+As in our argument the component of time and the components
+of space will be treated in a different way, we shall establish the
+rule that whenever a suffix is indicated by a Greek character, it
+will not be liable to take the value 0.
+We change variables by introducing the coordinates z' according
+to the following formulae:

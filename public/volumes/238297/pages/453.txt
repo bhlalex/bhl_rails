@@ -1,0 +1,34 @@
+THE METHOD OF MEANS. 427
+mean of all the readings when the moon was on the me-
+ridian and the similar mean when she was on the horizon.
+The difference of these means was found to be only
+00365, yet it was possible to discover even the variation
+of this tide according as the moon, was nearer to or further
+from the earth, though this difference was only '00056
+inch n . It is quite evident that such minute effects could
+never be discovered in a purely empirical manner. Having
+no information but the series of observations before us,
+we could have no clue as to the mode of grouping them
+which would give so small a difference. In applying this
+method of means in an extensive manner we must gener-
+ally then have d priori knowledge as to the periods at
+which a cause will act in one direction or the other.
+We are sometimes able to eliminate fluctuations and
+take a mean result by purely mechanical arrangements.
+The daily variations of temperature, for instance, become
+imperceptible one or two feet below the surface of the
+earth, so that a thermometer placed with its bulb at that
+depth would give very nearly the true daily mean tem-
+perature. At a depth of twenty feet even the yearly
+fluctuations would become nearly effaced, and the thermo-
+meter would stand a little above the true mean tempera-
+ture of the locality. In registering the rise and fall of the
+tide by a tide-guage, it is desirable to avoid the oscilla-
+tions arising from surface waves, which is very readily
+accomplished by placing the float which marks the level
+of the water in a cistern communicating by a small hole
+with the sea. Only a general rise or fall of *the level is
+then perceptible, just as in the marine barometer the
+narrow tube prevents any casual fluctuations and allows
+only a continued change of pressure to manifest itself.
+n Grant, ' History of Physical Astronomy/ p. 163.

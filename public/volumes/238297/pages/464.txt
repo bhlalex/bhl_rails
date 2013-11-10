@@ -1,0 +1,34 @@
+438 TEE PRINCIPLES OF SCIENCE.
+is infinitely more probable, diverge from it by an amount
+which we must regard as error of unknown origin. Now,
+to quote the words of Sir J. Herschel 6 , 'the probability of
+that error is the unknown function of its square, i. e. of
+the sum of the squares of its deviations in any two rect-
+angular directions. Now, the probability of any deviation
+depending solely on its magnitude, and not on its direc-
+tion, it follows that the probability of each of these rect-
+angular deviations must be the same function of its square.
+And since the observed oblique deviation is equivalent to
+the two rectangular ones, supposed concurrent, and which
+are essentially independent of one another, and is, there-
+fore, a compound event of which they are the simple in-
+dependent constituents, therefore its probability will be
+the product of their separate probabilities. Thus the
+form of our unknown function comes to be determined
+from this condition, viz., that the product of such functions
+of two independent elements is equal to the same function
+of their sum. But it is shown in every work on algebra
+that this property is the peculiar characteristic of, and
+belongs only to, the exponential or antilogarithmic function.
+This, then, is the function of the square of the error, which
+expresses the probability of committing that error. That
+probability decreases, therefore, in geometrical progression,
+as the square of the error increases in arithmetical/
+Laplace s and Quetelet's Proof of the Law
+of Error.
+However much presumption the modes of determining
+the Law of Error, already described, may give in favour
+of the law usually adopted, it is difficult to feel that the
+e ' Edinburgh Review/ July 1 850, vol. xcii. p. 1 7. Reprinted ' Essays/
+P- 399- This method of demonstration is discussed by Boole, ' Trans-
+actions of Royal Society of Edinburgh/ vol. xxi. pp. 627-630.

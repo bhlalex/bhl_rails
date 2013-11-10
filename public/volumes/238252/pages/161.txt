@@ -1,0 +1,46 @@
+HERTZIAN WAVE WIRELESS TELEGRAPHY. 157
+inch. In the case of Hertzian wave telegraphy, we are, however, dealing
+with ether waves many hundreds of feet in length, and the waves sent
+out from Poldhu have a wave-length of a thousand feet or more, say one
+fifth to one quarter of a mile. The distance therefore between Poldhu
+and Cape Cod is only at most about twelve thousand wave-lengths, and
+stands in the same relation to the length of the Hertzian wave used
+as does a body the diameter of a pea to the wave-length of yellow light.
+There is unquestionably a large amount of diffraction or bending of
+the electric wave round the earth, and proportionately speaking it is
+larger than in the case of light waves incident on objects of the same
+relative size.
+Quite recently Mr. H. M. Macdonald (see Proc. Roy. Soc. Lond.,
+Vol. LXXI., p. 251) has submitted the problem to calculation, and
+has shown that the power required to send given electric waves 3,000
+miles along a meridian of the earth is greater than would be required
+to send them over the same distance if the sea surface were flat in the
+ratio of 10 to 3. Hence the rotundity of the earth does introduce a
+very important reduction factor, although it does not inhibit the
+transmission. Mr. Macdonald s mathematical argument has, however,
+been criticized by Lord Eayleigh and by M. H. Poincare (see Proc.
+Roy. Soc, Vol. 72, p. 40, 1903).
+The accomplishment of very long distances by Hertzian wave teleg-
+raphy is, however, not merely a question of power, it is also a question
+of wave-length. Having regard, however, to the possibility that the
+propagation which takes place in Hertzian wave telegraphy is not
+that simply of a free wave in space, but the transmission of a semi-
+loop of electric strain with its feet tethered to the earth, it is quite
+possible that if it were worth while to make the attempt, an ether dis-
+turbance could be made in England sufficiently powerful to be felt in
+New Zealand.
+Leaving, however, these hypothetical questions and matters of pure
+conjecture, we may consider some of the facts which have resulted
+from Mr. Marconis long distance experiments. One of the most in-
+teresting of these is the effect of daylight upon the wave propagation.
+In one of his voyages across the Atlantic, when receiving signals from
+Poldhu on board the S. S. Philadelphia, he noticed that the signals
+were received by night when they could not be detected by day.* In
+these experiments Mr. Marconi instructed his assistants at Poldhu to
+send signals at a certain rate from 12 to 1 a. m., from 6 to 7 a. m., from
+12 to 1 P. M. and from 6 to 7 p. m., Greenwich mean time, every day
+for a week. He has stated that on board the Philadelphia he did not
+-»
+See Proc. Roy. Soc, June 12, 1902. A note on the EflFect of Daylight
+upon the Propagation of Electromagnetic Impulses Over Long Distances, by
+G. Marconi.

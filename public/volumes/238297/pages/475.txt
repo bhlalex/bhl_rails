@@ -1,0 +1,33 @@
+THE LA W OF ERROR. 449
+determined, this method evidently resolves itself into
+taking the mean of all the values given by observation.'
+Encke, again, distinctly says m , that the expression for the
+probability of an error ' not only contains in itself the
+principle of the arithmetical mean, but depends so imme-
+diately upon it, that for all those magnitudes for which
+the arithmetical mean holds good in the simple cases in
+which it is principally applied, no other law of proba-
+bility can be assumed than that which is expressed by
+this formula/
+It can be shown, too, in a moment that the mean is the
+result which gives the least sum of squares of errors.
+For if a, b, c, &c., be the results of observation and x the
+selected mean result, the sum of squares of the errors is
+(a x) 2 + (b x) 2 + (c #) 2 + &c., which is at a minimum
+when its differential coefficient 2 (a x + b x + cx-\-
+&c.) o. From this equation we immediately obtain, de-
+noting by n the number of separate results, a, b, c, &c.,
+x = (a + b + c + . . . ) -, or the ordinary arithmetic mean.
+Weighted Observations.
+It is to be distinctly understood that when we take the
+mean of certain numerical results as the most probable
+number aimed at, we regard all the different results as
+equally good and probable in themselves. The theory
+of error expresses no preference for any one number over
+any other. If, then, an observer has reason to suppose
+that some results are not so trustworthy as others, he
+must take account of this difference in drawing the mean.
+By the method of weighting observations this difference of
+value is easily allowed for. Astronomers are in the habit
+m Taylor's 'Scientific Memoirs,' vol. ii. p. 333,
+Gg

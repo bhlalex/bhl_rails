@@ -1,0 +1,44 @@
+( 413 )
+fact that the tlieoretical forDiiilao ^vliicli I had used for the same
+comparison were incomplete. For 1 had not noticed tiiat Radau in
+his valuable " Recherc/ws concernant h's inci/alih's plaiu'taires da
+mouvement de la Itine" ^), had found that besides the "Jovian Evection"
+there exist some other ine(iualities of a nearly' inonthly period with
+appreciable coeflicients. Nor had I paid attention to tlie fact that
+according to Hill's researches on the inequalities resulting from
+the figure of the earth '), made following Delaunay's method, an
+apprecial)le term of inojithly period must be added to those inserted
+into the tables of Hansen.
+It is this gap of my preceding investigation which I shall here
+try to till u[). lUit I shall go no farther, for from the beginning
+the aim of my work was limited and there would be still less
+reason to continue it, now that Mr. Coavell intends to continue his
+work and to extend it also to other periods.
+15. The principal terms of a nearly monthly period which, according
+to Radau and Hill, are still to be added to the true longitude from
+Hansen's tables are :
+— 0".68 sin ((/ + 2 JT + 3 F— 5 ^) (I)
+— 0.S8 sin {(J ^2 Jt —2 J) (II)
+-4- 0.32 sm (<7 + 2 -r — 3 J -^ 7°) (Ill)
++ 0.45 sin 8 cos g (IV)
+where V, E and J represent the mean longitude of Venus, the
+Earth and Jupiter. The first three are terms found by Radau as
+arising from the planets, while the fourth expresses the difference
+between the inequalities arising from the figure of the earth after
+Hill and after Hansen").
+^) Annales de VObservatoire cle Paris. Mémoires T. XXL
+~) G. W. Hill Determination of the inequahlies of the moon's motion which are
+produced by the figure of the eartli. A^tron. papers American Epliemeris and
+Naiit. Ahn. Vol III. Part. II.
+■') Comp. also Gowell I.e. Gowell introduces still two other terms, numbered
+by him 2 and 6 (Observ. p. 350). It seems doubtful to me whether their intro-
+duction is sufficiently justified.
+As to 2, we must, if wo consider Newco.mb's empirical term of long period as
+an inequality of the mean longitude, like the first Venus-inequality of Hansen, and
+this seems the most plausible, also accept the inequality of short period in the
+true longitude connected with if.
+Gowell's correction 6 results from the rejection of Hansen's constant term in
+the latitude — I ".00. It seems however that the correction of the tabular latitude
+or declination with 4-l"-00 is a posteriori not justified. From a comparison of
+the declinations determined at Greenwich in the years 1895—1902 I found as the
+mean difference Obs.— Gomp. — 0".17, and after ihe reduction to Newcomb's

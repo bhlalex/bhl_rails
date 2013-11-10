@@ -1,0 +1,33 @@
+BLACK. — THE NEIGHBORHOOD OF A SINGULAR POINT. 283
+resulting points in turn, so long as they are singular. If after a finite
+number of such processes, all the resulting points are regular, then by
+combining the results it is assumed that the neighborhood of the origi-
+nal point is represented by the domains of a finite number of regular
+points, and so by a finite number of parametric formulae as desired.
+3. Proof that a Finite Number of the Processes of 1 will be Sufficient
+to make all Points in 2 Regular. Starting with the surface
+f{u,v,w)=^0, (f)
+in which the singular point considered is at the origin, the transfor-
+mations in 1, 1) and 2) are combined in the form
+M = (ai T + /8i o- -f yi) n
+V = (aaT -f ^2 o- + yo) C J- (g)
+w= (osT + P^a- + ys)^^
+We can assume that
+72 + , ys ^
+by making, if necessary, upon f (u, v, w) a suitable homogeneous
+linear transformation. Then the next set of transformations, in 2, can
+be expressed in the form
+r=(ai'Ti-f ^I'cTi + yiOCi)
+o-=(ao'Ti +/3o'(ri -f y.OCi \ (h)
+in which ys' -i^ 0,* and the later sets of transformations are of the same
+type with the corresponding ys's :
+y3"t0, y3"'t0, etc.
+So we consider a succession of transformations of type (g), which give
+a succession of surfaces with multiple points each of order jn. These
+transformations will combine in the form
+w = [ys ys' ys" ys"' + (t,., cr„ I) ] ^. = [?« + (r,, o-„ 4) ] L )
+where the symbol (t,., o-^, C) represents in the expression in which it
+occurs all of the variable terms, and r2 =|= 0, Fg 4= 0.
+* To secure this, Kobb makes unwarranted use of a quadratic transformation,
+which, however, might be replaced by a homogeneous linear transformation. He
+also overlooks one class of transformations which will arise. (see 4).

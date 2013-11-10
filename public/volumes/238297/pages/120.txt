@@ -1,0 +1,36 @@
+94 THE PRINCIPLES OF SCIENCE.
+instance. A very common process of reasoning consists in
+the determination of the name of a thing by the successive
+exclusion of alternatives, a process called by the old name
+abscissio infiniti. Take the case :
+Red-coloured metal is either copper or gold (i)
+Copper is dissolved by nitric acid (2)
+This specimen is red-coloured metal (3)
+This specimen is not dissolved by nitric acid (4)
+Therefore this specimen consists of gold. (5)
+Assigning our letter-symbols thus
+A = this specimen
+B = red-coloured metal
+C = copper
+D = gold
+E = dissolved by nitric acid,
+the premises may be stated in the form
+B = BCrf + BcD (i)
+C = CE (2)
+A = AB (3)
+A = Ae. (4)
+Substituting for C in (i) by means of (2) we get
+B = BCdE | BcD.
+From (3) and (4) we may infer likewise
+A = ABe,
+and if in this we substitute for B its equivalent just
+stated, it follows that
+A = ABCdEe -I ABcDe.
+The first of the alternatives being contradictory, the result
+is A = ABcDe
+which contains a full description of ' this specimen/ as
+furnished in the premises, but by ellipsis indicates that
+it is gold. It will be observed that in the symbolic
+expression (i) I have explicitly stated what is certainly
+implied, that copper is not gold, and gold not copper,
+without which condition the inference would not hold good.

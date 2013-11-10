@@ -1,0 +1,48 @@
+13
+S, even in case S lies wholly or partly in the domain of only
+conditional convergence; of course it must be supposed ihat all points
+of S lie at a distance greater than some /i.red arbitrarily small
+quantity f) from the straight line parallel to the axis of imaginary
+quantities which forms the limit between the domains of convergence
+and divergence of the series. Finally we shall prove that this series
+represents an. analytic function in S, and for this it will be suffi-
+cient to show that the series of differential coefficients, with regard
+to X, of the terms of the first series converges in the same domain
+as this first series.
+The series of derivatives may be represented by
+00
+^--^ n I On
+- r{x) V ^^^ ^ ^^ _^ — [V^ (4> + n 4- 1) - tp (x)]. . (47)
+where, in the notation of Nielsen '), \p{a;) denotes the logarithmic
+derivative of the Gammafunction :
+dioqrix) r' ix)
+V^ (■'■)=— -r-^^lTTT •.•••• (48)
+ax I [x)
+Summation by parts gives, if the notation (44) is used again
+/ /
+m.'a,„if; (.fc' + 7n+l) ,^-^ m/a„, r(c-i-m-|-l) if? (.r-f m -(- 1)
+^— » III : u,,u l|7 [^.v -f- 7« -|- 1 ; It--»
+^^ r(x A- m ^\\ ^^
+r{x-\-m-^\) ^^ r(c^vi^\) r(.c + m + 1)
+1 n
+1—1
+r{x^l-\-\) .6=^ r{x-{-m-\-2)
+n
+where the equation of finite differences
+1
+xp{x -\- I) — xp {x) = —
+X '
+satisfied by tj'G^-) is taken into account. Since, for .t? = oo the prin-
+cipal part of ip(.t-) is equal to log x, the first term of the second
+member has, for R{^c — c)> tS, zero as a limit for /=:oo, and the
+series in that member converges absolutely. Hence the series in the
+first member converges also and we have
+00 00
+,^-^ ml a,,. If? {x 4 m 4 1) ^^ s»,mr(t^ + m 4- 1)
+>" i^i ^ I n ~^Z-!L'"Fr-4 ^C^—c) 11^(^4^4-2)-!].
+--— ' r(a; 4- m 4- 1) j^m^ r{x 4-^4-2)
+n n
+From this equality it may be easily deduced that, corresponding
+to any 8, there is a number N such that for n > N and for all x
+in the domain S
+1) Handbuch der Gammafunktion, p. 15, Leipzig, Teubner.

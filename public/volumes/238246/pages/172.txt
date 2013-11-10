@@ -1,0 +1,39 @@
+23^
+We find
+F\, =: + 1025.13,
+and the determinant of the four equations («) is
++ 30250.34— 15' - 263.42 — 214.29 — 1.41
+— 235.83 +23296.87-/?' + 289.04 + 4.76
+— 71.72 + 83.36 +21385.15-^9' — 25.51
++ 0.33 + 1.71 — 34.50 +21087.28-/9'
+The five roots /?y', determined in this way, are (still expressed in
+units of the 8^*^ decimal place) :
+/?/ = + 30261.15
+/?,'= + 23299.79
+/?,'= + 21374.51
+^/ = + 21084.19
+/?,'=r+ 1025.13
+We now put, for ^ = 1 . . . 4,
+ifV = /^9 ^ + ^PvO = XT + tir,, -{-^qo ^ xr + y^ T + ttr^o + ^90,
+where
+^10 =^T^80 = -^<o = *^ ' JT,, =:180°.
+Then 'nr,/ = y^r +■ 'üt^o are the longitudes of the "proper" perijoves,
+and \pcj for 5- = 1 ... 4 are the arguments of the inequalities of
+group II, and \p^ is the argument of the libration.
+The mean motions of these arguments are, in degrees per day ^):
+EI. and Masses,
+y, i=0°148668 0°. 14407
+y, = .039842 .039593
+y, = .006949 .007046
+y, = 0.001862 0.001864
+/?, = 0.16347 0.16252
+These values are not yet final, since we have neglected:
+1. the effect of the periodic part Ei — [/?,] of the perturbative
+function,
+2. the squares and products of the quantities hi, ki,i'i , oji ,
+3. the inclinations of the orbital planes of the satellites on the
+plane of Jupiter's equator.
+Apart from the corrections which must eventually be applied
+1) The motions yi and /?5 are siderial ones, and do not contain precession.
+Accordingly the precession has been subtracted from the values of yi as given in
+El. and Masses.

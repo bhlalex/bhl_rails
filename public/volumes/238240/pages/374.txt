@@ -1,0 +1,82 @@
+I9I0.]
+OX THE DISTRIBUTION OF PLANTS.
+463
+Table for the Reduction of Specific Gravity at any Temperature to
+THE Specific Gravity at 15° C.
+(Table B, Landolt-Bornstein Physikalisch-Chemische Tabellen, Berlin. 1905,
+page 323.)
+" Reducktion der Dichte d- auf die Dichte bei 15° nach den Beob. von
+4
+Dittmar" (Challenger Exped.), Ekman (J^ctensk. Handl., 1870), Lenz u.
+Reszof {Mem. Petersb., 1881), Thorpe u. Riicker (Phil. Trans., 166, II;
+1876), Tornoe (Norw. Atlantic Exped., 1880) berechnet von Makarof (J.
+Russ, Phys. Chcm. Gcs., 23, 30; 1891). Auszug.
+0°
+5°
+10°
+15°
+20°
+25°
+30°
+Dest ^Yasser
+0.99988
+99979
+99974
+99915
+99828
+99714
+99577
+Seewasser
+1.00077
+00087
+00060
+00000
+999 II
+99796
+99659
+"
+1.01130
+01120
+01075
+01 000
+00898
+00774
+00630
+I. 02 I 82
+02152
+02090
+02000
+01886
+01751
+01600
+"
+1.03228
+03179
+03102
+03000
+02876
+02732
+02572
+This fact shoitld be noted in connection with the use of the above
+table, viz.. the specific gravity of a sample of sea water is the num-
+ber representing its weight as compared with an equal volume of
+pure water at the same temperature. The latter is usually called
+1. 000 so that the specific gravity of a sample of sea water may be
+some such number as 1.025. The density is the weight in grams of
+one cubic centimeter of water at the temperature in situ (^°) com-
+pared with that of i c.c. of pure water at 40° C. It is usually
+expressed as D-^. The salinity is the total weight in grams of the
+4
+matter dissolved in i.ooo grams of water.
+Mathcmatic Calculation. — Through the kindness of a graduate
+student, ]\Ir. John C. Bechtel. to whom my thanks are due, I was
+relieved of the labor of making the mathematic calculations neces-
+sary to reduce the hydrometric readings to 15° C. His method of
+procedure is herewith given in a sample case.
+To determine density at 15° C. of salt water whose density at
+23° is 1.0155.
+From the table we see that this corresponds to a solution whose
+density at 15° lies between i.oi and 1.02.
+We therefore find figures for density of salt water at 23°, if
+density at 15° is i.oi, and also if density is 1.02.
+Density at 20° is 1.00898 for first and 1. 01886 for second.

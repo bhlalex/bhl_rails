@@ -1,0 +1,36 @@
+156 THE PRINCIPLES OF SCIENCE.
+We therefore restrict our attention to those cases which
+may be represented in natural phenomena where at least
+two combinations are present, and which correspond to
+those columns of the table in which each of A, a, B, b
+appears. These cases are shown in the columns marked
+with an asterisk.
+We find that seven cases remain for examination, thus
+characterised
+Four cases exhibiting three combinations,
+Two cases exhibiting two combinations,
+One case exhibiting four combinations.
+It has already been pointed out that a proposition of the
+form A = AB destroys one combination Ah, so that this
+is the form of law applying to the twelfth case. But
+by changing one or more of the terms in A = AB into
+its negative, or by interchanging A and B, a and b, we
+obtain no less than eight different varieties of the one form ;
+thus
+1 2th case. 8th case. i5th case. i4th case.
+A = AB A = A6 a = aE a = ab
+b = ab B = aB b = A.b B = AB.
+But the reader of the preceding sections will at once
+see that each proposition in the lower line is logically equi-
+valent to, and is in fact the contrapositive of, that above
+it (p. 98). Thus the propositions A = A& and B = aB
+both give the same combinations, shown in the eighth
+column of the table, and trial shows that the twelfth,
+eighth, fifteenth and fourteenth cases are thus fully ac-
+counted for. We come to this conclusion then The
+general form of proposition A = AB admits of four
+logically distinct varieties, each capable of expression in
+two different modes.
+In two columns of the table, namely the seventh and
+tenth, we observe that two combinations are missing. Now
+a simple identity A = B renders impossible both A.b and aB,

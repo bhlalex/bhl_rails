@@ -1,0 +1,41 @@
+186 PROCEEDINGS OF THE AMERICAN ACADEMY,
+The most easily observed responses of animals are naturally those
+which find their expression in locomotion. The number of stimuli which
+may influence locomotion are, of course, numerous, but of these a certain
+limited number play much the lai'ger part. If we had an accurate
+knowledge of the relative weight of these diflferent forces, we might pre-
+dict with certainty the path any animal would follow under certain given
+conditions. An experimental study of the different stimuli ought at least
+to enable us to find out which ones do operate, and perhaps to establish
+certain general laws regarding them and the biological tendencies which
+impel the animal to respond.
+The present paper is a study of the locomotor responses of the slug
+Limax maximus to three kinds of stimuli, — those of touch, gravity, and
+light. In connection with these studies new problems have constantly
+arisen, some of which have been cursorily considered, many others
+merely alluded to, so that the work is far from being complete.
+The term " geotaxis " has been used to designate the influence of gravity
+on locomotion. Interesting and careful studies have been made on the
+geotaxis of numerous Protista by Schwarz ('84), Aderhold ('88),
+Massart ('91), and Jensen ('93). These investigations clearly show a
+geotactic response in the nnicellular organisms studied. The kind of
+response varies according to other conditions, such as those of light, heat,
+density of medium, chemical influences, etc., and may also differ in indi-
+viduals of the same genus under apparently like conditions. Massart
+('91, pp. 161-162) found that, when a number of Spirilla were put into
+a vertical tube, one group collected in the upper part and another at the
+lower part. He also found (p. 164) that Chromulina woroniniana was
+negatively geotactic — that is, moved upward, or in a direction opposite to
+that of the pull of gravity — at 15° to 20° C, but positively geotactic at
+5° to 7° C. Jensen's work also showed the important influence of other
+agents in modifying geotaxis. Loeb ('88, pp. 7-8) found that cock-
+roaches preferred the steepest side of a box whose four sides were inclined
+at different angles ; that is, they are negatively geotactic. He also dis-
+covered that a number of other Metazoa were geotactic.
+In a certain way, the present paper is a continuation of a recent study
+made by Dr. C. B. Davenport and Miss Helen Perkins on geotaxis in
+the slug. Davenport and Perkins ('97, p. 105) discovered that the
+intensity of the animal's geotactic response was directly proportional to
+the sine of the angle of deviation from the vertical, and hence *' varied
+directly as the active component of gravity." In the third section of
+their paper, the question, " What determines whether the head end of

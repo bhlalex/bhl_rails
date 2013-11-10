@@ -1,0 +1,36 @@
+ANALYSIS OF QUANTITATIVE PHENOMENA. 397
+In some rudimentary experiments we may wish merely
+to establish the existence of a quantitative effect without
+precisely measuring its amount ; if there exist causes of
+error of which we can neither render the amount known
+or inappreciable, the best way will be to make them all
+negative so that the quantitative effects will be less than
+the truth rather than greater. Mr. Grove, for instance,
+in proving that the magnetization or demagnetization of
+a piece of iron raises its temperature, took care to maintain
+the electro-magnet by which the iron was acted upon at
+a lower temperature, so that it would cool rather than
+warm the iron by radiation or conduction l .
+Rumford's celebrated experiment to prove that heat was
+generated out of mechanical force in the boring of a
+cannon was subject to the difficulty that heat might be
+brought to the cannon by conduction from neighbouring
+bodies. It was an ingenious device of Davy to produce
+friction by a piece of clock-work resting upon a block
+of ice in an exhausted receiver ; as the machine rose in
+temperature above 32, it was certain that no heat was
+received by conduction from the support 111 . In many
+other experiments ice may be employed to prevent the
+access of heat by conduction, and this device, first put in
+practice by Murray n , is beautifully employed in Bunsen's
+calorimeter.
+To obtain the true temperature of the air, though
+apparently so easy, is really a very difficult matter,
+because the thermometer employed is sure to be affected
+either by the sun's rays, the radiation from neighbouring
+objects, or the escape of heat into space. These sources
+1 'The Correlation of Physical Forces/ 3rd ed. p. 159.
+m 'Collected works of Sir H. Davy,' vol. ii. pp. 12-14. 'Elements of
+Chemical Philosophy/ p. 94.
+n ' Nicholson's Journal/ vol. i. p. 241; quoted in 'Treatise on Heat/
+Useful Knowledge fSociety, p. 24.

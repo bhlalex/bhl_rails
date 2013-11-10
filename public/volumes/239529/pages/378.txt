@@ -1,0 +1,42 @@
+551
+Conversely, when the stimulus is given much earlier, an extra-
+systole of the auricles is originated, after which a systole of the
+ventricle follows at a normal a—v interval. An instance of this case
+is given in tig. 6 at the third upward deflection of the signal.
+At the first and the second upward deflection of the signal the
+extrastimulus was applied at the peak of the 7-deflection or a short
+time before it, which resulted in an extrapause of the ventricle. At
+the third upward deflection of the signal, however, the extra stimulus
+was applied much earlier, viz. rather more than 7s second before
+the peak of the 7-deflection. It appears that the auricles respond
+already to the stimulus and present a complete extrasystole, but this
+retrograde excitation is not stayed in its course by the periodic
+siuusimpulse in the auricles. After this auricular extrasystole the
+excitation proceeds to the ventricle and induces it to contract.
+Success of the latter experiment depends upon various conditions :
+1. The extrastimulus is to affect the auricles after the refractory
+stage of these chambers.
+2. After the artificial extra-systole the excitation is to reach the
+ventricle after its refractory stage.
+3. The extra-stimulus is to be applied so early that the excitation
+which traverses the auricles after this stimulus in retrograde direction,
+does not encounter the next siuusimpulse in the auricle.
+Finally I wish to advert to the necessity of amplifying Engel-
+mann's interpretation of the constant deviation of the compensatory
+pause in connection with the present investigation. According to
+Enuelmamn the reason why, instead of the extrasystole normal periodic
+ventricular systole has fallen out, is because the periodic siuusimpulse
+reached the ventricle during the refractory stage of the extrasystole.
+The present research induces me to add that in some cases the
+periodic ventricular systole falls out because after the extra stimulus
+the excitation, which proceeds also in retrograde direction, clashes
+upon the periodic sinusimpulse, so that both excitations are annihilated.
+When we thus amplify the interpretation of the duration of the
+compensatory pause, a fact becomes clear to me that had been known
+to me long since, namely that when an extra stimulus is given to the
+ventricle, we see in some of the experiments, during the extrasystole
+a P-deflection expressed in the electrograms, in others we do not.
+If the /^-deflection is absent it is obvious that the periodic sinus-
+impulse has not traversed the whole auricle, but has been stayed in
+its course by the excitation proceeding in retrograde direction, evoked
+by the extra stimulus.

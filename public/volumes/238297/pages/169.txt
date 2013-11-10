@@ -1,0 +1,37 @@
+INDUCTION. 143
+following numbers :
+ii ii i 5 691 7 3617
+j ) 5 > j --: j > -> j ctc
+26 30 42 30 66 2730 6 510
+These numbers are sometimes negative, more often posi-
+tive ; sometimes in low terms, but unexpectedly spring-
+ing up to high terms ; in absolute magnitude they
+are very variable. They seem to set all regularity and
+method at defiance, and it is hardly to be supposed that
+any one could, from contemplation of the numbers, have
+detected the relation between them. Yet they are derived
+from the most regular ^and symmetrical laws of relation,
+and are of the highest importance in mathematical analysis,
+being known as the numbers of Bernouilli.
+Compare again the difficulty of decyphering with that
+of cyphering. Any one can invent a secret language, and
+with a little steady labour can translate the longest letter
+into the character. Biit to decypher the letter having no
+key to the signs adopted, is a wholly different matter.
+As the possible modes of secret writing are infinite in
+number and exceedingly various in kind, there is no direct
+mode of discovery whatever. Repeated trial, guided
+more or less by knowledge of the customary form of cypher,
+and resting entirely on the principles of probability, is
+the only resource. A peculiar tact or skill is requisite for
+the process, and a few men, such as Wallis or Mr. Wheat-
+stone, have attained great success.
+Induction is the decyphering of the hidden meaning of
+natural phenomena. Given events which happen in certain
+definite combinations, we are required to point out the
+laws which have governed those combinations. Any laws
+being supposed, we can, with ease and certainty, decide
+whether the phenomena obey those laws. But the laws
+which may exist are infinite in variety, so that the chances
+are immensely against mere random guessing. The dif-
+ficulty is m.uch increased by the fact that several laws will

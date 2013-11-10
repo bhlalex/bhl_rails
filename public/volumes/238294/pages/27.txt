@@ -1,0 +1,45 @@
+( 390 }
+the coefficients in the above expression heeome infinite, all tlie terms
+d'p , . .
+vanisli and - — = 0. In (he critical i)oint llie pressure is ui sreneral
+not a niaximnni, Init the vapour branch of the saturation curve in
+the p — X diagram {t = constant) has a point of' inflexion with a
+tangent parallel to the .I'-axis.
+In a special case van dkr I.epVs conclusion drawn from the equa-
+tion becomes valid, viz. when in the critical point the condition
+.I'l = ,v^ is fulfilled ; for in that case the next differential coefficient
+d'ü dp d'^p>
+— — becomes 0, as well as — and . After substitution of tlie
+dx^^ dx^ dx/
+/()•■= SA ^ d /ö^^A
+general conditions ( ^ — ^ 1 = and -— ( ^ — - I = the expression for
+\0x^ //» dx \Öx^ Jp
+d'p
+dx.
+is reduced to
+.«<
+■^v, d' /d%
+Iv' i'„, (/./;' V dx
+'21
+and this expression is equal to 0, if a\ = ,t:^, but not otherwise.
+Without using the equations the same conclusions may be drawn
+geometrically from the properties of the saturation curve in the
+p — X diagram ; if there are only one mininuim and one maximum
+in the j) — .x'l curve, three points of intersection coincide in the critical
+point and consequently there is a point of inflexion, if on the other
+hand there is a minimum as well as two maxima, four points of
+intersection coincide in the critical point and there will be a maximum
+of the second order.
+The whole argument thus turns on the question, whether it is
+legitimate to assume as self-evident, that the point, wiiere .?\ = ,v^^,
+remains between the two points, where ( — ^ ) :=i ; that this is
+not the case follows from the fact that the condition ^\ = ,i\^ is
+totally independent of the condition of critical contact between the
+two saturation curves : in fact there are cases, such as those referred
+to above, where the point i\ = x^ lies at a far distance from the
+critical point, and others where there is no maximum or minimum
+at all, either outside or inside the three-phase triangle, such as for
+mixtures of ethane with the lower alcohol ^). The question therefore
+arises and has to be answered : how does the point where x^ =^ x\,
+which is known in many cases to be inside the two other maximum
+1) KuENEN en RoBsoN, Phil. Mag. (5) 48, p. 192, foil.

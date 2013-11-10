@@ -1,0 +1,51 @@
+124
+case the value of that factor remains small also for other phases,
+especially when the radius has been chosen a little greater. This
+would meet the chief objection of D. and Sch. to the binding rings
+as has also been shown by Costkr with a somewhat different way
+of representation.
+§ 4. For the calculation of the intensities of the other reflected
+beams I proceeded in the following way :
+As a consequence of the smallness of the remaining inner ring of
+two electrons (of one quantum probably for each electron) compared
+with the binding rings (that are perhaps of two quanta for each
+electron) I assumed in the calculation of the intensities of' the
+other lines the radius of the first ring to be zero and that
+ring to give then a "diminishing-factor", analogous to that of D.
+and Sch. 1 ), while also for nucleus -f- ring a temperature-factor had
+to be assumed. All this was comprised into the "diffraction-factor"
+A « 2) for nucleus -f ring. In the same way the factor #«1)
+referring to each of the binding electrons comprised also the tem-
+perature factor of these electrons.
+o , • Sjl >' ,
+Replacing — - by v we find then at the moment t for 7 S of
+|-o
+the structure-factor for unmixed triplets
+-\- Be \cos h v
+h 1 coswt-^h^cosi wt -f
+2.T
+4n
+±h s cos[ <ot4- —
++
++ e
+— (VMi)
+COS ijV
+2n
+h 1 cos wt — h 2 cos [ wt -) I — h z cos I wt -}-
+An
++
+•(VMi
++ e
+h x coswt \-h 2 cosl wt -j- -
+4n
+/lj cos ( wt -|
++
+t*l+*l
++«
+cos h V
+2n\ ( in
+-h x coswt — h i cos\ wt-\ ]'-)- h s cos I wt-]
+In this expression we may substitute the unmixed indices-triplets
+of the lines that were to be seen on a photo of D. and Sch., take
+the modulus-square, multiply this by (It, integrate this over a period
+*) P. Debije and P. Scherrer, I.e.

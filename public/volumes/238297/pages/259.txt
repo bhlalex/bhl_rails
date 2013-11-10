@@ -1,0 +1,36 @@
+THE THEORY OF PROBABILITY. 2S3
+distinguished into two or more simpler events. Thus
+the firing of a gun may be distinguished into pulling the
+trigger, the fall of the hammer, the explosion of the cap,
+&c. In this example the simple events are not' inde-
+pendent, because if the trigger is pulled, the other events
+will under proper conditions necessarily follow, and their
+probabilities are therefore the same as that of the first
+event. Events are independent when the happening of
+one does not render the other either more or less probable
+than before. Thus the death of a person is neither more
+nor ]ess probable because the planet Mars happens to be
+visible. When the component events are independent,
+a simple rule can be given for calculating the probability
+of the compound event, thus Multiply together the frac-
+tions expressing the probabilities of the independent
+component events.
+The probability of throwing tail twice with a penny
+^ s i x i> or 4 > the probability of throwing it three times
+running is -| x J x -Jr, or -^ ; a result agreeing with that
+obtained in an apparently different manner (p. 230). In
+fact when we multiply together the denominators, we get
+the whole number of ways of happening of the compound
+event, and when we multiply the numerators, we get the
+number of ways favourable to the required event.
+Probabilities may be added to or subtracted from each
+other under the important condition that the events in
+question are exclusive of each other, so that not more than
+one of them can happen. It might be argued that as
+the probability of throwing head at the first trial is -Jr, and
+at the second trial also ^, the probability of throwing
+it in the first two throws is ^ + ^, or certainty. Not only
+is this result evidently absurd, but a repetition of the
+process would lead us to a probability of i^ or of any
+greater number, results which could have no meaning
+whatever. The probability we wish to calculate is that of

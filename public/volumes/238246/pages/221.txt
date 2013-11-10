@@ -1,0 +1,40 @@
+(8)
+320
+in wliicli :
+Herein /j , . . -?.„+i have the values which follow from (6) conse-
+quently ^'(^F) is the change in volume and ^ {>-H) the change in
+entropy, which occur at the phases-reaction (5).
+The equilibrium, being' monovariaiit, is represented in the 7^,7-
+diagram by a curve that we shall call tJ, its direction is defined
+by (7).
+When we follow this curve E, w^ y^ . . . x^ y, . . . and consequently
+also X^ Pv, . . . change from point to point along this curve. When in
+a definite point q of this curve h, becomes equal to zero, then in
+(8) Iq Vq becomes =0 and XgHq = 0. Then in the point g» is true:
+^dF\^2{XH)q
+dTjq S{?.V)q
+Now the equilibrium E passes in point q under consideration
+into an equilibrium :
+Ejt = F, + ...i- Fq., + Fq^, + . . . 4- n+1 . . . (10)
+viz. into one of the equilibria Ej^ of n components in ii phases
+between which a phases-reaction :
+X,F,+... Xq_i Fq^, + A,+i Fq^i + . • - + Z^.+l = . (11)
+may occur. We have considered those equilibria £/? before. This
+equilibrium (H) 'S also monovariant and is represented in the P, T-
+diagram by a curve, the turning-line Er of the region :
+(f;) = i^\ + ... + F,_, +F,+i4 ...H-^^+i . • (12)
+Formula (9) is also valid for this turning-line. It is apparent from
+our considerations :
+"the curve which represents the equilibrium :
+E=F, + F, + ... + fu+i
+"is situated in the /-*, 7'- diagram in the common part of the ?i -\- 1
+"regions (T'^i) (T'^) . . . (7^„_|_i) ; when in a point q of this curve the
+"phase Fq does not participate in the reaction, the curve touches
+"the turning-line of the region {Fq) in this point q. In general yi-j-l
+"of those tangents may occur".
+When we apply this to the binary equilibrium £"=: 7^ -|- L -\- G,
+in which F, L and G represent a binary compound, liquid and
+vapour, it then follows that the curve E must be situated within
+the three regions 7^-|- L, F-\- G and L -\- G. When in a point a
+the liquid L obtains the same composition as 7^', the curve /ï" touches
+the limit-curve E/^ = F -\- L (consequently the melting-line of 7^)

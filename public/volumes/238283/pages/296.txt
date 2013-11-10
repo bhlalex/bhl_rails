@@ -1,0 +1,59 @@
+RICHARDS AND HEIMROD. —THE IMPROVED VOLTAMETER.
+429
+TABLE Vm.
+Standard Method on Platinum and on Silver.
+No. of
+Experiment.
+Weight of
+Deposit
+on Platinum.
+Weight of
+Deposit
+on Silver.
+Difiference.
+Percentage
+Difference.
+27
+28
+grams.
+2.69700
+2.25769
+grams.
+2.69674
+2.25770
+milligram.
+0.26
+0.01
+per cent.
+-0.009
++0.000
+The only difiference is now in the opposite direction ; and this was due
+to known experimental error. In experiment 27 a small loss of silver
+particles in the wash-water from the silver cell produced the difference of
+0.009 per cent. It is highly probable that but for this accident, the deposit
+on silver would have been equal to that on platinum, as it is in No. 28.
+These results permit us to draw two conclusions. First, it is not the greater
+inclusion of silver salt in the crystals which increases the total weight
+when the kathode is silver. Otherwise 27 and 28 should have grown
+heavier in the same ratio. Secondly, it is the anode solution again
+which is responsible.
+The increase in the deposit on a silver surface indicates the existence of
+silver in the solution in a supersaturated state ; and this existence shows
+that there must be present some complex gradually dissociating, with
+metallic silver as one of its products. If this is the case, we should ex-
+pect to find that an oxidizing environment would be capable of removing
+this cause of inaccuracy, while substituting another easily removed by
+nitric acid. As a matter of fact, Schuster and Crossly * have shown
+that deposits made in vacuo are heavier than when made in air ; again
+those made in an atmosphere of air are heavier than when made in oxy-
+gen. Of course it is understood that in all three cases the anode was
+only wrapped in filter paper. The solution usually contained fifteen
+per cent of silver nitrate, but sometimes as much as thirty per cent.
+They used the solution over and over again, thereby accumulating the
+irregular compounds. Under reduced pressure (about " 1 ^ inch "), the
+deposits exceeded those made in air by about 0.04 per cent, while the lat-
+ter exceeded those in oxygen by 0.04 per cent more. Myers, f who re-
+peated these experiments, found the difference between deposits in air
+and in vacuo to be as much as 0.10 per cent for 20-40 percent solutions.
+* Proc. Roy. Soc, 50, 356 (1892).
+t Wied Ana., 55, 291 ff. (1895).

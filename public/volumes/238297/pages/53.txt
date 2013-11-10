@@ -1,0 +1,35 @@
+INTRODUCTION. 27
+an indefinite extent of logical arguments immediately
+deducible from the principle of substitution of which
+the ancient syllogism forms but a small and not even
+the most important part.
+The Logic of Relatives.
+There is a difficult and important branch of logic
+which may be called the Logic of Relatives. If I argue,
+for instance, that because Daniel BernouUi was the son
+of John, and John the brother of James, therefore Daniel
+was the nephew of James, it is not possible to prove
+this conclusion by any simple logical process. We re-
+quire at any rate to assume that the son of a brother is
+a nephew. A simple logical relation is that which exists
+between properties and circumstances of the same object
+or class. But objects and classes of objects may also be
+related according to aU the properties of time and space.
+I believe it may be shown, indeed, that where an inference
+concerning such relations is drawn, a process of substi-
+tution is really employed and an identity must exist ;
+but I wih 1 not undertake to prove the assertion in this
+work. The relations of time and space are logical
+relations of a complicated character demanding much
+abstract and difficult investigation. The subject has been
+treated with such great ability by Professors Peirce x ,
+De Morgan y, Ellis z , and Harley, that I will not in the
+x ' Description of a Notation for the Logic of Relatives, resulting from
+an Amplification of the Conceptions of Boole's Calculus of Logic/ By
+C. S. Peirce. ' Memoirs of the American Academy,' vol. ix. Cam-
+bridge, U.S., 1870.
+y 'On the Syllogism, No. IV, and on the Logic of Relations.' By
+Augustus De Morgan. 'Transactions of the Cambridge Philosophical
+Society,' vol. x. part ii. 1860.
+z ' Observations on Boole's Laws of Thought/ By the late R.
+Leslie Ellis ; communicated by the Rev. Robert Harley, F.R.S. 'Report

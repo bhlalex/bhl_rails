@@ -1,0 +1,35 @@
+BACKGROUND CONCENTRATIONS
+GENERAL
+PCB concentrations have been determined for a variety of flora and fauna,
+and in certain nonbiological materials (Table 2). These selected data seem to
+represent current state-of-the-art analytical procedures for accurate and
+precise measurement of PCBs at detection limits of less than 0.01 ppm for most
+isomers. Characterization of Aroclor PCB residues in living and nonliving
+resources is difficult due to the chemical, physical, and metabolic
+transformations between product manufacture and detection in environmental
+samples. Schmitt et al . (1985) suggest that total PCBs in samples is a more
+reliable measure of environmental contamination than measurements of any
+commercial PCB mixtures such as Aroclor PCBs. Also, Brown et al . (1985)
+indicated that only a few PCB congeners (i.e., those most toxic) are
+appropriate for meaningful interpretation of PCB residues in biota.
+There is general agreement that more samples from recent collections have
+detectable PCB residues, that absolute concentrations seem to be declining in
+some areas of known high PCB contamination, and that lower chlorinated
+PCBs--resembling Aroclor 1242--are disappearing. Nevertheless, many fish and
+wildlife species, including salmon, trout, turtles, eagles, herons,
+fish-eating birds, mink ( Mustela vison ), river otters ( Lutra canadensis ), and
+bats, all contain measurable, and in some cases potentially harmful, PCB
+residues, especially in adipose (fatty) tissues.
+ALGAE AND TERRESTRIAL MACROPHYTES
+In the Great Lakes, atmospheric deposition of PCBs is the most
+significant source of contamination. More than 90% of atmospheric PCBs are
+transported in the vapor phase and deposited by turbulent impaction.
+Deposition of PCBs is also associated with particulate matter, as well as
+direct partitioning from the vapor phase into the surface organic microlayer
+at the air-water interface, and these account for the remaining input (Rohrer
+et al. 1982). Once in the water column, the hydrophobic PCBs partition into
+the more apolar compartments of the ecosystem or are physically adsorbed on
+particulate matter. Transfer of PCBs on microparticulate materials and into
+phytoplankton is well documented, as is partitioning from aqueous solution
+into algal lipids (Rohrer et al . 1982). PCBs incorporated into phytoplankton
+10

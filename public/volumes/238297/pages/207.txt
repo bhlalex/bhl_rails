@@ -1,0 +1,35 @@
+PRINCIPLES OF NUMBER. 181
+Similarly, just as in logic
+triangle or square - square or triangle,
+or generally A I B = B I A,
+so in quantity 2+3 = 34-2,
+or generally x + y = y + x.
+The symbol I is not identical with + , but it is so far
+analogous.
+How far, now, is it true that mathematical symbols
+obey the law of simplicity expressed in the form
+or the example
+Bound round = round \
+Apparently there are but two numbers which obey this
+law ; for it is certain that
+x x x x
+is true only in the two cases when x = i or o.
+In reality all numbers obey the law, for 2 x 2 = 2 is not
+really analogous to AA = A. According to the definition
+of a unit already given, each unit is discriminated from
+each other in the same problem, so that in 2' x 2 ', the
+first two involves a different discrimination from the
+second two. I get four kinds of things, for instance, if I
+first discriminate ' heavy and light ' and then ' cubical and
+spherical/ for we now have the following classes
+heavy, cubical. light, cubical.
+heavy, spherical. light, spherical.
+But suppose that my two classes are in both cases
+discriminated by the same difference of light and heavy,
+then we have
+heavy heavy = heavy,
+heavy light = o,
+light heavy = o,
+light light = light.
+In short, twice two is two unless we take care that the!
+second two has a different meaning from the first. But

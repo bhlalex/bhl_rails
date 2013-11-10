@@ -1,0 +1,29 @@
+CHAPTER IV.
+DEDUCTIVE REASONING.
+THE general principle of inference having been ex-
+plained in the previous chapters, and a suitable system
+of symbols provided, we have now before us the com-
+paratively easy task of tracing out the most common and
+important forms of deductive reasoning. The general
+problem of deduction is as follows : From one or more
+propositions called premises to draw such other proposi-
+tions as will necessarily be true when the premises are
+true. By deduction we investigate and unfold the in-
+formation contained in the premises ; and this we can do
+by one single rule For any term occurring in any pro-
+position or expression substitute the expression which is
+asserted in any premise to be identical ivith it. To obtain
+certain deductions, especially those involving negative
+conclusions, we shall require to bring into use the
+second and third Laws of Thought, and the process of
+reasoning will then be called Indirect Deduction. In the
+present chapter, however, I shall confine my attention to
+those results which can be obtained by the process of
+Direct Deduction, that is, by applying to the premises
+themselves the rule of substitution. It will be found
+that we can combine in one harmonious system, not only
+the various moods of the ancient syllogism, but a great
+number of equally important forms of reasoning, which had
+no distinct place in the old logic. We can at the same
+time dispense entirely with the elaborate apparatus of
+logical rules and mnemonic lines, which were requisite

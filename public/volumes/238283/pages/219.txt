@@ -1,0 +1,33 @@
+314 PROCEEDINGS OF THE AMERICAN ACADEMY.
+similar result is true for all of the succeeding transformations. So in the
+first part of (14) we could write ^ for <I>, ^^ for ^^, (/x = 1,2, v),
+where the *'s are derived successively in the same way as the $'s. At
+each stage the <> factor must contain alL the terms of lowest degree in
+the corresponding <J> (except for a constant multiple), and no lower
+terms ; for, otherwise, either there would be lower terms in the product
+by the corresponding £J factor on account of its constant term, or the
+required terms would not be present.
+Now, by (19),
+Also
+$=i^'«>'$,; (22)
+and, combining with (21), we have
+|| = r-||". (23)
+But as $ has no multiple factors vanishing at (0, 0, 0) (see § 1,3), we
+have the relation
+L(^, rj, 0* + M{^, >?, fl = Ri-n, ^ 0. (24)
+Then, substituting for f and t] from (19) on the left side of equation (24)
+and using the relations (22) and (23), we have the required relation (18).
+5. If V is taken large enough the transformations (14) will lead to the
+relations
+^(^., vr, 0^" + M.{^., v., ^ = ^ Iv^ + -h(OJ^J^(v^, 0, (25)
+p.{i., v., 0*^ + <?.(^v, ^., op- = ^[^'^ + -(o]^=^(^., o> (26)
+where
+^viL, V^, = ^.(f., V^; 0^1 i^r, ^., = ^^(^"^ v^, 0J^2(i., v^, 0- (27)
+We consider the effect of the transformations (14) on R in (18). Ex-
+press it in the form
+Riri, = ^'[{V, On + (V, On+l + ] = i'^iV, 0.
+where
+S(v, 0) ^ 0.
+If (rj, C)n contains no term in rj, the first transformation of (14) will al-
+low the factor C to be taken out of S, leaving behind a constant term,
+and thus securing the form (25) at once with

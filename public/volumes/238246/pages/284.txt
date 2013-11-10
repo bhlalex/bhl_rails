@@ -1,0 +1,33 @@
+419
+■r^<^(i\, and //^ < t', the iiiequalitv i '^^.y ^•^'/. .'4) < „ '^ salislied.
+Since /{.v) (ends to a finite limit as ./; — ^ there is a number (f\
+such that for .r^, < ff, and //^. < '', tiie inequality' | <fj(,r , 7/ ) j <^ — is
+satisfied.
+If «ƒ <^ '^1 and at the same time <^ <i\ then
+There now exist only a finite number of indices for which .r > tf,
+yi^^<^- At each of the points P corresponding tliere to an index
+N, ^ N can be found such that
+i0 (..',, .v,)-</^v,(.v^,):<^.
+At the points of the considered set the sequence of functions
+<7>,i therefoi-e converges quasi-unifoimly.
+2. ('Onversely, let it be given that at the points of every set
+^^('«'1. y»). AG'',. ?/J. • • • where < x^^ <a, < y^_ <, a, Jim r^^ = 0,
+lini i/^ = 0, this sequence of functions converges quasi-uniformly.
+Tjet M denote the maximum of /(.i) at 0, tn the mijiimum. It is
+possible to construct a set of points .i\, a\, . . . where -^V^O and
+lim x= 0, such that lim /{x ) =z M ; similarly we can construct a
+set ?/i, y,, . . . , where ?/ ^ and lim y = 0, such that limf{y ) = m.
+If we now consider the set of points
+1\ {.v„ ?/ J, 1\ (,*;,, 7/J, , then llm fp (.^• . y ) — M — m , (1)
+unless ?>^ = -|- GO or 71/= — 00. Now it is possible, by hypothesis,
+to choose at each of the points P from a finite number of indices
+1,2,... Ji{e) an index n such that
+l*(.vy*)-*",('V.Vi <2- '2'
+where 5 denotes a given arbitrary positive number. In consequence
+of the continuity of each of the functions ^^^(,(•'^ y) and since the
+number of indices here considered is finite, a number d exists such
+that at every point F , wheve .v <^ ö and y <^ ö the relation
+is satisfied.
+Hence since
+<P„, (0 0) =. 0, we have ! 0,.. (.r , y\ | <-•... (3)
+'ft

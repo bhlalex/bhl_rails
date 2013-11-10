@@ -1,0 +1,38 @@
+MORENO. — ON RULED LOCI IN n-FOLD SPACE. 145
+n-3
+^ 9 A 9'^' A
+^.f-.-
+n-3
+9^' A
+' ' «— 3
+9k^
+^.^o,.
+n—'i
+9'^ B
+9\^'
+^ = 0,^ = 0,.. .^;:^, = 0.
+If we eliminate the parameter from these equations we derive a
+restricted system equivalent to n — 2 independent equations. The locus
+is a surface /S'g ruled bj the -Fi's ; it is an ( — - — J-tuple surface on S^^.^.
+Consecutive i^i's do not in general intersect for the n -\- 1 equations
+^ = 0, ^- = 0, . . . — —^ --= 0,
+^^ 9x^
+have not in general any common solutions. If we regard these m + 1
+equations as homogeneous in the n -\- \ coordinates and form their result-
+ant, the values of the parameter that cause it to vanish will give points
+where consecutive lines meet. The equations of these points may be
+formed by eliminating the parameter from the n + 1 equations, which
+gives a restricted system equivalent to n independent equations. These
+points are double points on ^'2 and f — - — | -tuple points on S„_x.
+If n is even then — consecutive i^„_2's intersect in a point Fq, whose
+At
+equations are,
+A =
+9k
+^ = 0, ^ = 0, . . . , -^^= 0,
+5/V
+2
+^^ 9 XT
+The elimination of the parameter from these equations gives a restricted
+svstem equivalent to n — 1 independent equations. The locus is a curve
+10

@@ -1,0 +1,37 @@
+19".] MILLER— SUBSTITUTIONS OX n LETTERS. 141
+these letters which are commutative with every substitution of the
+other. A necessary and sufficient condition that K he a. subgroup of
+G, when G and K are so related that each is composed of all the
+substitutions on these letters which are commutative with every
+substitution of the other, is that K be abelian. ^^'hen G and K are
+both abelian they must be regular and identical.
+It may be of interest to consider several of the special cases of
+the general theorems expressed above. \\'hen a^i. K is the
+identity. That is. if the subgroup, composed of all the substitutions
+which omit a given letter of a transitive group of degree n, is of
+degree ;/ • — ■ i the identity is the only substitution on these n letters
+which is commutative with every substitution of this transitive
+group, and the order of this group divides n! In the other extreme
+case, when a = n, the given theorems include the main known
+results as regards the substitutions which are commutative with
+every substitution of a regular group. As the term conjoints has an
+established meaning as regards regular groups it seems undesirable
+to use this term with the more general meaning that each of two
+substitutions groups of degree »/ is composed of all the substitutions
+on these 7i letters which are commutative with every substitution
+of the other. We shall therefore call such groups amicable, using a
+term of Greek number theory. Hence we may say that a necessary
+and sufficient condition that a transitive group of degree )i is one of
+a pair of amicable groups is that its order be a.'^' • k!, n — a being
+the degree of one of its subgroups composed of all its substitutions
+which omit a given letter, and k = n/a. This proves also incident-
+ally that ;; is always divisible by a.
+From the preceding results it is easy to deduce a theorem as
+regards the total number of the transitive groups of degree n which
+belong to pairs of amicable groups. In fact, since K is composed of
+simply isomorphic regular groups the number of the distinct possible
+groups K is ecjual to the number of the dififerent abstract groups of
+order a, two substitution groups being regarded as distinct only
+when it is not possible to transform one into the other. As G is
+completely determined by K there results the following theorem :
+TJic niinihcr of the distinct transitirc groups of degree n zvhicJi

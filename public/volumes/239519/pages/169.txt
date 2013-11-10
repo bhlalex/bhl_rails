@@ -1,0 +1,44 @@
+238 POPULAR SCIENCE MONTHLY.
+made quite an extensive photometric survey, using an instrument by
+which the light of one star was cut down by a wedge-shaped dark glass,
+whereby any gradation of light could be produced. A comparison
+shows that the results of Pritchard agree substantially with those of
+Pickering. It is quite possible that the Purkinje phenomenon may be
+the cause of the difference, the source of which is eminently worthy
+of investigation.
+This fact simply emphasizes the lack of mathematical precision in
+photometric measurements of star light. Even apart from this differ-
+ence of color, the estimates of two observers will frequently differ
+by 0.2 and sometimes by even 0.3 of a magnitude. These differences
+correspond roughly to 20 or 30 per cent in the amount of light.
+It must not be supposed from this that such estimates are of no
+value for scientific purposes. Very important conclusions, based on
+great numbers of stars, may be drawn even from these uncertain quan-
+tities. Yet, it can hardly be doubted that if the light of a star could
+be measured from time to time to its thousandth part, conclusions of
+yet greater value and interest might be drawn from the measures.
+We have said that in our modern system the aim has been to so
+designate the magnitudes- of the stars that a series of magnitudes in
+arithmetical progression shall correspond to quantities of light ranging
+in geometrical progression. We have also said that a change of one
+unit of magnitude corresponds to a multiplication or division of the
+light by about 2.5. On any scale of magnitude this factor of multipli-
+cation constitutes the light-ratio of the scale. In recent times, after
+much discussion of the subject and many comparisons of photometric
+measures with estimates made in the old-fashioned way, there is a
+general agreement among observers to fix the light ratio at the number
+whose logarithm is 0.4. This is such that an increase of five units
+in the number expressing the magnitude corresponds to a division of the
+light by 100. If, for example, we take a standard star of magnitude
+one and another of magnitude six, the first would be 100 times as
+bright as the second. This corresponds to a light ratio slightly greater
+than 2.5/
+When this scale is adopted, the series of magnitudes may extend in-
+definitely in both directions so that to every apparent brightness there
+will be a certain magnitude. For example, if we assign the magnitude
+1.0 to a certain star, taken as a standard, which would formerly have
+been called a star of the first magnitude, then a star a little more than
+2.5 times as bright would be of magnitude one less in number, that is,
+of magnitude 0. The one next brighter in the series would be of
+magnitude —1. So great is the diversity in the brightness of the stars
+formerly called of the first magnitude that Sirius is still brighter than

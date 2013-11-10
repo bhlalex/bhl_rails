@@ -1,0 +1,36 @@
+COMBINA TIONS A ND PERM UTA TIONS. 2 1 1
+7. It follows that the sum of the numbers in any one
+line is equal to the sum of those in all the preceding lines
+diminished by a unit. For the sum of the ^th line is, as
+already shewn, 2 n-1 , and the sum of the first n i lines
+is 2 n ~ l i, or less by a unit.
+This enumeration of the properties of the figurate
+numbers does not approach completeness ; a considerable,
+perhaps an unlimited, number of less simple and obvious
+relations might be traced out. Pascal, after giving many
+of the properties, exclaims l : ' Mais j'en laisse bien plus
+que je n ; en donne ; c'est une chose etrange combien il est
+fertile en proprietes ! Chacun peut s'y exercer/ The
+arithmetical triangle may be considered a natural classifi-
+cation of numbers, exhibiting, in the most complete
+manner, their evolution and relations in a certain point
+of view. It is obvious that in an unlimited extension of
+the triangle, each number will have at least two places.
+Though the properties above explained are highly
+curious, the greatest value of the triangle arises from the
+fact that it contains a complete statement of the values
+of the formula (p. 206), for the number of combinations
+of m things out of n, for all possible values of m and n,
+Out of seven things one may be chosen in seven ways,
+and seven occurs in the eighth line of the second column.
+The combinations of two things chosen out of seven
+are ^ - or 21, which is the third number in the eighth
+line. The combinations of three things out of seven are
+D or 35, which appears fourth in the eighth line.
+1x2x3
+In a similar manner, in the fifth, sixth, seventh, and eighth
+columns of the eighth line I find it stated in how many
+ways I can select combinations of 4, 5, 6, and 7 things
+out of 7. Proceeding to the ninth line, I find in succession
+1 '(Euvres Completes,' vol. iii. p. 251.
+P 2

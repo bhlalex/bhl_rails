@@ -1,0 +1,31 @@
+Mathematics. — "Remark on Multiple Integrals.^' B}- Prof. L. E. J.
+Brouwer.
+(Communicated in the meeting of June 28, 1919).
+The object of this communication is to make two remarks in
+conjunction with the first |)art of my paper: '' Pohidimensional
+Veciordistributions" ^) presented at the meeting of May 26, 1906.
+^ 1-
+I. The proof of the generalisation of Stokes's theorem given I.e.
+pp. 66 — 70 provides this generalisation not only in the Euclidean
+but also in the following ametric form :
+Theorem, hi the n-dimensional space (j-, , . . . .r, J let the {p — \)-tuple
+integral
+J
+^ Fo^,. .. « ,_i i-^v ■ ■ ^«) ^^«1 dx^ _^ . . . . (1)
+be given, lohere the F's are continuous and finitely and continuously
+differentiable ; consider also the p-tuple integral
+where
+ƒ
+^ /a,...« (^X» • • • •^•^) ^■'•«, • • • fl'^a , (2)
+/a, ... a -^ ^— ^
+{indicatrix j.^ «^ aeg. indicatrir «^ . . . «^,).
+llien, if the two-sided p-dimensional fragment ') G is bounded by
+the tiao-sided {p — 1)- dimensional closed space g, the indicatrices of
+(x and g corresponding and both G and g possessing a continuously
+varying plane tangent space, the value of (1) over g is equal to the
+value of (2) over G.
+1) See Vol. IX, pp. 66— 78; we take the definitions modified in accordance with
+note^) on p. 116 i.e. 1 take this opportunity of pointing out that on p. 76 I.e.
+lines 13 and 14 "finite souiceless cuiront system" should be read instead of
+"system of finite closed currents".
+') Math. Annalen 71, p. 306.

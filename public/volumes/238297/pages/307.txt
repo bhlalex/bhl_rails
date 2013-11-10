@@ -1,0 +1,34 @@
+THE INDUCTIVE OR INVERSE METHOD. 281
+happening. He further supposes that each box, as is
+possible, contains the same total number of balls, black
+and white ; and then, mixing all the contents of the boxes
+together, he shows that if a white ball be drawn from the
+aggregate ballot-box thus formed, the probability that it
+proceeded from any particular ballot-box is represented
+by the number of white balls in that particular box,
+divided by that total number of white balls in all the
+boxes. This result corresponds to that given by the
+principle in question c .
+Thus, if there be three boxes, each containing ten balls
+in all, and respectively containing seven, four, and three
+white balls, then on mixing all the balls together we have
+fourteen white ones ; and if we draw a white ball, that is
+if the event happens, the probability that it came out of
+the first box is T 7 T ; which is exactly equal to 15 _,the
+yV + A- + A
+fraction given by the rule of the Inverse Method.
+Simple Applications of the Inverse Method.
+In many cases of scientific induction we may apply the
+principle of the inverse method in a simple manner. If
+only two, or at the most a few hypotheses, may be made
+as to the origin of certain phenomena, or the connection of
+one phenomenon with another, we may sometimes easily
+calculate the respective probabilities of these hypotheses.
+It was thus that Professors Bunsen and Kirchhoff esta-
+blished, with a probability little short of certainty, that
+iron exists in the sun. On comparing the spectra of sun-
+light and of the light proceeding from the incandescent
+vapour of iron, it became apparent that at least sixty
+bright lines in the spectrum of iron coincided with dark
+c Poisson, 'Recherches sur la Probabilite des Jugcments,' Paris, 1837,
+.pp. 82, 83.

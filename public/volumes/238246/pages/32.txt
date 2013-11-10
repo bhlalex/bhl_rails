@@ -1,0 +1,40 @@
+27
+not arrived; but we may already perceive that the result could not
+till up the gap which, as regards the domains of validity, exists as
+yet between the necessary and the sufficient condition. First: if a
+function w (.r) satisfies the equation of equivalence (24) for a fi,xed
+value of a on the circle (1,1) and for a certain minimum-exponent
+/„, then, on account of what has been remarked on the expression
+a^-y, immediately after formula (10), that function satisfies the same
+inequality, when the number a varies, in the specified mode, together
+with the argument \p of .v. The index /„ cannot, however, be dimi-
+nished, because it must at all events be taken for i|? = — c/, if «is
+the argument of the original fixed number a. The statement belonging
+to the inequality (9') informs us, however, that in this case expan-
+sion of CD (.^•) in a binomial series is possible for R {w) ]> ï^. The
+function
+for which we have a ^2, /„ = 0, affords an illustration of this fact,
+for the expansion is really valid for R (*•) ^ 0, and it is conditionally
+convergent for R(.v)<l. Therefore we can never find /? (i») > /„ -|- 4
+as a necessary condition whereas our theorem concerning the sufficient
+condition only says tliat expansion is possible in the domain defined
+by the last inequality.
+Secondly the last condition only holds in case io{.v) has no singu-
+larities in the finite part of the domain R{.v) > /„ -4- | ; for otherwise
+for the latter domain the one must be substituted where oj{x) is
+regular and that was defined by the inequality R {.v) ]> y.
+Thus the proposition regarding the necessary condition states that
+for points in the domain of absolute convergence of the given
+binomial series we have R {x) ^ k -{- \, but conversely it is not
+true that in the domain determined by this inequality there is
+certainly absolute convergence. A simple example is furnished by
+the function
+1
+(O (/c) = - —
+X
+For this function /„ = — oo, and yet the function can only in the
+domain of regularity R (.«) > be expanded in a binomial series of
+the form (1).
+From these remarks it will be clear that in order to fill up the
+gap existing as yet between the necessary and sufficient conditions
+we must give more specified propositions for both conditiojis. In

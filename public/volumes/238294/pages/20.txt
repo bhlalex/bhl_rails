@@ -1,0 +1,139 @@
+( 381 )
+Epoch W/ujht Xo—^^c X'o—Xj
+1862.5 'A — 18 ()
+63.5
+5
+—
+25
+—
+9
+64.5
+5
+—
+19
+—
+4
+65.5
+4
++
+r-
++
+21
+66.5
+2
+—
+19
+—
+/
+67.5
+4
+—
+24
+—
+13
+68.5
+4
++
+19
++
+29
+69.5
+5
++
+37
++
+45
+70.5
+5
++
+20
++
+27
+71.5
+3
+-f
+28
++
+34
+72.5
+4
++
+22
++
+27
+73.5
+4
++
+12
++
+15
+74.5
+4
++
+10
++
+12
+1895.5
+0.5
++
+82
++
+57
+96.5
+2
++
+8
+—
+19
+97.5
+4
+—
+3
+—
+31
+98.5
+4
+—
+20
+—
+49
+99.5
+6
+—
+9
+—
+40
+1900.5
+4
++
+12
+—
+20
+01.5
+4
++
+6
+—
+27
+02.5
+4
++
+4
+—
+30
+That the differences, even those with the formula that is made to
+represent the observations as well as possible, are not altogetlier
+accidental, may be seen from tlie great numbci- of pei'manencies of
+sign. Yet I liold tliat we are entitled to tlie conclusion that an annual
+variation of .V of 1 9^.35 better represents reality than one of 20^65.
+Having thus derived a formula for .V representing as well as
+possible the results at my disposal, I had still to correct the adopted
+values of the coefficient a and of lie ^and kr.
+To this end I compared the obserxed values of h and k with the
+formulae
+/t = -\- 0".45 — 1".50 sin [302°.4 + 19°.35 U — 1876.0)]
+/■ = + 0".26 -f 1.".50 co.s [302°.4 -f 19^35 {t — 1876.0)]
+and formed the outstanding resi(hials Obs. — Com|). These residuals
+which for shoi'tness arc not give]i here, were divided into 4 groups
+according to the 4 (piadrants of ^V, and for eacli of these groups
+mean values were formed whifh follow here:

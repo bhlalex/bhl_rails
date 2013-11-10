@@ -1,0 +1,38 @@
+207
+the}' only depend on distances ; liowever cm need not be anj- longer
+the difference of phase of the interfering rays, this may have
+become cm -\- Jt.
+After these extensive considerations, vvhich as will appear later
+on, go to the core of the method, we proceed to the construction
+of the fan in the point (3 in the case of two groups of points Pand P'.
+A point P, and a point P/ give vectors which form respectively
+the angles c^m and c\m -\- :^ with the time-direction. When we
+now reverse the sign of m, the first group of vectors will again be
+reflected in the time-direction ; a vector from the second will, however,
+form the angle jt — c\7n instead of the angle jt -[- (?/??i with the time-
+direction, and would, therefore, be evidently reflected in the pro-
+duction of the time-direction. Ultimately all the vectors will, therefore,
+again be reflected in the same line, through which the form of the
+fan will remain unchanged, hence the value of the intensity will
+remain the same, which latter is, therefore, again an even function
+of m. The thesis may, therefore, be extended as follows.
+In every instrument, in which the light can only undergo phase-
+shiftings of a whole number of times jt, the intensity is an even
+function of the number of waves when absolutely monochromatic
+light is used.
+The light fulfils these conditions naturally in all apparatus of
+refraction, also generally in those which are founded on interference.
+As will appear later on, through the suitable occurrence of phase
+shiftings among others in reflections against metal mirrors the
+intensity can also sometimes become a not-even function of the
+number of waves.
+Let us now consider the case of a beam continuously composed
+of some frequencies. Suppose it to be possible to draw up a second
+equation between / and s for a given parameter / by the aid of
+one of the current apparatus, where we shall suppose a favourable
+action of the phase shifting to be absent in the metal reflections,
+which is actually the case with most, if not with all instruments
+in general use. We can now easily show that the two quantities C
+and S must occur in the same combination as in equation (4). For
+if the new equation contains e.g. C, i.e. | fp (.r) cos 4 jt Ix civ, it won
+Id

@@ -1,0 +1,35 @@
+( 389 )
+saturation ciu'\'es separate, tlie tw o li(|iiid [)hases approach each other
+and finally coincide in the critical point : what becomes of the
+minimum {.i\ == a\) during this change, if we suppose such a point
+to lie inside the three-j)ha8c triangle? The simplest supposition which
+we can make is that up to the last moment the minimum remains
+between the two maxima and thus a fortiori between the coexiiSting
+liquids; on that supposition the various points would all coincide
+in the critical point and unile into one maximum ; in llie critical
+point we should then iiave the condition d\ = ,r.^, i. e. the li(piid in
+the critical point would have the same composition as llie vapour
+with which it is in equilibrium. This assumption was made as ahnost
+self-evident bv myself^) as well as by van dkk Lke^), Init on fuller
+consideration it now appears to me to l)e incorrect; VxVxN der Lee')
+tried to prove its correctness by the aid of the thermodynamical
+relations for binaiy mixtures, but we shall show that the proof was
+not valid.
+The equation to be used is the following :
+introducing into this the condition ^ — ^ = 0, which defines the spino-
+dal curve and thus holds a fortiori in the critical point, we obtain
+df)
+the equation -— = : but it does not follow from this that the vapour
+pressure has a maximum value ; for it may be proAed that not only
+diy d^p
+the first ditferential coefficient —- , but also the second - — ~ disappears.
+d^p dp
+Calculating the value of —^ from — we find :
+but in the point of contact of the two curves we have not only
+^- 1=0, but at the same time ——-^ = 0, because the spinodal
+dx.^J^ dx d./'j' ^
+curve of the two-liquid curve touches the connodal curve of the
+vapour-liquid curve in the critical point of contact ; thus as none of
+1) KuENEN en RoBsoN, Phil. Mag. (5) 48 p. 184, fig. 2.
+") Van der Lee, 1. c. p. 69.
+3) Van der Lee, 1. c. p. 74.

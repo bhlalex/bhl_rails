@@ -1,0 +1,43 @@
+44
+Twice also a series of four experiments with different p^ was made
+simultaneously with the same Soja extract to make sure, that in all
+the same quantity of enzyme had been brought into solution.
+Evidently the smallness of enzyme concentration involved the
+necessity of long reaction-time.
+In order to investigate, if during such long exposures to these
+H-ion concentrations at 27° any weakening of the enzj me activity
+had taken place, the remaining parts of the four phosphate-enzyme-
+solutions were left for 24 hours in the bath at 27°. On the next day
+the required experiments were repeated with these ones.
+In this way it became manifest, that the combined action of H-ion
+concentration, temperature and time had here, within the limits of
+experimental errors, no appreciable effect on urease in the acid
+solutions. If, however, at 27° the H-ion concentration was maintai-
+ned beyond the neutral point, the activity of the enzyme decreased
+slowly, but distinctly. In alkaline solutions for the calculation of ??i,
+as before, only the measurements of the first intervals had to be used.
+The acidity, used in these experiments, had itself no hydrolytic
+action on urea, as was ascertained by boiling samples of 10 c.c. of
+the liquids with pfj:=:6,Q7 and Ph=7,52, incubating them for 24
+hours at 27°, adding to each 2 c.c. of 0,06 "/„ urea and maintaining
+these mixtures again for 24 hours at 27°. No ammonia was formed.
+The results obtained for the specific urease-activity ??i of low urease
+concentrations are brought together in fig. 15, in which for the sake
+of comparison the curve of fig. 3 is also reproduced.
+The interpretation of tliese results, based on the theory, put forward
+in part 9 is the following.
+An enzyme molecule being the centre of two concentric spheres,
+an inner one, in which the substrate is broken down, and an outer
+shell, in which the reverse action is brought about, it is evident,
+that, if the concentration of the enzyme is large enough to make
+the inner spheres intersect each other, there is no place in the solu-
+tion, where the condition for synthesis, that is weakened radiation, is
+realised ; at least, so long as the enzyme has retained its original activity.
+A sufficient dilution of the urease will, however, establish a
+distance between the enzyme-molecules, large enough, to leave the
+outer shell open for the reverse action. The total power of urease
+to convert urea into ammonium carbonate, representing the diffe-
+rence between the hydi-olysis and the synthesis it brings about, must
+therefore be expected to be diminished by decreasing the urease
+concentration beyond a certain value.
+The observed facts are clearlv in accordance with this theory :

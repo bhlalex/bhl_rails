@@ -1,0 +1,19 @@
+16
+HAYES— DETECTION OF SUBMARINES.
+The minimum number of receivers is three. All of the listening de-
+vices developed at the Nahant Station except the C-Tube, make use
+of three receivers located at the vertices of an equilateral or isosceles
+triangle. Such a device is often called a " 3-Spot." Devices of this
+character developed at the Naval Experimental Station employ four
+detectors located at the four corners of a square. Such devices are
+commonly named " 4-Spots." The " 4-Spot " can still be operated
+Plate IV. Diagram of double-groove compensator.
+if any one receiver becomes damaged but the " 3-Spot " becomes use-
+less under such conditions.
+An instrument called a compensator has been developed by which
+the path difference between the two receivers and the ears can be
+varied. Compensators are made in various forms for dififerent spe-
+cial purposes. Plate IV. shows the principle of one of the simplest
+forms. It consists of an upper brass casting with grooves as shown
+by the full lines. This casting seats on a lower brass plate upon
+which it can be rotated about a central pivot (0). The lower plate

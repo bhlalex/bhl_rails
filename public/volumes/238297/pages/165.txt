@@ -1,0 +1,28 @@
+CHAPTER VII.
+INDUCTION.
+WE enter in this chapter upon the second great de-
+partment of logical method, that of Induction or the
+Inference of general from particular truths. It cannot
+be said that the Inductive process is of greater importance
+than the Deductive process already considered, because the
+latter process is absolutely essential to the existence of
+the former. Each is the complement and counterpart of
+the other. The principles of thought and existence which
+underlie them are at the bottom the same, just as subtrac-
+tion of numbers necessarily rests upon the same principles
+as addition. Induction is, in fact, the inverse operation
+to deduction, and cannot be conceived to exist without
+the corresponding operation, so that the question of re-
+lative importance cannot arise. Who thinks of asking
+whether addition or subtraction is the more important
+process in arithmetic ? But at the same time much
+difference in difficulty may exist between a direct and
+inverse operation ; the integral calculus, for instance, is
+almost infinitely more difficult than the differential cal-
+culus of which it is .the inverse. It must be allowed
+that in logic inductive investigations are of a far higher
+degree of difficulty, variety, and complexity than any
+questions of deduction ; and it is this fact no doubt which
+has led some logicians to erroneous opinions concerning
+the exclusive importance of induction.
+Hitherto we have been engaged in considering how

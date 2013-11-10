@@ -1,0 +1,35 @@
+THE LAW OF ERROR. 441
+If any case should arise in which the observer knows
+the number and magnitude of the independent errors
+which may occur, he ought certainly to calculate from the
+Arithmetical Triangle the special Law of Error which would
+apply. But the general law, of which we are in search,
+is to be used in the dark, when we have no knowledge
+whatever of the sources of error. To assume any special
+number of causes of error is then an arbitrary proceeding,
+and mathematicians have chosen the least arbitrary course
+of imagining the existence of an infinite number of in-
+finitely small errors, just as, in the inverse method of
+probabilities, an infinite number of infinitely improbable
+hypotheses were submitted to calculation (p. 296).
+The reasons in favour of this choice are of several
+different kinds.
+1. It cannot be denied that there may exist infinitely
+numerous causes of error in any act of observation.
+2. The resulting law on the hypothesis of a large finite,
+or even a moderate finite number of causes of error, does
+not appreciably differ from that given by the hypothesis
+of infinity.
+3. We gain by the hypothesis of infinity a general law
+capable of ready calculation, and applicable by uniform
+rules to all problems.
+4. This law, when tested by comparison with extensive
+series of observations, is strikingly verified, as will be
+shown in a later section.
+When we imagine the existence of any large number of
+causes of error, for instance one hundred, the numbers of
+combinations become impracticably large, as may be seen
+to be the case from a glance at the Arithmetical Triangle
+(p. 208), which proceeds only up to the seventeenth line.
+M. Que tet, by suitable abbreviating processes, succeeded
+in calculating out a table of probability of errors on the

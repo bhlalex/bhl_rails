@@ -1,0 +1,34 @@
+MORENO. — ON RULED LOCI IN W-FOLD SPACE. 155
+The equations of the locus of the intersections of r consecutive i^,_t's
+are found by eliminating the parameter from the equations
+case we come
+This gives a restricted system equivalent to rk — 1 independent equa-
+tions. The locus is an {n — rh ^ 1 )-spread ruled by the i^„_ri's, it is an
+r-tuple spread on »S'„_4_^i.
+There are k cases according as « = (mod ^•), n = 1 (mod Ic), . . . ,
+n = yl- — 1 (mod k). In the first case we come finally to a curve Sx
+which is an ( , j -tuple curve on ^S^.^+i. In the second
+down finally to a system of lines F^% which are generators of a ruled
+surface S.^. In the last case we come down finally to a ^'-spread ruled by
+{k — l)-flats. There are on Sj^ in general special points where two con-
+secutive -F/,._i's intersect.
+13. Multiple loci on the spread; mutual relatiotis of the system of
+spreads.
+»S^,_i-i-i has on it in general multiple loci that arise from the intersection
+of non-consecutive F„_,^'s. Any F„_,, intersects every other F„_f. in an
+(« — 2 k)-i\at ; there is in general a 2-fold infinite system of such
+(n — 2 Z,')-flats constituting a double (71 — 2 k + 2)-spread 2„_2i+2 on
+S„_^^i. Evidently S,j_2k+i li^s on 2„_2t-i-2- -^"J three F„_iJs intersect in
+an (n — 3 Z,')-flat ; there is a 3-fold infinite system of such (?^ — 3 ^)-
+flats, they constitute in general a triple (n — 3 ^' + 3)-spread 2„_3i.|_3 on
+'S,i-k-+i- '^n-3k-+i I'^s on ^nsk+r,' ^"7 '" consccutive F„_f.'s intersect in an
+(« — r ^)-flat ; there is an r-fold infinite system of such (n — r ^^)-flats
+in general, constituting an r-tuple (n — r k + r)-spread 1„_^f.^^ on -S^.^.+i,
+on which lies S„_y,^_^i.
+Finally the locus of the intersection of any a F„_i.'s where a is the
+n
+greatest integer in j is an a-tuple [n — a (k — l)]-spread 2„_a,j_i, on
+iS„-i:+i ; it is ruled by the a-fo!d infinite system of (n — a ^)-flats.
+The question arises, When, in general, do these double loci cease to
+exist? The double spread is in general an (w — 2 ^ -|- 2)-spread 2„_2i4.2.
+To have a continuous locus of double points we must generally have

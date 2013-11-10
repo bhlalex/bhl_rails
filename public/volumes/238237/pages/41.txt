@@ -1,0 +1,25 @@
+40
+HAYES— DETECTION OF SUBMARINES.
+be towed astern from a moving boat at any desired distance. In
+principle it is an electrical copy of the M-V Tube above described.
+Two lines of twelve equally spaced microphone receivers are con-
+nected through a multiple unit electrical compensator to a head set
+■*-- ■;-
+Plate XYI. The twelve-spot microphone eel and cable reel.
+of two carefully matched telephone receivers. The microphone re-
+ceiver developed for these lines is fully as sensitive as the " rat" and
+gives a more faithful reproduction of phase, a requirement for re-
+ceivers used in multiple. The construction of this receiver is shown
+in Plate XV.
+Each line of twelve receivers is housed in a flexible gum rubber
+tube which is stopped at either end by properly streamlined forms.
+A line of receivers so housed is called an eel. Electrical connection
+between the receivers and compensator is made through a 14-con-
+ductor cable which can be payed out or in from a specially designed
+reel without breaking the electrical circuits. Plate XVI. shows the
+eel with its cable and reel. Plate XVII. shows the Type AE-2
+electrical compensator, used to compensate the receivers in the eel.
+The U-3 Tube consists of two similar eels towed abreast, each
+by its own separate cable. The eels, because of their flexibility, do
+not skid when eddies or cross currents are encountered and thus
+keep their relative position without the use of a spreader. Their

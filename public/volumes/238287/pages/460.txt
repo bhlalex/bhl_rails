@@ -1,0 +1,48 @@
+448 0?i Refraction*
+found that his correction for the thermometer was a littid
+over- rated ; and accordingly, for his new table, altered it
+to Vr * or eacu degree. And here it may be observed that
+La Caille did not correct his altitudes above 36° at Paris,
+and 30° at the Cape ; first, because he only noted the baro-
+meter and thermometer in the night, when he observed
+stars below 30° of altitude. Secondly, because, that at 36 }
+of altitude, where the mean refraction is about !•£■ minute,
+the variation which belongs to 10 degrees or' the thermo-
+meter only amounts to 3£ seconds ; a quantity about equal
+to the limits of the errors of observations made with an in-
+strument of six feet.
+The formula given byEuler* appeared also about this
+time. It took into account the variation of the refraction
+depending upon the thermometer and barometer, but was
+certainly too complicated to be generally adopted. He shows
+however, that in very different hypotheses the refraction
+will be sufficiently exact, if taken in the inverse ratio of the
+degrees of heat, when the star or planet is not too near the
+horizon, but the precise quantity of this ratio was unknown
+to him.
+In this state the refraction stood when Dr. Bradley took
+the subject into consideration, and began to find its quantity
+from his own observations. The rule which he adopted,
+although a very elegant one, he neither lived to complete
+nor to present to the world ; but it was published after his
+death by Dr. JMaskelyne f, and has commonly been used
+in England up to the present time. He found the mean re-
+fraction at 45° of altitude 57", and, that at all other alti-
+tudes it was equal to 57" multiplied by the tangent of the
+zenith distance, diminished by three times the refraction.
+Then supposing the mean state of the atmosphere to be at
+29*6 in. of the barometer, and 50° of Fahrenheit's thermo-
+meter, he made the true or corrected refraction equal to
+57 " x ,,(Z.D.~Sr) x b ^: x -ggl. where it is to be
+understood that the mass of air is supposed to increase in
+bulk T J- - for each degree of Fahrenheit's scale.
+A variety of experiments have been made at various
+times to ascertain the increase in bulk of a quantity of air
+represented by unity for a certain number of degrees of rise
+of the thermometer. The following is a list of some of
+them J : —
+* Mnj. de l'Ac dc Berlin, 1754, p. 131.
+f Pief. to 1st vol. of Obs. 1765. Phil. Tram. 1764 and 17S7, p. 157.
+Req. Tables, &c.
+f Sec La Landes Astr. 2241. 3d ed. Thomson's Chemistry, vol. i. p. 489.
+La Place's Mec. Ce!. vol. iv. p. 270. Phil. Trana. 1809, &c. &c.

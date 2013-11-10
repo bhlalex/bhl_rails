@@ -1,0 +1,40 @@
+RICHARDS. — SIGNIFICANCE OP CHANGING ATOMIC VOLUME. 7
+vai'iable affinities, au approximate idea could be obtained concerning
+the other from these data concei'ning atomic and molecular volume.
+A slight uncertainty is caused also by the possible varying intensity
+of the '• crystal-making tendency " which determines the structure of
+solids. The small differences caused by this uncertainty may be seen
+from the following typical calculation. If solid rather than liquid
+mercury had been chosen above, the atomic volume of the mercury
+would have become = 14.2 instead of 14.7, and the excess of
+14.1
+volume of the oxide would have been 5.2 instead of 4.7. These
+differences are unimportant compared with the larger values under
+consideration ; the precise state of the solids or liquids makes less
+difference than one would have supposed.
+Is there any direct method of determining either the mutual affinity of
+the two elements or the affinity of the metal for itself?
+Countless attempts to measure the former have so continually resulted
+in failure that many chemists are inclined to deny the existence of
+chemical affinity. The electrometric method suggested by Ostwald *
+clearly measures one of the ways in which chemical affinity may accom-
+plish work, but it is limited in application and only represents a small
+fraction of the possibilities. The thermal relations are complicated by
+well-known thermodynamic irregularities, and would be fully significant
+only at the imaginary absolute zero.
+The direct determination of the affinity of a substance for itself is an
+easier matter, for many of the properties of a single substance, such as
+volume, compressibility, tenacity, must be associated with this affinity.
+Let us seek to study these relationships more closely.
+If one could only be sure that all substances, when relieved of their
+self-affinity, would occupy the same volume, the atomic volume itself
+would be the simplest and most direct means of comparing this property
+in different substances. The smaller the actual atomic volume, the
+greater must be the self-affinity. Such an assumption would at first
+sight seem to be justified, for those elements which have the largest
+atomic volumes have the least inclination to remain in the elementary
+states. Deserting the elementary state means introducing other affini-
+ties, however ; hence the assumption would be unsafe.
+It has been already pointed out that compressibility, if measured over
+a wide range of pressures, might afford a clue to the extent of compres-
+* Ostwald, Tlie Chemometer, Z. phys. Chem. 15, 399 (1894).

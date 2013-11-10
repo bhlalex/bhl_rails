@@ -1,0 +1,47 @@
+398
+(modm). Die letzte Siimine ist dalier gleicli ^ . Hierans ergibt
+"=i L J
+sich leioht der Beweis.
+Für die Kla&senzahl H gebrauclieii wii- don l)ekaimten Ausdriick'):
+1 1
+// = - Urn (s—\) n
+X ,=1 p l_n(p)-»
+WO P alle Primideale des Unierkörpers k durchlaüft. Weiiii wir
+nnii die Siitze 9, 10 und Jl benutzen uihI die Factoren, welche sich
+beziehen anf dem System b^n = h^n == bu = .... = O, von den anderen
+Factoren absclieiden, so findet sich :
+1 f/' 1 (
+H = ^lim{s-1) n n /7 1 —
+a t=i 11=2 p 1 — p-* p \
+P
+Es ist hierbei angenommen dasz 6oi =^*i = ^n = ^^i = •
+Wir wissen nunmehr dasz:
+O ist.
+Urn {a — 1 ) n
+s=l p 1 -P'
+Weiter entwickeln wir jeden Faktor des dritten Produktes aiif
+bekannte Weise in einer üiRiCHLET'schen Reihe und multiplizieren
+all' diese Reihen. Das Ergebnisz ist:
+1 ?/'■ o»
+H= — Urn n 2
+X s=l 2=2 n:=\
+.^Om b i\ bii,
+Hierin setzt man
+6^"^.f'— 1 da
+und
+1 r_!_ i^'--=i^ i^v)
+und wenn man noch Gebrauch macht von der Gleichheit
+71
+wenn n ^^^ n' {mod m) :
+so findet man
+1 ?lr r
+H=—n
+iln=2j -
+F{x)
+dcV
+=<ijx (1 — ^"')
+o
+wenn man auszerdem den ersten Hülfssatz dieser § benutzt. Nach
+Zerlegung in Partialbrüchen kann man die Integration durchführen
+und findet dann :
+1) ,H". Satz 55 und § 27.

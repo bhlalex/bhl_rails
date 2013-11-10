@@ -1,0 +1,37 @@
+196 MUNROE-HOWELI^PRODUCTS OF DETONATION OF TNT.
+contact with air they will ignite and burn, though there may not be
+time for their complete combustion, hence the results of the detona-
+tion of TNT in air under ordinary pressure would be represented
+partly by the first expression and partly by the second.
+When the explosion takes place out of contact with air or oxy-
+gen in a confined space so that high pressures and temperatures are
+developed and maintained, the products first formed tend to dis-
+sociate or to react with one another to produce new associations so
+that, dependent on the primary reactions, the pressures and tem-
+peratures attained, and the rate of cooling, the kind of products,
+and the quantities of the several kinds of products will differ from
+those represented in (i) and (2). One such case may be repre-
+sented by the expression
+(3) 2QH,(NO,)3 -^ 12CO 4- 2CH, -f H, -f 3N, ■
+In practice TNT is exploded by a detonator, or, as in H.E. shell,
+by a primer and booster. Since TNT is less sensitive to detonation
+than dynamite, gun cotton and the better known high explosives it
+is advised that a No. 8 mercury fulminate, potassium chlorate de-
+tonator be employed to detonate it. Where " weaker " detonators,
+or those containing less than two grams of the detonant, have been
+employed to explode TNT in the open the explosive efifect of the
+latter has been less and the smoke given off was grey.
+In all cases detonators of some kind are used to explode TNT.
+They usually consist of copper capsules, which in the form of
+electric detonators are provided with copper leading wires and re-
+sistance bridges sealed in by sulphur plugs, and they are charged
+with determined weights of mercuric fulminate alone, or mercuric
+fulminate and potassium chlorate mixed, or mercuric fulminate and
+a tetryl booster, or with lead azide or other detonant, and on ex-
+plosion they will give rise to gaseous and other products which will
+be mingled with the products from the TNT itself. It is true that
+the weight of the charge of detonant is, as a rule, but a small frac-
+tion of the weight of the TNT charge detonated but in any precise
+investigation of the products of detonation of TNT the products
+from the detonator used should be taken into account.
+Although solid explosives, such as TNT is, when employed for

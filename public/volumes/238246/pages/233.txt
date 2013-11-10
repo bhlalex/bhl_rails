@@ -1,0 +1,35 @@
+31^6
+ergebeii ( inüd | eiiie gleiche Anzahl Snbstilutionei» des Körpers
+k. Unter die Zalileii voii U gibf es also mir eine Zalil, die
+I mod ) init /, congruent ist. Dies sei die ini Satze genannte
+V //'«• /
+Zalil. Wir zeigen weiier dasz die /";• erslen Potenzen dieser Zalil
+genun die Grnpi)e t'orinieren mil der die Tragiieitsgnippe mnltipliziert
+wei'den inusz nm die Zerlegiingsgrnpj)e zu ergeben. In k findet die
+folgende Zerlegung statt :
+WO ^^j von eiiiander verschiedene Primideale sind. Auf Grnnd des
+Satzes 2 ist die Zerlegungsgrnppe des Priinideals '^j
+'m ^j « • . . ■ ';
+\u\ Kör|)er K .stinunen diese Zahlen überein niit den im Satze
+genannten. Aus tier Zerlegnng von /, ini A", dem Satze 3 znfolge,
+ergibt sicli
+Die Snbstitutionen welche \\ iinverandert lassen, lassen audi l',i
+unverandert. Die im Satze genannten Zahlen geboren also zur Zer-
+legungsgrnp|)e. Ans Salz 69 von ,,H". ergibt sicli nun der vollstan-
+dige Beweis.
+II. Die Unterkörper des Kreiskörpers.
+§ 3. Bestimmnng tmd Eigenschaften aller Untergruppen von G.
+Wir deuten den Kreiskörper selbst weiter an dureli K. Zu jeder
+Untergruppe von (x gehort ein ÏTnterkörper von K^). Wir ziehen
+nur primare Unterkörper in unsere Betrachtungen hinein. Es hat
+dies keine Einschi-aidiung der x\.llgemeinheit zur Kolge '). Jede Unter-
+gruppe von G wird auf' folgende Art bestimint : *) Denken wir uns
+gegeben die Systeme der ganzen Zahlen :
+ff , . I
+n= 1,2, .... - wobei I . . (1)
+r
+O ^ 6o„ < 2 ; O <C 6»„ < i r/)^ ; O ^ bi„ < rp, ; . . .
+M ,H." Satz 125.
+») ,H." § 38.
+s) ,W." S. 77.
+*) ,W." § u

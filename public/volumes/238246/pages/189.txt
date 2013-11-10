@@ -1,0 +1,43 @@
+260
+in one and only one way in a series of k elementary affinors. An
+elementary affinor with the lower index i and the upper j is a quantity
+that is annihilated by all alternations A', l^ i, l^ 1 and by all mixings
+m a
+Mh, h^ Jj h^ 1. Such a quantity is also annihilated by all Ai and M^;
+m a
+it can arise from the application of U, Ai,Ai,Mj and Mj and it is
+m a
+invariant by application of \I, <^ij Ai , f^.y M,- and <^ij Mj. For a definite
+value of n (number of fundamental elements Q) all elementary affinors,
+for which the permutation number of the A contains permutation regions
+}> n, are zero.
+For p = Q e.g. the expansion is:
+_ __j^^'
++ 2bA,M,^l00AJf, + 8lA,M,-^2bA,,M,^A,,M,y
+Expansion of an elementary affinor in ordered elementary affinors
+of the first or of the second kind.
+Theorem II. Every simple alternation or mixing that is annihilated
+by all higher ones with the same number of permutation regions of
+more than one factor, can be written as the sum of multiples of
+ordered alternations or mixings with the same permutation number that
+contain in each of their regions only factors from the corresponding
+regions of the original alternation or mixing.
+Let us prove this first for an affinor :
+P P d ^' d ^
+m=p,gA n = ^uo ^v = (u,....u^)o(v,...v^)
+p
+When the first factor of m is no u, we may apply a p^\A, the
+permutation region of which contains this factor and ^,u. Then we
+p
+may write p^iAtn as the sum of /? + 1 terms, the first factor of
+p p
+only one of which (namely of m itself) is a v. Therefore m may
+be written as a sum of terms the first factor of which is u. When
+p
+now in one of those terms m, the second factor v precedes the
+second factor u, then we may apply a ^^lA, the permutation region
+p
+of which contains the two first v and the p — 1 last u. Then p^^Atni
+may be written as a sum of p-{-l terms in only one of which
+p
+(namely in m, itself) the second and third factors are v and which

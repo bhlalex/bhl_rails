@@ -1,0 +1,43 @@
+261
+p
+have onlj factors of ^.u in the region p. Therefore nii may be written
+as a sum of terms which are all ordered with respect to the first
+and second factors. Proceeding in this way we obtain a sum of
+perfectly ordered terms. In each of these terms the region p contains
+only factors u and the other region only factors v.
+P
+Now we consider the affinor m = ^u o ^v o ^w o . . . . with Q alter-
+nating regions of p , q , r etc. factors, p^q^r^ . . . , which may be
+annihilated by every alternation with Q alternating regions higher
+p
+than i,^c,r,...A. When e.g. the first factor of m is w, then we apply
+a p-\-iA, the permutation region of which contains w and ^u. As
+p p
+this p-{.iA annihilates m, m is a sum of terms all beginning with a
+u. Let now the second factor most to the left be e.g. a v, then we
+apply a p-^-iA, the permutation region of which contains the two
+first V and the p — 1 last u. Proceeding in this way we obtain a
+sum of terms which are all ordeied as to the position of the u
+with respect to the remaining factors. Now we continue with alter-
+nations ^,^^_|_i^, the region p of which always contains the u that are
+already ordered ; thus we obtain ordering of the v etc. until perfect
+ordering is reached. At each passage and therefore also in the final
+result the factors u of all terms remain in the region p, the v in
+the region q etc.
+We shall apply the theorem just proved to the elementary affinor
+. p
+J.Iu and we shall prove that the result is singly determined and
+identical with
+J.Iu = {'"'È\ijA^^^Mf^)u (32)
+the summation being extended over all ordered alternations and
+mixings, the number of which is just éy. For this purpose we use
+the wellknown property that the numbersystem of the permutations
+P is an associative system, which may be resolved into k "original"
+systems with d?. units. The units of such an original system may
+be chosen in such a way that
+\ Jps for q = r
+J^jq Jrs = W , ...... (33)
+I „ q:p£r.
+Such a system contains at the most öij idempotent principal units,
+the sum of which is the modulus of the system J.l. Let now for a
+definite value of / for any affinor v be ^Wif'^'v^^O where ^j^*'

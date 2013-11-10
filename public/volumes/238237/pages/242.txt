@@ -1,0 +1,37 @@
+STEADILY ALTERNATING CURRENT ON A LONG LINE. 333
+O^ records the initial current waves entering the line for the first
+few cycles after the switch 5 is closed. The voltage-recording
+oscillograph 0^ records simultaneously the wave form of the im-
+pressed e.m.f. The distant or receiving end B, is freed in Fig. 3,
+except that it is connected to ground through the high non-inductive
+resistance, ordinarily of 9900 ohms, in order to permit of operating
+the voltage-recording oscillograph 0^'. All three oscillographs are
+set into operation simultaneously, on closing the phase-selecting
+switch S, during about 8 cycles from the 60 /-' generator G, or for
+a duration of about %5 second ; and all three are recorded on the
+same photographic film 8.25 cm. (3^ inches) wide. In this manner,
+the voltage at each end of the line, and the current at the entering
+end, are recorded immediately after closing the line switch S.
+Alternating-Current Generator. — The a.-c. generator G, Fig. 3,
+was a 6-pole lo-k.v.a. alternator of the Lauffen type, designed by
+Prof. C. A. Adams, for the delivery of a nearly pure sine-wave
+e.m.f. At the time these tests were made, no other load was con-
+nected to the machine. It was driven by a directly coupled d.-c.
+iio-volt motor, of approximately 10 kw. continuous rating, rotating
+at approximately 1200 r.p.m. The current in the d.-c. motor field
+magnet was adjusted in the testing room, so as to maintain constant
+frequency. The frequency was measured in the testing room by
+mounting a stroboscopic disk on the shaft of the small synchronous
+motor, and observing this revolving disk, illuminated by a fixed
+incandescent lamp, through shts in the prongs of a stroboscopies
+fork on a telescope. Unless in such measurement, the frequency is
+held constant, the results are of little value.
+Oscillograph. — The oscillograph had three vibrators, in an elec-
+tromagnetic field common to all. The instrument was designed and
+constructed by Mr. H. G. Crane, at Harvard University. The
+bifilar vibrators had a working length of 12.5 mm., and were damped
+in castor oil. As the currents observed were of low frequency, the
+correction factors for frequency of the vibrators^ are insignificant at
+60'— ', and are omitted.
+'^ Bibliography 7.
+s Bibliography 39.

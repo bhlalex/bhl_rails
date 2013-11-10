@@ -1,0 +1,32 @@
+138 PROCEEDINGS OF THE AMEEICAN ACADEMY.
+The equation of tl^e locus of all the lines that meet the spread twice at
+(1) is A C^i = 0.
+From the analogy of three-fold space, this locus of lines is called the
+tangent {n — l)-flat to the {n — ])-spread, at the point (1).* At each
+point of an {n — l)-spread there is in general a unique tangent (n — I)-
+flat.
+A j9-spread is given by the equations,
+V=0,
+w=o,
+a restricted system equivalent to n — p independent equations. In a
+similar manner the equations of the locus of all lines that meet the
+jt)-spread twice at any non-singular point ( 1 ) are,
+A ?7i zzr 0,
+A Fl = 0,
+Since these equations are linear we may select any n — p that are inde-
+pendent and the rest are superfluous.! We have then a jo-flat which
+from analogy is called the tangent p-flat to the /^-spread at the point (I).
+At any point of a /(-spread there is in general a unique tangent p-^att
+We define a tangent r-flat at a given point of the jO-spread where
+r < p as an r-flat that lies in the tangent p-flat at that point and con-
+tains the point. If r > p, we define a tangent ?--flat at a given point
+as an r-flat that contains the tangent p-i\at at that point. The locus of
+tangent lines then to a />-spread is simply the locus of tangent jo-flats to
+the spread. The locus of tangent planes, 3-flats, . . . , (p — l)-flats is
+this same locus. If then there are developables that arise from a
+jo-spread, where 1 < /) their number is not so great as n — p — 1, for
+* This proof is given in Dr. Story's Lectures on Hyperspace.
+t Some of these equations may be satisfied identically ; this will be the case
+when (1 ) is a multiple point on any of the [n — l)-spreads, but not a multiple point
+on the /^-spread.
+I Dr. Story, Lectures on Hyperspace.

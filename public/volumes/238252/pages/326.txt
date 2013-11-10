@@ -1,0 +1,46 @@
+32 2 POPULAR SCIENCE MONTHLY.
+come down to us only slightly changed.* Hipparchus catalogue
+stood unique for a thousand years.
+An instance of his practical tact as an observer may be quoted. If
+a straight ruler be held up against the starry sky there will, now and
+again, be instances where its edge passes through three stars at the
+same time. Many such cases are recorded by Hipparchus. No one
+of the three stars can change its situation without detection, A sim-
+ple observation of the same sort at any subsequent time will at once
+exhibit any change that may have taken place in the interval between
+the two observations.
+The work of Hipparchus as a theoretical astronomer is as remarkable
+as his observing skill. The positions of the heavenly bodies are
+calculated by solving triangles, both plane and spherical. The doctrine
+of such solutions — trigonometry — was perhaps invented by him; at
+all events it was greatly developed and improved. Observations give
+the celestial longitudes and latitudes of planets at the instant of ob-
+servation. Their positions at past epochs, a month or a year ago, are
+given by preceding observations of the same sort. Where will Jupiter
+or Saturn be found in the future — a month or a year hence? It is
+necessary to invent a geometry of planetary motion that will account
+for all past and future motions; and this problem was elaborately
+developed by Hipparchus. We must recollect that his vast activity
+was exercised under conditions of the most discouraging kind. His
+best instruments were but rude; all sightings were made with the
+eye unaided by telescopes; he had only clepsydras (sand or water-
+clocks) to measure intervals of time; the Greek system of arithmetic
+in which his calculations were made was cumbrous in the extreme.
+What he accomplished is little less than astounding.
+From his theory of Epicycles Hipparchus was able to construct his
+tables of the sun and moon. The tables gave the particulars of the
+motion of these bodies and enabled predictions to be made of coming
+solar and lunar eclipses. It was sufficient for the purposes of the time
+to assert that an eclipse would occur on a certain day, about a certain
+hour of the morning or afternoon, and the tables were adequate to such
+predictions. His theory was sufficient ; it fulfilled all the tests applied
+to it. The motion of the moon was more complex than that of the
+sun, but it, too, was reduced to a sufficient order and important dis-
+coveries made. The elements of the motions of these bodies were not
+derived, as we to-day derive them, from continuous observations, but
+rather from observations made at certain critical times. For the
+sun the observations were made at the equinoxes and solstices. Six
+eclipses of the moon sufficed to give him the elements of the lunar
+orbit and the rate at which they were changing.
+* Our constellation figures are those designed by Albrecht Diirer on the
+star maps of StoeflBer and Heinfogel from the descriptions of Ptolemy.

@@ -1,0 +1,41 @@
+541
+be covered by the excitation, owing to the fact that the stimulating
+electrode is placed close to the auriculoventricular groove ! ).
+Whereas after the stimulus applied at 1, the ventricle responds
+to the excitation by a single ventricular systole, the result is quite
+different after the stimulus administered at 2. This finds an expla-
+nation in the fact that here the induction shock affects the auricles
+a little earlier. Whereas at 1 the stimulus affects the auricles a little
+after the summit of the 7 -deflection, at 2 it reaches the auricles
+a little before the summit of the 7-deflection. After an interval of
+7 6 sec. the ventricle does not now respond to the excitation by a
+single systole, but by a series of five connected systoles. From the
+electrogram-curves it can be seen that between the various electro-
+grams the string does not remain in the position of rest or does so
+only for a short time. This "Haufung" of extrasystoles is due to
+the fact that the excitation reaches the ventricle somewhat sooner after
+the preceding ventricular systole than the preceding time. Now when
+looking more closely at the electrograms of the "gehaufte" ventri-
+cular systoles, it appears that they are all different (the 2 nd and the
+4 th curve are most likely produced by partial systoles s )). We
+conclude, therefore, that the ventricle of the bled frog's heart can
+respond after an artificial auricular extra-systole to the applied
+excitation by a "Haufung" of extra-systoles, if only this excitation
+is applied early enough. An excitation that reaches the ventricle at
+a later moment produces a single premature ventricular systole.
+From the Pathological Laboratory of the
+April 1920. Amsterdam University.
+x ) The deflection of the signal downwards is caused by a closure of the primary
+circuit; these closure shocks are turned aside, so that the ventricular systole, the
+electrogram of which commences somewhat later, cannot be engendered by this
+closure. The electrogram succeeds the preceding one after an interval of lOy 2
+time units, so that it is retarded i 5 / 8 time units, in consequence of the brief pre-
+ceding interval after the previons ventricular systole.
+So the ventricle pulsates in this registration in the halved rhythm, except that
+a bigeminal group has manifested itself here. After the two shocks this halved
+ventricular rhythm is disturbed artificially.
+3 ) It might also be supposed that the ventricle had been directly stimulated by
+current loops. However 3 / 5 sec. is much too long for an electric latent time. So
+this supposition must be precluded.
+35
+Proceedings Royal Acad. Amsterdam. Vol. XXIII.

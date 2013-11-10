@@ -1,0 +1,36 @@
+114 THE PRINCIPLES OF SCIENCE.
+the quantities, and trying by preference functions which
+give a similar form of variation.
+(3) By deducing from previous knowledge the form of
+the function which is most likely to suit.
+Having certain numerical results we are always at
+perfect liberty to invent any kind of mathematical formula
+we like, and then try whether, by the suitable selection
+of values for the unknown constant quantities we can
+make iiigive the required results. If ever we fall upon a
+formula which does so, to a fair degree of approximation,
+there i^ a presumption in favour of its being the true
+function, although tin.ere is no certainty whatever in the
+matter. In this way I happened to discover a simple
+mathematical law which closely agreed with the results
+of certain experiments on muscular exertion. This law
+was afterwards shown by Professor Haughton to be the
+true rational law according to his theory of muscular
+action h .
+But the chance of succeeding in this manner is usuaUy
+very small. The number of possible functions is certainly
+infinite, and even the number of comparatively simple
+functions is so very large that the probability of falling
+upon the correct one by mere chance is very slight. Let
+the reader observe that even when we can thus obtain
+the law it is by a deductive process, not by showing that
+the numbers give the law, but that the law gives the
+numbers.
+In the second place, * we may, by a survey of the
+numbers, gain a general notion of the kind of law they
+are likely to obey, and we may be much assisted in this
+process by drawing them out in the form of a curve, as
+will be presently considered. We can in this way ascer-
+tain with some probability whether the curve is likely to
+h Haughton, 'Principles of Animal Mechanics/ 1873, PP- 444~45-
+Nature, 3oth of June, 1870, vol. ii. p. 158.

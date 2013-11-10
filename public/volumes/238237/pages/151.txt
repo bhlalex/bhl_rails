@@ -1,0 +1,57 @@
+206 MUNROE-HOWELL-PRODUCTS OF DETONATION OF TNT.
+6657 X .01832 = 121.96, 1 j.^^^^ ^^ ^^^^ ^^^g g^_
+6657 X. 02483 = 165.29, J ^ ^ ^
+plosive, in which 6657 = total pressure in gages in mm. of mercury,
+27'? X I ^."^
+.01832 = factor to reduce to 0° C. and 760 mm. pressure- ^ ^^
+273 X 20.6
+.02843 = factor to reduce to 0° C. and 760 mm. pressure ^ .
+287.25 X .158 X 1.2542 = 56.922 grams N in gases, in which
+287.25 = liters of gas in both gages at 0° C. and 760 mm.,
+1 5.8 = per cent. N in gas,
+1.2542 = weight of I liter of N at 0° C. and 760 mm.
+N put in gage 56709 grams
+N found in gases 56.922 grams
+Difference +-2I3 grams
+In order to compare directly the products of combustion from
+the explosive at different pressures, all of the gas analyses were
+computed free from the nitrogen in the residual air and that given
+ofif by the electric detonator. These results are given with each
+test and also in the summary in Table No. 2.
+Details of Tests.
+Test No.
+M — 2354
+P— 1834'
+Weight of charge 25 grams.
+Temperature of gage before shot 29° C.
+Temperature of gage after shot 29° C.
+Barometer, 728 mm.
+Observed gage pressure i.oi kg. per sq. cm.
+Gas Analyses.
+As Found in Gage.
+Calculated Free from N in Residual Air and
+Elec. Detonator.
+CO2
+Per cent.
+6.2
+.0
+Si-S
+26.1
+.2
+16.0
+CO2
+Per cent.
+6.4
+.0
+CO
+CO
+53-2
+H
+H
+26.9
+CH4
+CH4
+.2
+N
+N
+13-3

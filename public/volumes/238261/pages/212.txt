@@ -1,0 +1,143 @@
+HALL AND AYRES. — HEAT CONDUCTION IN IRON. ,295
+The " meau temperature " is the mean between the temperature of the
+upper stream upon entering the apparatus (as indicated by the ther-
+mometer Ti in Fig. 2), and the lower stream upon leaving * the apparatus.
+Neither of these temperatures was taken with great accuracy, aud any
+one of the mean temperatures given may be wrong to the extent of 0°.5,
+Date, 1897.
+Mean Temp.
+Ki
+A's
+K
+May 11
+21°
+0.1471
+0.1495
+0.1483
+" 13
+19°.6
+0.1489
+0.1558
+0.1524
+'' 15
+20°.4
+0.1503
+0.1511
+0.1507
+«' 18
+39°.l
+0.1485
+0.1489
+0.1487
+" 20
+40° .9
+0.1512
+0.1520
+0.1516
+" 25
+22°
+0.1522
+0.1515
+0.1519
+" 26
+40°.2
+0.1482
+0.1494
+0.1488
+" 28
+20°.6
+0.1533
+0.1507
+0.1520
+" 29
+35°.7
+0.1523
+0.1494
+0.1509
+June 7
+74°
+0.1421
+0.1309
+0.1365
+" 8
+72°.9
+0.1523
+0.1559
+0.1541
+" 21
+77°.3
+0.1382
+0.1400
+0.1391
+" 23
+2r.7
+0.1536
+0,1465
+0.1501
+" 26
+56°.2
+0.1506
+0.1407
+0.1457
+[July 1
+55°.5
+0.1741
+0.1443
+0.1592]
+[ " 2
+61°.6
+0.1584
+0.1188
+0.1386]
+[ " 8
+58°.5
+0.1564
+0.1425
+0.1495]
+" 23
+54° .2
+0.1518
+0.1487
+0.1503
+" 24
+57°.3
+0.1485
+0.1423
+0.1454
+'' 26
+28°.4
+0.1496
+0.1504
+0.1500
+[ " 30
+74°.6
+0.1368
+0.1588
+0.1478]
+Aug. 3
+56^5
+0.1427
+0.1441
+0.1434
+4
+27°.5
+0.1557
+0.1528
+0.1543
+" 7
+27°.0
+0.1519
+0.1515
+0.1517
+8
+59°.2
+0.1470
+0.1446
+0.1458
+Under K^^ are given values of the conductivity obtained from observa-
+tions made when the vrarmer stream ran above the disk. Under Ko are
+given values of the conductivity obtained from observations made when
+the warmer stream ran below the disk. A' is the mean of K^ and /iTo.
+In the calculation of the values here given, no account was taken of the
+* The temperature of the lower stream on entering the apparatus was not taken;
+but the change of temperature within the apparatus was slight.

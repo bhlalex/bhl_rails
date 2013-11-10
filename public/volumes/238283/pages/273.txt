@@ -1,0 +1,42 @@
+400 PROCEEDINGS OF THE AMERICAN ACADEMY.
+the compressibility of a compound contains too many possible variables
+to form at once the certain basis of exact reasoning ; and among elements
+only mercury, lead, copper, and iron in the uncertain form of steel, seem
+to have been even crudely stvidied.* The problem is moreover compli-
+cated by the fact that the coefficient of compressibility diminishes as the
+pressure increases.
+The work which is needed in order to compress a given substance to a
+given extent can only be computed accurately when the varying com-
+pressibility through the whole range is known ; and since the pressures
+involved in the present question are clearly many thousands of atmos-
+pheres, the precise solution of the problem seems to be a distant matter,
+although by no means impossible.
+By a process of approximation some light may be obtained, however.
+If one selects a single series of compounds, such as the chlorides, it is
+obvious that a large part of the compressibility throughout the series
+should correspond to the compressibility of the chlorine. In those cases
+where the compressibility of the metal is smallest, the change of volume
+would be due almost solely to the compression of the non-metal.
+In view of these considerations, the first approximation should be
+obtained by comparing the actual contractions taking place during the
+formation of amounts of substance containing the same weight of chlorine
+with the heat evolved in each case. The starting point in each case is
+liquid chlorine, having a molecular volume of about 50 (or an atomic
+volume of about 25) at 20°. The heat of formation of the chloride is
+usually given in tables of data as starting from chlorine gas, under
+atmospheric pressure ; hence the latent heat of evaporation and expan-
+sion of tbe chlorine should be subtracted fi"om the usual values in order
+to institute a precise comparison. f However, these quantities cannot be
+large in proportion to the heat of combination with the metal, and they
+* Landolt and Bornstein, Pliys. Cliem. Tab., pp. 268, 278 (1894). Unless
+otherwise stated, all data used in this paper were taken from this admirable book
+of tables.
+t The latent heat might be approximately calculated from the data of Knietsch
+(Landolt and Bornstein, p. 80 (1894)) as follows : —
+_ RT^dP 8.32 X (293.5)2 X 0-19 „„ ,^„ . , on r;
+^ ^ PdT ^ 6 (52 X 1 ^ ' -■ ' ^^
+kilojoules, between 20° and 21° C, for the evaporation of one gram-molecule. The
+wide deviations from the gas-law exhibited by chlorine render the calculation
+very uncertain. It is enough, however, to show that the value is relatively small.
+The heat absorbed on expansion must also be in doubt on account of the same
+deviations.

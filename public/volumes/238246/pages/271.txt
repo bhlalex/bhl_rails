@@ -1,0 +1,56 @@
+402
+F' ist dieselbe Fiiiictioii wie h\ iiuclidem in letzterer die Zalilen
+h dnrcli 2 — ban, \ 'Z* — "^*". 7i — ''^i'" • • ■ • crsetzt sind.
+Beweis: Wir faszen znerst den Fall ins Aiige wo keine der Zahlen
+b den Wert Null hat.
+Il K
+f = :e
+wenn k prini zii m ist, denn in dieseni Falie durchlauft uk zugleich
+mit n ein vollstandiges Restsystem [modm). Man folgert hieraus:
+2it7ikdi
+-1
+m
+F
+= 2
+n=\
+inkdi
+Wir multiplizieren nun mit é und nelunen die Summe iiber alle
+Werte von k welche <[ m und prim zu m sind. Weil keine der
+Zahlen b = O ist, findet man :
+F F' = 2:
+11=1
+2Tx(n-\-l)kdi „jjj
+k u=l
+27r(«+l)fcrf«
+k
+Es sei t der gröszte gemeinschaftlielie Teiler von 7i -\- 1 und m.
+Man kann alle Zahlen k, welche <^??i nnd prim zu ???, sind, (?/iOf/ ?/i/(;/)
+verteilen in — j-^r Mal die Gruppe der Zahlen welche <^ -j und
+fp
+cit
+111
+prim zu — sind. So findet man :
+' di
+mjd
+F.F'=zd :e
+<fi i'n)
+in{,i-{-\)k{
+(p
+:E e ^njd
+dt
+in welcliem Ausdruck k nun alle Zahlen durchlauft, welche <^
+in
+dt
+m
+und prim zu — sind. Die letzte Summe ist daher die Summe der
+^ dt
+m
+priraitiven ---te Einheitswurzeln ; intbige dessen erhalten wir:
+F F' = dip (m) 2
+dt
+(f
+\dt)
+f lil \ 111
+Nun ist fi f — ) nur dann nicht =0, wenn —nicht teilbar ist durch
+\dtj di
+eine Quadratzahl. Wir brauchen in obenstehender Summe also für 7i nnr

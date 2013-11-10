@@ -1,0 +1,44 @@
+42
+tlie curve coincides with the J"s of diminishing activity according
+to table 21. Between 7'= 120 and 7'= 230 there seems to have
+Figure 13.
+y
+0.6
+0.5
+9 T <? 9
+120
+230 300
+minutes.
+360 420 450 480 540
+been in the beginning another period of some decay, followed by
+a normal course from T^r 230 to 7'= 360.
+This peculiar type of curve, tirst a retardation and then again
+TABLE 21.
+r(minutes)
+y
+y (in 120 minutes after
+the time T)
+120
+0.255
+0.175
+230
+0.385
+0.130
+300
+0.465
+0.115
+360
+0.535
+0.08
+420
+0.53
+0.075
+450
+0.575
+0.08
+480
+0.585
+0.075
+540
+0.625
+0.075

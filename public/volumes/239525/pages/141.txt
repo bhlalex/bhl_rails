@@ -1,0 +1,38 @@
+208 PROCEEDINGS OF THE AMERICAN ACADEMY
+± 1, it indicates that the two corresponding values of tan o- are imagi-
+nary. The ambiguity in the determination of o- from its tangent is to
+be removed by taking it in that quadrant which permits the equation
+sin 2 a = 2 c sin (o- -\- /3)
+to be satisfied.
+Although all these roots will satisfy the equations with which we
+began this discussion, yet they do not all necessarily belong to the
+problem. The reason of this is, that the three equations are not a
+complete statement of all the conditions of the problem. If we denote
+by A the distance of the body, whose orbit we are determining, from
+the earth, we shall have
+A_j = r cos ( X o — v — A_i) + -R-i cos (X_ x — L_{),
+A = r cos (xo — Xo) + ^o cos (X — L ),
+A x =r cos ( X o + 7 — *i) + -#i cos ( x i — A)-
+The conditions of the problem demand that A_ x , A and A x shall be
+essentially positive. Hence, if any system of values of r, xo and rj ren-
+ders any of these quantities negative, it must be rejected. These re-
+jected solutions really belong to the problem when one or more of the
+quantities X_ x , X and X 2 are increased by 180°. In fact, on referring
+to the equations with which we started, we see they are not altered
+when any one of the quantities X is increased by 180°. The geometri-
+cal statement of the problem is more comprehensive than the applica-
+tion of it to the discovery of the elements of circular orbits. Instead
+of the above criteria for the rejection of solutions not applicable, the
+following, which is simpler, may be used, viz. that x always must lie
+in the angle between L -\- 180° and X which is less than 180°.
+This example is added for the sake of illustration : —
+Suppose in the case of Venus revolving about the sun we have these
+data,
+Wash. Mean Time. A L log R
+1869 Jan. 1.0 250° 22' 59".l 281° 24' 54".9 9.9926528
+" June 15.0 94 37 54. 9 84 33 34. 1 0.0069342
+" Nov. 27.0 292 3 21. 2 245 32 49. 3 9.9939666
+There will be found
+log a_! = 9.7048977 n , log a = 9.2497072, log a y — 9.8545925,
+log* =0.5426896, £ =324° 41' 4."52, 8 = 176°35' 15."25,
+loga =9.7678074 n , log b =9.3111404.

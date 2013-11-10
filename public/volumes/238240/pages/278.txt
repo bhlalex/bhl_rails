@@ -1,0 +1,37 @@
+ipii.] OF ELECTRICITY AND MATTER. 327
+proportional to its energy. I was able to show, several years ago,
+that, with certain limitations, this same result is true for any electric
+system.
+It may be said, then, to follow from what might be called ele-
+mentary electromagnetic principles, that the electromagnetic mass of
+an electric system is proportional to its electric energy. Now
+Hasenhorl, at Plancks's suggestion, I believe, had already shown
+that a similar result applied to radiant energy properly speaking;
+for he found that from known laws of radiation it followed that a
+hollow box, like that mentioned earlier, with perfectly reflecting
+walls, would, when filled with radiant energy, act as if it had added
+mass. That is, the pressure of radiation would be so changed by the
+increasing velocity of the box as to oppose the force causing this
+increase, and this inertia, this added mass, he found would be
+proportional to the amount of energy present. My proportionality
+constant agrees with his. Lewis, from a totally different point of
+view, has reached a similar conclusion.
+It is, as you know, one of the profoundest generalizations in
+modern physics that light and other forms of radiant energy are in
+reality all forms of electromagnetic energy. Hasenhorl's results,
+therefore, that confined radiant energy possesses mass, combined
+with the result obtained in connection with the bound energy sur-
+rounding electric charges, gives us the general result that all elec-
+tromagnetic energy, whether bound or radiant, possesses mass, and
+this mass is proportional to the quantity of energy present.
+You see that the concept of energy, although in some ways very
+illusive, is getting singularly definite and persistent. Since we see
+that electric mass is proportional to electric energy, the question
+naturally arises : How much of the mass of the electron is due to
+the electric energy surrounding its relatively enormous charge, and
+how much is the "ordinary mechanical mass" of its body proper?
+We have a means of distinguishing between the two masses, for
+the electric mass does not remain constant when the velocity of the
+charge becomes great. Electrical laws tell us that it increases, very
+slowly at first, then more rapidly, and that as the velocity of light
+is approached it becomes very great. Of course, in ordinary me-

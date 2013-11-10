@@ -1,0 +1,92 @@
+RICHARDS AND LEWIS.
+ZINC AND CADMIUM AMALGAMS.
+97
+h = —.04895. Therefore Q = —2255. That is, a gram atom of zinc
+(65.4 grams) takes up 2255 gram calories iu dissolving iu 6500 grams
+of mercury, or to greater dilution.
+This method of determining thermal quantities is evidently one of
+great accuracy and convenience in cases where it is applicable. The
+data concerning the heats of amalgamation of zinc and cadmium which
+have previously been obtained are meagre. With these, however, the
+present results are in agreement. Thus Obach* found a cooling effect
+when zinc was amalgamated, a warming when cadmium was amalgamated.
+P'uvre t found for the heat of solution of amalgamated zinc 39.43 Kg-
+cal., for that of pure zinc 37.34 Kg-cal. The difference between the
+two represents the heat of amalgamation of zinc or — 2100g-cal. The
+agreement of our result — 2255 with this is striking.
+The difference iu potential between the solid metal and its saturated
+amalgam should be emphasized. It is often stated that the potential of
+TABLE V. Zinc veksds Amalgam.
+t
+E (Obs.)
+E (Calc.)
+1
+30.0
+(a)
+.01175
+(b)
+.01160
+.01165
+2
+0.0
+.005701
+.00560t
+.005651
+3
+30.0
+.01 not
+.OllGOt
+.011651
+4
+36.2
+.01285
+.01289
+5
+34.5
+.01270
+.01200
+.01255
+6
+32.6
+.01230
+.01215
+.01217
+7
+30.0
+.01170
+.01160
+.01165
+8
+28.0
+.01125
+.01120
+.01125
+9
+26.6
+.01095
+.01085
+.01097
+10
+26.7
+.01100
+.01085
+.01099
+11
+23.8
+.01045
+.01030
+.01011
+12
+15.7
+.00885
+.00870
+.00879
+13
+16.0
+.00890
+.00875
+.00885
+* Jahn, Grundriss der Elektrocheniie, p. 8.
+J These values were taken as the basis of the formula.
+VOL XXXIV. — 7
+t Ibid.

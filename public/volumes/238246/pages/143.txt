@@ -1,0 +1,40 @@
+202
+hence S{1). Evidently 47r/ lias been taken for ((. Now equation
+(6) passes into -.
+00 00
+cp (a;) = 4 Cc (/) cos 4jr Lv dl ^ 4 fs (/) mi 4 t Ix dl
+(7)
+Accordingly the function (f{x) will he known, when we know C
+and aS' as functions of /, hence when we can determine C and aS
+experimentally for every value of /.
+Data to attain this may be derived from "the curve of visibility"
+of MiCHELSON, whose coordinates he defines as V =—_ — '- — - — '(in
+'J max. I ^viin.
+which Jmnr. ^^'d Jmin. represent the intensities in the successive maxima
+and minima of the system of interference fringes). It appears from
+(4) that F is a function of C{1) and *S(/) ; when we assume V{1)
+to be sufficiently accurately known fron) |)hotometric observations,
+we have at our disposal a relation between 6'(/) and aS(/), but without
+more data we cannot determine these quantities separately. Only
+in a few simple cases which contained a second condition concerning
+Cil) or S{1) has Michei.son derived the form oï (f{-v) from that of V{1).
+The aim of our investigation is to find a means through which
+it is possible to find a second relation between C{1) and *S(/) in
+any given case, and which therefore enables us to solve (f{x).
+In equation (4) we can think J{1) experimentally determined
+for a given value of /. Also 1 cp{x)dx can be measured, this is viz.
+— a
+the intensity that one of the beams causes in the middle of the
+field of vision, when it is not brought to interference with the other.
+In order to determine this quantity we have, therefore, only to cover
+one of the mirrors. Hence equation (4) can be considered as an
+equation with two unknown quantities C and *S', to be token for
+that value of / for which ,/ has been measured.
+We shall have to find a second equation between C and /S for
+the same value of / to be able to solve both quantities. This
+means will fail, however, when in the second equation C' and *S
+appear combined in the same way as in equation (4), accordingly
+when they are again derived from I r/ (.f) cos ^ jt I {m -\- x) tlv ,
+— a
+in which a variable parameter is meant by /, which need not have
+the same physical meaning as just now.

@@ -1,0 +1,37 @@
+THEORY OF APPROXIMATION. 97
+the scale of a balance. How do we know that two pound
+weights together will weigh twice as much as one \ Do
+we know it to be exactly so 1 Like other results founded
+on induction we cannot prove it certainly and absolutely,
+but all the calculations of physical astronomy proceed
+upon the assumption, so that we may consider it proved
+to a very high degree of approximation. We may, in fact,
+assume with much probability that bodies gravitate in
+entire independence of each other. Had not this been
+true the calculations of physical astronomy would have
+been almost infinitely more complex than they actually
+are, and the progress of knowledge would have been
+vastly slower.
+The science of the spectrum again is much simplified by
+the fact that elements do not apparently interfere with
+each other in the production of light. The spectrum of
+sodium chloride is the spectrum of sodium superposed
+upon that of chlorine. Were it otherwise, we should
+have as many distinct spectra as there are distinct com-
+pounds in chemistry, and the subject would be almost
+hopelessly complex. The spectrum of a substance would
+then no more enable us to tell its components than the
+appearance of a new mineral indicates its composition.
+But it would probably be too early to assert the entire
+absence of any joint spectra. There is so much yet
+unexplained in the subject that some effects due to the
+mutual action of elements may possibly be discovered,
+and the independence will then be only approximate.
+It is a general principle of scientific method that if
+effects be of small amount, comparatively to our means of
+observation, all joint effects will be of a higher order of
+smallness. and may therefore be rejected in a first ap-
+proximation. This principle was distinctly employed by
+Daniel Bernouilli in the theory of sound, under the title of
+' The Principle of the Coexistence of Small Vibrations.'
+VOL. II. H

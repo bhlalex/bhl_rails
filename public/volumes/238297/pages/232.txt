@@ -1,0 +1,36 @@
+206 THE PRINCIPLES OF SCIENCE.
+of m things may be chosen out of a total number of n
+things, in a number of combinations denoted by the formula
+n. (n-i) (n-2) (n-%) . . . . (n-m+ T)
+1.2.3.4 .... m
+The extreme importance and significance of this formula
+seems to have been first adequately recognised by Pascal,
+although its discovery is attributed by him to a friend,
+M. de Ganieres/ We shall find it perpetually recurring
+in questions both of combinations and probability, and
+throughout the formulae of mathematical analysis traces of
+its influence will be noticed.
+The Arithmetical Triangle.
+The Arithmetical Triangle is a name long since given to
+a series of remarkable numbers connected with the subject
+we are treating. According to Montucla g * this triangle is
+in the theory of combinations and changes of order, almost
+what the table of Pythagoras is in ordinary arithmetic,
+that is to say, it places at once under the eyes, the numbers
+required in a multitude of cases of this theory/ As early
+as 1544 Stifels had noticed the remarkable properties of
+these numbers and the mode of their evolution. 11 Briggs,
+the inventor of the common system of logarithms, was so
+struck with their importance that he called them the
+Abacus Panchrestus. Pascal, however, was the first who
+wrote a distinct treatise on these numbers, and gave them
+the name by which they are still known. But Pascal did
+not by any means exhaust the subject, and it remained for
+James Bernouilli to demonstrate fully the importance of
+the Jigurate numbers, as they are also called. In his
+treatise De Arte Conjectandi, he points out their appli-
+f ' CEuvres Completes de Pascal' (1865), vol. iii. p. 302. Montucla states
+tlie name as De Gruieres, 'Histoire des Hathdmatiques/ vol. iii. p. 389.
+e 'Histoire des Math&natiques/ vol. iii. p. 387.
+h Leslie, ' Dissertation on the Progress of Mathematical and Physical
+Science,' Encyclopaedia Britannica.

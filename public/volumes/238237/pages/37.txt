@@ -1,0 +1,18 @@
+34
+HAYES— DETECTION OF SUBMARINES.
+Sound from receivers i, 2, and 3 can be brought into phase at A
+by rotating the groove to a proper position with respect to the fixed
+openings i, 2, and 3. At the same time the three receivers of each of
+the other three groups will be brought into phase at the points B, C,
+and D respectively.
+/yf/
+N<i.lPL£
+■ifr y^ £ ^y/=£- H (? .
+o /^7=>£ /~/ s,/=! Tore
+Plate XIII. Principle of Type-H compensator.
+Sound from points A and B are conveyed through two fixed
+grooves of equal length in the lower plate to another compensating
+groove in the movable plate, the sound from B passing around the
+end marked X and that from A passing the end marked Y. Both
+sounds unite in a single path at E. The sounds from C and D are
+similarly united in a single path at F.

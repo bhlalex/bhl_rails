@@ -1,0 +1,106 @@
+92
+supposition the photosphere radiates as an absolutelj black body, so
+that Planck's formula may be applied, according to which ^) :
+7.211x10*
+(5)
+/; =
+2.1563X2890
+/^ 10 '^-1
+The quantities /; from the table are expressed in an unknown unity.
+When we consider this unity and T as unknown quantities, then
+7' can be solved from two values of /;, (for -?., and /, e.g.).
+If our basis is correct, we must find ike same temperature from
+all combinations m pairs of /;..
+Defant calculates T from the combinations
+/, = 0.5 h = 700
+;i„ = 0.9 J;, = 180
+T = 8900°
+and
+;.j = 0.6
+X.z=z 1.2
+7; — 350
+/;= 90
+T = 8700°
+and considers the agreement "genügend". (loc. cit. p. 517).
+TABLE II.
+Wavelength A
+1 + 0.0405 A-4
+6(0,0)
+i).
+I)
+0.323
+4.721
+0.299
+144
+481.8
+0.386
+2.824
+0.479
+338
+705.7
+0.433
+2.152
+0.593
+456
+769.5
+0.456
+1.937
+0.644
+515
+799.8
+0.481
+1.757
+0.682
+511
+748.9
+0.501
+1.646
+0.710
+489
+688.7
+0.534
+1.498
+0.737
+463
+628.1
+0.604
+1.304
+0.816
+393
+500.2
+0.670
+1.201
+0.853
+333
+390.5
+0.699
+1.170
+0.864
+307
+355.2
+0.866
+1.072
+0.903
+174
+192.8
+1.031
+1.035
+0.918
+HI
+120.9
+1.225
+1.018
+0.926
+77 6
+83.8
+1.655
+1.0054
+0.931
+39.5
+42.4
+2.097
+1.002,
+0.932
+14.0
+15.0
+^) The constants are those used by Defant.

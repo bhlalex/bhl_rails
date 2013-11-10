@@ -1,0 +1,46 @@
+Grant & Day: Transfers from Gilia 379
+Comments on the Segregation of the Genus Aliciella
+The splitting off of subgroups as segregate genera can go too far. Where should
+we draw the Une? Segregating subgroups out of a genus in order to reduce polyphyly
+is one thing: splitting the branches of a single monophyletic group into separate genera
+is something else. The first action is necessary for phylogenetic taxonomy; the latter
+type of change is unnecessary from a phylogenetic standpoint. Furthermore, the
+splitting up of a heterogenous, but monophyletic genus into two or more separate
+genera is generally undesirable taxonomically since it obscures the relationship
+between the branches.
+Porter (1998a) has recently segregated the genus Aliciella from Gilia proper.
+Aliciella sensu Porter corresponds to Gilia sects. Giliandra and Gilmania (Figure 3;
+Grant 1999). In a second paper. Porter (1998b) elevates the section Giliastrum of
+Gilia to a separate genus. Porter's stated reason for the changes made in both papers
+is to reduce polyphyly in Gilia. Thus, Porter has the same goal as we do, but arrives
+at a very different result.
+Porter is an exponent of molecular cladistics, whereas our work is carried out in
+the framework of traditional taxonomy and evolutionary systematics. The two
+approaches are very different, and they lead to disagreement regarding phylogenetic
+classification of Gilia. Molecular cladistics emphasizes the diagnostic value of single
+DNA segments, and it processes the DNA evidence by the procedures of cladistics to
+produce cladograms. The cladograms are often misconstrued in practice as organismic
+phylogenies (see Grant 1998). Traditional and evolutionary systematists have learned
+from long experience to beware of overemphasis on any single character; we stress the
+importance of using all available characters to construct classifications and infer
+phylogenies. The best use of DNA evidence in systematics, in our opinion, is to
+integrate it with all other types of evidence, rather than to overgeneralize from a
+molecular cladogram (Turner 1998; Grant 1998).
+Porter's (1998a) segregation of Aliciella from Gilia is based primarily on the
+molecular cladogram for nrDNA ITS (Porter 1997). Supplementary evidence comes
+from Johnson et al.'s (1996) work on the cpDNA gene matK, but these authors
+assayed only three of the twenty species belonging to Aliciella sensu Porter. Porter
+(1998a) cites other lines of molecular and morphological evidence (Porter 1993;
+Tommerup & Porter 1996). However, the role of this supplementary evidence is
+difficult to assess since it is unpublished (as of this writing), one reference being a
+dissertation and the other a lecture abstract, and the data are not summarized in the
+1998 paper. Porter (1998a) does give detailed morphological descriptions of the
+species; but he does not present parallel short diagnoses of the main groups involved,
+which would be more helpful than descriptions in revealing the morphological
+characters used in the classification.
+In addition to setting up Aliciella as a genus. Porter recognizes three levels of
+infrageneric groups; subgenera, sections, and subsections. Each one of these groups
+from genus to subsection is defined in cladistic terms. Here is the definition of section
+Giliandra of Aliciella. "Section Giliandra is phylogenetically defined as the most
+recent common ancestor of Aliciella pinnalifida and A. stenothyrsa and all of the
+descendants of that ancestor." {Porter i998a, p. 27.). Parallel definitions are given

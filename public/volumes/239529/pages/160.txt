@@ -1,0 +1,41 @@
+223
+soient finies et non pas (condition ^4) tonjours égales et finies.
+Si F vérifie la condition (A), on montre par nn raisonnement analogue
+an precedent, que si en tout point de P, \f{0)\ est inférieur a un
+nombre jixe C, on pent trouver un nombre positif i] tel que, si »(•(#,?;)
+est Ie maximum de \ R(8m)\ pour \u\ <^rj, il existe une portion l\ de
+P en tout point de laquelle i\\6,ii) <C C. L'liypothèse opposée, que
+toute portion de P conlient, qnelque soit i\, des points 6 oü if'(^.'i) — C,
+en train e \f{8,\>C en certains points de P. Toute portion de P
+donne lieu au même énoncé que P lui-même.
+Nous allons appliquer les propositions précédentes a diverses
+categories d'ensembles parfaits P, en supposont que F vérijie les
+conditions {A) et (B).
+Prenons d'abord pour P un segment continu ap. li'ensemble
+K relatif a P est non dense sur P. Done, dans tout segment S
+situé sur «/?, existe un segment s', ou «'/?', oü K ne possède aucun
+point. Alois, pour tons les points de s', \\)(&i est inférieur a un
+même nombre A. 6 et 6 -\- h étant deux nombres quelconques
+intérieurs a s', posons h„ = — . D'après tf> [6) et if? (6 -\- h„) <^ A, F
+a une dérivée au point 6. De plus, d'après la formule (9j oü « = 2 (et
+dont la demonstration se simplifierait extrémement avec les valeurs
+considérees de h„),
+F(6 + h) — F(d)
+Q (#, h) - — 1 L_' = <f{0) -f 40^ Ah.
+h
+En échangeant les röles de 6 et de 6 -J- h, on trouve
+Q {<p + A, — h) = —Li - V - ; = (p {d f h) + ÏOd'Ah. ('V s ', d> < 1).
+< p [d -f h) — < P (6)
+Par consequent est borne sur 1 intervalle aft.
+h
+Done la fonction (p(6) est continue sur s' et a ses nombres derives
+bornés. Elle possède, sauf éventuellement sur un ensemble de
+mesure nulle de valeurs de 6 comprises entre a et /i', une dérivée
+qui, constituant pour F une dérivée seconde, ne saurait être autre
+que f (6).
+Nous obtenons done ce premier resul tat important:
+IV L' ensemble des points de non existence ou de discontinuité de
+la dérivée de F (6), est non dense sur Ie continu.
+2°. L' ensemble des points autour desquels <p (&), dérivée de F (8),
+existe et est continue, et en lesquels <f (6) a pour dérivée f (#), cJ
+ensemble est partout dense sur Ie continu.

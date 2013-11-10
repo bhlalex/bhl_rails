@@ -1,0 +1,43 @@
+( 788 )
+It is clear that at least one of these formulae must be wrong and
+it does not seem doubtfnl to me that (1) is so. As is known, formula
+(1) has been found by van dek Waals by applying a correction to
+Clausius' original formula ^)
+jr ns^ —
+Pi=- r (3)
+,. V
+Now it is easy to shou' that this correction has been wrongly
+applied to (8). We caji do this without much difficulty either by
+making the original proof of Clausius for (3) applicable, taking into
+account the reasons which lead to the correction in question, or by
+making use of van dek Waals' reasoning for (1), which leads really
+to (3). For shortness I shall confine myself here to pointing out the
+mistake in the train of thought, which led van der Waals ^) and
+after him Koktewec; •') to the application of this correction. This
+reasoning is chiefly this. Fii-st it is demonstrated that formula (3)
+holds for a gas, the molecules of which are discs of the same diameter
+and nature as the spheres iji Cjuestion, which discs have further the
+property to take a position normal to the direction of their relative
+motion with regard to a molecule, with which they are going to
+collide. Then it is thns demonstrated that formula (3) must hold for
+spheres. (I derive this passage from the proof of Korteweg''), with
+which that of van der Waals agrees perfectly).
+"Now, however, the moment has come, to remove the incorrect
+hypothesis — introduced in § 3 — and replace the discs again by
+spheres. The consequence of this will not be that the nature of the
+collisions is changed, for any molecule M, which pursuing its way
+would have reached any disc, ^^'ill infallibly first reach the surface
+of the sphere, which we now put in its place. All the molecides
+will therefore strike against the same molecules, whose discs we have
+supposed to be cut by their centres; but all these collisions will lake
+place somewhat earlier, in other words, the paths will be shortened."
+From this shortening of the mean path follows the increase of the
+number of collisions, as this number is in inverse ratio to the length
+of path.
+That this reasoning has been able to deceive not only its inven-
+tors, but so many after them, is exclusively due to the and)iguous
+1) Pogg. 105, p. 239.
+~) Verslagen Kon. Ak. Afd. Natuurk. Tweede reeks, X. 321. Gonlinuitat 1899.
+p. 4.5 et seq.
+•^) Verslagen Kon. Ak. Afd. Natuiiik. Tweede reeks, X. p. 349.
+■^) ], c, p. 355.

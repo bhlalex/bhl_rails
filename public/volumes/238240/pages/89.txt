@@ -1,0 +1,26 @@
+118
+BARUS— THE TRANSPIRATION OF AIR
+[April 21,
+lowering the swimmer, I'd, in the cohimn A. In this way constancy
+of temperature is secured throughout the cohmm.
+3. Barometer. — The apparatus is obviously useful for ordinary
+barometric purposes, and provided the temperature, t, of the air
+— M
+^^T
+A
+N— r
+Fig. I. Swimmer and appurtenances.
+at V, is known to .025° C, the barometric height should be deter-
+minable as far as .1 mm. Apart from this the sensitiveness of the
+apparatus is surprising. Care must be taken to avoid adiabatic
+changes of temperature, so that slow manipulation is essential.
+These and other precautions were pointed out in the original paper
+(/. c.)
+4. Equations. Manipulation. — Let // be the difference of level
+of the imprisoned water and the free surface in the reservoir R.
+Then it follows easilv that
+/ _L // P'- - J^^'J '^
+P. ~ S^I {i+mlM)-pJp'
+(0
+where // is the corrected height of the barometer (from which the
+mercury head ecjuivalcnt to the vaptn" pressure of water is to be

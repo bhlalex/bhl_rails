@@ -1,0 +1,33 @@
+558
+POPULAR SCIENCE MONTHLY.
+Fig. 1. Showing Methods of Air Supply and Ventilation.
+The fan, shown in drawing, is run by steam-engine (not shown) and draws
+the air upward, from the great chambers of the caverns, through the shaft A.
+By opening door C, also door R, the air can be forced through corridor M,
+directly to plenum F, as indicated by arrows marked 8^, and distributed through
+the rooms without passing through condenser. With door C closed the whole
+volume of air is drawn through condenser B before coming to the fan. Passing
+through the fan (door in partition at R being closed), the air passes through an
+auxiliary condenser D to plenum F, whence it is forced by pressure of the fan
+into all rooms. The air from plenum is forced through a heat chamber, over
+steam coil, in cold weather, thence through opening into the air supply pipe G
+and discharged into room H through a register just below ceiling of room. If
+room becomes too warm, the volume of warm air flowing in pipe G may be re-
+duced or entirely stopped, by pulling cord or chain suspended from the inflow
+register in room, thus moving valve in pipe G. The movement of this valve
+permits as much cool air to rise through a lower opening, as warm air is shut
+off by closing the opening from the coil, or heat chamber. Process last de-
+scribed may be traced by arrows marked 8. The outflow of air from rooms may
+be traced by arrows marked E. Air is forced from room H into vertical duct K,
+which is continued to top of building permitting air to escape outdoors. The
+air passes into, through and out of the rooms in volume equal to the filling of
+each room, in the building every five minutes continuously. In the summer
+there is, of course, no heat in the steam coils. The air drawn from the caverns
+being about 54 degrees, when forced into the building, cools the rooms to any
+degree comfort may demand, however intense the heat prevailing outside.
+At my first visit, in the fall of 1901, I saw demonstrated the re-
+markable volume in which the air enters and leaves each room without
+creating appreciable draughts, and the fact that the air is practically
+free from atmospheric dust. Tyndall (Lectures on Dust and Disease)
+has shown that if we darken the ordinary room and allow a streak of
+sunlight to enter, the condition of the atmosphere revealed is such that

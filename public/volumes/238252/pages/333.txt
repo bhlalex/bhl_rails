@@ -1,0 +1,46 @@
+THE PREDECESSORS OF COPERNICUS. 329
+calculations of phenomena could be made, not a physical explanation
+based on mechanical laws.
+The problems relating to the motions of the heavenly bodies are
+more complex and must be considered somewhat in detail. It is
+necessary to describe the observed phenomena for each body separately,
+and to adopt a system which will explain every phenomenon and
+appearance in turn.
+The Moon. — The facts of observation, familiar to us all, are that
+the new moon sets in the west about sunset, and that on every suc-
+ceeding night the moon sets at a later hour. It, therefore, moves to
+the east among the stars from night to night, which can readily be
+verified by observation. If the moon is near the stars of Orion on
+one night, it will be found many degrees to the east of them on the
+night following. It sets later and later every night throughout the
+month. If it is in the same longitude as the stars of Orion on any
+one day, it will be again in that longitude about a month (27 days)
+later (more exactly, 27^ 7^ 43°^ 11^.5). It has moved through the
+whole circuit of the heavens, 360°, in 27 days. Ptolemy explained
+the phenomena, as we explain them to-day, by asserting that the moon
+revolves in an orbit, about the earth as a center, making a complete
+revolution among the stars (from one star back to the same star again)
+in 27 days. Its motion among the stars is always forward — always
+from west to east.
+The Sun. — The observed phenomena with regard to the sun are of
+the same nature. If the sun rises at the same time as the bright
+star Sirius on a particular day of the year, on the next day it will rise
+later than Sirius. It has, therefore, moved a certain distance (about
+one degree) eastwardly during that day. On the next following day
+it will have moved about two degrees east of Sirius and will rise
+correspondingly later; and so on for each succeeding day. After 180
+days (six months) the sun will have moved about 180 degrees to the
+east of Sirius. Sirius will be visible on the meridian at midnight,
+(when the sun is 180° away from the meridian). At the end of 365
+days (more exactly, 365.2564 days) the sun will have moved eastward
+through 360° and will again rise at the same moment as Sirius. The
+sun, then, appears to move eastwardly among the stars (from one star
+back to the same star again) once in 36514 days. At different times
+of the year it is among different groups of stars, and it is for this
+reason, therefore, that we see different groups of stars at different
+seasons of the year. Orion is visible in the winter skies, Scorpio in
+the summer, because Orion and Scorpio are 180 degrees apart in
+longitude. Ptolemys explanation of all these phenomena is that
+the sun moves about the earth in a circular orbit at such a rate as to
+make a complete revolution in 3651,4 days. The explanation of
+Copernicus is that the earth revolves about the sun in the same period.

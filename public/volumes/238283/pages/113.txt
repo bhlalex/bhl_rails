@@ -1,0 +1,47 @@
+152
+PROCEEDINGS OF THE AMERICAN ACADEMY,
+In case n is even we have finally the (- j-tuple curve whose equations
+are found by eliminating the parameters from the equations,
+n-2
+n-4
+9X'''9fJi
+n-2 n-2
+9'^' A _ 9'^' A
+— ^, • • • t „-2 ■
+9 [X^
+n-2
+9'^' B
+n— 2 n— 2
+n-2 — ^' « 4 — *-'? •
+9X^'
+0,
+0.
+5 A ^ (9/x
+n
+The order of the restricted system is ~ (I + m — n + 2), the order
+of «Si.
+We find the equation of the double spread 2„_2 on /S',,^!, by imposing
+on the equations of the generating i^„_2 the conditions that they have two
+common roots in the parameter. These conditions are,*
+(H)
+a, h
+a, h,
+a', b>, c',
+«/, b',
+=
+where there are I -\- m — 2 rows and I -\- m — 1 columns. This is a
+restricted system equivalent to two independent equations ; the order of
+the system is h (l + rn — I) (I + m — 2). On 2„_2 must be aS„_3. We
+find the equations of 2„_3 by expressing the conditions that the equations
+of the generating flat have three common roots in the parameter.! The
+result is a restricted system similar in form to (II), in which, however,
+there are only Z + ?« — 4 rows and I + m — 2 columns. This restricted
+system is equivalent to three independent equations, and its order is ^
+{I -\- m - 2) (/+/« — 3) (I + m — 4).
+The equations of 2„_^ are found by expressing the conditions that the
+equations of the generating (n — r)-flat have r roots in common. By an
+extension of the previous method we derive a restricted system of the
+same form as (II), in which, however, there are only I + m — 2 (r — 1)
+rows and I -{- ?n — (r — 1) columns. This is a restricted system equiva-
+* Salmon, Higher Algebra, Art. 275.
+tibid., Art. 285.

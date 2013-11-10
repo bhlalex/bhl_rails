@@ -1,0 +1,35 @@
+806
+PROCEEDINGS OP THE AMERICAN ACADEMY.
+mi being the lowest degree of any term in Xi and z together, and
+F{xi^y^ z) including all terms of degree higher than m^ in the two
+variables Xi, z. Each coefficient p„ {v) ™ay be divisible by a power
+of y, y. In that case, however, m,i must be less than w, for the term
+in Xi'" is present in 4>i (xj, y, z).
+By means of a transformation with non-vanishing determinant,
+$1 can be thrown into the form :
+*i (xi, y, z) — <I>2 (xo, y, 20) =
+9o(y)a:2"'' + qi(y)xr-'^-2 + + g„n(.i/)-2"^ + ^2(^2, y, ^2) = (ri)
+where ^o (y) ^ 0.
+Consider first the points of the circle \y\ < h at which ^o (y) =■ ^5 if
+such exist. Each one of these points y^, (i = 1, 2, k) is a singu-
+lar point of ^2 = of order not greater than m, and its neighborhood
+l^il<f' \y-yi\<^> \^\<^
+may be chosen arbitrarily small.
+Surround each of these points in the
+circle \y\ = h hj A circle of arbitrar-
+ily small radius c'. We now proceed
+to consider the region about an arbi-
+trary point a of the circle \y\ < h not
+lying in any of the regions just cut
+out. Let
+yi^y — a
+and let 4>2 then be written in the form
+*2 (a;25 y^ ^2) = ^2 (a^2, yz, ^2) =
+70(^2)3^2'"' + 9i (^2) a^2"' ~' 2:2 -f + q„,^ (^2)^2"'' + ^2_0^2, ^2, ^2)
+= [xs'"! -F ri(y.^x.'"-^z.^ + -f r„.^ (3^2) ^2'"^ ^ (^^2) + ^2 (•-'^2,^2, ^2)
+= 0. ' (,6)
+3. Apply to the function ^2 the quadratic transformation
+X2 — 'l'3'^2-
+* Here, for the first time, a quadratic transformation of the type that trans-
+forms but a single variable is employed. Such transformations do not occur in
+Kobb's analysis. They appear to be indispensable.

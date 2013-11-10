@@ -1,0 +1,37 @@
+HAYES— DETECTION OF SUBMARINES. 9
+passes in through the rubber housing and attaches to the aluminum
+strip and a second lead in a similar way is attached to the tin-foil.
+These rubber-covered electric leads are both vulcanized to the
+rubber condenser-housing so as to give water-tight joints. The elec-
+tric charge held by the condenser, when a" battery is connected to the
+' two leads, depends, among other things on the separation between
+the tin-foil and the aluminum strip. The variation in hydrostatic
+pressure in a submarine sound-wave causes this distance to vary
+slightly when the condenser is placed in the water, thereby pro-
+ducing slight current fluctuations through the battery and leads.
+These current fluctuations can be carried through a telephone re-
+. ceiver and converted into sound at the listener's ear.
+The magnetophone and the electrostatic condenser give a more
+faithful reproduction of the sound than does the microphone, but
+they have the disadvantage of requiring an amplifier to increase
+their sensitivity. As a result only two types of receivers have been
+generally used — the microphone and the acoustic receivers.
+Requirements of a Submarine Detector.
+The requirements of a listening apparatus which embodies all
+that is desired may be stated as follows : It must be able to detect a
+submarine at considerable distance without interference, from noise
+produced by other shipping, or by wave noise, or by noise produced
+by the boat upon which it is installed. It should be able to give the
+distance and direction of the submarine accurately. It should be sea-
+worthy, of robust mechanical construction, convenient and rapid of
+operation.
+No instrument has been devised that satisfies all of these re-
+quirements. In fact no single instrument can give the distance of
+the submarine. The other requirements have been fairly satis-
+factorily met. These instruments are being continually improved,
+but even in their present state they give results far beyond what was
+considered probable or even possible at the time the developmental
+work was first started.
+Determination of Direction.
+Maximum and Minimum. — A submarine receiver can be made
+more sensitive to sound coming from certain directions with respect

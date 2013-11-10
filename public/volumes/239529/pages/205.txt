@@ -1,0 +1,46 @@
+2<f
+1,35 X
+1
+298
+, hence r (o — l) 1 — 3 (1 — b) 6.
+^(Q-iy
+2(1-6')
+Now 1 -f~ T (p — iy may be written for the factor (1 -\- tq (q — 2)) I
+(1 — t) in (5) for small values of r, which in view of the above
+3 (1— b')ó
+approximated relation becomes 1 -\-
+0-1
+r
+Now o=r3(l— b') for small values of a. This being about 6,
+r — 1
+r
+2,5(1 — b) may be put for q — 1, so that we get approximately
+6 r— 1 ft
+1 -f- — o for the factor in question. Hence the factor 6 in
+5 r
+2 8 a r
+R T c = — — — — — X &, referred to in the first part of this paper,
+will evidently according to (5), when for d its value is substituted,
+amount to:
+2(r— 1)* 27
+6=— — ~X —
+(l—b')r % 8
+6 r — 1
+1 t r
+o r
+1
+3 -f £ r— 1
+2(1 — 6') r
+holding for very small values for as. Only a small value of r, e.g.
+r = l,5, satisfies this. If has then become =0, and b' = \/ t , 6
+becomes
+= 1
+i f 5 - (i-D
+while with r==l,5 (see the first part of this Paper in these Proceedings,
+§8, p. 278) S should be exactly =1. Possibly x is not small enough
+to justify the above approximations and the neglect of certain values,
+and then it is possible that r]>*3,5 drops out. But the calculations
+get very intricate then.
+At any rate the formulae (4), (5), and (6) contain the full solution
+of the problem put by us.
+La Tour pres Vevey, spring 1920.

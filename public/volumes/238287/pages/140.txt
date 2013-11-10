@@ -1,0 +1,48 @@
+12S On Crystallography.
+molecules, the three decrements must necessarily hare the
+same measurement.
+20. But if the decrement relative to the angle BCD is
+produced by more than one row, then the two others will
+necessarily be intermediate, and it will be sufficient to have
+the law of the first decrement for determining the two
+others. Let us suppose, for example, that the decrement in
+the angle BCD is made by three ranges in breadth. In
+this case Cm and Cr will each of them he equal to three
+ridges of molecules, and C c will be equal to one ridge.
+Therefore the decrement on the angle DCG is produced in
+such a manner that there are three ridges of molecules sub-
+tracted in the direction of CD, upon one alone in the direction
+of CG; and besides this decrement is made by. three rows
+in height, since Cr answers to three ridges of molecules,
+it is the same with the decrement which takes place on the
+angle BCG.
+21. In all cases of this description, the theory only con-
+siders the effect of the decrement which takes place accord-
+ing to the ordinary laws, because there results from it a
+much more simple solution; and the two other decrements,
+of which abstraction has been made, are considered as in-
+tervening in a subsidiary manner to second the effect of
+the first, and prolong towards the parts adjacent the face to
+■which it has given birth.
+-22. The greatest number of faces which the secondary
+crystal can have, in the hypothesis of a decrement on all
+the angles, is twenty-four, since there are eight solid angles
+each composed of three plane angles, which are the terms
+of departure of as many decrements. The minimum of
+the number of faces in the same hypothesis is eight; and
+although strictly speaking there are always twenty-four de-
+crements, we only consider eight, which gives us the fa-
+cility of employing ordinary laws only, for determining the
+form of the secondary crystal.
+23. The simplest case is that in which the generator pa-
+raliclopipedon being a cube, all the decrements are done by
+one row. The secondary solid isthen a regular octahedron.
+But it may happen that the three decrements which take
+place around one and the same solid angle are all inter-
+mediary. In this case it is sufficient that one of them be
+determined, in order to render it easy to conclude from
+thence the two others, by the help of a construction similar
+to that which we have previously employed.
+24. Let us suppose that fig. 5 represents the. generator
+parallelopipedon, marked with the letters relative to the
+method

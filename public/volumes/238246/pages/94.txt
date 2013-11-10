@@ -1,0 +1,39 @@
+123
+behaviour between metals and noii-metals. In this il is iiotewortliy
+that the diffei-ence in sokibility between the positive and tlie negative
+ions for tiie elements with exchisively metaHic resp. exclnsively
+non-metallic properties, is so great as to jnstifj ns in taking only
+positive resp. negative ions into acconnt in the coexisting solntion.
+F'or the intermediate amphibious elements as Iodine, Sulphur,
+Seleninm, Tellurium, Arsenic, and Antimony the existence of posi-
+tive and negative ions also in solntion, should certainly be taken
+into acconnt to obtain a deeper insight, and here lies still an exten-
+sive field to be studied more closely, led by the more recent views
+about the electromotive equilibria.
+FoInrisatio7i for non-metals.
+Wiien we indicate the non-metal by A', we may represent the
+formation of negative ions by the equation :
+Nn 4- nv6:^nN'' (6)
+Applying the well-known thermodynamic derivation for the poten-
+tial difference, we get :
+A = In—^ — . (7)
+vF (iV£')
+in which (iV'p) represents the concentration of the negative ions in the
+phase of which the electrode consists, this may be either a gas, or
+a liquid, or a solid phase. Starting from the electron formula:
+A = ^.n^l^ (8)
+F {Sl)
+which is general, because the electron is the common constituent
+part of all matter, we may substitute for {Oi) the value that follows
+from (6) for the liquid phase, applying the law of the chemical mass
+action; thus we arrive at the already known equation:
+RT K'{N )
+L=^^~ln ~ ....... (9)
+nvF (^^O»
+In order to study the polarisation phenomenon we cannot make
+use of equation (9), but we can use the newer equation (7). To get
+a good insight into this question it is desirable that we indicate the
+equilibria in the electrode completely ; accordingly we must also
+express the splitting off of electrons, and write therefore:
+XNn^,:^XnN''^-^ Xnvd^ ..... (6a)
+and

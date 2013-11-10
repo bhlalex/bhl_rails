@@ -1,0 +1,36 @@
+420 THE PRINCIPLES OF SCIENCE.
+Arithmetic mean 50 per cent.
+Geometric 41
+Harmonic 33
+In all calculations concerning the average rate of
+progress of a community, or any of its operations, the
+geometric mean should be employed. For if a quantity
+increases 100 per cent, in 100 years, it would not on the
+average increase 10 per cent, in each ten years, as the
+10 per cent, would at the end of each decade be calculated
+upon larger and larger quantities, and give at the end of
+100 years much more than 100 per cent., in fact as much
+as 159 per cent. The true mean rate in each decade
+would be l ^/2~ or about 1-07, that is, the increase
+would be about 7 per cent, in each ten years. But
+when the quantities differ but little, the arithmetic and
+geometric means are approximately the same. Thus the
+arithmetic mean of rooo and rooi is 1*0005, an d tne
+geometric mean is about 1-0004998, the difference being
+of an order inappreciable in almost all scientific or prac-
+tical processes. Even in the comparison of standard weights
+by Gauss' method of transposition the arithmetic mean may
+usually be substituted for the geometric mean which is
+the true result.
+Regarding the mean in the absence of express qualifica-
+tion to the contrary as the common arithmetic mean, we
+must still distinguish between its two uses where it
+defines with more or less accuracy and probability a
+really existing quantity, and where it acts as a mere
+representative of other quantities. If I make many
+experiments to determine the specific gravity of a homo-
+geneous piece of gold there is a certain definite ratio
+which I wish to approximate to, and the mean of my
+separate results will, in the absence of any reasons to the
+contrary, be the most probable approximate result. When
+we determine on the other hand the mean density of the

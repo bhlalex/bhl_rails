@@ -1,0 +1,42 @@
+Neiv Engine ior Ridiitg. 57
+this should involve a slightly heavier cut than that just named.
+Also it is material that the over-all threaded length of the bar
+should exceed by several inches the portion it is pro^Dosed to use in
+the finished screw.
+The thread " pitch " and " angle " should be appropriate to the
+work for which the screw is designed. The pitch value of the screw
+here described is 20 threads to the inch, a value convenient for sub-
+division, and the thread angle 50°, permitting of a somewhat deeper
+thread than the usual Whitwortli standard; both "crown" and
+" root " of the thread, previous to grinding, remained as left
+from the threading tool. The greatest care was taken so that the
+intersections of the thread walls with any plane through the axis of
+the screw should be straight lines — a precaution applying equally
+to the counterpart threads within the nut. Should the work for
+which a screw is being cut justify tlie expenditure of the time
+involved, it will pay to cut several screws at the outset, selecting two
+of the best for final grinding.
+(i.). — The. grinding nut . — For grinding his screw, Rowland, accord-
+ing to the Encyclopaedia article, appears to have made use of a brass
+nut constructed externally so as to taper from the centre towards
+-each end, and split longitudinally into four equal segments which
+could be fitted to the screw and held in position by means of
+sliding sleeves or collars adapted to the tapered ends of the nut.
+The opposing sleeves were connected with bolts and nuts, and could
+thus be drawn together as the work of grinding proceeded.
+Soine objection may be taken to the use of this form of nut for
+grinding a precision screw for the following reasons : — (1) The
+iise of a brass nut upon a steel screw has the disadvantage due to
+the wide difference in the coefficients of expansion of the two metals,
+as some heating will take place in the process of grinding. To
+avoid heating, the Avork ol grinding must either proceed very slowly
+or else be conducted under water or oil, which entails very serious
+disadvantages. Hence any gain from the use of brass, due to its
+superior action with abrasives upon a harder metal, is lost. (2)
+The division of a grinding nut into four segments appears to be
+faulty, in that it is possible for one or more sections to move
+.slightly in relation to the others providing, as is almost sure to be
+the case, there are periodic or other irregularities in the screw.
+While the method of tightening up the segments is likely to produce
+uneven pressure, so that one or more sections of the nut may do more
+than their share of grinding, even though the general trend of the

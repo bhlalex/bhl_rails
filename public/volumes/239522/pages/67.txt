@@ -1,0 +1,41 @@
+94 BRIDGMAN.
+quantities easily so that the A// values shoukl check, and the values of
+the tables are left with this error. This is the only substance for
+which the values have not been so adjusted as to check at the triple
+point. In the case of other substances the amount of necessary adjust-
+ment is so slight and is indicated so unambiguously, that the probable
+accuracy of the individual curves can only be increased by demanding
+that the necessary conditions at the triple point be accurately satisfied ;
+but here the error is great enough so that the precise direction in
+which the adjustment should be made is not indicated unambiguously
+and hence the adjusted values would be likely to have as much or
+more error than the unadjusted ones. The amount of adjustment
+is not so very large even here; an increase of one value of Ai/ by
+3.5 % and a decrease of another by the same amount would satisfy
+the conditions.
+The experimental results are shown in Figures 18 and 19, the com-
+puted values of hH and I^E in Figure 20, and the numerical values are
+collected in Table IX. In the figures the values of A I' are not given
+which are obviously in error because of decomposition. In the phase
+diagram the initial direction of the melting curve is indicated. This
+is taken from the work of Wahl, who found that because of decomposi-
+tion, the melting curve could be followed only about 10° above the
+normal melting point. The initial slope of the melting curve is un-
+usually high ; in this work no attempt was made to obtain any of the
+data of the melting curve.
+Other results for comparison are as follows. For the transition
+point at atmospheric pressure Schwarz ^ gives 46.1° by an optical
+method, and Rothmond ^^ gives 46.91° by a thermometric method.
+Wahl ^^ seems to have been the only previous experimenter on the
+effects of pressure. His transition curve extrapolates to 47.3° as
+the transition point at 1 kgm. The extrapolated value found above
+from the second purer lot was 46.2°. The specimens of Rothmund
+and Wahl were, therefore, probably purer than those used above;
+in particular, Wahl's specimen seems to have been purified with very
+great care. Wahl also followed the transition line I-II up to 1500
+kgm. At 1500 his transition temperature is 2.8° higher than mine,
+whereas it starts 1.1° higher at atmospheric pressure. The difference
+of slope, which amounts to about 3.5%, may be an effect of impurity.
+One point investigated with especial care by Wahl was that of the
+11 V. Rothmund, ZS. phys. Chem. 24, 705-720 (1897).
+12 \V. Wahl, Trans. Roy. Soc. 212, 117-148 (1912).

@@ -1,0 +1,33 @@
+60 THE PRINCIPLES OF SCIENCE.
+so long as the vital principle of reasoning was not clearly
+expressed.
+Immediate Inference.
+Probably the simplest of all forms of inference is that
+which has been called Immediate Inference, because it
+can be performed upon a single proposition. It consists
+in joining an adjective, or other qualifying clause of the
+same nature, to both sides of an identity, and asserting
+the equivalence of the terms thus produced. For instance,
+since
+Conductors of electricity = Non-electrics,
+it follows that
+Liquid conductors of electricity = Liquid non-electrics.
+If we suppose that
+Plants = Bodies decomposing carbonic acid,
+it follows that
+Microscopic plants = Microscopic bodies decomposing
+carbonic acid.
+In general symbols, from the identity
+A=B
+we can infer the identity
+AC = BC.
+This is but a case of plain substitution ; for by the first
+Law of Thought it must be admitted that
+AC -AC,
+and if in the second side of this identity we substitute
+for A its equivalent B, we obtain
+In like manner from the partial identity
+A = AB
+we may obtain
+AC = ABC
+by an exactly similar form of substitution ; and in every

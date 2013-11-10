@@ -1,0 +1,33 @@
+150 THE PRINCIPLES OF SCIENCE.
+becoming gaseous absorb heat ; that all metals are
+elements ; that they are all good conductors of heat and
+electricity ; that all the alkaline metals are monad
+elements ; that ah 1 foraminifera are marine organisms ;
+that all parasitic animals are non- mammalian ; that
+lightning never issues from stratous clouds a ; that pumice
+never occurs where only Labrador felspar is present b :
+and scientific importance may attach even to such ap-
+parently trifling observations as that ' white cats having
+blue eyes are deaf c /
+The process of inference by which all such truths are
+obtained may readily be exhibited in a precise symbolic
+form. We must have one premise specifying in a dis-
+junctive form all the possible individuals which belong
+to a class ; we resolve the class, in short, into its con-
+stituents. We then need a number of propositions each
+of which affirms that one of the individuals possesses a
+certain property. Thus the premises must be of the
+form
+A= BlCtDl -I-P-I-Q
+B = BX
+C = CX
+Q-QX.
+Now if we substitute for each alternative of the first
+premise its description as found among the succeeding
+premises we obtain
+A = BX!CX! !PX|QX
+or
+A = (BIG I- |.Q)X.
+a Arago's Meteorological Essays, p. 10.
+b Ly ell's Elements of Geology, Fourth ed. p. 373.
+c Darwin's Variation of Animals, &c.

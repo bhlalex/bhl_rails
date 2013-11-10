@@ -1,0 +1,42 @@
+600 BRIDGMAN.
+values for the change of volume between I and III or between II and
+III at low pressures. Three sets of measurements were made around
+the triple point I-II-III. The first gave the change of volume I-II
+by the method of changing temperature at constant pressure. The
+temperature could be raised so far beyond the transition line that the
+reaction from II to I was surely complete, and of course it was not
+■difficult to be sure of starting with pure II at low temperature. But
+this method does not give the temperature of the transition point,
+and this transition temperature was especially needed in fixing the
+position of the triple point. To fix this point, pressure and tempera-
+ture values were obtained at low pressures on the I-III and the II-III
+lines, by the method of varying pressure at constant temperature. It
+was possible to shut the pressure within narrow limits, 20 to 30 kgm.,
+but the domain of subcooling was so wide that the reaction was not
+completed even on reducing pressure to nearly atmospheric. The
+directly found values of AV at these points were 10 to 15% too low.
+These points were, therefore, discarded. The AV curves for I-III
+and II-III at low pressures were determined by extrapolation from
+the high pressure values together with the condition that the changes
+of volume should check with that for I-II at the triple point.
+In spite of the comparatively large amount of lag, the width of
+the band of indifference was not abnormal. No absolute value can
+be attached to these figures, because of the disturbing effect of fissures.
+The limits were notably wider on repeating a point, probal)ly because
+of the fissures formed by the intervening transitions, and were very
+much less in the low than in the high pressure apparatus. The figures
+pretend only to give roughly a comparative estimate. The band was
+widest for the II-IV curve, about 250 kgm.; on the II-III curve it
+varied from 200 kgm. at the lowest to 100 kgm. at the highest tempera-
+ture; on the I-III curve the variation with rising temperature was
+from 100 to 30 kgm., and on the III-IV curve from 140 to kgm.
+with rising pressure. On all the curves, the band becomes narrower
+with rising temperature. The reaction, as usual, ran more rapidly
+at the high temperatures, and at least on the II-III and III-IV curves
+the transition ran more rapidly in the direction of falling pressure.
+The experimental values of pressure and temperature are shown in
+Figure 10, the experimental values of AV in Figure 11, the computed
+values of AH and AE in Figure 12, and the numerical results in Table
+VI. All of the pressure-temperature determinations are shown on
+the curves, but four of the AV points have been discarded for reasons
+already given.

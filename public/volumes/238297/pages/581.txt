@@ -1,0 +1,36 @@
+THEOE Y OF A PPROXIMA TION. 9 1
+gases nearly obey the law of Boyle and Marriotte ; that
+they nearly expand, by heat at the uniform rate of one
+part in 272*9 of their volume at o for each degree centi-
+grade ; and that they more nearly fulfil these conditions
+the more distant the point of temperature at which we
+examine them from the liquefying point, we pass by the
+principle of continuity to the conception of a perfect gas.
+Such a gas would probably consist of atoms of matter at
+so great a distance from each other as to exert no attrac-
+tive forces upon each other ; but for this condition to be
+exactly fulfilled the distances must be infinite, so that an
+absolutely perfect gas cannot exist. But the perfect gas
+is not merely a limit to which we may approach, it is a
+limit passed by at least one real gas. ' It has been shown
+by Despretz, Pouillet, Dulong, Arago, and finally Regnault,
+that all gases diverge from the Boylean law, and in nearly
+all cases the density of the gas increases in a somewhat
+greater ratio than the pressure, indicating a tendency on the
+part of the molecules to approximate of their own accord,
+and condense into liquid. In the more condensible gases
+such as sulphurous acid, ammonia, and cyanogen, this
+tendency is strongly apparent near the liquefying point.
+Hydrogen on the contrary diverges from the law of a
+perfect gas in the opposite direction, that is, the density
+increases less than in the ratio of the pressure \ This is a
+singular exception, the bearing of which I am unable to
+comprehend.
+All gases diverge again from the law of uniform ex-
+pansion by heat, but the divergence is less as the gas in
+question is less condensible, or examined at a temperature
+more removed from its liquefying point. Thus the perfect
+gas in this respect must have an infinitely high tempera-
+ture. According to Dalton's law each gas in a mixture re-
+tains its own properties wholly unaffected by the presence
+* Jamin, ' Cours de Physique,' vol. i. pp. 283-288.

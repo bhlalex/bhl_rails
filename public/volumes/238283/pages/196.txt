@@ -1,0 +1,31 @@
+BLACK. — THE NEIGHBORHOOD OP A SINGULAR POINT. 285
+has a singular point at
+M = 1, V = I,
+So the first transformation is
+•« = (r + i)n
+w= U
+which, applied to (k), gives
+mr'-cr' + raO =0 (m)
+and
+x(v,n^)=C'<T'a'+^). (n)
+Now the set of transformations to which Kobb is naturally led in this
+case is the following : — *
+T = TiCl O- = O-i^i t = ^1
+Tl = To 4 tTi = 0-2 4 ^1 = (l
+whence
+But this substitution in (n) gives
+in which the exponent of ^^ increases indefinitely with r.
+6. In the case in which the curve
+«A (t, cr) 3-
+has multiple factors, the regular points of such factors taken in 1 , 4) c
+are possibly singular points of the surface, whose domains are repre-
+sented by equations of form (e). When a further quadratic transfor-
+mation is applied to such a point, we are not warranted in assuming
+that the resulting developments will represent the whole of the domain
+of the point considered.! Kobb makes this assumption in proposing to
+* This set, combined with the transformation (1), possesses all the properties
+required by Kobb in (g), (h), and (i) ; its appearance here invalidates his proof.
+It can easily be shown, moreover, that the most general set of transformations
+wliich he could use in this case would produce the same condition as shown here.
+t The development about the point first considered, to begin with, is a relation
+m Kleinen ; it becomes, however, on passing to the later transformations, a relation

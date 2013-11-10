@@ -1,0 +1,37 @@
+266 THE PRINCIPLES OF SCIENCE.
+covered by the observation of particular cases, and may
+again be so discovered. We have Newton's own state-
+ment, to the effect that he was thus led to the all-impor-
+tant Binomial Theorem, the basis of the whole structure
+of mathematical analysis. Speaking of a certain series of
+terms, expressing the area of a circle or hyperbola, he says,
+' I reflected that the denominators were in arithmetical
+progression ; so that only the numerical co-efficients of
+the numerators remained to be investigated. But these,
+in the alternate areas, were the figures of the powers of
+the number eleven, namely 1 1, 1 1 1 , 1 1 3 , 1 1 3 , 1 1 4 ; that is,
+in the first i ; in the second i, i ; in the third i, 2, i ; in
+the fourth i, 3, 3, i ; in the fifth i, 4, 6, 4, i. I inquired,
+therefore, in what manner all the remaining figures could
+be found from the first two ; and I found that if the first
+figure be called m;all the rest could be found by the
+continual multiplication of the terms of the formula
+m o ra i m 2 mi
+X X X - X &c.'P
+1234
+It is pretty evident, from this most interesting statement,
+that Newton having simply observed the succession of the
+numbers, tried various formulae until he found one which
+agreed with them all. He was so little satisfied with this
+process, however, that he verified particular results of his
+new theorem by comparison with the results of common
+multiplication, and the rule for the extraction of the
+square root. Newton, in fact, gave no demonstration of
+his theorem ; and a number of the first mathematicians
+of the last century, James Bernouilli, Maclaurin, Landen,
+Euler, Lagrange, &c., occupied themselves with discovering
+a conclusive method of deductive proof.
+These are the figurate numbers considered in pages 206-216.
+P * Commercium Epistolicum. Epistola ad Oldenburgum,' Oct. 24,
+1676. Horsley's 'Works of Newton', vol. iv. p. 541. See De Morgan
+in 'Penny Cyclopaedia', art. Binomial Theorem, p. 412.

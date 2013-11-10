@@ -1,0 +1,39 @@
+148 PROCEEDINGS OP THE AMERICAN ACADEMY.
+nate the parameters, we derive a single equation in the variables alone.
+It is the locus of all the (n — 2)-flats that can be drawn to meet the
+curves in question, and so it necessarily includes all the generating flats
+of (f). It includes possibly other flats besides the generators of <^, but in
+this case the general locus will break up into several components, and one
+component is cJ3. This is the case in three-fold space.
+The spreads Ui, f^, . . . £4-2 i^^J ^^ each case be taken to be flats ;
+then the director curves are plane curves. These are the director curves
+of (j); any or all of these curves may be plane, or they may be twisted to
+any extent permitted by the space. Any 2 n — 3 curves in n-ioh\ space
+may be taken as the director curves of a ruled (n — l)-spread. In three-
+fold space any three curves plane or twisted may be taken as the director
+curves of a ruled surfiice. In four-fold space, any five curves plane or
+twisted may be taken as the director curves of a ruled three-spread. In
+this case the generating planes intei'sect consecutively in the points of a
+sixth curve ; so in four-fold space any five curves completely determine a
+sixth. In five-fold space seven curves plane or twisted may be taken as
+the director curves of a four-spread ruled by three flats. In six-fold
+space nine curves determine a five-spread ruled by four-flats. Consecu-
+tive four-flats intersect in planes and these in turn intersect consecutively
+in points. So in six-fold space nine curves determine a tenth.
+10. Multiple loci on the ruled (n — \)-spread.
+Any generator of the (n — l)-spread is an (n — 2)-flat i^„_2 ; it is met
+by any other generating F„_2 in an {n — 4)-flat. If then 4 ^ w every
+generator is met by every other generator. If n = 3, any generator is
+met by only m — 2 other generators, m being the order of the surface.*
+For 4 ^ n, any F^_2 contains a single infinity of (n — 4)-flats where it
+is met by the other i^„Vs. These are evidently double flats on »S'„_i. On
+*S„_i there are in general a 2-fold infinite system of such (n — 4)-flats
+constituting a double (n — 2)-spread, 2„_2 on S„_i. In general, then, any
+(n — l)-spread *S'„_i ruled by {n — 2)-flats i^,Vs has on it such a double
+(n — 2)-spread 2„^2 ruled by the 2-fold infinite system of (n — 4)-flats.
+2„_4 has on it all those (n — 4)-flats, F^_i& that arise from the intersec-
+tion of consecutive F^^^^s. These F„_iS generate *S'„_3, which therefore
+lies on S„_2 and forms but an infinitesimal part of it.
+Any three F^^^^ intersect in an (« — 6) -flat; there are in general
+a 3-fold infinite system of such (w — 6) -flats constituting an (n — 3)-
+* Salmon, Geometry of Three Dimensions, p. 427.

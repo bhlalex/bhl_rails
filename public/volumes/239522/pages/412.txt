@@ -1,0 +1,41 @@
+EFFECTS OF PRESSURE ON NITRATES. 593
+great that at 239° the transition pressure is below 500 kgm. Failure
+to find the transition means either that the transition point of the
+pure substance is appreciably higher than 219°, or else that II will
+support considerable superheating with respect to I. A special run
+ruled out the possibility that the transition from II to I is of the ice
+type and had been overlooked for that reason. I also made search
+for new modifications at room temperature to 12300 kgm. without
+success.
+During the first run I made measurements of the time rate of transi-
+tion and of the breadth of the band of indifference. The breadth of
+the band varied from 100 to 200 kgm. The transition velocity is
+unique in that the velocity with falling pressure is less than with
+rising pressure. This may be an effect of the free HNO3.
+The transition temperature II to III is given as 161° by Wallerant^
+and 161°. 4 by Gossner.'^ Both of these values are lower than the
+value found above, 164.4°. It is significant that when I repeated the
+run, after the substance had become impure, I found a lower value
+than 164.4°, about 163°. It is therefore plausible to suppose that the
+lower values of Wallerant and Gossner may have been due to impurity.
+No previous measurements of the change of volume or of the heat of
+transition have been made.
+Thallium Nitrate. This salt was prepared by dissolving metallic
+Thallium in warmed dilute nitric acid, and by repeatedly crystallizing
+from aqueous solution. Preparation from the element was necessary
+because the nitrate is not kept in stock by any of the chemical supply
+houses. After each crystallization the crystals were washed; the end
+product was entirely free from acid reaction. The purification of
+this substance is particularly easy because of the great difference of
+solubility in hot and cold water; water at 100° dissolves about 100
+times as much water at 0°. Only enough of the salt could be made
+for one filling of the apparatus. I used for this all the metallic Thal-
+lium available at the time in this country, and none was to be pro-
+cured from abroad. The salt was hammered cold into an open
+perforated steel shell, and pressure transmitted directly to it by kero-
+sene.
+With this single specimen a large number of readings were made.
+Measurements of this substance are of unusual difficulty because of
+the very small changes of volume and the large amount of super-
+pressure required to force the reaction to run. At least one unsuccess-
+7 B. Gossner, ZS. Kryst. 38, 110-168 (1903).

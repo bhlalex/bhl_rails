@@ -1,0 +1,51 @@
+4ft Temperaments of different musical Systems.
+. c „ 12r— 12s
+have from corollary 9, =0, or 12r= 125 J
+, r 1 . 12/— m * O
+whence - = — ; also, = — I, whence — = — .
+s 1 * ■ u ' u 1
+By which we obtain in theorem 1, — 2 as the flat tem-
+perament of the fifths, and — £ —in its flat wolf: also,
+in theorem 3, we get 72 -f-m the sharp temperaments
+of the major thirds, and 72 their wolves ; and by theo-
+rem 6, we obtain 8S + m the sharp temperaments of
+the major sixths and SS their wolves.
+This is my Equal Temperament Syste7n, whose tem-
+pered fifth, and consequently all its other intervals,
+can be tuned on an Organ by means of perfect intervals
+only, viz. 5 4ths — 3 Vths — III = V— 2. (See vol.
+xxviii. p. 65) ; such tuning to be upwards from C as
+far as bA and downwards from c as far as bE, between
+which notes, the wolf 2 -f-m, will result. The beats
+calculated by Mr. Smyth, at page 452 of your last
+volume, belong in fact to this system, and not to the
+strict Isotonic above, but the difference in practice
+would be imperceptible between these two systems.
+Scholium 8. If a douzeave be required, in which the ratio
+of the temperaments of the major thirds shall be to
+their wolves as 1| to 3^*, that is, or as 5 to 14, we
+have from theorem 3. As 5 : 14 : : : — — — ;
+s u '
+whence 1545— 56r =40r— 5s, or 1595 = 96V, and —
+53 . u-4t 8t .
+«* «« 5 a ' so 5 as 5 : 14 : : : — - . whence 14w-~
+32 ' ' u u '
+t 7 53
+56/ =40/,or 14//=96/, and — = - --: and 2 —
+9 ' » 48 32
+7
+-r— m is the flat temperament of the fifth, which sub-
+300/ 20
+stituted in the first theorem gives ~^r^ -f -7 -m y
+* Nfr. Marsh, assuming the true major third to be 48 degrees or parts,
+states, the tempered III to be = 49^, and the wolf or " extended third," (as
+he elsewhere calls it) to be 51$ parts: in the system which he most ap-
+proves; I therefore take the excess of these above the !Ud,as giving the ratio
+of his temperament and wolf, in order to obtain the values of his notes in my
+theorems. It is not however clear, that such is exactly his meaning ; since,
+150 being assumed as the measure of the octavr> the values of the major tkud
+and of the diesis can be no of her than 48-28921, &c. and 5*132378, &c. o?
+very nearly in the ratios of 6122, 1972 and 212 : and it is not possible for
+48 and 6 truly to represent the major third and diesis in such octave» or to
+any other.
+the

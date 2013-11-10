@@ -1,0 +1,37 @@
+OF ARTS AND SCIENCES : JANUARY 14, 1873. 497
+The form of this equation shows that the value of the expression
+b B is independent of the value of b ; it is, therefore, a numerical con-
+stant, and may be denoted by e.
+i.e. b B = e ;
+B\og e b = 1,
+l
+whence B =
+loge b'
+Introducing this value of B in equation [4], we obtain
+D (log 6 xj*= , D l .
+K cb ' log e b. X
+Dx *
+If b = e, we have D (log e x) = — . [e?]
+a
+e is known as the Napierian base. The computation of its approxi-
+mate numerical value is deferred until after the introduction of Mac-
+laurin's Theorem.
+The logarithmic differentials of the Power, Product and Quotient
+may be deduced by means of the above result, in the usual way, since
+•the demonstration is dependent on the four elementary propositions
+only.
+The Differential of the Exponential Function.
+Let z = x -\- h, then D z = D x, [1]
+also a z = a I+h = a h • a x [3] and D (a z ) = a h D (a x ). [2]
+Dividing equation [2] by the product of [1] and [3], we obtain the
+desired form
+1 D(a z ) 1 D(a x )
+a z D z a x Dx
+Whence D {a x ) — c a x D x. [4]
+To determine c, we differentiate the identity
+x = log a a x ,
+_ D (a x ) ca x D x
+tbus D x — \^r~ n — ^ = \zr~r. — ^ »
+loge a • a l°ge o. • a x
+C = loge a '
+vol. vin. 63

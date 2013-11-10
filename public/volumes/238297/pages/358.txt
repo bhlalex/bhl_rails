@@ -1,0 +1,36 @@
+332 THE PRINCIPLES OF SCIENCE.
+a moving slip of paper, so that equal intervals of time are
+represented by equal lengths. There is, perhaps, a ten-
+dency to reduce all comparisons to the comparison of space
+magnitudes, but in any case one of the senses must be the
+ultimate judge of coincidence or non-coincidence.
+Since the equation to be established may exist between
+any multiples or submultiples of the quantities compared,
+there naturally arise several different modes of comparison
+adapted to different cases. Let p be the magnitude to
+be measured, and q that in terms of which it is to be
+expressed. Then we wish to find such numbers x and ?/,
+that the equation p = -q may be true. Now this same
+j
+equation may be presented in four slightly different forms,
+namely :
+First Form. Second Form. Third Form. Fourth Form.
+x y P q
+p=- y * fl~i py-i* I'l
+Each of these modes of expressing the same equation cor-
+responds to one mode of effecting a measurement.
+When the standard quantity is greater than that to be
+measured, we often adopt the first mode, and subdivide
+the unit until we get a magnitude equal to that measured.
+The angles observed in surveying, in astronomy, or in
+goniometry are usually smaller than a whole revolution,
+and the measuring circle is divided by the use of the
+microscope and screw, until we obtain an angle undistin-
+guishable from that observed. The dimensions of minute
+objects are determined by subdividing the inch or centi-
+metre, the screw micrometer being the most accurate
+means of subdivision. Ordinary temperatures are esti-
+mated by division of the standard interval between the
+freezing and boiling points of water, as marked on a
+thermometer tube.
+In a still greater number of cases, perhaps, we multiply

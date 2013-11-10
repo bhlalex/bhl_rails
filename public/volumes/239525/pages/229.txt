@@ -1,0 +1,40 @@
+338 PROCEEDINGS OF THE AMERICAN ACADEMY
+and nut at the end of each bolt, a perfectly steam and water tight joint
+is secured, without the intervention of cement or packing. A system
+of spheres thus united, six wide and twelve or thirteen long, forms
+what is called a section ; and a boiler consists of several of these sec-
+tions, all discharging steam into the same pipe. In setting the boiler
+the sections are placed on edge, side by side, so that the lines of bolts
+make an angle of about forty degrees with the furnace grate.
+The security of the Harrison boiler depends on the following fea-
+tures in its mode of construction. In the first place, the spherical
+form, adopted for the units of the boiler, greatly economizes the tensile
+strength of the iron, and it has been estimated that, with a metal
+having a tensile strength of three and one half tons to the square inch,
+the bursting strength of the units would be nearly three fourths of a
+ton per square inch. The strength of a boiler consisting of such units
+will, of course, be no greater than that of the weakest sphere of the
+structure; but as all the sections are tested at the manufactory by
+hydrostatic pressure, as high as three hundred pounds to the square
+inch, a defective unit is discovered before the boiler is delivered to
+purchasers.
+It is not maintained, however, that the units of the Harrison boiler
+cannot be burst under excessive pressure ; for, as experience has
+shown, it is impossible to make a vessel, at least one of any practical
+value as a steam-generator, which cannot be burst. It is merely a
+question how high a temperature it can stand before yielding. But
+the evidence before the Rumford Committee has sustained the opinion
+that, in case of such an accident to the Harrison boiler, a violent
+destructive explosion is almost impossible ; and this brings us to the
+consideration of the second feature on which the security of this boiler
+depends.
+In an ordinary plate-iron boiler the yielding at any point almost
+inevitably involves the rending and complete destruction of the whole
+structure. A tear started at a defective rivet, or on a line of corrosion,
+will instantly lay open the whole vessel, when the expanding steam
+scatters the contents in all directions, and hurls the fragments with a
+force which no ordinary constructions of buildings or ships can with-
+stand. The recent experiments of Mr. Stevens, of Hoboken, as de-
+scribed in a report to the Secretary of the Navy by three of the chief
+engineers in the naval service, show very conclusively that this tearing
+apart of the boiler-plates under pressure is the simple cause of the

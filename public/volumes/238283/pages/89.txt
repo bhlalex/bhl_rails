@@ -1,0 +1,39 @@
+122 PEOCEEDINGS OF THE AMERICAN ACADEMY.
+These {n — 3)-flats may be cousidered as arising from the intersection
+of two consecutive in — 2)-flats of the system of {ii — 2) -flats. Tlae
+elimination of the parameter from these equations gives a restricted sys-
+tem equivalent to two independent equations. The system represents an
+(/i — 2)-spread, »S„_2, which is ruled by the (?i — 3)-flats.
+In like manner r consecutive (ii — l)-flats of the system intersect in
+an {n — r)-flat whose equations are
+. . dA ^ 9'--' A ^
+^ = 0, _^0,...^^ = 0.
+Any of these (n — r)-flats may be considered as arising from the inter-
+section of two consecutive (« — r -\- l)-flats of the system of (?2 — r + 1)-
+flats that are the intersections of r — 1 consecutive (w — l)-flats of the
+system. The elimination of the parameter from these equations gives
+a restricted system equivalent to /' — 1 independent equations. These
+equations represent an (ii — r + l)-spread, *S„_,. + i, which is ruled by the
+1-fold infinite system of (n — r)-flats.
+The locus of the intersections of n consecutive (n — l)-flats of the
+system is a curve, while n -\- 1 consecutive (w — 1) -flats do not in
+general have any common intersection.
+We will use S^ to denote that one of the related spreads of this system
+that is of k ways. It is geometrically evident that each one of these
+spreads is a developable spread.*
+Considered in this light we see that the (n — 2)-spread is a double
+spread on »S'„_i corresponding to the cuspidal edge or edge of regression
+in ordinary threefold space. f
+The *S'„_o is a double spread on a^„_2, etc., and *S'i on /S'2. We see also
+that ^„_3 is a triple spread on S„_i ; Killing calls it doubly stationary.
+Finally, Si is an (w — l)-tuple curve on S^-i ; it is a multiple curve on
+all the other spreads of the system. J
+If the equation
+A =
+contains k arbitrary parameters connected hjk—1 equations
+</, = 0, X = 0. 'A = o»
+* Killing, Nicht-Euklidische Raumformen, p. 195 et seq.
+t Puchta calls the Sn—i the most general developable spread in n-fold space.
+Puchta, Ueber die allgemeinsten abvvickelbaren Raume, ein Beitrag zur raehrdi-
+uiensionalen Geometrie. Wien. BerichtCj CI.
+t Killing, loc. cit.

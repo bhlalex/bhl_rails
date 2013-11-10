@@ -1,0 +1,41 @@
+( 838 )
+with each other. So to coiigTiieiit foiiibinatioiis in tlic group of
+(lie eqiiiaiigiihir double rotations to the right (left) in S^ correspond
+congruent combinations in the motion group of Sr {Si). As moreover
+the
+'•2 3 "I ^14
+^•.. + K.
+/l2 ~r ^3 4
+of a plane are the cosines of direction of the representant of the
+system equiangular to the right with that plane with respect to the
+system of axes OXr Vr ^r (defined Proceedings March! 904, p. 72ö),
+and likewise
+^-.s
+—
+;.
+K.
+—
+X
+;.,,
+I
+the cosines of direction of the representant of the system equiangular
+to the left with that plane with respect to the system of axes
+OXi Yi Zi (defined in the same place) the S,. and >S'i introduced just
+now prove to be identical with those introduced here formerly (see
+Proceedings March, 1904, p. 725} so that they represent not oidy
+l)y their motions the equiangular motion groups of S^ to the right
+and to the left, but also by their vectors the systems of i>lanes equi-
+angular to the right and to the left (with direction of rotation) of
+S^ and so that the angle of Ihe representing vectors is tlie angle of
+the systems of planes themselves.
+So also to congruent combinations in the twodimensicmal mani-
+foldness formed by the equiangular systems of planes to the right
+(left) correspond congruent combinations in S,- (<S,). This is an algebraic
+proof for 2"f^. to its full extent.
+This deduction has at the same time made clear the meaning of
+the four parameters of homogeneity for the general congruent three-
+dimensional transformation about a fixed point, namely the cosines
+of direction of the vector indicating the corresponding equiangular
+double rotation to the right (left) of an S^ of which this S^ is
+the Sr (Si) and the svstem of axes in S^ the system OXr Y, Zr
+(OXiYiZ,).

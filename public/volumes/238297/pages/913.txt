@@ -1,0 +1,36 @@
+CLASSIFICATION. 423
+The nature of a ray of homogeneous light is strictly
+defined, either by its place in the spectrum or by the cor-
+responding wave-length, but a ray of mixed light admits
+of no simple classification ; any of the infinitely numerous
+rays of the continuous spectrum may be present or absent,
+or present in various intensities, so that we can only class
+and define a mixed colour by defining the intensity and
+wave-length of each ray of homogeneous light which is
+present in it. Complete spectroscopic analysis and the
+determination of the intensity of every part of the spec-
+trum yielded by a mixed ray is requisite for its accurate
+classification. Nearly the same may be said of complex
+sounds. A simple sound undulation, if we could meet
+with such a sound, would admit of precise and exhaustive
+classification as regards pitch, the length of wave, or the
+number of waves reaching the ear per second being a suf-
+ficient criterion. But almost all ordinary sounds, even
+those of musical instruments, consist of complex aggregates
+of undulations of several different pitches, and in order to
+classify the sound we should have to measure the inten-
+sities of each of the constituent sounds, a work which has
+been partially accomplished by Professor Helmholtz, as
+regards the vowel sounds. The different tones of voice
+distinctive of different individuals must also be due to the
+intermixture of minute waves of various pitch, which are
+at present quite beyond the range of experimental in-
+vestigation. We cannot, then, at present, attempt to
+classify the different kinds or timbres of sound.
+The difficulties of classification re even greater when a
+varying phenomenon cannot be shown to be a mixture of
+simpler phenomena. If we attempt, for instance, to
+classify the tastes of natural and artificial substances, we
+may rudely group them according as they are sweet,
+bitter, saline, alkaline, acid, astringent, or fiery ; but it is
+evident that these groups are bounded by no sharp lines

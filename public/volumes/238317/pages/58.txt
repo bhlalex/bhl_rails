@@ -1,0 +1,40 @@
+New Engine for Ruling. 53
+motion of the main driving rod (52) to the ruling carriage. When,
+however, the clamping blocks are brought closer to 47 and secured,
+the free motion of 44 is restricted to a precise interval, which may
+vary from 0.01 in. to 0.1 in. or more, as desired; any further
+motion exceeding the interval to which the setting has been adjusted
+is of course communicated to the carriage. The purpose served
+by this preliminary movement of 47, which is not communicated to
+44 or the ruling carriage, is to permit of the lowering and raising
+of the ruling diamond at the beginning or end of each line. This
+is effected by means of a second rod which passes tlirough 47, and
+may be clamped therein at any convenient jjoint in relation to the
+end, which pushed against a small lever. This lever lowers the
+diamond point before the ruling of a line and raises it from the
+plate on the return traverse as already explained. The location of
+this rod is not seen on the plan, as it lies immediately under 44
+and parallel with it.
+As brief reference has already been made to the operation of the
+-diamond when ruling lines, furtlier allusion to the sul)ject may be
+deferred until the matter is dealt with in detail.
+The foregoing brief outline of the chief mechanical features and
+operation of the machine and ruling mechanism may fittingly close
+with a short description of its earliest trial runs, and the subsequent
+housing, etc., after which a more detailed account of certain of the
+methods adopted in the construction of its more important parts
+will be entered upon.
+The Housing of the Ruling Engine, etc.
+The provision of suitable accommodation for a machine for such
+exacting requirements as are involved in the ruling of a dift'raction
+grating is of some moment, especially when it is borne in mind
+that such a machine has to run for long periods ranging from 20 to
+200 hours at a stretch. During such intervals there must be no
+very appreciable change in temperature of the air inmiediately sur-
+rounding the machine, that is, no change exceeding two or three
+tenths of a degree. Further, during the ruling of a grating the
+machine must not be subjected to vibrations, such as might arise
+from the proximity of trains, trams, or any heavy vehicular traffic;
+nor yet to shocks or tremors due to the operation of other machinery
+in the same building or immediate neighbourhood. Thus the pos-
+sibilities to be provided for or against are by no means easily met.

@@ -1,0 +1,35 @@
+338 THE PRINCIPLES OF SCIENCE.
+It is obvious that many of the slower changes of the
+heavenly bodies must require the lapse of large intervals
+of time to render their amount perceptible. Hipparchus
+could not possibly have discovered many of the smaller
+inequalities of the heavenly motions, because there were
+no previous observations of sufficient age or exactness to
+exhibit them. And just as the observations of Hipparchus
+formed the starting-point for subsequent comparisons, so
+a large part of the labour of present astronomers is di-
+rected to recording the present state of the heavens so
+exactly, that future generations of astronomers may detect
+many changes, which cannot possibly become known in
+the present age.
+The principle of repetition was very ingeniously em-
+ployed in an instrument first proposed by Mayer in 1767,
+and carried into practice in the Repeating Circle of Borda v .
+The exact measurement of angles is indispensable, not
+only in astronomy but also in trigonometrical surveys, and
+the highest skill in the mechanical execution of the gradu-
+ated circle and telescope will not prevent terminal errors
+of considerable amount. If instead of one telescope, the
+circle be provided with two similar telescopes, these may
+be alternately directed to two distant points, say the
+marks in a trigonometrical survey, so that the circle shall
+be turned through any multiple of the angle subtended
+by those marks, before the amount of the angular revolu-
+tion is read off upon the graduated circle. Theoretically
+speaking, all error arising from imperfect graduation might
+thus be indefinitely reduced, being divided by the number
+of repetitions. In practice, however, the advantage of
+the invention is not found to be great, probably because
+a certain error is introduced at each observation in the
+changing or fixing of the telescopes. It is moreover in-
+v Young, ' Works,' vol. ii. p. 546.

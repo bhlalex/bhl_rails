@@ -1,0 +1,36 @@
+412 THE PRINCIPLES OF SCIENCE.
+which any error due to the wrong position of the zero
+of the division will be reversed. As the axis of the
+needle may not be exactly horizontal, it is now reversed
+in the same manner as the transit instrument, the end of
+the axis which formerly pointed east being made to point
+west, and a new set of readings is taken.
+Finally, error may arise from the axis not passing
+accurately through the centre of gravity of the bar, and
+this error can only be detected and eliminated on re-
+versing the magnetic poles of the bar by the application
+of a strong magnet. The error is thus made to act in
+opposite directions. To ensure all possible accuracy each
+reversal ought to be combined with each other reversal,
+so that the needle will be observed in eight different
+positions by sixteen different readings, the mean of the
+whole of which will give the required inclination free
+from all eliminable errors k .
+There are certain cases of experiment in which a
+disturbing cause can with much ease be made to act in
+opposite directions, in alternate observations, so that the
+mean of the results will be free from disturbance. Thus
+in direct experiments upon the velocity of sound in
+passing through the air between stations two or three
+miles apart, the wind is a cause of error. It will be well,
+in the first place, to choose a time for the experiment
+when the air is very nearly at rest, and the disturbance
+slight, but if at the same moment signal sounds be made
+at each station and observed at the other, two sounds will
+be passing in opposite directions through the same body
+of air and the wind will accelerate one sound almost
+exactly as much as it retards the other 1 . Again, in
+trigonometrical surveys the apparent height of a point
+k Quetelet, ' Sur la Physique du Globe,' p. 174. Jamin, 'Cours do
+Physique,' vol. i. p. 504.
+1 Hcrschel, On Sound, ' Encyclopaedia Metropolitans/ p. 748.

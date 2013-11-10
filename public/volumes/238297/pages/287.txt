@@ -1,0 +1,36 @@
+PHILOSOPHY OF INDUCTIVE INFERENCE. 261
+fuse at lower temperatures than their constituent metals,
+I may with more or less probability draw a general in-
+ference to that effect, and may thence deductively ascer-
+tain the probability that the next alloy examined will fuse
+at a lower temperature than its constituents. It has been
+asserted, indeed, by Mr. J. S. Mill 1 , and partially admitted
+by Mr. Fowler k , that we can argue directly from case to
+case, so that what is true of some alloys will be true of
+the next. Doubtless, this is the usual result of our
+reasoning, regard being had to degrees of probability ; but
+these logicians fail entirely to give any explanation of the
+process by which we get from case to case. To point, as
+Mr. Mill has done, to the reasoning, if such it can be
+called, of brute animals, is little better than to parody
+philosophy 1 . It may well be allowed, indeed, that the
+knowledge of future particular events is one main purpose
+of our investigations, and if there were any process of
+thought by which we could pass directly from event to
+event without ascending into general truths, this method
+would be sufficient, and certainly the most brief and
+simple. It is true, also, that the laws, of mental asso-
+ciation lead the mind always to expect the like again in
+apparently like circumstances, and even animals of very
+low intelligence must have some trace of such powers of
+association, serving to guide them more or less correctly,
+in the absence of true reasoning faculties. But it is the
+very purpose of logic, according to Mr. Mill, to ascertain
+whether inferences have been correctly drawn, rather than
+to discover them m . Even if we can, then, by habit,
+1 ' System of Logic/ bk. II. chap. iii. Mr. Bain has not adopted the
+views of Mr. Mill, on this particular point, so far as I can ascertain. See
+his 'Inductive Logic/ p. i.
+k ' Inductive Logic/ pp. 13-14.
+1 'System of Logic/ bk. II. chap. 3, 3. Fifth ed. pp. 213-213,
+m Ibid., Introduction, 4. Fifth ed. pp. 8-9.

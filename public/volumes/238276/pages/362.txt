@@ -1,0 +1,163 @@
+SPECIES
+GRADE
+Ash
+do
+do
+do
+Basswood
+do
+do
+do
+do
+Beech
+do
+do
+Birch, unselected
+do
+do
+do
+do
+Chestnut
+do
+do
+do
+do
+Cottonwood
+do
+do
+do
+do
+Cypress
+do
+do
+do
+do
+do
+Cypress, shingles
+Elm, rock
+do
+do
+do
+Elm, soft
+do
+do
+Gum
+do
+do
+do
+do
+do
+Hickory
+do
+do
+do
+Maple, hard
+do
+do
+Maple, soft
+do
+do
+do
+Oak, plain
+do
+do
+do
+do
+Oak, red, quartered
+do
+do
+do
+Oak, white, quartered.
+do . .
+do . .
+do . .
+Poplar. . .
+do . .
+do . .
+do .
+do ..
+Tupelo (Bay Poplar)
+do
+do .
+Firsts and seconds 4|4
+No. 1 common 4|4
+No. 2 common and better, 4|4 or log run .
+Mill run
+Firsts and seconds 4|4
+No. 1 common 4 14
+No. 2 common 414
+Log run
+Mill run
+Firsts and seconds 4|4
+No. 1 common 4J4
+Mill run
+Firsts and seconds 4|4
+No. 1 common 44
+No. 2 common 44
+No. 2 common and better, 4|4 or log run
+Mill run
+Firsts and seconds 4|4
+No. 1 common 4|4
+No. 2 common and S. W. 4|4
+No. 3 common 4J4
+Mill run
+Firsts and seconds 4|4, 6" to 12"
+Boxboards 4|4, 13" to 17"
+No. 1 common 414
+No. 2 common 4|4
+Mill run
+Firsts and seconds clear 4|4
+Selects 4|4
+Shop, No. 1,4|4
+No. 1 common 4]4, random widths
+No. 2 common 4|4, random widths
+Mill run
+Bests 5"
+Primes 5"
+Firsts and seconds 8|4
+No. 1 common and better 814 ,
+No. 2 common and better 8|4
+Mill run
+No. 1 common and better 414 ,
+No. 2 common and better 4|4 ,
+Mill run
+Firsts and seconds 4|4, red ,
+No. 1 common 4|4, red
+Firsts and seconds 4|4, sap
+No. 1 common 414, sap
+No. 2 common 4|4
+Mill run
+Firsts and seconds 8]4
+No. 1 common 814
+No. 2 common 8|4 ,
+Mill Run
+Firsts and seconds 4|4
+No. 1 common 4|4
+Mill run
+No. 1 common and better 4|4 ,
+No. 3 common 4|4 ,
+Log run
+Mill run
+Firsts and seconds 4|4.
+No. 1 common 4
+No. 2 common 4 4
+No. 3 common 4
+4..
+Mill run.
+Firsts and seconds 4[4
+No. 1 common 414
+No. 2 common 4|4
+Mill run
+Firsts and seconds 4|4
+No. 1 common 414
+No. 2 common 4]4
+Mill run
+Firsts and seconds 4|4
+Saps or selects 414
+No. 1 common 44
+No. 2 common 4|4
+Mill run
+Firsts and seconds clear, random 4)4. .
+No. 1 common, random 4|4
+Mill run. . .
+10

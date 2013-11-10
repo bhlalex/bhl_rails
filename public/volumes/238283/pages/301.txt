@@ -1,0 +1,87 @@
+434
+PROCEEDINGS OP THE AMERICAN ACADEMY.
+TABLE XI.
+Loss AT Anode compared with Gain at Kathode.
+No. of
+Determ.
+Weight of
+Anode.
+Loss of Anode,
+corrected for
+Silver Powder.
+Deposit
+ou
+Kathode.
+Difference
+in
+Weight.
+Percentage
+Difference.
+37
+grams.
+6
+grams.
+2.43854
+grams.
+2.43744
+milligrams.
++1.10
+per cent.
++0.045
+38
+9
+2.60603
+2.60420
++1.83
++0.070
+39
+12
+3.05185
+3.04996
++1.89
++0.002
+40
+13
+1.76332
+1.76283
++0.49
++0.028
+41
+28
+2.44485
+2.44599
+-1.14
+-0.047
+42
+31
+^2.43613
+2.43744
+-1.31
+-0.054
+43
+33
+2.60399
+2.60420
+-0.21
+-0.008
+111 the porous cup voltameter all the aoode reactions which constitute
+the most serious causes of inaccuracy are safely eliminated by keeping
+the contaminated liquid within the porous cup. It is obvious that this
+device, or some other accomplishing the same end, should always be used
+when accuracy is desired.
+III. The Purity of the Silver Deposit.
+An important question remains to be answered, namely, is the deposit
+thus obtained perfectly pure silver, or does it contain traces of included
+mother liquor ?
+That impurities in the solution, such as copper, or any of the common
+metals occurring with silver, do not affect silver deposit to any great
+extent has been shown by Lord Rayleigh. Even if the solution actually
+turns green from the copper dissolved at the anode, not a trace of copper
+can be detected in the deposit. We used on one occasion commercial
+silver nitrate with an anode of sterling silver wrapped in paper, and
+found that the difference between this and the standard was about .024
+per cent, or only about .02 per cent smaller than a similar deposit with
+the purest silver. Metals of greater solution tension than silver have
+therefore no important effect on the weight of silver, although they may
+change the structure of the silver deposit. Of course they had always
+been excluded in this work.

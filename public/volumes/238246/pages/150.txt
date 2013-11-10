@@ -1,0 +1,47 @@
+211
+Fig. 5.
+make use of two cylinder lenses, whose focal lines coincide; in fig.
+5 they are thought with the descriptive lines nornfial to the plane
+of the drawing, and we shall assume this position in all the follow-
+ing figures. Lines thought above or in the plane of the drawing
+will be drawn in fnll, whereas lines that are supposed below it,
+will be dotted. Rays i-ecurring on the upper side parallel to the
+plane of drawing (e.g. a), can never be bronght to the lower side
+by the cylinder lenses, because
+the lenses have no refractive power
+in the direction of their descriptive
+lines. Analogously for rays b under
+and parallel to the plane of the
+drawing. The cylinder lenses will have to be of snch a quality that
+they do not disturb the phenomenon of interference.
+It is not possible to place this set of cylinder lenses without any
+modification into one of the arms of the Michelson interferometer,
+because the light then passes twice through the system and the
+resulting phase-shifting becomes
+again Jt. Compare fig. 6, in which
+the immovable and the movable
+mirror are the two halves of the
+instrument consisting resp. of the
+points P" and P; the system of
+lenses now lies as well on the
+path LP" as on the path P"Q,
+and we saw that phase shiftings
+are equivalent in the two parts of
+the light path, when their direction
+is the same, e.g. when both are
+directed forward as here, which causes them to join to .^. For our
+purpose the inferometer of Michelson must, therefore, be modified.
+Fig. 7 indicates how this can be done.
+The mirrors of Michelson's interferometer have been replaced by
+totally reflecting prisms, through which the advantage is attained
+that the light goes only once through the lenses. As the two beams
+undergo precisely the same total reflections, we need not take into
+account the phase-shiftings appearing in this. When a ray which
+has originated from a ray originating from the slit S on its reflect-
+ion on the silvered glass plate through reflection or transmission is
+resp. provided with the index r or d, the figure shows how the
+reflected component Ir of the ray 1 leaves the apparatus immediately
+by the side of the transmitted component 2r/ of another ray 2,
+^
+?^^
+Fig. 6.

@@ -1,0 +1,35 @@
+THE METHOD OF MEANS. 417
+lying among, or in the middle of, the several quantities.
+Before however inquiring fully into the grounds of this
+procedure, it is essential to observe that this one arith-
+metical process is really applied in at least three different
+cases, for different purposes, and upon different principles,
+and we must take great care not to confuse one applica-
+tion of the process with another. A mean result, then,
+may have any one of the following significations.
+(1) It may give a merely representative number,
+expressing the general magnitude of a series of quantities,
+and serving as a convenient mode of comparing them
+with other series of quantities. Such a number is properly
+called The fictitious mean or The average result.
+(2) It may give a result approximately free from
+disturbing quantities, which are known to affect some
+results in one direction, and other results equally in the
+opposite direction. We may say that in this case we get
+a Precise mean result.
+(3) It may give a result more or less free from unknown
+and uncertain errors ; this we may call the Probable
+mean result.
+Of these three uses of the mean the first is entirely dif-
+ferent in nature from the two last, since it does not yield
+an approximation to any natural quantity, but furnishes
+us with an arithmetic result comparing the aggregate of
+certain quantities with their number. The third use. of
+the mean rests entirely upon the theory of probability,
+and will be more fully considered in a later part of this
+chapter. The second use is closely connected, or even
+identical with, the Method of Reversal already described
+(p. 410), but it will be convenient to enter somewhat fully
+on all the three employments of the same arithmetical
+process.
+E e

@@ -1,0 +1,37 @@
+I9II.] WITH REFLECTING GRATING. 131
+is diminished, the black band at G gradually vanishes and in its
+place appear the coarsest fringes producible. When the slit F is
+removed these coarse fringes disappear. The fringes visible
+through the slit have however both an inferior and superior limit
+of angular size. When e is diminished to zero they vanish and
+when e is sufficiently increased they again vanish, though they now
+appear when the slit is either removed or widened. From this it
+follows that the coarsest fringes come from the edges of the crack
+6^ of the gratings, and that the remainder of the grating will not pro-
+duce coarse fringes. By moving the slit the fringes may be made
+to appear in any other part of the spectrum.
+The same fact may be proved by putting the vertical slit F over
+the lens of the collimator and allowing the white light L to fall on
+the edges of the grating at 5". Coarse fringes limited as to range
+and size are then seen throughout the spectrum at g.
+Whenever the slit or vertical stop is used, the fringes are ex-
+ceptionally sharp and easily controlled for micrometry. It is not
+even necessary to adjust the two spectra horizontally with the same
+care as when no slit is used, but the vertical coincidence of spectrum
+lines must be sharp. Naturally the use of the slit has one draw-
+back, as the resolving power of the grating is decreased and the
+spectrum lines are only just visible. The adjustment, however, may
+be made before the slit is added. A few examples may be given.
+For a slit i mm. wide over the telescope or collimator, only the
+immediate edges at the crack S, about .5 mm. each in breadth, are
+active. A narrow range of large fringes are seen in the field easily
+controlled by the micrometer screw. With a slit 3 mm. in width
+the lower limit is much increased the upper diminished, to a size
+of about 3 inches per fringe. In the absence of the slit the field is
+free from fringes. \\'ith a slit 6 mm. wide, the upper limit is again
+decreased the lower much increased ; nevertheless the finest fringes
+appear only after the slit is removed. Using double slits over the
+collimator, each i mm. wide and 3 mm. apart, fringes of medium
+size limited at both ends appear; 3 mm. slits 6 mm. apart show only
+the very fine fringes, but both sizes are still limited. Finally when
+all but about .5 mm. of the edge of the crack of the grating g' is

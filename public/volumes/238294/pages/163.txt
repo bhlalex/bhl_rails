@@ -1,0 +1,78 @@
+( 590 )
+TABLE XXV.
+•*• T^pi
+T
+Txlc
+Pxpl
+Pxr
+Pxk
+^xpl
+^xr ^xk
+304.02 30'kü2
+304 02
+72 93
+72.93
+72.93
+00443
+0/1047
+295.03
+296.33
+285. ()S
+SO 60
+82.83 67.70
+0.003878
+0.005005
+450
+0.1994
+28Ö.55
+289.31
+272.92
+99.65
+89.20
+67.30
+3606
+5322
+431
+1
+151.2
+154.2
+154 2
+50.7
+50.7
+50.7
+The values of 7',/,. derived from different diagrams and belonging
+to different coinciding isotliermals, did not differ more than 0.5 deg.
+We obtain for C,
+— for the mixtures O.i and 0.2 re-
+T.p.rk^'xk
+spectively : 3.435 and 3.446, in sufticient harmony with the value
+3.45, derived on p. 577 of this Comm. IV for carbon dioxide.
+About the critical data the following may be remarked : v^i: shows
+a maximum in the range investigated; for x between 0.1 and 0.2
+p_rk descends much slower than between and 0.1 ; the same holds
+in a less degi-ee for Txk-
+§ 7. To calculate the quantities introduced in Comm. No. 75, (Proc.
+Dec. 1901):
+1
+dT,-k
+1^
+;.? ^
+.1=0
+J^ fdp,k
+etc.
+I have represented several quantities of Table XXV as functions of -r.
+Observations for more values of .v would be required to detei'mine
+with some certainty how say v^t depends on .r. As it appeared
+tliat in consideration of the critical volume of oxygen, the data of
+table XXV, could not be satisfactorily represented by a quadia-
+tic function, I have added a term with x^ and have derived the
+coefficients from the data for carbon dioxide and oxygen (putting
+herefor C^ equal to the value for carbon dioxide) and the two
+mixtures. In this way I found:
+Trk — T],\l — 0.G563 X + 0.8350 ,c^ — 0.6715 ,r*].
+p^j, —jji, |1 — 1.0871 X + 4.1885 ,e — 3.4063 x'\.
+v,.]c = vie |l + 0.5422^ X — 4.0310 x' + 3.2183^^■='|.
+T,^j — Tk |1 — 0.25792 x — 0.2349 x'\.
+p^^l —pk |l + 1.6639 X -I- 1.5775 x^ — 3.5462 .r'^j.
+T,., —Tk\l~ 0.2474 X + 0.0898 .v^ — 0.3352 x"^].
+2->,,. =pk \\ + 1.4953 ./■ — 1.9113./;^ -f 0.1112 o^\.

@@ -1,0 +1,48 @@
+A STUDY IN LOCOMOTION.
+3 2 5
+this is to be regretted, for it gives a genuine interest to a journey, as
+you may see by inspection of one of these graphics.
+The table which you see (Fig. 5) is prepared by engineers accord-
+ing to the regulation progress of trains, a progress supposed uniform ;
+we see, in fact, that the lines of progress are all straight, joining to
+each other the two points which express the place and time of depar-
+ture, the place and time of arrival. It does not then take into account
+the real movement of the train, which is accelerated or retarded under
+a great number of influences. The problem
+which we seek to solve, that of a graphic ex-
+pression of the real rate of a vehicle, supposes
+that the carriage itself traces the curve of the
+roads traversed in function of time. By means
+of the apparatus which I present to you, and
+which I call the odograph (Fig. 6), a wagon or
+any kind of carriage traces the curve of its
+movement with all its variations.
+This apparatus, based on the same princi-
+ple as the Poncelet and Morin machine, is com-
+posed of a tracing style which moves parallel
+to the generatrix of a revolving cylinder cov-
+ered with paper. The movement of the style
+follows all the phases of that of the carriage,
+but on a very reduced scale, in order that the
+tracing of a distance of several myriametres fig. 6-Odorra f
+may be contained in the dimensions of a sheet one third ofits diaraeter -
+of paper. As to the movement of the cylinder, it is uniform, and
+commanded by clockwork placed in the interior. In order that the
+movement of the style may be proportional to that of the vehicle,
+things have been so arranged that each turn of the wheel causes the
+style to advance by a small quantity always the same. But as a turn
+of the wheel always corresponds to the same distance accomplished,
+the faster the vehicle travels the more turns will the wheel make in
+a given time, and the more movements of progression will the style
+undergo. This solidarity between the movements of the wheel and
+those of the style is obtained by means of a small eccentric placed on
+the vane. At each turn there is produced a puff of air which, by a
+transmitting tube, causes a tooth of the wheel of the apparatus to
+escape, and the style to advance by a small quantity. Similar effects
+may be obtained by means of electro-magnetic apparatus. Thus the
+swifter the vehicle goes the more rapidly will the line traced ascend ;
+the comparative slope of various elements of the tracing will express
+the variations of rate, as seen in Fig. 7.
+If we wish to learn the absolute value of time and distance, it is
+sufficient to know that each minute corresponds to a millimetre counted
+horizontally on the paper, and that each kilometre corresponds to a

@@ -1,0 +1,31 @@
+296 PROCEEDINGS OP THE AMERICAN ACADEMY.
+can have multiple values of | only for a finite number of values of ^,
+these being the values for which the equations
+91
+have common roots, and by the condition 3, 3) none of these values of
+yj become infinite.
+Now we consider all such values of r;
+'^ = Cr, r = 1, 2, ly
+for which the equation, considered as an equation in |^
+has multiple roots. Deal with each of these as in 5, c^ taking the place
+of yS in (6) ; then, in equation (7), some of the ju 's will, in general, be
+greater than unity, i. e. some of the equations ^ = will have for the
+lowest terms in ^ alone exponents greater than 1. For such as have
+their /x =1, there are regular points. The others will afford singular
+points unless they have terms of the first degree in either rji or t,.
+Surround these points by neighborhoods
+|^J<S, hil<8, \^\<h,
+i. e.
+|?-aj<5, i:^_c,|<8, ia<8»
+which are to be considered later.
+Now let »; = i be any value for which the equation
+has not equal roots. Then the equations ^^ = of (7) each have a term
+in ^ to the first degree, free from rji and t,, and thus the points of the
+surface g = lying in the neighborhood of the point ^^ = 0, rji = 0,
+^ = 0, can be represented by a power series
+So, in this case, we have m developments
+^^ = P^{m,0^ o-=l, 2, m,
+and, by using the relations (4), we have
+i = Pa(v,0^ 0-= 1, 2, m.
+It is readily seen that the function
+i = pivuO

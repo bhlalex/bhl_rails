@@ -1,0 +1,38 @@
+96 PROCEEDINGS OP THE AMERICAN ACADEMY.
+On referring to equation (4),
+E = KT -V h,
+it is obvious that we have here data for calcuhiting h ; for
+dE 0.07350 — 0.06836
+dT 24.45
+= 0.0002102.
+Upon this basis, h = 0.01096. But according to our original definition
+h = — , or Q = hneQ. In this case « = 2, and Bq = 23040, expressed
+in such units that if E is in volts, CqE will be in gram calories. Hence
+we have
+Q = +505 small calories.
+This result represents the small quantity of heat given off when one
+gram atom (or 112.3 grams) of cadmium is dissolved in 11,100 grams of
+mercury. The constancy of the quotient in the last column of Table I.
+shows that further dilution does not increase this heat evolution.
+Class 4.
+A further application of equation (4) is presented in Tables V. and
+VI., which give the electromotive forces of cells whose electrodes were of
+zinc and one per cent zinc amalgam. The cells were kept at each tem-
+perature for ten minutes after constancy was reached.
+Between the observations (4) and (5) in Table V. the thermostat
+was raised to higher temperatures, but above 37° hydrogen bubbles weie
+evolved at the solid electrodes and the electromotive force became incon-
+stant. The thermostat was then cooled to 34.5° and the electrodes were
+stirred and shaken to drive off the accumulated hydrogen. The readings
+were then resumed.
+In Table VI. between observations (7) and (8) forty-eight hours inter-
+vened ; so that the later results are not so trustworthy as the earlier
+ones. These observations are not used in the calculation, but are given
+merely in order to show that even a long immersion in the electrolyte
+does not seem to affect very greatly the condition of the spongy zinc.
+The equation, based upon the starred observations in Table V., is as
+follows : —
+E = 0.0002000 T — 0.04895.
+Everywhere between 0° and 36° the values found agree almost exactly
+with the values calculated from this formula.
+Here, as before, Q = hneQ ; yi = 2 ; e^ — 23040 ; but in this case

@@ -1,0 +1,33 @@
+THE INDIRECT METHOD OF INFERENCE. 105
+class not-element or c. By the Law of Duality we can
+develop c into four alternatives, thus
+c ABc -I- A6c -I- aBc [ abc.
+Now if we substitute for A and B as before, we get
+c = ABCc I AB&c I aBCc -|- abc,
+and striking out the terms which, break the Law of Contra-
+diction there remains
+c = abc,
+or what is not element is also not iron arid not metal.
+This Indirect Method of Inference thus furnishes a
+complete solution of the following problem Given any
+number of logical premises or conditions, required the
+description of any class of objects, or any term, as governed
+by those conditions.
+The steps of the process of inference may thus be
+concisely stated :
+1. By the Law of Duality develop the utmost number
+of alternatives which may exist in the description of the
+required class or term as regards the terms involved in
+the premises.
+2. For each term, in these alternatives substitute its
+description as given in the premises.
+3. Strike out every alternative which is then found to
+break the Law of Contradiction.
+4. The remaining terms may be equated to the term in
+question as the desired description or inference.
+Abbreviation of the Process.
+Before proceeding to illustrations of the use of this
+method, I must point out how much its practical em-
+ployment can be simplified, and how much more easy it
+is than would appear from the description. When we
+want to effect at all a complete solution of a logical

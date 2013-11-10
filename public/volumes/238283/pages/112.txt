@@ -1,0 +1,39 @@
+MORENO. — ON RULED LOCI IN W-FOLD SPACE. 151
+The equations then are of S,^_2r+i foi'ni a restricted system equivalent
+to 2 ?• — 1 iudepeudent equations whose order is r {I -\- m — 2 7-4- 2).
+As we have seeu, there are two cases according as n is odd or even.
+If 71 is odd we come down finally to an ( — - — |-tuple surface S„.
+The equations of S^ are found by eliminating the parameters from the
+equations
+n-3 H-3 n— 3
+n-3 — ^'' »-5 — ^) • • • J n~S — ^>
+n-3 n-3 n-3
+9^ B_ 9^'B 9^ B
+n-3 — ^> n-5 — ^5 • • • 5 n-:i — ^•
+9X ' 9 ^ ' 9 fj. 9 jj. ~
+The equations of S2 form a restricted system equivalent to « — 2 inde-
+71 — 1
+pendent equations, whose order is — - — (I -\- 771 — 7i +3).
+There are also f — - — j-tuple points FqS> on ;S'„_i, though in general
+n + 1
+— - — consecutive i^„_2's do not intersect. If we form the resultant of
+the n -\- 1 equations
+n— 1 n— 1 n— 1
+n-l — "> ,j-3 — ^) • • • J n-1 — ^>
+5a. ^ 9 X.' 9 fJI. 9 fX ^
+n—1 «— 1 n— 1
+9^'B _ 9"'B 9'^- B _^
+n-l — ^i n-3 — ^> • • • J n-l — ^>
+9X^' 9x:^'9fJi 9fji'''
+we have a determinant of the (n + l)-st order, in which the parame-
+n -\- 1
+ters enter to the degree — - — (I -{- tti — ti -\- 1). There are then
+71 -{■ I
+— - — (Z 4- OT — « -f 1) values of the parameters that cause this
+determinant to vanish, and so this is the number of points F^. We
+can find the equations of these points by eliminating the parame-
+ters from these n -\- 1 equations. The result is a restricted system
+equivalent to 71 independent equations. The order of the system is
+n + I
+- — - — (I + m — n + 1). This is another proof of the number of
+points Fq on S„_i.

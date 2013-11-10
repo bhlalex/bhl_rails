@@ -1,0 +1,226 @@
+14
+WHOLESALE PRICES OF LUMBER.
+Species.
+Line No.
+Grade.
+Ash
+1
+Firsts and seconds 4/4
+Do
+?
+No 1 common 4/4
+Do
+3
+No. 2 common 4/4
+Do ...
+4
+Mill run
+Basswood
+ti
+Firsts and seconds 4/4
+Do
+6
+No. 1 common 4/4
+Do
+7
+No 2 common 4/4
+Do
+8
+Do
+9
+Mill run
+Beech
+10
+Firsts and seconds 4/4
+Do
+11
+Do
+1?
+Mill run
+Birch un selected
+13
+Firsts and seconds 4/4
+Do
+14
+Do
+15
+No 2 common 4/4
+Do
+16
+Do
+17
+Mill run
+Chestnut
+IS
+Firsts and seconds 4/4
+Do
+19
+Do
+?0
+Sound wormy 4/4
+Do
+*>1
+No 3 common 4/4
+Do
+??
+Mill run
+Cotton wood.
+">3
+Firsts and seconds 4/4 6 to 12 inches
+Do
+">4
+Boxboards 4/4 13 to 17 inches
+Do
+^5
+No 1 common 4/4
+Do
+?6
+Do
+?7
+Mill run
+Cypress
+?8
+Firsts and seconds clear 4/4
+Do
+79
+Selects 4/4
+Do
+30
+Shop No 1 4/4
+Do
+31
+No 1 common 4/4 random widths
+Do
+32
+Do
+33
+Mill run
+Cypress shingles
+34
+Bests 5"
+Do
+35
+Primes 5".
+Elm, Rock
+36
+Firsts and seconds 8'4
+Do
+37
+Do
+38
+No 2 common and better 8/4
+Do
+39
+Elm, Soft
+40
+No 1 common and better 4/4
+Do
+41
+No 2 common and better 4/4
+Do
+42
+Mill run
+Gum.
+43
+Firsts and seconds 4/4, red
+Do
+44
+No 1 common 4/4 red
+Do...
+45
+Firsts and seconds 4/4, sap.
+Do
+46
+No 1 common 4/4 sap
+Do
+47
+Do
+48
+Mill run
+Hickory
+49
+Firsts and seconds 8/4
+Do
+50
+No 1 common 8/4
+Do
+51
+No 2 common 8/4
+Do...
+5?
+Mill run
+Maple, Hard .
+53
+Firsts and seconds, 4/4
+Do
+54
+No 1 common 4/4
+Do...
+55
+Mill run
+Maple. Soft
+56
+No 1 common and better 4/4
+Do
+57
+Do...
+58
+Log run
+Do ..
+59
+Mill run
+Oak, Plain
+60
+Firsts and seconds 4/4
+Do...
+61
+No 1 common 4/4
+Do .
+6^
+No 2 common 4/4
+Do
+63
+Do
+64
+Mill run
+Oak. Red. quartered
+65
+Firsts and seconds 4/4
+Do .
+66
+Do...
+67
+No 2 common 4/4
+Do
+68
+Mill run
+Oak, White, quartered
+Do
+69
+70
+Firsts and seconds 4/4.
+Do
+71
+No 2 common 4/4
+Do
+72
+Poplar
+73
+Do...
+74
+Saps or selects 4/4
+Do
+75
+Do
+76
+Do
+77
+Mill run
+Tupelo (Bay Poplar)
+Do
+78
+79
+Firsts and seconds clear, random, 4/4.
+Do
+HO
+Mill run

@@ -1,0 +1,48 @@
+188 On prime and ultimate Ratios.
+T say, that the measures of such ratios never can attain the
+limits which we have assigned to them : they may, how-
+ever, continually approximate towards them ; and when the
+measures of the ratios differ from those limits by less than
+any assignable difference, they may be said to be equal.
+This being allowed, it is evident that in making use of
+those ratios, after having supposed that they have attained
+to such ultimate states, or limits, we continually approxi-
+mate towards true results ; and when the results thus ob-
+tained, differ from the true results by a quantity indefinitely
+small, they may be said to be indefinitely near the truth,
+and in practice the indefinitely small error may be neg-
+lected, as being of no sensible magnitude.
+This is all that Newton meant in his first lemma in the
+Principia, where he says that Ci quantities, and the ratios
+of quantities, which in any finite time converge continually
+to equality, and before the end of that time approach nearer
+the one to the other than by any given difference, become
+ultimately equal."
+It was the calling, those results true which are only ap-
+proximations indefinitely near the truth, that gave the au-
+thor of the Analyst so much advantage in exposing the
+errors in the metaphysics of the fluxional calculus ; and it
+was very inconsiderate in Philalethes (supposed to be Dr.
+Jurin) to argue that the error occasioned by neglecting a
+certain very small quantity did not affect the result of any
+operation : — that did not in the least tend to overthrow the
+arguments adduced by the author gf the Analyst, since it
+was the error in principle that he struck at, and not the
+quantity of error that the making use of a false principle
+might produce.
+The conclusions obtained by the method of fluxions are
+not absolutely true, nor did Newton ever consider them as
+such ; they are approximations, which produce no sensible
+errors; and had his host of defenders proceeded no further
+than this, all the arguments that could have been brought
+forward against this method must have vanished.
+But instead of giving up what was evidently untenable,
+all the varied arguments which imagination aided by science
+could suggest, were brought forward in order to get rid of
+the difficulties which Berkley had pointed out, but without
+effect; for truth is at all times consistent with itself, and
+what is once wrong can never be proved to be right.
+Newton was desirous of determining the areas of curvi-
+linear figures : this was at all times a great desideratum,
+and hadT exercised the talents of philosophers in all ages.
+The

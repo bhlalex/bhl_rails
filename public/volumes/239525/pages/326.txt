@@ -1,0 +1,37 @@
+OF ARTS AND SCIENCES : JANUARY 14, 1873- 499
+would be less than Dx for values of x below a certain fixed value,
+and x and tan x, starting together from zero, tan x would be less than
+x for these values, which again is impossible ;
+G= 1.
+Introducing this value of c in [4] [5] and [6] we obtain
+D (sin x) = cos x Dx. {.f~\
+D (cos x) = — sin x D x. \_g~\
+D (tan x) = sec 2 x Dx. [A]
+The President communicated the following letter : —
+Cordoba, November 7, 1872.
+To the President of the American Academy of Arts and
+Sciences.
+Dear Sir, — Upon my departure from home on the undertaking in
+which I am at present engaged, the Academy had the goodness to aid
+my plans materially by appropriating the sum of $ 500 in gold from the
+Rumford Fund for the purpose of supplying me with a star spectroscope
+and astronomical photometer, — with permission to transfer them at
+the same price to the Argentine government for permanent use in this
+hemisphere, in case that the means for their purchase by the National
+Observatory should become available.
+The instruments were ordered without delay, and are now in my
+possession, in good order. But the numerous delays arising from the
+German war of 1870 postponed both the construction and the transpor-
+tation of the apparatus ; and the instruments did not reach Cordoba
+until all my energies had been so severely tasked in other directions as
+to preclude me from undertaking any spectroscopic or photometric
+observations for the present.
+I had hoped to offer to the Academy some results obtained with
+these instruments, in recognition of the valuable aid so opportunely
+and ^generously afforded ; and I do not yet relinquish the hope of so
+doing at some future time. Meanwhile I have the satisfaction of being
+able to announce that the funds have been provided for the acqui-
+sition of these instruments by the observatory, and have the honor of
+transmitting them herewith to the Academy, with my cordial thanks.
+It may have some interest for the Academy to know that, in the two
+years which have elapsed since my arrival in Cordoba, the observa-

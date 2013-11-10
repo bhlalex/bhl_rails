@@ -1,0 +1,36 @@
+382 THE PRINCIPLES OF SCIENCE.
+and thus consisting of the sum of the ratios between the
+numbers of permutations and combinations of o, i, 2, 3, 4,
+&c. things.
+Tables of prime numbers and of the factors of composite
+numbers must not be forgotten.
+Another vast and in fact infinite series of numerical
+constants contains those connected with the measure-
+ment of angles, and embodied in trigonometrical tables,
+whether as natural or logarithmic sines, cosines, and
+tangents. It should never be forgotten that though
+these numbers find their chief employment in connexion
+with trigonometry, or the measurement of the sides of a
+right-angled triangle, yet the numbers themselves arise
+out of simple numerical relations bearing no special rela-
+tion to space.
+Foremost among trigonometrical constants is the well
+known number TT, usually employed as expressing the
+ratio of the circumference and the diameter of a circle ;
+from TT follows the value of the arcual or natural unit
+of angular value as expressed in ordinary degrees (see
+p. 358).
+Among other mathematical constants not uncommonly
+used may be mentioned tables of factorials (p. 202), tables
+of Bernouillfs numbers, tables of the error function d ,
+which latter are indispensable not only in the theory of
+probability but also in several other branches of science.
+It should also be clearly understood that the mathe-
+matical constants and tables of reference already in our
+possession, although very extensive, are only an infinitely
+small part of what might be formed. With the progress
+of science the tabulation of new functions will be con-
+tinually demanded, and it is worthy of consideration
+whether public money should not be constantly available
+d See J. W. L. Glaisher, ' Philosophical Magazine/ 4th Series, vol. xlii.
+p. 421.

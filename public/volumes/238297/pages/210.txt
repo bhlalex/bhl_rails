@@ -1,0 +1,36 @@
+184 THE PRINCIPLES OF SCIENCE.
+be that ' Two things of which one is equal and the other
+unequal to a third common thing, are unequal to each
+other/ An equality and inequality, in short, may give an
+inequality, and this is equally true with the first axiom of
+all kinds of quantity. If Venus, for instance, agrees with
+Mars in density, but Mars differs from Jupiter, then Venus
+differs from Jupiter. A third axiom must exist to the
+effect that 'Things unequal to the same thing may or
+may not be equal to each other/ Two inequalities give
+no ground of inference whatever. If we only know, for
+instance, that Mercury and Jupiter differ in density from
+Mars, we cannot say whether or not they agree between
+themselves. As a fact they do not agree ; but Venus and
+Mars on the other hand both differ from Jupiter and yet
+closely agree with each other. The force of the axioms
+can be most clearly illustrated by drawing lines d .
+The general conclusion must be then that where there is
+equality there may be inference, but where there is not
+equality there cannot be inference A plain induction will
+lead us to believe that equality is the condition of inference,
+concerning quantity. All the three axioms may in fact
+be summed up in one, to the effect, that 'in whatever
+relation one quantity stands to another, it stands in the
+same relation to the equal of that other!
+The active power is always the substitution of equals,
+and it is an accident that in a pair of equalities we can
+make the substitution in two ways. From a = b = c we
+can infer a = c, either by substituting in a = b the value of
+b as given in b = c, or else by substituting in b = c the
+value of b as given in a = b. In a b ^ d we can make
+but the one substitution of a for b. In e^f^g we can
+make no substitution and get no inference.
+In mathematics the relations in which terms may stand
+to each other are far more varied than in pure logic, yet
+d 'Elementary Lessons in Logic' (Macmillan), p. 123.

@@ -1,0 +1,45 @@
+498 POPULAR SCIENCE MONTHLY. .
+This corresponds to the loss of heat in the locomotive through the
+smoke passing out the smokestack, and in both cases the loss is greater
+when work is being done and less during inaction. The refuse products
+of the body (as the ashes of the locomotive) also carry away heat. This
+is the third portion of heat and is a large one.
+Work is done in the locomotive by the expanding steam in the cylin-
+ders of the engine. The steam is cooled as it expands. Hence heat dis-
+appears when work is done; that is, is converted into mechanical en-
+ergy, and a steam engine is hence called a heat engine; an engine for
+converting heat into work, according to the law of the conservation of
+energy. As the pistons are pushed to and fro by the tremendous
+pressure of the expanding steam, the reciprocating motion is communi-
+cated to the great drivers of the engine by strong arms of steel. But
+how is work done in the body? That is a question of prime importance
+and of surpassing interest. When muscle contracts and force is ex-
+erted, as when the body is lifted or an oar is pulled, muscular tissue (or
+material stored in muscular tissue) is oxidized; that is, burned, and heat
+is produced; yet not as much heat appears as would have appeared on
+the combustion of the same amount of body material if no work had
+been done. Apparently, then, heat has been converted into work. But
+we cannot trace the process with the same clearness as in the cylinder
+of a steam engine. Whether the potential energy of the body material
+is directly converted into work, or whether combustion first produces
+heat and a part of this heat is then converted into work, we do not
+know. In other words, we do not know whether the animal body as a
+machine for doing mechanical work is a heat engine or some other kind
+of engine. This is a fundamental question, as well as a very difficult
+one, and to a student of thermodynamics and physiology it prompts all
+sorts of speculation.
+When one tries to picture to himself how the potential energy of
+food or body tissue can be directly converted into mechanical work, he is
+apt to turn to the other alternative and imagine that in some way the
+body is a heat engine. For we know that heat results from the oxida-
+tion of tissue, and we also know how heat can be converted into
+mechanical work. But we are at once confronted with a difficulty.
+One of the fundamental laws of thermodynamics requires that when
+heat is converted into work there shall be a difference of temperature
+between the source of heat and the place to which the heated material
+employed passes after doing the work. In other words, in a heat en-
+gine, whatever the mechanism, there must be a fall of temperature,
+which is greater as the relative amount of work, or efficiency, is greater.
+In the human body the efficiency perhaps surpasses that of the best
+steam engines; hence there should be a fall of temperature comparable
+with that between the boiler and condenser o-f a steam engine. This

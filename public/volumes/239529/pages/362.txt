@@ -1,0 +1,44 @@
+531
+layers than has the light from the limb, the asymmetry of the centre
+lines is smaller, as a rule, than the asymmetry of the limb lines;
+the difference manifests itself in the limb-centre displacements.
+Which are the greater displacements, those of the limb lines with
+respect to the centre lines, or those of the centre lines with respect
+to the positions of the solar proper frequencies?
+Supposing the solar and terrestrial frequencies to be identical
+(absence of Einstein effect), and exactly given by the positions of the
+arc lines, the simple comparison of the average limb-centre displa-
+cements with the average centre-arc displacements would teach ns
+that there is not much difference in magnitude between the said
+two categoi'ies of displacements. The second one gives a somewhat
+smaller mean, as will be shown further on. The great inequality of
+the displacements of different lines is also similar in both cases, and
+points to a common origin and nature of the two phenomena 1 ).
+Moreover, various considerations regarding the constitution of the
+outer layers of the sun lend support to the inference, that the light
+from the central parts of the disk has had on the average not quite
+half as much opportunity to be refracted and scattered, as has the
+light coming towards us from the marginal parts.
+The deductions from the dispersion theory are therefore quite in
+harmony with the observed displacements towards the red (both
+limb-centre and centre-arc shifts), if the terrestrial arc lines really
+give us with great approximation the solar values of the proper
+frequencies.
+The following table contains a summary of the observational
+material we have used. The sun-arc displacements given in the
+tables of Grebe and Bachem (Verb. d. D. Phys. Ges. 21, 454, J 919),
+Evershed (Kodaikanal Bull. 36), Koyds (Kod. Bull. 38), Evershed
+and Royds (Kod. Bull. 39), 446 values in all, most of which are
+means derived from several observations, have been divided by us
+into three groups according to wave-length, and for each group
+o
+(covering 800 A) the mean value dof the displacement has been taken.
+These three values of (f are indicated by cross-blocks in the
+diagram on page 527. The intermediate block-line shows the
+general progression of the sun-arc displacements with wave-length;
+it remains below the curve R of the limb-centre displacements, as
+already remarked.
+l ) It should be kept in mind 1. that with regard to the second category of
+observed displacements the uncertainty about the positions of many arc lines cannot
+be overlooked, and 2. that, according to the dispersion theory, a simple propor-
+tionality of the two categories is not to be expected.

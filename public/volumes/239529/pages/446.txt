@@ -1,0 +1,44 @@
+655
+The adsorptions of the third sort manifest themselves, when emanation
+is adsorbed to objects that may be considered as having a negative
+electrical charge, and they can be brought forth in special experiments,
+when gases, containing gasions or condensation-droplets, are placed
+between eondensator-plates.
+The adsorptions of the first sort occur everywhere in daily life.
+According to Gibbs' theorem 1 ) all substances that lower the surface-
+tension of the fluid of which the layer is composed, attach them-
+selves to the condensation layer that covers every object. The con-
+densation layer consists mainly of water, and since all odorous sub-
+stances lower the surface-tension of water 1 ), the adsorption of odori-
+vectors must occur in all cases. It is specially those odorous sub-
+stances that possess great surface-activity, which will be largely
+adsorbed.
+It seems that the sublayer has some influence on the composition
+of the adsorbed air-vapour-layer. It may be assumed that all sorts
+of oxidation-products and decomposition-products of the solid sub-
+layer, as well as substances that have been dissolved in it, will
+pass into the condensation-layer. On metals we may look for oxides,
+on glass for alkali, on ebonite for sulphuric acid. Quartz is also
+hygroscopic and colloid chemistry assigns a reaction to its surface.
+I feel inclined to ascribe to these components dissolved in the con-
+densation-layer, the specific character which experience has taught
+us that belongs to the adsorption of odours by certain surfaces.
+By my method (transmission of air at the rate of 100 cubic cm.
+per second through cylinders of different material with a lumen of
+0.8 cm., a measured quantity of odorivector being added to the air)
+the quantum of odorous matter in the air can be determined which
+has passed along the inner surface of the cylinders.
+To perform this we should take into account the odorimetrical
+coefficient of the olfactometer that served as source of smell, as
+well as the minimum perceptibile of the odorivector in absolute
+measure. Both are known for the cases published previously and
+from them A. Heyninx and myself have deduced the partial tension
+of the odorous gas that served as odorivector.
+I will report some of my results here :
+Pyridin was hardly adsorbed to glass though a large quantity of
+it was present in the air; valerianic acid, however, of which there
+was only a small amount in the transmitted air, was retained for
+l ) J. Willard Gibbs, Thermodyn. Studiën, Uebersetzt von W. Ostwald, Leipzig
+1892, S. 258.
+! ) Acta otolaryngologica, Vol. 1, p. 54, 1918.
+42*

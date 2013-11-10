@@ -1,0 +1,43 @@
+( 676 )
+4'i' . an apparatus sjjj which will be described in detail in the following
+section and intended to deliver a stream of calciumchloride solution
+at a low but very constant temperature.
+We may consider the methylchloride vapour which streams out
+of these refrigerators and regenerators. In the case 3 above (some-
+times also in case 2 for which the connection ^i serves) it would
+be sucked by a Burckhardt — Weiss vacuum pump ^!, installed in
+the manner given in Comm. No. 83. B'rom here it would travel to
+one of the conjugated pumps of the Société Génèvoise ^\ mentioned
+in Comm. No. 14, which receive the vapour from the Burckhardt
+or from all other apparatus (S PI. II and further indicated under 2).
+This pump ^^^ may for another example take the vapour directly from
+the boiling vessel ^ (see PI, II and L PI. I) as weW as between the
+hio-h and low pressure cylinder from the branch tube •(?, which too
+allows gas to be pumped from one of the four above mentioned
+sacks •!?, in which the methylchloride can be preserved for a short
+time and of which only one is represented on PL II, while other
+sacks can be connected to apparatus from which methylchloride
+escapes under constant pressure. The pump is provided with an
+indicator on the low pressure cylinder, a vacuummeter between
+the hio-h and low pressure cylinders and a manometer on the high
+pressure cylinder, besides several cocks which are required for
+pumping, drying and filling with methylchloride. The vacuum meter
+^mv indicates the pi-essure of the gas wiiich enters the high pressure
+cylinder. From the cylinder volume and the number of strokes one
+can derive the volume of gas and reduce it to that under normal
+conditions moved in the cycle, so that the velocity with wdiich the
+liquid in the refrigerator evaporates can be followed.
+In addition a safety valve ^w is added to the high pressure cylinder
+principally to protect the condensor 5\
+The methylchloride which can escape from this safety valve is
+passed into the above mentioned sacks -0. Usually, all the methyl-
+chloride passes into the condenser, where it is cooled by running
+water from the main. In between, an oil trap ^- is placed which
+is slightly warmed by steam (see Q:\-„,X so that the transported oil
+shall give up the dissolved methylchloride. The oil thus separated
+by the change of direction is run into a flask iv. The last portion
+of the methylchloride, freed here, is carried to the sack •!?. At the
+top of the oil trap, the gas is freed from the last traces of oil by
+layers of felt and wadding contained between sheets of metal gauze.
+(C.f. the oil trap of the ethylene circulation shown by Mathias I.e.
+p. 383 fig. 1).

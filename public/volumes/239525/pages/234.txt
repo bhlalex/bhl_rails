@@ -1,0 +1,41 @@
+OF ARTS AND SCIENCES : JANUARY 9, 1872. 345
+left, apparently, no doubt of the existence of electrical currents in
+nerve and muscle.
+Physiologists have been led from considering the anomalous con-
+tractions of the galvanoscopic frog to conclude that there exist in the
+muscles and nerves of man, of fishes, and in the various organs
+of the lower forms of life, currents which have determinate directions.
+The earlier investigators tested for the presence of these currents by
+touching the organs or parts to be examined with the bare terminals of
+the galvanometer ; indeed, this method of investigation is still pursued
+by certain physiologists.
+The evidence of the existence of animal currents produced by touch-
+ing the muscles with the bare terminals of a galvanometer or an elec-
+trometer is entirely insufficient to prove that electrical currents circu-
+late in the muscular or nerve tissues. One is baffled at every step by
+the dissimilar composition of the terminals ; by the changes which they
+undergo from the action of the air upon the fluids adhering to the sur-
+face of the platinum ; and by the influence of heat.
+It is true that by experimenting with the bare terminals one can
+state a difference in the chemical nature of the different tissues of the
+muscle or nerve ; we cannot, however, conclude that electrical currents
+exist in a determinate direction between such tissues ; indeed, in many
+cases the galvanic action is evoked by the action of the metallic plates
+of the terminals. This unequal composition of the two electrodes can
+be overcome, as Matteuci has shown, by using amalgamated zinc ter-
+minals placed in a saturated solution of sulphate of zinc.
+Du Bois Reymond, by using connecting pads of filtering-paper, satu-
+rated with the salt of the connecting liquid, with clay or bladder
+guards to prevent the muscle from coming in contact with the sulphate
+of zinc, was enabled to prosecute his investigations without fear of
+errors arising from the changes in the metallic terminals. At first
+sight it appears as if this method of experimenting left nothing to be
+desired. The sulphate of zinc is a good conductor ; the zinc plates
+produce only a slight action when immersed in the sulphate of zinc,
+and this action can be readily compensated by a magnet or by a com-
+pensating current. The muscle can be touched at any part by the pads
+of filtering-paper or by the clay talons which Du Bois Reymond after-
+ward used, without danger of injuring the animal tissue.
+It occurred to me, however, from certain experiments upon the elec-
+tromotive force arising from two liquids of a di-similar chemical nature
+vol. vin. 44

@@ -1,0 +1,36 @@
+THE INDUCTIVE OR INVERSE METHOD. 311
+form an hypothesis as to the logical conditions under
+which the given instances might occur ; we calculate
+inversely the probability of that hypothesis, and com-
+pounding this with the probability that a new instance
+would proceed from the same conditions, we gain the
+absolute probability of occurrence of the new instance in
+virtue of this hypothesis. But as several, or many, or
+even an infinite number of mutually inconsistent hypo-
+theses may be possible, we must repeat the calculation for
+each such conceivable hypothesis, and then the complete
+probability of the future instance will be the sum of the
+separate probabilities. The complication of this process
+is often very much reduced in practice, owing to the fact
+that one hypothesis may be nearly certainly true, and
+other hypotheses, though conceivable, may be so im-
+probable as to be neglected without appreciable error.
+But when we possess no knowledge whatever of the con-
+ditions from which the events proceed, we may be unable
+to form any probable hypotheses as to their mode of
+origin. We have now to fall back upon the general
+solution of the problem effected by Laplace, which consists
+in admitting on an equal footing every conceivable ratio
+of favourable and unfavourable chances for the production
+of the event, and then accepting the aggregate result as
+the best which can be obtained. This solution is only to
+be accepted in the absence of all better means, but like
+other results of the calculus of probabilities, it comes
+to our aid where knowledge is at an end and ignorance
+begins, and it prevents us from over-estimating the know-
+ledge we possess. The general results of the solution are
+in accordance with common sense, namely, that the more
+often an event has happened the more probable, as a
+general rule, is its subsequent occurrence. With the
+extension of experience this probability indefinitely in-
+creases, but at the same time the probability is slight

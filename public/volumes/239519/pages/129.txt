@@ -1,0 +1,31 @@
+POPULAR SCIENCE MONTHLY.
+'caught on' to the surreptitious use of gas ranges are either the fortunate
+possessors of 'slow' meters or are deluding themselves as to the amount
+of gas which they actually consume.
+Fig. 4 is a photograph of the common dry meter, with the front,
+back, top and left side removed. It is called a 'dry' meter to dis-
+tinguish it from those meters, having little vogue in this country,
+which employ a liquid in place of a valve motion. The apparatus
+shown consists of a case divided into three compartments by a horizon-
+tal partition one fourth of the way down from the top, and by a
+vertical partition centrally placed and extending upward from the
+bottom of the casing to the horizontal partition. The upper com-
+partment contains the registering mechanism and a small valve cham-
+ber, the latter corresponding to the steam chest of an engine. In each
+of the lower compartments is a metal disk attached to the central
+partition by well-oiled flexible leathers, each disk, leather and the
+partition forming a bellows. As in a locomotive, the meter really
+consists of two separate mechanisms, set to operate out of phase and
+avoid dead centers.
+Considering one mechanism only, recourse may be had to a dia-
+grammatic representation of the action (Fig. 5). Gas entering the
+inlet passes into the valve chamber. Here an ordinary D-slide-valve
+closes two of the openings, leaving a third through which the gas may
+flow into the bellows or inner compartment. The bellows expands,
+gradually filling the outer compartment, and forcing the gas out under
+the valve into the outlet pipe, as indicated by the arrows. When
+the bellows is fully distended the valve shifts into the position shown
+in Fig. 6, admitting the inflowing gas to the outer compartment and
+collapsing the bellows, whose contents are forced into the outlet pipe
+by the paths traced by the arrows.
+Thus, it will be observed, the meter is a volume measurer pure and

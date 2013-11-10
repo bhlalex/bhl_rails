@@ -1,0 +1,41 @@
+Barkworth: Elymus stebbinsii 351
+characters not used in the analysis (Davis & Heywood 1963). Because only the
+projection of the OTUs onto the first three principal components was examined, MST
+was used to determine the closest neighbor of each OTU and these connections were
+superimposed on the PCOMP projection.
+Discriminant analysis seeks to maximize the separation among pre-defined groups
+of OTUs based on linear combinations of the original data. These Imear combinations,
+or functions, are then applied to each OTU and its group membership assessed. If the
+functions place the OTU closer to the centroid of a group other than its own group,
+that OTU is flagged as misclassified and the group with the closest centroid identified.
+Because 1 had no independent criteria for assigning the OTUs to groups, 1 used the
+major clusters obtained from UPGMA cluster analysis as the initial groups. The
+membership of these groups was then modified to reflect the classification suggested
+by the first DA. This procedure was repeated until the discriminant functions placed all
+the OTUs in the group to which they had been assigned.
+I then reevaluated the resulting groups of OTUs in terms of characters not used in
+the analyses. This resulted in the reclassification of a few OTUs. The data from these
+groups were then used to evaluate the specimens not included in the numerical
+analyses and a preliminary taxonomic treatment developed. After further review of the
+specimens, I examined die geographic and ecological distribution of the taxa that
+seemed to merit recognition, and summarized the morphological data for the three that
+were well represented in the study.
+EXCEL (Microsoft 1997) was used to record the data and calculate univariate
+statistics. NTSYS (Rohlf 1993) was used for PCOMP, SAHN, and MST, and
+SYSTAT (SPSS 1997) for the discriminant analyses. To plot distributions, the
+latitude and longitude for each collection site represented was estimated using
+StreetAtlas (DeLorme 1997), Geographic Names Information System (U.S.
+Geological Survey 1993), or Wefald's (1995) program for converting township,
+range, and section data to latitude and longitude. Distribution maps were produced
+using Atlas Graphics version 2.1 (Strategic Mapping 1993).
+RESULTS
+CLUSTER ANALYSIS. Cluster analysis, using UPGMA, resulted in the
+formation of four major clusters (Figure 1) among the OTUs. The cluster containing
+the holotype of Elymus stebbinsii is labeled Sb, that containing what is designated
+below as the holotype of E. stebbinsii subsp. septentrionalis is labeled Sp. The other
+two clusters, A and B, consisted primarily of OTUs that belonged to the single spikelet
+variant of E. glaucus.
+Groups A, B, and Sp were somewhat unstable. Measuring a different spikelet on
+a specimen sometimes moved a specimen from one cluster to another and the addition
+of a few specimens with missing anthers also altered the order in which the clusters
+linked together. Most of the movement involved groups A and B.

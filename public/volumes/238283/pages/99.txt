@@ -1,0 +1,34 @@
+134 PROCEEDINGS OF THE AMERICAN ACADEMY.
+g^-0 ^-^ -0 ?!^_o
+in which form the parameter no longer appears. Any p + 1 consecutive
+i^„_i's intersect in the same i^„_p_i as any other consecutive p -\- \ ;
+i. e., all the -F„_i's of the system contain the same F^_p_-i^. Any p-flat
+that does not meet this i^i_p_i cuts »S'„_i in a developable (/> — l)-spread
+of order 2 {p — 1). This developable {p— l)-spread of order 2 (/> — 1)
+lying in a ;j-flat is exactly similar to the case in /j-fold space where
+m = n. The curve at the base of this system is of order p\ it is the
+rational normal curve of p-fold space. Hence we may derive this system
+by joining by lines all points of a developable {p — l)-spread of order
+2 (p — 1) in a j9-fold space, to all points of an (n — p — l)-flat that does
+not meet the p-flat that contains the {p — l)-spread. <S„_x is a conoid
+of (n — 2)-flats with an (n — p — l)-way head. The generating -F„_2'3
+of Sn_i arise from the junction of the (m — p — l)-way head with the
+generating (p — 2) -flats of the (p — 1) -spread. The generating F„_s3
+of *S'„_2 arise from the junction of the {n — p — l)-way head with the
+system of generating (p — 3)-flats of the (p — 2)-spread, and so on.
+Any conoid ruled by a 1-fold infinite system of y-flats with a (q — l)-way
+head is a developable spread, but not so if it has only an r-way head
+where r ^ q — 2. The latter spread is a developable only when the
+consecutive g'-flats have {q — l)-way intersection. Any conoid ruled
+by a 1-fold infinite system of (n — 2)-flats that have an (n — 3) -flat in
+common is a developable, but if they have only an (n — ^)-flat in com-
+mon where A; ^ 4, the conoid may or may not be developable. The
+cones and conoids with a 2-fold infinite system of generators are not
+developables at all.
+The points of intersection of two consecutive generators are not in
+general points of intersection of three generators. The equations of
+a generator may be written
+e+(^-l)rf+ ('"-'H'"-^^ + .... = 0,
+/+(,„-i). + ('"-'H"'-^) rf+.... = o.
+The points of intersection of three generators of the system are given
+by the equations
