@@ -1,0 +1,39 @@
+318 PROCEEDINGS OF THE AMERICAN ACADEMY,
+tan 2 p 1 + tan a tan /8 cos^ C"
+(6)
+tan 2 6" (1 + tan a tan {3) cos C
+1 — M cos C" 1 — w cos C"
+(7) tan a tan ^ = P^t — -^ = j^, ^-^ .
+^ ^ MOOS 6^— cos' C rcosC — cos^C
+tan 2 6' — cos C tan 2 p _ tan 2 9" — cos (7'' tan 2 p
+^ -^ tan 2 p cos C" — cos'^ C tan 2 6' ~ tan 2 p cos (7" — cos^ C" tan 2 6'
+Let tan 2 p = x, tan 2 6' = x' , tan 2 Q" = x' . We have
+x' — X cos C" x" — X cos C"
+^^^ a; cos C - x' cos'-' C ~ x cos (7" - x" cos^ C" '
+Hence
+(10) X {x' cos C" sin^ C - x" cos C" sin^ C") = x' a:" (cos'^ C" - cos^ (7') .
+Substituting the values of x, x\ and x",
+_ tan 2 g^ tan 2 &' (cos'' C^^ - cos' C)
+(11) tan 2 p - ^^^ ^ ^, ^^^ ^,„ ^.^, ^„ _ ^^ 2 ^„ ^^^ ^, ^.^^2 ^„ .
+Reducing to a form more convenient for the use of logarithms, we have
+' _ tan 2 & tan 2 &' sin ( C + C^'Q sin ( C - C")
+(12) tan 2 p _ ^an 2 6/' sin^ C cos C" - tan 2 6/" sin^ 6'" cos C '
+We now have an expression by means of which the extinction can be
+calculated even when the optical angle is not known. The theory of
+the same problem was elaborated by Liebisch in his discussion * of the
+general determination of the optical angle and of the direction of the
+optic axes in biaxial minerals, using sections whose cry stall ographic
+orientation is known, and on which the planes of vibration of the two
+refracted rays are known. Of immediate interest to us is the case in
+the monoclinic system where the optical plane is also the plane of sym-
+metry, but the orientation of the two axes of elasticity is not determined.
+He finds the problem soluble when two sections can be employed, and
+this is what we practically have for optical purposes in the cleavage
+piece placed at two positions with respect to the incident ray from the
+polarizer.
+But it is evident that there must be some degree of error in the instru-
+mental readings of 0' and 6"; we have next to inquire if equation (12)
+is so sensitive to changes in 6' or 6" or to simultaneous changes in both
+as to make any determinations of p by means of it valueless. By ac-
+* tJber die Bestimmung der optischen Axen durch Beobachtung der Schwings-
+richtung ebener Wellen. Neues Jahrbucli fur Min., etc., 1886, Bd. I. p. 155.

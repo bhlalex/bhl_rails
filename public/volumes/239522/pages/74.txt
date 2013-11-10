@@ -1,0 +1,41 @@
+POLYMORPHIC TRANSFORMATIONS OF SOLIDS. 103
+In addition to these very rough values at the triple point, there
+have been several other determinations at atmospheric pressure.
+It has been shown directly that the relations of I and II are abnormal
+both in regard to expansion and specific heat. The form II has a
+negative coefficient of expansion. We have no accurate measurements
+of it at the transition point. The best are by Fizeau ^^ on cr^-stals.
+He found at 40° for large crystals the average contraction of 0.0648
+and for the precipitated salt b}^ a dilatometric method 0.0674 cm^./gm.
+(I have taken the density at room temperature as 5.67 from data of
+Rodwell ^^). Fizeau and Rodwell have both shown, however, that the
+coefficient increases rapidly with rise of temperature. Rodwell's data
+would give an average coefficient between 70° and 150° of — O.OaSSS.
+From data of Rodwell we also find that the mean expansion of
+I between 150° and 450° is about O.O55. These measurements of
+the expansion are too uncertain to justify us in making calculations
+of the difference. The data for specific heat are somewhat more
+concordant. Two observers agree in finding that I has a smaller
+specific heat than II. At the transition point Bellati and Romanese ^^
+give for the specific heat of I 0.0577 cal. and for that of II 0.0654,
+making a difterence of 0.0077 cal. Mallard and Le Chatelier ^^ give
+for the specific heat of I between 154° and 347° 0.055, and for II
+between 20° and 127°, 0.059. Since however, they estimate the
+accuracy of the individual measurements as only 3%, we evidently
+cannot place much reliance on their difference. If we assume the
+value of Bellati and Romanese for the difference and combine with
+the values given above for —. — (= —0.0653) and —. — (= 0.005),
+dp dp
+we find A/3 = — .00002, whereas we know A/3 to be positive. If A/3 is
+to be positive with the above values for —, — and , — , the difference
+dp dp
+of specific heats must be at least twice as great as it is. We can get a
+much better value for Aa. If we assume A/3 = 0, and it evidently is
+very small, we find Aa is of the order of 0.065, the same as found above
+at the triple point. We may accept this value with some confidence
+therefore. Combined with the value of Richards and Jones ^° for the
+compressibility of the ordinary variety, this means that I is about
+twice as compressible as II, although it has the smaller volume. The
+19 Fizeau, Pogg. Ann. 132, 292 (1867).
+20 T. W. Richards and G. Jones, Jour. Amer. Chem. Soc. 31, 158-191
+(1909).

@@ -1,0 +1,43 @@
+658 POPULAR SCIENCE MONTHLY.
+well as that of Briinnow and Ball, in applying the equatorial telescope
+to the same purposes, the parallax of nearly 100 stars has been
+measured with some approach to precision.
+A rival method to that of the heliometer has been discovered in
+the photographic telescope. The plan of this instrument, and its appli-
+cation to such purposes as this, are extremely simple. We point a
+telescope at a star and set the clock-work going, so that the telescope
+shall remain pointed as exactly as possible in the direction of the star.
+We place a sensitized plate in the focus and leave it long enough to
+form an image both of the particular star in view and of all the stars
+around it. The plate being developed, we have a permanent record
+of the relative positions of the stars which can be measured with a
+suitable instrument at the observer's leisure. The advantage of the
+method consists in the great number of stars which may be examined
+for parallax, and in the rapidity with which the work can be done.
+The earliest photographs which have been utilized in this way are
+those made by Eutherfurd in New York during the years 1860 to 1875.
+The plates taken by him have been measured and discussed principally
+by Eees and Jacoby, of Columbia University. Before their work was
+done, however, Pritchard, of Oxford, applied the method and published
+results in the case of a number of stars.
+One of the pressing wants of astronomy at the present time is a
+parallactic survey of the heavens for the purpose of discovering all the
+stars whose parallax exceeds some definable limit, say 0"1. Such a
+survey is possible by photography, and by that only. A commence-
+ment, which may serve as an example of one way of conducting the
+survey, has been made by Kapteyn on photographic negatives taken by
+Donner at Helsingf ors.
+These plates cover a square in the Milky Way about two degrees
+on the side, extending from 35° 50' in declination to 36° 50', and from
+20h. lm. in R. A. to 20h. 10m. 24s. Three plates were used, on each
+of which the image of each star is formed twelve times. Three of the
+twelve impressions were made at the epoch of maximum parallactic
+displacement, six at the minimum six months later, and three at the
+following maximum. The parallaxes found on the plates can only be
+relative to the general mean of all the other stars, and must therefore
+be negative as often as positive. The following positive parallaxes,
+amounting to 0"1, came out with some consistency from the measures:
+Star, B. D., 3972 Mag. 8.6 R. A. 20h., 2m. 0s. Dec. -f 35°.5 Par. -f 0".ll
+Star, B. D., 3883 Mag. 7.1 R. A. 20h., 2m. 3s. Dec. +36°.l Par. -j-0".18
+Star, B. D., 4003 Mag. 9.2 R. A, 20h., 4m. 58a. Dec. -j-35°.4 Par. -J-0M0
+Star, B. D., 3959 Mag. 7.0 R. A., 20h., 9m. 14s. Dec. -)-36°.3 i Par.-j-0".10

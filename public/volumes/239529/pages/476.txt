@@ -1,0 +1,197 @@
+711
+Pi =4,25
+Pi — 7,25
+Pi = 10,25
+Tit-
+e=l
+£ = 2
+e = 4
+£=1
+£ = 2
+£ = 4
+3 = 1
+£ = 2
+£ = 4
+2
+3
+4
+5
+6
+7
+8
+9
+0,093
+0,105
+0,105
+0,006
+0,006
+0,006
+135
+155
+158
+012
+013
+013
+184
+221
+226
+021
+023
+023
+239
+301
+311
+035
+039
+039
+295
+396
+417
+057
+064
+065
+0,003
+0,003
+0,003
+345
+500
+543
+085
+099
+100
+006
+006
+006
+383
+605
+689
+122
+146
+150
+Oil
+012
+012
+404
+697
+854
+164
+206
+214
+019
+021
+021
+10
+408
+761
+1,033
+210
+279
+294
+032
+036
+036
+11
+399
+788
+1,214
+253
+361
+393
+051
+059
+060
+12
+382
+780
+1,375
+289
+448
+509
+075
+091
+093
+13
+360
+749
+1,479
+312
+527
+641
+106
+133
+138
+14
+337
+705
+1,500
+320
+587
+785
+140
+186
+196
+15
+314
+657
+1,448
+315
+617
+933
+174
+247
+269
+16
+286
+605
+1,354
+295
+610
+1,060
+200
+308
+350
+17
+266
+560
+1,254
+277
+586
+1,153
+224
+373
+452
+18
+255
+546
+1,179
+236
+426
+563
+19
+233
+500
+1,140
+235
+456
+676
+20
+212
+454
+1,059
+225
+460
+778
+21
+1
+b. For fainter stars the logarithmic detect strongly increases at
+first, until a maximum is reached (about proportional to the absorp-
+tion), and the values again decrease. This is due to the fact that
+for the faint magnitudes an ever greater majority of the stars lies
+behind the nebula, so that the logarithmic defect approaches ever
+more to the difference log N m — log N m - t \ for fainter magnitudes,
+however, this difference decreases.
+c. For the bright stars, where the influence of the absorption
+begins to be felt, the logarithmic defect changes but little with the
+absorption-coefficient. The reason is that here the obscured stars
+behind the screen play hardly any part at all. The decrease in the
+number of stars is almost entirely a result of the falling off of the

@@ -1,0 +1,60 @@
+Boiling Points.
+o
+Specific Heat.
+68
+.5062
+98
+.4879
+119
+.4863
+135
+.4851
+160
+.4692
+190
+.4819
+212
+.4570
+232
+.4573
+244
+.4531
+263
+.4708
+542 PROCEEDINGS OP THE AMERICAN ACADEMY.
+The followiug table gives the specific heats obtained from the series of
+methylene hydrocarbons :
+C7H14
+^stlis
+^9 His
+^10^120
+C11H02
+^12 24
+C13H.26
+CiiH.ig
+It appears from these results that there is a uniform decrease in specific
+heat with increase in molecular weight. Furthermore the normal hydro-
+carbons, such as heptane, C7H16, B. P. 98°, and decane, CiqHoo, B. P.
+172°, have higher specific heats than their isomers, such for example as
+isoheptane, C7H16, B. P. 91°, and isodecane, CioH.,2 B. P. 162°.
+The same variation also appears in the methylene series, with high
+values for certain members that probably indicate different structural
+relations.
+It is further interesting to observe the materially lower values given
+by the methylene iiydrocarbons as compared with the values for the
+paraffine hydrocarbons. Whether this be due to greater compactness
+in the methylene molecule or to some quality of its ring structure, it
+would be interesting to ascertain.
+Perhaps the falling off in specific heat with increasing molecular
+weight will appear to better advantage when arranged as ordinates on
+a curve with the molecular weights as abscissae. Only those compounds
+are given on the curve that are known to be normal, although, of course,
+this is not known with reference to the higher members. The different
+values of the isomers heptane and decane is shown on the shorter curve.
+This uniform decrease in specific heat with increasing molecular
+weiofht in the series C„Hon^2i suggest a constant i-elation analogous to
+the law of Neumann.
+If the constant K be expressed in terms of the specific heat multiplied
+by the molecular weight and the product divided by the number of atoms
+in the molecule, the specific heats found for the hydrocarbons of this series
+give the following values for the |;onstant:

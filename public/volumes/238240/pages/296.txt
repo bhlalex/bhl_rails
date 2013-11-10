@@ -1,0 +1,38 @@
+'9II-] AGGREGATES OF ELECTRONS. 351
+be calculated from the properties of gases. This assertion is the
+mathematical statement of the relation (4) enumerated above.
+Making this substitution we find that the specific electrical conduc-
+/ /irX7'
+tivitv of the material is cr = -y = - ^ . In this formula c- and a
+A 4^6/
+have the same value for all substances, u and A are constants charac-
+teristic of each substance, z' is independent of the nature of the
+material but is proportional to the square root of the absolute
+temperature.
+It is a well-known result of experiment that the specific conduc-
+tivity of all substances is inversely proportional to the absolute tem-
+perature. We therefore conclude that the product ;/A for all metals
+must be inversely proportional to the square root of the absolute
+temperature.
+It is a well-known result of the kinetic theory of gases that the
+thermal conductivitv of a gas is equal to iiiXz'a. Hence — = —6.
+Thus this ratio should have the same value for all metals at the
+same temperature and the temperature variation should be the same
+as that of the volume of a gas at constant pressure. These are the
+relations which are exhibited by the experimental results of Jaeger
+and Diesselherst.
+The electron theory of metallic conduction has enabled us to
+understand a number of curious effects which occur when a con-
+ductor is placed in a magnetic field. One of these, the Hall effect,
+consists in a deflection of the line of flow of a current which is
+caused by the magnetic field. Another effect, which is especially
+marked in the case of Bismuth, is an alteration of the specific resist-
+ance of the material caused by a magnetic field. These eifects are
+intimately connected together and have a simple explanation on the
+electron theory. It is well known that any electrified particle moving
+in a magnetic field is acted on by a force which is perpendicular to
+the plane containing the magnetic force and the direction of motion.
+The superposition of this force upon the other forces acting on the
+electrons in a metal carrying a current will cause all the electrons to
+curve round in the same general direction, giving rise to the Hall
+eifect. It will also increase the average curvature of the paths of the

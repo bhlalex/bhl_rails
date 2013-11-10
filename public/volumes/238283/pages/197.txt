@@ -1,0 +1,36 @@
+286 PROCEEDINGS OF THE AMERICAN ACADEMY.
+use in 2 only the set of points determined in 1. We are not warranted,
+either, in assuming that, when a reduction of singularity arises from the
+appearance of a term of lower degree in a different variable from that
+with reference to which the first development is derived, the resulting
+development will hold throughout the same region as the first develop-
+ment. As an example consider the surface
+Regarded as a development for t, its coefficients converge for all finite
+values of <t and ^; but when we develop for ^,
+1 (T
+and the resulting series converges only when
+kl < 1-
+7. From geometrical considerations we should not expect the quad-
+ratic transformation used to resolve the singularity in all cases. In
+ordinary space the transformation
+^ = tC, rj — at,,
+will transform in a one-to-one manner, without change of the ^ coordinate,
+all points except those in the ^ = plane. Now in the surface from (m),
+T^ - O--^ + TO-C = 0,
+all points in the ^-axis are singular, and whatever the reduction that
+may be secured for the origin, there will be within the neighborhood of
+the' orisin points whose singularity is not reduced. The same consider-
+ations would be seen to apply if we had any space curve as a singular
+line.
+Levi, in the article previously mentioned, does not attempt a proof
+of the entire proposition, but directs his work toward establishing by
+geometrical considerations the reduction of the singularity, making ex-
+ception, however, of certain cases,* which are closely related to the one
+considered in 7.
+Having thus considered the failure of Kobb to establish the proposi-
+tion even for the general case of an algebraic surface, we shall, in the
+im Grossen, the limit to the number of points taken being determined by finding
+the extent of the domain of each ; while the developments about the later points
+give relations im Kleinen, as far as the first point is concerned.
+* Cf. Levi, 1. c. p. 227. Cf . also a second paper by Levi, Atti R. Ace. Sci. Torino,
+Vol. XXXIII., 5 Dec, 1897.

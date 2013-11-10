@@ -1,0 +1,35 @@
+378 THE PRINCIPLES OF SCIENCE.
+and not only this science but almost every other. The
+true course evidently is to select, as the provisional unit
+of light, some light of convenient intensity, which can be
+reproduced from time to time in exactly the same in-
+tensity, and which is defined by physical circumstances.
+All the phenomena of light may be experimentally investi-
+gated relatively to this unit, for instance that obtained
+after much labour by Bunsen and Eoscoe a . In after
+years it will become a matter of inquiry what is the
+energy exerted in such unit of light ; but it may be long
+before the relation is exactly determined.
+A provisionally independent unit, then, means one which
+is assumed and physically defined in a safe and repro-
+ducible manner, in order that particular quantities may
+be compared inter se more accurately than they can yet
+be referred to the primary units. In reality almost all
+our measurements are made by such independent units.
+Even the unit of mass is practically an independent one,
+as we have seen (p. 373).
+Similarly the unit of heat ought to be simply the
+unit of energy, already described. But a weight can
+be measured to the one-millionth part, and temperature
+to less than the thousandth part of a degree Fahrenheit,
+and to less therefore than the five-hundredth thousandth
+part of the absolute temperature, whereas the mechanical
+equivalent of heat is probably not known to the thousandth
+part. Hence the need of a provisional unit of heat, which
+is often taken as that requisite to raise a unit weight of
+water (say one gramme) through one degree Centigrade
+of temperature, that is from o to i. This quantity of
+heat is capable of approximate expression in terms of
+time, space, and mass ; for by the natural constant,
+determined by Dr. Joule, and called the mechanical
+a ' Philosophical Transactions ' (1859), vol. cxlix. p. 884, &c.

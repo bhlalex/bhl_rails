@@ -1,0 +1,45 @@
+266 POPULAR SCIENCE MONTHLY
+regarded it merely as an extremely sensitive galvanometer without
+knowing how it came into existence. It was devised by Thomson to
+enable him to utilize his mathematical solution of signaling through a
+long submarine cable, and was regarded of such national importance
+that a private act of Parliament was sanctioned by the Privy Council
+to extend the normal life of fourteen years for the patent of this cable
+" speaking instrument/' as it was originally called. The invention of
+this instrument marks the theoretical solution of a most important
+problem, which solution Thomson found great difficulty in getting the
+electrician of that day to accept.
+As early as 1855 — before any long submarine cable had been con-
+structed — Thomson published in the Proceedings of the Royal Society
+the theory of the propagation of signals through a cable based on a
+correspondence which he had had with the late Sir Gabriel Stokes, and
+he showed that the book " Fourier de la Chaleur " — that " mathemat-
+ical poem," as he used to call it — contained, in Fourier's mathematical
+equations of the flow of heat, the entire mathematical solution of the
+propagation of electric waves through a cable. From " Fourier's
+series" he deduced that, whereas on a short overhead telegraph line
+the signal reaches its full strength at the distant end practically as
+soon as the signaler at the near end of the line begins to send it, with
+a submarine cable it is retarded, spreads out, and blurs the next signal.
+There is a past history effect as in politics and in many natural phe-
+nomena. The passing of an act of Parliament can not suddenly change
+a people; indeed, it is well known that the actual effect of an act of
+Parliament promoted by well-wishers is often gradually found to be
+most harmful, and has to be repealed or curbed in its action.
+Herbert Spencer in his " Sociology " strongly advocated legislators
+to study the science of politics. Thomson would perhaps have said,
+" Study Fourier's mathematical poem."
+If it were attempted to send a series of electric signals through an
+Atlantic cable with the same apparatus and at the same speed as mes-
+sages are sent between London and Brighton, the signaler at the far
+end would not have the slightest knowledge that the signaler at this
+end was trying to send a message, whatever were the strength of the
+current sent into the cable. To work a long submarine cable, either
+time must be allowed for each signal to grow at the distant end, or,
+as this would make the sending of messages very slow, the receiving
+instrument and the signaler receiving the message must, like a clever
+doctor diagnosing a disease, be able to interpret mere indications.
+Sending the letter " e," for example, produces at the other end of a
+long cable a totally different result, depending on what has preceded it.
+In no case, at a speed of, say, thirty words a minute with a 3,000-mile
+cable, will it be more than a suggestion, even at the beginning of a

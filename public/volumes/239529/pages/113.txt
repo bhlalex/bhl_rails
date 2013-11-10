@@ -1,0 +1,32 @@
+144
+n = \ j^ e —hn(^-\-c' v )—'il4 dx dy dz du dv dw dx dy' dz' du' dv' dto
+Introducing the coordinates of the centre of mass and the relative
+coordinates for a pair, viz:
+Xjs = 4 (* + .'•') etc. X r = x' — x etc.
+$ = \ (u + u) etc. a = u' — u etc.
+and putting
+§« + ^ + g» = c «> + p + y' = r» x r « + r, s + z r f = h
+we find for ?i 3
+n = JL A*e-* hm( -'* d% drj rfg dX~ d Y~ dZ z e -hhm)^-tu da d$ dy An r* dr
+The number of atoms per unit of volume is found by integration
+of n over u,v,w and by division by dx dy dz. As always further
+on we think namely of a diluted gas and thus find :
+The number of molecules per unit of volume is found in the
+same way from M a , namely
+, i==M . e -. W (|/^-J(^J«o. . . . (1)
+where <o has been written for the volume of the sphere of attraction.
+We thus find for the dissociation constant K the formula
+K = ~ = Lioe-W = ±<oe~kT (/)
+Passing to the velocity constants we may use the following con-
+siderations. A number of iodine molecules per unit of volume will
+dissociate spontaneously with a velocity proportional to the number
+of molecules, thus
+dt x *
+The atoms will associate spontaneously with a velocity proportional
+to the number of pair of atoms. By this the number of molecules
+will increase, thus
+dt ■ '
+In the stationary state we must have therefore
+k l v t = k t v l ' or -± = -±=K.
+The value of K has been found above.
+Accepting the image of the dissociation we evidently can also

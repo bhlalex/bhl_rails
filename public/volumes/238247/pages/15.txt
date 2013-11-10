@@ -1,0 +1,42 @@
+346 PHYTOLOGIA November 1997 volume 83(5):345-365
+Scribner & Smith], Cuiamaca [= Cuyamaca] Mountains, in the southern part of San
+Diego County, Cal., 1875". Table 1 summarizes the subsequent nomenclatural
+history of the two taxa.
+Hitchcock (1912) raised var. laeve to a species as Agropyron laeve, but
+subsequently accepted Scribner & Smith's treatment of the two taxa (Hitchcock 1935,
+1951), as did Munz (1959). Abrams (1940) treated both taxa as species. Gould
+(1947) was the first taxonomist to place the two varieties in Elymus L., but he also
+placed them in different species. He named transferred Agropyron parishii as Elymus
+stebbinsii, the combination Elymus parishii having been used earher for another taxon
+(Hall 1902), but placed A. parishii var. laeve in E. pauciflorus (Schwein.) Gould as
+subsp. laevis (Scribner & J.G. Sm.) Gould. At the time, Gould thought that Elymus
+pauciflorus was the correct name for what had, until then, been known as Agropyron
+trachycaulum (Link) Malte, but Lamarck (1791) had already used it for another
+species. Shinners (1954) corrected Gould's oversight, publishing the combination E.
+trachycaulus (Link) Gould ex Shinners for A. trachycaulum, but did not publish a
+combination for A. parishii var. laeve. Thus, A. parishii vdii. laeve was left with no
+vaUd name in Elymus.
+Gould gave no reason for changing the species to which var. laeve belonged, but it
+may have been as a result of examining the holotype. As Michael Curto pointed out
+(pers. comm., 1992), the holotype undoubtedly belongs in Elymus trachycaulus,
+having anthers about 2 mm long, whereas Agropyron parishii has anthers 3-6 mm
+long in addition to distant spikelets. The long awns of the holotype of var. laeve place
+it in E. trachycaulus subsp. subsecundus (Link) A. Love & D. Love.
+Hoover (1966) agreed with Scribner & Smith that their Agropyron parishii
+included both unawned and awned plants, but did not consider that they merited
+separate recognition. He agreed with Gould, however, in placing the species in
+Elymus. Because Hoover combined A. parishii var. laeve with A. laeve var. laeve in a
+single species, he had to use E. laevis Hoover as its name, Hitchcock's (1912)
+pubUcation of A. laeve giving that epithet priority over stebbinsii at the species level.
+THE PROBLEM
+The discovery that the holotype of Agropyron parishii var. laeve belongs in
+Elymus trachycaulus raised the question as to whether there is a long-awned variant of
+A. parishii that merits taxonomic recognition or whether all such plants belong to other
+taxa, the most likely candidates being E. glaucus or E. trachycaulus subsp.
+subsecundus.
+Because UTC [herbarium codes from Holmgren et al. (1990)] has no specimens of
+Agropyron parishii, I borrowed specimens identified as A. parishii, A. parishii var.
+laeve, Elymus stebbinsii, or E. laevis from AHUC, CAS, CHSC, DAV, DS, JEPS,
+POM, RSA, and UC. I already had the holotype of A. parishii var. parishii on loan
+from US. Initial review of the specimens indicated that the problem was not simple.
+Many of the specimens borrowed belonged to E. glaucus or E. trachycaulus, but

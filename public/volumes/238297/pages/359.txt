@@ -1,0 +1,36 @@
+THE EXACT MEASUREMENT OF PHENOMENA. 333
+the standard unit until we get a magnitude equal to that
+to be measured. Ordinary measurement by a foot rule,
+a surveyor's chain, or the excessively careful measurements
+of the base line of a trigonometrical survey by standard
+bars form a sufficient instance of this case.
+In the second case, where p - q, we multiply or divide
+j
+a magnitude until we get what is equal to the unit, or to
+some magnitude easily comparable with it. As a general
+rule the quantities which we desire to measure in
+physical science are too small rather than too great for
+easy determination, and the problem consists in multiply-
+ing them without introducing error. Thus the expansion
+of a metallic bar when heated from o C to 100 may be
+multiplied by a train of levers or cog wheels. In the
+common thermometer the expansion of the mercury is
+rendered very apparent, and easily measurable by the
+fineness of the tube, and many other cases might be
+quoted. There are some phenomena, on the contrary,
+which are too great or rapid to come within the easy
+range of our senses, and our task is then the opposite
+one of diminution. Galileo found it difficult to measure
+the velocity of a falling body, owing to the very consider-
+able velocity acquired in a single second. He adopted
+the elegant device, therefore, of lessening the rapidity
+by letting the body roll down an inclined plane, which
+enables us to reduce the accelerating force in any required
+ratio. The same purpose is effected in the well known
+experiments performed on Attwood's machine, and the
+measurement of gravity by the pendulum really depends
+on the same principle applied in a far more advantageous
+manner. Sir Charles Wheatstone has invented a beauti-
+ful method of galvanometry for strong currents, which
+consists in drawing off from the main current a certain
+determinate portion, which is equated by the galvano-

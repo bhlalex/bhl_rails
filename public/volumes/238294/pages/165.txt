@@ -1,0 +1,49 @@
+( 592 )
+T ABLE XXVI.
+' cc ^
+1 !
+K
+P
+R
+-0.G563
+-0.6804
+-0.0174
+-1.0871
+-1.2120
+-0.9892
+For tliis iipplication of the formulae of Comm. W. 75 it should
+be borne in mind that in the derivation of them we have used the law
+of corresponding states, while in § 4 (p. 587) it appeared that already
+at the critical volumes deviations could be detected. As long as .v,
+however, is very small, the points P for the different mixtures will
+lie in an area Avhere according to Kamerlingh Onnes (comp. § 4)
+the law of corresponding states may be considered to hold at least
+to the first approximation, so that then we find an u and a /? for
+the critical points for that area. The same may be said of the points
+B. From the numbers given it appears that the values of « and /i
+with relation to those points, at least to the first approximation, agree
+with those relating to the critical point of the mixtures for the area
+of the larger volumes.
+For the slopes on the />7'-diagram for the plaitpoint- and the i»oint
+of contact curve with small x, we find :
+'£üm =-«.451 , ^Y^) =-0.044,
+values which agree sufficiently.
+For the slopes of the curves which in the same diagram connect
+the points K and P we find :
+Px,jl—Pxk
+For the mixture 0.1 .
+J xfA - ^ xk
+For the mixture 0.2 :
+P^or the curves which connect K and R :
+-r-l 1 . r^ A P ■'■'>' Pxh
+lor the mixture 0.1
+= 2.021
+2.561.
+= 1.421
+For the mixture 0.2 : 1.336.
+From either side, therefore, there is an approach towards the \ alue
+1.610, which both quotients must have for very small x.
+§ 9. From the foi-mulae given in § 7 it \vould follow that the
+largest |)laitpoint pressure to be expected in mixtures of carbon
+dioxide and oxygen would be 132 atms. (with .r = 0.57), while the
+largest value for 7'„— ^V' would be expected to be 15'. 7 C. (with

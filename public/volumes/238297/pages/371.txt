@@ -1,0 +1,33 @@
+THE EXACT MEASUREMENT OF PHENOMENA. 345
+established by a simple acoustical observation. When
+a rod or tongue of metal fixed at one end is set in
+vibration, the pitch of the sound may be observed to
+be exactly the same, whether the vibrations be small or
+great ; hence the oscillations are isochronous, or equally
+rapid, independently of their magnitude. On the ground
+of theory, it can be shown that such a result only
+happens when the flexure is proportional to the deflecting
+force. Thus the simple observation that the pitch of
+the sound of a harmonium, for instance, does not change
+with its loudness, establishes an exact law of nature e .
+A closely similar instance is found in the proof that the
+intensity of light or heat rays varies inversely as the
+square of the distance increases. For the apparent mag-
+nitude certainly varies according to this law; hence, if the
+intensity of light varied according to any other law, the
+brightness of an object would be different at different
+distances, which is not observed to be the case. Mellon i
+applied the same kind of reasoning, in a somewhat dif-
+ferent form, to the radiation of heat-rays f .
+Modes of Indirect Measurement.
+Some of the most conspicuously beautiful experiments
+in the whole range of science, have been devised for the
+purpose of indirectly measuring quantities, which in their
+extreme greatness or smallness surpass the powers of
+sense. All that we need to do, is to discover some
+other conveniently measurable phenomenon, which is re-
+lated in a known ratio or according to a known law,
+however complicated, with that to be measured. Having
+e Jamin, 'Cours de Physique,' vol. i. p. 152.
+f Balfour Stewart's, ' Elementary Treatise on Heat,' ist edit. pp. 164,
+165.

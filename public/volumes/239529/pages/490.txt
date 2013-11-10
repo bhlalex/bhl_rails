@@ -1,0 +1,39 @@
+Physics. — "The geodesic precession: a consequence of Einstein's
+theory of gravitation." By Dr. A. D. Fokkkk. (Communicated
+by Prof. H. A. Lokkntz).
+(Communicated at. the meeting of October 30, 1920).
+It is well known at present what parallel displacement or geodesic
+translation means in non-euclidean space I ). And we know also that
+a compass rigid, moving parallel to itself and completing a closed
+circuit, in consequence of the curvature of space, will not regain
+the same orientation which it had before: a certain rotation of
+curvature will become apparent. Now it occurred to Schouten that
+the earth's axis of rotation — provided the earth were a sphere —
+should remain parallel to itself in the general geodesic sense during
+the motion of the earth round the sun. Thus, after a year, we must
+expect the earth's axis to point to a slightly different point of the
+heavens according to the curvature of space produced by the sun's
+gravitation. This affords an additional precession which superposes
+itself on the precessions due to other causes known in astronomy 8 ).
+The problem however is not so simple as it is put here. Though
+it can be proved that the axis of rotation will remain parallel to
+itself in the geodesic sense, yet in reality we have to consider the
+dragging of the earth's axis along her four-dimensional helicoidal
+track through time-space and not a circuital displacement in the
+ecliptic at some definite instant. The problem should be put as one
+of four-dimensional geometry ; it is a problem of mechanics, and
+not a problem of three-dimensional geometry. If this be done properly,
+then the result is that we are to expect a precession one and a
+half times the precession foreseen by Schouten, viz. 0.019 of a
+second of arc per annum "). This will be shown in the present paper.
+The idea at the bottom of the argument is the following. Imagine
+that in order to describe motions taking place in the neighbourhood
+of the earth's centre we choose axes such that the time is always
+x ) Levi Givita, Rendic. Gere. Mat. Palermo, 42, p. 1, 1917; Schouten, Direkte
+Analysis zur n. Relativitatstheorie, Verhandelingen Kon. Akad. v. Wetensch. Amster-
+dam, XII, no. 6, 1919; Weyl, Raum, Zeit, Materie, Berlin 1920, 3rd ed. ; Gf.
+also an article of the present author in Proceedings Kon. Akad. v. Wetensch.
+Amsterdam, 21, p. 505, 1918.
+») Schouten, Proceedings Kon. Akad- v. Wetensch. Amsterdam, 21, p. 533, 1918;
+with appendix by De Sitter.
+s ) Gf. also a paper by Kbamers, Proc Amsterdam, September 1920.

@@ -1,0 +1,42 @@
+EFFECTS OF PRESSURE ON NITRATES. 013
+temperature form are of great interest. Wallerant was able to find
+that its crystalline system was the same as that of II, and he suggested
+that it was in fact the same modification. This appearance of the
+same phase in two isolated parts of the phase diagram is unique, if it
+should be proved, but seems to be not contrary to any of the thermo-
+dynamic necessities. Behn has subjected the question to a very
+careful experimental examination, measuring the various thermal and
+crystallographical properties of II and V to see whether it is possible
+to state an indentity. His data did not allow of a definite answer to
+the question, but seem to suggest that II and V are not the same
+phase. I did not make any measurements on this transition for the
+reasons already stated, but did investigate one questionable point.
+One might expect, since the transition IV-V is of the ice type, that at
+higher pressures another phase would exist, so that the falling transi-
+tion curve between IV and V would be replaced by a rising curve
+between IV and the new modification. I did not find any such new
+modification out to 12500 kgm. at room temperature.
+The following transition temperatures are found in the literature.
+For I-II Lelimann ^^ gives 127°, Bellati and Romanese ^* give the
+limits 124° to 125°, Lussana ^^ found the limits 124.9° and 125.6°, and
+Schwarz ^ has found the value 125.6° by one method, and the limits
+123.5° to 125.5° by another. In the table I have given 125.5° as
+agreeing best with my own data and the best results of other observ-
+ers. For the transition II-III Lehmann ^^ gives 87°, Behn ^^ gives
+83°, Bellati and Romanese ^* give the limits 82.5° to 86°, Schwarz ^
+gives the limits 82.5° to 86.5° by one method, 82.8° to 82.7° by another,
+and 83° by a third, Wallerant ^ gives 82°, Tammann ^^ gives by
+extrapolation from his measurements at higher pressures the value
+84.6°, and Lussana ^^ finds that the transition takes place at 85.85°
+on heating, but does not give the value on cooling. I have adopted
+the value 82.7° as agreeing best with my own data and those of
+others. For the transition III-IV Lehmann ^^ gives 36°, Bellati and
+Romanese^* give the limits 31° to 35°, Schwarz^ gives the limits 31°
+to 35° by one method, 32.4° (best) by another, and 35° by a third,
+Wallerant ^ gives 32°, Behn ^^ 32°, Tammann ^^ finds by extrapola-
+tion from his high pressure measurements 31.8°, and Lussana ^^ finds
+the limits 35.45° and 30.55° on heating and cooling. I have adopted
+U M. Bellati and R. Romanese, R. 1st. Ven. 4, 1395-1420 (1885-86).
+15 S. Lusgana, Nuov. Cim. (4), 1, 97-108 (1895).
+16 G. Tammann, Kristallisieren unci Schmelzen, Barth, Leipzig (1903),
+p. 299.

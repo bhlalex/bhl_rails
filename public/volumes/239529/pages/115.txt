@@ -1,0 +1,38 @@
+146
+The layer will however not be able lo resist a strong normal
+impulse. When the radial relative component a is great enough, the
+two internally colliding particles may leave each other's sphere of
+attraction. Here also the tangential velocity component will not
+change. The normal component on the contrary will.
+The quantity 4 w« 2 -f- 2 \p will therefore have the same value
+before and after the impulse.
+We thus must take for fi and y the integration limits — oo and
+-\- oo and for « a positive value that satisfies \ ma* -\- 2if> = 0, and -f- oo.
+With these limits the integration with respect to «, /? and y gives
+in (2) a factor
+2 \hmj
+Let us write £ for the surface of the layer. The surface in (21)
+gives a factor S.
+The integration with respect to §, i], £ a factor
+2 hm)
+Thus we finally find for the number of molecules dissociating
+per unit of time and per unit of volume
+n ( 2 \ V n \'l*
+Dividing this by the number of molecules (1) per unit of volume,
+we find the following value for the velocity constant
+s i s it /ut
+k __ e 2H _ — _ e tT \S _ . . . . (II)
+while from (ƒ) and (ƒƒ) we find for k t
+K = ks\/— (in)
+V sim
+Of course the /;, can be found in the same way as h x .
+Thus far we have supposed, that every impulse is followed by
+a combination. The meaning of h % v, 2 is therefore the number of
+collisions per unit of time and volume. We find for it 1 )
+i /kf
+V m
+in agreement with (III).
+K
+This gives therefore a verification of the equation K = —
+k.
+') E.g. Boltzmann, Vorl. iiber Gastheorie I, pag. 69.

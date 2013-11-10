@@ -1,0 +1,46 @@
+262 POPULAR SCIENCE MONTHLY
+well, Joule, Siemens, Matthiessen, Clark, Varley, Culley and others. The science
+of the schools is so dissimilar from that of the practical electrician that it has
+been quite impossible to give students any sufficient, or even approximately
+sufficient, text-book. ... A student might have mastered Delarive's large and
+valuable treatise, and yet feel as if in an unknown country and listening to an
+unknown tongue in the company of practical men. It is also not a little curious
+that the science known to the practical men was, so to speak, far more scientific
+than the science of the text-books.
+Among Thomson's early discoveries was the fact that it was good
+for students to do laboratory work. So almost immediately he was
+appointed the professor of physics, at Glasgow, in 1846, at the age of
+twenty-two, he " organized a laboratory corps from volunteer students,"
+and about 1849 he " established an incipient laboratory in the wine
+cellar of an old professor's house," so his successor, Professor A. Gray,
+tells me. In my time Thomson's laboratory consisted of one room
+and the adjoining coal cellar, the latter being the birthplace of the
+syphon-recorder. To avoid friction with the capillary glass syphon,
+which was moved to the right or left by the electric signals coming
+through the submarine cable, the end of the syphon was not allowed
+to touch the strip of paper, but a continuous stream of ink spurted out
+of the syphon on to this paper in consequence of the reservoir of ink,
+into which the other end of the syphon dipped, being kept highly
+electrified.
+To find out what sort of electrical machine should be used for this
+purpose Thomson suggested that we should measure the efficiency of
+frictional electric machines. We did so, and brought him the result
+— viz., efficiency equals some small fraction of unity. He replied,
+" I can not degrade a man by asking him to use his energy so waste-
+fully ; I must design something better." And he did — viz., the influ-
+ence machine; then when, by carrying out his suggestions, a fellow
+student and I had constructed an influence machine and got it to work,
+he sent us to the Glasgow Patent Office to see whether any one had
+thought of that principle before. And we found Varley's and other
+anticipations, with, however, this difference — that the earlier patentees
+proposed giving to the arrangement an initial charge to start its action,
+whereas Thomson's was a machine that worked on the compound in-
+terest law, starting with an infinitely small initial capital. This led
+not only to the " mouse mill " and the " replenisher," but to the class
+working all kinds of problems on investments at compound interest.
+" Now, suppose the interest is one one-thousandth per cent., paid every
+one one-hundredth of a second, etc.," and we who had never invested
+any money in our lives, indeed, possessed no money to invest, might
+have been mistaken for budding pupils of a stock broker had any
+visitor chanced to come into the lecture room.
+There was no special apparatus for students' use in the laboratory,

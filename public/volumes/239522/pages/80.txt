@@ -1,0 +1,45 @@
+POLYMORPHIC TRANSFORMATIONS OF SOLIDS.
+Ill
+as computed, without any adjustment. These figures would demand
+that Hgl2 be abnormal in many respects. On the rising branch of the
+curve the yellow modification is less expansible than the red, but above
+6000, on the descending branch, the yellow becomes more expansible.
+The place at which AjS changes sign need not necessarily coincide with
+the maximum. In general, however, the phase with the smaller
+volume, whether at the higher or lower pressure seems to have the
+higher thermal expansion. AC'p calculated in accordance with the
+assumption above as to Aa comes out negative, the yellow having
+the smaller specific heat. But it has already been shown that ACp
+is particularly sensitive to errors in the assumed value for Aa, and in
+TABLE XII.
+Mercuric Iodide.
+Pressure
+A/3
+ACp
+1
+-.0438
+-1.50
+2000
+-.0436
+-1.73
+6000
++ .O42O
+-1.31
+8000
++ .O423
+-0.43
+10000
++ .O42I
+-0.18
+this case there is a direct determination of the specific heat by Guin-
+chant, from which it appears that the yellow at atmospheric pressure
+has the larger heat, the difference being 0.0040 cal. At higher pres-
+sures, ACp calculated with the assumption as to Aa, decreases rapidly.
+Combining this with the experimental value at atmospheric pressure,
+we are probably justified in the conclusion that the difference of speci-
+fic heats becomes less at high pressures. The sign of A^S found above
+was verified by direct measurement on the rising branch of the curve,
+but the direct measurements did not give regular numerical results.
+Phenol. This was Kahlbaum's purest, further purified by crystal-
+lization at constant temperature in the thermostat. Two lots were
+purified; the first was pure white in color, and the second was very

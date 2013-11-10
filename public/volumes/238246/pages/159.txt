@@ -1,0 +1,41 @@
+222
+from two oni'ves that can be registered, it making no difference
+whether the distribution of energy is a symmetrical or an asjni-
+metrical function ; in the former case the registered curves are
+mutually dependent, in the latter case they are independent.
+It is noteworthy that the metal reflections in the instrument of
+fig. 7 are not identical. The /'-component has been reflected against
+the silver layer at an angle of 45° in air, and the (/-component at
+a sjnaller angle in glass. Probably the pliase-shiftings occurring here
+will be the same; otherwise Miciielson could not have drawn up
+equation (4). If this supposition should be incorrect, fig. 8 represents
+an arrangement in which this evil has
+been remedied; the silver layers at if and
+Z' are now only struck at an angle of
+45°. Now the front planes of the prisms
+must be transparent both at the top and
+at the bottom, and the cylinder lenses
+must be above the plane of the drawing.
+The silvering in Z (fig. 8) and in C
+(fig. 7) must be such that the intensities
+of the light of the beams entering the
+telescope are equal, in spite of the fact that one has undergone
+reflections in the lenses. The intensities also can be kept equal by the
+aid of a glass plate G *). When the intensities of the beams in' the
+modified interferometer differ from that in the original one, one of
+the terms in equation (25) must be provided with a factor of pro-
+portionality, which is only to be determined experimentally.
+We have scrupulously taken care that the inteifering beams did
+not get a relative phase shifting with respect to each other in con-
+sequence of unequal metallic or total reflections, so that the phase
+shifting, which one beam obtains in advance of the other, has only
+been obtained in the focal line of the cylinder lenses I — large
+Fig. 8.
+and does, therefore, not depend on the wavelength. This renders
+the instrument efficacious for all possible sources of light and for
+spectrum regions of any given extent, supposing the lenses to be
+made achromatic ^). The result of the method, expressed in equation
+(25), is therefore perfectly exact for all possible spectrum regions
+^) With such a plate in the arrangement of fig. 7 we must make p = q.
+') That the photographic plate Q Q' in fig. 7 may be adjusted once for all. A
+possible dispersion would not have influence on the constant phase shifting — either.

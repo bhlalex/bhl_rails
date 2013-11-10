@@ -1,0 +1,36 @@
+204 MUNROE-HOWELL— PRODUCTS OF DETONATION OF TNT.
+Calculations
+A computation of the total amount of nitrogen in the gases com-
+pared with the total nitrogen in the explosive, detonator, and residual
+air in the gage, serves as a check on the accuracy of the observations
+involved. This computation is based on the following data :
+Analysis of gases,
+Weight of charge,
+Barometer,
+Absolute pressure in gage.
+Temperature in gage before shot,
+Temperature in gage after shot.
+Pressure of permanent gases.
+The following complete calculation of test -p ^^- is given as
+an example of the method of calculation :
+Analysis of Gases.
+Per Cent.
+CO, I.I
+O O
+CO 60.2
+H 21.0
+CH, 1.9
+N 15.8
+Weight of charge 300 grams
+Barometer reading 732 mm.
+Absolute pressure in gage 50 mm.
+Temperature of gages before shot,
+(is liter gage) 25° C.
+(20 liter gage) 25° C.
+Temperature of gages after shot,
+( 15 liter gage) 27° C.
+(20 liter gage) 25° C.
+Nitrogen in Explosive.
+300 X -1814 = 54.420, in which 300 = weight in grams of ex-
+plosive, 18.14 = per cent. N in TNT, as determined by the Explo-
+sives Chemical Laboratory by the Orndorfif Method.

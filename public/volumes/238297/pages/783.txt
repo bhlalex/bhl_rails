@@ -1,0 +1,33 @@
+ANALOGY. 293
+between the forms of mathematical and logical expressions,
+we undoubtedly owe the greatest recent advance in logical
+science. Boole based his extension of logical processes
+entirely upon the notion that logic was an algebra of two
+quantities, o and i. His profound genius for the investi-
+gation of symbolic methods led him to perceive by analogy
+that there must exist a general system of logical deduc-
+tion, of which the old logicians had seized only a few stray
+fragments. Much mistaken as he was in placing algebra
+as a higher science than logic, no one can deny that the
+development of the more complex and dependent science
+had advanced far beyond that of the simpler science, and
+that Boole, in drawing attention to the connexion, made
+one of the most important discoveries in the history of
+science. As Descartes had wedded algebra and geometry,
+so did Boole substantially accomplish the marriage of logic
+and algebra.
+Analogy in the Theory of Undulations.
+There is no class of phenomena which more thoroughly
+illustrates alike the power and weakness of analogy than
+the waves which agitate every kind of medium. All waves,
+whatsoever be the matter through which they pass, obey
+certain common principles of rhythmical or harmonic motion,
+and the subject therefore presents a vast field for mathema-
+tical generalization. At the same time each kind of medium
+may allow of waves peculiar in their conditions, so that it
+is a beautiful exercise in analogical reasoning to observe
+how, in making inferences from one kind of medium to
+another, we must make allowance for difference of circum-
+stances. The waves of the ocean are large and visible,
+and there are the yet greater tidal waves which extend
+around the globe. From such palpable cases of rhythmical

@@ -1,0 +1,34 @@
+INDUCTION. 157
+accounting for the tenth case ; and if we change B into b
+the identity A. = b accounts for the seventh case. There
+may indeed be two other varieties of the simple identity,
+namely a = b and a = B ; but it has already been shown
+repeatedly that these are equivalent respectively to A = B
+and A = b (pp. 133, 134). As the sixteenth column has
+already been accounted for as governed by no special
+conditions, we come to the following general conclusion :
+The laws governing the combinations of two terms must
+be capable of expression either in a partial identity
+(A AB), or a simple identity (A = B) ; the partial
+identity is capable of only four logically distinct varieties,
+and the simple identity of two. Every logical relation
+between two terms must be expressed in one of these
+six laws, or must be logically equivalent to one of them.
+In short, we may conclude that in treating of partial
+and complete identity, we have exhaustively treated the
+modes in which two terms or classes of objects can be
+related. Of any two classes it may be said that one must
+either be included in the other, or must be identical with
+it, or some similar relation must exist between one class
+and the negative of the other. We have thus completely
+solved the inverse logical problem concerning two terms d .
+The Inverse Logical Problem involving Three Terms.
+No sooner do we introduce into the problem a third
+term C, than the investigation assumes a far more com-
+plex character, so that some readers may prefer to pass
+over this section. Three terms and their negatives may be
+combined, as we have frequently seen, in eight different
+d The contents of this and the following section nearly correspond
+with those of a paper read before the Manchester Literary and Philosophical
+Society on December 26th, 1871. See Proceedings of the Society, vol. xi.
+pp. 65-68, and Memoirs, Third Series, vol. v. pp. 119-130,

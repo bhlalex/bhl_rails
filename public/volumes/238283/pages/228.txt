@@ -1,0 +1,34 @@
+BI.ACK. — THE NEIGHBORHOOD OP A SINGULAR POINT. 325
+If n is taken large enough, the exponent
+q, — ns
+is made less than s, so that we have
+s > q, — ns > 0,
+or 1'- 1 < 7i < £f.
+s s
+So the term for which — is least is among those first reached in which
+the new exponent of ^ is lower than s.
+In the same way we show that, by applying a succession of transfor-
+P
+mations of type (47), the term for which — is least is among the first
+lot reached for which the new exponent of rj^ is less than s. But, by
+P Q
+condition 2) in 5, - and — were least in the same term. So we secure
+' s s
+the surface in form (48).
+7. A further succession of quadratic transformations of type (43) as
+applied to the surface in form (48) will reduce the singularity. This
+follows at once by the reasoning in the first part of 5.
+D. — Succession of Quadratic Transformations in which
+THERE ARE REVERSALS OF TtPE.
+8. A succession of transformations in which there is a sufficient num-
+ber of reversals of type will secure a surface of type (42).
+If there is but a finite number of reversals, after the last one we are in
+the same position as at the start in 4, and the succession of trans-
+formations which follows, not having any reversal of type, will enable us
+to secure the condition derived by the method of 4. So we need here to
+consider only the possibility of an indefinitely large number of reversals
+of type.
+In equation (37) consider any one of the coefficients
+Pr(v,0 = tPriU) = tl{ri,On, + (77,On,+l + ]
+where p^ (rj, 0)^0.
+A transformation of type (40) will give for p^ a function from which we

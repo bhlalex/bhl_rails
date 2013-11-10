@@ -1,0 +1,39 @@
+BASQUIN. — THE ARC SPECTRUM OF HYDROGEN. 165
+Following the suggestion of Liveing and Dewar, above referred to, I
+have tried the rotating metallic arc in air, playing a very small jet of
+water upon the rotating electrode. In this manner the silver arc vv^orks
+rather more poorly than usual, and resembles a rapid series of small
+explosions. The hydrogen lines come out clearly, but are rather weaker
+and more diffuse than in the hydrogen atmosphere.
+The copper arc works well in an atmosphere of steam, much better
+than in hydrogen. The hydrogen lines are nearly, if not quite, as strong
+in steam as in hydrogen. The electrodes of the arc are slightly oxidized
+and have very beautiful colors. In making this experiment a slight
+alteration was necessary in the hood of the arc. The window through
+which the light issues is usually as far away from the arc as possible, but
+it was moved for this experiment so as to be as close to the arc as pos-
+sible. It was placed at the inner end of a brass tube projecting into the
+hood, in order that the heat of the surrounding steam and hot air, as well
+as that of the arc itself, might prevent condensation of steam upon the
+surface of the window.
+CHEMICAL ACTION IN THE ARC IN HYDROGEN.
+Historical.
+Crew and Basquin * have sought to eliminate the radiations due to
+chemical causes in the electric arc by using chemically pure metallic
+electrodes and enclosing the arc in an atmosphere of hydrogen or nitro-
+gen. They interrupted the current through the arc about 110 times per
+second and examined the light of the arc while the current was null.
+They found in the rotating metallic arc in air " a luminous cloud " ^qv-
+sisting for several thousandths of a second after the current through the
+arc had ceased, but they found no such luminous effect in an atmosphere
+of hydrogen or nitrogen. This seems to show that the cloud is due to
+chemical action going on in the gases after the electric current has
+stopped, and that in hydrogen the chemical action is too feeble to be
+noticed in this way.
+Liveing and Dewarf found a magnesium "line" at 5210, making its
+appearance in the arc spectrum only upon the introduction of hydrogen
+or coal gas into the arc. Professor Crew % gives a number of lines ap-
+pearing in the iron arc in hydrogen and not appearing in the arc in air.
+* Proc. Amer. Acad., 33, 18 (1898).
+t Proc. Roy. Society, 30, 96 (1880).
+X Phil. Mag., 50, 497 (1900).

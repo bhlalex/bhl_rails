@@ -1,0 +1,36 @@
+264 THE PRINCIPLES OF SCIENCE.
+ties of these six numbers, to infer the properties of the
+next number ending in five. If we proceed to test their
+properties by the process of perfect induction, we soon
+perceive that they have another common property, namely
+that of being divisible ~by five without remainder. May
+we then assert that the next number ending in five is also
+divisible by five, and, if so, upon what grounds 1 Or
+extending the question, Is every number ending in five
+divisible by five ? Does it follow that because six num-
+bers obey a supposed law, therefore 376,685,975 or any
+other number, however large, obeys the law ? I answer
+certainly not. The law in question is undoubtedly true ;
+but its truth is not proved by any finite number of exam-
+ples. All that these six numbers can do, is to suggest to
+my mind the possible existence of such a law ; and I then
+ascertain its truth, by proving deductively from the rules
+of decimal numeration, that any number ending in five
+must be made upi of multiples of five, and must therefore
+be itself a multiple.
+To make this more plain, let the reader now examine
+the numbers
+7, i7> 37> 47> 6 7> 97-
+They all obviously end in 7 instead of 5, and though not
+at equal intervals, the intervals are exactly the same as in
+the previous case. After a little consideration, the reader
+will perceive that these numbers all agree in being prime
+numbers, or multiples of unity only. May we then infer
+that the next, or any other number ending in 7, is a
+prime number ? Clearly not, for on trial we find that
+27, 57, 117 are not primes. Six instances, then, treated
+empirically, lead us to a true and universal law in one
+case, and mislead us in another case. We ought, in fact
+to have no confidence in any law until we have treated it
+deductively, and have shown that from the conditions
+supposed the results expected must ensue. From the

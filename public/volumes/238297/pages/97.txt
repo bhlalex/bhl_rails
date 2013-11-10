@@ -1,0 +1,35 @@
+DEDUCTIVE REASONING. 71
+The great importance of this process of inference arises
+from the fact that the conclusion is more simple and
+general than either of the premises, and contains as much
+information as both of them put together. It is on this
+account constantly employed in inductive investigation,
+as will afterwards be more fully explained, and it is the
+natural mode by which we arrive at a conviction of the
+truth of simple identities as existing between classes of
+numerous objects.
+Inference of a Limited from Two Partial Identities.
+We have just considered arguments which are of the
+type treated by Aristotle in the first figure of the
+syllogism. But there are two other types of argument
+which employ a pair of partial identities. If our premises
+are, as shown in these symbols,
+B = AB (i)
+B = CB, (2)
+we may substitute for B either by (i) in (2) or by (2) in
+(i), and by both modes we obtain the conclusion
+AB = CB, (3)
+a proposition of the kind which we have called a limited
+identity (p. 51). Thus, for example,
+Potassium = potassium metal (i)
+Potassium = potassium floating on water ; (2)
+hence
+Potassium metal = potassium floating on water. (3)
+Now this is really a syllogism of the mood Darapti in the
+third figure, except that we obtain a conclusion of a much
+more exact character than the old syllogism gives. From
+the premises ' Potassium is a metal ' and ' Potassium floats
+on water,' Aristotle would have inferred that ' Some
+metals float on water/ But if inquiry were made what
+the some metals are, the answer would certainly be ' Metal
+which is potassium.' Hence Aristotle's conclusion simply

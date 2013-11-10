@@ -1,0 +1,98 @@
+376
+PHYTOLOGIA November 1997 volume 83(5):37 1-383
+Table 1. Dominant woody species.
+SPECffiS
+NUMBER OF
+TOTAL
+MEAN
+INDIVIDUALS
+DIAMETER
+DIAMHIHR
+RANGE
+(cm)
+(cm)
+(cm)
+Viburnum nudum
+45
+105.5
+2.3
+2.0-3.5
+Nyssa sylvatica
+23
+140.5
+6.1
+2-20
+Myrica cerifera
+17
+65.0
+3.8
+2-18
+Liquidambar styraciflua
+13
+111.0
+8.5
+2-16
+Pinus taeda
+1
+2.0
+2.0
+2.0
+Ulmus rubra
+1
+3.5
+3.5
+3.5
+Table 2. Species plot occurrence.
+SPECIES
+OCCURRENCE
+BY PLOT
+Viburnum nudum
+12345
+Smilax laurifolia
+12345
+Nyssa sylvatica
+12345
+Myrica cerifera
+12345
+Liquidambar styraciflua
+12345
+Woodwardia areolata
+12345
+Rhynchospora miliacea
+12345
+Boehmeria cylindrica
+12345
+Dichanthelium lindheimeri
+12345
+Mikania scandens
+12345
+liverwort
+12345
+Smilax bona-nox
+1234
+Hypericum mutilum
+1234
+Triadenum walteri
+1235
+Hydrocotyle verticillata
+1235
+Eleocharis acicularis
+1245
+Ludwigia palustris
+1245
+Carex leptalea
+123
+Chasmanthium laxum
+125
+Lycopus rubellus
+135
+Osmunda regalis
+245
+Eleocharis tortilis
+245
+Polygonum hydropiperoides
+245
+Eupatorium compositifolium
+245
+Juncus effusus
+345

@@ -1,0 +1,43 @@
+440
+THE PRINCIPLES OF SCIENCE.
+increased and the amount of each error decreased, and the
+arithmetical triangle will always give us the proportional
+frequency of the resulting errors. Thus if there be five
+positive causes of error and five negative causes, the fol-
+lowing table shows the comparative numbers of aggregate
+errors of various amount which will be the result :
+Direction of Error.
+Positive Error.
+Negative Error.
+Amount of Error.
+5, 4> 3, 2, i
+O
+i, 2, 3,* 4, 5
+Number of such Errors.
+I, 10, 45, 120, 210
+252
+210, 120, 45, 10, i
+It is plain that from such numbers I can ascertain the
+probability of any particular amount of error under the
+conditions supposed. Thus the probability of a positive
+error of exactlv one inch is
+210
+1024'
+in which fraction the
+numerator is the exact number of combinations giving
+one inch positive error, and the denominator the whole
+number of possible errors of all magnitudes. I can also,
+by adding together the appropriate numbers, get the pro-
+bability of an error not exceeding a certain amount. Thus
+the probability of an error of three inches or less, positive
+or negative, is a fraction whose numerator is the sum of
+45 + 120 + 210 + 252 + 210+120 + 45, and the denomi-
+nator, as before, giving the result - .
+We may see at once that, according to these principles,
+the probability of small errors is far greater than of large
+ones : thus the odds are 1002 to 22, or more than 45 to i,
+that the error will not exceed three inches ; and the odds
+are 1022 to 2 against the occurrence of the greatest pos-
+sible error of five inches. The existence of no error at all
+is the most likely event; but a small error, such as that of
+one inch positive, is little less likely.

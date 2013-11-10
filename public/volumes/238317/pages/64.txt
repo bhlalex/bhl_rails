@@ -1,0 +1,42 @@
+Netv Engine for Riding. 81
+of this paper preclude any detailed statement concerning the manner
+in which these investigations were carried out.
+3.— The Thrust Plate.
+The thrust plate or ]:)earing surface against which the screw
+rotates is of great importance, in that any imperfection or weakness
+of its surface or any diversion from a strictly normal position, of
+even a small area of its surface, may result in some error or slight
+disturbance of the screw which is almost inevitably communicated
+directly to the ruling. Hence a thrust plate must be made of
+material combining the properties' of compactness, hardness, tough-
+ness and durability in a high degree. This material, whether
+natural or artificial, must also be such as is capable of receiving
+the highest possible optical finish, that is, with respect to the
+perfection of its working or bearing surface. The importance of
+these requirements will be appreciated when it is borne in mind
+that errors resulting from imperfection of a thrust bearing will be
+periodic and if so an error of amplitude less than .0000005 in. would
+be quite appreciable by its effect on the finished grating. Thus in
+the selection of a substance suitable for a thrust surface we are
+restricted to an extremely limited choice of material. Naturally, to
+those familiar with the limitations and requirements involved, the
+diamond is at once suggested as the most likely substance to ade-
+quately fulfil all the demands made upon it. Unfortunately a
+diamond of a suitable size and shape for the screw thrust of a
+ruling engine would be difficult to procure, extremely costly
+and almost impossible to work, without professional aid, to
+the requisite perfection of surface demanded. Of other substances
+we only propose to mention those of which we have had actual
+experience, and know wherein they failed to meet requirements.
+Naturally, of the substances experimented with, only the most
+perfect examples obtainable were used. These included the hardest
+steel, crystalline quartz, agate, topaz and sapphire.
+The steel thrust plat« was promptly discarded; though hard and
+tough and worked to a highly finished surface, it required lubrica-
+tion to prevent seizure and this at once introduced instability,
+owing probably to the varying thickness of the oil film. Moreover,
+with steel against steel (the screw terminal face also being steel)
+signs of wear wei'e soon apparent. The two examples of quartz
+which were tried, afforded, for a time, some promise of success and
+permanence; eventually, how^ever, minute circular scratches or
+7

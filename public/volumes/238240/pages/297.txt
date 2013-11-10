@@ -1,0 +1,38 @@
+352 RICHARDSON— DYNAMICAL EFFECTS OF [Apni 22,
+electrons. In this wa}^ the time which is required for electricity to be
+transferred will be greater so that the specific electrical conductivity
+will be diminished. This is the explanation of the second effect.
+Both these effects are complicated by the action of the electrons on
+the atoms so that the foregoing description is only to be regarded
+as a rough outline of what really occurs.
+So far we have only considered the wa}' in which the electron
+theory of conduction explains a number of phenomena which were
+familiar before it was enunciated. The power to do this is a neces-
+sary attribute of every scientific theory. A scientific theory, how-
+ever, is often much more useful than this in that it leads to the pre-
+diction of phenomena which would hardly have been foreseen without
+its aid. The present theory has been able to prove its usefulness in
+this way. as the principles underlying it have enabled us to develop
+a new chapter in physical science, a chapter to which I have ventured
+to give the name of Thermionics. Thermionics relates to the emis-
+sion of electrified particles by hot bodies and the phenomena to which
+they give rise.
+It is found that all bodies when heated to a sufficiently high tem-
+perature give rise to an emission of both negatively and positively
+charged particles. In many ways the negative emission is the more
+interesting as the particles emitted are negative electrons having prop-
+erties identical with those of the carriers of the cathode rays. The
+connection between this emission of negative electrons and the trans-
+portation of electricity in a metallic conductor is very intimate. We
+have seen that, in order to explain the phenomena exhibited by me-
+tallic conduction, it is necessary to suppose that such conductors
+contain large numbers of "free" electrons. If these electrons are
+maving about freely inside the conductor, as we have supposed, the
+question at once arises as to why they do not escape into the sur-
+rounding atmosphere. It is clear that they do not do so, otherwise
+there would be a leakage of electricity from the surface of all con-
+ductors at ordinary temperatures. The answer must be that there
+are forces at the surface of the metal which are sufficiently great to
+prevent them from escaping. Now consider what we should ex-
+pect to happen as the temperature of such a body is raised. We have
+supposed that the average kinetic energy of the contained electrons

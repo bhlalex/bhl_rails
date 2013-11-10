@@ -1,0 +1,38 @@
+191 1.] AGGREGATES OF ELECTRONS. 363
+plicit evidence of the existence of these minute charged particles,
+whose mass is nearly 2,000 times smaller than that of the lightest
+known chemical atom.
+The emission of ordinary heat radiation such as is given out
+by all substances, and in increasing amount the higher the tempera-
+ture, is very intimately connected with the theory of electrons. As
+is well known this radiation is electromagnetic in character and in-
+cludes visible light as a particular case. We also know that when
+an electron is accelerated it emits electromagnetic radiation. It
+is natural therefore to attribute the origin of this radiation to the
+motions of the electrons of which material bodies are made up.
+By making use of the principles of thermodynamics we can prove
+that the nature of the radiation of this character which is to be
+found in any enclosure maintained at a given temperature is inde-
+pendent of the nature of the walls of the enclosure. The amount
+and character of this radiation is thus independent of the material
+from which it originates. If therefore we can calculate the amount
+of this radiation of each wave-length for any particular substance,
+for a series of temperatures, we shall know what it is for all sub-
+stances at the same temperatures. Unfortunately when such a
+calculation is carried out in the most logical and natural way it
+leads to results which are not in agreement with those given by
+experimental measurements. Another mode of calculation given by
+Planck leads to a formula which agrees with the experimental values.
+It has been shown however that Planck's calculation involves the
+implicit assumption that energy is an atomic or discontinuous quan-
+tity. This idea is distasteful to many physicists and it is so revolu-
+tionary that it is not desirable to adopt it without very convincing
+evidence. One of the authorities on this very intricate subject,
+Jeans, maintains that the reason for the discrepancy between the
+less revolutionary theory and experiment is due to the fact, as he
+asserts, that the experiments do not measure the true equilibrium
+radiation. However this may be, the difficulties which lie in the
+explanation of the connection between radiation and temperature
+do not belong to the electron theory proper but are outside of it.
+No matter how it may be decided the outcome of this question is
+not likely to shake the foundations of the electron theory of matter.

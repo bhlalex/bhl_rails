@@ -1,0 +1,43 @@
+692
+of solidification without appreciable inertia. Having at rny disposal
+instruments that fully met all imposed requirements 1 ), I could venture
+to make an attempt to solve the problem proposed with a fair
+chance of success.
+The method of observation was as follows. Two small holes were
+bored in a glass tube at points which were diametrically opposed
+to each other. The thermo-element was put through these apertures.
+It consisted of termo-sheet tin of Dr. Moll, which had been rolled
+out for this research to a thickness as small as possible. The thermo-
+elements that were used in the final observations, had a thickness
+of 1.4 [x. Strips of this material were cut about 0.1 mm. wide, one
+half of which consisted of manganin, the other of constantan. Such
+a strip was put through the openings made in the wall of the glass
+tube. Before cementing the thermo-element care should be taken
+that it was spread out flat, normal to the axis of the tube, and
+further that the place where the metals were soldered together, was
+exactly in the centre of the tube. The cementing substance had to
+be proof to the substance with which the tube was filled (salol),
+and had to adhere to glass and metal. A mixture of water-glass
+and asbestos powder appeared to satisfy these requirements 8 ).
+Copper wires, which led to the galvanometer, were soldered to
+the extremities of the thermo-element, which projected outside the
+wall of the tube. The coil of the galvanometer had a very small
+moment of inertia, so that the instrument indicated quickly. In
+order to enhance the rapidity, the suspension-wires of the coil were
+chosen fairly thick. This, indeed, decreased the sensitivity, but it
+was nevertheless sufficient to enable us to measure accurately the
+rises of temperature that had to be observed. The time of adjustment
+of the galvanometer was about 0.07 sec.
+The glass tube was now filled with the melted substance, for which
+I have chosen salol. This substance offers some advantages, viz.:
+1. The rate of crystallisation is small, at most 3.68 mm.
+per minute. Consequently the conditions imposed on the method of
+measurement are not so great as with substances that crystallize
+1 ) It is with great pleasure that I express my indebtedness to Dr. W. J. H. Moll
+for the use of the unequalled combination of instruments of his own invention,
+without which the measurement of the rapid local temperature changes would
+certainly have been impossible.
+2 ) Between two observations the tube of salol had to be placed in hot water
+to melt the salol again. In order to protect the solidified mixture of asbestos and
+walerglass against the action of the hot water, it was covered on the outside
+with Canada balsam.

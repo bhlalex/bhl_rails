@@ -1,0 +1,37 @@
+EXPANSION PROBLEMS. 389
+or, in consequence of the inequalities
+n< pn< 2n
+which hold for all values of n from a certain point on,
+< 3-2^' G n^ (>\n{x2— x\) ^
+dx'
+However large k may be, and however small numerically the negative
+quantity X2 — xi, the series which has this last expression for its
+7ith term is convergent. It follows that the series obtained by differ-
+entiating (8) term by term k times is uniformly convergent ^* for
+^ .T ^ xo; and as .^2 may be any number between and Xo, the
+theorem is proved. -^^
+The question is now inevitable: Is it possible to develop every
+analytic function in a uniformly convergent series of the form (8),
+with the restriction, perhaps, that the function shall vanish at the ends
+of the interval? As in other problems of this sort, it is easy to deter-
+mine what the values of the coefficients must be, if such an expansion
+exists. The formal series being given, an answer to the question may
+be expressed as follows :
+Theorem II. // N is any positive integer, however large, it is possible
+to define a function f{x), analytic throughout the interval ^ a; ^ ir,
+and vajiishing with its first N derivatives both for x = and for x = r,
+such that its formal expansion in a series of the form (8) diverges at every
+interior point of the interval.
+The system adjoint to (1), (2) consists of the differential equation
+dx"^
+and the boundary conditions
+«(0) = 0, (j(7r) = 0, »'(7r) = 0.
+Its characteristic numbers are the numbers p„, and its characteristic
+solutions have the form
+d2) Cr,{x) = ^P"(^--'-f a;c"''»(^-'^) + w-f?"'""'^-'^'.
+14 Of course the terms of the series are continuous and in fact analytic func-
+tions of X.
+15 Professor Birkhoff points out that it may be shown by a slight modifica-
+tion of this argument that the series converges uniformly throughout a region
+of the complex x-plane including the segment (0, Xo) of the axis of reals in its
+interior, and so represents a function analytic for ^ x < Xq.

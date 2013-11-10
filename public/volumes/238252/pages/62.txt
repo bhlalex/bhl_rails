@@ -1,0 +1,46 @@
+S8 POPULAR SCIENCE MONTHLY.
+however, is not an important matter. Far more important is it to
+show, as has been shown, that practically perfect isolation can be
+achieved if it is desired.
+It must be noted, however, that, although the fact that electric cir-
+cuits have a natural time-period of oscillation of their own is a scientific
+principle which carries us a considerable way towards a solution of
+what is called syntonic Hertzian wave telegraphy, it is not in itself
+alone in every respect an entire solution of the practical problem. The
+degree to which it is a solution depends to a considerable extent upon
+the nature of the detecting device, or kumascope, which we are employ-
+ing. The coherer, or Branly filings tube, has the peculiarity that its
+passage from a nonconductive to a conductive condition follows imme-
+diately when the difference of potential between its ends is made suffi-
+ciently great. In other words, if the tube is acted upon by a sufficient
+electromotive force, it is not necessary that electromotive force shoidd
+be repeated at intervals to make this particular form of kumascope
+responsive. Again, if we consider the nature of the oscillations which
+are sent out from any transmitting aerial, we find that each group of
+oscillations corresponding to a single spark consists of waves gradually
+decreasing in amplitude. In other words, the first wave of the group
+iii the strongest, and the decay in amplitude is often very rapid.
+Supposing, then, we construct a simple receiver consisting of an aerial
+having inserted in its circuit a sensitive Branly filings tube. Such a
+receiver is almost entirely non-syntonic ; that is to say, it is affected
+by any wave passing over it which is sufficiently powerful. We may
+look upon it that if the first wave of the series is sufficiently powerful
+to affect the kumascope, the conductive change takes place whether or
+not the first wave is followed by others. Accordingly, it is perfectly
+certain that if a transmitter is sending out trains of waves of any
+period, a simple combination of coherer and aerial will be infiuenced, if
+it is placed near enough to the transmitter. On the other hand, it is
+possible to combine a kumascope of a certain type with a receiving
+aerial and other circuits in such a manner that when the waves that
+reach it are feeble it shall not respond at all unless those waves have
+very nearly a time period of a certain value.
+At this stage, it may be perhaps well to explain a little in detail
+what is meant by an easily responsive circuit, and, on the other hand,
+by an irresponsive circuit, or, as we may call it, a stiff circuit. Sup-
+posing that we consider an aerial consisting of a simple straight wire
+having small capacity and small inductance, such a circuit admits of
+being sent into electrical oscillation, not only by waves of its own natu-
+ral time-period, but by the sudden application of any violent electro-
+motive impulse. If, on the other hand, we bestow upon the circuit in
+any way considerable inductance, we then obtain what may be called a
+stiff or irresponsive circuit, which is one in which electrical oscillations

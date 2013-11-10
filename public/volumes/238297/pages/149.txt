@@ -1,0 +1,33 @@
+THE LOGICAL MACHINE. 123
+whence it is apparent that A must be B, the true conclusion
+of the argument.
+In my previous Essay 11 I have described the working of
+two other logical problems upon the abacus, which it
+would be tedious to repeat in this place.
+The Logical Machine.
+Although the Logical Abacus considerably reduced the
+labour of using the Indirect Method, it was not free from
+the possibility of error. I thought moreover that it would
+afford a conspicuous proof of the generality and power of
+the method if I could reduce it to a purely mechanical
+form. Logicians had long been accustomed to speak of
+Logic as an Organoii or Instrument, and even Bacon, while
+he rejected the old syllogistic logic, had insisted, in the
+second aphorism of his ' New Instrument/ that the mind
+required some kind of systematic aid. In the kindred
+science of mathematics mechanical assistance of one kind
+or another had long been employed. Orreries, globes,
+mechanical clocks, and such like instruments, are really
+aids to calculation and are of considerable antiquity. The
+arithmetical machine of Pascal is more than two centuries
+old, having been constructed in 1642-45. M. Thomas of
+Colmar has recently manufactured an arithmetical machine
+on Pascal's principles which is extensively employed by
+engineers and others who need frequently to multiply or
+divide. To Babbage, however, was entirely due the
+merit of embodying the Calculus of Differences in a
+machine, which thus became capable of calculating the
+most complicated tables of figures. It seemed strange
+that in the more intricate science of quantity mechanism
+could be applicable, whereas in the simple science of
+h ' Substitution of Similars/ pp. 56-59.

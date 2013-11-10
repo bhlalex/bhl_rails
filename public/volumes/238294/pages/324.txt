@@ -1,0 +1,114 @@
+( 829 )
+least squares, the coefficients Ic^ and l\ liaving l)een determined in
+such a way, that tiie vahies of r^, calculated, for each observed S,
+from Kaufmann's equations (34), agree as closely as may t)e with
+the observed values of i^.
+I have determined by the same condition, likewise using the method
+of least squares, the constants a and h in the formula
+wliich may be deduced from my equations (36) and (37). Knowing
+a and h, I tind i? for each measurement by means of the relation
+For two plates on which Kai fmann had measured the electric and
+magnetic detlexions, the results are as follows, the detlexions being
+given in centimeters.
+I have not found time for calculating the other tables in Kaufmann's
+paper. As they begin, like the table for Plate 15, with a rather
+large negative difference between the values of ^] which have been
+deduced from the observations and calculated by Runge, we may
+expect a satisfactory agreement with my formulae.
+§ 14. I take this opportunity for mentioning an experiment that
+Plate N". 15. a = 0,064.89, 6 = 0,3039.
+V
+-
+^
+^
+Observed.
+Calculated
+by R.
+Diir.
+Calculated
+by L.
+Dill'.
+Calculat
+R.
+ed by
+L.
+0.1495
+. 0.0388
+0404
+—
+16
+0.0400
+— 12
+0.987
+0.9.51
+0.199
+0.0548
+0550
+—
+2
+0.0552
+— 4
+0.964
+0.918
+0.2475
+071G
+0.0710
++
+6
+0.0715
++ I
+0.930
+0.881
+0.296
+0.0896
+0.0887
++
+9
+0.0895
++ 1
+0.889
+0.842
+0.3435
+0.1080
+0.1081
+—
+1
+0.1090
+— 10
+847
+0.803
+0.391
+0.1290
+0.1297
+—
+7
+0.1305
+-15
+0.804
+0.763
+0.437
+0.1.524
+0.1527
+—
+3
+0.1532
+— 8
+0.763
+0.727
+0.4825
+0.1788
+0.1777
++
+11
+0.1777
++ 11
+0.724
+0.692
+0.5265
+0.2033
+0,2039
+—
+6
+0.2033
+0.688
+0.660

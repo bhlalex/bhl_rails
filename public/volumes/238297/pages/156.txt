@@ -1,0 +1,36 @@
+130 THE PRINCIPLES OF SCIENCE.
+2. The more immediate importance of the machine
+seems to consist in the unquestionable proof which it
+affords that most comprehensive views of the principles
+of reasoning have now been attained, although they were
+almost wholly unknown to Aristotle and his followers.
+The time must come when the inevitable results of the
+admirable writings of the late Dr. Boole must be re-
+cognised at their true value, and the plain and palpable
+form in which the machine presents those results will,
+I hope, hasten the time. Undoubtedly his life marks
+an era in the high science of human reason. It may
+seem strange that it had remained for him first to set
+forth in its full extent the problem of logic, but I am
+not aware that any one before him had treated logic
+as a symbolic method for evolving from any premises
+the description of any class whatsoever as defined by
+those premises. His quasi-mathematical system indeed
+could not be regarded as a final and complete solution
+of the problem. Not only did it require the manipula-
+tion of mathematical symbols in a very intricate and
+perplexing manner, but the results when obtained were
+devoid of demonstrative force, because they turned upon
+the employment of unintelligible symbols, acquiring mean-
+ing only by analogy. I have also pointed out that he
+imported into his system a condition concerning the
+exclusive nature of alternatives (p. 83), which is not
+necessarily true of logical terms. I shall have to show
+in the next chapter that logic is really the basis of
+the whole science of mathematical reasoning, so that
+Boole completely inverted the true order of proof
+when he proposed to infer logical truths by algebraic
+processes. It is a wonderful evidence of his mental
+power that by methods fundamentally false he should
+have succeeded in reaching true conclusions and widen-
+ing the sphere of reason.

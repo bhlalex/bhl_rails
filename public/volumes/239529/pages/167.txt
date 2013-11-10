@@ -1,0 +1,45 @@
+230
+On montre sans peine que, si nn ensemble Pest normal en chacun
+de ses points, il existe, si petit que soit Ie nombre positif donné s,
+un nombre posilif r\ et line portion P, de P, tels que, pour tonte
+valeur de 8 située sur P, et qnelqne soit 8' sur P entre 6 —r\ et
+6 -J- r\, il est possible de tronver line suite 6 -J- h = 8', 8 -\- h x , . . .,
+8 4- h». . , de points situés sur P et tels que la série — — 4- -^-. 4-
+I ^i I W
+hn
+-}-...+ rr~ — "f" ■ ■ ■ a ^ ,me somme inférieure a s.
+\/ln+l\
+De la résulte que, si un ensemble parfait P est normal en chacun
+de ses points, l' ensemble des points de P oil (p (8) est non existante
+ou discontinue sur P, cet ensemble est non dense sur P.
+Oonsidérons un ensemble parfait P dont la construction satisfait
+aux conditions suivantes. Soient tf lf /?,, . . . , /?„, . . . une suite de nora-
+bres positifs inférieurs a 7 9 » et °o un segment qnelconque. A la pre-
+mière operation, nous retranchons de <J un intervalle, de maniere
+qu'il subsiste sur <> deux segments <j, ayant chacun une longueur
+supérieure a ^o t . A la seconde operation, nous extrajons de chaque
+segment o 1 un intervalle, de facon que chacun des deux segments
+restants surpasso ce memo segment o^ multiplié par /i, . . . A la ?i e
+fois, nous opérons sur 2" segments f» n conserves a la suite de l'opé-
+ration precedents. De chacun de ces segments, ex tray ons un inter-
+valle de maniere que chacun des deux segments a n +\ restants sur-
+passe le segment a n d'oü il est extrait, multiplié par /?„. Et ainsi
+indéfiniment.
+1°. Si la plus petite limite de /?„ pour n infini est positive, et
+egale a (i, P possède en chacun de ses points un indice au plus
+1 — n — jit 2
+égal a a = — .
+^— l l
+2°. Si <r„4. i = <J n /?„, P est normal ou anormal en chacun de ses
+/?. |?, . . . /?„
+points, selon que la serie est convergente ou divergente.
+Pn+l
+Si done ft, = 2— ftn , P est normal ou anormal selon que k < 2 ou
+que k <. 2.
+L'ensemble E des points de non existence de go {8) est, nous
+l'avons vu, non dense sur le continu. 11 se decompose en un
+ensemble non dense sur tout ensemble parfait (ou clairsemé) G x et
+un ensemble dense en lui-même G. Soit TI le derive de G. IJ est
+parfait et G est partout dense sur 17. 77 est anormal en tous les
+poins de G, sauf even tuel lemen t en certains points formant un
+ensemble g non dense sur TI.

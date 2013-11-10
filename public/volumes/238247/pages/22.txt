@@ -1,0 +1,45 @@
+Barkworth: Elymus stebbinsii 355
+Both series of DA disagreed with the cluster analysis in the placement of a few
+OTUs, but neither series considered any of the Sb group OTUs misclassified. In the
+4-group analysis, 2 OTUs had to be reassigned before discriminant functions were
+generated that considered all OTUs correctly assigned, one from group Sp to group A,
+3ie other from cluster A to cluster B. Even then, jackknife analysis suggested that
+eight OTUs (9% of those in the analysis) were misclassified. With thx^ groups,
+seven specimens had to be reassigned before the classification matrix showed no
+misclassifications, six from group A+B to group Sp, and one from group Sp to group
+A+B, the same OTU as was moved from group Sp to group A in the four-group
+analysis. Jackknife analysis resulted in a 5% misclassification rate.
+Both series of discriminant analyses placed group Sp closer to the groups A and B
+(4-group series) or group A+B (3 group series) than to group Sb. Thinking that might
+be a reflection of awn length, I ran a 3-group analysis excluding the awn length
+character. This moved group Sp closer to group Sb, but it remained closest to the
+A+B group.
+GROUP EVALUATION. To further evaluate the groups suggested by the
+numerical analyses, I obtained simimary statistics for the four major groups, after
+modifying them to reflect the results of the discriminant analyses. The OTU that both
+series of discriminant analyses suggested should be reassigned was placed in the
+suggested group. The other supposedly misclassified OTUs were left in the group
+suggested by the cluster analyses.
+Group Sb had more florets per spikelet, and longer ligules, rachis intemodes, and
+spikelets, but shorter awns, than the other three groups. It resembled group Sp, and
+differed from groups A and B, in having longer anthers and somewhat longer florets.
+Group Sp differed from all other groups in having, on average, longer awns and
+thicker culms, but it overlapped the other groups in its extreme values. It differed
+from group Sb and resembled groups A and B in having relatively few florets per
+spikelet.
+Group A differed from group B primarily in the longer length of its awns, glumes,
+and lemmas. The greatest difference between the two was in awn length, group A
+having longer awns. Group B also contained a number of OTUs with glumes that
+were unusually short relative to the first lemma.
+QUALITATIVE CHARACTERS. Qualitative characters and the maximum
+number of spikelets per node were not included in the numerical analyses. Most were
+of little or no taxonomic value. Pubescent culm nodes were found on 50% of the
+OTUs in group Sb, but occurred, albeit less frequently, in the other three groups.
+F*ubescent sheaths and ciliate sheath margins were uncommon in all groups. Adaxial
+blade vestiture varied from glabrous and smooth, through scabridulous to scabrous, to
+scabrous with some short pilose hairs, to densely pilose, but I could find no
+relationship between the vestiture and other characters.
+Two characters, maximum number of spikelets per node and glume apex shape,
+were more interesting. Two spikelets per node were more common in groups A and B
+than groups Sb and Sp, although they were not common in any group. This last was
+partly an artifact of the loan request which specified taxa specimens identified as

@@ -1,0 +1,37 @@
+THE THEORY OF PROBABILITY. 227
+well said that the quantity of belief is ' always relative
+to a particular state of knowledge or ignorance ; but it
+must be observed that it is absolute in the sense of not
+being relative to any individual mind ; since, the same
+information being presupposed, all minds ought to dis-
+tribute their belief in the same way/ c Dr. Boole, too,
+seemed to entertain a like view, when he described the
+theory as engaged with ' the equal distribution of ignor-
+ance,' d but we may just as well say that it is engaged
+with the equal distribution of knowledge.
+I prefer to dispense altogether with this obscure word
+belief, and to say that the theory of probability deals with
+quantity of knowledge, an expression of which a precise
+explanation and measure can presently be given. An
+event is only probable when our knowledge of it is
+diluted with ignorance, and exact calculation is needed
+to discriminate how much we do and do not know. The
+theory has been described by some as professing to evolve
+knowledge out of ignorance ; but as Professor Donkin has
+admirably remarked, it is really f a method of avoiding
+the erection of belief upon ignorance/ e It defines rational
+expectation by measuring the comparative amounts of
+knowledge and ignorance, and teaches us to regulate our
+action with regard to future events in a way which will,
+in the long run, lead to the least amount of disappointment
+and injury. It is, as Laplace as happily expressed it, good
+sense reduced to calculation.
+This theory appears to me the noblest creation of
+human intellect, and it passes my conception how two
+men possessing such high intelligence as Auguste Comte
+and J. S. Mill, could have been found depreciating it,
+or even vainly attempting to question its validity. To
+c 'Philosophical Magazine,' 4th Series, vol. i. p. 355.
+d 'Transactions of the Royal Society of Edinburgh,' vol. xxi. part iv.
+e 'Philosophical Magazine,' 4th Series, vol i. p. 355.
+Q 2

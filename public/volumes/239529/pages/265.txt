@@ -1,0 +1,42 @@
+394
+e. And this forms in our opinion the connecting link to the view
+recently set forth by J. J. Thomson, according to which he assumes
+that electro-luminescence radiation chiefly takes place with recom-
+bination of free electrons with ions (Phil. Mag. 37, 419, 19J9) x ).
+It seems to me that after the above remarks some difficulties
+would have to be removed if this view is to be maintained. But it is
+clear that particularly when radiation is excited by a strong external
+electric source of energy, ions must appear, and to these rests them-
+selves the strong emission of light is, in fact, chiefly owing.
+That on combination of the ion with an electron a great distur-
+bance in the molecule takes place, which likewise gives rise to
+light-emission of the different "erregle" states, is clear. That such
+an emission of light takes place in case of the return we have dis-
+cussed, has experimentally been made very probable by P. Lenard
+for the region of phosphorescence.
+8. Summary.
+As a summary we may give the following conclusions from some
+results of the author's Thesis for the Doctorate and the preceding
+calculations :
+1. The observed pressure effects are chiefly owing to the difference
+in the number of molecules that arises on the discharge of the
+positive and negative ions at anode and cathode. In direct sense
+the electric wind plays only a very subordinate part. The extent
+of the pressure differences varies with number, mass, charge, mobility
+of the positive and the negative ions. Hence the dependence on the
+electric variables, the gas pressure, the nature of the gas.
+It appears possible to come to a physical interpretation of the
+factors, leading to the pressure effect (&p), the consequences of which
+are also in harmony with the dependence of Lp on different, variables.
+2. There occur positive and negative ions charged with mass in
+the luminous positive column, and also electrons in a considerable
+degree. The current-conveyance is chiefly brought about by the latter.
+3. The conclusions under 1 and 2 form in the region of electro-
+luminescence experimentally and logically a support for the theories
+and views of Child, Frank, and Hertz, and to a certain extent to
+those of Thomson as indicated above.
+4. The outer electrons of the atom determine the catalytic proper-
+ties. The right of existence of the assumption of dislocated states in
+the theory of catalysis is optically confirmed.
+Dordrecht, March 1920.
+i) Cf. also Engineering 107, 410 (1919).

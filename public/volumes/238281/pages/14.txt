@@ -1,0 +1,47 @@
+1988 Turner, Taxonomy of Chrysanthellum 417
+group based on my 40 or more years familiarity with
+character variability and species-relationships in the
+Asteraceae. Fig. IB., a Wagner-type diagram based upon
+the characters shown in Table 1 , the species arranged
+subjectively in concentric circles according to their
+additive positions; and Ic, a more formal cladistic
+analysis using the character states shown in Table 1 .
+Figures lA and IB suggest that within Chrysanthellum
+two phyletic lines exist, a group having ray ligules
+mostly reduced with 2-3 nerves centering about C .
+americanum , and a group having well-developed ligules
+with 4-8 nerves centering around C_^ perennans . The
+latter taxon, in particular, is believed to have retained
+characters which approach Eryngiophyllum , namely a
+perennial, rosulate habit, while C_^ pi Izii with its
+subopposite leaves, evolute, ornate, disk achenes, and
+prostrate habit is believed to be the most advanced.
+A parsimony analysis (PAUP, David Swofford, 198x) of
+the data presented in Table 2 resulted in 137 equal-
+length trees of 40 steps each. Figure IC represents a
+strict consensus tree derived from 100 of these.
+Chrysanthellum is united as a monophyletic lineage by
+synapomorphies in characters 11 {l->0), 14 (0->l), and 15
+(l->0). Neuractis smithii and N_^ leschenaul t ii are
+linked as sister taxa by synapomorphies in characters 8
+(l->0), 9 (0->l), and 21 (l->0). The two species
+Eryngiophyllum lack a character in this data set to unite
+them as sister taxa.
+ACKNOWLEDGEMENTS
+This study is based upon the examination of
+approximately 840 sheets from the following herbaria
+(number of specimens shown in parenthesis): F (63), GH
+(96), GOT (1), K (127), LL (60), LP (42), MICH (44), MO
+(97), NY (106), TEX (66), UC (37), UNAM (15), US (84). I
+am grateful to the Directors for loan of materials.
+Linda Vorobik provided the illustrations and K. Nixon and
+G. Nesom helped with the cladistic analysis. Dr. J.
+Mears collected buds for the chromosome count of C .
+pusillum .
+CHRYSANTHELLUM Rich, ex Persoon
+Annual or rarely perennial prostrate to erect mostly
+glabrous herbs. Leaves predominantly alternate
+( super f ica lly opposite in C_^ pi Izi i ) , simple to
+bipinnatisect . Heads terminal or axillary, heterogamous,
+radiate. Involucre 2-seriate, bracteate. Receptacle
+plane to convex, with membranous, persistent linear

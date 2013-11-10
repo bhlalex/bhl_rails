@@ -1,0 +1,37 @@
+Physics. — "The so-called cyanogen-bands" . By G. Holst and
+E. Oostehhuis. (Communicated by Prof. H. Kamerlingh Onnes).
+(Communicated at the meeting of May 29, 1920).
+In photographing the nitrogen-spectrum one usually observes a
+number of bands, which were formerly ascribed to cyanogen 1 ).
+The most prominent of these bands lie between 3855 and 3883 A.
+and between 4158 and 4216 A. In J 914 Grotrian and Runge 5 )
+made some experiments, from which they concluded, that these
+bands are due to nitrogen and should not be ascribed to cyanogen.
+Many later observers 3 ) have considered this view to be the right one.
+We have made a new investigation on this point and came to
+the conclusion that these bands are not due to nitrogen, but to one
+of its compounds which condenses at a much higher temperature.
+In our experiment the discharge tube was a cylindrical glass tube
+with one electrode connected to a Tesla-transformator. The gas in
+the tube was an argon-nitrogen-
+mixture containing about 15%
+of nitrogen. The gaspressure was
+1- about 55 cm. Under these cir-
+cumstances the spectrum shows
+no argon lines, only the nitro-
+2. genbands and the so-called
+"cyanogen-bands". (Fig. 1).
+The bands 3855 — 3883 A
+3 can be seen at A, the bands
+4158-4216 A at B.
+In order to discriminate
+whether these bands are due to
+nitrogen or to cyanogen, we immerged the lower half of the discharge
+tube into a glass filled with liquid oxygen and so obtained the
+spectrum fig. 2.
+A. B.
+l ) See Kayser, Handbuch der Spectroskopie. Bd. 5.
+S) W. Grotrian and C. Runge. Phys. Z. S. 15, 545. 1914.
+3) W. Steubing. Phys. Z. S. 20, 512. 1919.
+L. Grebe und A. Bachem. Verb.. D. Phys. Ges. 21, 454. 1919 and Zeitschr. f.
+Physik, 1, 51. 1920.

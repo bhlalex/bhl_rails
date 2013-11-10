@@ -1,0 +1,34 @@
+596
+POPULAR SCIENCE MONTHLY.
+plosion takes place. By many engineers this arrangement is regarded
+as superior to the electric spark on account of its simplicity.
+Gasoline motors are made with one, two or more cylinders, hut in
+each cylinder the action that takes place is that described above. The
+actual construction of a motor is not so simple as might be assumed
+from the appearance of Fig. 1; many details are required which are
+not here shown. A more perfect idea of the actual construction of a
+gasoline motor can be had from Fig. 2, which is a working drawing of
+a recent European invention. In this design it will be noticed that
+the cylinder is cooled by radiation into the surrounding air, the ex-
+terior surface being increased by numerous circular ribs and also by
+extending a hollow trunk from the upper side of the piston, so as not
+only to increase the radiating surface, but also to allow the hot air to
+escape from the chamber T in which the crank discs revolve. In this
+drawing E is the explosion chamber, corresponding to Q in Fig. 1, and
+Fig. 3. Reversing Mkchanism.
+the valve s is the counterpart of /, while s r corresponds to the valve
+h. The upper pipe t is the pipe e of Fig. 1 and the lower pipe t' is the
+pipe r of the same figure. Although the crank discs, connecting rods
+and other details are different in shape, it will readily be seen that their
+relation to each other is the same.
+Since a gasoline motor cannot start of its own accord, it is neces-
+sary in vehicles in which they are used so to arrange the driving gear
+that the motor may be kept in motion all the time and always in the
+same direction, hence, to reverse the direction of the carriage, revers-
+ing mechanism, independent of the motor, must be provided. The most
+simple mechanism for a gasoline vehicle employing spur gearing ex-
+clusively is shown in diagrammatic form in Fig. 3. In this figure A rep-
+resents the cylinder of the motor, B the crank disc chamber and M the
+vaporizing receptacle, which is generally called the carburator. The
+pinion C, on the end of the motor shaft, meshes into a gear D which
+is mounted upon a sleeve E which revolves freely round shaft G. This

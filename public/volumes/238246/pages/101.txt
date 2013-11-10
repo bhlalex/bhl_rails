@@ -1,0 +1,20 @@
+132
+ill Figures 16 and 17 as well as tlie hydrogen generator and wash-
+bottles were kept on 27°. Constancy of temperature within | of a
+Fig. 18.
+degree throughout the whole thermostat, which is amply sufficient,
+was attained by electrical heating in the following way.
+Under the perforated bottom A, like the side walls and cover of
+the thermostat jnade of "eternite", a kind of concrete, some 130
+metres of constantan wire of 0.4 m.m. diameter are spread out on
+a light frame. The current from the main of 220 Volts can be
+admitted to this wire by the relay R, an electrotechnical arrange-
+ment obtainable everywhere. A shunt of the current is reduced to
+some 8 Volts in the transformer T. This reduced current runs
+through the electromagnet E and is broken or opened by the
+regulator 6'. The latter is of the type, described by Clakk '), a spiral
+of nickel securing contact always at the same point of the mercury
+meniscus in a 2 m.m. wide capillary in pure hydrogen. To reduce
+sparking the poles of this regulator are also connected with a
+small condensor.
+') J. Araer. Cliem. Soc. 1913, 35, 1889.

@@ -1,0 +1,36 @@
+54 THE PRINCIPLES OF SCIENCE.
+part of the globe, are described negatively as inorganic.
+But we might, with at least equal logical correctness,
+have described the preponderating class of substances as
+mineral, and then vegetable and animal substances would
+have been non-mineral.
+It is plain that any positive term, and its corresponding
+negative divide between them the whole universe of
+thought : whatever does not fall into one must fall into
+o
+the other, by the third fundamental Law of Thought,
+the Law of Duality. It follows at once that there are
+two modes of representing a difference. Suppose that
+the things or classes represented by A and B are found
+to differ, we may indicate the result of the judgment by
+the notation (see p. 20)
+A-B.
+But we may now represent the same judgment by the
+assertion that A agrees with those things which differ from
+B, or that A agrees with the not-B's. Using our notation
+for negative terms (see p. 17), we obtain
+A = A.b
+as the expression of the ordinary negative proposition.
+Thus if we take A to mean quicksilver, and B solid, then
+we have the following proposition :
+Quicksilver = Quicksilver not-solid.
+There may also be several other classes of negative
+propositions, of which no notice was taken in the old logic.
+We may have cases where all A's are not-B's, and at the
+same time all not-B's are A's ; there may, in short, be a
+simple identity between A and not-B, which may be
+expressed in the form
+A = 6.
+An example of this form would be
+Conductors of electricity = non-electrics.
+We shall also frequently have to deal as results of

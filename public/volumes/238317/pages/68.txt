@@ -1,0 +1,40 @@
+New Engine for Riding. 85
+•either the front or back surface of the block base as required. The
+-effect of every adjustment was determined -with the telescope and
+waa followed by such further alterations as was indicated by the
+motion of the image of the cross wires. The process of correction
+was continued in this way until the telescopic image remained steady
+within the limits of experimental error. Finally the mirror was
+removed from the rod representing the screw and was placed upnn
+the actual screw of the machine and a slight further adjustment of
+the thrust plate made by the same method.
+As the thrust block could now be removed and restored to its
+position tetween the micrometer screws with certainty, it was taken
+out and the surface of the sapphire coated with a very thin film of a
+solution of eosin in alcohol and water, applied with the aid of a
+fine smooth needle. In this way an immeasurably thin film of stain
+or colour was left upon the polished sapphire face. On replacing
+the block in its former position the thrust facet of the screw was
+;gently pressed into contact with the sapphire and rotated through
+a very small angle. The effect produced was carefully examined
+with a powerful magnifier and the exact position and area of contact
+determined; this showed that the surface of contact was not central
+but was limited to one part of the thrust near its edge. Another
+test with the screw I8O0 from its former position definitely indicated
+that the screw facet was principally at fault. Correction of this
+defect was obtained by inserting a thin parallel plate of quartz
+between the thrust plate and screw bearing; one face of the quartz
+was polished the other smoothly ground, the latter being in contact
+with the steel thrust. The screw was then slowly rotated in contact
+with the plate which was constantly moved, i-evolved and reversed
+between the thrusts. The result of these combined movements was
+a delicate abrasive action upon the screw facet without any cor-
+responding effect upon the sapphire thrust face. In this way, with
+<;arQ and judgment, fairly uniform central contact of the screw
+thrust face with that of the sapphire was obtained. It should be
+understood that the amount of material removed from tHe bearing
+surface of the thrust by this process was probably not more than one
+or two wave lengths in thickness. These correctional operations,
+which extended over a considerable period, with intervening trial
+rulings, resulted eventually in the almost complete elimination of
+any remaining periodicity.

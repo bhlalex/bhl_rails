@@ -1,0 +1,39 @@
+Mathematics. — "On the Theorem of Picard." By Prof. J. Wolff.
+(Communicated by Prof. L E. J. Brouwer.)
+(Communicated at the meeting of Jane 26, 1920).
+The theorem of Picard on the conduct of a uniform analytical
+function in the neighbourhood of an isolated essentially singular
+point was proved in 1896 by Borel without the use of the modular
+function. l ) By this a series of elementary proofs was opened for
+the celebrated theorem. In 1904 Schottky made the demonstration
+of Borel considerably stricter. 2 ) He found an important theorem
+on holomorphic and meromorphic functions which are nowhere
+zero and nowhere 1, and on this he founded the elementary proof
+for the theorem of Picard. 3 ) After this Landau discovered an ex-
+tension of the theorem used by Schottky *). The remarkable result
+is as follows : if f{z) is holomorphic for \ z j <[ R, if it is there
+nowhere zero or J, if further |/(0)|<f», then for \z\<$R, in which
+0<1, toe have \f(z)\<<P{n,6), where only depends on 6 and (i.
+As Schottky did not possess this proposition, his reason-
+ing is here and there subtile. Elegant proofs of the theorem of
+Picard were given in 19J2 and 1913 by Montel, but they are
+founded on the consideration of the so-called normal families of
+functions.*) Bernays, who in 1911 quite simply brought forth the
+theorem of Landau out of that of Schottky 8 ), gave in 1913 new
+derivations of Landau's theorem, and investigated at the same time
+the function q> («), the upper limit for the radius of a circle, where
+the series ƒ = a -\- z -}- a^z* -f- . . . . converges and nowhere becomes
+zero or 1 7 ).
+x ) Gomptes rendus, May 11 1896, part 122, p. 1045—1048.
+J ) Sitzungsber. der K. Pr. Ak. d. Wiss., 1904, p. 1244—1262.
+s ) 1. c. p. 1255 sqq.
+4 ) Göttinger Nachrichten 1910, p. 309—312.
+6 ) Annales de l'école normale, part 29 (1912), p. 512 and part 33 (1916) p. 251.
+Montel gives here at the same time a simple proof of the theorem of Landau
+(part 33 (1916) p. 517.)
+«) See e.g. Sitz. ber. der K. Pr. Ak. d. Wiss. 1911, p. 597.
+Levy made this derivation still more simple in the Bulletin de la Soc. Math, de
+Fr., part 40 (1912) p. 25—39. It deserves to be mentioned that in 1907 Schottky
+(Sitz Ber. der K. Pr. Ak. d. Wiss. p. 823 — 840) gave two new proofs of the
+theorem of Picabd. They are, however, no more simple than the one of 1904.
+7) Vierteljahrschrift der Naturf. Ges., Zurich, 58 (1914), part 3, p. 203—238.

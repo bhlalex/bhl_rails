@@ -1,0 +1,36 @@
+214 THE PRINCIPLES OF SCIENCE.
+atmosphere at the earth's surface would be 968 feet per
+second, and very rude experiments made by him in the
+cloisters of Trinity College seemed to show that this wa&.
+not far from the truth. Subsequently it was ascertained by
+other experimentalists that the velocity of sound was
+more nearly 1142 feet, and the discrepancy being no
+less than one sixth part of the whole was far too much
+to attribute to casual errors in the numerical data.
+Newton attempted to explain away this discrepancy by
+hypotheses as to the relations of the molecules of air,
+but without success.
+Many new investigations having been made from time
+to time concerning the velocity of sound, both as observed
+experimentally and as calculated from theory, it was found
+that each of Newton's results was inaccurate, the theo-
+retical velocity being 916 feet per second, and the real
+velocity about 1090 feet. The discrepancy therefore re-
+mained as serious as ever, and it was not until the year
+1816 that Laplace showed it to be due to the heat
+developed by the sudden compression of the air in the
+passage of the wave, this heat having the effect of in-
+creasing the elasticity of the air and accelerating the
+motion of the impulse. It is now perceived that this
+discrepancy really involved the whole doctrine of the
+equivalence of heat and energy, and the discrepancy was
+applied by Mayer, at least by implication, to give an
+estimate of the mechanical equivalent of heat. The esti-
+mate thus derived agrees satisfactorily with independent
+and more direct determinations by Dr. Joule and other
+physicists, so that the explanation of the residual dis-
+crepancy which so exercised Newton's ingenuity is now
+complete.
+As Sir John Herschel observed, almost all the great
+astronomical discoveries have been first disclosed in the
+form of residual differences. It is the practice at well-

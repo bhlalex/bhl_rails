@@ -1,0 +1,37 @@
+204 HINRICHS— ATOMIC WEIGHT OF VANADIUM. [April 21.
+III. — The Analytical Results.
+The chemical work, beginning with the determination of the
+weight p and ending with the determination of the weight q (or the
+inverse) gives directly the atomic ratio r, by a simple division carried
+to five decimal places. A simple substraction now will give the
+analytical excess e by using the atomic ratio calculated once for all
+for the reaction. The results obtained in this way are given in
+Table III.
+We will here only call attention to the following peculiarly inter-
+esting circumstances :
+" Analyst B " working under Roscoe makes three determinations
+under reaction 269, and takes almost the same weight of the oxy-
+chloride for each one of these determinations ; notwithstanding the
+fact that he really only repeats one and the same determination three
+times, his results range over 501 units in the fifth place — an enor-
+mous range under so favorable conditions.
+In the language of Berzelius, this enormous range is quite a big
+camel which was swallowed without an effort in the laboratory of
+Roscoe, who strained laboriously at the tiny gnat of phosphoric acid
+which a test of high delicacy, that was not yet known in the days
+when Berzelius did his splendid pioneer work on vanadium and
+courteously presented to Faraday a sample of the vanadic acid he
+had received from his disciple who discovered the element vanadium
+and which acid Berzelius had purified himself as far as the science
+of his time permitted. These facts I gather from Becker, Smithson.
+Misc. Collections, 358, Washington, 1880, p. 132, quoting from
+Licbig's Aimalcii, 93, p. 6, 1868.
+TABLE III.
+The Analytical Ratios Determined.
+Reaction 98. — Atomic Ratio, R = 0.17582.
+Berzelius, 1831. — Meyer-Seubert, " Atomgew.," 1883, p. 28.
+Sums of Weights. r, e.
+Determ. Pentoxide. Oxygen.
+3 4-6995 0.8120 O.T7 278 —304
+I 0.6499 O.I 124 294 — 288
+Diagram. Lines B and B".

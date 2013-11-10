@@ -1,0 +1,35 @@
+392 JACKSON.
+to remain finite as n becomes infinite. Let xo be any particular value
+in the interval < .tq < t. Modifying the form of (7), we may write
+Un{xo) = e- p""^ -{- 2 c''"""^ sin (-^ pnXo - '^j.
+The sine in the right-hand member may be zero or nearly zero for
+some values of n, but there are certainly infinitely many values of n
+for which this is not the case. For
+1^^- P„ + 1 ^0 - gj - ^^— Pn .To - g J = ^0 + — (en + 1 - en) .To,
+which ultimately becomes practically equal to .tq, so that the two
+parentheses on the left-hand side can not both be nearly equal to
+integral multiples ^"^ of tt. It follows that for infinitely many values
+of n
+V3
+'sm, . ^,...>, „
+Un{xo) I > €36^""''°,
+and
+I anUn{,Xo) I >
+Q+2
+Pn
+where Co, c^, and C4 are all positive and independent of 71. As the right-
+hand member of the last inequality becomes infinite with n, the proof
+of Theorem II is complete.
+It may be remarked that no use has been made in this demonstra-
+tion of the fact that all the characteristic numbers are given by the
+asymptotic formula that we have employed. The proof would be
+unimpaired if there were infinitely many others. It is sufficient to
+know that there exist an infinite number of real characteristic values
+distributed in accordance with the formula. And this latter fact is
+17 More precisely, if 5 is the smaller of the quantities .xo, ir — xo, the index
+n may be made so large that
+and then the difference between the two parentheses is between ^5 and tt — ^5,
+and one or the other of the parentheses must itself differ from the nearest
+integral multiple of tt by at least \h.
+r5
+0:0 <-,

@@ -1,0 +1,36 @@
+THE LAW OF ERROR. 461
+to take suitable precautions against such occult errors.
+* It is to the observer/ says Gauss *, ' that belongs the task
+of carefully removing the causes of constant errors,' and
+this is quite true when the error i absolutely constant.
+When we have made a number of determinations with a
+certain apparatus or method of measurement, there is a
+great advantage in altering the arrangement, or even
+devising some entirely different method of getting esti-
+mates of the same quantity. The reason obviously con-
+sists in the improbability that exactly the same constant
+error will affect two or more different methods of experi-
+ment. If a discrepancy is found to exist, we shall at
+least be aware of the existence of error, and can take
+measures for finding in which way it lies. If we can try
+a considerable number of methods, the probability becomes
+considerable that errors constant in one method will be
+balanced or nearly so by errors of an opposite effect in the
+others. Suppose that there be three different methods
+each affected by an error of equal amount. The pro-,
+bability that this error wiU in all fall in the same direction
+is only ; and with four methods similarly f . If each
+method be affected, as is always the case by several inde-
+pendent sources of error, the probability becomes very
+great that in the mean result of all the methods sojne of
+the errors will partially compensate the others. In this case,
+as in all others, when human foresight and vigilance has /
+exhausted itself, we must trust the theory of probability. /
+In the determination of a zero point, of the magnitude
+of the fundamental standards of time and space, in the
+personal equation of an astronomical observer, we have
+instances of such fixed errors ; but as a general rule a
+change of procedure is likely to reverse the character of
+the error, and many instances may be given of the value
+of this precaution.
+* Gauss, translated by Bertram!, p. 25.

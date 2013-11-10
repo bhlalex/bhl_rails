@@ -1,0 +1,66 @@
+352
+PHYTOLOGIA November 1997 volume 83(5):345-365
+Surveying the specimens in each cluster, including looking at the characters not
+used in the analyses, convinced me that the clusters were taxonomically interesting
+entities, but that they were not identical with good taxa.
+PRINCIPAL COMPONENT ANALYSIS. The first three principal components
+accounted for 37.1%, 17.1%, and 11.1%, respectively, of the total variance. Spikelet
+and floret characters contributed most to the first and second axes; basal culm diameter
+was the largest contributor to the third axis (Table 3).
+Table 3. Coefficients of the five most significant characters in determining the location
+of OTUs on the first three principal components.
+Component 1
+Component 2
+Component 3
+Largest contributor
+Lemma length
+(0.8065)
+Awn length
+(-0.6432)
+Oilm basal diameter
+(-0.6646)
+Second contributor
+Spikelet length
+(0.8952)
+Second glume length
+(0.6070)
+Anther length
+(0.6117)
+Third contributor
+Floret number
+(0.7740)
+First glume length
+(0.6040)
+First glume length
+(0.4240)
+Fourth contributor
+Rachis intemode
+(0.7177)
+Ligule length
+(0.5300)
+Second glume
+(0.3633)
+Fifth contributor
+Second glume
+(0.6259)
+Blade width
+(0.4577)
+Awn length
+(0.3333)
+The projection of the OTUs onto the first three components (Figure 2) revealed no
+strongly defined groups among the OTUs. The Sb group [using labels from the
+cluster analysis] was the most distinct, but its intra-group distances were also relatively
+large. The other three groups occupied basically different, but contiguous, portions of
+the principal component space, with the Sp group between groups A and B. Minimum
+spanning tree links provide an indication of the overlap among the groups. Ideally, the
+maximum number of intergroup links would be two per group, with two of the groups
+having only a single intergroup link, i.e., 6 links for 4 groups. There were 21
+intergroup links among the OTUs in this study. Group Sb had 5 (3 to Sp, 2 to A);
+group Sp had 1 1 (6 to B, 3 to Sb, and 2 to A); group A had 12 (8 to B, 2 to Sp, and 2
+to Sb), and group B had 14 (8 to A, 6 to Sp).
+DISCRIMINANT ANALYSIS. It was hard to determine, fi-om looking at the
+specimens, which characteristics contributed most to the distinction between groups A
+and B, but comparison of the means for each cluster suggested that awn length was a
+major factor. For this reason, and because of the instability of the clusters, I decided
+to conduct two series of discriminant analyses, one in which A and B were considered
+as separate groups and one in which they were combined into a single group.

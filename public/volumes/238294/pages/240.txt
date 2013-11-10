@@ -1,0 +1,38 @@
+( 695 )
+by introducing the value of /> from the empirical equation of state,
+this gives
+Co — cv— -jry I ~'^ jT^^ 2 f/t^ y).v) 4 'dF \?.v
+1 d' a fvk\' 1 d' % rvk\ }
+6 dt' \XvJ 8 dt^ \).v^
+for t = 0.897 or T = 273 and v = 1,020 we find
+C— cv= 0.0432
+or, since at T = 273 cr= 0.1431 is
+c„ = 0.1863
+The point corresponding to v = 1.02 and t = 1 in the liquid
+region is now found. This was obtained by the aid of the equations 1)
+and 2) Avhere the term I> must be certainly taken into account ;
+we find
+IV. for t=l ?7y = 1.020
+n = nT, = — 42.10 X 10^
+ho
+s— fr^.^ = — 115 X 10'
+If we now assume that at the same temperature the difference
+between the specific heats at constant volume in the ideal gas state
+and for the volume 1.020, is constant and equal to k, we have
+T
+Tk
+Tk
+with which the following points for v:= 1.020 are calculated:
+V. for t = 0.864 Vy = 1.020
+,1 = — 53,6X10^
+s = — 145X10^
+VI. for t = 1.314 V,, =1.020
+,^ =: _ 28X10'
+E = — 33X10'
+According to the numbers of Kuenen and Robson the first of these
+two points lies on the liquid branch of the binodal line.
+The model PI. II fig. 3 is constructed from the values for tliese
+points.
+The values of v used are 100 times the calculated
+j> >j " 'i " " '^ " " "
+g 10-'

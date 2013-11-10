@@ -1,0 +1,126 @@
+378
+WHITEHEAD— HIGH VOLTAGE CORONA IX AIR. [April 21.
+is given in Table I. and the results are plotted graphically in Fig. 2.
+For comparison, points observed by other investigators are also
+shown. The values are all corrected for temperature, pressure and
+wave form and give the maximum values of the electric intensity
+at which the air breaks down under a pressure of 760 mm. of
+TABLE I.
+Rel.\tion Between Di.a.meter .\nd Critical Surface Intensity.
+Diameter,
+cm.
+Material of
+Wire.
+Diameter of
+Tube, cm.
+Material of
+Tube.
+Critical Primary
+Volts Corrected.
+Ratio.
+Maximum Crit-
+ical Surface
+Intensity.
+0.089
+Copper
+4.9
+Brass
+74-5
+125.09
+77,100
+0.122
+u
+<<
+44.0
+87.8
+250.18
+125.09
+70,950
+70,800
+0.156
+>,
+<<
+97.0
+97.0
+65,880
+55,880
+0.205
+((
+6
+35
+'<
+(8)
+109.5
+55-0
+60.5
+60.2
+59-9
+250.18
+61.350
+61,500
+62,080
+61,780
+61,680
+0.254
+Aluminum
+"
+65-9
+58,750
+0.276
+(1
+Copper
+"
+(8)
+68.9
+68.8
+68.5
+69.0
+68.9
+58,080
+58,080
+"
+"
+9-52
+Steel
+77-3
+57,650
+0-325
+Aluminum
+6.35
+Brass
+72.8
+55,000
+0.347
+Copper
+6.35
+"
+75-13
+54,500
+3405
+9.52
+Steel
+85-7
+55.100
+0.399
+Steel
+"
+"
+92.5
+53,050
+0.475
+"
+"
+"
+100.6
+51.400
+mercury, and at temperature 21° C. I am indebted to Professor
+Alexander Russell for pointing out that these results obey a very
+simple law. If E be the critical electric intensity in kilovolts per
+centimeter and d the diameter of the conductor in centimeters, the
+curve of Fig. 2 obeys closely the ecjuation :
+£ = 32 + 13-4 i/V^- (i)
+The observed values of Table I. are compared with the values cal-
+culated from the above formula in Table II. The percentage error
+is also given, and it is seen that with one exception the difference
+is well within one per cent. The exception refers to an aluminum
+wire which could not be polished to a clean surface ; a rough sur-

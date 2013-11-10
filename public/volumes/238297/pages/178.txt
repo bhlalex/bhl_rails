@@ -1,0 +1,36 @@
+152 THE PRINCIPLES OF SCIENCE.
+diamagnetic substances are capable of polarity C = CD, it
+follows by substitution that all substances are capable of
+polarity, or A = AD. We may divide the class substance
+again into the three subclasses, solid, liquid, and gas ;
+and if we can show that in each of these forms it obeys
+Carnot's thermodynamic law, it foUows that all substances
+obey that law. Similarly we may show that all verte-
+brate animals possess red blood, if we can show separately
+that fish, reptiles, birds, marsupials, and mammals possess
+red blood, there being, as far as is known, only five
+principal subclasses of vertebrata.
+Our inductions will often be embarrassed by exceptions,
+real or apparent. We might affirm that all gems are
+incombustible were not diamond undoubtedly combustible.
+Nothing seems more evident than that all the metals are
+opaque until we examine them in fine films, when gold
+and silver are found to be transparent. All plants absorb
+carbonic acid except certain fungi ; all the bodies of the
+planetary system have a progressive motion from west to
+east, except the satellites of Uranus and Neptune. Even
+some of the profoundest laws of matter are not quite
+universal ; all solids expand by heat except india-rubber,
+and possibly a few other substances ; all liquids which
+have been tested expand by heat except water below 4C
+and fused bismuth ; all gases have a coefficient of expan-
+sion increasing with the temperature except hydrogen.
+In a later chapter I shall consider how such anomalous
+cases may be regarded and classified ; here we have only
+to express them in a consistent manner in our nota-
+tion.
+Let us take the case of the transparency of metals, and
+assign the terms thus
+A = metal D = iron
+B = gold E, F &c. = copper, lead, &c.
+C = silver X opaque.

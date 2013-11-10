@@ -1,0 +1,38 @@
+POLYMORPHIC TRANSFORMATIONS OF SOLIDS.
+105
+produced by mercury set free by decomposition, in the presence of
+steel, either of the Hgl2 of this experiment, or of other mercury salts
+used in previous experiments. ^:
+The Hglo was obtained from Eimer and Amend, "c. p." and was
+used without further purification. For the first runs it was hammered
+cold into a thin steel shell, and pressure transmitted directly to it by
+kerosene. After this first run small transverse holes were drilled
+through the sides of the shell to facilitate the reaction, and cut down
+the width of the band of indifPerence, but no effect from this could be
+observed. For the later runs, the Hglo was initially melted into the
+steel shells and then the lateral holes drilled. Xo effect of the greater
+initial compactness in increasing the reaction velocity was tobe
+.004
+-.002
+>
+.004^^
+12345678
+Pressure, kgm./cm.^ x 10
+Mercuric Iodide
+9 10
+Figure 2.5. Mercuric Iodide. The observed differences of volume.
+observed. Three different samples were used, from 86 to 100 gm. in
+amount, but each of these samples was used for a number of settings
+up of the apparatus, and one was used for both high and low pressure
+measurements. The effect of pressure is to compact the Hgl2 into a
+mineral like mass, without the slightest tendency to dissolve in the
+kerosene. After long use a slight amount of decomposition with
+setting free of minute globules of metallic mercury could be detected
+where the surface of the Hglo comes in contact with the steel. This
+is to be expected, because iron will deposit mercury from mercury
+salts, but the decomposition was too slight to produce a perceptible
+change in the total volume of the reacting ciuantity of Hgl2.
+In view of the importance of the maximum temperature exhibited
+by this substance, a detailed description of the experiment will be
+given. When I started to investigate this substance, all that I knew
+about it was that it had a transition at atmospheric pressure at 127°,

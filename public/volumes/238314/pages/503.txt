@@ -1,0 +1,48 @@
+746 THE POPULAR SCIENCE MONTHLY.
+vious lie had read to the British Association a paper containing the
+fundamental positions of his later work, " Theory of Political Econ-
+omy," In 1865 appeared the treatise " On the Coal Question," deal-
+ing with the problem of the exhaustion of tlie English coal-mines, the
+calculations of which were adopted by Mr. Gladstone and Mr. Mill in
+their treatment of the subject. In 1869 appeared the small work,
+" Substitution of Similars the True Principle of Reasoning ; " in
+1870 he read a paper before the Royal Society " On the Mechanical
+Performance of Logical Inference ; " and about this time he com-
+pleted his well-known Logical Machine. In 1870 appeared the first
+edition of the " Elementary Lessons in Logic." The " Theory of Po-
+litical Economy " was published in 1871 ; and the author's great work,
+" The Principles of Science," was issued in two volumes in 1 874.
+" The Principles of Science " is a comprehensive treatise on pure
+and applied logic, or on the formal theory of inference and the
+methods of scientific investigation. The first book resumes the au-
+thor's previous researches in pure logic, and carries them a step
+further. All inference is regarded as essentially reasoning from simi-
+lars to similars, afiirming that what is true of one thing is true of
+its like. The rules of inference flowing from this general principle,
+and the symbolical notation employed to express all the forms of
+thought, are stated and exemplified with great fullness. The par-
+ticular novelty introduced is the view of induction, which Prof.
+Jevons regards as merely the inverse process of deduction. Thus,
+in deduction, we have given to us certain relations among terms or
+notions, and by the application of the formal laws of thought we
+develop all the possible combinations which are consistent with
+given relations. In induction, on the other hand, the combinations
+of terms are given, and we require to reason backward to the pos-
+sible relations from whicli they may result. Insisting strongly upon
+his view of inductive inference. Prof. Jevons is led to criticise and
+reject the ordinary accounts of the process. He declines to admit
+that inductive research necessarily involves the idea of causation,
+and assimilates it more nearly to the mathematical doctrine of proba-
+bility. The chapter in which he expounds the philosophy of induc-
+tive inference is peculiarly valuable, and deserves more careful criti-
+cism than it has yet received. As final result we have the complete
+subordination of induction to deduction; all inductive research, ac-
+cording to Prof. Jevons, consisting of three steps framing an hy-
+pothesis as to the general law, deductively inferring results from it,
+and comparing the inferred conclusions with real fact.
+The subordinate points involved in this theory of induction, such
+as the principles of combination and the general method of calculat-
+ing probabilities, are treated very elaborately. The problem of in-
+verse probability, which is, in Prof. Jevons's view, identical wifh the
+problem of induction, receives most careful attention. Some attempts
+have recently been made to carry out one or two of the elaborate

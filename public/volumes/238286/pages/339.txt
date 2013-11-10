@@ -1,0 +1,47 @@
+5 o6 THE POPULAR SCIENCE MONTHLY.
+as reflection easily assures us, than when the hall is filled with a bus-
+tling multitude. So, though the stars give us their whole light in the
+daytime, our eye, with the stimulus of an illuminated atmosphere, fails
+to discover them. This law, first stated by Fechner, is, in mathemati-
+cal language, the excitement of a nerve varies in arithmetical progres-
+sion as the exciting cause varies in geometrical progression, or degrees
+of sensation correspond to logarithms of the quantities perceived.
+Since, as just shown, the scale of magnitudes is that of equal differ-
+ences in sensation, it must be at the same time that of equal ratios of
+light. We must thus have a constant light-ratio between each mag-
+nitude and the one next it, and these magnitudes must be logarithms
+of the quantities of light given, this ratio being taken as the base of
+our system. In fact, one of the first discoveries in photometry was
+that such a ratio actually exists ; that, for example, if each star rated
+as third magnitude by good observers gives as much light as 2^- stars
+of the fourth magnitude, a star of the fourth equals 2 of the fifth, and
+so on. Here was a practical confirmation of the character ascribed to
+ancient estimates of magnitude, and, at the same time, of Fechner's
+law.
+This relation affords us the means of substituting exact measure-
+ment for estimates on an ill-defined scale by different observers, among
+whom a perfect agreement as to standard is out of the question. The
+idea that each observer has of the meaning of second or fifth magnitude
+is derived entirely from tradition and confirmed by habit, very much as
+are his notions of the significance of ordinary adjectives of degree
+the only precaution observed being to alter the estimates of antiquity
+as little as possible, a vague limitation at best. Measures with the
+photometer depend no less on estimates with the eye, but the deter-
+mination in them, as to the exact agreement of two lights, is subject
+to far less uncertainty.
+Photometers agree in this particular, whatever their differences in
+mechanical construction. Seidel, of Munich, who was twelve years in
+comparing the light of but 208 fixed stars, used an apparatus where
+two stars seen through a telescope with divided object-glass, each out
+of focus, were made of the same brightness to the eye by diffusing or
+concentrating the light of one of them, its half of the object-glass
+being drawn out or in. The stars thus appeared as two disks, of
+different sizes but equally bright, and the amount of light given by
+each was taken as proportionate to the area covered by its disk. The
+same Dr. Zollner who has lately become so conspicuous in " spiritualist "
+investigations, invented a much more convenient style of photometer,
+with which he made some interesting researches into the comparative
+light of the planets. Other astronomers, European and American,
+have also used it. With one of these instruments, belonging to the
+observatory of Harvard University, Mr. Peirce finished, a few years
+ago, perhaps the most extensive and methodical photometric work that

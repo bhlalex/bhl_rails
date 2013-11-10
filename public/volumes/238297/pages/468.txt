@@ -1,0 +1,25 @@
+442
+THE PRINCIPLES OF SCIENCE.
+hypothesis of one thousand distinct causes f ; but mathe-
+maticians have generally proceeded on the hypothesis of
+infinity, and then, by some of the beautiful devices of
+analysis, have substituted a general law of easy treatment.
+In mathematical works upon the subject, it is shown that
+the standard Law of Error is expressed in the formula
+y=Y<-" \
+in which x is the amount of the error, Y the maximum
+ordinate of the curve of error, arid c a number constant
+for each series of observations, and expressing the general
+amount of the tendency to error, but varying between
+one series of observations and another, while e is the
+peculiar constant, 2*71828 the base of the Naperian
+logarithms. To show the close correspondence of this
+general law with the special law which might be derived
+from the supposition of any moderate number of causes
+of error, I have in the accompanying figure drawn a
+-3 -I -2
+curved line representing accurately the variation of y
+when x in the above formula is taken equal to o, ^, i, |, 2,
+&c., positive or negative, the arbitrary quantities Y and c
+f * Letters on the Theory of Probabilities/ Letter XV. and Appendix,
+note pp. 256-266.

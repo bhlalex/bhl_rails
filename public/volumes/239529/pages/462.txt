@@ -1,0 +1,44 @@
+693
+more quickly. The instruments are however sufficiently rapid to
+be also serviceable in case of more quickly crystallizing substances,
+though the accuracy will then, of course, be less.
+2. Salol can be supercooled very easily. Spontaneous crys-
+tallisation, without solid substance being purposely added to the
+supercooled liquid, can be almost entirely excluded. The spontaneous
+setting in of crystallisation only becomes troublesome with very
+strong supercooling (more than 40°). This is, however, only the
+case when the substance is kept sufficiently dry. A slight quantity
+of water immediately causes the formation of "seeds" of the solid
+substance in different parts of the liquid. Observation is rendered
+impossible by this.
+3. The melting-point of salol is very conveniently situated (42° C),
+so that the observations can be made in the neighbourhood of
+room temperature.
+The observation is now carried out in the following way. The
+crystallisation is started on the upper side *) of the liquid, which
+is in one leg of a £7-shaped tube, by the introduction of a small
+quantity of the solid substance. For this purpose the tube is placed
+in a well-stirred thermostat tilled with water. In this way the joints
+of the extremities of the thermo-element and the copper wires con-
+ducting the current to the galvanometer, are kept at the constant
+temperature of the water in the thermostat. Accordingly the galva-
+nometer indicates the difference of temperature of the joint in the
+axis of the cylindrical tube and the thermostat. The deflection of
+the galvanometer was photographically registered, so that the regis-
+tered curve enables us to see and measure at a glance how the
+temperature has changed at a definite point of the axis in course
+of time.
+The curve obtained, has however, still another meaning. During
+solidification, the boundary plane of the solid and the liquid
+phase moves with constant velocity and retains its form. This ren-
+ders it probable, that the distribution of the temperature in the solid
+substance and in the liquid will also move unchanged with this
+velocity. A theory of the process of solidification confirms this sup-
+position *). The temperature which is registered at a definite point as
+l ) To avoid convection currents in the liquid, the crystallisation must proceed
+from above downward, and not inversely. The liquid has, indeed, the highest
+temperature at the surface of the solid phase, where the heat of fusion is liberated.
+If the hottest place of the liquid is at the top, convection currents through diffe-
+rence of temperature cannot occur.
+») H. G. Burger, These Proc. XXIII 1920, p. 616, further cited as loc. cit.
+45*

@@ -1,0 +1,43 @@
+680
+NaCI etc. (he difficulty with regard to the valence would disappear,
+but then there would be no atoms, but ions, in the lattice points,
+and a chemical binding would not occur. Accordingly, the
+replacement of the atoms by ions in Bragg's image would already
+be an important modification for the said substances in the right
+direction.
+Of late Debije 1 ) has published results that seem to prove that
+this is really the case with LiF.
+It is hardly necessary to observe that for all other compounds,
+which are built up of more than two elements, and yield compound
+ions, the valency must find expression, because also on complete
+dissociation in the solid state this compound ion must be present as
+a group. But also for a compound composed of two elements, as
+Hgl,, the assumption of complete dissociation into ions cannot lead
+to a solution, because this does not account for the existence of
+internal equilibria.
+I will, however, not continue this train of reasoning any further
+here; it only served to call attention once more to the fact that
+from a chemical point of view, the action of the valency in the
+solid substance cannot be disregarded; hence it is clear that it is
+desirable to find other methods which may teach us something about
+the internal condition of the crystallized substance.
+Some years ago I had already formed the plan to examine whether
+Nernst's law of partition is valid for the coexistence of a mixed
+crystal phase with a solution.
+It is clear that Nernst's law of partition can only be valid for
+this case, when the ordinary thermodynamic considerations, which
+lead to this law in equilibria between a gas and a liquid phase or
+between two liquid phases, may also be applied to the solid sub-
+stance. This is the fundamental question !
+Van 'tHoff 3 ), who was the first to point out in 1890 that there
+are states which may be designated by the name of solid solutions,
+embraced the opinion that the theory of diluted liquid solutions
+might be applied to these states.
+Bakhuis Roozeboom 3 ), who started his important experimental
+researches on mixed crystals a year later, practically treated the
+mixed crystals thermodynamically already in the same way as the
+liquid solutions had been treated, and it might be said that the
+ex fieri ment has justified this procedure, as the derived types were
+!) Phys. Zeitschr. 19, 474 (1918).
+«) Z. f. Physik, Chem. 5, 322 (1890).
+3 ) Z. f. Physik. Chem. 8, 504 (1891).

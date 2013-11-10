@@ -1,0 +1,47 @@
+THE SUNS HEAT. z 5
+cent for one per cent change of the radius). Thus the rule, easily-
+worked out according to the principles illustrated by our mechanical
+model, is this :
+Equal differences of the reciprocal of the radius correspond to
+equal quantities of heat radiated away from million of years to million
+of years.
+Take two examples :
+1. If in past time there has been as much as fifteen million times
+the heat radiated from the sun as is at present radiated out in one year,
+the solar radius must have been four times as great as at present.
+2. If the suns effective thermal capacity can be maintained by
+shrinkage till twenty million times the present years amount of heat
+is radiated away, the suns radius must be half what it is now. But it
+is to be remarked that the density which this would imply, being 11*2
+times the density of water, or just about the density of lead, is proba-
+bly too great to allow the free shrinkage as of a cooling gas to be still
+continued without obstruction through overcrowding of the molecules.
+It seems, therefore, most probable that we can not for the future reck-
+on on more of solar radiation than, if so much as, twenty million times
+the amount at present radiated out in a year. It is also to be remarked
+that the greatly diminished radiating surface, at a much lower temper-
+ature, would give out annually much less heat than the sun in his pres-
+ent condition gives. The same considerations led Newcomb to the
+conclusion that it is hardly likely that the sun can continue to give
+sufficient heat to support life on the earth (such life as we now are
+acquainted with, at least) for ten million years from the present
+time.
+In all our calculations hitherto we have for simplicity taken the
+density as uniform throughout, and equal to the true mean density of
+the sun, being about 1*4 time the density of water, or about a fourth
+of the earths mean density. In reality the density in the upper parts
+of the suns mass must be something less than this, and something con-
+siderably more than this in the central parts, because of the pressure
+in the interior increasing to something enormously great at the center.
+If we knew the distribution of interior density, we could easily modify
+our calculations accordingly ; but it does not seem probable that the
+correction could, with any probable assumption as to the greatness of
+the density throughout a considerable proportion of the suns interior,
+add more than a few million years to the past of solar heat, and what
+could be added to the past must be taken from the future.
+In our calculations we have taken Pouillets number for the total
+activity of solar radiation, which practically agrees with Herschels.
+Forbes* showed the necessity for correcting the mode of allowing for
+atmospheric absorption used by his two predecessors in estimating the
+total amount of solar radiation, and he was thus led to a number 1*6
+* Edinburgh New Philosophical Journal, vol. xxxvi, 1S44.

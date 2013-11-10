@@ -1,0 +1,36 @@
+UNITS AND STANDARDS OF MEASUREMENT. 379
+equivalent of heat, we know that the assumed unit of
+heat is equal to the energy of 423*55 gramme -metres,
+or that energy which will raise the mass of 423*55
+grammes through one metre against 9*80868 absolute
+units of force. Heat may also be expressed in terms of
+the quantity of ice at o Cent., which it is capable of con-
+verting into water under an inappreciable pressure.
+The science of electricity has lately become so much a
+matter of quantity, that it is necessary to have some
+means of accurate expression. When we know exactly
+the mechanical equivalent of electricity, we can express
+quantities of electricity in terms of energy, but in the
+meantime we need some easy available unit. The British
+Association accordingly have selected as the unit of
+electrical force that which can just overcome the resistance
+offered by a piece of pure silver wire i metre in length,
+and i millemetre in diameter. This unit must be re-
+garded as merely a convenient provision for working
+purposes, to be employed for the easy expression of
+quantities not yet brought into precise relation with the
+ultimate standards of time, space, and mass. There may
+also be other provisionally independent units employed
+in electrical science, such as the voltametric unit of cur-
+rent strength, namely, that current which by decomposing
+water produces one cubic centimetre of detonating gas at
+o Cent, and 7 60 mm. of pressure in one minute. The unit
+of electrical quantity, again, is that quantity which when
+concentrated in a point and acting on an equal quantity
+also concentrated in a point at a unit of distance, exerts
+a repulsion equal to the unit of force. There must also
+be a unit of electro-magnetic force. All these electrical
+units must, however, be definitely related to each other,
+and to the fundamental units, and it is a matter for
+continual investigation to determine such relations more
+and more accurately.

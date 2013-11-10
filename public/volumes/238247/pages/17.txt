@@ -1,0 +1,45 @@
+350 PHYTOLOGIA November 1997 volume 83(5):345-365
+There were several sets of duplicate specimens among those scored. These were
+deliberately kept in the analyses so as to provide a biological basis for evaluating the
+results of the numerical analyses.
+The 19 characters scored included those mentioned by previous taxonomists as
+distinguishing the two taxa, plus some that ray initial studies suggested might be of
+taxonomic vSue. Characters not available on a specimen were scored as missing.
+Only the continuous characters and floret number were used in the numerical analyses.
+The other characters were used to evaluate the groups suggested by these analyses and
+to assist in identifying specimens not included in the numerical analyses. Of the 148
+specimens scored, 126 had data for aU characters except floret number; 122 could be
+scored for all characters.
+Four numerical procedures were used to explore the variation present: sequential
+agglomerative hierarchical nested cluster analysis (SAHN), principal component
+analysis (PCOMP), minimum spaiming tree (MST), and discriminant analysis (DA).
+Principal component analysis was conducted on the correlation matrix. For MST and
+SAHN, the data were standardized by subtracting the mean and dividing by the
+standard deviation. Taxonomic distance (Sneath & Sokal 1973) was used as the
+distance measure.
+Cluster analysis forces the OTUs into clusters. The taxonomic merit of these
+clusters can then be evaluated by examining whether they are supported by variation in
+characters not included in the analysis. Whenever feasible, different kinds of
+characters {e.g., cytological, molecular) should be used in evaluating the predictive
+power of the clusters. Time and financial constraints limited me to characters evident
+on herbarium specimens.
+Three clustering algorithms were employed: single linkage, complete linkage, and
+unweighted pair group mathematical average (UPGMA) (Sneath & Sokal 1973). Only
+UPGMA consistently placed members of duplicate OTU sets within the same major
+cluster; consequently only UPGMA results are presented.
+Principal component analysis does not require the a priori assignment of OTUs to
+groups, but seeks to minimize the number of axes needed to portray the variation
+within a data set. It accompUshes this by constructing axes for a hyperdimensional
+space from linear combinations of the original data. The distribution of the OTUs
+along the first principal component (axis) accounts for as much of the variation in the
+original data set as possible, their distribution along the second principal component
+accounts for as much of the remaining variation as possible, with subsequent
+components doing the same for the ever-decreasing amount of variation left. The
+number of principal components needed to account for all the variation depends on the
+amount of correlation in the original data, fewer components being required if the data
+are highly correlated.
+Although principal component analysis does not identify groups among the data,
+OTUs with different character correlations will be concentrated in different portions of
+the principal component space. A set of OTUs with similar character correlations will
+form a "cloud" in the character space. The taxonomic merit of such a set can then be
+evaluated by determining whether it is supported by the pattern of variation in

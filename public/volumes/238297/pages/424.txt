@@ -1,0 +1,34 @@
+398 THE PRINCIPLES OF SCIENCE.
+of error are too fluctuating to allow of correction, so that
+the only accurate mode of procedure is that devised by
+Dr. Joule, of surrounding the thermometer with a copper
+cylinder ingeniously adjusted to the temperature of the
+air, as described by him, so that the effect of radiation
+shall be nullified .
+When the avoidance of error cannot be carried into
+effect, it will yet be desirable to reduce the absolute
+amount of the interfering error as much as possible before
+employing the succeeding methods to correct the result.
+As a general rule we can determine a quantity with less
+inaccuracy as it is smaller, so that if the error itself be
+small the error in determining that error will be of a still
+lower order of magnitude. But in some cases the absolute
+amount of an error is of no consequence, as in the index
+error of a divided circle, or the difference between a
+chronometer and astronomical time. Even the rate at
+which a clock gains or loses is a matter of little im-
+portance provided it remains constant, so that a sure
+calculation of its amount can be made.
+2. Differential Method.
+When we cannot avoid the entrance of error, we can
+often resort with great success to the second mode of
+measuring phenomena under such circumstances that the
+error shall remain nearly or quite the same in all the
+observations, and neutralize itself as regards the purposes
+in view. This mode is available whenever we want a
+difference between quantities and not the absolute
+quantity of either. The determination of the parallax
+of the fixed stars is exceedingly difficult, because the
+amount of parallax is far less than most of the corrections
+Clerk Maxwell, 'Theory of Heat,' p. 228. 'Proceedings of the
+Manchester Philosophical Society/ Nov. 26, 1867, vol. vii. p. 35.

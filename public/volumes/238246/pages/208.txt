@@ -1,0 +1,43 @@
+305
+In tlie table the most violet component is marked by — , the most
+red by -}-. In this case the splitting up is not = 2 cD-, as is given
+in the heading of the colnmn, bnt =z dX; does not mean that the
+line is at the place of the original unsplit one, bnt only that there
+is a component there.
+5. General results. When we compare the resnits in what
+|)recedes, it strikes us at once that though the general course of
+the results may be the same, (here yet occur a good many devia-
+tions, which amount to more than the given probable error. Further
+it occui-s occasionally that a quadruplet is mistaken for a triplet,
+which is not astonishing with the middle components of these often
+blurred lines, which ai-e so very close together. That something
+similar may be the case with other lines which are given as triplet,
+is not impossible.
+An agreement as Purvis gives between the quadruplets Pb 3740,
+Pb 2873, Sb 3723, Sb 3638, and possibly Sb 2668, Bi 2989, does
+not exist according to my measurements, except perhajis that between
+Sb 3638 and Bi 2989. When we examine whether there is perhaps
+some connection between the resolutions of the lines for which
+Kayskk and Rungk ^) find the known constant differences of frequency,
+it appears that there is no such coiinecfion. Van Lohuizen ') has given
+series in the spectra of tin and antimony. The correctness of this is,
+however, donbted by Saundkks ') and Arnot.ds *). 1 have now examined
+whether the laws of Preston were valid for these series. Of series
+I, which V. LoHUiZEN gives for the tin spectrum, I have found the
+resolutions (i.e. the values for dA : ;.'H, see table) 29,6 and 56,1 for
+the lines 3656 and 2785; in this series 2408 has a resolution smaller
+than 59. In series VII I find for the lines 380J , 2851, 2594,
+2483, 2422 successively the splittings up 40,5, 42,5, 44,7 (56 and
+46,8), 45,9. In this 2483 gives a quadruplet, the other lines give
+triplets. Series VIII: 3175 and 2483 give successively 69,7 (56 and
+46,8) as splitting up. Antimony. Series XIII : the lines 3268 and 2574
+have successively a resolution of 40,9 and 45. Series XIV: 3505
+has the splitting up 63,7 and 2719 has 51.5. Series XX : 3233, 2653,
+2478 have the resolutions 60,0, 63, 68,7.
+^) H. Kayser und C. Runge. Ueber die Spectra von Zinn, Blei, Arsen, Anlimon,
+Wismulh. Abhandl. Berl. Akad. 1S93; Wied. Ann., 52, 93, 1894.
+2) T. VAN LoHUiZRN. Bijdrage tot de kennis van lijnenspectra. Diss.. Amsterdam,
+1912.
+') F. A. Saunders. Astrophys. J., 36, 409.
+*i R. Arnolds. Das Bogen- und Funkenspectrum von Zinn (von A 7800— A 2069).
+Zs. f. wiss. Phot., 13, 325.

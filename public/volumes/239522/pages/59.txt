@@ -1,0 +1,41 @@
+64 BRIDGMAN.
+varies greatly over the pressure range of 12000 kgm. But in the case
+of the solids to be studied here, it seems reasonable to assume a con-
+siderably better approach to constancy of the three differences. For
+instance, the compressibility of a liquid such as water has decreased
+to I its initial value at 12000 kgm., whereas the compressibility of
+steel does not vary more than a fraction of one per cent over the
+same range. Steel is of course an extreme case, and the difference of
+compressibility may change much more than the compressil)ility,
+but in any event we would seem to be justified in presuming that Aoc
+for two solids is more constant than for a solid and a liquid. A dis-
+cussion of the above equation is of more \'alue here, therefore, than in
+the case of the melting curves. It will not pay to completely discuss
+all possible combinations of the constants. We will, however, show
+that the curve may take a great variety of shapes according to the
+relations between the constants, and that some of these shapes do not
+seem to exist in practise. We infer, therefore, that in practise the con-
+stants flo not assume all possible relations to each other; it will be our
+problem in the latter part of this paper to determine these constants,,
+and find within what relative range they are actually restricted.
+We notice in the first place that if Aa > 0, that is, if the high tempera-
+ture phase is more compressible, as it is in many cases, that the curve
+crosses the pressure axis twice. For we obtain immediately on put-
+2 Ac-
+ting T = To that p — po = "T — • This means that when the pressure
+has been increased sufRciently to squeeze the high temperature phase
+into a volimie as much smaller than the low temperature phase as it
+was originally larger, the two phases can coexist again in equilil)rium.
+This in itself indicates a rather unusual state of affairs; the only
+example found so far is //f/Zi- But the equation furthermore indicates
+that the curve may under proper conditions break up into two curves,
+the second pressure just found lying on the second curve. This would
+mean that the same phase may exist in two isolated regions of the
+phase diagram, the two regions of stability being separated by the
+region of stability of the second phase. Such cases, if they occur at
+all in practise, are extremely rare; the only suggestion of such a thing
+of which I know is concerning the modification of XHiNOs stable
+below —16°, made by Wallerant.^ This however has not been
+^•erified in a more recent very careful investigation by Behn,^ although
+2 F. Wallerant, Bull. soc. fr. min. 133-374 (1905).
+3 U. Behn, Proc. Roy. Soc. 80, 444-4.57 (1907-08).

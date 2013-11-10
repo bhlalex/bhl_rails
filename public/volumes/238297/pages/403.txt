@@ -1,0 +1,34 @@
+UNITS AND STANDARDS OF MEASUREMENT. 377
+quantities in terms of any unit which he likes to adopt.
+He may use the yard for linear measurement and the
+litre for cubic measurement, only there will then be a
+complicated relation between his different results. The
+system of derived units which we have been briefly con-
+sidering, is that which gives the most simple and natural
+relation between quantitative expressions of different
+kinds, and therefore conduces to ease of comprehension
+and saving of laborious calculation.
+Provisionally Independent Units.
+Ultimately, as we can hardly doubt, all phenomena
+will be recognised as so many manifestations of energy ;
+and, being expressed in terms of the unit of energy, will
+be referable to the primary units of space, time, and
+mass. To effect this reduction, however, in any particular
+case, we must not only be able to compare different
+quantities of the phenomenon, but to trace the whole
+series of steps by which it is connected with the primary
+notions. We can readily observe that the intensity of
+one source of light is greater than that of another ; and,
+knowing that the intensity of light decreases as the
+square of the distance, we can easily determine their
+comparative brilliance. Hence we can express the inten-
+sity of light falling upon any surface, if we have a unit
+in which to make the expression. Light is undoubtedly
+one form of energy, and the unit ought therefore to be
+the unit of energy. But at present it is quite impossible
+to say how much energy there is in any particular
+amount of light. The question then arises, Are we to
+defer the measurement of light until we can fully and
+accurately assign its relation to other forms of energy I
+If we answer Yes, it is equivalent to saying that the
+science of light must stand still perhaps for a generation ;

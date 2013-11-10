@@ -1,0 +1,35 @@
+THE ORDER OF PREMISES. 131
+The mechanical performance of logical inference affords
+a demonstration both of the truth of Boole's results and
+of the mistaken nature of his mode of deducing them.
+Conclusions which he could only obtain by pages of
+intricate calculation, are exhibited by the machine after
+one or two minutes of manipulation. And not only are
+those conclusions easily reached, but they are demon-
+stratively true, because every step of the process involves
+nothing more obscure that the Laws of Thought.
+The Order of Premises.
+Before quitting the subject of deductive reasoning, I
+may remark that the order in which the premises of
+an argument, or any propositions whatsoever, are placed,
+is a matter of logical indifference. Much discussion has
+taken place at various times concerning the arrangement
+of the premises of a syllogism ; and it has been generally
+held, in accordance with the opinion of Aristotle, that
+the so-called major premise, containing the major term,
+or the predicate of the conclusion, should stand first.
+This distinction however falls to the ground in our system,
+since the proposition is reduced to an identical form in
+which there is no distinction of subject and predicate.
+In a strictly logical and philosophic point of view the
+order of statement is wholly devoid of significance. The
+premises are simultaneously coexistent, and are not related
+to each other according to any of the properties of space
+or time. Just as the qualities of the same object are
+neither before nor after each other in nature (p. 40),
+and are only thought of in some one order owing to
+our limited capacity of mind, so the premises of an
+argument are neither before nor after each other, and
+are only thought of in succession because the mind can-
+not grasp many ideas at once. The logical combinations
+K 2

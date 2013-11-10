@@ -1,0 +1,26 @@
+TELEPHONE DIAPHRAGMS.
+447
+the double maximum amplitude of the luminous band, divided by the
+magnification factor, as found for the setting, should give the true
+maximum cyclic amplitude ,t^ of the diaphragm from its normal
+position of rest.
+The amplitude measurer is then removed from the receiver T, and a
+damping device is applied to the diaphragm. A corresponding series
+of simultaneous inductance and resistance measurements is then made
+over the same range of frequency as before, with the telephone dia-
+phragm damped, so as to suppress its vibrations. The application
+■of a finger to the center of the diaphragm will serve to damp out the
+vibrations; but this is not a satisfactory damping method; ])ecause,
+Fig. 13. — Method of Damping Telepho>k Diaphragm
+first, the pressure is not uniform during the period of testing, and
+secondly; because any pressure on the diaphragm, by diminishing the
+air-gap, alters, to some extent, the magnetic characteristics of the in-
+strument. A convenient form of damping device is indicated in Fig-
+ure 13. It virtually applies a relatively large mass to the diaphragm,
+without imposing any appreciable mechanical pressure; so that in-
+ertia is depended upon for extinguishing the vibration. The receiver
+is securely supported in a horizontal position. A small threaded
+metallic disk K, is attached, by means of shellac, to the center of the
+diaphragm. Thick shellac varnish appears to be a convenient material
+for cementing a load to the diaphragm. The cylindrical metallic
+mass M (4 cm. long and 2 cms. in diameter) is then connected mechani-

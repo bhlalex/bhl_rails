@@ -1,0 +1,36 @@
+160 THE PRINCIPLES OF SCIENCE.
+development. We may also have ' all A's are all B's,
+and all B's are C's,' r even 'all A's are all B's, and all
+B's are all CV All such premises admit of variations,
+greater or less in number, the logical distinctness of which
+can only be determined by trial in detail. Disjunctive
+propositions either singly or in pairs were also treated,
+but were often found to be equivalent to other propo-
+sitions of a simpler form ; thus A =. ABC -|- Kbc is exactly
+the same in meaning as AB = AC.
+This mode of exhaustive trial bears some analogy to
+that ancient mathematical process called the Sieve of
+Eratosthenes. Having taken a long series of the natural
+numbers, Eratosthenes is said to have calculated out in
+succession all the multiples of every number, and to have
+marked them off, so that at last the prime numbers alone
+remained, and the factors of every number were exhaus-
+tively discovered. My problem of 2 56 series of combinations
+is the logical analogue, the chief points of difference being
+that there is a limit to the number of cases, and that prime
+numbers have no analogue in logic, since every series of
+combinations corresponds to a law or group of conditions.
+But the analogy is perfect in the point that they are
+both inverse processes. There is no mode of ascertaining
+that a number is prime but by showing that it is not
+the product of any assignable factors. So there is no
+mode of ascertaining what laws are embodied in any
+series of combinations but trying exhaustively the laws
+which would give them. Just as the results of Erato-
+sthenes' method have been worked out to a great extent
+and registered in tables for the convenience of other
+mathematicians, I have endeavoured to work out the
+inverse logical problem to the utmost extent which is
+at present practicable or useful.
+I have thus found that there are altogether fifteen
+conditions or series of conditions which may govern

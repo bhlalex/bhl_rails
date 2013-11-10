@@ -1,0 +1,44 @@
+CHAPTERS ON THE STARS. 515
+From all these results it would seem that the most likely apex of the
+solar motion is toward the point in
+Eight Ascension, 280°
+Declination, 38° north.
+This point is situated in the constellation Lyra, about 2° from the
+first magnitude star Vega. The uncertainty of the result is more than
+this difference, four or five degrees at least. We may therefore state the
+conclusion in this form:
+The apex of the solar motion is in the general direction of the constella-
+tion Lyra, and probably very near the star Vega, the brightest of that con-
+stellation.
+It must be admitted that the wide difference between the position
+of the apex from large and from small proper motions, as found by
+Porter, Boss and Stumpe, require explanation. Since the apparent
+motions of the stars are less the greater their distance, these results, if
+accepted as real, would lead to the conclusion that the position of the
+solar apex derived from stars near to us was much further south than
+when derived from more distant stars. This again would indicate that
+our sun is one of a cluster or group of stars, having, in the general
+average, a different proper motion from the more distant stars. But
+this conclusion is not to be accepted as real until the subject has been
+more exhaustively investigated. The result may depend on the selec-
+tion of the stars; and there is, as yet, no general agreement among
+investigators as to the best way of making the determination.
+The next question which arises is that of the velocity of the solar
+motion. The data for this determination are more meagre and doubtful
+than those for the direction of the motion. The most obvious and
+direct method is to determine the parallactic motion of the stars of
+known parallax. Eegarding any star 90° from the apex of the solar
+motion as in a state of absolute rest, we have the obvious rule that the
+quotient of its parallactic motion during any period, say a century,
+divided by its parallax, gives the solar motion during that period, in
+units of the earth's distance from the sun. In fact, by a motion of the
+sun through one such unit, the star would have an apparent motion in
+the opposite direction equal to its annual parallax. If the star were not
+90° from the apex we can easily reduce its observed parallactic motion
+by dividing it by the sign of its actual distance from the apex.
+Since every star has, presumably, a proper motion of its own, we can
+draw no conclusion from the apparent motion of any one star, owing to
+the impossibility of distinguishing its actual from its parallactic motion.
+We should, therefore, base our conclusion on the mean result from a
+great number of stars, whose average position or center of mass we
+might assume to be at rest. Here we meet the difficulty that there are

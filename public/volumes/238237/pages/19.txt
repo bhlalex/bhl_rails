@@ -1,0 +1,26 @@
+12
+HAYES— DETECTION OF SUBMARINES.
+centered and noting whether this shifts the apparent direction to the
+right or to the left.
+The rule which is generally followed in determining the direc-
+tion of a sound by a rotating device operating on the binaural prin-
+ciple is as follows: If the sound appears to come from the right,
+rotate the receivers in a clockwise direction until the sound appears
+lO 7^
+Plate II. Methods for determining direction.
+to be centered. If the sound appears to come from the left, rotate
+the receivers in an anti-clockwise direction until the sound appears
+to be centered.
+A consideration of Fig. 3, Plate II., shows that this rule is gen-
+eral. Suppose the sound is coming from the direction of arrow i,
+it evidently strikes the right receiver first and would appear to the
+listener to come from his right. Rotating the receivers in a clock-
+wise direction will at first increase the length of time between the
+arrival of the sound at the two ears but a continuation of the rota-
+tion will decrease this time difiference in arrival until finally when
+sound appears binaurally centered the small arrow at the center of
+the line joining the two receivers will point in the direction of the
+sound. If the sound comes from the direction represented by arrow
+2, it is evident that a clockwise rotation would be employed and
+when the sound is binaurally centered the arrow will point its direc-
+tion. In case the sound is coming from the direction represented by

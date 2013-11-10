@@ -1,0 +1,42 @@
+722
+imperceptible; it amounts to 5 x 10 -6 times the force which the
+sun exercises on the earth. It deserves notice that this force is alto-
+gether independent of the assumed distance of the gas-cloud. It
+depends only on the amount of its absorption, and its apparent area
+in the sky. If this area is s square degrees, and the absorption s
+magnitudes, the formula of Rayleigh gives, in the above manner:
+Force = 10~ 7 s s X attraction of the sun on the earth.
+If the absorption is s' for photographic rays, (X = 440) then e = */» *
+is to be taken. If therefore in various directions and at various
+distances there are such absorbing gas-clouds in space round us,
+the total influence on our solar system can be calculated from their
+apparent area and absorption.
+For the time being we will consider only the influence proceeding
+from the Taurus gas-clouds. The perturbating forces are imperceptible
+also in the case of the most distant planets. But the force on the
+solar system as a whole is so immense, that (with a speed of J 9
+km., supposed about perpendicular on the force), it must move in
+a curved orbit with a radius of curvature of 4 X 10 5 astronomical
+units = 2 parsecs, and the direction of the apex in 3000 years
+must be modified 1° towards Taurus. Compared with the distance
+of 140 parsecs this slight radius of curvature indicates that our
+solar system must move in an elongated ellipse with excentrieity
+e9 / 70 around the gas-cloud, in a period of 2 a 3 million years, that
+at the present time it is nearly in the apocentre, and that in the
+pericentre it has practically to go through the gas-cloud. Something
+similar holds good for the Hyades, which run at a distance of about
+100 parsecs from the gas-cloud, with a speed of 45 km. To run
+away and get free from the nebula in a hyperbolic orbit, their
+speed would have to exceed 270 km.; with their small speed
+however they are bound soon to precipitate towards the gas-cloud.
+Such a huge mass as calculated above, would render it a central
+body dominating all movements in this part of the universe, over
+many hundreds of parsecs. The speed of the stars would be enormous
+in the vicinity of the gas cloud; especially in the direction of Taurus
+therefore, we should observe great proper motions, far exceeding
+the usual values.
+Also without the assumption of such a great attracting mass, the
+proper motions in the regions of absorption must be above the
+normal, because for a certain magnitude (on account of the dropping-
+off of stars behind the absorbing screen) the average distance there
+is smaller than elsewhere. Making use of the formulae of the previous

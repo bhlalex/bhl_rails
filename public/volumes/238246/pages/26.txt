@@ -1,0 +1,39 @@
+J9
+ansiuered by the theorem of Pincherle, at least not in a simple
+manner, as will appear from what follows. In order to investigate
+the question we should commence to deduce the series (2) from
+the given function a)(.(;). Next we should examine whether the func-
+tion (f{t) represented b}' it has the required properties: to be regular
+without the circle (1,1), and on the circumference of it of fuiite
+order. For this we should try to transform the above series into
+another according to negative integral powers of t — 1
+cc
+The relation between the coefficients of the two series is given
+bj the equations
+cn = to (« + 1) - r^ j to (n) + . . . + (-1)" to (1) = A" [Ui (1)] ') . (4)
+and
+co(n -f l) = c„ -f r^^'jc, + . . . +c„ . . . . (4')
+Bj- means of (4) we must see if the series (3) converges without
+the circle (1,1), and further if the characteristic /' of the coefficients
+Cn, defined by
+X' = K^'fll^, (5)
+H=oo I'Og n
+is not positive infinite; the latter being the condition that <f{t) shall
+be -of non-positive infinite order on the circle (1,1).
+But the relation (4) is rather intricate and so it may be very
+difficult, if not impossible, to perform the just mentioned research.
+Suppose this, however, possible, and let /.' differ from -}- oo. Then
+we have to examine whether the given function ay{x) is really the
+coefficientfunction of (f{t). For there are a great many functions ^{x)
+giving rise to the same generating function (f{t), viz. all those
+contained in the equation
+o (.^•) = CO (..) -f F (.v)
+where F (.v) is a function that vanishes for positive integral values
+of X. It is therefore necessary to consult the definition of the coef-
+ficient-function given by Pincherle and to apply it to the obtained
+</ {t) in order to see if the original function to {.v) is the result. But
+this is again not very easy. If the characteristic ).' defiued by (5)
+is less than — 1, then (p (t) is finite and continuous along the circum-
+1) This symbol denotes the «-th difTerence of o) (.r) at x = l, the increase Ax
+of the argument x being equal to unity.
+2*

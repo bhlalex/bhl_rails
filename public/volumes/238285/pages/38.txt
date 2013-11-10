@@ -1,0 +1,37 @@
+MICROSCOPIC LIFE IN THE AIR.
+37
+the only means of discovering the nature of the organisms, for char-
+acteristics deduced from their shape are of no significance. Most fre-
+quently they can be distinguished only by the fermentations they
+produce. Numerous experiments based on this principle will be re-
+quired for the exact determination of the bacteria in the atmosphere.
+In the present condition of the science, we have to limit ourselves to
+the general statistics of the Micrococci, Vibrios, Bacteria, Bacilli,
+and Cladothrices that live in the air, without undertaking to classify
+in any precise way all the beings comprehended under each of these
+denominations.
+The observations conducted at the Observatory of Montsouris show
+that there are on the average eighty bacteria in a cubic metre of air.
+The highest number was observed in the fall, the lowest in the winter.
+There were found fifty bacteria in December and January, only thirty-
+three in February, one hundred and five in May, fifty in June, and one
+hundred and seventy in October. The diagrams of daily observations
+N \Z^
+NWI08
+PARI 5;4
+i^ NE 152
+W 77
+E 130
+S W 58 ^
+SE 7^
+S kZ
+Fig. 8.— Influence of the Direction of the Wind on the Number of Aerial Microbes
+collected at montsoueis.
+show that the number of spores of these algae increases with the tem-
+perature. Inversely to what takes place in the case of the molds, the
+number of the schizophytes, small in rainy weather, rises when all the
+moisture has disappeared from the surface of the soil. The counter-
+action of moisture is stronger than the direct action of temperature ;
+and this fact accounts for the rarity of the bacteria after the great
+rains of February, April, and June. Still a long period of dry weather
+does not appear to be favorable to the development of the plants.

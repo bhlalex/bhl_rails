@@ -1,0 +1,45 @@
+386 POPULAR SCIENCE MONTHLY.
+This, however, was far from being the most difficult part of the enter-
+prise. The most arduous task of measuring the positions of a half-
+million of stars on the negatives, including the determining of the
+magnitude of each, was undertaken by Professor J. C. Kapetyn, of the
+University of Groningen, Holland, and brought to a successful com-
+pletion in the year 1899.
+What the work gives is, in the first place, the magnitude and ap-
+proximate position of every star photographed. The determining of
+the magnitude of a star is an important and delicate question. There
+is no difficulty in determining, from the diameter of the image of the
+star as seen in the microscope, what its photographic magnitude was
+at the time of the exposure, as compared with other stars on the same
+plate. But can we rely upon similar photographic magnitudes on a
+plate corresponding to similar brightnesses of the stars? In the opinion
+of Gill and Kapetyn we cannot. The transparency of the air varies
+from night to night, and on a very clear night the same star will give
+a stronger image than it will when the air is thick. Besides, slightly
+different instruments were used in the course of the work. For these
+reasons a scale of magnitude was determined on each plate by com-
+paring the photographic intensity of the images of a number of stars
+with the magnitudes as observed with the eye by various observers.
+Thus on each plate the magnitude was reduced to a visual scale.
+It does not follow from this that the magnitudes are visual, and not
+photographic. It is still true that a blue star will give a much stronger
+photographic image than a red star of equal visual brightness. In a
+general way, it may be said that the catalogue includes all the stars to
+very nearly the tenth magnitude, and on most of the plates stars of
+10.5 were included. In fact, now and then is found a star of the eleventh
+magnitude.
+A feature of the work which adds greatly to its value is a careful
+and exhaustive comparison of its results with previous catalogues of the
+stars. When a star is found in any other catalogue the latter is indi-
+cated. Most interesting is a complete list of catalogued stars which
+ought to be on the photographic negatives, but were not found there.
+Every such case was inexhaustibly investigated. Sometimes the star
+was variable, sometimes it was so red in color that it failed to impress
+itself on the plate, sometimes there were errors in the catalogue.
+The great enterprise of making a photographic map of the heavens
+now being carried on as an international enterprise, having its head-
+quarters at Paris, is yet wider in its scope than the works we have just
+described. One point of difference is that it is intended to include all
+the stars, however faint, that admit of being photographed with the
+instruments in use. The latter are constructed on a uniform plan, the
+aperture of each being 34 centimetres, or 13.4 inches, and the focal

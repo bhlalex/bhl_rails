@@ -1,0 +1,35 @@
+STEADILY ALTERNATING CURRENT ON A LONG LINE. 343
+at the crests of successive alternations. In such instances, the
+waves will change abruptly from one sinusoid to another of dif-
+ferent amplitude. The resulting waves may therefore appear to be
+distorted, or nonsinusoidal, until they are analyzed. An example
+of this kind is presented in Fig. 13 (Film No. loi). Here the full-
+length artificial line (1255 km.) is freed at the distant end, and the
+recording oscillographs of e.m.f. and current are connected to the
+line at the half-way point (627.5 km. from each end). It will be
+seen that the impressed e.m.f. eg is applied near an instant of zero
+voltage, and without perceptible splash. The voltage wave ^390 at
+the midlength point, commencing about 2 milliseconds later, rises
+also without splash, along an approximately sinusoidal curve. Just
+about the crest of this wave, the first reflection (positive) has had time
+to return from the distant free end. This reflected wave adds itself
+to the first arriving wave at the midway point, and so apparently
+distorts the wave form. These distortions can be noticed for several
+alternations in ^390, and are due almost wholly, if not entirely, to the
+superposition of new reflections. The same considerations apply
+to the current /'390 in the line, at the midway point. The electrical
+connections are indicated in Fig. 14. The first reflected wave of
+o 628 km _^ 6 26 km
+H @>-
+A ^1 B
+0=
+Fig. 14. Electrical Connections of Oscillograph and its Leak, half-way along
+the Artificial Line freed at B.
+current arriving at P, 4.3 milliseconds after the first arrival at P,
+is in the negative direction from the distant free end B, and so
+produces a more marked apparent distortion in ^90, than occurs in
+^39o> where the first reflection is positive. Similar distortions due
+to further incoming reflections are noticeable in the curve ^go for
+several alternations. At the end of the oscillogram, 125 milli-
+seconds from the start, the waves of ^390 and j'390 have very nearly
+attained their final steady and practically sinusoidal values.

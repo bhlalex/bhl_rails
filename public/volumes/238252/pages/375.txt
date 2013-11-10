@@ -1,0 +1,46 @@
+WHAT IS GROUP THEORY? 37 1
+any one of these permutations is repeated, or is followed by some other
+permutation in the totality, the result is equivalent to a single permu-
+tation in the totality. This property is characteristic; for if any set
+of distinct permutations possesses this property they form a permuta-
+tion group and it is possible to construct an infinite number of expres-
+sions such that they are unchanged by these permutations but by no
+others.
+Soon after the fundamental properties of permutation groups be-
+came known, it was observed that many other operations possess the
+same properties. This gradually led to more abstract definitions of
+the term group. According to the earliest of these any set of distinct
+operations such that no additional operation is obtained by repeating
+one of them or combining any two of them was called a group. All
+the later definitions included this property, but they generally add
+other conditions. These additional conditions are frequently satisfied
+by the nature of the operations which are under consideration and
+hence do not always require attention. This may account for the
+fact that the oldest definition is still very commonly met in text-books,
+notwithstanding the fact that the ablest writers on the subject aban-
+doned it a long time ago.
+The three additional conditions which a set of distinct operations
+must satisfy in order that it becomes a group when the operations
+are combined are: (1) The associative law must be satisfied; i. e., if
+r, s, t represent any three operations of the set, then the three suc-
+cessive operations rst must give the same result independently of the
+fact whether we replace rs or st by a single operation. The operations
+are, however, not generally commutative, that is, rs may be different
+from sr. (2) From each of the two equations rs=^ts, sr^=st it
+follows that r = t. (3) If the equation xy = z involves two opera-
+tions of the set the third element of the equation must also represent
+an operation in the set. It may be observed that the totality of
+integers combined by multiplication obey all these conditions except
+the last. Hence this totality does not form a group with respect to
+multiplication, although the contrary has frequently been affirmed.*
+One of the simplest instances of a group of operations is furnished
+by the n different numbers which satisfy the equation a;= 1. It is
+very easy to see that these numbers obey each of the four given condi-
+tions when they are combined by multiplication. Hence we say that
+the n roots of the equation a;= 1 form a group with respect to multi-
+plication. Since all these roots are powers of a single one of them
+* Among other places this error is found in the first edition of Webers
+classic work on algebra, vol. 2, p. 54. It has been corrected in the second
+edition of this work. Somewhat simpler definitions of the term group have
+recently been given by Huntington and Moore, Bulletin of the American Mathe-
+matical Society, vol. 8, p. 388.

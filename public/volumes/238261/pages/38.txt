@@ -1,0 +1,57 @@
+PEIRCE AND WILLSON. THERMAL CONDUCTIVITIES. 31
+12.
+—
+0.0160
+13.
++
+0.0062
+14.
+—
+0.0000
+15.
+—
+0.0024
+16.
++
+0.0026
+17.
+—
+0.0018
+18.
++
+0.0008
+19.
+—
+0.0000
+20.
+—
+0.0002
+and the temperature is 46°.48.
+If tlie radii of the slabs and the metal sheet had been infinite, the
+temperature in these media would have been given by the expressions
+Mz, M(fx c + 1 — fi), and M(z -\- ^\ (fi — 1)), respectively, where
+31= 100/(1.98 + .02 /x). In all practical cases the temperatures of
+points on the rim of the disk increase gradually from the cold face to the
+warm face, and it would be easy to show that those portions of the
+isothermal surfaces which we have used in computing the results of our
+observations are sensibly plane.
+The characteristic differential equation which gives the relation between
+tlie temperature, the space co-ordinates, and the time in a body in which
+there is an unsteady flow of heat, involves the specific heat of the body,
+which is itself a function of tlie temperatui-e. Without attempting just
+here to investigate the nearness of the approximation obtained in any
+given case by assuming the specific heat to be constant, we will give for
+future reference some numerical results obtained by using several differ-
+ent values of z, t, and c in the solution of Problem 3.
+An infinite homogeneous lamina of thickness I is originally at the
+temperature c Vq throughout. From a given time, < = 0, one face is
+kept at the constant temperature Fq, and the other face at the tempera-
+ture 0°. The ratio of the conductivity of the slab to its specific beat is to
+^be denoted by the constant d^, the ratio of /^ to a^ n"^ by T, and the
+distance of any point in the lamina from the face which is kept at the
+temperature Vq, by z.
+The numbers in Table VITI. show the rate of flow across the cold face
+of the lamina in fractional parts of the final rate for different values of
+c and t, while the numbers in Table IX. give the rate of flow across
+different planes parallel to the lamina faces at different times, for the
+special case c = I.

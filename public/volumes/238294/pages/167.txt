@@ -1,0 +1,39 @@
+( ^^^ )
+p. 30). The follo\viii<>' pages niav show tliat there is also a quanti-
+tative agreement between the phenomena and that theory.
+§ 2. In the mixture with the molecular proportion 0.1047 of
+oxygen the meniscus b}^ increasing the volume at 21°. 86 C. appeared
+at the top of the tube, at 21°. 94 C. it was formed at the mark
+44.99 (stirrer below, mercury meniscus at 41.66); at 22M7 C. the
+meniscus appeared at the bottom of the tube, at 22°. 09^ C. it was
+formed at the mark 43.93 (stirrer below, mercury meniscus at 41.57).
+The top of the tube was at the mark 47.40 (cm).
+In the mixture of the molecular proportion 0.1994 the meniscus
+appeared at 13°.12 C. at the bottom of the tube, at J3°.07 C. it
+appeared at the mark 38.5 (stirrer above, mercury meniscus at 37.4);
+at 11°. 89 C. the meniscus appeared at the top of the tube, at 11°. 92 C.
+it appeared at 42.3 (stirrer below, mercury meniscus at 37.7). The
+top of the tube was at the mark 42.97. We may assume that for this
+mixture the limits between which the meniscus appears in the tube
+are: 13M0 C. and 11°.90 C.
+In these observations the volume from the homogeneous state was
+increased by small variations; in this case the meniscus even without
+stirring appears quickly at its definite place, which is not altered
+by stirring. If on the contrary we start from the state where separation
+into two phases occurs and the volume is decreased, the meniscus
+only disappears after stirring and then suddenly ; hence it seems
+that in the former case the equilibrium is established much sooner ^).
+§ 3. In order to be able to compare the observations discussed
+above with theory, I have found what may be deduced for it if
+,v is supposed very small. It may be easily derived from conside-
+rations of VAN DER Waals (Contin. II, p. 30 IT.) that the phases
+which are in ccpiilibrium are determined by the following pair of
+equations :
+(1)
+Here if' is the free energy for the molecular (piautily of the mixture,
+V the molecular volume in cc, M^ the molecular weight of the
+substance of which the quantity in the mixture is indicated by o)
+1) Compare with this wlial has been remarked in this Comm IV p. 574 about
+the circumstanre that tlie equihbriuni was not innnedialely reached after the
+heating of carbon dioxide at the critical point. Gomj). also Gouy, G. R. t. 116,
+p. 1291 and Maïhias, Le Point critique des corps purs, }>. 81).

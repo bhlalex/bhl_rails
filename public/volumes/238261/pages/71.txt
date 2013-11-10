@@ -1,0 +1,131 @@
+92
+PROCEEDINGS OP THE AMERICAN ACADEMY.
+different concentration ; (3) solid cadmium electrode opposed to cadmium
+amalgam ; (4) solid zinc electrode opposed to zinc amalgam.
+Class 1.
+Table I. gives the values found for the electromotive forces of cells
+with electrodes of cadmium amalgams of different concentration. The
+lower extremity of each arm of the H tube was filled with amalgam to
+a depth of two or three centimeters, so that a fairly large volume might
+be present. Measurements were made at such temperatures that the
+amalgams were wholly liquid, for their partial solidification is an insidious
+cause of error capable of producing serious results, especially in this
+case of cadmium. The three per cent amalgam begins to freeze at about
+0°, becoming wholly solid at a slightly lower temperature (about — 3°) ;
+while the nine per cent amalgam is not wholly liquid until 45° is reached.
+For this reason measurements 10 in Table I. had to be made at high
+temperatures. Normal cadmic sulphate was the electrolyte.
+TABLE T. Cadmidm Amalgams.
+fi
+<-j
+t
+E (Obs.)
+.E(Calc)
+E
+T
+1
+.V
+^T
+3
+30
+.01470
+.0143
+.0000485
+2
+i
+i7
+3
+30
+.01470
+.0143
+.0000485
+3
+1
+3
+h
+3
+30
+.01460
+.0143
+.0000482
+.01320
+.0129
+.0000483
+4
+i
+1
+a
+3
+30
+.01445
+.0143
+.0000477
+.01303
+.0129
+.0000477
+5
+1
+1
+3
+3
+30
+.01460
+.0143
+.0000482
+.01313
+.0129
+.0000481
+6
+1
+i
+3
+30
+.01450
+.0143
+.0000479
+.01313
+.0129
+.0000481
+7
+1
+1
+3
+8
+30
+.014.50
+.0143
+.0000479
+.01306
+.0129
+.0000478
+8
+1
+1
+3
+30
+.014.50
+.0143
+.0000479
+.01306
+.0129
+.0000478
+9
+3
+1
+3
+30
+.01470
+.0143
+.0000485
+10
+9
+3
+3
+72
+.01993
+.0163
+.0000578
+60
+.01915
+.0157
+.0000575

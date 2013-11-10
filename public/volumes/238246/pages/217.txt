@@ -1,0 +1,53 @@
+316
+from t^u to t=:(X, and one from / = x to /=:= 0. The latter gives
+an amount wliicli is independent of n, and this amount gives zero
+for the ifinal integration. Therefore, after ciianging the letters u and t,
+we may write for the preceding expression
+(u—tY-^ri^)
+2m J Lr(«)J ("—!)'
+(l.l) '
+dn
+dt,
+and this, if we take (2) and (5) into account, is just equal to the
+first member of (7). The latter equation thus has been proved in
+case g <^ Ü.
+If g>0 and, to begin with, 0<g<^l, Pincherle defines the
+coeflicientfunction of (/> (t) by means of an auxiliary function
+(n + 1) («— l)«+i
+(8)
+The order of ^,(0 is lower by unity than that of rf{t) and thus
+negative, so that w, {.r) = I (f, {t) is defined by (2). By (4) we have
+Jqit) = -I{t-\) <f\(t) = xlif, (t) - ^>- 1 xlif, (t), . . (9)
+if & be the operation defined by 6 f{x) =zf {,r -{- ^). If we denote
+1
+by WrAt) the result of the operation {a) =z {— ly 0-=" —
+•^ (t— ly
+applied to (p (t), and by (fir,{t), the result of the operation
+1
+(1) =: — D-^ , applied to ffdt), we derive from the preceding
+equation
+Iff, ■= wifpi, - <9-i lvl(fu] (10)
+Now, the operation («) is commutative, as will appear in the
+simplest manner from the expansion (6). Hence (fi^ :^q^i, if by
+the latter expression the result is denoted, which is obtained, if
+first the operation (1) and then («) is applied. But ff^ (t) is a
+function for which the equality (7) has already been proved; if this
+is taken into account, we may infer from (10), using the identity
+r(!/-fl) = y r{y),
+l<fa =
+r(..)
+r(.^-h«)
+xl
+{t-\Y
+[x-^ a — \)I
+Using again the relation (9) we may write
+X I -
+t-cp,
+(.r-l)i
+t--Uf,
+{t-\Y ^ ' {t-\y
+Further, in connection with (8)
+{t-l)D
+{t-irj
+(11)
+(12)

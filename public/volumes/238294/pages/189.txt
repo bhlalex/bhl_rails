@@ -1,0 +1,40 @@
+( B22 )
+passing e times tlirougli oacli of the imaginary circle points at in finity.
+Let the plane curve be of order (x, of class v and let t represent
+the number of its inflectional points. Then the singularities of the
+evolute or of the cuspidal curve of its focal developable are the following :
+rank, r = 2 (ft -f p — 2? — ^)
+class, m=i 2v
+number of stationary planes, « = 2t
+double osculating planes, G =z v^ — v — ft — 3c -f 3ö* -j- 2f — ö
+stationary tangents, v =
+double points, H = 3 (ft — r) -\- i
+double tangents, to =
+order, w = 2 (3 ft -f t — Ce — 3(j)
+stationar}^ points /? = 2 (6ft — 2v -\- 3i — Vie — 6<7)
+stationai-y points not at infinity and not in the i)lane of the curve
+/3' = 2 (5ft — 3r H- 3t — 8f= — 3ö)
+order of the nodal curve x = 2 (ft + i')" ~ I'^f* ~ 2" — 3t — 8ftf
+— 4ftö — 8rf — 4r<7 + 8f ••' + 88(7 -f 2ö'
++ 20g -f lOrr.
+The chief singularities of the focal cur^■e are :
+order, n = 2fi^ -f 4ftr -\- v"' — 1 1ft — v — 3t — 8ft8 — 4ftö — Srs — 2rij
+-f 8f^ -f 8g(7 + Ö*' +20f + 9o'
+rank, r = 4fir + r' — 4ft — Av — "eve — Ira — 3ö' -f- 8g + 5(j
+number of stationary tangents, v =
+class, m = 6fx' + G.ar -f- 4ftt -[- 2rt — 3Gft — 12r — 18t — 24ftg
+_ 6ftö — 12re — Avö — 8tf — 2t(J + 24g- + 12eo' — 80'
+4- 606 + 28 Ö
+number of stationary points j? = 2 (3fx + t) (2ft -f r) — 57ft + 21y
+— 27t — 48fte — 18fi(j — 12r8 — Ava
+— 8t8 — 2tö + 48€^ + 366Ö + 4j'
++ 36ga + 96e -f 40(T.
+Mathematics. — "(>/i /A^^ pos/tioii of the three pohits which a
+tiristed curve has in coniinon tntth its osculating lüane.'' By
+Dr. W. A. Versluys. (Communicated by Prof. P. H. Schoute.)
+(Communicated in the meeting of January 30, 1904).
+§ 1. Let d be the section of the osculating plane V in a point
+r of the twisted curve C with the developable of which C is the
+cuspidal curve; then the twisted cui've C and the section d have in
+the point P only two points in common, that is they have in
+P a contact of the first order.

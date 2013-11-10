@@ -1,0 +1,36 @@
+PHILOSOPHY OF INDUCTIVE INFERENCE. 269
+absolutely certain, and are either exactly true or capable
+of being carried to any required degree of approximation.
+In a perfect triangle, the angles must be equal to one half-
+revolution precisely ; even an infinitesimal divergence
+would be impossible ; and I believe with equal confidence,
+that however many are the angles of a figure, provided
+there are no re-entrant angles, the sum of the angles will
+be precisely and absolutely equal to twice as many right-
+angles as the figure has sides, less by four right-angles.
+In such cases, the deductive proof is absolute and com-
+plete ; empirical verification can at the most guard against
+accidental oversights.
+There is a second class of geometrical truths which can
+only be proved by approximation ; but, as the mind sees
+no reason why that approximation should not always go
+on, we arrive at complete conviction. We thus learn that
+the surface of a sphere is equal exactly to two-thirds of
+the whole surface of the circumscribing cylinder, or to four
+times the area of the generating circle. The area of a
+parabola is exactly two-thirds of that of the circumscribing
+parallelogram. The area of the cycloid is exactly three
+times that of the generating circle. These are truths that
+we could never ascertain, nor even verify by observation ;
+for any finite amount of difference, vastly less than what
+the senses can discern, would falsify them. There are
+again geometrical relations which we cannot assign ex-
+actly, but can carry to any desirable degree of approxi-
+mation. Thus, the ratio of the circumference to the
+diameter of a circle is that of 3* 141 59265358979323846
+to i, and the approximation may be carried to any ex-
+tent by the expenditure of sufficient labour, as many as 607
+places of figures having been calculated. 11 Some years since,
+I amused myself by trying how near I could get to this
+ratio, by the careful use of compasses, and I did not come
+" ' English Cyclopaedia/ art. Tables.

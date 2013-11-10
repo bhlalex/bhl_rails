@@ -1,0 +1,35 @@
+388 JACKSON.
+Theorem I. If a series of the form (8) converges uniformly throughout
+any interval
+(9) ^ .r < a-o,
+where < .To ^ tt, its sum must have continuous derivatives of all orders
+throughout the interval (9).
+Let xi and X2 be any two numbers subject to the inequalities < Xi
+< xi < xq. Since the series converges uniformly throughout the
+interval (9), it converges uniformly for
+(10) Xi^X< .To,
+and there must be a number G such that ^^
+(11) \anUn(x)\<G
+for all values of x in (10) and for all values of n.
+Now if n is sufficiently large, pn will be real, and the interval from
+I V3pn.ri to I VSpn.To will be of length greater than 2t, and so will
+contain at least one value of | V3p«.T whose sine is 1. That is, there
+will be one or more values of x in (10) for which the parenthesis in (7)
+takes on the value V3. Let x'n be such a value. Then un{x'n) is
+positive, and
+Since (11) must be satisfied when .r = x'n,
+\an\< GV'-^""^'.
+On the other hand, if k is any integer,
+f^Unix) = (-p„)^-(c-P"^ + co^+ie-"P"^ + co2*^+2e— ^'"'^),
+dx^
+and
+dx'
+k ^n (.V)
+^ 3p/ ei"""",
+for any value of x in (0, tt); we are assuming still that pn is real. If
+^ .r ^ xo, then
+d""
+<3Gp/ci''"^^^-^'),
+13 Of the assumed uniform convergence, only this consequence will be used;
+and the statement of the theorem might have been made correspondingly
+more general.

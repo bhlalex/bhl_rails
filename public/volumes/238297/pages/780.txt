@@ -1,0 +1,36 @@
+200 THE PRINCIPLES OF SCIENCE.
+geometric problems. It is true that Regiomontanus, Tar-
+taglia, Bombelli, and possibly other early algebraists, solved
+isolated geometrical problems by the aid of algebra, but
+particular numbers were always used, and no consciousness
+of a general method was displayed. Vieta in some degree
+anticipated the final discovery, and occasionally represented
+the roots of an equation geometrically, but it was reserved
+for Descartes to show, in the most general manner, that
+every equation may be represented by some curve or
+figure in space, and that every bend, point, cusp, or other
+peculiarity in the curve indicates some peculiarity in the
+values of the algebraic symbols. It is impossible to describe
+in any adequate manner the importance of this discovery.
+The advantage was twofold : algebra aided geometry, and
+geometry gave reciprocal aid to algebra. Curves such as
+the long described sections of the cone were found to
+correspond to quadratic equations of no great difficulty ;
+and it was impossible to manipulate the symbolic equa-
+tions without discovering properties of those all important
+curves. The way was thus opened for the algebraic treat-
+ment of motions and forces, without which Newton's
+' Principia ' could never have been worked out. Newton
+indeed was possessed by a strange and, to some extent,
+unfortunate infatuation in favour of the ancient geome-
+trical methods ; but it is weh 1 known that he employed
+symbolic methods to discover his profound truths, and he
+every now and then, by some accidental use of algebraic
+expressions, confessed its greater powers and generality.
+Geometry, on the other hand, gave the greatest assist-
+ance to algebra, by affording concrete representations of
+relations which would otherwise be too abstract for easy
+comprehension. A curve of no great complexity may
+give the whole history of the variations of value of a
+troublesome mathematical expression. As soon as we
+know, too, that every regular geometrical curve repre-

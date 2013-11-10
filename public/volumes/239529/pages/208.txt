@@ -1,0 +1,94 @@
+303
+Substance
+Concentration
+K| catalyst
+K! blank
+Oxalic acid
+1-2X10-3
+N
+29
+i»
+3X10- 4
+N
+0-56
+il
+3X10- 5
+N
+090
+Benzoic acid
+T2X10-3
+0-25
+H
+2X10 4
+058
+H
+5X10- 5
+083
+Cacodylic acid
+•02 N
+075
+»
+•01 N
+0-94
+Sodium benzoate
+1 x io-3
+019
+»
+07X10-3
+025
+i)
+1-5X10- 4
+070
+»
+iXio-5
+090
+Potassium oxalate
+1 x io-3
+N
+0-29
+n
+lXio- 4
+N
+080
+it
+2X10-5
+096
+Sodium salicylate
+1 X 10-3
+023
+«
+1-5X10- 4
+0-73
+ii
+1 x io-5
+95
+Sodium citrate
+1 x to- 3
+0-14
+M
+i x io- 5
+085
+Sodium acetate
+3X10-3
+073
+n
+lXio- 3
+085
+Sodium propionate
+3X10-3
+074
+n
+lXio- 3
+89
+Sodium butyrate
+3X10 3
+074
+»
+lXio- 3
+085
+erature coefficient is about 2 (between 25°— 40°) and it does not
+appreciably change in presence of bydroquinone (Dhar, Proc Akad
+Wet. Amsterdam 1919, 21, 1042). It has been found' that so long
+as about one third of the substance is oxidised, the unimolecular
+velocity coefficient remains practically constant, but as the oxidation
+proceeds further, the velocity coefficient increases rapidly, and hence

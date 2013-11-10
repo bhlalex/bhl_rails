@@ -1,0 +1,234 @@
+MILLER— PARALLAXES OF FIFTY STARS.
+87
+No. I. B.D. — 4°.62. Ho. 212 = 13 Ceti. (o'^ si'".!; — 4° 9'.)
+Mag. 5.24. /*^o''.0272; — o".oi8. Spectrum F.
+Ho. 212 is a triple star, the measures below refer to the close
+pair A B, which is a binary system with a period of 6.88 years. The
+combined image of the pair is sensibly round, and in the measures
+this image was bisected. It was measured in right ascension. Rus-
+sell found for this star a hypothetical parallax of + o".039. The
+brighter image, A, has been found to be a spectroscopic binary.
+Hour
+Time in
+Parallax
+Date.
+Angle.
+Obs.
+100 Days,
+Factor,
+Solution,
+Wt.,
+Res.,
+Meas-
+h. m.
+T.
+P.
+m.
+p.
+V. u
+redby
+Nov.
+17, 1915- ••
++0 8
+P.
+-6.25
+—0.66
++0.123
+I.O
++0.005
+P.
+Dec.
+4, 1915- ••
+I 2
+Ma.
+6.08
+.81
+•125
+•5
+.006
+P.
+Nov.
+19, I9I6...
++0 25
+M.
+—2.57
+—0.69
+•237
+•7
+—0.014
+P.
+Dec.
+10, 1916. . .
+42
+M.
+2.36
+.85
+.232
+1.0
+.006
+P.
+Aug.
+19, I9I7...
++0 15
+P.
++0.16
++0.62
+.309
+1.0
+—0.003
+P.
+Aug.
+25, 1917 ■■■
+50
+M.
+0.22
+•54
+.316
+.6
+.008
+P.
+Aug.
+27, 1917- ■■
+—I 15
+P.
+0.24
+•52
+.304
+1.0
++0.003
+P.
+Aug.
+27, I9I7...
+30
+P.
+0.24
+•52
+•303
+•7
+.004
+P.
+Nov.
+5, 1917...
+—0 12
+M.
++0.94
+—0.52
+•311
+•5
++0.004
+P.
+Nov.
+25, 1917...
++0 45
+M.
+1. 14
+•75
+.322
+•9
+—0.005
+P.
+Dec.
+22, 191 7...
+Ma.
+1. 41
+.89
+.316
+•5
++0.007
+P.
+Jan.
+I, 1918...
+I 10
+M.
+I-5I
+.90
+.318
+•5
+.008
+P.
+Aug.
+14, 1918...
++0 15
+Ma.
++376
++0.68
+.400
+•9
+0.000
+P.
+Aug.
+22, 1918...
+10
+D
+3.84
+.58
+•393
+•5
++0.008
+P.
+Aug.
+22, 1918..
+I 5
+D
+3.84
+•58
+,406
+.8
+—0.005
+P.
+Normal Equations:
++ II
+I 0000 c
+I.4I70/;
+L I.(
+D340 7r =
+= + 3.2417.
++ 103.5299
++ 13.0930 =
+--^-2
+.3872.
++ 5-
+1344 =
+'- +
+.0841.
+Solution : c ^ + o".296.
+/A= + 0".I2I ± o".002.
+TT = + o".048 ± o",oio.
+p. e. unit weight, ± o" .oig.
+Comparison Stars.
+No.
+2
+4
+7
+10
+12
+TT
+X.
++ 138.3
+263.4
+— 7I.I
+149-7
+271.0
+0.0
+Y.
+— 97-7
+51-9
++181.0
+61.5
+108.3
+0.0
+Dependence.
++0.326
+.197
+.019
+•234
+.224
+Diameter.
+0.47
+0.40
+0.45
+0.37
+0.50
+0.67
+B. D. No.
+—4° .62

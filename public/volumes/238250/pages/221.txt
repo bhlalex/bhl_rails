@@ -1,0 +1,46 @@
+33Q POPULAR SCIENCE MONTHLY
+recent origin, but the knowledge gained from it not only confirms the
+ideas formed to explain conduction in solutions, but has very widely
+extended and simplified them. The chief difference between electric
+conduction in solutions and conduction in gases arises from the large
+number of broken molecules or ions always present in solutions. These
+require only the presence of an electromotive force to start them march-
+ing, but a gas, in its natural or non-conducting state, contains very few
+ions, not enough to support even a very small current, and for this
+reason gases are insulators.
+In gases, however, there are many ways of making ions, X-rays,
+radium rays, rays of ultra-violet light on metals, combustion in flames,
+white-hot bodies of every sort will do it. But there is one method which
+depends on the violent collisions of ions with molecules which is so
+objective in its form I can not forbear attempting to describe it. It is
+also the method which leads us to cathode rays and much more.
+Imagine, then, a glass tube into each end of which a conducting rod
+carrying a small metal disc is sealed. These rods may at will be con-
+nected to the terminals of a battery. If while the tube is filled with a
+gas, in its non-conducting state, the battery be applied, the very few
+ions always present are set in motion, but the too frequent collisions in
+the swarm of neutral molecules which obstruct the way prevent the
+moving ions from attaining more than moderate speeds.
+By connecting the tube to an air pump as many as we like of the
+interfering molecules may be removed. As more and more gas is
+drawn out of the tube, the moving ions encounter fewer and fewer col-
+lisions and in consequence attain higher and higher speeds, as small
+shot might fall through a gradually dispersing swarm of bees poised in
+midair. The longer the pumping is kept up the greater the maximum
+speed of the ions becomes and the more violent are the collisions which
+do occur. When nearly all of the gas has been drawn out of the tube,
+a stage is reached where the encounters between flying ion and indif-
+ferent molecule become so violent that molecules are shattered and new
+ions produced, which in their turn work more destruction.
+When this stage is reached, the gas is a good conductor, but if the
+pumping be carried too far, a second stage appears in which the en-
+counters are too few to make enough new ions to support the current,
+and the gas finally ceases to conduct systematically. It is near the end
+of the conducting stage that the much-discussed cathode rays appear.
+They depart from the cathode or metal disc in the end of the tube con-
+nected to the negative side of the battery.
+The extraordinary resourcefulness, shown by the leading workers in
+this field of recent enquiry, in untangling the complex snarl of phe-
+nomena presented, marks a very great achievement. So inspiring from
+the human side as well as the physical has been this unequal contest of
+man with nature, of mind struggling against disorder, and so bravely

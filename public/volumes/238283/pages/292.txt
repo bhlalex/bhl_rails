@@ -1,0 +1,65 @@
+RICHARDS AND HEIMROD.
+THE IMPROVED VOLTAMETER.
+423
+pare the nitrite, we had recourse at first to a method used by Proust.*
+He has found that on boiling an argentic nitrate solution with finely di-
+vided silver, the nitrite is produced in quantity. In repeating this ex-
+periment, powdered silver reduced from purest silver chloride by the
+Stas method was boiled in a ten per cent argentic nitrate solution.
+Nitrite was indeed formed, but a very fine film of crystallized metallic
+silver was formed on the surface ; a complication which seemed to point
+towards the existence of a reaction similar to the solution of copper in
+cupric sulphate. But it was found that pure silver nitrite in neutral
+silver nitrate solution likewise deposits a fine silver mirror on exposure
+to the light; hence the silver in both cases must be supposed to result
+simply from the decomposition of the nitrite. The solution boiled with
+silver was filtered through a Gooch crucible, and after cooling was em-
+ployed in a voltameter with a porous cup. The solution containing the
+nitrite deposited 2.27945 grams of silver, while pure argentic nitrate in
+another standard voltameter deposited 2.27944 grams, a difference of
+only 0.01 milligram. (Exp. 15.)
+Evidently the nitrite present had no effect at the kathode ; and the
+liquid in an ordinary voltameter could hardly contain more nitrite than
+this solution which had been boiled with metallic silver. In order to
+pursue the matter further, however, we prepared silver nitrite from pure
+potassium nitrite and silver nitrate.f Pure potassic hydrate was neutral-
+ized with nitric acid ; the nitrate was re-crystallized and fused in a silver
+crucible, and the resulting mixture of nitrate aud nitrite was extracted
+TABLE IV.
+Standard vs. Voltameter with Solution Saturated with AgN02.
+No. of
+Experi-
+ment.
+Type of Voltameter
+containing Nitrite,
+Weight of
+Silver
+in Standard.
+Weight of
+Silver in Vol-
+tameter con-
+taining AgNOo.
+Difference.
+Percentage,
+Difference.
+16
+17
+Standard.
+Filter paper volt.
+gram.s.
+2.27944
+2..30276
+grams.
+2.28011
+2.30539
+milligrams.
+0.G7
+2.63
+per cent.
+0030
+0.114
+* .Journ. de Physique, March, 1806, 211 ; also Nicholson's Journal, 15 : 878.
+This reference has evidently been lost, since no text-book, including; Dam-
+mer, gives it, although all mention Proust's observation. After a long search
+through tlie journals published in Proust's days, the reference was rediscovered.
+t Victor Meyer, Liebig's Ann., 171, 23 (1874).

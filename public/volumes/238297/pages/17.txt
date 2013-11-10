@@ -1,0 +1,40 @@
+CONTENTS.
+SECTION PACK
+10. Illustrations of the Indirect Method . . 113
+1 1 . Fallacies analysed by the Indirect Method . . .117
+12. The Logical Abacus . . . . . .119
+13. The Logical Machine . . . . .123
+14. The Order of Premises . . . . .131
+15. The Equivalency of Propositions . . . .132
+16. The Nature of Inference . . . . .136
+CHAPTER VII.
+INDUCTION.
+1. Induction . . . . . . .139
+2. Induction an Inverse Operation . . . .140
+3. Induction of Simple Identities . . . .146
+4. Induction of Partial Identities . . . .149
+5. Complete Solution of the Inverse or Inductive Logical Pro-
+blem . . . . .154
+6. The Inverse Logical Problem involving Three Terms . 157
+7. Distinction between Perfect and Imperfect Induction _ . 164
+8. Transition from Perfect to Imperfect Induction . .168
+BOOK II.
+NUMBER, VARIETY, AND PROBABILITY.
+CHAPTER VIII.
+PRINCIPLES OF NUMBER.
+1. Principles of Number . . . . .172
+2. The Nature of Number . . . . .175
+3. Of Numerical Abstraction . . . . .177
+4. Concrete and Abstract Numbers . . . .178
+5. Analogy of Logical and Numerical Terms . . .180
+6. Principle of Mathematical Inference . . . .183
+7. Reasoning by Inequalities . . . . .186
+8. Arithmetical Reasoning . . . . .188
+9. Numerically Definite Reasoning . . . .190
+CHAPTER IX.
+THE VARIETY OF NATURE, OR THE DOCTRINE OF COMBINATIONS
+AND PERMUTATIONS.
+1. The Variety of Nature . . . . .195
+2. Distinction of Combinations and Permutations . . 200
+3. Calculation of Number of Combinations . . .204
+4. The Arithmetical Triangle . . . . .206

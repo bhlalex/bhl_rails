@@ -1,0 +1,43 @@
+545
+I have now detected that artificial extrapauses of the ventricle
+may be evoked in the frog's heart in quite another manner. Whereas
+in the method described above, the prolongation of the refractory
+stage of the ventricle was the decisive factor, the following method
+is based on a principle unknown as yet in the physiology of the
+heart: When we place the stimulating electrode in the auriculo-
+ventricular groove, we can evoke under certain circumstances (pro-
+longed refractory stage of the ventricle), by the administration of
+an extra-stimulus towards the close of the diastole of the ventricle,
+an extrapause of the ventricle, which is not preceded by an extra-
+systole of this chamber.
+In our experiments described above we had to give the extra-
+stimulus at the beginning of the systole to obtain the desired result.
+When the stimulus was given a little later a premature ventricular
+systole succeeded the extrasystole of the auricles.
+It is obvious, then, that when a stimulus at the end of the dias-
+tole of the ventricle produces the same effect, it cannot be explained
+in the same way. We shall therefore illustrate the latter experiment
+by some curves. In fig. 3 we see a reproduction of the suspension
+curves of a frog's heart after veratrin poisoning. (The heart was
+left in situ and the circulation of the blood was left intact; some
+drops of 1 9 /o sol. acetas veratrini, had been injected into the dorsal
+lymphsac about 10 minutes before). At the first upward deflection
+of the signal an opening induction shock was given. After this we
+see an auricular systole represented in the suspension curve, which
+is not followed by a systole of the ventricle. Just as in the experi-
+ments described above, an extrapause of the, ventricle follows after
+this auricular systole. At the next upward deflection the same expe-
+riment was repeated in the upper row of curves with the same
+result. Now when measuring the curve we find that the auricular
+systole, which appeared a short time after each of the two stimuli,
+follows after the commencement of the preceding auricular systole
+with an interval of a sinus period. We, therefore applied the extra-
+stimulus in the auriculo-ventricular groove a short time before the
+commencement of a normal periodic auricular systole. At that moment
+the ventricle was apparently still refractory, as there did not appear
+an extrasystole of the ventricle. The auricles, however, respond to
+the stimulus. The excitation now traverses the auricles from the
+auriculo-ventricular boundary in the direction of the sinus venosus.
+But simultaneously the periodic sinusimpulse traverses the auricles
+in an opposite direction. The two excitations meet and rebound. At
+that moment the auricular systole is accomplished under the influence

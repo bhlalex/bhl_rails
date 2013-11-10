@@ -1,0 +1,36 @@
+86 THE PRINCIPLES OF SCIENCE.
+The order of statement, in short, has no effect upon the
+meaning of an aggregate of alternatives, so that the Law
+of Commutativeness holds true of the disjunctive symbol.
+As we have admitted the possibility of joining as alter-
+natives terms which are not really different, the ques-
+tion arises, How shall we treat two or more alternatives
+when they are clearly shown to be the same \ If we
+have it asserted that P is Q or R, and it is afterwards
+proved that Q is but another name for R, the result is
+that P is either II or H. How shall we interpret such a
+statement \ What would be the meaning, for instance, of
+' wreath or anadem ' if, on referring to a dictionary, we
+found anadem described as a wreath ? I take it to be
+self-evident that the meaning would then become simply
+* wreath/ Accordingly we may affirm the general law
+A | A = A.
+Any number of identical alternatives may always be
+reduced to, and are logically equivalent to, any one of
+those alternatives. This is a law which distinguishes
+mathematical terms from logical terms, because it ob-
+viously does not apply to the former. I propose to call
+it the Law of Unity, because it must really be involved
+in any definition of a mathematical unit. This law is
+closely analogous to the Law of Simplicity, AA = A ; and
+the nature of the connection is worthy of attention.
+I am not aware that logicians have in any adequate way
+noticed the close relation between combined and dis-
+junctive terms, namely that every disjunctive term is the
+negative of a corresponding combined term, and vice versd.
+Consider the term
+Malleable dense metal.
+How shall we describe the class of things which are not
+malleable-dense-metals ? Whatever is included under that
+term must have all the qualities of malleability, denseness,
+and metallic nature. Wherever any one or more of the

@@ -1,0 +1,25 @@
+PEIRCE AND WILLSON. — TIIKRMAL CONDUCTIVITIES.
+37
+and flows back into the retort through the trap h. This apparatus takes
+slabs 35 centimeters square. Although we found it possible to maintain
+with this arrangement a temperature above 350° C, for many hours at a
+time, it was difficult to avoid superheating by conduction through the
+massive iron of the hot box, and we intend to discard mercury in future
+and use some less troublesome source of heat. If a substance of greater
+heat of vaporization than mercury is employed, the retort can be removed
+to such a distance that all danger of superheating is removed. We have
+not yet been al)le to test au electrical stove which we hope may prove
+to be a convenient and a sufficiently constant source of heat for many
+purposes.
+Figure 7.
+The apparatus just described has been furnished with trunnions so that
+the axis of the prism can be made horizontal or vertical at pleasure.
+This renders it possible to use a layer of mercury on each side of the
+slab to be tested, when this is desirable.
+Our third apparatus of this kind is made entirely of brass. It is in-
+tended only for small thin plates about 20 cm. in diameter, but is in
+essentials like the apparatus just described.
+Figure 8 represents the apparatus which we have used to determine
+the absolute conductivities at temperatures between 0° C. and 100° C. of
+various materials. The boilers and the hot chamber are those of the
+apparatus shown in Figure 6; the ice box, which is the outcome of

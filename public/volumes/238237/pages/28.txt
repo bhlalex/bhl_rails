@@ -1,0 +1,30 @@
+HAYES— DETECTION OF SUBMARINES.
+23
+before the boat can get under way. Plate VIII. a shows one form
+of the C-Tube developed at Nahant. (See page 30.)
+The " S'Spot" detector operates on the principle of binaural
+compensation and was developed soon after this principle was estab-
+lished at the Naval Experimental Station. An improved type of
+microphonic submarine receiver called a " rat " was developed which
+proved highly sensitive, non-resonant, and durable. The construc-
+tion is shown in Plate VIII. h. The microphone is carried by a rubber
+diaphragm which encloses a water-tight space housing the micro-
+Plate VIII. b. The microphone housing or " rat," developed by the General
+Electric Company for "3-Spot" detectors.
+phone. The leads to the microphone pass through a water-tight
+stitffing-box at the end of the cylindrical shaped chamber opposite to
+the diaphragm. Three of these receivers are fixed in position at the
+vertices of an equilateral triangle four feet on a side. One lead
+from each microphone attaches to a common lead into which a bat-
+tery is connected in series. The other three leads, one from each re-
+ceiver, pass through small inductance coils and thence to the com-
+mon. A special type of telephone receiver connected in series with
+a condenser is shunted across the inductance. This wiring scheme
+is shown in Fig. i, Plate IX. Figs. 2 and 3 show other schemes used
+for connecting in the telephone which are employed in devices de-
+veloped at the Naval Experimental Station.
+The two telephone receivers are attached respectively to the two
+inlets to the compensator so that the sound is required to pass
+through the compensator and the stethoscope leads before reaching
+the ears.
+A neatly designed switch arrangement makes it possible to con-

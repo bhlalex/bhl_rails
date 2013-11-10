@@ -1,0 +1,38 @@
+126
+LüiL = i A 9 + 0,62 .45 4- 1,62 5 s
+64
+IC II
+LüüL = a* + 2,41 .45 4- 6,99 5'
+64
+1 = \A* + 0,98^45 f 1,69 5 s
+64
+|aS " 2|Ï : 0,16 5»
+64
+The rather small intensity found in this way for the line refer-
+ring to the plane (222) seemed not irreconcilable with the obser-
+vations.
+§ 5. Before the calculation and the observation can be compared
+we must multiply the expressions found in § 4 by the polarisation-
+factor, the plane number-factor, and the modified summation-factor.
+Just as well we can equalize the above expressions with the inten-
+sities obtained by Debije and Scherrer corrected for the absorption
+in the rod and after division by the product of the three factors.
+In this way we obtain the following equations where k is a
+proportionality factor
+A 1 — 2,32 AB 4- 1,34 5 2 = 2391 /fc for (111)
+A' — 1,84 AB + 6,18 5 2 - 913/: „ (022)
+A* 4- 1,24 AB + 3,24 5* = 610 £ „ (113)
+A* 4- 2,41 AB 4- 6,99 5' = 483 k „ (004)
+A'- 4- 1,96.4.5 + 3,38 5 l = 446 k l ) „ (133)
+A must decrease here: firstly exponentially with H*=h 1 *-\-h i *-\-h t *
+by the heat motion. As coefficient of H* in the exponent of e we
+chose one of the values given by Debije and Scherrer I.e., viz. the
+largest one, that which is derived on the assumption of the exist-
+ence of a zero energy and which appeared to have the greatest
+advantage for the assumption of binding rings. Secondly A must
+decrease with i/ s because of the two remaining electrons acting as
+"sphere of electrons".
+For the sake of simplicity I supposed that the action of these
+l ) In the table on p. 481 of the cited paper of D. and Sch. there evidently
+occur some typographical errors. In column 6 2,04 must be about 4.02, 11.56
+about 6 and in column 7 13 must be about 22.

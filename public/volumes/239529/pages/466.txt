@@ -1,0 +1,43 @@
+699
+Impurities diminish the maximum velocity of crystallisation. Therefore
+the substance has been recrystallized before it was used, till the
+velocity of crystallisation no longer varied. 1 )
+2. The determination of the specific heat took place in the usual
+way in a calorimeter filled with water. The liquid salol had been
+fused into a glass tube to prevent crystallisation of the supercooled
+substance.
+The values found were for solid substances and liquids resp.
+c x — 0.35
+c, = 0.37
+3. In order to measure the heat of fusion, a tube filled with
+melted supercooled salol was put in the calorimeter, and then left
+till the temperature had become constant. By placing a particle of
+the solid substance into the supercooled salol, crystallisation was
+started. The heat of fusion followed from the rise of temperature
+found. The former depends on the temperature, in this way that
+the increase per degree is equal to the difference c x — c t = 0.02 of
+the specific heats of the liquid and the solid phase. For the end in
+view determination of the value of the heat of fusion at a tem-
+perature not lying too far under the melting-point e.g. 16°, will
+suffice.
+As this temperature the heat of fusion is found to be:
+(2 = 18.2 cal.
+4. The density of the liquid was determined in the supercooled state
+by means of a pycnometer, and amounted at room-temperature to:
+(j t = 1.205
+The ratio of the densities of solid and liquid phase was found
+from the contraction on solidification in a cylindrical tube.
+The density of the solid substance appeared to be:
+Qt = 1.285.
+5. The conductivity was measured in comparison with that of
+glycerine. These relative measurements were carried out in the
+following way.
+l ) Great care should be taken not to heat the substance too much above its
+melting-point, because a change takes place at higher temperature, which greatly
+diminishes the velocity of crystallisation. This phenomenon can possibly explain
+why Tammann has found a smaller value (3.46 m.m. per minute) for the maximum
+velocity of crystallisation. When the substance which has been changed by too
+great heating, is recrystallized several times with avoidance of temperatures
+above 100°, the rate of crystallisation decreases. For the sufficiently purified sub-
+stance the value of 3.68 m.m. a minute is always again found for the maximum
+velocity of crystallisation.

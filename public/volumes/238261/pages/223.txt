@@ -1,0 +1,14 @@
+308 PROCEEDINGS OF THE AMERICAN ACADEMY.
+a lead tube bent into solenoidal form. The bar was placed horizontal
+within the solenoid, the axis of which was vertical.
+The electrical resistance in absolute c. g. s. measure was about 112,200
+at 17°. 4.
+From the observation of September 20, 1898, the temperature-coefRcient
+of conductivity between 20°.9 and 61°.2 appeared to be —0.00120. The
+observations of September 27, between 17°.4 and 67°. 4, gave —0.00116.
+We may take the mean, —0.00118. In both cases the coefficient was
+calculated by the formula
+C e-ffi ' Cond. at high temp. — cond. at low temp,
+Cond. at low temp. X (high temp. — low temp.)
+without reference to 0°.
+E. H. H.

@@ -1,0 +1,44 @@
+496 POPULAR SCIENCE MONTHLY
+two rectangles marked 2 and 6 above it. Therefore in calculating the
+data for the three curves of Figs. 2 and 3 it counts one in every case.
+So too does 1868, although it was a } T ear of greater severity as is indi-
+cated by the solid square below the curve and the rectangles marked
+12 and 8 above it. The year 1869, however, having only a single
+rectangle with a value of two, counts only in the computation of the
+data for the solid line of Fig. 3. 1870, on the other hand, is reckoned
+as one in computing the curve of Fig. 2 and the dotted line of Fig. 3.
+With 1870, which was a maximum year, we cease to count the years
+as being after the preceding minimum. 1871 is reckoned not as four
+years after 1867, but as seven years before the minimum of 1878,
+and so forth. By adding the figures for all the sunspot waves, and
+plotting the results, we get the simple frequency curves of Figs. 2 and 3.
+Figs, -i and 5 are derived in the same way, except for one thing. Instead
+of reckoning each year of the occurrence of earthquakes or eruptions as
+having a value of only one, each is reckoned according to the value
+given it by Sayles or Jensen, respectively, as shown by the character or
+size of the spots and rectangles of Fig. 1. An inspection of the four
+curves of Figs. 2 to 5 shows that they agree in essential points. Each
+of the six curves, two for Sayles, and four for Jensen, has a pro-
+nounced maximum at or within a year of the time of sun-spot mini-
+mum. That is, when sunspots are fewest, earthquakes and volcanic
+eruptions are most numerous and most severe.
+The four curves of Figs. 6 to 9 on the right-hand side of page —
+were drawn in exactly the same way as the four which lie beside
+them (Figs. 2-5), except that the sun-spot maxima were used as the
+reference points instead of the minima. They are introduced by way
+of contrast. It is evident that telluric activity is weak at times of
+sun-spot maxima. All the curves of Figs. 2 to 9 show the lack of
+symmetry characteristic of sun-spot variations. The lapse of time from
+maximum to minimum is greater than from minimum to maximum.
+Having seen that there is a coincidence of some sort between sun-
+spot minima and seismo-volcanic maxima, the next step is to compare
+the mean sun-spot curve from maximum to maximum with the mean
+seismo-volcanic curve for the same period. The mean sun-spot curve
+is, of course, easy to obtain. Figs. 10 to 13 show the first stages in
+the construction of the mean seismo-volcanic curve. The time from
+one sun-spot maximum to the next is divided into eight periods as
+follows :
+1. The year of maximum spots.
+2. The year succeeding that of maximum spots.
+3. An intermediate period of decreasing number of spots, — average
+length about 3% years.

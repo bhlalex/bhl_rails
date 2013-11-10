@@ -1,0 +1,36 @@
+DEDUCTIVE REASONING. 67
+The above is a syllogism in the mood called Barbara f
+in the truly barbarous language of ancient logicians ; and
+the first figure of the syllogism alone contained three other
+moods which were esteemed distinct forms of argument.
+But it is worthy of notice that without any real change
+in our form of inference we readily include these three
+other moods under it. The negative mood Celarent will
+be represented by the example
+Neptune is a planet (i)
+No planet has retrograde motion, (2)
+hence Neptune has not retrograde motion. (3)
+If we put A for Neptune, B for planet,and C for * having
+retrograde motion/ then by the corresponding negative
+term c, we denote ' riot having retrograde motion.' The
+premises now fall into the form
+A = AB (i)
+B = Be, (2)
+and by substitution for B, exactly as before, we obtain
+A = ABc. (3)
+What is called in the old logic a particular conclusion
+may be deduced without any real variation in the sym-
+bols. Particular quantity is indicated, as before mentioned
+(p. 49), by joining to the term an indefinite adjective of
+quantity, such as some, a part, certain, &c., meaning that
+an unknown part of the term enters into the proposition
+as subject. Considerable doubt and ambiguity arise out
+of the question whether the part may not in some cases
+be the whole, and in the syllogism at least it must be
+understood in this sense . Now if we take a letter to
+represent this indefinite part, we need make no change in
+f An explanation of this and other technical terms of the old logic
+will be found in my 'Elementary Lessons in Logic,' Second Ed. 1871.
+Macmillan & Co.
+* 'Elementary Lessons in Logic,' pp. 67, 79.
+F 2

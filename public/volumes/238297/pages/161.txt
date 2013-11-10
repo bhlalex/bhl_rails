@@ -1,0 +1,35 @@
+THE EQUIVALENCY OF PROPOSITIONS. 135
+Although in these and many other cases the equivalents
+of certain propositions can readily be given, yet I believe
+that no uniform and infallible process can be pointed out
+by which the exact equivalents of premises can be ascer-
+tained. Ordinary deductive inference usually gives us
+only a portion of the contained information. It is true
+that the combinations consistent with a set of propositions
+are logically equivalent to them, but the difficulty consists
+in passing back from the combinations to a new set of
+propositions. The task is here of a different character
+from any which we have yet attempted. It is in reality
+an inverse process, and is just as much more troublesome
+and uncertain than the direct process, as seeking is com-
+pared with hiding. Not only may several different answers
+equally apply, but there is no method of discovering any
+of those answers except by repeated trial. The problem
+which we have here met is really that of induction, the
+inverse of deduction ; and, as I shall soon show, induction
+is always tentative, and unless conducted with peculiar
+skill and insight must be exceedingly laborious in cases of
+any considerable complexity.
+The late Professor de Morgan was unfortunately led
+by this equivalency of propositions into the most serious
+error of his ingenious system of Logic. He held that
+because the proposition ' All A's are all B's,' was but
+another expression for the two propositions 'All A's are
+B's ' and ' All B's are A's/ it must be a composite and not
+really an elementary form of proposition 1 . But on taking
+a general view of the equivalency of propositions such an
+objection seems to have no weight. Logicians have, with
+few exceptions, persistently upheld the original error of
+Aristotle in rejecting from their science the one simple
+1 'Syllabus of a proposed system of Logic/ 57, 121, &c. 'Formal
+Logic/ p. 66.

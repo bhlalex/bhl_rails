@@ -1,0 +1,30 @@
+MAMMALS
+The mink is the most sensitive wildlife species tested for which data are
+available (Table 4). Diets containing 6.7 to 8.6 mg Aroclor PCBs/kg fresh
+weight killed 50% of the mink in 9 months; single dosages administered orally
+produced LD-50 values of 750 to 4,000 mg/kg body weight, those administered
+intraperitoneal ly produced LD-50s between 500 and 2,250 mg/kg body weight
+(Table 4). Recent data (Aulerich et al. 1985) indicate that certain
+hexachlorobiphenyls (HCBP), such as 3,4,5,3' ,4' ,5' HCBP, are extremely toxic
+to mink; concentrations as low as 0.1 mg/kg fresh weight diet produced an
+LD-50 in 3 months, and completely inhibited reproduction in survivors.
+However, other HCBPs, such as 2,4,5,2' ,4' ,5' HCBP and 2,3,6,2 ' ,3' ,6' HCBP,
+were not fatal to mink under similar conditions, and did not produce adverse
+reproductive effects (Aulerich et al. 1985). Additional research is needed on
+the toxicodynamics of PCB congeners. Signs of PCB poisoning in mink included
+anorexia, bloody stools, fatty liver, kidney degeneration, and hemorrhagic
+gastric ulcers (Aulerich and Ringer 1977). The reasons for mink sensitivity
+to PCBs are unknown, but large variations in sensitivity to PCBs among species
+are common, even among those closely-related taxonomically. The European
+ferret ( Mustela putorius furo ), for example, is at least three times more
+resistant than mink to Aroclor 1242 (Table 4).
+Rats fed diets containing 1,000 mg of Aroclor 1254/kg diet all died in 53
+days; mortality started at day 28 (Hudson et al . 1984). These, and other
+feeding studies, suggest that a total intake of about 500 to 2,000 mg of
+Aroclor 1254 per kg body weight is the lethal level in rats for dietary
+exposures of 1 to 7 weeks. Prior to death, rats showed lack of muscular
+coordination, eyelid drooping, blanched retinas, morbidity, nasal secretions,
+and (with Aroclor 1268) a reddish exudate from their eyes (Hudson et al.
+1984). Some rats died at 100 mg Aroclor 1254/kg body weight administered
+orally, or about 1/5 of the dietary LD-50 (Hudson et al. 1984).
+43

@@ -1,0 +1,38 @@
+427
+Since lim /'*((), z) ^ /''(O) and liinf* (0, 2) =,/" (0), it is possible to
+determine a niiniber ^ such that
+l/*(0.^)-/: (0,^ii <e for \z\<:<f.
+Since at the points of the annular region (f^\Z\^l> the function
+/'* (0, s) converges to the continuous function /*(0, 2). this convergence
+is quasi-uniform there i.e.: from a unite number of indices > TV at
+every point z of the annular region an index Uz may be chosen
+which satisfies
+|/*(0,^)-/T (0,^)|<€.
+At every point <^ \z\ ^ b therefore from a finite number of indices
+^ jV such a choice can be made, which establishes the theorem.
+13. Some of the results here obtained we shall apply to Montei/s
+example, which was cited in the introduction and is reproduced below :
+The function w (z) = ?i'2<?-"'-' tends to zero as n -^ go for all real values
+of z. Now consider the three rectangles /„ I — n ^ x^ n, — ^r-^y ^^ I,
+llni— n< X ^n, — ^ y ^ ?i ) and /7/„ ( — u 5 '^' = ^^' — '* ~y = J •
+There exists a polynomium Pn {z) which within /„ differs less
+1 1
+than — from 7,, (z) and within //„ and ///„ less than - from zero.
+4:71 n
+Evidently the function P„ (2) tends to zero for 71 -^cc thi-oughout
+the whole plane. According to the theorem established in § 5 the
+function if?,, {x,y,z) must converge quasi-uniformly at the points of
+every set V: I\ {x^, y^, 0). P, (^•„ y,,0), . . . where x,, ^ 0, y^ ^ 0,
+lim .Vk = a.Y]d limyk = 0. That this is really the case may be pro-
+k= 00 k= 00
+ved as follows: Choose an arbitrary pair of numbers t, iV. Let
+1
+JV, be ^N and at the same time ^ From a certain index k„
+onwards a\ and y, are both internal to /., , so that
+"^N, ^^i' ^k' ^' ^ ^^ ' ^ I ^ 4iV„ ^ 2
+Hence a number (^ exists such that for j -«^ i ^ r5and| y^ | ^ ^' we
+have
+I IV. (^. y,- 0) i< '
+This, we remind, is the case from a certain index ^, onwards.
+4yl/
+Besides, a number iV. "> /V can be found satisfying iV, >— ,

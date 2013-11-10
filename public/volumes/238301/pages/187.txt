@@ -1,0 +1,47 @@
+26o THE POPULAR SCIENCE MONTHLY.
+what I think is a masterpiece of glass-working — the pump which en-
+ables me so readily to produce a vacuum unattainable by ordinary
+means.
+The pump here at work is a modification of the Sprengel pump,
+but it contains two or three valuable improvements. I cannot at-
+tempt to describe the whole of the ai-rangeraents, but I will rapidly
+run over them as illuminated by the electric light. It has a triple-
+fall tube in which the mercury is carried down, thus exhausting with
+threefold rapidity; it has Dr. McLeod's beautiful arrangement for
+measuring the residual gas ; it has gauges in all directions, and a
+small radiometer attached to it to tell the amount of exhaustion that
+I get in any experiments ; it has a contrivance for admitting oil of
+vitriol into the tubes without interfering with the progress of the
+exhaustion, and it is provided with a whole series of most ingenious
+vacuum-taps devised by Mr. Gimingham. The exhaustion produced
+in this pump is such that a current of electricity from an induction-
+coil will not pass across the vacuum. This pump is now exhausting
+a torsion-balance, which will be described presently. Another pump,
+of a similar kind but less complicated, is exhausting an apparatus
+which has enabled me to pass from the mere exhibition of the phe-
+nomena to the obtaining of quantitative measurements.
+A certain amount of force is exerted when a ray of light or heat
+falls on the suspended pith, and I wished to ascertain —
+1. What were the actual rays — invisible heat, luminous, or ultra-
+violet — which caused this action ?
+2. What influence had the color of the surface on the action ?
+3. Was the amount of action in direct proportion to the amount
+of radiation ?
+4. What was the amount of force exerted by radiation ?
+I required an apparatus which would be easily moved by the im-
+pact of light on it, but which would readily return to zero, so that
+measurements might be obtained of the force exerted when different
+amounts of light acted on it. At first I made an apparatus on the
+principle of Zollner's horizontal pendulum. For a reason that will be
+explained presently, I am unable to show you the apparatus at work,
+but the principle of it is shown in the diagram (Fig. 3). The pendu-
+lum represented by this horizontal line has a weight at the end. It is
+supported on two fibres of glass, one stretched upward and the other
+stretched downward, both firmly fastened at the ends, and also at-
+taclied to the horizontal rod (as shown in the figure) at points near
+together, but not quite opposite to one another.
+It is evident that if there is a certain amount of pull upon each of
+these fibres, and that the pull can be so adjusted as to counteract the
+weight at the end and keep it horizontal, the nearer the beam ap-*
+proaches the horizontal line the slower its rate of oscillation. If I
+relax the tension, by throwing the horizontal beam downward, I get a

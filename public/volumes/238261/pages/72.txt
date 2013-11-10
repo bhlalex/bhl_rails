@@ -1,0 +1,47 @@
+RICHARDS AND LEWIS. — ZINC AND CADMIUM AMALGAMS.
+95
+In order to justify the use of this solid electrode one must show that
+it always gives the same potential, and that this is equal to the true
+potential existing between metal and solution. The first experiments
+were made with a cell whose electrolyte was cadmium sulphate and
+whose electrodes consisted of electrolyzed cadmium, of medium fineness,
+which had been washed successively in dilute suli^huric acid, distilled
+water, and absolute alcohol, and then dried. The two electrodes being
+exactly similar, the electromotive force of the cell should be zero. Tlie
+actual electromotive force, therefore, indicates the amount of deviation
+in potential of electrodes of this kind. Several such cells were measured.
+The largest electromotive force found was .0004 volt, the majority being
+about .0001 to .0002 volt. Better results were obtained with metal
+which, instead of being dried, was washed in the electrolyte. The differ-
+ence of potential under these circumstances never exceeded .0001 volt
+when proper care was used in preparation. Moreover no greater difference
+was found when two electrodes made of entirely different samples of
+electrolyzed cadmium were used. Since, therefore, the same potential
+is obtained from such electrodes, whether the metal be in a finely divided
+spongy state, or consist of a coarser network of crystals, this may safely
+be considered the true potential of metallic cadmium. Similar experi-
+ments were made with zinc, with equally satisfactory results. The data
+given below illustrate the constancy of these electrodes. The electrodes
+were usually not tested for any considerable length of time, the cells
+being prepared anew for each series of observations, which only lasted
+a few hours. Table IV. gives the electromotive forces of cells where
+finely divided metallic cadmium was thus pitted against a dilute cad-
+mium amalgam containing one per cent of cadmium. '
+TABLE IV. Cadmium versus Amalgam.
+E at 0"^
+E at 24.45°
+Cell No. 1 . . .
+Cell No. 2 . . .
+Cell No. 3 . . .
+Cell No. 4 . . .
+0.068.3-5
+O.OfiSSO
+0.06845
+0.06835
+0.07345
+0.07345
+0.073G0
+0.07350
+Average . . .
+0.0683G
+0.07350

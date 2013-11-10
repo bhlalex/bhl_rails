@@ -1,0 +1,36 @@
+08 THE PRINCIPLES OF SCIENCE.
+must integrate or sum the effects of that law ; and to
+obtain the space passed over by the body in any given
+time, we must again integrate with regard to the variable
+velocity.
+In periodic variations the same distinction must be
+drawn. The heating power of the sun's rays at any place
+on the earth varies every day with the height attained,
+and is greatest about noon ; but it does not follow that
+the temperature of the air is greatest at the same time.
+This temperature is an integrated effect of the sun's heat-
+ing power, and as long as the sun is able to give more
+heat to the air than the air loses in any other way, the
+temperature continues to rise, so that the maximum is
+deferred until about 3 P.M. Similarly the hottest day of
+the year falls, on an average, about one month later than
+the summer solstice, and all the seasons lag about a month
+behind the motions of the sun. In the case of the tides,
+too, the effect of the sun's or moon's attractive power is
+never greatest when the power is greatest ; the effect
+always lags more or less behind the cause. Yet the in-
+tervals between the successive tides are exactly equal, in
+the absence of disturbance, to the intervals between the
+passage of the sun or moon across the meridian. Thus
+the principle of forced vibrations holds true of all such
+cases.
+In periodic phenomena, however, very curious results
+will sometimes follow from the integration of effects. If
+we strike a pendulum, and then repeat the stroke time
+after time when it is in the same part of the vibration,
+every stroke concurs with every other one in adding to
+the momentum, and we can thus increase the extent and
+violence of the vibrations to any degree. We can stop
+the pendulum again by strokes applied when it is moving
+in the opposite direction, and the successive effects being
+added together will soon bring it to rest. Now if we

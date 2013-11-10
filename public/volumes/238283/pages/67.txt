@@ -1,0 +1,41 @@
+94 PROCEEDINGS OP THE AMERICAN ACADEMY.
+and II., but the temperatures were higher throughout. With this junc-
+tion it was found possible to penetrate to the centre of the flame without
+the deposition of carbon, the temperature of the wire being apparently
+too high to permit the formation of soot. Upon pushing through the
+median plane of the flame to the second luminous mantle, the junction
+was melted. This result was not unexpected, since the temperature of
+the junction at the first luminous mantle reached 1750°, so that a rise of
+twenty-five degrees of temperature would suffice to produce fusion. The
+wire when pushed through the flame in the manner just described is
+heated for greater and greater distances back from the junction until the
+losses of heat at the junction are sufficiently diminished to raise the tips
+of the wires to the melting-point.
+With Junction IV. (diameter 0.0082 cm.), a fourth curve, similar in
+form to the preceding ones and with still higher temperatures, was ob-
+tained. This junction was fused at a distance of 0.075 cm. from the
+core of the flame, and of 0.037 cm. from the edge of the first luminous
+mantle. It was easy to observe in the enlarged image upon the plate of
+the microcamera the melting away of the platinum wire, while the
+platinum-rhodium alloy was still unaffected, and while contact was still
+unbroken. A satisfactory observation of the electromotive force of the
+thermoelement at the melting-point of platinum was thus obtained. This
+reading (0.018236 volts) differs from the value found in my calibration
+of the thermo-junctions used in this investigation (0.018262 volts) by a
+quantity of (0.000026 volts) less than the errors due to changes in the
+electromotive force of the standard cell. If the latter reading be taken
+to correspond to 1775°, the former indicates 1773°.
+Beyond this point, it was impossible to make direct observations of
+temperature ; but the form of this and the preceding curves were so
+closely allied that I felt no hesitation in extending the curve d to the
+core of the flame. This has been done by means of dotted lines in the
+figure. Curves a and b have been extended in the same manner. In
+order to form an estimate of the temperature which would have been
+reached by a thermo-junction of negligible cross-section, provided such a
+junction could have been obtained which was capable of registering tem-
+peratures above that of the melting-point of platinum, the ordinates of the
+four curves, «, b, c, and d were taken for the coi-e of the flame, for the
+plane of the luminous mantle, for a plane distant 0.07 cm. from the core,
+and for a plane 0.10 cm. from the core. These readings were plotted
+and curves were drawn through them as shown in Figure 12; relative
+cross-sections of the wires being taken as abscissae, the temperatures as

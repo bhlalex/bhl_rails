@@ -1,0 +1,68 @@
+( 800 )
+§ 3. So we arrive at equation (4) witlioiit making use of the
+equation of tlie virial ajid witiioiit speaking of repulsive forces. That
+the introduction of tliese and tiie determination of the so-called
+"repulsive virial" in the same waj as has been done by Lorentz,
+Tait and Boltzmann, leads to the same result, is easy to see, if we
+|/2rr;i.v- \/2 .ins''
+put everv where ,j mstead of — for the number of
+V V
+collisions in the formidae used by fhem. The exi»ression (3 does not
+depend on any of the integrations and the repulsive virial yields
+J' l>
+iherefore MT — ,i instead of RT -. This is easv to understand, even
+i'
+without following the proofs of I^orentz and Fjoltzma.nn, for it is
+clear that the term which is introduce<l into the equation of the
+virial through the collisions, must l)e ])roportio]ial to the number of
+those collisions, as two collisions can never be of a different kin(P).
+It seems therefore as if theory really leads to the form expected
+by Tait and DiETERifi, ^\ hicli conforms so little with the experiment.
+In reality, however, the result is quite dliferent. For — as I pointed
+out in my other communication — ^i has l)y first approximation not
+5 h
+the lorm : I -\- ~ — , as .Iagek and Uoltzmann generally write, but we
+b V
+11 h
+1
+8 V
+find in the wav first indicated bv Clausus — for it, and onlv
+b
+1 — 2-
+by carrying out the division and by neglecting tlie terms of higher
+order, we get the form 1 -|- ~ . As I showed, we get, taking the
+o I'
+terms of liigher order into account :
+(5)
+11 b
+/,^
+b»
+1
+~"8"T
+■ +
+B — ,
+. . ,
+.+
+A'
+r"
+b
+Mh
+2
+P
+b»
+1-
+-2-+
+V
+16 /ƒ
+; + '■.
+?'
+• +
+^Vx
+l-n
+where n is a finite numl>er.
+Xow it is true that the other coefficients of this series, C\ and B
+excepted, are unknowji, and we might conclude from this, that it
+must therefore be iiKHfrcreiit for the present, whether the equation
+of state is wj-itten
+1) KoRTEWEG aud VAN DER Waals have also made use of thi:< property in their
+derivafion of equation (2) from (1), mentioned on p. 795.

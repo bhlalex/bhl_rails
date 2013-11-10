@@ -1,0 +1,35 @@
+Mathematics. — " Bestimmimg der Klassenzahl (lev Ideale aller
+Unterkörper des Kreiskörpers der m-ten Einheitsinirzeln, uw
+die Zahl m durch niekr als eine Primzahl teilhar isf\ (Zweiter
+Teil. ')). Bj Dr. N. G. W. H. Beeger. (Communicated by
+Prof. W. Kapteyn).
+(Communicated in the meeting of October 25, 1919).
+Beweis: Wir müszen zwei Behauptungen des Gliedes rechter Hand
+beweisen: 1°. dasz der Wert des darin auftretenden Symbols eine
+y-te Einheitswurzel ist; 2*. dasz, im Producte, jede solclie Einlieits-
+(l ,
+wurzel ' Mal vorkommt. Denn wenn dies bewiesen ist, ergibt
+r
+sich daraus dasz das Glied rechter Hand gleicli
+«1 dl d\
+(-4-)
+ist, und dieser Ausdrnck ist, wegen Satz 7, dem Gliede linker Hand
+der zu beweisenden Gleichheit, gleich. Die Zahlen ^,,/*i ii.s.w. haben
+hier dieselbe Bedeutnng wie im Satz 7.
+Der Beweis der ersten Behaiiptnng folgt aus demjenigen welches
+im Satz 9 bewiesen ist.
+Um den Beweis der zweiten Behauptung zn erbringen, nehmen
+wir an, dasz
+[
+/.
+^1.^*1. O, 6,,
+/.
+-^02»**a» ö'*,, • •
+Nach Einführung der Werte der Symbole tindet inan, da die
+Difïerenzen der übereinstimmenden Zahlen zweier Sjsteme der b
+wiederum ein System der b bilden, dasz dieses System der b welches
+wir andeuten durch b^, 6^, O, 6,, den Congruenzen :
+. m
+^^ O mod (p ,
+(8)
+1) Fortsetzung von "Proceedings" Vol. 22. S. o31.

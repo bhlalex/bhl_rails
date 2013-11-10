@@ -1,0 +1,38 @@
+MORENO. — ON RULED LOCI IN W-FOLD SPACE. 147
+H
+Any i^„_2 contaius two consecutive Fj^_^Sj three consecutive F^_i% - con-
+It
+secutive F^%. Any -F^.or contains two consecutive -?^„_2(r+i)'s and any
+two consecutive i^„_2r's determine one i^„_2(r-i) except in the case that
+r = -. "We cannot then start with a curve and retrace our steps ; two
+consecutive points of the curve S^ do not determine uniquely a plane of
+the system. The FJ% of the system in general intersect consecutively
+in the points of S-^. Starting with such a system of planes we may
+retrace our steps. Through any two consecutive planes of the S^ we
+may pass a four-flat. These four-flats are generators of ^S's. Through
+any two consecutive F^^ we may pass six-flats ; they are the generators
+of S-j. Finally through any two consecutive i^_4's pass {n — 2)-flats ;
+they are generators of »S'„_i. We may retrace our steps only in case we
+do not begin with aS'i.
+9. Director curves of the ruled (n — V)-sj)read.
+Let the equation of such a ruled {n — l)-spread S^_x be
+<^ = 0.
+We shall show that the equations of the generating flats of the spread
+may be represented by linear equations involving a single parameter.
+The equation in homogeneous coordinate of an arbitrary (ii — 2)-flat in
+w-fold space may be written
+X = ai z -\- ^i s -\- . . . . + yiW
+y = ao z + /32 s + ...• + 72 w.
+In this form the equations of the (n — 2) -flat, which we may call the
+(n — 2)-flat^-6, involve 2 (ti — 1) independent arbitrary parameters.
+These parameters must be connected by 2 (n — I) — 1 equation to make
+A B a generator of such an (n — l)-spread. "We wish to connect these
+parameters in such a way that A B will be a generator of the *S'„_i in
+question. The equations of a curve on ^ are
+<^ =z 0, C7i = 0, ZZs = 0, . . . U„_o = 0.
+If we eliminate the coordinates between these equations and the equa-
+tions of ^ 5 we derive a single equation in the 2 (n — V) parameters.
+This resulting equation is the necessary and sufficient condition for A B
+to meet the curve. In a similar way we may derive 2 (« — 1) — 1
+such conditions and make A B meet 2 (« — 1) — 1 curves on ^. If
+from these 2 (n — 1) — 1 equations and the equations of ^ 5 we elimi-

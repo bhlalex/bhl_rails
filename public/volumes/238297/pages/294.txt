@@ -1,0 +1,33 @@
+268 THE PRINCIPLES OF SCIENCE.
+supposed act of induction, that it would succeed in all
+other cases. Professor de Morgan has recorded a proposed
+mode of trisecting the angle which could not be dis-
+criminated by the senses from a true general solution,
+except when it* was applied to very obtuse angles. 8 In
+all such cases, it has always turned out either that the
+angle was not trisected at all, or that only certain
+particular angles could be thus trisected. They were
+misled by some apparent or special coincidence, and only
+deductive proof could establish the truth and generality
+of the result. In this case, deductive proof shows that the
+problem, as attempted, is impossible, and that angles
+generally cannot be trisected by common geometrical
+methods.
+Geometrical Reasoning.
+This view of the matter is strongly supported by the
+further consideration of geometrical reasoning. No skill
+and care could ever enable us to verify absolutely any one
+geometrical proposition. Eousseau, in his Emile^ tells us
+that we should teach a child geometry by causing him to
+measure and compare figures by superposition. While a
+child was yet incapable of general reasoning, this would
+doubtless be an instructive exercise ; but it never could
+teach geometry, nor prove the truth of any one proposition.
+All our figures are rude approximations, and they may
+happen to seem unequal when they should be equal,
+and equal when they should be unequal. Moreover,
+figures may from chance be equal in case after case, and
+yet there may be no general reason why they should be
+so. The results of deductive geometrical reasoning are
+s ' Budget of Paradoxes,' p. 257.
+t 1 2mo. Amsterdam, 1762, vol. i. p. 401.

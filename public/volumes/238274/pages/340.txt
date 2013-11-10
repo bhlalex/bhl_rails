@@ -1,0 +1,47 @@
+TRANSCENDENTAL GEOMETRY. 509
+so-called geometrical axioms that two straight lines can not inclose a
+surface, etc., are true. For example, a spherical surface has a con-
+stant measure of curvature not equal to zero, and positive. Since the
+shortest distance between two points is a straight line, let us, extend-
+ing the analogy, call the shortest distance between two points of a
+spherical surface, lying icholly in that surface, a straight line of that
+surface. Now, as the measure of curvature of a spherical surface is
+constant, we can slide a figure about over the surface without altering
+it, as is evident at once. On a sphere, however, more than one per-
+pendicular can be drawn on the surface from a point to a straight line,
+and two straight lines can inclose a surface.
+In a surface whose curvature is negative, an infinite number of
+straight lines of the surface can be drawn through a given point which
+will never meet a given straight line. Such a surface would be like a
+spool. Some of its sections would be concave and others conrex to
+the same point. "We have analogous results in what is called curved
+space. These results were first suggested by Riemann, who was a
+pupil of Gauss.
+For this mathematical treatment all that is needed is, first, algebra
+and the differential calculus; secondly, a method of interpreting them
+geometrically. We have found a code of interpretation for some
+algebraic equations which give geometrical results, and we apply it so
+far as we can to all.
+So far the mathematicians might have gone without let or hin-
+drance, and there some of them, as Boole and Grassman, stojjped.
+But others thought they had settled whether the geometrical axioms
+were a j^fiori truths or not. We have just worked out a system of
+geometry, said they, which is not, as we think, impossible, where these
+axioms do not hold. Therefore these axioms are the results of an ex-
+perience of things as they are. If we had had a different order of
+things, as is possible, these axioms would not have been true nor
+thought of. I shall, however, try to prove that, although not thought
+of, they are true.
+The geometrical axioms express relations; relations between what ?
+Geom.etry is a branch of mathematics. Therefore the geometrical
+axioms express mathematical relations. What, then, is mathematics,
+and with what does it deal?
+Mathematics, in its widest sense, I will define as the science which
+treats of logical — that is necessary — relations. Between outside things
+there are no necessary relations. The relation of cause and effect is
+sometimes called necessary ; but, if so, it is not usually handled math-
+ematically. The relations must, then, be of mental things.
+They are not relations between images or imaginations of outside
+things, for two reasons : First, the relations between imaginations can
+be no more necessary than the things they image ; second, the im-
+aginations of men's minds are different. One may imagine a line as a

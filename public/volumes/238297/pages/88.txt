@@ -1,0 +1,36 @@
+62 THE PRINCIPLES OF SCIENCE.
+of the general rule of inference. We have two propo-
+sitions, A B and B = 0, and we may for a moment con-
+sider the second one as affirming a truth concerning B
+while the former one informs us that B is identical with
+A ; hence by substitution we may affirm the same truth
+of A. It happens in this particular form that the truth
+affirmed is identity to 0, and we might, if we had preferred,
+have considered the substitution as made by means of the
+second identity in the first. Having two identities we
+have a choice of the mode in which we will make the
+substitution, though the result is exactly the same in
+either case.
+.Now compare the three following formulae
+(1) A = B = C hence A^C
+(2) A = B-C hence A-C
+(3) A *> B * C, no inference.
+In the second formula we have an identity and a differ-
+ence, and we are able to infer a difference ; in the third
+we have two differences and are unable to make any
+inference at all. Because A and C both differ from B, we
+cannot tell whether they will or will riot differ from each
+other. The flowers and leaves of a plant may both differ
+in colour from the earth in which the plant grows, and
+yet they may differ from each other ; in other cases the
+leaves and stem may both differ from the soil and yet agree
+with each other. Where we have difference only we can
+make no inference ; where we have identity we can infer.
+This fact gives great countenance to my assertion that
+inference proceeds always through an identity, but may
+be indifferently effected in a difference or an identity.
+Deferring a more complete discussion of this point, I
+will only mention now that arguments from double
+identity occur very frequently, and are usually taken
+for granted owing to their extreme simplicity. In the
+equivalency of words it must be constantly employed. If

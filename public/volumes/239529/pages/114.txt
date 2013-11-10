@@ -1,0 +1,44 @@
+145
+easily calculate the velocity constant £,. To find this we have to
+know which fraction of thé molecules dissociates per unit of time
+or of how many of the molecules one constituent leaves the sphere
+of attraction of the other one per unit of time.
+Consider a surface element da of the sphere of attraction.
+The number of atoms that passes this surface element of the
+sphere of attraction of the other atom per unit of time in outward
+direction is
+i A* e -2kmC* d$ d n d$ dX z d Y z dZ z L n e-lf"» V>-W da rfj j dy da
+where v n represents the component of the relative velocity in the
+direction perpendicular to the surface.
+Let us take for the «-direction the direction of the normal, then
+we can write for the number in question
+i a V -2*mC* ( /* d n d$ dX z d Y z dZ z J a er~i>™ V*-2h+ da d j dy da ( 2 )
+The integration limits for a, ft and y are defined in the following-
+way.
+The equations of motion of the two atoms are:
+d*x x' — x
+m—- = — (p (r) etc.
+dr r
+d^x' x' — x
+m = -\- cp (r) etc.
+dt* r
+When \p (r) represents the potential energy of the two atoms,
+when their distance is r, we have
+dip
+cp{r) = — — .
+Or
+By subtraction we find the equation of the relative motion
+da X r
+m — z= 2 (p (r) — . etc.
+dt r
+Multiplying these 3 equations respectively by a, fi and y and
+taking their sum, we find the equation ot energy
+, d(a' + p + f) dtpfX r . f r Z r \ dtp
+= — 2 — - — a -, ^H y ) — - 2 — -
+dt dr \ r r r J dt
+SO that
+As to the action of the sphere of attraction we shall use the
+image of a hard layer against the inside of which the atoms can
+impinge. As long as the velocity is small, the impulses are elastic.
+10
+Proceedings Royal Acad. Amsterdam. Vol. XXIII.

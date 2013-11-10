@@ -1,0 +1,46 @@
+130 On Crystallography.
+Thus n I : t y : : ~ : 2 : : 6 : 5. Besides, in this same
+case, the angle v t y is straight ; from which we see how
+easy it is to find the angle y n t.
+£7- The mensuralor triangles relative to the decrements
+on the angles may be substituted for those which we have
+considered in the decrements on the edges, and serve
+equally well for determining the secondary forms. Let us
+suppose, for example, that AG (fig. 8) represents a cubical
+nucleus, which undergoes decrements by two ranges on
+the four edges of the base A BCD, and that we wish to
+know the angles of the pyramid SADCB produced by this
+decrement. Having traced the diagonals BD, AC, I draw
+from their point o of intersection the line op perpendicular
+upon CD, then sp. If I take upon po the part, pr equal
+to two ridges of molecule, and from the point r I raise r u
+perpendicular upon A BCD, and which by the hypothesis
+will be found equal to one ridge of molecule, the triangle
+upr will perform the function of the ordinary mensurator
+triangle, and by means of the right angle urp, and of the
+relation 2: 1 between the sides pr and ur, we shall easily
+find the incidence of DSC upon the base ABCD, as well
+as the values of the other angles. For, on account of the
+similar triangles u pr, spo> every thing is reduced to the
+calculation of the a?igles of a straight pyramid in which
+the side BC of the base, which is double of po, is to the
+axis os in the relation of 4 to 1.
+On the other hand, — If I take upon Co the part Cn
+equal to two diagonals of molecule ; and if from the point
+n I raise nz perpendicular upon ABCD, On will represent
+the distance from the point C to the fust lamina of super-
+position, taken in the direction of Co, and nz will be
+equal to one ridge of molecule; from which it follows that
+the triangle z C n may also perform the function of men-
+surator triangle.
+We shall therefore have Cn : nz : : -2 v 7 2 : 1, and be-
+cause the triangle zCn is similar to the triangle .?Co, the
+question considered under this new point of view will be
+reduced to seek the angles of a straight pyramid, in which
+the demi-diagonal Co of the base is to the axis os, as
+2 s/ e~: 1, which is sufficient for having all the rest. We
+shall have occasion more than once thus to substitute one
+mensurator triangle for the other, when there will result
+from it more facility in resolving the problems.
+All the details upon which we have acted ought to be
+regarded

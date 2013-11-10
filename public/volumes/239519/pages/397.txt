@@ -1,0 +1,34 @@
+598
+POPULAR SCIENCE MONTHLY.
+be changed, while in many carriages the gearing also varies the ratio be-
+tween the speed of the motor and the driving wheels. It is also quite
+common to combine in the train of gearing spur gears and sprocket
+wheels, and in some instances even belts. Fig. 4 illustrates a French
+gasoline automobile made by Underberg, of Nantes. The first figure
+is a side view, and the second is a plan of the truck and driving
+mechanism.
+The motor, which is of the single cylinder type, cooled by radiation
+into the air, is located at N. The pinion on the end of the motor
+shaft engages with the wheel on the end of shaft A. This shaft carries
+four gears, which can be moved by means of lever C, so as to engage
+with corresponding gears on shaft B, thus providing four different
+speeds. The motion of B is transmitted to the rear axle by means of
+a belt that runs over the pulleys p and P, the latter being carried by a
+differential gear, so as to run the two driving wheels at proper velocities.
+Fig. 5. <herrier Two-speed Gear.
+The circular ribs surrounding the motor cylinder are well shown in the
+figure, in which the carburator of C is also seen. The housing for the
+motor is open at the sides so as to give air currents free access. In Fig.
+4 the speed changing gears are shown, the reversing train being omitted;
+but if it were also drawn in, the diagram would be far more elaborate
+than Fig 3.
+Another form of variable speed gear is shown in Fig. 5. This pro-
+vides for two speeds. The large wheel E is on the carriage axle, and it
+is driven either by a pinion F, or by J. Upon the shaft there ar*»
+two friction clutches C D, and when C acts the pinion F drives E, and
+when D acts the pinion G drives H, which in turn drives /, and this
+wheel is mounted on the same shaft as J.
+Some of the best-known makers of gasoline vehicles do not employ
+variable gears and depend for changes in the speed wholly upon varia-
+tion in the velocity of the motor. The De Dion carriages are made in
+this way, the gearing being substantially as illustrated in Fig. 3.

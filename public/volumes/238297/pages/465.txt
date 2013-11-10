@@ -1,0 +1,35 @@
+THE LA W OF ERROR. 439
+arguments are satisfactory and conclusive. The law
+adopted is chosen rather on the grounds of convenience
+and plausibility, than because it can be seen to be the
+true and necessary law. We can however approach the
+subject from an entirely different point of view, and yet
+get to the same result.
+Let us assume that a particular observation is subject
+to four chances of error, each of which will increase the
+result one inch if it occurs. Each of these errors is to be
+regarded as an event independent of the rest and we can
+therefore assign, by the theory of probability, the com-
+parative probability and frequency of each conjunction of
+errors. From the Arithmetical Triangle (pp. 208, 213) we
+learn that the ways of happening are as follows :
+No error at all . . . i way.
+Error of i inch . ... 4 ways.
+Error of 2 inches . . .6 ways.
+Error of 3 inches . .4 ways.
+Error of 4 inches . . i way.
+We may infer that the error of two inches is the most
+likely to occur, and will occur in the long run in six cases
+out of sixteen. Errors of one and three inches will be
+equally likely, but will occur less frequently ; while no
+error at all, or one of four inches will be a comparatively
+rare occurrence. If we now suppose the errors to act as
+often in one direction as the other, the effect will be to
+alter the average error by the amount of two inches, and
+we shall have the following results :
+Negative error of 2 inches . . . i way.
+Negative error of i inch . . .4 ways.
+No error at all . . . . .6 ways.
+Positive error of i inch . . .4 ways.
+Positive error of 2 inches . . i way.
+We may now imagine the number of causes of error

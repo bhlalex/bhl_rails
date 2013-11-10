@@ -1,0 +1,42 @@
+( 696 )
+Further, care has been taken to give the tangent plane the proper
+inclination at these points in agreement with
+p := — ( — ) ^^ ^^ ( T ) ^^ ^^^'^^ temperature and pressure shall
+have their real value.
+On the given drawings (scale ^ /^ of model) for plan and elevation
+PL III, fig. 3 and 6 — one side elevation has been rejected as it
+does not clearly show the course of the pressure and temperature
+line — the behaviour of the line 7'= const, ;9 = const, ?; = const,
+t] = const and the position of the triple point can be seen without
+further explanation. We draw attention to the intersection of the connodal
+line Sa Sb bv the connodal line Sl S/j and further to the passage
+of the isotherms over the connodal line and the crossing of the
+isotherms with their corresponding isopiestics. In order to read from
+the isotherms, given on the model, tiie corresponding values of /;
+and V, the diagram of the isotherms (see PI. I, fig. 2) was constructed,
+which reminds one of the course of the isotherms derived from the
+VAN DER Waals' equation. The point Z^ in this figure corresponds
+to the triple point for li(iui(l and llie two solid modifications of
+carbon dioxide. According to Tammann the pressure is 2800 K.G.
+The point KLSa is the critical point of the modification A in the fusion
+line. According to the model the critical pressure would be 6500 K.G.
+and the reduced temperature 1.7,
+The critical point GL occurs so far to the right on this scale
+(the unit of volume is equal to that of PI. Ill fig. 5 and 6) that it
+cannot be represented in the drawing.
+No critical point exists for the transition of Sb to L omving to
+the interposition of the ridge Sa. The binodal line on Sb antl L,
+loses its physical meaning at a given position of the rolling tangent
+plane. A continuous passage from Sb to Sl is only possible through
+the gaseous as an intermediate state.
+An important result can be obtained from the foregoing. Whenever
+substances exist whose molecules undergo changes in the transition
+to the solid state, which are mechanically similar to those which
+determine the condition of the two phases, these said substances
+Avill also agree with the law of corresponding states in the solid
+condition. An experimental investigation for the continuity of the
+solid and gaseous states would be best made on the substance with
+the lowest critical pressure. If, for the moment, we assume that i/, and
+CO, are sufficiently comparable from this point of view — at present
+no better example is at hand — - the critical point solid-gas should
+be sought at about 1800 atm. and — 210' C, and thus in possible

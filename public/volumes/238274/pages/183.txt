@@ -1,0 +1,29 @@
+256
+THE POPULAR SCIENCE MONTHLY.
+supposed by Professor Bjerknes and Professor Forbes to be due, not
+to the action of one body on the other, but to the mutual action of one
+body and the water in contact with it, the water being regarded as
+the analogue of Faraday's medium. "Viewed in this light," says
+Professor F'orbes, " his first experiment is equivalent to saying that, if
+a vibrating or oscillating body have its motions in the same direction
+as the water, the body moves away from the center of disturbance ;
+but, if in the opposite direction, toward it. This idea gives us the
+analogy of dia- and para-magnetism. If, in the neighborhood of the
+vibrating drum, we have a cork ball, retained under the water by a
+thread, the oscillations of the cork are greater than those of the water
+in contact with it, owing to its small mass, and are, consequently, rela-
+tively in the same direction. Accordingly, we have repulsion, corre-
+sponding to diamagnetism. If, on the other hand, we hang in the
+water a ball which is heavier than water, its oscillations are not so
+great as those of the water in its vicinity, owing to its mass, and con-
+sequently the oscillations of the ball relatively to the water are in the
+opposite direction to those of the water itself, and there is attraction
+corresponding to para-magnetism. A rod of cork and another of
+metal are suspended horizontally by threads in the trough, and a vi-
+brating drum is brought near them : the cork rod sets itself equatori-
+ally, and the metal rod axially."
+Fig. 2.
+From these and other experiments Professor Bjerknes has con-
+cluded that the motion of a vibrating agent in the water produces a
+real magnetic field, with its lines of forces presenting, but always
+in an inverse sense, identical phenomena of diamagnetism and para-

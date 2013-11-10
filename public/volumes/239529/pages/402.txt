@@ -1,0 +1,42 @@
+60]
+a surface m of the fourth order ($ 7); in the same way a surface
+0'/ of the fourth order will be the locus of the points P' the paths
+of which in the inverse motion have a contact, of the fourth order
+with the spheres of curvature in P' .
+The former of these surfaces was determined by joining to (8)
+the equation (Sd), which results from (8c) through differentiation,
+dx' dy' dz'
+when for — -, -^—, — — the values are substituted following from
+dt dt dt B
+Va,x' = Va,y' = ü« j3 ' = °
+Now we do not require 0' /, but the locus of the points P that
+are the centres of the spheres of curvature which have with the
+path of a point P' of Of in (he inverse motion a contact of the
+fourth order.
+The normal plane of the path of P' has for equation :
+]VC0= (X-x) v% + ( Y-i?) v% -f (Z-z') v%> =0 . (10)
+the centre of the sphere of curvature is found from :
+dN® d'N®
+N(') = 0, = 0, = 0; ..... (11)
+dt dt' v '
+the condition that this sphere has with the path of P' a contact
+of the fourth order is expressed by
+d i m
+dt i
+0, (12)
+dx' dv' dz'
+while — , . — , — are determined from
+dt dt dt
+Va,x' = V a ,y' = V a ,z' =
+The locus in question is then found by eliminating x', y', z' from
+(11) and (12).
+In the same way however -- for the first member of (10) is
+identical with that of (8) — we have produced the surface O m ; the
+locus in question is therefore O m .
+In the direct motion a surface O m of the fourth order is the locus
+of the points fixed to l) n the paths of which have five points in
+common with the spheres of curvature ; in the same ivay in the inverse
+motion a surface O' '/■ of the fourth order is the locus of the points
+fixed to Tf the paths of which have five points in common with the
+spheres of curvature; the points of O m and O'/ correspond in the
+two cubical correspondences, so that e.g. in the direct motion a point

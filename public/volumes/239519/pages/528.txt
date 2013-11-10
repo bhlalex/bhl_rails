@@ -1,0 +1,43 @@
+514 POPULAR SCIENCE MONTHLY.
+change has arisen mainly from including a larger number of stars,
+whose motions were determined with greater accuracy.
+Former investigators based their conclusions entirely on stars having
+considerable proper motions, these being, in general, the nearer to us.
+The fact is, however, that it is better to include stars having a small
+proper motion, because the advantage of their great number more than
+counterbalances the disadvantage of their distance.
+The conclusions reached by some recent investigators of the position
+of the solar apex will now be given. We call A the right ascension of
+the apex; D its declination.
+Prof. Lewis Boss, from 273 stars of large proper motion found
+A = 283°.3; D = 44°.l.
+If he excluded the motions of 26 stars which exceeded 40" per century
+the result was
+A = 288°.7;D = 51°.5.
+A comparison of these numbers shows how much the result depends on
+the special stars selected. By leaving out 26 stars the apex is changed
+by 5° in R. A., and 7° in declination.
+It is to be remarked that the stars used by Boss are all contained in
+a belt four degrees wide, extending from 1° to 5° north of the equator.
+Dr. Oscar Stumpe, of Berlin, made a list of 996 stars having proper
+motions between 16" and 128" per century. He divided them into three
+groups, the first including those between 16" and 32"; the second be-
+tween 32" and 64"; the third between 64" and 128". The number of
+stars in each group and the position of the apex derived from them are
+as follows:
+Gr. I, 551 stars; A = 287°.4; D = x45°.0
+11,339 282°.2 43°.5
+III, 106 280°.2 33°.5
+Porter, of Cincinnati, made a determination from a yet larger list
+of stars with results of the same general character.
+These determinations have the advantage that the stars are scat-
+tered over the entire heavens, the southern as well as the northern ones.
+The difference of more than 10° between the position derived from stars
+with the largest proper motions, and from the other stars, is remarkable.
+The present writer, in a determination of the precessional motion,
+incidentally determined the solar motion from 2,527 stars contained
+in Bradley's Catalogue which had small proper motions, and from about
+600 more having larger proper motions. Of the latter the declinations
+only were used. The results were:
+From small motions: A = 274°.2; D = x31°.2
+From large motions: 276°.9 31°.4

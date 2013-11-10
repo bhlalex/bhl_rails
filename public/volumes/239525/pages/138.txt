@@ -1,0 +1,34 @@
+OF ARTS AND SCIENCES : FEBRUARY 8, 1870. 205
+or, rejecting the useless factor \ — a,
+X" 3 + a b 2 = 0,
+whence
+x" = - vTb 2 ,
+and by interchanging a and b,
+y" = - f^.
+And thus the length of the normal
+y/ tf - a) 2 + (/ - b) 2 = [(a + ^Tb 2 ) 2 + (b + ^b) 2 ] 1
+= [a3 -j- baj2.
+Consequently,
+if a 3 _j_ b? <^ 1, there will be four real roots ;
+" a f -4_ bf = 1, there will be four, and two will be equal ;
+« a3 _|_ bs ^> 1, there will be only two real roots.
+We will now show how to arrive at a direct solution of the problem
+by the employment of trigonometric formulas. If tan <r is taken for
+the unknown quantity, the equation, on which the solution of the prob-
+lem depends, is
+[c cos /3 tan <r -\- c sin /3] 2 (1 -f" ta n 2 o-) = tan 2 o-,
+or if we put tan a- = x>
+(x + tan^( x 2 +l)=^,
+or, expanded,
+x < + 2 tan /3. x 3 + ^=^ x 2 + 2 tan /3. x + tan 2 /3 = 0.
+A quantity p may be assumed, such that this biquadratic shall be
+resolved into the two quadratics
+„ . _ sin a cos (/3 -4- w) , a , A
+y -+- 2 — „ y -4- tan |8 tan u = 0,
+x ~ cos cos 2 /i A ' M r
+„ _ cos u sin (/3 — u) . _ - . A
+y 2 4- 2 — — y -4- tan /3 cot u = 0.
+x ~ cos /3 cos 2 /* * ' M ^
+That this is possible will be evident on multiplying the left-hand
+members of these equations together, for after some reductions easy to
+make, all the coefficients, with the exception of that of y 2 , will be found

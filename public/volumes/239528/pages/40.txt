@@ -1,0 +1,25 @@
+Table 3. (Concluded)
+Ecosystem,
+organism,
+compound tested
+Exposure
+period
+(days)
+LC-50
+(ug/1)
+Reference
+Fish
+Sheepshead minnow, Cyprinodon variegatus
+1254
+Fry 21 0.1-0.32
+Adult 21 0.9
+Spot, Leiostomus xanthurus
+1254 35 0.5
+Pinfish, Lagodon rhomboides
+1254 T2 0.5
+Ernst 1984
+EPA 1980
+Ernst 1984
+Each reference applies to data in the same row and in the
+rows that immediately follow for which no reference is indicated.
+39

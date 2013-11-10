@@ -1,0 +1,25 @@
+112
+BRIDGMAN.
+slightly pinkish, but it had a melting point 0.02° higher than that of
+the first lot, and a trifle higher than any previously recorded for
+phenol. The purity is apparently, therefore, as great as can be
+obtained by ordinary means. The pinkish specimen was used for
+the high pressure determinations. This specimen was not perfectly
+pure, however, because some rounding of the corners could be detected.
+It was melted into the inverted steel shell and pressure transmitted
+to it by mercury. Four different fillings of the apparatus were used;
+one for the point at low pressures and the other three for the points
+at high pressures. The quantities used varied from 13.5 to 17.5 gm.
+23456789 10 1112
+Pressure, kgm./cm.^ x 10^
+Phenol
+Figure 27. Phenol. The observed equilibrium temperatures and pressures.
+The experimental values of pressure and temperature are shown in
+Figure 27, the experimental values of AV in Figure 28, the computed
+values of AH and AE in Figure 29, and the numerical values are col-
+lected in Table XIII. No points have been discarded. (
+It has been known for some time that phenol has two modifications.
+These were discovered by Tammann,^* who has written two papers on
+24 G. Tammami,
+11).
+'K. und S.," 308, and ZS. phys. Chem. 75, 75-80 (1910-

@@ -1,0 +1,42 @@
+233
+geordnet denken) besteht, O' ein Punkt von yl, G die Gruppe der
+geschlossenen Kurven von ft' durch O' , M eine Normalbasis von G,
+welche aus den Kurven b lt . . . b r besteht.
+Zu einer eindeutigen stetigen Abbildimg a von ft an f ft', welche
+O in O', mithin jedes a v in ein Kurve a r v durch O' überführt, gehort
+ein ,, Transf ovulations f ormelsy stem'
+a' v = <p v (b x . . . b r ) (v = 1, 2, . . . n + m), .... (1)
+wo die r/) Produkte darstellen.
+1st x (b x • • • 6/0 ein willkürliches Element von G, so gehort das
+Formelsystem
+a\ = x <5Pv X -1 (p = 1, 2, . . . n + w), .... (2)
+welches wir zu (1) ahnlich nennen werden, ebenf'alls zu O in O'
+überführenden Abbildungen von fi auf (u' als Transformationsformel-
+system und zwar können diese innerkalb der Klasse von tfgewahlt werden,
+Andorerseits gehort zu jeder O in O' überführenden Abbildung von
+ft auf ft', welche zur Klasse von o gehort, ein zu (1) ahnliches
+Transfonnationsformelsystem.
+Somit bestimmt jede Klasse von Abbildungen von \i auf ji' (zu
+welcher ja immer O in O' überfülirende Abbildungen gehören) eine
+Menge von untereinander ahnlichen Transformationsformelsystemen.
+Diese Menge werden wir als das form ah Bild der Klasse
+bezeichnen, so dass unsere Aufgabe in der Ermittelung der Bedin-
+gungen besteht, unter denen zwei dasselbe formate Bild besitzende
+Abbildungsklassen von ft auf ft' identiscli sind.
+Urn die Lösung dieser Aufgabe formulieren zu können, konstrnieren
+wir auf ft ein der Normalbasis N entsprechendes, in O zusammen-
+hangendes kanonisclies R'dckkehrschnittsystem R, durch welches also
+ft in eine schlichte Flache f, deren Grenze g in R liegt, dabei
+übrigens einzelne Segmente von R der Fundamentalrelation ent-
+sprechend zweimal durchlaufen kann, und m je von einem Flachen-
+rande r v und einer zu R gehöiigen, r v umschliessenden ,,Rand-
+schlinge" s v begrenztew Zylinderflachen C v (v = 1, 2, . . . m) zerlegt
+wird. Weiter wahlen wir auf ft', im Falle dass diese Flache eine
+projektive Ebene ist, eine gerade Linie / durch 0' und auf /
+einen Umlaufssinn X. Im Falle dass ft' eine projektive Ebene ist,
+werden wir sodann eine Abbildung eine JSTormalabbildung nennen,
+wenn sie jeden zu R gehörigen Rückkehrschnitt ent weder in O'
+oder eineindeutig in /, und zwar das erste Mal, dass er in g
+auftritt, mit dein Umlaufssinne X transformiett.
+Die Lösung der gestellten Aufgabe gestaltet sich nunmehr folgen-
+dermassen :
