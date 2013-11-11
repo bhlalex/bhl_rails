@@ -21,7 +21,7 @@ module DAR
       end 
       harvest_event = create_harvest_event("Download empty or failed books metadata", "")
       books = Book.where("fill_metadata_fail != 0") # either 1 or null
-      harvest_event.books << books      
+      harvest_event.books << books
       download_books_metadata(harvest_event, books)
     end
     
