@@ -49,6 +49,14 @@ class BooksController < ApplicationController
         out = ""
         doc.write(out, 1)
         @format = out
+      elsif @current == 'bibtex'
+        bibtex = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).bibtex
+        bibtex = bibtex[1..-1] if bibtex[0] == "?"
+        @format = bibtex
+      elsif @current == 'endnote'
+        endnote = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).endnote
+        endnote = endnote[1..-1] if endnote[0] == "?"
+        @format = endnote
       else
         @format = 'empty for now'
       end

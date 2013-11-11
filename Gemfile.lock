@@ -95,7 +95,8 @@ GEM
     mini_portile (0.5.0)
     minitest (5.0.6)
     multi_json (1.7.7)
-    mysql2 (0.3.13)
+    mysql2 (0.3.11)
+    mysql2 (0.3.11-x86-mingw32)
     name-spotter (0.2.4)
       builder
       json
@@ -219,7 +220,7 @@ DEPENDENCIES
   jquery-rails (~> 3.0.1)
   jquery-ui-rails
   minitest
-  mysql2 (= 0.3.13)
+  mysql2 (= 0.3.11)
   name-spotter
   rails (= 3.2.9)
   rails-dev-boost
