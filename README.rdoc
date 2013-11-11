@@ -27,6 +27,7 @@ Things you need:
   13. start solr: cd solr/examples; java -jar start.jar; check it: http://localhost:8988/solr
   14. rake solr_indexer:index_all_books
   15. rake eol_names:download_all_thumbs (make sure public/thumbs exists)
+  16. rake bhl:update_empty_bibtext_endnote
   
   
 == Common issues

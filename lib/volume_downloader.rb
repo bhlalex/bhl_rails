@@ -83,7 +83,7 @@ module DAR
       
       thumb_file = BHL::Downloader.download_file(thumb_url)
       
-      return false unless thumb_file        
+      return false unless thumb_file
       
       open(file_location, 'w') do |file| 
         file.binmode # must be in binary mode
