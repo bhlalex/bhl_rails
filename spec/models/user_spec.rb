@@ -15,6 +15,7 @@ describe User do
   end
   
   it "should validate username length" do
+    User.gen(:username => "youstina").should be_valid
     lambda {User.gen(:username => "123")}.should raise_error
     lambda {User.gen(:username => "123456789012345678")}.should raise_error
   end
@@ -53,7 +54,7 @@ describe User do
   
   it 'should validate password confirmation' do
     lambda {User.gen(:entered_password => "1234", :entered_password_confirmation => "12345")}.should raise_error
-    User.gen(:entered_password => "1234", :entered_password_confirmation => "1234")
+    User.gen(:entered_password => "1234", :entered_password_confirmation => "1234").should be_valid
   end
   
   it 'should validate password hash' do
