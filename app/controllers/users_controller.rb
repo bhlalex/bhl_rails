@@ -197,10 +197,10 @@ class UsersController < ApplicationController
     
     @user = User.find(params[:id])
     
-    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
-      params[:user][:entered_password] = nil
-      params[:user][:entered_password_confirmation] = nil
-    end
+#    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
+#      params[:user][:entered_password] = nil
+#      params[:user][:entered_password_confirmation] = nil
+#    end
     if @user.update_attributes(params[:user])
       log_out
       log_in(@user) # to make sure everything is loaded properly

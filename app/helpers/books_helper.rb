@@ -54,7 +54,7 @@ module BooksHelper
     ")
     more_names = ''
     if names[0].count > MAX_NAMES_PER_BOOK
-      more_names = " and #{names[0].count - MAX_NAMES_PER_BOOK} more...";
+      more_names = " and #{names[0].count - MAX_NAMES_PER_BOOK} more..."
     end
   end
   
@@ -107,9 +107,9 @@ module BooksHelper
     string = ''
     query_array['ALL'].each do |value|
       query += query == '' ? "(bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} " +
-          "OR geo_location:#{value} OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) " 
+          "OR geo_location:#{value} OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) "
           : " AND (bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} OR geo_location:#{value} " + 
-            "OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) "
+          "OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) "
     end
     query
   end

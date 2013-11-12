@@ -20,12 +20,16 @@ class User < ActiveRecord::Base
                                :if => :entered_password # only validate if password changed!
   validates :email, :presence => true,
                     :confirmation => true,
-                    :format => @email_format_re
+                    :format => @email_format_re,
+                    :uniqueness => { :case_sensitive => false }
+                      
   validates :username, :presence => true,
-                       :length => {:within => 4..16}
+                       :length => {:within => 4..16},
+                       :uniqueness => { :case_sensitive => false }
+                         
   validates_presence_of :real_name
-  validate :ensure_unique_username
-  validate :ensure_unique_email
+#  validate :ensure_unique_username
+#  validate :ensure_unique_email
   
   # encrypt password in the database
   before_create :encrypt_password
@@ -37,13 +41,13 @@ class User < ActiveRecord::Base
     Digest::MD5.hexdigest(pwd)
   end
   
-  def ensure_unique_username
-    errors.add('username', I18n.t(:username_taken, :name => username)) unless unique_user?('username', username, id)
-  end
-  
-  def ensure_unique_email
-    errors.add('email', I18n.t(:email_taken, :email => email)) unless unique_user?('email', email, id)
-  end
+#  def ensure_unique_username
+#    errors.add('username', I18n.t(:username_taken, :name => username)) unless unique_user?('username', username, id)
+#  end
+#  
+#  def ensure_unique_email
+#    errors.add('email', I18n.t(:email_taken, :email => email)) unless unique_user?('email', email, id)
+#  end
   
   def self.authenticate(username, password)
     return nil if username.nil? || password.nil?
@@ -64,13 +68,13 @@ class User < ActiveRecord::Base
   private
   
   # returns true or false indicating if field_name is unique
-  def unique_user?(field_name, field_value, id = nil)
-    if id.nil?
-      User.count(:conditions => ["#{field_name} = ?", field_value]) == 0
-    else
-      User.count(:conditions => ["#{field_name} = ? AND id <> ?", field_value, id]) == 0
-    end
-  end
+#  def unique_user?(field_name, field_value, id = nil)
+#    if id.nil?
+#      User.count(:conditions => ["#{field_name} = ?", field_value]) == 0
+#    else
+#      User.count(:conditions => ["#{field_name} = ? AND id <> ?", field_value, id]) == 0
+#    end
+#  end
   
   def generate_uuid
     self.guid = UUIDTools::UUID.timestamp_create().to_s unless self.guid?
