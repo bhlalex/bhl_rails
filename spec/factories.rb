@@ -59,7 +59,7 @@ FactoryGirl.define do
   end
   
   factory :volume do
-    association         :book
+    association         :book #Was bookbook and changed to book Youstina 11/11/2013
     job_id              :integer
   end
 
@@ -67,9 +67,10 @@ FactoryGirl.define do
     association        :volume
   end
   
-   factory :page_name do
-    association        :name
-    association        :page
-     namestring        :string
+  
+  factory :page_name do
+    association         :page
+    association         :name
+    namestring          generate(:string) 
   end
 end

@@ -134,7 +134,7 @@ describe UsersController do
       user = User.gen
       
       get :activate, { :guid => "empty", :activation_code => "empty" }
-      response.should redirect_to("/")
+      response.should redirect_to(root_path)
       flash[:error].should_not be_blank
       
       get :activate, { :guid => "empty", :activation_code => user.verification_code }

@@ -5,8 +5,8 @@
     var type = e.options[e.selectedIndex].value;
     if(searchquery == null || searchquery == ''){
       searchquery = "_" + type + "=" + field;
-    }
-    else if(searchquery.toLowerCase().contains("_" + type.toLowerCase())){
+    } 
+    else if(searchquery.toLowerCase().indexOf("_" + type.toLowerCase()) != -1){
       searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
     }
     else{

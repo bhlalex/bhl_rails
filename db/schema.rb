@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130924125053) do
+ActiveRecord::Schema.define(:version => 20131110131029) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -81,6 +81,8 @@ ActiveRecord::Schema.define(:version => 20130924125053) do
     t.text     "mods"
     t.datetime "created_at",            :null => false
     t.datetime "updated_at",            :null => false
+    t.string   "bibtex"
+    t.string   "endnote"
   end
 
   add_index "books", ["language_id"], :name => "index_books_on_language_id"
