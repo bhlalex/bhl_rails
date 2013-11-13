@@ -71,8 +71,27 @@ class UsersController < ApplicationController
     return redirect_to root_path if @user.nil?
     
     @can_edit = @id.to_i == session[:user_id]
-    
     @page_title = @user.real_name
+    @tabs = {:profile => I18n.t(:user_profile), :history => I18n.t(:user_history)}
+    @current = params[:tab] != nil ? params[:tab] : "profile" 
+      
+    if @current == "history"
+      #load history from DB
+      @ubh = UserBookHistory.where(:user_id => @user)
+      @total_number = @ubh.count
+      @view = params[:view] ? params[:view] : 'list'
+      @page = params[:page] ? params[:page].to_i : 1
+      @lastPage = @ubh.count ? ((@ubh.count).to_f/PAGE_SIZE).ceil : 0
+      limit = PAGE_SIZE
+      offset = (@page > 1) ? (@page - 1) * limit : 0
+      @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
+      if @ubh.count == 0 and @page > 1 
+        @page = @page - 1 
+        offset = (@page > 1) ? (@page - 1) * limit : 0
+        @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
+      end
+      @url_params = params
+    end
   end
   
   # POST /users/recover_password
@@ -213,4 +232,12 @@ class UsersController < ApplicationController
     end
   end
   
+  def remove_book_history
+    voulume_id = params[:volume_id]
+    user_id = params[:user_id]
+    UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
+    
+    redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history",
+                :page => params[:page]                                        
+  end
 end
