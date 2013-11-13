@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe BooksController do
-<<<<<<< HEAD
   render_views
   include BooksHelper
   describe "GET 'index'" do
@@ -9,6 +8,9 @@ describe BooksController do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
       truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "pages", {})
+      truncate_table(ActiveRecord::Base.connection, "names", {})
+      truncate_table(ActiveRecord::Base.connection, "page_names", {})
 
       @name1 = Name.gen(:string => "sci1")
       @name2 = Name.gen(:string => "sci2")
@@ -23,6 +25,7 @@ describe BooksController do
       doc_test_first[:subject]="subject"
 
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*')
       # remove this book if exists
       solr.delete_by_query('vol_jobid:123')
       solr.commit
@@ -52,10 +55,10 @@ describe BooksController do
       @vol_second = Volume.gen(:book => @book_test_second, :job_id => '238233', :get_thumbnail_fail => 0)
       @page_second = Page.gen(:volume => @vol_second )
 
-      PageName.gen(:page => @page_second, :name => @name2, :namestring => "Name2")
-      PageName.gen(:page => @page_second, :name => @name3, :namestring => "Name3")
-      PageName.gen(:page => @page_first, :name => @name1, :namestring => "Name1")
-      PageName.gen(:page => @page_first, :name => @name2, :namestring => "Name2")
+      PageName.create(:page => @page_second, :name => @name2, :namestring => "Name2")
+      PageName.create(:page => @page_second, :name => @name3, :namestring => "Name3")
+      PageName.create(:page => @page_first, :name => @name1, :namestring => "Name1")
+      PageName.create(:page => @page_first, :name => @name2, :namestring => "Name2")
     end
 
     # check for existance of image for each book in gallery view
@@ -78,17 +81,11 @@ describe BooksController do
       response.should have_selector("div", :class => "count", :content => 2.to_s)
     end
 
-=======
-  
-  render_views
-  
-  describe "all" do
->>>>>>> 83a72abff4fb9a88ab9a7843cd8c9b8f02d36378
+
     it "returns http success" do
       get :index
       response.should be_success
     end
-<<<<<<< HEAD
 
     # check for existance of detail link for each book in list view
     it "should return detail link for each book in list view" do
@@ -221,10 +218,6 @@ describe BooksController do
       get :index, :view => "gallery"
       response.should have_selector("div", :class => "gallery")
     end
-
-=======
-    
-    
   end
 
   describe "GET 'show'" do
@@ -309,7 +302,7 @@ describe BooksController do
       it "should have an image for the book" do
         get 'show', :id => "123"
         response.should have_selector("img", :src => src="/volumes/#{@volume[:job_id]}/thumb.jpg" )
-      end
+    end
     end
       
   describe "tabs links" do
@@ -331,7 +324,7 @@ describe BooksController do
     it "should link to endnote" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/endnote", :content => I18n.t(:endnote))
-    end
+  end
   end
   
   describe "Brief tab" do
@@ -404,6 +397,6 @@ describe BooksController do
       response.should have_selector("pre", :content => "xml content")
     end
   end
->>>>>>> 83a72abff4fb9a88ab9a7843cd8c9b8f02d36378
-  end
 end
+  end
+
