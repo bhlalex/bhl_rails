@@ -62,4 +62,14 @@ FactoryGirl.define do
     association         :book
     job_id              :integer
   end
+
+  factory :page do
+    association        :volume
+  end
+  
+   factory :page_name do
+    association        :name
+    association        :page
+     namestring        :string
+  end
 end
