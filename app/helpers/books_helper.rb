@@ -54,12 +54,11 @@ module BooksHelper
     ")
     more_names = ''
     if names[0].count > MAX_NAMES_PER_BOOK
-      more_names = " <span>and #{names[0].count} more...</span>"
-      more_names.html_safe
+      more_names = " and #{names[0].count - MAX_NAMES_PER_BOOK} more..."
     end
   end
   
-  def name_tip (id, string, eol_thumb, eol_page_id)
+  def name_tip (job_id, id, string, eol_thumb, eol_page_id)
     title_tip = ''
     if eol_thumb != nil
       thumb = ATTACHMENTS_URL + THUMB_FOLDER + eol_thumb
@@ -70,11 +69,11 @@ module BooksHelper
     title_tip += "<div style='float:left'>
                     <span >#{string}</span>
                     <ul>  
-                      <li><a href='#'>Find in the book</a>"
+                      <li><a href='../books/#{job_id}/read'>Find in the book</a>"
     if eol_page_id != nil && eol_page_id > -1
       title_tip += "<li><a href='http://eol.org/pages/#{eol_page_id}'>View in EOL.org</a>"      
     end
-    title_tip += "<li><a href='#'>Books with name</a>
+    title_tip += "<li><a href='../books?_name=#{string}'>Books with name</a>
                     </ul>
                   </div>"    
     title_tip
