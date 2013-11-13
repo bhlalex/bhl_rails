@@ -4,6 +4,7 @@ class User < ActiveRecord::Base
   has_many :annotations
   has_many :queries
   has_many :books, :through => :users_books
+  has_many :histories, :dependent => :destroy
   
   before_create :generate_uuid
   

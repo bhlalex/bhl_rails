@@ -94,7 +94,7 @@ describe BooksController do
       
       it "should have an image for the book" do
         get 'show', :id => "123"
-        response.should have_selector("img", :src => src="/volumes/#{@volume[:job_id]}/thumb.jpg" )
+        response.should have_selector("img", :src => "/volumes/#{@volume[:job_id]}/thumb.jpg" )
       end
     end
       
@@ -177,7 +177,7 @@ describe BooksController do
     end
     
     #TODO recheck after fixing this bug
-    it "should contains 'and more' with the correct number when names are greater than 5" do 
+    it "should contains 'and more' with the correct number when names are greater than 5" #do 
 #      get 'show', :id => "1234"
 #      response.should have_selector("span", :content => "and 2 more...")
 #    end

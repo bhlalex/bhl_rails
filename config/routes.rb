@@ -15,6 +15,7 @@ Bhl::Application.routes.draw do
   post  "users/recover_password"
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"
   post  "users/reset_password_action"
+  get   "users/remove_book_history"
   
   # remove when how page is ready
   root :to => 'pages#about'
