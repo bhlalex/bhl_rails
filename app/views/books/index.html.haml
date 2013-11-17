@@ -1,3 +1,38 @@
+- content_for :head do
+  = stylesheet_link_tag 'jquery/themes/jquery.ui.all.css'
+  = javascript_include_tag 'jquery/jquery-1.9.1.js'
+  = javascript_include_tag 'jquery/jquery.ui.core.js'
+  = javascript_include_tag 'jquery/jquery.ui.widget.js'
+  = javascript_include_tag 'jquery/jquery.ui.position.js'
+  = javascript_include_tag 'jquery/jquery.ui.menu.js'
+  = javascript_include_tag 'jquery/jquery.ui.autocomplete.js'
+  
+  :css
+    .ui-autocomplete-loading
+      background: white url('images_en/ui-anim_basic_16x16.gif') right center no-repeat
+  
+  :javascript
+    $(document).ready(function() {
+      var cache;
+      cache = {};
+      return $("#searchfield").autocomplete({
+        minLength: 2,
+        source: function(request, response) {
+          var term;
+          term = request.term;
+          if (term in cache) {
+            response(cache[term]);
+            return;
+          }
+          return $.getJSON("/autocomplete", request, function(data, status, xhr) {
+            cache[term] = data;
+            return response(data);
+          });
+        }
+      });
+    });
+
+
 - @response['response']['docs'].each do |doc|
   - @id = doc['vol_jobid']
   - @vol = Volume.find_by_job_id(doc['vol_jobid'])

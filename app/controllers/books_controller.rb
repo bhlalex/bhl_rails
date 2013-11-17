@@ -4,8 +4,8 @@ require "rexml/document"
 class BooksController < ApplicationController
   include BooksHelper
   include SolrHelper
+  
   def index
-    
     @url_params = fix_dar_url(params)
     @page_title = "Search Results: "
     @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [], 
@@ -75,5 +75,10 @@ class BooksController < ApplicationController
       end
     end
     render layout: 'books_details'
+  end
+  
+  def autocomplete
+    @results = ["one", "two", "three"]
+    render json: @results
   end
 end

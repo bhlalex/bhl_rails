@@ -3,5 +3,6 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 # CoffeeScript
-jQuery ($) ->
-  $('.tooltip').tooltipster({ interactive: true, fixedWidth: 280})
+$(document).ready ->
+  jQuery ($) ->
+    $('.tooltip').tooltipster({ interactive: true, fixedWidth: 280})

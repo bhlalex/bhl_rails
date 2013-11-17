@@ -134,6 +134,8 @@ en:
   modify_profile: "Modify profile"
   access_denied_error: "Access denied."
   changes_saved: "Changes saved."
+  search_by: "Search By:"
+  no_books_found: "No Books Found"
   
   notifier:
     user_verification:
