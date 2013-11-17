@@ -86,11 +86,10 @@ class UsersController < ApplicationController
       offset = (@page > 1) ? (@page - 1) * limit : 0
       @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
       if @ubh.count == 0 and @page > 1 
-        @page = @page - 1 
-        offset = (@page > 1) ? (@page - 1) * limit : 0
-        @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
+        redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history",
+                       :page => params[:page].to_i - 1
       end
-      @url_params = params
+      @url_params = params.clone
     end
   end
   
