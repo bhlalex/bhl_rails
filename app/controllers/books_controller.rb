@@ -3,6 +3,7 @@ require "rexml/document"
 
 class BooksController < ApplicationController
   include BooksHelper
+  include SolrHelper
   def index
     
     @url_params = fix_dar_url(params)
@@ -21,7 +22,19 @@ class BooksController < ApplicationController
     @query = set_query_string(@query_array, false)
     
     @response = search_facet_highlight(@query, @page)
-    @lastPage = @response['response']['numFound'] ? (@response['response']['numFound']/PAGE_SIZE).ceil : 0
+    @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
+  end
+  
+  def get_terms
+    type = params[:type]
+    term = params[:value]
+    @hint = ""
+    result = autocomplete(type, term, AUTOCOMPLETE_MAX)
+    result.each do |item|
+      @hint += item.value + "#"
+    end
+    @hint = @hint.length > 0 ? @hint[0,@hint.length-1] : "No suggestion" 
+    render :layout => 'main'
   end
   
   def show
