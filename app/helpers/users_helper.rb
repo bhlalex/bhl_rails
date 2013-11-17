@@ -10,4 +10,5 @@ module UsersHelper
     tmp_params[:view] = view
     tmp_params
   end
+  
 end

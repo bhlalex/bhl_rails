@@ -10,7 +10,7 @@
     {:controller => :books, :action => :show, :id => @vol[:job_id]}
     = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => "delete", :title => "delete") , 
     {:controller => :users, :action => :remove_book_history, :volume_id => @vol[:id],
-     :user_id => @ubh_vol[:user_id], :page => @page}
+     :user_id => @ubh_vol[:user_id],:id => @ubh_vol[:user_id], :page => @page}
   %h4
     = link_to @title.html_safe , 
     {:controller => :books, :action => :show, :id => @vol[:job_id]}

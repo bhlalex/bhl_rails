@@ -2,7 +2,6 @@ class UsersController < ApplicationController
   layout 'users'
   
   include BHL::Login
-  
   # GET /users/new
   def new
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -70,26 +69,37 @@ class UsersController < ApplicationController
     @user = User.find_by_id(@id)
     return redirect_to root_path if @user.nil?
     
+    current_user = false
+    
+    current_user = true if session["user_id"].to_i == params[:id].to_i
+    
     @can_edit = @id.to_i == session[:user_id]
     @page_title = @user.real_name
-    @tabs = {:profile => I18n.t(:user_profile), :history => I18n.t(:user_history)}
-    @current = params[:tab] != nil ? params[:tab] : "profile" 
+    
+    if current_user
+      @tabs = {:profile => I18n.t(:user_profile), :history => I18n.t(:user_history)}
+    else
+      @tabs = {:profile => I18n.t(:user_profile)}
+    end
+    @current = params[:tab] != nil ? params[:tab] : "profile"
       
     if @current == "history"
-      #load history from DB
-      @ubh = UserBookHistory.where(:user_id => @user)
-      @total_number = @ubh.count
-      @view = params[:view] ? params[:view] : 'list'
-      @page = params[:page] ? params[:page].to_i : 1
-      @lastPage = @ubh.count ? ((@ubh.count).to_f/PAGE_SIZE).ceil : 0
-      limit = PAGE_SIZE
-      offset = (@page > 1) ? (@page - 1) * limit : 0
-      @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
-      if @ubh.count == 0 and @page > 1 
-        redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history",
-                       :page => params[:page].to_i - 1
+      if authenticate_user
+        #load history from DB
+        @ubh = UserBookHistory.where(:user_id => @user)
+        @total_number = @ubh.count
+        @view = params[:view] ? params[:view] : 'list'
+        @page = params[:page] ? params[:page].to_i : 1
+        @lastPage = @ubh.count ? ((@ubh.count).to_f/PAGE_SIZE).ceil : 0
+        limit = PAGE_SIZE
+        offset = (@page > 1) ? (@page - 1) * limit : 0
+        @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
+        if @ubh.count == 0 and @page > 1 
+          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history",
+          :page => params[:page].to_i - 1
+        end
+        @url_params = params.clone
       end
-      @url_params = params.clone
     end
   end
   
@@ -191,52 +201,58 @@ class UsersController < ApplicationController
   
   # GET /users/:id/edit
   def edit
-    return redirect_to :controller => :users, :action => :login unless is_loggged_in?
-    if session["user_id"].to_i != params[:id].to_i
-      flash.now[:error] = I18n.t(:access_denied_error)
-      flash.keep
-      return redirect_to :controller => :users, :action => :show, :id => params[:id]
+    if authenticate_user
+      @page_title = I18n.t(:modify_profile)
+      @verify_captcha = false
+      @user = User.find_by_id(params[:id])
+      @user.email_confirmation = @user.email
     end
-    @page_title = I18n.t(:modify_profile)
-    @verify_captcha = false
-    @user = User.find_by_id(params[:id])
-    @user.email_confirmation = @user.email
   end
   
   #PUT /users
   def update
-    return redirect_to :controller => :users, :action => :login unless is_loggged_in?
-    
-    if session["user_id"].to_i != params[:id].to_i
-      flash.now[:error] = I18n.t(:access_denied_error)
-      flash.keep
-      return redirect_to :controller => :users, :action => :show, :id => params[:id]
-    end
-    
-    @user = User.find(params[:id])
-    
+    if authenticate_user
+      @user = User.find(params[:id])
 #    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
 #      params[:user][:entered_password] = nil
 #      params[:user][:entered_password_confirmation] = nil
 #    end
-    if @user.update_attributes(params[:user])
-      log_out
-      log_in(@user) # to make sure everything is loaded properly
-      flash.now[:notice] = I18n.t("changes_saved")
-      flash.keep
-      return redirect_to :controller => :users, :action => :show, :id => params[:id]
-    else
-      flash.keep
-      render :action => :edit
+      if @user.update_attributes(params[:user])
+        log_out
+        log_in(@user) # to make sure everything is loaded properly
+        flash.now[:notice] = I18n.t("changes_saved")
+        flash.keep
+        return redirect_to :controller => :users, :action => :show, :id => params[:id]
+        else
+        flash.keep
+        render :action => :edit
+      end
     end
   end
   
   def remove_book_history
-    voulume_id = params[:volume_id]
-    user_id = params[:user_id]
-    UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
-    
-    redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history",
-                :page => params[:page]                                        
+#    debugger
+    if authenticate_user
+      voulume_id = params[:volume_id]
+      user_id = params[:user_id]
+      UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
+      redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history",
+      :page => params[:page]
+    end
+  end
+  
+  private
+  def authenticate_user
+    if !is_loggged_in?
+      redirect_to :controller => :users, :action => :login
+      return false
+    end
+    if session["user_id"].to_i != params[:id].to_i
+      flash.now[:error] = I18n.t(:access_denied_error)
+      flash.keep
+      redirect_to :controller => :users, :action => :show, :id => params[:id]
+      return false
+    end
+    return true
   end
 end
