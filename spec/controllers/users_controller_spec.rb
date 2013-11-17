@@ -45,13 +45,15 @@ describe UsersController do
     end
     
     describe "tabs" do
+      before(:each) do
+        log_in(@user)
+      end
       it "should link to profile" do
-        
         get :show, :id => @user.id
         response.should have_selector("a", :href => "/users/show/#{@user[:id]}?tab=profile", :content => I18n.t(:user_profile))
       end
       
-      it "should link to history" do
+      it "should link to history when user is logged in" do
         get :show, :id => @user.id
         response.should have_selector("a", :href => "/users/show/#{@user[:id]}?tab=history", :content => I18n.t(:user_history))
       end
@@ -97,24 +99,27 @@ describe UsersController do
           solr.commit
     
           @book_test_second = Book.gen(:title => 'Test Book Second', :bibid => '456')
-          @vol_second = Volume.gen(:book => @book_test_second, :job_id => '238233', :get_thumbnail_fail => 0)
+          @vol_second = Volume.gen(:book_id => @book_test_second.id, :job_id => '238233', :get_thumbnail_fail => 0)
           
           UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :last_visited_date => Time.now)
           UserBookHistory.create(:volume_id => @vol_second.id, :user_id => @user.id, :last_visited_date => Time.now)
+        end
+        it "should not exists if user is not logged in" do
+          log_out
+          get :show, :id => @user.id, :tab => "history"
+          response.should redirect_to :controller => :users, :action => :login
         end
         # check for books count
         it "should have item count equal to the total number of books" do
           get :show, :id => @user.id, :tab => "history"
           response.should have_selector("div", :class => "count", :content => 2.to_s)
-        end       
-        
+        end
         # check for existance of gallery and list view options
         it "should have links for gallery and list views" do
           get :show, :id => @user.id, :tab => "history"
           response.should have_selector('a', :href => "/users/show/1?id=1&tab=history&view=list")
           response.should have_selector("a", :href => "/users/show/1?id=1&tab=history&view=gallery")
         end
-   
         it "should have images for gallery and list views" do
           get :show, :id => @user.id, :tab => "history"
           response.should have_selector("a>img", :src => "/images_en/list.png")
@@ -153,21 +158,28 @@ describe UsersController do
            response.should have_selector('img', :src => "/images_en/learn.png")
          end
          
-         # delete link
+        # delete link
         describe "'delete link'" do
-          it "should delete history when click on delete link" do
-            get "remove_book_history", :page => 1, :tab => "history", :user_id => @user.id, :volume_id => 1 
+          it "should delete history and decrease the number of books found when click on delete link" do
+            get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1 
             response.should redirect_to :controller => :users, :action => :show, :id => 1, 
             :tab => "history", :page => 1
             get :show, :id => 1, :tab => "history", :page => 1
             response.should have_selector("div", :class => "count", :content => 1.to_s)
           end
-          
           it "should have delete image" do
+            log_in(@user)
+            get :show, :id => @user.id, :tab => "history", :view => "list"
             response.should have_selector("img", :src => "/images_en/close.png")
           end
           
-          describe "pagination" do
+          it "should not delete when user is not logged in" do
+            log_out
+            get "remove_book_history", :page => 1, :tab => "history", :user_id => @user.id, :volume_id => 1 
+            response.should redirect_to :controller => :users, :action => :login
+          end
+          
+          describe "'pagination'" do
             before(:each) do
               truncate_table(ActiveRecord::Base.connection, "books", {})
               truncate_table(ActiveRecord::Base.connection, "volumes", {})
@@ -188,24 +200,24 @@ describe UsersController do
                 solr.add doc_test
                 solr.commit  
                 @book = Book.gen(:title => 'Test Book', :bibid => '456')
-                @volume = Volume.gen(:book => @book_test, :job_id => i.to_s, :get_thumbnail_fail => 0)
+                @volume = Volume.gen(:book_id => @book.id, :job_id => i.to_s, :get_thumbnail_fail => 0)
                 UserBookHistory.create(:user_id => @user.id, :volume_id => @volume.id, :last_visited_date => Time.now)
               }
             end
             it "shoudl redirect to the same page" do
-              get "remove_book_history", :page => 2, :tab => "history", :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-              response.should redirect_to :controller => :users, :action => :show, :id => 1, 
+              get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+              response.should redirect_to :controller => :users, :action => :show, :id => @user.id, 
               :tab => "history", :page => 2
             end
             
             it "should fix pagination after deleting the last book in current page" do
-              get "remove_book_history", :page => 2, :tab => "history", :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-              response.should redirect_to :controller => :users, :action => :show, :id => 1, 
-              :tab => "history", :page => 2
-              get "show", :user_id => @user.id, :id => @user.id, :page => 2, :tab => "history"
+              get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+              get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+#              http://localhost:3000/users/show/34?page=1&tab=history
+              get :show, :id => @user.id,:page => 2, :tab => "history", :view => "list"
               response.should redirect_to :controller => :users, :action => :show, :id => 1, 
               :tab => "history", :page => 1
-            end           
+            end
           end
          end
         end
