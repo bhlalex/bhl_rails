@@ -24,10 +24,7 @@
   %option{:value => "name"} Tagged Species
   %option{:value => "subject"} Genre
   %option{:value => "content"} Content
-- jsquery = set_query_string(@query_array, true)
-- # TODO: add autocomplete to searchfield using jquery
-%input#searchfield{:size => "30", :style => "color: rgb(153, 153, 153);", :type => "text", 
-  :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value);return false;}"} 
-= link_to "Search" , "", :onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;" , 
-  :class => "search" 
+
+%input#searchfield{:size => "30", :style => "color: rgb(153, 153, 153);", :type => "text"} 
+= link_to "Search" , "", :class => "search" 
  

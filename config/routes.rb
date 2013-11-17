@@ -25,6 +25,7 @@ Bhl::Application.routes.draw do
   match "browse/:type" => "browse#show"
   match "browse/:type/:char" => "browse#show" 
   
+  match "/autocomplete" => "books#autocomplete"
   match "/books/:id" => "books#show"
   match "/books/:id/:tab" => "books#show"
   
