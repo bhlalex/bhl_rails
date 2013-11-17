@@ -62,10 +62,11 @@ FactoryGirl.define do
     association         :book #Was bookbook and changed to book Youstina 11/11/2013
     job_id              :integer
   end
-  
+
   factory :page do
-    association         :volume
+    association        :volume
   end
+  
   
   factory :page_name do
     association         :page
