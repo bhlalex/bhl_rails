@@ -1,4 +1,5 @@
 Bhl::Application.routes.draw do
+  resources :collections
   resources :books, only: [:index, :show]
   resources :ubio#, only[:index]
   resources :browse
