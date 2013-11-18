@@ -3,6 +3,7 @@ require 'spec_helper'
 describe BooksController do
   render_views
   include BooksHelper
+  include BHL::Login
   describe "GET 'index'" do
 
     before(:each) do
@@ -32,7 +33,7 @@ describe BooksController do
       solr.add doc_test_first
       solr.commit
 
-      @book_test_first = Book.gen(:title => 'Test Book second', :bibid => '456')
+      @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
       @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
       @page_first = Page.gen(:volume => @vol_first )
 
@@ -265,7 +266,7 @@ describe BooksController do
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring4" ), :namestring => "teststring4")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring5" ), :namestring => "teststring5")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring6" ), :namestring => "teststring6")
-#      
+
       doc = {:vol_jobid => "12345", :bok_bibid => "45678"}
       doc[:bok_title] = "Test Book 3"
       doc[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
@@ -278,9 +279,22 @@ describe BooksController do
       
       @book_with_one_name= Book.gen(:title => "Test Book 3", :bibid => "45678", :mods => "<xml>xml content</xml>")
       @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
-         
     end
-
+    
+    it "should add record in history table" do
+      truncate_table(ActiveRecord::Base.connection, "users", {})
+      truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
+      User.gen() unless User.first
+      @user = User.first
+      log_out 
+      log_in(@user)
+      history = UserBookHistory.where(:user_id => @user.id)
+      history.count.should eq(0)
+      get 'show', :id => "123"
+      history = UserBookHistory.where(:user_id => @user.id)
+      history.count.should eq(1)
+    end
+    
     it "should be successful" do
       get 'show', :id => "123"
       response.should be_success
@@ -301,8 +315,8 @@ describe BooksController do
       
       it "should have an image for the book" do
         get 'show', :id => "123"
-        response.should have_selector("img", :src => src="/volumes/#{@volume[:job_id]}/thumb.jpg" )
-    end
+        response.should have_selector("img", :src => "/volumes/#{@volume[:job_id]}/thumb.jpg" )
+      end
     end
       
   describe "tabs links" do

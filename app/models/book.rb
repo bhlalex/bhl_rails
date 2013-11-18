@@ -17,6 +17,8 @@ class Book < ActiveRecord::Base
   
   has_many :volumes
   
+  has_many :histories, :dependent => :destroy
+  
   attr_accessible :bibid, :collection, :contributor, :edition, :end_date, :fill_metadata_fail
   attr_accessible :format_extent, :generate_format_fail, :metadata_index_status, :note, :publisher
   attr_accessible :start_date, :title, :title_alternative, :mods, :volumes

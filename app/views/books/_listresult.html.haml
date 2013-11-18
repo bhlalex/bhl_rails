@@ -1,16 +1,24 @@
-.thumb
-  = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id]}
+- if visited_volume?(@user_history, @vol)
+  .visitedthumb
+    %span
+    = link_to image_tag("/#{@thumb}", :width => 109, :border => 0), 
+      {:controller => :books, :action => :show, :id => @vol[:job_id]}
+   
+- else
+  .thumb
+    = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
+      {:controller => :books, :action => :show, :id => @vol[:job_id]}
+
 .newscontent
   .sidelinks
     = link_to image_tag("/images_#{I18n.locale}/read.png", :alt => "read", :title => "read") , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+      {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
     = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "details", :title => "details") , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id]}
+      {:controller => :books, :action => :show, :id => @vol[:job_id]}
   %h4
     - # TODO: Add highlights
     = link_to @title.html_safe , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id]}
+      {:controller => :books, :action => :show, :id => @vol[:job_id]}
   .description
     - if(@doc['author'] != nil)
       = render :partial => "books/bookauthors"
