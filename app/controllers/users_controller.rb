@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   layout 'users'
   
   include BHL::Login
+  include BooksHelper
   
   # GET /users/new
   def new
@@ -69,7 +70,16 @@ class UsersController < ApplicationController
     return redirect_to root_path if @id.nil?
     @user = User.find_by_id(@id)
     return redirect_to root_path if @user.nil?
-    
+    # load user saved queries
+    @queries = @user.queries.order('created_at DESC')
+    @page = params[:page] ? params[:page].to_i : 1
+    @lastPage = @queries ? (@queries.length/PAGE_SIZE).ceil : 0
+    @url_params = fix_dar_url(params)
+      # end
+    # load user profile tabs
+    @tabs = {:general => I18n.t(:general), :annotations => I18n.t(:annotations), :saved_queries => I18n.t(:saved_queries), :recently_viewed => I18n.t(:recently_viewed)}
+    @current = params[:tab] != nil ? params[:tab] : 'general' 
+    #end
     @can_edit = @id.to_i == session[:user_id]
     
     @page_title = @user.real_name

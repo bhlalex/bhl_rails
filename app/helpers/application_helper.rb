@@ -26,4 +26,18 @@ module ApplicationHelper
     response = solr.find :q => '*:*', :facet => true, 'facet.field' => field_name, 'rows' => 0
     response.facets.first.items.count
   end
+
+  # walaa
+
+  def parse_query(query_string)
+    parsed_query='/books?'
+    sub_queries = query_string.split("and")
+    sub_queries.each do |sub_query|
+      terms = sub_query.split(":")
+      parsed_query+= "_" + terms[0] + "=" + terms[1][1..terms[1].length-2]
+      parsed_query+= "&" if(sub_queries.length != 1)
+    end
+    parsed_query
+  end
+# walaa
 end

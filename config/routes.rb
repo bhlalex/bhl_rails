@@ -1,4 +1,7 @@
 Bhl::Application.routes.draw do
+  post   "user_search_history/save_query"
+  delete  "user_search_history/delete_query"
+  resources :user_search_history
   resources :books, only: [:index, :show]
   resources :ubio#, only[:index]
   resources :browse
@@ -12,6 +15,7 @@ Bhl::Application.routes.draw do
   get   "users/my_account"
   post  "users/validate"
   match "users/show/:id" => "users#show"
+  match "/users/:id/:tab" => "users#show"
   post  "users/recover_password"
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"
   post  "users/reset_password_action"

@@ -1,0 +1,15 @@
+%table
+  %header
+    %th
+      %strong Query Content
+    %th
+      %strong Query Date
+    %th
+      %strong Show result
+    %th
+      %strong Delete from history
+  %tbody
+    = render @queries
+- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+  - @pages = adjustPaging(@page, @lastPage)
+  = render :partial => "books/paging"
