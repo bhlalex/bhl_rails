@@ -136,7 +136,8 @@ en:
   changes_saved: "Changes saved."
   user_profile: "Profile"
   user_history: "History"
-  last_visited_date: Last visited 
+  last_visited_date: "Last visited" 
+  user_collections: "Collections"
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
