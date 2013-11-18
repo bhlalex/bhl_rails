@@ -1,6 +1,9 @@
 class Book < ActiveRecord::Base
   belongs_to :language
   
+  has_many :book_collections
+  has_many :collections, :through => :book_collections
+  
   has_many :book_authors
   has_many :authors, :through => :book_authors 
   
