@@ -134,7 +134,9 @@ en:
   modify_profile: "Modify profile"
   access_denied_error: "Access denied."
   changes_saved: "Changes saved."
-  
+  user_profile: "Profile"
+  user_history: "History"
+  last_visited_date: Last visited 
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
