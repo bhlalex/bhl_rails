@@ -7,7 +7,6 @@ namespace :taxon_finder do
     tf_client = NameSpotter::TaxonFinderClient.new(host: NAME_SPOTTER_IP, port: NAME_SPOTTER_PORT)
     tf_name_spotter = NameSpotter.new(tf_client)
     
-    #pages = Page.where("id<5933")
     pages = Page.where("fill_names_fail is null")
     pages_count = pages.count
     
@@ -15,7 +14,7 @@ namespace :taxon_finder do
       
       puts "#{index+1}/#{pages_count}"
       
-      file_location = File.join(Rails.root, "public", "volumes", "#{page.volume.job_id.to_s}","pages", "#{page.page_number}.txt") 
+      file_location = File.join(Rails.root, "public", "volumes", "#{page.volume.job_id.to_s}","pages", "#{page.page_number}.txt")
       # removing old association
       PageName.where(:page_id => page.id).destroy_all      
       

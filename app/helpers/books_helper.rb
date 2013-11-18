@@ -21,12 +21,12 @@ module BooksHelper
   end
   
   def item_count_format (type, item)
-    format = item + ' (' + item_count(type, item).to_s + ')'    
+    format = item + ' (' + item_count(type, item).to_s + ')'
   end
   
   #for displaying highlighted items with count resulted from solr search
   def item_count_format_highlight (type, item, display)
-    format = display.html_safe + ' (' + item_count(type, item).to_s + ')'    
+    format = display.html_safe + ' (' + item_count(type, item).to_s + ')'
   end
   
   def book_names (vol_jobid)
@@ -71,7 +71,7 @@ module BooksHelper
                     <ul>  
                       <li><a href='../books/#{job_id}/read'>Find in the book</a>"
     if eol_page_id != nil && eol_page_id > -1
-      title_tip += "<li><a href='http://eol.org/pages/#{eol_page_id}'>View in EOL.org</a>"      
+      title_tip += "<li><a href='http://eol.org/pages/#{eol_page_id}'>View in EOL.org</a>"
     end
     title_tip += "<li><a href='../books?_name=#{string}'>Books with name</a>
                     </ul>
@@ -135,7 +135,7 @@ module BooksHelper
             count += 1
           end
         else
-          query = searchAllQuery(query_array)         
+          query = searchAllQuery(query_array)
         end
       end
       query_array.each do |key, value|
@@ -255,6 +255,7 @@ module BooksHelper
     tmp_params.delete("utf8")
     tmp_params
   end
+  
   def search_view(params, view)
     params[:view] = view
     params[:controller] = nil
@@ -295,6 +296,7 @@ module BooksHelper
     end
     pages
   end
+  
   def generateHRef(pageNumber, params)
     tmp_params = params.clone
     controller = params[:controller]
