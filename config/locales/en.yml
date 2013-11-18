@@ -137,6 +137,8 @@ en:
   last_visited_date: "Last visited"
   search_results_colon: "Search Results: "
   selection_all_option: "All"
+  user_collections: "Collections"
+
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
