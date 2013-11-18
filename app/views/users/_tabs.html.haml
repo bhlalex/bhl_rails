@@ -1,0 +1,11 @@
+.page
+  .page_border
+    .tabcontent
+    %ul.tabs
+      - @tabs.each do |tab, value|
+        - if tab.to_s == @current
+          %li.current
+            = link_to value, {:tab => tab}
+        - else
+          %li
+            = link_to value, {:tab => tab}

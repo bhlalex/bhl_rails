@@ -84,10 +84,8 @@ en:
   browse_subject_page_header: 'Subjects'
   browse_author_page_header: 'Authors'
   browse_all: 'ALL'
-
   list_view: 'List View'
   gallery_view: 'Gallery View'
-
   tree_of_life_title: 'Tree of Life'
   species_details: 'Species Details'
   name_found_in_books:
@@ -134,7 +132,11 @@ en:
   modify_profile: "Modify profile"
   access_denied_error: "Access denied."
   changes_saved: "Changes saved."
-  
+  user_profile: "Profile"
+  user_history: "History"
+  last_visited_date: "Last visited"
+  search_results_colon: "Search Results: "
+  selection_all_option: "All"
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
@@ -145,13 +147,13 @@ en:
     user_recover_account:
       subject: "Recover your BHL account"
       message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.<br><br>Your username is: <b>%{@username}</b><br><br>The following link provides a one time log in to allow you to change your password:<br><br>%{reset_password_url}"
-      
+  
   date:
     formats:
       default: "%d/%m/%Y - %I:%M %p"
       short: "%b %d"
       long: "%B %d, %Y"
-      short_no_time: "%m/%d/%Y"      
+      short_no_time: "%m/%d/%Y"
 
   activerecord:
     errors:

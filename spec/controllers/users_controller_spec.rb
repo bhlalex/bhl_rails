@@ -5,14 +5,18 @@ include BHL::Login
 
 describe UsersController do
   
+  render_views
+  
   before(:each) do
     truncate_table(ActiveRecord::Base.connection, "users", {})
     User.gen() unless User.first
     @user = User.first
     log_out # to make sure the session is cleared
   end
-
+  
+  
   describe 'GET new' do
+    
     it "returns http success" do
       get :new
       response.should be_success
@@ -30,9 +34,213 @@ describe UsersController do
   end
   
   describe 'GET show' do
+    
+    before(:each) do
+      log_in(@user)
+    end
+    
     it 'should render show' do
       get :show, { :id => @user.id }
       response.should render_template('users/show')
+    end
+    
+    describe "tabs" do
+      before(:each) do
+        log_in(@user)
+      end
+      it "should link to profile" do
+        get :show, :id => @user.id
+        response.should have_selector("a", :href => "/users/show/#{@user[:id]}?tab=profile", :content => I18n.t(:user_profile))
+      end
+      
+      it "should link to history when user is logged in" do
+        get :show, :id => @user.id
+        response.should have_selector("a", :href => "/users/show/#{@user[:id]}?tab=history", :content => I18n.t(:user_history))
+      end
+      
+      describe "'history tab'" do
+        
+        before(:each) do
+          truncate_table(ActiveRecord::Base.connection, "books", {})
+          truncate_table(ActiveRecord::Base.connection, "volumes", {})
+          truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
+          doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
+          doc_test_first[:bok_title] = "Test Book First"
+          doc_test_first[:name] = ["Name1","Name2"]
+          doc_test_first[:author] = "Author"
+          doc_test_first[:bok_language]="English"
+          doc_test_first[:geo_location]="Egypt"
+          doc_test_first[:subject]="subject"
+    
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          solr.delete_by_query('*:*')
+          # remove this book if exists
+          solr.delete_by_query('vol_jobid:123')
+          solr.commit
+          solr.add doc_test_first
+          solr.commit
+    
+          @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
+          @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
+    
+          doc_test_second = {:vol_jobid => "238233", :bok_bibid => "456"}
+          doc_test_second[:bok_title] = "Test Book Second"
+          doc_test_second[:name] = ["Name2","Name3"]
+          doc_test_second[:author] = "Author"
+          doc_test_second[:bok_language]="English"
+          doc_test_second[:geo_location]="Egypt"
+          doc_test_second[:subject]="subject"
+    
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          # remove this book if exists
+          solr.delete_by_query('vol_jobid:238233')
+          solr.commit
+          solr.add doc_test_second
+          solr.commit
+    
+          @book_test_second = Book.gen(:title => 'Test Book Second', :bibid => '456')
+          @vol_second = Volume.gen(:book_id => @book_test_second.id, :job_id => '238233', :get_thumbnail_fail => 0)
+          
+          UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :last_visited_date => Time.now)
+          UserBookHistory.create(:volume_id => @vol_second.id, :user_id => @user.id, :last_visited_date => Time.now)
+        end
+        it "should not exists if user is not logged in" do
+          log_out
+          get :show, :id => @user.id, :tab => "history"
+          response.should redirect_to :controller => :users, :action => :login
+        end
+        # check for books count
+        it "should have item count equal to the total number of books" do
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector("div", :class => "count", :content => 2.to_s)
+        end
+        # check for existance of gallery and list view options
+        it "should have links for gallery and list views" do
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector('a', :href => "/users/show/1?id=1&tab=history&view=list")
+          response.should have_selector("a", :href => "/users/show/1?id=1&tab=history&view=gallery")
+        end
+        it "should have images for gallery and list views" do
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector("a>img", :src => "/images_en/list.png")
+          response.should have_selector("a>img", :src => "/images_en/gallery.png")
+        end
+           
+        describe "'list view'" do
+          
+          before(:each) do
+            get :show, :id => @user.id, :tab => "history", :view => "list"
+          end
+          
+          # check for existance of image for each book in list view
+          it "should have an image for each book" do
+            response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
+            response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
+          end
+          
+          # check for existance of detail link for each book_title in list view
+          it "should have book title that links for details" do
+            response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
+            response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
+          end
+          
+          # check for existance of read and detail links for each book in list view
+          it "should have read and detail links for each book" do
+            response.should have_selector('a', :href => "/books/123/read")
+            response.should have_selector('a', :href => "/books/123")
+            response.should have_selector('a', :href => "/books/238233/read")
+            response.should have_selector('a', :href => "/books/238233")
+          end
+          
+          # check for existance of read and detail images for each book in list view
+         it "should have read and detail images for each book in list view" do
+           response.should have_selector('img', :src => "/images_en/read.png")
+           response.should have_selector('img', :src => "/images_en/learn.png")
+         end
+         
+        # delete link
+        describe "'delete link'" do
+          it "should delete history and decrease the number of books found when click on delete link" do
+            get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1 
+            response.should redirect_to :controller => :users, :action => :show, :id => 1, 
+            :tab => "history", :page => 1
+            get :show, :id => 1, :tab => "history", :page => 1
+            response.should have_selector("div", :class => "count", :content => 1.to_s)
+          end
+          it "should have delete image" do
+            log_in(@user)
+            get :show, :id => @user.id, :tab => "history", :view => "list"
+            response.should have_selector("img", :src => "/images_en/close.png")
+          end
+          
+          it "should not delete when user is not logged in" do
+            log_out
+            get "remove_book_history", :page => 1, :tab => "history", :user_id => @user.id, :volume_id => 1 
+            response.should redirect_to :controller => :users, :action => :login
+          end
+          
+          describe "'pagination'" do
+            before(:each) do
+              truncate_table(ActiveRecord::Base.connection, "books", {})
+              truncate_table(ActiveRecord::Base.connection, "volumes", {})
+              truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
+              solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+              12.times{ |i|
+                doc_test = {:vol_jobid => i.to_s, :bok_bibid => "456"}
+                doc_test[:bok_title] = "Test Book"
+                #doc_test_first[:name] = "Test Name"
+                doc_test[:author] = "Author"
+                doc_test[:bok_language]="English"
+                doc_test[:geo_location]="Egypt"
+                doc_test[:subject]="subject"
+                
+                # remove this book if exists
+                solr.delete_by_query('vol_jobid:'+i.to_s)
+                solr.commit
+                solr.add doc_test
+                solr.commit  
+                @book = Book.gen(:title => 'Test Book', :bibid => '456')
+                @volume = Volume.gen(:book_id => @book.id, :job_id => i.to_s, :get_thumbnail_fail => 0)
+                UserBookHistory.create(:user_id => @user.id, :volume_id => @volume.id, :last_visited_date => Time.now)
+              }
+            end
+            it "shoudl redirect to the same page" do
+              get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+              response.should redirect_to :controller => :users, :action => :show, :id => @user.id, 
+              :tab => "history", :page => 2
+            end
+            
+            it "should fix pagination after deleting the last book in current page" do
+              get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+              get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+#              http://localhost:3000/users/show/34?page=1&tab=history
+              get :show, :id => @user.id,:page => 2, :tab => "history", :view => "list"
+              response.should redirect_to :controller => :users, :action => :show, :id => 1, 
+              :tab => "history", :page => 1
+            end
+          end
+         end
+        end
+        
+        describe "'gallery view'" do
+          
+          before(:each) do
+            get :show, :id => @user.id, :tab => "history", :view => "gallery"
+          end
+          
+          # check for existance of image for each book in gallery view
+          it "should have an image for each book" do
+            response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
+            response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
+          end
+       
+          # check for existance of detail link for each book in gallery view
+          it "should have detail link for each book" do
+            response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
+            response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
+          end
+        end
+      end
     end
   end
   
@@ -365,4 +573,6 @@ describe UsersController do
       expect(response).to render_template "users/edit"
     end
   end
+  
+  
 end

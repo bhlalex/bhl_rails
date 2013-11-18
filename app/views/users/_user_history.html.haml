@@ -1,0 +1,26 @@
+.page
+  .page_border
+    - if (@ubh != '' && @total_number > 0)
+      .count
+        = "Found #{pluralize(@total_number, "Book")} "
+        %span 
+          = link_to image_tag("/images_#{I18n.locale}/list.png", :alt => I18n.t(:list_view), :title => I18n.t(:list_view), :width => 15, :height => 14), 
+          {:params => set_view(params, 'list')}
+          = link_to image_tag("/images_#{I18n.locale}/gallery.png", :alt => I18n.t(:gallery_view), :title => I18n.t(:gallery_view), :width => 15, :height => 14), 
+          {:params => set_view(params, 'gallery')}
+      - @ubh.each do |ubh_vol|
+        - @ubh_vol = ubh_vol
+        - @vol = Volume.find_by_id(@ubh_vol.volume)
+        - @title = Book.find_by_id(@vol.book_id).title
+        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+        
+        - if(@view == 'gallery')
+          = render :partial => "users/galleryresult"
+        - else
+          = render :partial => "users/listresult"
+      - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+        - @pages = adjustPaging(@page, @lastPage)
+        = render :partial => "books/paging"
+    - else
+      No Books Found
+    
