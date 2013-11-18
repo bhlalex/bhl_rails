@@ -19,6 +19,41 @@ module ApplicationHelper
     get_item_count('name_ss')
   end
   
+  # move this to here as both book and user pages need it
+  def adjustPaging (page, lastPage)
+   pages = []
+   count = 0
+   pageCountDisplay = 3
+   # 1 2 <3> 4 5
+   if(page - pageCountDisplay > 0 && page + pageCountDisplay <= lastPage)
+     i = page - pageCountDisplay + 1
+     while count < pageCountDisplay * 2 do #for ($i = $page - $pageCountDisplay + 1; $count < $pageCountDisplay * 2; $i++)
+       pages << i
+       count += 1
+       i += 1
+     end
+   elsif(page - pageCountDisplay <= 0 && page + pageCountDisplay > lastPage) # <1> 2
+     i = 2
+     while i <= lastPage - 1 do #for($i = 2; $i <= $lastPage - 1; $i++)
+       pages << i
+       i += 1
+     end
+   elsif(page - pageCountDisplay <= 0 && page + pageCountDisplay <= lastPage)# <1> 2 3 4 5
+     i = 2
+     while i < pageCountDisplay * 2 && i < lastPage do #for ($i = 2; $i < $pageCountDisplay * 2 && $i < $lastPage; $i++)
+       pages << i
+       i += 1
+     end
+   elsif(page - pageCountDisplay >= 0 && page + pageCountDisplay > lastPage) # 2 3 4 5 <6>
+     i = page - pageCountDisplay + 1
+     while i <= lastPage - 1 do # for ($i = $page - $pageCountDisplay + 1; $i <= $lastPage-1; $i++)
+       pages << i
+       i += 1
+     end
+   end
+   pages
+ end
+   
   private
   def get_item_count(field_name)
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
