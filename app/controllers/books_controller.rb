@@ -25,18 +25,6 @@ class BooksController < ApplicationController
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
   
-  def get_terms
-    type = params[:type]
-    term = params[:value]
-    @hint = ""
-    result = autocomplete(type, term, AUTOCOMPLETE_MAX)
-    result.each do |item|
-      @hint += item.value + "#"
-    end
-    @hint = @hint.length > 0 ? @hint[0,@hint.length-1] : "No suggestion" 
-    render :layout => 'main'
-  end
-  
   def show
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
@@ -78,7 +66,16 @@ class BooksController < ApplicationController
   end
   
   def autocomplete
-    @results = ["one", "two", "three"]
+    type = params[:type]
+    term = params[:term]
+    @results = []
+    response = solr_autocomplete(type, term, AUTOCOMPLETE_MAX)
+    response.each do |item|
+      @results << item.value
+    end 
+    if (@results.length == 0)
+      @results << "No Suggestion"
+    end
     render json: @results
   end
 end

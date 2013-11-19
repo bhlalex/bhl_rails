@@ -24,7 +24,9 @@
             response(cache[term]);
             return;
           }
-          return $.getJSON("/autocomplete", request, function(data, status, xhr) {
+          search_by = $("#searchby").val();
+          searchfield = $("#searchfield").val();
+          return $.getJSON("/autocomplete?type=" + search_by, request, function(data, status, xhr) {
             cache[term] = data;
             return response(data);
           });
@@ -36,7 +38,7 @@
 - @response['response']['docs'].each do |doc|
   - @id = doc['vol_jobid']
   - @vol = Volume.find_by_job_id(doc['vol_jobid'])
-  - if (@vol != nil) #check with Kamal why there is a "Test book in solr"
+  - if (@vol != nil)
     - @highlight = @response['highlighting'][@id.to_s]
     - #@title = doc['bok_title'][0]
     - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
