@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131110131029) do
+ActiveRecord::Schema.define(:version => 20131118080901) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -49,6 +49,18 @@ ActiveRecord::Schema.define(:version => 20131110131029) do
 
   add_index "book_authors", ["author_id"], :name => "index_book_authors_on_author_id"
   add_index "book_authors", ["book_id"], :name => "index_book_authors_on_book_id"
+
+  create_table "book_collections", :force => true do |t|
+    t.integer  "book_id"
+    t.integer  "collection_id"
+    t.integer  "order"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "book_collections", ["book_id"], :name => "index_book_collections_on_book_id"
+  add_index "book_collections", ["collection_id"], :name => "index_book_collections_on_collection_id"
+  add_index "book_collections", ["order"], :name => "index_book_collections_on_order"
 
   create_table "book_subjects", :id => false, :force => true do |t|
     t.integer  "book_id"
@@ -94,6 +106,19 @@ ActiveRecord::Schema.define(:version => 20131110131029) do
 
   add_index "books_locations", ["book_id"], :name => "index_books_locations_on_book_id"
   add_index "books_locations", ["location_id"], :name => "index_books_locations_on_location_id"
+
+  create_table "collections", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "title"
+    t.string   "description"
+    t.boolean  "status"
+    t.datetime "last_modified_date"
+    t.datetime "creation_date"
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+  end
+
+  add_index "collections", ["user_id"], :name => "index_collections_on_user_id"
 
   create_table "countries", :force => true do |t|
     t.string   "name"
@@ -201,6 +226,17 @@ ActiveRecord::Schema.define(:version => 20131110131029) do
   end
 
   add_index "subjects", ["location_id"], :name => "index_subjects_on_location_id"
+
+  create_table "user_book_histories", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "volume_id"
+    t.datetime "last_visited_date"
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+  end
+
+  add_index "user_book_histories", ["user_id"], :name => "index_user_book_histories_on_user_id"
+  add_index "user_book_histories", ["volume_id"], :name => "index_user_book_histories_on_volume_id"
 
   create_table "user_books", :id => false, :force => true do |t|
     t.integer  "user_id"

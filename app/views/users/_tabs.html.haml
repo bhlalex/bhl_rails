@@ -1,0 +1,17 @@
+.r_column
+  .box_1
+    .bookimage{:align => "center"}
+      =image_tag "/#{@thumb}"
+      =link_to I18n.t(:read_book_link), "/books/#{params[:id]}/read"
+
+.page
+  .page_border
+    .tabcontent
+    %ul.tabs
+      - @tabs.each do |tab, value|
+        - if tab.to_s == @current
+          %li.current
+            = link_to value, {:tab => tab}
+        - else
+          %li
+            = link_to value, {:tab => tab}
