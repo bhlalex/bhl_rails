@@ -15,16 +15,27 @@
     window.location = window.location.href.split('?')[0] + "?" + searchquery;
   }
 %select#searchby
-  %option{:value => "ALL"} ALL
-  %option{:value => "title", :selected => true} Title
-  %option{:value => "language"} Language
-  %option{:value => "published_at"} Publish Place
-  %option{:value => "geo_location"} Regional Affiliation
-  %option{:value => "author"} Author
-  %option{:value => "name"} Tagged Species
-  %option{:value => "subject"} Genre
-  %option{:value => "content"} Content
+  %option{:value => "ALL"} 
+    = I18n.t(:option_all)
+  %option{:value => "title", :selected => true} 
+    = I18n.t(:option_title)
+  %option{:value => "language"} 
+    = I18n.t(:option_language)
+  %option{:value => "published_at"} 
+    = I18n.t(:option_publish_place)
+  %option{:value => "geo_location"} 
+    = I18n.t(:option_regional_affiliation)
+  %option{:value => "author"} 
+    = I18n.t(:option_author)
+  %option{:value => "name"} 
+    = I18n.t(:option_tagged_species)
+  %option{:value => "subject"} 
+    = I18n.t(:option_genre)
+  %option{:value => "content"} 
+    = I18n.t(:option_content)
 
-%input#searchfield{:size => "30", :style => "color: rgb(153, 153, 153);", :type => "text"} 
-= link_to "Search" , "", :class => "search" 
- 
+- jsquery = set_query_string(@query_array, true)
+%input#searchfield{:size => "30", :style => "color: rgb(153, 153, 153);", :type => "text", :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value);return false;}"} 
+  
+= link_to "Search" , "", :onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;" , 
+  :class => "search"

@@ -87,7 +87,22 @@ en:
 
   list_view: 'List View'
   gallery_view: 'Gallery View'
-
+  
+  read_icon: 'read'
+  details_icon: 'details'
+  books_found:
+    zero:  "Found in no books"
+    one:   "Found in one book"
+    other: "Found in %{count} books"
+  option_all: "ALL"
+  option_title: "Title"
+  option_language: "Language"
+  option_publish_place: "Publish Place"
+  option_regional_affiliation: "Regional Affiliation"
+  option_author: "Author"
+  option_tagged_species: "Tagged Species"
+  option_genre: "Genre"
+  option_content: "Content" 
   tree_of_life_title: 'Tree of Life'
   species_details: 'Species Details'
   name_found_in_books:
