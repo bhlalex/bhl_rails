@@ -1,20 +1,10 @@
-%b
-  = I18n.t(:real_name)
+= render :partial => "users/tabs"
 %br
-= best_in_place_if @can_edit, @user, :real_name, :type => :input
-%br
-%br
-%b
-  = I18n.t(:member_since)
-%br
-= @user.created_at.to_s
-%br
-%br
-%b
-  = I18n.t(:last_login)
-%br
-= @user.last_login.to_s
-%br
-%br
-- if session["user_id"] == @user.id
-  = link_to I18n.t(:modify_profile), :controller => :users ,:action => :edit, :id => @user.id
+- if @current == 'recently_viewed'
+  = render :partial => "users/user_history"
+- elsif @current == 'profile'
+  = render :partial => "users/user_profile"
+- elsif @current == 'annotations'
+  = render :partial => "users/annotations"
+- elsif @current == 'saved_queries'
+  = render :partial => "users/saved_queries"
