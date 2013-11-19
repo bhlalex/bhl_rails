@@ -3,16 +3,24 @@ require "rexml/document"
 
 class BooksController < ApplicationController
   include BooksHelper
+  
   def index
     @user_history = UserBookHistory.where(:user_id => session[:user_id])
     @url_params = fix_dar_url(params)
-    @page_title = "Search Results: "
-    @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [], 
+    @page_title = I18n.t(:search_results_colon)
+    @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [],
                     'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
-    @selectoptions = {"ALL" => "ALL", I18n.t(:book_title_title) => "title", I18n.t(:book_language_title) => "language", 
-      I18n.t(:book_publish_place_title) => "published_at", I18n.t(:book_location_title) => "geo_location", 
-      I18n.t(:book_author_title) => "author", I18n.t(:book_name_title) => "name", I18n.t(:book_subject_title) => "subject", 
-      I18n.t(:book_title_title) => "content"}
+    
+    @selectoptions = {I18n.t(:selection_all_option) => "ALL",
+                      I18n.t(:book_title_title) => "title",
+                      I18n.t(:book_language_title) => "language",
+                      I18n.t(:book_publish_place_title) => "published_at",
+                      I18n.t(:book_location_title) => "geo_location",
+                      I18n.t(:book_author_title) => "author",
+                      I18n.t(:book_name_title) => "name",
+                      I18n.t(:book_subject_title) => "subject",
+                      I18n.t(:book_title_title) => "content"}
+                      
     @page = @url_params[:page] ? @url_params[:page].to_i : 1
     @view = @url_params[:view] ? @url_params[:view] : ''
     @lang = 'test'

@@ -1,7 +1,10 @@
 = render :partial => "users/tabs"
 %br
-- if @current == 'history'
+- if @current == 'recently_viewed'
   = render :partial => "users/user_history"
-- else
-  = render :partial => "users/user_profile"  
-
+- elsif @current == 'profile'
+  = render :partial => "users/user_profile"
+- elsif @current == 'annotations'
+  = render :partial => "users/annotations"
+- elsif @current == 'saved_queries'
+  = render :partial => "users/saved_queries"
