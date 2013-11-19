@@ -93,8 +93,8 @@ ActiveRecord::Schema.define(:version => 20131118080901) do
     t.text     "mods"
     t.datetime "created_at",            :null => false
     t.datetime "updated_at",            :null => false
-    t.string   "bibtex"
-    t.string   "endnote"
+    t.text     "bibtex"
+    t.text     "endnote"
   end
 
   add_index "books", ["language_id"], :name => "index_books_on_language_id"

@@ -1,8 +1,9 @@
 Bhl::Application.routes.draw do
 
   resources :collections
-  post "collections/add_book"
-
+  get "collections/add_book"
+  match "add_book" => "collections#add_book"
+  
   resources :user_search_history
   post      "user_search_history/save_query"
   delete    "user_search_history/delete_query"

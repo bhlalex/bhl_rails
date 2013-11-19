@@ -14,8 +14,8 @@ class CollectionsController < ApplicationController
   end
   
   def add_book
+    debugger
     @bok_col = BookCollection.new
-#    debugger
   end
   
   def delete_book

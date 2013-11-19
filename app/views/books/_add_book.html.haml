@@ -8,9 +8,16 @@
 
 :javascript
   $(function() {
+    var name = $( "#id" );
     $( "#dialog" ).dialog({
       autoOpen: false, modal: true, buttons: { 
       "Create an account": function() {
+                            $( "#users" ).append(name);
+                             $.ajax({type: "GET", 
+                                     url: "/add_book", 
+                                     dataType: "script",
+                                     data: name
+                                     });
                             $( this ).dialog( "close" );
                            }, 
       Cancel: function() {$( this ).dialog( "close" );}
@@ -22,15 +29,21 @@
   });   
   
 #dialog
+  .form
+    = form_for :book_collection, :url => collections_add_book_path, :builder => FormHelper::BHLFormBuilder do |f|
+      %ul
+        %li
+          = f.label :collection_id
+        %li
+        #id
+          = f.select(:collection_id, [["1", "hello"]]) 
+      %fieldset
+        = f.submit I18n.t('submit_buton'), :class => "btn"
+#users
   %p
-    Choose a collection:
-  %p
-    - form_for :book_collection, :url => collections_add_book_path, :builder => FormHelper::BHLFormBuilder do |f|
-      - STATUS=[['hell', '1'], ['hello', '2']]
-      = f.select :collection_id, STATUS
-%input{type: "button", id: "opener", value: "Click to open the dialog"}   
-    
-
+    hope
+  
+%input{type: "button", id: "opener", value: "Click to open the dialog"}  
 
 
 
