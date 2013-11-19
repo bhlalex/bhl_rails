@@ -1,4 +1,5 @@
 class CollectionsController < ApplicationController
+  layout 'users'
   include BHL::Login
   
   def index
@@ -14,8 +15,6 @@ class CollectionsController < ApplicationController
   end
   
   def add_book
-    @bok_col = BookCollection.new
-#    debugger
   end
   
   def delete_book

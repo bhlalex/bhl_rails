@@ -4,7 +4,7 @@
   $(document).ready(function() {
       $('.tooltip').tooltipster({ interactive: true, fixedWidth: 280});
   });
-
+  
 - book_names(params[:id]).each do |name|
   &bull;
   %a.tooltip{:title =>name_tip(params[:id], name.id, name.string, name.eol_thumb, name.eol_page_id), :href => "#"}
