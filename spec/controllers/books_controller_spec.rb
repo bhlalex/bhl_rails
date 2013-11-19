@@ -90,7 +90,7 @@ describe BooksController do
       get :index
       response.should be_success
     end
-
+    
     # check for existance of detail link for each book in list view
     it "should return detail link for each book in list view" do
       get :index, :view => "list"
@@ -233,7 +233,48 @@ describe BooksController do
       end
     end
   end
-
+  
+  # describe "GET 'autocomplete'" do
+    # before(:each) do
+      # truncate_table(ActiveRecord::Base.connection, "books", {})
+      # truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      # truncate_table(ActiveRecord::Base.connection, "pages", {})
+      # truncate_table(ActiveRecord::Base.connection, "names", {})
+      # truncate_table(ActiveRecord::Base.connection, "page_names", {})
+#     
+      # doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
+      # doc_test_first[:bok_title] = "Test Book First"
+      # doc_test_first[:name] = ["sci1","sci2", "sci3"]
+      # doc_test_first[:author] = "Author"
+      # doc_test_first[:bok_language]="English"
+      # doc_test_first[:geo_location]="Egypt"
+      # doc_test_first[:subject]="subject"
+#     
+      # solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      # solr.delete_by_query('*:*')
+      # # remove this book if exists
+      # solr.delete_by_query('vol_jobid:123')
+      # solr.commit
+      # solr.add doc_test_first
+      # solr.commit
+#     
+      # @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
+      # @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
+      # @page_first = Page.gen(:volume => @vol_first )
+    # end
+    # # check for title autocomplete
+    # it "should return book title" do
+      # #get :autocomplete, :type=> "title", :term =>"T" 
+      # #response.should have_content("test book first")
+    # end
+#     
+    # # check for name autocomplete
+    # it "should return book title" do
+      # #get :autocomplete, :type=> "name", :term =>"N" 
+      # #response.should have_content("Name1")
+    # end
+#     
+  # end
   describe "GET 'show'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
