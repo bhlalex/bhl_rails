@@ -11,12 +11,16 @@
     
     %link{ :href => "/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon" }
     
+    = yield :head
+    
     = stylesheet_link_tag 'main'
-    = javascript_include_tag "application"
-    = javascript_include_tag controller_path, :media => "all"    
+    = #javascript_include_tag "application"
+    = #javascript_include_tag controller_path, :media => "all"
+    
+    
   %body
     .header
-      %a{ :href => "/" } 
+      %a{ :href => "/" }
         =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "logo")
       - if logged_in?
         .username
