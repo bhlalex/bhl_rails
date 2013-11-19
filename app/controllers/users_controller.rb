@@ -2,6 +2,8 @@ class UsersController < ApplicationController
   layout 'users'
   
   include BHL::Login
+  include BooksHelper
+  
   # GET /users/new
   def new
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -68,22 +70,23 @@ class UsersController < ApplicationController
     return redirect_to root_path if @id.nil?
     @user = User.find_by_id(@id)
     return redirect_to root_path if @user.nil?
-    
-    current_user = false
-    
+    current_user = false    
     current_user = true if session["user_id"].to_i == params[:id].to_i
-    
+
     @can_edit = @id.to_i == session[:user_id]
-    @page_title = @user.real_name
     
     if current_user
-      @tabs = {:profile => I18n.t(:user_profile), :history => I18n.t(:user_history)}
+      @tabs = {:profile => I18n.t(:user_profile), 
+               :annotations => I18n.t(:annotations), 
+               :saved_queries => I18n.t(:saved_queries), 
+               :recently_viewed => I18n.t(:recently_viewed)}
     else
       @tabs = {:profile => I18n.t(:user_profile)}
     end
     @current = params[:tab] != nil ? params[:tab] : "profile"
-      
-    if @current == "history"
+
+    @page_title = @user.real_name
+    if @current == "recently_viewed"
       if authenticate_user
         #load history from DB
         @ubh = UserBookHistory.where(:user_id => @user)
@@ -95,11 +98,16 @@ class UsersController < ApplicationController
         offset = (@page > 1) ? (@page - 1) * limit : 0
         @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
         if @ubh.count == 0 and @page > 1 
-          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history",
-          :page => params[:page].to_i - 1
+          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "recently_viewed", :page => params[:page].to_i - 1
         end
         @url_params = params.clone
       end
+    elsif @current == "saved_queries"
+      # load user saved queries
+      @queries = @user.queries.order('created_at DESC')
+      @page = params[:page] ? params[:page].to_i : 1
+      @lastPage = @queries ? (@queries.length/PAGE_SIZE).ceil : 0
+      @url_params = fix_dar_url(params)
     end
   end
   
@@ -231,13 +239,11 @@ class UsersController < ApplicationController
   end
   
   def remove_book_history
-#    debugger
     if authenticate_user
       voulume_id = params[:volume_id]
-      user_id = params[:user_id]
+      user_id = session["user_id"]
       UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
-      redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history",
-      :page => params[:page]
+      redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "recently_viewed", :page => params[:page]
     end
   end
   

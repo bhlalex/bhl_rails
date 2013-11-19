@@ -1,19 +1,19 @@
 .clear
 .thumb
   = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id]}
+    {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
 .newscontent
   .sidelinks
     = link_to image_tag("/images_#{I18n.locale}/read.png", :alt => "read", :title => "read") , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
     = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "details", :title => "details") , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id]}
+        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
     = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => "delete", :title => "delete") , 
-    {:controller => :users, :action => :remove_book_history, :volume_id => @vol[:id],
+        {:controller => :users, :action => :remove_book_history, :volume_id => @vol[:id],
      :user_id => @ubh_vol[:user_id],:id => @ubh_vol[:user_id], :page => @page}
   %h4
     = link_to @title.html_safe , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id]}
+        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
   %h5
     = "#{I18n.t(:last_visited_date)}: #{@ubh_vol.last_visited_date}"
 .clear
