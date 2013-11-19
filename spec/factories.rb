@@ -1,19 +1,19 @@
 require 'factory_girl_rails'
 
 FactoryGirl.define do
-  
+
   sequence(:string)     { |n| "unique#{ n }string" }
-  
+
   sequence(:email) do |n|
     "person#{n}@example.com"
   end
-  
+
   factory :author do
     name                { generate(:string) }
   end
-  
+
   factory :book do
-    association         :language         
+    association         :language
     bibid               { generate(:string) }
     title               { generate(:string) }
     mods                { generate(:string) }
@@ -24,18 +24,18 @@ FactoryGirl.define do
     #edition             { generate(:string) }
     #format_extent       { generate(:string) }
     #collection          { generate(:string) }
-    #contributor         { generate(:string) }    
+    #contributor         { generate(:string) }
   end
-  
+
   factory :language do
     code                { generate(:string) }
     name                { generate(:string) }
   end
-  
+
   factory :name do
     string                { generate(:string) }
   end
-  
+
   factory :user do
     email                     { generate(:email) }
     username                  do
@@ -57,7 +57,7 @@ FactoryGirl.define do
       attempt
     end
   end
-  
+
   factory :volume do
     association         :book #Was bookbook and changed to book Youstina 11/11/2013
     job_id              :integer
@@ -66,11 +66,16 @@ FactoryGirl.define do
   factory :page do
     association        :volume
   end
-  
-  
+
   factory :page_name do
     association         :page
     association         :name
-    namestring          generate(:string) 
+    namestring          generate(:string)
+  end
+
+  factory :query do
+    association         :user
+    string          :string
+    created_at      datetime
   end
 end

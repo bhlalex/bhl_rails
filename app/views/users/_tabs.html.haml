@@ -1,3 +1,9 @@
+.r_column
+  .box_1
+    .bookimage{:align => "center"}
+      =image_tag "/#{@thumb}"
+      =link_to I18n.t(:read_book_link), "/books/#{params[:id]}/read"
+
 .page
   .page_border
     .tabcontent

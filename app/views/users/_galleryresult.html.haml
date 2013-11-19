@@ -3,8 +3,8 @@
   - if(pos != nil && pos > 0)
     - @title = @title.to(pos+30) + ' ...'
 .gallery
-  = link_to image_tag("/#{@thumb}", :width => 120, :border => "0",) , {:controller => :books, :action => :show, :id => @vol[:job_id]}
+  = link_to image_tag("/#{@thumb}", :width => 120, :border => "0",) , {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
   .title
-    = link_to @title , {:controller => :books, :action => :show, :id => @vol[:job_id]}
+    = link_to @title , {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
   %h6
     = "#{I18n.t(:last_visited_date)}: #{@ubh_vol.last_visited_date}"

@@ -1,0 +1,9 @@
+%tr
+  %td{:min_width => "100px;"}
+    = query.string
+  %td{:min_width => "100px;"}
+    = query.created_at
+  %td{:min_width => "100px;"}
+    = link_to "show result" , parse_query(query.string)
+  %td{:min_width => "100px;"}
+    = link_to "delete" , {:controller => :user_search_history, :action => :delete_query, :id => query.id},:method => :delete
