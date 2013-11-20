@@ -1,5 +1,5 @@
 .count
-  = "Found #{@response['response']['numFound']} Books"
+  = I18n.t(:books_found, :count => @response['response']['numFound'])
   %span 
     = link_to image_tag("/images_#{I18n.locale}/list.png", :alt => I18n.t(:list_view), :title => I18n.t(:list_view), :width => 15, :height => 14) , 
     {:params => search_view(params, 'list')}

@@ -3,6 +3,7 @@ require "rexml/document"
 
 class BooksController < ApplicationController
   include BooksHelper
+  include SolrHelper
   
   def index
     @user_history = UserBookHistory.where(:user_id => session[:user_id])
@@ -29,7 +30,7 @@ class BooksController < ApplicationController
     @query = set_query_string(@query_array, false)
     
     @response = search_facet_highlight(@query, @page)
-    @lastPage = @response['response']['numFound'] ? (@response['response']['numFound']/PAGE_SIZE).ceil : 0
+    @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
   
   def show
@@ -75,6 +76,20 @@ class BooksController < ApplicationController
     render layout: 'books_details'
   end
   
+  def autocomplete
+    type = params[:type]
+    term = params[:term]
+    @results = []
+    response = solr_autocomplete(type, term, AUTOCOMPLETE_MAX)
+    response.each do |item|
+      @results << item.value
+    end 
+    if (@results.length == 0)
+      @results << "No Suggestion"
+    end
+    render json: @results
+  end
+
   private
     def save_user_history(params)
       user = User.find_by_id(session[:user_id])

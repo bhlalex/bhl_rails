@@ -37,6 +37,13 @@ Bhl::Application.routes.draw do
   get   "pages/contact"
   get   "pages/about"
   
+  match "browse/:type" => "browse#show"
+  match "browse/:type/:char" => "browse#show" 
+  
+  match "/autocomplete" => "books#autocomplete"
+  match "/books/:id" => "books#show"
+  match "/books/:id/:tab" => "books#show"
+  
   get   "geographics/index"
   match "/geographics/show/:id" => "geographics#show"
   match "/geographics/index/:range" => "geographics#index"
