@@ -86,12 +86,11 @@ class BooksController < ApplicationController
           ubh.user = user
           ubh.volume = volume
           ubh.last_visited_date = Time.now
-          ubh.save          
+          ubh.save
         else
           history[0].last_visited_date = Time.now
           history[0].save
         end
       end
     end
-    
 end
