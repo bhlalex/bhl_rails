@@ -44,7 +44,7 @@ describe User do
   end
   
   it 'should require password' do
-    lambda {User.gen(:entered_password => "")}.should raise_error
+    lambda {User.gen(:entered_password => "", :password => "")}.should raise_error
   end
   
   it 'should validate password length' do
