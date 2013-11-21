@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131118080901) do
+ActiveRecord::Schema.define(:version => 20131121105955) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -24,11 +24,12 @@ ActiveRecord::Schema.define(:version => 20131118080901) do
     t.integer  "zorder"
     t.integer  "hltype"
     t.string   "type"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.integer  "user_id"
     t.string   "text"
     t.string   "anntype"
+    t.string   "basketpages"
   end
 
   add_index "annotations", ["page_id"], :name => "index_annotations_on_page_id"

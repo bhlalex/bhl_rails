@@ -16,6 +16,9 @@ DAR_API_THUMBNAIL_JOBID_STRING = '[JOBID]'
 DAR_API_CONTENT = 'http://api.dar.bibalex.org/DarAccessLayer/DAF-Job:[JOBID]/Derivative/XML/Content'
 DAR_API_CONTENT_JOBID_STRING = '[JOBID]'
 
+DAR_JAR_API_URL = 'http://localhost:8090/BookViewer/?locale=en&LocaleButtons=disabled&book_id=DAF-Job:[JOBID]'
+DAR_JAR_API_URL_STRING = '[JOBID]'
+
 LOCATION_API = "http://maps.googleapis.com/maps/api/geocode/xml?address=[LOC]&sensor=false"
 LOCATION_API_LOC_STRING = "[LOC]"
 

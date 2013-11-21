@@ -8,7 +8,6 @@ describe BooksController do
   render_views
   include BooksHelper
   include BHL::Login
-  
   describe "GET 'index'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -32,7 +31,7 @@ describe BooksController do
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*')
       # remove this book if exists
-      solr.delete_by_query('vol_jobid:123')
+      #solr.delete_by_query('vol_jobid:123') #why delete by vol_job id if things are already deleted ???? Yosra 21/11/2013
       solr.commit
       solr.add doc_test_first
       solr.commit
@@ -234,47 +233,65 @@ describe BooksController do
     end
   end
   
-  # describe "GET 'autocomplete'" do
-    # before(:each) do
-      # truncate_table(ActiveRecord::Base.connection, "books", {})
-      # truncate_table(ActiveRecord::Base.connection, "volumes", {})
-      # truncate_table(ActiveRecord::Base.connection, "pages", {})
-      # truncate_table(ActiveRecord::Base.connection, "names", {})
-      # truncate_table(ActiveRecord::Base.connection, "page_names", {})
-#     
-      # doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
-      # doc_test_first[:bok_title] = "Test Book First"
-      # doc_test_first[:name] = ["sci1","sci2", "sci3"]
-      # doc_test_first[:author] = "Author"
-      # doc_test_first[:bok_language]="English"
-      # doc_test_first[:geo_location]="Egypt"
-      # doc_test_first[:subject]="subject"
-#     
-      # solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      # solr.delete_by_query('*:*')
-      # # remove this book if exists
-      # solr.delete_by_query('vol_jobid:123')
-      # solr.commit
-      # solr.add doc_test_first
-      # solr.commit
-#     
-      # @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
-      # @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
-      # @page_first = Page.gen(:volume => @vol_first )
-    # end
-    # # check for title autocomplete
-    # it "should return book title" do
-      # #get :autocomplete, :type=> "title", :term =>"T" 
-      # #response.should have_content("test book first")
-    # end
-#     
-    # # check for name autocomplete
-    # it "should return book title" do
-      # #get :autocomplete, :type=> "name", :term =>"N" 
-      # #response.should have_content("Name1")
-    # end
-#     
-  # end
+  describe "GET 'autocomplete'" do
+    before(:each) do
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "pages", {})
+      truncate_table(ActiveRecord::Base.connection, "names", {})
+      truncate_table(ActiveRecord::Base.connection, "page_names", {})
+    
+      doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
+      doc_test_first[:bok_title] = "Test Book First"
+      doc_test_first[:name] = ["sci1","sci2", "sci3"]
+      doc_test_first[:author] = "Author"
+      doc_test_first[:bok_language]="English"
+      doc_test_first[:geo_location]="Egypt"
+      doc_test_first[:subject]="subject"
+    
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*')
+      # remove this book if exists
+      solr.delete_by_query('vol_jobid:123')
+      solr.commit
+      solr.add doc_test_first
+      solr.commit
+    
+      @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
+      @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
+      @page_first = Page.gen(:volume => @vol_first )
+      
+      doc_test_second = {:vol_jobid => "238233", :bok_bibid => "456"}
+      doc_test_second[:bok_title] = "Test Book Second"
+      doc_test_second[:name] = ["Name2","Name3"]
+      doc_test_second[:author] = "Author"
+      doc_test_second[:bok_language]="English"
+      doc_test_second[:geo_location]="Egypt"
+      doc_test_second[:subject]="subject"
+
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      # remove this book if exists
+      solr.delete_by_query('vol_jobid:238233')
+      solr.commit
+      solr.add doc_test_second
+      solr.commit
+
+      @book_test_second = Book.gen(:title => 'Test Book second', :bibid => '456')
+      @vol_second = Volume.gen(:book => @book_test_second, :job_id => '238233', :get_thumbnail_fail => 0)
+      @page_second = Page.gen(:volume => @vol_second )
+    end
+    
+   # check for title autocomplete
+    it "should return 2 book titles" do
+      begin
+        get :autocomplete, :type => "title", "term" => "t"
+        rescue ActionView::MissingTemplate
+        response.should have_content('"test books first", "test book second"]')
+        #controller.autocomplete("title", "t", true).should == ["test book first", "test book second"]
+      end
+    end
+  end
+  
   describe "GET 'show'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -585,4 +602,3 @@ describe BooksController do
     end
   end
 end
-

@@ -9,7 +9,7 @@ module BHL
       user.last_login = Time.now
       user.save
       
-      cookies[:Ssid] = user.guid
+      cookies[:SSid] = user.guid
     end
     
     def is_loggged_in?
@@ -18,7 +18,7 @@ module BHL
     
     def log_out
       session.clear
-      cookies.delete :Ssid
+      cookies.delete :SSid
     end
   end
 end
