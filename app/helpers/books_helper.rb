@@ -221,6 +221,7 @@ module BooksHelper
   def fillResponseArrays(doc, highlight, type, id)
     counter = 1
     array = []
+#      debugger
     if(doc[type].length > 1)
       doc[type].each do |term|
         if(counter > MAX_NAMES_PER_BOOK)

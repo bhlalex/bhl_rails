@@ -1,5 +1,5 @@
 class BookCollection < ActiveRecord::Base
-  belongs_to :book
+  belongs_to :volume
   belongs_to :collection
-  attr_accessible :order, :book_id, :collection_id
+  attr_accessible :position, :volume_id, :collection_id
 end

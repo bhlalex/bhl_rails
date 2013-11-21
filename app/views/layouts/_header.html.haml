@@ -35,7 +35,7 @@
       %br
       .topmenu
         - if logged_in?
-          = link_to I18n.t(:my_account_link), {:controller => :users, :action => :show, :id => session["user_id"]}
+          = link_to I18n.t(:my_account_link), {:controller => :users, :action => :show, :id => session["user_id"], :tab => nil}
         - else
           = link_to I18n.t(:join_bhl), new_user_path
         = link_to I18n.t(:contact_us_link), {:controller => :pages, :action => :contact}

@@ -11,8 +11,13 @@
       - @ubh.each do |ubh_vol|
         - @ubh_vol = ubh_vol
         - @vol = Volume.find_by_id(@ubh_vol.volume)
-        - @title = Book.find_by_id(@vol.book_id).title
-        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+        - @id = @vol.job_id
+        - @doc = solr_search("vol_jobid:#{@vol.job_id}", "bok_title, author, name, subject, bok_start_date, published_at, bok_language")
+        - if (@vol != nil)
+          - @title = @doc['bok_title'][0]
+          - thumb = ''
+          - if(@vol[:get_thumbnail_fail] == 0)
+            - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
         
         - if(@view == 'gallery')
           = render :partial => "users/galleryresult"
@@ -22,5 +27,9 @@
         - @pages = adjustPaging(@page, @lastPage)
         = render :partial => "books/paging"
     - else
-      No Books Found
-    
+      .largefont
+        No Books Found
+      
+      
+  
+   

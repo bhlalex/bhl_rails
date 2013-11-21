@@ -8,12 +8,22 @@
         {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
     = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "details", :title => "details") , 
         {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
-    = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => "delete", :title => "delete") , 
+    = link_to image_tag("/images_#{I18n.locale}/Trash_Delete.png", :alt => "delete", :title => "delete") , 
         {:controller => :users, :action => :remove_book_history, :volume_id => @vol[:id],
      :user_id => @ubh_vol[:user_id],:id => @ubh_vol[:user_id], :page => @page}
   %h4
     = link_to @title.html_safe , 
         {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
-  %h5
+  .description
+    - if(@doc['author'] != nil)
+      = render :partial => "books/bookauthors"
+    - if(@doc['published_at'] != nil)
+      %br
+      = render :partial => "books/bookpublishedat"
+    - if(@doc['name'] != nil)
+      %br
+      = render :partial => "books/booknames"
+  %br
+  .visitedtime
     = "#{I18n.t(:last_visited_date)}: #{@ubh_vol.last_visited_date}"
 .clear

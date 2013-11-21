@@ -1,5 +1,8 @@
 class Collection < ActiveRecord::Base
+  belongs_to :user
   has_many :book_collections
   has_many :books, :through => :book_collections
-  attr_accessible :creation_date, :description, :last_modified_date, :status, :title
+  # status = false ===> priavte
+  # status = true ===> public
+  attr_accessible :creation_date, :description, :last_modified_date, :status, :title, :user_id
 end
