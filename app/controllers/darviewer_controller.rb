@@ -4,11 +4,8 @@ class DarviewerController < ApplicationController
   def user
     guid = params[:SSOToken]
     validate = false
-    session[:active] = 1
-    session[:guid] = "123"
-    session[:SSid] = "123"
     
-    if(guid != nil && guid == session[:guid] && session[:active] == 1)  
+    if(guid != nil && guid == cookies[:SSid].to_s)  #ask why session[:active] is not read
       validate = true       
     end
     @json = "#{params[:callback]}({'Valid':[#{validate}]});"
@@ -16,9 +13,6 @@ class DarviewerController < ApplicationController
   end
   
   def book
-    session[:active] = 1
-    session[:guid] = "123"
-    
     pid = params[:PID]
     jobid = pid.gsub("DAF-Job:", "")
     volume = Volume::find_by_job_id(jobid)
@@ -45,11 +39,11 @@ class DarviewerController < ApplicationController
     case params[:callback] 
     when "getAnnotations"
       jsonArray = get_annotations(params)
-    when "saveNote", "saveHighlight"
+    when "saveNote", "saveHighlight", "saveMyBasket"
       jsonArray = save_annotation(params)
-    when "editNote"
+    when "editNote", "editMyBasket"
       jsonArray = edit_annotation(params)
-    when "removeNote", "removeHighlight"
+    when "removeNote", "removeHighlight", "removeMyBasket"
       jsonArray = remove_annotation(params)
     end
     j = ActiveSupport::JSON

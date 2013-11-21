@@ -66,7 +66,7 @@ class UsersController < ApplicationController
   # GET /users/:id
   def show
     @id = params[:id]
-    @id = session[:user_id] if @id.nil? 
+    @id = session[:user_id] if @id.nil?
     return redirect_to root_path if @id.nil?
     @user = User.find_by_id(@id)
     return redirect_to root_path if @user.nil?

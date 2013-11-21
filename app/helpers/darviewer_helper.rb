@@ -20,7 +20,8 @@ module DarviewerHelper
                 'HLType' => annotation.hltype != nil ? annotation.hltype : "",
                 'Width' => annotation.width != nil ? annotation.width : "",
                 'ZOrder' => annotation.zorder != nil ? annotation.zorder : "",
-                'Type' => annotation.anntype != nil ? annotation.anntype : ""
+                'Type' => annotation.anntype != nil ? annotation.anntype : "",
+                'PageList' => annotation.basketpages != nil ? annotation.basketpages : "",
       }  
       jsonArray << element
     end
@@ -46,22 +47,30 @@ module DarviewerHelper
       'zorder' => params[:ZOrder] != nil ? params[:ZOrder] : nil,
       'hltype' => params[:HL_Type] != nil ? params[:HL_Type] : nil,
       #'created_at' => params[:Note_Date] != nil ? params[:Note_Date] : nil,
+      #for my basket
+      'basketpages' => params[:MyBasket_PagesList] != nil ? params[:MyBasket_PagesList] : nil,
+      #save user  
       'user_id' => user.id
     }
     
     annotation = Annotation.create(attributes)
-    jsonArray = {'ID' => annotation.id, 'TID' => params[:TID]}
+    jsonArray = params[:TID] != nil ? {'ID' => "#{annotation.id}", 'TID' => params[:TID]} : {'ID' => "#{annotation.id}"}  
     
   end
   
   def edit_annotation(params)
-    jobid = params[:PID].gsub('DAF-Job:', "")
+    id = params[:ID] != nil ? params[:ID] : params[:MyBasket_ID]
+    annotation = Annotation.find(id)
+    
+    jobid = params[:PID] != nil ? params[:PID].gsub('DAF-Job:', "") : nil
+    jobid = params[:MyBasket_ID] != nil ? annotation[:volume_id] : nil
     
     #For spelling mistake of Height "Hight" in the dar team
-    height = params[:Height] != nil ? params[:Height] : params[:Hight] != nil ? params[:Hight] : nil;
+    height = params[:Height] != nil ? params[:Height] : params[:Hight] != nil ? params[:Hight] : nil
+    
     attributes = {
-      'id' => params[:ID],
-      'volume_id' => params[:jobid] != nil ? jobid : nil, 
+      'id' => id,
+      'volume_id' => jobid  != nil ? jobid : nil, 
       'page_id' => params[:Page] != nil ? params[:Page] : nil,
       'text' => params[:Text] != nil ? params[:Text] : nil, 
       'anntype' => params[:Type] != nil ? params[:Type] : nil,
@@ -71,12 +80,13 @@ module DarviewerHelper
       'width' => params[:Width] != nil ? params[:Width] : nil,
       'zorder' => params[:ZOrder] != nil ? params[:ZOrder] : nil,
       #'date' => params[:Note_Date] != nil ? params[:Note_Date] : nil,
-      'hltype' => params[:HL_Type] != nil ? params[:HL_Type] : nil
+      'hltype' => params[:HL_Type] != nil ? params[:HL_Type] : nil,
+      #for my basket
+      'basketpages' => params[:MyBasket_PagesList] != nil ? params[:MyBasket_PagesList] : nil
     }
     
-    annotation = Annotation.find(params[:ID])
     success = annotation.update_attributes(attributes)
-    jsonArray = {'Succeeded' => success,'TID' => params[:TID]}
+    jsonArray = params[:TID] != nil ? {'Succeeded' => success,'TID' => params[:TID]} : {'Succeeded' => "#{success}"}
   end
   
   def remove_annotation(params)

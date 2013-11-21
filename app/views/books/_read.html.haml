@@ -1,2 +1,2 @@
-%iframe{:frameborder => "0", :height => "525", :scrolling => "no", :style => "border:0px", :width => "980",
-  :src => "http://localhost:8090/BookViewer/?locale=en&MyBasket=Disabled&LocaleButtons=disabled&book_id=DAF-Job:#{params[:id]}"}
+-url =  DAR_JAR_API_URL.sub DAR_JAR_API_URL_STRING, params[:id]
+%iframe{:frameborder => "0", :height => "700", :scrolling => "no", :style => "border:0px", :width => "980", :src => "#{url}"}
