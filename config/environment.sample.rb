@@ -1,6 +1,6 @@
 # Load the rails application
 require File.expand_path('../application', __FILE__)
- 
+
 PROXY_ADDRESS = ""
 PROXY_PORT = ""
 PROXY_USERNAME = ""
@@ -39,18 +39,19 @@ NAME_SPOTTER_IP = '127.0.0.1'
 NAME_SPOTTER_PORT = 8089
  
 MAX_NAMES_PER_BOOK = 5
- 
+
 TAGGED_SPECIES_COUNT = 4
 TAGGED_LANGUAGES_COUNT = 4
 TAGGED_AUTHORS_COUNT = 4
 TAGGED_AFFILIATION_COUNT = 4
 TAGGED_GENRE_COUNT = 4
 
+AUTOCOMPLETE_MAX = 4
+
 PAGE_SIZE = 10
 
 HLPRE = '<span class="highlight">'
 HLPOST = '</span>'
-
 DEFAULT_HIERARCHY_ID = 3
  
 EOL_CONTENT_PATH = "http://content60.eol.org/content/"

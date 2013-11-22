@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   layout 'users'
   
+  include SolrHelper
   include BHL::Login
   include BooksHelper
   

@@ -168,7 +168,7 @@ describe UsersController do
           it "should have delete image" do
             log_in(@user)
             get :show, :id => @user.id, :tab => "recently_viewed", :view => "list"
-            response.should have_selector("img", :src => "/images_en/close.png")
+            response.should have_selector("img", :src => "/images_en/trash_delete.png")
           end
           
           it "should not delete when user is not logged in" do
