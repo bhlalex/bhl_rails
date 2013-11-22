@@ -9,7 +9,7 @@
   %li
     - if(@page > 1)
       - tmpparams = generateHRef(@page - 1, @url_params)
-      = link_to "Previous" , {:params => tmpparams}
+      = link_to I18n.t(:pagination_previous) , {:params => tmpparams}
     - else
       %span.previous-off Previous
   %li
@@ -42,6 +42,6 @@
   %li
     - if(@page < @lastPage)
       - tmpparams = generateHRef(@page + 1, @url_params)
-      = link_to "Next" , {:params => tmpparams}
+      = link_to I18n.t(:pagination_next) , {:params => tmpparams}
     - else
       %span.next-off Next

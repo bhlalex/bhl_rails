@@ -69,6 +69,8 @@ class BooksController < ApplicationController
       else
         @format = 'empty for now'
       end
+    else
+      @reader_path = (DAR_VIEWER.sub DAR_VIEWER_REPLACE_STRING, params[:id]).sub DAR_VIEWER_REPLACE_LANGUAGE, I18n.locale.to_s
     end
     #save user history
     save_user_history(params)

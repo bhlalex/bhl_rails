@@ -58,7 +58,10 @@ EOL_CONTENT_PATH = "http://content60.eol.org/content/"
 CARTOGRAPHER_GMAP_VERSION = 3
  
 NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
- 
+
+DAR_VIEWER = "http://localhost:8090/BookViewer/?locale=[LANGUAGE]&MyBasket=Disabled&LocaleButtons=disabled&book_id=DAF-Job:[JOBID]"
+DAR_VIEWER_REPLACE_STRING = "[JOBID]"
+DAR_VIEWER_REPLACE_LANGUAGE = "[LANGUAGE]"
 
 # Initialize the rails application
 Bhl::Application.initialize!

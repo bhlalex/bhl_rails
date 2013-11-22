@@ -90,7 +90,7 @@ en:
   recently_viewed: 'Recently Viewed'
   list_view: 'List View'
   gallery_view: 'Gallery View'
-  
+  and_count_more: "and %{count} more"
   read_icon: 'Read'
   details_icon: 'Details'
   books_found:
@@ -162,6 +162,9 @@ en:
   search_results_colon: "Search Results: "
   selection_all_option: "All"
   user_collections: "Collections"
+  save_query_button: "Save Query"
+  pagination_previous: "Previous"
+  pagination_next: "Next"
 
   notifier:
     user_verification:
