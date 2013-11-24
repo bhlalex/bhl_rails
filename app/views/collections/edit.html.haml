@@ -1,0 +1,23 @@
+.clear
+.page
+  .page_border
+    %b
+      = I18n.t(:collection_title)
+    %br
+    = best_in_place_if @can_edit, @collection, :title, :type => :input
+    %br
+    %br
+    %b
+      = I18n.t(:collection_description)
+    %br
+    = best_in_place_if @can_edit, @collection, :description, :type => :input
+    %br
+    %br
+    %b
+      = I18n.t(:status)
+    %br
+    = best_in_place_if @can_edit, @collection, :status, :type => :input
+    %br
+    %br
+    - if session["user_id"] == @collection.user_id
+      = link_to I18n.t(:submit_buton), :controller => :collections ,:action => :update_collection, :id => @collection

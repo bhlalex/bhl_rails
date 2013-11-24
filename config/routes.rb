@@ -1,11 +1,20 @@
 Bhl::Application.routes.draw do
-
+  
+  match "/user_search_history/save_query/" => "user_search_history#save_query"
+    match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
+    resources :user_search_history, only: [:save_query, :delete_query]
+    #resources :collections
+    match "/collections/list_books_in_collection/:id" => "collections#list_books_in_collection"
+    match "/collections/destroy_collection/:id" => "collections#destroy_collection"
+    match "/collections/edit/:id" => "collections#edit"
+    match "/collections/update_collection/:id" => "collections#update_collection"
+    match "/collections/delete_book/:book_collection_id" => "collections#delete_book"
+    match "/collections/move_up/:book_collection_id" => "collections#move_up"
+    match "/collections/move_down/:book_collection_id" => "collections#move_down"
+    
   resources :collections
   get "collections/add_book"
   match "add_book" => "collections#add_book"
-  resources :user_search_history
-  post      "user_search_history/save_query"
-  delete    "user_search_history/delete_query"
 
   resources :books, only: [:index, :show]
   match "/books/:id" => "books#show"
