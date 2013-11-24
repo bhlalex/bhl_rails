@@ -228,7 +228,7 @@ describe BooksController do
         user = User.gen
         log_in(user)
         get :index, :title => "Test Book second"
-        response.should have_selector('a', :href => "/user_search_history/save_query?query=bok_title%3A%28Test+AND+Book+AND+second%29&user_id=#{user.id}", :content => "Save Query")
+        response.should have_selector('a', :href => "/user_search_history/save_query?query=_title%3DTest+Book+second&user_id=#{user.id}", :content => "Save Query")
       end
     end
   end

@@ -1,10 +1,9 @@
 class UsersController < ApplicationController
   layout 'users'
-  
+
   include SolrHelper
   include BHL::Login
   include BooksHelper
-  
   # GET /users/new
   def new
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -12,7 +11,7 @@ class UsersController < ApplicationController
     @user = User.new
     @verify_captcha = true
   end
-  
+
   # POST /users
   def create
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -32,7 +31,7 @@ class UsersController < ApplicationController
       render :action => :new
     end
   end
-  
+
   # GET /users/forget_password
   def forgot_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -63,7 +62,7 @@ class UsersController < ApplicationController
       redirect_to root_path
     end
   end
-  
+
   # GET /users/:id
   def show
     @id = params[:id]
@@ -71,18 +70,15 @@ class UsersController < ApplicationController
     return redirect_to root_path if @id.nil?
     @user = User.find_by_id(@id)
     return redirect_to root_path if @user.nil?
-    current_user = false    
+    current_user = false
     current_user = true if session["user_id"].to_i == params[:id].to_i
 
     @can_edit = @id.to_i == session[:user_id]
-    
+
     if current_user
-      @tabs = {:profile => I18n.t(:user_profile), 
-               :annotations => I18n.t(:annotations), 
-               :saved_queries => I18n.t(:saved_queries), 
-               :recently_viewed => I18n.t(:recently_viewed)}
+      @tabs = {:profile => I18n.t(:user_profile), :annotations => I18n.t(:annotations), :saved_queries => I18n.t(:saved_queries), :recently_viewed => I18n.t(:recently_viewed), :collections => I18n.t(:collections)}
     else
-      @tabs = {:profile => I18n.t(:user_profile)}
+      @tabs = {:profile => I18n.t(:user_profile), :collections => I18n.t(:collections)}
     end
     @current = params[:tab] != nil ? params[:tab] : "profile"
 
@@ -98,28 +94,50 @@ class UsersController < ApplicationController
         limit = PAGE_SIZE
         offset = (@page > 1) ? (@page - 1) * limit : 0
         @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
-        if @ubh.count == 0 and @page > 1 
+        if @ubh.count == 0 and @page > 1
           redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "recently_viewed", :page => params[:page].to_i - 1
         end
         @url_params = params.clone
       end
     elsif @current == "saved_queries"
-      # load user saved queries
-      @queries = @user.queries.order('created_at DESC')
+      if authenticate_user
+        # load user saved queries
+        @queries = @user.queries.order('created_at DESC')
+        @queries_total_number = @queries.count
+        @page = params[:page] ? params[:page].to_i : 1
+        @lastPage = @queries.count ? ((@queries.count).to_f/PAGE_SIZE).ceil : 0
+        limit = PAGE_SIZE
+        offset = (@page > 1) ? (@page - 1) * limit : 0
+        @queries = @queries.limit(limit).offset(offset)
+        @url_params = params.clone
+      end
+      # end
+    end
+
+    if @current == "collections"
+      if current_user
+        @user_collections = Collection.where("user_id = #{@user.id}")
+      else
+        @user_collections = Collection.where("user_id = #{@user.id} and status = true")
+      end
+      @user_collections_total_number = @user_collections.count
       @page = params[:page] ? params[:page].to_i : 1
-      @lastPage = @queries ? (@queries.length/PAGE_SIZE).ceil : 0
-      @url_params = fix_dar_url(params)
+      @lastPage = @user_collections.count ? ((@user_collections.count).to_f/PAGE_SIZE).ceil : 0
+      limit = PAGE_SIZE
+      offset = (@page > 1) ? (@page - 1) * limit : 0
+      @user_collections = @user_collections.limit(limit).offset(offset)
+      @url_params = params.clone
     end
   end
-  
+
   # POST /users/recover_password
   def recover_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    
+
     @email = params[:user][:email]
     return redirect_to users_forgot_password_path unless @email
     @user = User.find_by_email(@email)
-    
+
     if @user.nil?
       flash.now[:error] = I18n.t(:user_not_found_by_email_address, :email => @email)
       flash.keep
@@ -134,7 +152,7 @@ class UsersController < ApplicationController
       redirect_to :controller => :users, :action => :login
     end
   end
-  
+
   # GET /users/reset_password/:guid/:activation_code
   def reset_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -144,10 +162,10 @@ class UsersController < ApplicationController
       flash.keep
       return redirect_to root_path
     end
-    
+
     @page_title = I18n.t(:reset_password)
   end
-  
+
   #POST /users/reset_password_action
   def reset_password_action
     # I need to double check
@@ -158,10 +176,10 @@ class UsersController < ApplicationController
       flash.keep
       return redirect_to root_path
     end
-    
+
     @user.entered_password = params[:user][:entered_password]
     @user.entered_password_confirmation = params[:user][:entered_password_confirmation]
-    
+
     if @user.valid? && @user.save
       flash[:notice] = I18n.t(:reset_password_success)
       flash.keep
@@ -172,26 +190,26 @@ class UsersController < ApplicationController
       return redirect_to "/users/reset_password/#{params[:user][:guid]}/#{params[:user][:activation_code]}"
     end
   end
-  
+
   # GET /users/logout
   def logout
     log_out
     redirect_to root_path
   end
-  
+
   # GET /users/login
   def login
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @page_title = I18n.t(:sign_in)
   end
-  
+
   # POST /users/validate
   def validate
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     username = params[:user][:username]
     password = params[:user][:password]
     @user = User.authenticate(username, password)
-    
+
     if @user.nil?
       flash.now[:error] = I18n.t(:sign_in_unsuccessful_error)
       flash.keep
@@ -207,7 +225,7 @@ class UsersController < ApplicationController
       end
     end
   end
-  
+
   # GET /users/:id/edit
   def edit
     if authenticate_user
@@ -217,28 +235,28 @@ class UsersController < ApplicationController
       @user.email_confirmation = @user.email
     end
   end
-  
+
   #PUT /users
   def update
     if authenticate_user
       @user = User.find(params[:id])
-#    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
-#      params[:user][:entered_password] = nil
-#      params[:user][:entered_password_confirmation] = nil
-#    end
+      #    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
+      #      params[:user][:entered_password] = nil
+      #      params[:user][:entered_password_confirmation] = nil
+      #    end
       if @user.update_attributes(params[:user])
         log_out
         log_in(@user) # to make sure everything is loaded properly
         flash.now[:notice] = I18n.t("changes_saved")
         flash.keep
         return redirect_to :controller => :users, :action => :show, :id => params[:id]
-        else
+      else
         flash.keep
         render :action => :edit
       end
     end
   end
-  
+
   def remove_book_history
     if authenticate_user
       voulume_id = params[:volume_id]
@@ -247,8 +265,9 @@ class UsersController < ApplicationController
       redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "recently_viewed", :page => params[:page]
     end
   end
-  
+
   private
+
   def authenticate_user
     if !is_loggged_in?
       redirect_to :controller => :users, :action => :login

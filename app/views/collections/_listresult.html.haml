@@ -1,0 +1,25 @@
+.clear
+.thumb
+  = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
+    {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+.newscontent
+  .sidelinks
+    = link_to image_tag("/images_#{I18n.locale}/read.png", :alt => "read", :title => "read") , 
+        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+    = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "details", :title => "details") , 
+        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
+    - if (@ubh_vol.collection.user_id == session[:user_id])
+      = link_to image_tag("/images_#{I18n.locale}/close.png", :alt =>I18n.t(:delete_book_from_collection) , :title => I18n.t(:delete_book_from_collection)) , 
+        {:controller => :collections, :action => :delete_book, 
+     :book_collection_id => @ubh_vol.id}
+  %h4
+    = link_to @title.html_safe , 
+        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
+  %h5
+    = "#{I18n.t(:book_order)}: #{@ubh_vol.position}"
+  - if (@ubh_vol.collection.user_id == session[:user_id])
+    - if @ubh_vol.position > 1
+      = link_to image_tag("/images_#{I18n.locale}/up.png", :alt => I18n.t(:increase_book_order), :title => I18n.t(:increase_book_order)), {:controller => :collections, :action => :move_up, :book_collection_id => @ubh_vol.id}
+    - if @ubh_vol.position < @total_number
+      = link_to image_tag("/images_#{I18n.locale}/down.png", :alt => I18n.t(:decrease_book_order), :title => I18n.t(:decrease_book_order)), {:controller => :collections, :action => :move_down, :book_collection_id => @ubh_vol.id}
+.clear
