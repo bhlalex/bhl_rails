@@ -69,6 +69,8 @@ class BooksController < ApplicationController
       else
         @format = 'empty for now'
       end
+    else
+      @reader_path = (DAR_VIEWER.sub DAR_VIEWER_REPLACE_STRING, params[:id]).sub DAR_VIEWER_REPLACE_LANGUAGE, I18n.locale.to_s
     end
     #save user history
     save_user_history(params)
@@ -101,7 +103,7 @@ class BooksController < ApplicationController
           ubh.user = user
           ubh.volume = volume
           ubh.last_visited_date = Time.now
-          ubh.save          
+          ubh.save
         else
           history[0].last_visited_date = Time.now
           history[0].save

@@ -4,4 +4,4 @@
   &bull;
   = publishat.kind_of?(Array) ? publishat[0] : publishat
 - if (more > 0)
-  = "and #{more} more"
+  = I18n.t(:and_count_more, :count => more)

@@ -1,9 +1,11 @@
 .count
   = I18n.t(:books_found, :count => @response['response']['numFound'])
   %span 
-    = link_to image_tag("/images_#{I18n.locale}/list.png", :alt => I18n.t(:list_view), :title => I18n.t(:list_view), :width => 15, :height => 14) , 
+    = link_to image_tag("/images_#{I18n.locale}/list.png", :alt => I18n.t(:list_view), 
+        :title => I18n.t(:list_view), :width => 15, :height => 14) , 
     {:params => search_view(params, 'list')}
-    = link_to image_tag("/images_#{I18n.locale}/gallery.png", :alt => I18n.t(:gallery_view), :title => I18n.t(:gallery_view), :width => 15, :height => 14) , 
+    = link_to image_tag("/images_#{I18n.locale}/gallery.png", :alt => I18n.t(:gallery_view), 
+        :title => I18n.t(:gallery_view), :width => 15, :height => 14) , 
     {:params => search_view(params, 'gallery')}
 - if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*"))
-  = link_to "Save query" , {:controller => :user_search_history, :action => :save_query, :query => @query, :user_id => session[:user_id]},:method => :post, :class => "search"
+  = link_to I18n.t(:save_query_button) , {:controller => :user_search_history, :action => :save_query, :query => @query, :user_id => session[:user_id]},:method => :post, :class => "search"

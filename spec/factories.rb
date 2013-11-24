@@ -78,4 +78,17 @@ FactoryGirl.define do
     string          :string
     created_at      datetime
   end
+  
+  factory :collection do
+    association        :user
+    title          "title"
+    last_modified_date      { Time.now }
+    status      {true}
+  end
+
+  factory :book_collection do
+    association        :collection
+    association        :volume
+    position          :integer
+  end
 end

@@ -61,6 +61,7 @@ en:
   genre_caps: "GENRE"
   brief: 'Brief'
   mods: 'MODS'
+  read: 'read'
   bibtex: 'BibTex'
   endnote: 'EndNote'
   book_title_title: 'Title'
@@ -88,9 +89,12 @@ en:
   annotations: 'Annotations'
   saved_queries: 'Saved Queries'
   recently_viewed: 'Recently Viewed'
+  and_count_more: "and %{count} more"
+  recently_viewed_tab: 'recently_viewed'
+  brief_tab: "brief"
+  profile_tab: "profile"
   list_view: 'List View'
   gallery_view: 'Gallery View'
-  
   read_icon: 'Read'
   details_icon: 'Details'
   books_found:
@@ -162,7 +166,10 @@ en:
   search_results_colon: "Search Results: "
   selection_all_option: "All"
   user_collections: "Collections"
-
+  save_query_button: "Save Query"
+  pagination_previous: "Previous"
+  pagination_next: "Next"
+  
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
@@ -221,3 +228,13 @@ en:
         wrong_type: "is the wrong type"
       full_messages:
         format: "%{attribute} %{message}"
+  choose_collection: "Choose a collection"
+  title: "Title"
+  description: "Description"
+  create_new_collection: "Create new collection"
+  public: "Public"
+  missing_title_error_msg: "Required field 'title' is missing"
+  save: "Save"
+  cancel: "Cancel"
+  add_to_collection: "Add book to collection "
+  add_book_dialog_title: "Add book to my collection"

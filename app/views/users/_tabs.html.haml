@@ -1,9 +1,15 @@
 .r_column
-  .box_1
-    .bookimage{:align => "center"}
-      =image_tag "/#{@thumb}"
-      =link_to I18n.t(:read_book_link), "/books/#{params[:id]}/read"
-
+  - if @recently_viewed_volume
+    .box_1
+      .profilebookimage{:align => "center"}
+        - @title = Book.find_by_id(@recently_viewed_volume.book_id).title
+        - @thumb = "volumes/#{@recently_viewed_volume[:job_id]}/thumb.jpg"
+        = link_to @title.html_safe , 
+          {:controller => :books, :action => :show, :id => @recently_viewed_volume[:job_id], :tab => "#{I18n.t(:brief_tab)}"}
+        = link_to image_tag("/#{@thumb}", :alt => "#{@title}", :title => "#{@title}") , 
+          {:controller => :books, :action => :show, :id => @recently_viewed_volume[:job_id], :tab => "#{I18n.t(:read)}"}
+      .bookimage{:align => "center"}  
+        =link_to I18n.t(:recently_viewed), {:controller => :users, :action => :show, :tab => "#{I18n.t(:recently_viewed_tab)}"}
 .page
   .page_border
     .tabcontent

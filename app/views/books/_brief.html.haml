@@ -33,4 +33,6 @@
       %b
         =I18n.t(:book_name_title) + ':'
       = render :partial => "books/names"
-      
+      - @place = "details"
+      - @number = 0
+      = render :partial => "books/add_book"

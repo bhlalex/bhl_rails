@@ -34,8 +34,9 @@
       });
     });
 
-
+- @number = 0
 - @response['response']['docs'].each do |doc|
+  - @number = @number + 1
   - @id = doc['vol_jobid']
   - @vol = Volume.find_by_job_id(doc['vol_jobid'])
   - if (@vol != nil)

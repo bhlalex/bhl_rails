@@ -18,16 +18,16 @@ class User < ActiveRecord::Base
   validates :entered_password, :presence => true,
                                :confirmation => true,
                                :length => {:within => 4..16},
-                               :if => :entered_password # only validate if password changed!
+                               :if => :password_validation_required?
   validates :email, :presence => true,
                     :confirmation => true,
                     :format => @email_format_re,
                     :uniqueness => { :case_sensitive => false }
-                      
+
   validates :username, :presence => true,
                        :length => {:within => 4..16},
                        :uniqueness => { :case_sensitive => false }
-                         
+
   validates_presence_of :real_name
 #  validate :ensure_unique_username
 #  validate :ensure_unique_email
@@ -99,5 +99,9 @@ class User < ActiveRecord::Base
   
   def update_password
     encrypt_password unless self.entered_password.blank?
+  end
+
+  def password_validation_required?
+    password.blank? || password.nil? || ! self.entered_password.blank?
   end
 end
