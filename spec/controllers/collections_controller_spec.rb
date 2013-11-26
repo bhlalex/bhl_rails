@@ -29,15 +29,24 @@ describe CollectionsController do
       it "should create new collection" do
         begin
           lambda do
-            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :id => 123
+            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
           end.should change(Collection, :count).by(1)
+          rescue ActionView::MissingTemplate
+        end
+      end
+      
+      it "should create new collection and add book to it" do
+        begin
+          lambda do
+            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
+          end.should change(BookCollection, :count).by(1)
           rescue ActionView::MissingTemplate
         end
       end
       
       it "should create new collection with the right parameters" do
         begin
-          get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :id => 123
+          get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
           rescue ActionView::MissingTemplate
           Collection.last.title.should == "title"
           Collection.last.status.should == true
@@ -48,7 +57,7 @@ describe CollectionsController do
       it "should refuse new collection with no title" do
         begin
           lambda do
-            get :add_book, :title => "", :description => "description", :public => "on", :col_id => nil, :id => 123
+            get :add_book, :title => "", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
           end.should_not change(Collection, :count)
           rescue ActionView::MissingTemplate
         end
@@ -59,14 +68,14 @@ describe CollectionsController do
       it "should create a new BookCollection" do
         begin
           lambda do
-            get :add_book, :col_id => @collection.id, :id => 123
+            get :add_book, :col_id => @collection.id, :vol_id => 123
           end.should_not change(Collection, :count).by(1)
           rescue ActionView::MissingTemplate
         end
       end
       it "should create a new BookCollection with ight order" do
         begin
-          get :add_book, :col_id => @collection.id, :id => 123
+          get :add_book, :col_id => @collection.id, :vol_id => 123
           rescue ActionView::MissingTemplate
           BookCollection.last.position.should == 1
         end

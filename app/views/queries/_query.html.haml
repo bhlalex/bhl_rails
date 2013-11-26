@@ -2,8 +2,6 @@
   .sidelinks
     = link_to image_tag("/images_#{I18n.locale}/search.png", :alt => I18n.t(:show_result), :title => I18n.t(:show_result)) , "/books?#{query.string}"
     = link_to image_tag("/images_#{I18n.locale}/close.png" , :alt => I18n.t(:delete_query), :title => I18n.t(:delete_query)), {:controller => :user_search_history, :action => :delete_query, :id => query.id},:method => :delete, :confirm => "You sure?"
-  %h4
-    = "#{parse_query(query.string)}".html_safe
-  %h6
-    = "#{I18n.t(:search_date)}: #{query.created_at}"
+  = "#{parse_query(query.string)}".html_safe
+  = "<b>#{I18n.t(:search_date)}</b>: #{query.created_at}".html_safe
 .clear

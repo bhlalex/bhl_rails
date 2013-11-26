@@ -72,9 +72,9 @@ module ApplicationHelper
     else
       sub_queries.each do |sub_query|
         terms = sub_query.split("=")
-        parsed_query+= I18n.t(terms[0][1,terms[0].length]) + ":" + terms[1].tr("_", "")+"\n"
+        parsed_query+= "<b>#{I18n.t(terms[0][1,terms[0].length])}</b>: #{terms[1].tr("_", "")}, "
       end
-      parsed_query[0,parsed_query.length].gsub(/\n/, '<br>')
+      parsed_query = parsed_query[0,parsed_query.length-2]+"<br />"
     end
   end
   # parse query for displaying
