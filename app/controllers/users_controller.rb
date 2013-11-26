@@ -83,10 +83,15 @@ class UsersController < ApplicationController
     @current = params[:tab] != nil ? params[:tab] : "profile"
 
     @page_title = @user.real_name
+    @ubh = UserBookHistory.where(:user_id => @user)
+       
+   if @ubh.length > 0
+     @recently_viewed_volume = Volume.find_by_id((@ubh.first).volume)
+   end
+   
     if @current == "recently_viewed"
       if authenticate_user
         #load history from DB
-        @ubh = UserBookHistory.where(:user_id => @user)
         @total_number = @ubh.count
         @view = params[:view] ? params[:view] : 'list'
         @page = params[:page] ? params[:page].to_i : 1
