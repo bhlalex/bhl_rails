@@ -181,7 +181,7 @@ en:
   book_order: "Book Order"
   collection_books: "Books In Collection"
   no_queries_found: "No Queries Found"
-  search_date: "At"
+  search_date: "Saved at"
   search_for: "You Searched for Books with "
   user_collections: "Collections"
   no_collections_found: 'No Collections Found'
