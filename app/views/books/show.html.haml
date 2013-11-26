@@ -5,5 +5,7 @@
   %br
   - if @current == 'brief'
     = render :partial => "books/brief"
+  - if @current == 'collections'
+    = render :partial => "books/collections"
   - else
     = render :partial => "books/format"

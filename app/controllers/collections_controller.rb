@@ -5,6 +5,8 @@ class CollectionsController < ApplicationController
   end
 
   def show
+    @page_title = I18n.t(:show_collection_detail)
+    @collection = Collection.find(params[:id])
   end
 
   def create_collection
@@ -13,9 +15,8 @@ class CollectionsController < ApplicationController
   def destroy_collection
     collection = Collection.find(params[:id])
     collection.destroy
-    flash[:success]=I18n.t(:collection_destroyed)
+    flash[:notice]=I18n.t(:collection_destroyed)
     flash.keep
-    #redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "collections",
     redirect_to :back
   end
 
@@ -53,19 +54,19 @@ class CollectionsController < ApplicationController
   end
 
   def edit # edit collection
-    @page_title = I18n.t(:show_collection_detail)
+    @page_title = I18n.t(:edit_collection)
     @collection = Collection.find(params[:id])
-    @can_edit = @collection.user_id == session[:user_id]
   end
 
-  def update_collection
-    debugger
+  def update
     @collection = Collection.find(params[:id])
     if @collection.update_attributes(params[:collection])
       flash.now[:notice]=I18n.t(:collection_updated)
       flash.keep
       redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "collections"
     else
+      flash.now[:notice]=I18n.t(:collection_not_updated)
+      flash.keep
       render 'edit'
     end
   end
