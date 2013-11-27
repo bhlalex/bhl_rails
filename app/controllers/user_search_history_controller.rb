@@ -1,6 +1,6 @@
 class UserSearchHistoryController < ApplicationController
     def save_query
-      query = Query.new(:user_id => params[:user_id].to_i, :string => params[:query], :number_of_returned_books => params[:number_of_books])
+      query = Query.new(:user_id => params[:user_id].to_i, :string => params[:query])
       query.save
       flash.now[:notice] = I18n.t(:query_saved)
       flash.keep

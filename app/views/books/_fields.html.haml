@@ -40,4 +40,4 @@
 = link_to "Search" , "", :onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;" , 
   :class => "search"
 - if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*") and (@is_saved == nil))
-  = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => parse_url_params(@url_params), :number_of_books => @response['response']['numFound'], :user_id => session[:user_id]}, :class => "search"
+  = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => parse_url_params(@url_params), :user_id => session[:user_id]}, :class => "search"
