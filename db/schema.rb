@@ -213,9 +213,8 @@ ActiveRecord::Schema.define(:version => 20131126140159) do
   create_table "queries", :force => true do |t|
     t.string   "string"
     t.integer  "user_id"
-    t.datetime "created_at",               :null => false
-    t.datetime "updated_at",               :null => false
-    t.integer  "number_of_returned_books"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   add_index "queries", ["user_id"], :name => "index_queries_on_user_id"

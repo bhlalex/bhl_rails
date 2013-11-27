@@ -267,6 +267,8 @@ class UsersController < ApplicationController
       voulume_id = params[:volume_id]
       user_id = session["user_id"]
       UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
+      flash.now[:notice]=I18n.t(:book_removed)
+      flash.keep
       redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "recently_viewed", :page => params[:page]
     end
   end

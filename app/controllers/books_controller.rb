@@ -11,7 +11,6 @@ class BooksController < ApplicationController
     @page_title = I18n.t(:search_results_colon)
     @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [],
                     'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
-    
     @selectoptions = {I18n.t(:selection_all_option) => "ALL",
                       I18n.t(:book_title_title) => "title",
                       I18n.t(:book_language_title) => "language",
@@ -25,10 +24,9 @@ class BooksController < ApplicationController
     @page = @url_params[:page] ? @url_params[:page].to_i : 1
     @view = @url_params[:view] ? @url_params[:view] : ''
     @lang = 'test'
-    
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
-
+    
     @response = search_facet_highlight(@query, @page)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
@@ -79,8 +77,9 @@ class BooksController < ApplicationController
         
       elsif @current == 'collections'
       # book collections
-        @book_collections = BookCollection.where(:volume_id => (Volume.find_by_job_id(params[:id])).id)
-        @collections = @book_collections.where(:status => true)
+        #@book_collections = BookCollection.where(:volume_id => (Volume.find_by_job_id(params[:id])).id)
+        @collections = Collection.joins(:book_collections).where("collections.status=? and book_collections.volume_id=?" , true, (Volume.find_by_job_id(params[:id])).id)
+        
         @collections_total_number = @collections.count
         @page = params[:page] ? params[:page].to_i : 1
         @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
@@ -94,10 +93,11 @@ class BooksController < ApplicationController
         @format = 'empty for now'
       end
     else
+      #save user history
+      save_user_history(params)
       @reader_path = (DAR_VIEWER.sub DAR_VIEWER_REPLACE_STRING, params[:id]).sub DAR_VIEWER_REPLACE_LANGUAGE, I18n.locale.to_s
     end
-    #save user history
-    save_user_history(params)
+   
     
     render layout: 'books_details'
   end
