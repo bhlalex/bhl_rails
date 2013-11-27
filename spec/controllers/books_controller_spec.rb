@@ -352,7 +352,7 @@ describe BooksController do
       @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
     end
     
-    it "should add record in history table" do
+    it "should add record in history table when visit read tab" do
       truncate_table(ActiveRecord::Base.connection, "users", {})
       truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
       User.gen() unless User.first
@@ -361,7 +361,7 @@ describe BooksController do
       log_in(@user)
       history = UserBookHistory.where(:user_id => @user.id)
       history.count.should eq(0)
-      get 'show', :id => "123"
+      get 'show', :id => "123", :tab => :read
       history = UserBookHistory.where(:user_id => @user.id)
       history.count.should eq(1)
     end
