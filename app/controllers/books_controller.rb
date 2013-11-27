@@ -28,7 +28,7 @@ class BooksController < ApplicationController
     
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
-
+    
     @response = search_facet_highlight(@query, @page)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
@@ -85,10 +85,11 @@ class BooksController < ApplicationController
         @format = 'empty for now'
       end
     else
+      #save user history
+      save_user_history(params)
       @reader_path = (DAR_VIEWER.sub DAR_VIEWER_REPLACE_STRING, params[:id]).sub DAR_VIEWER_REPLACE_LANGUAGE, I18n.locale.to_s
     end
-    #save user history
-    save_user_history(params)
+   
     
     render layout: 'books_details'
   end

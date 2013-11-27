@@ -4,14 +4,32 @@
 
 :javascript
   $(document).ready(function() {
-    
+   $( "#confirmation" ).dialog({
+      position: ['top', 100], 
+      autoOpen: false, 
+      modal: true, 
+      title: "#{I18n.t(:successfully_added)}",
+      buttons: {"#{I18n.t(:ok)}": 
+                 {
+                   text: "#{I18n.t(:ok)}",
+                   click: function()
+                   {
+                     $(this).dialog("close");
+                   }
+                  }
+      }
+   });
     $( "#dialog_#{@number}" ).dialog({
+      width: 400,
       position: ['top', 100], 
       autoOpen: false, 
       modal: true, 
       title: "#{I18n.t(:add_book_dialog_title)}",
       buttons: { 
-        "#{I18n.t(:save)}": function() {
+        "#{I18n.t(:save)}": {
+                        
+                        text: "#{I18n.t(:save)}",
+                        click: function() {
                               var col_id = $("#idselect").val(), 
                               title = $("#title").val(),
                               description = $("#description").val(),
@@ -24,6 +42,7 @@
                                        dataType: "script"
                                        });
                                 $(this).dialog("close");
+                                $( "#confirmation" ).dialog( "open" );
                               }else{
                                 if(title.trim().length == 0){
                                   $("#error").show();
@@ -33,14 +52,19 @@
                                        dataType: "script"
                                        }) ;
                                    $(this).dialog("close");
+                                   $( "#confirmation" ).dialog( "open" );
                                    $("#error").hide();
                                 }
                               }
-                             }, 
+                             }}, 
         "#{I18n.t(:cancel)}": function() {$(this).dialog("close");$("#error").hide();}
       } 
     });
     $( "#opener#{@number}" ).click(function() {
+      var buttons = $('.ui-dialog-buttonset').children('button');
+      buttons.removeClass("ui-state-hover").removeClass("ui-satate-focus").
+      removeClass("ui-button").removeClass("ui-widget").removeClass("ui-state-default").
+      addClass("dialogbutton");
       if(document.getElementById("new") != null){
         document.getElementById("new").checked = false;
       }
@@ -68,9 +92,12 @@
        
     });
   });   
-= params[:vol_id]
+
 -# TODO style fixing 
 #dialog{ :style => "display: none;",  id: "#{@number}" }
+#confirmation{ :style => "display: none;"}
+  %h4
+    ="#{I18n.t(:book_added_to_collection)}"
 -# TODO style fixing 
 #button
   - if @place == "details" || @place == "read"
