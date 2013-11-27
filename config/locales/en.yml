@@ -214,6 +214,14 @@ en:
   delete_book_from_collection: Delete Book from Collection
   collection: Collection
   collection_updated: Collection Updated
+  results: Results
+  delete_saved_query_confirm: Are you sure you want to delete this query?
+  delete_collection_confirm: Are you sure you want to delete this collection?
+  delete_book_from_collection_confirm: Are you sure you want to delete this book from collection?
+  edit_collection: Edit Collection
+  public: Public
+  private: Private
+  collection_not_updated: Error Occured While Updating Collection
   
   notifier:
     user_verification:

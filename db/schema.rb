@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131121105955) do
+ActiveRecord::Schema.define(:version => 20131126082525) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -94,8 +94,8 @@ ActiveRecord::Schema.define(:version => 20131121105955) do
     t.text     "mods"
     t.datetime "created_at",            :null => false
     t.datetime "updated_at",            :null => false
-    t.string   "bibtex"
-    t.string   "endnote"
+    t.text     "bibtex"
+    t.text     "endnote"
   end
 
   add_index "books", ["language_id"], :name => "index_books_on_language_id"
@@ -206,8 +206,9 @@ ActiveRecord::Schema.define(:version => 20131121105955) do
   create_table "queries", :force => true do |t|
     t.string   "string"
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.integer  "number_of_returned_books"
   end
 
   add_index "queries", ["user_id"], :name => "index_queries_on_user_id"

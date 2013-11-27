@@ -1,3 +1,9 @@
+:javascript  
+  function confirmDelete(id){
+  var r= confirm("#{I18n.t(:delete_book_from_collection_confirm)}");
+    return r;
+  }
+  
 .clear
 .thumb
   = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
@@ -11,7 +17,7 @@
     - if (@ubh_vol.collection.user_id == session[:user_id])
       = link_to image_tag("/images_#{I18n.locale}/close.png", :alt =>I18n.t(:delete_book_from_collection) , :title => I18n.t(:delete_book_from_collection)) , 
         {:controller => :collections, :action => :delete_book, 
-     :book_collection_id => @ubh_vol.id}
+     :book_collection_id => @ubh_vol.id}, :onclick => "return confirmDelete(#{@ubh_vol.id})"
   %h4
     = link_to @title.html_safe , 
         {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}

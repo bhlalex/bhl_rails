@@ -1,4 +1,5 @@
 module ApplicationHelper
+  include BooksHelper
   def books_count
     solr = RSolr.connect :url => SOLR_BOOKS_METADATA
     # I don't need any rows, I just need the count of all books.
@@ -86,4 +87,13 @@ module ApplicationHelper
     end
     saved_query[0,saved_query.length-1]
   end
+
+  def parse_collection_status(status)
+    if status
+      I18n.t(:public)
+    else
+      I18n.t(:private)
+    end
+  end
+
 end
