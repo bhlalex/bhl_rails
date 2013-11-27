@@ -12,6 +12,7 @@ Bhl::Application.routes.draw do
     match "/collections/delete_book/:book_collection_id" => "collections#delete_book"
     match "/collections/move_up/:book_collection_id" => "collections#move_up"
     match "/collections/move_down/:book_collection_id" => "collections#move_down"
+    match "dialog_content" => "collections#dialog_content"
     
   resources :collections
   get "collections/add_book"

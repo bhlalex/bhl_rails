@@ -207,6 +207,7 @@ en:
   collection_details: Collection Details
   delete_collection: Delete Collection
   book_collection_deleted: "Book Removed from Collection"
+  book_collection_added: "Book is added to your collection"
   book: Book
   decrease_book_order: Decrease Book Order
   increase_book_order: Increase Book Order

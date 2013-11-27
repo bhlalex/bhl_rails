@@ -1,0 +1,34 @@
+:javascript
+  $(document).ready(function() {
+    // reset the content
+    document.getElementById("new").checked=false;
+    document.getElementById("public").checked=false;
+    document.getElementById("createnewcoll").style.display = 'none';
+   });
+.form
+  %ul
+    - if Collection.count > 0
+      %li
+        = I18n.t(:choose_collection)
+      %li
+      %select#idselect
+        - @collections.each do |collection|
+          %option{:value => "#{collection.id}"} #{collection.title}
+      %br
+      %br
+    %li
+      %input#new{:checked => false, :type =>"checkbox", :value => 'off', 
+      :onclick => "document.getElementById('error').style.display = 'none';document.getElementById('description').value = '';document.getElementById('title').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll').style.display = 'block';}else{this.value = 'off';document.getElementById('createnewcoll').style.display = 'none';}"} #{I18n.t(:create_new_collection)}
+    #error{style: "display:none; color:red;"}
+      = I18n.t(:missing_title_error_msg)
+    #createnewcoll{style: "display:none;"}
+      .requiredlabel
+        = "#{I18n.t(:title)}"
+      %br
+      %input#title{type: "text"} 
+      = I18n.t(:description)
+      %textarea#description
+      %br
+      %input#public{:checked => false, :type =>"checkbox", :value => 'off',
+      :onclick => "if(this.checked == true){this.value = 'on';}else{this.value = 'off';}"} #{I18n.t(:public)}
+   

@@ -3,6 +3,9 @@
     .bookimage{:align => "center"}
       =image_tag "/#{@thumb}"
       =link_to I18n.t(:read_book_link), "/books/#{params[:id]}/read"
+      - @place = "details"
+      - @number = 0
+      = render :partial => "books/add_book"
 .page
   .page_border
     .tabcontent
