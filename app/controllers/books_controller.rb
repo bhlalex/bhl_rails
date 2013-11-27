@@ -34,6 +34,10 @@ class BooksController < ApplicationController
   end
   
   def show
+    if(session[:book_id] != nil && session[:book_id] != params[:id].to_i)
+      BookView.new(:book_id1 => session[:book_id], :book_id2 => params[:id].to_i)
+    end
+    session[:book_id] = params[:id].to_i  
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
     @book = search['response']['docs'][0]
