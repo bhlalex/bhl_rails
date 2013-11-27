@@ -32,6 +32,7 @@ class BooksController < ApplicationController
   end
   
   def show
+    @related_books = related_books(params[:id])
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
     @book = search['response']['docs'][0]
@@ -69,7 +70,7 @@ class BooksController < ApplicationController
       elsif @current == 'collections'
       # book collections
         #@book_collections = BookCollection.where(:volume_id => (Volume.find_by_job_id(params[:id])).id)
-        @collections = Collection.joins(:book_collections).where("collections.status=? and book_collections.volume_id=?" , true, (Volume.find_by_job_id(params[:id])).id)
+        @collections = Collection.joins(:book_collections).where("collections.user_id=? and book_collections.volume_id=? or collections.status=?" ,session[:user_id] , (Volume.find_by_job_id(params[:id])).id, true)
         
         @collections_total_number = @collections.count
         @page = params[:page] ? params[:page].to_i : 1
