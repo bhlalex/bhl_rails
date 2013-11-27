@@ -4,7 +4,8 @@
 
 :javascript
   $(document).ready(function() {
-    $( "#dialog" ).dialog({
+    
+    $( "#dialog_#{@number}" ).dialog({
       position: ['top', 100], 
       autoOpen: false, 
       modal: true, 
@@ -19,16 +20,16 @@
                              
                               if(new_col == 'off'){
                                 $.ajax({type: "GET", 
-                                       url: "/add_book?col_id=" + col_id +"&id=" + "#{params[:id]}", 
+                                       url: "/add_book?col_id=" + col_id +"&vol_id=" + "#{params[:id]}", 
                                        dataType: "script"
                                        });
                                 $(this).dialog("close");
                               }else{
-                                if(title == ''){
+                                if(title.trim().length == 0){
                                   $("#error").show();
                                 }else{
                                    $.ajax({type: "GET", 
-                                       url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&public=" + escape(public), 
+                                       url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&public=" + escape(public) + "&vol_id=" + "#{params[:id]}", 
                                        dataType: "script"
                                        }) ;
                                    $(this).dialog("close");
@@ -40,41 +41,39 @@
       } 
     });
     $( "#opener#{@number}" ).click(function() {
-      $( "#dialog" ).dialog( "open" );
+      if(document.getElementById("new") != null){
+        document.getElementById("new").checked = false;
+      }
+      if(document.getElementById("public") != null){
+        document.getElementById("public").checked = false;
+      }
+      var xmlhttp;
+      if (window.XMLHttpRequest){ 
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+      }
+      else{
+        // code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xmlhttp.onreadystatechange=function(){
+        if (xmlhttp.readyState==4 && xmlhttp.status==200){
+          document.getElementById("dialog_#{@number}").innerHTML=xmlhttp.responseText;
+        }
+      }
+      xmlhttp.open("GET","/dialog_content",true);
+      xmlhttp.send();
+      
+      $( "#dialog_#{@number}" ).dialog( "open" );
+       
     });
   });   
+= params[:vol_id]
 -# TODO style fixing 
-#dialog{ :style => "display: none;" }
-  .form
-    %ul
-      - if Collection.count > 0
-        %li
-          = I18n.t(:choose_collection)
-        %li
-        - collections = Collection.where(:user_id => session[:user_id])
-        %select#idselect
-          - collections.each do |collection|
-            %option{:value => "#{collection.id}"} #{collection.title}
-        %br
-        %br
-      %li
-        %input#new{:checked => "false", :type =>"checkbox", :value => 'off', 
-        :onclick => "document.getElementById('error').style.display = 'none';document.getElementById('description').value = '';document.getElementById('title').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll').style.display = 'block';}else{this.value = 'off';document.getElementById('createnewcoll').style.display = 'none';}"} #{I18n.t(:create_new_collection)}
-      #error{style: "display:none; color:red;"}
-        = I18n.t(:missing_title_error_msg)
-      #createnewcoll{style: "display:none;"}
-        = "#{I18n.t(:title)}*"
-        %br
-        %input#title{type: "text"} 
-        = I18n.t(:description)
-        %textarea#description
-        %br
-        %input#public{:checked => "false", :type =>"checkbox", :value => 'off',
-        :onclick => "if(this.checked == true){this.value = 'on';}else{this.value = 'off';}"} #{I18n.t(:public)}
-     
+#dialog{ :style => "display: none;",  id: "#{@number}" }
 -# TODO style fixing 
 #button
-- if @place == "details" || @place == "read"
-  %input{type: "button", class:"addbookdetails", id: "opener#{@number}", value: "#{I18n.t(:add_to_collection)}", :onclick => "document.getElementById('new').checked=false;document.getElementById('public').checked=false;document.getElementById('createnewcoll').style.display = 'none';"}
-- elsif @place == "list"
-  %input{type: "image", alt: "#{I18n.t(:add_to_collection)}", title: "#{I18n.t(:add_to_collection)}", src: "/images_#{I18n.locale}/add.png", class: "addbooklist", id: "opener#{@number}", value: "#{I18n.t(:add_to_collection)}", :onclick => "document.getElementById('new').checked=false;document.getElementById('public').checked=false;document.getElementById('createnewcoll').style.display = 'none';"}
+  - if @place == "details" || @place == "read"
+    %input{type: "button", class:"addbookdetails", id: "opener#{@number}", value: "#{I18n.t(:add_to_collection)}"}
+  - elsif @place == "list"
+    %input{type: "image", alt: "#{I18n.t(:add_to_collection)}", title: "#{I18n.t(:add_to_collection)}", src: "/images_#{I18n.locale}/add.png", class: "addbooklist", id: "opener#{@number}", value: "#{I18n.t(:add_to_collection)}"}

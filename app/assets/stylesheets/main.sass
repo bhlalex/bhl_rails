@@ -822,7 +822,11 @@ span.highlight
   border: 1px solid black
   border-top: none
   background-color: white
-
+.requiredlabel
+  background: url(image-path("/images_en/icon_required.png")) 0  no-repeat
+  display: inline-block
+  margin-left: -10px
+  padding-left: 10px
 .form
   li
     list-style: none
@@ -930,3 +934,8 @@ form fieldset#errors ul
   font-size: 24px
   color: orange
   font-weight: bold
+  
+  label.required:after
+    content: " *"
+    color: red
+

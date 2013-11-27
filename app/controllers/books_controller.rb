@@ -28,14 +28,14 @@ class BooksController < ApplicationController
     
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
-    
+
     @response = search_facet_highlight(@query, @page)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
   
   def show
     if(session[:book_id] != nil && session[:book_id] != params[:id].to_i)
-      BookView.new(:book_id1 => session[:book_id], :book_id2 => params[:id].to_i)
+      BookView.create(:book_id1 => session[:book_id], :book_id2 => params[:id].to_i)
     end
     session[:book_id] = params[:id].to_i  
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
@@ -43,8 +43,14 @@ class BooksController < ApplicationController
     @book = search['response']['docs'][0]
     @thumb = "volumes/#{params[:id]}/thumb.jpg"
     @page_title = @book['bok_title'][0]
-    @tabs = {:brief => I18n.t(:brief), :mods => I18n.t(:mods), :bibtex => I18n.t(:bibtex), :endnote => I18n.t(:endnote)}
-    @current = params[:tab] != nil ? params[:tab] : 'brief' 
+      
+    @tabs = {:brief => I18n.t(:brief), :mods => I18n.t(:mods), :bibtex => I18n.t(:bibtex), :endnote => I18n.t(:endnote),:collections => I18n.t(:collections)}
+    @current = params[:tab] != nil ? params[:tab] : 'brief'
+    
+    #users also viewed code
+    also_viewed_ids = also_viewed_ids(params[:id].to_i, LIMIT_USER_VIEWS_BOOKS)
+    @alsoviewedvolumes = also_viewed_volumes(also_viewed_ids)
+     
     if @current != 'read'
       if @current == 'brief'
         #Hash types holds some of the metadata "types" of a book 
@@ -70,6 +76,20 @@ class BooksController < ApplicationController
         endnote = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).endnote
         endnote = endnote[1..-1] if endnote[0] == "?"
         @format = endnote
+        
+      elsif @current == 'collections'
+      # book collections
+        @book_collections = BookCollection.where(:volume_id => (Volume.find_by_job_id(params[:id])).id)
+        @collections = @book_collections.where(:status => true)
+        @collections_total_number = @collections.count
+        @page = params[:page] ? params[:page].to_i : 1
+        @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
+        limit = PAGE_SIZE
+        offset = (@page > 1) ? (@page - 1) * limit : 0
+        @collections = @collections.limit(limit).offset(offset)
+        @url_params = params.clone
+      # end book collections block
+
       else
         @format = 'empty for now'
       end

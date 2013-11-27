@@ -169,6 +169,59 @@ en:
   save_query_button: "Save Query"
   pagination_previous: "Previous"
   pagination_next: "Next"
+  general: 'General'
+  annotations: 'Annotations'
+  saved_queries: 'Saved Queries'
+  recently_viewed: 'Recently Viewed'
+  last_modified_date: 'Last Modified Date'
+  collections: 'Collections'
+  list_view: 'List View'
+  gallery_view: 'Gallery View'
+  no_books_found: "No Books Found"
+  book_order: "Book Order"
+  collection_books: "Books In Collection"
+  no_queries_found: "No Queries Found"
+  search_date: "Saved at"
+  search_for: "You Searched for Books with "
+  user_collections: "Collections"
+  no_collections_found: 'No Collections Found'
+  collection_title: Collection Title
+  collection_description: Collection Description
+  status: Status
+  show_collection_detail: Collection Detail
+  save_query: Save Query
+  query_saved: Query Saved
+  query_destroyed: Query Destroyed
+  query: Query
+  show_result: Show Result
+  delete_query: Delete Query From History
+  content: Content
+  language: Language
+  published_at: Published Place
+  geo_location: Regional Affiliation
+  author: Author
+  name: Tagged Species
+  subject: Genre
+  collection_destroyed: Collection Destroyed
+  open_collection: Open Collection
+  collection_details: Collection Details
+  delete_collection: Delete Collection
+  book_collection_deleted: "Book Removed from Collection"
+  book_collection_added: "Book is added to your collection"
+  book: Book
+  decrease_book_order: Decrease Book Order
+  increase_book_order: Increase Book Order
+  delete_book_from_collection: Delete Book from Collection
+  collection: Collection
+  collection_updated: Collection Updated
+  results: Results
+  delete_saved_query_confirm: Are you sure you want to delete this query?
+  delete_collection_confirm: Are you sure you want to delete this collection?
+  delete_book_from_collection_confirm: Are you sure you want to delete this book from collection?
+  edit_collection: Edit Collection
+  public: Public
+  private: Private
+  collection_not_updated: Error Occured While Updating Collection
   
   notifier:
     user_verification:

@@ -1,0 +1,20 @@
+:javascript  
+  function confirmDelete(id){
+  var r= confirm("#{I18n.t(:delete_collection_confirm)}");
+    return r;
+  }
+.newscontent
+  .sidelinks
+    = link_to image_tag("/images_#{I18n.locale}/open.png", :alt => I18n.t(:open_collection), :title => I18n.t(:open_collection)) , 
+    {:controller => :collections, :action => :list_books_in_collection, :id => collection.id}
+    = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => I18n.t(:collection_details), :title => I18n.t(:collection_details)) , 
+    {:controller => :collections, :action => :show, :id => collection.id}
+    - if (collection.user_id == session[:user_id])
+      = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:delete_collection), :title => I18n.t(:delete_collection)) , 
+    {:controller => :collections, :action => :destroy_collection, :id => collection.id}, :onclick => "return confirmDelete(#{collection.id})"
+  %h4
+    = link_to collection.title.html_safe , 
+    {:controller => :collections, :action => :list_books_in_collection, :id => collection.id}
+  %h5
+    = "#{I18n.t(:last_modified_date)}: #{collection.last_modified_date}"
+.clear

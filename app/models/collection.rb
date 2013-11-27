@@ -5,4 +5,6 @@ class Collection < ActiveRecord::Base
   # status = false ===> priavte
   # status = true ===> public
   attr_accessible :creation_date, :description, :last_modified_date, :status, :title, :user_id
+  validates :title, :presence => true,
+                       :length => {:within => 4..25}
 end

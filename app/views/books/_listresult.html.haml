@@ -16,6 +16,7 @@
     = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "#{I18n.t(:details_icon)}", :title => "#{I18n.t(:details_icon)}") , 
     {:controller => :books, :action => :show, :id => @vol[:job_id]}
     - if logged_in?
+      - params[:id] = @vol[:job_id]
       - @place = "list"
       = render :partial => "books/add_book"
   %h4

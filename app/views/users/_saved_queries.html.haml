@@ -1,15 +1,11 @@
-%table
-  %header
-    %th
-      %strong Query Content
-    %th
-      %strong Query Date
-    %th
-      %strong Show result
-    %th
-      %strong Delete from history
-  %tbody
-    = render @queries unless @queries.nil?
-- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-  - @pages = adjustPaging(@page, @lastPage)
-  = render :partial => "books/paging"
+.page
+  .page_border
+    - if (@queries != '' && @queries_total_number > 0)
+      .count
+        = "Found #{pluralize(@queries_total_number, I18n.t(:query))} "
+      = render @queries
+      - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+        - @pages = adjustPaging(@page, @lastPage)
+        = render :partial => "books/paging"
+    - else
+      = I18n.t(:no_queries_found)
