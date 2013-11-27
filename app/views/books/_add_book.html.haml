@@ -4,22 +4,37 @@
 
 :javascript
   $(document).ready(function() {
-   $( "#confirmation" ).dialog({
-      position: ['top', 100], 
-      autoOpen: false, 
-      modal: true, 
-      title: "#{I18n.t(:successfully_added)}",
-      buttons: {"#{I18n.t(:ok)}": 
-                 {
-                   text: "#{I18n.t(:ok)}",
-                   click: function()
+     $( "#confirmation" ).dialog({
+        open: function(event, ui){ 
+            $(this).removeClass("ui-dialog");
+            $(this).parent().children().children('.ui-dialog-titlebar-close').addClass("small");
+            $(this).parents(".ui-dialog:first").find(".ui-widget-header")
+                   .removeClass("ui-widget-header").addClass("dialogtitle");
+        },
+        dialogClass:"dialogclass",
+        width: 400,
+        position: ['top', 100], 
+        autoOpen: false, 
+        modal: true, 
+        title: "#{I18n.t(:successfully_added)}",
+        buttons: {"#{I18n.t(:ok)}": 
                    {
-                     $(this).dialog("close");
-                   }
-                  }
-      }
-   });
+                     text: "#{I18n.t(:ok)}",
+                     click: function()
+                     {
+                       $(this).dialog("close");
+                     }
+                    }
+        }
+     });
     $( "#dialog_#{@number}" ).dialog({
+      open: function(event, ui){ 
+            $(this).removeClass("ui-dialog");
+            $(this).parent().children().children('.ui-dialog-titlebar-close').addClass("small");
+            $(this).parents(".ui-dialog:first").find(".ui-widget-header")
+                   .removeClass("ui-widget-header").addClass("dialogtitle");
+      },
+      dialogClass:"dialogclass",
       width: 400,
       position: ['top', 100], 
       autoOpen: false, 
@@ -27,7 +42,6 @@
       title: "#{I18n.t(:add_book_dialog_title)}",
       buttons: { 
         "#{I18n.t(:save)}": {
-                        
                         text: "#{I18n.t(:save)}",
                         click: function() {
                               var col_id = $("#idselect").val(), 
@@ -60,11 +74,14 @@
         "#{I18n.t(:cancel)}": function() {$(this).dialog("close");$("#error").hide();}
       } 
     });
+    $('#{I18n.t(:save)}').removeClass('ui-state-hover');
     $( "#opener#{@number}" ).click(function() {
       var buttons = $('.ui-dialog-buttonset').children('button');
       buttons.removeClass("ui-state-hover").removeClass("ui-satate-focus").
       removeClass("ui-button").removeClass("ui-widget").removeClass("ui-state-default").
       addClass("dialogbutton");
+      $('.ui-dialog-buttonpane').children('button').removeClass();
+        
       if(document.getElementById("new") != null){
         document.getElementById("new").checked = false;
       }
