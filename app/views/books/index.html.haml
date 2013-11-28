@@ -46,6 +46,8 @@
     - thumb = ''
     - if(@vol[:get_thumbnail_fail] == 0)
       - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+    - else
+      - @thumb = "images_#{I18n.locale}/noThumb.png"
     - @doc = doc
     - if(@view == 'gallery')
       = render :partial => "books/galleryresult"
