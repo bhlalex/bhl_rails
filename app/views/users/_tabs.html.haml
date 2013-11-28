@@ -3,7 +3,10 @@
     .box_1
       .profilebookimage{:align => "center"}
         - @title = Book.find_by_id(@recently_viewed_volume.book_id).title
-        - @thumb = "volumes/#{@recently_viewed_volume[:job_id]}/thumb.jpg"
+        - if(@recently_viewed_volume[:get_thumbnail_fail] == 0)
+          - @thumb = "volumes/#{@recently_viewed_volume[:job_id]}/thumb.jpg"
+        - else
+          - @thumb = "images_#{I18n.locale}/noThumb.png"
         = link_to @title.html_safe , 
           {:controller => :books, :action => :show, :id => @recently_viewed_volume[:job_id], :tab => "#{I18n.t(:brief_tab)}"}
         = link_to image_tag("/#{@thumb}", :alt => "#{@title}", :title => "#{@title}") , 
