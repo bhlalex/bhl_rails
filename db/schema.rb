@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131127070414) do
+ActiveRecord::Schema.define(:version => 20131126140159) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -74,6 +74,13 @@ ActiveRecord::Schema.define(:version => 20131127070414) do
   add_index "book_subjects", ["book_id"], :name => "index_book_subjects_on_book_id"
   add_index "book_subjects", ["subject_id"], :name => "index_book_subjects_on_subject_id"
   add_index "book_subjects", ["subject_type_id"], :name => "index_book_subjects_on_subject_type_id"
+
+  create_table "book_views", :id => false, :force => true do |t|
+    t.integer  "book_id1"
+    t.integer  "book_id2"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "books", :force => true do |t|
     t.string   "bibid"

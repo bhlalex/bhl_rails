@@ -26,13 +26,17 @@ class BooksController < ApplicationController
     @lang = 'test'
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
-
+    
     @response = search_facet_highlight(@query, @page)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
   
   def show
     @related_books = related_books(params[:id])
+    if(session[:book_id] != nil && session[:book_id] != params[:id].to_i)
+      BookView.create(:book_id1 => session[:book_id], :book_id2 => params[:id].to_i)
+    end
+    session[:book_id] = params[:id].to_i  
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
     @book = search['response']['docs'][0]
@@ -40,7 +44,12 @@ class BooksController < ApplicationController
     @page_title = @book['bok_title'][0]
       
     @tabs = {:brief => I18n.t(:brief), :mods => I18n.t(:mods), :bibtex => I18n.t(:bibtex), :endnote => I18n.t(:endnote),:collections => I18n.t(:collections)}
-    @current = params[:tab] != nil ? params[:tab] : 'brief' 
+    @current = params[:tab] != nil ? params[:tab] : 'brief'
+    
+    #users also viewed code
+    also_viewed_ids = also_viewed_ids(params[:id].to_i, LIMIT_USER_VIEWS_BOOKS)
+    @alsoviewedvolumes = also_viewed_volumes(also_viewed_ids)
+     
     if @current != 'read'
       if @current == 'brief'
         #Hash types holds some of the metadata "types" of a book 
@@ -69,9 +78,7 @@ class BooksController < ApplicationController
         
       elsif @current == 'collections'
       # book collections
-        #@book_collections = BookCollection.where(:volume_id => (Volume.find_by_job_id(params[:id])).id)
         @collections = Collection.joins(:book_collections).where("collections.user_id=? and book_collections.volume_id=? or collections.status=?" ,session[:user_id] , (Volume.find_by_job_id(params[:id])).id, true)
-        
         @collections_total_number = @collections.count
         @page = params[:page] ? params[:page].to_i : 1
         @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
@@ -85,10 +92,11 @@ class BooksController < ApplicationController
         @format = 'empty for now'
       end
     else
+      #save user history
+      save_user_history(params)
       @reader_path = (DAR_VIEWER.sub DAR_VIEWER_REPLACE_STRING, params[:id]).sub DAR_VIEWER_REPLACE_LANGUAGE, I18n.locale.to_s
     end
-    #save user history
-    save_user_history(params)
+   
     
     render layout: 'books_details'
   end

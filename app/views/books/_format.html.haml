@@ -1,3 +1,7 @@
-%div.bibtex{ :style => "width:700px; overflow-x:scroll;padding-left: 10px;" }
+-if(@current == 'bibtex')
+  %div.bibtex{ :style => "width:700px; overflow-x:scroll;padding-left: 10px;" }
+    %pre
+      =@format
+-else
   %pre
     =@format

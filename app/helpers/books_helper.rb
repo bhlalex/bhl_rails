@@ -278,6 +278,7 @@ module BooksHelper
     end
     return false
   end
+
     
 def related_books(volume_id)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
@@ -293,5 +294,26 @@ def related_books(volume_id)
      query+= ")"
   end
      response = rsolr.find :q => query, :fl => return_field, 'rows' => 5
+  end
+
+  def also_viewed_ids(id, limit)
+    ids = BookView.find_by_sql("SELECT result.rel_id, COUNT(*) as total_count
+                            FROM (
+                                (SELECT book_id1 AS rel_id 
+                                FROM book_views
+                                WHERE book_id2 = #{id})
+                                UNION(SELECT book_id2 AS rel_id
+                                FROM book_views
+                                WHERE book_id1 = #{id})
+                            ) result
+                            GROUP BY result.rel_id ORDER BY total_count DESC
+                            LIMIT 0, #{limit};")
+  end
+  def also_viewed_volumes(ids)
+    results = []
+    ids.each do |item|
+      results << solr_search("vol_jobid:#{item['rel_id']}", "vol_jobid, bok_title, bok_language, subjects, ")
+    end
+    results   
   end
 end
