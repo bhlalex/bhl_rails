@@ -21,6 +21,7 @@ Bhl::Application.routes.draw do
   resources :books, only: [:index, :show]
   match "/books/:id" => "books#show"
   match "/books/:id/:tab" => "books#show"
+  match "rate_book" => "books#rate"
   
   resources :ubio, only: [:index]
   
@@ -42,6 +43,8 @@ Bhl::Application.routes.draw do
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"
   post  "users/reset_password_action"
   get   "users/remove_book_history"
+  get   "users/rate"
+  match "users/rate" => "users#rate"
   
   # remove when how page is ready
   root :to => 'pages#about'

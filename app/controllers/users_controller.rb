@@ -273,8 +273,28 @@ class UsersController < ApplicationController
     end
   end
 
+  def rate
+    if is_loggged_in?
+      volume = Volume.find_by_job_id(params[:job_id])
+      book_rate_list = BookRating.where(:user_id => params[:user_id], :volume_id => volume.id)
+      #create new or updat existing
+      if book_rate_list.count == 0
+        #create
+        book_rate = BookRating.create!(:user_id => params[:user_id], :volume_id => volume.id, :rate => params[:rate])
+      else
+        #update
+        book_rate = book_rate_list[0]
+        book_rate.rate = params[:rate] 
+      end
+      book_rate.save
+      #update volume global rate
+      volume = volume.set_rate(params[:rate])
+      data = volume.rate
+      render :json => data
+    end
+  end
+  
   private
-
   def authenticate_user
     if !is_loggged_in?
       redirect_to :controller => :users, :action => :login
