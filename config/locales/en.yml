@@ -222,6 +222,7 @@ en:
   public: Public
   private: Private
   collection_not_updated: Error Occured While Updating Collection
+  related_books: Related to Book You've Viewed
   
   notifier:
     user_verification:

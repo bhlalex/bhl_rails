@@ -279,4 +279,19 @@ module BooksHelper
     return false
   end
     
+def related_books(volume_id)
+    rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
+    return_field = "vol_jobid,bok_title,name"
+    query = "bok_title:(#{Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).title})"
+    if (origin_book_names['response']['docs'][0]['name'].any?)
+      query+= " OR name:("
+      origin_book_names['response']['docs'][0]['name'].each do |name|
+        query+= "#{name} OR "
+      end
+     query = query[0,query.length-4]
+     query+= ")"
+  end
+     response = rsolr.find :q => query, :fl => return_field, 'rows' => 5
+  end
 end
