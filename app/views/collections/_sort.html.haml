@@ -1,0 +1,7 @@
+%span 
+  = link_to image_tag("/images_#{I18n.locale}/up.png", :alt => I18n.t(:sort_desc), 
+        :title => I18n.t(:sort_desc), :width => 15, :height => 14) , 
+    {:params => search_view(params, 'title DESC')}
+  = link_to image_tag("/images_#{I18n.locale}/down.png", :alt => I18n.t(:sort_asc), 
+        :title => I18n.t(:sort_asc), :width => 15, :height => 14) , 
+    {:params => search_view(params, 'title ASC')}

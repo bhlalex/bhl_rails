@@ -159,6 +159,10 @@ en:
   changes_saved: "Changes saved."
   search_by: "Search By:"
   no_books_found: "No Books Found"
+  search_by_title: Search By Collection Title
+  sort_by_title: Sort By Collection Title
+  sort_desc: Sort Desc
+  sort_asc: Sort Asc
 
   user_profile: "Profile"
   user_history: "History"
@@ -223,6 +227,8 @@ en:
   private: Private
   collection_not_updated: Error Occured While Updating Collection
   related_books: Related to Book You've Viewed
+  all_collections: Collections
+  collections_link: Collections
   
   notifier:
     user_verification:

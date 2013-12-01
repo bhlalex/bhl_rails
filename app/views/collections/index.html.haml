@@ -1,0 +1,24 @@
+.pagetitle
+  .pagetitlecontent
+    .pagetitleborder
+      .searchtitle
+        = I18n.t(:search_by_title) 
+        = render :partial => "collections/search"
+      .searchtitle
+        = I18n.t(:sort_by_title) 
+        = render :partial => "collections/sort"
+      .searchfilter
+        = render :partial => "collections/breadcrumb"
+        .clear
+= render :partial => "layouts/flash", object: flash
+.contents
+  .page
+    - if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
+      = render :partial => "collections/numFound"
+      .page_border
+        = render @collections
+        - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+          - @pages = adjustPaging(@page, @lastPage)
+          = render :partial => "books/paging"
+    - else
+      = I18n.t(:no_collections_found)

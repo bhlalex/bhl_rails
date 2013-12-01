@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131126140159) do
+ActiveRecord::Schema.define(:version => 20131128100539) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -124,6 +124,7 @@ ActiveRecord::Schema.define(:version => 20131126140159) do
     t.datetime "creation_date"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+    t.string   "photo_name"
   end
 
   add_index "collections", ["user_id"], :name => "index_collections_on_user_id"

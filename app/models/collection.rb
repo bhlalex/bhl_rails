@@ -4,7 +4,7 @@ class Collection < ActiveRecord::Base
   has_many :books, :through => :book_collections
   # status = false ===> priavte
   # status = true ===> public
-  attr_accessible :creation_date, :description, :last_modified_date, :status, :title, :user_id
+  attr_accessible :creation_date, :description, :last_modified_date, :status, :title, :user_id, :photo_name
   validates :title, :presence => true,
                        :length => {:within => 4..25}
 end

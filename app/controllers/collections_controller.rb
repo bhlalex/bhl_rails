@@ -2,6 +2,30 @@ class CollectionsController < ApplicationController
   include BHL::Login
   include BooksHelper
   def index
+    @query_array = {'title'=> []}
+    @query_array = set_query_array(@query_array, params)
+    @query = set_query_string(@query_array, true)    
+    if(@query != '')
+      sql_query = "status = true"
+      terms = (@query[7,@query.length]).split(" _AND ")
+      terms.each do |term|
+        sql_query+= " and title like '%#{term.tr("_", "")}%'"
+      end
+    else
+      sql_query = "status = true"
+    end
+    @collections = Collection.where(sql_query).order(params[:view])
+    if(@collections.nil?)
+      @collections_total_number = 0
+    else
+      @collections_total_number = @collections.count
+    end
+    @page = params[:page] ? params[:page].to_i : 1
+    @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
+    limit = PAGE_SIZE
+    offset = (@page > 1) ? (@page - 1) * limit : 0
+    @collections = @collections.limit(limit).offset(offset)
+    @url_params = params.clone
   end
 
   def show
@@ -14,9 +38,9 @@ class CollectionsController < ApplicationController
 
   def dialog_content
     @collections = Collection.where(:user_id => session[:user_id])
-    render :layout => 'main' # this is a blank layout as I don't need any layout in this action  
+    render :layout => 'main' # this is a blank layout as I don't need any layout in this action
   end
-  
+
   def destroy_collection
     collection = Collection.find(params[:id])
     collection.destroy
@@ -65,7 +89,17 @@ class CollectionsController < ApplicationController
 
   def update
     @collection = Collection.find(params[:id])
-    if @collection.update_attributes(params[:collection])
+    dir = File.dirname("public/images_#{I18n.locale}/collections/#{@collection.id}")
+    FileUtils.mkdir_p(dir) unless File.directory?(dir)
+    uploaded_io = params[:collection][:picture]
+    File.open("public/images_#{I18n.locale}/collections/#{@collection.id}/#{uploaded_io.original_filename}", 'wb') do |file|
+       file.write(uploaded_io.read)
+    end
+     @collection[:photo_name] = uploaded_io.original_filename
+      @collection[:title] = params[:collection][:title]
+      @collection[:description] = params[:collection][:description]
+      @collection[:status] = params[:collection][:status]
+    if @collection.save
       flash.now[:notice]=I18n.t(:collection_updated)
       flash.keep
       redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "collections"
@@ -100,7 +134,7 @@ class CollectionsController < ApplicationController
     col_id = col.id
     vol_id = Volume.find_by_job_id(params[:vol_id]).id
     duplicated = BookCollection.where(:collection_id => col_id, :volume_id => vol_id)
-    if duplicated.count == 0 
+    if duplicated.count == 0
       position = BookCollection.where(:collection_id => col_id).count + 1
       bok_col = BookCollection.create!(:volume_id => vol_id, :collection_id => col_id, :position => position)
     end
@@ -119,4 +153,5 @@ class CollectionsController < ApplicationController
       add_to_existing_collection(col)
     end
   end
+
 end
