@@ -13,7 +13,7 @@ class Volume < ActiveRecord::Base
     return content
   end
   
-  def set_rate (rate)
+  def set_rate
     #recalculate rate
     rate1_count = BookRating.where(:volume_id => self.id, :rate => 1.0).count
     rate2_count = BookRating.where(:volume_id => self.id, :rate => 2.0).count

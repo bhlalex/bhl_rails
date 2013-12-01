@@ -8,6 +8,7 @@ describe BooksController do
   render_views
   include BooksHelper
   include BHL::Login
+
   describe "GET 'index'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})

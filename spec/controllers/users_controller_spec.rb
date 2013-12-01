@@ -693,5 +693,4 @@ describe UsersController do
       expect(response).to render_template "users/edit"
     end
   end
-
 end
