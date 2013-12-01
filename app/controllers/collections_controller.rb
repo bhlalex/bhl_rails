@@ -50,10 +50,12 @@ class CollectionsController < ApplicationController
   end
 
   def add_book
-    if(params[:col_id])
-      add_to_existing_collection(Collection.find_by_id(params[:col_id]))
-    else
-      add_to_new_collection
+    if is_loggged_in?
+      if(params[:col_id])
+        add_to_existing_collection(Collection.find_by_id(params[:col_id]))
+      else
+        add_to_new_collection
+      end
     end
   end
 

@@ -303,4 +303,5 @@ en:
   book_added_to_collection: "Book is successfully added to your collection"
   successfully_added: "Successfully added"
   ok: "Ok"
-
+  your_rate: "Your rate"
+  book_rate: "Book rate"

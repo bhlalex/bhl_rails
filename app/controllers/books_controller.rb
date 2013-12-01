@@ -96,8 +96,15 @@ class BooksController < ApplicationController
       save_user_history(params)
       @reader_path = (DAR_VIEWER.sub DAR_VIEWER_REPLACE_STRING, params[:id]).sub DAR_VIEWER_REPLACE_LANGUAGE, I18n.locale.to_s
     end
-   
-    
+    # user rate for current volume
+    volume = Volume.find_by_job_id(params[:id])
+    @book_rate = volume.rate
+    debugger
+    @user_rate = 100
+    book_rate_list = BookRating.where(:user_id => session[:user_id], :volume_id => volume.id)
+    if book_rate_list.count > 0
+      @user_rate = book_rate_list[0].rate   
+    end
     render layout: 'books_details'
   end
   

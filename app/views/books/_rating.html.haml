@@ -1,0 +1,105 @@
+%link{:type => "text/css", :rel => "stylesheet", :href => "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"}
+%script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.9.1.js"}
+%script{:type => "text/javascript", :src => "http://code.jquery.com/ui/1.10.3/jquery-ui.js"}
+  
+:javascript
+  $(document).ready(function() {
+    // load stars
+    if(#{@book_rate}){
+      // TODO add * 2 when display half star 
+      var count = #{@book_rate};
+      for(i=1; i <= count; i++){
+        $("#staticstar"+ i).addClass("on");
+      }
+    }
+    
+    if(#{@user_rate} != 100){
+      // TODO add * 2 when display half star 
+      var count = #{@user_rate};
+      for(i=1; i <= count; i++){
+          $("#star"+ i).addClass("on");
+      }
+    }
+  });
+  $(function () {
+    $('li').mouseover(function(){
+      var count = parseInt($(this).attr("value"));
+      for(i=1; i <= 5; i++){
+        if(i <= count){
+          $("#star"+ i).addClass("shine");
+        } else {
+          $("#star"+ i).removeClass("shine");
+        }
+      }
+    });
+    
+    $('li').mouseout(function(){
+      for(i=1; i <= 5; i++){
+          $("#star"+ i).removeClass("shine");
+      }
+    });
+    
+    $('li').click(function () {
+      if(parseInt($(this).attr("value")) != 0){
+        var count = parseInt($(this).attr("value"));
+        var off = false;
+        if(count == 1 && (($("#star1").attr("class")).split(' ')).length == 3 &&  ($("#star2").attr("class")).localeCompare("starrating") == 0){
+          for(i=1; i <= 5; i++){
+            $("#star"+ i).removeClass("on");
+          }
+          off = true;
+        }else{
+          for(i=1; i <= 5; i++){
+            if(i <= count){
+              $("#star"+ i).addClass("on");
+            } else {
+              $("#star"+ i).removeClass("on");
+            }
+          }
+        }
+        if(off){
+          off = false;
+          count = 0;
+        }
+        $.ajax({type: "GET", 
+                url: "/users/rate?rate=" + count + "&user_id=" + "#{session[:user_id]}" + "&job_id=" + "#{params[:id]}", 
+                dataType: "script",
+                success: function(data){
+                            if(data.charAt(1) == '0'){
+                             $("#staticstar1").removeClass("on");
+                            }else{
+                              for(i=1; i <= 5; i++){
+                                if(i+".0".localeCompare(data) <= 0){
+                                  $("#staticstar"+ i).addClass("on");
+                                } else {
+                                  $("#staticstar"+ i).removeClass("on");
+                                }
+                              }
+                            }
+                           }
+               });
+          
+        
+       
+        
+        // TODO add * 2 when display half star 
+      }
+    });
+  });
+= "#{I18n.t(:book_rate)}"
+%br
+%li#staticstar1.starrating{:value => '0'}
+%li#staticstar2.starrating{:value => '0'}
+%li#staticstar3.starrating{:value => '0'}
+%li#staticstar4.starrating{:value => '0'}
+%li#staticstar5.starrating{:value => '0'}
+%br
+= "#{I18n.t(:your_rate)}"
+%br
+%li#star1.starrating{:value => '1'}
+%li#star2.starrating{:value => '2'}
+%li#star3.starrating{:value => '3'}
+%li#star4.starrating{:value => '4'}
+%li#star5.starrating{:value => '5'}
+  
+#users
