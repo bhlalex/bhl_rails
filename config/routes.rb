@@ -3,7 +3,7 @@ Bhl::Application.routes.draw do
   match "/user_search_history/save_query/" => "user_search_history#save_query"
     match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
     resources :user_search_history, only: [:save_query, :delete_query]
-    #resources :collections
+    resources :collections, only: [:index]
     match "/collections/list_books_in_collection/:id" => "collections#list_books_in_collection"
     match "/collections/destroy_collection/:id" => "collections#destroy_collection"
     match "/collections/edit/:id" => "collections#edit"

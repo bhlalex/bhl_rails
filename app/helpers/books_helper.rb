@@ -126,7 +126,7 @@ module BooksHelper
     if(emptyQuery && !urlOrSolr)
       query = "*:*"
     else
-      if(query_array['ALL'] != '')
+      if(query_array['ALL'] !=nil && query_array['ALL'] != '')
         if(urlOrSolr)
           query = "_ALL="
           count = 0

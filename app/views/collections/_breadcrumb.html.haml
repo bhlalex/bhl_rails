@@ -1,0 +1,10 @@
+- if(!(@query_array.nil?))
+  - @query_array.each do |key, val|
+    - if(val != '')
+      - val.each do |term|
+        .filter
+          %b
+            = "#{key.capitalize}:" 
+          = term
+          = link_to image_tag("/images_#{I18n.locale}/close.png", :width => 16, :height => 16) , 
+                {:params => removeBreadCrumb(@url_params, key, term)}

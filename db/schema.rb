@@ -112,8 +112,8 @@ ActiveRecord::Schema.define(:version => 20131128113055) do
     t.text     "mods"
     t.datetime "created_at",            :null => false
     t.datetime "updated_at",            :null => false
-    t.text     "bibtex"
-    t.text     "endnote"
+    t.string   "bibtex"
+    t.string   "endnote"
   end
 
   add_index "books", ["language_id"], :name => "index_books_on_language_id"
@@ -135,6 +135,7 @@ ActiveRecord::Schema.define(:version => 20131128113055) do
     t.datetime "creation_date"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
+    t.string   "photo_name"
   end
 
   add_index "collections", ["user_id"], :name => "index_collections_on_user_id"

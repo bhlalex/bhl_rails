@@ -1,0 +1,19 @@
+:javascript  
+  function searchfnc(searchquery, field){
+    if(field == null || field == '')
+      return;
+    var type = "title"
+    if(searchquery == null || searchquery == ''){
+      searchquery = "_" + type + "=" + field;
+    } 
+    else if(searchquery.toLowerCase().indexOf("_" + type.toLowerCase()) != -1){
+      searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
+    }
+    else{
+      searchquery += "&_" + type + "=" + field;
+    }
+    window.location = window.location.href.split('?')[0] + "?" + searchquery;
+  }
+%input#searchfield{:size => "30", :style => "color: rgb(153, 153, 153);", :type => "text", :onkeypress => "if(event.keyCode == 13){searchfnc('#{@query}', document.getElementById('searchfield').value);return false;}"} 
+= link_to "Search" , "", :onclick => "searchfnc('#{@query}', document.getElementById('searchfield').value); return false;" , 
+  :class => "search"
