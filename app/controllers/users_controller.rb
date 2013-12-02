@@ -274,24 +274,28 @@ class UsersController < ApplicationController
   end
 
   def rate
-    if is_loggged_in?
-      volume = Volume.find_by_job_id(params[:job_id])
+    volume = Volume.find_by_job_id(params[:job_id])
+    if is_loggged_in? && params[:rate] != "NaN"
       book_rate_list = BookRating.where(:user_id => params[:user_id], :volume_id => volume.id)
-      #create new or updat existing
-      if book_rate_list.count == 0
-        #create
-        book_rate = BookRating.create!(:user_id => params[:user_id], :volume_id => volume.id, :rate => params[:rate])
+      if book_rate_list.count > 0 && params[:rate].to_f < 1
+        book_rate_list[0].delete
       else
-        #update
-        book_rate = book_rate_list[0]
-        book_rate.rate = params[:rate] 
+      #create new or updat existing
+        if book_rate_list.count == 0
+          #create
+          book_rate = BookRating.create!(:user_id => params[:user_id], :volume_id => volume.id, :rate => params[:rate])
+        else
+          #update
+          book_rate = book_rate_list[0]
+          book_rate.rate = params[:rate] 
+        end
+        book_rate.save
       end
-      book_rate.save
-      #update volume global rate
-      volume = volume.set_rate(params[:rate])
-      data = volume.rate
-      render :json => data
     end
+    #update volume global rate
+    volume = volume.set_rate
+    data = volume.rate
+    render :json => data
   end
   
   private

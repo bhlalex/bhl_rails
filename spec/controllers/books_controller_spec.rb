@@ -8,6 +8,7 @@ describe BooksController do
   render_views
   include BooksHelper
   include BHL::Login
+
   describe "GET 'index'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -303,6 +304,7 @@ describe BooksController do
       doc[:bok_title] = "Test Book"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       # remove this book if exists
+      solr.delete_by_query('*:*')
       solr.delete_by_query('vol_jobid:123')
       solr.commit
       solr.add doc
@@ -463,7 +465,12 @@ describe BooksController do
   describe "related books" do
     it "should show related books title" do
     get :show, :id => @volume.job_id
-    response.should have_content(I18n.t(:related_books))
+    response.should have_selector('h4', :content => I18n.t(:related_books))
+    end
+    
+    it "should display title for each related book" do
+    get :show, :id => @volume.job_id
+    response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}/brief", :content => "Test Book 2")
     end
   end
     
@@ -501,6 +508,7 @@ describe BooksController do
       doc = {:vol_jobid => "123", :bok_bibid => "456"}
       doc[:bok_title] = "Test Book"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*')
       # remove this book if exists
       solr.delete_by_query('vol_jobid:123')
       solr.commit
@@ -587,7 +595,10 @@ describe BooksController do
     end
 
     describe "tabs links" do
-      
+      before(:each) do 
+        solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+        solr.delete_by_query('*:*')
+      end
       it "should link to brief" do
         get 'show', :id => "123"
         response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/brief", :content => I18n.t(:brief))

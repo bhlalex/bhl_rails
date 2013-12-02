@@ -1,6 +1,7 @@
 require 'spec_helper'
 include BHL::Login
 describe "books/_right_column.html.haml" do
+
   before(:each) do
     visit("/books")
   end

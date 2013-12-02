@@ -91,18 +91,7 @@ class CollectionsController < ApplicationController
 
   def update
     @collection = Collection.find(params[:id])
-    #    dir = File.dirname("public/images_#{I18n.locale}/collections/#{@collection.id}")
-    #    FileUtils.mkdir_p(dir) unless File.directory?(dir)
-    #    uploaded_io = params[:collection][:picture]
-    #    File.open("public/images_#{I18n.locale}/collections/#{@collection.id}/#{uploaded_io.original_filename}", 'wb') do |file|
-    #       file.write(uploaded_io.read)
-    #    end
-    #     @collection[:photo_name] = uploaded_io.original_filename
-    #      @collection[:title] = params[:collection][:title]
-    #      @collection[:description] = params[:collection][:description]
-    #      @collection[:status] = params[:collection][:status]
     collection_attr = params[:collection]
-
     collection_attr[:photo_name].original_filename+=DateTime.now.to_s  if (!(params[:collection][:photo_name].nil?))
     if @collection.update_attributes(collection_attr)
       if ((params[:delete_photo]))
