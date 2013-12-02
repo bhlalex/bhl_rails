@@ -26,6 +26,15 @@ class CollectionsController < ApplicationController
     offset = (@page > 1) ? (@page - 1) * limit : 0
     @collections = @collections.limit(limit).offset(offset)
     @url_params = params.clone
+    @user_all_rates = []
+    @collections.each do |collection|
+      collection_rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => collection.id)
+      if collection_rate_list.count > 0
+        @user_all_rates.push( collection_rate_list[0].rate)
+      else
+        @user_all_rates.push(0.0)
+      end
+    end
   end
 
   def show

@@ -16,7 +16,10 @@
     - if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
       = render :partial => "collections/numFound"
       .page_border
-        = render @collections
+        - counter = 0
+        - @collections.each do |collection|
+          = render :partial => "collections/collection", :locals => {:collection => collection, :user_rate => @user_all_rates[counter]}
+          - counter = counter + 1
         - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
           - @pages = adjustPaging(@page, @lastPage)
           = render :partial => "books/paging"

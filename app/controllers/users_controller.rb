@@ -298,6 +298,31 @@ class UsersController < ApplicationController
     render :json => data
   end
   
+  def rate_collection
+    if is_loggged_in? && params[:rate] != "NaN"
+      collection = Collection.find_by_id(params[:col_id])
+      col_rate_list = CollectionRating.where(:user_id => params[:user_id], :collection_id => collection.id)
+      if col_rate_list.count > 0 && params[:rate].to_f < 1
+        col_rate_list[0].delete
+      else
+        #create new or updat existing
+        if col_rate_list.count == 0
+          #create
+          collection_rate = CollectionRating.create!(:user_id => params[:user_id], :collection_id => collection.id, :rate => params[:rate])
+        else
+          #update
+          collection_rate = col_rate_list[0]
+          collection_rate.rate = params[:rate] 
+        end
+        collection_rate.save
+      end
+    end
+    #update volume global rate
+    collection = collection.set_rate
+    data = collection.rate
+    render :json => data
+  end
+  
   private
   def authenticate_user
     if !is_loggged_in?

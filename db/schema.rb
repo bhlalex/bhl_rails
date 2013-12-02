@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131128113055) do
+ActiveRecord::Schema.define(:version => 20131202121140) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -126,6 +126,17 @@ ActiveRecord::Schema.define(:version => 20131128113055) do
   add_index "books_locations", ["book_id"], :name => "index_books_locations_on_book_id"
   add_index "books_locations", ["location_id"], :name => "index_books_locations_on_location_id"
 
+  create_table "collection_ratings", :force => true do |t|
+    t.integer  "collection_id"
+    t.integer  "user_id"
+    t.decimal  "rate",          :precision => 2, :scale => 1
+    t.datetime "created_at",                                  :null => false
+    t.datetime "updated_at",                                  :null => false
+  end
+
+  add_index "collection_ratings", ["collection_id"], :name => "index_collection_ratings_on_collection_id"
+  add_index "collection_ratings", ["user_id"], :name => "index_collection_ratings_on_user_id"
+
   create_table "collections", :force => true do |t|
     t.integer  "user_id"
     t.string   "title"
@@ -133,9 +144,10 @@ ActiveRecord::Schema.define(:version => 20131128113055) do
     t.boolean  "status"
     t.datetime "last_modified_date"
     t.datetime "creation_date"
-    t.datetime "created_at",         :null => false
-    t.datetime "updated_at",         :null => false
+    t.datetime "created_at",                                       :null => false
+    t.datetime "updated_at",                                       :null => false
     t.string   "photo_name"
+    t.decimal  "rate",               :precision => 2, :scale => 1
   end
 
   add_index "collections", ["user_id"], :name => "index_collections_on_user_id"

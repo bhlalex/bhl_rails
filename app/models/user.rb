@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
   has_many :books, :through => :users_books
   has_many :histories, :dependent => :destroy
   has_many :book_ratings
+  has_many :collection_ratings
   before_create :generate_uuid
   
   # these are not model variables 

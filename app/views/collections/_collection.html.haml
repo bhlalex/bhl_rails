@@ -3,7 +3,6 @@
   var r= confirm("#{I18n.t(:delete_collection_confirm)}");
     return r;
   }
-
 - if(collection.photo_name.nil?)
   - @thumb = "images_#{I18n.locale}/defaultCollection.jpg"
 - else
@@ -26,4 +25,10 @@
     {:controller => :collections, :action => :list_books_in_collection, :id => collection.id}
   %h5
     = "#{I18n.t(:last_modified_date)}: #{collection.last_modified_date}"
+- if logged_in?
+  - if collection.rate.nil?
+    - rate = 0.0
+  - else
+    - rate = collection.rate
+  = render :partial => "collections/rating", :locals => {:collection_rate => rate, :user_rate => user_rate, :col_id => collection.id}
 .clear
