@@ -163,6 +163,13 @@ en:
   sort_by_title: Sort By Collection Title
   sort_desc: Sort Desc
   sort_asc: Sort Asc
+  delete_photo: Delete Photo
+  delete_photo_confirm: Are you sure you want to delete this photo?
+  photo_removed: Photo Removed
+  delete_photo: Delete Photo
+  errors:
+    messages:
+       extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
 
   user_profile: "Profile"
   user_history: "History"

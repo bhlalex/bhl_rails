@@ -339,8 +339,30 @@ describe CollectionsController do
       end
     end
 
-    #TODO EDIT COLLECTION
     describe "edit collection" do
+      
+      it "should have an option to edit collection title" do
+        get :edit, :id => @my_private_collection
+        response.should have_selector('label', :content => "Title")
+        response.should have_selector('input', :value => "my private collection")
+      end
+      
+      it "should have an option to edit collection description" do
+        get :edit, :id => @my_private_collection
+        response.should have_selector('label', :content => "Description")
+        response.should have_selector('textarea', :content => "description")
+      end
+      
+      it "should have an option to edit collection status" do
+        get :edit, :id => @my_private_collection
+        response.should have_selector('input', :value => "0")
+      end
+      
+      it "should have an option to upload an image for a collection" do
+        get :edit, :id => @my_private_collection
+        response.should have_selector('input', :type => "file")
+      end
+      
       describe "update fail" do
         before(:each) do
           @attr={:user_id => @user.id, :title => "",:description => "", :last_modified_date => Date.today, :status => false}
@@ -361,5 +383,125 @@ describe CollectionsController do
         end
       end
     end
+    
+    describe "show collection" do
+      
+      it "should display collection title" do
+        get :show, :id => @my_private_collection
+        response.should have_selector('b', :content => "Collection Title")
+        #response.should have_content("my private collection")
+      end
+      
+      it "should display collection description" do
+        get :show, :id => @my_private_collection
+        response.should have_selector('b', :content => "Collection Description")
+        #response.should have_content("description")
+      end
+      
+      it "should display collection status" do
+        get :show, :id => @my_private_collection
+        response.should have_selector('b', :content => "Status")
+        #response.should have_content("Private")
+      end
+      
+      it "should display edit collection link for collection owned by current user" do
+        get :show, :id => @my_private_collection
+        response.should have_selector('a', :href => "/collections/edit/#{@my_private_collection.id}", :content => "Edit Collection")
+      end 
+    end
+  end
+  
+  describe "get 'index'" do
+    before(:each) do
+      truncate_table(ActiveRecord::Base.connection, "users", {})
+      User.gen() unless User.first
+      @user = User.first
+      log_in(@user)
+      @other_user = User.gen
+
+      truncate_table(ActiveRecord::Base.connection, "collections", {})
+      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => false)
+      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => "2013-11-19 ", :status => true)
+      @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :last_modified_date => "2013-11-18 ", :status => false)
+      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :last_modified_date => "2013-11-17 ", :status => true)
+
+    end
+    describe "list collections" do
+      it "should listall public collections" do
+        get :index
+        response.should have_selector('div', :class => "count", :content =>2.to_s)
+      end
+
+      it "should have an open link for public collections" do
+        get :index
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+      end
+
+      it "should have last modified date for public collections of ther user" do
+        get :index
+        response.should have_selector('h5', :content =>"2013-11-17")
+        response.should have_selector('h5', :content =>"2013-11-19")
+      end
+
+      it "should have pagination bar" do
+        truncate_table(ActiveRecord::Base.connection, "collections", {})
+        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => true)}
+        get :index
+        response.should have_selector('ul', :id => "pagination")
+        truncate_table(ActiveRecord::Base.connection, "collections", {})
+      end
+
+      it "should have an open link for each collection" do
+        get :index
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+      end
+      it "should have last modified date for each collection" do
+        get :index
+        response.should have_selector('h5', :content =>"2013-11-17")
+        response.should have_selector('h5', :content =>"2013-11-19")
+      end
+      it "should have an image for each collection" do
+        get :index
+        response.should have_selector('a>img', :src => "/images_en/defaultCollection.jpg")
+      end
+
+      it "should have an meta data link for each collection" do
+        get :index
+        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}")
+        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}")
+      end
+
+      it "should have delete link for the collections owned by the current user" do
+        get :index
+        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}")
+      end
+      
+      it "should have search bar" do
+        get :index
+        response.should have_selector('div', :class => "searchtitle")
+        response.should have_selector('input', :id => "searchfield")
+      end
+      
+    it "should search for collections by title" do
+      get :index, :params => {"_title" => "collection"}
+      response.should have_selector('div', :class => "count", :content =>2.to_s)
+    end
+    
+    it "should search for collections by title" do
+      get :index, :_title =>  "other _AND collection"
+      response.should have_selector('div', :class => "count", :content =>1.to_s)
+    end
+    
+    it "should have sort features" do
+      get :index
+      response.should have_selector('a', :href => "/collections?view=title+DESC")
+      response.should have_selector('a', :href => "/collections?view=title+ASC")
+    end
+
+    end
+
+
   end
 end

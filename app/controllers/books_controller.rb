@@ -99,7 +99,6 @@ class BooksController < ApplicationController
     # user rate for current volume
     volume = Volume.find_by_job_id(params[:id])
     @book_rate = volume.rate
-    debugger
     @user_rate = 100
     book_rate_list = BookRating.where(:user_id => session[:user_id], :volume_id => volume.id)
     if book_rate_list.count > 0

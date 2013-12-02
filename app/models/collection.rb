@@ -7,4 +7,5 @@ class Collection < ActiveRecord::Base
   attr_accessible :creation_date, :description, :last_modified_date, :status, :title, :user_id, :photo_name
   validates :title, :presence => true,
                        :length => {:within => 4..25}
+  mount_uploader :photo_name, ImageUploader
 end

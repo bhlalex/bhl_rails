@@ -121,9 +121,9 @@ class UsersController < ApplicationController
 
     if @current == "collections"
       if current_user
-        @user_collections = Collection.where("user_id = #{@user.id}")
+        @user_collections = Collection.where("user_id = #{@id}")
       else
-        @user_collections = Collection.where("user_id = #{@user.id} and status = true")
+        @user_collections = Collection.where("user_id = #{@id} and status = true")
       end
       @user_collections_total_number = @user_collections.count
       @page = params[:page] ? params[:page].to_i : 1

@@ -4,14 +4,14 @@
     return r;
   }
 
-- if(collection.photo_name.nil?)
-  - @thumb = "images_#{I18n.locale}/defaultCollection.jpg"
+- if(collection.photo_name.blank?)
+  - @thumb = "/images_#{I18n.locale}/defaultCollection.jpg"
 - else
-  - @thumb = "images_#{I18n.locale}/collections/#{collection.id}/#{collection.photo_name}"
-.thumb
-  = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
-    {:controller => :collections, :action => :show, :id => collection.id}
+  - @thumb = collection.photo_name_url(:thumb)
 
+.thumb
+  = link_to image_tag("#{@thumb}" , :width => 150, :border => 0) , 
+    {:controller => :collections, :action => :show, :id => collection.id}
 .newscontent
   .sidelinks
     = link_to image_tag("/images_#{I18n.locale}/open.png", :alt => I18n.t(:open_collection), :title => I18n.t(:open_collection)) , 

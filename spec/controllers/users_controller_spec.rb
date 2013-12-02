@@ -280,6 +280,7 @@ describe UsersController do
     end
     # end
 
+
     describe "list collections" do
       before(:each) do
         @other_user = User.gen
@@ -310,13 +311,13 @@ describe UsersController do
         response.should have_selector('h5', :content =>"2013-11-17")
       end
 
-#      it "should have pagination bar for public collections of other user" do
-#        truncate_table(ActiveRecord::Base.connection, "collections", {})
-#        20.times {Collection.create(:user_id => @other_user.id, :title => "other public collection collection",:description => "description" ,:last_modified_date => "2013-11-20 ", :status => true)}
-#        get :show, { :id => @other_user.id, :tab => "collections" }
-#        response.should have_selector('ul', :id => "pagination")
-#        truncate_table(ActiveRecord::Base.connection, "collections", {})
-#      end
+      it "should have pagination bar" do
+        truncate_table(ActiveRecord::Base.connection, "collections", {})
+        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => true)}
+        get :show, { :id => @other_user.id, :tab => "collections" }
+        response.should have_selector('ul', :id => "pagination")
+        truncate_table(ActiveRecord::Base.connection, "collections", {})
+      end
 
       it "should have an open link for each collection of my collections" do
         get :show, { :id => @user.id, :tab => "collections" }
@@ -328,18 +329,9 @@ describe UsersController do
         response.should have_selector('h5', :content =>"2013-11-20")
         response.should have_selector('h5', :content =>"2013-11-19")
       end
-      #TODO IMAGES for view books and for editing
-      it "should have an open link image for each collection" do
+      it "should have an image for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
-        #      response.should have_selector('a>img', :src => "")
-        #      response.should have_selector('a>img', :src => "")
-        #      response.should have_selector('a>img', :src => "")
-      end
-      it "should have an view meta data link image for each collection" do
-        get :show, { :id => @user.id, :tab => "collections" }
-        #      response.should have_selector('a>img', :src => "")
-        #      response.should have_selector('a>img', :src => "")
-        #      response.should have_selector('a>img', :src => "")
+        response.should have_selector('a>img', :src => "/images_en/defaultCollection.jpg")
       end
 
       it "should have an meta data link for each collection" do

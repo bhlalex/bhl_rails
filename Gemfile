@@ -26,6 +26,8 @@ gem 'tabs_on_rails'
 gem 'recaptcha'
 gem 'best_in_place'
 
+
+
 group :development, :test do
   gem 'rspec-rails', '~> 2.14.0.rc1'
   gem 'webrat'
@@ -44,4 +46,6 @@ group :development, :test do
   gem 'autotest-rails-pure'
   gem 'rails-dev-boost'
   gem 'acts_as_list'
+  gem "carrierwave"
+  gem "mini_magick"
 end
