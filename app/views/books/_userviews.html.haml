@@ -1,6 +1,8 @@
 %h3
   Users Also Viewed
--@alsoviewedvolumes.each do |item|
-  &bull;
-  = link_to item[:bok_title][0] , 
-    {:controller => :books, :action => :show, :id => item[:vol_jobid]}
+- if !@alsoviewedvolumes.nil?
+  -@alsoviewedvolumes.each do |item|
+    &bull;
+    - if !item.nil?
+      = link_to item[:bok_title][0] , 
+        {:controller => :books, :action => :show, :id => item[:vol_jobid]}

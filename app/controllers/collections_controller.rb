@@ -91,13 +91,13 @@ class CollectionsController < ApplicationController
 
   def update
     @collection = Collection.find(params[:id])
-    dir = File.dirname("public/images_#{I18n.locale}/collections/#{@collection.id}")
-    FileUtils.mkdir_p(dir) unless File.directory?(dir)
-    uploaded_io = params[:collection][:picture]
-    File.open("public/images_#{I18n.locale}/collections/#{@collection.id}/#{uploaded_io.original_filename}", 'wb') do |file|
-       file.write(uploaded_io.read)
-    end
-     @collection[:photo_name] = uploaded_io.original_filename
+#    dir = File.dirname("public/images_#{I18n.locale}/collections/#{@collection.id}")
+#    FileUtils.mkdir_p(dir) unless File.directory?(dir)
+#    uploaded_io = params[:collection][:picture]
+#    File.open("public/images_#{I18n.locale}/collections/#{@collection.id}/#{uploaded_io.original_filename}", 'wb') do |file|
+#       file.write(uploaded_io.read)
+#    end
+#     @collection[:photo_name] = uploaded_io.original_filename
       @collection[:title] = params[:collection][:title]
       @collection[:description] = params[:collection][:description]
       @collection[:status] = params[:collection][:status]
