@@ -167,6 +167,10 @@ en:
   delete_photo_confirm: Are you sure you want to delete this photo?
   photo_removed: Photo Removed
   delete_photo: Delete Photo
+  delete_comment_confirm: Are you sure you want to delete this comment?
+  mark: Report as inappropriate
+  edit: Edit
+  delete: Delete
   errors:
     messages:
        extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'

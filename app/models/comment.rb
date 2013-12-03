@@ -1,5 +1,5 @@
 class Comment < ActiveRecord::Base
-  attr_accessible :collection_id, :comment_id, :number_of_marks, :text, :user_id, :volume_id
+  attr_accessible :collection_id, :comment_id, :number_of_marks, :text, :user_id, :volume_id, :updated_at
 
   belongs_to :users
   belongs_to :volumes

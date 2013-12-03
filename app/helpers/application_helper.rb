@@ -113,5 +113,4 @@ module ApplicationHelper
     search =  solr.find :q => query
     search['response']['numFound']
   end
-
 end
