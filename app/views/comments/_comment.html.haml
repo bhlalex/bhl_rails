@@ -1,0 +1,24 @@
+- @owner_of_comment = User.find(comment.user_id)
+- if(!(@owner_of_comment.nil?) && (@owner_of_comment.photo_name.blank?))
+  - @thumb = "/images_#{I18n.locale}/defaultCollection.jpg"
+- else
+  - @thumb = @owner_of_comment.photo_name_url(:thumb)
+
+.thumb
+  = link_to image_tag("#{@thumb}" , :width => 150, :border => 0) , 
+    {:controller => :users, :action => :show, :id => @owner_of_comment.id}
+.newscontent
+  .sidelinks
+    = link_to image_tag("/images_#{I18n.locale}/open.png", :alt => I18n.t(:open_collection), :title => I18n.t(:open_collection)) , 
+    {:controller => :collections, :action => :list_books_in_collection, :id => collection.id}
+    = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => I18n.t(:collection_details), :title => I18n.t(:collection_details)) , 
+    {:controller => :collections, :action => :show, :id => collection.id}
+    - if (collection.user_id == session[:user_id])
+      = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:delete_collection), :title => I18n.t(:delete_collection)) , 
+    {:controller => :collections, :action => :destroy_collection, :id => collection.id}, :onclick => "return confirmDelete(#{collection.id})"
+  %h4
+    = link_to @owner_of_comment.realname.html_safe , 
+    {:controller => :users, :action => :show, :id => @owner_of_comment.id}
+  %h5
+    = "#{I18n.t(:last_modified_date)}: #{collection.last_modified_date}"
+.clear
