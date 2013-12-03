@@ -40,6 +40,12 @@ class CollectionsController < ApplicationController
   def show
     @page_title = I18n.t(:show_collection_detail)
     @collection = Collection.find(params[:id])
+    rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => @collection.id)
+    if rate_list.count > 0
+      @user_collection_rate = rate_list[0].rate
+    else
+      @user_collection_rate = 0.0
+    end
   end
 
   def create_collection

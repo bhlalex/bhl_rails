@@ -394,6 +394,11 @@ describe BooksController do
   end
   
   describe "tabs links" do
+    before(:each) do
+    solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    solr.delete_by_query('*:*')
+    end
+    
     it "should link to brief" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "/books/123/brief", :content => I18n.t(:brief))

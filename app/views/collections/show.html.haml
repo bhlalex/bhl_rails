@@ -19,6 +19,12 @@
     = parse_collection_status(@collection.status)
     %br
     %br
+    - if logged_in?
+      - if @collection.rate.nil?
+        - rate = 0.0
+      - else
+        - rate = @collection.rate
+      = render :partial => "collections/rating", :locals => {:collection_rate => @collection.rate, :user_rate => @user_collection_rate, :col_id =>  @collection.id}
     - if(@collection.photo_name.nil?)
       - @thumb = "images_#{I18n.locale}/defaultCollection.jpg"
     - else

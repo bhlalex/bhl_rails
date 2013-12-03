@@ -18,7 +18,7 @@
       .page_border
         - counter = 0
         - @collections.each do |collection|
-          = render :partial => "collections/collection", :locals => {:collection => collection, :user_rate => @user_all_rates[counter]}
+          = render :partial => "collections/collection", :locals => {:with_rate => 1, :collection => collection, :user_rate => @user_all_rates[counter]}
           - counter = counter + 1
         - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
           - @pages = adjustPaging(@page, @lastPage)
