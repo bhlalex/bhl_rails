@@ -113,5 +113,23 @@ module ApplicationHelper
     search =  solr.find :q => query
     search['response']['numFound']
   end
-
+  
+  def get_comments(type, collection_id, job_id)
+    # (collection_id or job_id), type = "collection, volume"
+    if type == "collection"
+      comments_list = Comment.where(:collection_id => collection_id)
+    else
+      volume_id = Volume.find_by_job_id(job_id).id
+      comments_list = Comment.where(:volume_id => volume_id)
+    end
+    comments_replies_list = []
+    comments_list.each do |comment|
+      comments_replies_list.push(comment)
+      replies = Comment.where(:comment_id => comment.id)
+      replies.each do |reply|
+        comments_replies_list.push(reply)
+      end
+    end
+    comments_replies_list
+  end
 end
