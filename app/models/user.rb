@@ -1,13 +1,13 @@
 class User < ActiveRecord::Base
   attr_accessible :active, :email, :guid, :password, :real_name, :username, 
-                  :verification_code, :verified_date, :created_at, :last_login
+                  :verification_code, :verified_date, :created_at, :last_login, :photo_name
   has_many :annotations
   has_many :queries
   has_many :books, :through => :users_books
   has_many :histories, :dependent => :destroy
   has_many :book_ratings
   before_create :generate_uuid
-  
+  mount_uploader :photo_name, ImageUploader
   # these are not model variables 
   attr_accessor :entered_password, :entered_password_confirmation, :email_confirmation
   attr_accessible :entered_password, :entered_password_confirmation, :email_confirmation

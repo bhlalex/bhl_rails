@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131128113055) do
+ActiveRecord::Schema.define(:version => 20131202141620) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -280,6 +280,7 @@ ActiveRecord::Schema.define(:version => 20131128113055) do
     t.string   "verification_code"
     t.datetime "verified_date"
     t.datetime "last_login"
+    t.string   "photo_name"
   end
 
   add_index "users", ["guid"], :name => "index_users_on_guid"

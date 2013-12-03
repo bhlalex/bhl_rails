@@ -84,11 +84,11 @@ class UsersController < ApplicationController
 
     @page_title = @user.real_name
     @ubh = UserBookHistory.where(:user_id => @user)
-       
-   if @ubh.length > 0
-     @recently_viewed_volume = Volume.find_by_id((@ubh.first).volume)
-   end
-   
+
+    if @ubh.length > 0
+      @recently_viewed_volume = Volume.find_by_id((@ubh.first).volume)
+    end
+
     if @current == "recently_viewed"
       if authenticate_user
         #load history from DB
@@ -245,11 +245,24 @@ class UsersController < ApplicationController
   def update
     if authenticate_user
       @user = User.find(params[:id])
+      user_attr = params[:user]
+       
+      if (!(params[:user][:photo_name].nil?))
+        file = user_attr[:photo_name].original_filename
+        if(file[file.length-5].chr == '.')
+          user_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+        else
+          user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+        end
+      end
       #    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
       #      params[:user][:entered_password] = nil
       #      params[:user][:entered_password_confirmation] = nil
       #    end
-      if @user.update_attributes(params[:user])
+      if @user.update_attributes(user_attr)
+        if ((params[:delete_photo]))
+          delete_user_photo(params[:id])
+        end
         log_out
         log_in(@user) # to make sure everything is loaded properly
         flash.now[:notice] = I18n.t("changes_saved")
@@ -280,14 +293,14 @@ class UsersController < ApplicationController
       if book_rate_list.count > 0 && params[:rate].to_f < 1
         book_rate_list[0].delete
       else
-      #create new or updat existing
+        #create new or updat existing
         if book_rate_list.count == 0
           #create
           book_rate = BookRating.create!(:user_id => params[:user_id], :volume_id => volume.id, :rate => params[:rate])
         else
           #update
           book_rate = book_rate_list[0]
-          book_rate.rate = params[:rate] 
+          book_rate.rate = params[:rate]
         end
         book_rate.save
       end
@@ -297,8 +310,16 @@ class UsersController < ApplicationController
     data = volume.rate
     render :json => data
   end
-  
+
   private
+
+  def delete_user_photo(id)
+    user = User.find(id)
+    FileUtils.remove_dir("#{Rails.root}/public/users/#{id}") if File.directory? "#{Rails.root}/public/users/#{id}"
+    user[:photo_name] = ''
+    user.save
+  end
+
   def authenticate_user
     if !is_loggged_in?
       redirect_to :controller => :users, :action => :login

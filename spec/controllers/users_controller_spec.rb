@@ -639,6 +639,24 @@ describe UsersController do
   end
 
   describe 'PUT update' do
+    
+#    it "can upload a photo" do
+#        request.accept = "application/json"
+#       user_before_update = @user
+#       log_in(@user)
+#        @file =  Rack::Test::UploadedFile.new('spec/defaultUser.jpeg', 'image/jpg')
+#      post :update, { :id => @user.id ,:user => { :id => @user.id, 
+#        :username => user_before_update.username,
+#        :email => user_before_update.email,
+#        :email_confirmation => user_before_update.email,
+#        :entered_password => nil,
+#        :entered_password_confirmation => nil,
+#        :real_name => user_before_update.real_name + "updated",
+#        :photo_name => @file}}
+#        
+#      response.should be_success
+#      end
+      
     it 'should redirect to login page if user is not logged_in' do
       put :update, { :id => @user.id }
       response.should redirect_to "/users/login"

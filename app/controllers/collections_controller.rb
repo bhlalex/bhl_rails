@@ -92,8 +92,16 @@ class CollectionsController < ApplicationController
   def update
     @collection = Collection.find(params[:id])
     collection_attr = params[:collection]
-    collection_attr[:photo_name].original_filename+=DateTime.now.to_s  if (!(params[:collection][:photo_name].nil?))
-    if @collection.update_attributes(collection_attr)
+    if (!(params[:collection][:photo_name].nil?))
+      file = collection_attr[:photo_name].original_filename
+        if(file[file.length-5].chr == '.')
+          collection_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+        else
+          collection_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+        end
+  end
+  
+      if @collection.update_attributes(collection_attr)
       if ((params[:delete_photo]))
         delete_collection_photo(params[:id])
       end
@@ -155,8 +163,7 @@ class CollectionsController < ApplicationController
 
   def delete_collection_photo(id)
     collection = Collection.find(id)
-    File.delete("#{Rails.root}/public#{collection.photo_name_url}")
-    File.delete("#{Rails.root}/public#{collection.photo_name_url(:thumb).to_s}")
+    FileUtils.remove_dir("#{Rails.root}/public/collections/#{id}") if File.directory? "#{Rails.root}/public/collections/#{id}"
     collection[:photo_name] = ''
     collection.save
   end

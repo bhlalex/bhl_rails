@@ -1,5 +1,11 @@
 .page
   .page_border
+    .thumb
+      - if(@user.photo_name.blank?)
+        - @thumb = "/images_#{I18n.locale}/defaultUser.jpeg"
+      - else
+        - @thumb = @user.photo_name_url(:thumb)
+      = image_tag("#{@thumb}", :width => 150,:border => 0)
     %b
       = I18n.t(:real_name)
     %br
