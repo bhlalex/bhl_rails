@@ -1,5 +1,12 @@
 Bhl::Application.routes.draw do
   
+  match "comments/create" => "comments#create"
+  match "comments/index" => "comments#index"
+  match "comments/edit" => "comments#edit"
+  match "comments/delete" => "comments#delete"
+  match "comments/mark" => "comments#mark"
+  match "comments/reply" => "comments#reply"
+  
   match "/user_search_history/save_query/" => "user_search_history#save_query"
     match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
     resources :user_search_history, only: [:save_query, :delete_query]
