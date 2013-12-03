@@ -1,0 +1,8 @@
+- @comments_replies_list.each do |comment|
+  - if comment.comment_id #reply
+    .reply
+      = render :partial => "comments/comment", :locals => {:comment => comment}
+  - else # comment
+    .comment
+      = render :partial => "comments/comment", :locals => {:comment => comment}
+  
