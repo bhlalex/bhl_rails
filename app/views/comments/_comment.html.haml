@@ -26,7 +26,7 @@
     {:controller => :comments, :action => :delete, :id => comment.id}, :onclick => "return confirmDelete()"
 
   %h3
-    = link_to @owner_of_comment.realname.html_safe , 
+    = link_to @owner_of_comment.real_name.html_safe , 
     {:controller => :users, :action => :show, :id => @owner_of_comment.id}
   %h4
     = comment.text

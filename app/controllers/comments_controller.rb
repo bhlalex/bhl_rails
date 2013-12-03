@@ -1,5 +1,6 @@
 class CommentsController < ApplicationController
- 
+  include BHL::Login
+  
   def delete
     # id
     if is_loggged_in?
@@ -11,7 +12,8 @@ class CommentsController < ApplicationController
   def create
     # user_id, (collection_id or volume_id), text
     if is_loggged_in?
-      comment = Comment.create!(:collection_id => params[:collection_id], volume_id => params[:volume_id],
+      volume_id = Volume.find_by_job_id(params[:volume_id]).id
+      comment = Comment.create!(:collection_id => params[:collection_id],:volume_id => volume_id,
                                 :user_id => session[:user_id], :text => params[:text]) 
       comment.save
     end

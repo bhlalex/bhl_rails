@@ -1,4 +1,4 @@
 %input#searchfield{:size => "100", :style => "color: rgb(153, 153, 153);", :type => "text"}
 = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:post), :title => I18n.t(:post)) , 
-    {:controller => :comments, :action => :create, :collection_id => collection.id, :volume_id => volum.id , :text => "wa" }
+    {:controller => :comments, :action => :create, :collection_id => nil, :volume_id => params[:id] , :text => "wa" }
 
