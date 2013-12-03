@@ -32,6 +32,7 @@ class BooksController < ApplicationController
   end
   
   def show
+    get_comments( "volume", nil, params[:id])
     @related_books = related_books(params[:id])
     if(session[:book_id] != nil && session[:book_id] != params[:id].to_i)
       BookView.create(:book_id1 => session[:book_id], :book_id2 => params[:id].to_i)
