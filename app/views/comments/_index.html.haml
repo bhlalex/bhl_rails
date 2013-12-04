@@ -6,4 +6,7 @@
   - else # comment
     .comment
       = render :partial => "comments/comment", :locals => {:comment => comment}
-  
+- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+  - @pages = adjustPaging(@page, @lastPage)
+  = render :partial => "books/paging"
+%br
