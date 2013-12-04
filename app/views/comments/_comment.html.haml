@@ -7,21 +7,19 @@
 
 - @owner_of_comment = User.find(comment.user_id)
 - if(!(@owner_of_comment.nil?) && (@owner_of_comment.photo_name.blank?))
-  - @thumb = "/images_#{I18n.locale}/defaultCollection.jpg"
+  - @thumb = "/images_#{I18n.locale}/defaultUser.jpeg"
 - else
   - @thumb = @owner_of_comment.photo_name_url(:thumb)
   
 
 .thumb
-  = link_to image_tag("#{@thumb}" , :width => 150, :border => 0) , 
+  = link_to image_tag("#{@thumb}" , :width => 70, :border => 0) , 
     {:controller => :users, :action => :show, :id => @owner_of_comment.id}
 .newscontent
   .sidelinks
     = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:mark), :title => I18n.t(:mark)) , 
     {:controller => :comments, :action => :mark, :id => comment.id}
     - if (@owner_of_comment.id == session[:user_id])
-      = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:edit), :title => I18n.t(:edit)) , 
-    {:controller => :comments, :action => :edit, :id => comment.id}
       = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:delete), :title => I18n.t(:delete)) , 
     {:controller => :comments, :action => :delete, :id => comment.id}, :onclick => "return confirmDelete()"
 
