@@ -5,7 +5,7 @@ class Comment < ActiveRecord::Base
   belongs_to :volumes
   belongs_to :collections
   has_many :replies, :class_name => "Comment",
-     :foreign_key => "comment_id" ,dependent: :destroy
+     :foreign_key => "comment_id"
    belongs_to :parent_comment, :class_name => "Comment",
      :foreign_key => "comment_id"
 
