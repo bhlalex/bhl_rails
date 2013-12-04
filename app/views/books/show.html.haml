@@ -5,6 +5,10 @@
   = javascript_include_tag 'jquery/jquery.ui.widget.js'
   = javascript_include_tag 'jquery/jquery.ui.position.js'
   = javascript_include_tag 'jquery/jquery.ui.menu.js'
+  %meta{:name => "description", :content => @meta_description}
+  %meta{:name => "keywords", :content => @meta_keywords}
+  %meta{:name => "author", :content => @meta_author}
+  
 - if @current == 'read'
   = render :partial => "books/read"
 - else
