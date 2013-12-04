@@ -140,4 +140,20 @@ module ApplicationHelper
     @url_params = params.clone
     comments_replies_list
   end
+  
+  def get_class_for_abuse(abuse)
+    if(abuse >= MAX_NO_ABUSE)
+      "active"
+    else
+      "hidden"
+    end
+  end
+  
+def get_class_for_comment(abuse)
+  if(abuse >= MAX_NO_ABUSE)
+    "hidden"
+  else
+    "active"
+  end
+end
 end

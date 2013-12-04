@@ -29,20 +29,24 @@ class CommentsController < ApplicationController
     # user_id, (collection_id or volume_id), text
     if is_loggged_in?
       @comment = Comment.new(params[:comment])
-      @comment.save
+      if (@comment.save)
+        flash[:notice]=I18n.t(:comment_created)
+        flash.keep
+      else
+        flash[:notice]=I18n.t(:comment_created_error)
+        flash.keep
+      end
+      redirect_to :back
     end
-    redirect_to :back
-    
   end
   
   def mark
     # id
     comment = Comment.find_by_id(params[:id])
-    comment.mark = comment.mark + 1
+    comment.number_of_marks = comment.number_of_marks + 1
     comment.save
     flash[:notice]=I18n.t(:marked_as_abuse)
     flash.keep
-    redirect_to :back
   end
   
   def reply

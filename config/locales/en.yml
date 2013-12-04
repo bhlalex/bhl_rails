@@ -171,6 +171,9 @@ en:
   mark: Report as inappropriate
   edit: Edit
   delete: Delete
+  comment_created: You just create a comment
+  comment_created_error: Error ocuured while creating new comment
+  hidden_comment_msg: This comment was hidden as it may contains inappropriate content
   errors:
     messages:
        extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'

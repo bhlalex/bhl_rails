@@ -5,7 +5,8 @@ Bhl::Application.routes.draw do
   match "comments/index" => "comments#index"
   match "comments/edit" => "comments#edit"
   match "comments/delete" => "comments#delete"
-  match "comments/mark" => "comments#mark"
+  get  "comments/mark"
+  match "mark" => "comments#mark"
   match "comments/reply" => "comments#reply"
   
   match "/user_search_history/save_query/" => "user_search_history#save_query"

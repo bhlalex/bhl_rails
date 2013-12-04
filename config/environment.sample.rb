@@ -68,6 +68,8 @@ DAR_VIEWER = "http://localhost:8090/BookViewer/?locale=[LANGUAGE]&MyBasket=Disab
 DAR_VIEWER_REPLACE_STRING = "[JOBID]"
 DAR_VIEWER_REPLACE_LANGUAGE = "[LANGUAGE]"
 
+MAX_NO_ABUSE = 1
+
 # Initialize the rails application
 Bhl::Application.initialize!
  

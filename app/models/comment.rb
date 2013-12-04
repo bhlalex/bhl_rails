@@ -10,4 +10,11 @@ class Comment < ActiveRecord::Base
      :foreign_key => "comment_id"
 
   validates :text, :presence => true
+  
+  after_initialize :init
+  
+  def init
+      self.number_of_marks  ||= 0.0
+    end
+    
 end
