@@ -32,6 +32,7 @@ class CommentsController < ApplicationController
       @comment.save
     end
     redirect_to :back
+    
   end
   
   def mark
