@@ -24,12 +24,12 @@
     {:controller => :comments, :action => :edit, :id => comment.id}
       = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:delete), :title => I18n.t(:delete)) , 
     {:controller => :comments, :action => :delete, :id => comment.id}, :onclick => "return confirmDelete()"
-
-  %h3
-    = link_to @owner_of_comment.real_name.html_safe , 
-    {:controller => :users, :action => :show, :id => @owner_of_comment.id}
-  %h4
-    = comment.text
-  %h6
-    = comment.updated_at
+  .text
+    %h3
+      = link_to @owner_of_comment.real_name.html_safe , 
+      {:controller => :users, :action => :show, :id => @owner_of_comment.id}
+    %h4
+      = comment.text
+    %h6
+      = comment.updated_at
 .clear
