@@ -319,3 +319,7 @@ en:
   ok: "Ok"
   your_rate: "Your rate"
   book_rate: "Book rate"
+  comment_deleted: "Comment is already deleted"
+  reply_deleted: "Reply is already deleted"
+  can_not_delete_comment: "You can't delete comment that has a reply"
+  marked_as_abuse: "Marked as abuse"

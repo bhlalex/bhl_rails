@@ -5,8 +5,24 @@ class CommentsController < ApplicationController
     # id
     if is_loggged_in?
       comment = Comment.find_by_id( params[:id])
-      comment.destroy if comment
+      replies = Comment.where(:comment_id => comment.id)
+      if replies.count > 0
+        flash[:error]=I18n.t(:can_not_delete_comment)
+        flash.keep
+      else
+        comment.destroy if comment
+        if comment.comment_id.nil?
+          #comment
+          flash[:notice]=I18n.t(:comment_deleted)
+          flash.keep
+        else
+          #reply
+          flash[:notice]=I18n.t(:reply_deleted)
+          flash.keep
+        end
+      end
     end
+    redirect_to :back
   end
   
   def create
@@ -29,16 +45,8 @@ class CommentsController < ApplicationController
     comment = Comment.find_by_id(params[:id])
     comment.number_of_marks = comment.number_of_marks + 1
     comment.save
-    redirect_to :back
-  end
-  
-  def edit
-    # id, text
-    if is_loggged_in?
-      comment = Comment.find_by_id(:id => params[:id])
-      comment.text = params[:text]
-      comment.save
-    end
+    flash[:notice]=I18n.t(:marked_as_abuse)
+    flash.keep
   end
   
   def reply
@@ -47,6 +55,7 @@ class CommentsController < ApplicationController
       comment = Comment.create!(:comment_id => params[:comment_id], :text => params[:text])
       comment.save
     end
+    redirect_to :back
   end
   
 end

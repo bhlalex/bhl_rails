@@ -11,3 +11,6 @@
     %span{:id => "comment#{comment.id}", :class => get_class_for_comment(comment.number_of_marks)}
       .comment
         = render :partial => "comments/comment", :locals => {:comment => comment}
+- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+  - @pages = adjustPaging(@page, @lastPage)
+  = render :partial => "books/paging"

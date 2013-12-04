@@ -3,7 +3,7 @@
     = validation_errors_for(@comment)
     %ul
       %li
-        = f.text_field :text ,  :size => 100 
+        = f.text_field :text ,  :size => 30
         = f.hidden_field :volume_id, value: @volume_id
         = f.hidden_field :collection_id, value: @collection_id
         = f.hidden_field :user_id, value: session[:user_id]

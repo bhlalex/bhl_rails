@@ -1,4 +1,5 @@
 class CollectionsController < ApplicationController
+  include ApplicationHelper
   include BHL::Login
   include BooksHelper
   def index
@@ -31,6 +32,10 @@ class CollectionsController < ApplicationController
   def show
     @page_title = I18n.t(:show_collection_detail)
     @collection = Collection.find(params[:id])
+    @collection_id = params[:id]
+    @volume_id = nil
+    @comments_replies_list = get_comments( "collection", params[:id], nil)
+    @comment = Comment.new
   end
 
   def create_collection

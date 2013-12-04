@@ -131,6 +131,13 @@ module ApplicationHelper
         comments_replies_list.push(reply)
       end
     end
+    @page = params[:page] ? params[:page].to_i : 1
+    @lastPage = comments_replies_list.count ? ((comments_replies_list.count).to_f/PAGE_SIZE).ceil : 0
+    limit = PAGE_SIZE
+    offset = (@page > 1) ? (@page - 1) * limit : 0
+    to = limit + offset -1
+    comments_replies_list = comments_replies_list[offset..to]
+    @url_params = params.clone
     comments_replies_list
   end
   
