@@ -1,5 +1,6 @@
 Bhl::Application.routes.draw do
   
+  resources :comments, only: [:create]
   match "comments/create" => "comments#create"
   match "comments/index" => "comments#index"
   match "comments/edit" => "comments#edit"
