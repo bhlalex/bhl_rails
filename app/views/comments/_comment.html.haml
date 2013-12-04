@@ -1,6 +1,24 @@
-:javascript  
+%link{:type => "text/css", :rel => "stylesheet", :href => "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"}
+%script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.9.1.js"}
+%script{:type => "text/javascript", :src => "http://code.jquery.com/ui/1.10.3/jquery-ui.js"}
+  
+:javascript 
+  $(document).ready(function() {
+  $("#mark#{comment.id}").click(function () {
+   $.ajax({type: "GET", 
+         url: "/mark?id=" + #{comment.id} , 
+         dataType: "script"
+         });
+         if(#{comment.number_of_marks} >= #{MAX_NO_ABUSE}){
+            $('#comment#{comment.id}').toggle();
+            $('#abuse#{comment.id}').toggle();
+         }
+  });
+  
+  });
+ 
   function confirmDelete(){
-  var r= confirm("#{I18n.t(:delete_comment_confirm)}");
+    var r= confirm("#{I18n.t(:delete_comment_confirm)}");
     return r;
   }
   
@@ -11,14 +29,12 @@
 - else
   - @thumb = @owner_of_comment.photo_name_url(:thumb)
   
-
 .thumb
   = link_to image_tag("#{@thumb}" , :width => 70, :border => 0) , 
     {:controller => :users, :action => :show, :id => @owner_of_comment.id}
 .newscontent
   .sidelinks
-    = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:mark), :title => I18n.t(:mark)) , 
-    {:controller => :comments, :action => :mark, :id => comment.id}
+    %input{type: "button", id: "mark#{comment.id}", value: "#{I18n.t(:mark)}"}
     - if (@owner_of_comment.id == session[:user_id])
       = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:delete), :title => I18n.t(:delete)) , 
     {:controller => :comments, :action => :delete, :id => comment.id}, :onclick => "return confirmDelete()"
@@ -27,7 +43,7 @@
     = link_to @owner_of_comment.real_name.html_safe , 
     {:controller => :users, :action => :show, :id => @owner_of_comment.id}
   %h4
-    = comment.text
+    = comment.text.html_safe
   %h6
     = comment.updated_at
 .clear

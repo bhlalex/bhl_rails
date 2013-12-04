@@ -13,17 +13,23 @@ class CommentsController < ApplicationController
     # user_id, (collection_id or volume_id), text
     if is_loggged_in?
       @comment = Comment.new(params[:comment])
-#      comment = Comment.create!(:collection_id => params[:collection_id],:volume_id => volume_id,
-#                                :user_id => session[:user_id], :text => params[:text]) 
-      @comment.save
+      if (@comment.save)
+        flash[:notice]=I18n.t(:comment_created)
+        flash.keep
+      else
+        flash[:notice]=I18n.t(:comment_created_error)
+        flash.keep
+      end
+      redirect_to :back
     end
   end
   
   def mark
     # id
-    comment = Comment.find_by_id(:id => params[:id])
-    comment.mark = comment.mark + 1
+    comment = Comment.find_by_id(params[:id])
+    comment.number_of_marks = comment.number_of_marks + 1
     comment.save
+    redirect_to :back
   end
   
   def edit
