@@ -36,7 +36,7 @@
 .newscontent
   .sidelinks
     %input{type: "button", id: "mark#{comment.id}", value: "#{I18n.t(:mark)}"}
-    - if (@owner_of_comment.id == session[:user_id])
+    - if ((@owner_of_comment.id == session[:user_id]) && !(is_comment_has_replies?(comment.id)))
       = link_to image_tag("/images_#{I18n.locale}/close.png", :alt => I18n.t(:delete), :title => I18n.t(:delete)) , 
     {:controller => :comments, :action => :delete, :id => comment.id}, :onclick => "return confirmDelete()"
   %h3

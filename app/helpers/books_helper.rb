@@ -285,7 +285,7 @@ def related_books(volume_id)
     origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
     return_field = "vol_jobid,bok_title,name"
     query = "bok_title:(#{Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).title})"
-    if (origin_book_names['response']['docs'][0]['name'] != nil && origin_book_names['response']['docs'][0]['name'].any?)
+    if ((origin_book_names != nil) && ((origin_book_names['response']!=nil)) && (origin_book_names['response']['docs']!=nil)  && (origin_book_names['response']['docs'][0]!=nil) && origin_book_names['response']['docs'][0]['name'] != nil && origin_book_names['response']['docs'][0]['name'].any?)
       query+= " OR name:("
       origin_book_names['response']['docs'][0]['name'].each do |name|
         query+= "#{name} OR "

@@ -95,7 +95,7 @@ module ApplicationHelper
       I18n.t(:private)
     end
   end
-  
+
   def get_number_of_returned_books(query_string)
     url_params = {}
     sub_queries = query_string.split("&")
@@ -106,15 +106,14 @@ module ApplicationHelper
       end
     end
     query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [],
-                       'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
+      'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
     query_array = set_query_array(query_array, url_params)
-    query = set_query_string(query_array, false)  
+    query = set_query_string(query_array, false)
     solr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search =  solr.find :q => query
     search['response']['numFound']
   end
 
-  
   def get_comments(type, collection_id, job_id)
     # (collection_id or job_id), type = "collection, volume"
     if type == "collection"
@@ -140,7 +139,7 @@ module ApplicationHelper
     @url_params = params.clone
     comments_replies_list
   end
-  
+
   def get_class_for_abuse(abuse)
     if(abuse >= MAX_NO_ABUSE)
       "active"
@@ -148,7 +147,7 @@ module ApplicationHelper
       "hidden"
     end
   end
-  
+
   def get_class_for_comment(abuse)
     if(abuse >= MAX_NO_ABUSE)
       "hidden"
@@ -156,12 +155,20 @@ module ApplicationHelper
       "active"
     end
   end
-  
-def differ_comment_reply(comment_id)
-  if comment_id.nil?
-    "comment"
-  else
-    "reply"
+
+  def differ_comment_reply(comment_id)
+    if comment_id.nil?
+      "comment"
+    else
+      "reply"
+    end
   end
-end
+
+  def is_comment_has_replies?(comment_id)
+    if (Comment.where(:comment_id => comment_id).count == 0)
+      false
+    else
+      true
+    end
+  end
 end

@@ -90,7 +90,7 @@ describe BooksController do
       get :index
       response.should be_success
     end
-    
+
     # check for existance of detail link for each book in list view
     it "should return detail link for each book in list view" do
       get :index, :view => "list"
@@ -233,7 +233,7 @@ describe BooksController do
       end
     end
   end
-  
+
   describe "GET 'autocomplete'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -241,7 +241,7 @@ describe BooksController do
       truncate_table(ActiveRecord::Base.connection, "pages", {})
       truncate_table(ActiveRecord::Base.connection, "names", {})
       truncate_table(ActiveRecord::Base.connection, "page_names", {})
-    
+
       doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
       doc_test_first[:bok_title] = "Test Book First"
       doc_test_first[:name] = ["sci1","sci2", "sci3"]
@@ -249,7 +249,7 @@ describe BooksController do
       doc_test_first[:bok_language]="English"
       doc_test_first[:geo_location]="Egypt"
       doc_test_first[:subject]="subject"
-    
+
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*')
       # remove this book if exists
@@ -257,11 +257,11 @@ describe BooksController do
       solr.commit
       solr.add doc_test_first
       solr.commit
-    
+
       @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
       @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
       @page_first = Page.gen(:volume => @vol_first )
-      
+
       doc_test_second = {:vol_jobid => "238233", :bok_bibid => "456"}
       doc_test_second[:bok_title] = "Test Book Second"
       doc_test_second[:name] = ["Name2","Name3"]
@@ -281,18 +281,18 @@ describe BooksController do
       @vol_second = Volume.gen(:book => @book_test_second, :job_id => '238233', :get_thumbnail_fail => 0)
       @page_second = Page.gen(:volume => @vol_second )
     end
-    
-   # check for title autocomplete
+
+    # check for title autocomplete
     it "should return 2 book titles" do
       begin
         get :autocomplete, :type => "title", "term" => "t"
-        rescue ActionView::MissingTemplate
+      rescue ActionView::MissingTemplate
         response.should have_content('"test books first", "test book second"]')
         #controller.autocomplete("title", "t", true).should == ["test book first", "test book second"]
       end
     end
   end
-  
+
   describe "GET 'show'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -339,7 +339,7 @@ describe BooksController do
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring4" ), :namestring => "teststring4")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring5" ), :namestring => "teststring5")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring6" ), :namestring => "teststring6")
-      
+
       doc = {:vol_jobid => "12345", :bok_bibid => "45678"}
       doc[:bok_title] = "Test Book 3"
       doc[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
@@ -353,13 +353,13 @@ describe BooksController do
       @book_with_one_name= Book.gen(:title => "Test Book 3", :bibid => "45678", :mods => "<xml>xml content</xml>")
       @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
     end
-    
+
     it "should add record in history table when visit read tab" do
       truncate_table(ActiveRecord::Base.connection, "users", {})
       truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
       User.gen() unless User.first
       @user = User.first
-      log_out 
+      log_out
       log_in(@user)
       history = UserBookHistory.where(:user_id => @user.id)
       history.count.should eq(0)
@@ -367,7 +367,7 @@ describe BooksController do
       history = UserBookHistory.where(:user_id => @user.id)
       history.count.should eq(1)
     end
-    
+
     it "should be successful" do
       get 'show', :id => "123"
       response.should be_success
@@ -391,7 +391,7 @@ describe BooksController do
         response.should have_selector("img", :src => "/volumes/#{@volume[:job_id]}/thumb.jpg" )
       end
     end
-    
+
     describe "collections tab" do
       before(:each) do
         truncate_table(ActiveRecord::Base.connection, "users", {})
@@ -399,18 +399,17 @@ describe BooksController do
         @user = User.first
         log_in(@user)
         @other_user = User.gen
-  
 
         truncate_table(ActiveRecord::Base.connection, "collections", {})
         @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => Time.now, :status => false)
         @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => Time.now, :status => true)
         @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :last_modified_date => "2013-12-02 09:17:54 UTC", :status => true)
-  
+
         truncate_table(ActiveRecord::Base.connection, "book_collections", {})
         @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)
         @second_book_in_my_private_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @volume.id, :position => 2)
         @third_book_in_my_private_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @volume.id, :position => 3)
-  end
+      end
       it "should list current user's collections and other public collections of current volume" do
         get :show, { :id => @volume.job_id, :tab => "collections" }
         response.should have_selector('div', :class => "count", :content =>3.to_s)
@@ -461,43 +460,43 @@ describe BooksController do
         response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}")
       end
     end
-    
-  describe "related books" do
-    it "should show related books title" do
-    get :show, :id => @volume.job_id
-    response.should have_selector('h4', :content => I18n.t(:related_books))
+
+    describe "related books" do
+      it "should show related books title" do
+        get :show, :id => @volume.job_id
+        response.should have_selector('h4', :content => I18n.t(:related_books))
+      end
+
+      it "should display title for each related book" do
+        get :show, :id => @volume.job_id
+        response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}/brief", :content => "Test Book 2")
+      end
     end
-    
-    it "should display title for each related book" do
-    get :show, :id => @volume.job_id
-    response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}/brief", :content => "Test Book 2")
-    end
+
   end
-    
-  end
-  
+
   describe "tabs links" do
     it "should link to brief" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "/books/123/brief", :content => I18n.t(:brief))
     end
-    
+
     it "should link to mods" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "/books/123/mods", :content => I18n.t(:mods))
     end
-        
+
     it "should link to bibtex" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "/books/123/bibtex", :content => I18n.t(:bibtex))
     end
-        
+
     it "should link to endnote" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "/books/123/endnote", :content => I18n.t(:endnote))
     end
   end
-  
+
   describe "Brief tab" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -544,7 +543,7 @@ describe BooksController do
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring4" ), :namestring => "teststring4")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring5" ), :namestring => "teststring5")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring6" ), :namestring => "teststring6")
-      
+
       doc = {:vol_jobid => "12345", :bok_bibid => "45678"}
       doc[:bok_title] = "Test Book 3"
       doc[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
@@ -558,35 +557,35 @@ describe BooksController do
       @book_with_one_name= Book.gen(:title => "Test Book 3", :bibid => "45678", :mods => "<xml>xml content</xml>")
       @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
     end
-    
+
     it "should display language only if it exists in the meta data" do
       get 'show', :id => "123"
       response.should_not have_selector("b", :content => I18n.t(:book_language_title))
       get 'show', :id => "1234"
       response.should have_selector("b", :content => I18n.t(:book_language_title))
     end
-    
+
     it "should display date only if it exists in the meta data" do
       get 'show', :id => "123"
       response.should_not have_selector("b", :content => I18n.t(:book_date_title))
       get 'show', :id => "1234"
       response.should have_selector("b", :content => I18n.t(:book_date_title))
     end
-    
+
     it "should display publisher only if it exists in the meta data" do
       get 'show', :id => "123"
       response.should_not have_selector("b", :content => I18n.t(:book_publish_title))
       get 'show', :id => "1234"
       response.should have_selector("b", :content => I18n.t(:book_publish_title))
     end
-    
+
     it "should display author only if it exists in the meta data" do
       get 'show', :id => "123"
       response.should_not have_selector("b", :content => I18n.t(:book_author_title))
       get 'show', :id => "1234"
       response.should have_selector("b", :content => I18n.t(:book_author_title))
     end
-    
+
     it "should display publication place only if it exists in the meta data" do
       get 'show', :id => "123"
       response.should_not have_selector("b", :content => I18n.t(:book_publish_place_title))
@@ -595,7 +594,7 @@ describe BooksController do
     end
 
     describe "tabs links" do
-      before(:each) do 
+      before(:each) do
         solr = RSolr.connect :url => SOLR_BOOKS_METADATA
         solr.delete_by_query('*:*')
       end
@@ -681,9 +680,6 @@ describe BooksController do
       #      response.should have_selector("span", :content => "and 2 more...")
       #    end
     end
-    
-    
-
 
     describe "mods tab" do
 
@@ -693,4 +689,53 @@ describe BooksController do
       end
     end
   end
+
+  describe "list comments for a book" do
+    
+    before(:each) do
+      truncate_table(ActiveRecord::Base.connection, "comments", {})
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "collections", {})
+      truncate_table(ActiveRecord::Base.connection, "users", {})
+      @book = Book.create(:title => 'Test Book First', :bibid => '456')
+      @vol = Volume.create(:book => @book, :job_id => '123', :get_thumbnail_fail => 0)
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*')
+      solr.commit
+      doc = {:vol_jobid => "123", :bok_bibid => "456"}
+      doc[:bok_title] = "Test Book"
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.add doc
+      solr.commit
+      User.gen() unless User.first
+      @user = User.first
+      log_in(@user)
+      
+      @collection = Collection.create(:user_id => @user.id, :title => "collection",:description => "description", :last_modified_date => Date.today, :status => true)
+      @appropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "reply on first book comment")
+      @reply_of_appropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => nil, :comment_id => @appropriate_book_comment.id, :text => "first book comment")
+      @inappropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "second book comment", :number_of_marks => 2)
+      @first_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "first collection comment")
+      @first_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "second collection comment")
+    end
+    
+    it "should list all comments and replies of a book" do
+      get :show, :id => @vol.job_id
+      response.should have_selector("span", :id => "comment#{@appropriate_book_comment.id}")
+      response.should have_selector("h4", :content => @appropriate_book_comment.text)
+      response.should have_selector("span", :id => "comment#{@reply_of_appropriate_book_comment.id}")
+      response.should have_selector("h4", :content => @reply_of_appropriate_book_comment.text)
+      response.should have_selector("span", :id => "abuse#{@inappropriate_book_comment.id}")
+      response.should have_selector("p", :content => I18n.t(:hidden_comment_msg))
+    end
+    
+    it "should have a button for each comment or a reply to it as inappropriate " do
+      get :show, :id => @vol.job_id
+      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_book_comment.id}")
+      response.should have_selector("input", :type => "button", :id => "mark#{@reply_of_appropriate_book_comment.id}")
+    end
+
+  end
+
 end
