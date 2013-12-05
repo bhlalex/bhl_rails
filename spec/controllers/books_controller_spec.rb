@@ -391,6 +391,89 @@ describe BooksController do
         response.should have_selector("img", :src => "/volumes/#{@volume[:job_id]}/thumb.jpg" )
       end
     end
+    
+    describe "collections tab" do
+      before(:each) do
+        truncate_table(ActiveRecord::Base.connection, "users", {})
+        User.gen() unless User.first
+        @user = User.first
+        log_in(@user)
+        @other_user = User.gen
+  
+
+        truncate_table(ActiveRecord::Base.connection, "collections", {})
+        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => Time.now, :status => false)
+        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => Time.now, :status => true)
+        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :last_modified_date => "2013-12-02 09:17:54 UTC", :status => true)
+  
+        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+        @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)
+        @second_book_in_my_private_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @volume.id, :position => 2)
+        @third_book_in_my_private_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @volume.id, :position => 3)
+  end
+      it "should list current user's collections and other public collections of current volume" do
+        get :show, { :id => @volume.job_id, :tab => "collections" }
+        response.should have_selector('div', :class => "count", :content =>3.to_s)
+      end
+
+      it "should have an open link for public collections of other user" do
+        get :show, { :id => @volume.job_id, :tab => "collections" }
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_private_collection.id}", :content =>@my_private_collection.title)
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+      end
+
+      it "should have last modified date for public collections of ther user" do
+        get :show, { :id => @volume.job_id, :tab => "collections" }
+        response.should have_selector('h5', :content =>"2013-12-02 09:17:54 UTC")
+      end
+
+      it "should have pagination bar" do
+        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+        20.times {BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)}
+        get :show, { :id => @volume.job_id, :tab => "collections" }
+        response.should have_selector('ul', :id => "pagination")
+        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+      end
+
+      it "should have an open link for each collection of listed collections" do
+        get :show, { :id => @volume.job_id, :tab => "collections" }
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_private_collection.id}", :content =>@my_private_collection.title)
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+      end
+
+      it "should have an image for each collection" do
+        get :show, { :id =>  @volume.job_id, :tab => "collections" }
+        response.should have_selector('a>img', :src => "/images_en/defaultCollection.jpg")
+      end
+
+      it "should have an meta data link for each collection" do
+        get :show, { :id => @volume.job_id, :tab => "collections" }
+        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}")
+        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}")
+        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}")
+      end
+
+      it "should have delete link for the collections owned by the current user" do
+        get :show, { :id => @volume.job_id, :tab => "collections" }
+        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_private_collection.id}")
+        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}")
+      end
+    end
+    
+  describe "related books" do
+    it "should show related books title" do
+    get :show, :id => @volume.job_id
+    response.should have_selector('h4', :content => I18n.t(:related_books))
+    end
+    
+    it "should display title for each related book" do
+    get :show, :id => @volume.job_id
+    response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}/brief", :content => "Test Book 2")
+    end
+  end
+    
   end
   
   describe "tabs links" do
@@ -603,6 +686,9 @@ describe BooksController do
       #      response.should have_selector("span", :content => "and 2 more...")
       #    end
     end
+    
+    
+
 
     describe "mods tab" do
 

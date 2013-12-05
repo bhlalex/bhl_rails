@@ -8,6 +8,8 @@ class Collection < ActiveRecord::Base
   attr_accessible :created_at,:updated_at, :description, :status, :title, :user_id, :photo_name
   validates :title, :presence => true,
                        :length => {:within => 4..25}
+  mount_uploader :photo_name, ImageUploader
+  
   def set_rate
     #recalculate rate
     rate1_count = CollectionRating.where(:collection_id => self.id, :rate => 1.0).count
@@ -33,5 +35,4 @@ class Collection < ActiveRecord::Base
     self.save
     self
   end
-
 end

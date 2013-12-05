@@ -1,13 +1,14 @@
 .nav
   %ul
-    - if (!(@related_books.nil? ) && (@related_books['response']['docs'] != '') && (@related_books['response']['numFound'] > 0))
+    - if (!(@related_books.nil? ) && (@related_books['response']['docs'] != '') && (@related_books['response']['numFound'] > 1))
       %h4
         = I18n.t(:related_books)
       - @related_books['response']['docs'].each do |doc|
-        %li
-          - @vol = Volume.find_by_job_id(doc['vol_jobid'])
-          - @title = Book.find_by_id(@vol.book_id).title
-          - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-          = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) ,{:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
-          = link_to @title.html_safe, 
-          {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
+        - if(doc['vol_jobid'] != params[:id])
+          %li
+            - @vol = Volume.find_by_job_id(doc['vol_jobid'])
+            - @title = Book.find_by_id(@vol.book_id).title
+            - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+            = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) ,{:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+            = link_to @title.html_safe, 
+            {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}

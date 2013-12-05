@@ -4,7 +4,7 @@ class CollectionsController < ApplicationController
   def index
     @query_array = {'title'=> []}
     @query_array = set_query_array(@query_array, params)
-    @query = set_query_string(@query_array, true)    
+    @query = set_query_string(@query_array, true)
     if(@query != '')
       sql_query = "status = true"
       terms = (@query[7,@query.length]).split(" _AND ")
@@ -106,17 +106,22 @@ class CollectionsController < ApplicationController
 
   def update
     @collection = Collection.find(params[:id])
-#    dir = File.dirname("public/images_#{I18n.locale}/collections/#{@collection.id}")
-#    FileUtils.mkdir_p(dir) unless File.directory?(dir)
-#    uploaded_io = params[:collection][:picture]
-#    File.open("public/images_#{I18n.locale}/collections/#{@collection.id}/#{uploaded_io.original_filename}", 'wb') do |file|
-#       file.write(uploaded_io.read)
-#    end
-#     @collection[:photo_name] = uploaded_io.original_filename
-      @collection[:title] = params[:collection][:title]
-      @collection[:description] = params[:collection][:description]
-      @collection[:status] = params[:collection][:status]
-    if @collection.save
+    collection_attr = params[:collection]
+    if (!(params[:collection][:photo_name].nil?))
+      file = collection_attr[:photo_name].original_filename
+        if(file[file.length-5].chr == '.')
+          collection_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+        else
+          collection_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+        end
+  end
+  
+      if @collection.update_attributes(collection_attr)
+      if ((params[:delete_photo]))
+        delete_collection_photo(params[:id])
+      end
+      @collection[:last_modified_date] = Time.now
+      @collection.save
       flash.now[:notice]=I18n.t(:collection_updated)
       flash.keep
       redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "collections"
@@ -169,6 +174,13 @@ class CollectionsController < ApplicationController
       :user_id => session[:user_id], :status => status)
       add_to_existing_collection(col)
     end
+  end
+
+  def delete_collection_photo(id)
+    collection = Collection.find(id)
+    FileUtils.remove_dir("#{Rails.root}/public/collections/#{id}") if File.directory? "#{Rails.root}/public/collections/#{id}"
+    collection[:photo_name] = ''
+    collection.save
   end
 
 end

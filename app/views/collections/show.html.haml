@@ -1,6 +1,12 @@
 .clear
 .page
   .page_border
+    .thumb
+      - if(@collection.photo_name.blank?)
+        - @thumb = "/images_#{I18n.locale}/defaultCollection.jpg"
+      - else
+        - @thumb = @collection.photo_name_url(:thumb)
+      = image_tag("#{@thumb}", :width => 150,:border => 0)
     %b
       = I18n.t(:collection_title)
     %br
@@ -25,10 +31,13 @@
       - else
         - rate = @collection.rate
       = render :partial => "collections/rating", :locals => {:collection_rate => @collection.rate, :user_rate => @user_collection_rate, :col_id =>  @collection.id}
+    
     - if(@collection.photo_name.nil?)
       - @thumb = "images_#{I18n.locale}/defaultCollection.jpg"
     - else
       - @thumb = "images_#{I18n.locale}/collections/#{@collection.id}/#{@collection.photo_name}"
+    
     = image_tag("/#{@thumb}", :width => 109, :border => 0)
+    
     - if session["user_id"] == @collection.user_id
       = link_to I18n.t(:edit_collection), :controller => :collections ,:action => :edit, :id => @collection
