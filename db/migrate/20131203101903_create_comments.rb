@@ -6,7 +6,7 @@ class CreateComments < ActiveRecord::Migration
       t.references :collection
       t.references :comment
       t.references :user
-      t.integer :number_of_marks
+      t.integer :number_of_marks, :default => 0
 
       t.timestamps
     end

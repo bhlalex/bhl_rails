@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131205091939) do
+ActiveRecord::Schema.define(:version => 20131205140357) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -156,9 +156,9 @@ ActiveRecord::Schema.define(:version => 20131205091939) do
     t.integer  "collection_id"
     t.integer  "comment_id"
     t.integer  "user_id"
-    t.integer  "number_of_marks"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.integer  "number_of_marks", :default => 0
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
   end
 
   add_index "comments", ["collection_id"], :name => "index_comments_on_collection_id"
