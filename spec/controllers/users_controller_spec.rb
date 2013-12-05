@@ -285,10 +285,10 @@ describe UsersController do
         @other_user = User.gen
 
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => false)
-        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => "2013-11-19 ", :status => true)
-        @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :last_modified_date => "2013-11-18 ", :status => false)
-        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :last_modified_date => "2013-11-17 ", :status => true)
+        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :status => false)
+        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :status => true)
+        @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :status => false)
+        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :status => true)
 
       end
       it "should list current user's collections " do
@@ -312,7 +312,7 @@ describe UsersController do
 
 #      it "should have pagination bar for public collections of other user" do
 #        truncate_table(ActiveRecord::Base.connection, "collections", {})
-#        20.times {Collection.create(:user_id => @other_user.id, :title => "other public collection collection",:description => "description" ,:last_modified_date => "2013-11-20 ", :status => true)}
+#        20.times {Collection.create(:user_id => @other_user.id, :title => "other public collection collection",:description => "description" ,:updated_at => "2013-11-20 ", :status => true)}
 #        get :show, { :id => @other_user.id, :tab => "collections" }
 #        response.should have_selector('ul', :id => "pagination")
 #        truncate_table(ActiveRecord::Base.connection, "collections", {})
@@ -355,7 +355,7 @@ describe UsersController do
       end
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        20.times {Collection.create(:user_id => @user.id, :title => "my collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => false)}
+        20.times {Collection.create(:user_id => @user.id, :title => "my collection",:description => "description", :updated_at => "2013-11-20 ", :status => false)}
         get :show, { :id => @user.id, :tab => "collections" }
         response.should have_selector('ul', :id => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})

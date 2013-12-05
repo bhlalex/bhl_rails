@@ -24,7 +24,7 @@
     = link_to collection.title.html_safe , 
     {:controller => :collections, :action => :list_books_in_collection, :id => collection.id}
   %h5
-    = "#{I18n.t(:last_modified_date)}: #{collection.last_modified_date}"
+    = "#{I18n.t(:last_modified_date)}: #{collection.updated_at}"
 - if logged_in? && with_rate == 1
   - if collection.rate.nil?
     - rate = 0.0

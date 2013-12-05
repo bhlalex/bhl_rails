@@ -3,9 +3,9 @@ class Collection < ActiveRecord::Base
   has_many :book_collections
   has_many :books, :through => :book_collections
   has_many :collection_ratings
-  # status = false ===> priavte
-  # status = true ===> public
-  attr_accessible :creation_date, :description, :last_modified_date, :status, :title, :user_id, :photo_name
+  # status = false = 0 ===> priavte
+  # status = true = 1 ===> public
+  attr_accessible :created_at,:updated_at, :description, :status, :title, :user_id, :photo_name
   validates :title, :presence => true,
                        :length => {:within => 4..25}
   def set_rate

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131202121140) do
+ActiveRecord::Schema.define(:version => 20131205091939) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -142,15 +142,29 @@ ActiveRecord::Schema.define(:version => 20131202121140) do
     t.string   "title"
     t.string   "description"
     t.boolean  "status"
-    t.datetime "last_modified_date"
-    t.datetime "creation_date"
-    t.datetime "created_at",                                       :null => false
-    t.datetime "updated_at",                                       :null => false
+    t.datetime "created_at",                                :null => false
+    t.datetime "updated_at",                                :null => false
     t.string   "photo_name"
-    t.decimal  "rate",               :precision => 2, :scale => 1
+    t.decimal  "rate",        :precision => 2, :scale => 1
   end
 
   add_index "collections", ["user_id"], :name => "index_collections_on_user_id"
+
+  create_table "comments", :force => true do |t|
+    t.string   "text"
+    t.integer  "volume_id"
+    t.integer  "collection_id"
+    t.integer  "comment_id"
+    t.integer  "user_id"
+    t.integer  "number_of_marks"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
+  add_index "comments", ["collection_id"], :name => "index_comments_on_collection_id"
+  add_index "comments", ["comment_id"], :name => "index_comments_on_comment_id"
+  add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
+  add_index "comments", ["volume_id"], :name => "index_comments_on_volume_id"
 
   create_table "countries", :force => true do |t|
     t.string   "name"
@@ -292,6 +306,7 @@ ActiveRecord::Schema.define(:version => 20131202121140) do
     t.string   "verification_code"
     t.datetime "verified_date"
     t.datetime "last_login"
+    t.string   "photo_name"
   end
 
   add_index "users", ["guid"], :name => "index_users_on_guid"

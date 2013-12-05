@@ -78,7 +78,7 @@ class CollectionsController < ApplicationController
     book_collection = BookCollection.find(params[:book_collection_id])
     book_collection.destroy
     collection = Collection.find(book_collection.collection)
-    collection[:last_modified_date] = Time.now
+    collection[:updated_at] = Time.now
     collection.save
     flash.now[:notice]=I18n.t(:book_collection_deleted)
     flash.keep
@@ -131,7 +131,7 @@ class CollectionsController < ApplicationController
     book_collection = BookCollection.find(params[:book_collection_id])
     book_collection.move_higher
     collection = Collection.find(book_collection.collection)
-    collection[:last_modified_date] = Time.now
+    collection[:updated_at] = Time.now
     collection.save
     redirect_to :back
   end
@@ -140,7 +140,7 @@ class CollectionsController < ApplicationController
     book_collection = BookCollection.find(params[:book_collection_id])
     book_collection.move_lower
     collection = Collection.find(book_collection.collection)
-    collection[:last_modified_date] = Date.today
+    collection[:updated_at] = Date.today
     collection.save
     redirect_to :back
   end
@@ -155,7 +155,7 @@ class CollectionsController < ApplicationController
       position = BookCollection.where(:collection_id => col_id).count + 1
       bok_col = BookCollection.create!(:volume_id => vol_id, :collection_id => col_id, :position => position)
     end
-    col.last_modified_date = Time.now
+    col.updated_at = Time.now
     col.save
   end
 
@@ -165,7 +165,7 @@ class CollectionsController < ApplicationController
       description = params[:description]
       status = false
       status = true if params[:public] == 'on'
-      col = Collection.create!(:title => title, :description => description, :creation_date => Time.now,
+      col = Collection.create!(:title => title, :description => description, :created_at => Time.now,
       :user_id => session[:user_id], :status => status)
       add_to_existing_collection(col)
     end
