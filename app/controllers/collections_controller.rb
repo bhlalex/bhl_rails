@@ -27,6 +27,15 @@ class CollectionsController < ApplicationController
     offset = (@page > 1) ? (@page - 1) * limit : 0
     @collections = @collections.limit(limit).offset(offset)
     @url_params = params.clone
+    @user_all_rates = []
+    @collections.each do |collection|
+      collection_rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => collection.id)
+      if collection_rate_list.count > 0
+        @user_all_rates.push( collection_rate_list[0].rate)
+      else
+        @user_all_rates.push(0.0)
+      end
+    end
   end
 
   def show
@@ -36,6 +45,12 @@ class CollectionsController < ApplicationController
     @volume_id = nil
     @comments_replies_list = get_comments( "collection", params[:id], nil)
     @comment = Comment.new
+    rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => @collection.id)
+    if rate_list.count > 0
+      @user_collection_rate = rate_list[0].rate
+    else
+      @user_collection_rate = 0.0
+    end
   end
 
   def create_collection
@@ -68,7 +83,7 @@ class CollectionsController < ApplicationController
     book_collection = BookCollection.find(params[:book_collection_id])
     book_collection.destroy
     collection = Collection.find(book_collection.collection)
-    collection[:last_modified_date] = Time.now
+    collection[:updated_at] = Time.now
     collection.save
     flash.now[:notice]=I18n.t(:book_collection_deleted)
     flash.keep
@@ -110,7 +125,7 @@ class CollectionsController < ApplicationController
       if ((params[:delete_photo]))
         delete_collection_photo(params[:id])
       end
-      @collection[:last_modified_date] = Time.now
+      @collection[:updated_at] = Time.now
       @collection.save
       flash.now[:notice]=I18n.t(:collection_updated)
       flash.keep
@@ -126,7 +141,7 @@ class CollectionsController < ApplicationController
     book_collection = BookCollection.find(params[:book_collection_id])
     book_collection.move_higher
     collection = Collection.find(book_collection.collection)
-    collection[:last_modified_date] = Time.now
+    collection[:updated_at] = Time.now
     collection.save
     redirect_to :back
   end
@@ -135,7 +150,7 @@ class CollectionsController < ApplicationController
     book_collection = BookCollection.find(params[:book_collection_id])
     book_collection.move_lower
     collection = Collection.find(book_collection.collection)
-    collection[:last_modified_date] = Date.today
+    collection[:updated_at] = Date.today
     collection.save
     redirect_to :back
   end
@@ -150,7 +165,7 @@ class CollectionsController < ApplicationController
       position = BookCollection.where(:collection_id => col_id).count + 1
       bok_col = BookCollection.create!(:volume_id => vol_id, :collection_id => col_id, :position => position)
     end
-    col.last_modified_date = Time.now
+    col.updated_at = Time.now
     col.save
   end
 
@@ -160,7 +175,7 @@ class CollectionsController < ApplicationController
       description = params[:description]
       status = false
       status = true if params[:public] == 'on'
-      col = Collection.create!(:title => title, :description => description, :creation_date => Time.now,
+      col = Collection.create!(:title => title, :description => description, :created_at => Time.now,
       :user_id => session[:user_id], :status => status)
       add_to_existing_collection(col)
     end

@@ -102,9 +102,9 @@ describe CollectionsController do
       @vol_third = Volume.gen(:book => @book_test_first, :job_id => '3', :get_thumbnail_fail => 0)
 
       truncate_table(ActiveRecord::Base.connection, "collections", {})
-      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => Date.today, :status => false)
-      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => Date.today, :status => true)
-      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :last_modified_date => Date.today, :status => true)
+      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :status => false)
+      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Date.today, :status => true)
+      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => Date.today, :status => true)
 
       truncate_table(ActiveRecord::Base.connection, "book_collections", {})
       @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => 1)
@@ -367,7 +367,7 @@ describe CollectionsController do
 
       describe "update fail" do
         before(:each) do
-          @attr={:user_id => @user.id, :title => "",:description => "", :last_modified_date => Date.today, :status => false}
+          @attr={:user_id => @user.id, :title => "",:description => "", :updated_at => Date.today, :status => false}
         end
         it "should enter title for collection" do
           @my_private_collection [:title] = ""
@@ -377,7 +377,7 @@ describe CollectionsController do
       end
       describe "update success" do
         before(:each) do
-          @attr={:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => Date.today, :status => false}
+          @attr={:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :status => false}
         end
         it "should edit collection with vaild params " do
           post :update, :id => @my_private_collection, :collection => @attr
@@ -422,10 +422,10 @@ describe CollectionsController do
       @other_user = User.gen
 
       truncate_table(ActiveRecord::Base.connection, "collections", {})
-      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => false)
-      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => "2013-11-19 ", :status => true)
-      @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :last_modified_date => "2013-11-18 ", :status => false)
-      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :last_modified_date => "2013-11-17 ", :status => true)
+      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :status => false)
+      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :status => true)
+      @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :status => false)
+      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :status => true)
 
     end
     describe "list collections" do
@@ -448,7 +448,7 @@ describe CollectionsController do
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => true)}
+        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :status => true)}
         get :index
         response.should have_selector('ul', :id => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})

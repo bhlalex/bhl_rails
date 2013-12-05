@@ -56,12 +56,55 @@ describe UsersController do
         response.should have_selector("a", :href => "/users/#{@user[:id]}/recently_viewed", :content => I18n.t(:recently_viewed))
       end
 
+      describe "'right panel'" do
+        before(:each) do
+          truncate_table(ActiveRecord::Base.connection, "books", {})
+          truncate_table(ActiveRecord::Base.connection, "volumes", {})
+          truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
+          doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
+          doc_test_first[:bok_title] = "Test Book First"
+          doc_test_first[:name] = ["Name1","Name2"]
+          doc_test_first[:author] = "Author"
+          doc_test_first[:bok_language]="English"
+          doc_test_first[:geo_location]="Egypt"
+          doc_test_first[:subject]="subject"
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          solr.delete_by_query('*:*')
+          solr.commit
+          solr.add doc_test_first
+          solr.commit
+          @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
+          @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
+          UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :last_visited_date => Time.now)
+        end
+        it "should have book title links to details page" do
+          get :show, :id => @user.id
+          response.should have_selector("a", :href => "/books/#{@vol_first.job_id}/brief")
+        end
+        it "should have book image links to read page" do
+          get :show, :id => @user.id
+          response.should have_selector("img", :src => "/volumes/#{@vol_first.job_id}/thumb.jpg")
+          response.should have_selector("a", :href => "/books/#{@vol_first.job_id}/read")
+        end
+        it "should have recently viewed link" do
+          get :show, :id => @user.id
+          response.should have_selector("a", :href => "/users/#{@user.id}/recently_viewed")
+        end
+      end
       describe "'recently_viewed tab'" do
 
         before(:each) do
           truncate_table(ActiveRecord::Base.connection, "books", {})
           truncate_table(ActiveRecord::Base.connection, "volumes", {})
           truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
+          truncate_table(ActiveRecord::Base.connection, "pages", {})
+          truncate_table(ActiveRecord::Base.connection, "names", {})
+          truncate_table(ActiveRecord::Base.connection, "page_names", {})
+    
+          @name1 = Name.gen(:string => "sci1")
+          @name2 = Name.gen(:string => "sci2")
+          @name3 = Name.gen(:string => "sci3")
+          
           doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
           doc_test_first[:bok_title] = "Test Book First"
           doc_test_first[:name] = ["Name1","Name2"]
@@ -80,7 +123,8 @@ describe UsersController do
 
           @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
           @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
-
+          @page_first = Page.gen(:volume => @vol_first )  
+          
           doc_test_second = {:vol_jobid => "238233", :bok_bibid => "456"}
           doc_test_second[:bok_title] = "Test Book Second"
           doc_test_second[:name] = ["Name2","Name3"]
@@ -98,10 +142,36 @@ describe UsersController do
 
           @book_test_second = Book.gen(:title => 'Test Book Second', :bibid => '456')
           @vol_second = Volume.gen(:book_id => @book_test_second.id, :job_id => '238233', :get_thumbnail_fail => 0)
-
+          @page_second = Page.gen(:volume => @vol_second )
+                    
+          PageName.create(:page => @page_second, :name => @name2, :namestring => "Name2")
+          PageName.create(:page => @page_second, :name => @name3, :namestring => "Name3")
+          PageName.create(:page => @page_first, :name => @name1, :namestring => "Name1")
+          PageName.create(:page => @page_first, :name => @name2, :namestring => "Name2")
+                    
           UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :last_visited_date => Time.now)
           UserBookHistory.create(:volume_id => @vol_second.id, :user_id => @user.id, :last_visited_date => Time.now)
         end
+        
+        # check for existance of By:authors label in list view
+        it "should have by author" do
+          get :show, :id => @user.id, :tab => "recently_viewed"
+          response.should have_selector("div", :class => "description", :content => "By")
+        end
+        
+        it "should display last visited date" do
+          get :show, :id => @user.id, :tab => "recently_viewed"
+          response.should have_selector("div", :class => "visitedtime", :content => "Last visited: #{(UserBookHistory.first).last_visited_date}")
+        end
+                
+        #TODO now this will not pass except after fixing jquery problems
+        it "should have open links for names" do
+          get :show, :id => @user.id, :tab => "recently_viewed"
+          response.should have_selector('a', :href => "/books?_name=Name1", :content => "Name1 (1)")
+          response.should have_selector('a', :href => "/books?_name=Name2", :content => "Name2 (2)")
+          response.should have_selector('a', :href => "/books?_name=Name3", :content => "Name3 (1)")
+        end
+               
         it "should not exists if user is not logged in" do
           log_out
           get :show, :id => @user.id, :tab => "recently_viewed"
@@ -286,10 +356,10 @@ describe UsersController do
         @other_user = User.gen
 
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => false)
-        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => "2013-11-19 ", :status => true)
-        @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :last_modified_date => "2013-11-18 ", :status => false)
-        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :last_modified_date => "2013-11-17 ", :status => true)
+        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :status => false)
+        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :status => true)
+        @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :status => false)
+        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :status => true)
 
       end
       it "should list current user's collections " do
@@ -313,7 +383,7 @@ describe UsersController do
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => true)}
+        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :status => true)}
         get :show, { :id => @other_user.id, :tab => "collections" }
         response.should have_selector('ul', :id => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
@@ -347,7 +417,7 @@ describe UsersController do
       end
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        20.times {Collection.create(:user_id => @user.id, :title => "my collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => false)}
+        20.times {Collection.create(:user_id => @user.id, :title => "my collection",:description => "description", :updated_at => "2013-11-20 ", :status => false)}
         get :show, { :id => @user.id, :tab => "collections" }
         response.should have_selector('ul', :id => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})

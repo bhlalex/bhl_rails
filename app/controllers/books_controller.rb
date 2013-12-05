@@ -47,7 +47,13 @@ class BooksController < ApplicationController
     @book = search['response']['docs'][0]
     @thumb = "volumes/#{params[:id]}/thumb.jpg"
     @page_title = @book['bok_title'][0]
-      
+    
+    book_module = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id)
+    
+    @meta_keywords = book_module.meta_keywords
+    @meta_description = book_module.meta_description
+    @meta_author = book_module.meta_author
+    
     @tabs = {:brief => I18n.t(:brief), :mods => I18n.t(:mods), :bibtex => I18n.t(:bibtex), :endnote => I18n.t(:endnote),:collections => I18n.t(:collections)}
     @current = params[:tab] != nil ? params[:tab] : 'brief'
     
@@ -110,7 +116,7 @@ class BooksController < ApplicationController
     @user_rate = -1
     book_rate_list = BookRating.where(:user_id => session[:user_id], :volume_id => volume.id)
     if book_rate_list.count > 0
-      @user_rate = book_rate_list[0].rate   
+      @user_rate = book_rate_list[0].rate
     end
     render layout: 'books_details'
   end

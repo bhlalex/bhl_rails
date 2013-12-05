@@ -52,6 +52,7 @@ Bhl::Application.routes.draw do
   post  "users/reset_password_action"
   get   "users/remove_book_history"
   match "users/rate" => "users#rate"
+  match "users/rate_collection" => "users#rate_collection"
   
   # remove when how page is ready
   root :to => 'pages#about'

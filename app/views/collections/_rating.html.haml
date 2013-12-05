@@ -1,0 +1,136 @@
+%link{:type => "text/css", :rel => "stylesheet", :href => "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"}
+%script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.9.1.js"}
+%script{:type => "text/javascript", :src => "http://code.jquery.com/ui/1.10.3/jquery-ui.js"}
+  
+:javascript
+  $(document).ready(function() {
+    // load static (collection general rate) stars
+    if(#{collection_rate} > 0){
+      var totalRate = #{collection_rate};
+      var count = Math.floor(totalRate);
+      var fractional = totalRate - count;
+      for(i=1; i <= count; i++){
+        $("#staticstar"+ i+"_#{col_id}").addClass("on");
+      }
+      if(fractional >= 0.3){
+        count = count+1;
+        if(fractional <= 0.7){
+          //half
+          $("#staticstar"+ count+"_#{col_id}").addClass("half");
+        }else{
+          //all
+          $("#staticstar"+ count+"_#{col_id}").addClass("on");
+        }
+      }
+    }
+    //load dynamic (user rate) stars
+    //when user rate == -1 this means that he never rated this book before
+    var count = #{user_rate};
+    for(i=1; i <= count; i++){
+        $("#star"+ i+"_#{col_id}").addClass("on");
+    }
+  });
+  $(function () {
+    $('#col_#{col_id} li').mouseover(function(){
+      var count = parseInt($(this).attr("value"));
+      for(i=1; i <= 5; i++){
+        if(i <= count){
+          $("#star"+ i+"_#{col_id}").addClass("shine");
+        } else {
+          $("#star"+ i+"_#{col_id}").removeClass("shine");
+        }
+      }
+    });
+    
+    $('#col_#{col_id} li').mouseout(function(){
+      for(i=1; i <= 5; i++){
+          $("#star"+ i+"_#{col_id}").removeClass("shine");
+      }
+    });
+    
+    $('#col_#{col_id} li').click(function () {
+     // value == 0 then it is static star
+      if(parseInt($(this).attr("value")) != 0){
+        var count = parseInt($(this).attr("value"));
+        // if off then user want to reset his rating to 0
+        var off = false;
+        if(count == 1 && (($("#star1"+"_#{col_id}").attr("class")).split(' ')).length == 3 &&  ($("#star2"+"_#{col_id}").attr("class")).localeCompare("starrating") == 0){
+          for(i=1; i <= 5; i++){
+            $("#star"+ i+"_#{col_id}").removeClass("on");
+          }
+          off = true;
+        }else{
+          for(i=1; i <= 5; i++){
+            if(i <= count){
+              $("#star"+ i+"_#{col_id}").addClass("on");
+            } else {
+              $("#star"+ i+"_#{col_id}").removeClass("on");
+            }
+          }
+        }
+        if(off){
+          off = false;
+          count = 0;
+        }
+        $.ajax({type: "GET", 
+                url: "/users/rate_collection?rate=" + count + "&user_id=" + "#{session[:user_id]}" + "&col_id=" + "#{col_id}", 
+                dataType: "script",
+                success: function(data){
+                            var x = parseFloat(data.substring(1,4)) < 1;
+                            // update static stars
+                            if(parseFloat(data.substring(1,4)) < 1){
+                              // rate = 0 no stars are on
+                              $("#staticstar1"+"_#{col_id}").removeClass("on");
+                              $("#staticstar1"+"_#{col_id}").removeClass("half");
+                            }else{
+                              var totalRate = parseFloat(data.substring(1,4));
+                              var count = Math.floor(totalRate);
+                              var fractional = totalRate - count;
+                              
+                              for(i=1; i <= 5; i++){
+                                if(i <= count){
+                                  $("#staticstar"+ i+"_#{col_id}").removeClass("half");
+                                  $("#staticstar"+ i+"_#{col_id}").addClass("on");
+                                }else{
+                                  $("#staticstar"+ i+"_#{col_id}").removeClass("on");
+                                  $("#staticstar"+ i+"_#{col_id}").removeClass("half");
+                                }//end if
+                              }//end for
+                              
+                              if(fractional >= 0.3){
+                                count = count+1;
+                                if(fractional <= 0.7){
+                                  //half
+                                  $("#staticstar"+ count+"_#{col_id}").addClass("half");
+                                }else{
+                                  //all
+                                  $("#staticstar"+ count+"_#{col_id}").addClass("on");
+                                }
+                              }//end if
+                            }//end if
+                          }
+               });
+          
+        
+       
+      }
+    });
+  });
+%ul#col{id:"#{col_id}" , :style => "height: 125px; width:125px; margin-left: -16px;"}
+  = "#{I18n.t(:collection_rate)}"
+  %br
+  %li#staticstar1.starrating{:value => '0', id:"#{col_id}" }
+  %li#staticstar2.starrating{:value => '0', id:"#{col_id}"}
+  %li#staticstar3.starrating{:value => '0', id:"#{col_id}"}
+  %li#staticstar4.starrating{:value => '0', id:"#{col_id}"}
+  %li#staticstar5.starrating{:value => '0', id:"#{col_id}"}
+  %br
+  = "#{I18n.t(:your_rate)}"
+  %br
+  %li#star1.starrating{:value => '1', id:"#{col_id}"}
+  %li#star2.starrating{:value => '2', id:"#{col_id}"}
+  %li#star3.starrating{:value => '3', id:"#{col_id}"}
+  %li#star4.starrating{:value => '4', id:"#{col_id}"}
+  %li#star5.starrating{:value => '5', id:"#{col_id}"}
+  
+#users

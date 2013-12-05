@@ -323,3 +323,4 @@ en:
   reply_deleted: "Reply is already deleted"
   can_not_delete_comment: "You can't delete comment that has a reply"
   marked_as_abuse: "Marked as abuse"
+  collection_rate: "Collection rate"

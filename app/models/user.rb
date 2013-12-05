@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
   has_many :histories, :dependent => :destroy
   has_many :book_ratings
   has_many :comments
+  has_many :collection_ratings
   before_create :generate_uuid
   mount_uploader :photo_name, ImageUploader
   # these are not model variables 

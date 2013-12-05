@@ -82,7 +82,7 @@ FactoryGirl.define do
   factory :collection do
     association        :user
     title          "title"
-    last_modified_date      { Time.now }
+    updated_at      { Time.now }
     status      {true}
   end
 
