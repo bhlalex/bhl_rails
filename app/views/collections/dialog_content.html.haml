@@ -7,7 +7,7 @@
    });
 .form
   %ul
-    - if Collection.count > 0
+    - if @collections.count > 0
       %li
         = I18n.t(:choose_collection)
       %li
