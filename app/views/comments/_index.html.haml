@@ -1,4 +1,5 @@
-= render :partial => "comments/new_comment", :locals => {:comment_id => nil}
+- if logged_in?
+  = render :partial => "comments/new_comment", :locals => {:comment_id => nil}
 - parent_class = nil
 - @comments_replies_list.each do |comment| 
   - if comment.comment_id.nil?
@@ -18,7 +19,8 @@
             = link_to_function "show", "$('#comment#{reply.id}').toggle(), $('#abuse#{reply.id}').toggle()"
         %span{:id => "comment#{reply.id}" , :class => "#{differ_comment_reply(reply.comment_id)} #{get_class_for_comment(reply.number_of_marks)}" }
           = render :partial => "comments/comment", :locals => {:comment => reply}
-      = render :partial => "comments/new_comment",:locals => {:comment_id => comment.id}          
+      - if logged_in?
+        = render :partial => "comments/new_comment",:locals => {:comment_id => comment.id}
 - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
   - @pages = adjustPaging(@page, @lastPage)
   = render :partial => "books/paging"

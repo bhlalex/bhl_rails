@@ -25,47 +25,47 @@ describe CollectionsController do
       @vol = Volume.gen(:book => @book, :job_id => '123', :get_thumbnail_fail => 0)
       @collection = Collection.gen(:user => @user, :title => "title", :description => "description")
     end
-    
-# using rescue or some other methods to catch error actually catch it but it doesn't continue exceution in the code 
 
-#    describe "add book to new collection" do
-#      it "should create new collection" do
-#        begin
-#          lambda do
-#            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
-#          end.should change(Collection, :count).by(1)
-#        rescue ActionView::MissingTemplate
-#        end
-#      end
-#      
-#      it "should create new collection and add book to it" do
-#        begin
-#          lambda do
-#            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
-#          end.should change(BookCollection, :count).by(1)
-#          rescue ActionView::MissingTemplate
-#        end
-#      end
-#      
-#      it "should create new collection with the right parameters" do
-#        begin
-#          get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
-#          rescue ActionView::MissingTemplate
-#          Collection.last.title.should == "title"
-#          Collection.last.status.should == true
-#          Collection.last.description.should == "description"
-#        end
-#      end
-#
-#      it "should refuse new collection with no title" do
-#        begin
-#          lambda do
-#            get :add_book, :title => "", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
-#          end.should_not change(Collection, :count)
-#        rescue ActionView::MissingTemplate
-#        end
-#      end
-#    end
+    # using rescue or some other methods to catch error actually catch it but it doesn't continue exceution in the code
+
+    #    describe "add book to new collection" do
+    #      it "should create new collection" do
+    #        begin
+    #          lambda do
+    #            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
+    #          end.should change(Collection, :count).by(1)
+    #        rescue ActionView::MissingTemplate
+    #        end
+    #      end
+    #
+    #      it "should create new collection and add book to it" do
+    #        begin
+    #          lambda do
+    #            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
+    #          end.should change(BookCollection, :count).by(1)
+    #          rescue ActionView::MissingTemplate
+    #        end
+    #      end
+    #
+    #      it "should create new collection with the right parameters" do
+    #        begin
+    #          get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
+    #          rescue ActionView::MissingTemplate
+    #          Collection.last.title.should == "title"
+    #          Collection.last.status.should == true
+    #          Collection.last.description.should == "description"
+    #        end
+    #      end
+    #
+    #      it "should refuse new collection with no title" do
+    #        begin
+    #          lambda do
+    #            get :add_book, :title => "", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
+    #          end.should_not change(Collection, :count)
+    #        rescue ActionView::MissingTemplate
+    #        end
+    #      end
+    #    end
 
     describe "add book to pre exist collection" do
       it "should create a new BookCollection" do
@@ -79,7 +79,7 @@ describe CollectionsController do
       it "should create a new BookCollection with ight order" do
         begin
           get :add_book, :col_id => @collection.id, :vol_id => 123
-          rescue ActionView::MissingTemplate
+        rescue ActionView::MissingTemplate
           BookCollection.last.position.should == 1
         end
       end
@@ -342,29 +342,29 @@ describe CollectionsController do
     end
 
     describe "edit collection" do
-      
+
       it "should have an option to edit collection title" do
         get :edit, :id => @my_private_collection
         response.should have_selector('label', :content => "Title")
         response.should have_selector('input', :value => "my private collection")
       end
-      
+
       it "should have an option to edit collection description" do
         get :edit, :id => @my_private_collection
         response.should have_selector('label', :content => "Description")
         response.should have_selector('textarea', :content => "description")
       end
-      
+
       it "should have an option to edit collection status" do
         get :edit, :id => @my_private_collection
         response.should have_selector('input', :value => "0")
       end
-      
+
       it "should have an option to upload an image for a collection" do
         get :edit, :id => @my_private_collection
         response.should have_selector('input', :type => "file")
       end
-      
+
       describe "update fail" do
         before(:each) do
           @attr={:user_id => @user.id, :title => "",:description => "", :last_modified_date => Date.today, :status => false}
@@ -385,34 +385,34 @@ describe CollectionsController do
         end
       end
     end
-    
+
     describe "show collection" do
-      
+
       it "should display collection title" do
         get :show, :id => @my_private_collection
         response.should have_selector('b', :content => "Collection Title")
         #response.should have_content("my private collection")
       end
-      
+
       it "should display collection description" do
         get :show, :id => @my_private_collection
         response.should have_selector('b', :content => "Collection Description")
         #response.should have_content("description")
       end
-      
+
       it "should display collection status" do
         get :show, :id => @my_private_collection
         response.should have_selector('b', :content => "Status")
         #response.should have_content("Private")
       end
-      
+
       it "should display edit collection link for collection owned by current user" do
         get :show, :id => @my_private_collection
         response.should have_selector('a', :href => "/collections/edit/#{@my_private_collection.id}", :content => "Edit Collection")
-      end 
+      end
     end
   end
-  
+
   describe "get 'index'" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "users", {})
@@ -479,31 +479,112 @@ describe CollectionsController do
         get :index
         response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}")
       end
-      
+
       it "should have search bar" do
         get :index
         response.should have_selector('div', :class => "searchtitle")
         response.should have_selector('input', :id => "searchfield")
       end
-      
-    it "should search for collections by title" do
-      get :index, :params => {"_title" => "collection"}
-      response.should have_selector('div', :class => "count", :content =>2.to_s)
+
+      it "should search for collections by title" do
+        get :index, :params => {"_title" => "collection"}
+        response.should have_selector('div', :class => "count", :content =>2.to_s)
+      end
+
+      it "should search for collections by title" do
+        get :index, :_title =>  "other _AND collection"
+        response.should have_selector('div', :class => "count", :content =>1.to_s)
+      end
+
+      it "should have sort features" do
+        get :index
+        response.should have_selector('a', :href => "/collections?view=title+DESC")
+        response.should have_selector('a', :href => "/collections?view=title+ASC")
+      end
+
     end
-    
-    it "should search for collections by title" do
-      get :index, :_title =>  "other _AND collection"
-      response.should have_selector('div', :class => "count", :content =>1.to_s)
+  end
+
+  describe "list comments for a book" do
+
+    before(:each) do
+      truncate_table(ActiveRecord::Base.connection, "comments", {})
+      truncate_table(ActiveRecord::Base.connection, "collections", {})
+      truncate_table(ActiveRecord::Base.connection, "users", {})
+      User.gen() unless User.first
+      @user = User.first
+      @other_user = User.gen
+
+      @collection = Collection.create(:user_id => @user.id, :title => "collection",:description => "description", :last_modified_date => Date.today, :status => true)
+      @appropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "reply on first book comment")
+      @reply_of_appropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => @appropriate_collection_comment.id, :text => "first book comment")
+      @inappropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "second book comment", :number_of_marks => 2)
+      @appropriate_collection_comment_without_replies = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "book comment")
     end
-    
-    it "should have sort features" do
-      get :index
-      response.should have_selector('a', :href => "/collections?view=title+DESC")
-      response.should have_selector('a', :href => "/collections?view=title+ASC")
-    end
+
+    it "should list all comments and replies of a book" do
+      get :show, :id => @collection
+      response.should have_selector("span", :id => "comment#{@appropriate_collection_comment.id}")
+      response.should have_selector("h4", :content => @appropriate_collection_comment.text)
+      response.should have_selector("span", :id => "comment#{@reply_of_appropriate_collection_comment.id}")
+      response.should have_selector("h4", :content => @reply_of_appropriate_collection_comment.text)
+      response.should have_selector("span", :id => "comment#{@appropriate_collection_comment_without_replies.id}")
+      response.should have_selector("h4", :content => @appropriate_collection_comment_without_replies.text)
 
     end
 
+    it "should show message for inappropriate comments with show link" do
+      get :show, :id => @collection
+      response.should have_selector("span", :id => "abuse#{@inappropriate_collection_comment.id}")
+      response.should have_selector("p", :content => I18n.t(:hidden_comment_msg))
+      response.should have_selector("a", :content => "show")
+    end
+
+    it "should have a button for each comment or a reply to it as inappropriate " do
+      get :show, :id => @collection
+      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_collection_comment.id}")
+      response.should have_selector("input", :type => "button", :id => "mark#{@reply_of_appropriate_collection_comment.id}")
+      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_collection_comment_without_replies.id}")
+    end
+
+    it "should display comment delete link only for owner of the comment or reply" do
+      log_in(@user)
+      get :show, :id => @collection
+      response.should have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_collection_comment.id}")
+      response.should have_selector("a", :href => "/comments/delete?id=#{@appropriate_collection_comment_without_replies.id}")
+    end
+
+    it "should not display comment delete link only for owner of the comment or reply" do
+      log_in(@other_user)
+      get :show, :id => @collection
+      response.should_not have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_collection_comment.id}")
+      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_collection_comment_without_replies.id}")
+    end
+
+    it "should not display comment delete link for comments having replies" do
+      log_in(@user)
+      get :show, :id => @collection
+      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_collection_comment.id}")
+    end
+
+    it "should display form for craeting new comment when user is signed in" do
+      log_in(@user)
+      get :show, :id => @collection
+      response.should have_selector("form", :id => "new_comment")
+    end
+
+    it "should not display form for craeting new comment when user is not signed in" do
+      get :show, :id => @collection
+      response.should_not have_selector("form", :id => "new_comment")
+    end
+    
+    it "should have pagination bar" do
+      truncate_table(ActiveRecord::Base.connection, "comments", {})
+      20.times { |i| Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "comment")}
+      get :show, :id => @collection
+      response.should have_selector('ul', :id => "pagination")
+      truncate_table(ActiveRecord::Base.connection, "comments", {})
+    end
 
   end
 end

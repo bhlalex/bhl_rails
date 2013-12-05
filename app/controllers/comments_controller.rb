@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
   include BHL::Login
-  
+
   def delete
     # id
     if is_loggged_in?

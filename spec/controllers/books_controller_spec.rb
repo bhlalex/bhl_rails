@@ -696,7 +696,6 @@ describe BooksController do
       truncate_table(ActiveRecord::Base.connection, "comments", {})
       truncate_table(ActiveRecord::Base.connection, "books", {})
       truncate_table(ActiveRecord::Base.connection, "volumes", {})
-      truncate_table(ActiveRecord::Base.connection, "collections", {})
       truncate_table(ActiveRecord::Base.connection, "users", {})
       @book = Book.create(:title => 'Test Book First', :bibid => '456')
       @vol = Volume.create(:book => @book, :job_id => '123', :get_thumbnail_fail => 0)
@@ -709,15 +708,13 @@ describe BooksController do
       solr.add doc
       solr.commit
       User.gen() unless User.first
-      @user = User.first
-      log_in(@user)
+      @user = User.first      
+      @other_user = User.gen
       
-      @collection = Collection.create(:user_id => @user.id, :title => "collection",:description => "description", :last_modified_date => Date.today, :status => true)
       @appropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "reply on first book comment")
       @reply_of_appropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => nil, :comment_id => @appropriate_book_comment.id, :text => "first book comment")
       @inappropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "second book comment", :number_of_marks => 2)
-      @first_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "first collection comment")
-      @first_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "second collection comment")
+      @appropriate_book_comment_without_replies = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "book comment")
     end
     
     it "should list all comments and replies of a book" do
@@ -726,14 +723,62 @@ describe BooksController do
       response.should have_selector("h4", :content => @appropriate_book_comment.text)
       response.should have_selector("span", :id => "comment#{@reply_of_appropriate_book_comment.id}")
       response.should have_selector("h4", :content => @reply_of_appropriate_book_comment.text)
+      response.should have_selector("span", :id => "comment#{@appropriate_book_comment_without_replies.id}")
+      response.should have_selector("h4", :content => @appropriate_book_comment_without_replies.text)
+
+    end
+    
+    it "should show message for inappropriate comments with show link" do
+      get :show, :id => @vol.job_id
       response.should have_selector("span", :id => "abuse#{@inappropriate_book_comment.id}")
       response.should have_selector("p", :content => I18n.t(:hidden_comment_msg))
+      response.should have_selector("a", :content => "show")
     end
     
     it "should have a button for each comment or a reply to it as inappropriate " do
       get :show, :id => @vol.job_id
       response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_book_comment.id}")
       response.should have_selector("input", :type => "button", :id => "mark#{@reply_of_appropriate_book_comment.id}")
+      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_book_comment_without_replies.id}")
+    end
+    
+    it "should display comment delete link only for owner of the comment or reply" do
+      log_in(@user)
+      get :show, :id => @vol.job_id
+      response.should have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_book_comment.id}")
+      response.should have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment_without_replies.id}")
+    end
+    
+    it "should not display comment delete link only for owner of the comment or reply" do
+      log_in(@other_user)
+      get :show, :id => @vol.job_id
+      response.should_not have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_book_comment.id}")
+      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment_without_replies.id}")
+    end
+    
+    it "should not display comment delete link for comments having replies" do
+      log_in(@user)
+      get :show, :id => @vol.job_id
+      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment.id}")
+    end
+    
+    it "should display form for craeting new comment when user is signed in" do
+      log_in(@user)
+      get :show, :id => @vol.job_id
+      response.should have_selector("form", :id => "new_comment")
+    end
+    
+    it "should not display form for craeting new comment when user is not signed in" do
+      get :show, :id => @vol.job_id
+      response.should_not have_selector("form", :id => "new_comment")
+    end
+    
+    it "should have pagination bar" do
+      truncate_table(ActiveRecord::Base.connection, "comments", {})
+      20.times { |i| Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "comment")}
+      get :show, :id => @vol.job_id
+      response.should have_selector('ul', :id => "pagination")
+      truncate_table(ActiveRecord::Base.connection, "comments", {})
     end
 
   end
