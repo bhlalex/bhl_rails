@@ -402,9 +402,9 @@ describe BooksController do
   
 
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :last_modified_date => Time.now, :status => false)
-        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :last_modified_date => Time.now, :status => true)
-        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :last_modified_date => "2013-12-02 09:17:54 UTC", :status => true)
+        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Time.now, :status => false)
+        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Time.now, :status => true)
+        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-12-02 09:17:54 UTC", :status => true)
   
         truncate_table(ActiveRecord::Base.connection, "book_collections", {})
         @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)

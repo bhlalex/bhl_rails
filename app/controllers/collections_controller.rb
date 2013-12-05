@@ -120,7 +120,7 @@ class CollectionsController < ApplicationController
       if ((params[:delete_photo]))
         delete_collection_photo(params[:id])
       end
-      @collection[:last_modified_date] = Time.now
+      @collection[:updated_at] = Time.now
       @collection.save
       flash.now[:notice]=I18n.t(:collection_updated)
       flash.keep

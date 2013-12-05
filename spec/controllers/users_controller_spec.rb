@@ -383,7 +383,7 @@ describe UsersController do
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :last_modified_date => "2013-11-20 ", :status => true)}
+        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :status => true)}
         get :show, { :id => @other_user.id, :tab => "collections" }
         response.should have_selector('ul', :id => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
