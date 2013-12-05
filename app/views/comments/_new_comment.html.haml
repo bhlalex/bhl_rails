@@ -7,5 +7,6 @@
         = f.hidden_field :volume_id, value: @volume_id
         = f.hidden_field :collection_id, value: @collection_id
         = f.hidden_field :user_id, value: session[:user_id]
+        = f.hidden_field :comment_id, value: comment_id
     %fieldset
       = f.submit I18n.t('submit_buton'), :class => "btn"

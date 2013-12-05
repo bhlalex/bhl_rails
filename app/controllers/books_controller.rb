@@ -103,7 +103,8 @@ class BooksController < ApplicationController
     end
     # user rate for current volume
     volume = Volume.find_by_job_id(params[:id])
-    @book_rate = volume.rate
+    @book_rate = 0.0
+    @book_rate = volume.rate if volume.rate
 
     # when user rate == -1 this means that he never rated this book before
     @user_rate = -1

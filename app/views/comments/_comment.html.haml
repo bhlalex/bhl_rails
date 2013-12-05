@@ -4,17 +4,18 @@
   
 :javascript 
   $(document).ready(function() {
-  $("#mark#{comment.id}").click(function () {
-   $.ajax({type: "GET", 
-         url: "/mark?id=" + #{comment.id} , 
-         dataType: "script"
-         });
-         if(#{comment.number_of_marks} >= #{MAX_NO_ABUSE}){
-            $('#comment#{comment.id}').toggle();
-            $('#abuse#{comment.id}').toggle();
-         }
-  });
-  
+    $("#mark#{comment.id}").click(function () {
+      $.ajax({type: "GET", 
+              url: "/mark?id=" + #{comment.id} , 
+              dataType: "script",
+              success: function(data){
+                         if(parseInt(data) >= #{MAX_NO_ABUSE}){
+                           $('#comment#{comment.id}').toggle();
+                           $('#abuse#{comment.id}').toggle();
+                         }
+             }
+      });
+    });
   });
  
   function confirmDelete(){

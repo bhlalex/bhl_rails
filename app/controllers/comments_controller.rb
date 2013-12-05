@@ -45,17 +45,17 @@ class CommentsController < ApplicationController
     comment = Comment.find_by_id(params[:id])
     comment.number_of_marks = comment.number_of_marks + 1
     comment.save
-    flash[:notice]=I18n.t(:marked_as_abuse)
-    flash.keep
+    data = comment.number_of_marks
+    render :json => data
   end
   
-  def reply
-    # comment_id, text
-    if is_loggged_in?
-      comment = Comment.create!(:comment_id => params[:comment_id], :text => params[:text])
-      comment.save
-    end
-    redirect_to :back
-  end
+#  def reply
+#    # comment_id, text
+#    if is_loggged_in?
+#      comment = Comment.create!(:comment_id => params[:comment_id], :text => params[:text])
+#      comment.save
+#    end
+#    redirect_to :back
+#  end
   
 end

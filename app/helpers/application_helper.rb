@@ -118,10 +118,10 @@ module ApplicationHelper
   def get_comments(type, collection_id, job_id)
     # (collection_id or job_id), type = "collection, volume"
     if type == "collection"
-      comments_list = Comment.where(:collection_id => collection_id)
+      comments_list = Comment.where(:collection_id => collection_id, :comment_id => nil)
     else
       volume_id = Volume.find_by_job_id(job_id).id
-      comments_list = Comment.where(:volume_id => volume_id)
+      comments_list = Comment.where(:volume_id => volume_id, :comment_id => nil)
     end
     comments_replies_list = []
     comments_list.each do |comment|
@@ -149,11 +149,19 @@ module ApplicationHelper
     end
   end
   
-def get_class_for_comment(abuse)
-  if(abuse >= MAX_NO_ABUSE)
-    "hidden"
+  def get_class_for_comment(abuse)
+    if(abuse >= MAX_NO_ABUSE)
+      "hidden"
+    else
+      "active"
+    end
+  end
+  
+def differ_comment_reply(comment_id)
+  if comment_id.nil?
+    "comment"
   else
-    "active"
+    "reply"
   end
 end
 end
