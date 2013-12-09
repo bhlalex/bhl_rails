@@ -38,6 +38,13 @@ class LogActivitiesController < ApplicationController
           ORDER BY time DESC;"
     # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
     @log_records = get_log_activity(sql_stmt)
+    # applying pagination on log_records array
+    @page = params[:page] ? params[:page].to_i : 1
+    @lastPage = @log_records.count ? ((@log_records.count).to_f/PAGE_SIZE).ceil : 0
+    limit = PAGE_SIZE
+    offset = (@page > 1) ? (@page - 1) * limit : 0 
+    @log_records = @log_records[offset,offset+limit]
+    @url_params = params.clone
   end
 
 end

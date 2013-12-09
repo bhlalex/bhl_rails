@@ -190,7 +190,6 @@ class UsersController < ApplicationController
   # POST /users/recover_password
   def recover_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-
     @email = params[:user][:email]
     return redirect_to users_forgot_password_path unless @email
     @user = User.find_by_email(@email)
