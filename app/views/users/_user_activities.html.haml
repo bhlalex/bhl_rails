@@ -1,0 +1,6 @@
+- @log_records.each do |record|
+  %h3
+    = record.html_safe
+- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+  - @pages = adjustPaging(@page, @lastPage)
+  = render :partial => "books/paging"

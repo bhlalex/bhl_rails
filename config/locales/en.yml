@@ -324,3 +324,8 @@ en:
   can_not_delete_comment: "You can't delete comment that has a reply"
   marked_as_abuse: "Marked as abuse"
   collection_rate: "Collection rate"
+  log_activity_create: created a new collection
+  log_activity_with: with
+  log_activity_rate: rated
+  log_activity_comment: commented on 
+  user_activity: User Activity
