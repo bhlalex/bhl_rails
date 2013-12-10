@@ -1,5 +1,5 @@
 $(document).ready ->
-  initTree = (id) ->    
+  initTree = (id) ->
     tree.init $("#h_container"),
       data:
         type: "json"
@@ -8,15 +8,15 @@ $(document).ready ->
       
       callback:
         onchange: (NODE, TREE_OBJ) ->
-          node_id = NODE.id          
+          node_id = NODE.id
           if (node_id)
             $.ajax 
               url: 'get_content/'+node_id
               type: 'GET'
               dataType: 'html'
-              error: (jqXHR, textStatus, errorThrown) -> 
+              error: (jqXHR, textStatus, errorThrown) ->
                 $("#namedetail").html("Error")
-              success: (data, status, response) -> 
+              success: (data, status, response) ->
                 $("#namedetail").html(data)
       ui:
         dots: true
