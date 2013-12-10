@@ -52,6 +52,15 @@ class CollectionsController < ApplicationController
       else
         @user_collection_rate = 0.0
       end
+      @collection_books = @collection.book_collections.order('position ASC')
+      @total_number = @collection_books.count
+      @view = params[:view] ? params[:view] : 'list'
+      @page = params[:page] ? params[:page].to_i : 1
+      @lastPage = @collection_books.count ? ((@collection_books.count).to_f/PAGE_SIZE).ceil : 0
+      limit = PAGE_SIZE
+      offset = (@page > 1) ? (@page - 1) * limit : 0
+      @collection_books = @collection_books.limit(limit).offset(offset)
+      @url_params = params.clone
     end
   end
 
@@ -101,21 +110,7 @@ class CollectionsController < ApplicationController
     end
   end
 
-  def list_books_in_collection
-    @page_title = I18n.t(:collection_books)
-    @collection = Collection.find(params[:id])
-    if @collection.status == true || authenticate_user(@collection.user_id)
-      @collection_books = @collection.book_collections.order('position ASC')
-      @total_number = @collection_books.count
-      @view = params[:view] ? params[:view] : 'list'
-      @page = params[:page] ? params[:page].to_i : 1
-      @lastPage = @collection_books.count ? ((@collection_books.count).to_f/PAGE_SIZE).ceil : 0
-      limit = PAGE_SIZE
-      offset = (@page > 1) ? (@page - 1) * limit : 0
-      @collection_books = @collection_books.limit(limit).offset(offset)
-      @url_params = params.clone
-    end
-  end
+
 
   def edit # edit collection
     @page_title = I18n.t(:edit_collection)

@@ -2,10 +2,10 @@ class Collection < ActiveRecord::Base
   belongs_to :user
   has_many :book_collections
   has_many :books, :through => :book_collections
-  has_many :comments
+  has_many :comments,:dependent => :destroy
   # status = false ===> priavte
   # status = true ===> public
-  has_many :collection_ratings
+  has_many :collection_ratings,:dependent => :destroy
   # status = false = 0 ===> priavte
   # status = true = 1 ===> public
   attr_accessible :created_at,:updated_at, :description, :status, :title, :user_id, :photo_name

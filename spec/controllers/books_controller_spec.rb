@@ -417,9 +417,9 @@ describe BooksController do
 
       it "should have an open link for public collections of other user" do
         get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@other_public_collection.id}", :content =>@other_public_collection.title)
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_private_collection.id}", :content =>@my_private_collection.title)
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}", :content =>@my_private_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
       end
 
       it "should have last modified date for public collections of ther user" do
@@ -437,9 +437,9 @@ describe BooksController do
 
       it "should have an open link for each collection of listed collections" do
         get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_private_collection.id}", :content =>@my_private_collection.title)
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_public_collection.id}", :content =>@my_public_collection.title)
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}", :content =>@my_private_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
       end
 
       it "should have an image for each collection" do

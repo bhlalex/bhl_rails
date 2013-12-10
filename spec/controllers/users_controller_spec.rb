@@ -374,7 +374,7 @@ describe UsersController do
 
       it "should have an open link for public collections of other user" do
         get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
       end
       it "should have last modified date for public collections of ther user" do
         get :show, { :id => @other_user.id, :tab => "collections" }
@@ -391,8 +391,8 @@ describe UsersController do
 
       it "should have an open link for each collection of my collections" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_private_collection.id}", :content =>@my_private_collection.title)
-        response.should have_selector('a', :href => "/collections/list_books_in_collection/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}", :content =>@my_private_collection.title)
+        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
       end
       it "should have last modified date for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
