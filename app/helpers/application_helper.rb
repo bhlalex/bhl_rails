@@ -171,5 +171,4 @@ module ApplicationHelper
       true
     end
   end
-  
 end

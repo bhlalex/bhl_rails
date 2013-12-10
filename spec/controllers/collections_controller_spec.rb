@@ -91,7 +91,6 @@ describe CollectionsController do
       truncate_table(ActiveRecord::Base.connection, "users", {})
       User.gen() unless User.first
       @user = User.first
-      log_in(@user)
       @other_user = User.gen
 
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -124,6 +123,23 @@ describe CollectionsController do
     describe "list books in collections" do
 
       describe "open my private collection" do
+        
+        describe "list books in private collection fail" do
+          it "should not display show collection page for unsigned user" do
+          get :list_books_in_collection, :id => @my_private_collection
+          response.should redirect_to("/users/login")
+          end
+          
+          it "should not display show private collection page for unauthenticated user" do
+            log_in(@other_user)
+           get :list_books_in_collection, :id => @my_private_collection
+           response.should redirect_to("/collections")
+          end
+        end
+        describe "list books in private collection success" do
+          before(:each) do
+            log_in(@user)
+          end
 
         it "should list all books in my private collection" do
           get :list_books_in_collection, :id => @my_private_collection
@@ -203,8 +219,11 @@ describe CollectionsController do
           end
         end
       end
-
+      end
       describe "open my public collection" do
+        before(:each) do
+          log_in(@user)
+        end
 
         it "should list all books in my private collection" do
           get :list_books_in_collection, :id => @my_public_collection
@@ -325,6 +344,7 @@ describe CollectionsController do
 
     describe "destroy collection" do
       it "should destroy my private collection" do
+        log_in(@user)
         request.env["HTTP_REFERER"] = "/users/#{@user.id}/collections"
         lambda do
           get :destroy_collection, :id => @my_private_collection
@@ -333,15 +353,37 @@ describe CollectionsController do
       end
 
       it "should destroy my public collection" do
+        log_in(@user)
         request.env["HTTP_REFERER"] = "/users/#{@user.id}/collections"
         lambda do
           get :destroy_collection, :id => @my_public_collection
           response.should redirect_to("/users/#{@user.id}/collections")
         end.should change(Collection, :count).by(-1)
       end
+
+      it "should not destroy a collection if the user not signed in" do
+        request.env["HTTP_REFERER"] = "/users/#{@user.id}/collections"
+        lambda do
+          get :destroy_collection, :id => @my_private_collection
+          response.should redirect_to("/users/login")
+        end.should_not change(Collection, :count)
+      end
+      
+      it "should not destroy a collection owned by another user" do
+        log_in(@other_user)
+        request.env["HTTP_REFERER"] = "/collections"
+        lambda do
+          get :destroy_collection, :id => @my_private_collection
+          response.should redirect_to("/collections")
+        end.should_not change(Collection, :count)
+      end
     end
 
     describe "edit collection" do
+      
+      before(:each) do
+        log_in(@user)
+      end
 
       it "should have an option to edit collection title" do
         get :edit, :id => @my_private_collection
@@ -387,6 +429,23 @@ describe CollectionsController do
     end
 
     describe "show collection" do
+      
+      describe "show fail" do
+        it "should not display show collection page for unsigned user" do
+        get :show, :id => @my_private_collection
+        response.should redirect_to("/users/login")
+        end
+        
+        it "should not display show private collection page for unauthenticated user" do
+          log_in(@other_user)
+         get :show, :id => @my_private_collection
+         response.should redirect_to("/collections")
+        end
+      end
+      describe "show success" do
+        before(:each) do
+          log_in(@user)
+        end
 
       it "should display collection title" do
         get :show, :id => @my_private_collection
@@ -409,6 +468,7 @@ describe CollectionsController do
       it "should display edit collection link for collection owned by current user" do
         get :show, :id => @my_private_collection
         response.should have_selector('a', :href => "/collections/edit/#{@my_private_collection.id}", :content => "Edit Collection")
+      end
       end
     end
   end
@@ -577,7 +637,7 @@ describe CollectionsController do
       get :show, :id => @collection
       response.should_not have_selector("form", :id => "new_comment")
     end
-    
+
     it "should have pagination bar" do
       truncate_table(ActiveRecord::Base.connection, "comments", {})
       20.times { |i| Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "comment")}
