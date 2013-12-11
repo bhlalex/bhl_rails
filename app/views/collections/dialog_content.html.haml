@@ -17,7 +17,7 @@
       %br
       %br
     %li
-      %input#new{:checked => false, :type =>"checkbox", :value => 'off', 
+      %input{:type =>"checkbox", :id => "new#{@number}", :checked => false, :value => 'off', 
       :onclick => "document.getElementById('error').style.display = 'none';document.getElementById('description').value = '';document.getElementById('title').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll').style.display = 'block';}else{this.value = 'off';document.getElementById('createnewcoll').style.display = 'none';}"} #{I18n.t(:create_new_collection)}
     #error{style: "display:none; color:red;"}
       = I18n.t(:missing_title_error_msg)

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131205140357) do
+ActiveRecord::Schema.define(:version => 20131211080344) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -66,9 +66,9 @@ ActiveRecord::Schema.define(:version => 20131205140357) do
   create_table "book_ratings", :force => true do |t|
     t.integer  "volume_id"
     t.integer  "user_id"
-    t.decimal  "rate",       :precision => 2, :scale => 1
-    t.datetime "created_at",                               :null => false
-    t.datetime "updated_at",                               :null => false
+    t.integer  "rate",       :default => 0
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
   add_index "book_ratings", ["user_id"], :name => "index_book_ratings_on_user_id"
@@ -129,9 +129,9 @@ ActiveRecord::Schema.define(:version => 20131205140357) do
   create_table "collection_ratings", :force => true do |t|
     t.integer  "collection_id"
     t.integer  "user_id"
-    t.decimal  "rate",          :precision => 2, :scale => 1
-    t.datetime "created_at",                                  :null => false
-    t.datetime "updated_at",                                  :null => false
+    t.integer  "rate",          :default => 0
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
   end
 
   add_index "collection_ratings", ["collection_id"], :name => "index_collection_ratings_on_collection_id"
@@ -142,10 +142,10 @@ ActiveRecord::Schema.define(:version => 20131205140357) do
     t.string   "title"
     t.string   "description"
     t.boolean  "status"
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
+    t.datetime "created_at",                 :null => false
+    t.datetime "updated_at",                 :null => false
     t.string   "photo_name"
-    t.decimal  "rate",        :precision => 2, :scale => 1
+    t.integer  "rate",        :default => 0
   end
 
   add_index "collections", ["user_id"], :name => "index_collections_on_user_id"
@@ -171,6 +171,19 @@ ActiveRecord::Schema.define(:version => 20131205140357) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "email_messages", :force => true do |t|
+    t.string   "name",       :null => false
+    t.string   "email",      :null => false
+    t.string   "subject",    :null => false
+    t.string   "message",    :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "email_messages", ["email"], :name => "index_email_messages_on_email"
+  add_index "email_messages", ["name"], :name => "index_email_messages_on_name"
+  add_index "email_messages", ["subject"], :name => "index_email_messages_on_subject"
 
   create_table "harvest_event_books", :force => true do |t|
     t.integer  "harvest_event_id"
@@ -325,9 +338,9 @@ ActiveRecord::Schema.define(:version => 20131205140357) do
     t.integer  "generate_names_xml_fail"
     t.integer  "ubio_in_dar_fail"
     t.integer  "get_pages_names_fail"
-    t.datetime "created_at",                                            :null => false
-    t.datetime "updated_at",                                            :null => false
-    t.decimal  "rate",                    :precision => 2, :scale => 1
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
+    t.integer  "rate",                    :default => 0
   end
 
   add_index "volumes", ["book_id"], :name => "index_volumes_on_book_id"
