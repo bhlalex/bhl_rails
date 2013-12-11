@@ -32,7 +32,7 @@
         - rate = 0.0
       - else
         - rate = @collection.rate
-      = render :partial => "collections/rating", :locals => {:collection_rate => @collection.rate, :user_rate => @user_collection_rate, :col_id =>  @collection.id}
+      = render :partial => "collections/rating", :locals => {:collection_rate => rate, :user_rate => @user_collection_rate, :col_id =>  @collection.id}
     = render :partial => "comments/index"
 
     - if (@collection_books != '' && @total_number > 0)

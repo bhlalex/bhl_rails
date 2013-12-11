@@ -59,8 +59,7 @@ Bhl::Application.routes.draw do
   root :to => 'pages#about'
   
   get   "pages/contact"
-  match '/pages/contact', :to => 'pages#contact', :as => :new_email_message
-  match "/pages/send_message/:id" => "pages#send_message"
+  match "/pages/send_message" => "pages#send_message"
   get   "pages/about"
   
   match "browse/:type" => "browse#show"

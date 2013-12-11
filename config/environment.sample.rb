@@ -69,6 +69,8 @@ DAR_VIEWER_REPLACE_STRING = "[JOBID]"
 DAR_VIEWER_REPLACE_LANGUAGE = "[LANGUAGE]"
 
 MAX_NO_ABUSE = 1
+CONTACT_US_EMAIL= "walaa.gomaa.elsayed@gmail.com"
+
 
 # Initialize the rails application
 Bhl::Application.initialize!

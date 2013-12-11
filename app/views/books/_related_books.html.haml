@@ -9,6 +9,6 @@
             - @vol = Volume.find_by_job_id(doc['vol_jobid'])
             - @title = Book.find_by_id(@vol.book_id).title
             - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-            = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) ,{:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+            = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) ,{:controller => :books, :action => :show, :id => @vol[:job_id]}
             = link_to @title.html_safe, 
-            {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
+            {:controller => :books, :action => :show, :id => @vol[:job_id]}

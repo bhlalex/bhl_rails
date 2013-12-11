@@ -24,7 +24,7 @@ class UserSearchHistoryController < ApplicationController
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
       else
-        redirect_to :controller => :books, :action => :index
+        redirect_to :controller => :users, :action => :show, :tab => "saved_queries"
       end
     end
   end

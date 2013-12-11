@@ -243,6 +243,10 @@ en:
   related_books: Related to Book You've Viewed
   all_collections: Collections
   collections_link: Collections
+  sender: Name
+  message_subject: Subject
+  text: Text
+  contact_us_message: Thank you for your message
   
   notifier:
     user_verification:

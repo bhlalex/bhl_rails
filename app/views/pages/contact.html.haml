@@ -1,9 +1,9 @@
 .form
-  = form_for @email_message, url:"pages/contact" , :builder => FormHelper::BHLFormBuilder do |f|
+  = form_for @email_message, url:"/pages/send_message" , :builder => FormHelper::BHLFormBuilder do |f|
     = validation_errors_for(@email_message)
     %ul
       %li
-        = f.label :name, raw(t('name')), :class => 'required'
+        = f.label :name, raw(t('sender')), :class => 'required'
       %li
         = f.text_field :name, { :maxlength => 32 }
       %li
@@ -11,11 +11,11 @@
       %li
         = f.text_field :email, { :maxlength => 32 }
       %li
-        = f.label :subject, raw(t('subject')), :class => 'required'
+        = f.label :subject, raw(t('message_subject')), :class => 'required'
       %li
         = f.text_field :subject, { :maxlength => 32 }
       %li
-        = f.label :message, raw(t('message')), :class => 'required'
+        = f.label :message, raw(t('text')), :class => 'required'
       %li
         = f.text_area :message
       - if @verify_captcha

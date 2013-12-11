@@ -469,7 +469,7 @@ describe BooksController do
 
       it "should display title for each related book" do
         get :show, :id => @volume.job_id
-        response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}/brief", :content => "Test Book 2")
+        response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}", :content => "Test Book 2")
       end
     end
 
