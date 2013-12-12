@@ -8,7 +8,7 @@ class Collection < ActiveRecord::Base
   has_many :collection_ratings,:dependent => :destroy
   # status = false = 0 ===> priavte
   # status = true = 1 ===> public
-  attr_accessible :created_at,:updated_at, :description, :status, :title, :user_id, :photo_name
+  attr_accessible :created_at,:updated_at, :description, :status, :title, :user_id, :photo_name, :rate
   validates :title, :presence => true,
                        :length => {:within => 4..25}
   mount_uploader :photo_name, ImageUploader
