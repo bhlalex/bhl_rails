@@ -100,18 +100,18 @@ describe LogActivitiesHelper do
     #        rated my collection
     #        created my collection
     it "should return log activities ordered by time" do
-      @log_records[0].should include("rated")
-      @log_records[0].should include("Test Book")
-      @log_records[1].should include("created")
-      @log_records[1].should include("other collection")
-      @log_records[2].should include("commented")
-      @log_records[2].should include("my collection")
-      @log_records[3].should include("commented")
-      @log_records[3].should include("Test Book")
-      @log_records[4].should include("rated")
-      @log_records[4].should include("my collection")
-      @log_records[5].should include("created")
-      @log_records[5].should include("my collection")
+      @log_records[0][:record].should include("rated")
+      @log_records[0][:record].should include("Test Book")
+      @log_records[1][:record].should include("created")
+      @log_records[1][:record].should include("other collection")
+      @log_records[2][:record].should include("commented")
+      @log_records[2][:record].should include("my collection")
+      @log_records[3][:record].should include("commented")
+      @log_records[3][:record].should include("Test Book")
+      @log_records[4][:record].should include("rated")
+      @log_records[4][:record].should include("my collection")
+      @log_records[5][:record].should include("created")
+      @log_records[5][:record].should include("my collection")
     end
   end
 
@@ -164,14 +164,14 @@ describe LogActivitiesHelper do
     #        rated my collection
     #        created my collection
     it "should return log activities ordered by time" do
-      @log_records[0].should include("commented")
-      @log_records[0].should include("my collection")
-      @log_records[1].should include("commented")
-      @log_records[1].should include("Test Book")
-      @log_records[2].should include("rated")
-      @log_records[2].should include("my collection")
-      @log_records[3].should include("created")
-      @log_records[3].should include("my collection")
+      @log_records[0][:record].should include("commented")
+      @log_records[0][:record].should include("my collection")
+      @log_records[1][:record].should include("commented")
+      @log_records[1][:record].should include("Test Book")
+      @log_records[2][:record].should include("rated")
+      @log_records[2][:record].should include("my collection")
+      @log_records[3][:record].should include("created")
+      @log_records[3][:record].should include("my collection")
     end
   end
 

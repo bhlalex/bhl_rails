@@ -247,6 +247,7 @@ en:
   message_subject: Subject
   text: Text
   contact_us_message: Thank you for your message
+  sort_by_rating: Sort By Rating
   
   notifier:
     user_verification:

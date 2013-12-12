@@ -133,8 +133,7 @@ class UsersController < ApplicationController
               id AS id,
               created_at AS time
               FROM collections
-              WHERE status = 1
-              and user_id = #{session[:user_id]})
+              WHERE user_id = #{session[:user_id]})
         UNION
           (SELECT
               'book_ratings' AS table_type,

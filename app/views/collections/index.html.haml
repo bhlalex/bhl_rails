@@ -6,7 +6,9 @@
         = render :partial => "collections/search"
       .searchtitle
         = I18n.t(:sort_by_title) 
-        = render :partial => "collections/sort"
+        = render :partial => "collections/sort" , :locals => {:sort_type => "title"}
+        = I18n.t(:sort_by_rating) 
+        = render :partial => "collections/sort" , :locals => {:sort_type => "order"}
       .searchfilter
         = render :partial => "collections/breadcrumb"
         .clear

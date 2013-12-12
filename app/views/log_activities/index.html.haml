@@ -1,5 +1,5 @@
-- @log_records.each do |record|
-  = record.html_safe
+- @log_records.each do |log|
+  = render :partial => "users/user_activity_record", :locals => {:log => log}
 - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
   - @pages = adjustPaging(@page, @lastPage)
   = render :partial => "books/paging"
