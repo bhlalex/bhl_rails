@@ -32,5 +32,21 @@
         - rate = 0.0
       - else
         - rate = @collection.rate
-      = render :partial => "collections/rating", :locals => {:collection_rate => @collection.rate, :user_rate => @user_collection_rate, :col_id =>  @collection.id}
+      = render :partial => "collections/rating", :locals => {:collection_rate => rate, :user_rate => @user_collection_rate, :col_id =>  @collection.id}
     = render :partial => "comments/index"
+
+    - if (@collection_books != '' && @total_number > 0)
+      .count
+        = "Found #{pluralize(@total_number, I18n.t(:book))} "
+      - @collection_books.each do |ubh_vol|
+        - @ubh_vol = ubh_vol
+        - @vol = Volume.find_by_id(@ubh_vol.volume)
+        - @title = Book.find_by_id(@vol.book_id).title
+        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+        
+        = render :partial => "collections/listresult"
+      - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+        - @pages = adjustPaging(@page, @lastPage)
+        = render :partial => "books/paging"
+    - else
+      = I18n.t(:no_books_found)

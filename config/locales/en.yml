@@ -212,6 +212,11 @@ en:
   related_books: Related to Book You've Viewed
   all_collections: Collections
   collections_link: Collections
+  sender: Name
+  message_subject: Subject
+  text: Text
+  contact_us_message: Thank you for your message
+  sort_by_rating: Sort By Rating
   
   notifier:
     user_verification:
@@ -343,3 +348,10 @@ en:
   #Pages (About US, Contact Us)
   about_us_page_title: "About Us"
   contact_us_page_title: "Contact Us"
+  
+  #Log Page
+  log_activity_create: created a new collection
+  log_activity_with: with
+  log_activity_rate: rated
+  log_activity_comment: commented on 
+  user_activity: User Activity

@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   include SolrHelper
   include BHL::Login
   include BooksHelper
+  include LogActivitiesHelper
   # GET /users/new
   def new
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -76,7 +77,7 @@ class UsersController < ApplicationController
     @can_edit = @id.to_i == session[:user_id]
 
     if current_user
-      @tabs = {:profile => I18n.t(:user_profile), :annotations => I18n.t(:annotations), :saved_queries => I18n.t(:saved_queries), :recently_viewed => I18n.t(:recently_viewed), :collections => I18n.t(:collections)}
+      @tabs = {:profile => I18n.t(:user_profile), :annotations => I18n.t(:annotations), :saved_queries => I18n.t(:saved_queries), :recently_viewed => I18n.t(:recently_viewed) , :collections => I18n.t(:collections), :user_activities => I18n.t(:user_activity)}
     else
       @tabs = {:profile => I18n.t(:user_profile), :collections => I18n.t(:collections)}
     end
@@ -117,9 +118,59 @@ class UsersController < ApplicationController
         @url_params = params.clone
       end
       # end
-    end
+    
+    
+    elsif @current == "user_activities"
+      if authenticate_user
+        # sql_stmt : to select current user activities including creating new collection,
+        # rating book or collection 
+        # and also commented on book or collection ordered by creation time
+        sql_stmt = "SELECT
+          result.table_type AS table_type,
+          result.id AS id,
+          result.time AS time
+          FROM((SELECT 'collection' AS table_type,
+              id AS id,
+              created_at AS time
+              FROM collections
+              WHERE user_id = #{session[:user_id]})
+        UNION
+          (SELECT
+              'book_ratings' AS table_type,
+              id AS id,
+              created_at AS time
+              FROM book_ratings
+              WHERE user_id = #{session[:user_id]})
+          UNION
+          (SELECT
+              'collection_ratings' AS table_type,
+              id AS id,
+              created_at AS time
+              FROM collection_ratings
+              WHERE user_id = #{session[:user_id]})
+          UNION
+          (SELECT
+              'comments' AS table_type,
+              id AS id,
+              created_at AS time
+              FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
+              and user_id = #{session[:user_id]})
+              ) result
+              ORDER BY time DESC;"
+        # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
+        @log_records = get_log_activity(sql_stmt)
+        @log_records_total_number = @log_records.count
+        # applying pagination on log_records array
+        @page = params[:page] ? params[:page].to_i : 1
+        @lastPage = @log_records.count ? ((@log_records.count).to_f/PAGE_SIZE).ceil : 0
+        limit = PAGE_SIZE
+        offset = (@page > 1) ? (@page - 1) * limit : 0 
+        @log_records = @log_records[offset,offset+limit]
+        @url_params = params.clone
+      end
+      # end
 
-    if @current == "collections"
+    elsif @current == "collections"
       if current_user
         @user_collections = Collection.where("user_id = #{@id}")
       else
@@ -138,7 +189,6 @@ class UsersController < ApplicationController
   # POST /users/recover_password
   def recover_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-
     @email = params[:user][:email]
     return redirect_to users_forgot_password_path unless @email
     @user = User.find_by_email(@email)

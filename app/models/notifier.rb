@@ -31,4 +31,13 @@ class Notifier < ActionMailer::Base
       :to => user.email,
       :from => NO_REPLY_EMAIL_ADDRESS )
   end
+  
+  def contact_message(name,mail,subject,message)
+    mail(
+      :content_type => "text/html",
+      :subject =>  subject,
+      :body =>  message,
+      :to => CONTACT_US_EMAIL,
+      :from => "\"#{name}\" <#{mail}>" )
+  end
 end

@@ -1,5 +1,7 @@
 Bhl::Application.routes.draw do
-  
+  resources :log_activities, only: [:index]
+  get  "log_activities/index"
+  get  "log_activities/user_activities"
   resources :comments, only: [:create]
   match "comments/create" => "comments#create"
   match "comments/index" => "comments#index"
@@ -13,7 +15,6 @@ Bhl::Application.routes.draw do
   match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
   resources :user_search_history, only: [:save_query, :delete_query]
   resources :collections, only: [:index]
-  match "/collections/list_books_in_collection/:id" => "collections#list_books_in_collection"
   match "/collections/destroy_collection/:id" => "collections#destroy_collection"
   match "/collections/edit/:id" => "collections#edit"
   match "/collections/show/:id" => "collections#show"
@@ -57,6 +58,7 @@ Bhl::Application.routes.draw do
   root :to => 'pages#about'
   
   get   "pages/contact"
+  match "/pages/send_message" => "pages#send_message"
   get   "pages/about"
   
   match "browse/:type" => "browse#show"

@@ -66,6 +66,8 @@ CARTOGRAPHER_GMAP_VERSION = 3
 NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
 
 MAX_NO_ABUSE = 1
+CONTACT_US_EMAIL= "walaa.gomaa.elsayed@gmail.com"
+
 
 # Initialize the rails application
 Bhl::Application.initialize!
