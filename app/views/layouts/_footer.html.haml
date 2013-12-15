@@ -1,7 +1,23 @@
-= render :partial => "books/related_books"
-.clear
+:javascript
+  function shareFb(){
+    var sharer = "https://www.facebook.com/sharer/sharer.php?u="; 
+    window.open(sharer + location.href, 'sharer', 'width=626,height=436'); 
+  }
+  function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 .footer
-  .copyright
-    = I18n.t(:copyright_statement)
-
-
+  .container
+    .col-md-3.social
+      %a{:href => "", :onclick => "shareFb()"}
+        %i.fa.fa-facebook.fa-2x
+      %a{:href => "https://twitter.com/share", :target => "_blank"}
+        %i.fa.fa-twitter.fa-2x
+    .col-md-9.pull-right
+      %p.text-right
+        %a{ :href => "/" } 
+          = I18n.t(:footer_home)
+        |
+        = link_to I18n.t(:footer_about), {:controller => :pages, :action => :about}
+        |
+        = link_to I18n.t(:footer_contact), {:controller => :pages, :action => :contact}
+      %p.text-right 
+        = I18n.t(:copyright_statement)

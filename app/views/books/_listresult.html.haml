@@ -1,35 +1,24 @@
-- if visited_volume?(@user_history, @vol)
-  .visitedthumb
-    %span
-    = link_to image_tag("/#{@thumb}", :width => 109, :border => 0), 
-      {:controller => :books, :action => :show, :id => @vol[:job_id]}
-   
-- else
-  .thumb
-    = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
-      {:controller => :books, :action => :show, :id => @vol[:job_id]}
-
-.newscontent
-  .sidelinks
-    = link_to image_tag("/images_#{I18n.locale}/read.png", :alt => "#{I18n.t(:read_icon)}", :title => "#{I18n.t(:read_icon)}") , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
-    = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "#{I18n.t(:details_icon)}", :title => "#{I18n.t(:details_icon)}") , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id]}
-    - if logged_in?
-      - params[:id] = @vol[:job_id]
-      - @place = "list"
-      = render :partial => "books/add_book"
-  %h4
-    - # TODO: Add highlights
-    = link_to @title.html_safe , 
-      {:controller => :books, :action => :show, :id => @vol[:job_id]}
-  .description
-    - if(@doc['author'] != nil)
-      = render :partial => "books/bookauthors"
-    - if(@doc['published_at'] != nil)
-      %br
-      = render :partial => "books/bookpublishedat"
-    - if(@doc['name'] != nil)
-      %br
-      = render :partial => "books/booknames"
-.clear
+.col-md-8.column.browse
+  .row.clearfix
+    .col-md-2.column  
+      - if visited_volume?(@user_history, @vol)
+        = link_to image_tag("/#{@thumb}", :width => 109, :border => 0, :class => "img-thumbnail visited"), 
+          {:controller => :books, :action => :show, :id => @vol[:job_id]}
+      - else
+        = link_to :controller => :books, :action => :show, :id => @vol[:job_id] do
+          %img.img-thumbnail{:src => "/#{@thumb}"}
+          
+    .col-md-6.column
+      %h4
+        = link_to @title.html_safe , 
+        {:controller => :books, :action => :show, :id => @vol[:job_id]}
+      %p.small
+        - if(@doc['author'] != nil)
+          = render :partial => "books/bookauthors"
+        - if(@doc['subject'] != nil)
+          = render :partial => "books/booksubjects"
+        - if(@doc['name'] != nil)
+          = render :partial => "books/booknames"
+    .col-md-4.column.controls
+      =render :partial => "books/sidelinks"
+  %hr.clearfix.col-lg-12

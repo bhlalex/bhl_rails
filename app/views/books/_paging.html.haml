@@ -4,14 +4,16 @@
 - if(@pages.length > 0)
   - displayFrontDots = (@pages[0] != 2) ? true : false 
   - displayBackDots = (@pages[@pages.length - 1] != @lastPage - 1) ? true : false
-.clear
-%ul#pagination
-  %li
-    - if(@page > 1)
+%ul.pagination
+  - if(@page > 1)
+    %li
       - tmpparams = generateHRef(@page - 1, @url_params)
-      = link_to I18n.t(:pagination_previous) , {:params => tmpparams}
-    - else
-      %span.previous-off Previous
+      = link_to "&laquo;".html_safe  , {:params => tmpparams}
+  - else
+    %li.disabled
+      %a{:href => "#"}
+        &laquo;
+    
   %li
     - if(@page > 1)
       - tmpparams = generateHRef(1, @url_params)
@@ -39,9 +41,11 @@
     - else
       %span.active
         = @lastPage
-  %li
-    - if(@page < @lastPage)
+  - if(@page < @lastPage)
+    %li
       - tmpparams = generateHRef(@page + 1, @url_params)
-      = link_to I18n.t(:pagination_next) , {:params => tmpparams}
-    - else
-      %span.next-off Next
+      = link_to "&raquo;".html_safe , {:params => tmpparams}
+  - else
+    %li.disabled
+      %a{:href => "#"}
+        &raquo;

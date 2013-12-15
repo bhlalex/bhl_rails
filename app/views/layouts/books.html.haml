@@ -1,24 +1,2 @@
 = render :partial => "layouts/header"
-.pagetitle
-  .pagetitlecontent
-    .pagetitleborder
-      %h1
-        .searchtitle
-          = I18n.t(:search_by) 
-          = render :partial => "books/fields"
-        .searchfilter
-          = render :partial => "books/breadcrumb"
-        .clear
-= render :partial => "layouts/flash", object: flash
-.contents
-  .r_column
-    = render :partial => "books/right_column"
-  .page
-    - if (@response != '' && @response['response']['numFound'] > 0)
-      = render :partial => "books/numfound"
-      .page_border
-        %br
-        = yield
-    - else
-      = I18n.t(:no_books_found)
 = render :partial => "layouts/footer"

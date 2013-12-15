@@ -18,6 +18,7 @@ DAR_API_CONTENT_JOBID_STRING = '[JOBID]'
 
 DAR_JAR_API_URL = 'http://localhost:8090/BookViewer/?locale=en&LocaleButtons=disabled&book_id=DAF-Job:[JOBID]'
 DAR_JAR_API_URL_STRING = '[JOBID]'
+DAR_JAR_API_URL_LANGUAGE = "[LANGUAGE]"
 
 LOCATION_API = "http://maps.googleapis.com/maps/api/geocode/xml?address=[LOC]&sensor=false"
 LOCATION_API_LOC_STRING = "[LOC]"
@@ -35,8 +36,8 @@ EOL_DO_API = 'http://eol.org/api/data_objects/1.0/[DOID].xml?cache_ttl='
 EOL_DO_API_STRING = '[DOID]'
  
 THUMBS_PER_FOLDER = 1000
-THUMB_MAX_WIDTH = 100
-THUMB_MAX_HEIGHT = 100
+THUMB_MAX_WIDTH = 140
+THUMB_MAX_HEIGHT = 160
  
 NAME_SPOTTER_IP = '127.0.0.1'
 NAME_SPOTTER_PORT = 8089
@@ -63,10 +64,6 @@ EOL_CONTENT_PATH = "http://content60.eol.org/content/"
 CARTOGRAPHER_GMAP_VERSION = 3
  
 NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
-
-DAR_VIEWER = "http://localhost:8090/BookViewer/?locale=[LANGUAGE]&MyBasket=Disabled&LocaleButtons=disabled&book_id=DAF-Job:[JOBID]"
-DAR_VIEWER_REPLACE_STRING = "[JOBID]"
-DAR_VIEWER_REPLACE_LANGUAGE = "[LANGUAGE]"
 
 MAX_NO_ABUSE = 1
 

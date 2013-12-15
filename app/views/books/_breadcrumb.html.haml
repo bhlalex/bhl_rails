@@ -1,9 +1,15 @@
-- @query_array.each do |key, val|
-  - if(val != '')
-    - val.each do |term|
-      .filter
-        %b
-          = "#{key.capitalize}:" 
-        = term
-        = link_to image_tag("/images_#{I18n.locale}/close.png", :width => 16, :height => 16) , 
-              {:params => removeBreadCrumb(@url_params, key, term)}
+%small
+  - @query_array.each do |key, val|
+    - if(val != '')
+      - val.each do |term|
+        .tab
+          = term
+          .close
+            = link_to :params => removeBreadCrumb(@url_params, key, term) do
+              ="&times;".html_safe
+.clearfix
+%h4.text-muted
+  - if(@query != "*:*")
+    = I18n.t(:books_found, :count => @response['response']['numFound'])
+  - else
+    =I18n.t(:books_found_all, :count => @response['response']['numFound'])

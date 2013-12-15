@@ -25,18 +25,6 @@ en:
   bhl_site_name: "Biodivestiry Heritage Library - Egypt"
   welcome_guest: "Welcome Guest"
   welcome_name: "Welcome %{name}"
-  my_account_link: "My Account"
-  about_us_link: "About Us"
-  contact_us_link: "Contact Us"
-  browse_all_link: "Browse All"
-  authors_link: "Authors"
-  subjects_link: "Subjects"
-  names_link: "Names"
-  geographics_link: "Geographics"
-  copyright_statement: "Copyright © Bibliotheca Alexandrina"
-  about_us_page_header: "About Us"
-  contact_us_page_header: "Contact Us"
-  whats_inside: "What's inside"
   books_count: 
     zero:  "No books"
     one:   "One book"
@@ -93,24 +81,13 @@ en:
   recently_viewed_tab: 'recently_viewed'
   brief_tab: "brief"
   profile_tab: "profile"
-  list_view: 'List View'
-  gallery_view: 'Gallery View'
-  read_icon: 'Read'
-  details_icon: 'Details'
+  
   books_found:
     zero:  "Found in no books"
     one:   "Found in one book"
     other: "Found in %{count} books"
-  option_all: "ALL"
-  option_title: "Title"
-  option_language: "Language"
-  option_publish_place: "Publish Place"
-  option_regional_affiliation: "Regional Affiliation"
-  option_author: "Author"
-  option_tagged_species: "Tagged Species"
-  option_genre: "Genre"
-  option_content: "Content" 
-
+  books_found_all: "Found %{count} books"
+  
   tree_of_life_title: 'Tree of Life'
   species_details: 'Species Details'
   name_found_in_books:
@@ -129,20 +106,14 @@ en:
   real_name: "Full name"
   recaptcha: "Type in the two words you see below"
   form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
-  welcome_message: "Welcome %{real_name}"
-  welcome_guest: "Welcome Guest"
   registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
   username_taken: "'%{name}' is already taken"
   email_taken: "'%{email}' is already taken"
   member_since: "Member since"
   last_login: "Last login"
-  logout_link: "Logout"
   press_esc_to_close: "Press Esc to close"
   forgot_password_link: "Forgot your password?"
   forgot_password_title: "Forgot your password?"
-  join_bhl: "Join BHL now"
-  already_member: "Already a member?"
-  sign_in: "Sign in"
   activation_failed: "Activation failed."
   account_already_active: "This is account is already active."
   account_activated: "This account (%{real_name}) is activated. Thank you for joining BHL Egypt."
@@ -185,8 +156,6 @@ en:
   selection_all_option: "All"
   user_collections: "Collections"
   save_query_button: "Save Query"
-  pagination_previous: "Previous"
-  pagination_next: "Next"
   general: 'General'
   annotations: 'Annotations'
   saved_queries: 'Saved Queries'
@@ -324,3 +293,53 @@ en:
   can_not_delete_comment: "You can't delete comment that has a reply"
   marked_as_abuse: "Marked as abuse"
   collection_rate: "Collection rate"
+  
+  #------------------------------------------------#NEW_LAYOUT-----------------------------------------------------------------
+  #Header
+  search_textfield: "Search books..."
+  header_signup: "Sign Up"
+  header_signout: "Sign Out"
+  header_login: "Login"
+  header_profile: "Profile"
+  bhl_homepage: "BHL Egypt"
+  home_link: "Home"
+  about_us_link: "About Us"
+  contact_us_link: "Contact Us"
+  browse_all_link: "Browse All"
+  authors_link: "Authors"
+  subjects_link: "Subjects"
+  names_link: "Names"
+  geographics_link: "Geographics"
+  collections_link: "Collections"
+  
+  #Header#search fields
+  option_all: "All Categories"  
+  option_title: "Title"
+  option_language: "Language"
+  option_publish_place: "Publish Place"
+  option_regional_affiliation: "Regional Affiliation"
+  option_author: "Author"
+  option_tagged_species: "Tagged Species"
+  option_genre: "Genre"
+  option_content: "Content" 
+  #Footer
+  footer_home: "Home"
+  footer_about: "About"
+  footer_contact: "Contact Us"
+  copyright_statement: "Copyright © Bibliotheca Alexandrina"
+  
+  #Browse books
+  sidelinks_read: "Read"
+  sidelinks_detail: "Details"
+  sidelinks_view_collections: "Collections"
+  sidelinks_add_collection: "Add to Collection"
+  sidelinks_views: "view"
+  listresult_author_by: "By: "
+  listresult_subject: "Genre: "
+  listresult_names: "Names: "
+  terminator: "."
+  separator: "/"
+  
+  #Pages (About US, Contact Us)
+  about_us_page_title: "About Us"
+  contact_us_page_title: "Contact Us"

@@ -1,0 +1,16 @@
+- subjects = fillResponseArrays(@doc, @highlight, 'subject', @id)
+- more = @doc['subject'].length - subjects.length
+%i
+  %b
+    =I18n.t(:listresult_subject)
+- count = 0
+- subjects.each do |subject|
+  - count = count + 1
+  = subject.kind_of?(Array) ? subject[0].html_safe : subject.html_safe
+  -if count != subjects.length
+    %b
+      =I18n.t(:separator)
+- if (more > 0)
+  = I18n.t(:and_count_more, :count => more)
+%b
+  =I18n.t(:terminator)

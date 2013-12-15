@@ -1,58 +1,28 @@
 - content_for :head do
-  = stylesheet_link_tag 'jquery/themes/jquery.ui.all.css'
-  = javascript_include_tag 'jquery/jquery-1.9.1.js'
-  = javascript_include_tag 'jquery/jquery.ui.core.js'
-  = javascript_include_tag 'jquery/jquery.ui.widget.js'
-  = javascript_include_tag 'jquery/jquery.ui.position.js'
-  = javascript_include_tag 'jquery/jquery.ui.menu.js'
-  = javascript_include_tag 'jquery/jquery.ui.autocomplete.js'
+  = stylesheet_link_tag 'jquery/themes/jquery-ui1.10.3-smoothness' #For add book to collection
   
-  :css
-    .ui-autocomplete-loading
-      background: white url('images_en/ui-anim_basic_16x16.gif') right center no-repeat
-  
-  :javascript
-    $(document).ready(function() {
-      var cache;
-      cache = {};
-      return $("#searchfield").autocomplete({
-        minLength: 2,
-        source: function(request, response) {
-          var term;
-          term = request.term;
-          if (term in cache) {
-            response(cache[term]);
-            return;
-          }
-          search_by = $("#searchby").val();
-          searchfield = $("#searchfield").val();
-          return $.getJSON("/autocomplete?type=" + search_by, request, function(data, status, xhr) {
-            cache[term] = data;
-            return response(data);
-          });
-        }
-      });
-    });
-
-- @number = 0
-- @response['response']['docs'].each do |doc|
-  - @number = @number + 1
-  - @id = doc['vol_jobid']
-  - @vol = Volume.find_by_job_id(doc['vol_jobid'])
-  - if (@vol != nil)
-    - @highlight = @response['highlighting'][@id.to_s]
-    - #@title = doc['bok_title'][0]
-    - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
-    - thumb = ''
-    - if(@vol[:get_thumbnail_fail] == 0)
-      - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-    - else
-      - @thumb = "images_#{I18n.locale}/noThumb.png"
-    - @doc = doc
-    - if(@view == 'gallery')
-      = render :partial => "books/galleryresult"
-    - else
-      = render :partial => "books/listresult"
-- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-  - @pages = adjustPaging(@page, @lastPage)
-  = render :partial => "books/paging"
+.col-md-8.breadcrumb
+  =render :partial => "books/breadcrumb"
+.col-md-4.sidebar-offcanvas.pull-right
+  =render :partial => "books/right_column"
+- if (@response != '' && @response['response']['numFound'] > 0)
+  - @number = 0
+  - @response['response']['docs'].each do |doc|
+    - @number = @number + 1
+    - @id = doc['vol_jobid']
+    - @vol = Volume.find_by_job_id(doc['vol_jobid'])
+    - if (@vol != nil)
+      - @highlight = @response['highlighting'][@id.to_s]
+      - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
+      - thumb = ''
+      - if(@vol[:get_thumbnail_fail] == 0)
+        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+      - else
+        - @thumb = "images_#{I18n.locale}/book_thumb.png"
+      - @doc = doc
+      =render :partial => "books/listresult"
+  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+    .col-md-8
+      .pagination-centered
+        - @pages = adjustPaging(@page, @lastPage)
+        = render :partial => "books/paging"

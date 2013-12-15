@@ -1,7 +1,4 @@
-%link{:type => "text/css", :rel => "stylesheet", :href => "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"}
-%script{:type => "text/javascript", :src  => "http://code.jquery.com/jquery-1.9.1.js"}
 %script{:type => "text/javascript", :src  => "http://code.jquery.com/ui/1.10.3/jquery-ui.js"}
-
 :javascript
   $(document).ready(function() {
      $( "#confirmation" ).dialog({
@@ -45,14 +42,13 @@
                         text: "#{I18n.t(:save)}",
                         click: function() {
                               var col_id = $("#idselect").val(), 
-                              title = $("#title").val(),
+                              title = $("#collectiontitle").val(),
                               description = $("#description").val(),
                               public = $("#public").val(),
                               new_col = $("#new").val();
-                             
                               if(new_col == 'off'){
                                 $.ajax({type: "GET", 
-                                       url: "/add_book?col_id=" + col_id +"&vol_id=" + "#{params[:id]}", 
+                                       url: "/add_book?col_id=" + col_id +"&vol_id=" + "#{@addbookvol}", 
                                        dataType: "script"
                                        });
                                 $(this).dialog("close");
@@ -62,7 +58,7 @@
                                   $("#error").show();
                                 }else{
                                    $.ajax({type: "GET", 
-                                       url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&public=" + escape(public) + "&vol_id=" + "#{params[:id]}", 
+                                       url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&public=" + escape(public) + "&vol_id=" + "#{@addbookvol}", 
                                        dataType: "script"
                                        }) ;
                                    $(this).dialog("close");
@@ -108,8 +104,7 @@
       $( "#dialog_#{@number}" ).dialog( "open" );
        
     });
-  });   
-
+  });    
 -# TODO style fixing 
 #dialog{ :style => "display: none;",  id: "#{@number}" }
 #confirmation{ :style => "display: none;"}

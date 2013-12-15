@@ -1,58 +1,181 @@
 %html{ "xml:lang" => I18n.locale, :lang => I18n.locale}
   %head
-    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-type" }
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-type" }  
+    %meta{"http-equiv" => "X-UA-Compatible", :content => "IE=edge"}
+    %meta{:name => "viewport", :content => "width=device-width", "initial-scale" => "1.0"}
+    %meta{:name => "description", :content => ""}
+    %meta{:name => "author", :content => ""}
+    
     %title
       - # Accessibility tip: Page titles should be unique and meaningful to the page and include the site name.
       - # Home page title can just be the site name.
       - page_title =  I18n.t(:bhl_page_title)
       - if @page_title
-        - page_title =   I18n.t(:bhl_short_title) + " - #{@page_title}"
+        - page_title = I18n.t(:bhl_short_title) + " - #{@page_title}"
       &= strip_tags(page_title)
-    
-    %link{ :href => "/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon" }
-    
+      
     = yield :head
-    
+    = stylesheet_link_tag 'bootstrap'
     = stylesheet_link_tag 'main'
-    = #javascript_include_tag "application"
-    = #javascript_include_tag controller_path, :media => "all"
+    = stylesheet_link_tag 'font-awesome'
+    = stylesheet_link_tag 'jquery/themes/jquery.ui.all.css'
     
-    
+    = javascript_include_tag 'jquery/jquery.min.js'
+    = javascript_include_tag 'bootstrap.min.js'
+    = javascript_include_tag 'scripts.js'
+  :css
+    .ui-autocomplete-loading
+      background: white url("/images_#{I18n.locale}/ui-anim_basic_16x16.gif") right center no-repeat
+  :javascript  
+    function searchfnc(searchquery, e, field){
+      if(field == null || field == '')
+        return;
+      var type = e.options[e.selectedIndex].value;
+      if(searchquery == null || searchquery == ''){
+        searchquery = "_" + type + "=" + field;
+      } 
+      else if(searchquery.toLowerCase().indexOf("_" + type.toLowerCase()) != -1){
+        searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
+      }
+      else{
+        searchquery += "&_" + type + "=" + field;
+      }
+      window.location = window.location.href.split('?')[0] + "?" + searchquery;
+    }
+      
   %body
-    .header
-      %a{ :href => "/" }
-        =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "logo")
-      - if logged_in?
-        .username
-          = I18n.t(:welcome_message, :real_name => session[:real_name])
-          (
-          = link_to I18n.t(:logout_link), users_logout_path
-          )
-      - else
-        .username
-          = I18n.t :already_member
-          = link_to I18n.t(:sign_in), users_login_path
-      %br
-      .topmenu
-        - if logged_in?
-          = link_to I18n.t(:my_account_link), {:controller => :users, :action => :show, :id => session["user_id"], :tab => nil}
-        - else
-          = link_to I18n.t(:join_bhl), new_user_path
-        = link_to I18n.t(:contact_us_link), {:controller => :pages, :action => :contact}
-        = link_to I18n.t(:about_us_link), {:controller => :pages, :action => :about}
-    .menu2
-      .content
-        %a{ :href => "#" }
-          = link_to I18n.t(:browse_all_link), {:controller => :books, :action => :index}
-        |
-        %a{ :href => "#" }
-          = link_to I18n.t(:authors_link), {:controller => :browse, :action => :show, :type => 'authors', :char => 'all'}
-        |
-        %a{ :href => "#" }
-          = link_to I18n.t(:subjects_link), {:controller => :browse, :action => :show, :type => 'subjects', :char => 'all'}
-        |
-        = link_to I18n.t(:names_link), {:controller => :names, :action => :index}
-        |
-        = link_to I18n.t(:geographics_link), {:controller => :geographics, :action => :index, :range => ""}
-        |
-        = link_to I18n.t(:collections_link), {:controller => :collections, :action => :index}
+    #wrap
+      .container
+        .row.clearfix.visible-md.visible-lg
+          .col-md-3
+            %a{ :href => "/" }
+              =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
+          .col-md-7
+            .topsearch
+              .input-append
+                %span.separator.pull-left.searchicon
+                  %i.fa.fa-search.fa-lg.pull-left
+                .col-xs-7
+                  %input.form-control{:id => "appendedDropdownButton focusedInput", :placeholder => "#{I18n.t(:search_textfield)}", :type => "text"}
+                %span.separator.pull-left |
+                .btn-group.pull-left
+                  .btn.dropdown.allcat
+                    %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
+                      All Categoreies
+                      %b.caret
+                    %ul.dropdown-menu{"aria-labelledby" => "dLabel", role: "menu"}
+                      %li#title
+                        %a{:href => "#"}
+                          = I18n.t(:option_title)
+                      %li#language 
+                        %a{:href => "#"}
+                          = I18n.t(:option_language)
+                      %li#published_at 
+                        %a{:href => "#"}
+                          = I18n.t(:option_publish_place)
+                      %li#geo_location 
+                        %a{:href => "#"}
+                          = I18n.t(:option_regional_affiliation)
+                      %li#author 
+                        %a{:href => "#"}
+                          = I18n.t(:option_author)
+                      %li#name 
+                        %a{:href => "#"}    
+                          = I18n.t(:option_tagged_species)
+                      %li#subject 
+                        %a{:href => "#"}
+                          = I18n.t(:option_genre)
+                      %li#content 
+                        %a{:href => "#"}
+                          = I18n.t(:option_content)
+                .clearfix.visible-xs  
+              %span.separator.pull-left |
+              %a.go.pull-left{href: "#"}
+                %i.fa.fa-arrow-circle-right.fa-2x
+              .clearfix
+          .col-md-2    
+            .signin.pull-left
+              .pull-left
+                - if !logged_in?
+                  %a{:href => "#{new_user_path}"}
+                    %i.fa.fa-sign-in.fa-2x
+                    %br
+                    =I18n.t(:header_signup)
+                - else
+                  %a{href: "#{users_logout_path}"}
+                    %i.fa.fa-sign-out.fa-2x
+                    %br
+                    =I18n.t(:header_signout)
+              .pull-right
+                |
+                - if !logged_in?
+                  %a{:href => "#{users_login_path}"}
+                    %i.fa.fa-user.fa-2x
+                    %br
+                    =I18n.t(:header_login)
+                - else
+                  =link_to :controller => :users, :action => :show, :id => session["user_id"], :tab => nil do
+                    %i.fa.fa-edit.fa-2x
+                    %br
+                    =I18n.t(:header_profile)
+        .row.clearfix
+          .col-md-12.column
+            %nav.navbar.navbar-default.navbar-inverse{:role => "navigation"}
+              .navbar-header
+                %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+                  %span.sr-only Toggle navigation
+                  %span.icon-bar
+                  %span.icon-bar
+                  %span.icon-bar
+                %a.navbar-brand{href: "/"} 
+                  =I18n.t(:bhl_homepage)   
+              #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                %ul.nav.navbar-nav.pull-right
+                  %li.active
+                    %a{:href => "/"}
+                      %i.fa.fa-home
+                      =I18n.t(:home_link)
+                  %li
+                    %a{:href => "#{pages_about_path}"}
+                      %i.fa.fa-info-circle
+                      =I18n.t(:about_us_link)
+                  %li
+                    %a{:href => "#{books_path}"}
+                      %i.fa.fa-globe
+                      =I18n.t(:browse_all_link)
+                  %li
+                    =link_to :controller => "browse", :action => "show", :type => "subjects", :char => 'all' do
+                      %i.fa.fa-sitemap
+                      =I18n.t(:subjects_link) 
+                  %li
+                    %a{:href => "#{names_path}"}
+                      %i.fa.fa-tags
+                      =I18n.t(:names_link)
+                  %li
+                    =link_to :controller => "browse", :action => "show", :type => "authors", :char => 'all' do
+                      %i.fa.fa-user
+                      =I18n.t(:authors_link)
+                  %li
+                    %a{:href => "#{geographics_index_path}"}
+                      %i.fa.fa-map-marker
+                      =I18n.t(:geographics_link)
+                  %li
+                    %a{:href => "#{collections_path}"}
+                      %i.fa.fa-stack-overflow
+                      =I18n.t(:collections_link)
+                .visible-xs.visible-sm
+                  .form-group
+                    %input.form-control{:id => "appendedDropdownButton focusedInput", :placeholder => "Search", :type => "text"}
+                  .btn-group
+                    %button.btn.dropdown-toggle.allcat{"data-toggle" => "dropdown"}
+                      All Categoreies
+                      %span.caret
+                    %ul.dropdown-menu.topdropdown-search
+                      %li
+                        %a{:href => "#"} Animalia
+                      %li
+                        %a{:href => "#"} Aykalam 
+                  %button.btn.btn-default{:type => "submit"} Submit
+                  .clearfix
+        .row.clearfix  
+          = yield

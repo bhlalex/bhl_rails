@@ -1,6 +1,7 @@
--url =  DAR_JAR_API_URL.sub DAR_JAR_API_URL_STRING, params[:id]
+-url = (DAR_JAR_API_URL.sub DAR_JAR_API_URL_STRING, params[:id]).sub DAR_JAR_API_URL_LANGUAGE, I18n.locale.to_s
 %iframe{:frameborder => "0", :height => "700", :scrolling => "no", :style => "border:0px", :width => "980", :src => "#{url}"}
 - if logged_in?
   - @place = "details"
   - @number = 0
+  - @addbookvol = params[:id]
   = render :partial => "books/add_book"

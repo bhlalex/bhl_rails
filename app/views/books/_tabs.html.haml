@@ -6,6 +6,7 @@
       - if logged_in?
         - @place = "details"
         - @number = 0
+        - @addbookvol = params[:id]
         = render :partial => "books/add_book"
         .rating
           = render :partial => "books/rating"

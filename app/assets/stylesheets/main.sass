@@ -1,568 +1,197 @@
-@charset "utf-8"
-
-// CSS Document
-
 body
-  margin: 0px 0px 30px 0px
-  color: #555555
-  font-family: Arial
-  font-size: 12px
+  background-color: #fbfbfb
+  border-top: 8px solid #6d4479
+  color: #7c7c7c
 
-//For homepage
+h1, h2, h3, h4
+  font-family: Georgia, "Times New Roman", Times, serif
 
-.form div
-  margin: 5px 0px
+#wrap
+  height: auto
+  margin: 0 auto -80px
+  min-height: 100%
+  padding: 0 0 80px
 
-.clear
-  clear: both
+.signin, .topsearch
+  border: 1px solid #CCC
+  border-radius: 5px
+  background-color: #FFF
+  color: #dddddd
 
-a
-  color: #000000
-  text-decoration: underline
-  &:hover
-    color: #599292
-    text-decoration: none
-
-//************* Header********************
-
-.header
-  width: 990px
-  height: 105px
-  position: relative
-  margin: 0px auto
-  width: 990px
-  //height: 120px;
-  position: relative
-  margin: 0px auto
-  padding-top: 5px
-  border-top: 5px solid #000
-  .logo
-    text-align: left
-    float: left
-  .username
-    margin: 0px 10px
-    float: right
-    ul
-      list-style: none
-      float: right
-      li:before
-        padding: 0 7px 0 0
-        font-size: 1.33em
-        vertical-align: -2px
-        content: "\2022\0000a0"
-        list-style: disc
-        color: #4c5155
-      li
-        display: inline
-        padding: 0 0 0 7px
-      li:first-of-type:before
-        display: none
-  .topmenu
-    a
-      width: 100px
-      background-color: #ffcc00
-      display: inline-block
-      float: right
-      padding-top: 60px
-      padding-bottom: 10px
-      color: #000
-      text-decoration: none
-      margin-top: 4px
-      margin-right: 2px
-      margin-bottom: 4px
-      margin-left: 2px
-      &:hover
-        background-color: #699
-    .active
-      background-color: #699
-      color: #FFF
-    display: block
-    float: right
-    text-align: center
-
-//********************
-//************ Menu 2**************
-
-.menu2
-  width: 980px
-  margin: 0px auto
-  .content
-    border-top: 1px dotted #cdcdcd
-    border-bottom: 1px dotted #cdcdcd
-    padding: 10px
-    text-align: right
-    margin-bottom: 4px
-    a
-      text-decoration: none
-      &:hover
-        color: #379494
-
-//*****************************************
-
-div
-  &.contents
-    width: 980px
-    margin: 0px auto
-  &.page
-    width: 715px
-    float: left
-    padding-top: 5px
-  &.page_border
-    padding: 0px 20px 20px 10px
-    border-right: 1px dotted #cdcdcd
-  &.r_column
-    width: 265px
-    padding-bottom: 20px
-    float: right
-  &.full_page
-    width: 980px
-    float: left
-    padding-top: 5px
-//********page title******
-
-.pagetitle
-  background-color: #fbeebb
-  min-height: 30px
-  display: block
-
-.pagetitlecontent
-  background-color: #ffd553
-  width: 980px
-  margin: 0px auto
-
-.pagetitleborder
+.signin
   padding: 10px
-
-.searchtitle
-  font-size: 16px
-  font-weight: bold
-  padding-top: 10px
-  input
-    font-size: 14px
-    font-weight: normal
-
-.pagetitle form
-  float: right
-
-.search
-  background-color: #6F9F9F
-  border: 1px solid black
-  color: white
-  font-size: 12px
-  font-weight: normal
-  margin-left: 5px
-  padding: 2px 5px
-  text-decoration: none
-//*********** Tabs**********
-
-.filter
-  padding: 4px
-  margin: 5px
-  border: 1px solid #FFF
-  float: left
-  display: inline-block
-  background-color: #fcefba
-  font-size: 12px
-  font-weight: normal
-  span
-    font-size: 9px
-    float: right
-    color: #333
-    font-weight: bold
-    margin: 0px 5px
-    a
-      text-decoration: none
-      cursor: pointer
-
-.count
-  background-color: #6f9f9f
-  color: #FFF
-  padding: 5px
-  margin-bottom: 20px
-  position: relative
-  top: -5px
-  span!
-  img
-    float: right
-    margin: 0px 5px
-
-.bibtex
-  width: 700px
-  overflow-x: scroll
-
-//* General styling**
-
-div.page
-  h1
-    font-family: Century Gothic, Arial
-    font-size: 30px
-    font-weight: bold
-    margin: 0px 0px 20px 0px
-    padding: 20px 0px 0px 0px
-  h2
-    font-family: Century Gothic, Arial
-    font-size: 26px
-    font-weight: bold
-    margin: 0px 0px 10px 0px
-    padding: 0px
-  h3
-    font-family: Century Gothic, Arial
-    font-size: 20px
-    font-weight: bold
-    margin: 0px 0px 10px 0px
-    padding: 0px
-  h4
-    font-family: Century Gothic, Arial
-    font-size: 16px
-    font-weight: bold
-    margin: 0px 0px 10px 0px
-    padding: 0px
-  h5
-    font-family: Century Gothic, Arial
-    font-size: 14px
-    font-weight: bold
-    margin: 0px 0px 10px 0px
-    padding: 0px
-  h6
-    font-family: Century Gothic, Arial
-    font-size: 12px
-    font-weight: bold
-    margin: 0px 0px 10px 0px
-    padding: 0px
-  p
-    margin: 0px
-    padding-bottom: 15px
-    line-height: 20px
-    text-align: justify
-  .downline
-    border-bottom: 1px solid #CCCCCC
-  p.downline
-    border-bottom: 1px solid #CCCCCC
-    padding-bottom: 3px
-    margin-bottom: 15px
-  img
-    display: block
-    //padding: 2px 0px 2px 0px; border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; margin-bottom: 15px; border-left-width: 0px; border-right-width: 0px;
-    &.nostyle
-      display: inline
-      padding: 0px
-      border-width: 0px
-      margin: 0px
-  .alignleft
-    float: left
-    margin-right: 20px
-  .alignright
-    float: right
-    margin-left: 20px
-  .aligncenter
-    margin: 0px auto 15px auto
-  ul
-    list-style-type: square
-    padding: 0px 0px 0px 16px
-    margin: 0px 0px 15px 0px
-  ol
-    list-style-type: lower-alpha
-    padding: 0px 0px 0px 22px
-    margin: 0px 0px 15px 0px
-  li
-    padding-bottom: 5px
-  table
-    width: 100%
-    border-collapse: collapse
-    line-height: normal
-    font-size: 12px
-    text-align: left
-    margin: 0px 0px 15px 0px
-    th
-      background-color: #CCCCCC
-      font-weight: bold
-      padding: 3px 6px 3px 6px
-      border-bottom: 1px solid #FFFFFF
-    td
-      background-color: #E9E9E9
-      padding: 3px 6px 3px 6px
-      border-bottom: 1px solid #FFFFFF
-      &.title
-        font-weight: bold
-
-a.button
-  color: #FFFFFF
-  text-decoration: none
-  background-color: #555555
-  display: inline
-  font-weight: bold
-  font-size: 11px
-  padding: 5px 10px 5px 10px
-  border-width: 0px
-  &:hover
-    color: #FFFFFF
-    text-decoration: none
-    background-color: #000000
-
-//--- Search results **
-
-.resultcontent
-  margin-left: 240px
-  margin-bottom: 10px
-
-.thumb
-  float: left
-  margin: 0px 10px 10px 0px
-  border-top: 5px solid #ffcc00
-  
-.visitedthumb
-  float: left
-  margin: 0px 10px 10px 0px
-  border-top: 5px solid #ffcc00
-  
-
-.visitedthumb span
-  background-image: url("/images_en/check.png")
-  display: block
-  position: absolute
-  width: 32px
-  height: 32px
-  
-.visitedthumb img
-  opacity: 0.4
-  filter: alpha(opacity=40)
-
-Div.separator
-  border-bottom: 1px dotted #cdcdcd
-  margin-bottom: 10px
-
-.sidelinks
-  float: right
-  padding: 4px
-  margin-left: 10px
-  img
-    margin: 5px 5px
-    a
-      border: 0px
-  .dim
-    img
-    margin: 5px 5px
-    opacity: 0.4
-    a
-      border: 0px
-
-//********* right column boxes******************************
-
-.box_1, .box_2
-  margin-left: 20px
-
-.box_1 h3, .box_2 h3
-  padding: 5px
-
-.viewall
-  float: right
-  padding: 5px
-
-.box_1 h3
-  background-color: #bcd2d2
-
-.box_2 h3
-  background-color: #ffe9bc
-
-.r_column ul
-  padding: 0px 0px 0px 28px
-
-.profilebookimage
-  padding: 10px
-  width: 220px
-  background-color: #fcf6df
-  align: center
-  img
-    border-top: 4px solid #ffcc00
-  a
-    text-decoration: none
-    margin: 10px 0px
-    padding: 5px
-    width: 100px
-    display: block
-    text-align: center
-    font-weight: bold
-    font-size: 13px
-.bookimage
-  padding: 10px
-  width: 220px
-  background-color: #fcf6df
-  align: center
-  img
-    border-top: 4px solid #ffcc00
-  a
-    text-decoration: none
-    margin: 10px 0px
-    padding: 5px
-    width: 100px
-    display: block
-    background-color: #669999
-    color: white
-    text-align: center
-
-.addbookdetails
-  font-family: Arial
-  font-size: 12px
-  padding: 5px
-  background-color: #fcf6df
-  align: center
-  text-decoration: none
-  margin: 10px 0px
-  display: block
-  background-color: #669999
-  color: white
+  margin: 20px 0px
   text-align: center
-.addbooklist
-  margin: 5px
-  display: block
-  margin-left: 10px  
-//****************************
-//* footer*
+
+.topsearch
+  padding: 15px 10px
+  margin: 20px 0px
+
+.signin a, .go
+  padding: 0px 10px
+  display: inline-block
+  color: #999999
+
+.signin a:hover, .go:hover
+  text-decoration: none
+  color: #6d4479
+
+.topsearch
+  input
+    border: 0px
+    padding: 10px
+  .allcat
+    background-color: #e3e3e3
+    color: #9a9a9a
+
+.allcat
+  a
+    color: #999999
+    text-decoration: none
+  &:hover, a:hover
+    background-color: #6d4479
+    color: #FFF
+    text-decoration: none
+
+.separator
+  margin: 0px 10px
+  font-size: 16px
+
+.searchicon
+  margin-top: 10px
+  margin-right: 0px
+
+.topdropdown-search
+  background-color: #ffffff
+  color: #9a9a9a
+  padding: 10px
+
+.vertical-rule
+  border-left: 1px solid #CCC
+
+.active
+  background-color: #9a71a6 !Important
+
+.controls
+  background-color: #f6f6f6
+  padding: 10px
+
+.visited
+  opacity: 0.4
+  filter: alpha(opacity = 40)
+  border-color: #754d81
+
+.pagination a
+  color: #6d4479
+
+.tools
+  color: #9a71a6
+  a:hover
+    color: #582368
+    text-decoration: #fff
+
+.breadcrumb a:hover
+  color: #582368
+  text-decoration: #fff
+
+.tools a, .breadcrumb a
+  color: #777777
+
+.browse
+  hr
+    border-top: 1px dotted #dddddd
+  h4 a
+    color: #6d4479
+
+h3 a
+  color: #6d4479
+
+.rate
+  color: #f9d55a
+
+.spacing-left
+  margin-left: 30px
+
+.panel-styled
+  border-color: #dddddd
+
+.breadcrumb
+  border: 1px solid #dddddd
+  background-color: #fff
+  margin-left: 15px
+  margin-right: -15px
+
+.panel-styled > .panel-heading
+  color: #777777
+  background-color: #f6f6f6
+  border-color: #dddddd
+
+.media-body
+  padding-left: 15px
+
+.panel-styled >
+  .panel-heading
+    + .panel-collapse .panel-body
+      border-top-color: #dddddd
+    > .dropdown .caret
+      border-color: #333333 transparent
+  .panel-footer + .panel-collapse .panel-body
+    border-bottom-color: #dddddd
+
+.media
+  margin-bottom: 15px
+
+.reviews
+  border: 1px solid #dddddd
+  background-color: #f6f6f6
+  border-radius: 4px
+  margin: 5px 15px
+  padding: 10px
 
 .footer
-  width: 990px
-  border-bottom: 4px solid #000
-  margin: 0 auto
-  .copyright
-    padding: 15px
-    font-size: 10px
-    color: #999
-
-
-//*************Authors******************
-
-.authors
-  a, b
-    text-decoration: none
+  min-height: 80px
+  background-color: #242424
+  color: #666
+  font-size: 11px
+  margin-top: 30px
+  .container
+    background-color: #1f1f1f
+    min-height: 80px
+    padding-top: 15px
+  .social a
     font-size: 16px
-    color: #379494
-    padding: 0px 2px
-  a:hover
-    color: #242525
-    background-color: #FFF
-  input
-    width: 196px
-    margin-left: 16px
-  text-decoration: none
-  color: #efefef
-  font-size: 16px
-  padding: 0 5px
+    color: #333333
+    text-decoration: none
+    padding: 0px 5px
+    &:hover
+      color: #CCC
+  p a
+    color: #CCC
+    tex-decoration: none
+    &:hover
+      tex-decoration: none
+      color: #fbfbfb
 
-.listofauthors
-  //padding:10px;
-  h2
-    padding: 10px
-    background-color: #6f9f9f
-    color: #FFF
-
-.authorsblock
-  max-height: 200px
-  ul
-    float: left
-    padding-left: 25px
-  li
-    float: left
-    width: 200px
-    margin: 0px 15px
-    a
-      text-decoration: none
-      &:hover
-        text-decoration: underline
-
-//******************************
-//************Tabs************
-
-.tabs
-  position: relative
+.tab
+  display: inline-block
+  border: 1px solid #d1a8dd
   float: left
-  width: 100%
-  margin: 0
-  ul
-    padding: 0px
-    margin-bottom: 0px
-  li
-    float: left
-    margin: 0
-    padding: 10px
-    list-style: none
-    display: block
-    background: #ddd
-    margin: 1px 4px 0px 4px
-    width: 100px
-    text-align: center
-    border: 1px solid #ddd
-    a
-      font-weight: bold
-      text-decoration: none
-    &:hover
-      background-color: #bcd2d2
-      color: #FFF
-
-li.current
-  background: white
-  border-top-width: 1px
-  border-right-width: 1px
-  border-left-width: 1px
-  border-top-style: solid
-  border-right-style: solid
-  border-bottom-style: solid
-  border-left-style: solid
-  border-top-color: #ddd
-  border-right-color: #ddd
-  border-left-color: #ddd
-  border-bottom-width: 2px
-  border-bottom-color: #FFF
-
-.tabcontent
-  clear: both
-  position: relative
-  top: 33px
-  border-bottom: 1px solid #ddd
-
-//****************** Paging style *******************
-
-#pagination
-  ul
-    border: 0
-    margin: 0
-    padding: 0
-  li
-    border: 0
-    margin: 0
-    padding: 0
-    font-size: 11px
-    list-style: none
-    span
-      float: left
-      padding: 0 4px
+  min-width: 80px
+  padding: 5px
+  border-radius: 4px
+  background-color: #9a71a6
+  color: #fff
+  margin: 5px
   a
-    border: solid 1px #74d0d0
-    margin-right: 2px
-  .previous-off, .next-off
-    color: #b1b1b1
-    display: block
-    float: left
-    font-weight: bold
-    padding: 3px 4px
-  .next a, .previous a
-    font-weight: bold
-    border: solid 1px #FFFFFF
-  .active
-    color: #f8aa14
-    font-weight: bold
-    display: block
-    float: left
-    padding: 4px 6px
-  a
-    &:link, &:visited
-      color: #09a5a5
-      display: block
-      float: left
-      padding: 3px 6px
-      text-decoration: none
+    color: #fff
     &:hover
-      border: solid 1px #8f8f8f
-
+      text-decoration: none
+      color: #ededed
+  &:hover
+    background-color: #6d4479
+      
+      
+//NEW_LAYOUT DEVELOPER STYLING
 //***********************Start of Tooltip Styling********************************
 // This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!):
 
@@ -671,163 +300,8 @@ li.current
   opacity: 1
 
 //***********************End of Tooltip Styling**********************************
-//**************************Home Start********************************************
-//------------ banner*******
 
-.banner
-  background-image: url(../images/banner_bg.png)
-  background-repeat: repeat-x
-  height: 365px
-  .banner_content
-    background-image: url(../images/Untitled-1.jpg)
-    width: 990px
-    position: relative
-    margin: 0px auto
-    height: 365px
-    background-repeat: no-repeat
-    background-position: center center
-
-.homesearch
-  background-image: url(../images/homesearchbg.png)
-  background-repeat: repeat
-  height: 104px
-  width: 680px
-  display: block
-  position: relative
-  top: 221px
-  padding: 20px
-  input, select
-    background-color: #FFF
-    border: 1px solid #cc6600
-    padding: 8px
-    margin: 5px
-    font-size: 14px
-  .go
-    background-color: #cc6600
-    color: white
-    padding: 8px 20px
-    font-weight: bold
-    border-color: #e1ceab
-    &:hover
-      background-color: #e7c135
-      border-color: #cc6600
-      cursor: pointer
-
-.browsebtn
-  margin: 20px 0px 0px 100px
-
-.col2
-  float: left
-  width: 335px
-  margin: 10px
-  h3
-    border-bottom: 1px solid #cccccc
-
-.col2_border
-  padding: 10px 20px 10px 0px
-
-.homebook1
-  float: left
-  width: 200px
-  margin: 10px 25px 20px 10px
-  border-top: 4px solid #000
-
-.box1, .box2, .box3
-  padding: 10px 5px
-  font-weight: bold
-  font-size: 16px
-  color: #000
-
-.box1
-  background-color: #a6c4c4
-
-.box2
-  background-color: #d8d862
-
-.box3
-  background-color: #ffffb1
-
-.box_2
-  .prev
-    background-image: url(../images/prev.png)
-    background-repeat: no-repeat
-    background-position: center center
-    width: 36px
-    height: 200px
-    float: left
-    display: inline-block
-  .next
-    background-image: url(../images/next.png)
-    background-repeat: no-repeat
-    background-position: center center
-    display: inline-block
-    float: right
-    height: 200px
-    width: 35px
-  .prev:hover
-    background-image: url(../images/prev_hover.png)
-    cursor: pointer
-  .next:hover
-    background-image: url(../images/next_hover.png)
-    cursor: pointer
-  .image
-    padding: 2px
-    float: left
-    height: 200px
-    width: 165px
-    margin: 2px
-    overflow: hidden
-
-//**************************Home End**********************************************
-//***************************Gallery start ***************************************
-span.highlight
-  background-color: yellow
-.gallery
-  float: left
-  width: 130px
-  height: 280px
-  background-color: #FCF6DF
-  margin: 10px
-  display: inline-block
-  padding-top: 10px
-  padding-right: 5px
-  padding-bottom: 5px
-  padding-left: 15px
-  overflow: hidden
-  &:hover
-    background-color: #ffe9bc
-  img
-    border-top: 5px solid #ffcc00
-  .title
-    font-weight: bold
-  span
-    font-style: italic
-
-//***************************Gallery End******************************************
-//***************************Geographics******************************************
-#location_checkbox
-  text-align: center
-  font-weight: normal
-  font-size: 12px
-//***************************Geographics End******************************************
-
-//***************************Form ********************************************************
-#login
-  display: none
-  z-index: 2
-  position: absolute
-  left: 1003px
-  top: 114px
-  width: 280px
-  height: 300px
-  border: 1px solid black
-  border-top: none
-  background-color: white
-.requiredlabel
-  background: url(image-path("/images_en/icon_required.png")) 0  no-repeat
-  display: inline-block
-  margin-left: -10px
-  padding-left: 10px
+/*Dialod Content*/
 .form
   li
     list-style: none
@@ -859,123 +333,6 @@ span.highlight
     border: 1px solid #f5d852
     padding: 4px
 
-fieldset
-  border: 0
-  
-fieldset#errors
-  background: #ffeae6
-  border: 1px solid #f2d2cc
-  padding: 20px 0
-  margin: 0 0 20px 0
-  position: relative
-  
-fieldset#errors legend 
-  position: absolute
-  padding: 0 0 5px 0
-  left: 20px
-  background: transparent
-  font-weight: bold
-  display: block
-  
-form fieldset#errors ul
-  margin: 30px 20px 0 40px
-  
-
-.error
-  color: red
-  
-// flash design
-.flashtitle
-  min-height: 30px
-  display: block
-
-.flasherrortitlecontent
-  background-color: #ffeae6
-  width: 980px
-  margin: 3px auto
-  border: 1px solid #f2d2cc
-  
-.flashwarningtitlecontent
-  background-color: #F4FFDB
-  width: 980px
-  margin: 3px auto
-  border: 1px solid #CCF2CD
-
-.flashnoticetitlecontent
-  background-color: #D7FFCF
-  width: 980px
-  margin: 3px auto
-  border: 1px solid #C6EDBE
-  
-.flashtitleborder
-  padding: 10px
-  text-align: center
-  font-weight: bold
-  
-// For best in place edit
-.best_in_place
-  padding: .1m
-  cursor: hand
-  cursor: pointer
-  -moz-border-radius: 5px
-  -webkit-border-radius: 5px
-  -o-border-radius: 5px
-  -ms-border-radius: 5px
-  -khtml-border-radius: 5px
-  border-radius: 5px
-/*profile page-history tab*/
-.visitedtime
-  font-size: 10px
-  color: orange
-
-
-.largefont
-  display: inline
-  font-size: 24px
-  color: orange
-  font-weight: bold
-  
-
-.nav 
-  background: #ffffff
-  width: 100%
-  margin-top: -2em
-
-.nav ul 
-  list-style-type: none
-  width: 910px
-
-
-.nav li 
-  display: inline
-  float: left
-  width: 5%
-  margin-left: 5%
-  margin-right: 3%
-  margin-top: 1%
-  text-align: center
-
-.nav a 
-  display: block
-  width: 109px
-  margin-right: 0% auto
-  padding-left: 0% auto
-  color: #5E09CB
-  text-decoration: none
-  overflow: hidden
-  white-space: nowrap
-  text-overflow: ellipsis
-  
-.nav h4 
-  margin-left: 6%
-  margin-top: 3%
-  color: #ffcc00
-  margin-right: 10%
-
-  label.required:after
-    content: " *"
-    color: red
-    
 .dialogbutton
   margin: 0px 5px
   background: #699
@@ -1018,27 +375,3 @@ form fieldset#errors ul
       cursor: pointer
 .dialogtitle
   background-color: #FFCC00
-  
-/*rating*/
-
-.starrating
-  background: url("/images_en/star.png") 0 0
-  width: 25px
-  height: 23px
-  display: inline
-  float: left
-.on
-  background-position: 0 25px
-.shine
-  background-position: 0 50px
-.half
-  background-position: 0 50px
-.rating
-  width: 125px
-  height: 100px
- 
-  
-.hidden
-  display: none
-  
-.active

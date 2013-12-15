@@ -1,8 +1,16 @@
 - authors = fillResponseArrays(@doc, @highlight, 'author', @id)
 - more = @doc['author'].length - authors.length
-By
+%i
+  %b
+    =I18n.t(:listresult_author_by)
+- count = 0
 - authors.each do |author|
-  &bull;
+  - count = count + 1
   = author.kind_of?(Array) ? author[0].html_safe : author.html_safe
+  -if count != authors.length
+    %b
+      =I18n.t(:separator)
 - if (more > 0)
   = I18n.t(:and_count_more, :count => more)
+%b
+  =I18n.t(:terminator)

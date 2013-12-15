@@ -10,18 +10,18 @@ Bhl::Application.routes.draw do
   match "comments/reply" => "comments#reply"
   
   match "/user_search_history/save_query/" => "user_search_history#save_query"
-    match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
-    resources :user_search_history, only: [:save_query, :delete_query]
-    resources :collections, only: [:index]
-    match "/collections/list_books_in_collection/:id" => "collections#list_books_in_collection"
-    match "/collections/destroy_collection/:id" => "collections#destroy_collection"
-    match "/collections/edit/:id" => "collections#edit"
-    match "/collections/show/:id" => "collections#show"
-    match "/collections/update/:id" => "collections#update"
-    match "/collections/delete_book/:book_collection_id" => "collections#delete_book"
-    match "/collections/move_up/:book_collection_id" => "collections#move_up"
-    match "/collections/move_down/:book_collection_id" => "collections#move_down"
-    match "dialog_content" => "collections#dialog_content"
+  match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
+  resources :user_search_history, only: [:save_query, :delete_query]
+  resources :collections, only: [:index]
+  match "/collections/list_books_in_collection/:id" => "collections#list_books_in_collection"
+  match "/collections/destroy_collection/:id" => "collections#destroy_collection"
+  match "/collections/edit/:id" => "collections#edit"
+  match "/collections/show/:id" => "collections#show"
+  match "/collections/update/:id" => "collections#update"
+  match "/collections/delete_book/:book_collection_id" => "collections#delete_book"
+  match "/collections/move_up/:book_collection_id" => "collections#move_up"
+  match "/collections/move_down/:book_collection_id" => "collections#move_down"
+  match "dialog_content" => "collections#dialog_content"
     
   resources :collections
   get "collections/add_book"
@@ -33,7 +33,6 @@ Bhl::Application.routes.draw do
   
   resources :ubio, only: [:index]
   
-  resources :browse
   match "browse/:type" => "browse#show"
   match "browse/:type/:char" => "browse#show" 
   

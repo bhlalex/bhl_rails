@@ -1,0 +1,40 @@
+= stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
+
+:javascript
+  $(document).ready(function(){
+    $("#starsidelink_#{@vol[:job_id]}").jRating({
+      isDisabled : true
+    });
+  });
+  
+%ul.fa-ul.tools
+  %li
+    %i.fa.fa-li.fa-book
+    %small
+      = link_to "#{I18n.t(:sidelinks_read)}", {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+  %li
+    %i.fa.fa-li.fa-info
+    %small
+      = link_to "#{I18n.t(:sidelinks_detail)}", {:controller => :books, :action => :show, :id => @vol[:job_id]}
+  %li
+    %i.fa.fa-li.fa-eye
+    %small
+      = link_to "#{I18n.t(:sidelinks_view_collections)}", {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :collections}
+  - if logged_in?
+    %li
+      %i.fa.fa-li.fa-plus-square
+      %small
+        %a{:href => "#", :id => "opener#{@number}"}
+          =I18n.t(:sidelinks_add_collection)
+        - @addbookvol = @vol[:job_id]  
+        =render :partial => "books/add_book"
+.rate
+  - if !@vol.rate.nil? && @vol.rate != 0.0
+    - rate = @vol.rate * 4
+    .starsidelink{:id => "starsidelink_#{@vol[:job_id]}", :data => "#{rate}"}
+  %span.text-muted.pull-right
+    %small
+      ="#{pluralize(@doc[:views], I18n.t(:sidelinks_views))} "
+%div

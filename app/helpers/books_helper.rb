@@ -179,7 +179,7 @@ module BooksHelper
   def search_facet_highlight(query, page)
     facet_array = ['author_ss', 'bok_language_s', 'subject_ss', 'published_at_ss', 'geo_location_ss' ,'name_ss']
     hl_array = ['bok_title','bok_language','name','published_at', 'geo_location', 'subject','author']
-    return_field = "vol_jobid,bok_title,name,author,published_at"
+    return_field = "vol_jobid,bok_title,name,author,subject,views,rate"
     limit = PAGE_SIZE
     start = (page > 1) ? (page - 1) * limit : 0
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
@@ -315,5 +315,25 @@ def related_books(volume_id)
       results << solr_search("vol_jobid:#{item['rel_id']}", "vol_jobid, bok_title, bok_language, subjects, ")
     end
     results   
+  end
+  def update_solr_views(volume)
+    doc = solr_find_document("vol_jobid:#{volume.job_id}")
+    doc[:views] = doc[:views] + 1
+    solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
+    #For XML uses
+      #solr.update(:data => "<add><doc><field name='vol_jobid'>#{volume.job_id}</field><field name='views' update='set'>#{views}</field></doc></add>")
+    solr.update :data => solr.xml.add(doc)
+    solr.commit
+    solr.optimize
+  end
+  def update_solr_rate(volume)
+    doc = solr_find_document("vol_jobid:#{volume.job_id}")
+    doc[:rate] = volume.rate
+    solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
+    #For XML uses
+      #solr.update(:data => "<add><doc><field name='vol_jobid'>#{volume.job_id}</field><field name='views' update='set'>#{views}</field></doc></add>")
+    solr.update :data => solr.xml.add(doc)
+    solr.commit
+    solr.optimize
   end
 end

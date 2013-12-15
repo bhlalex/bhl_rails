@@ -308,6 +308,8 @@ class UsersController < ApplicationController
     #update volume global rate
     volume = volume.set_rate
     data = volume.rate
+    #NEW_LAYOUT CODE TO ADD RATE TO SOLR
+    update_solr_rate(volume)
     render :json => data
   end
   

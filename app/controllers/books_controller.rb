@@ -102,10 +102,10 @@ class BooksController < ApplicationController
       else
         @format = 'empty for now'
       end
-    else
+    else #If tab is read (darviewer application)
       #save user history
       save_user_history(params)
-      @reader_path = (DAR_VIEWER.sub DAR_VIEWER_REPLACE_STRING, params[:id]).sub DAR_VIEWER_REPLACE_LANGUAGE, I18n.locale.to_s
+      @reader_path = (DAR_JAR_API_URL.sub DAR_JAR_API_URL_STRING, params[:id]).sub DAR_JAR_API_URL_LANGUAGE, I18n.locale.to_s
     end
     # user rate for current volume
     volume = Volume.find_by_job_id(params[:id])
@@ -146,7 +146,8 @@ class BooksController < ApplicationController
           ubh.user = user
           ubh.volume = volume
           ubh.last_visited_date = Time.now
-          ubh.save
+          #ubh.save
+          update_solr_views(volume)
         else
           history[0].last_visited_date = Time.now
           history[0].save
