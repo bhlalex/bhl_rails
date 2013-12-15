@@ -131,38 +131,87 @@
                   =I18n.t(:bhl_homepage)   
               #bs-example-navbar-collapse-1.collapse.navbar-collapse
                 %ul.nav.navbar-nav.pull-right
-                  %li.active
-                    %a{:href => "/"}
-                      %i.fa.fa-home
-                      =I18n.t(:home_link)
-                  %li
-                    %a{:href => "#{pages_about_path}"}
-                      %i.fa.fa-info-circle
-                      =I18n.t(:about_us_link)
-                  %li
-                    %a{:href => "#{books_path}"}
-                      %i.fa.fa-globe
-                      =I18n.t(:browse_all_link)
-                  %li
-                    =link_to :controller => "browse", :action => "show", :type => "subjects", :char => 'all' do
-                      %i.fa.fa-sitemap
-                      =I18n.t(:subjects_link) 
-                  %li
-                    %a{:href => "#{names_path}"}
-                      %i.fa.fa-tags
-                      =I18n.t(:names_link)
-                  %li
-                    =link_to :controller => "browse", :action => "show", :type => "authors", :char => 'all' do
-                      %i.fa.fa-user
-                      =I18n.t(:authors_link)
-                  %li
-                    %a{:href => "#{geographics_index_path}"}
-                      %i.fa.fa-map-marker
-                      =I18n.t(:geographics_link)
-                  %li
-                    %a{:href => "#{collections_path}"}
-                      %i.fa.fa-stack-overflow
-                      =I18n.t(:collections_link)
+                  - if(current_page?(root_url))    
+                    %li.active
+                      %a{:href => "/"}
+                        %i.fa.fa-home
+                        =I18n.t(:home_link)
+                  -else
+                    %li
+                      %a{:href => "/"}
+                        %i.fa.fa-home
+                        =I18n.t(:home_link)
+                  - if(params[:controller] == 'pages' && params[:action] == 'about')    
+                    %li.active
+                      %a{:href => "#{pages_about_path}"}
+                        %i.fa.fa-info-circle
+                        =I18n.t(:about_us_link)
+                  - else
+                    %li
+                      %a{:href => "#{pages_about_path}"}
+                        %i.fa.fa-info-circle
+                        =I18n.t(:about_us_link)
+                  - if(params[:controller] == 'books' && params[:action] == 'index')    
+                    %li.active
+                      %a{:href => "#{books_path}"}
+                        %i.fa.fa-globe
+                        =I18n.t(:browse_all_link)
+                  - else
+                    %li
+                      %a{:href => "#{books_path}"}
+                        %i.fa.fa-globe
+                        =I18n.t(:browse_all_link)
+                  - if(params[:controller] == 'browse' && params[:action] == 'show' && params[:type] == 'subjects')    
+                    %li.active
+                      =link_to :controller => "browse", :action => "show", :type => "subjects", :char => 'all' do
+                        %i.fa.fa-sitemap
+                        =I18n.t(:subjects_link)
+                  - else
+                    %li
+                      =link_to :controller => "browse", :action => "show", :type => "subjects", :char => 'all' do
+                        %i.fa.fa-sitemap
+                        =I18n.t(:subjects_link) 
+                  - if(params[:controller] == 'names' && params[:action] == 'index')
+                    %li.active
+                      %a{:href => "#{names_path}"}
+                        %i.fa.fa-tags
+                        =I18n.t(:names_link)
+                  - else
+                    %li
+                      %a{:href => "#{names_path}"}
+                        %i.fa.fa-tags
+                        =I18n.t(:names_link)
+                        
+                  - if(params[:controller] == 'browse' && params[:action] == 'show' && params[:type] == 'authors')    
+                    %li.active
+                      =link_to :controller => "browse", :action => "show", :type => "authors", :char => 'all' do
+                        %i.fa.fa-user
+                        =I18n.t(:authors_link)
+                  - else
+                    %li
+                      =link_to :controller => "browse", :action => "show", :type => "authors", :char => 'all' do
+                        %i.fa.fa-user
+                        =I18n.t(:authors_link)
+                  - if(params[:controller] == 'geographics' && params[:action] == 'index')    
+                    %li.active
+                      %a{:href => "#{geographics_index_path}"}
+                        %i.fa.fa-map-marker
+                        =I18n.t(:geographics_link)
+                  - else
+                    %li
+                      %a{:href => "#{geographics_index_path}"}
+                        %i.fa.fa-map-marker
+                        =I18n.t(:geographics_link)
+                  - if(params[:controller] == 'collections' && params[:action] == 'index')    
+                    %li.active
+                      %a{:href => "#{collections_path}"}
+                        %i.fa.fa-stack-overflow
+                        =I18n.t(:collections_link)
+                  - else
+                    %li
+                      %a{:href => "#{collections_path}"}
+                        %i.fa.fa-stack-overflow
+                        =I18n.t(:collections_link)
                 .visible-xs.visible-sm
                   .form-group
                     %input.form-control{:id => "appendedDropdownButton focusedInput", :placeholder => "Search", :type => "text"}
