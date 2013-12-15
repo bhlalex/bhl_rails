@@ -1,6 +1,13 @@
 - content_for :head do
   = stylesheet_link_tag 'jquery/themes/jquery-ui1.10.3-smoothness' #For add book to collection
   
+- if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*") and (@is_saved == nil))
+  = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => parse_url_params(@url_params), :user_id => session[:user_id]}, :class => "search"
+
+= "sort by rate" 
+= render :partial => "books/sort" , :locals => {:sort_type => "rate"}
+= "sort by views" 
+= render :partial => "books/sort" , :locals => {:sort_type => "views"}
 .col-md-8.breadcrumb
   =render :partial => "books/breadcrumb"
 .col-md-4.sidebar-offcanvas.pull-right

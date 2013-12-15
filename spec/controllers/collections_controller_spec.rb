@@ -186,7 +186,7 @@ describe CollectionsController do
           truncate_table(ActiveRecord::Base.connection, "book_collections", {})
           20.times { |i| BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @my_private_collection
-          response.should have_selector('ul', :id => "pagination")
+          response.should have_selector('ul', :class => "pagination")
           truncate_table(ActiveRecord::Base.connection, "book_collections", {})
         end
 
@@ -270,7 +270,7 @@ describe CollectionsController do
           truncate_table(ActiveRecord::Base.connection, "book_collections", {})
           20.times { |i| BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @my_public_collection
-          response.should have_selector('ul', :id => "pagination")
+          response.should have_selector('ul', :class => "pagination")
           truncate_table(ActiveRecord::Base.connection, "book_collections", {})
         end
 
@@ -336,7 +336,7 @@ describe CollectionsController do
           truncate_table(ActiveRecord::Base.connection, "book_collections", {})
           20.times { |i| BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @other_public_collection
-          response.should have_selector('ul', :id => "pagination")
+          response.should have_selector('ul', :class => "pagination")
           truncate_table(ActiveRecord::Base.connection, "book_collections", {})
         end
       end
@@ -512,7 +512,7 @@ describe CollectionsController do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
         20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :status => true)}
         get :index
-        response.should have_selector('ul', :id => "pagination")
+        response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
       end
 
@@ -644,7 +644,7 @@ describe CollectionsController do
 #      truncate_table(ActiveRecord::Base.connection, "comments", {})
 #      20.times { |i| Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "comment")}
 #      get :show, :id => @collection
-#      response.should have_selector('ul', :id => "pagination")
+#      response.should have_selector('ul', :class => "pagination")
 #      truncate_table(ActiveRecord::Base.connection, "comments", {})
 #    end
 

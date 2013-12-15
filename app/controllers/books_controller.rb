@@ -24,11 +24,11 @@ class BooksController < ApplicationController
                       
     @page = @url_params[:page] ? @url_params[:page].to_i : 1
     @view = @url_params[:view] ? @url_params[:view] : ''
+    @sort = @url_params[:sort_type] ? @url_params[:sort_type] : '' # get sort options (rate or views) from params
     @lang = 'test'
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
-    
-    @response = search_facet_highlight(@query, @page)
+    @response = search_facet_highlight(@query, @page,@sort)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
   
@@ -146,7 +146,7 @@ class BooksController < ApplicationController
           ubh.user = user
           ubh.volume = volume
           ubh.last_visited_date = Time.now
-          #ubh.save
+          ubh.save
           update_solr_views(volume)
         else
           history[0].last_visited_date = Time.now
