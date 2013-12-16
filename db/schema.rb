@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131211080344) do
+ActiveRecord::Schema.define(:version => 20131216073823) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -142,10 +142,10 @@ ActiveRecord::Schema.define(:version => 20131211080344) do
     t.string   "title"
     t.string   "description"
     t.boolean  "status"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",                                                 :null => false
+    t.datetime "updated_at",                                                 :null => false
     t.string   "photo_name"
-    t.integer  "rate",        :default => 0
+    t.decimal  "rate",        :precision => 2, :scale => 1, :default => 0.0
   end
 
   add_index "collections", ["user_id"], :name => "index_collections_on_user_id"
@@ -338,9 +338,9 @@ ActiveRecord::Schema.define(:version => 20131211080344) do
     t.integer  "generate_names_xml_fail"
     t.integer  "ubio_in_dar_fail"
     t.integer  "get_pages_names_fail"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
-    t.integer  "rate",                    :default => 0
+    t.datetime "created_at",                                                             :null => false
+    t.datetime "updated_at",                                                             :null => false
+    t.decimal  "rate",                    :precision => 2, :scale => 1, :default => 0.0
   end
 
   add_index "volumes", ["book_id"], :name => "index_volumes_on_book_id"
