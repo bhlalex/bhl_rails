@@ -201,14 +201,14 @@ module BooksHelper
     query
   end
   
-  def search_facet_highlight(query, page)
+  def search_facet_highlight(query, page, sort_type)
     facet_array = ['author_ss', 'bok_language_s', 'subject_ss', 'published_at_ss', 'geo_location_ss' ,'name_ss']
     hl_array = ['bok_title','bok_language','name','published_at', 'geo_location', 'subject','author']
     return_field = "vol_jobid,bok_title,name,author,subject,views,rate"
     limit = PAGE_SIZE
     start = (page > 1) ? (page - 1) * limit : 0
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
-    response = solr.find :q => query, :facet => true, :fl => return_field, :start => start, :limit => limit,
+    response = solr.find :q => query,:sort => sort_type, :facet => true, :fl => return_field, :start => start, :limit => limit,
       :hl => true, 'hl.fl' => hl_array, 'hl.simple.pre' => HLPRE, 'hl.simple.post'=> HLPOST, 'hl.requireFieldMatch'=> true,  #only highlight as the query suggest
       #'facet.date'=> 'bok_start_date', 'facet.date.start' =>'1500-01-01T00:00:00Z',
       #'facet.date.end' => '2020-01-01T00:00:00Z', 'facet.date.gap' => "+20YEAR",
@@ -287,6 +287,14 @@ module BooksHelper
     params[:action] = nil
     params
   end
+  
+  # add sort option to params
+  def search_sort(params, sort_type)
+    params[:sort_type] = sort_type
+    params[:controller] = nil
+    params[:action] = nil
+    params
+  end
 
   def generateHRef(pageNumber, params)
     tmp_params = params.clone
@@ -343,6 +351,7 @@ def related_books(volume_id)
   end
   def update_solr_views(volume)
     doc = solr_find_document("vol_jobid:#{volume.job_id}")
+    doc[:views] = 0 if doc[:views].nil?
     doc[:views] = doc[:views] + 1
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
     #For XML uses

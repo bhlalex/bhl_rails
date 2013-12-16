@@ -83,7 +83,7 @@ describe BooksController do
     # check for books count
     it "should return item count equal to the total number of books" do
       get :index
-      response.should have_selector("div", :class => "count", :content => 2.to_s)
+      response.should have_selector("h4", :class => "text-muted", :content => 2.to_s)
     end
 
     it "returns http success" do
@@ -114,49 +114,44 @@ describe BooksController do
       response.should have_selector('a', :href => "/books/238233")
     end
 
-    # check for existance of read and detail images for each book in list view
-    it "should return read and detail images for each book in list view" do
-      get :index, :view => "list"
-      response.should have_selector('img', :src => "/images_en/read.png")
-      response.should have_selector('img', :src => "/images_en/learn.png")
-    end
+
 
     # check for existance of open link for each author with the count of books for each author
     it "should have open links for authors" do
       get :index
-      response.should have_selector('a', :href => "/books?_author=Author", :content => "Author [2]")
+      response.should have_selector('a', :href => "/books?_author=Author&sort_type=views+asc", :content => "Author [2]")
     end
 
     # check for existance of open link for each names with the count of books for each name
     it "should have open links for names" do
       get :index
-      response.should have_selector('a', :href => "/books?_name=Name1", :content => "Name1 [1]")
-      response.should have_selector('a', :href => "/books?_name=Name2", :content => "Name2 [2]")
-      response.should have_selector('a', :href => "/books?_name=Name3", :content => "Name3 [1]")
+      response.should have_selector('a', :href => "/books?_name=Name1&sort_type=views+asc", :content => "Name1 [1]")
+      response.should have_selector('a', :href => "/books?_name=Name2&sort_type=views+asc", :content => "Name2 [2]")
+      response.should have_selector('a', :href => "/books?_name=Name3&sort_type=views+asc", :content => "Name3 [1]")
     end
 
     # check for existance of open link for each language with the count of books for each language
     it "should have open links for languages" do
       get :index
-      response.should have_selector('a', :href => "/books?_language=English", :content => "English [2]")
+      response.should have_selector('a', :href => "/books?_language=English&sort_type=views+asc", :content => "English [2]")
     end
 
     # check for existance of open link for each location with the count of books for each location
     it "should have open links for geo locations" do
       get :index
-      response.should have_selector('a', :href => "/books?_geo_location=Egypt", :content => "Egypt [2]")
+      response.should have_selector('a', :href => "/books?_geo_location=Egypt&sort_type=views+asc", :content => "Egypt [2]")
     end
 
     # check for existance of open link for each subject with the count of books for each subject
     it "should have open links for subjects" do
       get :index
-      response.should have_selector('a', :href => "/books?_subject=subject", :content => "subject [2]")
+      response.should have_selector('a', :href => "/books?_subject=subject&sort_type=views+asc", :content => "subject [2]")
     end
 
     # check for existance of the search bar
     it "should have a search bar" do
       get :index
-      response.should have_selector("div", :class => "searchtitle")
+      response.should have_selector("div", :class => "topsearch")
     end
 
     # check for existance of the pagination bar
@@ -182,24 +177,13 @@ describe BooksController do
         Volume.gen(:book => @book_test, :job_id => i.to_s, :get_thumbnail_fail => 0)
       }
       get :index
-      response.should have_selector("ul", :id => "pagination")
+      response.should have_selector("ul", :class => "pagination")
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*')
       22.times{ |i| Volume.delete(i) }
     end
 
-    # check for existance of gallery and list view options
-    it "should have links for gallery and list views" do
-      get :index
-      response.should have_selector("a", :href => "/books?view=gallery")
-      response.should have_selector("a", :href => "/books?view=list")
-    end
 
-    it "should have images for gallery and list views" do
-      get :index
-      response.should have_selector("img", :src => "/images_en/list.png")
-      response.should have_selector("img", :src => "/images_en/gallery.png")
-    end
 
     # check for existance of the right column
     it "should have the right column" do
@@ -214,14 +198,14 @@ describe BooksController do
     # check for existance of By:authors label in list view
     it "should have by author" do
       get :index, :view => "list"
-      response.should have_selector("div", :class => "description", :content => "By")
+      response.should have_selector("p", :class => "small", :content => "By")
     end
 
     # check for existance div.gallery in gallery view
-    it "should have gallery div" do
-      get :index, :view => "gallery"
-      response.should have_selector("div", :class => "gallery")
-    end
+#    it "should have gallery div" do
+#      get :index, :view => "gallery"
+#      response.should have_selector("div", :class => "gallery")
+#    end
     # save query
     describe 'save queries' do
       it 'should have save query button  if user is logged in and performed search action' do
@@ -431,7 +415,7 @@ describe BooksController do
         truncate_table(ActiveRecord::Base.connection, "book_collections", {})
         20.times {BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)}
         get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('ul', :id => "pagination")
+        response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "book_collections", {})
       end
 
@@ -782,7 +766,7 @@ describe BooksController do
       truncate_table(ActiveRecord::Base.connection, "comments", {})
       20.times { |i| Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "comment")}
       get :show, :id => @vol.job_id
-      response.should have_selector('ul', :id => "pagination")
+      response.should have_selector('ul', :class => "pagination")
       truncate_table(ActiveRecord::Base.connection, "comments", {})
     end
 

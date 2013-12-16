@@ -343,7 +343,7 @@ describe UsersController do
         truncate_table(ActiveRecord::Base.connection, "queries", {})
         20.times {Query.create(:user_id => @user.id, :string => "_title=popular")}
         get :show, { :id => @user.id, :tab => "saved_queries" }
-        response.should have_selector('ul', :id => "pagination")
+        response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "queries", {})
       end
 
@@ -385,7 +385,7 @@ describe UsersController do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
         20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :status => true)}
         get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('ul', :id => "pagination")
+        response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
       end
 
@@ -419,7 +419,7 @@ describe UsersController do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
         20.times {Collection.create(:user_id => @user.id, :title => "my collection",:description => "description", :updated_at => "2013-11-20 ", :status => false)}
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('ul', :id => "pagination")
+        response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
       end
 
