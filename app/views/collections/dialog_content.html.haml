@@ -12,8 +12,13 @@
         = I18n.t(:choose_collection)
       %li
       %select#idselect
+        - counter = 0
         - @collections.each do |collection|
-          %option{:value => "#{collection.id}"} #{collection.title}
+          - if @disabled[counter] == 1
+            %option{disabled: "disabled", :value => "#{collection.id}"} #{collection.title}
+          - else
+            %option{:value => "#{collection.id}"} #{collection.title}
+          - counter = counter + 1
       %br
       %br
     %li

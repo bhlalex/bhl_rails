@@ -69,7 +69,6 @@ en:
   geo_titles: 'titles'
   geo_titles_more: 'or more titles'
   geo_show_all_titles: 'Show all'
-  read_book_link: 'Read Book'
   browse_subject_page_header: 'Subjects'
   browse_author_page_header: 'Authors'
   browse_all: 'ALL'
@@ -301,53 +300,53 @@ en:
   
   #------------------------------------------------#NEW_LAYOUT-----------------------------------------------------------------
   #Header
-  search_textfield: "Search books..."
-  header_signup: "Sign Up"
-  header_signout: "Sign Out"
-  header_login: "Login"
-  header_profile: "Profile"
-  bhl_homepage: "BHL Egypt"
-  home_link: "Home"
-  about_us_link: "About Us"
-  contact_us_link: "Contact Us"
-  browse_all_link: "Browse All"
-  authors_link: "Authors"
-  subjects_link: "Subjects"
-  names_link: "Names"
-  geographics_link: "Geographics"
-  collections_link: "Collections"
+  search_textfield: Search books...
+  header_signup: Sign Up
+  header_signout: Sign Out
+  header_login: Login
+  header_profile: Profile
+  bhl_homepage: BHL Egypt
+  home_link: Home
+  about_us_link: About Us
+  contact_us_link: Contact Us
+  browse_all_link: Browse All
+  authors_link: Authors
+  subjects_link: Subjects
+  names_link: Names
+  geographics_link: Geographics
+  collections_link: Collections
   
   #Header#search fields
-  option_all: "All Categories"  
-  option_title: "Title"
-  option_language: "Language"
-  option_publish_place: "Publish Place"
-  option_regional_affiliation: "Regional Affiliation"
-  option_author: "Author"
-  option_tagged_species: "Tagged Species"
-  option_genre: "Genre"
-  option_content: "Content" 
+  option_all: All Categories
+  option_title: Title
+  option_language: Language
+  option_publish_place: Publish Place
+  option_regional_affiliation: Regional Affiliation
+  option_author: Author
+  option_tagged_species: Tagged Species
+  option_genre: Genre
+  option_content: Content 
   #Footer
-  footer_home: "Home"
-  footer_about: "About"
-  footer_contact: "Contact Us"
-  copyright_statement: "Copyright © Bibliotheca Alexandrina"
+  footer_home: Home
+  footer_about: About
+  footer_contact: Contact Us
+  copyright_statement: Copyright © Bibliotheca Alexandrina
   
   #Browse books
-  sidelinks_read: "Read"
-  sidelinks_detail: "Details"
-  sidelinks_view_collections: "Collections"
-  sidelinks_add_collection: "Add to Collection"
-  sidelinks_views: "view"
-  listresult_author_by: "By: "
-  listresult_subject: "Genre: "
-  listresult_names: "Names: "
+  sidelinks_read: Read
+  sidelinks_detail: Details
+  sidelinks_view_collections: Collections
+  sidelinks_add_collection: Add to Collection
+  sidelinks_views: view
+  listresult_author_by: "By:" 
+  listresult_subject: "Genre:" 
+  listresult_names: "Names:" 
   terminator: "."
   separator: "/"
   
   #Pages (About US, Contact Us)
-  about_us_page_title: "About Us"
-  contact_us_page_title: "Contact Us"
+  about_us_page_title: About Us
+  contact_us_page_title: Contact Us
   
   #Log Page
   log_activity_create: created a new collection
@@ -355,3 +354,14 @@ en:
   log_activity_rate: rated
   log_activity_comment: commented on 
   user_activity: User Activity
+  
+  #Book Details Page
+  book_details_mods: MODs
+  book_details_bibtex: BibTeX
+  book_details_endnote: EndNote
+  book_details_read: Read
+  book_details_details: Details
+  books_details_add_collection: Add to Collection
+  book_details_one_collection: Collection
+  book_details_collections: Collections
+  book_already_exists_in_collection: Book is already exists in this collection 

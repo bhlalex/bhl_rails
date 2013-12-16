@@ -1,0 +1,57 @@
+:javascript
+  function loadformats(format, content){
+    $("#modallabel").html(format);
+    $("#modalcontent").html(content);
+  }
+  
+.col-md-4.pull-right.sidebar-offcanvas
+  .spacing-left.list-group
+    .list-group-item.default
+      Tools
+    .list-group-item
+      %ul.fa-ul.tools
+        %li
+          %i.fa.fa-li.fa-book
+          %small
+            =link_to I18n.t(:book_details_read), "/books/#{params[:id]}/read"
+        %li
+          %i.fa.fa-li.fa-info
+          %small
+            =link_to I18n.t(:book_details_details), "/books/#{params[:id]}"
+        - if logged_in?
+          %li
+            %i.fa.fa-li.fa-plus-square
+            %small
+              - @number = "1"  
+              %a{:href => "#", :id => "opener#{@number}"}
+                =I18n.t(:books_details_add_collection)
+              - @addbookvol = params[:id]  
+              - @hello = "hellooss"
+              =render :partial => "books/add_book"
+    .list-group-item
+    .list-group-item
+      %span.badge.badge-success 
+        ="#{@collections_total_number}"
+      - if(@collections_total_number == 1)
+        =I18n.t(:book_details_one_collection)
+      - else
+        =I18n.t(:book_details_collections) 
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}', '#{get_format(params[:id], 'mods')}');"}
+      %i.fa.fa-angle-double-right
+      = I18n.t(:book_details_mods)
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_bibtex)}', '#{get_format(params[:id], 'bibtex')}');"}
+      %i.fa.fa-angle-double-right
+      = I18n.t(:book_details_bibtex)
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}', '#{get_format(params[:id], 'endnote')}');"}
+      %i.fa.fa-angle-double-right
+      = I18n.t(:book_details_endnote)
+      
+  #modal-container.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog"}
+    .modal-dialog
+      .modal-content
+        .modal-header
+          %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} 
+            ×
+          %h4#modallabel.modal-title
+        #modalcontent.modal-body
+.col-md-8.column.media

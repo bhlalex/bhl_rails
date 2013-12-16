@@ -33,6 +33,8 @@ class BooksController < ApplicationController
   end
   
   def show
+    @collections = Collection.joins(:book_collections).where("collections.user_id=? and book_collections.volume_id=? or collections.status=?" ,session[:user_id] , (Volume.find_by_job_id(params[:id])).id, true)
+    @collections_total_number = @collections.count
     @volume_id = Volume.find_by_job_id(params[:id]).id
     #@collection_id = nil
     @comments_replies_list = get_comments( "volume", nil, params[:id])
@@ -68,25 +70,7 @@ class BooksController < ApplicationController
         @types = {:author => I18n.t(:book_author_title), 
                   :geo_location => I18n.t(:book_publish_place_title),
                   :subject => I18n.t(:book_subject_title),
-                 }
-      elsif @current == 'mods'
-        mods = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).mods
-        mods.slice!(0) if mods[0] == "?" # This should remove leading "?" from mods
-        
-        # this is used to beautify xml display 
-        doc = REXML::Document.new mods
-        out = ""
-        doc.write(out, 1)
-        @format = out
-      elsif @current == 'bibtex'
-        bibtex = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).bibtex
-        bibtex = bibtex[1..-1] if bibtex[0] == "?"
-        @format = bibtex
-      elsif @current == 'endnote'
-        endnote = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).endnote
-        endnote = endnote[1..-1] if endnote[0] == "?"
-        @format = endnote
-        
+                 }        
       elsif @current == 'collections'
       # book collections
         @collections = Collection.joins(:book_collections).where("collections.user_id=? and book_collections.volume_id=? or collections.status=?" ,session[:user_id] , (Volume.find_by_job_id(params[:id])).id, true)
@@ -118,9 +102,7 @@ class BooksController < ApplicationController
     if book_rate_list.count > 0
       @user_rate = book_rate_list[0].rate
     end
-    render layout: 'books_details'
   end
-  
   def autocomplete
     type = params[:type]
     term = params[:term]
@@ -146,7 +128,7 @@ class BooksController < ApplicationController
           ubh.user = user
           ubh.volume = volume
           ubh.last_visited_date = Time.now
-          #ubh.save
+          ubh.save
           update_solr_views(volume)
         else
           history[0].last_visited_date = Time.now

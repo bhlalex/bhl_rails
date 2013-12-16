@@ -1,6 +1,6 @@
 .col-md-8.column.browse
   .row.clearfix
-    .col-md-2.column  
+    .col-xs-2.column  
       - if visited_volume?(@user_history, @vol)
         = link_to image_tag("/#{@thumb}", :width => 109, :border => 0, :class => "img-thumbnail visited"), 
           {:controller => :books, :action => :show, :id => @vol[:job_id]}
@@ -19,6 +19,6 @@
           = render :partial => "books/booksubjects"
         - if(@doc['name'] != nil)
           = render :partial => "books/booknames"
-    .col-md-4.column.controls
+    .col-xs-4.column.controls
       =render :partial => "books/sidelinks"
   %hr.clearfix.col-lg-12

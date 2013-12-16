@@ -1,23 +1,11 @@
 - content_for :head do
-  = stylesheet_link_tag 'jquery/themes/jquery.ui.all.css'
-  = javascript_include_tag 'jquery/jquery-1.9.1.js'
-  = javascript_include_tag 'jquery/jquery.ui.core.js'
-  = javascript_include_tag 'jquery/jquery.ui.widget.js'
-  = javascript_include_tag 'jquery/jquery.ui.position.js'
-  = javascript_include_tag 'jquery/jquery.ui.menu.js'
   %meta{:name => "description", :content => @meta_description}
   %meta{:name => "keywords", :content => @meta_keywords}
   %meta{:name => "author", :content => @meta_author}
   
-- if @current == 'read'
-  = render :partial => "books/read"
-- else
-  = render :partial => "books/tabs"
-  %br
-  - if @current == 'brief'
-    = render :partial => "books/brief"
-  - if @current == 'collections'
-    = render :partial => "books/collections"
-  - else
-    = render :partial => "books/format"
-= render :partial => "books/userviews"
+.row.clearfix
+  = render :partial => "books/details"
+.row.clearfix
+  = render :partial => "books/reviews"
+.row.clearfix
+  = render :partial => "books/others"

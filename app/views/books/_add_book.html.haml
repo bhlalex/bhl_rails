@@ -24,6 +24,7 @@
                     }
         }
      });
+     
     $( "#dialog_#{@number}" ).dialog({
       open: function(event, ui){ 
             $(this).removeClass("ui-dialog");
@@ -49,20 +50,24 @@
                               if(new_col == 'off'){
                                 $.ajax({type: "GET", 
                                        url: "/add_book?col_id=" + col_id +"&vol_id=" + "#{@addbookvol}", 
-                                       dataType: "script"
+                                       dataType: "script",
+                                       success: function(data){
+                                           $( "#confirmation" ).dialog( "open" );
+                                       }
                                        });
                                 $(this).dialog("close");
-                                $( "#confirmation" ).dialog( "open" );
                               }else{
                                 if(title.trim().length == 0){
                                   $("#error").show();
                                 }else{
                                    $.ajax({type: "GET", 
                                        url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&public=" + escape(public) + "&vol_id=" + "#{@addbookvol}", 
-                                       dataType: "script"
+                                       dataType: "script",
+                                        success: function(data){
+                                           $( "#confirmation" ).dialog( "open" );
+                                       }
                                        }) ;
                                    $(this).dialog("close");
-                                   $( "#confirmation" ).dialog( "open" );
                                    $("#error").hide();
                                 }
                               }
@@ -98,7 +103,7 @@
           document.getElementById("dialog_#{@number}").innerHTML=xmlhttp.responseText;
         }
       }
-      xmlhttp.open("GET","/dialog_content",true);
+      xmlhttp.open("GET","/dialog_content?vol_jobid=#{@addbookvol}",true);
       xmlhttp.send();
       
       $( "#dialog_#{@number}" ).dialog( "open" );

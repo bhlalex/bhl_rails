@@ -66,6 +66,16 @@ class CollectionsController < ApplicationController
 
   def dialog_content
     @collections = Collection.where(:user_id => session[:user_id])
+    @disabled = []
+    @collections.each do |col|
+      vol_id = Volume.find_by_job_id(params[:vol_jobid]).id
+      found = BookCollection.where(:volume_id => vol_id, :collection_id => col.id)
+      if found.count > 0
+        @disabled.push(1)
+      else
+        @disabled.push(0)
+      end
+    end
     render :layout => 'main' # this is a blank layout as I don't need any layout in this action
   end
 
@@ -200,7 +210,7 @@ class CollectionsController < ApplicationController
       description = params[:description]
       status = false
       status = true if params[:public] == 'on'
-      col = Collection.create!(:title => title, :description => description, :created_at => Time.now,
+      col = Collection.create!(:title => title, :description => description,
       :user_id => session[:user_id], :status => status)
       add_to_existing_collection(col)
     end
