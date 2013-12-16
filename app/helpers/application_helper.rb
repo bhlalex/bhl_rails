@@ -165,6 +165,7 @@ module ApplicationHelper
       "reply"
     end
   end
+  
 
   def is_comment_has_replies?(comment_id)
     if (Comment.where(:comment_id => comment_id).count == 0)

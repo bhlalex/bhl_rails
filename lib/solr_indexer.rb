@@ -43,6 +43,7 @@ module SOLR
         doc[:vol_name] = volume.name
         doc[:views] = 0
         doc[:rate] = 0
+        doc[:single_bok_title] = book.title
               
         # index names
         names_found = []      

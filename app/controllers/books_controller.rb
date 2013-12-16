@@ -30,7 +30,7 @@ class BooksController < ApplicationController
     @query = set_query_string(@query_array, false)
     @response = search_facet_highlight(@query, @page,@sort)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
-  end
+end
   
   def show
     @collections = Collection.joins(:book_collections).where("collections.user_id=? and book_collections.volume_id=? or collections.status=?" ,session[:user_id] , (Volume.find_by_job_id(params[:id])).id, true)

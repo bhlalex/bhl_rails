@@ -1,3 +1,18 @@
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
+  
+:javascript 
+  $(document).ready(function() {
+    $("#sort").click(function () {
+      $.ajax({type: "GET", 
+              url: "/books?sort_type=views+desc", 
+              dataType: "html",
+              success: function(data){
+              $('#wrap').html(data);
+             }
+      });
+    });
+  });
+  
 %small
   - @query_array.each do |key, val|
     - if(val != '')
@@ -8,8 +23,34 @@
             = link_to :params => removeBreadCrumb(@url_params, key, term) do
               ="&times;".html_safe
 .clearfix
+.sort.text-muted.pull-right
+  %small
+    Sort by :
+    %i.fa.fa-check-square
+      = link_to I18n.t(:viewed), {:params => search_sort(params, "views desc")}
+    %span | 
+    %i.fa.fa-square-o
+      = link_to I18n.t(:rates), {:params => search_sort(params, "rate desc")}
+    %span | 
+    %i.fa.fa-square-o
+      = link_to I18n.t(:title), {:params => search_sort(params, "single_bok_title desc")}
+%br
+%br
+.sort.text-muted.pull-right
+  %small
+    Sort by :
+    %i.fa.fa-check-square
+      = link_to I18n.t(:viewed), {:params => search_sort(params, "views asc")}
+    %span | 
+    %i.fa.fa-square-o
+      = link_to I18n.t(:rates), {:params => search_sort(params, "rate asc")}
+    %span | 
+    %i.fa.fa-square-o
+      = link_to I18n.t(:title), {:params => search_sort(params, "single_bok_title asc")}
+
 %h4.text-muted
   - if(@query != "*:*")
     = I18n.t(:books_found, :count => @response['response']['numFound'])
   - else
     =I18n.t(:books_found_all, :count => @response['response']['numFound'])
+
