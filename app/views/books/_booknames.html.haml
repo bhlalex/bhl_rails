@@ -5,19 +5,18 @@
       $('.tooltipname').tooltipster({ interactive: true, fixedWidth: 280});
   });
 
-- names = fillResponseArrays(@doc, @highlight, 'name', @id)
 %i
   %b
     =I18n.t(:listresult_names)
 - count = 0
-- names.each do |curname|
+- @names.each do |curname|
   - name = Name.find_by_string(curname.gsub(HLPRE, '').gsub(HLPOST, ''))
   -if (name != nil)
     -#NEW_LAYUOT change name from tooltip to tooltipname to avoid conflict with tooltip class in bootstrap file
     %a.tooltipname{:title =>name_tip(@id, name.id, name.string, name.eol_thumb, name.eol_page_id), :href => "#"}
       = item_count_format_highlight('name', name.string, curname)
     - count = count + 1
-    -if count != names.length
+    -if count != @names.length
       %b
         =I18n.t(:separator)
 = book_names_count_format(@id)

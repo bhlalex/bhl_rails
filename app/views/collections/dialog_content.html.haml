@@ -1,9 +1,9 @@
 :javascript
   $(document).ready(function() {
     // reset the content
-    document.getElementById("new").checked=false;
-    document.getElementById("public").checked=false;
-    document.getElementById("createnewcoll").style.display = 'none';
+    document.getElementById("new_#{@dialog_number}").checked=false;
+    document.getElementById("public_#{@dialog_number}").checked=false;
+    document.getElementById("createnewcoll_#{@dialog_number}").style.display = 'none';
    });
 .form
   %ul
@@ -11,7 +11,7 @@
       %li
         = I18n.t(:choose_collection)
       %li
-      %select#idselect
+      %select{:id => "idselect_#{@dialog_number}"}
         - counter = 0
         - @collections.each do |collection|
           - if @disabled[counter] == 1
@@ -22,20 +22,20 @@
       %br
       %br
     %li
-      %input{:type =>"checkbox", :id => "new#{@number}", :checked => false, :value => 'off', 
-      :onclick => "document.getElementById('error').style.display = 'none';document.getElementById('description').value = '';document.getElementById('title').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll').style.display = 'block';}else{this.value = 'off';document.getElementById('createnewcoll').style.display = 'none';}"} #{I18n.t(:create_new_collection)}
-    #error{style: "display:none; color:red;"}
+      %input{:type =>"checkbox", :id => "new_#{@dialog_number}", :checked => false, :value => 'off', 
+      :onclick => "document.getElementById('error_#{@dialog_number}').style.display = 'none';document.getElementById('description_#{@dialog_number}').value = '';document.getElementById('collectiontitle_#{@dialog_number}').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'block';}else{this.value = 'off';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'none';}"} #{I18n.t(:create_new_collection)}
+    #error{:id => "#{@dialog_number}", style: "display:none; color:red;"}
       = I18n.t(:missing_title_error_msg)
-    #createnewcoll{style: "display:none;"}
+    #createnewcoll{style: "display:none;", :id => "#{@dialog_number}"}
       .requiredlabel
         = "#{I18n.t(:title)}"
      
-      %input#collectiontitle{type: "text"} 
+      %input#collectiontitle{type: "text", :id => "#{@dialog_number}"} 
       %br
       = I18n.t(:description)
       %br
-      %textarea#description
+      %textarea#description{:id => "#{@dialog_number}"}
       %br
-      %input#public{:checked => false, :type =>"checkbox", :value => 'off',
+      %input#public{:id => "#{@dialog_number}", :checked => false, :type =>"checkbox", :value => 'off',
       :onclick => "if(this.checked == true){this.value = 'on';}else{this.value = 'off';}"} #{I18n.t(:public)}
    

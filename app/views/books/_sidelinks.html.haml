@@ -26,7 +26,7 @@
     %li
       %i.fa.fa-li.fa-plus-square
       %small
-        %a{:href => "#", :id => "opener#{@number}"}
+        %a{:href => "#", :id => "opener_#{@number}"}
           =I18n.t(:sidelinks_add_collection)
         - @addbookvol = @vol[:job_id]  
         =render :partial => "books/add_book"

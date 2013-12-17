@@ -1,4 +1,7 @@
 :javascript
+  function htmlEncode(content){
+    return $('<div/>').text(content).html();
+  }
   function loadformats(format, content){
     $("#modallabel").html(format);
     $("#modalcontent").html(content);
@@ -7,7 +10,7 @@
 .col-md-4.pull-right.sidebar-offcanvas
   .spacing-left.list-group
     .list-group-item.default
-      Tools
+      =I18n.t(:book_details_tools)
     .list-group-item
       %ul.fa-ul.tools
         %li
@@ -23,26 +26,27 @@
             %i.fa.fa-li.fa-plus-square
             %small
               - @number = "1"  
-              %a{:href => "#", :id => "opener#{@number}"}
+              %a{:href => "#", :id => "opener_#{@number}"}
                 =I18n.t(:books_details_add_collection)
               - @addbookvol = params[:id]  
-              - @hello = "hellooss"
               =render :partial => "books/add_book"
     .list-group-item
     .list-group-item
       %span.badge.badge-success 
         ="#{@collections_total_number}"
       - if(@collections_total_number == 1)
-        =I18n.t(:book_details_one_collection)
+        %a{:href => "#collectionsfound"}
+          =I18n.t(:book_details_one_collection)
       - else
-        =I18n.t(:book_details_collections) 
+        %a{:href => "#collectionsfound"}
+          =I18n.t(:book_details_collections) 
     %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}', '#{get_format(params[:id], 'mods')}');"}
       %i.fa.fa-angle-double-right
       = I18n.t(:book_details_mods)
     %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_bibtex)}', '#{get_format(params[:id], 'bibtex')}');"}
       %i.fa.fa-angle-double-right
       = I18n.t(:book_details_bibtex)
-    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}', '#{get_format(params[:id], 'endnote')}');"}
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}', htmlEncode('#{get_format(params[:id], 'endnote')}'));"}
       %i.fa.fa-angle-double-right
       = I18n.t(:book_details_endnote)
       
@@ -55,3 +59,47 @@
           %h4#modallabel.modal-title
         #modalcontent.modal-body
 .col-md-8.column.media
+  .pull-left.img-thumbnail
+    %img.img-rounded{:src => "/#{@thumb}"}
+  .media-body
+    %h3.media-heading
+      =@page_title
+    %dl
+      - if @book['bok_language'] != nil
+        %dt
+          =I18n.t(:book_language_title) + ':'
+        %dd
+          =item_count_format('bok_language', @book['bok_language'])
+    
+      - if @book['bok_start_date'] != nil
+        %dt
+          =I18n.t(:book_date_title) + ':'
+        %dd
+          =@book['bok_start_date'].first(4)
+      
+      - if @book['bok_publisher'] != nil
+        %dt
+          =I18n.t(:book_publish_title) + ':'
+        %dd
+          =@book['bok_publisher']
+      - @types.each do |type, value|
+        - count = 0
+        - if @book[type.to_s] != nil
+          %dt
+            =value + ':'
+          %dd
+            - @book[type.to_s].each do |item|
+              - count = count + 1
+              =item_count_format(type.to_s, item)
+              -if count != @book[type.to_s].length
+                %b
+                  =I18n.t(:separator)
+            %b
+              =I18n.t(:terminator)
+      - if @book['name'] != nil
+        %dt
+          =I18n.t(:book_name_title) + ':'
+        %dd
+          - @names = book_names(params[:id])
+          - @id = params[:id]
+          = render :partial => "books/booknames"

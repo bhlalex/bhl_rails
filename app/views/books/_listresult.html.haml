@@ -18,6 +18,7 @@
         - if(@doc['subject'] != nil)
           = render :partial => "books/booksubjects"
         - if(@doc['name'] != nil)
+          - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
           = render :partial => "books/booknames"
     .col-xs-4.column.controls
       =render :partial => "books/sidelinks"

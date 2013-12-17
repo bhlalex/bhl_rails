@@ -1,0 +1,40 @@
+:javascript
+  var start = 0;
+  $(document).ready(function() {
+    moveCollection(2);
+  });
+  //direction 0 moves left, direction 1 moves right
+  function moveCollection(direction){
+    var xmlhttp;
+    if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+    }
+    else{// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById("collectionsCarousel").innerHTML=xmlhttp.responseText;
+      }
+    }
+    if (direction == 0){
+      start = start - 1
+    }
+    else if(direction == 1){
+      start = start + 1
+    }
+    xmlhttp.open("GET","/get_collections?start=" + start + "&id=#{params[:id]}",true);
+    xmlhttp.send();
+  }
+.col-md-12
+  .col-md-6
+    %a{:id=>"collectionsfound"}
+    %h4 
+      =I18n.t(:book_details_found_collections)
+    #myCarousel.carousel.slide
+      .carousel-inner
+        .item.active
+          .row#collectionsCarousel
+            
+      %a.left.carousel-control{"data-slide" => "prev", :href => "#", :onclick => "moveCollection(0);"} ‹
+      %a.right.carousel-control{"data-slide" => "next", :href => "#", :onclick => "moveCollection(1);"} ›

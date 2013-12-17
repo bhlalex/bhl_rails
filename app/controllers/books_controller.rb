@@ -33,8 +33,6 @@ class BooksController < ApplicationController
   end
   
   def show
-    @collections = Collection.joins(:book_collections).where("collections.user_id=? and book_collections.volume_id=? or collections.status=?" ,session[:user_id] , (Volume.find_by_job_id(params[:id])).id, true)
-    @collections_total_number = @collections.count
     @volume_id = Volume.find_by_job_id(params[:id]).id
     #@collection_id = nil
     @comments_replies_list = get_comments( "volume", nil, params[:id])
@@ -64,28 +62,22 @@ class BooksController < ApplicationController
     @alsoviewedvolumes = also_viewed_volumes(also_viewed_ids)
      
     if @current != 'read'
-      if @current == 'brief'
-        #Hash types holds some of the metadata "types" of a book 
-        #(in particularly, the types that are saved in arrays in solr indexing)
-        @types = {:author => I18n.t(:book_author_title), 
-                  :geo_location => I18n.t(:book_publish_place_title),
-                  :subject => I18n.t(:book_subject_title),
-                 }        
-      elsif @current == 'collections'
-      # book collections
-        @collections = Collection.joins(:book_collections).where("collections.user_id=? and book_collections.volume_id=? or collections.status=?" ,session[:user_id] , (Volume.find_by_job_id(params[:id])).id, true)
-        @collections_total_number = @collections.count
-        @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
-        limit = PAGE_SIZE
-        offset = (@page > 1) ? (@page - 1) * limit : 0
-        @collections = @collections.limit(limit).offset(offset)
-        @url_params = params.clone
-      # end book collections block
+      #Hash types holds some of the metadata "types" of a book 
+      #(in particularly, the types that are saved in arrays in solr indexing)
+      @types = {:author => I18n.t(:book_author_title), 
+                :geo_location => I18n.t(:book_publish_place_title),
+                :subject => I18n.t(:book_subject_title),
+               }        
+    #book collections
+      
+      # @page = params[:page] ? params[:page].to_i : 1
+      # @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
+      # limit = PAGE_SIZE
+      # offset = (@page > 1) ? (@page - 1) * limit : 0
+      # @collections = @collections.limit(limit).offset(offset)
+      # @url_params = params.clone
+    # end book collections block
 
-      else
-        @format = 'empty for now'
-      end
     else #If tab is read (darviewer application)
       #save user history
       save_user_history(params)
@@ -102,6 +94,7 @@ class BooksController < ApplicationController
     if book_rate_list.count > 0
       @user_rate = book_rate_list[0].rate
     end
+    test = "test"
   end
   def autocomplete
     type = params[:type]
@@ -116,7 +109,23 @@ class BooksController < ApplicationController
     end
     render json: @results
   end
-
+  
+  def get_collections
+    start = params[:start].to_i * LIMIT_BOOK_COLLECTIONS.to_i
+    limit = LIMIT_BOOK_COLLECTIONS
+    @collections = Collection.find_by_sql("SELECT * 
+                                              FROM collections 
+                                              INNER JOIN book_collections
+                                                ON (collections.id = book_collections.collection_id)
+                                             WHERE book_collections.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
+                                              AND collections.status = false LIMIT #{start}, #{limit}")
+    #render :partial => "get_collections" 
+    # render :layout => 'main' # this is a blank layout as I don't need any layout in this action
+    respond_to do |format|
+      format.html {render :partial => "books/get_collections"}
+    end
+  end
+  
   private
     def save_user_history(params)
       user = User.find_by_id(session[:user_id])

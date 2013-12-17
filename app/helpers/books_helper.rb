@@ -55,6 +55,7 @@ module BooksHelper
       end  
   end
   def book_names (vol_jobid)
+    result = []
     names = Name.find_by_sql("
       SELECT names.*, COUNT(page_names.name_id) as count
                 FROM names
@@ -66,6 +67,10 @@ module BooksHelper
                   ORDER BY count DESC
                   LIMIT 0,#{MAX_NAMES_PER_BOOK}
     ")
+    names.each do |name|
+      result << name.string
+    end
+    result
   end
   
   def book_names_count_format (vol_jobid)
@@ -225,6 +230,7 @@ module BooksHelper
     tmp_params[:controller] = nil
     tmp_params[:action] = nil
     tmp_params[:page] = nil
+    tmp_params[:sort_type] = nil
     tmp_params
   end
   
@@ -240,6 +246,7 @@ module BooksHelper
     tmp_params[:controller] = nil
     tmp_params[:action] = nil
     tmp_params[:page] = nil
+    tmp_params[:sort_type] = nil
     tmp_params
   end
   
