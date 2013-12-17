@@ -25,7 +25,7 @@
 .clearfix
 .sort.text-muted.pull-right
   %small
-    = I18n.t(:sort_by) :
+    = I18n.t(:sort_by)
     %i.fa.fa-check-square
       = link_to I18n.t(:viewed), {:params => search_sort(params, "views desc")}
     %span | 
@@ -38,7 +38,7 @@
 %br
 .sort.text-muted.pull-right
   %small
-    = I18n.t(:sort_by) :
+    = I18n.t(:sort_by)
     %i.fa.fa-check-square
       = link_to I18n.t(:viewed), {:params => search_sort(params, "views asc")}
     %span | 
