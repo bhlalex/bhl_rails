@@ -359,7 +359,8 @@ en:
   book_details_one_collection: Collection
   book_details_collections: Collections
   book_already_exists_in_collection: Book is already exists in this collection
-  book_details_found_collections: Found in Collections 
+  book_details_found_collections: Found in Collections
+  book_details_found_user_viewed: User also Viewed 
   book_title_title: 'Title'
   book_author_title: 'Author/Creator'
   book_publish_place_title: 'Publish Place'

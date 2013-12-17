@@ -69,6 +69,7 @@ NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
 MAX_NO_ABUSE = 1
 CONTACT_US_EMAIL= "walaa.gomaa.elsayed@gmail.com"
 
+COLLECTION_FOLDER = 'collections/'
 
 # Initialize the rails application
 Bhl::Application.initialize!

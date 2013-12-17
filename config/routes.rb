@@ -67,8 +67,7 @@ Bhl::Application.routes.draw do
   match "/autocomplete" => "books#autocomplete"
   match "/books/:id" => "books#show"
   match "/books/:id/:tab" => "books#show"
-  # get "books/get_collections"
-  match "get_collections" => "books#get_collections"
+  # match "get_collections" => "books#get_collections"
   
   get   "geographics/index"
   match "/geographics/show/:id" => "geographics#show"

@@ -33,7 +33,7 @@
     .list-group-item
     .list-group-item
       %span.badge.badge-success 
-        ="#{@collections_total_number}"
+        ="#{@collections.count}"
       - if(@collections_total_number == 1)
         %a{:href => "#collectionsfound"}
           =I18n.t(:book_details_one_collection)

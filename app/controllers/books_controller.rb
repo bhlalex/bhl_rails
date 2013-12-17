@@ -37,7 +37,7 @@ end
     #@collection_id = nil
     @comments_replies_list = get_comments( "volume", nil, params[:id])
     @comment = Comment.new
-    @related_books = related_books(params[:id])
+    
     if(session[:book_id] != nil && session[:book_id] != params[:id].to_i)
       BookView.create(:book_id1 => session[:book_id], :book_id2 => params[:id].to_i)
     end
@@ -57,10 +57,6 @@ end
     @tabs = {:brief => I18n.t(:brief), :mods => I18n.t(:mods), :bibtex => I18n.t(:bibtex), :endnote => I18n.t(:endnote),:collections => I18n.t(:collections)}
     @current = params[:tab] != nil ? params[:tab] : 'brief'
     
-    #users also viewed code
-    also_viewed_ids = also_viewed_ids(params[:id].to_i, LIMIT_USER_VIEWS_BOOKS)
-    @alsoviewedvolumes = also_viewed_volumes(also_viewed_ids)
-     
     if @current != 'read'
       #Hash types holds some of the metadata "types" of a book 
       #(in particularly, the types that are saved in arrays in solr indexing)
@@ -68,16 +64,18 @@ end
                 :geo_location => I18n.t(:book_publish_place_title),
                 :subject => I18n.t(:book_subject_title),
                }        
-    #book collections
-      
-      # @page = params[:page] ? params[:page].to_i : 1
-      # @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
-      # limit = PAGE_SIZE
-      # offset = (@page > 1) ? (@page - 1) * limit : 0
-      # @collections = @collections.limit(limit).offset(offset)
-      # @url_params = params.clone
-    # end book collections block
-
+      #book collections carousel
+      @collections = Collection.find_by_sql("SELECT collections.id, 
+                                                CONCAT(\'#{COLLECTION_FOLDER}\', collections.id , '/' , collections.photo_name) AS photo_url
+                                              FROM collections 
+                                              INNER JOIN book_collections
+                                                ON (collections.id = book_collections.collection_id)
+                                             WHERE book_collections.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
+                                              AND collections.status = false")
+      #users also viewed carousel
+      @also_viewed_books = also_viewed_books(params[:id].to_i)
+      #related books carousel
+      @related_books = related_books(params[:id])
     else #If tab is read (darviewer application)
       #save user history
       save_user_history(params)
