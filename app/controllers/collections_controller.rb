@@ -15,7 +15,7 @@ class CollectionsController < ApplicationController
     else
       sql_query = "status = true"
     end
-    @collections = Collection.where(sql_query).order(params[:view])
+    @collections = Collection.where(sql_query).order(params[:sort_type])
     if(@collections.nil?)
       @collections_total_number = 0
     else
