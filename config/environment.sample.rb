@@ -51,7 +51,8 @@ TAGGED_AFFILIATION_COUNT = 4
 TAGGED_GENRE_COUNT = 4
 
 AUTOCOMPLETE_MAX = 4
-LIMIT_USER_VIEWS_BOOKS = 5
+LIMIT_USER_VIEWS_BOOKS = 4
+LIMIT_BOOK_COLLECTIONS = 4
 
 PAGE_SIZE = 10
 
@@ -68,6 +69,7 @@ NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
 MAX_NO_ABUSE = 1
 CONTACT_US_EMAIL= "walaa.gomaa.elsayed@gmail.com"
 
+COLLECTION_FOLDER = 'collections/'
 
 # Initialize the rails application
 Bhl::Application.initialize!

@@ -18,17 +18,6 @@ Bhl::Application.configure do
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
   
-  ActionMailer::Base.delivery_method = :smtp
-  ActionMailer::Base.smtp_settings = {
-          :address              => "smtp.gmail.com",
-          :port                 => 587,
-          :domain               => "gmail.com",
-          :user_name            => "walaa.gomaa.elsayed@gmail.com",
-          :password             => "0101916088",
-          :authentication       => :plain
-
-  }
-
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
 

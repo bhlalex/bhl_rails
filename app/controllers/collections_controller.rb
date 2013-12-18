@@ -65,6 +65,7 @@ class CollectionsController < ApplicationController
   end
 
   def dialog_content
+    @dialog_number = params[:number]
     @collections = Collection.where(:user_id => session[:user_id])
     @disabled = []
     @collections.each do |col|

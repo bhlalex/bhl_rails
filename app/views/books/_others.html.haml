@@ -1,0 +1,36 @@
+.col-md-12
+  .col-md-6
+    %a{:id=>"collectionsfound"}
+    %h4 
+      =I18n.t(:book_details_found_collections)
+    - if (@collections != nil && @collections.count > 0)
+      - @total_array = @collections
+      - @divname = "collections"
+      - @controller = "collections"
+      - @action = "show"
+      - @default_img = "nocollection.png"
+      =render :partial => "books/carousel"
+      
+  .col-md-6
+    %h4 
+      =I18n.t(:book_details_found_user_viewed)
+    - if (@also_viewed_books != nil && @also_viewed_books.count > 0)
+      - @total_array = @also_viewed_books 
+      - @divname = "alsoviewed"
+      - @controller = "books"
+      - @action = "show"
+      - @default_img = "nocollection.png"
+      =render :partial => "books/carousel"
+      
+  .col-md-6
+    %h4
+      = I18n.t(:related_books)
+    - if (!(@related_books.nil? ) && (@related_books['response']['docs'] != '') && (@related_books['response']['numFound'] > 1))
+      - @total_array = fill_carousel_array(@related_books, params[:id])
+      - @divname = "relatedbooks"
+      - @controller = "books"
+      - @action = "show"
+      - @default_img = "book_thumb.png"
+      =render :partial => "books/carousel"
+      
+  

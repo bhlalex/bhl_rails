@@ -29,3 +29,7 @@
       .pagination-centered
         - @pages = adjustPaging(@page, @lastPage)
         = render :partial => "books/paging"
+- else
+  .well-sm.center-block
+    %h2
+      =I18n.t(:no_books_found)

@@ -55,6 +55,7 @@ module BooksHelper
       end  
   end
   def book_names (vol_jobid)
+    result = []
     names = Name.find_by_sql("
       SELECT names.*, COUNT(page_names.name_id) as count
                 FROM names
@@ -66,6 +67,10 @@ module BooksHelper
                   ORDER BY count DESC
                   LIMIT 0,#{MAX_NAMES_PER_BOOK}
     ")
+    names.each do |name|
+      result << name.string
+    end
+    result
   end
   
   def book_names_count_format (vol_jobid)
@@ -225,6 +230,7 @@ module BooksHelper
     tmp_params[:controller] = nil
     tmp_params[:action] = nil
     tmp_params[:page] = nil
+    tmp_params[:sort_type] = nil
     tmp_params
   end
   
@@ -240,6 +246,7 @@ module BooksHelper
     tmp_params[:controller] = nil
     tmp_params[:action] = nil
     tmp_params[:page] = nil
+    tmp_params[:sort_type] = nil
     tmp_params
   end
   
@@ -279,13 +286,6 @@ module BooksHelper
     end
     tmp_params.delete("utf8")
     tmp_params
-  end
-  
-  def search_view(params, view)
-    params[:view] = view
-    params[:controller] = nil
-    params[:action] = nil
-    params
   end
   
   # add sort option to params
@@ -342,7 +342,7 @@ def related_books(volume_id)
      query = query[0,query.length-4]
      query+= ")"
   end
-     response = rsolr.find :q => query, :fl => return_field, 'rows' => 5
+     response = rsolr.find :q => query, :fl => return_field
 end
 
   def also_viewed_ids(id, limit)
@@ -358,13 +358,43 @@ end
                             GROUP BY result.rel_id ORDER BY total_count DESC
                             LIMIT 0, #{limit};")
   end
-  def also_viewed_volumes(ids)
-    results = []
-    ids.each do |item|
-      results << solr_search("vol_jobid:#{item['rel_id']}", "vol_jobid, bok_title, bok_language, subjects, ")
+  
+  def fill_carousel_array(response, id)
+    total_array = []
+    response['response']['docs'].each do |doc|
+      if(doc['vol_jobid'] != id)
+        element = {}
+        element[:id] = doc[:vol_jobid]
+        element[:photo_url] = !Volume.find_by_job_id(doc[:vol_jobid]).get_thumbnail_fail.nil? ? "/volumes/#{doc[:vol_jobid]}/thumb.jpg" : ""
+        total_array << element
+      end
     end
-    results   
+    total_array
   end
+
+  def also_viewed_books(id)
+    ids = Book.find_by_sql("SELECT result.id, result.photo_url
+                              FROM ((SELECT bv1.book_id1 AS id, COUNT(*) AS total_count, 
+                                          IF(V1.get_thumbnail_fail IS NOT NULL, 
+                                              CONCAT('/volumes/', V1.job_id, '/thumb.jpg'), NULL
+                                          ) AS photo_url
+                                      FROM book_views AS bv1
+                                      INNER JOIN volumes as V1
+                                          ON (bv1.book_id1 = V1.job_id)
+                                      WHERE bv1.book_id2 = #{id}
+                                          GROUP BY id)
+                              UNION(SELECT bv2.book_id2 AS id, COUNT(*) AS total_count, 
+                                          IF(V2.get_thumbnail_fail IS NOT NULL, 
+                                              CONCAT('/volumes/', V2.job_id, '/thumb.jpg'), NULL
+                                          ) AS photo_url
+                                      FROM book_views AS bv2
+                                      INNER JOIN volumes as V2
+                                          ON (bv2.book_id2 = V2.job_id)
+                                      WHERE bv2.book_id1 = #{id}
+                                      GROUP BY id)
+                              )result GROUP BY result.id ORDER BY total_count DESC;")
+  end
+  
   def update_solr_views(volume)
     doc = solr_find_document("vol_jobid:#{volume.job_id}")
     doc[:views] = 0 if doc[:views].nil?

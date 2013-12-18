@@ -1,7 +1,7 @@
 %script{:type => "text/javascript", :src  => "http://code.jquery.com/ui/1.10.3/jquery-ui.js"}
 :javascript
   $(document).ready(function() {
-     $( "#confirmation" ).dialog({
+     $( "#confirmation_#{@number}" ).dialog({
         open: function(event, ui){ 
             $(this).removeClass("ui-dialog");
             $(this).parent().children().children('.ui-dialog-titlebar-close').addClass("small");
@@ -42,52 +42,52 @@
         "#{I18n.t(:save)}": {
                         text: "#{I18n.t(:save)}",
                         click: function() {
-                              var col_id = $("#idselect").val(), 
-                              title = $("#collectiontitle").val(),
-                              description = $("#description").val(),
-                              public = $("#public").val(),
-                              new_col = $("#new").val();
+                              var col_id = $("#idselect_#{@number}").val(), 
+                              title = $("#collectiontitle_#{@number}").val(),
+                              description = $("#description_#{@number}").val(),
+                              public = $("#public_#{@number}").val(),
+                              new_col = $("#new_#{@number}").val();
                               if(new_col == 'off'){
                                 $.ajax({type: "GET", 
                                        url: "/add_book?col_id=" + col_id +"&vol_id=" + "#{@addbookvol}", 
                                        dataType: "script",
                                        success: function(data){
-                                           $( "#confirmation" ).dialog( "open" );
+                                           $( "#confirmation_#{@number}" ).dialog( "open" );
                                        }
                                        });
                                 $(this).dialog("close");
                               }else{
                                 if(title.trim().length == 0){
-                                  $("#error").show();
+                                  $("#error_#{@number}").show();
                                 }else{
                                    $.ajax({type: "GET", 
                                        url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&public=" + escape(public) + "&vol_id=" + "#{@addbookvol}", 
                                        dataType: "script",
                                         success: function(data){
-                                           $( "#confirmation" ).dialog( "open" );
+                                           $( "#confirmation_#{@number}" ).dialog( "open" );
                                        }
                                        }) ;
                                    $(this).dialog("close");
-                                   $("#error").hide();
+                                   $("#error_#{@number}").hide();
                                 }
                               }
                              }}, 
-        "#{I18n.t(:cancel)}": function() {$(this).dialog("close");$("#error").hide();}
+        "#{I18n.t(:cancel)}": function() {$(this).dialog("close");$("#error_#{@number}").hide();}
       } 
     });
     $('#{I18n.t(:save)}').removeClass('ui-state-hover');
-    $( "#opener#{@number}" ).click(function() {
+    $( "#opener_#{@number}" ).click(function() {
       var buttons = $('.ui-dialog-buttonset').children('button');
       buttons.removeClass("ui-state-hover").removeClass("ui-satate-focus").
       removeClass("ui-button").removeClass("ui-widget").removeClass("ui-state-default").
       addClass("dialogbutton");
       $('.ui-dialog-buttonpane').children('button').removeClass();
         
-      if(document.getElementById("new") != null){
-        document.getElementById("new").checked = false;
+      if(document.getElementById("new_#{@number}") != null){
+        document.getElementById("new_#{@number}").checked = false;
       }
-      if(document.getElementById("public") != null){
-        document.getElementById("public").checked = false;
+      if(document.getElementById("public_#{@number}") != null){
+        document.getElementById("public_#{@number}").checked = false;
       }
       var xmlhttp;
       if (window.XMLHttpRequest){ 
@@ -103,7 +103,7 @@
           document.getElementById("dialog_#{@number}").innerHTML=xmlhttp.responseText;
         }
       }
-      xmlhttp.open("GET","/dialog_content?vol_jobid=#{@addbookvol}",true);
+      xmlhttp.open("GET","/dialog_content?vol_jobid=#{@addbookvol}&number=#{@number}",true);
       xmlhttp.send();
       
       $( "#dialog_#{@number}" ).dialog( "open" );
@@ -112,12 +112,12 @@
   });    
 -# TODO style fixing 
 #dialog{ :style => "display: none;",  id: "#{@number}" }
-#confirmation{ :style => "display: none;"}
+#confirmation{:id => "#{@number}", :style => "display: none;"}
   %h4
     ="#{I18n.t(:book_added_to_collection)}"
 -# TODO style fixing 
 #button
   - if @place == "details" || @place == "read"
-    %input{type: "button", class:"addbookdetails", id: "opener#{@number}", value: "#{I18n.t(:add_to_collection)}"}
+    %input{type: "button", class:"addbookdetails", id: "opener_#{@number}", value: "#{I18n.t(:add_to_collection)}"}
   - elsif @place == "list"
-    %input{type: "image", alt: "#{I18n.t(:add_to_collection)}", title: "#{I18n.t(:add_to_collection)}", src: "/images_#{I18n.locale}/add.png", class: "addbooklist", id: "opener#{@number}", value: "#{I18n.t(:add_to_collection)}"}
+    %input{type: "image", alt: "#{I18n.t(:add_to_collection)}", title: "#{I18n.t(:add_to_collection)}", src: "/images_#{I18n.locale}/add.png", class: "addbooklist", id: "opener_#{@number}", value: "#{I18n.t(:add_to_collection)}"}

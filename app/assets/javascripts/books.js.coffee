@@ -5,4 +5,4 @@
 # CoffeeScript
 $(document).ready ->
   jQuery ($) ->
-    $('.tooltip').tooltipster({ interactive: true, fixedWidth: 280})
+    $('.tooltipname').tooltipster({ interactive: true, fixedWidth: 280})

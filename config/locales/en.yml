@@ -47,20 +47,8 @@ en:
   authors_caps: "AUTHORS"
   regional_affiliation_caps: "REGIONAL AFFILIATION"
   genre_caps: "GENRE"
-  brief: 'Brief'
-  mods: 'MODS'
-  read: 'read'
-  bibtex: 'BibTex'
-  endnote: 'EndNote'
-  book_title_title: 'Title'
-  book_author_title: 'Author/Creator'
-  book_publish_place_title: 'Publish Place'
-  book_subject_title: 'Genre'
-  book_date_title: 'Date'
-  book_publish_title: 'Publication info'
-  book_language_title: 'Language'
-  book_name_title: 'Tagged Species'
-  book_location_title: 'Regional Affiliation'
+
+  
   blue_pin: 'Blue Pin'
   green_pin: 'Green Pin'
   yellow_pin: 'Yellow Pin'
@@ -82,17 +70,14 @@ en:
   profile_tab: "profile"
   
   books_found:
-    zero:  "Found in no books"
+    zero:  ""
     one:   "Found in one book"
     other: "Found in %{count} books"
   books_found_all: "Found %{count} books"
   
   tree_of_life_title: 'Tree of Life'
   species_details: 'Species Details'
-  name_found_in_books:
-    zero:  "Found in no books"
-    one:   "Found in one book"
-    other: "Found in %{count} books"
+  
   select_species_for_details: "Select species on the left to view the details"
   username: "Username"
   sign_up: "Sign up"
@@ -336,6 +321,11 @@ en:
   copyright_statement: Copyright © Bibliotheca Alexandrina
   
   #Browse books
+  no_books_found: No Books Found
+  name_found_in_books:
+    zero:  ""
+    one:   "Found in one book"
+    other: "Found in %{count} books"
   sidelinks_read: Read
   sidelinks_detail: Details
   sidelinks_view_collections: Collections
@@ -362,9 +352,21 @@ en:
   book_details_mods: MODs
   book_details_bibtex: BibTeX
   book_details_endnote: EndNote
+  book_details_tools: Tools
   book_details_read: Read
   book_details_details: Details
   books_details_add_collection: Add to Collection
   book_details_one_collection: Collection
   book_details_collections: Collections
-  book_already_exists_in_collection: Book is already exists in this collection 
+  book_already_exists_in_collection: Book is already exists in this collection
+  book_details_found_collections: Found in Collections
+  book_details_found_user_viewed: User also Viewed 
+  book_title_title: 'Title'
+  book_author_title: 'Author/Creator'
+  book_publish_place_title: 'Publish Place'
+  book_subject_title: 'Genre'
+  book_date_title: 'Date'
+  book_publish_title: 'Publication info'
+  book_language_title: 'Language'
+  book_name_title: 'Tagged Species'
+  book_location_title: 'Regional Affiliation'
