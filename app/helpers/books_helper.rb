@@ -16,7 +16,8 @@ module BooksHelper
   
   def item_count (type, item)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    search = rsolr.select :params => { :q => type + ":" + item}
+    #Added double quotes over item to handle special characters like "[" and "]"
+    search = rsolr.select :params => { :q => type + ":" + "\"#{item}\""}
     search['response']['numFound']
   end
   
@@ -290,10 +291,11 @@ module BooksHelper
   
   # add sort option to params
   def search_sort(params, sort_type)
-    params[:sort_type] = sort_type
-    params[:controller] = nil
-    params[:action] = nil
-    params
+    tmp_params = params.clone
+    tmp_params[:sort_type] = sort_type
+    tmp_params[:controller] = nil
+    tmp_params[:action] = nil
+    tmp_params
   end
 
   def generateHRef(pageNumber, params)
