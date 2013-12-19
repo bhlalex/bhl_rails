@@ -317,19 +317,50 @@ module BooksHelper
     
 def related_books(volume_id)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
+    #origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
+    origin_book_names=  Name.find_by_sql("
+        SELECT names.*, COUNT(page_names.name_id) as count
+                  FROM names
+                    INNER JOIN page_names ON (page_names.name_id = names.id)
+                    INNER JOIN pages ON(page_names.page_id = pages.id)
+                    INNER JOIN volumes ON (volumes.id = pages.volume_id)
+                    WHERE volumes.job_id = #{volume_id}
+                    GROUP BY name_id 
+                    ORDER BY count DESC
+                    LIMIT 0,#{MAX_NAMES_PER_BOOK}
+      ")
     return_field = "vol_jobid,bok_title,name"
-    query = "bok_title:(#{Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).title})"
-    if ((origin_book_names != nil) && ((origin_book_names['response']!=nil)) && (origin_book_names['response']['docs']!=nil)  && (origin_book_names['response']['docs'][0]!=nil) && origin_book_names['response']['docs'][0]['name'] != nil && origin_book_names['response']['docs'][0]['name'].any?)
+    book_title = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).title
+    book_title = book_title.gsub(/\s+/) {" AND "} if book_title.split(" ").length > 1
+    query = "bok_title:(#{book_title})"
+    if ((origin_book_names != nil) && (origin_book_names.count > 0))
       query+= " OR name:("
-      origin_book_names['response']['docs'][0]['name'].each do |name|
-        query+= "#{name} OR "
+      origin_book_names.each do |name|
+        if name.string!=nil
+          name.string = name.string.gsub(/\s+/) {" AND "} if name.string.split(" ").length > 1
+          query+= "(#{name.string}) OR " 
+        end
       end
      query = query[0,query.length-4]
      query+= ")"
   end
      response = rsolr.find :q => query, :fl => return_field
+end
+
+  def also_viewed_ids(id, limit)
+    ids = BookView.find_by_sql("SELECT result.rel_id, COUNT(*) as total_count
+                            FROM (
+                                (SELECT book_id1 AS rel_id 
+                                FROM book_views
+                                WHERE book_id2 = #{id})
+                                UNION(SELECT book_id2 AS rel_id
+                                FROM book_views
+                                WHERE book_id1 = #{id})
+                            ) result
+                            GROUP BY result.rel_id ORDER BY total_count DESC
+                            LIMIT 0, #{limit};")
   end
+  
   def fill_carousel_array(response, id)
     total_array = []
     response['response']['docs'].each do |doc|
