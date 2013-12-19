@@ -41,6 +41,7 @@ Bhl::Application.routes.draw do
   match "/get_detailed_rate" => "books#get_detailed_rate"
   # match "get_collections" => "books#get_collections"
   match "get_carousel" => "books#get_carousel"
+  match "get_comments" => "books#get_comments"
   
   
   resources :ubio, only: [:index]
@@ -74,6 +75,9 @@ Bhl::Application.routes.draw do
   match "/pages/send_message" => "pages#send_message"
   get   "pages/about"
   
+  match "browse/:type" => "browse#show"
+  match "browse/:type/:char" => "browse#show" 
+
   get   "geographics/index"
   match "/geographics/show/:id" => "geographics#show"
   match "/geographics/index/:range" => "geographics#index"

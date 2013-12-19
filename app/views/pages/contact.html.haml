@@ -17,7 +17,7 @@
       %li
         = f.label :message, raw(t('text')), :class => 'required'
       %li
-        = f.text_area :message
+        = f.text_area :message , :rows => 6
       - if @verify_captcha
         %li
           = f.label :recaptcha, raw(t('recaptcha')), :class => 'required'

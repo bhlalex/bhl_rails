@@ -1,0 +1,64 @@
+- if (@comments != nil && @comments.count > 0)
+  - @comments.each do |comment|
+    - @owner_of_comment = User.find(comment.user_id)
+    - if(!(@owner_of_comment.nil?) && (@owner_of_comment.photo_name.blank?))
+      - thumb = "/images_#{I18n.locale}/defaultUser.jpeg"
+    - else
+      - thumb = @owner_of_comment.photo_name_url(:thumb)
+    .col-md-3.column
+      .media
+        %div.text-dimmed{:style => get_class_for_abuse(comment.number_of_marks), :id => "abuse#{comment.id}"}
+          %small
+            %p #{I18n.t(:hidden_comment_msg)}
+          %a.btn.btn-link.btn-xs{:onclick => "open_comment('#{comment.id}')"} #{I18n.t(:show)} 
+      %div.media{:style => get_class_for_comment(comment.number_of_marks), :id => "comment#{comment.id}"}
+        =link_to  :controller => :users, :action => :show, :id => "#{@owner_of_comment.id}" do
+          %img.media-object.img-circle{:src => "#{thumb}", :width => 60, :class => "pull-left"}
+        .media-body
+          %h4.media-heading
+            = link_to @owner_of_comment.real_name.html_safe , 
+            {:controller => :users, :action => :show, :id => @owner_of_comment.id}
+          %p
+            = comment.text
+        .well-sm
+          .div.pull-left{:id => "open_replies#{comment.id}"}
+            %a.btn.btn-link.btn-xs{:onclick => "show_replies('#{comment.id}')"} #{I18n.t(:replies)} (#{get_comment_replies_count(comment.id)})
+          %span.text-muted.small.btn-xs
+            %a.cursor{:onclick => "mark_comment('#{comment.id}')"}
+              %i.fa.fa-flag 
+              = I18n.t(:abuse)
+          - if ((@owner_of_comment.id == session[:user_id]) && !(is_comment_has_replies?(comment.id)))
+            %span.text-muted.small.btn-xs
+              = link_to "/comments/delete?id=#{comment.id}" , :onclick => "return confirmDelete()" do
+                %i.fa.fa-trash-o 
+                = I18n.t(:delete)
+          .clearfix
+          .div{:id => "replies#{comment.id}",  :style => "display:none"}
+            - replies = Comment.where(:comment_id => comment.id)
+            - replies.each do |reply|
+              - owner_of_reply = User.find(reply.user_id)
+              .well-sm.small
+                %div.text-dimmed{:style => get_class_for_abuse(reply.number_of_marks), :id => "abuse#{reply.id}"}
+                  %small
+                    %p #{I18n.t(:hidden_comment_msg)}
+                  %a.btn.btn-link.btn-xs{:onclick => "open_comment('#{reply.id}')"} #{I18n.t(:show)} 
+                %div{:style => get_class_for_comment(reply.number_of_marks), :id => "comment#{reply.id}"}
+                  %i 
+                    =link_to owner_of_reply.real_name, {:controller => :users, :action => :show, :id => "#{owner_of_reply.id}" }
+                  %p
+                    = reply.text
+                  %span.text-muted.small.btn-xs
+                    %a.cursor{:onclick => "mark_comment('#{reply.id}')"}
+                      %i.fa.fa-flag
+                      = I18n.t(:abuse)
+                  - if ((owner_of_reply.id == session[:user_id]) )
+                    %span.text-muted.small.btn-xs
+                      = link_to "/comments/delete?id=#{reply.id}" , :onclick => "return confirmDelete()" do
+                        %i.fa.fa-trash-o
+                        = I18n.t(:delete)
+          .div{:id => "open_reply#{comment.id}",  :style => "display:none"}
+            - if logged_in?
+              = render :partial => "comments/new_comment",:locals => {:comment_id => comment.id}
+          .div{:id => "reply#{comment.id}"}
+            %button.btn.btn-sm.pull-right.btn-default{:onclick => "show_reply('#{comment.id}')"} #{I18n.t(:reply)}
+

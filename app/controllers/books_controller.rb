@@ -34,7 +34,8 @@ class BooksController < ApplicationController
 end
   
   def show
-    @comments_replies_list = get_comments( "volume", nil, params[:id])
+    @volume_id = Volume.find_by_job_id(params[:id]).id
+
     @comment = Comment.new
     
     #Save old and new books ids for "user_also_viewed" feature
@@ -192,6 +193,24 @@ end
       format.html {render :partial => "books/detailed_rate"}
     end
   end
+  
+  def get_comments
+    @comment = Comment.new
+    start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
+    limit = LIMIT_BOOK_COMMENTS
+    @comments = Comment.find_by_sql("SELECT * 
+                                              FROM comments 
+                                             WHERE comments.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
+                                              AND comments.comment_id IS NULL
+                                              ORDER BY comments.created_at
+                                              LIMIT #{start}, #{limit}")
+    #render :partial => "get_collections" 
+    # render :layout => 'main' # this is a blank layout as I don't need any layout in this action
+    respond_to do |format|
+      format.html {render :partial => "books/get_comments"}
+    end
+  end
+
   private
     def save_user_history(params)
       user = User.find_by_id(session[:user_id])
@@ -281,33 +300,33 @@ end
       end
       total_array
     end
-  def get_solr_related(id)
-    rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      #origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
-      origin_book_names=  Name.find_by_sql("
-          SELECT names.*, COUNT(page_names.name_id) as count
-                    FROM names
-                      INNER JOIN page_names ON (page_names.name_id = names.id)
-                      INNER JOIN pages ON(page_names.page_id = pages.id)
-                      INNER JOIN volumes ON (volumes.id = pages.volume_id)
-                      WHERE volumes.job_id = #{id}
-                      GROUP BY name_id 
-                      ORDER BY count DESC
-                      LIMIT 0,#{MAX_NAMES_PER_BOOK}
-        ")
-      book_title = Book.find_by_id(Volume.find_by_job_id(id).book_id).title
-      book_title = book_title.gsub(/\s+/) {" \" AND \" "} if book_title.split(" ").length > 1
-      query = "bok_title:(\"#{book_title}\")"
-      if ((origin_book_names != nil) && (origin_book_names.count > 0))
-        query+= " OR name:(\""
-        origin_book_names.each do |name|
-          if name.string!=nil
-            name.string = name.string.gsub(/\s+/) {" \" AND \" "} if name.string.split(" ").length > 1
-            query+= "(#{name.string}) \" OR \" " 
+    def get_solr_related(id)
+      rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
+        #origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
+        origin_book_names=  Name.find_by_sql("
+            SELECT names.*, COUNT(page_names.name_id) as count
+                      FROM names
+                        INNER JOIN page_names ON (page_names.name_id = names.id)
+                        INNER JOIN pages ON(page_names.page_id = pages.id)
+                        INNER JOIN volumes ON (volumes.id = pages.volume_id)
+                        WHERE volumes.job_id = #{id}
+                        GROUP BY name_id 
+                        ORDER BY count DESC
+                        LIMIT 0,#{MAX_NAMES_PER_BOOK}
+          ")
+        book_title = Book.find_by_id(Volume.find_by_job_id(id).book_id).title
+        book_title = book_title.gsub(/\s+/) {" \" AND \" "} if book_title.split(" ").length > 1
+        query = "bok_title:(\"#{book_title}\")"
+        if ((origin_book_names != nil) && (origin_book_names.count > 0))
+          query+= " OR name:(\""
+          origin_book_names.each do |name|
+            if name.string!=nil
+              name.string = name.string.gsub(/\s+/) {" \" AND \" "} if name.string.split(" ").length > 1
+              query+= "(#{name.string}) \" OR \" " 
+            end
           end
+          query = query[0,query.length-7] #-7 to remove "Last OR and double quotes"
+          query+= "\")"
         end
-        query = query[0,query.length-7] #-7 to remove "Last OR and double quotes"
-        query+= "\")"
-      end
   end
 end
