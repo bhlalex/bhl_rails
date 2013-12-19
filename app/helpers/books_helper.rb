@@ -341,7 +341,7 @@ def related_books(volume_id)
           query+= "(#{name.string}) \" OR \" " 
         end
       end
-     query = query[0,query.length-4]
+     query = query[0,query.length-7] #-7 to remove "Last OR and double quotes"
      query+= "\")"
   end
      response = rsolr.find :q => query, :fl => return_field
