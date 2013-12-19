@@ -16,7 +16,8 @@ module BooksHelper
   
   def item_count (type, item)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    search = rsolr.select :params => { :q => type + ":" + item}
+    #Added double quotes over item to handle special characters like "[" and "]"
+    search = rsolr.select :params => { :q => type + ":" + "\"#{item}\""}
     search['response']['numFound']
   end
   
@@ -331,18 +332,18 @@ def related_books(volume_id)
       ")
     return_field = "vol_jobid,bok_title,name"
     book_title = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id).title
-    book_title = book_title.gsub(/\s+/) {" AND "} if book_title.split(" ").length > 1
-    query = "bok_title:(#{book_title})"
+    book_title = book_title.gsub(/\s+/) {" \" AND \" "} if book_title.split(" ").length > 1
+    query = "bok_title:(\"#{book_title}\")"
     if ((origin_book_names != nil) && (origin_book_names.count > 0))
-      query+= " OR name:("
+      query+= " OR name:(\""
       origin_book_names.each do |name|
         if name.string!=nil
-          name.string = name.string.gsub(/\s+/) {" AND "} if name.string.split(" ").length > 1
-          query+= "(#{name.string}) OR " 
+          name.string = name.string.gsub(/\s+/) {" \" AND \" "} if name.string.split(" ").length > 1
+          query+= "(#{name.string}) \" OR \" " 
         end
       end
-     query = query[0,query.length-4]
-     query+= ")"
+     query = query[0,query.length-7] #-7 to remove "Last OR and double quotes"
+     query+= "\")"
   end
      response = rsolr.find :q => query, :fl => return_field
 end
