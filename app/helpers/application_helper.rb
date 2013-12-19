@@ -144,17 +144,17 @@ module ApplicationHelper
 
   def get_class_for_abuse(abuse)
     if(abuse >= MAX_NO_ABUSE)
-      "active"
+      ""
     else
-      "hidden"
+      "display:none"
     end
   end
 
   def get_class_for_comment(abuse)
     if(abuse >= MAX_NO_ABUSE)
-      "hidden"
+      "display:none"
     else
-      "active"
+      ""
     end
   end
 

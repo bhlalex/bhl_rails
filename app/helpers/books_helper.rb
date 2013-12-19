@@ -290,10 +290,12 @@ module BooksHelper
   
   # add sort option to params
   def search_sort(params, sort_type)
-    params[:sort_type] = sort_type
-    params[:controller] = nil
-    params[:action] = nil
-    params
+    tmp_params = params.clone
+    controller = params[:controller]
+    tmp_params[:controller] = nil
+    tmp_params[:sort_type] = sort_type
+    tmp_params[:action] = nil
+    tmp_params
   end
 
   def generateHRef(pageNumber, params)
@@ -415,5 +417,18 @@ end
     solr.update :data => solr.xml.add(doc)
     solr.commit
     solr.optimize
+  end
+  
+  def get_book_comments_count(vol_id)
+  total_number_of_comments = Comment.count_by_sql("SELECT count(*) 
+                                               FROM comments 
+                                               WHERE comments.volume_id=#{Volume.find_by_job_id(vol_id).id} 
+                                               AND comments.comment_id IS NULL" )
+  end
+  
+  def get_comment_replies_count(comment_id)
+    total_number_of_replies = Comment.count_by_sql("SELECT count(*) 
+                                                 FROM comments 
+                                                 WHERE comments.comment_id=#{comment_id}")
   end
 end

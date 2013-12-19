@@ -34,8 +34,8 @@ end
   
   def show
     @volume_id = Volume.find_by_job_id(params[:id]).id
-    #@collection_id = nil
-    @comments_replies_list = get_comments( "volume", nil, params[:id])
+      # books comments 
+    #@comments_replies_list = get_comments( "volume", nil, params[:id])
     @comment = Comment.new
     
     if(session[:book_id] != nil && session[:book_id] != params[:id].to_i)
@@ -124,6 +124,27 @@ end
     end
   end
   
+  
+def get_comments
+  @comment = Comment.new
+  start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
+  limit = LIMIT_BOOK_COMMENTS
+  @comments = Comment.find_by_sql("SELECT * 
+                                            FROM comments 
+                                           WHERE comments.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
+                                            AND comments.comment_id IS NULL
+                                            ORDER BY comments.created_at
+                                            LIMIT #{start}, #{limit}")
+  #render :partial => "get_collections" 
+  # render :layout => 'main' # this is a blank layout as I don't need any layout in this action
+  respond_to do |format|
+    format.html {render :partial => "books/get_comments"}
+  end
+end
+
+
+
+
   private
     def save_user_history(params)
       user = User.find_by_id(session[:user_id])

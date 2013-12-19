@@ -303,6 +303,18 @@ en:
   names_link: Names
   geographics_link: Geographics
   collections_link: Collections
+  write_review: Write a review
+  reviews: Reviews
+  replies: Replies
+  reply: Reply
+  older: Older
+  newer: Newer
+  reply_here: write here...
+  post: Post
+  abuse: Report
+  create_comment: Create Comment
+  show: Show
+  
   
   #Header#search fields
   option_all: All Categories
