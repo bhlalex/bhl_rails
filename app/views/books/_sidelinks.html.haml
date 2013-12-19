@@ -31,9 +31,8 @@
         - @addbookvol = @vol[:job_id]  
         =render :partial => "books/add_book"
 .rate
-  - if !@vol.rate.nil? && @vol.rate != 0.0
-    - rate = @vol.rate * 4
-    .starsidelink{:id => "starsidelink_#{@vol[:job_id]}", :data => "#{rate}"}
+  - if @doc['rate'] != 0.0
+    .starsidelink{:id => "starsidelink_#{@doc['vol_jobid']}", :data => "#{@doc['rate']}"}
   %span.text-muted.pull-right
     %small
       ="#{pluralize(@doc[:views], I18n.t(:sidelinks_views))} "

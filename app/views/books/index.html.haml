@@ -1,35 +1,38 @@
 - content_for :head do
   = stylesheet_link_tag 'jquery/themes/jquery-ui1.10.3-smoothness' #For add book to collection
-  
-- if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*") and (@is_saved == nil))
-  = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => parse_url_params(@url_params), :user_id => session[:user_id]}, :class => "search"
+= javascript_include_tag 'application'
+= javascript_include_tag 'jquery/jquery.tooltipster.min'
 
-.col-md-8.breadcrumb
-  =render :partial => "books/breadcrumb"
-.col-md-4.sidebar-offcanvas.pull-right
-  =render :partial => "books/right_column"
-- if (@response != '' && @response['response']['numFound'] > 0)
-  - @number = 0
-  - @response['response']['docs'].each do |doc|
-    - @number = @number + 1
-    - @id = doc['vol_jobid']
-    - @vol = Volume.find_by_job_id(doc['vol_jobid'])
-    - if (@vol != nil)
-      - @highlight = @response['highlighting'][@id.to_s]
-      - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
-      - thumb = ''
-      - if(@vol[:get_thumbnail_fail] == 0)
-        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-      - else
-        - @thumb = "images_#{I18n.locale}/book_thumb.png"
-      - @doc = doc
-      =render :partial => "books/listresult"
-  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-    .col-md-8
-      .pagination-centered
-        - @pages = adjustPaging(@page, @lastPage)
-        = render :partial => "books/paging"
-- else
-  .well-sm.center-block
-    %h2
-      =I18n.t(:no_books_found)
+.row.clearfix  
+  - if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*") and (@is_saved == nil))
+    = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => parse_url_params(@url_params), :user_id => session[:user_id]}, :class => "search"
+  
+  .col-md-8.breadcrumb
+    =render :partial => "books/breadcrumb"
+  .col-md-4.sidebar-offcanvas.pull-right
+    =render :partial => "books/right_column"
+  - if (@response != '' && @response['response']['numFound'] > 0)
+    - @number = 0
+    - @response['response']['docs'].each do |doc|
+      - @number = @number + 1
+      - @id = doc['vol_jobid']
+      - @vol = Volume.find_by_job_id(doc['vol_jobid'])
+      - if (@vol != nil)
+        - @highlight = @response['highlighting'][@id.to_s]
+        - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
+        - thumb = ''
+        - if(@vol[:get_thumbnail_fail] == 0)
+          - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+        - else
+          - @thumb = "images_#{I18n.locale}/book_thumb.png"
+        - @doc = doc
+        =render :partial => "books/listresult"
+    - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+      .col-md-8
+        .pagination-centered
+          - @pages = adjustPaging(@page, @lastPage)
+          = render :partial => "books/paging"
+  - else
+    .well-sm.center-block
+      %h2
+        =I18n.t(:no_books_found)

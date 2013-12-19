@@ -24,7 +24,7 @@ class Volume < ActiveRecord::Base
     total = rate1_count+ rate2_count+ rate3_count+ rate4_count+ rate5_count
     
     average_numerator = (rate1_count*1)+(rate2_count*2)+(rate3_count*3)+(rate4_count*4)+(rate5_count*5)
-    average = average_numerator.to_f/total.to_f
+    average = total != 0 ? average_numerator.to_f/total.to_f : 0.0
     self.rate = average
     self.save
     self

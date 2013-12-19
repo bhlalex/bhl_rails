@@ -1,0 +1,135 @@
+= stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
+
+:javascript
+  $(document).ready(function(){
+    $('.tooltiplogin').tooltipster({ interactive: true, fixedWidth: 280});
+    updatedetailedrate();
+    $(".userrate").jRating({
+      isDisabled: false,
+      canRateAgain : true,
+      nbRates : 100,
+      step: true,
+      phpPath : "../rating?user=#{session[:guid]}&jobid=#{params[:id]}",
+      onSuccess: function(){
+        updatedetailedrate();
+      }
+    });
+    $(".averagerate").jRating({
+      isDisabled : true
+    });
+  });
+  function updateStaticStars(){
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+      {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+      }
+    else
+      {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    xmlhttp.onreadystatechange=function()
+      {
+      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+        document.getElementById("rate").innerHTML=xmlhttp.responseText;
+        }
+      }
+    xmlhttp.open("GET","/get_volume_rate",true);
+    xmlhttp.send();
+  }
+  function updatedetailedrate(){
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+      {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+      }
+    else
+      {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    xmlhttp.onreadystatechange=function()
+      {
+      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+        document.getElementById("detailedrate").innerHTML=xmlhttp.responseText;
+        }
+      }
+    xmlhttp.open("GET","/get_detailed_rate?jobid=#{params[:id]}",true);
+    xmlhttp.send();
+  }
+  function loadformats(format, content){
+    $("#modallabel").html(format);
+    $("#modalcontent").html(content);
+  }
+  
+.col-md-4.pull-right.sidebar-offcanvas
+  .spacing-left.list-group
+    .list-group-item.default
+      =I18n.t(:book_details_tools)
+    .list-group-item
+      %ul.fa-ul.tools
+        %li
+          %i.fa.fa-li.fa-book
+          %small
+            =link_to I18n.t(:book_details_read), "/books/#{params[:id]}/read"
+        %li
+          %i.fa.fa-li.fa-info
+          %small
+            =link_to I18n.t(:book_details_details), "/books/#{params[:id]}"
+        - if logged_in?
+          %li
+            %i.fa.fa-li.fa-plus-square
+            %small
+              - @number = "1"  
+              %a{:href => "#", :id => "opener_#{@number}"}
+                =I18n.t(:books_details_add_collection)
+              - @addbookvol = params[:id]  
+              =render :partial => "books/add_book"
+    .list-group-item
+      #averagerate.rate
+        .averagerate{:style => "float: right", :data => "#{@volume.rate}"}
+        %span.text-muted
+          =I18n.t(:book_details_average_rate)
+      
+      #detailedrate.rate
+      .rate
+        - if logged_in?
+          .userrate{:style => "float: right", :data => "#{@user_rate}"}
+        - else
+          %a.tooltipname{:style => "float: right", :title =>"#{I18n.t(:books_details_pleaselogintorate)}", :href => "../users/login"}
+            %img{:src => "/images_#{I18n.locale}/stars.png"}
+            %img{:src => "/images_#{I18n.locale}/stars.png"}
+            %img{:src => "/images_#{I18n.locale}/stars.png"}
+            %img{:src => "/images_#{I18n.locale}/stars.png"}
+            %img{:src => "/images_#{I18n.locale}/stars.png"}
+        %span.text-muted
+          =I18n.t(:book_details_user_rate)
+    .list-group-item
+      %span.badge.badge-success 
+        ="#{@collections_count[0].total}"
+      - if(@collections_count[0].total == 1)
+        %a{:href => "#collectionsfound"}
+          =I18n.t(:book_details_one_collection)
+      - else
+        %a{:href => "#collectionsfound"}
+          =I18n.t(:book_details_collections) 
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}', '#{get_format(params[:id], 'mods')}');"}
+      %i.fa.fa-angle-double-right
+      = I18n.t(:book_details_mods)
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_bibtex)}', '#{get_format(params[:id], 'bibtex')}');"}
+      %i.fa.fa-angle-double-right
+      = I18n.t(:book_details_bibtex)
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}', htmlEncode('#{get_format(params[:id], 'endnote')}'));"}
+      %i.fa.fa-angle-double-right
+      = I18n.t(:book_details_endnote)
+      
+  #modal-container.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog"}
+    .modal-dialog
+      .modal-content
+        .modal-header
+          %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", type: "button"} 
+            ×
+          %h4#modallabel.modal-title
+        #modalcontent.modal-body

@@ -1,0 +1,4 @@
+- 5.downto(1) do |n|
+  ="#{pluralize(n.to_i, I18n.t(:book_details_star))}"
+  ="(#{@rate_array[n-1]})"
+  %br

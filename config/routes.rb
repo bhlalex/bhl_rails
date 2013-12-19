@@ -2,6 +2,7 @@ Bhl::Application.routes.draw do
   resources :log_activities, only: [:index]
   get  "log_activities/index"
   get  "log_activities/user_activities"
+  
   resources :comments, only: [:create]
   match "comments/create" => "comments#create"
   match "comments/index" => "comments#index"
@@ -14,6 +15,7 @@ Bhl::Application.routes.draw do
   match "/user_search_history/save_query/" => "user_search_history#save_query"
   match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
   resources :user_search_history, only: [:save_query, :delete_query]
+  
   resources :collections, only: [:index]
   match "/collections/destroy_collection/:id" => "collections#destroy_collection"
   match "/collections/edit/:id" => "collections#edit"
@@ -27,15 +29,26 @@ Bhl::Application.routes.draw do
   resources :collections
   get "collections/add_book"
   match "add_book" => "collections#add_book"
-
+  
   resources :books, only: [:index, :show]
+  #match "books/:id" => "books#show"
+  #match "books/:id/:tab" => "books#show"  
+  match "/autocomplete" => "books#autocomplete"
   match "/books/:id" => "books#show"
   match "/books/:id/:tab" => "books#show"
+  match "/rating" => "books#rating"
+  match "/get_volume_rate" => "books#get_volume_rate"
+  match "/get_detailed_rate" => "books#get_detailed_rate"
+  # match "get_collections" => "books#get_collections"
+  match "get_carousel" => "books#get_carousel"
+  
   
   resources :ubio, only: [:index]
   
   match "browse/:type" => "browse#show"
   match "browse/:type/:char" => "browse#show" 
+  match "browse/:type" => "browse#show"
+  match "browse/:type/:char" => "browse#show"
   
   resources :users, only: [:new, :create, :update, :edit]
   get   "users/logout"
@@ -60,14 +73,6 @@ Bhl::Application.routes.draw do
   get   "pages/contact"
   match "/pages/send_message" => "pages#send_message"
   get   "pages/about"
-  
-  match "browse/:type" => "browse#show"
-  match "browse/:type/:char" => "browse#show" 
-  
-  match "/autocomplete" => "books#autocomplete"
-  match "/books/:id" => "books#show"
-  match "/books/:id/:tab" => "books#show"
-  # match "get_collections" => "books#get_collections"
   
   get   "geographics/index"
   match "/geographics/show/:id" => "geographics#show"

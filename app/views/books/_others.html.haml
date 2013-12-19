@@ -1,36 +1,71 @@
+:javascript
+  var collectionsstart = 0, viewsstart = 0, relatedstart = 0;
+  var collectionspages = "#{@collectionspages}", viewspages = "#{@viewspages}", relatedpages = "#{@relatedpages}";
+  $(document).ready(function() {
+    moveItems(2,"viewscarousel");
+    moveItems(2,"collectionscarousel");
+    moveItems(2,"relatedcarousel");
+  });
+  //direction 0 moves left, direction 1 moves right
+  function moveItems(direction, divname){
+    var xmlhttp;
+    if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+    }
+    else{// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById(divname).innerHTML=xmlhttp.responseText;
+      }
+    }
+    var start = 0;
+    if (direction == 0){
+      if("viewscarousel".localeCompare(divname) == 0){
+        viewsstart = viewsstart - 1;
+        xmlhttp.open("GET","/get_carousel?start=" + viewsstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + viewspages,true);
+      }
+      else if("collectionscarousel".localeCompare(divname) == 0){
+        collectionsstart = collectionsstart - 1;
+        xmlhttp.open("GET","/get_carousel?start=" + collectionsstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + collectionspages,true);
+      }
+      else if("relatedcarousel".localeCompare(divname) == 0){
+        relatedstart = relatedstart - 1;
+        xmlhttp.open("GET","/get_carousel?start=" + relatedstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + relatedpages,true);
+      }
+    }
+    else if(direction == 1){
+      if("viewscarousel".localeCompare(divname) == 0){
+        viewsstart = viewsstart + 1;
+        xmlhttp.open("GET","/get_carousel?start=" + viewsstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + viewspages, true);
+      }
+      else if("collectionscarousel".localeCompare(divname) == 0){
+        collectionsstart = collectionsstart + 1;
+        xmlhttp.open("GET","/get_carousel?start=" + collectionsstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + collectionspages, true);
+      }
+      else if("relatedcarousel".localeCompare(divname) == 0){
+        relatedstart = relatedstart + 1;
+        
+        xmlhttp.open("GET","/get_carousel?start=" + relatedstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + relatedpages,true);
+      }
+    }
+    else{
+      if("viewscarousel".localeCompare(divname) == 0){
+        xmlhttp.open("GET","/get_carousel?start=" + viewsstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + viewspages, true);
+      }
+      else if("collectionscarousel".localeCompare(divname) == 0){
+        xmlhttp.open("GET","/get_carousel?start=" + collectionsstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + collectionspages, true);
+      }
+      else if("relatedcarousel".localeCompare(divname) == 0){ 
+        xmlhttp.open("GET","/get_carousel?start=" + relatedstart + "&id=#{params[:id]}" + "&divname=" + divname + "&pages=" + relatedpages,true);
+      }
+    }
+    xmlhttp.send();
+  }
 .col-md-12
-  .col-md-6
-    %a{:id=>"collectionsfound"}
-    %h4 
-      =I18n.t(:book_details_found_collections)
-    - if (@collections != nil && @collections.count > 0)
-      - @total_array = @collections
-      - @divname = "collections"
-      - @controller = "collections"
-      - @action = "show"
-      - @default_img = "nocollection.png"
-      =render :partial => "books/carousel"
-      
-  .col-md-6
-    %h4 
-      =I18n.t(:book_details_found_user_viewed)
-    - if (@also_viewed_books != nil && @also_viewed_books.count > 0)
-      - @total_array = @also_viewed_books 
-      - @divname = "alsoviewed"
-      - @controller = "books"
-      - @action = "show"
-      - @default_img = "nocollection.png"
-      =render :partial => "books/carousel"
-      
-  .col-md-6
-    %h4
-      = I18n.t(:related_books)
-    - if (!(@related_books.nil? ) && (@related_books['response']['docs'] != '') && (@related_books['response']['numFound'] > 1))
-      - @total_array = fill_carousel_array(@related_books, params[:id])
-      - @divname = "relatedbooks"
-      - @controller = "books"
-      - @action = "show"
-      - @default_img = "book_thumb.png"
-      =render :partial => "books/carousel"
-      
+  %a{:id=>"collectionsfound"}
+  #viewscarousel
+  #collectionscarousel
+  #relatedcarousel
   

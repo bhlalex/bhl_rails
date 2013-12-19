@@ -1,0 +1,11 @@
+= stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
+
+:javascript
+  $(".static").jRating({
+    isDisabled : true
+  });
+.rate
+  .static{:style => "float: right", :data => "5"}
+  %span.text-muted
+    =I18n.t(:book_details_average_rate)

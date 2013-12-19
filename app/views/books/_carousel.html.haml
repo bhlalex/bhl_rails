@@ -1,32 +1,23 @@
-.carousel.slide#carousel{:id => "#{@divname}"}
-  - active_array = []
-  - inactive_array = []
-  - index = @total_array.length < LIMIT_BOOK_COLLECTIONS ? @total_array.length : LIMIT_BOOK_COLLECTIONS 
-  - active_array = @total_array[0,index]
-  - inactive_array = @total_array[index,@total_array.length].in_groups_of(LIMIT_BOOK_COLLECTIONS)
-  .carousel-inner
-    .item.active
-      .row
-        - active_array.each do |item|
-          - if(item[:photo_url].blank?)
-            - thumb = "/images_#{I18n.locale}/#{@default_img}"
+- if (@total_array != nil && @total_array.count > 0)
+  .col-md-4
+    %h4 
+      = @carouseltitle
+    %ul.list-group
+      - @total_array.each do |item|
+        %li.list-group-item
+          =link_to item[:title], {:controller => "#{@controller}", :action => "#{@action}", :id => item[:id]}
+      %ul.pager
+        %li
+          - if @start.to_i > 0
+            %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(0, \"#{@divname}\");"}
+              %i.fa.fa-arrow-left
           - else
-            - thumb = item[:photo_url]
-          .col-sm-3
-            =link_to :controller => "#{@controller}", :action => :"#{@action}", :id => "#{item[:id]}" do
-              %img.img-responsive{:src => "#{thumb}"} 
-    - inactive_array.each do |group|
-      .item
-        .row
-          - group.each do |item|
-            - if(!item.nil?)
-              - if(item[:photo_url].blank?)
-                - thumb = "/images_#{I18n.locale}/#{@default_img}"
-              - else
-                - thumb = item[:photo_url]
-              .col-sm-3
-                =link_to :controller => "#{@controller}", :action => :"#{@action}", :id => "#{item[:id]}" do
-                  %img.img-responsive{:src => "#{thumb}"}
-
-    %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel_#{@divname}"} ‹
-    %a.right.carousel-control{"data-slide" => "next", :href => "#carousel_#{@divname}"} ›
+            %a{:style => "cursor: not-allowed; color: #999999;"}
+              %i.fa.fa-arrow-left
+        %li
+          - if (@pages.to_i-1 != @start.to_i)
+            %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(1, \"#{@divname}\");"}
+              %i.fa.fa-arrow-right
+          - else
+            %a{:style => "cursor: not-allowed; color: #999999;"}
+              %i.fa.fa-arrow-right

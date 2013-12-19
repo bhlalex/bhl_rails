@@ -3,8 +3,12 @@
   %meta{:name => "keywords", :content => @meta_keywords}
   %meta{:name => "author", :content => @meta_author}
 
+= javascript_include_tag 'application'
+= javascript_include_tag 'jquery/jquery.tooltipster.min'
+
 .row.clearfix
   = render :partial => "books/details"
+  = render :partial => "books/sidepanel"
 .row.clearfix
   = render :partial => "books/reviews"
 .row.clearfix
