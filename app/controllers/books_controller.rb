@@ -195,7 +195,13 @@ class BooksController < ApplicationController
   end
   
   def get_comments
+    @start = params[:start]
     @comment = Comment.new
+    @total_comments =  Comment.count_by_sql("SELECT count(*) 
+                                                                       FROM comments 
+                                                                       WHERE comments.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
+                                                                        AND comments.comment_id IS NULL" )
+    @total_comments = @total_comments 
     start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
     limit = LIMIT_BOOK_COMMENTS
     @comments = Comment.find_by_sql("SELECT * 
@@ -204,8 +210,6 @@ class BooksController < ApplicationController
                                               AND comments.comment_id IS NULL
                                               ORDER BY comments.created_at
                                               LIMIT #{start}, #{limit}")
-    #render :partial => "get_collections" 
-    # render :layout => 'main' # this is a blank layout as I don't need any layout in this action
     respond_to do |format|
       format.html {render :partial => "books/get_comments"}
     end

@@ -29,32 +29,34 @@ module BooksHelper
   def item_count_format_highlight (type, item, display)
     format = display.html_safe + ' (' + item_count(type, item).to_s + ')'
   end
+  
   def get_format(id, format)
     if format == 'mods'
-        mods = Book.find_by_id(Volume.find_by_job_id(id).book_id).mods
-        mods.slice!(0) if mods[0] == "?" # This should remove leading "?" from mods
-        
-        # this is used to beautify xml display 
-        doc = REXML::Document.new mods
-        out = ""
-        doc.write(out, 1)
-        format = out
-      elsif format == 'bibtex'
-        bibtex = Book.find_by_id(Volume.find_by_job_id(id).book_id).bibtex
-        format = ""
-        if !bibtex.nil?
-          bibtex = bibtex[1..-1] if bibtex[0] == "?"
-          format = bibtex if bibtex
-        end
-      elsif format == 'endnote'
-        endnote = Book.find_by_id(Volume.find_by_job_id(id).book_id).endnote
-        format = ""
-        if !endnote.nil?
-          endnote = endnote[1..-1] if endnote[0] == "?"
-          format = endnote
-        end
-      end  
+      mods = Book.find_by_id(Volume.find_by_job_id(id).book_id).mods
+      mods.slice!(0) if mods[0] == "?" # This should remove leading "?" from mods
+      
+      # this is used to beautify xml display 
+      doc = REXML::Document.new mods
+      out = ""
+      doc.write(out, 1)
+      format = out
+    elsif format == 'bibtex'
+      bibtex = Book.find_by_id(Volume.find_by_job_id(id).book_id).bibtex
+      format = ""
+      if !bibtex.nil?
+        bibtex = bibtex[1..-1] if bibtex[0] == "?"
+        format = bibtex if bibtex
+      end
+    elsif format == 'endnote'
+      endnote = Book.find_by_id(Volume.find_by_job_id(id).book_id).endnote
+      format = ""
+      if !endnote.nil?
+        endnote = endnote[1..-1] if endnote[0] == "?"
+        format = endnote
+      end
+    end
   end
+  
   def book_names (vol_jobid)
     result = []
     names = Name.find_by_sql("
@@ -384,13 +386,7 @@ module BooksHelper
     solr.optimize
   end
   
-  def get_book_comments_count(vol_id)
-  total_number_of_comments = Comment.count_by_sql("SELECT count(*) 
-                                               FROM comments 
-                                               WHERE comments.volume_id=#{Volume.find_by_job_id(vol_id).id} 
-                                               AND comments.comment_id IS NULL" )
-  end
-  
+ 
   def get_comment_replies_count(comment_id)
     total_number_of_replies = Comment.count_by_sql("SELECT count(*) 
                                                  FROM comments 

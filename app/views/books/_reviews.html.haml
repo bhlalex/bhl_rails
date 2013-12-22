@@ -39,7 +39,6 @@
   else if (direction == 2){
     start =start - 1;
     }
-    if( (start == 0) ||((total_number_of_comments != null) && (start * limit < total_number_of_comments.value)  && (start >= 0))){
   var xmlhttp;
   if (window.XMLHttpRequest)
     {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -59,7 +58,7 @@
 
   xmlhttp.open("GET","/get_comments?start=" + start + "&id=#{params[:id]}",true);
   xmlhttp.send();
-  }
+  
   }
     loadXMLDoc(0);
 
@@ -78,15 +77,8 @@
 
 .reviews
   %a#modal-4.btn.btn-primary.btn-sm.pull-right{"data-toggle" => "modal", :href => "#modal-container-4", :onclick => "loadformats('Comment', '');", :role => "button"} Write a review
-  = hidden_field_tag "total_comments", get_book_comments_count(params[:id])
   %h3 
     = I18n.t(:reviews)
   %hr.clearfix
   #reviews
-  .clearfix
-  .clearfix
-    %ul.pager
-      %li.previous
-        %a.btn.btn-sm{:onclick => "loadXMLDoc(2)"} ← #{I18n.t(:older)}
-      %li.next
-        %a.btn.btn-sm{:onclick => "loadXMLDoc(1)"} #{I18n.t(:newer)} →
+ 
