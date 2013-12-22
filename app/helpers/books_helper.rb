@@ -386,13 +386,7 @@ module BooksHelper
     solr.optimize
   end
   
-  def get_book_comments_count(vol_id)
-  total_number_of_comments = Comment.count_by_sql("SELECT count(*) 
-                                               FROM comments 
-                                               WHERE comments.volume_id=#{Volume.find_by_job_id(vol_id).id} 
-                                               AND comments.comment_id IS NULL" )
-  end
-  
+ 
   def get_comment_replies_count(comment_id)
     total_number_of_replies = Comment.count_by_sql("SELECT count(*) 
                                                  FROM comments 
