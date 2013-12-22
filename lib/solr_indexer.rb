@@ -39,7 +39,6 @@ module SOLR
         doc[:bok_publisher] = book.publisher
         doc[:bok_title] = [book.title, book.title_alternative]
         doc[:bok_language] = book.language.name unless book.language.blank?
-        doc[:published_at] = DateTime.now.strftime("%Y-%m-%dT00:00:00Z")
         doc[:vol_name] = volume.name
         doc[:views] = 0
         doc[:rate] = 0

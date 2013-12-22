@@ -8,6 +8,8 @@ module SolrHelper
         field = 'bok_title_ss'
       when 'publisher'
         field = 'bok_publisher_s'
+      when 'published_on'
+        field = 'bok_start_date_s'  
       else
         field = "#{field}_ss"        
       end   
@@ -22,6 +24,8 @@ module SolrHelper
         field = 'bok_title_igss'
       when 'publisher'
         field = 'bok_publisher_igs'
+      when 'published_on'
+        field = 'bok_start_date_igs'  
       else
         field = "#{field}_igss"        
     end   
