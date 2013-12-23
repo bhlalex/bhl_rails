@@ -296,7 +296,6 @@ class UsersController < ApplicationController
     if authenticate_user
       @user = User.find(params[:id])
       user_attr = params[:user]
-       
       if (!(params[:user][:photo_name].nil?))
         file = user_attr[:photo_name].original_filename
         if(file[file.length-5].chr == '.')
@@ -305,10 +304,10 @@ class UsersController < ApplicationController
           user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
         end
       end
-      #    if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
-      #      params[:user][:entered_password] = nil
-      #      params[:user][:entered_password_confirmation] = nil
-      #    end
+#          if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
+#            params[:user][:entered_password] = nil
+#            params[:user][:entered_password_confirmation] = nil
+#          end
       if @user.update_attributes(user_attr)
         if ((params[:delete_photo]))
           delete_user_photo(params[:id])

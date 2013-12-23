@@ -1,17 +1,57 @@
-= javascript_include_tag 'jquery/rating/jRating.jquery.js'
-  
-:javascript 
-  $(document).ready(function() {
-    $("#sort").click(function () {
-      $.ajax({type: "GET", 
-              url: "/books?sort_type=views+desc", 
-              dataType: "html",
-              success: function(data){
-              $('#wrap').html(data);
+:javascript
+  function sort(sort_type, asc, desc, active , not_active){
+    var type = "";
+    if ($('#'+asc).is(':visible')){
+      type = "desc";
+      $('#'+asc).toggle();
+      $('#'+desc).toggle();
+      }
+    else if ($('#'+desc).is(':visible')){
+       type = "asc";
+       }
+    else {
+      if (sort_type == "single_bok_title"){
+        type = "asc";
+        }
+      else{
+        type = "desc";
+        }
+    }
+      var last_sort = window.location.search.substr("");
+      if (last_sort == '')
+            window.location =  window.location.href + "?sort_type=" + sort_type + "+" + type;
+      else if (last_sort.indexOf("sort_type") == -1)
+            window.location =  window.location.href + "&sort_type=" + sort_type + "+" + type;
+      else {
+            var url_params = last_sort.split("&");
+            if (url_params.length == 1)
+            url_params[0] = "?sort_type=" + sort_type + "+" + type;
+            else{
+             for (var i=0;i<url_params.length;i++)
+             {
+             if (i != 0){
+                if ((url_params[i].indexOf("sort_type")) != -1)
+                    url_params[i] = "&sort_type=" + sort_type + "+" + type;
+                else
+                    url_params[i] = "&" + url_params[i];
+                    
+               }
+               else
+               {
+               if ((url_params[i].indexOf("sort_type")) != -1)
+                    url_params[i] = "&sort_type=" + sort_type + "+" + type;
+               }
+               
              }
-      });
-    });
-  });
+            }
+       var href = "";
+      for (var i=0;i<url_params.length;i++)
+         href = href + url_params[i];
+      window.location = location.protocol + '//' + location.host + location.pathname + href;
+  }
+
+
+  }
   
 %small
   - @query_array.each do |key, val|
@@ -22,31 +62,35 @@
           .close
             = link_to :params => removeBreadCrumb(@url_params, key, term) do
               ="&times;".html_safe
+
+- if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*"))
+  .pull-left.savequery
+    = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => parse_url_params(@url_params), :user_id => session[:user_id]}, :class => "btn btn-default btn-sm" 
+
 .clearfix
-.sort.text-muted.pull-right
-  %small
-    = I18n.t(:sort_by)
-    %i.fa.fa-check-square
-      = link_to I18n.t(:viewed), {:params => search_sort(params, "views desc")}
-    %span | 
-    %i.fa.fa-square-o
-      = link_to I18n.t(:rates), {:params => search_sort(params, "rate desc")}
-    %span | 
-    %i.fa.fa-square-o
-      = link_to I18n.t(:title), {:params => search_sort(params, "single_bok_title desc")}
-%br
-%br
-.sort.text-muted.pull-right
-  %small
-    = I18n.t(:sort_by)
-    %i.fa.fa-check-square
-      = link_to I18n.t(:viewed), {:params => search_sort(params, "views asc")}
-    %span | 
-    %i.fa.fa-square-o
-      = link_to I18n.t(:rates), {:params => search_sort(params, "rate asc")}
-    %span | 
-    %i.fa.fa-square-o
-      = link_to I18n.t(:title), {:params => search_sort(params, "single_bok_title asc")}
+.col-md-7.sort.text-muted.pull-right
+  .text-right
+    %small
+      = I18n.t(:sort_by)
+      %i.fa.fa-check-square{:style => get_class_for_sort_option(params[:sort_type],"views"), :id => "views_active"}
+      %i.fa.fa-square-o{:style => get_class_for_active_sort_option(params[:sort_type],"views"),:id => "views_not_active"}
+      %a{:style=> "cursor:pointer;", :onclick => "sort('views','views_asc', 'views_desc','views_active','views_not_active')"} #{I18n.t(:viewed)}
+      %i.fa.fa-arrow-down{:style => get_class_for_sort_option(params[:sort_type],"views desc"), :id => "views_desc"}
+      %i.fa.fa-arrow-up{:style => get_class_for_sort_option(params[:sort_type],"views asc"), :id => "views_asc"}
+      %span |
+      %i.fa.fa-check-square{:style => get_class_for_sort_option(params[:sort_type],"rate"), :id => "rate_active"}
+      %i.fa.fa-square-o{:style => get_class_for_active_sort_option(params[:sort_type],"rate") ,:id => "rate_not_active"}
+      %a{:style=> "cursor:pointer;",:onclick => "sort('rate','rate_asc', 'rate_desc','rate_active','rate_not_active')"} #{I18n.t(:rates)}
+      %i.fa.fa-arrow-down{:style => get_class_for_sort_option(params[:sort_type],"rate desc"), :id => "rate_desc"}
+      %i.fa.fa-arrow-up{:style => get_class_for_sort_option(params[:sort_type],"rate asc"), :id => "rate_asc"}
+      %span |
+      %i.fa.fa-check-square{:style => get_class_for_sort_option(params[:sort_type],"single_bok_title"), :id => "title_active"}
+      %i.fa.fa-square-o{:style => get_class_for_active_sort_option(params[:sort_type],"single_bok_title"),:id => "title_not_active"}
+      %a{:style=> "cursor:pointer;",:onclick => "sort('single_bok_title','title_asc', 'title_desc','title_active','title_not_active')"} #{I18n.t(:title)}
+      %i.fa.fa-arrow-down{:style => get_class_for_sort_option(params[:sort_type],"single_bok_title desc"), :id => "title_desc"}
+      %i.fa.fa-arrow-up{:style => get_class_for_sort_option(params[:sort_type],"single_bok_title asc"), :id => "title_asc"}
+
+
 
 %h4.text-muted
   - if(@query != "*:*")

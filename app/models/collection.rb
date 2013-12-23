@@ -12,6 +12,7 @@ class Collection < ActiveRecord::Base
   validates :title, :presence => true,
                        :length => {:within => 4..25}
   mount_uploader :photo_name, ImageUploader
+  validate :file_size
   
   def set_rate
     #recalculate rate
@@ -38,4 +39,14 @@ class Collection < ActiveRecord::Base
     self.save
     self
   end
+  
+  private
+  # validate size of uploaded photo for collection
+def file_size
+  if !(photo_name.nil?) && !(photo_name.blank?)
+   if photo_name.file.size.to_f/(1000*1000) > UPLOADED_PHOTO_MAX_SIZE
+    errors.add(:file, "#{I18n.t(:upload_photo_max_size_error)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}")
+  end
+  end
+end
 end

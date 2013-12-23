@@ -24,7 +24,7 @@
           .div.pull-left{:id => "open_replies#{comment.id}"}
             %a.btn.btn-link.btn-xs{:onclick => "show_replies('#{comment.id}')"} #{I18n.t(:replies)} (#{get_comment_replies_count(comment.id)})
           %span.text-muted.small.btn-xs
-            %a.cursor{:onclick => "mark_comment('#{comment.id}')"}
+            %a{:style=> "cursor:pointer;",:onclick => "mark_comment('#{comment.id}')"}
               %i.fa.fa-flag 
               = I18n.t(:abuse)
           - if ((@owner_of_comment.id == session[:user_id]) && !(is_comment_has_replies?(comment.id)))
@@ -48,7 +48,7 @@
                   %p
                     = reply.text
                   %span.text-muted.small.btn-xs
-                    %a.cursor{:onclick => "mark_comment('#{reply.id}')"}
+                    %a{:style=> "cursor:pointer;",:onclick => "mark_comment('#{reply.id}')"}
                       %i.fa.fa-flag
                       = I18n.t(:abuse)
                   - if ((owner_of_reply.id == session[:user_id]) )

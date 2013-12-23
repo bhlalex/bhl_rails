@@ -1,10 +1,18 @@
-- get_prefixes_of_results(@browse_list).each do |prefix|
-  .authorsblock
+.row.clearfix
+  .col-md-12.column
     %h2
-      = prefix.upcase
-    %ul
-      - filter_list_by_prefix(@browse_list, prefix).each do |item|
-        %li
-          =link_to books_path(:params => addFacetSearch({}, @search_prefix, item[:name].html_safe.gsub("]", "").gsub("[", ""))) do
-            = "#{item[:name]} (#{item[:count]})"
-  .clear
+      = @page_title
+    %hr
+    .well
+      = render :partial => "browse/chars"
+    .panel.panel-default
+      - get_prefixes_of_results(@browse_list).each do |prefix|    
+        .panel-heading
+          %h3.panel-title
+            =prefix.upcase
+        .panel-body
+          %ul    
+          - filter_list_by_prefix(@browse_list, prefix).each do |item|    
+            %li
+              =link_to books_path(:params => addFacetSearch({}, @search_prefix, item[:name].html_safe.gsub("]", "").gsub("[", ""))) do
+                = "#{item[:name].capitalize} (#{item[:count]})"

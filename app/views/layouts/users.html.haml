@@ -1,11 +1,2 @@
 = render :partial => "layouts/header"
-.pagetitle
-  .pagetitlecontent
-    .pagetitleborder
-      %h1
-        = @page_title
-= render :partial => "layouts/flash", object: flash
-.contents
-  .full_page
-    = yield
 = render :partial => "layouts/footer"

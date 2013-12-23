@@ -68,7 +68,7 @@
                   %option{:value => "subject"} 
                     = I18n.t(:option_genre)
                   %option{:value => "content"} 
-                    = I18n.t(:option_content)                                  
+                    = I18n.t(:option_content)
                 .clearfix.visible-xs  
                 %span.separator.pull-left 
                   |    
@@ -207,5 +207,6 @@
                       %li
                         %a{:href => "#"} Aykalam 
                   %button.btn.btn-default{:type => "submit"} Submit
-                  .clearfix  
+                  .clearfix
+          = render :partial => "layouts/flash", object: flash  #NEW_LAYOUT
         = yield
