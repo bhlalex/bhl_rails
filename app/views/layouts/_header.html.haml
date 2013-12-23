@@ -101,7 +101,6 @@
                     %br
                     =I18n.t(:header_profile)
         .row.clearfix
-          = render :partial => "layouts/flash", object: flash  #NEW_LAYOUT
           .col-md-12.column
             %nav.navbar.navbar-default.navbar-inverse{:role => "navigation"}
               .navbar-header
@@ -208,5 +207,6 @@
                       %li
                         %a{:href => "#"} Aykalam 
                   %button.btn.btn-default{:type => "submit"} Submit
-                  .clearfix  
+                  .clearfix
+          = render :partial => "layouts/flash", object: flash  #NEW_LAYOUT
         = yield

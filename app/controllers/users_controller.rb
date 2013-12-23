@@ -296,7 +296,6 @@ class UsersController < ApplicationController
     if authenticate_user
       @user = User.find(params[:id])
       user_attr = params[:user]
-       
       if (!(params[:user][:photo_name].nil?))
         file = user_attr[:photo_name].original_filename
         if(file[file.length-5].chr == '.')
