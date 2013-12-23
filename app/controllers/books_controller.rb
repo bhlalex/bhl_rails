@@ -34,7 +34,6 @@ class BooksController < ApplicationController
   end
   
   def show
-    debugger
     @volume_id = Volume.find_by_job_id(params[:id]).id
 
     @comment = Comment.new
@@ -130,7 +129,6 @@ class BooksController < ApplicationController
       data = volume.rate
       #NEW_LAYOUT CODE TO ADD RATE TO SOLR
       update_solr_rate(volume)
-      debugger
       render :json => data
     else
       #redirect to login    
