@@ -57,9 +57,8 @@ en:
   geo_titles: 'titles'
   geo_titles_more: 'or more titles'
   geo_show_all_titles: 'Show all'
-  browse_subject_page_header: 'Subjects'
-  browse_author_page_header: 'Authors'
-  browse_all: 'ALL'
+  
+  
   general: 'General'
   annotations: 'Annotations'
   saved_queries: 'Saved Queries'
@@ -388,3 +387,8 @@ en:
   book_language_title: 'Language'
   book_name_title: 'Tagged Species'
   book_location_title: 'Regional Affiliation'
+  
+  #Browse Page
+  browse_subject_page_header: Subjects
+  browse_author_page_header: Authors
+  browse_all: All

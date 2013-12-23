@@ -3,13 +3,12 @@ class BrowseController < ApplicationController
   include BrowseHelper
   layout 'browse'
   def show
+    @search = params[:search] if params[:search]
     @alphas = ('A' .. 'Z').to_a
-    if params[:char] == 'all'
+    if params[:char].nil? || params[:char] == 'all'
       @char = ''
-    elsif params[:char] == 'misc'
-      @char = '' #add regex here
     else
-      @char = params[:char]    
+      @char = params[:char]
     end
     #@char = params[:char] != nil ? params[:char] : 'a' 
     @type = params[:type]
@@ -20,6 +19,10 @@ class BrowseController < ApplicationController
       @page_title = I18n.t(:browse_author_page_header)
        @search_prefix = "author"
     end
-    @browse_list = list_facet_by_prefix(@type[0..-2], @char.upcase)
+    if(!@search.nil?)
+      @browse_list = solr_autocomplete(@type[0..-2], @search, 100000)
+    else  
+      @browse_list = list_facet_by_prefix(@type[0..-2], @char.upcase)
+    end
   end
 end
