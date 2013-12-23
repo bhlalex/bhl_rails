@@ -158,14 +158,21 @@ module ApplicationHelper
     end
   end
 
-  def differ_comment_reply(comment_id)
-    if comment_id.nil?
-      "comment"
-    else
-      "reply"
-    end
+  def get_class_for_sort_option(sort_param, sort_type)
+  if(!(sort_param.nil?) && (sort_param.include?sort_type))
+    ""
+  else
+    "display:none"
+  end
   end
   
+  def get_class_for_active_sort_option(sort_param, sort_type)
+    if(!(sort_param.nil?) && (sort_param.include?sort_type))
+      "display:none"
+    else
+      ""
+    end
+  end
 
   def is_comment_has_replies?(comment_id)
     if (Comment.where(:comment_id => comment_id).count == 0)

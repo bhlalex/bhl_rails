@@ -32,7 +32,7 @@ class BooksController < ApplicationController
     @response = search_facet_highlight(@query, @page,@sort)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
 end
-  
+
   def show
     @volume_id = Volume.find_by_job_id(params[:id]).id
 
