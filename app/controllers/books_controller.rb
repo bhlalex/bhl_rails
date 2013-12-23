@@ -34,6 +34,7 @@ class BooksController < ApplicationController
   end
   
   def show
+    debugger
     @volume_id = Volume.find_by_job_id(params[:id]).id
 
     @comment = Comment.new
@@ -129,6 +130,7 @@ class BooksController < ApplicationController
       data = volume.rate
       #NEW_LAYOUT CODE TO ADD RATE TO SOLR
       update_solr_rate(volume)
+      debugger
       render :json => data
     else
       #redirect to login    
@@ -177,13 +179,6 @@ class BooksController < ApplicationController
     end
   end
   
-  def get_volume_rate
-    #data = "<div class='averagerate' data='5.0' id='staticrate' style='float: right'></div>"
-    # data = "hello"
-    respond_to do |format|
-      format.html {render :partial => "books/static_rate"}
-    end
-  end
   def get_detailed_rate
     @rate_array=[]
       (1..5).each do |n|
