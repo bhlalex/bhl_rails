@@ -68,7 +68,7 @@
                   %option{:value => "subject"} 
                     = I18n.t(:option_genre)
                   %option{:value => "content"} 
-                    = I18n.t(:option_content)                                  
+                    = I18n.t(:option_content)
                 .clearfix.visible-xs  
                 %span.separator.pull-left 
                   |    
@@ -101,6 +101,7 @@
                     %br
                     =I18n.t(:header_profile)
         .row.clearfix
+          = render :partial => "layouts/flash", object: flash  #NEW_LAYOUT
           .col-md-12.column
             %nav.navbar.navbar-default.navbar-inverse{:role => "navigation"}
               .navbar-header
