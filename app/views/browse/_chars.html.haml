@@ -1,14 +1,25 @@
-- if @char == ''
-  %b
-    = I18n.t(:browse_all)
-- else
-  = link_to "all" do
-    = I18n.t(:browse_all)
-- @alphas.each do |alpha|
-  | 
-  - if @char.downcase == alpha.downcase
-    %b
-      = alpha
-  - else
-    = link_to "#{alpha.downcase}" do
-      = alpha
+:javascript
+  function searchbrowse(field){
+    if(field == null || field == '')
+      return;
+    window.location = window.location.href.split('?')[0] + "?search=" + field;
+  }
+%center
+  .form-group.col-xs-2
+    %input.form-control{:id => "browsesearchfield",:type => "text", :onkeypress => "if(event.keyCode == 13){searchbrowse(document.getElementById('browsesearchfield').value);return false;}"}  
+  %ul.list-inline
+    %li
+      - if @char == ''
+        %b
+          = I18n.t(:browse_all)
+      - else
+        = link_to "all" do
+          = I18n.t(:browse_all)
+    - @alphas.each do |alpha|
+      %li 
+        - if @char.downcase == alpha.downcase
+          %b
+            = alpha
+        - else
+          = link_to "#{alpha.downcase}" do
+            = alpha

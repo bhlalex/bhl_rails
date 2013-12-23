@@ -57,9 +57,8 @@ en:
   geo_titles: 'titles'
   geo_titles_more: 'or more titles'
   geo_show_all_titles: 'Show all'
-  browse_subject_page_header: 'Subjects'
-  browse_author_page_header: 'Authors'
-  browse_all: 'ALL'
+  
+  
   general: 'General'
   annotations: 'Annotations'
   saved_queries: 'Saved Queries'
@@ -398,3 +397,8 @@ en:
   mb: MB # megabytes
   max_photo_size: max size for photo
   profile_photo: Profile Photo
+  
+  #Browse Page
+  browse_subject_page_header: Subjects
+  browse_author_page_header: Authors
+  browse_all: All

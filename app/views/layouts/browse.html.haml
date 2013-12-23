@@ -1,13 +1,2 @@
 = render :partial => "layouts/header"
-.pagetitle
-  .pagetitlecontent
-    .pagetitleborder
-      %h1
-        = @page_title
-      .authors
-        =render :partial => "browse/chars"
-.contents
-  .listofauthors
-    %br
-      = yield
 = render :partial => "layouts/footer"
