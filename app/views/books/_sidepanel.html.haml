@@ -59,7 +59,12 @@
     xmlhttp.open("GET","/get_detailed_rate?jobid=#{params[:id]}",true);
     xmlhttp.send();
   }
-  function loadformats(format, content){
+  function loadformats(format){
+    div_name = "#" + format.toLowerCase() + "_hidden";
+    content = $(div_name).html();
+    content = content.replace(/\n/g, '<br />'); // to convert \n to <br />
+    if (format.toLowerCase() == "mods")
+      content = content.replace(/\s/g, " &nbsp;");  // to display xml indentation
     $("#modallabel").html(format);
     $("#modalcontent").html(content);
   }
@@ -115,16 +120,19 @@
       - else
         %a{:href => "#collectionsfound"}
           =I18n.t(:book_details_collections) 
-    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}', '#{get_format(params[:id], 'mods')}');"}
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}');"}
       %i.fa.fa-angle-double-right
       = I18n.t(:book_details_mods)
-    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_bibtex)}', '#{get_format(params[:id], 'bibtex')}');"}
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_bibtex)}');"}
       %i.fa.fa-angle-double-right
       = I18n.t(:book_details_bibtex)
-    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}', htmlEncode('#{get_format(params[:id], 'endnote')}'));"}
+    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}');"}
       %i.fa.fa-angle-double-right
       = I18n.t(:book_details_endnote)
-      
+  
+  #mods_hidden{ style: 'display: none;' }= get_format(params[:id], 'mods')
+  #bibtex_hidden{ style: 'display: none;' }= get_format(params[:id], 'bibtex')
+  #endnote_hidden{ style: 'display: none;' }= get_format(params[:id], 'endnote')
   #modal-container.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog"}
     .modal-dialog
       .modal-content

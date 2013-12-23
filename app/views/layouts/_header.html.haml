@@ -27,22 +27,11 @@
     .ui-autocomplete-loading
       background: white url("/images_#{I18n.locale}/ui-anim_basic_16x16.gif") right center no-repeat
   :javascript  
-    function searchfnc(searchquery, e, field){
-      if(field == null || field == '')
-        return;
+    function headersearchfnc(e, field){
       var type = e.options[e.selectedIndex].value;
-      if(searchquery == null || searchquery == ''){
-        searchquery = "_" + type + "=" + field;
-      } 
-      else if(searchquery.toLowerCase().indexOf("_" + type.toLowerCase()) != -1){
-        searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
-      }
-      else{
-        searchquery += "&_" + type + "=" + field;
-      }
+      searchquery = "_" + type + "=" + field;
       window.location = window.location.href.split('?')[0] + "?" + searchquery;
     }
-      
   %body
     #wrap
       .container
@@ -56,41 +45,34 @@
                 %span.separator.pull-left.searchicon
                   %i.fa.fa-search.fa-lg.pull-left
                 .col-xs-7
-                  %input.form-control{:id => "appendedDropdownButton focusedInput", :placeholder => "#{I18n.t(:search_textfield)}", :type => "text"}
-                %span.separator.pull-left |
-                .btn-group.pull-left
-                  .btn.dropdown.allcat
-                    %a.dropdown-toggle{"data-toggle" => "dropdown", href: "#"}
-                      All Categoreies
-                      %b.caret
-                    %ul.dropdown-menu{"aria-labelledby" => "dLabel", role: "menu"}
-                      %li#title
-                        %a{:href => "#"}
-                          = I18n.t(:option_title)
-                      %li#language 
-                        %a{:href => "#"}
-                          = I18n.t(:option_language)
-                      %li#published_at 
-                        %a{:href => "#"}
-                          = I18n.t(:option_publish_place)
-                      %li#geo_location 
-                        %a{:href => "#"}
-                          = I18n.t(:option_regional_affiliation)
-                      %li#author 
-                        %a{:href => "#"}
-                          = I18n.t(:option_author)
-                      %li#name 
-                        %a{:href => "#"}    
-                          = I18n.t(:option_tagged_species)
-                      %li#subject 
-                        %a{:href => "#"}
-                          = I18n.t(:option_genre)
-                      %li#content 
-                        %a{:href => "#"}
-                          = I18n.t(:option_content)
+                  %input.form-control{:id=> "headersearchfield", :type => "text",  :onkeypress => "if(event.keyCode == 13){headersearchfnc(document.getElementById('headersearchby'), document.getElementById('headersearchfield').value);return false;}"}
+                %span.separator.pull-left 
+                  |
+                %select#headersearchby
+                  %option{:value => "ALL"} 
+                    = I18n.t(:option_all)
+                  %option{:value => "title", :selected => true} 
+                    = I18n.t(:option_title)
+                  %option{:value => "language"} 
+                    = I18n.t(:option_language)
+                  %option{:value => "published_on"} 
+                    = I18n.t(:option_publish_time)
+                  %option{:value => "publisher"} 
+                    = I18n.t(:option_publisher)
+                  %option{:value => "geo_location"} 
+                    = I18n.t(:option_regional_affiliation)
+                  %option{:value => "author"} 
+                    = I18n.t(:option_author)
+                  %option{:value => "name"} 
+                    = I18n.t(:option_tagged_species)
+                  %option{:value => "subject"} 
+                    = I18n.t(:option_genre)
+                  %option{:value => "content"} 
+                    = I18n.t(:option_content)                                  
                 .clearfix.visible-xs  
-              %span.separator.pull-left |
-              %a.go.pull-left{href: "#"}
+                %span.separator.pull-left 
+                  |    
+              %a.go.pull-left{:href => "#", :onclick=>"headersearchfnc(document.getElementById('headersearchby'), document.getElementById('headersearchfield').value); return false;"}
                 %i.fa.fa-arrow-circle-right.fa-2x
               .clearfix
           .col-md-2    

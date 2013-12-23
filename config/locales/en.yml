@@ -320,7 +320,8 @@ en:
   option_all: All Categories
   option_title: Title
   option_language: Language
-  option_publish_place: Publish Place
+  option_publish_time: Published On
+  option_publisher: Publisher
   option_regional_affiliation: Regional Affiliation
   option_author: Author
   option_tagged_species: Tagged Species
