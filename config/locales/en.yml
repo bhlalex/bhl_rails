@@ -1,23 +1,6 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
-  about_us_page_1: "The New %{ba_link} 
-                        is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. 
-                        Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, 
-                        as the project is regarded as a substantial enrichment to the BA's collection 
-                        and simultaneously an optimum channel for sharing and propagating the 
-                        Library's Arabic and non-Arabic biodiversity collection. 
-                        This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, 
-                        and furthers the inclusion and input of the Arabic-speaking countries."
-  about_us_page_2: "Accordingly, the BA has been pursuing the mirroring and replication of BHL since early 2011. 
-                        Its participation in BHL project emerged inevitably in its course of being one of the main players 
-                        in the internationalization, localization and mirroring of the Encyclopedia of Life, 
-                        creating the EOL in Arabic. In this context, 
-                        the scope of the BA's contribution in BHL project generally includes: 
-                        setting the infrastructure for the mirroring and replication of the original BHL book collection, 
-                        development of Local-BHL system, and adding biodiversity material from the BA's collection 
-                        to comprise material from the Arab world in Arabic as well as other languages."
+  about_us_page_1: "The New %{ba_link} is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, as the project is regarded as a substantial enrichment to the BA's collection and simultaneously an optimum channel for sharing and propagating the Library's Arabic and non-Arabic biodiversity collection. This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, and furthers the inclusion and input of the Arabic-speaking countries."
+  about_us_page_2: "Accordingly, the BA has been pursuing the mirroring and replication of BHL since early 2011. Its participation in BHL project emerged inevitably in its course of being one of the main players in the internationalization, localization and mirroring of the Encyclopedia of Life, creating the EOL in Arabic. In this context, the scope of the BA's contribution in BHL project generally includes: setting the infrastructure for the mirroring and replication of the original BHL book collection, development of Local-BHL system, and adding biodiversity material from the BA's collection to comprise material from the Arab world in Arabic as well as other languages."
   bhl_page_title: "Biodivestiry Heritage Library - Egypt"
   bhl_short_title: "BHL Egypt"
   ba_home_page_link: "http://www.bibalex.org/Home/Default_EN.aspx"
@@ -47,17 +30,6 @@ en:
   authors_caps: "AUTHORS"
   regional_affiliation_caps: "REGIONAL AFFILIATION"
   genre_caps: "GENRE"
-
-  
-  blue_pin: 'Blue Pin'
-  green_pin: 'Green Pin'
-  yellow_pin: 'Yellow Pin'
-  orange_pin: 'Orange Pin'
-  red_pin: 'Red Pin'
-  geo_titles: 'titles'
-  geo_titles_more: 'or more titles'
-  geo_show_all_titles: 'Show all'
-  
   
   general: 'General'
   annotations: 'Annotations'
@@ -302,7 +274,7 @@ en:
   authors_link: Authors
   subjects_link: Subjects
   names_link: Names
-  geographics_link: Geographics
+  
   collections_link: Collections
   write_review: Write a review
   reviews: Reviews
@@ -402,3 +374,14 @@ en:
   browse_subject_page_header: Subjects
   browse_author_page_header: Authors
   browse_all: All
+
+  #Geographics Page
+  geographics_link: Geographics
+  blue_pin: 'Blue Pin'
+  green_pin: 'Green Pin'
+  yellow_pin: 'Yellow Pin'
+  orange_pin: 'Orange Pin'
+  red_pin: 'Red Pin'
+  geo_titles: 'titles'
+  geo_titles_more: 'or more titles'
+  geo_show_all_titles: 'Show all'
