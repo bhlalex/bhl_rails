@@ -274,6 +274,7 @@ en:
   rates: Rates
   viewed: Viewed
   sort_by: Sort by
+  not_member: Not a member?
   
   #------------------------------------------------#NEW_LAYOUT-----------------------------------------------------------------
   #Header
@@ -377,6 +378,14 @@ en:
   book_language_title: 'Language'
   book_name_title: 'Tagged Species'
   book_location_title: 'Regional Affiliation'
+  
+  
+  # sign up page
+  upload_photo: Upload photo
+  upload_photo_max_size_error: You cannot upload a file greater than
+  mb: MB # megabytes
+  max_photo_size: max size for photo
+  profile_photo: Profile Photo
   
   #Browse Page
   browse_subject_page_header: Subjects
