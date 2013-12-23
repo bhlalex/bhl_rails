@@ -34,7 +34,6 @@ class BooksController < ApplicationController
 end
   
   def show
-    debugger
     @volume_id = Volume.find_by_job_id(params[:id]).id
 
     @comment = Comment.new

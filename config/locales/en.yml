@@ -201,6 +201,7 @@ en:
   text: Message
   contact_us_message: Thank you for your message
   sort_by_rating: Sort By Rating
+  contact_us_title: Contact Us
   
   notifier:
     user_verification:

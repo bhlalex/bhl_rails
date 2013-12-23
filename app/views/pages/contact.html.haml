@@ -1,31 +1,35 @@
-%fieldset
-  %legend Contact Us
-  .form-horizontal
-    = validation_errors_for(@email_message)
-    = form_for @email_message, url:"/pages/send_message" , :builder => FormHelper::BHLFormBuilder do |f|
-      .form-group
-        = f.label :name, raw(t('sender')), :class => 'col-sm-2 control-label'
-        .col-sm-10
-          = f.text_field :name, { :class => "required form-control" }
-      .form-group
-        = f.label :email, raw(t('email')), :class => 'col-sm-2 control-label'
-        .col-sm-10
-          = f.text_field :email, { :class => "required form-control" }
-      .form-group
-        = f.label :subject, raw(t('message_subject')), :class => 'required col-sm-2 control-label'
-        .col-sm-10
-          = f.text_field :subject, { :class => "required form-control" }
-      .form-group
-        = f.label :message, raw(t('text')), :class => 'col-sm-2 control-label'
-        .col-sm-10
-          = f.text_area :message , :class => "required form-control", :rows => 3
-      - if @verify_captcha
-        .form-group
-          = f.label :recaptcha, raw(t('recaptcha')), :class => 'required col-sm-2 control-label'
-          .col-sm-10
-            = recaptcha_tags(display: {theme: 'clean'})
-          .clearfix
-          %br
-            %center
-              = f.submit I18n.t('submit_buton'), :class => "btn btn-primary"
-              = f.submit I18n.t('clear_button'), :class => "btn btn-defualt"
+.col-md-8.column
+  %div
+    .center-block
+      %fieldset
+        %legend 
+          = I18n.t(:contact_us_title)
+        .form-horizontal
+          = validation_errors_for(@email_message)
+          = form_for @email_message, url:"/pages/send_message" , :builder => FormHelper::BHLFormBuilder do |f|
+            .form-group
+              = f.label :name, raw(t('sender')), :class => 'col-sm-2 control-label'
+              .col-sm-10
+                = f.text_field :name, { :class => "required form-control" }
+            .form-group
+              = f.label :email, raw(t('email')), :class => 'col-sm-2 control-label'
+              .col-sm-10
+                = f.text_field :email, { :class => "required form-control" }
+            .form-group
+              = f.label :subject, raw(t('message_subject')), :class => 'required col-sm-2 control-label'
+              .col-sm-10
+                = f.text_field :subject, { :class => "required form-control" }
+            .form-group
+              = f.label :message, raw(t('text')), :class => 'col-sm-2 control-label'
+              .col-sm-10
+                = f.text_area :message , :class => "required form-control", :rows => 3
+            - if @verify_captcha
+              .form-group
+                = f.label :recaptcha, raw(t('recaptcha')), :class => 'required col-sm-2 control-label'
+                .col-sm-10
+                  = recaptcha_tags(display: {theme: 'clean'})
+                .clearfix
+                %br
+                  %center
+                    = f.submit I18n.t('submit_buton'), :class => "btn btn-primary"
+                    = f.submit I18n.t('clear_button'), :class => "btn btn-defualt"
