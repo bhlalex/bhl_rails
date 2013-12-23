@@ -1,3 +1,17 @@
+:javascript
+  function check_image_size() {
+  if ($('#filefield')[0].files[0] != null){
+  var size = $('#filefield')[0].files[0].size;
+    if (size > #{UPLOADED_PHOTO_MAX_SIZE * 1000 * 1000}){
+      $('#error_message').removeClass("invisible_error_msg");
+      $('#error_message').addClass("visible_error_msg");
+      return false;
+      }
+      else
+        return true;
+        }
+  }
+  
 .col-md-8.column
   %div
     %fieldset
@@ -5,29 +19,29 @@
         = @page_title
       .form-horizontal
         = validation_errors_for(@user)
-        = form_for @user, :builder => FormHelper::BHLFormBuilder do |f|
+        = form_for @user, :builder => FormHelper::BHLFormBuilder ,:html => {:onsubmit => "return check_image_size();"} do |f|
           .form-group
-            = f.label :username, :class => 'col-sm-2 control-label'
+            = f.label I18n.t(:username), :class => 'col-sm-2 control-label'
             .col-sm-10
               = f.text_field :username, { :class => "required form-control" }
           .form-group
-            = f.label :entered_password, :class => 'col-sm-2 control-label'
+            = f.label I18n.t(:password) , :class => 'col-sm-2 control-label'
             .col-sm-10
               = f.password_field :entered_password, { :type => "password",:class => "required form-control" }
           .form-group
-            = f.label :confirm_password, :class => 'col-sm-2 control-label'
+            = f.label I18n.t(:password_confirmation) , :class => 'col-sm-2 control-label'
             .col-sm-10
               = f.password_field :entered_password_confirmation, { :type => "password",:class => "required form-control" }
           .form-group
-            = f.label :email, :class => 'col-sm-2 control-label'
+            = f.label I18n.t(:email) , :class => 'col-sm-2 control-label'
             .col-sm-10
               = f.text_field :email, { :class => "required form-control" }
           .form-group
-            = f.label :confirm_email, :class => 'col-sm-2 control-label'
+            = f.label I18n.t(:email_confirmation) , :class => 'col-sm-2 control-label'
             .col-sm-10
               = f.text_field :email_confirmation, { :class => "required form-control" }
           .form-group
-            = f.label :real_name, :class => 'col-sm-2 control-label'
+            = f.label I18n.t(:real_name), :class => 'col-sm-2 control-label'
             .col-sm-10
               = f.text_field :real_name, { :class => "required form-control" }
           - if @verify_captcha
@@ -46,7 +60,9 @@
           .form-group
             = f.label I18n.t('upload_photo'), :class => 'col-sm-2 control-label'
             .col-sm-10
-              = f.file_field :photo_name, { :type => "file",:class => "btn btn-default"}
+              .invisible_error_msg#error_message
+                = "#{I18n.t(:upload_photo_max_size_error)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}"
+              = f.file_field :photo_name, {:id => "filefield", :type => "file",:class => "btn btn-default"}
               %p.help-block #{I18n.t(:max_photo_size)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}
           .form-group
             .col-sm-2

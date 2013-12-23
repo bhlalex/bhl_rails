@@ -308,6 +308,7 @@ class UsersController < ApplicationController
 #            params[:user][:entered_password] = nil
 #            params[:user][:entered_password_confirmation] = nil
 #          end
+      debugger
       if @user.update_attributes(user_attr)
         if ((params[:delete_photo]))
           delete_user_photo(params[:id])
