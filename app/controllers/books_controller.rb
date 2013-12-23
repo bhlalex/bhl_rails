@@ -129,7 +129,6 @@ end
       data = volume.rate
       #NEW_LAYOUT CODE TO ADD RATE TO SOLR
       update_solr_rate(volume)
-      debugger
       render :json => data
     else
       #redirect to login    
