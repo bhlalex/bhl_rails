@@ -1,4 +1,5 @@
 $(document).ready ->
+  
   $('.check10').on "click", ->
     reload_map()
   $('.check20').on "click", ->
