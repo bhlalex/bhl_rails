@@ -369,6 +369,7 @@ en:
   mb: MB # megabytes
   max_photo_size: max size for photo
   profile_photo: Profile Photo
+  upload_photo_ext_error: Allowed extensions (jpg, jpeg, png, gif, bmp)
   
   #Browse Page
   browse_subject_page_header: Subjects
