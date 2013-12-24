@@ -370,6 +370,11 @@ en:
   max_photo_size: max size for photo
   profile_photo: Profile Photo
   upload_photo_ext_error: Allowed extensions (jpg, jpeg, png, gif, bmp)
+  old_password: Old Password
+  new_password: New Password
+  new_password_confirmation: New Password Confirmation
+  change_password: Change Password
+  invalid_old_password: Invalid Old Password
   
   #Browse Page
   browse_subject_page_header: Subjects

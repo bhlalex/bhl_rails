@@ -1,0 +1,27 @@
+= stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
+
+:javascript
+  $(document).ready(function(){
+    $("#starsidelink_#{@vol[:job_id]}").jRating({
+      isDisabled : true
+    });
+  });
+  
+%ul.fa-ul.tools
+  %li
+    %i.fa.fa-li.fa-book
+    %small
+      = link_to "#{I18n.t(:sidelinks_read)}", {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
+  %li
+    %i.fa.fa-li.fa-info
+    %small
+      = link_to "#{I18n.t(:sidelinks_detail)}", {:controller => :books, :action => :show, :id => @vol[:job_id]}
+  %li
+    %i.fa.fa-li.fa-trash-o
+    %small
+      = link_to I18n.t(:delete), {:controller => :users, :action => :remove_book_history, :volume_id => @vol[:id],
+         :user_id => @ubh_vol[:user_id],:id => @ubh_vol[:user_id], :page => @page},
+         :onclick => "return confirmDelete()"
+%div

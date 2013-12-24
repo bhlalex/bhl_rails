@@ -32,8 +32,6 @@
         });
       });
 .row.clearfix  
-  - if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*") and (@is_saved == nil))
-    = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => parse_url_params(@url_params), :user_id => session[:user_id]}, :class => "search"
   .col-md-8
     =render :partial => "books/search"
   .col-md-8.breadcrumb

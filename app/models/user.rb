@@ -13,8 +13,8 @@ class User < ActiveRecord::Base
   validate :file_size
 
   # these are not model variables
-  attr_accessor :entered_password, :entered_password_confirmation, :email_confirmation
-  attr_accessible :entered_password, :entered_password_confirmation, :email_confirmation
+  attr_accessor :entered_password, :entered_password_confirmation, :email_confirmation, :old_password
+  attr_accessible :entered_password, :entered_password_confirmation, :email_confirmation, :old_password
 
   @email_format_re = %r{^(?:[_\+a-z0-9-]+)(\.[_\+a-z0-9-]+)*@([a-z0-9-]+)(\.[a-zA-Z0-9\-\.]+)*(\.[a-z]{2,4})$}i
 
