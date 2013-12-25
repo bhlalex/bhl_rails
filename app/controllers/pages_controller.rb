@@ -30,7 +30,7 @@ class PagesController < ApplicationController
       @verify_captcha = true
       @page_title = I18n.t(:contact_us_link)
       @email_message.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha
-      render :action => :contact
+      render 'contact'
     end
   end
 end

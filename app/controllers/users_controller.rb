@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   def new
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @page_title = I18n.t(:sign_up)
+    @action = "signup"
     @user = User.new
     @verify_captcha = true
   end
@@ -285,6 +286,7 @@ class UsersController < ApplicationController
   def edit
     if authenticate_user
       @page_title = I18n.t(:modify_profile)
+      @action = "modify"
       @verify_captcha = false
       @user = User.find_by_id(params[:id])
       @user.email_confirmation = @user.email
@@ -296,6 +298,7 @@ class UsersController < ApplicationController
     if authenticate_user
       @user = User.find(params[:id])
       user_attr = params[:user]
+      
       if (!(params[:user][:photo_name].nil?))
         file = user_attr[:photo_name].original_filename
         if(file[file.length-5].chr == '.')
@@ -304,6 +307,17 @@ class UsersController < ApplicationController
           user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
         end
       end
+      
+      if(!(user_attr[:old_password].nil?) && !(user_attr[:old_password].blank?))
+        if(!(User.authenticate(user_attr[:username],user_attr[:old_password])))
+          flash.now[:error] = I18n.t("invalid_old_password")
+          flash.keep
+          @action = "modify"
+          render :action => :edit
+          return
+      end
+      end
+      
 #          if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
 #            params[:user][:entered_password] = nil
 #            params[:user][:entered_password_confirmation] = nil
@@ -319,6 +333,7 @@ class UsersController < ApplicationController
         return redirect_to :controller => :users, :action => :show, :id => params[:id]
       else
         flash.keep
+        @action = "modify"
         render :action => :edit
       end
     end

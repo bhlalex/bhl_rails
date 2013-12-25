@@ -71,7 +71,7 @@ MAX_NO_ABUSE = 1
 CONTACT_US_EMAIL= "walaa.gomaa.elsayed@gmail.com"
 
 COLLECTION_FOLDER = 'collections/'
-UPLOADED_PHOTO_MAX_SIZE = 0.1
+UPLOADED_PHOTO_MAX_SIZE = 0.01
 
 # Initialize the rails application
 Bhl::Application.initialize!
