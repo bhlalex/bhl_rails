@@ -1,32 +1,25 @@
-.page
-  .page_border
-    - if (@ubh != '' && @total_number > 0)
-      .count
-        = "Found #{pluralize(@total_number, "Book")} "
-        %span 
-          = link_to image_tag("/images_#{I18n.locale}/list.png", :alt => I18n.t(:list_view), :title => I18n.t(:list_view), :width => 15, :height => 14), 
-          {:params => set_view(params, 'list')}
-          = link_to image_tag("/images_#{I18n.locale}/gallery.png", :alt => I18n.t(:gallery_view), :title => I18n.t(:gallery_view), :width => 15, :height => 14), 
-          {:params => set_view(params, 'gallery')}
-      - @ubh.each do |ubh_vol|
-        - @ubh_vol = ubh_vol
-        - @vol = Volume.find_by_id(@ubh_vol.volume)
-        - @id = @vol.job_id
-        - @doc = solr_search("vol_jobid:#{@vol.job_id}", "bok_title, author, name, subject, bok_start_date, published_at, bok_language")
-        - if (@vol != nil)
-          - @title = @doc['bok_title'][0]
-          - thumb = ''
-          - if(@vol[:get_thumbnail_fail] == 0)
-            - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-          - else
-            - @thumb = "images_#{I18n.locale}/noThumb.png"
-        - if(@view == 'gallery')
-          = render :partial => "users/galleryresult"
-        - else
-          = render :partial => "users/listresult"
-      - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+- if (@ubh != '' && @total_number > 0)
+  %h4.text-muted
+    = "Found #{pluralize(@total_number, "Book")} "
+  - @ubh.each do |ubh_vol|
+    - @ubh_vol = ubh_vol
+    - @vol = Volume.find_by_id(@ubh_vol.volume)
+    - @id = @vol.job_id
+    - @doc = solr_search("vol_jobid:#{@vol.job_id}", "bok_title, author, name, subject, bok_start_date, published_at, bok_language")
+    - if (@vol != nil)
+      - @title = @doc['bok_title'][0]
+      - thumb = ''
+      - if(@vol[:get_thumbnail_fail] == 0)
+        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+      - else
+        - @thumb = "images_#{I18n.locale}/book_thumb.png"
+    = render :partial => "users/listresult"
+  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+    .col-md-8
+      .pagination-centered
         - @pages = adjustPaging(@page, @lastPage)
         = render :partial => "books/paging"
-    - else
-      .largefont
-        No Books Found
+- else
+  .well-sm.center-block
+    %h2
+      =I18n.t(:no_books_found)

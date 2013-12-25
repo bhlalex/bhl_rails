@@ -89,7 +89,7 @@ end
                                   INNER JOIN book_collections
                                     ON (collections.id = book_collections.collection_id)
                                  WHERE book_collections.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
-                                  AND collections.status = false;") 
+                                  AND collections.status = true or collections.user_id = #{session[:user_id]};") 
     @collectionspages = ( @collections_count[0].total / LIMIT_CAROUSEL.to_f).ceil
     count = Book.find_by_sql("SELECT COUNT(*) AS total FROM ((SELECT book_id1
                                 FROM book_views
@@ -233,7 +233,8 @@ end
                   INNER JOIN book_collections
                     ON (collections.id = book_collections.collection_id)
                  WHERE book_collections.volume_id=#{Volume.find_by_job_id(id).id} 
-                  AND collections.status = false LIMIT #{start}, #{limit}")
+                  AND collections.status = true or collections.user_id = #{session[:user_id]}
+                  LIMIT #{start}, #{limit}")
     end
     def getalsoviewed(id, start, limit)
       #Book.find_by_sql("SELECT result.id, result.photo_url
