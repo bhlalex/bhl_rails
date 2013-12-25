@@ -55,6 +55,7 @@ LIMIT_CAROUSEL = 4
 LIMIT_BOOK_COMMENTS = 4
 
 PAGE_SIZE = 10
+COLLECTION_PAGE_SIZE = 12
 
 HLPRE = '<span class="highlight">'
 HLPOST = '</span>'

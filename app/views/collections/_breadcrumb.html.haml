@@ -1,10 +1,57 @@
-- if(!(@query_array.nil?))
-  - @query_array.each do |key, val|
-    - if(val != '')
-      - val.each do |term|
-        .filter
-          %b
-            = "#{key.capitalize}:" 
-          = term
-          = link_to image_tag("/images_#{I18n.locale}/close.png", :width => 16, :height => 16) , 
-                {:params => removeBreadCrumb(@url_params, key, term)}
+:javascript
+  function go_to(sort_type){
+    var url = window.location.href.split('?');
+    var query = "";
+    if (url.length == 2 ){
+      var vars = url[1].split("&");
+      for(var i = 0; i < vars.length; i++){
+        if(vars[i].indexOf('search') != -1){
+          query = vars[i];
+          break;
+        }
+      }
+    }
+    if(sort_type != 'none'){
+      if(query != ''){
+        query += "&"
+      }
+      query+= "sort_type=" + sort_type;
+    }
+    if(query != ''){
+      query = "?" + query
+    }
+    window.location = window.location.href.split('?')[0] + query;
+  }
+  function search_collection(){
+    if ($("#search_coll_field").val() == ''){
+      return;
+    }
+    else{
+      window.location=window.location.href.split('?')[0] + "?search=" + $("#search_coll_field").val();
+    }
+  }
+.clearfix
+.col-md-7.sort.text-muted.pull-right
+  .text-right
+    %small
+      = I18n.t(:sort_by)
+      %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(params[:sort_type],'rate')}; cursor:pointer;", :onclick => "go_to ('none');"}
+      %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(params[:sort_type],'rate')}; cursor:pointer;", :onclick=> "go_to('rate desc');"}
+      %a{:style=> "color:#777777;"} #{I18n.t(:rates)}
+      %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(params[:sort_type],'rate desc')}; cursor:pointer;", :onclick => "go_to('rate asc');"}
+      %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(params[:sort_type],'rate asc')}; cursor:pointer;", :onclick => "go_to('rate desc');"}
+      %span |
+      %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(params[:sort_type],'title')};cursor:pointer;", :onclick => "go_to('none');"}
+      %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(params[:sort_type],'title')};cursor:pointer;", :onclick => "go_to('title asc');"}
+      %a{:style=> "color:#777777;"} #{I18n.t(:title)}
+      %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(params[:sort_type],'title desc')};cursor:pointer;", :onclick => "go_to('title asc');"}
+      %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(params[:sort_type], 'title asc')}; cursor:pointer;", :onclick => "go_to('title desc');"}
+
+%h4.text-muted
+  - if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
+    - if(!params[:search].nil?)
+      =I18n.t(:collections_found, :count => @collections_total_number)
+    - else
+      = I18n.t(:collections_found_all, :count => @collections_total_number)
+  - else
+    = I18n.t(:no_collections_found) 

@@ -1,56 +1,32 @@
 :javascript
-  function sort(sort_type, asc, desc, active , not_active){
-    var type = "";
-    if ($('#'+asc).is(':visible')){
-      type = "desc";
-      $('#'+asc).toggle();
-      $('#'+desc).toggle();
-      }
-    else if ($('#'+desc).is(':visible')){
-       type = "asc";
-       }
-    else {
-      if (sort_type == "single_bok_title"){
-        type = "asc";
-        }
-      else{
-        type = "desc";
-        }
+  function go_to(sort_type){
+    searchquery = window.location.href.split('?')[1]
+    if(searchquery == null || searchquery == ''){
+      searchquery = "sort_type =" + sort_type;
     }
-      var last_sort = window.location.search.substr("");
-      if (last_sort == '')
-            window.location =  window.location.href + "?sort_type=" + sort_type + "+" + type;
-      else if (last_sort.indexOf("sort_type") == -1)
-            window.location =  window.location.href + "&sort_type=" + sort_type + "+" + type;
-      else {
-            var url_params = last_sort.split("&");
-            if (url_params.length == 1)
-            url_params[0] = "?sort_type=" + sort_type + "+" + type;
-            else{
-             for (var i=0;i<url_params.length;i++)
-             {
-             if (i != 0){
-                if ((url_params[i].indexOf("sort_type")) != -1)
-                    url_params[i] = "&sort_type=" + sort_type + "+" + type;
-                else
-                    url_params[i] = "&" + url_params[i];
-                    
-               }
-               else
-               {
-               if ((url_params[i].indexOf("sort_type")) != -1)
-                    url_params[i] = "&sort_type=" + sort_type + "+" + type;
-               }
-               
-             }
+    else if(searchquery.toLowerCase().indexOf("sort_type") != -1){
+      var vars = searchquery.split('&');
+      for (var i = 0; i <vars.length; i++){
+        if(vars[i].indexOf("sort_type") == 0){
+          if(sort_type == 'none'){
+            if(searchquery.indexOf("&sort_type") != -1){
+              searchquery = searchquery.replace("&" + vars[i], "");
             }
-       var href = "";
-      for (var i=0;i<url_params.length;i++)
-         href = href + url_params[i];
-      window.location = location.protocol + '//' + location.host + location.pathname + href;
-  }
-
-
+            else{
+              searchquery = searchquery.replace(vars[i], "");
+            }
+          }
+          else{
+            searchquery = searchquery.replace(vars[i], "sort_type=" + sort_type);
+          }
+          break;
+        }
+      }
+    }
+    else{
+      searchquery += "&sort_type=" + sort_type;
+    }
+    window.location = window.location.href.split('?')[0] + "?" + searchquery;
   }
   
 %small
@@ -72,23 +48,23 @@
   .text-right
     %small
       = I18n.t(:sort_by)
-      %i.fa.fa-check-square{:style => get_class_for_sort_option(params[:sort_type],"views"), :id => "views_active"}
-      %i.fa.fa-square-o{:style => get_class_for_active_sort_option(params[:sort_type],"views"),:id => "views_not_active"}
-      %a{:style=> "cursor:pointer;", :onclick => "sort('views','views_asc', 'views_desc','views_active','views_not_active')"} #{I18n.t(:viewed)}
-      %i.fa.fa-arrow-down{:style => get_class_for_sort_option(params[:sort_type],"views desc"), :id => "views_desc"}
-      %i.fa.fa-arrow-up{:style => get_class_for_sort_option(params[:sort_type],"views asc"), :id => "views_asc"}
+      %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(params[:sort_type],'views')}; cursor:pointer;", :onclick => "go_to ('none');"}
+      %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(params[:sort_type],'views')}; cursor:pointer;", :onclick=> "go_to('views desc');"}
+      %a{:style=> "color:#777777;"} #{I18n.t(:viewed)}
+      %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(params[:sort_type],'views desc')}; cursor:pointer;", :onclick => "go_to('views asc');"}
+      %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(params[:sort_type],'views asc')}; cursor:pointer;", :onclick => "go_to('views desc');"}
       %span |
-      %i.fa.fa-check-square{:style => get_class_for_sort_option(params[:sort_type],"rate"), :id => "rate_active"}
-      %i.fa.fa-square-o{:style => get_class_for_active_sort_option(params[:sort_type],"rate") ,:id => "rate_not_active"}
-      %a{:style=> "cursor:pointer;",:onclick => "sort('rate','rate_asc', 'rate_desc','rate_active','rate_not_active')"} #{I18n.t(:rates)}
-      %i.fa.fa-arrow-down{:style => get_class_for_sort_option(params[:sort_type],"rate desc"), :id => "rate_desc"}
-      %i.fa.fa-arrow-up{:style => get_class_for_sort_option(params[:sort_type],"rate asc"), :id => "rate_asc"}
+      %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(params[:sort_type],'rate')}; cursor:pointer;", :onclick => "go_to ('none');"}
+      %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(params[:sort_type],'rate')}; cursor:pointer;", :onclick=> "go_to('rate desc');"}
+      %a{:style=> "color:#777777;"} #{I18n.t(:rates)}
+      %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(params[:sort_type],'rate desc')}; cursor:pointer;", :onclick => "go_to('rate asc');"}
+      %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(params[:sort_type],'rate asc')}; cursor:pointer;", :onclick => "go_to('rate desc');"}
       %span |
-      %i.fa.fa-check-square{:style => get_class_for_sort_option(params[:sort_type],"single_bok_title"), :id => "title_active"}
-      %i.fa.fa-square-o{:style => get_class_for_active_sort_option(params[:sort_type],"single_bok_title"),:id => "title_not_active"}
-      %a{:style=> "cursor:pointer;",:onclick => "sort('single_bok_title','title_asc', 'title_desc','title_active','title_not_active')"} #{I18n.t(:title)}
-      %i.fa.fa-arrow-down{:style => get_class_for_sort_option(params[:sort_type],"single_bok_title desc"), :id => "title_desc"}
-      %i.fa.fa-arrow-up{:style => get_class_for_sort_option(params[:sort_type],"single_bok_title asc"), :id => "title_asc"}
+      %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(params[:sort_type],'single_bok_title')}; cursor:pointer;", :onclick => "go_to ('none');"}
+      %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(params[:sort_type],'single_bok_title')}; cursor:pointer;", :onclick=> "go_to('single_bok_title asc');"}
+      %a{:style=> "color:#777777;"} #{I18n.t(:title)}
+      %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(params[:sort_type],'single_bok_title desc')}; cursor:pointer;", :onclick => "go_to('single_bok_title asc');"}
+      %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(params[:sort_type],'single_bok_title asc')}; cursor:pointer;", :onclick => "go_to('single_bok_title desc');"}
 
 
 

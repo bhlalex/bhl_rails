@@ -7,6 +7,7 @@
       searchquery = "_" + type + "=" + field;
     } 
     else if(searchquery.toLowerCase().indexOf("_" + type.toLowerCase()) != -1){
+    
       searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
     }
     else{

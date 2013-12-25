@@ -1,29 +1,22 @@
-.pagetitle
-  .pagetitlecontent
-    .pagetitleborder
-      .searchtitle
-        = I18n.t(:search_by_title) 
-        = render :partial => "collections/search"
-      .searchtitle
-        = I18n.t(:sort_by_title) 
-        = render :partial => "collections/sort" , :locals => {:sort_type => "title"}
-        = I18n.t(:sort_by_rating) 
-        = render :partial => "collections/sort" , :locals => {:sort_type => "rate"}
-      .searchfilter
-        = render :partial => "collections/breadcrumb"
-        .clear
-= render :partial => "layouts/flash", object: flash
-.contents
-  .page
-    - if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
-      = render :partial => "collections/numFound"
-      .page_border
-        - counter = 0
-        - @collections.each do |collection|
-          = render :partial => "collections/collection", :locals => {:with_rate => 1, :collection => collection, :user_rate => @user_all_rates[counter]}
-          - counter = counter + 1
-        - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-          - @pages = adjustPaging(@page, @lastPage)
-          = render :partial => "books/paging"
-    - else
-      = I18n.t(:no_collections_found)
+.row.clearfix
+  .col-md-12.column
+    .col-md-12
+      %h2
+        =@page_title
+      .col-md-8
+        =render :partial => "collections/breadcrumb"
+      .input-group.col-md-4.pull-right
+        %input.form-control{:id => "search_coll_field", :type=> "text", :onkeypress => "if(event.keyCode == 13){search_collection();return false;}"}
+        %span.input-group-btn
+          %button.btn.btn-default{:type=>"button", :onclick => "search_collection();"}
+            =I18n.t(:go_button)   
+    .clearfix
+    %hr      
+  .row
+    =render :partial=> "collections/listresult"
+    
+  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+    .col-md-8
+      .pagination-centered
+        - @pages = adjustPaging(@page, @lastPage)
+        = render :partial => "books/paging"

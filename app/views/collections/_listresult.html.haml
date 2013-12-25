@@ -1,31 +1,34 @@
-:javascript  
-  function confirmDelete(id){
-  var r= confirm("#{I18n.t(:delete_book_from_collection_confirm)}");
-    return r;
-  }
-  
-.clear
-.thumb
-  = link_to image_tag("/#{@thumb}", :width => 109, :border => 0) , 
-    {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
-.newscontent
-  .sidelinks
-    = link_to image_tag("/images_#{I18n.locale}/read.png", :alt => "read", :title => "read") , 
-        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :read}
-    = link_to image_tag("/images_#{I18n.locale}/learn.png", :alt => "details", :title => "details") , 
-        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
-    - if (@ubh_vol.collection.user_id == session[:user_id])
-      = link_to image_tag("/images_#{I18n.locale}/close.png", :alt =>I18n.t(:delete_book_from_collection) , :title => I18n.t(:delete_book_from_collection)) , 
-        {:controller => :collections, :action => :delete_book, 
-     :book_collection_id => @ubh_vol.id}, :onclick => "return confirmDelete(#{@ubh_vol.id})"
-  %h4
-    = link_to @title.html_safe , 
-        {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => "brief"}
-  %h5
-    = "#{I18n.t(:book_order)}: #{@ubh_vol.position}"
-  - if (@ubh_vol.collection.user_id == session[:user_id])
-    - if @ubh_vol.position > 1
-      = link_to image_tag("/images_#{I18n.locale}/up.png", :alt => I18n.t(:increase_book_order), :title => I18n.t(:increase_book_order)), {:controller => :collections, :action => :move_up, :book_collection_id => @ubh_vol.id}
-    - if @ubh_vol.position < @total_number
-      = link_to image_tag("/images_#{I18n.locale}/down.png", :alt => I18n.t(:decrease_book_order), :title => I18n.t(:decrease_book_order)), {:controller => :collections, :action => :move_down, :book_collection_id => @ubh_vol.id}
-.clear
+= stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
+
+- if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
+  - @collections.each do |item|
+    :javascript
+      $(document).ready(function(){
+        $("#starsidelink_#{item.id}").jRating({
+          isDisabled : true
+        });
+      });
+    - if(item.photo_name.blank?)
+      - @thumb = "images_#{I18n.locale}/nocollection140.png"
+    - else
+      - @thumb = item.photo_name_url(:thumb)
+    .col-md-4
+      .media.collection
+        %a.pull-left{:href=>"#{collection_path(:id=>item.id)}"}
+          =image_tag("/#{@thumb}",:class => "media-object img-thumbnail")
+        .media-body{:style=> "float:right;"}
+          %h4.media-heading
+            = link_to item.title, {:controller => :collections, :action => :show, :id => item.id}
+          %i.fa.fa-user
+          %small
+            = link_to User.find(item.user_id).real_name, {:controller => :users, :action => :show, :id => item.user_id}
+          %p
+            %small
+              =item.description    
+          %i.fa.fa-calendar-o
+          %small
+            =item.created_at
+          .rate
+            - if item.rate != 0.0
+              .starsidelink{:id => "starsidelink_#{item.id}", :data => "#{item.rate}"}
