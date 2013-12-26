@@ -68,6 +68,8 @@ describe UsersController do
           doc_test_first[:bok_language]="English"
           doc_test_first[:geo_location]="Egypt"
           doc_test_first[:subject]="subject"
+          doc_test_first[:single_bok_title] = "title"
+
           solr = RSolr.connect :url => SOLR_BOOKS_METADATA
           solr.delete_by_query('*:*')
           solr.commit
@@ -81,11 +83,7 @@ describe UsersController do
           get :show, :id => @user.id
           response.should have_selector("a", :href => "/books/#{@vol_first.job_id}/brief")
         end
-        it "should have book image links to read page" do
-          get :show, :id => @user.id
-          response.should have_selector("img", :src => "/volumes/#{@vol_first.job_id}/thumb.jpg")
-          response.should have_selector("a", :href => "/books/#{@vol_first.job_id}/read")
-        end
+       
         it "should have recently viewed link" do
           get :show, :id => @user.id
           response.should have_selector("a", :href => "/users/#{@user.id}/recently_viewed")
@@ -112,6 +110,7 @@ describe UsersController do
           doc_test_first[:bok_language]="English"
           doc_test_first[:geo_location]="Egypt"
           doc_test_first[:subject]="subject"
+          doc_test_first[:single_bok_title] = "title"
 
           solr = RSolr.connect :url => SOLR_BOOKS_METADATA
           solr.delete_by_query('*:*')
@@ -129,9 +128,10 @@ describe UsersController do
           doc_test_second[:bok_title] = "Test Book Second"
           doc_test_second[:name] = ["Name2","Name3"]
           doc_test_second[:author] = "Author"
-          doc_test_second[:bok_language]="English"
-          doc_test_second[:geo_location]="Egypt"
-          doc_test_second[:subject]="subject"
+          doc_test_second[:bok_language] = "English"
+          doc_test_second[:geo_location] = "Egypt"
+          doc_test_second[:subject] = "subject"
+          doc_test_second[:single_bok_title] = "title"
 
           solr = RSolr.connect :url => SOLR_BOOKS_METADATA
           # remove this book if exists
@@ -156,12 +156,12 @@ describe UsersController do
         # check for existance of By:authors label in list view
         it "should have by author" do
           get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector("div", :class => "description", :content => "By")
+          response.should have_selector("b", :content => I18n.t(:listresult_author_by))
         end
         
         it "should display last visited date" do
           get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector("div", :class => "visitedtime", :content => "Last visited: #{(UserBookHistory.first).last_visited_date}")
+          response.should have_selector("h4", :content => "Last visited: #{(UserBookHistory.first).last_visited_date}")
         end
                 
         #TODO now this will not pass except after fixing jquery problems
@@ -180,18 +180,7 @@ describe UsersController do
         # check for books count
         it "should have item count equal to the total number of books" do
           get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector("div", :class => "count", :content => 2.to_s)
-        end
-        # check for existance of gallery and list view options
-        it "should have links for gallery and list views" do
-          get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector('a', :href => "/users/1/recently_viewed?view=list")
-          response.should have_selector("a", :href => "/users/1/recently_viewed?view=gallery")
-        end
-        it "should have images for gallery and list views" do
-          get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector("a>img", :src => "/images_en/list.png")
-          response.should have_selector("a>img", :src => "/images_en/gallery.png")
+          response.should have_selector("h4", :class => "text-muted", :content => 2.to_s)
         end
 
         describe "'list view'" do
@@ -205,25 +194,19 @@ describe UsersController do
             response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
             response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
           end
-
+          # TODO NEED_TEST uncomment this when finish new layout
           # check for existance of detail link for each book_title in list view
-          it "should have book title that links for details" do
-            response.should have_selector('a', :href => "/books/123/brief" ,:content => "Test Book First")
-            response.should have_selector('a', :href => "/books/238233/brief", :content => "Test Book Second")
-          end
-
+#          it "should have book title that links for details" do
+#            response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
+#            response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
+#          end
+          
           # check for existance of read and detail links for each book in list view
           it "should have read and detail links for each book" do
             response.should have_selector('a', :href => "/books/123/read")
-            response.should have_selector('a', :href => "/books/123/brief")
+            response.should have_selector('a', :href => "/books/123")
             response.should have_selector('a', :href => "/books/238233/read")
-            response.should have_selector('a', :href => "/books/238233/brief")
-          end
-
-          # check for existance of read and detail images for each book in list view
-          it "should have read and detail images for each book in list view" do
-            response.should have_selector('img', :src => "/images_en/read.png")
-            response.should have_selector('img', :src => "/images_en/learn.png")
+            response.should have_selector('a', :href => "/books/238233")
           end
 
           # delete link
@@ -232,12 +215,7 @@ describe UsersController do
               get "remove_book_history", :page => 1, :tab => "recently_viewed", :id =>@user.id, :user_id => @user.id, :volume_id => 1
               response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "recently_viewed", :page => 1
               get :show, :id => 1, :tab => "recently_viewed", :page => 1
-              response.should have_selector("div", :class => "count", :content => 1.to_s)
-            end
-            it "should have delete image" do
-              log_in(@user)
-              get :show, :id => @user.id, :tab => "recently_viewed", :view => "list"
-              response.should have_selector("img", :src => "/images_en/trash_delete.png")
+              response.should have_selector("h4", :class => "text-muted", :content => 1.to_s)
             end
 
             it "should not delete when user is not logged in" do
@@ -260,6 +238,7 @@ describe UsersController do
                   doc_test[:bok_language]="English"
                   doc_test[:geo_location]="Egypt"
                   doc_test[:subject]="subject"
+                  doc_test[:single_bok_title] = "title"
 
                   # remove this book if exists
                   solr.delete_by_query('vol_jobid:'+i.to_s)
@@ -284,25 +263,6 @@ describe UsersController do
                 response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "recently_viewed", :page => 1
               end
             end
-          end
-        end
-
-        describe "'gallery view'" do
-
-          before(:each) do
-            get :show, :id => @user.id, :tab => "recently_viewed", :view => "gallery"
-          end
-
-          # check for existance of image for each book in gallery view
-          it "should have an image for each book" do
-            response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
-            response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
-          end
-
-          # check for existance of detail link for each book in gallery view
-          it "should have detail link for each book" do
-            response.should have_selector('a', :href => "/books/123/brief" ,:content => "Test Book First")
-            response.should have_selector('a', :href => "/books/238233/brief", :content => "Test Book Second")
           end
         end
       end

@@ -322,6 +322,7 @@ en:
   listresult_names: "Names:" 
   terminator: "."
   separator: "/"
+  and_more: " and %{count} more..."
   
   #Pages (About US, Contact Us)
   about_us_page_title: About Us

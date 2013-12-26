@@ -83,13 +83,22 @@ end
     if book_rate_list.count > 0
       @user_rate = book_rate_list[0].rate 
     end
+    query = "SELECT COUNT(*) AS total
+             FROM collections 
+             INNER JOIN book_collections
+               ON (collections.id = book_collections.collection_id)
+             WHERE book_collections.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
+             AND collections.status = true "
     
-    @collections_count = Collection.find_by_sql("SELECT COUNT(*) AS total
-                                  FROM collections 
-                                  INNER JOIN book_collections
-                                    ON (collections.id = book_collections.collection_id)
-                                 WHERE book_collections.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
-                                  AND collections.status = true or collections.user_id = #{session[:user_id]};") 
+    if !session[:user_id].nil?
+      #user signed in
+      query += "or collections.user_id = #{session[:user_id]};"
+    else
+      #no user is signed in
+      query += ";"
+    end
+    
+    @collections_count = Collection.find_by_sql(query) 
     @collectionspages = ( @collections_count[0].total / LIMIT_CAROUSEL.to_f).ceil
     count = Book.find_by_sql("SELECT COUNT(*) AS total FROM ((SELECT book_id1
                                 FROM book_views

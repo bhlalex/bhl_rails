@@ -17,7 +17,7 @@
   %li
     %i.fa.fa-li.fa-info
     %small
-      = link_to "#{I18n.t(:sidelinks_detail)}", {:controller => :books, :action => :show, :id => @vol[:job_id]}
+      = link_to "#{I18n.t(:sidelinks_detail)}", {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => nil}
   %li
     %i.fa.fa-li.fa-trash-o
     %small

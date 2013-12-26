@@ -28,11 +28,9 @@ describe BooksController do
       doc_test_first[:bok_language]="English"
       doc_test_first[:geo_location]="Egypt"
       doc_test_first[:subject]="subject"
-
+      doc_test_first[:single_bok_title] = "title"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      solr.delete_by_query('*:*')
-      # remove this book if exists
-      #solr.delete_by_query('vol_jobid:123') #why delete by vol_job id if things are already deleted ???? Yosra 21/11/2013
+      solr.delete_by_query('*:*') 
       solr.commit
       solr.add doc_test_first
       solr.commit
@@ -48,7 +46,7 @@ describe BooksController do
       doc_test_second[:bok_language]="English"
       doc_test_second[:geo_location]="Egypt"
       doc_test_second[:subject]="subject"
-
+      doc_test_second[:single_bok_title] = "title"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       # remove this book if exists
       solr.delete_by_query('vol_jobid:238233')
@@ -119,33 +117,33 @@ describe BooksController do
     # check for existance of open link for each author with the count of books for each author
     it "should have open links for authors" do
       get :index
-      response.should have_selector('a', :href => "/books?_author=Author&sort_type=views+asc", :content => "Author [2]")
+      response.should have_selector('a', :href => "/books?_author=Author", :content => "Author [2]")
     end
 
     # check for existance of open link for each names with the count of books for each name
     it "should have open links for names" do
       get :index
-      response.should have_selector('a', :href => "/books?_name=Name1&sort_type=views+asc", :content => "Name1 [1]")
-      response.should have_selector('a', :href => "/books?_name=Name2&sort_type=views+asc", :content => "Name2 [2]")
-      response.should have_selector('a', :href => "/books?_name=Name3&sort_type=views+asc", :content => "Name3 [1]")
+      response.should have_selector('a', :href => "/books?_name=Name1", :content => "Name1 [1]")
+      response.should have_selector('a', :href => "/books?_name=Name2", :content => "Name2 [2]")
+      response.should have_selector('a', :href => "/books?_name=Name3", :content => "Name3 [1]")
     end
 
     # check for existance of open link for each language with the count of books for each language
     it "should have open links for languages" do
       get :index
-      response.should have_selector('a', :href => "/books?_language=English&sort_type=views+asc", :content => "English [2]")
+      response.should have_selector('a', :href => "/books?_language=English", :content => "English [2]")
     end
 
     # check for existance of open link for each location with the count of books for each location
     it "should have open links for geo locations" do
       get :index
-      response.should have_selector('a', :href => "/books?_geo_location=Egypt&sort_type=views+asc", :content => "Egypt [2]")
+      response.should have_selector('a', :href => "/books?_geo_location=Egypt", :content => "Egypt [2]")
     end
 
     # check for existance of open link for each subject with the count of books for each subject
     it "should have open links for subjects" do
       get :index
-      response.should have_selector('a', :href => "/books?_subject=subject&sort_type=views+asc", :content => "subject [2]")
+      response.should have_selector('a', :href => "/books?_subject=subject", :content => "subject [2]")
     end
 
     # check for existance of the search bar
@@ -167,6 +165,7 @@ describe BooksController do
         doc_test[:bok_language]="English"
         doc_test[:geo_location]="Egypt"
         doc_test[:subject]="subject"
+        doc_test[:single_bok_title] = "title"
 
         # remove this book if exists
         solr.delete_by_query('vol_jobid:'+i.to_s)
@@ -177,7 +176,7 @@ describe BooksController do
         Volume.gen(:book => @book_test, :job_id => i.to_s, :get_thumbnail_fail => 0)
       }
       get :index
-      response.should have_selector("ul", :class => "pagination")
+      response.should have_selector("div", :class => "pagination-centered")
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*')
       22.times{ |i| Volume.delete(i) }
@@ -233,6 +232,7 @@ describe BooksController do
       doc_test_first[:bok_language]="English"
       doc_test_first[:geo_location]="Egypt"
       doc_test_first[:subject]="subject"
+      doc_test_first[:single_bok_title] = "title"
 
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*')
@@ -253,6 +253,7 @@ describe BooksController do
       doc_test_second[:bok_language]="English"
       doc_test_second[:geo_location]="Egypt"
       doc_test_second[:subject]="subject"
+      doc_test_second[:single_bok_title] = "title"
 
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       # remove this book if exists
@@ -286,32 +287,24 @@ describe BooksController do
       truncate_table(ActiveRecord::Base.connection, "page_names", {})
       doc = {:vol_jobid => "123", :bok_bibid => "456"}
       doc[:bok_title] = "Test Book"
-      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      # remove this book if exists
-      solr.delete_by_query('*:*')
-      solr.delete_by_query('vol_jobid:123')
-      solr.commit
-      solr.add doc
-      solr.commit
+      doc[:single_bok_title] = "title"
+
+      
 
       @book = Book.gen(:title => "Test Book", :bibid => "456", :mods => "<xml>xml content</xml>")
       @volume = Volume.gen(:book => @book, :job_id => 123)
 
-      doc = {:vol_jobid => "1234", :bok_bibid => "4567"}
-      doc[:bok_title] = "Test Book 2"
-      doc[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
-      doc[:bok_language] = "English"
-      doc[:bok_start_date] = '1838-01-01T00:00:00Z'
-      doc[:bok_publisher] = "The Society"
-      doc[:subject] = ["one", "two", "three", "four", "five"]
-      doc[:geo_location] = ["location"]
-      doc[:author] = ["author1", "author2"]
-      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      # remove this book if exists
-      solr.delete_by_query('vol_jobid:1234')
-      solr.commit
-      solr.add doc
-      solr.commit
+      doc2 = {:vol_jobid => "1234", :bok_bibid => "4567"}
+      doc2[:bok_title] = "Test Book 2"
+      doc2[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
+      doc2[:bok_language] = "English"
+      doc2[:bok_start_date] = '1838-01-01T00:00:00Z'
+      doc2[:bok_publisher] = "The Society"
+      doc2[:subject] = ["one", "two", "three", "four", "five"]
+      doc2[:geo_location] = ["location"]
+      doc2[:author] = ["author1", "author2"]
+      doc2[:single_bok_title] = "title"
+
 
       @book_with_parameters = Book.gen(:title => "Test Book 2", :bibid => "4567", :mods => "<xml>xml content</xml>")
       @volume_with_parameters = Volume.gen(:book => @book_with_parameters, :job_id => 1234)
@@ -324,18 +317,24 @@ describe BooksController do
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring5" ), :namestring => "teststring5")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring6" ), :namestring => "teststring6")
 
-      doc = {:vol_jobid => "12345", :bok_bibid => "45678"}
-      doc[:bok_title] = "Test Book 3"
-      doc[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
-      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      # remove this book if exists
-      solr.delete_by_query('vol_jobid:12345')
-      solr.commit
-      solr.add doc
-      solr.commit
+      doc3 = {:vol_jobid => "12345", :bok_bibid => "45678"}
+      doc3[:bok_title] = "Test Book 3"
+      doc3[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
+      doc3[:single_bok_title] = "title"
+
 
       @book_with_one_name= Book.gen(:title => "Test Book 3", :bibid => "45678", :mods => "<xml>xml content</xml>")
       @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
+      
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*')
+      solr.commit
+      solr.add doc
+      solr.commit
+      solr.add doc2
+      solr.commit
+      solr.add doc3
+      solr.commit
     end
 
     it "should add record in history table when visit read tab" do
@@ -367,7 +366,7 @@ describe BooksController do
     describe "right panel" do
       it "should have read book button links to the read book page" do
         get 'show', :id => "123"
-        response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/read", :content => I18n.t(:read_book_link))
+        response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/read", :content => I18n.t(:sidelinks_read))
       end
 
       it "should have an image for the book" do
@@ -376,155 +375,98 @@ describe BooksController do
       end
     end
 
-    describe "collections tab" do
-      before(:each) do
-        truncate_table(ActiveRecord::Base.connection, "users", {})
-        User.gen() unless User.first
-        @user = User.first
-        log_in(@user)
-        @other_user = User.gen
+    # TODO NEED_TEST for new layout of collection carousel
+    
+    # TODO NEED_TEST this may be used for collection listing page 
+#    describe "collections carosel" do
+#      before(:each) do
+#        truncate_table(ActiveRecord::Base.connection, "users", {})
+#        User.gen() unless User.first
+#        @user = User.first
+#        log_in(@user)
+#        @other_user = User.gen
+#
+#        truncate_table(ActiveRecord::Base.connection, "collections", {})
+#        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Time.now, :status => false)
+#        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Time.now, :status => true)
+#        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-12-02 09:17:54 UTC", :status => true)
+#  
+#        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+#        @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)
+#        @second_book_in_my_private_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @volume.id, :position => 2)
+#        @third_book_in_my_private_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @volume.id, :position => 3)
+#      end
+      
+#      it "should have an open link for public collections of other user" do
+#        get :show, :id => @volume[:job_id]
+#        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+#        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}", :content =>@my_private_collection.title)
+#        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+#      end
 
-        truncate_table(ActiveRecord::Base.connection, "collections", {})
-        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Time.now, :status => false)
-        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Time.now, :status => true)
-        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-12-02 09:17:54 UTC", :status => true)
-  
-        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-        @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)
-        @second_book_in_my_private_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @volume.id, :position => 2)
-        @third_book_in_my_private_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @volume.id, :position => 3)
-      end
-      it "should list current user's collections and other public collections of current volume" do
-        get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('div', :class => "count", :content =>3.to_s)
-      end
+      
+      
+#      it "should have last modified date for public collections of ther user" do
+#        get :show, { :id => @volume.job_id, :tab => "collections" }
+#        response.should have_selector('h5', :content =>"2013-12-02 09:17:54 UTC")
+#      end
+#
+#      it "should have pagination bar" do
+#        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+#        20.times {BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)}
+#        get :show, :id => @volume.job_id
+#        response.should have_selector('ul', :class => "pagination")
+#        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+#      end
 
-      it "should have an open link for public collections of other user" do
-        get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
-        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}", :content =>@my_private_collection.title)
-        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
-      end
+#    end
 
-      it "should have last modified date for public collections of ther user" do
-        get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('h5', :content =>"2013-12-02 09:17:54 UTC")
-      end
-
-      it "should have pagination bar" do
-        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-        20.times {BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)}
-        get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('ul', :class => "pagination")
-        truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-      end
-
-      it "should have an open link for each collection of listed collections" do
-        get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}", :content =>@my_private_collection.title)
-        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
-        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
-      end
-
-      it "should have an image for each collection" do
-        get :show, { :id =>  @volume.job_id, :tab => "collections" }
-        response.should have_selector('a>img', :src => "/images_en/defaultCollection.jpg")
-      end
-
-      it "should have an meta data link for each collection" do
-        get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}")
-        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}")
-      end
-
-      it "should have delete link for the collections owned by the current user" do
-        get :show, { :id => @volume.job_id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}")
-      end
-    end
-
+    # TODO NEED_TEST add some related books then uncomment these specs
     describe "related books" do
-      it "should show related books title" do
-        get :show, :id => @volume.job_id
-        response.should have_selector('h4', :content => I18n.t(:related_books))
-      end
+      it "should show related books title" 
+#        get :show, :id => @volume.job_id
+#        response.should have_selector('h4', :content => I18n.t(:book_details_related))
+#      end
 
-      it "should display title for each related book" do
-        get :show, :id => @volume.job_id
-        response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}", :content => "Test Book 2")
-      end
+      it "should display title for each related book" 
+#        get :show, :id => @volume.job_id
+#        response.should have_selector('a', :href =>"/books/#{@volume_with_parameters.job_id}", :content => "Test Book 2")
+#      end
     end
 
   end
 
   describe "tabs links" do
-    before(:each) do
-    solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    solr.delete_by_query('*:*')
-    end
     
-    it "should link to brief" do
-      get 'show', :id => "123"
-      response.should have_selector("a", :href => "/books/123/brief", :content => I18n.t(:brief))
-    end
-
-    it "should link to mods" do
-      get 'show', :id => "123"
-      response.should have_selector("a", :href => "/books/123/mods", :content => I18n.t(:mods))
-    end
-
-    it "should link to bibtex" do
-      get 'show', :id => "123"
-      response.should have_selector("a", :href => "/books/123/bibtex", :content => I18n.t(:bibtex))
-    end
-
-    it "should link to endnote" do
-      get 'show', :id => "123"
-      response.should have_selector("a", :href => "/books/123/endnote", :content => I18n.t(:endnote))
-    end
-  end
-
-  describe "Brief tab" do
-    before(:each) do
+    before(:all) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
       truncate_table(ActiveRecord::Base.connection, "volumes", {})
       truncate_table(ActiveRecord::Base.connection, "pages", {})
       truncate_table(ActiveRecord::Base.connection, "names", {})
       truncate_table(ActiveRecord::Base.connection, "page_names", {})
+        
       doc = {:vol_jobid => "123", :bok_bibid => "456"}
       doc[:bok_title] = "Test Book"
-      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      solr.delete_by_query('*:*')
-      # remove this book if exists
-      solr.delete_by_query('vol_jobid:123')
-      solr.commit
-      solr.add doc
-      solr.commit
+      doc[:single_bok_title]  = "title"
 
       @book = Book.gen(:title => "Test Book", :bibid => "456", :mods => "<xml>xml content</xml>")
       @volume = Volume.gen(:book => @book, :job_id => 123)
 
-      doc = {:vol_jobid => "1234", :bok_bibid => "4567"}
-      doc[:bok_title] = "Test Book 2"
-      doc[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
-      doc[:bok_language] = "English"
-      doc[:bok_start_date] = '1838-01-01T00:00:00Z'
-      doc[:bok_publisher] = "The Society"
-      doc[:subject] = ["one", "two", "three", "four", "five"]
-      doc[:geo_location] = ["location"]
-      doc[:author] = ["author1", "author2"]
-      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      # remove this book if exists
-      solr.delete_by_query('vol_jobid:1234')
-      solr.commit
-      solr.add doc
-      solr.commit
+      doc2 = {:vol_jobid => "1234", :bok_bibid => "4567"}
+      doc2[:bok_title] = "Test Book 2"
+      doc2[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
+      doc2[:bok_language] = "English"
+      doc2[:bok_start_date] = '1838-01-01T00:00:00Z'
+      doc2[:bok_publisher] = "The Society"
+      doc2[:subject] = ["one", "two", "three", "four", "five"]
+      doc2[:geo_location] = ["location"]
+      doc2[:author] = ["author1", "author2"]
+      doc2[:single_bok_title]  = "title"
 
       @book_with_parameters = Book.gen(:title => "Test Book 2", :bibid => "4567", :mods => "<xml>xml content</xml>")
       @volume_with_parameters = Volume.gen(:book => @book_with_parameters, :job_id => 1234)
       @Page = Page.gen(:volume => @volume_with_parameters)
+     
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring0" ), :namestring => "teststring0")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring1" ), :namestring => "teststring1")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring2" ), :namestring => "teststring2")
@@ -533,152 +475,76 @@ describe BooksController do
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring5" ), :namestring => "teststring5")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring6" ), :namestring => "teststring6")
 
-      doc = {:vol_jobid => "12345", :bok_bibid => "45678"}
-      doc[:bok_title] = "Test Book 3"
-      doc[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
+      doc3 = {:vol_jobid => "12345", :bok_bibid => "45678"}
+      doc3[:bok_title] = "Test Book 3"
+      doc3[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
+      doc3[:single_bok_title]  = "title"
+        
+      @book_with_one_name= Book.gen(:title => "Test Book 3", :bibid => "45678", :mods => "<xml>xml content</xml>")
+      @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
+      
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      # remove this book if exists
-      solr.delete_by_query('vol_jobid:12345')
+      solr.delete_by_query('*:*')
       solr.commit
       solr.add doc
       solr.commit
-
-      @book_with_one_name= Book.gen(:title => "Test Book 3", :bibid => "45678", :mods => "<xml>xml content</xml>")
-      @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
+      solr.add doc2
+      solr.commit
+      solr.add doc3
+      solr.commit
     end
-
-    it "should display language only if it exists in the meta data" do
+    
+    it "should link to mods" do
       get 'show', :id => "123"
-      response.should_not have_selector("b", :content => I18n.t(:book_language_title))
-      get 'show', :id => "1234"
-      response.should have_selector("b", :content => I18n.t(:book_language_title))
+      response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_mods))
     end
 
-    it "should display date only if it exists in the meta data" do
+    it "should link to bibtex" do
       get 'show', :id => "123"
-      response.should_not have_selector("b", :content => I18n.t(:book_date_title))
-      get 'show', :id => "1234"
-      response.should have_selector("b", :content => I18n.t(:book_date_title))
+      response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_bibtex))
     end
 
-    it "should display publisher only if it exists in the meta data" do
+    it "should link to endnote" do
       get 'show', :id => "123"
-      response.should_not have_selector("b", :content => I18n.t(:book_publish_title))
-      get 'show', :id => "1234"
-      response.should have_selector("b", :content => I18n.t(:book_publish_title))
+      response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_endnote))
     end
-
-    it "should display author only if it exists in the meta data" do
-      get 'show', :id => "123"
-      response.should_not have_selector("b", :content => I18n.t(:book_author_title))
-      get 'show', :id => "1234"
-      response.should have_selector("b", :content => I18n.t(:book_author_title))
-    end
-
-    it "should display publication place only if it exists in the meta data" do
-      get 'show', :id => "123"
-      response.should_not have_selector("b", :content => I18n.t(:book_publish_place_title))
-      get 'show', :id => "1234"
-      response.should have_selector("b", :content => I18n.t(:book_publish_place_title))
-    end
-
-    describe "tabs links" do
-      before(:each) do
-        solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-        solr.delete_by_query('*:*')
-      end
-      it "should link to brief" do
-        get 'show', :id => "123"
-        response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/brief", :content => I18n.t(:brief))
-      end
-
-      it "should link to mods" do
-        get 'show', :id => "123"
-        response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/mods", :content => I18n.t(:mods))
-      end
-
-      it "should link to bibtex" do
-        get 'show', :id => "123"
-        response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/bibtex", :content => I18n.t(:bibtex))
-      end
-
-      it "should link to endnote" do
-        get 'show', :id => "123"
-        response.should have_selector("a", :href => "/books/#{@volume[:job_id]}/endnote", :content => I18n.t(:endnote))
-      end
-    end
-
-    describe "Brief tab" do
-      it "should display language only if it exists in the meta data" do
-        get 'show', :id => "123"
-        response.should_not have_selector("b", :content => I18n.t(:book_language_title))
-        get 'show', :id => "1234"
-        response.should have_selector("b", :content => I18n.t(:book_language_title))
-      end
-
-      it "should display date only if it exists in the meta data" do
-        get 'show', :id => "123"
-        response.should_not have_selector("b", :content => I18n.t(:book_date_title))
-        get 'show', :id => "1234"
-        response.should have_selector("b", :content => I18n.t(:book_date_title))
-      end
-
-      it "should display publisher only if it exists in the meta data" do
-        get 'show', :id => "123"
-        response.should_not have_selector("b", :content => I18n.t(:book_publish_title))
-        get 'show', :id => "1234"
-        response.should have_selector("b", :content => I18n.t(:book_publish_title))
-      end
+  
+    describe "book details" do
 
       it "should display author only if it exists in the meta data" do
         get 'show', :id => "123"
-        response.should_not have_selector("b", :content => I18n.t(:book_author_title))
+        response.should_not have_selector("dt", :content => I18n.t(:book_author_title))
         get 'show', :id => "1234"
-        response.should have_selector("b", :content => I18n.t(:book_author_title))
-      end
-
-      it "should display publication place only if it exists in the meta data" do
-        get 'show', :id => "123"
-        response.should_not have_selector("b", :content => I18n.t(:book_publish_place_title))
-        get 'show', :id => "1234"
-        response.should have_selector("b", :content => I18n.t(:book_publish_place_title))
+        response.should have_selector("dt", :content => I18n.t(:book_author_title))
       end
 
       it "should display Genre only if it exists in the meta data" do
         get 'show', :id => "123"
-        response.should_not have_selector("b", :content => I18n.t(:book_subject_title))
+        response.should_not have_selector("dt", :content => I18n.t(:book_subject_title))
         get 'show', :id => "1234"
-        response.should have_selector("b", :content => I18n.t(:book_subject_title))
+        response.should have_selector("dt", :content => I18n.t(:book_subject_title))
       end
 
       it "should display book name only if it exists in the meta data" do
         get 'show', :id => "123"
-        response.should_not have_selector("b", :content => I18n.t(:book_name_title))
+        response.should_not have_selector("dt", :content => I18n.t(:book_name_title))
         get 'show', :id => "1234"
-        response.should have_selector("b", :content => I18n.t(:book_name_title))
+        response.should have_selector("dt", :content => I18n.t(:book_name_title))
       end
 
       it "should not contains 'and more' when names are less than 5" do
         get 'show', :id => "12345"
-        response.should_not have_selector("li", :content => "more")
+        response.should_not have_selector("span", :content => "more")
       end
 
-      #TODO recheck after fixing this bug
-      #    it "should contains 'and more' with the correct number when names are greater than 5" do
-      #      get 'show', :id => "1234"
-      #      response.should have_selector("span", :content => "and 2 more...")
-      #    end
-    end
-
-    describe "mods tab" do
-
-      it "should contains the right content" do
-        get 'show', :id => "123", :tab => "mods"
-        response.should have_selector("pre", :content => "xml content")
+      it "should contains 'and more' with the correct number when names are greater than 5" do
+        get 'show', :id => "1234"
+        response.should have_selector("span", :content => " and 2 more...")
       end
     end
   end
 
+  # TODO NEED_TEST for comments' new layout 
   describe "list comments for a book" do
     
     before(:each) do
@@ -693,6 +559,7 @@ describe BooksController do
       solr.commit
       doc = {:vol_jobid => "123", :bok_bibid => "456"}
       doc[:bok_title] = "Test Book"
+      doc[:single_bok_title] = "title"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.add doc
       solr.commit
@@ -706,50 +573,50 @@ describe BooksController do
       @appropriate_book_comment_without_replies = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "book comment")
     end
     
-    it "should list all comments and replies of a book" do
-      get :show, :id => @vol.job_id
-      response.should have_selector("span", :id => "comment#{@appropriate_book_comment.id}")
-      response.should have_selector("h4", :content => @appropriate_book_comment.text)
-      response.should have_selector("span", :id => "comment#{@reply_of_appropriate_book_comment.id}")
-      response.should have_selector("h4", :content => @reply_of_appropriate_book_comment.text)
-      response.should have_selector("span", :id => "comment#{@appropriate_book_comment_without_replies.id}")
-      response.should have_selector("h4", :content => @appropriate_book_comment_without_replies.text)
-
-    end
+    it "should list all comments and replies of a book" 
+#      get :show, :id => @vol.job_id
+#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment.id}")
+#      response.should have_selector("h4", :content => @appropriate_book_comment.text)
+#      response.should have_selector("span", :id => "comment#{@reply_of_appropriate_book_comment.id}")
+#      response.should have_selector("h4", :content => @reply_of_appropriate_book_comment.text)
+#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment_without_replies.id}")
+#      response.should have_selector("h4", :content => @appropriate_book_comment_without_replies.text)
+#
+#    end
     
-    it "should show message for inappropriate comments with show link" do
-      get :show, :id => @vol.job_id
-      response.should have_selector("span", :id => "abuse#{@inappropriate_book_comment.id}")
-      response.should have_selector("p", :content => I18n.t(:hidden_comment_msg))
-      response.should have_selector("a", :content => "show")
-    end
+    it "should show message for inappropriate comments with show link" 
+#      get :show, :id => @vol.job_id
+#      response.should have_selector("span", :id => "abuse#{@inappropriate_book_comment.id}")
+#      response.should have_selector("p", :content => I18n.t(:hidden_comment_msg))
+#      response.should have_selector("a", :content => "show")
+#    end
     
-    it "should have a button for each comment or a reply to it as inappropriate " do
-      get :show, :id => @vol.job_id
-      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_book_comment.id}")
-      response.should have_selector("input", :type => "button", :id => "mark#{@reply_of_appropriate_book_comment.id}")
-      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_book_comment_without_replies.id}")
-    end
+    it "should have a button for each comment or a reply to it as inappropriate " 
+#      get :show, :id => @vol.job_id
+#      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_book_comment.id}")
+#      response.should have_selector("input", :type => "button", :id => "mark#{@reply_of_appropriate_book_comment.id}")
+#      response.should have_selector("input", :type => "button", :id => "mark#{@appropriate_book_comment_without_replies.id}")
+#    end
     
-    it "should display comment delete link only for owner of the comment or reply" do
-      log_in(@user)
-      get :show, :id => @vol.job_id
-      response.should have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_book_comment.id}")
-      response.should have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment_without_replies.id}")
-    end
+    it "should display comment delete link only for owner of the comment or reply" 
+#      log_in(@user)
+#      get :show, :id => @vol.job_id
+#      response.should have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_book_comment.id}")
+#      response.should have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment_without_replies.id}")
+#    end
     
-    it "should not display comment delete link only for owner of the comment or reply" do
-      log_in(@other_user)
-      get :show, :id => @vol.job_id
-      response.should_not have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_book_comment.id}")
-      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment_without_replies.id}")
-    end
+    it "should not display comment delete link only for owner of the comment or reply" 
+#      log_in(@other_user)
+#      get :show, :id => @vol.job_id
+#      response.should_not have_selector("a", :href => "/comments/delete?id=#{@reply_of_appropriate_book_comment.id}")
+#      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment_without_replies.id}")
+#    end
     
-    it "should not display comment delete link for comments having replies" do
-      log_in(@user)
-      get :show, :id => @vol.job_id
-      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment.id}")
-    end
+    it "should not display comment delete link for comments having replies" 
+#      log_in(@user)
+#      get :show, :id => @vol.job_id
+#      response.should_not have_selector("a", :href => "/comments/delete?id=#{@appropriate_book_comment.id}")
+#    end
     
     it "should display form for craeting new comment when user is signed in" do
       log_in(@user)
@@ -762,13 +629,13 @@ describe BooksController do
       response.should_not have_selector("form", :id => "new_comment")
     end
     
-    it "should have pagination bar" do
-      truncate_table(ActiveRecord::Base.connection, "comments", {})
-      20.times { |i| Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "comment")}
-      get :show, :id => @vol.job_id
-      response.should have_selector('ul', :class => "pagination")
-      truncate_table(ActiveRecord::Base.connection, "comments", {})
-    end
+    it "should have pagination bar" 
+#      truncate_table(ActiveRecord::Base.connection, "comments", {})
+#      20.times { |i| Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "comment")}
+#      get :show, :id => @vol.job_id
+#      response.should have_selector('ul', :class => "pagination")
+#      truncate_table(ActiveRecord::Base.connection, "comments", {})
+#    end
 
   end
 
