@@ -1,52 +1,41 @@
-.clear
-.page
-  .page_border
-    .thumb
-      - if(@collection.photo_name.blank?)
-        - @thumb = "/images_#{I18n.locale}/defaultCollection.jpg"
-      - else
-        - @thumb = @collection.photo_name_url(:thumb)
-      = image_tag("#{@thumb}", :width => 150,:border => 0)
-    %b
-      = I18n.t(:collection_title)
-    %br
-    = @collection.title
-    %br
-    %br
-    %b
-      = I18n.t(:collection_description)
-    %br
-    = @collection.description
-    %br
-    %br
-    %b
-      = I18n.t(:status)
-    %br
-    = parse_collection_status(@collection.status)
-    %br
-    %br
-    - if session["user_id"] == @collection.user_id
-      = link_to I18n.t(:edit_collection), :controller => :collections ,:action => :edit, :id => @collection
-    - if logged_in?
-      - if @collection.rate.nil?
-        - rate = 0.0
-      - else
-        - rate = @collection.rate
-      = render :partial => "collections/rating", :locals => {:collection_rate => rate, :user_rate => @user_collection_rate, :col_id =>  @collection.id}
-    = render :partial => "comments/index"
+= stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
 
-    - if (@collection_books != '' && @total_number > 0)
-      .count
-        = "Found #{pluralize(@total_number, I18n.t(:book))} "
-      - @collection_books.each do |ubh_vol|
-        - @ubh_vol = ubh_vol
-        - @vol = Volume.find_by_id(@ubh_vol.volume)
-        - @title = Book.find_by_id(@vol.book_id).title
-        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-        
-        = render :partial => "collections/listresult"
-      - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-        - @pages = adjustPaging(@page, @lastPage)
-        = render :partial => "books/paging"
-    - else
-      = I18n.t(:no_books_found)
+:javascript
+  $(document).ready(function(){
+    $("#starsidelink_#{@collection.id}").jRating({
+      isDisabled : true
+    });
+  });
+
+.row.clearfix
+  .col-md-12.column
+    %h2
+      = @page_title
+      - if @collection.rate != 0.0
+        %span.rate
+          .starsidelink{:id => "starsidelink_#{@collection.id}", :data => "#{@collection.rate}"}
+    %blockquote
+      .col-md-2.column.pull-right
+        - if(@collection.photo_name.blank?)
+          - @thumb = "images_#{I18n.locale}/nocollection140.png"
+        - else
+          - @thumb = @collection.photo_name_url(:thumb)
+        = image_tag("/#{@thumb}",:class => "img-thumbnail")
+      %p
+        = @collection.description
+      %small
+        %i.fa.fa-user
+        = link_to User.find(@collection.user_id).real_name, {:controller => :users, :action => :show, :id => @collection.user_id}
+        %br
+        %i.fa.fa-calendar-o
+        = @collection.created_at
+        %br
+        .rate.center-block
+          %span.text-muted
+            = I18n.t(:collection_your_rate)
+          Rate to be added here    
+    .clearfix
+    %hr    
+.row.clearfix
+  =render :partial => "collections/collectionbooks"

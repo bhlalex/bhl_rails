@@ -2,7 +2,7 @@
   function go_to(sort_type){
     searchquery = window.location.href.split('?')[1]
     if(searchquery == null || searchquery == ''){
-      searchquery = "sort_type =" + sort_type;
+      searchquery = "sort_type=" + sort_type;
     }
     else if(searchquery.toLowerCase().indexOf("sort_type") != -1){
       var vars = searchquery.split('&');

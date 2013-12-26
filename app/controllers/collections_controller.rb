@@ -6,7 +6,7 @@ class CollectionsController < ApplicationController
     @page_title = I18n.t(:collection_title)
     
     sql_query = "status = true"
-    sql_query+= " and title like '%#{params[:search]}%'" if !params[:search].nil?
+    sql_query+= " AND title LIKE '%#{params[:search]}%'" if !params[:search].nil?
     
     @page = params[:page] ? params[:page].to_i : 1
     
