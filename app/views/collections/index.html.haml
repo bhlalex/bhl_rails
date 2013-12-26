@@ -1,3 +1,12 @@
+:javascript
+  function search_collection(){
+    if ($("#search_coll_field").val() == ''){
+      return;
+    }
+    else{
+      window.location=window.location.href.split('?')[0] + "?search=" + $("#search_coll_field").val();
+    }
+  }
 .row.clearfix
   .col-md-12.column
     .col-md-12
@@ -8,8 +17,8 @@
       .input-group.col-md-4.pull-right
         %input.form-control{:id => "search_coll_field", :type=> "text", :onkeypress => "if(event.keyCode == 13){search_collection();return false;}"}
         %span.input-group-btn
-          %button.btn.btn-default{:type=>"button", :onclick => "search_collection();"}
-            =I18n.t(:go_button)   
+          %a.go.pull-left{:style => "cursor:pointer;"}
+            %i.fa.fa-arrow-circle-right.fa-2x{:onclick => "search_collection();"}
     .clearfix
     %hr      
   .row
