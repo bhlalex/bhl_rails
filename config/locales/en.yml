@@ -400,4 +400,6 @@ en:
     one:   "Found in one collections"
     other: "Found in %{count} collections"
   collections_found_all: "Found %{count} collections"
-  go_button: Go
+  
+  #Collection Page
+  collection_your_rate: Your Rate
