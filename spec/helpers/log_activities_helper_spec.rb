@@ -30,6 +30,7 @@ describe LogActivitiesHelper do
     solr.commit
     doc = {:vol_jobid => "123", :bok_bibid => "456"}
     doc[:bok_title] = "Test Book"
+    doc[:single_bok_title] = "title"
     solr = RSolr.connect :url => SOLR_BOOKS_METADATA
     solr.add doc
     solr.commit
