@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131216073823) do
+ActiveRecord::Schema.define(:version => 20131225095420) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -50,29 +50,6 @@ ActiveRecord::Schema.define(:version => 20131216073823) do
 
   add_index "book_authors", ["author_id"], :name => "index_book_authors_on_author_id"
   add_index "book_authors", ["book_id"], :name => "index_book_authors_on_book_id"
-
-  create_table "book_collections", :force => true do |t|
-    t.integer  "volume_id"
-    t.integer  "collection_id"
-    t.integer  "position"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
-  end
-
-  add_index "book_collections", ["collection_id"], :name => "index_book_collections_on_collection_id"
-  add_index "book_collections", ["position"], :name => "index_book_collections_on_position"
-  add_index "book_collections", ["volume_id"], :name => "index_book_collections_on_volume_id"
-
-  create_table "book_ratings", :force => true do |t|
-    t.integer  "volume_id"
-    t.integer  "user_id"
-    t.integer  "rate",       :default => 0
-    t.datetime "created_at",                :null => false
-    t.datetime "updated_at",                :null => false
-  end
-
-  add_index "book_ratings", ["user_id"], :name => "index_book_ratings_on_user_id"
-  add_index "book_ratings", ["volume_id"], :name => "index_book_ratings_on_volume_id"
 
   create_table "book_subjects", :id => false, :force => true do |t|
     t.integer  "book_id"
@@ -141,7 +118,7 @@ ActiveRecord::Schema.define(:version => 20131216073823) do
     t.integer  "user_id"
     t.string   "title"
     t.string   "description"
-    t.boolean  "status"
+    t.boolean  "is_public"
     t.datetime "created_at",                                                 :null => false
     t.datetime "updated_at",                                                 :null => false
     t.string   "photo_name"
@@ -325,6 +302,29 @@ ActiveRecord::Schema.define(:version => 20131216073823) do
   add_index "users", ["guid"], :name => "index_users_on_guid"
   add_index "users", ["password"], :name => "index_users_on_password"
   add_index "users", ["username"], :name => "index_users_on_username"
+
+  create_table "volume_collections", :force => true do |t|
+    t.integer  "volume_id"
+    t.integer  "collection_id"
+    t.integer  "position"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "volume_collections", ["collection_id"], :name => "index_book_collections_on_collection_id"
+  add_index "volume_collections", ["position"], :name => "index_book_collections_on_position"
+  add_index "volume_collections", ["volume_id"], :name => "index_book_collections_on_volume_id"
+
+  create_table "volume_ratings", :force => true do |t|
+    t.integer  "volume_id"
+    t.integer  "user_id"
+    t.integer  "rate",       :default => 0
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
+  end
+
+  add_index "volume_ratings", ["user_id"], :name => "index_book_ratings_on_user_id"
+  add_index "volume_ratings", ["volume_id"], :name => "index_book_ratings_on_volume_id"
 
   create_table "volumes", :force => true do |t|
     t.integer  "book_id"

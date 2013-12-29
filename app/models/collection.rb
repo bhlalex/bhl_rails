@@ -1,18 +1,23 @@
 class Collection < ActiveRecord::Base
   belongs_to :user
-  has_many :book_collections
-  has_many :books, :through => :book_collections
-  has_many :comments,:dependent => :destroy
-  # status = false ===> priavte
-  # status = true ===> public
-  has_many :collection_ratings,:dependent => :destroy
-  # status = false = 0 ===> priavte
-  # status = true = 1 ===> public
-  attr_accessible :created_at,:updated_at, :description, :status, :title, :user_id, :photo_name, :rate
-  validates :title, :presence => true,
-                       :length => {:within => 4..25}
+  
+  has_many :volume_collections
+  has_many :volumes, :through => :volume_collections
+  
+  has_many :comments, :dependent => :destroy
+  has_many :collection_ratings, :dependent => :destroy
+  
+  has_many :volume_collections
+  has_many :volumes, :through => :volume_collections
+  
+  attr_accessible :created_at,:updated_at, :description, :is_public, :title, :user_id, :photo_name, :rate
+  validates :title, :presence => true, :length => {:within => 4..25}
   mount_uploader :photo_name, ImageUploader
   validate :file_size
+  
+  def self.get_count_by_volume(volume_id, user_id)
+    Collection.includes(:volume_collections).where(:volume_collections => {:volume_id => volume_id}).where('is_public=1 or user_id=?', user_id).count
+  end
   
   def set_rate
     #recalculate rate

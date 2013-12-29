@@ -7,13 +7,13 @@ class CollectionsController < ApplicationController
     @query_array = set_query_array(@query_array, params)
     @query = set_query_string(@query_array, true)
     if(@query != '')
-      sql_query = "status = true"
+      sql_query = "is_public = true"
       terms = (@query[7,@query.length]).split(" _AND ")
       terms.each do |term|
         sql_query+= " and title like '%#{term.tr("_", "")}%'"
       end
     else
-      sql_query = "status = true"
+      sql_query = "is_public = true"
     end
     @collections = Collection.where(sql_query).order(params[:sort_type])
     if(@collections.nil?)
@@ -41,7 +41,7 @@ class CollectionsController < ApplicationController
   def show
     @page_title = I18n.t(:show_collection_detail)
     @collection = Collection.find(params[:id])
-    if @collection.status == true || authenticate_user(@collection.user_id)
+    if @collection.is_public == true || authenticate_user(@collection.user_id)
       @collection_id = params[:id]
       @volume_id = nil
       @comments_replies_list = get_comments( "collection", params[:id], nil)
@@ -52,14 +52,14 @@ class CollectionsController < ApplicationController
       else
         @user_collection_rate = 0.0
       end
-      @collection_books = @collection.book_collections.order('position ASC')
-      @total_number = @collection_books.count
+      @collection_volumes = @collection.volume_collections.order('position ASC')
+      @total_number = @collection_volumes.count
       @view = params[:view] ? params[:view] : 'list'
       @page = params[:page] ? params[:page].to_i : 1
-      @lastPage = @collection_books.count ? ((@collection_books.count).to_f/PAGE_SIZE).ceil : 0
+      @lastPage = @collection_volumes.count ? ((@collection_volumes.count).to_f/PAGE_SIZE).ceil : 0
       limit = PAGE_SIZE
       offset = (@page > 1) ? (@page - 1) * limit : 0
-      @collection_books = @collection_books.limit(limit).offset(offset)
+      @collection_volumes = @collection_volumes.limit(limit).offset(offset)
       @url_params = params.clone
     end
   end
@@ -70,7 +70,7 @@ class CollectionsController < ApplicationController
     @disabled = []
     @collections.each do |col|
       vol_id = Volume.find_by_job_id(params[:vol_jobid]).id
-      found = BookCollection.where(:volume_id => vol_id, :collection_id => col.id)
+      found = VolumeCollection.where(:volume_id => vol_id, :collection_id => col.id)
       if found.count > 0
         @disabled.push(1)
       else
@@ -105,13 +105,13 @@ class CollectionsController < ApplicationController
   end
 
   def delete_book
-    book_collection = BookCollection.find(params[:book_collection_id])
-    collection = Collection.find(book_collection.collection)
+    volume_collection = VolumeCollection.find(params[:volume_collection_id])
+    collection = Collection.find(volume_collection.collection)
     if authenticate_user(collection.user_id)
-      book_collection.destroy
+      volume_collection.destroy
       collection[:updated_at] = Time.now
       collection.save
-      flash.now[:notice]=I18n.t(:book_collection_deleted)
+      flash.now[:notice]=I18n.t(:volume_collection_deleted)
       flash.keep
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
@@ -161,10 +161,10 @@ class CollectionsController < ApplicationController
   end
 
   def move_up
-    book_collection = BookCollection.find(params[:book_collection_id])
-    collection = Collection.find(book_collection.collection)
+    volume_collection = VolumeCollection.find(params[:volume_collection_id])
+    collection = Collection.find(volume_collection.collection)
     if authenticate_user(collection.user_id)
-      book_collection.move_higher
+      volume_collection.move_higher
       collection[:updated_at] = Time.now
       collection.save
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
@@ -176,11 +176,10 @@ class CollectionsController < ApplicationController
   end
 
   def move_down
-    book_collection = BookCollection.find(params[:book_collection_id])
-    book_collection = BookCollection.find(params[:book_collection_id])
-    collection = Collection.find(book_collection.collection)
+    volume_collection = VolumeCollection.find(params[:volume_collection_id])
+    collection = Collection.find(volume_collection.collection)
     if authenticate_user(collection.user_id)
-      book_collection.move_lower
+      volume_collection.move_lower
       collection[:updated_at] = Date.today
       collection.save
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
@@ -196,10 +195,10 @@ class CollectionsController < ApplicationController
   def add_to_existing_collection(col)
     col_id = col.id
     vol_id = Volume.find_by_job_id(params[:vol_id]).id
-    duplicated = BookCollection.where(:collection_id => col_id, :volume_id => vol_id)
+    duplicated = VolumeCollection.where(:collection_id => col_id, :volume_id => vol_id)
     if duplicated.count == 0
-      position = BookCollection.where(:collection_id => col_id).count + 1
-      bok_col = BookCollection.create!(:volume_id => vol_id, :collection_id => col_id, :position => position)
+      position = VolumeCollection.where(:collection_id => col_id).count + 1
+      bok_col = VolumeCollection.create!(:volume_id => vol_id, :collection_id => col_id, :position => position)
     end
     col.updated_at = Time.now
     col.save
@@ -209,10 +208,10 @@ class CollectionsController < ApplicationController
     title = params[:title]
     if title.length > 0
       description = params[:description]
-      status = false
-      status = true if params[:public] == 'on'
+      is_public = false
+      is_public = true if params[:is_public] == 'on'
       col = Collection.create!(:title => title, :description => description,
-      :user_id => session[:user_id], :status => status)
+      :user_id => session[:user_id], :is_public => is_public)
       add_to_existing_collection(col)
     end
   end

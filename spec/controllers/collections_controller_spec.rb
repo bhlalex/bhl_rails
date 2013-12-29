@@ -10,7 +10,7 @@ describe CollectionsController do
       truncate_table(ActiveRecord::Base.connection, "books", {})
       truncate_table(ActiveRecord::Base.connection, "volumes", {})
       truncate_table(ActiveRecord::Base.connection, "collections", {})
-      truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+      truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
       doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
       doc_test_first[:bok_title] = "Test Book First"
 
@@ -42,7 +42,7 @@ describe CollectionsController do
     #        begin
     #          lambda do
     #            get :add_book, :title => "title", :description => "description", :public => "on", :col_id => nil, :vol_id => 123
-    #          end.should change(BookCollection, :count).by(1)
+    #          end.should change(VolumeCollection, :count).by(1)
     #          rescue ActionView::MissingTemplate
     #        end
     #      end
@@ -68,7 +68,7 @@ describe CollectionsController do
     #    end
 
     describe "add book to pre exist collection" do
-      it "should create a new BookCollection" do
+      it "should create a new VolumeCollection" do
         begin
           lambda do
             get :add_book, :col_id => @collection.id, :vol_id => 123
@@ -76,11 +76,11 @@ describe CollectionsController do
         rescue ActionView::MissingTemplate
         end
       end
-      it "should create a new BookCollection with ight order" do
+      it "should create a new VolumeCollection with ight order" do
         begin
           get :add_book, :col_id => @collection.id, :vol_id => 123
         rescue ActionView::MissingTemplate
-          BookCollection.last.position.should == 1
+          VolumeCollection.last.position.should == 1
         end
       end
     end
@@ -101,22 +101,22 @@ describe CollectionsController do
       @vol_third = Volume.gen(:book => @book_test_first, :job_id => '3', :get_thumbnail_fail => 0)
 
       truncate_table(ActiveRecord::Base.connection, "collections", {})
-      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :status => false)
-      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Date.today, :status => true)
-      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => Date.today, :status => true)
+      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :public => false)
+      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Date.today, :public => true)
+      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => Date.today, :public => true)
 
-      truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-      @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => 1)
-      @second_book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_second.id, :position => 2)
-      @third_book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_third.id, :position => 3)
+      truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
+      @book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => 1)
+      @second_book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_second.id, :position => 2)
+      @third_book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_third.id, :position => 3)
 
-      @book_in_my_public_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => 1)
-      @second_book_in_my_public_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_second.id, :position => 2)
-      @third_book_in_my_public_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => 3, :position => 3)
+      @book_in_my_public_collection = VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => 1)
+      @second_book_in_my_public_collection = VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_second.id, :position => 2)
+      @third_book_in_my_public_collection = VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => 3, :position => 3)
 
-      @book_in_other_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => 1)
-      @second_book_in_other_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_second.id, :position => 2)
-      @third_book_in_other_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_third.id, :position => 3)
+      @book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => 1)
+      @second_book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_second.id, :position => 2)
+      @third_book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_third.id, :position => 3)
 
     end
 
@@ -183,28 +183,28 @@ describe CollectionsController do
         end
 
         it "should have pagination bar" do
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-          20.times { |i| BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => i)}
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
+          20.times { |i| VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @my_private_collection
           response.should have_selector('ul', :class => "pagination")
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
         end
 
         describe "delete book from collection" do
           it "should delete book from collection" do
             request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
             lambda do
-              get :delete_book, :book_collection_id => @second_book_in_my_private_collection
+              get :delete_book, :volume_collection_id => @second_book_in_my_private_collection
               response.should redirect_to("/collections/show/#{@my_private_collection.id}")
               @third_book_in_my_private_collection.position == 2
-            end.should change(BookCollection, :count).by(-1)
+            end.should change(VolumeCollection, :count).by(-1)
           end
         end
 
         describe "sort books in collection" do
           it "should change book order to higher order" do
             request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
-            get :move_up, :book_collection_id => @second_book_in_my_private_collection
+            get :move_up, :volume_collection_id => @second_book_in_my_private_collection
             response.should redirect_to("/collections/show/#{@my_private_collection.id}")
             @second_book_in_my_private_collection.position == 1
             @book_in_my_private_collection.position == 2
@@ -212,7 +212,7 @@ describe CollectionsController do
 
           it "should change book order to lower order" do
             request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
-            get :move_down, :book_collection_id => @second_book_in_my_private_collection
+            get :move_down, :volume_collection_id => @second_book_in_my_private_collection
             response.should redirect_to("/collections/show/#{@my_private_collection.id}")
             @second_book_in_my_private_collection.position == 3
             @third_book_in_my_private_collection.position == 2
@@ -267,28 +267,28 @@ describe CollectionsController do
         end
 
         it "should have pagination bar" do
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-          20.times { |i| BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => i)}
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
+          20.times { |i| VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @my_public_collection
           response.should have_selector('ul', :class => "pagination")
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
         end
 
         describe "delete book from collection" do
           it "should delete book from collection" do
             request.env["HTTP_REFERER"] = "/collections/show/#{@my_public_collection.id}"
             lambda do
-              get :delete_book, :book_collection_id => @second_book_in_my_public_collection
+              get :delete_book, :volume_collection_id => @second_book_in_my_public_collection
               response.should redirect_to("/collections/show/#{@my_public_collection.id}")
               @third_book_in_my_public_collection.position == 2
-            end.should change(BookCollection, :count).by(-1)
+            end.should change(VolumeCollection, :count).by(-1)
           end
         end
 
         describe "sort books in collection" do
           it "should change book order to higher order" do
             request.env["HTTP_REFERER"] = "/collections/show/#{@my_public_collection.id}"
-            get :move_up, :book_collection_id => @second_book_in_my_public_collection
+            get :move_up, :volume_collection_id => @second_book_in_my_public_collection
             response.should redirect_to("/collections/show/#{@my_public_collection.id}")
             @second_book_in_my_public_collection.position == 1
             @book_in_my_public_collection.position == 2
@@ -296,7 +296,7 @@ describe CollectionsController do
 
           it "should change book order to lower order" do
             request.env["HTTP_REFERER"] = "/collections/show/#{@my_public_collection.id}"
-            get :move_down, :book_collection_id => @second_book_in_my_public_collection
+            get :move_down, :volume_collection_id => @second_book_in_my_public_collection
             response.should redirect_to("/collections/show/#{@my_public_collection.id}")
             @second_book_in_my_public_collection.position == 3
             @third_book_in_my_public_collection.position == 2
@@ -333,11 +333,11 @@ describe CollectionsController do
         end
 
         it "should have pagination bar" do
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-          20.times { |i| BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => i)}
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
+          20.times { |i| VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @other_public_collection
           response.should have_selector('ul', :class => "pagination")
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
         end
       end
     end
@@ -397,7 +397,7 @@ describe CollectionsController do
         response.should have_selector('textarea', :content => "description")
       end
 
-      it "should have an option to edit collection status" do
+      it "should have an option to edit collection public" do
         get :edit, :id => @my_private_collection
         response.should have_selector('input', :value => "0")
       end
@@ -409,7 +409,7 @@ describe CollectionsController do
 
       describe "update fail" do
         before(:each) do
-          @attr={:user_id => @user.id, :title => "",:description => "", :updated_at => Date.today, :status => false}
+          @attr={:user_id => @user.id, :title => "",:description => "", :updated_at => Date.today, :public => false}
         end
         it "should enter title for collection" do
           request.env["HTTP_REFERER"] = "/collections/edit/#{@my_private_collection.id}"
@@ -420,7 +420,7 @@ describe CollectionsController do
       end
       describe "update success" do
         before(:each) do
-          @attr={:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :status => false}
+          @attr={:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :public => false}
         end
         it "should edit collection with vaild params " do
           request.env["HTTP_REFERER"] = "/users/#{@user.id}/collections"
@@ -461,7 +461,7 @@ describe CollectionsController do
         #response.should have_content("description")
       end
 
-      it "should display collection status" do
+      it "should display collection public" do
         get :show, :id => @my_private_collection
         response.should have_selector('b', :content => "Status")
         #response.should have_content("Private")
@@ -484,10 +484,10 @@ describe CollectionsController do
       @other_user = User.gen
 
       truncate_table(ActiveRecord::Base.connection, "collections", {})
-      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :status => false)
-      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :status => true)
-      @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :status => false)
-      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :status => true)
+      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :public => false)
+      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :public => true)
+      @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :public => false)
+      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :public => true)
 
     end
     describe "list collections" do
@@ -510,7 +510,7 @@ describe CollectionsController do
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :status => true)}
+        20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :public => true)}
         get :index
         response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
@@ -577,7 +577,7 @@ describe CollectionsController do
       @user = User.first
       @other_user = User.gen
 
-      @collection = Collection.create(:user_id => @user.id, :title => "collection",:description => "description", :updated_at => Date.today, :status => true)
+      @collection = Collection.create(:user_id => @user.id, :title => "collection",:description => "description", :updated_at => Date.today, :public => true)
       @appropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "reply on first book comment")
       @reply_of_appropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => @appropriate_collection_comment.id, :text => "first book comment")
       @inappropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @collection.id, :comment_id => nil, :text => "second book comment", :number_of_marks => 2)

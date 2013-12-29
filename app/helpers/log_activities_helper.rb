@@ -12,11 +12,11 @@ module LogActivitiesHelper
           # log record of each created collection contains user name and collection name
           log_record = "<h3><a href = '/users/show/#{collection.user_id}'>#{User.find(collection.user_id).real_name}</a> #{I18n.t(:log_activity_create)} <a href = '/collections/show/#{collection.id}'>#{collection.title}</a></h3>  <h5> #{activity[:time]}</h5>"
           log = {:user => collection.user_id, :record => log_record}
-        elsif(activity[:table_type] == "book_ratings")
-          book_rating = BookRating.find(activity[:id])
+        elsif(activity[:table_type] == "volume_ratings")
+          volume_rating = VolumeRating.find(activity[:id])
           # log record of each rated book contains user name , book name and rate vaule
-          log_record = "<h3><a href = '/users/show/#{book_rating.user_id}'>#{User.find(book_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a href = '/books/#{(Volume.find(book_rating.volume_id)).job_id}'> #{Volume.find(book_rating.volume_id).book.title}</a> #{I18n.t(:log_activity_with)} #{book_rating.rate}</h3> <h5> #{activity[:time]}</h5>"
-          log = {:user => book_rating.user_id, :record => log_record}
+          log_record = "<h3><a href = '/users/show/#{volume_rating.user_id}'>#{User.find(volume_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a href = '/books/#{(Volume.find(volume_rating.volume_id)).job_id}'> #{Volume.find(volume_rating.volume_id).book.title}</a> #{I18n.t(:log_activity_with)} #{volume_rating.rate}</h3> <h5> #{activity[:time]}</h5>"
+          log = {:user => volume_rating.user_id, :record => log_record}
         elsif(activity[:table_type] == "collection_ratings")
           collection_rating = CollectionRating.find(activity[:id])
           # log record of each rated collection contains user name , collection name and rate vaule

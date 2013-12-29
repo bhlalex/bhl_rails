@@ -152,8 +152,8 @@ module ApplicationHelper
     saved_query[0,saved_query.length-1]
   end
 
-  def parse_collection_status(status)
-    if status
+  def parse_collection_is_public(is_public)
+    if is_public
       I18n.t(:public)
     else
       I18n.t(:private)

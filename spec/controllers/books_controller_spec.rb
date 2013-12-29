@@ -385,14 +385,14 @@ describe BooksController do
         @other_user = User.gen
 
         truncate_table(ActiveRecord::Base.connection, "collections", {})
-        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Time.now, :status => false)
-        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Time.now, :status => true)
-        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-12-02 09:17:54 UTC", :status => true)
+        @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Time.now, :is_public => false)
+        @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Time.now, :is_public => true)
+        @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-12-02 09:17:54 UTC", :is_public => true)
   
         truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-        @book_in_my_private_collection = BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)
-        @second_book_in_my_private_collection = BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @volume.id, :position => 2)
-        @third_book_in_my_private_collection = BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @volume.id, :position => 3)
+        @book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)
+        @second_book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @volume.id, :position => 2)
+        @third_book_in_my_private_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @volume.id, :position => 3)
       end
       it "should list current user's collections and other public collections of current volume" do
         get :show, { :id => @volume.job_id, :tab => "collections" }
@@ -413,7 +413,7 @@ describe BooksController do
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-        20.times {BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)}
+        20.times {VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @volume.id, :position => 1)}
         get :show, { :id => @volume.job_id, :tab => "collections" }
         response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "book_collections", {})

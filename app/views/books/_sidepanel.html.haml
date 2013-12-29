@@ -113,13 +113,9 @@
           =I18n.t(:book_details_user_rate)
     .list-group-item
       %span.badge.badge-success 
-        ="#{@collections_count[0].total}"
-      - if(@collections_count[0].total == 1)
-        %a{:href => "#collectionsfound"}
-          =I18n.t(:book_details_one_collection)
-      - else
-        %a{:href => "#collectionsfound"}
-          =I18n.t(:book_details_collections) 
+        ="#{@collections_count}"
+      %a{:href => "#collectionsfound"}
+        =I18n.t(:book_details_collection_count, :count => @collections_count)
     %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}');"}
       %i.fa.fa-angle-double-right
       = I18n.t(:book_details_mods)

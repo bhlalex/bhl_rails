@@ -31,7 +31,7 @@ class BooksController < ApplicationController
     @query = set_query_string(@query_array, false)
     @response = search_facet_highlight(@query, @page,@sort)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
-end
+  end
   
   def show
     @volume_id = Volume.find_by_job_id(params[:id]).id
@@ -78,52 +78,37 @@ end
     end
     # when user rate == 0 this means that he never rated this book before
     @user_rate = 0.0
-    book_rate_list = BookRating.where(:user_id => session[:user_id], :volume_id => @volume.id)
+    book_rate_list = VolumeRating.where(:user_id => session[:user_id], :volume_id => @volume.id)
     
     if book_rate_list.count > 0
       @user_rate = book_rate_list[0].rate 
     end
     
-    @collections_count = Collection.find_by_sql("SELECT COUNT(*) AS total
-                                  FROM collections 
-                                  INNER JOIN book_collections
-                                    ON (collections.id = book_collections.collection_id)
-                                 WHERE book_collections.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
-                                  AND collections.status = true or collections.user_id = #{session[:user_id]};") 
-    @collectionspages = ( @collections_count[0].total / LIMIT_CAROUSEL.to_f).ceil
-    count = Book.find_by_sql("SELECT COUNT(*) AS total FROM ((SELECT book_id1
-                                FROM book_views
-                                WHERE book_id2 = #{params[:id]})
-                              UNION
-                              (SELECT book_id2
-                                        
-                                    FROM book_views
-                                    WHERE book_id1 =#{params[:id]})
-                              ) result;")
-                          
-    @viewspages =  (count[0].total / LIMIT_CAROUSEL.to_f).ceil
+    @collections_count = Collection.get_count_by_volume(@volume_id, session[:user_id])
+    @collectionspages = ( @collections_count / LIMIT_CAROUSEL.to_f).ceil
+    @viewspages =  (book_module.view_count / LIMIT_CAROUSEL.to_f).ceil
     response = rsolr.find :q => get_solr_related(params[:id]), :fl => "vol_jobid"
     @relatedpages = ((response['response']['numFound']) / LIMIT_CAROUSEL.to_f).ceil
   end
   
   def rating
+    debugger
     volume = Volume.find_by_job_id(params[:jobid]) 
-    user = !params[:user].nil? ? User.find_by_guid(params[:user]) : nil
-    if !user.nil? && params[:rate] != "NaN"
+    unless session[:user_id].nil? || params[:rate] != "NaN"
       rate = params[:rate].to_f
       #allow user to rate as long as he is logged in
-      book_rate_list = BookRating.where(:user_id => user.id, :volume_id => volume.id)
+      volume_rate_list = VolumeRating.where(:user_id => session[:user_id], :volume_id => volume.id)
       
       #create new or updat existing
-      if book_rate_list.count == 0
+      if volume_rate_list.count == 0
         #create
-        book_rate = BookRating.create!(:user_id => user.id, :volume_id => volume.id, :rate => rate)
+        volume_rate = VolumeRating.create!(:user_id => session[:user_id], :volume_id => volume.id, :rate => rate)
       else
         #update
-        book_rate = book_rate_list[0]
-        book_rate.rate = rate
+        volume_rate = volume_rate_list[0]
+        volume_rate.rate = rate
       end
-      book_rate.save
+      volume_rate.save
       #update volume global rate
       volume = volume.set_rate
       data = volume.rate
@@ -132,7 +117,8 @@ end
       render :json => data
     else
       #redirect to login    
-      redirect_to :controller => :users, :action => :login
+      #redirect_to :controller => :users, :action => :login
+      render :json => 0
     end
     
   end
@@ -180,7 +166,7 @@ end
   def get_detailed_rate
     @rate_array=[]
       (1..5).each do |n|
-        @rate_array <<  BookRating.where(:rate => n.to_f, :volume_id => Volume.find_by_job_id(params[:jobid])).count
+        @rate_array <<  VolumeRating.where(:rate => n.to_f, :volume_id => Volume.find_by_job_id(params[:jobid])).count
       end
     respond_to do |format|
       format.html {render :partial => "books/detailed_rate"}
@@ -190,11 +176,7 @@ end
   def get_comments
     @start = params[:start]
     @comment = Comment.new
-    @total_comments =  Comment.count_by_sql("SELECT count(*) 
-                                                                       FROM comments 
-                                                                       WHERE comments.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
-                                                                        AND comments.comment_id IS NULL" )
-    @total_comments = @total_comments 
+    @total_comments = Comment.where("comments.volume_id=? AND comments.comment_id IS NULL", Volume.find_by_job_id(params[:id]).id).count
     start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
     limit = LIMIT_BOOK_COMMENTS
     @comments = Comment.find_by_sql("SELECT * 
@@ -233,7 +215,7 @@ end
                   INNER JOIN book_collections
                     ON (collections.id = book_collections.collection_id)
                  WHERE book_collections.volume_id=#{Volume.find_by_job_id(id).id} 
-                  AND collections.status = true or collections.user_id = #{session[:user_id]}
+                  AND collections.is_public = true or collections.user_id = #{session[:user_id]}
                   LIMIT #{start}, #{limit}")
     end
     def getalsoviewed(id, start, limit)
