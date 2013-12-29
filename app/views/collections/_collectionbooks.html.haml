@@ -1,8 +1,7 @@
-- if (@collection_books != '' && @total_number > 0)
-  - @collection_books.each do |ubh_vol|
-    - @ubh_vol = ubh_vol
-    - @vol = Volume.find_by_id(@ubh_vol.volume)
-    - @title = Book.find_by_id(@vol.book_id).title
+- if (@collection_volumes != '' && @total_number > 0)
+  - @collection_volumes.each do |ubh_vol|
+    - @vol = ubh_vol.volume
+    - @title = @vol.book.title
     - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
     .col-md-2.column
       = link_to image_tag("/#{@thumb}") , {:controller => :books, :action => :show, :id => @vol[:job_id]}  
