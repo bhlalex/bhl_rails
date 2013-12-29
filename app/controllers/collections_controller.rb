@@ -21,6 +21,7 @@ class CollectionsController < ApplicationController
   end
 
   def show
+    
     @page_title = I18n.t(:show_collection_detail)
     @collection = Collection.find(params[:id])
     if @collection.status == true || authenticate_user(@collection.user_id)

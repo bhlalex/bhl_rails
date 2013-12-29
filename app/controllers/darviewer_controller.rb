@@ -17,7 +17,7 @@ class DarviewerController < ApplicationController
     jobid = pid.gsub("DAF-Job:", "")
     volume = Volume::find_by_job_id(jobid)
     
-    bookdata = solr_search("vol_jobid:#{volume.job_id}", "bok_title, author, subject, bok_start_date, published_at, bok_language, author")
+    bookdata = solr_search("vol_jobid:#{volume.job_id}", "bok_title, author, subject, bok_start_date, bok_start_date, bok_language, author")
     if(bookdata != nil)
       jsonArray = {
         :Subject => bookdata['subject'] != nil ? bookdata['subject'] : "", 

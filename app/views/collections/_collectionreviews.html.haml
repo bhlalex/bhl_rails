@@ -1,0 +1,83 @@
+:javascript
+  var start = 0;
+    function mark_comment(id) {
+            $.ajax({type: "GET", 
+              url: "/mark?id=" + id , 
+              dataType: "script",
+              success: function(data){
+                         if(parseInt(data) >= #{MAX_NO_ABUSE}){
+                           $('#comment'+id).toggle();
+                           $('#abuse'+id).toggle();
+                         }
+             }
+      });
+  }
+    function show_replies(id) {
+      $('#replies'+id).toggle();
+  }
+  
+      function show_reply(id) {
+      $('#open_reply'+id).toggle();
+  }
+  
+      function open_comment(id) {
+       $('#comment'+id).toggle();
+       $('#abuse'+id).toggle();
+  }
+    function confirmDelete(){
+    var r= confirm("#{I18n.t(:delete_comment_confirm)}");
+    return r;
+  }
+  
+  function loadXMLDoc(direction)
+  {
+  var total_number_of_comments = document.getElementById("total_comments");
+  var limit = parseInt("#{LIMIT_BOOK_COMMENTS}");
+  if (direction == 1){
+    start =start + 1;
+    }
+  else if (direction == 2){
+    start =start - 1;
+    }
+  var xmlhttp;
+  if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+    }
+  else
+    {// code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+  xmlhttp.onreadystatechange=function()
+    {
+    if (xmlhttp.readyState==4 && xmlhttp.status==200)
+      {
+      document.getElementById("reviews").innerHTML=xmlhttp.responseText;
+      }
+    }
+
+  xmlhttp.open("GET","/get_comments?start=" + start + "&id=#{params[:id]}",true);
+  xmlhttp.send();
+  
+  }
+    loadXMLDoc(0);
+
+#modal-container-4.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog"}
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+        %h4#myModalLabel.modal-title #{I18n.t(:create_comment)}
+      .modal-body
+        - if logged_in?
+          = render :partial => "comments/new_comment", :locals => {:comment_id => nil}
+        - if !(logged_in?)
+          = link_to "please login ", {:controller => "users", :action => "login"}
+
+
+.reviews
+  %a#modal-4.btn.btn-primary.btn-sm.pull-right{"data-toggle" => "modal", :href => "#modal-container-4", :onclick => "loadformats('Comment', '');", :role => "button"} Write a review
+  %h3 
+    = I18n.t(:reviews)
+  %hr.clearfix
+  #reviews

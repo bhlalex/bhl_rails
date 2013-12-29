@@ -1,15 +1,68 @@
+:javascript  
+  function confirmDelete(id){
+  var r= confirm("#{I18n.t(:delete_book_from_collection_confirm)}");
+    return r;
+  }
 - if (@collection_books != '' && @total_number > 0)
   - @collection_books.each do |ubh_vol|
     - @ubh_vol = ubh_vol
     - @vol = Volume.find_by_id(@ubh_vol.volume)
-    - @title = Book.find_by_id(@vol.book_id).title
-    - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-    .col-md-2.column
-      = link_to image_tag("/#{@thumb}") , {:controller => :books, :action => :show, :id => @vol[:job_id]}  
-    .col-md-6.column
-      %h4
-        = @title
-        
-    .col-md-4.column.controls
-    .clearfix
-    %hr
+    - @book = solr_search("vol_jobid:#{@vol.job_id}","bok_title, views, rate")
+    - @thumb = "volumes/#{@vol.job_id}/thumb.jpg"
+    :javascript
+      $(document).ready(function(){
+        $("#starsidelink_#{@vol.job_id}").jRating({
+          isDisabled : true
+        });
+      });
+    .row.clearfix  
+      .col-md-2.column
+        = link_to image_tag("/#{@thumb}") , {:controller => :books, :action => :show, :id => @vol.job_id}  
+      .col-md-6.column
+        %h4
+          = @book[:bok_title][0]
+        .date.text-muted
+          %b
+            =I18n.t(:col_book_added_on)
+          = @ubh_vol.created_at
+        .date.text-muted
+          %b
+            = I18n.t(:col_book_order)
+          = @ubh_vol.position  
+      .col-md-4.column.controls
+        %ul.fa-ul.tools
+          - if (@ubh_vol.collection.user_id == session[:user_id])
+            %li
+              - if @ubh_vol.position > 1
+                %i.fa.fa-li.fa-arrow-up
+                %small
+                  = link_to "#{I18n.t(:col_book_move_up)} ", 
+                  {:controller => :collections, :action => :move_up, :book_collection_id => @ubh_vol.id}  
+              - if @ubh_vol.position < @total_number
+                %i.fa.fa-arrow-down 
+                %small
+                  = link_to  " #{I18n.t(:col_book_move_down)}", 
+                  {:controller => :collections, :action => :move_down, :book_collection_id => @ubh_vol.id}
+            %li
+              %i.fa.fa-li.fa-trash-o
+              %small
+                = link_to "#{I18n.t(:col_book_trash)}" , 
+                {:controller => :collections, :action => :delete_book, :book_collection_id => @ubh_vol.id}, 
+                :onclick => "return confirmDelete(#{@ubh_vol.id})" 
+          %li
+            %i.fa.fa-li.fa-book
+            %small
+              = link_to "#{I18n.t(:book_details_read)}" ,
+                {:controller => :books, :action => :show, :id => @vol.job_id, :tab => "read"}
+          %li
+            %i.fa.fa-li.fa-info
+            %small
+              = link_to "#{I18n.t(:book_details_details)}" , 
+                {:controller => :books, :action => :show, :id => @vol.job_id}    
+        - if @book['rate'] != 0.0
+          .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
+        %small
+          = "#{pluralize(@book[:views], I18n.t(:sidelinks_views))} "
+      .col-md-8.clearfix
+        %hr
+      

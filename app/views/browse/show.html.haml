@@ -3,7 +3,7 @@
     %h2
       = @page_title
     %hr
-    .well
+    .well.text-center
       = render :partial => "browse/chars"
     .panel.panel-default
       - get_prefixes_of_results(@browse_list).each do |prefix|    
