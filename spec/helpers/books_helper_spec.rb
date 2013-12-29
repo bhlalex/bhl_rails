@@ -7,7 +7,8 @@ describe BooksHelper do
     doc = {:vol_jobid => "123", :bok_bibid => "456"}
     doc[:bok_title] = "Test Book"
     doc[:name] = "Test Name"
-
+    doc[:single_bok_title] = "title"
+      
     solr = RSolr.connect :url => SOLR_BOOKS_METADATA
     # remove this book if exists
     solr.delete_by_query('vol_jobid:123')
@@ -27,7 +28,8 @@ describe BooksHelper do
     doc = {:vol_jobid => "123", :bok_bibid => "456"}
     doc[:bok_title] = "Test Book"
     doc[:bok_language] = "Test Language"
-
+    doc[:single_bok_title] = "title"
+      
     solr = RSolr.connect :url => SOLR_BOOKS_METADATA
     # remove this book if exists
     solr.delete_by_query('vol_jobid:123')
@@ -47,7 +49,8 @@ describe BooksHelper do
     doc = {:vol_jobid => "123", :bok_bibid => "456"}
     doc[:bok_title] = "Test Book"
     doc[:author] = "Test Author"
-
+    doc[:single_bok_title] = "title"
+      
     solr = RSolr.connect :url => SOLR_BOOKS_METADATA
     # remove this book if exists
     solr.delete_by_query('vol_jobid:123')
@@ -72,13 +75,15 @@ describe BooksHelper do
       @doc1[:name] = "Test Name"
       @doc1[:rate] = 2.9 # lower rate
       @doc1[:views] = 1 # higher number of views
-
+      @doc1[:single_bok_title] = "title"
+        
       @doc2 = {:vol_jobid => "124", :bok_bibid => "456"}
       @doc2[:bok_title] = "Test Book2"
       @doc2[:name] = "Test Name"
       @doc2[:rate] = 4 # higher rate
       @doc2[:views] = 0 # lower number of views
-
+      @doc2[:single_bok_title] = "title"
+        
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*')
       solr.commit

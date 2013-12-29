@@ -84,7 +84,7 @@ en:
   access_denied_error: "Access denied."
   changes_saved: "Changes saved."
   search_by: "Search By:"
-  no_books_found: "No Books Found"
+  
   search_by_title: Search By Collection Title
   sort_by_title: Sort By Collection Title
   sort_desc: Sort Desc
@@ -322,6 +322,7 @@ en:
   listresult_names: "Names:" 
   terminator: "."
   separator: "/"
+  and_more: " and %{count} more..."
   
   #Pages (About US, Contact Us)
   about_us_page_title: About Us
@@ -392,3 +393,15 @@ en:
   geo_titles: 'titles'
   geo_titles_more: 'or more titles'
   geo_show_all_titles: 'Show all'
+  
+  #Collections Index
+  collection_title: Collections
+  no_collections_found: No Collections Found
+  collections_found:
+    zero:  ""
+    one:   "Found in one collections"
+    other: "Found in %{count} collections"
+  collections_found_all: "Found %{count} collections"
+  
+  #Collection Page
+  collection_your_rate: Your Rate

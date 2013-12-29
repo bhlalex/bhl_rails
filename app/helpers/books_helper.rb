@@ -31,15 +31,18 @@ module BooksHelper
   end
   
   def get_format(id, format)
+    
     if format == 'mods'
+      format = ""
       mods = Book.find_by_id(Volume.find_by_job_id(id).book_id).mods
-      mods.slice!(0) if mods[0] == "?" # This should remove leading "?" from mods
-      
-      # this is used to beautify xml display 
-      doc = REXML::Document.new mods
-      out = ""
-      doc.write(out, 1)
-      format = out
+      if !mods.nil?
+        mods.slice!(0) if mods[0] == "?" # This should remove leading "?" from mods
+        # this is used to beautify xml display 
+        doc = REXML::Document.new mods
+        out = ""
+        doc.write(out, 1)
+        format = out
+      end
     elsif format == 'bibtex'
       bibtex = Book.find_by_id(Volume.find_by_job_id(id).book_id).bibtex
       format = ""
@@ -87,7 +90,8 @@ module BooksHelper
     ")
     more_names = ''
     if names[0].count > MAX_NAMES_PER_BOOK
-      more_names = " and #{names[0].count - MAX_NAMES_PER_BOOK} more..."
+      count = names[0].count - MAX_NAMES_PER_BOOK
+      more_names = I18n.t(:and_more, :count => count)
     end
   end
   

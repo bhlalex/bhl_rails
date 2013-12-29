@@ -3,39 +3,21 @@ class CollectionsController < ApplicationController
   include BHL::Login
   include BooksHelper
   def index
-    @query_array = {'title'=> []}
-    @query_array = set_query_array(@query_array, params)
-    @query = set_query_string(@query_array, true)
-    if(@query != '')
-      sql_query = "is_public = true"
-      terms = (@query[7,@query.length]).split(" _AND ")
-      terms.each do |term|
-        sql_query+= " and title like '%#{term.tr("_", "")}%'"
-      end
-    else
-      sql_query = "is_public = true"
-    end
-    @collections = Collection.where(sql_query).order(params[:sort_type])
-    if(@collections.nil?)
-      @collections_total_number = 0
-    else
-      @collections_total_number = @collections.count
-    end
+    @page_title = I18n.t(:collection_title)
+    
+    sql_query = "is_public = true"
+    sql_query+= " AND title LIKE '%#{params[:search]}%'" if !params[:search].nil?
+    
     @page = params[:page] ? params[:page].to_i : 1
-    @lastPage = @collections.count ? ((@collections.count).to_f/PAGE_SIZE).ceil : 0
-    limit = PAGE_SIZE
-    offset = (@page > 1) ? (@page - 1) * limit : 0
-    @collections = @collections.limit(limit).offset(offset)
-    @url_params = params.clone
-    @user_all_rates = []
-    @collections.each do |collection|
-      collection_rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => collection.id)
-      if collection_rate_list.count > 0
-        @user_all_rates.push( collection_rate_list[0].rate)
-      else
-        @user_all_rates.push(0.0)
-      end
+    
+    @collections = Collection.where(sql_query).order(params[:sort_type]).limit(COLLECTION_PAGE_SIZE).offset((@page-1)*COLLECTION_PAGE_SIZE)
+    if !params[:search].nil?
+      @collections_total_number = Collection.count(:all, :conditions => "is_public = 1 AND title LIKE '%#{params[:search]}%'")
+    else
+      @collections_total_number = Collection.count(:all, :conditions => "is_public = 1")
     end
+    @lastPage = @collections_total_number ? ((@collections_total_number).to_f/COLLECTION_PAGE_SIZE).ceil : 0
+    @url_params = params.clone
   end
 
   def show
