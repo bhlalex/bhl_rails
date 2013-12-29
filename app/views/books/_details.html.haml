@@ -22,20 +22,21 @@
           =I18n.t(:book_publish_title) + ':'
         %dd
           =@book['bok_publisher']
-      - @types.each do |type, value|
-        - count = 0
-        - if @book[type.to_s] != nil
-          %dt
-            =value + ':'
-          %dd
-            - @book[type.to_s].each do |item|
-              - count = count + 1
-              =item_count_format(type.to_s, item)
-              -if count != @book[type.to_s].length
-                %b
-                  =I18n.t(:separator)
-            %b
-              =I18n.t(:terminator)
+      - if !@types.nil?
+        - @types.each do |type, value|
+          - count = 0
+          - if @book[type.to_s] != nil
+            %dt
+              =value + ':'
+            %dd
+              - @book[type.to_s].each do |item|
+                - count = count + 1
+                =item_count_format(type.to_s, item)
+                -if count != @book[type.to_s].length
+                  %b
+                    =I18n.t(:separator)
+              %b
+                =I18n.t(:terminator)
       - if @book['name'] != nil
         %dt
           =I18n.t(:book_name_title) + ':'

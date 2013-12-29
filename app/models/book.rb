@@ -1,9 +1,6 @@
 class Book < ActiveRecord::Base
   belongs_to :language
   
-  has_many :book_collections
-  has_many :collections, :through => :book_collections
-  
   has_many :book_authors
   has_many :authors, :through => :book_authors 
   
@@ -41,5 +38,15 @@ class Book < ActiveRecord::Base
     self.authors.map{|author| "#{author.name}"}.join(", ")
   end
   
+  def view_count
+    self.class.find_by_sql("SELECT COUNT(*) AS total FROM ((SELECT book_id1
+                                FROM book_views
+                                WHERE book_id2 = #{self.id})
+                              UNION
+                              (SELECT book_id2
+                                    FROM book_views
+                                    WHERE book_id1 = #{self.id})
+                              ) result;")[0].total
+  end
   
 end

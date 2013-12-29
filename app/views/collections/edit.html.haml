@@ -11,7 +11,7 @@
       %li
         = f.text_area :description
       %li
-        = f.check_box :status
+        = f.check_box :is_public
         = I18n.t(:public)
       %li
         - if(!(@collection.photo_name.blank?))
