@@ -1,14 +1,14 @@
 %h4
-  = link_to "#{I18n.t(:most_viewed)}",{:controller => :books, :action => :index, :sort_type => "views desc"}
+  = link_to "#{I18n.t(:top_rated)}",{:controller => :books, :action => :index, :sort_type => "views desc"}
 %hr
-- if (@most_viewed_response != '' && @most_viewed_response['response']['numFound'] > 0)
+- if (@top_rated_response != '' && @top_rated_response['response']['numFound'] > 0)
   - @number = 0
-  - @most_viewed_response['response']['docs'].each do |doc|
+  - @top_rated_response['response']['docs'].each do |doc|
     - @number = @number + 1
     - @id = doc['vol_jobid']
     - @vol = Volume.find_by_job_id(doc['vol_jobid'])
     - if (@vol != nil)
-      - @highlight = @most_viewed_response['highlighting'][@id.to_s]
+      - @highlight = @top_rated_response['highlighting'][@id.to_s]
       - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
       - thumb = ''
       - if(@vol[:get_thumbnail_fail] == 0)

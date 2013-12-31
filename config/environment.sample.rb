@@ -74,7 +74,8 @@ COLLECTION_FOLDER = 'collections/'
 UPLOADED_PHOTO_MAX_SIZE = 0.01
 
 TOP_COLLECTIONS_COUNT = 5
-
+MOST_VIEWED_BOOKS = 5
+HOME_LOG_ACTIVITIES = 5
 # Initialize the rails application
 Bhl::Application.initialize!
  

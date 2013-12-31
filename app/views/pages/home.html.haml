@@ -1,3 +1,8 @@
+= javascript_include_tag 'application'
+= javascript_include_tag 'jquery/jquery.tooltipster.min'
+= stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+= javascript_include_tag 'jquery/rating/jRating.jquery.js'
+
 .row.clearfix.home
   .col-md-3
     = render :partial => "pages/info"
@@ -11,6 +16,7 @@
       = render :partial => "pages/activity_log"
     .col-md-8
       = render :partial => "pages/most_viewed_books"
-
-
+  .row.clearfix
+    .col-md-8
+      = render :partial => "pages/top_rated_books"
 

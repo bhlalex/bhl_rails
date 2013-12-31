@@ -417,7 +417,7 @@ en:
   #Edit collection page
   public_collection: Public
   edit_collection_page_title: Edit Collection
-  collection_help_block: max size for photo is 2 MB.
+  collection_help_block: max size for photo is 0.01 MB.
   upload_collection_photo: Upload Photo 
   
   #Home Page
@@ -426,4 +426,9 @@ en:
   species: Tagged Species
   top_collections: Top Collections
   home_top_collections_by: By
+  most_viewed: Most Viewed
+  top_rated: Top Rated
+  home_activity_log: Activity Log
+  no_activities: No Activities Found
+  
   
