@@ -1,0 +1,16 @@
+.row.clearfix.home
+  .col-md-3
+    = render :partial => "pages/info"
+  .col-md-9.column
+    %div
+      = render :partial => "pages/top_collections"
+  .clearfix
+  %hr
+  .row.clearfix
+    .col-md-4.column.pull-right
+      = render :partial => "pages/activity_log"
+    .col-md-8
+      = render :partial => "pages/most_viewed_books"
+
+
+
