@@ -56,4 +56,16 @@ module SolrHelper
     response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_type, 'facet.prefix' => prefix, 'rows' => 0
     response.facets.first.items
   end
+  
+  def get_count_of(type)
+    rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    facet_type = get_facet_field(type)
+    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_type, 'rows' => 0
+    if type == "book"
+      response['response']['numFound']
+    else
+      response["facet_counts"]["facet_fields"][facet_type].count
+    end
+    
+  end
 end

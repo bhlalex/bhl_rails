@@ -414,8 +414,16 @@ en:
   write_review: Write a review
   please_login: please login
   
-  #edit collection
+  #Edit collection page
   public_collection: Public
   edit_collection_page_title: Edit Collection
   collection_help_block: max size for photo is 2 MB.
   upload_collection_photo: Upload Photo 
+  
+  #Home Page
+  book: Books
+  author: Authors
+  species: Tagged Species
+  top_collections: Top Collections
+  home_top_collections_by: By
+  
