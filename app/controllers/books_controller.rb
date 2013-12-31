@@ -85,14 +85,12 @@ class BooksController < ApplicationController
         
     @collections_count = Collection.get_count_by_volume(@volume_id, session[:user_id])
     @collectionspages = ( @collections_count / LIMIT_CAROUSEL.to_f).ceil
-    debugger
     @viewspages =  (@volume.view_count / LIMIT_CAROUSEL.to_f).ceil
     response = rsolr.find :q => get_solr_related(params[:id]), :fl => "vol_jobid"
     @relatedpages = ((response['response']['numFound']) / LIMIT_CAROUSEL.to_f).ceil
   end
   
   def rating
-    debugger
     volume = Volume.find_by_job_id(params[:jobid]) 
     unless session[:user_id].nil? || params[:rate] != "NaN"
       rate = params[:rate].to_f
