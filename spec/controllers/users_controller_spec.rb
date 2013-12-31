@@ -509,6 +509,7 @@ describe UsersController do
       flash[:notice].should_not be_blank
       user.reload
       user.active.should be_true
+      user.verification_code.should be_blank
     end
 
     it 'should update active in session variables after activation' do
