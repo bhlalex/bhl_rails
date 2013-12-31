@@ -155,12 +155,12 @@
                         =I18n.t(:subjects_link) 
                   - if(params[:controller] == 'names' && params[:action] == 'index')
                     %li.active
-                      %a{:href => "#{names_path}"}
+                      %a{:href => "#{names_index_path}"}
                         %i.fa.fa-tags
                         =I18n.t(:names_link)
                   - else
                     %li
-                      %a{:href => "#{names_path}"}
+                      %a{:href => "#{names_index_path}"}
                         %i.fa.fa-tags
                         =I18n.t(:names_link)
                         
