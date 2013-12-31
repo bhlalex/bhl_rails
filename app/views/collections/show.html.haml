@@ -38,4 +38,11 @@
     .clearfix
     %hr    
 .row.clearfix
-  =render :partial => "collections/collectionbooks"
+  .col-md-8.column.browse
+    =render :partial => "collections/collectionbooks"
+    - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+      - @pages = adjustPaging(@page, @lastPage)
+      = render :partial => "books/paging"
+  .col-xs-6.col-sm-4.sidebar-offcanvas
+    .spacing-left.panel.panel-styled
+      =render :partial => "collections/collectionreviews"

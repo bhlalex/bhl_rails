@@ -4,9 +4,15 @@
       return;
     window.location = window.location.href.split('?')[0] + "?search=" + field;
   }
-%center
-  .form-group.col-xs-2
-    %input.form-control{:id => "browsesearchfield",:type => "text", :onkeypress => "if(event.keyCode == 13){searchbrowse(document.getElementById('browsesearchfield').value);return false;}"}  
+.form-inline  
+  
+  %input.form-control{:id => "browsesearchfield",:type => "text", :style=> "width:400px; margin-top:-5px;", 
+  :onkeypress => "if(event.keyCode == 13){searchbrowse(document.getElementById('browsesearchfield').value);return false;}"}
+  
+  %a.go{:href=> "#", :onclick=>"searchbrowse(document.getElementById('browsesearchfield').value);"}
+    %i.fa.fa-arrow-circle-right.fa-2x     
+.clearfix
+.alphabet  
   %ul.list-inline
     %li
       - if @char == ''

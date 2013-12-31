@@ -61,7 +61,6 @@ class BooksController < ApplicationController
     @meta_author = book_module.meta_author
     #End SEO
     
-    @tabs = {:brief => I18n.t(:brief), :mods => I18n.t(:mods), :bibtex => I18n.t(:bibtex), :endnote => I18n.t(:endnote),:collections => I18n.t(:collections)}
     @current = params[:tab] != nil ? params[:tab] : 'brief'
     
     if @current != 'read'
@@ -280,33 +279,34 @@ class BooksController < ApplicationController
       end
       total_array
     end
-    def get_solr_related(id)
-      rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-        #origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
-        origin_book_names=  Name.find_by_sql("
-            SELECT names.*, COUNT(page_names.name_id) as count
-                      FROM names
-                        INNER JOIN page_names ON (page_names.name_id = names.id)
-                        INNER JOIN pages ON(page_names.page_id = pages.id)
-                        INNER JOIN volumes ON (volumes.id = pages.volume_id)
-                        WHERE volumes.job_id = #{id}
-                        GROUP BY name_id 
-                        ORDER BY count DESC
-                        LIMIT 0,#{MAX_NAMES_PER_BOOK}
-          ")
-        book_title = Book.find_by_id(Volume.find_by_job_id(id).book_id).title
-        book_title = book_title.gsub(/\s+/) {" \" AND \" "} if book_title.split(" ").length > 1
-        query = "bok_title:(\"#{book_title}\")"
-        if ((origin_book_names != nil) && (origin_book_names.count > 0))
-          query+= " OR name:(\""
-          origin_book_names.each do |name|
-            if name.string!=nil
-              name.string = name.string.gsub(/\s+/) {" \" AND \" "} if name.string.split(" ").length > 1
-              query+= "(#{name.string}) \" OR \" " 
-            end
-          end
-          query = query[0,query.length-7] #-7 to remove "Last OR and double quotes"
-          query+= "\")"
+  def get_solr_related(id)
+    rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    #origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
+    origin_book_names=  Name.find_by_sql("
+        SELECT names.*, COUNT(page_names.name_id) as count
+                  FROM names
+                    INNER JOIN page_names ON (page_names.name_id = names.id)
+                    INNER JOIN pages ON(page_names.page_id = pages.id)
+                    INNER JOIN volumes ON (volumes.id = pages.volume_id)
+                    WHERE volumes.job_id = #{id}
+                    GROUP BY name_id 
+                    ORDER BY count DESC
+                    LIMIT 0,#{MAX_NAMES_PER_BOOK}
+      ")
+    book_title = Book.find_by_id(Volume.find_by_job_id(id).book_id).title
+    book_title = book_title.gsub(/\s+/) {" \" AND \" "} if book_title.split(" ").length > 1
+    query = "bok_title:(\"#{book_title}\")"
+    if ((origin_book_names != nil) && (origin_book_names.count > 0))
+      query+= " OR name:(\""
+      origin_book_names.each do |name|
+        if name.string!=nil
+          name.string = name.string.gsub(/\s+/) {" \" AND \" "} if name.string.split(" ").length > 1
+          query+= "(#{name.string}) \" OR \" " 
         end
+      end
+      query = query[0,query.length-7] #-7 to remove "Last OR and double quotes"
+      query+= "\")"
+    end
+    query
   end
 end

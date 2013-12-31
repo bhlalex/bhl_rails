@@ -405,3 +405,8 @@ en:
   
   #Collection Page
   collection_your_rate: Your Rate
+  col_book_added_on: "Added On: "
+  col_book_order: "Book Order: "
+  col_book_trash: Trash
+  col_book_move_up: Move Up
+  col_book_move_down: Move Down

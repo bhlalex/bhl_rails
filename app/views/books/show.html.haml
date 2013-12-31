@@ -6,10 +6,15 @@
 = javascript_include_tag 'application'
 = javascript_include_tag 'jquery/jquery.tooltipster.min'
 
-.row.clearfix
-  = render :partial => "books/details"
-  = render :partial => "books/sidepanel"
-.row.clearfix
-  = render :partial => "books/reviews"
-.row.clearfix
-  = render :partial => "books/others"
+- if(@current != 'read')
+  .row.clearfix
+    = render :partial => "books/details"
+    = render :partial => "books/sidepanel"
+  .row.clearfix
+    = render :partial => "books/reviews"
+  .row.clearfix
+    = render :partial => "books/others"
+- else
+  .row.clearfix
+    %center
+      = render :partial => "books/read"
