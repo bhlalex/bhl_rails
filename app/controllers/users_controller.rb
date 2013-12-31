@@ -190,22 +190,35 @@ class UsersController < ApplicationController
   # POST /users/recover_password
   def recover_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    @email = params[:user][:email]
-    return redirect_to users_forgot_password_path unless @email
-    @user = User.find_by_email(@email)
-
-    if @user.nil?
-      flash.now[:error] = I18n.t(:user_not_found_by_email_address, :email => @email)
+    if verify_recaptcha
+      @email = params[:user][:email]
+      return redirect_to users_forgot_password_path unless @email
+      
+      if @email.blank?
+        flash.now[:error] = I18n.t(:invalid_email_address)
+        flash.keep
+        redirect_to users_forgot_password_path
+      else
+        @user = User.find_by_email(@email)
+    
+        if @user.nil?
+          flash.now[:error] = I18n.t(:user_not_found_by_email_address, :email => @email)
+          flash.keep
+          redirect_to users_forgot_password_path
+        else
+          # I am changing activation code, then send an email with a link to reset password
+          @user.change_activation_code
+          reset_password_url = "#{request.host}:#{request.port}/users/reset_passwpord/#{@user.guid}/#{@user.verification_code}"
+          Notifier.user_reset_password_verification(@user, reset_password_url)
+          flash.now[:notice] = I18n.t(:recover_password_success)
+          flash.keep
+          redirect_to :controller => :users, :action => :login
+        end
+      end
+    else
+      flash.now[:error] = I18n.t(:form_validation_errors_for_attribute_assistive)
       flash.keep
       redirect_to users_forgot_password_path
-    else
-      # I am changing activation code, then send an email with a link to reset password
-      @user.change_activation_code
-      reset_password_url = "#{request.host}:#{request.port}/users/reset_passwpord/#{@user.guid}/#{@user.verification_code}"
-      Notifier.user_reset_password_verification(@user, reset_password_url)
-      flash.now[:notice] = I18n.t(:recover_password_success)
-      flash.keep
-      redirect_to :controller => :users, :action => :login
     end
   end
 
