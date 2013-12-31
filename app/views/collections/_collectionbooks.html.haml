@@ -3,8 +3,8 @@
   var r= confirm("#{I18n.t(:delete_book_from_collection_confirm)}");
     return r;
   }
-- if (@collection_books != '' && @total_number > 0)
-  - @collection_books.each do |ubh_vol|
+- if (@collection_volumes != '' && @total_number > 0)
+  - @collection_volumes.each do |ubh_vol|
     - @ubh_vol = ubh_vol
     - @vol = Volume.find_by_id(@ubh_vol.volume)
     - @book = solr_search("vol_jobid:#{@vol.job_id}","bok_title, views, rate")

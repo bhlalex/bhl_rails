@@ -33,4 +33,16 @@ class Volume < ActiveRecord::Base
     self.save
     self
   end
+  # moved from book to volume as in db table book_views we store job_id
+  def view_count
+    self.class.find_by_sql("SELECT COUNT(*) AS total FROM 
+                              ((SELECT book_id1
+                                FROM book_views
+                                WHERE book_id2 = #{self.job_id})
+                              UNION
+                              (SELECT book_id2
+                                    FROM book_views
+                                    WHERE book_id1 = #{self.job_id})
+                              ) result;")[0].total
+  end
 end

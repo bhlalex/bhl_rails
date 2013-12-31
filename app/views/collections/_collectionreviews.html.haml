@@ -56,7 +56,7 @@
       }
     }
 
-  xmlhttp.open("GET","/get_comments?start=" + start + "&id=#{params[:id]}",true);
+  xmlhttp.open("GET","/get_collection_comments?start=" + start + "&id=#{params[:id]}",true);
   xmlhttp.send();
   
   }
@@ -72,12 +72,15 @@
         - if logged_in?
           = render :partial => "comments/new_comment", :locals => {:comment_id => nil}
         - if !(logged_in?)
-          = link_to "please login ", {:controller => "users", :action => "login"}
+          = link_to I18n.t(:please_login), {:controller => "users", :action => "login"}
 
 
-.reviews
-  %a#modal-4.btn.btn-primary.btn-sm.pull-right{"data-toggle" => "modal", :href => "#modal-container-4", :onclick => "loadformats('Comment', '');", :role => "button"} Write a review
-  %h3 
+%a#modal-4.btn.pull-right.btn-default{:style => "margin-top: 2px; margin-right: 2px;","data-toggle" => "modal", :href => "#modal-container-4", :onclick => "loadformats('Comment', '');", :role => "button"} 
+  = I18n.t(:write_review)
+  
+.panel-heading
+  %h3.panel-title
+    %i.fa.fa-users
     = I18n.t(:reviews)
-  %hr.clearfix
+.panel-body
   #reviews

@@ -2,6 +2,7 @@ class CollectionsController < ApplicationController
   include ApplicationHelper
   include BHL::Login
   include BooksHelper
+  
   def index
     @page_title = I18n.t(:collection_title)
     
@@ -21,13 +22,12 @@ class CollectionsController < ApplicationController
   end
 
   def show
-    
     @page_title = I18n.t(:show_collection_detail)
     @collection = Collection.find(params[:id])
     if @collection.is_public == true || authenticate_user(@collection.user_id)
       @collection_id = params[:id]
       @volume_id = nil
-      @comments_replies_list = get_comments( "collection", params[:id], nil)
+#      @comments_replies_list = get_comments( "collection", params[:id], nil)
       @comment = Comment.new
       rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => @collection.id)
       if rate_list.count > 0
@@ -107,7 +107,7 @@ class CollectionsController < ApplicationController
 
 
   def edit # edit collection
-    @page_title = I18n.t(:edit_collection)
+    @page_title = I18n.t(:edit_collection_page_title)
     @collection = Collection.find(params[:id])
     authenticate_user(@collection.user_id)
   end
@@ -173,6 +173,23 @@ class CollectionsController < ApplicationController
     end
   end
 
+  def get_collection_comments
+    @start = params[:start]
+    @comment = Comment.new
+    @total_comments = Comment.where("comments.collection_id=? AND comments.comment_id IS NULL", Collection.find_by_id(params[:id]).id).count
+    start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
+    limit = LIMIT_BOOK_COMMENTS
+    @comments = Comment.find_by_sql("SELECT * 
+                                              FROM comments 
+                                             WHERE comments.collection_id=#{Collection.find_by_id(params[:id]).id} 
+                                              AND comments.comment_id IS NULL
+                                              ORDER BY comments.created_at
+                                              LIMIT #{start}, #{limit}")
+    respond_to do |format|
+      format.html {render :partial => "collections/get_comments"}
+    end
+  end
+  
   private
 
   def add_to_existing_collection(col)
