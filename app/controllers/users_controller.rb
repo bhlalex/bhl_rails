@@ -140,7 +140,7 @@ class UsersController < ApplicationController
               'book_ratings' AS table_type,
               id AS id,
               created_at AS time
-              FROM book_ratings
+              FROM volume_ratings
               WHERE user_id = #{session[:user_id]})
           UNION
           (SELECT
@@ -175,7 +175,7 @@ class UsersController < ApplicationController
       if current_user
         @user_collections = Collection.where("user_id = #{@id}")
       else
-        @user_collections = Collection.where("user_id = #{@id} and status = true")
+        @user_collections = Collection.where("user_id = #{@id} and is_public = true")
       end
       @user_collections_total_number = @user_collections.count
       @page = params[:page] ? params[:page].to_i : 1

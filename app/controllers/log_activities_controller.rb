@@ -15,7 +15,7 @@ class LogActivitiesController < ApplicationController
           'collection' AS table_type,
           id AS id,
           created_at AS time
-          FROM collections WHERE status = 1)
+          FROM collections WHERE is_public = 1)
       UNION
       (SELECT
           'book_ratings' AS table_type,

@@ -21,9 +21,9 @@ Bhl::Application.routes.draw do
   match "/collections/edit/:id" => "collections#edit"
   match "/collections/show/:id" => "collections#show"
   match "/collections/update/:id" => "collections#update"
-  match "/collections/delete_book/:book_collection_id" => "collections#delete_book"
-  match "/collections/move_up/:book_collection_id" => "collections#move_up"
-  match "/collections/move_down/:book_collection_id" => "collections#move_down"
+  match "/collections/delete_book/:volume_collection_id" => "collections#delete_book"
+  match "/collections/move_up/:volume_collection_id" => "collections#move_up"
+  match "/collections/move_down/:volume_collection_id" => "collections#move_down"
   match "dialog_content" => "collections#dialog_content"
     
   resources :collections
@@ -82,7 +82,6 @@ Bhl::Application.routes.draw do
   match "/geographics/show/:id" => "geographics#show"
   match "/geographics/index/:range" => "geographics#index"
   
-  match "names" => redirect("names/index")
   get   "names/index"
   get   "names/show"
   match "names/get_content/:id" => "names#get_content"

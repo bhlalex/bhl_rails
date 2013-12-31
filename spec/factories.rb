@@ -83,7 +83,7 @@ FactoryGirl.define do
     association        :user
     title          "title"
     updated_at      { Time.now }
-    status      {true}
+    is_public      {true}
   end
 
   factory :book_collection do

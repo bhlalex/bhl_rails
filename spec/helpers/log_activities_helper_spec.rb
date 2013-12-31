@@ -43,8 +43,8 @@ describe LogActivitiesHelper do
     #                         rating collection
     #                         commented on book
     #                         commented on collection
-    @my_collection = Collection.create(:user_id => @user.id, :title => "my collection",:description => "description",:created_at => Time.now, :updated_at => Time.now, :status => true)
-    @other_collection = Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description",:created_at => Time.now + 10, :updated_at => Time.now + 10, :status => true)
+    @my_collection = Collection.create(:user_id => @user.id, :title => "my collection",:description => "description",:created_at => Time.now, :updated_at => Time.now, :is_public => true)
+    @other_collection = Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description",:created_at => Time.now + 10, :updated_at => Time.now + 10, :is_public => true)
     @appropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @my_collection.id, :comment_id => nil, :text => "reply on first book comment",:created_at => Time.now + 5)
     @appropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "reply on first book comment",:created_at => Time.now + 4)
     @volume_rating = VolumeRating.create(:user_id => @other_user.id, :volume_id => @vol.id, :rate => 4,:created_at => Time.now + 12)
@@ -65,7 +65,7 @@ describe LogActivitiesHelper do
           'collection' AS table_type,
           id AS id,
           created_at AS time
-          FROM collections WHERE status = 1)
+          FROM collections WHERE is_public = 1)
       UNION
       (SELECT
           'volume_ratings' AS table_type,
@@ -128,7 +128,7 @@ describe LogActivitiesHelper do
                   id AS id,
                   created_at AS time
                   FROM collections
-                  WHERE status = 1
+                  WHERE is_public = 1
                   and user_id = #{session[:user_id]})
             UNION
               (SELECT
