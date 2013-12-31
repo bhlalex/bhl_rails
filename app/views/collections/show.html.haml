@@ -11,7 +11,7 @@
 .row.clearfix
   .col-md-12.column
     %h2
-      = @page_title
+      = @collection.title
       - if @collection.rate != 0.0
         %span.rate
           .starsidelink{:id => "starsidelink_#{@collection.id}", :data => "#{@collection.rate}"}
@@ -25,8 +25,14 @@
       %p
         = @collection.description
       %small
-        %i.fa.fa-user
-        = link_to User.find(@collection.user_id).real_name, {:controller => :users, :action => :show, :id => @collection.user_id}
+        %i.fa.fa-user      
+        = link_to :controller => :users, :action => :show, :id => @collection.user_id do
+          = User.find(@collection.user_id).real_name
+        = " - "
+        
+        = link_to :controller => :collections, :action => :edit, :id => @collection.id do
+          %i.fa.fa-edit
+          = I18n.t(:edit_collection)
         %br
         %i.fa.fa-calendar-o
         = @collection.created_at

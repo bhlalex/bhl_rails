@@ -38,15 +38,16 @@ class Book < ActiveRecord::Base
     self.authors.map{|author| "#{author.name}"}.join(", ")
   end
   
-  def view_count
-    self.class.find_by_sql("SELECT COUNT(*) AS total FROM ((SELECT book_id1
-                                FROM book_views
-                                WHERE book_id2 = #{self.id})
-                              UNION
-                              (SELECT book_id2
-                                    FROM book_views
-                                    WHERE book_id1 = #{self.id})
-                              ) result;")[0].total
-  end
-  
+  # I removed this from here as self.id retirn a book id but in the database we store job id so this is moved to volume
+#  def view_count
+#    self.class.find_by_sql("SELECT COUNT(*) AS total FROM 
+#                              ((SELECT book_id1
+#                                FROM book_views
+#                                WHERE book_id2 = #{self.id})
+#                              UNION
+#                              (SELECT book_id2
+#                                    FROM book_views
+#                                    WHERE book_id1 = #{self.id})
+#                              ) result;")[0].total
+#  end
 end

@@ -85,7 +85,8 @@ class BooksController < ApplicationController
         
     @collections_count = Collection.get_count_by_volume(@volume_id, session[:user_id])
     @collectionspages = ( @collections_count / LIMIT_CAROUSEL.to_f).ceil
-    @viewspages =  (book_module.view_count / LIMIT_CAROUSEL.to_f).ceil
+    debugger
+    @viewspages =  (@volume.view_count / LIMIT_CAROUSEL.to_f).ceil
     response = rsolr.find :q => get_solr_related(params[:id]), :fl => "vol_jobid"
     @relatedpages = ((response['response']['numFound']) / LIMIT_CAROUSEL.to_f).ceil
   end
@@ -179,11 +180,11 @@ class BooksController < ApplicationController
     start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
     limit = LIMIT_BOOK_COMMENTS
     @comments = Comment.find_by_sql("SELECT * 
-                                              FROM comments 
-                                             WHERE comments.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
-                                              AND comments.comment_id IS NULL
-                                              ORDER BY comments.created_at
-                                              LIMIT #{start}, #{limit}")
+                                     FROM comments 
+                                     WHERE comments.volume_id=#{Volume.find_by_job_id(params[:id]).id} 
+                                     AND comments.comment_id IS NULL
+                                     ORDER BY comments.created_at
+                                     LIMIT #{start}, #{limit}")
     respond_to do |format|
       format.html {render :partial => "books/get_comments"}
     end
@@ -211,9 +212,9 @@ class BooksController < ApplicationController
     def getcollections(id, start, limit)
       Collection.find_by_sql("SELECT collections.id, collections.title
                   FROM collections 
-                  INNER JOIN book_collections
-                    ON (collections.id = book_collections.collection_id)
-                 WHERE book_collections.volume_id=#{Volume.find_by_job_id(id).id} 
+                  INNER JOIN volume_collections
+                    ON (collections.id = volume_collections.collection_id)
+                 WHERE volume_collections.volume_id=#{Volume.find_by_job_id(id).id} 
                   AND collections.is_public = true or collections.user_id = #{session[:user_id]}
                   LIMIT #{start}, #{limit}")
     end
@@ -260,6 +261,7 @@ class BooksController < ApplicationController
                                 GROUP BY id)
                           )result GROUP BY result.id ORDER BY total_count DESC LIMIT #{start}, #{limit};") 
     end
+    
     def getrelated(id, start, limit)
      query = get_solr_related(id)
      return_field = "vol_jobid,bok_title"

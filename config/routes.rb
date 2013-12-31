@@ -25,7 +25,8 @@ Bhl::Application.routes.draw do
   match "/collections/move_up/:book_collection_id" => "collections#move_up"
   match "/collections/move_down/:book_collection_id" => "collections#move_down"
   match "dialog_content" => "collections#dialog_content"
-    
+  match "get_collection_comments" => "collections#get_collection_comments"
+  
   resources :collections
   get "collections/add_book"
   match "add_book" => "collections#add_book"

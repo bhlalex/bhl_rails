@@ -61,7 +61,7 @@
                                   $("#error_#{@number}").show();
                                 }else{
                                    $.ajax({type: "GET", 
-                                       url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&public=" + escape(public) + "&vol_id=" + "#{@addbookvol}", 
+                                       url: "/add_book?title=" + escape(title) + "&description=" + escape(description) + "&is_public=" + escape(public) + "&vol_id=" + "#{@addbookvol}", 
                                        dataType: "script",
                                         success: function(data){
                                            $( "#confirmation_#{@number}" ).dialog( "open" );
