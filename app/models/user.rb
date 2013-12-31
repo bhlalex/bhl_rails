@@ -67,6 +67,7 @@ class User < ActiveRecord::Base
   def activate
     self.active = 1
     self.verified_date = Time.now
+    self.verification_code = ""
     self.save
   end
   

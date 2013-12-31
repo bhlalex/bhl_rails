@@ -37,17 +37,17 @@
                 %i.fa.fa-li.fa-arrow-up
                 %small
                   = link_to "#{I18n.t(:col_book_move_up)} ", 
-                  {:controller => :collections, :action => :move_up, :book_collection_id => @ubh_vol.id}  
+                  {:controller => :collections, :action => :move_up, :volume_collection_id => @ubh_vol.id}  
               - if @ubh_vol.position < @total_number
                 %i.fa.fa-arrow-down 
                 %small
                   = link_to  " #{I18n.t(:col_book_move_down)}", 
-                  {:controller => :collections, :action => :move_down, :book_collection_id => @ubh_vol.id}
+                  {:controller => :collections, :action => :move_down, :volume_collection_id => @ubh_vol.id}
             %li
               %i.fa.fa-li.fa-trash-o
               %small
                 = link_to "#{I18n.t(:col_book_trash)}" , 
-                {:controller => :collections, :action => :delete_book, :book_collection_id => @ubh_vol.id}, 
+                {:controller => :collections, :action => :delete_book, :volume_collection_id => @ubh_vol.id}, 
                 :onclick => "return confirmDelete(#{@ubh_vol.id})" 
           %li
             %i.fa.fa-li.fa-book
