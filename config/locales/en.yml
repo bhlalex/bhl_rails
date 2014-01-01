@@ -441,7 +441,9 @@ en:
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations
-
+  user_annotation_note: Notes
+  user_annotation_highlight: Highlights
+  
   #Home Page
   book: Books
   author: Authors

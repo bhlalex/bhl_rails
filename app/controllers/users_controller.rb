@@ -101,8 +101,19 @@ class UsersController < ApplicationController
         
         @url_params = params.clone
       end
-    
-    elsif @tab == "saved_queries"
+    elsif @tab == "annotations"
+      if authenticate_user
+        # load user annotations
+        @page = params[:page] ? params[:page].to_i : 1
+        offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
+        @total_number = Annotation.count(:conditions => "user_id = #{@user.id}")
+        @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
+        
+        @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
+        @url_params = params.clone
+      end
+      # end
+    elsif @tab == "queries"
       if authenticate_user
         # load user saved queries
         @queries = @user.queries.order('created_at DESC')
@@ -114,11 +125,9 @@ class UsersController < ApplicationController
         @url_params = params.clone
       end
       # end
-    
-    
     elsif @tab == "activity"
       if authenticate_user
-        @log_records_total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
+        @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
           FROM((SELECT count(*) AS count
                   FROM collections
                   WHERE user_id = 34)
@@ -139,7 +148,7 @@ class UsersController < ApplicationController
         @page = params[:page] ? params[:page].to_i : 1
         limit = TAB_PAGE_SIZE
         offset = (@page > 1) ? (@page - 1) * limit : 0
-        @lastPage = @log_records_total_number[0][:count] ? ((@log_records_total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
+        @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
         # sql_stmt : to select current user activities including creating new collection,
         # rating book or collection 
         # and also commented on book or collection ordered by creation time

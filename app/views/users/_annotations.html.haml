@@ -1,4 +1,49 @@
-%h4
-  = I18n.t(:user_annotation_title)
-  %span.badge
-    = @total_number
+.col-md-9.column
+  %h4
+    = I18n.t(:user_annotation_title)
+    %span.badge
+      = @total_number
+.row.col-md-9
+  - @annotation.each do |item|
+    - @vol = Volume.find_by_job_id(item.volume_id)
+    - @book = Book.find(@vol.book_id)
+    - @notes = Annotation.where(:user_id => @user.id, :volume_id => @vol.job_id, :anntype => 'Note')
+    - @highlights = Annotation.where(:user_id => @user.id, :volume_id => @vol.job_id, :anntype => 'Highlight')
+    .col-md-3
+      .annotation.clearfix
+        %h4
+          = @book.title
+        .notediv
+          %a{:href=>"#","data-toggle" => "modal", "data-target"=> "#note_#{item.volume_id}"}
+            = I18n.t(:user_annotation_note)
+          %span.badge
+            =@notes.count
+        %br
+        .highlightdiv
+          %a{:href=>"#","data-toggle" => "modal", "data-target"=> "#highlight_#{item.volume_id}"}
+            = I18n.t(:user_annotation_highlight)
+          %span.badge
+            =@highlights.count
+      .modal.fade{:id=>"note_#{item.volume_id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "notemodallabel", "area-hidden" => "true"}
+        .modal-dialog
+          .modal-content
+            .modal-header
+              %button.close{:type=>"button", "data-dismiss" => "modal", "area-hidden" => "true"}
+                &times;
+              %h4.modal-title{:id => "notemodallabel"}
+                = I18n.t(:user_annotation_note)
+              %span.badge
+                =@notes.count            
+            .modal-body
+              ="..."
+              
+      .modal.fade{:id=> "highlight_#{item.volume_id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "highlightmodallabel", "area-hidden" => "true"}
+        .modal-dialog
+          .modal-content
+            .modal-header
+              %button.close{:type=>"button", "data-dismiss" => "modal", "area-hidden" => "true"}
+                &times;
+              %h4.modal-title{:id => "highlightmodallabel"}
+                = I18n.t(:user_annotation_highlight)    
+            .modal-body
+              ="..."
