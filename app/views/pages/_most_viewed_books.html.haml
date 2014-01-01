@@ -18,7 +18,8 @@
       - @doc = doc
  
     .col-md-2
-      %img.img-thumbnail{:src => @thumb}
+      = link_to :controller => :books, :action => :show, :id => @vol.job_id do
+        %img.img-thumbnail{:src => @thumb}
     .col-md-6
       %h4
         = link_to @title, {:controller => :books, :action => :show, :id => @vol.job_id}

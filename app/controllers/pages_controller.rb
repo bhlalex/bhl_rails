@@ -79,7 +79,7 @@ class PagesController < ApplicationController
   
   def prepare_top_collections_part
     sql_query = "is_public = true"
-     @top_collections = Collection.where(sql_query).order("rate").limit(TOP_COLLECTIONS_COUNT).offset(0)
+    @top_collections = Collection.where(sql_query).order("rate desc").limit(TOP_COLLECTIONS_COUNT).offset(0)
   end
   
   def prepare_most_viewed_books_part
