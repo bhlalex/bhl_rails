@@ -1,0 +1,36 @@
+- @log_records.each do |log|
+  - @owner_of_activity = User.find(log[:user])
+  - if(!(@owner_of_activity.nil?) && (@owner_of_activity.photo_name.blank?))
+    - @thumb = "/images_#{I18n.locale}/defaultUser.jpeg"
+  - else
+    - @thumb = @owner_of_activity.photo_name_url(:thumb)
+    
+  .media
+    = link_to image_tag("#{@thumb}", :class => "media-object img-circle"), 
+      {:controller => :users, :action => :show, :id => @owner_of_activity.id}, 
+      :class => "pull-left"
+    .media-body.activity-log
+      %p
+        %small
+          = log[:record].html_safe
+  %hr
+
+- if @pages == 0
+  = I18n.t(:no_activities)
+- else
+  %center
+    %ul.pager
+      %li
+        - if @start.to_i > 1
+          %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(0, \"homeactivitylog\");"}
+            %i.fa.fa-arrow-left
+        - else
+          %a{:style => "cursor: not-allowed; color: #999999;"}
+            %i.fa.fa-arrow-left
+      %li
+        - if (@pages.to_i != @start.to_i)
+          %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(1, \"homeactivitylog\");"}
+            %i.fa.fa-arrow-right
+        - else
+          %a{:style => "cursor: not-allowed; color: #999999;"}
+            %i.fa.fa-arrow-right

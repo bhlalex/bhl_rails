@@ -70,11 +70,13 @@ Bhl::Application.routes.draw do
   match "users/rate_collection" => "users#rate_collection"
   
   # remove when how page is ready
-  root :to => 'pages#about'
+  root :to => 'pages#home'
+  get   "pages/home"
   
   get   "pages/contact"
   match "/pages/send_message" => "pages#send_message"
   get   "pages/about"
+  match "get_activity_log" => "pages#get_activity_log"
   
   match "browse/:type" => "browse#show"
   match "browse/:type/:char" => "browse#show" 

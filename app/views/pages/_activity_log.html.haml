@@ -1,0 +1,38 @@
+:javascript
+  var start = 1;
+  var pages = "#{@act_pages}";
+  $(document).ready(function() {
+    moveItems(2,"homeactivitylog");
+  });
+  //direction 0 moves left, direction 1 moves right
+  function moveItems(direction, divname){
+    var xmlhttp;
+    if (window.XMLHttpRequest){
+      // code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+    }
+    else{
+      // code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if (xmlhttp.readyState==4 && xmlhttp.status==200){
+        document.getElementById(divname).innerHTML=xmlhttp.responseText;
+      }
+    }
+    if (direction == 0){
+      start = start - 1;
+    }
+    else if(direction == 1){
+      start = start + 1;
+    }
+    xmlhttp.open("GET","/get_activity_log?start=" + start + "&pages=" + pages, true);
+    xmlhttp.send();
+  }
+  
+%h4
+  = I18n.t(:home_activity_log)
+  %span.badge
+    = @act_no
+%hr
+#homeactivitylog

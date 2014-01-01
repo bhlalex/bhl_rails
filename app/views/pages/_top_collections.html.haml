@@ -1,0 +1,26 @@
+%h4 
+  = link_to "#{I18n.t(:top_collections)}",{:controller => :collections, :action => :index, :sort_type => "rate desc"}
+
+- @top_collections.each do |collection|
+  :javascript
+    $(document).ready(function(){
+      $("#starsidelink_#{collection.id}").jRating({
+        isDisabled : true
+      });
+    });
+  - if(collection.photo_name.blank?)
+    - thumb = "/images_#{I18n.locale}/nocollection140.png"
+  - else
+    - thumb = collection.photo_name_url(:thumb)
+  .col-md-2.collection
+    .media
+      %center
+        = link_to image_tag(thumb, :class => "media-object img-thumbnail"),{:controller => :collections, :action => :show, :id => collection.id}
+      %h5
+        = link_to collection.title,{:controller => :collections, :action => :show, :id => collection.id}
+      %i.fa.fa-user
+      %small
+        = link_to "#{I18n.t(:home_top_collections_by)} #{User.find_by_id(collection.user_id).real_name}",{:controller => :users, :action => :show, :id => collection.user_id}
+      .rate
+        - if collection.rate != 0.0 
+          .starsidelink{:id => "starsidelink_#{collection.id}", :data => "#{collection.rate}"}

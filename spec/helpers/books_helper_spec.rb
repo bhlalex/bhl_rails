@@ -16,7 +16,7 @@ describe BooksHelper do
     solr.add doc
     solr.commit
 
-    response = search_facet_highlight('vol_jobid:123', 1,'')
+    response = search_facet_highlight('vol_jobid:123', 1,10,'')
     list = facet_list(response, 'name_ss')
     list.should include(:name => "Test Name", :count => 1)
 
@@ -37,7 +37,7 @@ describe BooksHelper do
     solr.add doc
     solr.commit
 
-    response = search_facet_highlight('vol_jobid:123', 1,'')
+    response = search_facet_highlight('vol_jobid:123', 1,10,'')
     list = facet_list(response, 'bok_language_s')
     list.should include(:name => "Test Language", :count => 1)
 
@@ -58,7 +58,7 @@ describe BooksHelper do
     solr.add doc
     solr.commit
 
-    response = search_facet_highlight('vol_jobid:123', 1,'')
+    response = search_facet_highlight('vol_jobid:123', 1,10,'')
     list = facet_list(response, 'author_ss')
     list.should include(:name => "Test Author", :count => 1)
 
@@ -95,7 +95,7 @@ describe BooksHelper do
     end
     it 'should sort by rate desc' do
       # order of returned books should be according to the value of rate decs
-      @response = search_facet_highlight('*:*', 1,'rate desc')
+      @response = search_facet_highlight('*:*', 1,10,'rate desc')
       first_doc = @response['response']['docs'][0]['vol_jobid']
       second_doc = @response['response']['docs'][1]['vol_jobid']
       @doc2[:vol_jobid].to_i.should eq(first_doc) # having higher value of rate should returned first
@@ -104,7 +104,7 @@ describe BooksHelper do
 
     it 'should sort by rate asc' do
       # order of returned books should be according to the value of rate asc
-      @response = search_facet_highlight('*:*', 1,'rate asc')
+      @response = search_facet_highlight('*:*', 1,10,'rate asc')
       first_doc = @response['response']['docs'][0]['vol_jobid']
       second_doc = @response['response']['docs'][1]['vol_jobid']
       @doc1[:vol_jobid].to_i.should eq(first_doc) # having lower value of rate should returned first
@@ -113,7 +113,7 @@ describe BooksHelper do
 
     it 'should sort by views desc' do
       # order of returned books should be according to the value of views desc
-      @response = search_facet_highlight('*:*', 1,'views desc')
+      @response = search_facet_highlight('*:*', 1,10,'views desc')
       first_doc = @response['response']['docs'][0]['vol_jobid']
       second_doc = @response['response']['docs'][1]['vol_jobid']
       @doc1[:vol_jobid].to_i.should eq(first_doc) # having higher value of views should returned first
@@ -122,7 +122,7 @@ describe BooksHelper do
 
     it 'should sort by views asc' do
       # order of returned books should be according to the value of views asc
-      @response = search_facet_highlight('*:*', 1,'views asc')
+      @response = search_facet_highlight('*:*', 1,10,'views asc')
       first_doc = @response['response']['docs'][0]['vol_jobid']
       second_doc = @response['response']['docs'][1]['vol_jobid']
       @doc2[:vol_jobid].to_i.should eq(first_doc) # having lower value of views should returned first

@@ -1,0 +1,36 @@
+%h4
+  = link_to "#{I18n.t(:most_viewed)}",{:controller => :books, :action => :index, :sort_type => "views desc"}
+%hr
+- if (@most_viewed_response != '' && @most_viewed_response['response']['numFound'] > 0)
+  - @number = 0
+  - @most_viewed_response['response']['docs'].each do |doc|
+    - @number = @number + 1
+    - @id = doc['vol_jobid']
+    - @vol = Volume.find_by_job_id(doc['vol_jobid'])
+    - if (@vol != nil)
+      - @highlight = @most_viewed_response['highlighting'][@id.to_s]
+      - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
+      - thumb = ''
+      - if(@vol[:get_thumbnail_fail] == 0)
+        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+      - else
+        - @thumb = "images_#{I18n.locale}/book_thumb.png"
+      - @doc = doc
+ 
+    .col-md-2
+      %img.img-thumbnail{:src => @thumb}
+    .col-md-6
+      %h4
+        = link_to @title, {:controller => :books, :action => :show, :id => @vol.job_id}
+      %p.small
+        - if(@doc['author'] != nil)
+          = render :partial => "books/bookauthors"
+        - if(@doc['subject'] != nil)
+          = render :partial => "books/booksubjects"
+        - if(@doc['name'] != nil)
+          - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
+          = render :partial => "books/booknames"
+    .col-md-3.controls
+      =render :partial => "books/sidelinks"
+    .clearfix 
+    %hr

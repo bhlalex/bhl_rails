@@ -29,7 +29,7 @@ class BooksController < ApplicationController
     @lang = 'test'
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
-    @response = search_facet_highlight(@query, @page,@sort)
+    @response = search_facet_highlight(@query, @page, PAGE_SIZE, @sort)
     @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
   end
   
@@ -213,8 +213,8 @@ class BooksController < ApplicationController
                   INNER JOIN volume_collections
                     ON (collections.id = volume_collections.collection_id)
                  WHERE volume_collections.volume_id=#{Volume.find_by_job_id(id).id} 
-                  AND collections.is_public = true or collections.user_id = #{session[:user_id]}
-                  LIMIT #{start}, #{limit}")
+                  AND collections.is_public = true
+                  LIMIT #{start}, #{limit};")
     end
     def getalsoviewed(id, start, limit)
       #Book.find_by_sql("SELECT result.id, result.photo_url
