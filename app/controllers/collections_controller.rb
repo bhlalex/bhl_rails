@@ -72,7 +72,7 @@ class CollectionsController < ApplicationController
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
       else
-        redirect_to :controller => :collections, :action => :index
+        redirect_to :controller => :users, :action => :show, :id => "session[:user_id]", :tab => "collections"
       end
     end
   end

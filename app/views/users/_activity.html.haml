@@ -1,0 +1,24 @@
+%h4
+  = I18n.t(:user_activity_title)
+  %span.badge
+    = @log_records_total_number[0][:count].to_i
+%hr
+- @log_records.each do |item|
+  - if !item.nil?
+    - @user = User.find(item[:user])
+    - if(@user.photo_name.blank?)
+      - @thumb = "/images_#{I18n.locale}/nocollection140.png"
+    - else
+      - @thumb = @user.photo_name_url(:thumb)
+    .media
+      %a.pull-left{:href=> "/users/#{@user.id}/profile"}
+        %img.media-object.img-circle{:scr => "#{@thumb}"}
+      .media-body.activity-log
+        %p
+          =item[:record].html_safe
+    %hr
+- if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+  .col-md-8
+    .pagination-centered
+      - @pages = adjustPaging(@page, @lastPage)
+      = render :partial => "books/paging"

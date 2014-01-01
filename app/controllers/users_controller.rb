@@ -77,36 +77,32 @@ class UsersController < ApplicationController
 
     @can_edit = @id.to_i == session[:user_id]
 
-    if current_user
-      @tabs = {:profile => I18n.t(:user_profile), :annotations => I18n.t(:annotations), :saved_queries => I18n.t(:saved_queries), :recently_viewed => I18n.t(:recently_viewed) , :collections => I18n.t(:collections), :user_activities => I18n.t(:user_activity)}
-    else
-      @tabs = {:profile => I18n.t(:user_profile), :collections => I18n.t(:collections)}
-    end
-    @current = params[:tab] != nil ? params[:tab] : "profile"
+    @tab = params[:tab] != nil ? params[:tab] : "profile"
 
     @page_title = @user.real_name
-    @ubh = UserBookHistory.where(:user_id => @user)
 
-    if @ubh.length > 0
-      @recently_viewed_volume = Volume.find_by_id((@ubh.first).volume)
-    end
-
-    if @current == "recently_viewed"
+    if @tab == "history"
       if authenticate_user
-        #load history from DB
-        @total_number = @ubh.count
-        @view = params[:view] ? params[:view] : 'list'
+        @total_number = UserBookHistory.count(:conditions => "user_id = #{@user.id}")
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @ubh.count ? ((@ubh.count).to_f/PAGE_SIZE).ceil : 0
-        limit = PAGE_SIZE
-        offset = (@page > 1) ? (@page - 1) * limit : 0
-        @ubh = UserBookHistory.limit(limit).offset(offset).where(:user_id => @user)
-        if @ubh.count == 0 and @page > 1
-          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "recently_viewed", :page => params[:page].to_i - 1
+        @lastPage = @total_number ? ((@total_number).to_f/PAGE_SIZE).ceil : 0
+        offset = (@page > 1) ? (@page - 1) * PAGE_SIZE : 0
+        
+        @history = UserBookHistory.where(:user_id => @user).limit(PAGE_SIZE).offset(offset)
+        
+
+        if @history.length > 0
+          @recently_viewed_volume = Volume.find_by_id((@history.first).volume)
         end
+        
+        if @history.count == 0 and @page > 1
+          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history", :page => params[:page].to_i - 1
+        end
+        
         @url_params = params.clone
       end
-    elsif @current == "saved_queries"
+    
+    elsif @tab == "saved_queries"
       if authenticate_user
         # load user saved queries
         @queries = @user.queries.order('created_at DESC')
@@ -121,8 +117,30 @@ class UsersController < ApplicationController
       # end
     
     
-    elsif @current == "user_activities"
+    elsif @tab == "activity"
       if authenticate_user
+        @log_records_total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
+          FROM((SELECT count(*) AS count
+                  FROM collections
+                  WHERE user_id = 34)
+            UNION
+              (SELECT count(*) AS count
+                  FROM volume_ratings
+                  WHERE user_id = 34)
+              UNION
+              (SELECT count(*) AS count
+                  FROM collection_ratings
+                  WHERE user_id = 34)
+              UNION
+              (SELECT count(*) AS count
+                  FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
+                  and user_id = 34)
+                  ) result;")
+        # applying pagination on log_records array
+        @page = params[:page] ? params[:page].to_i : 1
+        limit = PAGE_SIZE
+        offset = (@page > 1) ? (@page - 1) * limit : 0
+        @lastPage = @log_records_total_number[0][:count] ? ((@log_records_total_number[0][:count]).to_f/PAGE_SIZE).ceil : 0
         # sql_stmt : to select current user activities including creating new collection,
         # rating book or collection 
         # and also commented on book or collection ordered by creation time
@@ -134,55 +152,49 @@ class UsersController < ApplicationController
               id AS id,
               created_at AS time
               FROM collections
-              WHERE user_id = #{session[:user_id]})
+              WHERE user_id = #{@user.id})
         UNION
           (SELECT
-              'book_ratings' AS table_type,
+              'volume_ratings' AS table_type,
               id AS id,
               created_at AS time
               FROM volume_ratings
-              WHERE user_id = #{session[:user_id]})
+              WHERE user_id = #{@user.id})
           UNION
           (SELECT
-              'collection_ratings' AS table_type,
+              'volume_ratings' AS table_type,
               id AS id,
               created_at AS time
               FROM collection_ratings
-              WHERE user_id = #{session[:user_id]})
+              WHERE user_id = #{@user.id})
           UNION
           (SELECT
               'comments' AS table_type,
               id AS id,
               created_at AS time
               FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
-              and user_id = #{session[:user_id]})
+              and user_id = #{@user.id})
               ) result
-              ORDER BY time DESC;"
+              ORDER BY time DESC LIMIT #{offset}, #{limit};"
         # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
         @log_records = get_log_activity(sql_stmt)
-        @log_records_total_number = @log_records.count
-        # applying pagination on log_records array
-        @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @log_records.count ? ((@log_records.count).to_f/PAGE_SIZE).ceil : 0
-        limit = PAGE_SIZE
-        offset = (@page > 1) ? (@page - 1) * limit : 0 
-        @log_records = @log_records[offset,offset+limit]
         @url_params = params.clone
       end
       # end
 
-    elsif @current == "collections"
+    elsif @tab == "collections"
       if current_user
-        @user_collections = Collection.where("user_id = #{@id}")
+        @collections = Collection.where("user_id = #{@id}").limit().offset()
       else
-        @user_collections = Collection.where("user_id = #{@id} and is_public = true")
+        @collections = Collection.where("user_id = #{@id} and is_public = true")
       end
       @user_collections_total_number = @user_collections.count
+      
       @page = params[:page] ? params[:page].to_i : 1
       @lastPage = @user_collections.count ? ((@user_collections.count).to_f/PAGE_SIZE).ceil : 0
       limit = PAGE_SIZE
       offset = (@page > 1) ? (@page - 1) * limit : 0
-      @user_collections = @user_collections.limit(limit).offset(offset)
+      
       @url_params = params.clone
     end
   end
@@ -346,7 +358,7 @@ class UsersController < ApplicationController
       UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
       flash.now[:notice]=I18n.t(:book_removed)
       flash.keep
-      redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "recently_viewed", :page => params[:page]
+      redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history", :page => params[:page]
     end
   end
 
