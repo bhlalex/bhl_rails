@@ -9,13 +9,13 @@
     = @total_number
 %hr
 -@history.each do |item|
+  - @vol = Volume.find_by_id(item.volume)
   :javascript
     $(document).ready(function(){
       $("#starsidelink_#{@vol[:job_id]}").jRating({
         isDisabled : true
       });
     });
-  - @vol = Volume.find_by_id(item.volume)
   - @book = solr_search("vol_jobid:#{@vol.job_id}","bok_title, views, rate")
   - if(@vol[:get_thumbnail_fail] == 0)
     - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"

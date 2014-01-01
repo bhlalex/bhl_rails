@@ -2,7 +2,6 @@ module ApplicationHelper
   include BooksHelper
   
   def set_query_string(query_array, urlOrSolr)
-    debugger
     query = ''
     emptyQuery = true
     query_array.each do |key, value|

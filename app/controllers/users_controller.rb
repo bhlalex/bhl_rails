@@ -85,10 +85,10 @@ class UsersController < ApplicationController
       if authenticate_user
         @total_number = UserBookHistory.count(:conditions => "user_id = #{@user.id}")
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @total_number ? ((@total_number).to_f/PAGE_SIZE).ceil : 0
-        offset = (@page > 1) ? (@page - 1) * PAGE_SIZE : 0
+        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
+        offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
         
-        @history = UserBookHistory.where(:user_id => @user).limit(PAGE_SIZE).offset(offset)
+        @history = UserBookHistory.where(:user_id => @user).limit(TAB_PAGE_SIZE).offset(offset)
         
 
         if @history.length > 0
@@ -108,10 +108,9 @@ class UsersController < ApplicationController
         @queries = @user.queries.order('created_at DESC')
         @queries_total_number = @queries.count
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @queries.count ? ((@queries.count).to_f/PAGE_SIZE).ceil : 0
-        limit = PAGE_SIZE
-        offset = (@page > 1) ? (@page - 1) * limit : 0
-        @queries = @queries.limit(limit).offset(offset)
+        @lastPage = @queries.count ? ((@queries.count).to_f/TAB_PAGE_SIZE).ceil : 0
+        offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
+        @queries = @queries.limit(TAB_PAGE_SIZE).offset(offset)
         @url_params = params.clone
       end
       # end
@@ -138,9 +137,9 @@ class UsersController < ApplicationController
                   ) result;")
         # applying pagination on log_records array
         @page = params[:page] ? params[:page].to_i : 1
-        limit = PAGE_SIZE
+        limit = TAB_PAGE_SIZE
         offset = (@page > 1) ? (@page - 1) * limit : 0
-        @lastPage = @log_records_total_number[0][:count] ? ((@log_records_total_number[0][:count]).to_f/PAGE_SIZE).ceil : 0
+        @lastPage = @log_records_total_number[0][:count] ? ((@log_records_total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
         # sql_stmt : to select current user activities including creating new collection,
         # rating book or collection 
         # and also commented on book or collection ordered by creation time
@@ -183,18 +182,17 @@ class UsersController < ApplicationController
       # end
 
     elsif @tab == "collections"
-      if current_user
-        @collections = Collection.where("user_id = #{@id}").limit().offset()
-      else
-        @collections = Collection.where("user_id = #{@id} and is_public = true")
-      end
-      @user_collections_total_number = @user_collections.count
-      
       @page = params[:page] ? params[:page].to_i : 1
-      @lastPage = @user_collections.count ? ((@user_collections.count).to_f/PAGE_SIZE).ceil : 0
-      limit = PAGE_SIZE
-      offset = (@page > 1) ? (@page - 1) * limit : 0
-      
+      offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
+      if current_user
+        @total_number = Collection.count(:conditions => "user_id = #{@user.id}")
+        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
+        @collections = Collection.where("user_id = #{@id}").limit(TAB_PAGE_SIZE).offset(offset)
+      else
+        @total_number = Collection.count(:conditions => "user_id = #{@user.id} AND is_public = true")
+        @lastPage = @user_collections.count ? ((@user_collections.count).to_f/TAB_PAGE_SIZE).ceil : 0
+        @collections = Collection.where("user_id = #{@id} and is_public = true").limit(TAB_PAGE_SIZE).offset(offset)
+      end
       @url_params = params.clone
     end
   end
