@@ -119,12 +119,11 @@ class UsersController < ApplicationController
     elsif @tab == "queries"
       if authenticate_user
         # load user saved queries
-        @queries = @user.queries.order('created_at DESC')
-        @queries_total_number = @queries.count
+        @total_number = @user.queries.count()
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @queries.count ? ((@queries.count).to_f/TAB_PAGE_SIZE).ceil : 0
+        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
         offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
-        @queries = @queries.limit(TAB_PAGE_SIZE).offset(offset)
+        @queries = @user.queries.order('created_at DESC').limit(TAB_PAGE_SIZE).offset(offset)
         @url_params = params.clone
       end
       # end

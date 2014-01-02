@@ -58,7 +58,8 @@ en:
   confirm_password: "Password again"
   email: "Email address"
   confirm_email: "Email address again"
-  real_name: "Full name"
+  real_name: "Real Name"
+  username: "Username"
   recaptcha: "Type in the two words you see below"
   form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
   registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
@@ -421,6 +422,8 @@ en:
   user_activity_tab: Activities
   user_collections_tab: Collections
   
+  #User Profile Page (Tab Profile)
+  user_profile_title: Profile
   #User Profile Page (Activity Tab)
   user_activity_title: Activity Log
   log_activity_create: created a new collection
@@ -438,6 +441,9 @@ en:
   user_collection_title: Collections
   user_collection_added_on: "Added On:"
   delete_collection_confirm: "Are you sure you want to delete this collection?"
+  
+  #User Profile Page (Queries Tab)
+  user_queries_title: Saved Queries
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations
