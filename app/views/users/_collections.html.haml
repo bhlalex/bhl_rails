@@ -1,8 +1,3 @@
-:javascript
-  function confirmDelete(){
-    var r = confirm("#{I18n.t(:delete_collection_confirm)}");
-    return r;
-  }
 .col-md-8.column  
   %h4
     = I18n.t(:user_collection_title)
@@ -40,7 +35,7 @@
               %small
                 = link_to I18n.t(:delete), {:controller => :collections, :action => :destroy_collection, :id => item.id,
                    :user_id => item[:user_id],:id => item[:user_id], :page => @page},
-                   :onclick => "return confirmDelete()"
+                   :onclick => "return confirmDelete(\"#{I18n.t(:delete_collection_confirm)}\")"
           %li
             %i.fa.fa-li.fa-info
             %small

@@ -438,6 +438,9 @@ en:
   user_collection_title: Collections
   user_collection_added_on: "Added On:"
   delete_collection_confirm: "Are you sure you want to delete this collection?"
+  
+  #User Profile Page (Queries Tab)
+  user_queries_title: Saved Queries
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations
