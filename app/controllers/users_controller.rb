@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   include SolrHelper
   include BHL::Login
   include BooksHelper
+  include ApplicationHelper
   include LogActivitiesHelper
   # GET /users/new
   def new
@@ -18,6 +19,7 @@ class UsersController < ApplicationController
   def create
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @user = User.new(params[:user])
+
     if @user.valid? && verify_recaptcha
       @user.save
       url = "#{request.host}:#{request.port}/users/activate/#{@user.guid}/#{@user.verification_code}"
@@ -30,6 +32,7 @@ class UsersController < ApplicationController
       @verify_captcha = true
       @page_title = I18n.t(:sign_up)
       @user.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha
+      @action = "signup"
       render :action => :new
     end
   end
@@ -119,12 +122,11 @@ class UsersController < ApplicationController
         @url_params = params.clone
       end
       # end
-    
-    
+
     elsif @current == "user_activities"
       if authenticate_user
         # sql_stmt : to select current user activities including creating new collection,
-        # rating book or collection 
+        # rating book or collection
         # and also commented on book or collection ordered by creation time
         sql_stmt = "SELECT
           result.table_type AS table_type,
@@ -165,7 +167,7 @@ class UsersController < ApplicationController
         @page = params[:page] ? params[:page].to_i : 1
         @lastPage = @log_records.count ? ((@log_records.count).to_f/PAGE_SIZE).ceil : 0
         limit = PAGE_SIZE
-        offset = (@page > 1) ? (@page - 1) * limit : 0 
+        offset = (@page > 1) ? (@page - 1) * limit : 0
         @log_records = @log_records[offset,offset+limit]
         @url_params = params.clone
       end
@@ -193,14 +195,14 @@ class UsersController < ApplicationController
     if verify_recaptcha
       @email = params[:user][:email]
       return redirect_to users_forgot_password_path unless @email
-      
+
       if @email.blank?
         flash.now[:error] = I18n.t(:invalid_email_address)
         flash.keep
         redirect_to users_forgot_password_path
       else
         @user = User.find_by_email(@email)
-    
+
         if @user.nil?
           flash.now[:error] = I18n.t(:user_not_found_by_email_address, :email => @email)
           flash.keep
@@ -270,27 +272,35 @@ class UsersController < ApplicationController
   def login
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @page_title = I18n.t(:sign_in)
+    session[:login_attempts] ||= 0
+    @verify_captcha = true if (session[:login_attempts].to_i  >= LOGIN_ATTEMPTS)
   end
 
   # POST /users/validate
   def validate
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    username = params[:user][:username]
-    password = params[:user][:password]
-    @user = User.authenticate(username, password)
-
-    if @user.nil?
-      flash.now[:error] = I18n.t(:sign_in_unsuccessful_error)
+     username = params[:user][:username]
+     password = params[:user][:password]
+      if ((session[:login_attempts].to_i >= LOGIN_ATTEMPTS) && !(verify_recaptcha))
+      flash.now[:error] = I18n.t(:captcha_error)
       flash.keep
       redirect_to :controller => :users, :action => :login
     else
-      log_in(@user)
-      flash.now[:notice] = I18n.t(:sign_in_successful_notice)
-      flash.keep
-      if params[:return_to].blank?
-        redirect_to :controller => :users, :action => :show, :id => @user.id
+      @user = User.authenticate(username, password)
+      if @user.nil?
+        flash.now[:error] = I18n.t(:sign_in_unsuccessful_error)
+        flash.keep
+        session[:login_attempts] = session[:login_attempts].to_i + 1
+        redirect_to :controller => :users, :action => :login
       else
-        redirect_to params[:return_to]
+        log_in(@user)
+        flash.now[:notice] = I18n.t(:sign_in_successful_notice)
+        flash.keep
+        if params[:return_to].blank?
+          redirect_to :controller => :users, :action => :show, :id => @user.id
+        else
+          redirect_to params[:return_to]
+        end
       end
     end
   end
@@ -311,7 +321,7 @@ class UsersController < ApplicationController
     if authenticate_user
       @user = User.find(params[:id])
       user_attr = params[:user]
-      
+
       if (!(params[:user][:photo_name].nil?))
         file = user_attr[:photo_name].original_filename
         if(file[file.length-5].chr == '.')
@@ -320,7 +330,7 @@ class UsersController < ApplicationController
           user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
         end
       end
-      
+
       if(!(user_attr[:old_password].nil?) && !(user_attr[:old_password].blank?))
         if(!(User.authenticate(user_attr[:username],user_attr[:old_password])))
           flash.now[:error] = I18n.t("invalid_old_password")
@@ -328,13 +338,13 @@ class UsersController < ApplicationController
           @action = "modify"
           render :action => :edit
           return
+        end
       end
-      end
-      
-#          if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
-#            params[:user][:entered_password] = nil
-#            params[:user][:entered_password_confirmation] = nil
-#          end
+
+      #          if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
+      #            params[:user][:entered_password] = nil
+      #            params[:user][:entered_password_confirmation] = nil
+      #          end
       if @user.update_attributes(user_attr)
         if ((params[:delete_photo]))
           delete_user_photo(params[:id])
@@ -389,7 +399,7 @@ class UsersController < ApplicationController
     update_solr_rate(volume)
     render :json => data
   end
-  
+
   def rate_collection
     if is_loggged_in? && params[:rate] != "NaN"
       collection = Collection.find_by_id(params[:col_id])
@@ -404,7 +414,7 @@ class UsersController < ApplicationController
         else
           #update
           collection_rate = col_rate_list[0]
-          collection_rate.rate = params[:rate] 
+          collection_rate.rate = params[:rate]
         end
         collection_rate.save
       end
@@ -414,7 +424,7 @@ class UsersController < ApplicationController
     data = collection.rate
     render :json => data
   end
-  
+
   private
 
   def delete_user_photo(id)

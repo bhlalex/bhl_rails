@@ -68,14 +68,14 @@ CARTOGRAPHER_GMAP_VERSION = 3
 NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
 
 MAX_NO_ABUSE = 1
-CONTACT_US_EMAIL= "walaa.gomaa.elsayed@gmail.com"
 
 COLLECTION_FOLDER = 'collections/'
-UPLOADED_PHOTO_MAX_SIZE = 0.01
+UPLOADED_PHOTO_MAX_SIZE = 1
 
 TOP_COLLECTIONS_COUNT = 5
 MOST_VIEWED_BOOKS = 5
 HOME_LOG_ACTIVITIES = 5
+LOGIN_ATTEMPTS = 1
 # Initialize the rails application
 Bhl::Application.initialize!
  

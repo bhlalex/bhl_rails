@@ -1,3 +1,5 @@
+include ActionView::Helpers::SanitizeHelper
+
 class User < ActiveRecord::Base
   attr_accessible :active, :email, :guid, :password, :real_name, :username,
   :verification_code, :verified_date, :created_at, :last_login, :photo_name
@@ -41,6 +43,17 @@ class User < ActiveRecord::Base
   before_create :generate_activation_code
 
   before_update :update_password
+  
+  before_save :sanitize_html
+  
+  def sanitize_html
+    self.username = sanitize(username, :tags=>[])
+    self.real_name = sanitize(real_name, :tags=>[])
+    self.email = sanitize(email, :tags=>[])
+  end
+
+
+
 
   def self.hash_password(pwd)
     Digest::MD5.hexdigest(pwd)

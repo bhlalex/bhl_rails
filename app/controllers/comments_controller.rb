@@ -1,6 +1,5 @@
 class CommentsController < ApplicationController
   include BHL::Login
-
   def delete
     # id
     if is_loggged_in?
@@ -48,6 +47,9 @@ class CommentsController < ApplicationController
     data = comment.number_of_marks
     render :json => data
   end
+  
+
+   
   
 #  def reply
 #    # comment_id, text

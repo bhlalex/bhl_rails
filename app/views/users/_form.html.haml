@@ -42,7 +42,7 @@
           .form-group
             = f.label I18n.t(:username), :class => 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_field :username, { :class => "required form-control" }
+              = f.text_field :username, { :class => "required form-control"}
           - if (@action == "signup")
             .form-group
               = f.label I18n.t(:password) , :class => 'col-sm-2 control-label'
