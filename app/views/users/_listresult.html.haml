@@ -21,7 +21,7 @@
           - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
           = render :partial => "books/booknames"
       %h4
-        = "#{I18n.t(:last_visited_date)}: #{@ubh_vol.last_visited_date}"
+        = "#{I18n.t(:last_visited_date)}: #{@ubh_vol.updated_at}"
     .col-xs-4.column.controls
       =render :partial => "users/sidelinks"
   %hr.clearfix.col-lg-12

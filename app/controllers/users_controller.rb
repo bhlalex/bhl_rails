@@ -383,8 +383,8 @@ class UsersController < ApplicationController
   end
 
   def rate
-    volume = Volume.find_by_job_id(params[:job_id])
     if is_loggged_in? && params[:rate] != "NaN"
+      volume = Volume.find_by_job_id(params[:job_id])
       volume_rate_list = VolumeRating.where(:user_id => params[:user_id], :volume_id => volume.id)
       if volume_rate_list.count > 0 && params[:rate].to_f < 1
         volume_rate_list[0].delete
@@ -400,13 +400,16 @@ class UsersController < ApplicationController
         end
         volume_rate.save
       end
+      #update volume global rate
+      volume = volume.set_rate
+      data = volume.rate
+      #NEW_LAYOUT CODE TO ADD RATE TO SOLR
+      update_solr_rate(volume)
+      render :json => data
+    else
+      #go to sign in page
+      render :js => "window.location = '/users/login'"
     end
-    #update volume global rate
-    volume = volume.set_rate
-    data = volume.rate
-    #NEW_LAYOUT CODE TO ADD RATE TO SOLR
-    update_solr_rate(volume)
-    render :json => data
   end
   
   def rate_collection
@@ -427,11 +430,14 @@ class UsersController < ApplicationController
         end
         collection_rate.save
       end
+      #update volume global rate
+      collection = collection.set_rate
+      data = collection.rate
+      render :json => data
+    else
+      #go to sign in page
+      redirect_to :controller => :users, :action => :login
     end
-    #update volume global rate
-    collection = collection.set_rate
-    data = collection.rate
-    render :json => data
   end
   
   private

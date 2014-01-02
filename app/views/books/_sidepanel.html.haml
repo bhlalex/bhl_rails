@@ -5,16 +5,6 @@
   $(document).ready(function(){
     $('.tooltiplogin').tooltipster({ interactive: true, fixedWidth: 280});
     updatedetailedrate();
-    $(".userrate").jRating({
-      isDisabled: false,
-      canRateAgain : true,
-      nbRates : 100,
-      step: true,
-      phpPath : "../rating?user=#{session[:guid]}&jobid=#{params[:id]}",
-      onSuccess: function(){
-        updatedetailedrate();
-      }
-    });
     $(".averagerate").jRating({
       isDisabled : true
     });
@@ -94,23 +84,18 @@
               =render :partial => "books/add_book"
     .list-group-item
       #averagerate.rate
-        .averagerate{:style => "float: right", :data => "#{@volume.rate}"}
+        - rate = @volume.rate
+        - if @volume.rate.nil?
+          - rate = 0.0
+        .averagerate{:style => "float: right", :data => "#{rate}"}
         %span.text-muted
           =I18n.t(:book_details_average_rate)
-      
       #detailedrate.rate
-      .rate
-        - if logged_in?
-          .userrate{:style => "float: right", :data => "#{@user_rate}"}
-        - else
-          %a.tooltipname{:style => "float: right", :title =>"#{I18n.t(:books_details_pleaselogintorate)}", :href => "../users/login"}
-            %img{:src => "/images_#{I18n.locale}/stars.png"}
-            %img{:src => "/images_#{I18n.locale}/stars.png"}
-            %img{:src => "/images_#{I18n.locale}/stars.png"}
-            %img{:src => "/images_#{I18n.locale}/stars.png"}
-            %img{:src => "/images_#{I18n.locale}/stars.png"}
-        %span.text-muted
-          =I18n.t(:book_details_user_rate)
+      %span.text-muted
+        =I18n.t(:book_details_user_rate)
+      .userbookrate
+        = render :partial => "books/rating"
+       
     .list-group-item
       %span.badge.badge-success 
         ="#{@collections_count}"

@@ -32,7 +32,7 @@
           %small
             %b
               = I18n.t(:user_history_viewed_on)
-            = item.last_visited_date 
+            = item.updated_at 
       .col-md-3.controls
         
         
@@ -54,10 +54,13 @@
             %small
               = link_to "#{I18n.t(:book_details_details)}" , 
                 {:controller => :books, :action => :show, :id => @vol.job_id}    
-        - if @book['rate'] != 0.0
-          .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
-        %small
-          = "#{pluralize(@book[:views], I18n.t(:sidelinks_views))} "
+        .rate
+          %span.text-muted.pull-right
+            %small
+            = "#{pluralize(@book[:views], I18n.t(:sidelinks_views))} "
+          - if @book['rate'] != 0.0
+            .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
+          
             
       .clearfix
       %hr

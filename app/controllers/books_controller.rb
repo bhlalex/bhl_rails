@@ -198,11 +198,11 @@ class BooksController < ApplicationController
           ubh = UserBookHistory.new
           ubh.user = user
           ubh.volume = volume
-          ubh.last_visited_date = Time.now
+          ubh.updated_at = Time.now
           ubh.save
           update_solr_views(volume)
         else
-          history[0].last_visited_date = Time.now
+          history[0].updated_at = Time.now
           history[0].save
         end
       end

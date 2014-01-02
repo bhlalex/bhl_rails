@@ -356,7 +356,7 @@ en:
   book_language_title: 'Language'
   book_name_title: 'Tagged Species'
   book_location_title: 'Regional Affiliation'
-  
+  thanks_for_rating_book: Thank you for rating this book
   
   # sign up page
   upload_photo: Upload photo
@@ -406,6 +406,7 @@ en:
   edit_collection: Edit
   write_review: Write a review
   please_login: please login
+  thanks_for_rating_collection: Thank you for rating this collection
   
   #Edit collection page
   public_collection: Public
@@ -456,3 +457,5 @@ en:
   no_activities: No Activities Found
   tabs_more: "more..."
   
+  #comments
+  no_comments: No Comments ..
