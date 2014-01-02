@@ -8,20 +8,21 @@
 %script(type="text/javascript" src="/jsTree/source/_lib/jquery.xslt.js")
 %script(type="text/javascript" src="/assets/names.js")
 
-.page
-  .page_border
-    %table{:width => "100%", :border => "0", :style => "border-collapse:collapse", :cellspacing => "0", :cellpadding => "3"}
-      %tr
-        %td
-          %select{:name => 'hierarchy_id', :style => 'width: 100%', :class => 'hierarchy_id'}
-            - @entries.each do |entry|
-              %option{:value => entry.id, :selected => entry.id==DEFAULT_HIERARCHY_ID}= entry.label
-      %tr
-        %td
-          #h_container{:style => "height: 250px; width: 100%; overflow: auto", :class => "tree"}
+.col-md-8
+  %table{:width => "100%", :border => "0", :style => "border-collapse:collapse", :cellspacing => "0", :cellpadding => "3"}
+    %tr
+      %td
+        %select{:name => 'hierarchy_id', :style => 'width: 100%', :class => 'hierarchy_id'}
+          - @entries.each do |entry|
+            %option{:value => entry.id, :selected => entry.id==DEFAULT_HIERARCHY_ID}= entry.label
+    %tr
+      %td
+        #h_container{:style => "height: 250px; width: 100%; overflow: auto", :class => "tree"}
           
-.r_column
-  .box_1
-    #namedetail
-      %br
-      = I18n.t(:select_species_for_details)
+.col-md-4.sidebar-offcanvas.pull-right
+  #namedetail
+    .spacing-left.panel.panel-styled
+      .panel-heading
+        %h3.panel-title
+          = I18n.t(:select_species_for_details)
+      .panel-body
