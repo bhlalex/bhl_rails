@@ -8,6 +8,12 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   storage :file
+
+  attr_writer :sanitize_regexp
+  def sanitize_regexp
+    @sanitize_regexp ||=  /[^\w\.\-]/
+  end
+
   # storage :fog
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
@@ -55,8 +61,17 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   # Override the filename of the uploaded files:
   # Avoid using model.id or version_name here, see uploader/store.rb for details.
-  # def filename
-  #   "something.jpg" if original_filename
-  # end
+  def filename
+    sanitize(original_filename) if original_filename
+  end
+
+  def sanitize(name)
+    name = name.gsub("\\", "/") # work-around for IE
+    name = File.basename(name)
+    name = name.gsub(sanitize_regexp,"_")
+    name = "_#{name}" if name =~ /\A\.+\z/
+    name = "unnamed" if name.size == 0
+    return name.mb_chars.to_s
+  end
 
 end

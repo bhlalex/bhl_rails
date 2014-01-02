@@ -1,0 +1,16 @@
+.col-md-8.column
+  %h4
+    = I18n.t(:user_queries_title)
+    %span.badge
+      = @total_number
+  %hr
+  %ul.list-group
+    - @queries.each do |query|
+      %li.list-group-item
+        %a{:href => "/user_search_history/delete_query?id=#{query.id}", :onclick => "return confirmDelete(\"#{I18n.t(:delete_saved_query_confirm)}\");"}
+          %i.fa.fa-times-circle
+        = "#{parse_query(query.string)}".html_safe        
+        %span.badge
+          = "#{get_number_of_returned_books(query.string)}".html_safe
+        %a{:href => "books?#{query.string}"}
+          %i.fa.fa-arrow-right

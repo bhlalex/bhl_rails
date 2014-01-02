@@ -13,17 +13,25 @@
       .annotation.clearfix
         %h4
           = @book.title
+        %div
+          %small
+            = link_to :controller => :books, :action => :show, :id => @vol.job_id , :tab => "read" do
+              %i.fa.fa-book
+              = I18n.t(:sidelinks_read)
+            = link_to :controller => :books, :action => :show, :id => @vol.job_id do
+              %i.fa.fa-info
+              = I18n.t(:sidelinks_detail)  
         .notediv
           %a{:href=>"#","data-toggle" => "modal", "data-target"=> "#note_#{item.volume_id}"}
             = I18n.t(:user_annotation_note)
           %span.badge
-            =@notes.count
+            = @notes.count
         %br
         .highlightdiv
           %a{:href=>"#","data-toggle" => "modal", "data-target"=> "#highlight_#{item.volume_id}"}
             = I18n.t(:user_annotation_highlight)
           %span.badge
-            =@highlights.count
+            = @highlights.count
       .modal.fade{:id=>"note_#{item.volume_id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "notemodallabel", "area-hidden" => "true"}
         .modal-dialog
           .modal-content
@@ -32,11 +40,15 @@
                 &times;
               %h4.modal-title{:id => "notemodallabel"}
                 = I18n.t(:user_annotation_note)
-              %span.badge
-                =@notes.count            
+                %span.badge
+                  = @notes.count            
             .modal-body
-              ="..."
-              
+              - @notes.each do |note|
+                .text-dimmed
+                  = note.created_at
+                %p.small
+                  = note.text
+                %hr
       .modal.fade{:id=> "highlight_#{item.volume_id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "highlightmodallabel", "area-hidden" => "true"}
         .modal-dialog
           .modal-content
@@ -44,6 +56,13 @@
               %button.close{:type=>"button", "data-dismiss" => "modal", "area-hidden" => "true"}
                 &times;
               %h4.modal-title{:id => "highlightmodallabel"}
-                = I18n.t(:user_annotation_highlight)    
+                = I18n.t(:user_annotation_highlight)
+                %span.badge
+                  = @highlights.count    
             .modal-body
-              ="..."
+              - @highlights.each do |highlight|
+                .text-dimmed
+                  = highlight.created_at
+                %p.small
+                  = highlight.text
+                %hr
