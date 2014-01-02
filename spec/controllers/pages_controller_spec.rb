@@ -192,10 +192,15 @@ describe PagesController do
       
     end
     
-    describe "most viewed part" do
-      it "should have most viewed part" do
+    describe "most viewed tab" do
+      it "should have most viewed tab" do
         get :home
-        response.should have_selector("a", :content => "#{I18n.t(:most_viewed)}", :href => "/books?sort_type=views+desc")
+        response.should have_selector("a", :content => "#{I18n.t(:most_viewed)}")
+      end
+      
+      it "should have more link" do
+        get :home
+        response.should have_selector("a", :content => "#{I18n.t(:tabs_more)}", :href => "/books?sort_type=views+desc")
       end
       
       it "should have books ordered by most viewed" do
@@ -216,10 +221,15 @@ describe PagesController do
       
     end
     
-    describe "top rated part" do
-      it "should have top rated part" do
+    describe "top rated tab" do
+      it "should have top rated tab" do
         get :home
-        response.should have_selector("a", :content => "#{I18n.t(:top_rated)}", :href => "/books?sort_type=rate+desc")
+        response.should have_selector("a", :content => "#{I18n.t(:top_rated)}")
+      end
+      
+      it"should have more link" do
+        get :home
+        response.should have_selector("a", :content => "#{I18n.t(:tabs_more)}", :href => "/books?sort_type=rate+desc")
       end
       
       it "should have top rated books" do

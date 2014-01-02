@@ -238,7 +238,7 @@ en:
   description: "Description"
   create_new_collection: "Create new collection"
   public: "Public"
-  missing_title_error_msg: "Required field 'title' is missing"
+  missing_title_error_msg: "Title is too short (minimum is 4 characters)"
   save: "Save"
   cancel: "Cancel"
   add_to_collection: "Add book to collection "
@@ -431,5 +431,6 @@ en:
   top_rated: Top Rated
   home_activity_log: Activity Log
   no_activities: No Activities Found
+  tabs_more: "more..."
   
   

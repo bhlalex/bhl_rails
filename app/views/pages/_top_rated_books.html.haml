@@ -1,6 +1,3 @@
-%h4
-  = link_to "#{I18n.t(:top_rated)}",{:controller => :books, :action => :index, :sort_type => "rate desc"}
-%hr
 - if (@top_rated_response != '' && @top_rated_response['response']['numFound'] > 0)
   - @number = 0
   - @top_rated_response['response']['docs'].each do |doc|
@@ -35,3 +32,5 @@
       =render :partial => "books/sidelinks"
     .clearfix 
     %hr
+  .pull-right
+    = link_to "#{I18n.t(:tabs_more)}", {:controller => :books, :action => :index, :sort_type => "rate desc"}
