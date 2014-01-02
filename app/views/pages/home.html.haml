@@ -17,11 +17,13 @@
     %div.col-md-8.tabs
       %ul.nav.nav-tabs
         %li.active
-          %a{:href => "#mostviewd", "data-toggle" => "tab"}
-            = I18n.t(:most_viewed)
+          %a{:href => "#mostviewd", "data-toggle" => "tab", :style => "padding: 0px 15px 10px 15px;"}
+            %h4
+              = I18n.t(:most_viewed)
         %li
-          %a{:href => "#toprated", "data-toggle" => "tab"}
-            = I18n.t(:top_rated)
+          %a{:href => "#toprated", "data-toggle" => "tab", :style => "padding: 0px 15px 10px 15px;"}
+            %h4
+              = I18n.t(:top_rated)
       .tab-content
         .tab-pane.active#mostviewd
           = render :partial => "pages/most_viewed_books"
