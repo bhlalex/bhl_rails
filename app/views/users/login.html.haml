@@ -12,7 +12,7 @@
     $('#password_error').addClass("visible_error_msg");
     is_input_valid = false;
   }
-  if (($('#recaptcha_response_field') != null) && (($('#recaptcha_response_field').val() == null) || ($('#recaptcha_response_field').val() == ''))){
+  if (($('#recaptcha_response_field').val() != undefined) && (($('#recaptcha_response_field').val() == null) || ($('#recaptcha_response_field').val() == ''))){
     $('#captcha_error').removeClass("invisible_error_msg");
     $('#captcha_error').addClass("visible_error_msg");
     is_input_valid = false;
