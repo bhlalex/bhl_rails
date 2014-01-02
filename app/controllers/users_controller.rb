@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   include BHL::Login
   include BooksHelper
   include ApplicationHelper
-  include LogActivitiesHelper
+  include ActivitiesHelper
   # GET /users/new
   def new
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
@@ -131,22 +131,22 @@ class UsersController < ApplicationController
       elsif @tab == "activity"
             if authenticate_user
               @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
-      FROM((SELECT count(*) AS count
-      FROM collections
-      WHERE user_id = 34)
-      UNION
-      (SELECT count(*) AS count
-      FROM volume_ratings
-      WHERE user_id = 34)
-      UNION
-      (SELECT count(*) AS count
-      FROM collection_ratings
-      WHERE user_id = 34)
-      UNION
-      (SELECT count(*) AS count
-      FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
-      and user_id = 34)
-      ) result;")
+                                                        FROM((SELECT count(*) AS count
+                                                        FROM collections
+                                                        WHERE user_id = 34)
+                                                        UNION
+                                                        (SELECT count(*) AS count
+                                                        FROM volume_ratings
+                                                        WHERE user_id = 34)
+                                                        UNION
+                                                        (SELECT count(*) AS count
+                                                        FROM collection_ratings
+                                                        WHERE user_id = 34)
+                                                        UNION
+                                                        (SELECT count(*) AS count
+                                                        FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
+                                                        and user_id = 34)
+                                                        ) result;")
               # applying pagination on log_records array
               @page = params[:page] ? params[:page].to_i : 1
               limit = TAB_PAGE_SIZE
