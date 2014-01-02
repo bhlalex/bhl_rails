@@ -357,7 +357,7 @@ en:
   book_language_title: 'Language'
   book_name_title: 'Tagged Species'
   book_location_title: 'Regional Affiliation'
-  
+  thanks_for_rating_book: Thank you for rating this book
   
   # sign up page
   upload_photo: Upload photo
@@ -407,6 +407,7 @@ en:
   edit_collection: Edit
   write_review: Write a review
   please_login: please login
+  thanks_for_rating_collection: Thank you for rating this collection
   
   #Edit collection page
   public_collection: Public
@@ -460,5 +461,14 @@ en:
   top_rated: Top Rated
   home_activity_log: Activity Log
   no_activities: No Activities Found
+  
+  # login page
+  captcha_error: "There is a validation error on login verification element"
+  empty_user_name_error: User name can't be empty
+  empty_password_error: Password can't be empty
+  empty_verfication_error: Please fill this
+
   tabs_more: "more..."
   
+  #comments
+  no_comments: No Comments ..

@@ -61,18 +61,21 @@
               = render :partial => "comments/new_comment",:locals => {:comment_id => comment.id}
           .div{:id => "reply#{comment.id}"}
             %button.btn.btn-sm.pull-right.btn-default{:onclick => "show_reply('#{comment.id}')"} #{I18n.t(:reply)}
-.clearfix
-.clearfix
-  %ul.pager
-    %li
-      - if @start.to_i > 0
-        %a.btn.btn-sm{:onclick => "loadXMLDoc(2)"} ← #{I18n.t(:older)}
-      - else
-        %a.btn.btn-sm{:style => "cursor: not-allowed; color: #999999;"}
-          %i  #{I18n.t(:older)} 
-    %li
-      - if (((@start.to_i * LIMIT_BOOK_COMMENTS) + LIMIT_BOOK_COMMENTS) <  @total_comments.to_i)
-        %a.btn.btn-sm{:onclick => "loadXMLDoc(1)"} #{I18n.t(:newer)} →
-      - else
-        %a.btn.btn-sm{:style => "cursor: not-allowed; color: #999999;"}
-          %i ← #{I18n.t(:newer)} →
+  .clearfix
+  .clearfix
+    %ul.pager
+      %li
+        - if @start.to_i > 0
+          %a.btn.btn-sm{:onclick => "loadXMLDoc(2)"} ← #{I18n.t(:older)}
+        - else
+          %a.btn.btn-sm{:style => "cursor: not-allowed; color: #999999;"}
+            %i  #{I18n.t(:older)} 
+      %li
+        - if (((@start.to_i * LIMIT_BOOK_COMMENTS) + LIMIT_BOOK_COMMENTS) <  @total_comments.to_i)
+          %a.btn.btn-sm{:onclick => "loadXMLDoc(1)"} #{I18n.t(:newer)} →
+        - else
+          %a.btn.btn-sm{:style => "cursor: not-allowed; color: #999999;"}
+            %i ← #{I18n.t(:newer)} →
+- else 
+  %h5
+    = I18n.t(:no_comments)

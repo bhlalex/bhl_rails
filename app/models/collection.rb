@@ -1,3 +1,5 @@
+include ActionView::Helpers::SanitizeHelper
+
 class Collection < ActiveRecord::Base
   belongs_to :user
   
@@ -14,6 +16,13 @@ class Collection < ActiveRecord::Base
   validates :title, :presence => true, :length => {:within => 4..25}
   mount_uploader :photo_name, ImageUploader
   validate :file_size
+  
+  before_save :sanitize_html
+
+  def sanitize_html
+     self.title = sanitize(title, :tags=>[])
+     self.description = sanitize(description, :tags=>[])
+   end
   
   def self.get_count_by_volume(volume_id, user_id)
     Collection.includes(:volume_collections).where(:volume_collections => {:volume_id => volume_id}).where('is_public=1 or user_id=?', user_id).count
