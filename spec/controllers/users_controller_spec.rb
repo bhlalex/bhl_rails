@@ -361,7 +361,7 @@ describe UsersController do
       end
       it "should have an image for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a>img', :src => "/images_en/defaultCollection.jpg")
+        response.should have_selector('a>img', :src => "/images_en/nocollection140.png")
       end
 
       it "should have an meta data link for each collection" do

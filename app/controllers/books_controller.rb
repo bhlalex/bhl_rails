@@ -26,7 +26,6 @@ class BooksController < ApplicationController
     @page = @url_params[:page] ? @url_params[:page].to_i : 1
     @view = @url_params[:view] ? @url_params[:view] : ''
     @sort = @url_params[:sort_type] ? @url_params[:sort_type] : '' # get sort options (rate or views) from params
-    @lang = 'test'
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
     @response = search_facet_highlight(@query, @page, PAGE_SIZE, @sort)
@@ -34,8 +33,6 @@ class BooksController < ApplicationController
   end
   
   def show
-    @volume_id = Volume.find_by_job_id(params[:id]).id
-
     @comment = Comment.new
     
     #Save old and new books ids for "user_also_viewed" feature
@@ -53,6 +50,7 @@ class BooksController < ApplicationController
     
     @page_title = @book['bok_title'][0]
     @volume = Volume.find_by_job_id(params[:id])
+    @volume_id = @volume.id
     
     #For SEO purpose
     book_module = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id)
@@ -75,14 +73,16 @@ class BooksController < ApplicationController
       save_user_history(params)
       @reader_path = (DAR_JAR_API_URL.sub DAR_JAR_API_URL_STRING, params[:id]).sub DAR_JAR_API_URL_LANGUAGE, I18n.locale.to_s
     end
+    
     # when user rate == 0 this means that he never rated this book before
     @user_rate = 0.0
-    book_rate_list = VolumeRating.where(:user_id => session[:user_id], :volume_id => @volume.id)
+    if !session[:user_id].nil?
+      book_rate_list = VolumeRating.where(:user_id => session[:user_id], :volume_id => @volume.id)
+      if book_rate_list.count > 0
+        @user_rate = book_rate_list[0].rate 
+      end
+    end    
     
-    if book_rate_list.count > 0
-      @user_rate = book_rate_list[0].rate 
-    end
-        
     @collections_count = Collection.get_count_by_volume(@volume_id, session[:user_id])
     @collectionspages = ( @collections_count / LIMIT_CAROUSEL.to_f).ceil
     @viewspages =  (@volume.view_count / LIMIT_CAROUSEL.to_f).ceil

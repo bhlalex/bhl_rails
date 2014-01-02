@@ -14,9 +14,17 @@
   .row.clearfix
     .col-md-4.column.pull-right
       = render :partial => "pages/activity_log"
-    .col-md-8
-      = render :partial => "pages/most_viewed_books"
-  .row.clearfix
-    .col-md-8
-      = render :partial => "pages/top_rated_books"
+    %div.col-md-8.tabs
+      %ul.nav.nav-tabs
+        %li.active
+          %a{:href => "#mostviewd", "data-toggle" => "tab"}
+            = I18n.t(:most_viewed)
+        %li
+          %a{:href => "#toprated", "data-toggle" => "tab"}
+            = I18n.t(:top_rated)
+      .tab-content
+        .tab-pane.active#mostviewd
+          = render :partial => "pages/most_viewed_books"
+        .tab-pane#toprated
+          = render :partial => "pages/top_rated_books"
 

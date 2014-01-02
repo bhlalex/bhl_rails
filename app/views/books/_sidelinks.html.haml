@@ -14,10 +14,7 @@
     %i.fa.fa-li.fa-info
     %small
       = link_to "#{I18n.t(:sidelinks_detail)}", {:controller => :books, :action => :show, :id => @vol[:job_id]}
-  %li
-    %i.fa.fa-li.fa-eye
-    %small
-      = link_to "#{I18n.t(:sidelinks_view_collections)}", {:controller => :books, :action => :show, :id => @vol[:job_id], :tab => :collections}
+
   - if logged_in?
     %li
       %i.fa.fa-li.fa-plus-square
