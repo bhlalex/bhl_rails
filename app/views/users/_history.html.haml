@@ -1,0 +1,68 @@
+:javascript
+  function confirmDelete(){
+    var r = confirm("#{I18n.t(:remove_book_from_history_confirm)}");
+    return r;
+  }
+.col-md-8.column
+  %h4
+    = I18n.t(:user_history_title)
+    %span.badge
+      = @total_number
+  %hr
+  -@history.each do |item|
+    - @vol = Volume.find_by_id(item.volume)
+    :javascript
+      $(document).ready(function(){
+        $("#starsidelink_#{@vol[:job_id]}").jRating({
+          isDisabled : true
+        });
+      });
+    - @book = solr_search("vol_jobid:#{@vol.job_id}","bok_title, views, rate")
+    - if(@vol[:get_thumbnail_fail] == 0)
+      - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
+    - else
+      - @thumb = "images_#{I18n.locale}/noThumb.png"
+    .row
+      .col-md-2
+        = link_to image_tag("/#{@thumb}") , {:controller => :books, :action => :show, :id => @vol.job_id}
+      .col-md-7
+        %h4
+          = @book[:bok_title][0]
+        .date.text-muted
+          %small
+            %b
+              = I18n.t(:user_history_viewed_on)
+            = item.last_visited_date 
+      .col-md-3.controls
+        
+        
+        %ul.fa-ul.tools
+          - if (item.user_id == session[:user_id])
+            %li
+              %i.fa.fa-li.fa-trash-o
+              %small
+                = link_to I18n.t(:delete), {:controller => :users, :action => :remove_book_history, :volume_id => @vol[:id],
+                   :user_id => item[:user_id],:id => item[:user_id], :page => @page},
+                   :onclick => "return confirmDelete()"
+          %li
+            %i.fa.fa-li.fa-book
+            %small
+              = link_to "#{I18n.t(:book_details_read)}" ,
+                {:controller => :books, :action => :show, :id => @vol.job_id, :tab => "read"}
+          %li
+            %i.fa.fa-li.fa-info
+            %small
+              = link_to "#{I18n.t(:book_details_details)}" , 
+                {:controller => :books, :action => :show, :id => @vol.job_id}    
+        - if @book['rate'] != 0.0
+          .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
+        %small
+          = "#{pluralize(@book[:views], I18n.t(:sidelinks_views))} "
+            
+      .clearfix
+      %hr
+  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+    .col-md-8
+      .pagination-centered
+        - @pages = adjustPaging(@page, @lastPage)
+        = render :partial => "books/paging"

@@ -64,7 +64,7 @@ module SolrHelper
     if type == "book"
       response['response']['numFound']
     else
-      response["facet_counts"]["facet_fields"][facet_type].count
+      response["facet_counts"]["facet_fields"][facet_type].count/2
     end
     
   end

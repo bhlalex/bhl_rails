@@ -57,7 +57,7 @@
                                        });
                                 $(this).dialog("close");
                               }else{
-                                if(title.trim().length == 0){
+                                if(title.trim().length < 4){
                                   $("#error_#{@number}").show();
                                 }else{
                                    $.ajax({type: "GET", 
