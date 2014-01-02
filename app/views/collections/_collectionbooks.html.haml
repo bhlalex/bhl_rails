@@ -22,13 +22,15 @@
         %h4
           = @book[:bok_title][0]
         .date.text-muted
-          %b
-            =I18n.t(:col_book_added_on)
-          = @ubh_vol.created_at
+          %small
+            %b
+              =I18n.t(:col_book_added_on)
+            = @ubh_vol.created_at
         .date.text-muted
-          %b
-            = I18n.t(:col_book_order)
-          = @ubh_vol.position  
+          %small
+            %b
+              = I18n.t(:col_book_order)
+            = @ubh_vol.position  
       .col-md-4.column.controls
         %ul.fa-ul.tools
           - if (@ubh_vol.collection.user_id == session[:user_id])

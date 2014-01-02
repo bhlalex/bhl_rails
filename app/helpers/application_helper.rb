@@ -52,8 +52,9 @@ module ApplicationHelper
           end
           count = 0
           value.each do |val|
-            query += count == 0 ? (urlOrSolr ? val.gsub('/\s\s+/', ' ') : '(' + val.gsub('/\s\s+/', ' ').gsub(' ',' AND '))
-            : urlOrSolr ? " _AND " + val.gsub('/\s\s+/', ' ') : " AND " + val.gsub('/\s\s+/', ' ').gsub(' ',' AND ')
+            starredval="#{val}*"
+            query += count == 0 ? (urlOrSolr ? val.gsub('/\s\s+/', ' ') : '(' + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND '))
+            : urlOrSolr ? " _AND " + val.gsub('/\s\s+/', ' ') : " AND " + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND ')
             count += 1
           end
           query += !urlOrSolr ? ')' : ''
@@ -116,7 +117,20 @@ module ApplicationHelper
     end
     pages
   end
-
+  
+  def generateHRef(pageNumber, params)
+    if(params[:controller] == 'users')
+      tmp_params = {}
+      tmp_params[:page] = pageNumber
+    else  
+      tmp_params = params.clone
+      tmp_params[:controller] = nil
+      tmp_params[:page] = pageNumber
+      tmp_params[:action] = nil
+    end
+    tmp_params
+  end
+  
   private
 
   def get_item_count(field_name)

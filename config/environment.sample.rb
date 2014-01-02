@@ -76,6 +76,9 @@ UPLOADED_PHOTO_MAX_SIZE = 0.01
 TOP_COLLECTIONS_COUNT = 5
 MOST_VIEWED_BOOKS = 5
 HOME_LOG_ACTIVITIES = 5
+
+TAB_PAGE_SIZE = 8
+TAB_GALLERY_PAGE_SIZE = 9
 # Initialize the rails application
 Bhl::Application.initialize!
  

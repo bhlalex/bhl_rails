@@ -142,7 +142,8 @@ module BooksHelper
   def searchAllQuery(query_array)
     query = ''
     string = ''
-    query_array['ALL'].each do |value|
+    query_array['ALL'].each do |val|
+      value = "*#{val}*"
       query += query == '' ? "(bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} " +
           "OR geo_location:#{value} OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) "
           : " AND (bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} OR geo_location:#{value} " + 
@@ -150,69 +151,7 @@ module BooksHelper
     end
     query
   end
-  
-  def set_query_string(query_array, urlOrSolr)
-    query = ''
-    emptyQuery = true
-    query_array.each do |key, value|
-      if(value != '')
-        emptyQuery = false
-        break
-      end
-    end
-    if(emptyQuery && !urlOrSolr)
-      query = "*:*"
-    else
-      if(query_array['ALL'] !=nil && query_array['ALL'] != '')
-        if(urlOrSolr)
-          query = "_ALL="
-          count = 0
-          query_array['ALL'].each do |value|
-            query += count == 0 ? value : " _AND #{value} "
-            count += 1
-          end
-        else
-          query = searchAllQuery(query_array)
-        end
-      end
-      query_array.each do |key, value|
-        if(key == 'ALL')
-          next         
-        end
-        if(key == 'date' && value != '')
-          if(!urlOrSolr)
-            dates = value[0].split(' - ')
-            from = dates[0]
-            to = dates[1]
-            query += query == '' ? '' : ' AND '
-            query += "bok_start_date:[#{from}-01-01T00:00:00Z TO #{to}-01-01T00:00:00Z]"
-          else
-            query += query == '' ? '' : '&'
-            query += " _date=#{value[0]}"
-          end
-          continue
-        end
-        if(value != '')
-          if(urlOrSolr)  #preparing url string
-            tmp = "_#{key}"
-            query += query == '' ? "#{tmp}=" : "&#{tmp}="
-          else  #preparing solr query
-            tmp = (key == 'title' || key == 'language') ? "bok_#{key}" : "#{key}"
-            query += query == '' ? "#{tmp}:" : " AND #{tmp}:"
-          end
-          count = 0
-          value.each do |val|
-            query += count == 0 ? (urlOrSolr ? val.gsub('/\s\s+/', ' ') : '(' + val.gsub('/\s\s+/', ' ').gsub(' ',' AND '))
-            : urlOrSolr ? " _AND " + val.gsub('/\s\s+/', ' ') : " AND " + val.gsub('/\s\s+/', ' ').gsub(' ',' AND ')
-            count += 1
-          end
-          query += !urlOrSolr ? ')' : ''
-        end
-      end     
-    end
-    query
-  end
-  
+
   def search_facet_highlight(query, page, limit, sort_type)
     facet_array = ['author_ss', 'bok_language_s', 'subject_ss', 'published_at_ss', 'geo_location_ss' ,'name_ss']
     hl_array = ['bok_title','bok_language','name','published_at', 'geo_location', 'subject','author']
@@ -305,15 +244,6 @@ module BooksHelper
     tmp_params
   end
 
-  def generateHRef(pageNumber, params)
-    tmp_params = params.clone
-    controller = params[:controller]
-    tmp_params[:controller] = nil
-    tmp_params[:page] = pageNumber
-    tmp_params[:action] = nil
-    tmp_params
-  end
-  
   def visited_volume?(user_history, vol)
     user_history.each do |row|
       return true if row[:volume_id] == vol[:id] 
