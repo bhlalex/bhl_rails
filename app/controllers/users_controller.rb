@@ -388,16 +388,7 @@ class UsersController < ApplicationController
     end
   end
 
-  def remove_book_history
-    if authenticate_user
-      voulume_id = params[:volume_id]
-      user_id = session["user_id"]
-      UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
-      flash.now[:notice]=I18n.t(:book_removed)
-      flash.keep
-     redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history", :page => params[:page]
-    end
-  end
+
 
   def rate
     if is_loggged_in? && params[:rate] != "NaN"

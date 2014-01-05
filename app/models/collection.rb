@@ -25,7 +25,7 @@ class Collection < ActiveRecord::Base
    end
   
   def self.get_count_by_volume(volume_id, user_id)
-    Collection.includes(:volume_collections).where(:volume_collections => {:volume_id => volume_id}).where('is_public=1 or user_id=?', user_id).count
+    Collection.includes(:volume_collections).where(:volume_collections => {:volume_id => volume_id}).where('is_public=true or user_id=?', user_id).count
   end
   
   def set_rate
