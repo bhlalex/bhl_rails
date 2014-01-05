@@ -51,13 +51,7 @@ class ImageUploader < CarrierWave::Uploader::Base
     %w(jpg jpeg gif png bmp)
   end
 
-  def pre_limit file
-    #require 'debugger'; debugger
-    if file && file.size > UPLOADED_PHOTO_MAX_SIZE.megabytes
-      raise Exception.new("too large")
-    end
-    true
-  end
+
 
   # Override the filename of the uploaded files:
   # Avoid using model.id or version_name here, see uploader/store.rb for details.

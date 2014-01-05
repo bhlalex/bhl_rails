@@ -133,19 +133,19 @@ class UsersController < ApplicationController
               @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
                                                         FROM((SELECT count(*) AS count
                                                         FROM collections
-                                                        WHERE user_id = 34)
+                                                        WHERE user_id = #{session[:user_id]})
                                                         UNION
                                                         (SELECT count(*) AS count
                                                         FROM volume_ratings
-                                                        WHERE user_id = 34)
+                                                        WHERE user_id = #{session[:user_id]})
                                                         UNION
                                                         (SELECT count(*) AS count
                                                         FROM collection_ratings
-                                                        WHERE user_id = 34)
+                                                        WHERE user_id = #{session[:user_id]})
                                                         UNION
                                                         (SELECT count(*) AS count
-                                                        FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
-                                                        and user_id = 34)
+                                                        FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                                                        and user_id = #{session[:user_id]})
                                                         ) result;")
               # applying pagination on log_records array
               @page = params[:page] ? params[:page].to_i : 1
@@ -156,37 +156,37 @@ class UsersController < ApplicationController
               # rating book or collection
               # and also commented on book or collection ordered by creation time
               sql_stmt = "SELECT
-      result.table_type AS table_type,
-      result.id AS id,
-      result.time AS time
-      FROM((SELECT 'collection' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM collections
-      WHERE user_id = #{@user.id})
-      UNION
-      (SELECT
-      'volume_ratings' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM volume_ratings
-      WHERE user_id = #{@user.id})
-      UNION
-      (SELECT
-      'volume_ratings' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM collection_ratings
-      WHERE user_id = #{@user.id})
-      UNION
-      (SELECT
-      'comments' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
-      and user_id = #{@user.id})
-      ) result
-      ORDER BY time DESC LIMIT #{offset}, #{limit};"
+                          result.table_type AS table_type,
+                          result.id AS id,
+                          result.time AS time
+                          FROM((SELECT 'collection' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM collections
+                          WHERE user_id = #{@user.id})
+                          UNION
+                          (SELECT
+                          'volume_ratings' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM volume_ratings
+                          WHERE user_id = #{@user.id})
+                          UNION
+                          (SELECT
+                          'volume_ratings' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM collection_ratings
+                          WHERE user_id = #{@user.id})
+                          UNION
+                          (SELECT
+                          'comments' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                          and user_id = #{@user.id})
+                          ) result
+                          ORDER BY time DESC LIMIT #{offset}, #{limit};"
               # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
               @log_records = get_log_activity(sql_stmt)
               @url_params = params.clone
@@ -424,6 +424,7 @@ class UsersController < ApplicationController
   end
 
   def rate_collection
+    debugger
     if is_loggged_in? && params[:rate] != "NaN"
       collection = Collection.find_by_id(params[:col_id])
       col_rate_list = CollectionRating.where(:user_id => params[:user_id], :collection_id => collection.id)
