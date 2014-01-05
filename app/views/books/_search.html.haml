@@ -12,7 +12,9 @@
     else{
       searchquery += "&_" + type + "=" + field;
     }
-    window.location = window.location.href.split('?')[0] + "?" + searchquery;
+    url = window.location.href.split('?')[0]
+    url = url.split('#')[0]
+    window.location = url + "?" + searchquery;
   }
 .topsearch
   - jsquery = set_query_string(@query_array, true)

@@ -114,7 +114,6 @@ class CollectionsController < ApplicationController
   end
 
   def update
-    debugger
     @collection = Collection.find(params[:id])
     if authenticate_user(@collection.user_id)
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]

@@ -414,7 +414,6 @@ en:
   #Edit collection page
   public_collection: Public
   edit_collection_page_title: Edit Collection
-  collection_help_block: max size for photo is 0.01 MB.
   upload_collection_photo: Upload Photo 
 
   #User Profile Page
