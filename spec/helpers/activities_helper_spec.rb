@@ -10,6 +10,6 @@ require 'spec_helper'
 #     end
 #   end
 # end
-describe ActivityHelper do
+describe ActivitiesHelper do
   pending "add some examples to (or delete) #{__FILE__}"
 end

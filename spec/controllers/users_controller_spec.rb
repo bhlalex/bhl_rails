@@ -247,13 +247,13 @@ describe UsersController do
                 response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "history", :page => 2
               end
 
-              it "should fix pagination after deleting the last book in current page" do
-                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-                #              http://localhost:3000/users/34/recently_viewed
-                get :show, :id => @user.id,:page => 2, :tab => "history", :view => "list"
-                response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
-              end
+#              it "should fix pagination after deleting the last book in current page" do
+#                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+#                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+#                #              http://localhost:3000/users/34/recently_viewed
+#                get :show, :id => @user.id,:page => 2, :tab => "history", :view => "list"
+#                response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
+#              end
             end
           end
         end
@@ -284,8 +284,8 @@ describe UsersController do
 
       it "should contains delete link for each query" do
         get :show, { :id => @user.id, :tab => "queries" }
-        response.should have_selector('a', :href => "/user_search_history/delete_query?id=#{@query_first.id}")
-        response.should have_selector('a', :href => "/user_search_history/delete_query?id=#{@query_second.id}")
+        response.should have_selector('a', :href => "/user_search_history/delete_query/#{@query_first.id}")
+        response.should have_selector('a', :href => "/user_search_history/delete_query/#{@query_second.id}")
       end
 
       it "should have pagination bar" do
@@ -318,17 +318,14 @@ describe UsersController do
 
       it "should list public collections of other user" do
         get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('div', :class => "count", :content =>1.to_s)
+        response.should have_selector('span', :class => "badge", :content =>1.to_s)
       end
 
       it "should have an open link for public collections of other user" do
         get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}")
       end
-      it "should have last modified date for public collections of ther user" do
-        get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('h5', :content =>"2013-11-17")
-      end
+
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
@@ -343,11 +340,7 @@ describe UsersController do
         response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}")
         response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}")
       end
-      it "should have last modified date for each collection" do
-        get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('h5', :content =>"2013-11-20")
-        response.should have_selector('h5', :content =>"2013-11-19")
-      end
+
       it "should have an image for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
         response.should have_selector('a>img', :src => "/images_en/nocollection140.png")
@@ -361,8 +354,8 @@ describe UsersController do
 
       it "should have delete link for the collections owned by the current user" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/destroy_collection?user_id=#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/destroy_collection?user_id=#{@my_public_collection.id}")
+        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_private_collection.id}?page=1&user_id=#{@user.id}")
+        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}?page=1&user_id=#{@user.id}")
       end
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})

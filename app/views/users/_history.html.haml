@@ -37,7 +37,7 @@
               %i.fa.fa-li.fa-trash-o
               %small
                 = link_to I18n.t(:delete), {:controller => :users, :action => :remove_book_history, :volume_id => @vol[:id],
-                   :user_id => item[:user_id],:id => item[:user_id], :page => @page},
+                   :user_id => item[:user_id],:id => item.id, :page => @page},
                    :onclick => "return confirmDelete(\"#{I18n.t(:remove_book_from_history_confirm)}\")"
           %li
             %i.fa.fa-li.fa-book
