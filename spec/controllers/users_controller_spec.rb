@@ -28,7 +28,7 @@ describe UsersController do
       log_in(@user)
       get :new
       response.should_not render_template('users/new')
-      expect(response).to redirect_to("/users/show/#{@user.id}")
+      expect(response).to redirect_to("/users/#{@user.id}")
     end
   end
 
@@ -53,7 +53,7 @@ describe UsersController do
 
       it "should link to recently_viewed when user is logged in" do
         get :show, :id => @user.id
-        response.should have_selector("a", :href => "/users/#{@user[:id]}/recently_viewed", :content => I18n.t(:recently_viewed))
+        response.should have_selector("a", :href => "/users/#{@user[:id]}/history", :content => I18n.t(:recently_viewed))
       end
 
       describe "'right panel'" do
@@ -79,14 +79,14 @@ describe UsersController do
           @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
           UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :updated_at => Time.now)
         end
-        it "should have book title links to details page" do
-          get :show, :id => @user.id
-          response.should have_selector("a", :href => "/books/#{@vol_first.job_id}/brief")
-        end
+#        it "should have book title links to details page" do
+#          get :show, :id => @user.id
+#          response.should have_selector("a", :href => "/books/#{@vol_first.job_id}/brief")
+#        end
        
         it "should have recently viewed link" do
           get :show, :id => @user.id
-          response.should have_selector("a", :href => "/users/#{@user.id}/recently_viewed")
+          response.should have_selector("a", :href => "/users/#{@user.id}/history")
         end
       end
       describe "'recently_viewed tab'" do
@@ -152,16 +152,10 @@ describe UsersController do
           UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :updated_at => Time.now)
           UserBookHistory.create(:volume_id => @vol_second.id, :user_id => @user.id, :updated_at => Time.now)
         end
-        
-        # check for existance of By:authors label in list view
-        it "should have by author" do
-          get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector("b", :content => I18n.t(:listresult_author_by))
-        end
-        
+
         it "should display last visited date" do
-          get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector("h4", :content => "Last visited: #{(UserBookHistory.first).updated_at}")
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector("small", :content => "#{(UserBookHistory.first).last_visited_date}")
         end
                 
         #TODO now this will not pass except after fixing jquery problems
@@ -174,19 +168,19 @@ describe UsersController do
                
         it "should not exists if user is not logged in" do
           log_out
-          get :show, :id => @user.id, :tab => "recently_viewed"
+          get :show, :id => @user.id, :tab => "history"
           response.should redirect_to :controller => :users, :action => :login
         end
         # check for books count
         it "should have item count equal to the total number of books" do
-          get :show, :id => @user.id, :tab => "recently_viewed"
-          response.should have_selector("h4", :class => "text-muted", :content => 2.to_s)
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector("span", :class => "badge", :content => 2.to_s)
         end
 
         describe "'list view'" do
 
           before(:each) do
-            get :show, :id => @user.id, :tab => "recently_viewed", :view => "list"
+            get :show, :id => @user.id, :tab => "history", :view => "list"
           end
 
           # check for existance of image for each book in list view
@@ -203,19 +197,17 @@ describe UsersController do
           
           # check for existance of read and detail links for each book in list view
           it "should have read and detail links for each book" do
-            response.should have_selector('a', :href => "/books/123/read")
-            response.should have_selector('a', :href => "/books/123")
-            response.should have_selector('a', :href => "/books/238233/read")
-            response.should have_selector('a', :href => "/books/238233")
+            response.should have_selector('a', :href => "/books/123/history")
+            response.should have_selector('a', :href => "/books/238233/history")
           end
 
           # delete link
           describe "'delete link'" do
             it "should delete history and decrease the number of books found when click on delete link" do
-              get "remove_book_history", :page => 1, :tab => "recently_viewed", :id =>@user.id, :user_id => @user.id, :volume_id => 1
-              response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "recently_viewed", :page => 1
-              get :show, :id => 1, :tab => "recently_viewed", :page => 1
-              response.should have_selector("h4", :class => "text-muted", :content => 1.to_s)
+              get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1
+              response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
+              get :show, :id => 1, :tab => "history", :page => 1
+              response.should have_selector("span", :class => "badge", :content => 1.to_s)
             end
 
             it "should not delete when user is not logged in" do
@@ -251,16 +243,16 @@ describe UsersController do
                 }
               end
               it "should redirect to the same page" do
-                get "remove_book_history", :page => 2, :tab => "recently_viewed", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-                response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "recently_viewed", :page => 2
+                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+                response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "history", :page => 2
               end
 
               it "should fix pagination after deleting the last book in current page" do
-                get "remove_book_history", :page => 2, :tab => "recently_viewed", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-                get "remove_book_history", :page => 2, :tab => "recently_viewed", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
                 #              http://localhost:3000/users/34/recently_viewed
-                get :show, :id => @user.id,:page => 2, :tab => "recently_viewed", :view => "list"
-                response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "recently_viewed", :page => 1
+                get :show, :id => @user.id,:page => 2, :tab => "history", :view => "list"
+                response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
               end
             end
           end
@@ -277,32 +269,29 @@ describe UsersController do
       end
 
       it "should contains query content body" do
-        get :show, { :id => @user.id, :tab => "saved_queries" }
+        get :show, { :id => @user.id, :tab => "queries" }
         response.should have_selector("b", :content => "Title")
         response.should have_selector("b", :content => "Content")
       end
 
-      it "should contains query date body" do
-        get :show, { :id => @user.id, :tab => "saved_queries" }
-        response.should have_selector("b", :content => "Saved at")
-      end
+
 
       it "should contains show result link for query" do
-        get :show, { :id => @user.id, :tab => "saved_queries" }
-        response.should have_selector('a', :href => "/books?_title=popular")
-        response.should have_selector('a', :href => "/books?_content=smith")
+        get :show, { :id => @user.id, :tab => "queries" }
+        response.should have_selector('a', :href => "books?_title=popular")
+        response.should have_selector('a', :href => "books?_content=smith")
       end
 
       it "should contains delete link for each query" do
-        get :show, { :id => @user.id, :tab => "saved_queries" }
-        response.should have_selector('a', :href => "/user_search_history/delete_query/#{@query_first.id}")
-        response.should have_selector('a', :href => "/user_search_history/delete_query/#{@query_second.id}")
+        get :show, { :id => @user.id, :tab => "queries" }
+        response.should have_selector('a', :href => "/user_search_history/delete_query?id=#{@query_first.id}")
+        response.should have_selector('a', :href => "/user_search_history/delete_query?id=#{@query_second.id}")
       end
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "queries", {})
         20.times {Query.create(:user_id => @user.id, :string => "_title=popular")}
-        get :show, { :id => @user.id, :tab => "saved_queries" }
+        get :show, { :id => @user.id, :tab => "queries" }
         response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "queries", {})
       end
@@ -324,7 +313,7 @@ describe UsersController do
       end
       it "should list current user's collections " do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('div', :class => "count", :content =>2.to_s)
+        response.should have_selector('span', :class => "badge", :content =>2.to_s)
       end
 
       it "should list public collections of other user" do
@@ -351,8 +340,8 @@ describe UsersController do
 
       it "should have an open link for each collection of my collections" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}", :content =>@my_private_collection.title)
-        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+        response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}")
+        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}")
       end
       it "should have last modified date for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
@@ -366,14 +355,14 @@ describe UsersController do
 
       it "should have an meta data link for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/show/#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}")
+        response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}")
+        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}")
       end
 
       it "should have delete link for the collections owned by the current user" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}")
+        response.should have_selector('a', :href => "/collections/destroy_collection?user_id=#{@my_private_collection.id}")
+        response.should have_selector('a', :href => "/collections/destroy_collection?user_id=#{@my_public_collection.id}")
       end
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
@@ -391,7 +380,7 @@ describe UsersController do
       log_in(@user)
       get :forgot_password
       response.should_not render_template('users/forgot_password')
-      expect(response).to redirect_to("/users/show/#{@user.id}")
+      expect(response).to redirect_to("/users/#{@user.id}")
       log_out
       get :forgot_password
       response.should render_template('users/forgot_password')
@@ -403,7 +392,7 @@ describe UsersController do
       log_in(@user)
       post :recover_password
       response.should_not render_template('users/forgot_password')
-      expect(response).to redirect_to("/users/show/#{@user.id}")
+      expect(response).to redirect_to("/users/#{@user.id}")
     end
 
     it "should find user by email or flash error if it can't find user by email" do
@@ -455,7 +444,7 @@ describe UsersController do
       @user.email.should == 'test@email.com'
       @user.real_name.should == "Test User"
       @user.active.should be_false
-      expect(response).to redirect_to("/users/show/#{@user.id}")
+      expect(response).to redirect_to("/users/#{@user.id}")
       flash[:error].should be_blank
       flash[:notice].should_not be_blank
     end
@@ -538,7 +527,7 @@ describe UsersController do
       user = User.gen
       log_in(user)
       get :login
-      response.should redirect_to "/users/show/#{user.id}"
+      response.should redirect_to "/users/#{user.id}"
     end
 
     it 'should render login form' do
@@ -552,13 +541,13 @@ describe UsersController do
       log_in(@user)
       user = User.gen(:entered_password => "1234")
       post :validate, { :user => { :username => user.username, :password => "1234" } }
-      response.should redirect_to "/users/show/#{@user.id}"
+      response.should redirect_to "/users/#{@user.id}"
     end
 
     it 'should validate user, set session, and redirect to profile page' do
       user = User.gen(:entered_password => "1234")
       post :validate, { :user => { :username => user.username, :password => "1234" } }
-      response.should redirect_to "/users/show/#{user.id}"
+      response.should redirect_to "/users/#{user.id}"
       session[:user_id].should == user.id
       session[:active].should == user.active
       session[:real_name].should == user.real_name
@@ -584,7 +573,7 @@ describe UsersController do
       log_in(@user)
       user = User.gen(:entered_password => "1234")
       get :reset_password, :guid => @user.guid, :activation_code => @user.verification_code
-      response.should redirect_to "/users/show/#{@user.id}"
+      response.should redirect_to "/users/#{@user.id}"
     end
 
     it 'should raise error and redirect to root if invalid parameters' do
@@ -606,7 +595,7 @@ describe UsersController do
     it 'should redirect to profile page if user is logged in' do
       log_in(@user)
       post :reset_password_action
-      response.should redirect_to "/users/show/#{@user.id}"
+      response.should redirect_to "/users/#{@user.id}"
     end
 
     it 'should redirect to home page if invalid parameters' do
@@ -657,7 +646,7 @@ describe UsersController do
       user = User.gen
       log_in(@user)
       get :edit, :id => user.id
-      response.should redirect_to "/users/show/#{user.id}"
+      response.should redirect_to "/users/#{user.id}"
       flash[:error].should_not be_blank
     end
 
@@ -697,7 +686,7 @@ describe UsersController do
       user = User.gen
       log_in(@user)
       put :update, { :id => user.id }
-      response.should redirect_to "/users/show/#{user.id}"
+      response.should redirect_to "/users/#{user.id}"
       flash[:error].should_not be_blank
     end
 
@@ -710,7 +699,7 @@ describe UsersController do
         :entered_password => nil,
         :entered_password_confirmation => nil,
         :real_name => user_before_update.real_name + "updated"}}
-      expect(response).to redirect_to "/users/show/#{@user.id}"
+      expect(response).to redirect_to "/users/#{@user.id}"
       flash[:error].should be_blank
       flash[:notice].should_not be_blank
 

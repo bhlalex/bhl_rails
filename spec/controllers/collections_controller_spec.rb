@@ -515,8 +515,8 @@ describe CollectionsController do
 
       it "should have an open link for each collection" do
         get :index
-        response.should have_selector('a', :href => "/collections/show/#{@other_public_collection.id}", :content =>@other_public_collection.title)
-        response.should have_selector('a', :href => "/collections/show/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+        response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}", :content =>@my_public_collection.title)
       end
       it "should have last modified date for each collection" do
         get :index
