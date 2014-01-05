@@ -19,7 +19,7 @@
       - @thumb = "images_#{I18n.locale}/noThumb.png"
     .row
       .col-md-2
-        = link_to image_tag("/#{@thumb}") , {:controller => :books, :action => :show, :id => @vol.job_id}
+        = link_to image_tag("/#{@thumb}") , {:controller => :books, :action => :show, :id => @vol.job_id, :tab => "detail"}
       .col-md-7
         %h4
           = @book[:bok_title][0]
@@ -48,7 +48,7 @@
             %i.fa.fa-li.fa-info
             %small
               = link_to "#{I18n.t(:book_details_details)}" , 
-                {:controller => :books, :action => :show, :id => @vol.job_id}    
+                {:controller => :books, :action => :show, :id => @vol.job_id, :tab => "detail"}    
         .rate
           %span.text-muted.pull-right
             %small
