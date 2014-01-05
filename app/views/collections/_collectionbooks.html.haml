@@ -74,8 +74,8 @@
         - if @book['rate'] != 0.0
           .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
         
-      .col-md-8.clearfix
-        %hr
+    .clearfix
+      %hr
 - else
   %h4
     = I18n.t(:no_books_found)
