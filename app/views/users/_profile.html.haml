@@ -12,7 +12,7 @@
       - @thumb = "images_#{I18n.locale}/nocollection140.png"
     - else
       - @thumb = @user.photo_name_url(:thumb)
-    = image_tag("/#{@thumb}",:class => "img-thumbnail")
+    = image_tag("#{@thumb}",:class => "img-thumbnail")
 %fieldset
   .form-horizontal    
     .form-group

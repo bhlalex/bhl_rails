@@ -12,7 +12,7 @@
     .media-body.activity-log
       %p{:style => "line-height:120%;font-size:12px;"}
         = log[:record].html_safe
-  %hr
+  %hr{ :style => "margin-top: 0px; margin-bottom: 0px;"}
 
 - if @pages == 0
   = I18n.t(:no_activities)
