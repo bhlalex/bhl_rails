@@ -15,7 +15,7 @@
   .col-md-2.collection
     .media
       %center
-        = link_to image_tag(thumb, :class => "media-object img-thumbnail"),{:controller => :collections, :action => :show, :id => collection.id}
+        = link_to image_tag(thumb, :title => "#{collection.title}", :class => "media-object img-thumbnail"),{:controller => :collections, :action => :show, :id => collection.id}
       %h5
         - title = "#{collection.title}"
         - if collection.title.length > 14

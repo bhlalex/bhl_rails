@@ -54,7 +54,7 @@
           count = 0;
         }
         $.ajax({type: "GET", 
-                url: "/users/rate?rate=" + count + "&user_id=" + "#{session[:user_id]}" + "&job_id=" + "#{params[:id]}", 
+                url: "/rate?rate=" + count + "&user_id=" + "#{session[:user_id]}" + "&job_id=" + "#{params[:id]}", 
                 dataType: "script",
                 success: function(data){
                               updatedetailedrate();
