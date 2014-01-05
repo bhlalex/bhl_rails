@@ -182,11 +182,11 @@ describe PagesController do
         end
         it "should have title with link" do
           get :home
-          response.should have_selector("a", :content => "55555", :href => "/collections/show/2")
+          response.should have_selector("a", :content => "55555", :href => "/collections/2")
         end
         it "should have author name" do
           get :home
-          response.should have_selector("a", :content => "#{@user.real_name}", :href => "/users/show/#{@user.id}")
+          response.should have_selector("a", :content => "#{@user.real_name}", :href => "/users/#{@user.id}")
         end
       end
       
@@ -253,7 +253,7 @@ describe PagesController do
     describe "activities log part" do
       it "should have activities log part" do
         get :home
-        response.should have_selector("a", :content => "#{I18n.t(:home_activity_log)}", :href => "/log_activities" )
+        response.should have_selector("a", :content => "#{I18n.t(:home_activity_log)}", :href => "/log_activities/index" )
       end
       it "should display the number of activities" do
         get :home

@@ -389,7 +389,7 @@ class UsersController < ApplicationController
       UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
       flash.now[:notice]=I18n.t(:book_removed)
       flash.keep
-      redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history", :page => params[:page]
+     redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history", :page => params[:page]
     end
   end
 
