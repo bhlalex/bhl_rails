@@ -356,6 +356,9 @@ class UsersController < ApplicationController
           flash.now[:error] = I18n.t("invalid_old_password")
           flash.keep
           @action = "modify"
+          @user.email_confirmation = @user.email
+          params[:entered_password] = nil
+          params[:password_confirmation] = nil
           render :action => :edit
           return
         end
@@ -376,6 +379,9 @@ class UsersController < ApplicationController
         return redirect_to :controller => :users, :action => :show, :id => params[:id]
       else
         flash.keep
+        params[:entered_password] = nil
+        params[:password_confirmation] = nil
+        @user.email_confirmation = @user.email
         @action = "modify"
         render :action => :edit
       end
