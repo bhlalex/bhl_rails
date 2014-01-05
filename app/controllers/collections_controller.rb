@@ -136,7 +136,7 @@ class CollectionsController < ApplicationController
           flash.keep
           redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "collections"
         else
-          flash.now[:notice]=I18n.t(:collection_not_updated)
+          flash.now[:error]=I18n.t(:collection_not_updated)
           flash.keep
           render :action => :edit
         end

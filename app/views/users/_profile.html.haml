@@ -9,7 +9,11 @@
 %blockquote
   .col-md-2.column.pull-right
     - if(@user.photo_name.blank?)
+<<<<<<< HEAD
       - @thumb = "/images_#{I18n.locale}/nocollection140.png"
+=======
+      - @thumb = "/images_#{I18n.locale}/user.png"
+>>>>>>> 2f501ad833c59d4a5054ce9061c044a8a19207e8
     - else
       - @thumb = @user.photo_name_url(:thumb)
     = image_tag("#{@thumb}",:class => "img-thumbnail")

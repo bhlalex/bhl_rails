@@ -13,14 +13,13 @@
           .form-group
             = f.label :description, raw(t('description')), :class => 'col-sm-2 control-label'
             .col-sm-10
-              = f.text_area :description, :class => 'form-control', :name => "", :cols => "", :rows => ""
+              = f.text_area :description, :class => 'form-control',:cols => "", :rows => ""
           .form-group
             %label{:class => 'col-sm-2 control-label'}
               = I18n.t(:upload_collection_photo)
             .col-sm-10
               = f.file_field :photo_name, :class => "btn btn-default"
-              %p.help-block
-                = I18n.t(:collection_help_block)
+              %p.help-block #{I18n.t(:max_photo_size)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}
           .form-group
             .col-sm-offset-2.col-sm-10
               %div

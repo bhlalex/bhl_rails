@@ -17,7 +17,10 @@
       %center
         = link_to image_tag(thumb, :class => "media-object img-thumbnail"),{:controller => :collections, :action => :show, :id => collection.id}
       %h5
-        = link_to collection.title,{:controller => :collections, :action => :show, :id => collection.id}
+        - title = "#{collection.title}"
+        - if collection.title.length > 14
+          - title = collection.title[0,13] +"..."
+        = link_to title,{:controller => :collections, :action => :show, :id => collection.id}, :alt => "#{collection.title}"
       %i.fa.fa-user
       %small
         = link_to "#{I18n.t(:home_top_collections_by)} #{User.find_by_id(collection.user_id).real_name}",{:controller => :users, :action => :show, :id => collection.user_id}
