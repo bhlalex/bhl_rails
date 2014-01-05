@@ -16,10 +16,10 @@ Bhl::Application.routes.draw do
   match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
   resources :user_search_history, only: [:save_query, :delete_query]
   
-  resources :collections, only: [:index]
+  resources :collections
   match "/collections/destroy_collection/:id" => "collections#destroy_collection"
   match "/collections/edit/:id" => "collections#edit"
-  match "/collections/show/:id" => "collections#show"
+  match "/collections/:id" => "collections#show"
   match "/collections/update/:id" => "collections#update"
   match "/collections/delete_book/:volume_collection_id" => "collections#delete_book"
   match "/collections/move_up/:volume_collection_id" => "collections#move_up"
@@ -27,7 +27,6 @@ Bhl::Application.routes.draw do
   match "dialog_content" => "collections#dialog_content"
   match "get_collection_comments" => "collections#get_collection_comments"
   
-  resources :collections
   get "collections/add_book"
   match "add_book" => "collections#add_book"
   
@@ -60,7 +59,7 @@ Bhl::Application.routes.draw do
   get   "users/change_password"
   get   "users/my_account"
   post  "users/validate"
-  match "users/show/:id" => "users#show"
+  match "users/:id" => "users#show"
   match "/users/:id/:tab" => "users#show"
   post  "users/recover_password"
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"

@@ -137,7 +137,7 @@ class CollectionsController < ApplicationController
         else
           flash.now[:notice]=I18n.t(:collection_not_updated)
           flash.keep
-          render 'edit'
+          render :action => :edit
         end
       end
     end

@@ -202,7 +202,7 @@ class UsersController < ApplicationController
         @collections = Collection.where("user_id = #{@id}").limit(TAB_PAGE_SIZE).offset(offset)
       else
         @total_number = Collection.count(:conditions => "user_id = #{@user.id} AND is_public = true")
-        @lastPage = @user_collections.count ? ((@user_collections.count).to_f/TAB_PAGE_SIZE).ceil : 0
+        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
         @collections = Collection.where("user_id = #{@id} and is_public = true").limit(TAB_PAGE_SIZE).offset(offset)
       end
       @url_params = params.clone

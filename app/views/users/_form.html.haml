@@ -45,7 +45,7 @@
         = @page_title
       .form-horizontal
         = validation_errors_for(@user)
-        = form_for @user, :builder => FormHelper::BHLFormBuilder ,:html => {:onsubmit => "return check_image_size();"} do |f|
+        = form_for @user, :builder => FormHelper::BHLFormBuilder ,:html => {:onsubmit => "return check_image_size();" } do |f|
           .form-group
             = f.label I18n.t(:username), :class => 'col-sm-2 control-label'
             .col-sm-10
@@ -54,26 +54,26 @@
             .form-group
               = f.label I18n.t(:password) , :class => 'col-sm-2 control-label'
               .col-sm-10
-                = f.password_field :entered_password, { :type => "password",:class => "required form-control" }
+                = f.password_field :entered_password, { :type => "password",:class => "required form-control" , :autocomplete =>"off"}
             .form-group
               = f.label I18n.t(:password_confirmation) , :class => 'col-sm-2 control-label'
               .col-sm-10
-                = f.password_field :entered_password_confirmation, { :type => "password",:class => "required form-control" }
+                = f.password_field :entered_password_confirmation, { :type => "password",:class => "required form-control" , :autocomplete =>"off"}
           - if (@action == "modify")
             %a.btn{:style=> "cursor:pointer;", :id => "change_password"} #{I18n.t(:change_password)}
             %div{:style=> "cursor:pointer;display:none;", :id => "change_password_block"}
               .form-group
-                = f.label I18n.t(:old_password) , :class => 'col-sm-2 control-label'
+                = f.label I18n.t(:old_password) , :class => 'col-sm-2 control-label' 
                 .col-sm-10
-                  = f.password_field :old_password, { :type => "password",:class => "required form-control" }
+                  = f.text_field :old_password, { :type => "password",:class => "required form-control" , :autocomplete =>"off"}
               .form-group
                 = f.label I18n.t(:new_password) , :class => 'col-sm-2 control-label'
                 .col-sm-10
-                  = f.password_field :entered_password, { :type => "password",:class => "required form-control" }
+                  = f.password_field :entered_password, { :type => "password",:class => "required form-control" , :autocomplete =>"off"}
               .form-group
                 = f.label I18n.t(:new_password_confirmation) , :class => 'col-sm-2 control-label'
                 .col-sm-10
-                  = f.password_field :entered_password_confirmation, { :type => "password",:class => "required form-control" }
+                  = f.password_field :entered_password_confirmation, { :type => "password",:class => "required form-control" , :autocomplete =>"off"}
           .form-group
             = f.label I18n.t(:email) , :class => 'col-sm-2 control-label'
             .col-sm-10
