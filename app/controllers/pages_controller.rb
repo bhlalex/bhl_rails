@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   include SolrHelper
   include BooksHelper
-  include LogActivitiesHelper
+  include ActivitiesHelper
   layout 'pages'
  
   def about

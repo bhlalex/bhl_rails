@@ -10,9 +10,8 @@
       {:controller => :users, :action => :show, :id => @owner_of_activity.id}, 
       :class => "pull-left"
     .media-body.activity-log
-      %p
-        %small
-          = log[:record].html_safe
+      %p{:style => "line-height:120%;font-size:12px;"}
+        = log[:record].html_safe
   %hr
 
 - if @pages == 0

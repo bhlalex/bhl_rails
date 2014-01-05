@@ -1,31 +1,7 @@
 %link{:type => "text/css", :rel => "stylesheet", :href => "http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"}
-%script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.9.1.js"}
-%script{:type => "text/javascript", :src => "http://code.jquery.com/ui/1.10.3/jquery-ui.js"}
-  
 :javascript
   $(document).ready(function() {
-    // load static (book general rate) stars
-    if(#{@book_rate}){
-      var totalRate = #{@book_rate};
-      var count = Math.floor(totalRate);
-      
-      var fractional = totalRate - count;
-      for(i=1; i <= count; i++){
-        $("#staticstar"+ i).addClass("on");
-      }
-      if(fractional >= 0.3){
-        
-        count = count+1;
-        if(fractional <= 0.7){
-          //half
-          
-          $("#staticstar"+ count).addClass("half");
-        }else{
-          //all
-          $("#staticstar"+ count).addClass("on");
-        }
-      }
-    }
+   
     //load dynamic (user rate) stars
     //when user rate == -1 this means that he never rated this book before
     if(#{@user_rate} != -1){
@@ -36,7 +12,7 @@
     }
   });
   $(function () {
-    $('li').mouseover(function(){
+    $('#star1, #star2, #star3, #star4, #star5').mouseover(function(){
       var count = parseInt($(this).attr("value"));
       for(i=1; i <= 5; i++){
         if(i <= count){
@@ -47,13 +23,13 @@
       }
     });
     
-    $('li').mouseout(function(){
+    $('#star1, #star2, #star3, #star4, #star5').mouseout(function(){
       for(i=1; i <= 5; i++){
           $("#star"+ i).removeClass("shine");
       }
     });
     
-    $('li').click(function () {
+    $('#star1, #star2, #star3, #star4, #star5').click(function () {
      // value == 0 then it is static star
       if(parseInt($(this).attr("value")) != 0){
         var count = parseInt($(this).attr("value"));
@@ -81,61 +57,16 @@
                 url: "/users/rate?rate=" + count + "&user_id=" + "#{session[:user_id]}" + "&job_id=" + "#{params[:id]}", 
                 dataType: "script",
                 success: function(data){
-                            // update static stars
-                            if(data.charAt(1) == '0'){
-                              // rate = 0 no stars are on
-                              $("#staticstar1").removeClass("on");
-                              $("#staticstar1").removeClass("half");
-                            }else{
-                              var totalRate = parseFloat(data.substring(1,4));
-                              var count = Math.floor(totalRate);
-                              var fractional = totalRate - count;
-                              
-                              for(i=1; i <= 5; i++){
-                                if(i <= count){
-                                  $("#staticstar"+ i).removeClass("half");
-                                  $("#staticstar"+ i).addClass("on");
-                                }else{
-                                  $("#staticstar"+ i).removeClass("on");
-                                  $("#staticstar"+ i).removeClass("half");
-                                }//end if
-                              }//end for
-                              
-                              if(fractional >= 0.3){
-                                count = count+1;
-                                if(fractional <= 0.7){
-                                  //half
-                                  $("#staticstar"+ count).addClass("half");
-                                }else{
-                                  //all
-                                  $("#staticstar"+ count).addClass("on");
-                                }
-                              }//end if
-                            }//end if
-                          }
+                              updatedetailedrate();
+                         }
                });
-          
-        
-       
-        
-        // TODO add * 2 when display half star 
       }
     });
   });
-= "#{I18n.t(:book_rate)}"
-%br
-%li#staticstar1.starrating{:value => '0'}
-%li#staticstar2.starrating{:value => '0'}
-%li#staticstar3.starrating{:value => '0'}
-%li#staticstar4.starrating{:value => '0'}
-%li#staticstar5.starrating{:value => '0'}
-%br
-= "#{I18n.t(:your_rate)}"
-%br
+  
 %li#star1.starrating{:value => '1'}
 %li#star2.starrating{:value => '2'}
 %li#star3.starrating{:value => '3'}
 %li#star4.starrating{:value => '4'}
 %li#star5.starrating{:value => '5'}
   
-#users

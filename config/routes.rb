@@ -1,7 +1,5 @@
 Bhl::Application.routes.draw do
-  resources :log_activities, only: [:index]
-  get  "log_activities/index"
-  get  "log_activities/user_activities"
+  get "activities/index"
   
   resources :comments, only: [:create]
   match "comments/create" => "comments#create"

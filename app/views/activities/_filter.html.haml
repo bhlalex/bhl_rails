@@ -1,0 +1,30 @@
+:javascript
+  function go_to(sort){
+    window.location = window.location.href.split('?')[0] + "?sort=" + sort;
+  }
+  
+%small
+  = I18n.t(:activities_filter_by)
+  %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(@sort_filter,'all')}; cursor:pointer;", :onclick => "go_to('all desc');"}
+  %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(@sort_filter,'all')}; cursor:pointer;", :onclick=> "go_to('all desc');"}
+  %a{:style=> "color:#777777;"} #{I18n.t(:activities_all)}
+  %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(@sort_filter,'all desc')}; cursor:pointer;", :onclick => "go_to('all asc');"}
+  %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(@sort_filter,'all asc')}; cursor:pointer;", :onclick => "go_to('all desc');"}
+  %span |
+  %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(@sort_filter,'rate')}; cursor:pointer;", :onclick => "go_to('all desc');"}
+  %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(@sort_filter,'rate')}; cursor:pointer;", :onclick=> "go_to('rate desc');"}
+  %a{:style=> "color:#777777;"} #{I18n.t(:activities_rate)}
+  %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(@sort_filter,'rate desc')}; cursor:pointer;", :onclick => "go_to('rate asc');"}
+  %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(@sort_filter,'rate asc')}; cursor:pointer;", :onclick => "go_to('rate desc');"}
+  %span |
+  %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(@sort_filter,'comments')}; cursor:pointer;", :onclick => "go_to('all desc');"}
+  %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(@sort_filter,'comments')}; cursor:pointer;", :onclick=> "go_to('comments desc');"}
+  %a{:style=> "color:#777777;"} #{I18n.t(:activities_comments)}
+  %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(@sort_filter,'comments desc')}; cursor:pointer;", :onclick => "go_to('comments asc');"}
+  %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(@sort_filter,'comments asc')}; cursor:pointer;", :onclick => "go_to('comments desc');"}
+  %span |
+  %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(@sort_filter,'collections')}; cursor:pointer;", :onclick => "go_to('all desc');"}
+  %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(@sort_filter,'collections')}; cursor:pointer;", :onclick=> "go_to('collections desc');"}
+  %a{:style=> "color:#777777;"} #{I18n.t(:activities_collections)}
+  %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(@sort_filter,'collections desc')}; cursor:pointer;", :onclick => "go_to('collections asc');"}
+  %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(@sort_filter,'collections asc')}; cursor:pointer;", :onclick => "go_to('collections desc');"}

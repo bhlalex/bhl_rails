@@ -24,6 +24,7 @@ class CollectionsController < ApplicationController
   def show
     @page_title = I18n.t(:show_collection_detail)
     @collection = Collection.find(params[:id])
+    
     if @collection.is_public == true || authenticate_user(@collection.user_id)
       @collection_id = params[:id]
       @volume_id = nil
@@ -31,9 +32,9 @@ class CollectionsController < ApplicationController
       @comment = Comment.new
       rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => @collection.id)
       if rate_list.count > 0
-        @user_collection_rate = rate_list[0].rate
+        @user_rate = rate_list[0].rate
       else
-        @user_collection_rate = 0.0
+        @user_rate = 0.0
       end
       @collection_volumes = @collection.volume_collections.order('position ASC')
       @total_number = @collection_volumes.count

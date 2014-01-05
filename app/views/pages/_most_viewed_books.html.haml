@@ -1,5 +1,6 @@
 - if (@most_viewed_response != '' && @most_viewed_response['response']['numFound'] > 0)
   - @number = 0
+  - count = 0
   - @most_viewed_response['response']['docs'].each do |doc|
     - @number = @number + 1
     - @id = doc['vol_jobid']
@@ -31,6 +32,8 @@
     .col-md-3.controls
       =render :partial => "books/sidelinks"
     .clearfix 
-    %hr
+    - count = count + 1
+    - if count != MOST_VIEWED_BOOKS
+      %hr
   .pull-right  
     = link_to "#{I18n.t(:tabs_more)}", {:controller => :books, :action => :index, :sort_type => "views desc"}

@@ -77,7 +77,7 @@ describe UsersController do
           solr.commit
           @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
           @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
-          UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :last_visited_date => Time.now)
+          UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :updated_at => Time.now)
         end
 #        it "should have book title links to details page" do
 #          get :show, :id => @user.id
@@ -149,8 +149,8 @@ describe UsersController do
           PageName.create(:page => @page_first, :name => @name1, :namestring => "Name1")
           PageName.create(:page => @page_first, :name => @name2, :namestring => "Name2")
                     
-          UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :last_visited_date => Time.now)
-          UserBookHistory.create(:volume_id => @vol_second.id, :user_id => @user.id, :last_visited_date => Time.now)
+          UserBookHistory.create(:volume_id => @vol_first.id, :user_id => @user.id, :updated_at => Time.now)
+          UserBookHistory.create(:volume_id => @vol_second.id, :user_id => @user.id, :updated_at => Time.now)
         end
 
         it "should display last visited date" do
@@ -239,7 +239,7 @@ describe UsersController do
                   solr.commit
                   @book = Book.gen(:title => 'Test Book', :bibid => '456')
                   @volume = Volume.gen(:book_id => @book.id, :job_id => i.to_s, :get_thumbnail_fail => 0)
-                  UserBookHistory.create(:user_id => @user.id, :volume_id => @volume.id, :last_visited_date => Time.now)
+                  UserBookHistory.create(:user_id => @user.id, :volume_id => @volume.id, :updated_at => Time.now)
                 }
               end
               it "should redirect to the same page" do
