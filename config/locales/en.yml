@@ -371,6 +371,7 @@ en:
   new_password_confirmation: New Password Confirmation
   change_password: Change Password
   invalid_old_password: Invalid Old Password
+  upload_photo_dim_error: You should upload a rectangle image
   
   #Browse Page
   browse_subject_page_header: Subjects
