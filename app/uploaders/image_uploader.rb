@@ -22,7 +22,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   version :thumb do
-    process :resize_to_limit => [150, 150]
+    process :resize_to_fit => [RESIZED_PHOTO_WIDTH, RESIZED_PHOTO_HIGHT]
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:

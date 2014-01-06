@@ -191,6 +191,18 @@ class CollectionsController < ApplicationController
     end
   end
   
+def get_collection_photo
+   @collection = Collection.find(params[:id])
+   if (params[:is_delete].to_i == 1)
+     @collection[:photo_name] = ''
+     @collection.save
+    delete_collection_photo(params[:id])
+   end
+  respond_to do |format|
+    format.html {render :partial => "collections/get_collection_photo"}
+  end
+end
+  
   private
 
   def add_to_existing_collection(col)

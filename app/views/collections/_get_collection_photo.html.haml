@@ -1,0 +1,9 @@
+.col-md-2.column.pull-right
+  - if(@collection.photo_name.blank?)
+    - thumb = "/images_#{I18n.locale}/nocollection140.png"
+    = image_tag("#{thumb}",:class => "img-thumbnail")
+  - else
+    - thumb = @collection.photo_name_url(:thumb)
+    = image_tag("#{thumb}",:class => "img-thumbnail")
+    = check_box_tag("delete_photo","delete_photo",false, :onclick => "get_photo(1)")
+    = I18n.t(:delete_photo)

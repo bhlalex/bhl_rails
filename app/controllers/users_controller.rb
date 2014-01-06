@@ -369,9 +369,6 @@ class UsersController < ApplicationController
       #            params[:user][:entered_password_confirmation] = nil
       #          end
       if @user.update_attributes(user_attr)
-        if ((params[:delete_photo]))
-          delete_user_photo(params[:id])
-        end
         log_out
         log_in(@user) # to make sure everything is loaded properly
         flash.now[:notice] = I18n.t("changes_saved")
@@ -388,7 +385,17 @@ class UsersController < ApplicationController
     end
   end
 
-
+  def get_user_profile_photo
+     @user = User.find(params[:id])
+     if (params[:is_delete].to_i == 1)
+       @user[:photo_name] = ''
+       @user.save
+      delete_user_photo(params[:id])
+     end
+    respond_to do |format|
+      format.html {render :partial => "users/get_user_profile_photo"}
+    end
+  end
 
   def rate
     if is_loggged_in? && params[:rate] != "NaN"
