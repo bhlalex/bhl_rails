@@ -421,7 +421,6 @@ class UsersController < ApplicationController
   end
 
   def rate_collection
-    debugger
     if is_loggged_in? && params[:rate] != "NaN"
       collection = Collection.find_by_id(params[:col_id])
       col_rate_list = CollectionRating.where(:user_id => params[:user_id], :collection_id => collection.id)
