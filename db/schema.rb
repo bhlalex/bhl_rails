@@ -51,29 +51,6 @@ ActiveRecord::Schema.define(:version => 20140102104120) do
   add_index "book_authors", ["author_id"], :name => "index_book_authors_on_author_id"
   add_index "book_authors", ["book_id"], :name => "index_book_authors_on_book_id"
 
-  create_table "book_collections", :force => true do |t|
-    t.integer  "volume_id"
-    t.integer  "collection_id"
-    t.integer  "position"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
-  end
-
-  add_index "book_collections", ["collection_id"], :name => "index_book_collections_on_collection_id"
-  add_index "book_collections", ["position"], :name => "index_book_collections_on_position"
-  add_index "book_collections", ["volume_id"], :name => "index_book_collections_on_volume_id"
-
-  create_table "book_ratings", :force => true do |t|
-    t.integer  "volume_id"
-    t.integer  "user_id"
-    t.decimal  "rate",       :precision => 2, :scale => 1
-    t.datetime "created_at",                               :null => false
-    t.datetime "updated_at",                               :null => false
-  end
-
-  add_index "book_ratings", ["user_id"], :name => "index_book_ratings_on_user_id"
-  add_index "book_ratings", ["volume_id"], :name => "index_book_ratings_on_volume_id"
-
   create_table "book_subjects", :id => false, :force => true do |t|
     t.integer  "book_id"
     t.integer  "subject_id"
