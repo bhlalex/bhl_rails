@@ -63,8 +63,8 @@ Bhl::Application.routes.draw do
   post  "users/recover_password"
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"
   post  "users/reset_password_action"
-  match "users/rate" => "users#rate"
-  match "users/rate_collection" => "users#rate_collection"
+  match "/rate" => "users#rate"
+  match "/rate_collection" => "users#rate_collection"
 
   
   # remove when how page is ready
