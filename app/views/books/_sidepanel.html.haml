@@ -91,11 +91,13 @@
         %span.text-muted
           =I18n.t(:book_details_average_rate)
       #detailedrate.rate
+      
       %span.text-muted
-        =I18n.t(:book_details_user_rate)
-      .userbookrate
+        - if logged_in?
+          =I18n.t(:book_details_user_rate)
+      .userbookrate{:style => "height: 25px;"}
         = render :partial => "books/rating"
-       
+      %br
     .list-group-item
       %span.badge.badge-success 
         ="#{@collections_count}"

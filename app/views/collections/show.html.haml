@@ -12,6 +12,8 @@
   .col-md-12.column
     %h2
       = @collection.title
+      %span.badge
+        = "#{@total_number}"
       - if @collection.rate != 0.0
         %span.rate
           .starsidelink{:id => "starsidelink_#{@collection.id}", :data => "#{@collection.rate}"}
@@ -37,9 +39,11 @@
         %i.fa.fa-calendar-o
         = @collection.created_at
         %br
-        .rate.center-block
-          %span.text-muted
-            = I18n.t(:collection_your_rate)
+        
+        .center-block
+          - if logged_in?
+            %span.text-muted
+              = I18n.t(:collection_your_rate)
           .usercollectionrate
             = render :partial => "collections/rating"
     .clearfix

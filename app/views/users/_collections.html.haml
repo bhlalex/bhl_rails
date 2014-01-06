@@ -20,7 +20,7 @@
         = link_to image_tag("#{thumb}") , {:controller => :collections, :action => :show, :id => item.id}
       .col-md-7
         %h4
-          = item.title
+          = link_to "#{item.title}", {:controller => :collections, :action => :show, :id => item.id}
         .date.text-muted
           %small
             %b

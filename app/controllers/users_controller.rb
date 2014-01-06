@@ -133,19 +133,19 @@ class UsersController < ApplicationController
               @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
                                                         FROM((SELECT count(*) AS count
                                                         FROM collections
-                                                        WHERE user_id = 34)
+                                                        WHERE user_id = #{session[:user_id]})
                                                         UNION
                                                         (SELECT count(*) AS count
                                                         FROM volume_ratings
-                                                        WHERE user_id = 34)
+                                                        WHERE user_id = #{session[:user_id]})
                                                         UNION
                                                         (SELECT count(*) AS count
                                                         FROM collection_ratings
-                                                        WHERE user_id = 34)
+                                                        WHERE user_id = #{session[:user_id]})
                                                         UNION
                                                         (SELECT count(*) AS count
-                                                        FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
-                                                        and user_id = 34)
+                                                        FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                                                        and user_id = #{session[:user_id]})
                                                         ) result;")
               # applying pagination on log_records array
               @page = params[:page] ? params[:page].to_i : 1
@@ -156,37 +156,37 @@ class UsersController < ApplicationController
               # rating book or collection
               # and also commented on book or collection ordered by creation time
               sql_stmt = "SELECT
-      result.table_type AS table_type,
-      result.id AS id,
-      result.time AS time
-      FROM((SELECT 'collection' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM collections
-      WHERE user_id = #{@user.id})
-      UNION
-      (SELECT
-      'volume_ratings' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM volume_ratings
-      WHERE user_id = #{@user.id})
-      UNION
-      (SELECT
-      'volume_ratings' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM collection_ratings
-      WHERE user_id = #{@user.id})
-      UNION
-      (SELECT
-      'comments' AS table_type,
-      id AS id,
-      created_at AS time
-      FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0
-      and user_id = #{@user.id})
-      ) result
-      ORDER BY time DESC LIMIT #{offset}, #{limit};"
+                          result.table_type AS table_type,
+                          result.id AS id,
+                          result.time AS time
+                          FROM((SELECT 'collection' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM collections
+                          WHERE user_id = #{@user.id})
+                          UNION
+                          (SELECT
+                          'volume_ratings' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM volume_ratings
+                          WHERE user_id = #{@user.id})
+                          UNION
+                          (SELECT
+                          'volume_ratings' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM collection_ratings
+                          WHERE user_id = #{@user.id})
+                          UNION
+                          (SELECT
+                          'comments' AS table_type,
+                          id AS id,
+                          created_at AS time
+                          FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                          and user_id = #{@user.id})
+                          ) result
+                          ORDER BY time DESC LIMIT #{offset}, #{limit};"
               # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
               @log_records = get_log_activity(sql_stmt)
               @url_params = params.clone
@@ -356,6 +356,9 @@ class UsersController < ApplicationController
           flash.now[:error] = I18n.t("invalid_old_password")
           flash.keep
           @action = "modify"
+          @user.email_confirmation = @user.email
+          params[:entered_password] = nil
+          params[:password_confirmation] = nil
           render :action => :edit
           return
         end
@@ -376,22 +379,16 @@ class UsersController < ApplicationController
         return redirect_to :controller => :users, :action => :show, :id => params[:id]
       else
         flash.keep
+        params[:entered_password] = nil
+        params[:password_confirmation] = nil
+        @user.email_confirmation = @user.email
         @action = "modify"
         render :action => :edit
       end
     end
   end
 
-  def remove_book_history
-    if authenticate_user
-      voulume_id = params[:volume_id]
-      user_id = session["user_id"]
-      UserBookHistory.where(:volume_id => voulume_id, :user_id => user_id)[0].delete
-      flash.now[:notice]=I18n.t(:book_removed)
-      flash.keep
-     redirect_to :controller => :users, :action => :show, :id => user_id, :tab => "history", :page => params[:page]
-    end
-  end
+
 
   def rate
     if is_loggged_in? && params[:rate] != "NaN"
@@ -424,6 +421,7 @@ class UsersController < ApplicationController
   end
 
   def rate_collection
+    debugger
     if is_loggged_in? && params[:rate] != "NaN"
       collection = Collection.find_by_id(params[:col_id])
       col_rate_list = CollectionRating.where(:user_id => params[:user_id], :collection_id => collection.id)

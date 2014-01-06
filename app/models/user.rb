@@ -131,6 +131,6 @@ class User < ActiveRecord::Base
   end
 
   def password_validation_required?
-    password.blank? || password.nil? || ! self.entered_password.blank?
+  password.blank? || password.nil? || ! self.entered_password.blank? || ! self.entered_password_confirmation.blank?
   end
 end

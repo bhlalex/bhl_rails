@@ -408,11 +408,12 @@ en:
   write_review: Write a review
   please_login: please login
   thanks_for_rating_collection: Thank you for rating this collection
+  volume_collection_deleted: Book is successfuly removed from your collection
+  remove_book_from_collection_confirm: "Are you sure you want to delete this book ?"
   
   #Edit collection page
   public_collection: Public
   edit_collection_page_title: Edit Collection
-  collection_help_block: max size for photo is 0.01 MB.
   upload_collection_photo: Upload Photo 
 
   #User Profile Page
@@ -436,7 +437,7 @@ en:
   #User Profile Page (Recently Viewed Tab)
   user_history_title: Recently Viewed Books
   user_history_viewed_on: "Viewed On:"
-  remove_book_from_history_confirm: "Are you sure you want to delete this book ?"
+  remove_book_from_history_confirm: "Are you sure you want to remove this book ?"
   
   #User Profile Page (Collections Tab)
   user_collection_title: Collections

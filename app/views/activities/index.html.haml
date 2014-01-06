@@ -11,7 +11,7 @@
           .panel-body
             - @user = User.find(item[:user])
             - if(@user.photo_name.blank?)
-              - @thumb = "/images_#{I18n.locale}/nocollection140.png"
+              - @thumb = "/images_#{I18n.locale}/user.png"
             - else
               - @thumb = @user.photo_name_url(:thumb)
             .media
