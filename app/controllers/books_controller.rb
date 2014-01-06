@@ -213,7 +213,7 @@ class BooksController < ApplicationController
                   INNER JOIN volume_collections
                     ON (collections.id = volume_collections.collection_id)
                  WHERE volume_collections.volume_id=#{Volume.find_by_job_id(id).id} 
-                  AND collections.is_public = true
+                 AND (collections.is_public = true OR collections.user_id = #{session[:user_id]})
                   LIMIT #{start}, #{limit};")
     end
     def getalsoviewed(id, start, limit)

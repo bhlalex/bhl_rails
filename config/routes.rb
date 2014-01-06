@@ -12,6 +12,7 @@ Bhl::Application.routes.draw do
   
   match "/user_search_history/save_query/" => "user_search_history#save_query"
   match "/user_search_history/delete_query/:id" => "user_search_history#delete_query"
+  get   "user_search_history/remove_book_history"
   resources :user_search_history, only: [:save_query, :delete_query]
   
   resources :collections
@@ -62,9 +63,9 @@ Bhl::Application.routes.draw do
   post  "users/recover_password"
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"
   post  "users/reset_password_action"
-  get   "users/remove_book_history"
-  match "/rate" => "users#rate"
-  match "/rate_collection" => "users#rate_collection"
+  match "users/rate" => "users#rate"
+  match "users/rate_collection" => "users#rate_collection"
+
   
   # remove when how page is ready
   root :to => 'pages#home'

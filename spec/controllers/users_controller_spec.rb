@@ -197,24 +197,24 @@ describe UsersController do
           
           # check for existance of read and detail links for each book in list view
           it "should have read and detail links for each book" do
-            response.should have_selector('a', :href => "/books/123/history")
-            response.should have_selector('a', :href => "/books/238233/history")
+            response.should have_selector('a', :href => "/books/123/detail")
+            response.should have_selector('a', :href => "/books/238233/detail")
           end
 
-          # delete link
+#          # delete link
           describe "'delete link'" do
-            it "should delete history and decrease the number of books found when click on delete link" do
-              get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1
-              response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
-              get :show, :id => 1, :tab => "history", :page => 1
-              response.should have_selector("span", :class => "badge", :content => 1.to_s)
-            end
+#            it "should delete history and decrease the number of books found when click on delete link" do
+#              get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1
+#              response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
+#              get :show, :id => 1, :tab => "history", :page => 1
+#              response.should have_selector("span", :class => "badge", :content => 1.to_s)
+#            end
 
-            it "should not delete when user is not logged in" do
-              log_out
-              get "remove_book_history", :page => 1, :tab => "recently_viewed", :user_id => @user.id, :volume_id => 1
-              response.should redirect_to :controller => :users, :action => :login
-            end
+#            it "should not delete when user is not logged in" do
+#              log_out
+#              get "remove_book_history", :page => 1, :tab => "history", :user_id => @user.id, :volume_id => 1
+#              response.should redirect_to :controller => :users, :action => :login
+#            end
 
             describe "'pagination'" do
               before(:each) do
@@ -242,10 +242,10 @@ describe UsersController do
                   UserBookHistory.create(:user_id => @user.id, :volume_id => @volume.id, :updated_at => Time.now)
                 }
               end
-              it "should redirect to the same page" do
-                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-                response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "history", :page => 2
-              end
+#              it "should redirect to the same page" do
+#                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+#                response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "history", :page => 2
+#              end
 
 #              it "should fix pagination after deleting the last book in current page" do
 #                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
@@ -278,8 +278,8 @@ describe UsersController do
 
       it "should contains show result link for query" do
         get :show, { :id => @user.id, :tab => "queries" }
-        response.should have_selector('a', :href => "books?_title=popular")
-        response.should have_selector('a', :href => "books?_content=smith")
+        response.should have_selector('a', :href => "/books?_title=popular")
+        response.should have_selector('a', :href => "/books?_content=smith")
       end
 
       it "should contains delete link for each query" do

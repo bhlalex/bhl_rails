@@ -203,6 +203,8 @@ class CollectionsController < ApplicationController
     end
     col.updated_at = Time.now
     col.save
+    data = col_id
+    render :json => data
   end
 
   def add_to_new_collection
