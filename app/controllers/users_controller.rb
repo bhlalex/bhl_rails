@@ -131,19 +131,19 @@ class UsersController < ApplicationController
       elsif @tab == "activity"
             if authenticate_user
               @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
-                                                        FROM((SELECT count(*) AS count
+                                                        FROM((SELECT id, count(*) AS count
                                                         FROM collections
                                                         WHERE user_id = #{session[:user_id]})
                                                         UNION
-                                                        (SELECT count(*) AS count
+                                                        (SELECT id, count(*) AS count
                                                         FROM volume_ratings
                                                         WHERE user_id = #{session[:user_id]})
                                                         UNION
-                                                        (SELECT count(*) AS count
+                                                        (SELECT id, count(*) AS count
                                                         FROM collection_ratings
                                                         WHERE user_id = #{session[:user_id]})
                                                         UNION
-                                                        (SELECT count(*) AS count
+                                                        (SELECT id, count(*) AS count
                                                         FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
                                                         and user_id = #{session[:user_id]})
                                                         ) result;")
