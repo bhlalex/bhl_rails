@@ -10,13 +10,13 @@
         });
       });
     - if(item.photo_name.blank?)
-      - @thumb = "images_#{I18n.locale}/nocollection140.png"
+      - @thumb = "/images_#{I18n.locale}/nocollection140.png"
     - else
       - @thumb = item.photo_name_url(:thumb)
     .col-md-4
       .media.collection
         %a.pull-left{:href=>"#{collection_path(:id=>item.id)}"}
-          =image_tag("/#{@thumb}",:class => "media-object img-thumbnail")
+          =image_tag("#{@thumb}",:class => "media-object img-thumbnail")
         .media-body{:style=> "float:right;"}
           %h4.media-heading
             = link_to item.title, {:controller => :collections, :action => :show, :id => item.id}
