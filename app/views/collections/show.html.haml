@@ -2,11 +2,35 @@
 = javascript_include_tag 'jquery/rating/jRating.jquery.js'
 
 :javascript
+
   $(document).ready(function(){
     $("#starsidelink_#{@collection.id}").jRating({
       isDisabled : true
     });
   });
+  
+  function get_photo(is_delete){
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+    {
+      // code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+      if (xmlhttp.readyState==4 && xmlhttp.status==200)
+      {
+        document.getElementById("photo").innerHTML=xmlhttp.responseText;
+      }
+    }  
+    xmlhttp.open("GET","/get_collection_photo?id=#{params[:id]}&is_delete="+ is_delete,true);
+    xmlhttp.send();
+  }
+    get_photo(0)
 
 .row.clearfix
   .col-md-12.column
@@ -18,12 +42,7 @@
         %span.rate
           .starsidelink{:id => "starsidelink_#{@collection.id}", :data => "#{@collection.rate}"}
     %blockquote
-      .col-md-2.column.pull-right
-        - if(@collection.photo_name.blank?)
-          - @thumb = "/images_#{I18n.locale}/nocollection140.png"
-        - else
-          - @thumb = @collection.photo_name_url(:thumb)
-        = image_tag("#{@thumb}",:class => "img-thumbnail")
+      #photo
       %p
         = @collection.description
       %small
