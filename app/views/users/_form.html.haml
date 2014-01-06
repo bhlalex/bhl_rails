@@ -97,8 +97,6 @@
               = f.label I18n.t('profile_photo'), :class => 'col-sm-2 control-label'
               .col-sm-10
                 = image_tag("#{@thumb}", :width => 150, :border => 0 )
-                = check_box_tag "delete_photo"
-                = I18n.t(:delete_photo)
           .form-group
             = f.label I18n.t('upload_photo'), :class => 'col-sm-2 control-label'
             .col-sm-10

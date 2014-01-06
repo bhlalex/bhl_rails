@@ -25,7 +25,8 @@ Bhl::Application.routes.draw do
   match "/collections/move_down/:volume_collection_id" => "collections#move_down"
   match "dialog_content" => "collections#dialog_content"
   match "get_collection_comments" => "collections#get_collection_comments"
-  
+  match "get_collection_photo" => "collections#get_collection_photo"
+
   get "collections/add_book"
   match "add_book" => "collections#add_book"
   
@@ -63,8 +64,10 @@ Bhl::Application.routes.draw do
   post  "users/recover_password"
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"
   post  "users/reset_password_action"
-  match "users/rate" => "users#rate"
-  match "users/rate_collection" => "users#rate_collection"
+  match "/rate" => "users#rate"
+  match "/rate_collection" => "users#rate_collection"
+  match "get_user_profile_photo" => "users#get_user_profile_photo"
+
 
   
   # remove when how page is ready

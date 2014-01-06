@@ -30,7 +30,7 @@
           - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
           = render :partial => "books/booknames"
     .col-md-3.controls
-      =render :partial => "books/sidelinks"
+      =render :partial => "pages/sidelinks", :locals => {:page => "rate"}
     .clearfix 
     - count = count + 1
     - if count != MOST_VIEWED_BOOKS

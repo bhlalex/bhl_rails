@@ -78,6 +78,8 @@ HOME_LOG_ACTIVITIES = 5
 LOGIN_ATTEMPTS = 1
 TAB_PAGE_SIZE = 8
 TAB_GALLERY_PAGE_SIZE = 9
+RESIZED_PHOTO_WIDTH = 150
+RESIZED_PHOTO_HIGHT = 150
 # Initialize the rails application
 Bhl::Application.initialize!
  

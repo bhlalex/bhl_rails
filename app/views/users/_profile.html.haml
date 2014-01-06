@@ -1,3 +1,27 @@
+:javascript
+  function loadXMLDoc(is_delete){
+      var xmlhttp;
+      if (window.XMLHttpRequest)
+      {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+      }
+      else
+      {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xmlhttp.onreadystatechange=function()
+      {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+          document.getElementById("photo").innerHTML=xmlhttp.responseText;
+        }
+      }  
+      xmlhttp.open("GET","/get_user_profile_photo?id=#{params[:id]}&is_delete="+ is_delete,true);
+      xmlhttp.send();
+    }
+      loadXMLDoc(0)
+
 .col-md-8.column
   %h4
     = I18n.t(:user_profile_title)
@@ -7,12 +31,8 @@
           %i.fa.fa-edit
           = I18n.t(:edit_collection)
 %blockquote
-  .col-md-2.column.pull-right
-    - if(@user.photo_name.blank?)
-      - @thumb = "/images_#{I18n.locale}/user.png"
-    - else
-      - @thumb = @user.photo_name_url(:thumb)
-    = image_tag("#{@thumb}",:class => "img-thumbnail")
+  #photo
+
 %fieldset
   .form-horizontal    
     .form-group
