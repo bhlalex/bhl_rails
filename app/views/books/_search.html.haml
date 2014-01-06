@@ -16,37 +16,36 @@
     url = url.split('#')[0]
     window.location = url + "?" + searchquery;
   }
-.topsearch
+.spacing-left
   - jsquery = set_query_string(@query_array, true)
-  .input-append
-    %span.separator.pull-left.searchicon
-      %i.fa.fa-search.fa-lg.pull-left
-    .col-xs-7
+  .col-sm-12.browse-all
+    %h3.pangel-title
+      Search Filter
+    %hr
+    %div
+      %select.btn.form-control.allcat#searchby
+        %option{:value => "ALL"} 
+          = I18n.t(:option_all)
+        %option.topdropdown-search{:value => "title", :selected => true} 
+          = I18n.t(:option_title)
+        %option.topdropdown-search{:value => "language"} 
+          = I18n.t(:option_language)
+        %option.topdropdown-search{:value => "published_on"} 
+          = I18n.t(:option_publish_time)
+        %option.topdropdown-search{:value => "geo_location"} 
+          = I18n.t(:option_regional_affiliation)
+        %option.topdropdown-search{:value => "author"} 
+          = I18n.t(:option_author)
+        %option.topdropdown-search{:value => "name"} 
+          = I18n.t(:option_tagged_species)
+        %option.topdropdown-search{:value => "subject"} 
+          = I18n.t(:option_genre)
+        %option.topdropdown-search{:value => "content"} 
+          = I18n.t(:option_content)
+    %p
+    .input-group.margin-bottom
       %input.form-control{:id=> "searchfield", :type => "text", :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value);return false;}"}
-    %span.separator.pull-left 
-      |
-    %select#searchby
-      %option{:value => "ALL"} 
-        = I18n.t(:option_all)
-      %option{:value => "title", :selected => true} 
-        = I18n.t(:option_title)
-      %option{:value => "language"} 
-        = I18n.t(:option_language)
-      %option{:value => "published_on"} 
-        = I18n.t(:option_publish_time)
-      %option{:value => "geo_location"} 
-        = I18n.t(:option_regional_affiliation)
-      %option{:value => "author"} 
-        = I18n.t(:option_author)
-      %option{:value => "name"} 
-        = I18n.t(:option_tagged_species)
-      %option{:value => "subject"} 
-        = I18n.t(:option_genre)
-      %option{:value => "content"} 
-        = I18n.t(:option_content)                                  
-    .clearfix.visible-xs  
-    %span.separator.pull-left 
-      |    
-  %a.go.pull-left{:href => "#", :onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;"}
-    %i.fa.fa-arrow-circle-right.fa-2x
-  .clearfix
+      %span.input-group-btn
+        %button.btn.btn-default{:onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;"}
+          Go          
+  %hr

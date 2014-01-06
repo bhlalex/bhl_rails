@@ -6,6 +6,7 @@
     .well.text-center
       = render :partial => "activities/filter"
     .panel.panel-default
+      - count = 0
       - @activities.each do |item|
         - if !item.nil?
           .panel-body
@@ -20,7 +21,9 @@
               .media-body.activity-log
                 %p
                   =item[:record].html_safe
-          %hr
+          - count += 1
+          - if count < @activities.count
+            %hr
       - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
         .col-md-8
           .pagination-centered
