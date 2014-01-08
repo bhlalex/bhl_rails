@@ -30,28 +30,27 @@
         = link_to :controller => :users, :action => :edit, :id => @user.id do
           %i.fa.fa-edit
           = I18n.t(:edit_collection)
-
+  %hr
   #photo
-  
-  %fieldset
-    .form-horizontal    
-      .form-group
-        %label.col-sm-2.control-label
-          = I18n.t(:real_name)
-        .col-sm-10  
-          = @user.real_name
-      .form-group  
-        %label.col-sm-2.control-label
-          = I18n.t(:username)
-        .col-sm-10  
-          = @user.username
-      .form-group
-        %label.col-sm-2.control-label
-          = I18n.t(:member_since)
-        .col-sm-10
-          = @user.created_at.to_s
-      .form-group
-        %label.col-sm-2.control-label
-          = I18n.t(:last_login)
-        .col-sm-10
-          = @user.last_login.to_s
+  .div
+    %span.col-md-2.text-right
+      %strong
+        = I18n.t(:real_name)
+    %span.col-md-8
+      = @user.real_name
+    %span.col-md-2.text-right
+      %strong
+        = I18n.t(:username)
+    %span.col-md-8
+      = @user.username
+    %span.col-md-2.text-right
+      %strong
+        = I18n.t(:member_since)
+    %span.col-md-8
+      = @user.created_at.to_s
+    %span.col-md-2.text-right
+      %strong
+        = I18n.t(:last_login)
+    %span.col-md-8
+      = @user.last_login.to_s
+               
