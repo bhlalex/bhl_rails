@@ -447,6 +447,8 @@ en:
   
   #User Profile Page (Queries Tab)
   user_queries_title: Saved Queries
+  user_queries_books_found: "Books Found: "
+  books_index_search_filter: Search Filter
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations

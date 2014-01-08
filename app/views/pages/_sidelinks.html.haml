@@ -1,6 +1,6 @@
 :javascript
   $(document).ready(function(){
-    $("#starsidelink_#{@vol[:job_id]}").jRating({
+    $("#starsidelink_#{page}_#{@vol[:job_id]}").jRating({
       isDisabled : true
     });
   });
@@ -25,7 +25,7 @@
         =render :partial => "books/add_book"
 .rate
   - if @doc['rate'] != 0.0
-    .starsidelink{:id => "starsidelink_#{@vol[:job_id]}", :data => "#{@doc['rate']}"}
+    .starsidelink{:id => "starsidelink_#{page}_#{@vol[:job_id]}", :data => "#{@doc['rate']}"}
   %span.text-muted.pull-right
     %small
       ="#{pluralize(@doc[:views], I18n.t(:sidelinks_views))} "

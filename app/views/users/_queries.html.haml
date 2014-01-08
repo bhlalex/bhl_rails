@@ -11,7 +11,7 @@
           %i.fa.fa-times-circle
         = "#{parse_query(query.string)}".html_safe        
         %span.badge
-          results: 
+          = I18n.t(:user_queries_books_found) 
           = "#{get_number_of_returned_books(query.string)}".html_safe
         %a{:href => "/books?#{query.string}"}
           %i.fa.fa-arrow-right.rotate

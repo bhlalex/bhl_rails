@@ -17,7 +17,7 @@
               - @thumb = @user.photo_name_url(:thumb)
             .media
               %a.pull-left{:href=> "/users/#{@user.id}/profile"}
-                %img.media-object.img-circle{:scr => "#{@thumb}"}
+                = image_tag("#{@thumb}", :class => "media-object img-circle")
               .media-body.activity-log
                 %p
                   =item[:record].html_safe

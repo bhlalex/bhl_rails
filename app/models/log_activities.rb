@@ -7,8 +7,8 @@ class LogActivities < ActiveRecord::Base
   end
   
   def self.columns()
- @columns ||= [];
- end
+   @columns ||= [];
+   end
  
   column :table_type, :string
   column :id, :integer
