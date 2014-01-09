@@ -5,5 +5,5 @@
   - else
     - thumb = @collection.photo_name_url(:thumb)
     = image_tag("#{thumb}",:class => "img-thumbnail")
-    = check_box_tag("delete_photo","delete_photo",false, :onclick => "get_photo(1)")
+    = check_box_tag("delete_photo","delete_photo",false, :onclick => "confirmDelete_photo()")
     = I18n.t(:delete_photo)

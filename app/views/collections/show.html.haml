@@ -9,6 +9,15 @@
     });
   });
   
+  function confirmDelete_photo(){
+    var r= confirm("#{I18n.t(:delete_collection_photo_confirm)}");
+    if (r)
+      get_photo(1);
+    else{
+      $('#delete_photo').removeAttr('checked');
+      return false;
+      }
+  }
   function get_photo(is_delete){
     var xmlhttp;
     if (window.XMLHttpRequest)
@@ -24,6 +33,8 @@
     {
       if (xmlhttp.readyState==4 && xmlhttp.status==200)
       {
+        if (is_delete == 1)
+          alert("#{I18n.t(:delete_photo_flash)}");
         document.getElementById("photo").innerHTML=xmlhttp.responseText;
       }
     }  
