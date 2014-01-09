@@ -81,7 +81,7 @@ describe BooksController do
     # check for books count
     it "should return item count equal to the total number of books" do
       get :index
-      response.should have_selector("h4", :class => "text-muted", :content => 2.to_s)
+      response.should have_selector("h4", :class => "text-muted clearfix", :content => 2.to_s)
     end
 
     it "returns http success" do
