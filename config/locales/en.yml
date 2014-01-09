@@ -328,6 +328,8 @@ en:
   please_login: please login
   volume_collection_deleted: Book is successfuly removed from your collection
   remove_book_from_collection_confirm: "Are you sure you want to delete this book ?"
+  delete_collection_photo_confirm: Are you sure you want to delete collection photo?
+
   
   #Edit collection page
   public_collection: Public
@@ -361,11 +363,13 @@ en:
   user_collection_title: Collections
   user_collection_added_on: "Added On:"
   delete_collection_confirm: "Are you sure you want to delete this collection?"
+  delete_photo_flash: Photo has been deleted
   
   #User Profile Page (Queries Tab)
   user_queries_title: Saved Queries
   user_queries_books_found: "Books Found: "
   books_index_search_filter: Search Filter
+  delete_photo_confirm: Are you sure you want to delete your profile photo?
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations

@@ -48,12 +48,12 @@ describe UsersController do
       end
       it "should link to profile" do
         get :show, :id => @user.id
-        response.should have_selector("a", :href => "/users/#{@user[:id]}/profile", :content => I18n.t(:user_profile))
+        response.should have_selector("a", :href => "/users/#{@user[:id]}/profile", :content => I18n.t(:user_profile_tab))
       end
 
       it "should link to recently_viewed when user is logged in" do
         get :show, :id => @user.id
-        response.should have_selector("a", :href => "/users/#{@user[:id]}/history", :content => I18n.t(:recently_viewed))
+        response.should have_selector("a", :href => "/users/#{@user[:id]}/history", :content => I18n.t(:user_history_tab))
       end
 
       describe "'right panel'" do
@@ -155,7 +155,7 @@ describe UsersController do
 
         it "should display last visited date" do
           get :show, :id => @user.id, :tab => "history"
-          response.should have_selector("small", :content => "#{(UserBookHistory.first).last_visited_date}")
+          response.should have_selector("small", :content => "#{(UserBookHistory.first).updated_at}")
         end
                 
         #TODO now this will not pass except after fixing jquery problems
@@ -271,7 +271,6 @@ describe UsersController do
       it "should contains query content body" do
         get :show, { :id => @user.id, :tab => "queries" }
         response.should have_selector("b", :content => "Title")
-        response.should have_selector("b", :content => "Content")
       end
 
 
