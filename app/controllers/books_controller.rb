@@ -13,7 +13,7 @@ class BooksController < ApplicationController
     @url_params = fix_dar_url(params)
     @page_title = I18n.t(:search_results_colon)
     @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [],
-                    'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
+                    'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> [], 'publisher'=> []}
     @selectoptions = {I18n.t(:selection_all_option) => "ALL",
                       I18n.t(:book_title_title) => "title",
                       I18n.t(:book_language_title) => "language",
