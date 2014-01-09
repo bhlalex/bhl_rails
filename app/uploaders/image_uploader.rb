@@ -22,8 +22,12 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
 
   version :thumb do
-    process :resize_to_fit => [RESIZED_PHOTO_WIDTH, RESIZED_PHOTO_HIGHT]
+    process :resize_to_limit => [RESIZED_PHOTO_WIDTH, RESIZED_PHOTO_HIGHT]  
   end
+  
+def get_version_dimensions
+   width, height = `identify -format "%wx%h" #{file.path}`.split(/x/)
+ end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
   # def default_url

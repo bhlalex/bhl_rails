@@ -36,10 +36,9 @@
       });
 .row.clearfix  
   .col-md-8
-    =render :partial => "books/search"
-  .col-md-8.breadcrumb
     =render :partial => "books/breadcrumb"
   .col-md-4.sidebar-offcanvas.pull-right
+    =render :partial => "books/search"
     =render :partial => "books/right_column"
   - if (@response != '' && @response['response']['numFound'] > 0)
     - @number = 0

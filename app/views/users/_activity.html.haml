@@ -15,8 +15,7 @@
         %a.pull-left{:href=> "/users/#{@user.id}/profile"}
           = image_tag("#{@thumb}",:class => "media-object img-circle")
         .media-body.activity-log
-          %p
-            =item[:record].html_safe
+          =item[:record].html_safe
       %hr
   - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
     .col-md-8

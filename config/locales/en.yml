@@ -1,13 +1,4 @@
 en:
-  about_us_page_1: "The New %{ba_link} is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, as the project is regarded as a substantial enrichment to the BA's collection and simultaneously an optimum channel for sharing and propagating the Library's Arabic and non-Arabic biodiversity collection. This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, and furthers the inclusion and input of the Arabic-speaking countries."
-  about_us_page_2: "Accordingly, the BA has been pursuing the mirroring and replication of BHL since early 2011. Its participation in BHL project emerged inevitably in its course of being one of the main players in the internationalization, localization and mirroring of the Encyclopedia of Life, creating the EOL in Arabic. In this context, the scope of the BA's contribution in BHL project generally includes: setting the infrastructure for the mirroring and replication of the original BHL book collection, development of Local-BHL system, and adding biodiversity material from the BA's collection to comprise material from the Arab world in Arabic as well as other languages."
-  bhl_page_title: "Biodivestiry Heritage Library - Egypt"
-  bhl_short_title: "BHL Egypt"
-  ba_home_page_link: "http://www.bibalex.org/Home/Default_EN.aspx"
-  ba_name: "Bibliotheca Alexandrina (BA)"
-  bhl_site_name: "Biodivestiry Heritage Library - Egypt"
-  welcome_guest: "Welcome Guest"
-  welcome_name: "Welcome %{name}"
   books_count: 
     zero:  "No books"
     one:   "One book"
@@ -31,43 +22,22 @@ en:
   regional_affiliation_caps: "REGIONAL AFFILIATION"
   genre_caps: "GENRE"
   
-  general: 'General'
-  annotations: 'Annotations'
-  saved_queries: 'Saved Queries'
-  recently_viewed: 'Recently Viewed'
   and_count_more: "and %{count} more"
-  recently_viewed_tab: 'recently_viewed'
-  brief_tab: "brief"
-  profile_tab: "profile"
   
-  books_found:
-    zero:  ""
-    one:   "Found in one book"
-    other: "Found in %{count} books"
-  books_found_all: "Found %{count} books"
-  
-  tree_of_life_title: 'Tree of Life'
-  species_details: 'Species Details'
-  
-  select_species_for_details: "Select species on the left to view the details"
   username: "Username"
   sign_up: "Sign up"
   submit_buton: "Submit"
   clear_button: "Clear"
   password: "Password"
-  confirm_password: "Password again"
   email: "Email address"
-  confirm_email: "Email address again"
   real_name: "Real Name"
   username: "Username"
-  recaptcha: "Type in the two words you see below"
   form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
   registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
   username_taken: "'%{name}' is already taken"
   email_taken: "'%{email}' is already taken"
   member_since: "Member since"
   last_login: "Last login"
-  press_esc_to_close: "Press Esc to close"
   forgot_password_link: "Forgot your password?"
   forgot_password_title: "Forgot your password?"
   activation_failed: "Activation failed."
@@ -84,97 +54,44 @@ en:
   modify_profile: "Modify profile"
   access_denied_error: "Access denied."
   changes_saved: "Changes saved."
-  search_by: "Search By:"
   
-  search_by_title: Search By Collection Title
-  sort_by_title: Sort By Collection Title
-  sort_desc: Sort Desc
-  sort_asc: Sort Asc
-  delete_photo: Delete Photo
-  delete_photo_confirm: Are you sure you want to delete this photo?
-  photo_removed: Photo Removed
   delete_photo: Delete Photo
   delete_comment_confirm: Are you sure you want to delete this comment?
   mark: Report as inappropriate
-  edit: Edit
+
   delete: Delete
   comment_created: Thanks for your comment
   comment_created_error: Error ocuured while creating new comment
   hidden_comment_msg: This comment was hidden as it may contains inappropriate content
-  errors:
-    messages:
-       extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
 
-  user_profile: "Profile"
-  user_history: "History"
-  last_visited_date: "Last visited"
   search_results_colon: "Search Results: "
   selection_all_option: "All"
-  user_collections: "Collections"
-  save_query_button: "Save Query"
-  general: 'General'
-  annotations: 'Annotations'
-  saved_queries: 'Saved Queries'
-  recently_viewed: 'Recently Viewed'
-  last_modified_date: 'Last Modified Date'
-  collections: 'Collections'
-  list_view: 'List View'
-  gallery_view: 'Gallery View'
   no_books_found: "No Books Found"
-  book_order: "Book Order"
-  collection_books: "Books In Collection"
-  no_queries_found: "No Queries Found"
-  search_date: "Saved at"
-  search_for: "You Searched for Books with "
-  user_collections: "Collections"
   no_collections_found: 'No Collections Found'
   collection_title: Collection Title
-  collection_description: Collection Description
-  status: Status
   show_collection_detail: Collection Detail
   save_query: Save Query
   query_saved: Query Saved
   query_destroyed: Query Destroyed
-  query: Query
-  show_result: Show Result
-  delete_query: Delete Query From History
-  content: Content
-  language: Language
-  published_at: Published Place
-  geo_location: Regional Affiliation
   author: Author
-  name: Tagged Species
   subject: Genre
   collection_destroyed: Collection Destroyed
-  open_collection: Open Collection
-  collection_details: Collection Details
-  delete_collection: Delete Collection
-  book_collection_deleted: "Book Removed from Collection"
-  book_collection_added: "Book is added to your collection"
   book: Book
-  decrease_book_order: Decrease Book Order
-  increase_book_order: Increase Book Order
-  delete_book_from_collection: Delete Book from Collection
-  collection: Collection
   collection_updated: Collection Updated
-  results: Results
   delete_saved_query_confirm: Are you sure you want to delete this query?
-  delete_book_from_collection_confirm: Are you sure you want to delete this book from collection?
   
   public: Public
   private: Private
   collection_not_updated: Error Occured While Updating Collection
-  related_books: Related to Book You've Viewed
-  all_collections: Collections
-  collections_link: Collections
-  sender: Name
-  message_subject: Subject
-  text: Message
+  
   contact_us_message: Thank you for your message
-  sort_by_rating: Sort By Rating
   contact_us_title: Contact Us
   invalid_email_address: Invalid Email Address
   
+  errors:
+    messages:
+       extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
+       
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
@@ -248,13 +165,9 @@ en:
   book_added_to_collection: "Book is successfully added to your collection"
   successfully_added: "Successfully added"
   ok: "Ok"
-  your_rate: "Your rate"
-  book_rate: "Book rate"
   comment_deleted: "Comment deleted"
   reply_deleted: "Reply deleted"
   can_not_delete_comment: "You can't delete comment that has a reply"
-  marked_as_abuse: "Marked as abuse"
-  collection_rate: "Collection rate"
   rates: Rates
   viewed: Viewed
   sort_by: Sort by
@@ -262,7 +175,6 @@ en:
   
   #------------------------------------------------#NEW_LAYOUT-----------------------------------------------------------------
   #Header
-  search_textfield: Search books...
   header_signup: Sign Up
   header_signout: Sign Out
   header_login: Login
@@ -275,6 +187,17 @@ en:
   authors_link: Authors
   subjects_link: Subjects
   names_link: Names
+  collections_link: Collections
+  
+  bhl_page_title: "Biodivestiry Heritage Library - Egypt"
+  bhl_short_title: "BHL Egypt"
+  ba_home_page_link: "http://www.bibalex.org/Home/Default_EN.aspx"
+  ba_name: "Bibliotheca Alexandrina (BA)"
+  bhl_site_name: "Biodivestiry Heritage Library - Egypt"
+  
+  #About US Page
+  about_us_page_1: "The New %{ba_link} is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, as the project is regarded as a substantial enrichment to the BA's collection and simultaneously an optimum channel for sharing and propagating the Library's Arabic and non-Arabic biodiversity collection. This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, and furthers the inclusion and input of the Arabic-speaking countries."
+  about_us_page_2: "Accordingly, the BA has been pursuing the mirroring and replication of BHL since early 2011. Its participation in BHL project emerged inevitably in its course of being one of the main players in the internationalization, localization and mirroring of the Encyclopedia of Life, creating the EOL in Arabic. In this context, the scope of the BA's contribution in BHL project generally includes: setting the infrastructure for the mirroring and replication of the original BHL book collection, development of Local-BHL system, and adding biodiversity material from the BA's collection to comprise material from the Arab world in Arabic as well as other languages."
   
   collections_link: Collections
   write_review: Write a review
@@ -283,12 +206,10 @@ en:
   reply: Reply
   older: Older
   newer: Newer
-  reply_here: write here...
   post: Post
   abuse: Report
   create_comment: Create Comment
   show: Show
-  
   
   #Header#search fields
   option_all: All Categories
@@ -315,7 +236,6 @@ en:
     other: "Found in %{count} books"
   sidelinks_read: Read
   sidelinks_detail: Details
-  sidelinks_view_collections: Collections
   sidelinks_add_collection: Add to Collection
   sidelinks_views: view
   listresult_author_by: "By:" 
@@ -324,6 +244,7 @@ en:
   terminator: "."
   separator: "/"
   and_more: " and %{count} more..."
+  clear: Clear
   
   #Pages (About US, Contact Us)
   about_us_page_title: About Us
@@ -339,12 +260,10 @@ en:
   book_details_average_rate: Average Rate
   book_details_user_rate: Your Rate
   book_details_star: star
-  books_details_pleaselogintorate: Please Sign in to be able to rate
   books_details_add_collection: Add to Collection
   book_details_collection_count:
     one:   "Collections"
     other: "Collections"
-  book_already_exists_in_collection: Book is already exists in this collection
   book_details_found_collections: Found in Collections
   book_details_user_viewed: User also Viewed
   book_details_related: Related Books 
@@ -357,7 +276,6 @@ en:
   book_language_title: 'Language'
   book_name_title: 'Tagged Species'
   book_location_title: 'Regional Affiliation'
-  thanks_for_rating_book: Thank you for rating this book
   
   # sign up page
   upload_photo: Upload photo
@@ -371,6 +289,7 @@ en:
   new_password_confirmation: New Password Confirmation
   change_password: Change Password
   invalid_old_password: Invalid Old Password
+  upload_photo_dim_error: You should upload a rectangle image
   
   #Browse Page
   browse_subject_page_header: Subjects
@@ -407,7 +326,6 @@ en:
   edit_collection: Edit
   write_review: Write a review
   please_login: please login
-  thanks_for_rating_collection: Thank you for rating this collection
   volume_collection_deleted: Book is successfuly removed from your collection
   remove_book_from_collection_confirm: "Are you sure you want to delete this book ?"
   
@@ -446,6 +364,8 @@ en:
   
   #User Profile Page (Queries Tab)
   user_queries_title: Saved Queries
+  user_queries_books_found: "Books Found: "
+  books_index_search_filter: Search Filter
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations
@@ -462,6 +382,7 @@ en:
   top_rated: Top Rated
   home_activity_log: Activity Log
   no_activities: No Activities Found
+  tabs_more: "more..."
   
   #Activities Index Page
   activities_index_title: Activities
@@ -470,13 +391,24 @@ en:
   activities_rate: Rate
   activities_comments: Comments
   activities_collections: Collections
+  
   # login page
   captcha_error: "There is a validation error on login verification element"
   empty_user_name_error: User name can't be empty
   empty_password_error: Password can't be empty
   empty_verfication_error: Please fill this
 
-  tabs_more: "more..."
-  
   #comments
   no_comments: No Comments ..
+  
+  #Names Index
+  books_found:
+    zero:  ""
+    one:   "Found in one book"
+    other: "Found in %{count} books"
+  books_found_all: "Found %{count} books"
+  
+  tree_of_life_title: Tree of Life
+  species_details: Species Details  
+  select_species_for_details: Select species on the left to view the details
+  

@@ -1,3 +1,28 @@
+:javascript
+  function check_image_size() {
+  var is_file_valid = true;
+  if ($('#filefield')[0].files[0] != null){
+    var ext = $('#filefield').val().split('.').pop().toLowerCase();
+    var size = $('#filefield')[0].files[0].size;
+    if($.inArray(ext, ['gif','png','jpg','jpeg', 'bmp']) == -1) {
+      $('#photo_ext_error_message').removeClass("invisible_error_msg");
+      $('#photo_ext_error_message').addClass("visible_error_msg");
+      $('#photo_size_error_message').removeClass("visible_error_msg");
+      $('#photo_size_error_message').addClass("invisible_error_msg");
+      is_file_valid = false;
+    }
+    else{
+      if (size > #{UPLOADED_PHOTO_MAX_SIZE * 1000 * 1000}){
+        $('#photo_ext_error_message').removeClass("visible_error_msg");
+        $('#photo_ext_error_message').addClass("invisible_error_msg");
+        $('#photo_size_error_message').removeClass("invisible_error_msg");
+        $('#photo_size_error_message').addClass("visible_error_msg");
+        is_file_valid = false;
+      }
+    }
+    }
+    return is_file_valid;
+  }
 .row.clearfix
   .col-md-9.column.col-xs-offset-1
     %fieldset
@@ -5,7 +30,7 @@
         = @page_title
       .form-horizontal
         = validation_errors_for(@collection)
-        = form_for @collection, :html => {:multipart => true}, :builder => FormHelper::BHLFormBuilder do |f|
+        = form_for @collection, :builder => FormHelper::BHLFormBuilder ,:html => {:onsubmit => "return check_image_size();" } do |f|
           .form-group
             = f.label :title, raw(t('title')), :class => 'col-sm-2 control-label'
             .col-sm-10
@@ -18,7 +43,11 @@
             %label{:class => 'col-sm-2 control-label'}
               = I18n.t(:upload_collection_photo)
             .col-sm-10
-              = f.file_field :photo_name, :class => "btn btn-default"
+              .invisible_error_msg#photo_size_error_message
+                = "#{I18n.t(:upload_photo_max_size_error)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}"
+              .invisible_error_msg#photo_ext_error_message
+                = "#{I18n.t(:upload_photo_ext_error)}"
+              = f.file_field :photo_name, {:id => "filefield", :type => "file",:class => "btn btn-default"}
               %p.help-block #{I18n.t(:max_photo_size)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}
           .form-group
             .col-sm-offset-2.col-sm-10
