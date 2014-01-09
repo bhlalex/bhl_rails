@@ -13,6 +13,13 @@
 
 ActiveRecord::Schema.define(:version => 20140102104120) do
 
+  create_table "activities", :force => true do |t|
+    t.string   "type"
+    t.datetime "time"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
     t.integer  "page_id"
