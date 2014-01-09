@@ -8,6 +8,7 @@ class BooksController < ApplicationController
   include BHL::Login
   
   def index
+    debugger
     @user_history = UserBookHistory.where(:user_id => session[:user_id])
     @url_params = fix_dar_url(params)
     @page_title = I18n.t(:search_results_colon)
