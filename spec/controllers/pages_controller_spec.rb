@@ -253,7 +253,7 @@ describe PagesController do
     describe "activities log part" do
       it "should have activities log part" do
         get :home
-        response.should have_selector("a", :content => "#{I18n.t(:home_activity_log)}", :href => "/log_activities/index" )
+        response.should have_selector("a", :content => "#{I18n.t(:home_activity_log)}", :href => "/activities/index" )
       end
       it "should display the number of activities" do
         get :home
