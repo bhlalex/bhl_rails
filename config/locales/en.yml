@@ -194,7 +194,10 @@ en:
   ba_home_page_link: "http://www.bibalex.org/Home/Default_EN.aspx"
   ba_name: "Bibliotheca Alexandrina (BA)"
   bhl_site_name: "Biodivestiry Heritage Library - Egypt"
-  
+  language: Language
+  geo_location: Geo Location
+  name: Name
+  content: Content
   #About US Page
   about_us_page_1: "The New %{ba_link} is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, as the project is regarded as a substantial enrichment to the BA's collection and simultaneously an optimum channel for sharing and propagating the Library's Arabic and non-Arabic biodiversity collection. This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, and furthers the inclusion and input of the Arabic-speaking countries."
   about_us_page_2: "Accordingly, the BA has been pursuing the mirroring and replication of BHL since early 2011. Its participation in BHL project emerged inevitably in its course of being one of the main players in the internationalization, localization and mirroring of the Encyclopedia of Life, creating the EOL in Arabic. In this context, the scope of the BA's contribution in BHL project generally includes: setting the infrastructure for the mirroring and replication of the original BHL book collection, development of Local-BHL system, and adding biodiversity material from the BA's collection to comprise material from the Arab world in Arabic as well as other languages."
@@ -249,6 +252,10 @@ en:
   #Pages (About US, Contact Us)
   about_us_page_title: About Us
   contact_us_page_title: Contact Us
+  sender: Sender
+  message_subject: Subject
+  text: Message
+  recaptcha: Type these words
   
   #Book Details Page
   book_details_mods: MODs
