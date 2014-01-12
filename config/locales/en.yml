@@ -344,6 +344,7 @@ en:
   public_collection: Public
   edit_collection_page_title: Edit Collection
   upload_collection_photo: Upload Photo 
+  public_collection_description: Public collections can be viewed by other users
 
   #User Profile Page
   user_profile_tab: Profile
