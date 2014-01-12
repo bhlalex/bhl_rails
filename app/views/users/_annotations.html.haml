@@ -18,7 +18,7 @@
             = link_to :controller => :books, :action => :show, :id => @vol.job_id , :tab => "read" do
               %i.fa.fa-book
               = I18n.t(:sidelinks_read)
-            = link_to :controller => :books, :action => :show, :id => @vol.job_id do
+            = link_to :controller => :books, :action => :show, :id => @vol.job_id, :tab => "" do
               %i.fa.fa-info
               = I18n.t(:sidelinks_detail)  
         .notediv
