@@ -451,7 +451,7 @@ class UsersController < ApplicationController
       render :json => data
     else
       #go to sign in page
-      redirect_to :controller => :users, :action => :login
+      render :js => "window.location = '/users/login'"
     end
   end
 

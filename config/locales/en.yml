@@ -344,6 +344,7 @@ en:
   public_collection: Public
   edit_collection_page_title: Edit Collection
   upload_collection_photo: Upload Photo 
+  public_collection_description: Public collections can be viewed by other users
 
   #User Profile Page
   user_profile_tab: Profile
@@ -358,7 +359,7 @@ en:
   #User Profile Page (Activity Tab)
   user_activity_title: Activity Log
   log_activity_create: created a new collection
-  log_activity_with: with
+  log_activity_with: " with"
   log_activity_rate: rated
   log_activity_comment: commented on
   log_activity_at: at
