@@ -60,11 +60,11 @@
         %i.fa.fa-user      
         = link_to :controller => :users, :action => :show, :id => @collection.user_id do
           = User.find(@collection.user_id).real_name
-        = " - "
-        
-        = link_to :controller => :collections, :action => :edit, :id => @collection.id do
-          %i.fa.fa-edit
-          = I18n.t(:edit_collection)
+        - if @collection.user_id == session[:user_id]
+          = " - "
+          = link_to :controller => :collections, :action => :edit, :id => @collection.id do
+            %i.fa.fa-edit
+            = I18n.t(:edit_collection)
         %br
         %i.fa.fa-calendar-o
         = @collection.created_at

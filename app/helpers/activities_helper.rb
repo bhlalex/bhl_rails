@@ -13,7 +13,7 @@ module ActivitiesHelper
         elsif(activity[:table_type] == "volume_ratings")
           volume_rating = VolumeRating.find(activity[:id])
           # log record of each rated book contains user name , book name and rate vaule
-          log_record = "<p><a class='author' href = '/users/#{volume_rating.user_id}'>#{User.find(volume_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a class= 'book_title' href = '/books/#{(Volume.find(volume_rating.volume_id)).job_id}'> #{Volume.find(volume_rating.volume_id).book.title}</a>#{I18n.t(:log_activity_with)} #{volume_rating.rate}</p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>"
+          log_record = "<p><a class='author' href = '/users/#{volume_rating.user_id}'>#{User.find(volume_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a class= 'book_title' href = '/books/#{(Volume.find(volume_rating.volume_id)).job_id}'> #{Volume.find(volume_rating.volume_id).book.title}</a> #{I18n.t(:log_activity_with)} #{volume_rating.rate}</p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>"
           log = {:user => volume_rating.user_id, :record => log_record}
         elsif(activity[:table_type] == "collection_ratings")
           collection_rating = CollectionRating.find(activity[:id])

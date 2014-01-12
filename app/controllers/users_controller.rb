@@ -387,7 +387,7 @@ class UsersController < ApplicationController
 
   def get_user_profile_photo
      @user = User.find(params[:id])
-     if (params[:is_delete].to_i == 1)
+     if (params[:id].to_i == session[:user_id] && params[:is_delete].to_i == 1)
        @user[:photo_name] = ''
        @user.save
       delete_user_photo(params[:id])
