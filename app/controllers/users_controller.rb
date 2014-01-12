@@ -129,7 +129,6 @@ class UsersController < ApplicationController
       # end
 
       elsif @tab == "activity"
-            if authenticate_user
               @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
                                                         FROM((SELECT id, count(*) AS count
                                                         FROM collections
@@ -190,7 +189,6 @@ class UsersController < ApplicationController
               # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
               @log_records = get_log_activity(sql_stmt)
               @url_params = params.clone
-            end
             # end
 
     elsif @tab == "collections"
