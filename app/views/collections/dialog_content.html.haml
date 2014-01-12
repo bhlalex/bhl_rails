@@ -38,4 +38,4 @@
       %br
       %input#public{:id => "#{@dialog_number}", :checked => false, :type =>"checkbox", :value => 'off',
       :onclick => "if(this.checked == true){this.value = 'on';}else{this.value = 'off';}"} #{I18n.t(:public)}
-   
+      %p.help-block #{I18n.t(:public_collection_description)}
