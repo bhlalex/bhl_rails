@@ -127,9 +127,6 @@ class CollectionsController < ApplicationController
           end
         end
         if @collection.update_attributes(collection_attr)
-          if ((params[:delete_photo]))
-            delete_collection_photo(params[:id])
-          end
           @collection[:updated_at] = Time.now
           @collection.save
           flash.now[:notice]=I18n.t(:collection_updated)
@@ -193,7 +190,7 @@ class CollectionsController < ApplicationController
   
 def get_collection_photo
    @collection = Collection.find(params[:id])
-   if (params[:is_delete].to_i == 1)
+   if (@collection.user_id == session[:user_id] && params[:is_delete].to_i == 1)
      @collection[:photo_name] = ''
      @collection.save
     delete_collection_photo(params[:id])

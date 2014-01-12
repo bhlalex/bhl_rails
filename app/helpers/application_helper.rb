@@ -2,6 +2,7 @@ module ApplicationHelper
   include BooksHelper
   
   def set_query_string(query_array, urlOrSolr)
+    is_empty_string = true # to handle empty input for query
     query = ''
     emptyQuery = true
     query_array.each do |key, value|
@@ -42,12 +43,13 @@ module ApplicationHelper
           end
           continue
         end
-        if(value != '')
+        if(value != '' && value.count > 0)
+          is_empty_string = false # if query value not equal '' then is_empty_string will equal false
           if(urlOrSolr)  #preparing url string
             tmp = "_#{key}"
             query += query == '' ? "#{tmp}=" : "&#{tmp}="
           else  #preparing solr query
-            tmp = (key == 'title' || key == 'language') ? "bok_#{key}" : "#{key}"
+            tmp = (key == 'title' || key == 'language' || key == 'publisher') ? "bok_#{key}" : "#{key}"
             query += query == '' ? "#{tmp}:" : " AND #{tmp}:"
           end
           count = 0
@@ -61,6 +63,7 @@ module ApplicationHelper
         end
       end     
     end
+    query = "*:*" if (is_empty_string) # if is_empty_string then apply default search
     query
   end
   def books_count
