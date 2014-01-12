@@ -358,7 +358,7 @@ en:
   #User Profile Page (Activity Tab)
   user_activity_title: Activity Log
   log_activity_create: created a new collection
-  log_activity_with: with
+  log_activity_with: " with"
   log_activity_rate: rated
   log_activity_comment: commented on
   log_activity_at: at

@@ -8,7 +8,6 @@ class BooksController < ApplicationController
   include BHL::Login
   
   def index
-    debugger
     @user_history = UserBookHistory.where(:user_id => session[:user_id])
     @url_params = fix_dar_url(params)
     @page_title = I18n.t(:search_results_colon)
@@ -209,12 +208,13 @@ class BooksController < ApplicationController
       end
     end
     def getcollections(id, start, limit)
+      # user id is removed so that only the public collections will be displayed
       Collection.find_by_sql("SELECT collections.id, collections.title
                   FROM collections 
                   INNER JOIN volume_collections
                     ON (collections.id = volume_collections.collection_id)
                  WHERE volume_collections.volume_id=#{Volume.find_by_job_id(id).id} 
-                 AND (collections.is_public = true OR collections.user_id = #{session[:user_id]})
+                 AND collections.is_public = true
                   LIMIT #{start}, #{limit};")
     end
     def getalsoviewed(id, start, limit)
