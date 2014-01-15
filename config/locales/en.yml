@@ -366,7 +366,7 @@ en:
   
   #User Profile Page (Recently Viewed Tab)
   user_history_title: Recently Viewed Books
-  user_history_viewed_on: "Viewed On:"
+  user_history_viewed_on: "On:"
   remove_book_from_history_confirm: "Are you sure you want to remove this book ?"
   
   #User Profile Page (Collections Tab)

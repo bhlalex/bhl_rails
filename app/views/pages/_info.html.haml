@@ -1,9 +1,12 @@
 .panel.panel-default
   .panel-body
     %h4.alert.alert-success
-      = "#{@no_of_books} #{I18n.t(:book)}"
+      %a{:href=>"books"}
+        = "#{@no_of_books} #{I18n.t(:book)}"
     %h4.alert.alert-warning
-      = "#{@no_of_authors} #{I18n.t(:author)}"
+      %a{:href=>"browse/authors"}
+        = "#{@no_of_authors} #{I18n.t(:author)}"
     %h4.alert.alert-info
-      = "#{@no_of_species} #{I18n.t(:species)}"
+      %a{:href=>"names/index"}
+        = "#{@no_of_species} #{I18n.t(:species)}"
     
