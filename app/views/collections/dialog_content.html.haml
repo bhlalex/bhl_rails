@@ -5,7 +5,7 @@
     document.getElementById("public_#{@dialog_number}").checked=false;
     document.getElementById("createnewcoll_#{@dialog_number}").style.display = 'none';
    });
-.form
+.form.dialog-content
   %ul
     - if @collections.count > 0
       %li

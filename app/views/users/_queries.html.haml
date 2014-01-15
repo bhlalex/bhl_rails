@@ -11,10 +11,8 @@
           %i.fa.fa-times-circle
         = "#{parse_query(query.string)}".html_safe        
         %span.badge
-          = I18n.t(:user_queries_books_found) 
-          = "#{get_number_of_returned_books(query.string)}".html_safe
-        %a{:href => "/books?#{query.string}"}
-          %i.fa.fa-arrow-right.rotate
+          %a{:href => "/books?#{query.string}"}
+            = "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(query.string)}"
   - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
     .col-md-8
       .pagination-centered
