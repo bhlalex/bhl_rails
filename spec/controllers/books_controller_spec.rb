@@ -28,7 +28,9 @@ describe BooksController do
       doc_test_first[:bok_language]="English"
       doc_test_first[:geo_location]="Egypt"
       doc_test_first[:subject]="subject"
-      doc_test_first[:single_bok_title] = "title"
+      doc_test_first[:single_bok_title] = " first title"
+      doc_test_first[:rate] = "4"
+      doc_test_first[:views] = "5"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*') 
       solr.commit
@@ -46,7 +48,9 @@ describe BooksController do
       doc_test_second[:bok_language]="English"
       doc_test_second[:geo_location]="Egypt"
       doc_test_second[:subject]="subject"
-      doc_test_second[:single_bok_title] = "title"
+      doc_test_second[:single_bok_title] = "second title"
+      doc_test_second[:rate] = "5"
+      doc_test_second[:views] = "4"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       # remove this book if exists
       solr.delete_by_query('vol_jobid:238233')
@@ -198,6 +202,39 @@ describe BooksController do
     it "should have by author" do
       get :index, :view => "list"
       response.should have_selector("p", :class => "small", :content => "By")
+    end
+    
+    describe "sort books" do
+      it "should sort books by rate asc" do
+      get :index, :sort_type => "rate asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by rate desc" do
+      get :index, :sort_type => "rate desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
+      it "should sort books by views asc" do
+      get :index, :sort_type => "views asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
+      it "should sort books by views desc" do
+      get :index, :sort_type => "views desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by title asc" do
+      get :index, :sort_type => "single_bok_title asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by title desc" do
+      get :index, :sort_type => "single_bok_title desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
     end
 
     # check for existance div.gallery in gallery view
