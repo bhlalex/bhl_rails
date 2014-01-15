@@ -1,4 +1,24 @@
-:javascript
+:javascript  
+  $(document).ready(function() {
+    var cache;
+    cache = {};
+    return $("#search_coll_field").autocomplete({
+      minLength: 2,
+      source: function(request, response) {
+        var term;
+        term = request.term;
+        if (term in cache) {
+          response(cache[term]);
+          return;
+        }
+        searchfield = $("#search_coll_field").val();
+        return $.getJSON("/collectionautocomplete?term=" + term, request, function(data, status, xhr) {
+          return response(data);
+        });
+      }
+    });
+  });
+  
   function search_collection(){
     if ($("#search_coll_field").val() == ''){
       return;

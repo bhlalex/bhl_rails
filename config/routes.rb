@@ -26,9 +26,9 @@ Bhl::Application.routes.draw do
   match "dialog_content" => "collections#dialog_content"
   match "get_collection_comments" => "collections#get_collection_comments"
   match "get_collection_photo" => "collections#get_collection_photo"
-
   get "collections/add_book"
   match "add_book" => "collections#add_book"
+  match "/collectionautocomplete" => "collections#autocomplete"
   
   resources :books, only: [:index, :show]
   #match "books/:id" => "books#show"
@@ -50,7 +50,7 @@ Bhl::Application.routes.draw do
   match "browse/:type/:char" => "browse#show" 
   match "browse/:type" => "browse#show"
   match "browse/:type/:char" => "browse#show"
-  
+  match "/browseautocomplete" => "browse#autocomplete"
   resources :users, only: [:new, :create, :update, :edit]
   post  "users/recover_password"
   post  "users/reset_password_action"

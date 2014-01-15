@@ -1,4 +1,25 @@
 :javascript
+  $(document).ready(function() {
+    var cache;
+    cache = {};
+    return $("#browsesearchfield").autocomplete({
+      minLength: 2,
+      source: function(request, response) {
+        var term;
+        term = request.term;
+        if (term in cache) {
+          response(cache[term]);
+          return;
+        }
+        searchfield = $("#browsesearchfield").val();
+        type = "#{params[:type]}"
+        return $.getJSON("/browseautocomplete?type=" + type, request, function(data, status, xhr) {
+          cache[term] = data;
+          return response(data);
+        });
+      }
+    });
+  });
   function searchbrowse(field){
     if(field == null || field == '')
       return;

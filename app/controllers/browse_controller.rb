@@ -26,11 +26,12 @@ class BrowseController < ApplicationController
     end
   end
   
-  def browseautocomplete
+  def autocomplete
     type = params[:type]
-    term = params[:term]
+    term = "#{params[:term]}"
     @results = []
-    response = solr_autocomplete(type, term, AUTOCOMPLETE_MAX)
+    response = solr_autocomplete(type[0..-2], term, 4)
+    
     response.each do |item|
       @results << item.value
     end 
