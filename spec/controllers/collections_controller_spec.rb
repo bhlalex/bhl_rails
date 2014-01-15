@@ -557,16 +557,17 @@ describe CollectionsController do
       @other_user = User.gen
 
       truncate_table(ActiveRecord::Base.connection, "collections", {})
-      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => false)
-      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :is_public => true)
-      @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :is_public => false)
-      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :is_public => true)
+      @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => false, :rate => 4)
+      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :is_public => true, :rate => 5)
+      @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :is_public => false, :rate => 3)
+      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :is_public => true, :rate => 2)
     end
-    describe "list collections" do
-      it "should list all public collections" do
-        get :index
-        response.should have_selector('h4', :class => "text-muted", :content =>2.to_s)
-      end
+    
+      describe "list collections" do
+        it "should list all public collections" do
+          get :index
+          response.should have_selector('h4', :class => "text-muted", :content =>2.to_s)
+        end
 
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
@@ -594,11 +595,7 @@ describe CollectionsController do
         response.should have_selector('a', :href => "/users/#{@my_public_collection.user_id}")
       end
       
-      it "should have display sort options for collections" do
-        get :index
-        response.should have_selector('small', :content => "#{I18n.t(:sort_by)}")
-      end
-    
+
       it "should have last modified date for each collection" do
         get :index
         response.should have_selector('small', :content => "#{@my_public_collection.created_at}")
@@ -618,10 +615,38 @@ describe CollectionsController do
         get :index, :params => {"search" => "collection"}
         response.should have_selector('h4', :class => "text-muted", :content =>2.to_s)
       end
-
+      
+    it "should have display sort options for collections" do
+      get :index
+      response.should have_selector('small', :content => "#{I18n.t(:sort_by)}")
+    end
+    
       it "should have sort features" do
         get :index
         response.should have_selector('i', :class => "fa fa-square-o")
+      end
+      
+      describe "sort collections" do
+        it "should sort by rate desc" do
+        get :index, :sort_type => "rate desc"
+        response.should have_selector("div", :id => "collection 1", :name => "collection #{@my_public_collection.id}")
+        response.should have_selector("div", :id => "collection 2", :name => "collection #{@other_public_collection.id}")
+        end
+        it "should sort by rate asc" do
+        get :index, :sort_type => "rate asc"
+        response.should have_selector("div", :id => "collection 1", :name => "collection #{@other_public_collection.id}")
+        response.should have_selector("div", :id => "collection 2", :name => "collection #{@my_public_collection.id}")
+        end
+        it "should sort by title desc" do
+        get :index, :sort_type => "title desc"
+        response.should have_selector("div", :id => "collection 1", :name => "collection #{@other_public_collection.id}")
+        response.should have_selector("div", :id => "collection 2", :name => "collection #{@my_public_collection.id}")
+        end
+        it "should sort by title asc" do
+        get :index, :sort_type => "title asc"
+        response.should have_selector("div", :id => "collection 1", :name => "collection #{@my_public_collection.id}")
+        response.should have_selector("div", :id => "collection 2", :name => "collection #{@other_public_collection.id}")
+        end
       end
     end
   end

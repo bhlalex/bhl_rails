@@ -3,6 +3,7 @@ require 'spec_helper'
 require_relative '../../lib/bhl/login'
 
 include BHL::Login
+include UsersHelper
 
 describe UsersController do
   render_views
@@ -268,17 +269,20 @@ describe UsersController do
         @query_second = Query.create(:user_id => @user.id, :string => "_content=smith", :created_at => "2013-11-18 22:00:00 UTC")
       end
 
+      it "should display total number of saved queries" do
+          get :show, { :id => @user.id, :tab => "queries" }
+          response.should have_selector("span",:class => "badge", :content => 2.to_s)
+      end
+        
       it "should contains query content body" do
         get :show, { :id => @user.id, :tab => "queries" }
         response.should have_selector("b", :content => "Title")
       end
 
-
-
       it "should contains show result link for query" do
         get :show, { :id => @user.id, :tab => "queries" }
-        response.should have_selector('a', :href => "/books?_title=popular")
-        response.should have_selector('a', :href => "/books?_content=smith")
+        response.should have_selector('a', :href => "/books?_title=popular", :content => "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(@query_first.string)}" )
+        response.should have_selector('a', :href => "/books?_content=smith", :content => "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(@query_second.string)}")
       end
 
       it "should contains delete link for each query" do
