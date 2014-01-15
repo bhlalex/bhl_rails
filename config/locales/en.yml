@@ -317,6 +317,7 @@ en:
   #User Login Forms
   username: "Username"
   sign_up: "Sign up"
+  sign_in: Login
   submit_buton: "Submit"
   clear_button: "Clear"
   password: "Password"
