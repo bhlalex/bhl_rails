@@ -345,12 +345,6 @@ describe UsersController do
         response.should have_selector('a>img', :src => "/images_en/nocollection140.png")
       end
 
-      it "should have an meta data link for each collection" do
-        get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}")
-      end
-
       it "should have delete link for the collections owned by the current user" do
         get :show, { :id => @user.id, :tab => "collections" }
         response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_private_collection.id}?page=1&user_id=#{@user.id}")
