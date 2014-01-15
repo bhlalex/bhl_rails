@@ -29,7 +29,7 @@ Bhl::Application.routes.draw do
 
   get "collections/add_book"
   match "add_book" => "collections#add_book"
-  
+  match "/collectionautocomplete" => "collections#autocomplete"
   resources :books, only: [:index, :show]
   #match "books/:id" => "books#show"
   #match "books/:id/:tab" => "books#show"  
