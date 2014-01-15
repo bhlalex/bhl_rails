@@ -290,7 +290,7 @@ en:
   upload_photo: Upload photo
   upload_photo_max_size_error: You cannot upload a file greater than
   mb: MB # megabytes
-  max_photo_size: max size for photo
+  max_photo_size: Max size for photo
   profile_photo: Profile Photo
   upload_photo_ext_error: Allowed extensions (jpg, jpeg, png, gif, bmp)
   old_password: Old Password
@@ -366,7 +366,7 @@ en:
   
   #User Profile Page (Recently Viewed Tab)
   user_history_title: Recently Viewed Books
-  user_history_viewed_on: "Viewed On:"
+  user_history_viewed_on: "On:"
   remove_book_from_history_confirm: "Are you sure you want to remove this book ?"
   
   #User Profile Page (Collections Tab)
