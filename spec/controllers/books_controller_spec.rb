@@ -571,15 +571,14 @@ describe BooksController do
       @appropriate_book_comment_without_replies = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "book comment")
     end
     
-    it "should list all comments and replies of a book" 
+#    it "should list all comments and replies of a book" do
 #      get :show, :id => @vol.job_id
-#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment.id}")
-#      response.should have_selector("h4", :content => @appropriate_book_comment.text)
-#      response.should have_selector("span", :id => "comment#{@reply_of_appropriate_book_comment.id}")
-#      response.should have_selector("h4", :content => @reply_of_appropriate_book_comment.text)
-#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment_without_replies.id}")
-#      response.should have_selector("h4", :content => @appropriate_book_comment_without_replies.text)
-#
+#      response.should have_selector("div", :id => "comment#{@appropriate_book_comment.id}")
+#      response.should have_selector("p", :content => @appropriate_book_comment.text)
+#      response.should have_selector("div", :id => "comment#{@reply_of_appropriate_book_comment.id}")
+#      response.should have_selector("p", :content => @reply_of_appropriate_book_comment.text)
+#      response.should have_selector("div", :id => "comment#{@appropriate_book_comment_without_replies.id}")
+#      response.should have_selector("p", :content => @appropriate_book_comment_without_replies.text)
 #    end
     
     it "should show message for inappropriate comments with show link" 
