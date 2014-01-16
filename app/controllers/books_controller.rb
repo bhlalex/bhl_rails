@@ -280,7 +280,7 @@ class BooksController < ApplicationController
       end
       total_array
     end
-  def get_solr_related(id)
+  	def get_solr_related(id)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     #origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
     origin_book_names=  Name.find_by_sql("
