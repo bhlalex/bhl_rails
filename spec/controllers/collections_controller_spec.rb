@@ -348,11 +348,11 @@ describe CollectionsController do
         end
 
         it "should have pagination bar" do
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
           20.times { |i| VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @my_public_collection
           response.should have_selector('ul', :class => "pagination")
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
         end
 
         describe "delete book from collection" do
@@ -468,11 +468,11 @@ describe CollectionsController do
         end
         
         it "should have pagination bar" do
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
           20.times { |i| VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @other_public_collection
           response.should have_selector('ul', :class => "pagination")
-          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
         end
       end
     end
@@ -616,10 +616,6 @@ describe CollectionsController do
           response.body.should have_content("#{I18n.t(:no_books_found)}")
         end
         
-        it "should have image" do
-          get :show, :id => @collection
-          response.should have_selector("img", :src => "/images_en/nocollection140.png")
-        end
       end
     end
   end

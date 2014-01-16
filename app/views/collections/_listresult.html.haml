@@ -35,7 +35,7 @@
           %i.fa.fa-calendar-o 
           = I18n.t(:collection_creation_date)
           %small
-            =item.created_at
+            =item.updated_at
           .rate
             - if item.rate != 0.0
               .starsidelink{:id => "starsidelink_#{item.id}", :data => "#{item.rate}"}

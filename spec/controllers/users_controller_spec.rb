@@ -680,10 +680,9 @@ describe UsersController do
   describe 'PUT update' do
     
 #    it "can upload a photo" do
-#        request.accept = "application/json"
 #       user_before_update = @user
 #       log_in(@user)
-#        @file =  Rack::Test::UploadedFile.new('spec/defaultUser.jpeg', 'image/jpg')
+#        @file =  Rack::Test::UploadedFile.new('public/images_enuser.png', 'image/png')
 #      post :update, { :id => @user.id ,:user => { :id => @user.id, 
 #        :username => user_before_update.username,
 #        :email => user_before_update.email,
@@ -739,6 +738,32 @@ describe UsersController do
         :entered_password => "123",
         :entered_password_confirmation => "123",
         :real_name => @user.real_name}}
+      expect(response).to render_template "users/edit"
+    end
+    
+    it 'should reject modifications and redner edit without entering old password' do
+      log_in(@user)
+      put :update, { :id => @user.id ,:user => { :id => @user.id, :username => @user.username,
+        :email => @user.email,
+        :email_confirmation => @user.email,
+        :old_password => nil,
+        :entered_password => "1234",
+        :entered_password_confirmation => "1234",
+        :real_name => @user.real_name}}
+      flash.now[:error].should == I18n.t("old_password_required")
+      expect(response).to render_template "users/edit"
+    end
+    
+    it 'should reject modifications and redner edit with invalid old password' do
+      log_in(@user)
+      put :update, { :id => @user.id ,:user => { :id => @user.id, :username => @user.username,
+        :email => @user.email,
+        :email_confirmation => @user.email,
+        :old_password => "password",
+        :entered_password => "1234",
+        :entered_password_confirmation => "1234",
+        :real_name => @user.real_name}}
+      flash.now[:error].should == I18n.t("invalid_old_password")
       expect(response).to render_template "users/edit"
     end
   end
