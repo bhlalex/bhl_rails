@@ -1,5 +1,6 @@
 module ActivitiesHelper
   def get_log_activity(sql_stmt)
+    debugger
     log_activities = LogActivities.find_by_sql(sql_stmt)
     log_records = [] # to hold different log records
     log_record = nil
@@ -46,32 +47,26 @@ module ActivitiesHelper
     when "rate"
       stmt = "SELECT SUM(result.count) AS count
                 FROM((SELECT count(*) AS count
-                FROM volume_ratings
-                WHERE user_id = 34)
+                FROM volume_ratings)
                 UNION
                 (SELECT count(*) AS count
-                FROM collection_ratings
-                WHERE user_id = 34)
+                FROM collection_ratings)
                 ) result;"
     when "collections"
       stmt = "SELECT SUM(result.count) AS count
                 FROM((SELECT count(*) AS count
-                FROM collections
-                WHERE user_id = 34)
+                FROM collections)
                 ) result;"
     else
       stmt = "SELECT SUM(result.count) AS count
                 FROM((SELECT count(*) AS count
-                FROM collections
-                WHERE user_id = 34)
+                FROM collections)
                 UNION
                 (SELECT count(*) AS count
-                FROM volume_ratings
-                WHERE user_id = 34)
+                FROM volume_ratings)
                 UNION
                 (SELECT count(*) AS count
-                FROM collection_ratings
-                WHERE user_id = 34)
+                FROM collection_ratings)
                 UNION
                 (SELECT count(*) AS count
                 FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0)
