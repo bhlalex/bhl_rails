@@ -1,6 +1,5 @@
 module ActivitiesHelper
   def get_log_activity(sql_stmt)
-    debugger
     log_activities = LogActivities.find_by_sql(sql_stmt)
     log_records = [] # to hold different log records
     log_record = nil

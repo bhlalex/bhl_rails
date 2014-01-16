@@ -645,10 +645,36 @@ describe UsersController do
         end
         
         it "should display total number of activities" do
-          log_in(@user)
-          get :show, { :id => @user.id, :tab => "activity" }
-            response.should have_selector("span", :class => "badge", :content => 5.to_s)
+          log_in(@other_user)
+          get :show, { :id => @other_user.id, :tab => "activity" }
+            response.should have_selector("span", :class => "badge", :content => 2.to_s)
         end
+        it "should display name of owner of activity" do
+          log_in(@other_user)
+          get :show, { :id => @other_user.id, :tab => "activity" }
+            response.should have_selector('a', :href => "/users/#{@other_user.id}", :content => "#{@other_user.real_name}")
+        end
+        
+    it "should display  open link of activity component" do
+      log_in(@other_user)
+      get :show, { :id => @other_user.id, :tab => "activity" }
+        response.should have_selector('a', :href => "/collections/#{@other_collection.id}", :content => "#{@other_collection.title}")
+        response.should have_selector('a', :href => "/books/#{@vol.job_id}")
+    end
+#    it "should not display  private collections activity if the owner of activity isn't the current user" do
+#      log_in(@other_user)
+#      get :show, { :id => @user.id, :tab => "activity" }
+#      response.should have_selector("span", :class => "badge", :content => 4.to_s)
+#    end
+    
+    it "should have pagination bar" do
+      truncate_table(ActiveRecord::Base.connection, "collections", {})
+      20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => true)}
+       log_in(@other_user)
+       get :show, { :id => @other_user.id, :tab => "activity" }
+      response.should have_selector('ul', :class => "pagination")
+      truncate_table(ActiveRecord::Base.connection, "collections", {})
+    end
   end
 
   describe 'PUT update' do
