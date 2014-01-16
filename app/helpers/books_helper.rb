@@ -156,7 +156,7 @@ module BooksHelper
     query = ''
     string = ''
     query_array['ALL'].each do |val|
-      value = "*#{val}*"
+      value = "*#{val}* OR #{val}"
       query += query == '' ? "(bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} " +
           "OR geo_location:#{value} OR author:#{value} OR name:#{value} OR subject:#{value} OR content:#{value}) "
           : " AND (bok_title:#{value} OR bok_language:#{value} OR published_at:#{value} OR geo_location:#{value} " + 
