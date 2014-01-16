@@ -105,6 +105,7 @@ describe CollectionsController do
       @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :is_public => false)
       @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => Date.today, :is_public => true)
       @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => Date.today, :is_public => true)
+      @collection = Collection.create(:user_id => @other_user.id, :title => "collection",:description => "description", :updated_at => Date.today, :is_public => true)
 
       truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
       @book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => 1)
@@ -118,166 +119,102 @@ describe CollectionsController do
       @book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => 1)
       @second_book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_second.id, :position => 2)
       @third_book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_third.id, :position => 3)
+      
+      doc1 = {:vol_jobid => "1", :bok_bibid => "456"}
+      doc1[:bok_title] = "Test Book First"
+      doc1[:single_bok_title] = "title"
+      doc2 = {:vol_jobid => "2", :bok_bibid => "456"}
+      doc2[:bok_title] = "Test Book First"
+      doc2[:single_bok_title] = "title"
+      doc3 = {:vol_jobid => "3", :bok_bibid => "456"}
+      doc3[:bok_title] = "Test Book First"
+      doc3[:single_bok_title] = "title"
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*') 
+      solr.commit
+      solr.add doc1
+      solr.commit
+      solr.add doc2
+      solr.commit
+      solr.add doc3
+      solr.commit
 
     end
 
     describe "list books in collections" do
-
-      describe "open my private collection" do
-        
-        describe "list books in private collection fail" do
-          
-          it "should not display show collection page for unsigned user" do
-          get :show, :id => @my_private_collection
-          response.should redirect_to("/users/login")
-          end
-          
-          it "should not display show private collection page for unauthenticated user" do
-            log_in(@other_user)
-           get :show, :id => @my_private_collection
-           response.should redirect_to("/collections")
-          end
+      describe "list books in private collection fail" do
+        it "should not display show collection page for unsigned user" do
+        get :show, :id => @my_private_collection
+        response.should redirect_to("/users/login")
         end
         
-        # TODO NEED_TEST adjust for new layout
-        describe "list books in private collection success" do
-          before(:each) do
-            log_in(@user)
-          end
-
-        it "should list all books in my private collection" 
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('div', :class => "count", :content =>3.to_s)
-#        end
-
-        it "should have an open link for each book in my private collection" 
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('a', :href => "/books/#{@vol_first.id}/read")
-#          response.should have_selector('a', :href => "/books/#{@vol_second.id}/read")
-#          response.should have_selector('a', :href => "/books/#{@vol_third.id}/read")
-#        end
-
-        it "should have a brief link for each book in my private collection" 
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('a', :href => "/books/#{@vol_first.id}")
-#          response.should have_selector('a', :href => "/books/#{@vol_second.id}")
-#          response.should have_selector('a', :href => "/books/#{@vol_third.id}")
-#        end
-
-        it "should display order for each book in my private collection"
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('h5', :content => 1.to_s)
-#          response.should have_selector('h5', :content => 2.to_s)
-#          response.should have_selector('h5', :content => 3.to_s)
-#        end
-
-        it "should display sort links for each book in my private collection"
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('a', :href => "/collections/move_down/#{@book_in_my_private_collection.id}")
-#          response.should have_selector('a', :href => "/collections/move_up/#{@second_book_in_my_private_collection.id}")
-#          response.should have_selector('a', :href => "/collections/move_down/#{@second_book_in_my_private_collection.id}")
-#          response.should have_selector('a', :href => "/collections/move_up/#{@third_book_in_my_private_collection.id}")
-#        end
-
-        it "should have a delete link for each book in my private collection" 
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('a', :href => "/collections/delete_book/#{@book_in_my_private_collection.id}")
-#          response.should have_selector('a', :href => "/collections/delete_book/#{@second_book_in_my_private_collection.id}")
-#          response.should have_selector('a', :href => "/collections/delete_book/#{@third_book_in_my_private_collection.id}")
-#        end
-
-        it "should have pagination bar" 
-#          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-#          20.times { |i| BookCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => i)}
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('ul', :class => "pagination")
-#          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-#        end
-
-        describe "delete book from collection" do
-          it "should delete book from collection" 
-#            request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
-#            lambda do
-#              get :delete_book, :book_collection_id => @second_book_in_my_private_collection
-#              response.should redirect_to("/collections/show/#{@my_private_collection.id}")
-#              @third_book_in_my_private_collection.position == 2
-#            end.should change(BookCollection, :count).by(-1)
-#          end
-        end
-
-        describe "sort books in collection" 
-#          it "should change book order to higher order" do
-#            request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
-#            get :move_up, :book_collection_id => @second_book_in_my_private_collection
-#            response.should redirect_to("/collections/show/#{@my_private_collection.id}")
-#            @second_book_in_my_private_collection.position == 1
-#            @book_in_my_private_collection.position == 2
-#          end
-
-          it "should change book order to lower order" 
-#            request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
-#            get :move_down, :book_collection_id => @second_book_in_my_private_collection
-#            response.should redirect_to("/collections/show/#{@my_private_collection.id}")
-#            @second_book_in_my_private_collection.position == 3
-#            @third_book_in_my_private_collection.position == 2
-#          end
+        it "should not display show private collection page for unauthenticated user" do
+          log_in(@other_user)
+         get :show, :id => @my_private_collection
+         response.should redirect_to("/collections")
         end
       end
-      
-      # TODO NEED_TEST adjust for new layout
+        
       describe "open my public collection" do
         before(:each) do
           log_in(@user)
         end
 
-        it "should list all books in my private collection" 
-#          get :show, :id => @my_public_collection
-#          response.should have_selector('h4', :class => "text-muted", :content =>3.to_s)
-#        end
+        it "should list all books in my public collection" do
+          get :show, :id => @my_public_collection
+          response.should have_selector('span', :content => 3.to_s)
+        end
 
-        it "should have an open link for each book in my public collection"
-#          get :show, :id => @my_public_collection
-#          response.should have_selector('a', :href => "/books/#{@vol_first.id}/read")
-#          response.should have_selector('a', :href => "/books/#{@vol_second.id}/read")
-#          response.should have_selector('a', :href => "/books/#{@vol_third.id}/read")
-#        end
+        it "should have an open link for each book in my public collection" do
+          get :show, :id => @my_public_collection
+          response.should have_selector('a', :href => "/books/#{@vol_first.id}/read")
+          response.should have_selector('a', :href => "/books/#{@vol_second.id}/read")
+          response.should have_selector('a', :href => "/books/#{@vol_third.id}/read")
+        end
 
-        it "should have a brief link for each book in my public collection"
-#          get :show, :id => @my_public_collection
-#          response.should have_selector('a', :href => "/books/#{@vol_first.id}")
-#          response.should have_selector('a', :href => "/books/#{@vol_second.id}")
-#          response.should have_selector('a', :href => "/books/#{@vol_third.id}")
-#        end
+        it "should have a brief link for each book in my public collection" do
+          get :show, :id => @my_public_collection
+          response.should have_selector('a', :href => "/books/#{@vol_first.id}")
+          response.should have_selector('a', :href => "/books/#{@vol_second.id}")
+          response.should have_selector('a', :href => "/books/#{@vol_third.id}")
+        end
 
-        it "should display order for each book in my public collection"
-#          get :show, :id => @my_public_collection
-#          response.should have_selector('h5', :content => 1.to_s)
-#          response.should have_selector('h5', :content => 2.to_s)
-#          response.should have_selector('h5', :content => 3.to_s)
-#        end
+        it "should display order for each book in my public collection" do
+          get :show, :id => @my_public_collection
+          response.should have_selector('small', :content => 1.to_s)
+          response.should have_selector('small', :content => 2.to_s)
+          response.should have_selector('small', :content => 3.to_s)
+        end
+        
+        it "should display the date of addition of the book to this collection" do
+          get :show, :id => @my_public_collection
+          response.should have_selector('small', :content => "#{@book_in_my_public_collection.created_at}")
+          response.should have_selector('small', :content => "#{@second_book_in_my_public_collection.created_at}")
+          response.should have_selector('small', :content => "#{@third_book_in_my_public_collection.created_at}")
+        end
 
-        it "should display sort links for each book in my public collection" 
-#          get :show, :id => @my_public_collection
-#          response.should have_selector('a', :href => "/collections/move_down/#{@book_in_my_public_collection.id}")
-#          response.should have_selector('a', :href => "/collections/move_up/#{@second_book_in_my_public_collection.id}")
-#          response.should have_selector('a', :href => "/collections/move_down/#{@second_book_in_my_public_collection.id}")
-#          response.should have_selector('a', :href => "/collections/move_up/#{@third_book_in_my_public_collection.id}")
-#        end
+        it "should display sort links for each book in my public collection" do
+          get :show, :id => @my_public_collection
+          response.should have_selector('a', :href => "/collections/move_down/#{@book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/collections/move_up/#{@second_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/collections/move_down/#{@second_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/collections/move_up/#{@third_book_in_my_public_collection.id}")
+        end
 
-        it "should have a delete link for each book in my public collection" 
-#          get :show, :id => @my_public_collection
-#          response.should have_selector('a', :href => "/collections/delete_book/#{@book_in_my_public_collection.id}")
-#          response.should have_selector('a', :href => "/collections/delete_book/#{@second_book_in_my_public_collection.id}")
-#          response.should have_selector('a', :href => "/collections/delete_book/#{@third_book_in_my_public_collection.id}")
-#        end
+        it "should have a delete link for each book in my public collection" do
+          get :show, :id => @my_public_collection
+          response.should have_selector('a', :href => "/collections/delete_book/#{@book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/collections/delete_book/#{@second_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/collections/delete_book/#{@third_book_in_my_public_collection.id}")
+        end
 
-        it "should have pagination bar" 
-#          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-#          20.times { |i| BookCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => i)}
-#          get :show, :id => @my_public_collection
-#          response.should have_selector('ul', :class => "pagination")
-#          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-#        end
+        it "should have pagination bar" do
+          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          20.times { |i| VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => i)}
+          get :show, :id => @my_public_collection
+          response.should have_selector('ul', :class => "pagination")
+          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+        end
 
         describe "delete book from collection" do
           it "should delete book from collection" do
@@ -310,43 +247,63 @@ describe CollectionsController do
         end
       end
       
-      # TODO NEED_TEST adjust for new layout
       describe "open other public collection" do
 
 
-        it "should list all books in other public collection" 
-#          get :show, :id => @other_public_collection
-#          response.should have_selector('h4', :class => "text-muted", :content =>3.to_s)
-#        end
+        it "should list all books in other public collection" do
+          get :show, :id => @other_public_collection
+          response.should have_selector('span', :content => 3.to_s)
+        end
 
-        it "should have an open link for each book in other public collection" 
-#          get :show, :id => @other_public_collection
-#          response.should have_selector('a', :href => "/books/#{@vol_first.id}/read")
-#          response.should have_selector('a', :href => "/books/#{@vol_second.id}/read")
-#          response.should have_selector('a', :href => "/books/#{@vol_third.id}/read")
-#        end
+        it "should have an open link for each book in other public collection" do
+          get :show, :id => @other_public_collection
+          response.should have_selector('a', :href => "/books/#{@vol_first.id}/read")
+          response.should have_selector('a', :href => "/books/#{@vol_second.id}/read")
+          response.should have_selector('a', :href => "/books/#{@vol_third.id}/read")
+        end
 
-        it "should have a brief link for each book in other public collection" 
-#          get :show, :id => @other_public_collection
-#          response.should have_selector('a', :href => "/books/#{@vol_first.id}")
-#          response.should have_selector('a', :href => "/books/#{@vol_second.id}")
-#          response.should have_selector('a', :href => "/books/#{@vol_third.id}")
-#        end
+        it "should have a brief link for each book in other public collection" do
+          get :show, :id => @other_public_collection
+          response.should have_selector('a', :href => "/books/#{@vol_first.id}")
+          response.should have_selector('a', :href => "/books/#{@vol_second.id}")
+          response.should have_selector('a', :href => "/books/#{@vol_third.id}")
+        end
 
-        it "should display order for each book in other public collection" 
-#          get :show, :id => @other_public_collection
-#          response.should have_selector('h5', :content => 1.to_s)
-#          response.should have_selector('h5', :content => 2.to_s)
-#          response.should have_selector('h5', :content => 3.to_s)
-#        end
-
-        it "should have pagination bar" 
-#          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-#          20.times { |i| BookCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => i)}
-#          get :show, :id => @other_public_collection
-#          response.should have_selector('ul', :class => "pagination")
-#          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
-#        end
+        it "should display order for each book in other public collection" do
+          get :show, :id => @other_public_collection
+          response.should have_selector('small', :content => 1.to_s)
+          response.should have_selector('small', :content => 2.to_s)
+          response.should have_selector('small', :content => 3.to_s)
+        end
+        
+        it "should display the date of addition of the book to this collection" do
+          get :show, :id => @other_public_collection
+          response.should have_selector('small', :content => "#{@book_in_other_collection.created_at}")
+          response.should have_selector('small', :content => "#{@second_book_in_other_collection.created_at}")
+          response.should have_selector('small', :content => "#{@third_book_in_other_collection.created_at}")
+        end
+        it "should not have sorting arrows" do
+          get :show, :id => @other_public_collection
+          response.should_not have_selector('a', :href => "/collections/move_down/#{@book_in_other_collection.id}")
+          response.should_not have_selector('a', :href => "/collections/move_up/#{@second_book_in_other_collection.id}")
+          response.should_not have_selector('a', :href => "/collections/move_down/#{@second_book_in_other_collection.id}")
+          response.should_not have_selector('a', :href => "/collections/move_up/#{@third_book_in_other_collection.id}")
+        end
+        
+        it "should not have delete link" do
+          get :show, :id => @other_public_collection
+          response.should_not have_selector('a', :href => "/collections/delete_book/#{@book_in_other_collection.id}")
+          response.should_not have_selector('a', :href => "/collections/delete_book/#{@second_book_in_other_collection.id}")
+          response.should_not have_selector('a', :href => "/collections/delete_book/#{@third_book_in_other_collection.id}")
+        end
+        
+        it "should have pagination bar" do
+          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+          20.times { |i| VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => i)}
+          get :show, :id => @other_public_collection
+          response.should have_selector('ul', :class => "pagination")
+          truncate_table(ActiveRecord::Base.connection, "book_collections", {})
+        end
       end
     end
 
@@ -459,28 +416,40 @@ describe CollectionsController do
           log_in(@user)
         end
 
-        it "should display collection title" 
-  #        get :show, :id => @my_private_collection
-  #        response.should have_selector('b', :content => "@my_private_collection.title")
-  #        #response.should have_content("my private collection")
-  #      end
+        it "should display collection title" do
+          get :show, :id => @my_private_collection
+          response.should have_selector('h2', :content => "#{@my_private_collection.title}")
+        end
   
-        it "should display collection description" 
-  #        get :show, :id => @my_private_collection
-  #        response.should have_selector('b', :content => "Collection Description")
-  #        #response.should have_content("description")
-  #      end
+        it "should display collection description" do 
+          get :show, :id => @my_private_collection
+          response.should have_selector('p', :content => "#{@my_private_collection.description}")
+        end
+  
+        it "should display edit collection link for collection owned by current user" do
+          get :show, :id => @my_private_collection
+          response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}/edit")
+        end
         
-        it "should display collection status" 
-  #        get :show, :id => @my_private_collection
-  #        response.should have_selector('b', :content => "Status")
-  #        #response.should have_content("Private")
-  #      end
-  
-        it "should display edit collection link for collection owned by current user" 
-#          get :show, :id => @my_private_collection
-#          response.should have_selector('a', :href => "/collections/edit/#{@my_private_collection.id}", :content => I18n.t(:edit_collection))
-#        end
+        it "should have a link to the owner" do
+          get :show, :id => @my_private_collection
+          response.should have_selector("a", :href => "/users/#{@user.id}")
+        end
+        
+        it "should have collection creation date" do
+          get :show, :id => @my_private_collection
+          response.body.should have_content("#{@my_private_collection.created_at}")
+        end
+        
+        it "should have no books found string if there is no books" do
+          get :show, :id => @collection
+          response.body.should have_content("#{I18n.t(:no_books_found)}")
+        end
+        
+        it "should have image" do
+          get :show, :id => @collection
+          response.should have_selector("img", :src => "/images_en/nocollection140.png")
+        end
       end
     end
   end
@@ -520,9 +489,8 @@ describe CollectionsController do
       end
       it "should have last modified date for each collection" do
         get :index
-        #TODO: Check this spec after finishing the design
-        #response.should have_selector('small', :content => "#{@my_public_collection.updated_at}")
-        #response.should have_selector('small', :content => "#{@other_public_collection.updated_at}")
+        response.should have_selector('small', :content => "#{@my_public_collection.updated_at}")
+        response.should have_selector('small', :content => "#{@other_public_collection.updated_at}")
       end
       it "should have an image for each collection" do
         get :index

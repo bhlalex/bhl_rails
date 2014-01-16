@@ -64,16 +64,9 @@ describe BooksController do
       PageName.create(:page => @page_first, :name => @name2, :namestring => "Name2")
     end
 
-    # check for existance of image for each book in gallery view
+    # check for existance of image for each book 
     it "should have an image for each book in list view" do
       get :index, :view => "list"
-      response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
-      response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
-    end
-
-    # check for existance of image for each book in gallery view
-    it "should have an image for each book in gallery view" do
-      get :index, :view => "gallery"
       response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
       response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
     end
@@ -89,21 +82,27 @@ describe BooksController do
       response.should be_success
     end
 
-    # check for existance of detail link for each book in list view
-    it "should return detail link for each book in list view" do
+    # check for existance of detail link for each book
+    it "should return details link for each book in list view" do
       get :index, :view => "list"
       response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
       response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
     end
 
-    # check for existance of detail link for each book in gallery view
-    it "should return detail link for each book in gallery view" do
-      get :index, :view => "gallery"
-      response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
-      response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
+    it "should have add to collection link if user signed in" do
+      User.gen() unless User.first
+      @user = User.first
+      log_out
+      log_in(@user)
+      get :index
+      response.should have_selector("a", :content => I18n.t(:sidelinks_add_collection))
     end
-
-    # check for existance of read and detail links for each book in list view
+    
+    it "should not have add to collection link if user is not signed in" do
+      get :index
+      response.should_not have_selector("a", :content => I18n.t(:sidelinks_add_collection))
+    end
+    # check for existance of read and detail links for each book
     it "should return read and detail links for each book in list view" do
       get :index, :view => "list"
       response.should have_selector('a', :href => "/books/123/read")
@@ -111,9 +110,7 @@ describe BooksController do
       response.should have_selector('a', :href => "/books/238233/read")
       response.should have_selector('a', :href => "/books/238233")
     end
-
-
-
+    
     # check for existance of open link for each author with the count of books for each author
     it "should have open links for authors" do
       get :index
@@ -194,17 +191,12 @@ describe BooksController do
       response.should have_selector("h3", :content => "GENRE")
     end
 
-    # check for existance of By:authors label in list view
+    # check for existance of By:authors label
     it "should have by author" do
       get :index, :view => "list"
       response.should have_selector("p", :class => "small", :content => "By")
     end
 
-    # check for existance div.gallery in gallery view
-#    it "should have gallery div" do
-#      get :index, :view => "gallery"
-#      response.should have_selector("div", :class => "gallery")
-#    end
     # save query
     describe 'save queries' do
       it 'should have save query button  if user is logged in and performed search action' do
@@ -362,7 +354,27 @@ describe BooksController do
         response.should have_content("#{@book[:bok_title]}")
       end
     end
-
+    
+    describe "read book page" do
+      
+      it "should have book title" do
+        get :show, :id => "123", :tab => "read"
+        response.should have_selector("h3", :content => "#{@book.title}")
+      end
+      
+      it "should have add to collection link if user signed in" do
+        User.gen() unless User.first
+        @user = User.first
+        log_in(@user)
+        get :show, :id => "123", :tab => "read"
+        response.should have_selector("a", :content => I18n.t(:read_page_add_collection))
+      end
+      
+      it "should not have add to collection link if user is not signed in" do
+        get :show, :id => "123", :tab => "read"
+        response.should_not have_selector("a", :content => I18n.t(:read_page_add_collection))
+      end
+    end
     describe "right panel" do
       it "should have read book button links to the read book page" do
         get 'show', :id => "123"
