@@ -352,6 +352,7 @@ en:
   access_denied_error: "Access denied."
   changes_saved: "Changes saved."
   delete_photo: Delete Photo
+  old_password_required: Please enter your old password
   
   #User Forgot Password Page
   forgot_password_title: "Forgot Your Password?"
