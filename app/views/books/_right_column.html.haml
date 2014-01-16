@@ -1,7 +1,6 @@
 .spacing-left.panel.panel-styled
   .panel-heading
     %h3.panel-title
-      %i.fa.fa-user
       =I18n.t(:tagged_species_caps)
   .panel-body
     %ul
@@ -10,7 +9,6 @@
           =link_to "#{name[:name]} [#{name[:count]}]", books_path(:params => addFacetSearch(@url_params, 'name', name[:name]))
   .panel-heading
     %h3.panel-title
-      %i.fa.fa-user
       =I18n.t(:languages_caps)
   .panel-body
     %ul
@@ -19,7 +17,6 @@
           =link_to "#{language[:name]} [#{language[:count]}]", books_path(:params => addFacetSearch(@url_params, 'language', language[:name]))
   .panel-heading
     %h3.panel-title
-      %i.fa.fa-user
       =I18n.t(:authors_caps)
   .panel-body
     %ul
@@ -28,7 +25,6 @@
           =link_to "#{author[:name]} [#{author[:count]}]", books_path(:params => addFacetSearch(@url_params, 'author', author[:name]))
   .panel-heading
     %h3.panel-title
-      %i.fa.fa-user
       =I18n.t(:regional_affiliation_caps)
   .panel-body
     %ul
@@ -37,7 +33,6 @@
           =link_to "#{affiliation[:name]} [#{affiliation[:count]}]", books_path(:params => addFacetSearch(@url_params, 'geo_location', affiliation[:name]))
   .panel-heading
     %h3.panel-title
-      %i.fa.fa-user
       =I18n.t(:genre_caps)
   .panel-body
     %ul

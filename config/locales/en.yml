@@ -24,38 +24,7 @@ en:
   
   and_count_more: "and %{count} more"
   
-  username: "Username"
-  sign_up: "Sign up"
-  submit_buton: "Submit"
-  clear_button: "Clear"
-  password: "Password"
-  email: "Email address"
-  real_name: "Real Name"
-  username: "Username"
-  form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
-  registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
-  username_taken: "'%{name}' is already taken"
-  email_taken: "'%{email}' is already taken"
-  member_since: "Member since"
-  last_login: "Last login"
-  forgot_password_link: "Forgot your password?"
-  forgot_password_title: "Forgot your password?"
-  activation_failed: "Activation failed."
-  account_already_active: "This is account is already active."
-  account_activated: "This account (%{real_name}) is activated. Thank you for joining BHL Egypt."
-  sign_in_successful_notice: "Login successful."
-  sign_in_unsuccessful_error: "Login failed. Invalid username or password."
-  forget_password_message: "Enter the email address associated with your BHL account."
-  user_not_found_by_email_address: "A BHL account with that email address (%{email}) could not be found."
-  recover_password_success: "Account recovery email has been sent with further instructions"
-  reset_password: "Reset password"
-  reset_password_failed: "Reset password failed."
-  reset_password_success: "Your password has been reset successfully."
-  modify_profile: "Modify profile"
-  access_denied_error: "Access denied."
-  changes_saved: "Changes saved."
   
-  delete_photo: Delete Photo
   delete_comment_confirm: Are you sure you want to delete this comment?
   mark: Report as inappropriate
 
@@ -293,7 +262,7 @@ en:
   upload_photo: Upload photo
   upload_photo_max_size_error: You cannot upload a file greater than
   mb: MB # megabytes
-  max_photo_size: max size for photo
+  max_photo_size: Max size for photo
   profile_photo: Profile Photo
   upload_photo_ext_error: Allowed extensions (jpg, jpeg, png, gif, bmp)
   old_password: Old Password
@@ -345,12 +314,49 @@ en:
   remove_book_from_collection_confirm: "Are you sure you want to delete this book ?"
   delete_collection_photo_confirm: Are you sure you want to delete collection photo?
 
-  
   #Edit collection page
   public_collection: Public
   edit_collection_page_title: Edit Collection
   upload_collection_photo: Upload Photo 
+  public_collection_description: Public collections can be viewed by other users
 
+  #User Login Forms
+  username: "Username"
+  sign_up: "Sign up"
+  sign_in: Login
+  submit_buton: "Submit"
+  clear_button: "Clear"
+  password: "Password"
+  email: "Email address"
+  real_name: "Real Name"
+  username: "Username"
+  form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
+  registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
+  username_taken: "'%{name}' is already taken"
+  email_taken: "'%{email}' is already taken"
+  member_since: "Member since"
+  last_login: "Last login"
+  forgot_password_link: "Forgot your password?"
+  forgot_password_title: "Forgot your password?"
+  activation_failed: "Activation failed."
+  account_already_active: "This is account is already active."
+  account_activated: "This account (%{real_name}) is activated. Thank you for joining BHL Egypt."
+  sign_in_successful_notice: "Login successful."
+  sign_in_unsuccessful_error: "Login failed. Invalid username or password."
+  user_not_found_by_email_address: "A BHL account with that email address (%{email}) could not be found."
+  recover_password_success: "Account recovery email has been sent with further instructions"
+  reset_password: "Reset password"
+  reset_password_failed: "Reset password failed."
+  reset_password_success: "Your password has been reset successfully."
+  modify_profile: "Modify profile"
+  access_denied_error: "Access denied."
+  changes_saved: "Changes saved."
+  delete_photo: Delete Photo
+  
+  #User Forgot Password Page
+  forgot_password_title: "Forgot Your Password?"
+  forget_password_message: "Enter the email address associated with your BHL account."
+  
   #User Profile Page
   user_profile_tab: Profile
   user_annotations_tab: Annotations
@@ -376,7 +382,7 @@ en:
   
   #User Profile Page (Recently Viewed Tab)
   user_history_title: Recently Viewed Books
-  user_history_viewed_on: "Viewed On:"
+  user_history_viewed_on: "On:"
   remove_book_from_history_confirm: "Are you sure you want to remove this book ?"
   
   #User Profile Page (Collections Tab)

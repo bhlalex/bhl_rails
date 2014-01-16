@@ -28,7 +28,9 @@ describe BooksController do
       doc_test_first[:bok_language]="English"
       doc_test_first[:geo_location]="Egypt"
       doc_test_first[:subject]="subject"
-      doc_test_first[:single_bok_title] = "title"
+      doc_test_first[:single_bok_title] = " first title"
+      doc_test_first[:rate] = "4"
+      doc_test_first[:views] = "5"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*') 
       solr.commit
@@ -46,7 +48,9 @@ describe BooksController do
       doc_test_second[:bok_language]="English"
       doc_test_second[:geo_location]="Egypt"
       doc_test_second[:subject]="subject"
-      doc_test_second[:single_bok_title] = "title"
+      doc_test_second[:single_bok_title] = "second title"
+      doc_test_second[:rate] = "5"
+      doc_test_second[:views] = "4"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       # remove this book if exists
       solr.delete_by_query('vol_jobid:238233')
@@ -195,6 +199,39 @@ describe BooksController do
     it "should have by author" do
       get :index, :view => "list"
       response.should have_selector("p", :class => "small", :content => "By")
+    end
+    
+    describe "sort books" do
+      it "should sort books by rate asc" do
+      get :index, :sort_type => "rate asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by rate desc" do
+      get :index, :sort_type => "rate desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
+      it "should sort books by views asc" do
+      get :index, :sort_type => "views asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
+      it "should sort books by views desc" do
+      get :index, :sort_type => "views desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by title asc" do
+      get :index, :sort_type => "single_bok_title asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by title desc" do
+      get :index, :sort_type => "single_bok_title desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
     end
 
     # save query
@@ -583,15 +620,14 @@ describe BooksController do
       @appropriate_book_comment_without_replies = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "book comment")
     end
     
-    it "should list all comments and replies of a book" 
+#    it "should list all comments and replies of a book" do
 #      get :show, :id => @vol.job_id
-#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment.id}")
-#      response.should have_selector("h4", :content => @appropriate_book_comment.text)
-#      response.should have_selector("span", :id => "comment#{@reply_of_appropriate_book_comment.id}")
-#      response.should have_selector("h4", :content => @reply_of_appropriate_book_comment.text)
-#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment_without_replies.id}")
-#      response.should have_selector("h4", :content => @appropriate_book_comment_without_replies.text)
-#
+#      response.should have_selector("div", :id => "comment#{@appropriate_book_comment.id}")
+#      response.should have_selector("p", :content => @appropriate_book_comment.text)
+#      response.should have_selector("div", :id => "comment#{@reply_of_appropriate_book_comment.id}")
+#      response.should have_selector("p", :content => @reply_of_appropriate_book_comment.text)
+#      response.should have_selector("div", :id => "comment#{@appropriate_book_comment_without_replies.id}")
+#      response.should have_selector("p", :content => @appropriate_book_comment_without_replies.text)
 #    end
     
     it "should show message for inappropriate comments with show link" 

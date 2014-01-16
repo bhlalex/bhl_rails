@@ -1,4 +1,4 @@
-.col-md-8.column.browse
+%div{:id => "book #{@number}", :class => "col-md-8 column browse", :name => "book #{@vol.job_id}"}
   .row.clearfix
     .col-xs-2.column  
       - if visited_volume?(@user_history, @vol)

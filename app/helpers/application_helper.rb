@@ -216,6 +216,22 @@ module ApplicationHelper
       ""
     end
   end
+  
+  def toggle_sort_option(sort_param, sort_type)
+    sort_option = ''
+    if(!(sort_param.nil?) && (sort_param.include?sort_type))
+      sort_parts = sort_param.split(" ")
+      sort_option = "asc" if sort_parts[1] == "desc"
+      sort_option = "desc" if sort_parts[1] == "asc"
+    else
+      if sort_type == "single_bok_title"
+        sort_option = "asc"
+      else
+        sort_option = "desc"
+      end
+    end
+        "#{sort_type} #{sort_option}"
+  end
 
   def is_comment_has_replies?(comment_id)
     if (Comment.where(:comment_id => comment_id).count == 0)

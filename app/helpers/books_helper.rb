@@ -79,7 +79,19 @@ module BooksHelper
     result
   end
   
-  def book_names_count_format (vol_jobid)
+  def book_names_list_names(vol_jobid)
+    names = Name.find_by_sql("
+      SELECT DISTINCT(names.id), names.string
+      FROM names
+        INNER JOIN page_names ON (page_names.name_id = names.id)
+        INNER JOIN pages ON(page_names.page_id = pages.id)
+        INNER JOIN volumes ON (volumes.id = pages.volume_id)
+       WHERE volumes.job_id = #{vol_jobid}
+    ")
+    names
+  end
+  
+  def book_names_more_open_div(vol_jobid)
     names = Name.find_by_sql("
       SELECT COUNT(DISTINCT(names.id)) as count
       FROM names
@@ -93,6 +105,7 @@ module BooksHelper
       count = names[0].count - MAX_NAMES_PER_BOOK
       more_names = I18n.t(:and_more, :count => count)
     end
+    "<a href = '#' data-toggle='modal' data-target ='#morenamesdiv_#{vol_jobid}'>#{more_names}</a>".html_safe
   end
   
   def name_tip (job_id, id, string, eol_thumb, eol_page_id)

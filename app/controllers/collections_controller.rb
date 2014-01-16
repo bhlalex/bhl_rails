@@ -188,18 +188,38 @@ class CollectionsController < ApplicationController
     end
   end
   
-def get_collection_photo
-   @collection = Collection.find(params[:id])
-   if (@collection.user_id == session[:user_id] && params[:is_delete].to_i == 1)
-     @collection[:photo_name] = ''
-     @collection.save
-    delete_collection_photo(params[:id])
-   end
-  respond_to do |format|
-    format.html {render :partial => "collections/get_collection_photo"}
+  def get_collection_photo
+     @collection = Collection.find(params[:id])
+     if (@collection.user_id == session[:user_id] && params[:is_delete].to_i == 1)
+       @collection[:photo_name] = ''
+       @collection.save
+      delete_collection_photo(params[:id])
+     end
+    respond_to do |format|
+      format.html {render :partial => "collections/get_collection_photo"}
+    end
   end
-end
   
+  def autocomplete
+    term = "#{params[:term]}%"
+    @results = []
+    response = Collection.find_by_sql("
+      SELECT 
+        title, COUNT(id) AS count 
+      FROM collections 
+      WHERE title LIKE \"#{term}\"
+      GROUP BY title 
+      ORDER BY count DESC 
+      LIMIT 0, 4;
+      ")
+    response.each do |item|
+      @results << item.title
+    end 
+    if (@results.length == 0)
+      @results << "No Suggestion"
+    end
+    render json: @results
+  end
   private
 
   def add_to_existing_collection(col)

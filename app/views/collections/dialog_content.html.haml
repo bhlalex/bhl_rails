@@ -5,7 +5,7 @@
     document.getElementById("public_#{@dialog_number}").checked=false;
     document.getElementById("createnewcoll_#{@dialog_number}").style.display = 'none';
    });
-.form
+.form.dialog-content
   %ul
     #addcoll{style: "display:block;", :id => "#{@dialog_number}"}
       - if @collections.count > 0
@@ -39,4 +39,4 @@
       %br
       %input#public{:id => "#{@dialog_number}", :checked => false, :type =>"checkbox", :value => 'off',
       :onclick => "if(this.checked == true){this.value = 'on';}else{this.value = 'off';}"} #{I18n.t(:public)}
-   
+      %p.help-block #{I18n.t(:public_collection_description)}

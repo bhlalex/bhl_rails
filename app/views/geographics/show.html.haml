@@ -1,6 +1,5 @@
-.city
-  = "#{@location_name} (#{@books_count})"
-%ol
+= "#{@location_name} (#{@books_count})"
+%ol{:style=>"text-align:left;"}
   - @books.each do |key, value|
     %li
       =link_to value, "/books/#{key}"

@@ -3,6 +3,7 @@ require 'spec_helper'
 require_relative '../../lib/bhl/login'
 
 include BHL::Login
+include UsersHelper
 
 describe UsersController do
   render_views
@@ -207,17 +208,20 @@ describe UsersController do
         @query_second = Query.create(:user_id => @user.id, :string => "_content=smith", :created_at => "2013-11-18 22:00:00 UTC")
       end
 
+      it "should display total number of saved queries" do
+          get :show, { :id => @user.id, :tab => "queries" }
+          response.should have_selector("span",:class => "badge", :content => 2.to_s)
+      end
+        
       it "should contains query content body" do
         get :show, { :id => @user.id, :tab => "queries" }
         response.should have_selector("b", :content => "Title")
       end
 
-
-
       it "should contains show result link for query" do
         get :show, { :id => @user.id, :tab => "queries" }
-        response.should have_selector('a', :href => "/books?_title=popular")
-        response.should have_selector('a', :href => "/books?_content=smith")
+        response.should have_selector('a', :href => "/books?_title=popular", :content => "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(@query_first.string)}")
+        response.should have_selector('a', :href => "/books?_content=smith", :content => "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(@query_second.string)}")
       end
 
       it "should contains delete link for each query" do
@@ -261,7 +265,7 @@ describe UsersController do
 
       it "should have an open link for public collections of other user" do
         get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}")
+        response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}", :content => "#{@other_public_collection.title}")
       end
 
 
@@ -275,8 +279,8 @@ describe UsersController do
 
       it "should have an open link for each collection of my collections" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}")
+        response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}", :content => "#{@my_private_collection.title}")
+        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}", :content => "#{@my_public_collection.title}")
       end
 
       it "should have an image for each collection" do
@@ -284,17 +288,22 @@ describe UsersController do
         response.should have_selector('a>img', :src => "/images_en/nocollection140.png")
       end
 
-      it "should have an meta data link for each collection" do
-        get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}")
-        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}")
-      end
-
       it "should have delete link for the collections owned by the current user" do
         get :show, { :id => @user.id, :tab => "collections" }
         response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_private_collection.id}?page=1&user_id=#{@user.id}")
         response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}?page=1&user_id=#{@user.id}")
       end
+      
+    it "should have added on date in my collections" do
+      get :show, { :id => @user.id, :tab => "collections" }
+      response.should have_selector('small', :content => "#{@my_private_collection.created_at}")
+      response.should have_selector('small', :content => "#{@my_public_collection.created_at}")
+    end
+    
+    it "should have added on date in other user collections" do
+      get :show, { :id => @other_user.id, :tab => "collections" }
+      response.should have_selector('small', :content => "#{@other_public_collection.created_at}")
+    end
       it "should have pagination bar" do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
         20.times {Collection.create(:user_id => @user.id, :title => "my collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => false)}
@@ -302,7 +311,15 @@ describe UsersController do
         response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
       end
-
+    it "should detail link for each collection in my collectionsr" do
+       get :show, { :id => @user.id, :tab => "collections" }
+      response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+      response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+     end
+    it "should detail link for each collection in other user collectionsr" do
+       get :show, { :id => @other_user.id, :tab => "collections" }
+      response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+     end
     end
   end
 

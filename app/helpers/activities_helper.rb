@@ -27,7 +27,7 @@ module ActivitiesHelper
           # log record of each comment on a collection contains user name , collection name and comment text
           log_record = "<p><a class='author' href = '/users/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)}  <a class= 'book_title' href = '/collections/#{comment.collection_id}'>#{Collection.find(comment.collection_id).title}</a>:  <br/>#{comment.text}</p><small class='text-muted'>  #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.collection_id.nil?)
           # log record of each reply on a comment contains user name , base comment text and reply text
-          log_record = "<p><a class='author' href = '/user/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)} #{Comment.find(comment.comment_id).text}:  <br/>#{comment.text} </p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.comment_id.nil?)
+          log_record = "<p><a class='author' href = '/users/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)} #{Comment.find(comment.comment_id).text}:  <br/>#{comment.text} </p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.comment_id.nil?)
           log = {:user => comment.user_id, :record => log_record}
           end
         log_records << log

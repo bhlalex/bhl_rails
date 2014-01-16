@@ -1,4 +1,5 @@
 module UsersHelper
+  include ApplicationHelper
   def logged_in?
     session[:user_id].nil? ? false : true
   end

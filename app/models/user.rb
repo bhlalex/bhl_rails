@@ -87,10 +87,10 @@ class User < ActiveRecord::Base
     # validate size of uploaded photo for user profile
   def file_size
     if !(photo_name.nil?) && !(photo_name.blank?)
-     if photo_name.file.size.to_f/(1000*1000) > UPLOADED_PHOTO_MAX_SIZE
-      errors.add(:file, "#{I18n.t(:upload_photo_max_size_error)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}")
+      if photo_name.file.size.to_f/(1000*1000) > UPLOADED_PHOTO_MAX_SIZE
+        errors.add(:file, "#{I18n.t(:upload_photo_max_size_error)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}")
+      end
     end
-     end
   end
 
   private

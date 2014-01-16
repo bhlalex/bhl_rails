@@ -3,24 +3,25 @@
     %h4
       = I18n.t(:user_queries_title)
       %span.badge
-        = @total_number
-    %hr
-    %ul.list-group
-      - @queries.each do |query|
-        %li.list-group-item
+      = @total_number
+  %hr
+  %ul.list-group
+    - @queries.each do |query|
+      %li.list-group-item
+        = "#{parse_query(query.string)}".html_safe
+        %span.pull-right        
+          %span.badge
+            %a{:href => "/books?#{query.string}"}
+              = "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(query.string)}"
           %a{:href => "/user_search_history/delete_query/#{query.id}", :onclick => "return confirmDelete(\"#{I18n.t(:delete_saved_query_confirm)}\");"}
             %i.fa.fa-times-circle
-          = "#{parse_query(query.string)}".html_safe        
-          %span.badge
-            = I18n.t(:user_queries_books_found) 
-            = "#{get_number_of_returned_books(query.string)}".html_safe
-          %a{:href => "/books?#{query.string}"}
-            %i.fa.fa-arrow-right.rotate
-    - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-      .col-md-8
-        .pagination-centered
-          - @pages = adjustPaging(@page, @lastPage)
-          = render :partial => "books/paging"
+            = I18n.t(:delete)    
+  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+    .col-md-8
+      .pagination-centered
+        - @pages = adjustPaging(@page, @lastPage)
+        = render :partial => "books/paging"
 - else
   %h4
     = I18n.t(:profile_no_queries_found)          
+

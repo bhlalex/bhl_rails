@@ -26,9 +26,9 @@ Bhl::Application.routes.draw do
   match "dialog_content" => "collections#dialog_content"
   match "get_collection_comments" => "collections#get_collection_comments"
   match "get_collection_photo" => "collections#get_collection_photo"
-
   get "collections/add_book"
   match "add_book" => "collections#add_book"
+  match "/collectionautocomplete" => "collections#autocomplete"
   
   resources :books, only: [:index, :show]
   #match "books/:id" => "books#show"
@@ -50,20 +50,20 @@ Bhl::Application.routes.draw do
   match "browse/:type/:char" => "browse#show" 
   match "browse/:type" => "browse#show"
   match "browse/:type/:char" => "browse#show"
-  
+  match "/browseautocomplete" => "browse#autocomplete"
   resources :users, only: [:new, :create, :update, :edit]
+  post  "users/recover_password"
+  post  "users/reset_password_action"
   get   "users/logout"
   get   "users/login"
-  match "users/activate/:guid/:activation_code" => "users#activate"
   get   "users/forgot_password"
   get   "users/change_password"
   get   "users/my_account"
   post  "users/validate"
+  match "users/activate/:guid/:activation_code" => "users#activate"
   match "users/:id" => "users#show"
   match "/users/:id/:tab" => "users#show"
-  post  "users/recover_password"
   match "users/reset_password/:guid/:activation_code" => "users#reset_password"
-  post  "users/reset_password_action"
   match "/rate" => "users#rate"
   match "/rate_collection" => "users#rate_collection"
   match "get_user_profile_photo" => "users#get_user_profile_photo"

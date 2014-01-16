@@ -25,4 +25,19 @@ class BrowseController < ApplicationController
       @browse_list = list_facet_by_prefix(@type[0..-2], @char.upcase)
     end
   end
+  
+  def autocomplete
+    type = params[:type]
+    term = "#{params[:term]}"
+    @results = []
+    response = solr_autocomplete(type[0..-2], term, 4)
+    
+    response.each do |item|
+      @results << item.value
+    end 
+    if (@results.length == 0)
+      @results << "No Suggestion"
+    end
+    render json: @results
+  end
 end

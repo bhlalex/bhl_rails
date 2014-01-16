@@ -263,7 +263,7 @@ class BooksController < ApplicationController
     def fill_related_carousel_array(response, id)
       total_array = []
       response['response']['docs'].each do |doc|
-        if(doc['vol_jobid'] != id)
+        if(doc['vol_jobid'].to_i != id.to_i)
           element = {}
           element[:id] = doc[:vol_jobid]
           element[:title] = doc[:bok_title][0]
