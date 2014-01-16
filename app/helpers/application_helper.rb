@@ -54,22 +54,13 @@ module ApplicationHelper
           end
           count = 0
           value.each do |val|
-            starredval="#{val}*"
             if (count == 0)
               if(urlOrSolr)
                 query += val.gsub('/\s\s+/', ' ')
               else
                 query += '(' 
                 spacedvalue = val.gsub('/\s\s+/', ' ')
-                splitted = spacedvalue.split(' ')
-                cnt = 0
-                splitted.each do |split|
-                  if cnt > 0
-                    query += ' AND ' + split + ' OR ' + split + '*'
-                  end
-                  query += split + ' OR ' + split + '*'  
-                  cnt += 1 
-                end
+                query += "\"#{spacedvalue}\" OR \"#{spacedvalue}*\""
               end  
             else
               if(urlOrSolr)
@@ -77,17 +68,10 @@ module ApplicationHelper
               else
                 query += " AND "
                 spacedvalue = val.gsub('/\s\s+/', ' ')
-                splitted = spacedvalue.split(' ')
-                cnt = 0
-                splitted.each do |split|
-                  if cnt > 0
-                    query += ' AND ' + split + ' OR ' + split + '*'
-                  end
-                  query += split + ' OR ' + split + '*'  
-                  cnt += 1 
-                end 
+                query += "\"#{spacedvalue}\" OR \"#{spacedvalue}*\""
               end  
             end
+            # starredval="\"#{val}*\""
             # query += count == 0 ? (urlOrSolr ? val.gsub('/\s\s+/', ' ') : '(' + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND '))
             # : urlOrSolr ? " _AND " + val.gsub('/\s\s+/', ' ') : " AND " + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND ')
             count += 1
