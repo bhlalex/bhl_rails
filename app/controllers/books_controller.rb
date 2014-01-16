@@ -191,21 +191,13 @@ class BooksController < ApplicationController
   private
     def save_user_history(params)
       user = User.find_by_id(session[:user_id])
-      if(!user.nil?)
-        volume = Volume.find_by_job_id(params[:id])
-        history = UserBookHistory.where(:volume_id => volume.id, :user_id => user.id)
-        if(history.count == 0)
-          ubh = UserBookHistory.new
-          ubh.user = user
-          ubh.volume = volume
-          ubh.updated_at = Time.now
-          ubh.save
-          update_solr_views(volume)
-        else
-          history[0].updated_at = Time.now
-          history[0].save
-        end
-      end
+      volume = Volume.find_by_job_id(params[:id])
+      ubh = UserBookHistory.new
+      ubh.user = user
+      ubh.volume = volume
+      ubh.updated_at = Time.now
+      ubh.save
+      update_solr_views(volume)
     end
     def getcollections(id, start, limit)
       # user id is removed so that only the public collections will be displayed

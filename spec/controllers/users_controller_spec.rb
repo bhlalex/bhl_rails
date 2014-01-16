@@ -3,6 +3,7 @@ require 'spec_helper'
 require_relative '../../lib/bhl/login'
 
 include BHL::Login
+include UsersHelper
 
 describe UsersController do
   render_views
@@ -157,14 +158,6 @@ describe UsersController do
           get :show, :id => @user.id, :tab => "history"
           response.should have_selector("small", :content => "#{(UserBookHistory.first).updated_at}")
         end
-                
-        #TODO now this will not pass except after fixing jquery problems
-#        it "should have open links for names" do
-#          get :show, :id => @user.id, :tab => "recently_viewed"
-#          response.should have_selector('a', :href => "/books?_name=Name1", :content => "Name1 (1)")
-#          response.should have_selector('a', :href => "/books?_name=Name2", :content => "Name2 (2)")
-#          response.should have_selector('a', :href => "/books?_name=Name3", :content => "Name3 (1)")
-#        end
                
         it "should not exists if user is not logged in" do
           log_out
@@ -177,86 +170,33 @@ describe UsersController do
           response.should have_selector("span", :class => "badge", :content => 2.to_s)
         end
 
-        describe "'list view'" do
-
-          before(:each) do
-            get :show, :id => @user.id, :tab => "history", :view => "list"
-          end
-
-          # check for existance of image for each book in list view
-          it "should have an image for each book" do
-            response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
-            response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
-          end
-          # TODO NEED_TEST uncomment this when finish new layout
-          # check for existance of detail link for each book_title in list view
-#          it "should have book title that links for details" do
-#            response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
-#            response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
-#          end
-          
-          # check for existance of read and detail links for each book in list view
-          it "should have read and detail links for each book" do
-            response.should have_selector('a', :href => "/books/123/detail")
-            response.should have_selector('a', :href => "/books/238233/detail")
-          end
-
-#          # delete link
-          describe "'delete link'" do
-#            it "should delete history and decrease the number of books found when click on delete link" do
-#              get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1
-#              response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
-#              get :show, :id => 1, :tab => "history", :page => 1
-#              response.should have_selector("span", :class => "badge", :content => 1.to_s)
-#            end
-
-#            it "should not delete when user is not logged in" do
-#              log_out
-#              get "remove_book_history", :page => 1, :tab => "history", :user_id => @user.id, :volume_id => 1
-#              response.should redirect_to :controller => :users, :action => :login
-#            end
-
-            describe "'pagination'" do
-              before(:each) do
-                truncate_table(ActiveRecord::Base.connection, "books", {})
-                truncate_table(ActiveRecord::Base.connection, "volumes", {})
-                truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
-                solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-                12.times{ |i|
-                  doc_test = {:vol_jobid => i.to_s, :bok_bibid => "456"}
-                  doc_test[:bok_title] = "Test Book"
-                  #doc_test_first[:name] = "Test Name"
-                  doc_test[:author] = "Author"
-                  doc_test[:bok_language]="English"
-                  doc_test[:geo_location]="Egypt"
-                  doc_test[:subject]="subject"
-                  doc_test[:single_bok_title] = "title"
-
-                  # remove this book if exists
-                  solr.delete_by_query('vol_jobid:'+i.to_s)
-                  solr.commit
-                  solr.add doc_test
-                  solr.commit
-                  @book = Book.gen(:title => 'Test Book', :bibid => '456')
-                  @volume = Volume.gen(:book_id => @book.id, :job_id => i.to_s, :get_thumbnail_fail => 0)
-                  UserBookHistory.create(:user_id => @user.id, :volume_id => @volume.id, :updated_at => Time.now)
-                }
-              end
-#              it "should redirect to the same page" do
-#                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-#                response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "history", :page => 2
-#              end
-
-#              it "should fix pagination after deleting the last book in current page" do
-#                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-#                get "remove_book_history", :page => 2, :tab => "history", :id => @user.id,:user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-#                #              http://localhost:3000/users/34/recently_viewed
-#                get :show, :id => @user.id,:page => 2, :tab => "history", :view => "list"
-#                response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
-#              end
-            end
-          end
+        # check for existance of image for each book in list view
+        it "should have an image for each book" do
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
+          response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
         end
+        
+        # check for existance of detail link for each book_title in list view
+        it "should have book title that links for details" do
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
+          response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
+        end
+        
+        # check for existance of read and detail links for each book in list view
+        it "should have details link for each book" do
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector('a', :href => "/books/123", :content => I18n.t(:sidelinks_detail))
+          response.should have_selector('a', :href => "/books/238233", :content => I18n.t(:sidelinks_detail))
+        end
+        
+        it "should have read link for each book" do
+          get :show, :id => @user.id, :tab => "history"
+          response.should have_selector('a', :href => "/books/123/read", :content => I18n.t(:sidelinks_read))
+          response.should have_selector('a', :href => "/books/238233/read", :content => I18n.t(:sidelinks_read))
+        end
+        
       end
     end
 
@@ -268,17 +208,20 @@ describe UsersController do
         @query_second = Query.create(:user_id => @user.id, :string => "_content=smith", :created_at => "2013-11-18 22:00:00 UTC")
       end
 
+      it "should display total number of saved queries" do
+          get :show, { :id => @user.id, :tab => "queries" }
+          response.should have_selector("span",:class => "badge", :content => 2.to_s)
+      end
+        
       it "should contains query content body" do
         get :show, { :id => @user.id, :tab => "queries" }
         response.should have_selector("b", :content => "Title")
       end
 
-
-
       it "should contains show result link for query" do
         get :show, { :id => @user.id, :tab => "queries" }
-        response.should have_selector('a', :href => "/books?_title=popular")
-        response.should have_selector('a', :href => "/books?_content=smith")
+        response.should have_selector('a', :href => "/books?_title=popular", :content => "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(@query_first.string)}")
+        response.should have_selector('a', :href => "/books?_content=smith", :content => "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(@query_second.string)}")
       end
 
       it "should contains delete link for each query" do
@@ -661,6 +604,51 @@ describe UsersController do
       response.should render_template "users/edit"
       flash[:error].should be_blank
     end
+  end
+  
+  describe "activities" do
+        before(:each) do
+          truncate_table(ActiveRecord::Base.connection, "comments", {})
+          truncate_table(ActiveRecord::Base.connection, "collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_ratings", {})
+          truncate_table(ActiveRecord::Base.connection, "collection_ratings", {})
+          truncate_table(ActiveRecord::Base.connection, "users", {})
+          truncate_table(ActiveRecord::Base.connection, "books", {})
+          truncate_table(ActiveRecord::Base.connection, "volumes", {})
+          @book = Book.create(:title => 'Test Book First', :bibid => '456')
+          @vol = Volume.create(:book => @book, :job_id => '123', :get_thumbnail_fail => 0)
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          solr.delete_by_query('*:*')
+          solr.commit
+          doc = {:vol_jobid => "123", :bok_bibid => "456"}
+          doc[:bok_title] = "Test Book"
+          doc[:single_bok_title] = "title"
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          solr.add doc
+          solr.commit
+          User.gen() unless User.first
+          @user = User.first
+          @other_user = User.gen
+          # create some activities with different creation time:
+          #                         creating new collection
+          #                         rating a book
+          #                         rating collection
+          #                         commented on book
+          #                         commented on collection
+          @my_collection = Collection.create(:user_id => @user.id, :title => "my collection",:description => "description",:created_at => Time.now, :updated_at => Time.now, :is_public => true)
+          @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description",:created_at => Time.now, :updated_at => Time.now, :is_public => false)
+          @other_collection = Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description",:created_at => Time.now + 10, :updated_at => Time.now + 10, :is_public => true)
+          @appropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @my_collection.id, :comment_id => nil, :text => "reply on first book comment",:created_at => Time.now + 5)
+          @appropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "reply on first book comment",:created_at => Time.now + 4)
+          @volume_rating = VolumeRating.create(:user_id => @other_user.id, :volume_id => @vol.id, :rate => 4,:created_at => Time.now + 12)
+          @collection_rating = CollectionRating.create(:user_id => @user.id, :collection_id => @my_collection.id, :rate => 4,:created_at => Time.now + 2)
+        end
+        
+        it "should display total number of activities" do
+          log_in(@user)
+          get :show, { :id => @user.id, :tab => "activity" }
+            response.should have_selector("span", :class => "badge", :content => 5.to_s)
+        end
   end
 
   describe 'PUT update' do

@@ -35,8 +35,8 @@ en:
 
   search_results_colon: "Search Results: "
   selection_all_option: "All"
-  no_books_found: "No Books Found"
-  no_collections_found: 'No Collections Found'
+  no_books_found: "No Books Found..."
+  no_collections_found: 'No Collections Found...'
   collection_title: Collection Title
   show_collection_detail: Collection Detail
   save_query: Save Query
@@ -203,7 +203,7 @@ en:
   copyright_statement: Copyright © Bibliotheca Alexandrina
   
   #Browse books
-  no_books_found: No Books Found
+  no_books_found: No Books Found...
   name_found_in_books:
     zero:  ""
     one:   "Found in one book"
@@ -255,6 +255,9 @@ en:
   book_name_title: 'Tagged Species'
   book_location_title: 'Regional Affiliation'
   
+  # Book read page
+  read_page_add_collection: Add to Collection
+  
   # sign up page
   upload_photo: Upload photo
   upload_photo_max_size_error: You cannot upload a file greater than
@@ -287,12 +290,15 @@ en:
   
   #Collections Index
   collection_title: Collections
-  no_collections_found: No Collections Found
+  no_collections_found: No Collections Found...
   collections_found:
     zero:  ""
     one:   "Found in one collections"
     other: "Found in %{count} collections"
   collections_found_all: "Found %{count} collections"
+  collection_by: "By:"
+  collection_creation_date: "Created at:"
+  collections_books_number_tip: Number of books inside
   
   #Collection Page
   collection_your_rate: Your Rate
@@ -358,6 +364,11 @@ en:
   user_history_tab: Recently Viewed Books
   user_activity_tab: Activities
   user_collections_tab: Collections
+  profile_no_annotations_found: No annotations found...
+  profile_no_queries_found: No queries found...
+  profile_no_history_found: No history found...
+  profile_no_activities_found: No activities found...
+  profile_no_collections_found: No collections found...
   
   #User Profile Page (Tab Profile)
   user_profile_title: Profile
@@ -400,7 +411,7 @@ en:
   most_viewed: Most Viewed
   top_rated: Top Rated
   home_activity_log: Activity Log
-  no_activities: No Activities Found
+  no_activities: No Activities Found...
   tabs_more: "more..."
   
   #Activities Index Page
@@ -418,7 +429,7 @@ en:
   empty_verfication_error: Please fill this
 
   #comments
-  no_comments: No Comments ..
+  no_comments: No Comments found...
   
   #Names Index
   books_found:

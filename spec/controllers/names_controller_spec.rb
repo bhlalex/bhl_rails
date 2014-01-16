@@ -10,6 +10,28 @@ describe NamesController do
     end
   end
 
+  describe "get content right panel" do
+    it "should have right panel" do
+      get :get_content, :id => 8
+      he = HierarchyEntry.find_taxon(8)
+      name = he.clean_taxon_concept
+      response.should have_selector("h3", :class => "panel-title", :content => "#{name}") 
+    end
+    
+    it "should have species details" do
+      get :get_content, :id => 8
+      response.should have_selector("a", :content => I18n.t(:species_details), :href => "http://www.eol.org/pages/13")
+    end
+    
+    it "should have the number of books found" do
+      get :get_content, :id => 8
+      he = HierarchyEntry.find_taxon(8)
+      name = he.clean_taxon_concept
+      name = name.gsub( /\s/, '+' )
+      response.should have_selector("a", :href => "/books?_name=#{name}")
+    end
+    
+  end
   describe "GET 'show'" do
     it "returns kingdoms" do
       get "show"

@@ -1,7 +1,8 @@
-.col-md-8.column
-  %h4
-    = I18n.t(:user_queries_title)
-    %span.badge
+- if @total_number > 0
+  .col-md-8.column
+    %h4
+      = I18n.t(:user_queries_title)
+      %span.badge
       = @total_number
   %hr
   %ul.list-group
@@ -20,3 +21,7 @@
       .pagination-centered
         - @pages = adjustPaging(@page, @lastPage)
         = render :partial => "books/paging"
+- else
+  %h4
+    = I18n.t(:profile_no_queries_found)          
+
