@@ -87,14 +87,14 @@
         - rate = @volume.rate
         - if @volume.rate.nil?
           - rate = 0.0
-        .rate
-          .averagerate{:style => "float: right", :data => "#{rate}"}
+        
+        .averagerate.rate{:style => "float: right", :data => "#{rate}"}
         %span.text-muted
           =I18n.t(:book_details_average_rate)
       #detailedrate
       
       
-      .rate{:style => "height: 23px;float: right;"}
+      .ratenotcolored{:style => "height: 23px;float: right;"}
         = render :partial => "books/rating"
       %span.text-muted
         - if logged_in?

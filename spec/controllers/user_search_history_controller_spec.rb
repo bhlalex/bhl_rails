@@ -98,19 +98,51 @@ describe UserSearchHistoryController do
       truncate_table(ActiveRecord::Base.connection, "users", {})
 
     end
+#          # delete link
+    describe "'delete link'" do
+      it "should delete history and decrease the number of books found when click on delete link" do
+        get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1
+        response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
+      end
+   
+      it "should not delete when user is not logged in" do
+        log_out
+        get "remove_book_history", :page => 1, :tab => "history", :user_id => @user.id, :volume_id => 1
+        response.should redirect_to :controller => :users, :action => :login
+      end
 
-      # delete link
-      describe "'delete link'" do
-        it "should delete history and decrease the number of books found when click on delete link" do
-          get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1
-          response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
+      describe "'pagination'" do
+        before(:each) do
+          truncate_table(ActiveRecord::Base.connection, "books", {})
+          truncate_table(ActiveRecord::Base.connection, "volumes", {})
+          truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          12.times{ |i|
+            doc_test = {:vol_jobid => i.to_s, :bok_bibid => "456"}
+            doc_test[:bok_title] = "Test Book"
+            #doc_test_first[:name] = "Test Name"
+            doc_test[:author] = "Author"
+            doc_test[:bok_language]="English"
+            doc_test[:geo_location]="Egypt"
+            doc_test[:subject]="subject"
+            doc_test[:single_bok_title] = "title"
+
+            # remove this book if exists
+            solr.delete_by_query('vol_jobid:'+i.to_s)
+            solr.commit
+            solr.add doc_test
+            solr.commit
+            @book = Book.gen(:title => 'Test Book', :bibid => '456')
+            @volume = Volume.gen(:book_id => @book.id, :job_id => i.to_s, :get_thumbnail_fail => 0)
+            UserBookHistory.create(:user_id => @user.id, :volume_id => @volume.id, :updated_at => Time.now)
+          }
         end
-
-        it "should not delete when user is not logged in" do
-          log_out
-          get "remove_book_history", :page => 1, :tab => "history", :user_id => @user.id, :volume_id => 1
-          response.should redirect_to :controller => :users, :action => :login
+        
+        it "should redirect to the same page" do
+          get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
+          response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "history", :page => 2
         end
       end
+    end
     end
 end

@@ -7,23 +7,24 @@
    });
 .form.dialog-content
   %ul
-    - if @collections.count > 0
-      %li
-        = I18n.t(:choose_collection)
-      %li
-      %select{:id => "idselect_#{@dialog_number}"}
-        - counter = 0
-        - @collections.each do |collection|
-          - if @disabled[counter] == 1
-            %option{disabled: "disabled", :value => "#{collection.id}"} #{collection.title}
-          - else
-            %option{:value => "#{collection.id}"} #{collection.title}
-          - counter = counter + 1
-      %br
-      %br
+    #addcoll{style: "display:block;", :id => "#{@dialog_number}"}
+      - if @collections.count > 0
+        %li
+          = I18n.t(:choose_collection)
+        %li
+        %select{:id => "idselect_#{@dialog_number}"}
+          - counter = 0
+          - @collections.each do |collection|
+            - if @disabled[counter] == 1
+              %option{disabled: "disabled", :value => "#{collection.id}"} #{collection.title}
+            - else
+              %option{:value => "#{collection.id}"} #{collection.title}
+            - counter = counter + 1
+        %br
+        %br
     %li
       %input{:type =>"checkbox", :id => "new_#{@dialog_number}", :checked => false, :value => 'off', 
-      :onclick => "document.getElementById('error_#{@dialog_number}').style.display = 'none';document.getElementById('description_#{@dialog_number}').value = '';document.getElementById('collectiontitle_#{@dialog_number}').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'block';}else{this.value = 'off';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'none';}"} #{I18n.t(:create_new_collection)}
+      :onclick => "document.getElementById('error_#{@dialog_number}').style.display = 'none';document.getElementById('description_#{@dialog_number}').value = '';document.getElementById('collectiontitle_#{@dialog_number}').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'block'; document.getElementById('addcoll_#{@dialog_number}').style.display = 'none';}else{this.value = 'off';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'none';document.getElementById('addcoll_#{@dialog_number}').style.display = 'block';}"} #{I18n.t(:create_new_collection)}
     #error{:id => "#{@dialog_number}", style: "display:none; color:red;"}
       = I18n.t(:missing_title_error_msg)
     #createnewcoll{style: "display:none;", :id => "#{@dialog_number}"}

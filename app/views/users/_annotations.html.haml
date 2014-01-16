@@ -1,6 +1,7 @@
-.col-md-9.column
-  %h4
-    = I18n.t(:user_annotation_title)
+- if @total_number > 0
+  .col-md-9.column
+    %h4
+      = I18n.t(:user_annotation_title)
     %span.badge
       = @total_number
 .row.col-md-9
@@ -66,3 +67,7 @@
                 %p.small
                   = highlight.text
                 %hr
+- else
+  %h4
+    = I18n.t(:profile_no_annotations_found)
+
