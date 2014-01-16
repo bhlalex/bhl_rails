@@ -129,67 +129,69 @@ class UsersController < ApplicationController
       # end
 
       elsif @tab == "activity"
-              @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
-                                                        FROM((SELECT id, count(*) AS count
-                                                        FROM collections
-                                                        WHERE user_id = #{session[:user_id]})
-                                                        UNION
-                                                        (SELECT id, count(*) AS count
-                                                        FROM volume_ratings
-                                                        WHERE user_id = #{session[:user_id]})
-                                                        UNION
-                                                        (SELECT id, count(*) AS count
-                                                        FROM collection_ratings
-                                                        WHERE user_id = #{session[:user_id]})
-                                                        UNION
-                                                        (SELECT id, count(*) AS count
-                                                        FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
-                                                        and user_id = #{session[:user_id]})
-                                                        ) result;")
-              # applying pagination on log_records array
-              @page = params[:page] ? params[:page].to_i : 1
-              limit = TAB_PAGE_SIZE
-              offset = (@page > 1) ? (@page - 1) * limit : 0
-              @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
-              # sql_stmt : to select current user activities including creating new collection,
-              # rating book or collection
-              # and also commented on book or collection ordered by creation time
-              sql_stmt = "SELECT
-                          result.table_type AS table_type,
-                          result.id AS id,
-                          result.time AS time
-                          FROM((SELECT 'collection' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM collections
-                          WHERE user_id = #{@user.id})
-                          UNION
-                          (SELECT
-                          'volume_ratings' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM volume_ratings
-                          WHERE user_id = #{@user.id})
-                          UNION
-                          (SELECT
-                          'volume_ratings' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM collection_ratings
-                          WHERE user_id = #{@user.id})
-                          UNION
-                          (SELECT
-                          'comments' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
-                          and user_id = #{@user.id})
-                          ) result
-                          ORDER BY time DESC LIMIT #{offset}, #{limit};"
-              # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
-              @log_records = get_log_activity(sql_stmt)
-              @url_params = params.clone
-            # end
+        collections_cond = "is_public = true AND user_id = #{@user.id}"
+        collections_cond = "user_id = #{@user.id}" if @user.id == session[:user_id]
+        @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
+                                                FROM((SELECT id, count(*) AS count
+                                                FROM collections
+                                                WHERE #{collections_cond})
+                                                UNION
+                                                (SELECT id, count(*) AS count
+                                                FROM volume_ratings
+                                                WHERE user_id = #{@user.id})
+                                                UNION
+                                                (SELECT id, count(*) AS count
+                                                FROM collection_ratings
+                                                WHERE user_id = #{@user.id})
+                                                UNION
+                                                (SELECT id, count(*) AS count
+                                                FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                                                and user_id = #{@user.id})
+                                                ) result")
+        # applying pagination on log_records array
+        @page = params[:page] ? params[:page].to_i : 1
+        limit = TAB_PAGE_SIZE
+        offset = (@page > 1) ? (@page - 1) * limit : 0
+        @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
+        # sql_stmt : to select current user activities including creating new collection,
+        # rating book or collection
+        # and also commented on book or collection ordered by creation time
+        sql_stmt = "SELECT
+                    result.table_type AS table_type,
+                    result.id AS id,
+                    result.time AS time
+                    FROM((SELECT 'collection' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM collections
+                    WHERE #{collections_cond})
+                    UNION
+                    (SELECT
+                    'volume_ratings' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM volume_ratings
+                    WHERE user_id = #{@user.id})
+                    UNION
+                    (SELECT
+                    'collection_ratings' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM collection_ratings
+                    WHERE user_id = #{@user.id})
+                    UNION
+                    (SELECT
+                    'comments' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                    and user_id = #{@user.id})
+                    ) result
+                    ORDER BY time DESC LIMIT #{offset}, #{limit};"
+      # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
+      @log_records = get_log_activity(sql_stmt)
+      @url_params = params.clone
+    # end
 
     elsif @tab == "collections"
       @page = params[:page] ? params[:page].to_i : 1

@@ -666,6 +666,51 @@ describe UsersController do
       flash[:error].should be_blank
     end
   end
+  
+  describe "activities" do
+        before(:each) do
+          truncate_table(ActiveRecord::Base.connection, "comments", {})
+          truncate_table(ActiveRecord::Base.connection, "collections", {})
+          truncate_table(ActiveRecord::Base.connection, "volume_ratings", {})
+          truncate_table(ActiveRecord::Base.connection, "collection_ratings", {})
+          truncate_table(ActiveRecord::Base.connection, "users", {})
+          truncate_table(ActiveRecord::Base.connection, "books", {})
+          truncate_table(ActiveRecord::Base.connection, "volumes", {})
+          @book = Book.create(:title => 'Test Book First', :bibid => '456')
+          @vol = Volume.create(:book => @book, :job_id => '123', :get_thumbnail_fail => 0)
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          solr.delete_by_query('*:*')
+          solr.commit
+          doc = {:vol_jobid => "123", :bok_bibid => "456"}
+          doc[:bok_title] = "Test Book"
+          doc[:single_bok_title] = "title"
+          solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+          solr.add doc
+          solr.commit
+          User.gen() unless User.first
+          @user = User.first
+          @other_user = User.gen
+          # create some activities with different creation time:
+          #                         creating new collection
+          #                         rating a book
+          #                         rating collection
+          #                         commented on book
+          #                         commented on collection
+          @my_collection = Collection.create(:user_id => @user.id, :title => "my collection",:description => "description",:created_at => Time.now, :updated_at => Time.now, :is_public => true)
+          @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description",:created_at => Time.now, :updated_at => Time.now, :is_public => false)
+          @other_collection = Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description",:created_at => Time.now + 10, :updated_at => Time.now + 10, :is_public => true)
+          @appropriate_collection_comment = Comment.create(:user_id => @user.id, :volume_id => nil, :collection_id => @my_collection.id, :comment_id => nil, :text => "reply on first book comment",:created_at => Time.now + 5)
+          @appropriate_book_comment = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "reply on first book comment",:created_at => Time.now + 4)
+          @volume_rating = VolumeRating.create(:user_id => @other_user.id, :volume_id => @vol.id, :rate => 4,:created_at => Time.now + 12)
+          @collection_rating = CollectionRating.create(:user_id => @user.id, :collection_id => @my_collection.id, :rate => 4,:created_at => Time.now + 2)
+        end
+        
+        it "should display total number of activities" do
+          log_in(@user)
+          get :show, { :id => @user.id, :tab => "activity" }
+            response.should have_selector("span", :class => "badge", :content => 5.to_s)
+        end
+  end
 
   describe 'PUT update' do
     
