@@ -682,7 +682,7 @@ describe UsersController do
 #    it "can upload a photo" do
 #       user_before_update = @user
 #       log_in(@user)
-#        @file =  Rack::Test::UploadedFile.new('public/images_enuser.png', 'image/png')
+#        @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
 #      post :update, { :id => @user.id ,:user => { :id => @user.id, 
 #        :username => user_before_update.username,
 #        :email => user_before_update.email,
@@ -691,7 +691,9 @@ describe UsersController do
 #        :entered_password_confirmation => nil,
 #        :real_name => user_before_update.real_name + "updated",
 #        :photo_name => @file}}
-#        
+#      pic = @user.photo_name 
+#      debugger
+#      File.open(File.join(Rails.root, "public", pic.file.url)).should == File.open('public/images_en/user.png')
 #      response.should be_success
 #      end
       

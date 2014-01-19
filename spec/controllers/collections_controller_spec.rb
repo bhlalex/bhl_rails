@@ -628,11 +628,53 @@ describe CollectionsController do
       log_in(@user)
       @other_user = User.gen
 
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*')
+      solr.commit
+
+      doc_test_first = {:vol_jobid => "1", :bok_bibid => "456"}
+      doc_test_first[:bok_title] = "Test Book First"
+      doc_test_first[:single_bok_title] = "title"
+      solr.add doc_test_first
+      solr.commit
+
+      doc_test_second = {:vol_jobid => "2", :bok_bibid => "456"}
+      doc_test_second[:bok_title] = "Test Book Second"
+      doc_test_second[:single_bok_title] = "title"
+      solr.add doc_test_second
+      solr.commit
+
+      doc_test_third = {:vol_jobid => "3", :bok_bibid => "456"}
+      doc_test_third[:bok_title] = "Test Book Third"
+      doc_test_third[:single_bok_title] = "title"
+      solr.add doc_test_third
+      solr.commit
+
+      @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
+      @vol_first = Volume.gen(:book => @book_test_first, :job_id => '1', :get_thumbnail_fail => 0)
+      @vol_second = Volume.gen(:book => @book_test_first, :job_id => '2', :get_thumbnail_fail => 0)
+      @vol_third = Volume.gen(:book => @book_test_first, :job_id => '3', :get_thumbnail_fail => 0)
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => false, :rate => 4)
       @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :is_public => true, :rate => 5)
       @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :is_public => false, :rate => 3)
       @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :is_public => true, :rate => 2)
+
+      truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
+      @book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => 1)
+      @second_book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_second.id, :position => 2)
+      @third_book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_third.id, :position => 3)
+
+      @book_in_my_public_collection = VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => 1)
+      @second_book_in_my_public_collection = VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_second.id, :position => 2)
+      @third_book_in_my_public_collection = VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => 3, :position => 3)
+
+      @book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => 1)
+      @second_book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_second.id, :position => 2)
+      @third_book_in_other_collection = VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_third.id, :position => 3)
     end
     
       describe "list collections" do
@@ -657,22 +699,28 @@ describe CollectionsController do
       
       it "should have description for each collection" do
         get :index
-        response.should have_selector('p', :content => "#{@other_public_collection.description}")
-        response.should have_selector('p', :content => "#{@my_public_collection.description}")
+        response.should have_selector('p>small', :content => "#{@other_public_collection.description}")
+        response.should have_selector('p>small', :content => "#{@my_public_collection.description}")
       end
     
       it "should have owner for each collection" do
         get :index
-        response.should have_selector('a', :href => "/users/#{@other_public_collection.user_id}")
-        response.should have_selector('a', :href => "/users/#{@my_public_collection.user_id}")
+        response.should have_selector('small>a', :href => "/users/#{@other_public_collection.user_id}")
+        response.should have_selector('small>a', :href => "/users/#{@my_public_collection.user_id}")
       end
       
 
-      it "should have last modified date for each collection" do
+      it "should display creation date of each collection" do
         get :index
-        response.should have_selector('small', :content => "#{@my_public_collection.updated_at}")
-        response.should have_selector('small', :content => "#{@other_public_collection.updated_at}")
+        response.should have_selector('p>small', :content => "#{@my_public_collection.created_at}")
+        response.should have_selector('p>small', :content => "#{@other_public_collection.created_at}")
       end
+      
+      it "should display number of books of each collection" do
+        get :index
+        response.should have_selector('span', :class => "badge", :content =>3.to_s)
+      end
+    
       it "should have an image for each collection" do
         get :index
         response.should have_selector('img', :src => "/images_en/nocollection140.png")
