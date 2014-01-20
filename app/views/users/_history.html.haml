@@ -10,7 +10,8 @@
       :javascript
         $(document).ready(function(){
           $("#starsidelink_#{@vol[:job_id]}").jRating({
-            isDisabled : true
+            isDisabled : true,
+            bigStarsPath: "/images_#{I18n.locale}/stars_grey.png"
           });
         });
       - @book = solr_search("vol_jobid:#{@vol.job_id}","bok_title, views, rate")

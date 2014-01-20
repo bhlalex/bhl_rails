@@ -8,7 +8,8 @@
     :javascript
       $(document).ready(function(){
         $("#starsidelink_#{item.id}").jRating({
-          isDisabled : true
+          isDisabled : true,
+          bigStarsPath: "/images_#{I18n.locale}/stars_white.png"
         });
       });
     - if(item.photo_name.blank?)
