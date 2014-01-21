@@ -22,9 +22,9 @@
           = comment.text
       .well-sm
         .div.pull-left{:id => "open_replies#{comment.id}"}
-          %a.btn.btn-link.btn-xs{:onclick => "show_replies('#{comment.id}')"} #{I18n.t(:replies)} (#{get_comment_replies_count(comment.id)})
+          %a.btn.btn-link.btn-xs{:id => "repliescount#{comment.id}", :onclick => "show_replies('#{comment.id}')"} #{I18n.t(:replies)} (#{get_comment_replies_count(comment.id)})
         %span.text-muted.small.btn-xs
-          %a{:style=> "cursor:pointer;",:onclick => "mark_comment('#{comment.id}')"}
+          %a{:style=> "cursor:pointer;",:onclick => "mark_comment('#{comment.id}')", :id => "markabuse#{comment.id}"}
             %i.fa.fa-flag 
             = I18n.t(:abuse)
         - if ((@owner_of_comment.id == session[:user_id]) && !(is_comment_has_replies?(comment.id)))
@@ -48,7 +48,7 @@
                 %p
                   = reply.text
                 %span.text-muted.small.btn-xs
-                  %a{:style=> "cursor:pointer;",:onclick => "mark_comment('#{reply.id}')"}
+                  %a{:style=> "cursor:pointer;",:onclick => "mark_comment('#{reply.id}')", :id => "markabuse#{reply.id}"}
                     %i.fa.fa-flag
                     = I18n.t(:abuse)
                 - if ((owner_of_reply.id == session[:user_id]) )
@@ -65,13 +65,13 @@
     %ul.pager
       %li
         - if @start.to_i > 0
-          %a.btn.btn-sm{:onclick => "loadXMLDoc(2)"} ← #{I18n.t(:older)}
+          %a.btn.btn-sm{:onclick => "loadXMLDoc(2)", :id => "older"} ← #{I18n.t(:older)}
         - else
           %a.btn.btn-sm{:style => "cursor: not-allowed; color: #999999;"}
             %i  #{I18n.t(:older)} 
       %li
         - if (((@start.to_i * LIMIT_BOOK_COMMENTS) + LIMIT_BOOK_COMMENTS) <  @total_comments.to_i)
-          %a.btn.btn-sm{:onclick => "loadXMLDoc(1)"} #{I18n.t(:newer)} →
+          %a.btn.btn-sm{:onclick => "loadXMLDoc(1)", :id => "newer"} #{I18n.t(:newer)} →
         - else
           %a.btn.btn-sm{:style => "cursor: not-allowed; color: #999999;"}
             %i ← #{I18n.t(:newer)} →

@@ -1,10 +1,10 @@
 = form_for @comment, :builder => FormHelper::BHLFormBuilder do |f|
   = validation_errors_for(@comment)
-  = f.text_area :text , :class => "form-control" , :rows => 2
+  = f.text_area :text , :class => "form-control" , :rows => 2, :id => "commnettext#{comment_id}"
   = f.hidden_field :volume_id, value: @volume_id
   = f.hidden_field :collection_id, value: @collection_id
   = f.hidden_field :user_id, value: session[:user_id]
   = f.hidden_field :comment_id, value: comment_id
   %br
   %fieldset
-    = f.submit I18n.t(:post), :class => "btn btn-sm pull-right btn-default"
+    = f.submit I18n.t(:post), :class => "btn btn-sm pull-right btn-default", :id =>"post#{comment_id}"

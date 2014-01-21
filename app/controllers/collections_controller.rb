@@ -230,7 +230,6 @@ class CollectionsController < ApplicationController
   private
 
   def add_to_existing_collection(col)
-    
     col_id = col.id
     vol_id = Volume.find_by_job_id(params[:vol_id]).id
     duplicated = VolumeCollection.where(:collection_id => col_id, :volume_id => vol_id)
