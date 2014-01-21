@@ -68,6 +68,11 @@ class CollectionsController < ApplicationController
     collection = Collection.find(params[:id])
     if authenticate_user(collection.user_id)
       collection.destroy
+      # destroy rates of this collection
+      rates = CollectionRating.where(:user_id => collection.user_id, :id => collection.id)
+      rates.each do |rate|
+        rate.destroy
+      end
       flash[:notice]=I18n.t(:collection_destroyed)
       flash.keep
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
@@ -223,6 +228,7 @@ class CollectionsController < ApplicationController
   private
 
   def add_to_existing_collection(col)
+    
     col_id = col.id
     vol_id = Volume.find_by_job_id(params[:vol_id]).id
     duplicated = VolumeCollection.where(:collection_id => col_id, :volume_id => vol_id)

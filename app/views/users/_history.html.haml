@@ -52,12 +52,12 @@
                 = link_to "#{I18n.t(:book_details_details)}" , 
                   {:controller => :books, :action => :show, :id => @vol.job_id, :tab => nil}    
           .rate
-            %span.text-muted.pull-right
-              %small
-              = "#{pluralize(@book[:views], I18n.t(:sidelinks_views))} "
+            
             - if @book['rate'] != 0.0
               .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
-            
+          %span.text-muted.pull-right
+            %small
+            = "#{pluralize(@book[:views], I18n.t(:sidelinks_views))} "
               
         .clearfix
         %hr

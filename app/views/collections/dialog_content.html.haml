@@ -16,9 +16,9 @@
           - counter = 0
           - @collections.each do |collection|
             - if @disabled[counter] == 1
-              %option{disabled: "disabled", :value => "#{collection.id}"} #{collection.title}
+              %option{disabled: "disabled", :value => "#{collection.id}", :id => "#{collection.id}"} #{collection.title}
             - else
-              %option{:value => "#{collection.id}"} #{collection.title}
+              %option{:value => "#{collection.id}", :id => "#{collection.id}"} #{collection.title}
             - counter = counter + 1
         %br
         %br
