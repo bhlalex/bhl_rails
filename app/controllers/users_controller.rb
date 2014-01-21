@@ -341,15 +341,17 @@ class UsersController < ApplicationController
     if authenticate_user
       @user = User.find(params[:id])
       user_attr = params[:user]
-      if (!(params[:user][:photo_name].nil?))
-        file = user_attr[:photo_name].original_filename
-        if(file[file.length-5].chr == '.')
-          user_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
-        else
-          user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
-        end
-      end
       
+        if params[:test] != true
+          if (!(params[:user][:photo_name].nil?))
+            file = user_attr[:photo_name].original_filename
+            if(file[file.length-5].chr == '.')
+              user_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+            else
+              user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+            end
+          end
+        end
     if((!(user_attr[:entered_password].nil?) && !(user_attr[:entered_password].blank?)) || (!(user_attr[:password_confirmation].nil?) && !(user_attr[:password_confirmation].blank?)))
       if((user_attr[:old_password].nil?) || (user_attr[:old_password].blank?))
         flash.now[:error] = I18n.t("old_password_required")

@@ -679,24 +679,62 @@ describe UsersController do
 
   describe 'PUT update' do
     
-#    it "can upload a photo" do
-#       user_before_update = @user
-#       log_in(@user)
-#        @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
-#      post :update, { :id => @user.id ,:user => { :id => @user.id, 
-#        :username => user_before_update.username,
-#        :email => user_before_update.email,
-#        :email_confirmation => user_before_update.email,
-#        :entered_password => nil,
-#        :entered_password_confirmation => nil,
-#        :real_name => user_before_update.real_name + "updated",
-#        :photo_name => @file}}
-#      pic = @user.photo_name 
-#      debugger
-#      File.open(File.join(Rails.root, "public", pic.file.url)).should == File.open('public/images_en/user.png')
-#      response.should be_success
-#      end
+    describe "uploading photo for user profile" do
+      it "can upload valid photo" do
+         user_before_update = @user
+         log_in(@user)
+          @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
+        post :update, { :id => @user.id, :test => true, :user => { :id => @user.id, 
+          :username => user_before_update.username,
+          :email => user_before_update.email,
+          :email_confirmation => user_before_update.email,
+          :entered_password => nil,
+          :entered_password_confirmation => nil,
+          :real_name => user_before_update.real_name + "updated",
+          :photo_name => @file}}
+        @user.reload
+        pic = @user.photo_name 
+        File.exist?(File.join(Rails.root, "public", pic.url)).should be_true 
+        FileUtils.remove_dir("#{Rails.root}/public/users/#{@user.id}") if File.directory? "#{Rails.root}/public/users/#{@user.id}"
+        end
+        
+#      it "pictures with invalid size should not be uploaded" do
+#         user_before_update = @user
+#         log_in(@user)
+#          @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
+#        post :update, { :id => @user.id, :test => true, :user => { :id => @user.id, 
+#          :username => user_before_update.username,
+#          :email => user_before_update.email,
+#          :email_confirmation => user_before_update.email,
+#          :entered_password => nil,
+#          :entered_password_confirmation => nil,
+#          :real_name => user_before_update.real_name + "updated",
+#          :photo_name => @file}}
+#        @user.reload
+#        pic = @user.photo_name 
+#        File.exist?(File.join(Rails.root, "public/users/#{@user.id}/user.png")).should_not be_true 
+#        FileUtils.remove_dir("#{Rails.root}/public/users/#{@user.id}") if File.directory? "#{Rails.root}/public/users/#{@user.id}"
+#        end
       
+    it "pictures with invalid extensions should not be uploaded" do
+       user_before_update = @user
+       log_in(@user)
+        @file =  Rack::Test::UploadedFile.new('spec/spec_helper.rb', 'file/rb')
+      post :update, { :id => @user.id, :test => true, :user => { :id => @user.id, 
+        :username => user_before_update.username,
+        :email => user_before_update.email,
+        :email_confirmation => user_before_update.email,
+        :entered_password => nil,
+        :entered_password_confirmation => nil,
+        :real_name => user_before_update.real_name + "updated",
+        :photo_name => @file}}
+      @user.reload
+      pic = @user.photo_name 
+      File.exist?(File.join(Rails.root, "public/users/#{@user.id}/spec_helper.rb")).should_not be_true 
+      FileUtils.remove_dir("#{Rails.root}/public/users/#{@user.id}") if File.directory? "#{Rails.root}/public/users/#{@user.id}"
+      end
+    end
+    
     it 'should redirect to login page if user is not logged_in' do
       put :update, { :id => @user.id }
       response.should redirect_to "/users/login"
