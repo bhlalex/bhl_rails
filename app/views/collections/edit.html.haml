@@ -47,7 +47,7 @@
                 = "#{I18n.t(:upload_photo_max_size_error)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}"
               .invisible_error_msg#photo_ext_error_message
                 = "#{I18n.t(:upload_photo_ext_error)}"
-              = f.file_field :photo_name, {:id => "filefield", :type => "file",:class => "btn btn-default"}
+              = f.file_field :photo_name, {:id => "photo_name", :type => "file",:class => "btn btn-default"}
               %p.help-block #{I18n.t(:max_photo_size)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}
           .form-group
             .col-sm-offset-2.col-sm-10
@@ -61,7 +61,7 @@
           .form-group
             .col-sm-2
             .col-sm-10
-              = f.submit I18n.t('submit_buton'), :class => "btn btn-default"
+              = f.submit I18n.t('submit_buton'), :class => "btn btn-default", :id => "submit"
               = f.submit I18n.t('clear_button'), :class => "btn btn-default", :type => "reset"
 
      

@@ -222,4 +222,81 @@ describe "collections" do
     
     
   end
+  
+  describe "collection photo" do
+    before(:each) do
+      truncate_table(ActiveRecord::Base.connection, "users", {})
+      truncate_table(ActiveRecord::Base.connection, "collections", {})
+      truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
+      @user1 = User.gen() 
+      @user2 = User.gen() 
+      @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)
+    end
+    
+    describe "display collection avatar" do
+      it "should display avatar for collection without delete photo option", :js => true do
+        #show collection detail
+        visit("/collections/#{@col.id}")
+        # check displaying user avatar
+        expect(page).to have_selector("img", :src => "/images_en/nocollection140.png")
+        expect(page).not_to have_selector("input", :id => "delete_photo")
+      end
+    end
+    
+    describe "display collection uploaded photo" do
+      before(:each) do
+        #log in
+        visit("/users/login")
+        fill_in "username", :with => "#{@user1.username}"
+        fill_in "password", :with => "test password"
+        find("#submit").click
+        # upload photo for collection
+        visit("/collections/#{@col.id}/edit")
+        attach_file('photo_name', "#{Rails.root}/public/images_en/logo.png")
+        find("#submit").click
+        visit("/users/logout")
+      end
+      it "should display uploaded collection photo with delete photo option for owner user only", :js => true do
+        #log in
+        visit("/users/login")
+        fill_in "username", :with => "#{@user1.username}"
+        fill_in "password", :with => "test password"
+        find("#submit").click
+        #show collection detail
+        visit("/collections/#{@col.id}")
+        # check displaying collection uploaded photo
+        photo_name = "thumb_#{(Collection.find(@col)).photo_name}
+        expect(page).to have_selector('img', :src => "#{photo_name}")
+        expect(page).to have_selector("input", :id => "delete_photo")
+        FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+      end
+      
+      it "should delete uploaded collection photo", :js => true do
+        #log in
+        visit("/users/login")
+        fill_in "username", :with => "#{@user1.username}"
+        fill_in "password", :with => "test password"
+        find("#submit").click
+        visit("/get_collection_photo?id=#{@col.id}&is_delete=1")
+        expect(page).to have_selector("img", :src => "/images_en/nocollection140.png")
+        expect(page).not_to have_selector("input", :id => "delete_photo")
+        FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+      end
+      
+      it "should display uploaded collection photo without delete photo option for non owner user", :js => true do
+        #log in
+        visit("/users/login")
+        fill_in "username", :with => "#{@user2.username}"
+        fill_in "password", :with => "test password"
+        find("#submit").click
+        #show user profile
+        visit("/collections/#{@col.id}")
+        # check displaying user avatar
+        photo_name = "thumb_#{(Collection.find(@col)).photo_name}
+        expect(page).to have_selector('img', :src => "#{photo_name}")
+        expect(page).not_to have_selector("input", :id => "delete_photo")
+        FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+      end
+    end
+  end
 end
