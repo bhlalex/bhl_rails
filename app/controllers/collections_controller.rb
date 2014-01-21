@@ -123,14 +123,16 @@ class CollectionsController < ApplicationController
     if authenticate_user(@collection.user_id)
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         collection_attr = params[:collection]
-        if (!(params[:collection][:photo_name].nil?))
-          file = collection_attr[:photo_name].original_filename
-          if(file[file.length-5].chr == '.')
-            collection_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
-          else
-            collection_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+        if params[:test] != true
+          if (!(params[:collection][:photo_name].nil?))
+            file = collection_attr[:photo_name].original_filename
+            if(file[file.length-5].chr == '.')
+              collection_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+            else
+              collection_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+            end
           end
-        end
+      end
         if @collection.update_attributes(collection_attr)
           @collection[:updated_at] = Time.now
           @collection.save
