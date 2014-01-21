@@ -629,7 +629,6 @@ describe CollectionsController do
         end
       end
 
-      # TODO NEED_TEST adjust for new layout
       describe "show collection info" do
         before(:each) do
           log_in(@user)
