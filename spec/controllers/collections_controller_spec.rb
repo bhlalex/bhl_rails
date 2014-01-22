@@ -566,7 +566,7 @@ describe CollectionsController do
       describe "uploading photo for collection" do
          it "can upload valid photo" do
            request.env["HTTP_REFERER"] = "/collections/edit/#{@my_private_collection.id}"
-           @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
+           @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
            attr={:user_id => @user.id,
              :title => "my private collection",
              :description => "description", 
@@ -582,7 +582,7 @@ describe CollectionsController do
          
 #        it "pictures with invalid size should not be uploaded" do
 #          request.env["HTTP_REFERER"] = "/collections/edit/#{@my_private_collection.id}"
-#          @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
+#          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
 #          attr={:user_id => @user.id,
 #            :title => "my private collection",
 #            :description => "description", 
@@ -771,7 +771,7 @@ describe CollectionsController do
     
       it "should have an image for each collection" do
         get :index
-        response.should have_selector('img', :src => "/images_en/nocollection140.png")
+        response.should have_selector('img', :src => "/images_#{I18n.locale}/nocollection140.png")
       end
 
       it "should have search bar" do

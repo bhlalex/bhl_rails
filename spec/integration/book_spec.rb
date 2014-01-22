@@ -196,7 +196,7 @@ describe "books" do
         fill_in "commnettext", :with => "comment text"
         find("#post").click
         page.should have_content("comment text")
-        page.should have_selector("img", :src => "/images_en/user.png")
+        page.should have_selector("img", :src => "/images_#{I18n.locale}/user.png")
       end
       
       it "should have link to the owner of the comment", :js => true do

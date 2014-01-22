@@ -19,7 +19,7 @@ describe "user profile photo" do
       #show user profile
       visit("/users/#{@user1.id}")
       # check displaying user avatar
-      expect(page).to have_selector("img", :src => "/images_en/user.png")
+      expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/user.png")
       expect(page).not_to have_selector("input", :id => "delete_photo")
     end
   end
@@ -33,7 +33,7 @@ describe "user profile photo" do
       find("#submit").click
       # upload photo for user profile
       visit("/users/#{@user1.id}/edit")
-      attach_file('photo_name', "#{Rails.root}/public/images_en/logo.png")
+      attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/logo.png")
       find("#submit").click
       visit("/users/logout")
     end
@@ -59,7 +59,7 @@ describe "user profile photo" do
       fill_in "password", :with => "test password"
       find("#submit").click
       visit("/get_user_profile_photo?id=#{@user1.id}&is_delete=1")
-      expect(page).to have_selector("img", :src => "/images_en/user.png")
+      expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/user.png")
       expect(page).not_to have_selector("input", :id => "delete_photo")
       FileUtils.remove_dir("#{Rails.root}/public/users/#{@user1.id}") if File.directory? "#{Rails.root}/public/users/#{@user1.id}"
     end
