@@ -70,6 +70,22 @@ describe PagesController do
       get 'about'
       response.should be_success
     end
+    
+    it "should contain first paragraph" do
+      get :about
+      ba_link = I18n.t(:ba_name)
+      response.should have_selector("p", :content => I18n.t(:about_us_page_1, :ba_link => "#{ba_link}"))
+    end
+    
+    it "should contain first paragraph" do
+      get :about
+      response.should have_selector("p", :content => I18n.t(:about_us_page_2))
+    end
+    
+    it "should contain the link of liberary home page" do
+      get :about
+      response.should have_selector("a", :content => I18n.t(:ba_name), :href => I18n.t(:ba_home_page_link))
+    end
   end
   
   describe "GET 'home'" do
@@ -253,14 +269,42 @@ describe PagesController do
     describe "activities log part" do
       it "should have activities log part" do
         get :home
-        response.should have_selector("a", :content => "#{I18n.t(:home_activity_log)}", :href => "/log_activities/index" )
+        response.should have_selector("a", :content => "#{I18n.t(:home_activity_log)}", :href => "/activities/index" )
       end
       it "should display the number of activities" do
         get :home
         response.should have_selector("span", :content => "6")
       end
     end
-   
+    
+    describe "facebook and twitter sharers" do
+      it "should have facebook sharer icon" do
+        get :home
+        response.should have_selector("i", :class => "fa fa-facebook fa-2x")
+      end
+      
+      it "should have facebook sharer link" do
+        get :home
+        response.should have_selector("a", :onclick => "shareFb()")
+        response.should have_selector("script", :content => "https://www.facebook.com/sharer")
+      end
+      
+      it "should have facebook sharer script" do
+        get :home
+        response.should have_selector("script", :content => "shareFb()")
+        response.should have_selector("script", :content => "https://www.facebook.com/sharer")
+      end
+      
+      it "should have twitter sharer icon" do
+        get :home
+        response.should have_selector("i", :class => "fa fa-twitter fa-2x")
+      end
+       
+      it "should have twitter sharer link" do
+        get :home
+        response.should have_selector("a", :href => "https://twitter.com/share")
+      end
+    end
   end
 
 end

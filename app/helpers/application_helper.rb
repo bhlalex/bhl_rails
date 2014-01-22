@@ -2,6 +2,7 @@ module ApplicationHelper
   include BooksHelper
   
   def set_query_string(query_array, urlOrSolr)
+    is_empty_string = true # to handle empty input for query
     query = ''
     emptyQuery = true
     query_array.each do |key, value|
@@ -42,25 +43,44 @@ module ApplicationHelper
           end
           continue
         end
-        if(value != '')
+        if(value != '' && value.count > 0)
+          is_empty_string = false # if query value not equal '' then is_empty_string will equal false
           if(urlOrSolr)  #preparing url string
             tmp = "_#{key}"
             query += query == '' ? "#{tmp}=" : "&#{tmp}="
           else  #preparing solr query
-            tmp = (key == 'title' || key == 'language') ? "bok_#{key}" : "#{key}"
+            tmp = (key == 'title' || key == 'language' || key == 'publisher') ? "bok_#{key}" : "#{key}"
             query += query == '' ? "#{tmp}:" : " AND #{tmp}:"
           end
           count = 0
           value.each do |val|
-            starredval="#{val}*"
-            query += count == 0 ? (urlOrSolr ? val.gsub('/\s\s+/', ' ') : '(' + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND '))
-            : urlOrSolr ? " _AND " + val.gsub('/\s\s+/', ' ') : " AND " + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND ')
+            if (count == 0)
+              if(urlOrSolr)
+                query += val.gsub('/\s\s+/', ' ')
+              else
+                query += '(' 
+                spacedvalue = val.gsub('/\s\s+/', ' ')
+                query += "\"#{spacedvalue}\" OR \"#{spacedvalue}*\""
+              end  
+            else
+              if(urlOrSolr)
+                query += " _AND " + val.gsub('/\s\s+/', ' ')
+              else
+                query += " AND "
+                spacedvalue = val.gsub('/\s\s+/', ' ')
+                query += "\"#{spacedvalue}\" OR \"#{spacedvalue}*\""
+              end  
+            end
+            # starredval="\"#{val}*\""
+            # query += count == 0 ? (urlOrSolr ? val.gsub('/\s\s+/', ' ') : '(' + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND '))
+            # : urlOrSolr ? " _AND " + val.gsub('/\s\s+/', ' ') : " AND " + starredval.gsub('/\s\s+/', ' ').gsub(' ',' AND ')
             count += 1
           end
           query += !urlOrSolr ? ')' : ''
         end
       end     
     end
+    query = "*:*" if (is_empty_string) # if is_empty_string then apply default search
     query
   end
   def books_count
@@ -212,6 +232,22 @@ module ApplicationHelper
     else
       ""
     end
+  end
+  
+  def toggle_sort_option(sort_param, sort_type)
+    sort_option = ''
+    if(!(sort_param.nil?) && (sort_param.include?sort_type))
+      sort_parts = sort_param.split(" ")
+      sort_option = "asc" if sort_parts[1] == "desc"
+      sort_option = "desc" if sort_parts[1] == "asc"
+    else
+      if sort_type == "single_bok_title"
+        sort_option = "asc"
+      else
+        sort_option = "desc"
+      end
+    end
+        "#{sort_type} #{sort_option}"
   end
 
   def is_comment_has_replies?(comment_id)

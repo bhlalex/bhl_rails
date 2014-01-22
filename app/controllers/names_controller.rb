@@ -41,8 +41,4 @@ class NamesController < ApplicationController
     
     render :layout => 'main' # this is a blank layout as I don't need any layout in this action
   end
-  
-  def change_password
-    
-  end
 end

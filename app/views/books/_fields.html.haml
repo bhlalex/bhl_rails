@@ -7,13 +7,14 @@
       searchquery = "_" + type + "=" + field;
     } 
     else if(searchquery.toLowerCase().indexOf("_" + type.toLowerCase()) != -1){
-    
       searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
     }
     else{
       searchquery += "&_" + type + "=" + field;
     }
-    window.location = window.location.href.split('?')[0] + "?" + searchquery;
+    url = window.location.href.split('?')[0];
+    url = url.split('#')[0];
+    window.location = url + "?" + searchquery;
   }
 %select#searchby
   %option{:value => "ALL"} 

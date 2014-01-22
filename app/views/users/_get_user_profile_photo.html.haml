@@ -5,5 +5,7 @@
   - else
     - thumb = @user.photo_name_url(:thumb)
     = image_tag("#{thumb}",:class => "img-thumbnail")
-    = check_box_tag("delete_photo","delete_photo",false, :onclick => "loadXMLDoc(1)")
-    = I18n.t(:delete_photo)
+    - if !session[:user_id].nil? && params[:id].to_i == session[:user_id]
+      %div
+        = check_box_tag("delete_photo","delete_photo",false, :onclick => "confirmDelete()")
+        = I18n.t(:delete_photo)

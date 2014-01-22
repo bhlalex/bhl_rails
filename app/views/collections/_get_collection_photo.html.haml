@@ -5,5 +5,7 @@
   - else
     - thumb = @collection.photo_name_url(:thumb)
     = image_tag("#{thumb}",:class => "img-thumbnail")
-    = check_box_tag("delete_photo","delete_photo",false, :onclick => "get_photo(1)")
-    = I18n.t(:delete_photo)
+    - if @collection.user_id == session[:user_id]
+      %div
+        = check_box_tag("delete_photo","delete_photo",false, :onclick => "confirmDelete_photo()")
+        = I18n.t(:delete_photo)

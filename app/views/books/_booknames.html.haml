@@ -18,4 +18,21 @@
       %b
         =I18n.t(:separator)
 %span
-  = book_names_count_format(@id)
+  = book_names_more_open_div(@id)
+  
+.modal.fade{:id=>"morenamesdiv_#{@id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "morenamesmodallabel", "area-hidden" => "true"}
+  - list_names = book_names_list_names(@id)
+  .modal-dialog
+    .modal-content
+      .modal-header
+        %button.close{:type=>"button", "data-dismiss" => "modal", "area-hidden" => "true"}
+          &times;
+        %h4.modal-title{:id => "morenamesmodallabel"}
+          =I18n.t(:listresult_names)
+          %span.badge
+            = list_names.count           
+      .modal-body
+        - book_names_list_names(@id).each do |item|
+          .text-dimmed
+            = item.string
+            %br

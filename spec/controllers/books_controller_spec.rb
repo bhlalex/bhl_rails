@@ -28,7 +28,9 @@ describe BooksController do
       doc_test_first[:bok_language]="English"
       doc_test_first[:geo_location]="Egypt"
       doc_test_first[:subject]="subject"
-      doc_test_first[:single_bok_title] = "title"
+      doc_test_first[:single_bok_title] = " first title"
+      doc_test_first[:rate] = "4"
+      doc_test_first[:views] = "5"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*') 
       solr.commit
@@ -46,7 +48,9 @@ describe BooksController do
       doc_test_second[:bok_language]="English"
       doc_test_second[:geo_location]="Egypt"
       doc_test_second[:subject]="subject"
-      doc_test_second[:single_bok_title] = "title"
+      doc_test_second[:single_bok_title] = "second title"
+      doc_test_second[:rate] = "5"
+      doc_test_second[:views] = "4"
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       # remove this book if exists
       solr.delete_by_query('vol_jobid:238233')
@@ -64,16 +68,9 @@ describe BooksController do
       PageName.create(:page => @page_first, :name => @name2, :namestring => "Name2")
     end
 
-    # check for existance of image for each book in gallery view
+    # check for existance of image for each book 
     it "should have an image for each book in list view" do
       get :index, :view => "list"
-      response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
-      response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
-    end
-
-    # check for existance of image for each book in gallery view
-    it "should have an image for each book in gallery view" do
-      get :index, :view => "gallery"
       response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
       response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
     end
@@ -81,7 +78,7 @@ describe BooksController do
     # check for books count
     it "should return item count equal to the total number of books" do
       get :index
-      response.should have_selector("h4", :class => "text-muted", :content => 2.to_s)
+      response.should have_selector("h4", :class => "text-muted clearfix", :content => 2.to_s)
     end
 
     it "returns http success" do
@@ -89,21 +86,27 @@ describe BooksController do
       response.should be_success
     end
 
-    # check for existance of detail link for each book in list view
-    it "should return detail link for each book in list view" do
+    # check for existance of detail link for each book
+    it "should return details link for each book in list view" do
       get :index, :view => "list"
       response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
       response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
     end
 
-    # check for existance of detail link for each book in gallery view
-    it "should return detail link for each book in gallery view" do
-      get :index, :view => "gallery"
-      response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
-      response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
+    it "should have add to collection link if user signed in" do
+      User.gen() unless User.first
+      @user = User.first
+      log_out
+      log_in(@user)
+      get :index
+      response.should have_selector("a", :content => I18n.t(:sidelinks_add_collection))
     end
-
-    # check for existance of read and detail links for each book in list view
+    
+    it "should not have add to collection link if user is not signed in" do
+      get :index
+      response.should_not have_selector("a", :content => I18n.t(:sidelinks_add_collection))
+    end
+    # check for existance of read and detail links for each book
     it "should return read and detail links for each book in list view" do
       get :index, :view => "list"
       response.should have_selector('a', :href => "/books/123/read")
@@ -111,9 +114,7 @@ describe BooksController do
       response.should have_selector('a', :href => "/books/238233/read")
       response.should have_selector('a', :href => "/books/238233")
     end
-
-
-
+    
     # check for existance of open link for each author with the count of books for each author
     it "should have open links for authors" do
       get :index
@@ -194,17 +195,45 @@ describe BooksController do
       response.should have_selector("h3", :content => "GENRE")
     end
 
-    # check for existance of By:authors label in list view
+    # check for existance of By:authors label
     it "should have by author" do
       get :index, :view => "list"
       response.should have_selector("p", :class => "small", :content => "By")
     end
+    
+    describe "sort books" do
+      it "should sort books by rate asc" do
+      get :index, :sort_type => "rate asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by rate desc" do
+      get :index, :sort_type => "rate desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
+      it "should sort books by views asc" do
+      get :index, :sort_type => "views asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
+      it "should sort books by views desc" do
+      get :index, :sort_type => "views desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by title asc" do
+      get :index, :sort_type => "single_bok_title asc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_first.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_second.job_id}")
+    end
+      it "should sort books by title desc" do
+      get :index, :sort_type => "single_bok_title desc"
+        response.should have_selector("div", :id => "book 1", :name => "book #{@vol_second.job_id}")
+        response.should have_selector("div", :id => "book 2", :name => "book #{@vol_first.job_id}")
+    end
+    end
 
-    # check for existance div.gallery in gallery view
-#    it "should have gallery div" do
-#      get :index, :view => "gallery"
-#      response.should have_selector("div", :class => "gallery")
-#    end
     # save query
     describe 'save queries' do
       it 'should have save query button  if user is logged in and performed search action' do
@@ -362,7 +391,27 @@ describe BooksController do
         response.should have_content("#{@book[:bok_title]}")
       end
     end
-
+    
+    describe "read book page" do
+      
+      it "should have book title" do
+        get :show, :id => "123", :tab => "read"
+        response.should have_selector("h3", :content => "#{@book.title}")
+      end
+      
+      it "should have add to collection link if user signed in" do
+        User.gen() unless User.first
+        @user = User.first
+        log_in(@user)
+        get :show, :id => "123", :tab => "read"
+        response.should have_selector("a", :content => I18n.t(:read_page_add_collection))
+      end
+      
+      it "should not have add to collection link if user is not signed in" do
+        get :show, :id => "123", :tab => "read"
+        response.should_not have_selector("a", :content => I18n.t(:read_page_add_collection))
+      end
+    end
     describe "right panel" do
       it "should have read book button links to the read book page" do
         get 'show', :id => "123"
@@ -571,15 +620,14 @@ describe BooksController do
       @appropriate_book_comment_without_replies = Comment.create(:user_id => @user.id, :volume_id => @vol.id, :collection_id => nil, :comment_id => nil, :text => "book comment")
     end
     
-    it "should list all comments and replies of a book" 
+#    it "should list all comments and replies of a book" do
 #      get :show, :id => @vol.job_id
-#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment.id}")
-#      response.should have_selector("h4", :content => @appropriate_book_comment.text)
-#      response.should have_selector("span", :id => "comment#{@reply_of_appropriate_book_comment.id}")
-#      response.should have_selector("h4", :content => @reply_of_appropriate_book_comment.text)
-#      response.should have_selector("span", :id => "comment#{@appropriate_book_comment_without_replies.id}")
-#      response.should have_selector("h4", :content => @appropriate_book_comment_without_replies.text)
-#
+#      response.should have_selector("div", :id => "comment#{@appropriate_book_comment.id}")
+#      response.should have_selector("p", :content => @appropriate_book_comment.text)
+#      response.should have_selector("div", :id => "comment#{@reply_of_appropriate_book_comment.id}")
+#      response.should have_selector("p", :content => @reply_of_appropriate_book_comment.text)
+#      response.should have_selector("div", :id => "comment#{@appropriate_book_comment_without_replies.id}")
+#      response.should have_selector("p", :content => @appropriate_book_comment_without_replies.text)
 #    end
     
     it "should show message for inappropriate comments with show link" 

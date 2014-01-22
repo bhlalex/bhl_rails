@@ -23,14 +23,60 @@
     = javascript_include_tag 'jquery/jquery.min.js'
     = javascript_include_tag 'bootstrap.min.js'
     = javascript_include_tag 'scripts.js'
+    
+    = javascript_include_tag 'jquery/jquery.ui.core.js'
+    = javascript_include_tag 'jquery/jquery.ui.widget.js'
+    = javascript_include_tag 'jquery/jquery.ui.position.js'
+    = javascript_include_tag 'jquery/jquery.ui.menu.js'
+    = javascript_include_tag 'jquery/jquery.ui.autocomplete.js'
   :css
     .ui-autocomplete-loading
       background: white url("/images_#{I18n.locale}/ui-anim_basic_16x16.gif") right center no-repeat
   :javascript  
-    function headersearchfnc(e, field){
+    $(document).ready(function() {
+      var cache;
+      cache = {};
+      return $("#headersearchfield").autocomplete({
+        minLength: 2,
+        source: function(request, response) {
+          var term;
+          term = request.term;
+          if (term in cache) {
+            response(cache[term]);
+            return;
+          }
+          search_by = $("#headersearchby").val();
+          searchfield = $("#headersearchfield").val();
+          return $.getJSON("/autocomplete?type=" + search_by, request, function(data, status, xhr) {
+            cache[term] = data;
+            return response(data);
+          });
+        }
+      });
+    });
+    
+    function searchfnc(searchquery, e, field){
+      if(field == null || field == '')
+        return;
+      url = window.location.href.split('?')[0];
+      url = url.split('#')[0];  
       var type = e.options[e.selectedIndex].value;
-      searchquery = "_" + type + "=" + field;
-      window.location = window.location.protocol + "//" + window.location.host + "/books" + "?" + searchquery;
+      if(url == window.location.protocol + "//" + window.location.host + "/books"){
+        if(searchquery == null || searchquery == '' || searchquery == '*:*'){
+          searchquery = "_" + type + "=" + field;
+        } 
+        else if(searchquery.toLowerCase().indexOf("_" + type.toLowerCase()) != -1){
+          searchquery = searchquery.replace("_" + type.toLowerCase() + "=","_" + type.toLowerCase() + "=" + field + " _AND ");
+        }
+        else{
+          searchquery += "&_" + type + "=" + field;
+        }
+        window.location = url + "?" + searchquery;
+      }
+      else{
+        searchquery = "_" + type + "=" + field;
+        window.location = window.location.protocol + "//" + window.location.host + "/books" + "?" + searchquery;
+      }
     }
   %body
     #wrap
@@ -40,12 +86,15 @@
             %a{ :href => "/" }
               =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
           .col-md-7
+            - jsquery = ""
+            - if(params[:controller] == "books" && params[:action] == "index")
+              - jsquery = set_query_string(@query_array, true) 
             .topsearch
               .input-append
                 %span.separator.pull-left.searchicon
                   %i.fa.fa-search.fa-lg.pull-left
                 .col-xs-6
-                  %input.form-control{:id=> "headersearchfield", :type => "text",  :onkeypress => "if(event.keyCode == 13){headersearchfnc(document.getElementById('headersearchby'), document.getElementById('headersearchfield').value);return false;}"}
+                  %input.form-control{:id=> "headersearchfield", :type => "text",  :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('headersearchby'), document.getElementById('headersearchfield').value);return false;}"}
                 %span.separator.pull-left 
                   |
                 .btn-group.pull-left.col-xs-3
@@ -56,7 +105,7 @@
                       = I18n.t(:option_title)
                     %option.topdropdown-search{:value => "language"} 
                       = I18n.t(:option_language)
-                    %option.topdropdown-search{:value => "published_on"} 
+                    %option.topdropdown-search{:value => "published_at"} 
                       = I18n.t(:option_publish_time)
                     %option.topdropdown-search{:value => "publisher"} 
                       = I18n.t(:option_publisher)
@@ -73,7 +122,7 @@
                 .clearfix.visible-xs  
               %span.separator.pull-left 
                 |    
-              %a.go.pull-left{:href => "#", :onclick=>"headersearchfnc(document.getElementById('headersearchby'), document.getElementById('headersearchfield').value); return false;"}
+              %a.go.pull-left{:href => "#", :onclick=>"searchfnc('#{jsquery}', document.getElementById('headersearchby'), document.getElementById('headersearchfield').value); return false;"}
                 %i.fa.fa-arrow-circle-right.fa-2x
               .clearfix
           .col-md-2    

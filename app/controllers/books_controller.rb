@@ -12,7 +12,7 @@ class BooksController < ApplicationController
     @url_params = fix_dar_url(params)
     @page_title = I18n.t(:search_results_colon)
     @query_array = {'ALL' => [], 'title'=> [], 'language'=> [], 'published_at'=> [], 'geo_location'=> [],
-                    'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> []}
+                    'author'=> [], 'name'=> [], 'subject'=> [], 'content'=> [], 'date'=> [], 'publisher'=> []}
     @selectoptions = {I18n.t(:selection_all_option) => "ALL",
                       I18n.t(:book_title_title) => "title",
                       I18n.t(:book_language_title) => "language",
@@ -191,29 +191,22 @@ class BooksController < ApplicationController
   private
     def save_user_history(params)
       user = User.find_by_id(session[:user_id])
-      if(!user.nil?)
-        volume = Volume.find_by_job_id(params[:id])
-        history = UserBookHistory.where(:volume_id => volume.id, :user_id => user.id)
-        if(history.count == 0)
-          ubh = UserBookHistory.new
-          ubh.user = user
-          ubh.volume = volume
-          ubh.updated_at = Time.now
-          ubh.save
-          update_solr_views(volume)
-        else
-          history[0].updated_at = Time.now
-          history[0].save
-        end
-      end
+      volume = Volume.find_by_job_id(params[:id])
+      ubh = UserBookHistory.new
+      ubh.user = user
+      ubh.volume = volume
+      ubh.updated_at = Time.now
+      ubh.save
+      update_solr_views(volume)
     end
     def getcollections(id, start, limit)
+      # user id is removed so that only the public collections will be displayed
       Collection.find_by_sql("SELECT collections.id, collections.title
                   FROM collections 
                   INNER JOIN volume_collections
                     ON (collections.id = volume_collections.collection_id)
                  WHERE volume_collections.volume_id=#{Volume.find_by_job_id(id).id} 
-                 AND (collections.is_public = true OR collections.user_id = #{session[:user_id]})
+                 AND collections.is_public = true
                   LIMIT #{start}, #{limit};")
     end
     def getalsoviewed(id, start, limit)
@@ -270,7 +263,7 @@ class BooksController < ApplicationController
     def fill_related_carousel_array(response, id)
       total_array = []
       response['response']['docs'].each do |doc|
-        if(doc['vol_jobid'] != id)
+        if(doc['vol_jobid'].to_i != id.to_i)
           element = {}
           element[:id] = doc[:vol_jobid]
           element[:title] = doc[:bok_title][0]
@@ -279,7 +272,7 @@ class BooksController < ApplicationController
       end
       total_array
     end
-  def get_solr_related(id)
+  	def get_solr_related(id)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     #origin_book_names = rsolr.find :q => "vol_jobid:(#{volume_id})", :fl => "name"
     origin_book_names=  Name.find_by_sql("

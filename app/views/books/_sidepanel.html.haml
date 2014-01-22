@@ -6,7 +6,8 @@
     $('.tooltiplogin').tooltipster({ interactive: true, fixedWidth: 280});
     updatedetailedrate();
     $(".averagerate").jRating({
-      isDisabled : true
+      isDisabled : true,
+      bigStarsPath: "/images_#{I18n.locale}/stars_white.png"
     });
   });
   function updateStaticStars(){
@@ -83,21 +84,22 @@
               - @addbookvol = params[:id]  
               =render :partial => "books/add_book"
     .list-group-item
-      #averagerate.rate
-        - rate = @volume.rate
-        - if @volume.rate.nil?
-          - rate = 0.0
-        .averagerate{:style => "float: right", :data => "#{rate}"}
-        %span.text-muted
-          =I18n.t(:book_details_average_rate)
-      #detailedrate.rate
+      - rate = @volume.rate
+      - if @volume.rate.nil?
+        - rate = 0.0
+      .averagerate.rate{:style => "float: right", :data => "#{rate}"}
+      %span.text-muted
+        =I18n.t(:book_details_average_rate)
+      #detailedrate
       
+      
+      .ratenotcolored{:style => "height: 23px;float: right;"}
+        = render :partial => "books/rating"
       %span.text-muted
         - if logged_in?
           =I18n.t(:book_details_user_rate)
-      .userbookrate{:style => "height: 25px;"}
-        = render :partial => "books/rating"
-      %br
+      
+        %br
     .list-group-item
       %span.badge.badge-success 
         ="#{@collections_count}"

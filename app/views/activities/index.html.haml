@@ -5,7 +5,7 @@
     %hr
     .well.text-center
       = render :partial => "activities/filter"
-    .panel.panel-default
+    .panel.panel-default.activity-listing
       - count = 0
       - @activities.each do |item|
         - if !item.nil?

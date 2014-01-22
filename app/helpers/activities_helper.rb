@@ -13,7 +13,7 @@ module ActivitiesHelper
         elsif(activity[:table_type] == "volume_ratings")
           volume_rating = VolumeRating.find(activity[:id])
           # log record of each rated book contains user name , book name and rate vaule
-          log_record = "<p><a class='author' href = '/users/#{volume_rating.user_id}'>#{User.find(volume_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a class= 'book_title' href = '/books/#{(Volume.find(volume_rating.volume_id)).job_id}'> #{Volume.find(volume_rating.volume_id).book.title}</a>#{I18n.t(:log_activity_with)} #{volume_rating.rate}</p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>"
+          log_record = "<p><a class='author' href = '/users/#{volume_rating.user_id}'>#{User.find(volume_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a class= 'book_title' href = '/books/#{(Volume.find(volume_rating.volume_id)).job_id}'> #{Volume.find(volume_rating.volume_id).book.title}</a> #{I18n.t(:log_activity_with)} #{volume_rating.rate}</p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>"
           log = {:user => volume_rating.user_id, :record => log_record}
         elsif(activity[:table_type] == "collection_ratings")
           collection_rating = CollectionRating.find(activity[:id])
@@ -27,7 +27,7 @@ module ActivitiesHelper
           # log record of each comment on a collection contains user name , collection name and comment text
           log_record = "<p><a class='author' href = '/users/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)}  <a class= 'book_title' href = '/collections/#{comment.collection_id}'>#{Collection.find(comment.collection_id).title}</a>:  <br/>#{comment.text}</p><small class='text-muted'>  #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.collection_id.nil?)
           # log record of each reply on a comment contains user name , base comment text and reply text
-          log_record = "<p><a class='author' href = '/user/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)} #{Comment.find(comment.comment_id).text}:  <br/>#{comment.text} </p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.comment_id.nil?)
+          log_record = "<p><a class='author' href = '/users/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)} #{Comment.find(comment.comment_id).text}:  <br/>#{comment.text} </p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.comment_id.nil?)
           log = {:user => comment.user_id, :record => log_record}
           end
         log_records << log
@@ -46,32 +46,26 @@ module ActivitiesHelper
     when "rate"
       stmt = "SELECT SUM(result.count) AS count
                 FROM((SELECT count(*) AS count
-                FROM volume_ratings
-                WHERE user_id = 34)
+                FROM volume_ratings)
                 UNION
                 (SELECT count(*) AS count
-                FROM collection_ratings
-                WHERE user_id = 34)
+                FROM collection_ratings)
                 ) result;"
     when "collections"
       stmt = "SELECT SUM(result.count) AS count
                 FROM((SELECT count(*) AS count
-                FROM collections
-                WHERE user_id = 34)
+                FROM collections)
                 ) result;"
     else
       stmt = "SELECT SUM(result.count) AS count
                 FROM((SELECT count(*) AS count
-                FROM collections
-                WHERE user_id = 34)
+                FROM collections)
                 UNION
                 (SELECT count(*) AS count
-                FROM volume_ratings
-                WHERE user_id = 34)
+                FROM volume_ratings)
                 UNION
                 (SELECT count(*) AS count
-                FROM collection_ratings
-                WHERE user_id = 34)
+                FROM collection_ratings)
                 UNION
                 (SELECT count(*) AS count
                 FROM comments WHERE number_of_marks IS NULL OR number_of_marks = 0)

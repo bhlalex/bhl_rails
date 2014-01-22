@@ -1,24 +1,28 @@
-.col-md-8.column
+- if @total_number[0][:count].to_i > 0
+  .col-md-8.column
+    %h4
+      = I18n.t(:user_activity_title)
+      %span.badge
+        = @total_number[0][:count].to_i
+    %hr
+    - @log_records.each do |item|
+      - if !item.nil?
+        - @user = User.find(item[:user])
+        - if(@user.photo_name.blank?)
+          - @thumb = "/images_#{I18n.locale}/user.png"
+        - else
+          - @thumb = @user.photo_name_url(:thumb)
+        .media
+          %a.pull-left{:href=> "/users/#{@user.id}/profile"}
+            = image_tag("#{@thumb}",:class => "media-object img-circle")
+          .media-body.activity-log
+            =item[:record].html_safe
+        %hr
+    - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+      .col-md-8
+        .pagination-centered
+          - @pages = adjustPaging(@page, @lastPage)
+          = render :partial => "books/paging"
+- else
   %h4
-    = I18n.t(:user_activity_title)
-    %span.badge
-      = @total_number[0][:count].to_i
-  %hr
-  - @log_records.each do |item|
-    - if !item.nil?
-      - @user = User.find(item[:user])
-      - if(@user.photo_name.blank?)
-        - @thumb = "/images_#{I18n.locale}/user.png"
-      - else
-        - @thumb = @user.photo_name_url(:thumb)
-      .media
-        %a.pull-left{:href=> "/users/#{@user.id}/profile"}
-          = image_tag("#{@thumb}",:class => "media-object img-circle")
-        .media-body.activity-log
-          =item[:record].html_safe
-      %hr
-  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-    .col-md-8
-      .pagination-centered
-        - @pages = adjustPaging(@page, @lastPage)
-        = render :partial => "books/paging"
+    = I18n.t(:profile_no_activities_found)           

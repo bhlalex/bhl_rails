@@ -129,69 +129,69 @@ class UsersController < ApplicationController
       # end
 
       elsif @tab == "activity"
-            if authenticate_user
-              @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
-                                                        FROM((SELECT id, count(*) AS count
-                                                        FROM collections
-                                                        WHERE user_id = #{session[:user_id]})
-                                                        UNION
-                                                        (SELECT id, count(*) AS count
-                                                        FROM volume_ratings
-                                                        WHERE user_id = #{session[:user_id]})
-                                                        UNION
-                                                        (SELECT id, count(*) AS count
-                                                        FROM collection_ratings
-                                                        WHERE user_id = #{session[:user_id]})
-                                                        UNION
-                                                        (SELECT id, count(*) AS count
-                                                        FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
-                                                        and user_id = #{session[:user_id]})
-                                                        ) result;")
-              # applying pagination on log_records array
-              @page = params[:page] ? params[:page].to_i : 1
-              limit = TAB_PAGE_SIZE
-              offset = (@page > 1) ? (@page - 1) * limit : 0
-              @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
-              # sql_stmt : to select current user activities including creating new collection,
-              # rating book or collection
-              # and also commented on book or collection ordered by creation time
-              sql_stmt = "SELECT
-                          result.table_type AS table_type,
-                          result.id AS id,
-                          result.time AS time
-                          FROM((SELECT 'collection' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM collections
-                          WHERE user_id = #{@user.id})
-                          UNION
-                          (SELECT
-                          'volume_ratings' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM volume_ratings
-                          WHERE user_id = #{@user.id})
-                          UNION
-                          (SELECT
-                          'volume_ratings' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM collection_ratings
-                          WHERE user_id = #{@user.id})
-                          UNION
-                          (SELECT
-                          'comments' AS table_type,
-                          id AS id,
-                          created_at AS time
-                          FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
-                          and user_id = #{@user.id})
-                          ) result
-                          ORDER BY time DESC LIMIT #{offset}, #{limit};"
-              # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
-              @log_records = get_log_activity(sql_stmt)
-              @url_params = params.clone
-            end
-            # end
+        collections_cond = "is_public = true AND user_id = #{@user.id}"
+        collections_cond = "user_id = #{@user.id}" if @user.id == session[:user_id]
+        @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
+                                                FROM((SELECT id, count(*) AS count
+                                                FROM collections
+                                                WHERE #{collections_cond})
+                                                UNION
+                                                (SELECT id, count(*) AS count
+                                                FROM volume_ratings
+                                                WHERE user_id = #{@user.id})
+                                                UNION
+                                                (SELECT id, count(*) AS count
+                                                FROM collection_ratings
+                                                WHERE user_id = #{@user.id})
+                                                UNION
+                                                (SELECT id, count(*) AS count
+                                                FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                                                and user_id = #{@user.id})
+                                                ) result")
+        # applying pagination on log_records array
+        @page = params[:page] ? params[:page].to_i : 1
+        limit = TAB_PAGE_SIZE
+        offset = (@page > 1) ? (@page - 1) * limit : 0
+        @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
+        # sql_stmt : to select current user activities including creating new collection,
+        # rating book or collection
+        # and also commented on book or collection ordered by creation time
+        sql_stmt = "SELECT
+                    result.table_type AS table_type,
+                    result.id AS id,
+                    result.time AS time
+                    FROM((SELECT 'collection' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM collections
+                    WHERE #{collections_cond})
+                    UNION
+                    (SELECT
+                    'volume_ratings' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM volume_ratings
+                    WHERE user_id = #{@user.id})
+                    UNION
+                    (SELECT
+                    'collection_ratings' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM collection_ratings
+                    WHERE user_id = #{@user.id})
+                    UNION
+                    (SELECT
+                    'comments' AS table_type,
+                    id AS id,
+                    created_at AS time
+                    FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                    and user_id = #{@user.id})
+                    ) result
+                    ORDER BY time DESC LIMIT #{offset}, #{limit};"
+      # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
+      @log_records = get_log_activity(sql_stmt)
+      @url_params = params.clone
+    # end
 
     elsif @tab == "collections"
       @page = params[:page] ? params[:page].to_i : 1
@@ -341,15 +341,29 @@ class UsersController < ApplicationController
     if authenticate_user
       @user = User.find(params[:id])
       user_attr = params[:user]
-
-      if (!(params[:user][:photo_name].nil?))
-        file = user_attr[:photo_name].original_filename
-        if(file[file.length-5].chr == '.')
-          user_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
-        else
-          user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+      
+        if params[:test] != true
+          if (!(params[:user][:photo_name].nil?))
+            file = user_attr[:photo_name].original_filename
+            if(file[file.length-5].chr == '.')
+              user_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+            else
+              user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+            end
+          end
         end
+    if((!(user_attr[:entered_password].nil?) && !(user_attr[:entered_password].blank?)) || (!(user_attr[:password_confirmation].nil?) && !(user_attr[:password_confirmation].blank?)))
+      if((user_attr[:old_password].nil?) || (user_attr[:old_password].blank?))
+        flash.now[:error] = I18n.t("old_password_required")
+                  flash.keep
+                  @action = "modify"
+                  @user.email_confirmation = @user.email
+                  params[:entered_password] = nil
+                  params[:password_confirmation] = nil
+                  render :action => :edit
+                  return
       end
+    end
 
       if(!(user_attr[:old_password].nil?) && !(user_attr[:old_password].blank?))
         if(!(User.authenticate(user_attr[:username],user_attr[:old_password])))
@@ -387,7 +401,7 @@ class UsersController < ApplicationController
 
   def get_user_profile_photo
      @user = User.find(params[:id])
-     if (params[:is_delete].to_i == 1)
+     if (params[:id].to_i == session[:user_id] && params[:is_delete].to_i == 1)
        @user[:photo_name] = ''
        @user.save
       delete_user_photo(params[:id])
@@ -451,7 +465,7 @@ class UsersController < ApplicationController
       render :json => data
     else
       #go to sign in page
-      redirect_to :controller => :users, :action => :login
+      render :js => "window.location = '/users/login'"
     end
   end
 

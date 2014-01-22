@@ -2,11 +2,14 @@
 = javascript_include_tag 'jquery/rating/jRating.jquery.js'
 
 - if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
+  - counter = 0
   - @collections.each do |item|
+    - counter = counter + 1
     :javascript
       $(document).ready(function(){
         $("#starsidelink_#{item.id}").jRating({
-          isDisabled : true
+          isDisabled : true,
+          bigStarsPath: "/images_#{I18n.locale}/stars_white.png"
         });
       });
     - if(item.photo_name.blank?)
@@ -14,21 +17,27 @@
     - else
       - @thumb = item.photo_name_url(:thumb)
     .col-md-4
-      .media.collection
+      %div{:id => "collection #{counter}", :class => "media collection", :name => "collection #{item.id}"}
         %a.pull-left{:href=>"#{collection_path(:id=>item.id)}"}
           =image_tag("#{@thumb}",:class => "media-object img-thumbnail")
         .media-body{:style=> "float:right;"}
           %h4.media-heading
             = link_to item.title, {:controller => :collections, :action => :show, :id => item.id}
+            - collection_volumes = item.volume_collections
+            - total_number = collection_volumes.count
+            %span.badge{:title => "#{I18n.t(:collections_books_number_tip)}", :pointer => "cursor"}
+              = "#{total_number}"
           %i.fa.fa-user
           %small
-            = link_to User.find(item.user_id).real_name, {:controller => :users, :action => :show, :id => item.user_id}
+            = link_to "#{I18n.t(:collection_by)} #{User.find(item.user_id).real_name}", {:controller => :users, :action => :show, :id => item.user_id}
           %p
             %small
               =item.description    
-          %i.fa.fa-calendar-o
-          %small
-            =item.created_at
+          %i.fa.fa-calendar-o 
+          = I18n.t(:collection_creation_date)
+          %p
+            %small
+              =item.created_at
           .rate
             - if item.rate != 0.0
               .starsidelink{:id => "starsidelink_#{item.id}", :data => "#{item.rate}"}

@@ -68,6 +68,11 @@ class CollectionsController < ApplicationController
     collection = Collection.find(params[:id])
     if authenticate_user(collection.user_id)
       collection.destroy
+      # destroy rates of this collection
+      rates = CollectionRating.where(:user_id => collection.user_id, :id => collection.id)
+      rates.each do |rate|
+        rate.destroy
+      end
       flash[:notice]=I18n.t(:collection_destroyed)
       flash.keep
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
@@ -118,18 +123,17 @@ class CollectionsController < ApplicationController
     if authenticate_user(@collection.user_id)
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         collection_attr = params[:collection]
-        if (!(params[:collection][:photo_name].nil?))
-          file = collection_attr[:photo_name].original_filename
-          if(file[file.length-5].chr == '.')
-            collection_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
-          else
-            collection_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+        if params[:test] != true
+          if (!(params[:collection][:photo_name].nil?))
+            file = collection_attr[:photo_name].original_filename
+            if(file[file.length-5].chr == '.')
+              collection_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+            else
+              collection_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+            end
           end
-        end
+      end
         if @collection.update_attributes(collection_attr)
-          if ((params[:delete_photo]))
-            delete_collection_photo(params[:id])
-          end
           @collection[:updated_at] = Time.now
           @collection.save
           flash.now[:notice]=I18n.t(:collection_updated)
@@ -191,18 +195,38 @@ class CollectionsController < ApplicationController
     end
   end
   
-def get_collection_photo
-   @collection = Collection.find(params[:id])
-   if (params[:is_delete].to_i == 1)
-     @collection[:photo_name] = ''
-     @collection.save
-    delete_collection_photo(params[:id])
-   end
-  respond_to do |format|
-    format.html {render :partial => "collections/get_collection_photo"}
+  def get_collection_photo
+     @collection = Collection.find(params[:id])
+     if (@collection.user_id == session[:user_id] && params[:is_delete].to_i == 1)
+       @collection[:photo_name] = ''
+       @collection.save
+      delete_collection_photo(params[:id])
+     end
+    respond_to do |format|
+      format.html {render :partial => "collections/get_collection_photo"}
+    end
   end
-end
   
+  def autocomplete
+    term = "#{params[:term]}%"
+    @results = []
+    response = Collection.find_by_sql("
+      SELECT 
+        title, COUNT(id) AS count 
+      FROM collections 
+      WHERE title LIKE \"#{term}\"
+      GROUP BY title 
+      ORDER BY count DESC 
+      LIMIT 0, 4;
+      ")
+    response.each do |item|
+      @results << item.title
+    end 
+    if (@results.length == 0)
+      @results << "No Suggestion"
+    end
+    render json: @results
+  end
   private
 
   def add_to_existing_collection(col)

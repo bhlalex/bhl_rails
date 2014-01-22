@@ -48,4 +48,5 @@ group :development, :test do
   gem 'acts_as_list'
   gem "carrierwave"
   gem "mini_magick"
+  gem 'selenium-webdriver', '2.39.0'
 end

@@ -1,52 +1,57 @@
-.col-md-8.column  
-  %h4
-    = I18n.t(:user_collection_title)
-    %span.badge
-      = @total_number
-  %hr
-  -@collections.each do |item|
-    :javascript
-      $(document).ready(function(){
-        $("#starsidelink_#{item.id}").jRating({
-          isDisabled : true
+- if @total_number > 0
+  .col-md-8.column  
+    %h4
+      = I18n.t(:user_collection_title)
+      %span.badge
+        = @total_number
+    %hr
+    -@collections.each do |item|
+      :javascript
+        $(document).ready(function(){
+          $("#starsidelink_#{item.id}").jRating({
+            isDisabled : true,
+            bigStarsPath: "/images_#{I18n.locale}/stars_grey.png"
+          });
         });
-      });
-    - if(item.photo_name.blank?)
-      - thumb = "/images_#{I18n.locale}/nocollection140.png"
-    - else
-      - thumb = item.photo_name_url(:thumb)
-    .row
-      .col-md-2
-        = link_to image_tag("#{thumb}") , {:controller => :collections, :action => :show, :id => item.id}
-      .col-md-7
-        %h4
-          = link_to "#{item.title}", {:controller => :collections, :action => :show, :id => item.id}
-        .date.text-muted
-          %small
-            %b
-              = I18n.t(:user_collection_added_on)
-            = item.created_at
-      .col-md-3.controls
-        
-        %ul.fa-ul.tools
-          - if (item.user_id == session[:user_id])
-            %li
-              %i.fa.fa-li.fa-trash-o
-              %small
-                = link_to I18n.t(:delete), {:controller => :collections, :action => :destroy_collection, :id => item.id,
-                   :user_id => item[:user_id],:id => item.id, :page => @page},
-                   :onclick => "return confirmDelete(\"#{I18n.t(:delete_collection_confirm)}\")"
-          %li
-            %i.fa.fa-li.fa-info
+      - if(item.photo_name.blank?)
+        - thumb = "/images_#{I18n.locale}/nocollection140.png"
+      - else
+        - thumb = item.photo_name_url(:thumb)
+      .row
+        .col-md-2
+          = link_to image_tag("#{thumb}") , {:controller => :collections, :action => :show, :id => item.id}
+        .col-md-7
+          %h4
+            = link_to "#{item.title}", {:controller => :collections, :action => :show, :id => item.id}
+          .date.text-muted
             %small
-              = link_to "#{I18n.t(:book_details_details)}" , 
-                {:controller => :collections, :action => :show, :id => item.id}    
-        - if item.rate != 0.0
-          .starsidelink{:id => "starsidelink_#{item.id}", :data => "#{item.rate}"}    
-      .clearfix
-      %hr
-  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-    .col-md-8
-      .pagination-centered
-        - @pages = adjustPaging(@page, @lastPage)
-        = render :partial => "books/paging"
+              %b
+                = I18n.t(:user_collection_added_on)
+              = item.created_at
+        .col-md-3.controls
+          
+          %ul.fa-ul.tools
+            - if (item.user_id == session[:user_id])
+              %li
+                %i.fa.fa-li.fa-trash-o
+                %small
+                  = link_to I18n.t(:delete), {:controller => :collections, :action => :destroy_collection, :id => item.id,
+                     :user_id => item[:user_id],:id => item.id, :page => @page},
+                     :onclick => "return confirmDelete(\"#{I18n.t(:delete_collection_confirm)}\")"
+            %li
+              %i.fa.fa-li.fa-info
+              %small
+                = link_to "#{I18n.t(:book_details_details)}" , 
+                  {:controller => :collections, :action => :show, :id => item.id}    
+          - if item.rate != 0.0
+            .starsidelink{:id => "starsidelink_#{item.id}", :data => "#{item.rate}"}    
+        .clearfix
+        %hr
+    - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
+      .col-md-8
+        .pagination-centered
+          - @pages = adjustPaging(@page, @lastPage)
+          = render :partial => "books/paging"
+- else
+  %h4
+    = I18n.t(:profile_no_collections_found)     

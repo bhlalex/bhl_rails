@@ -79,6 +79,7 @@ describe CommentsController do
     end
   end
 
+  # TODO AJAX TEST
   describe "abuse comment" do
     describe "abuse comment for a book" do
 

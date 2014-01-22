@@ -1,6 +1,7 @@
-.col-md-9.column
-  %h4
-    = I18n.t(:user_annotation_title)
+- if @total_number > 0
+  .col-md-9.column
+    %h4
+      = I18n.t(:user_annotation_title)
     %span.badge
       = @total_number
 .row.col-md-9
@@ -18,7 +19,7 @@
             = link_to :controller => :books, :action => :show, :id => @vol.job_id , :tab => "read" do
               %i.fa.fa-book
               = I18n.t(:sidelinks_read)
-            = link_to :controller => :books, :action => :show, :id => @vol.job_id do
+            = link_to :controller => :books, :action => :show, :id => @vol.job_id, :tab => "" do
               %i.fa.fa-info
               = I18n.t(:sidelinks_detail)  
         .notediv
@@ -66,3 +67,7 @@
                 %p.small
                   = highlight.text
                 %hr
+- else
+  %h4
+    = I18n.t(:profile_no_annotations_found)
+

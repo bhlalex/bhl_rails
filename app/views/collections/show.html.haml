@@ -5,10 +5,20 @@
 
   $(document).ready(function(){
     $("#starsidelink_#{@collection.id}").jRating({
-      isDisabled : true
+      isDisabled : true,
+      bigStarsPath: "/images_#{I18n.locale}/stars_white.png"
     });
   });
   
+  function confirmDelete_photo(){
+    var r= confirm("#{I18n.t(:delete_collection_photo_confirm)}");
+    if (r)
+      get_photo(1);
+    else{
+      $('#delete_photo').removeAttr('checked');
+      return false;
+      }
+  }
   function get_photo(is_delete){
     var xmlhttp;
     if (window.XMLHttpRequest)
@@ -24,6 +34,8 @@
     {
       if (xmlhttp.readyState==4 && xmlhttp.status==200)
       {
+        if (is_delete == 1)
+          alert("#{I18n.t(:delete_photo_flash)}");
         document.getElementById("photo").innerHTML=xmlhttp.responseText;
       }
     }  
@@ -49,11 +61,11 @@
         %i.fa.fa-user      
         = link_to :controller => :users, :action => :show, :id => @collection.user_id do
           = User.find(@collection.user_id).real_name
-        = " - "
-        
-        = link_to :controller => :collections, :action => :edit, :id => @collection.id do
-          %i.fa.fa-edit
-          = I18n.t(:edit_collection)
+        - if @collection.user_id == session[:user_id]
+          = " - "
+          = link_to :controller => :collections, :action => :edit, :id => @collection.id do
+            %i.fa.fa-edit
+            = I18n.t(:edit_collection)
         %br
         %i.fa.fa-calendar-o
         = @collection.created_at
