@@ -319,7 +319,7 @@ describe "collections" do
         fill_in "commnettext", :with => "comment text"
         find("#post").click
         page.should have_content("comment text")
-        page.should have_selector("img", :src => "/images_en/user.png")
+        page.should have_selector("img", :src => "/images_#{I18n.locale}/user.png")
       end
       
       it "should have link to the owner of the comment", :js => true do
@@ -347,18 +347,17 @@ describe "collections" do
         page.should have_content("comment text")
       end
       
-#      it "should not create comment with empty text", :js => true do
-#        #log in user 1
-#        visit("/users/login")
-#        fill_in "username", :with => "#{@user1.username}"
-#        fill_in "password", :with => "test password"
-#        find("#submit").click
-#        visit("/collections/#{@col.id}")
-#        find("#modal-4").click
-#        fill_in "commnettext", :with => "comment text"
-#        find("#post").click
-#        Comment.all.count.should == 0
-#      end
+      it "should not create comment with empty text", :js => true do
+        #log in user 1
+        visit("/users/login")
+        fill_in "username", :with => "#{@user1.username}"
+        fill_in "password", :with => "test password"
+        find("#submit").click
+        visit("/collections/#{@col.id}")
+        find("#modal-4").click
+        find("#post").click
+        Comment.all.count.should == 0
+      end
       
       it "should display other users comments" , :js => true do
         #log in user 1
@@ -492,7 +491,7 @@ describe "collections" do
         #show collection detail
         visit("/collections/#{@col.id}")
         # check displaying user avatar
-        expect(page).to have_selector("img", :src => "/images_en/nocollection140.png")
+        expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/nocollection140.png")
         expect(page).not_to have_selector("input", :id => "delete_photo")
       end
     end
@@ -506,7 +505,7 @@ describe "collections" do
         find("#submit").click
         # upload photo for collection
         visit("/collections/#{@col.id}/edit")
-        attach_file('photo_name', "#{Rails.root}/public/images_en/logo.png")
+        attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/logo.png")
         find("#submit").click
         visit("/users/logout")
       end
@@ -532,7 +531,7 @@ describe "collections" do
         fill_in "password", :with => "test password"
         find("#submit").click
         visit("/get_collection_photo?id=#{@col.id}&is_delete=1")
-        expect(page).to have_selector("img", :src => "/images_en/nocollection140.png")
+        expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/nocollection140.png")
         expect(page).not_to have_selector("input", :id => "delete_photo")
         FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
       end

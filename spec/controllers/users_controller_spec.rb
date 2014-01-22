@@ -285,7 +285,7 @@ describe UsersController do
 
       it "should have an image for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a>img', :src => "/images_en/nocollection140.png")
+        response.should have_selector('a>img', :src => "/images_#{I18n.locale}/nocollection140.png")
       end
 
       it "should have delete link for the collections owned by the current user" do
@@ -683,7 +683,7 @@ describe UsersController do
       it "can upload valid photo" do
          user_before_update = @user
          log_in(@user)
-          @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
+          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
         post :update, { :id => @user.id, :test => true, :user => { :id => @user.id, 
           :username => user_before_update.username,
           :email => user_before_update.email,
@@ -701,7 +701,7 @@ describe UsersController do
 #      it "pictures with invalid size should not be uploaded" do
 #         user_before_update = @user
 #         log_in(@user)
-#          @file =  Rack::Test::UploadedFile.new('public/images_en/user.png', 'image/png')
+#          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
 #        post :update, { :id => @user.id, :test => true, :user => { :id => @user.id, 
 #          :username => user_before_update.username,
 #          :email => user_before_update.email,
