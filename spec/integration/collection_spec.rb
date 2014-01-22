@@ -347,18 +347,17 @@ describe "collections" do
         page.should have_content("comment text")
       end
       
-#      it "should not create comment with empty text", :js => true do
-#        #log in user 1
-#        visit("/users/login")
-#        fill_in "username", :with => "#{@user1.username}"
-#        fill_in "password", :with => "test password"
-#        find("#submit").click
-#        visit("/collections/#{@col.id}")
-#        find("#modal-4").click
-#        fill_in "commnettext", :with => "comment text"
-#        find("#post").click
-#        Comment.all.count.should == 0
-#      end
+      it "should not create comment with empty text", :js => true do
+        #log in user 1
+        visit("/users/login")
+        fill_in "username", :with => "#{@user1.username}"
+        fill_in "password", :with => "test password"
+        find("#submit").click
+        visit("/collections/#{@col.id}")
+        find("#modal-4").click
+        find("#post").click
+        Comment.all.count.should == 0
+      end
       
       it "should display other users comments" , :js => true do
         #log in user 1
