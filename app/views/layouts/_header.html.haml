@@ -15,7 +15,10 @@
       &= strip_tags(page_title)
       
     = yield :head
-    = stylesheet_link_tag 'bootstrap'
+    - if "#{I18n.locale}" == "ar" 
+      = stylesheet_link_tag 'bootstrap'
+    - else
+      = stylesheet_link_tag 'bootstrap_en'
     = stylesheet_link_tag 'main'
     = stylesheet_link_tag 'font-awesome'
     = stylesheet_link_tag 'jquery/themes/jquery.ui.all.css'
@@ -82,6 +85,9 @@
     #wrap
       .container
         .row.clearfix.visible-md.visible-lg
+          = link_to_unless I18n.locale == :en, "English", locale: :en 
+          |
+          = link_to_unless I18n.locale == :ar, "Arabic", locale: :ar 
           .col-md-3
             %a{ :href => "/" }
               =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
