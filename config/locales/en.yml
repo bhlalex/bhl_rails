@@ -206,7 +206,10 @@ en:
   sidelinks_read: Read
   sidelinks_detail: Details
   sidelinks_add_collection: Add to Collection
-  sidelinks_views: view
+  sidelinks_views: 
+    zero: views
+    one: "1 view"
+    other: "%{count} view"
   listresult_author_by: "By:" 
   listresult_subject: "Genre:" 
   listresult_names: "Names:" 
@@ -228,7 +231,10 @@ en:
   book_details_details: Details
   book_details_average_rate: Average Rate
   book_details_user_rate: Your Rate
-  book_details_star: star
+  book_details_star: 
+    zero: ""
+    one: '%{count} star'
+    other: '%{count} stars'
   books_details_add_collection: Add to Collection
   book_details_collection_count:
     one:   "Collections"
@@ -444,14 +450,17 @@ ar:
   written_by_authors: 
     zero:  "بأي حال من الكتاب"
     one:   "من خلال مؤلف واحد"
+    two:
     other: "الكتاب %{count} بواسطة"
   written_in_languages: 
     zero:  "في أي لغات"
     one:   "في لغة واحدة"
+    two:   "في لغتين "
     other: "لغات %{count} في"
   containing_names: 
     zero:  "لا تحتوي على أسماء"
     one:   "تحتوي على اسم واحد"
+    two:   "تحتوي على اسمين"
     other: "أسماء علمية %{count} تحتوي على" 
   around_the_world: "حول العالم"
   tagged_species_caps: "الأنواع الموسومة"
@@ -494,7 +503,9 @@ ar:
   contact_us_message: 'شكرا لك على رسالتك'
   contact_us_title: 'اتصل بنا'
   invalid_email_address: 'عنوان البريد الإلكتروني غير صحيح'
-  
+  errors:
+    messages:
+      extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
  
   notifier:
     user_verification:
@@ -520,6 +531,7 @@ ar:
       template:
         header:
           one: "خطأ التحقق من صحة %{count} وجدت"
+          two:"خطأن التحقق من صحة %{count} وجدت"
           other: "أخطاء التحقق من صحة %{count} العثور على"
         body: ":فشل التحقق من صحة الحقول التالية"
       messages:
@@ -531,10 +543,12 @@ ar:
         empty: "لا يمكن أن تكون فارغة"
         blank: "لا يمكن أن تكون فارغة"
         too_long:
-          one: "حرف (%{count}  هو طويل جدا (الحد الأقصى هو"
-          other: "حرف (%{count} هو طويل جدا (الحد الأقصى هو"
+          one: " (حرف %{count}  هو طويل جدا (الحد الأقصى هو"
+          two: "   حرفين هو طويل جدا (الحد الأقصى هو"
+          other: " (حروف %{count} هو طويل جدا (الحد الأقصى هو"
         too_short:
           one: "حرف (%{count} هو قصيرة جدا (الحد الأقصى هو"
+          two:  "   حرفين هو طويل جدا (الحد الأقصى هو"
           other: "حرف (%{count} هو قصيرة جدا (الحد الأقصى هو"
           
         wrong_length: "حرف (%{count} هو طول خاطئة (يجب أن تكون"
@@ -638,11 +652,15 @@ ar:
   name_found_in_books:
     zero:  ""
     one:   "وجدت في كتاب واحد"
+    two:    " وجدت في كتابين"
     other: "كتاب %{count} وجدت في"
   sidelinks_read: 'قراءة'
   sidelinks_detail: 'تفاصيل'
   sidelinks_add_collection: 'إضافة إلى المجموعة'
-  sidelinks_views: 'عرض'
+  sidelinks_views:
+    one: "عرض 1"
+    two: "عرضان"
+    other: '%{count} عروض'
   listresult_author_by: "من خلال:"
   listresult_subject: "النوع:"
   listresult_names: "أسماء:" 
@@ -664,10 +682,15 @@ ar:
   book_details_details: 'تفاصيل'
   book_details_average_rate: 'متوسط ​​قيم'
   book_details_user_rate: 'تقييم لديك'
-  book_details_star: 'نجمة'
+  book_details_star: 
+    zero: ""
+    one: 'نجمة'
+    two: "نجمتان"
+    other: " %{count} نجوم"    
   books_details_add_collection: 'إضافة إلى المجموعة'
   book_details_collection_count:
-    one:   "مجموعات"
+    one:   "مجموعة"
+    two:   "مجموعتان"
     other: "مجموعات"
   book_details_found_collections: 'وجدت في مجموعات'
   book_details_user_viewed: 'معروض للمستخدم أيضا'
@@ -722,7 +745,8 @@ ar:
   collections_found:
     zero:  ""
     one:   "وجدت في مجموعة واحدة"
-    other: " مجموعات%{count} وجدت في"
+    two:   " وجدت في مجموعتان"
+    other: " مجموعات %{count} وجدت في"
   collections_found_all: " مجموعات%{count} وجدت"
   collection_by: "من خلال:"
   collection_creation_date: "تم إنشاء في:"
@@ -863,9 +887,11 @@ ar:
   books_found:
     zero:  ""
     one:   "وجدت في كتاب واحد"
-    other:  وجدت في%{count} كتاب 
-  books_found_all: وجدت %{count} كتاب 
-  
+
+    two: "وجدت في كتابين"
+    other: "كتاب %{count} وجدت في"
+  books_found_all: كتاب %{count} وجدت "
+ 
   tree_of_life_title: شجرة الحياة
   species_details: الأنواع تفاصيل
   select_species_for_details: اختر الأنواع على اليسار لعرض التفاصيل 

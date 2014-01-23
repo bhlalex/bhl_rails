@@ -57,7 +57,7 @@
               .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
           %span.text-muted.pull-right
             %small
-            = "#{pluralize(@book[:views], I18n.t(:sidelinks_views))} "
+            = "#{I18n.t(:sidelinks_views, :count => @doc[:views])} "
               
         .clearfix
         %hr
