@@ -59,7 +59,7 @@ en:
   
   errors:
     messages:
-       extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
+      extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
        
   notifier:
     user_verification:
@@ -127,7 +127,6 @@ en:
   missing_title_error_msg: "Title is too short (minimum is 4 characters)"
   save: "Save"
   cancel: "Cancel"
-  add_to_collection: "Add book to collection "
   add_book_dialog_title: "Add book to my collection"
   book_removed: "Book is removed"
   
@@ -164,10 +163,6 @@ en:
   ba_name: "Bibliotheca Alexandrina (BA)"
   bhl_site_name: "Biodivestiry Heritage Library - Egypt"
   search_go: Go
-  language: Language
-  geo_location: Geo Location
-  name: Name
-  content: Content
   
   #About US Page
   about_us_page_1: "The New %{ba_link} is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, as the project is regarded as a substantial enrichment to the BA's collection and simultaneously an optimum channel for sharing and propagating the Library's Arabic and non-Arabic biodiversity collection. This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, and furthers the inclusion and input of the Arabic-speaking countries."
@@ -223,10 +218,6 @@ en:
   #Pages (About US, Contact Us)
   about_us_page_title: About Us
   contact_us_page_title: Contact Us
-  sender: Sender
-  message_subject: Subject
-  text: Message
-  recaptcha: Type these words
   
   #Book Details Page
   book_details_mods: MODs
@@ -270,7 +261,6 @@ en:
   new_password_confirmation: New Password Confirmation
   change_password: Change Password
   invalid_old_password: Invalid Old Password
-  upload_photo_dim_error: You should upload a rectangle image
   
   #Browse Page
   browse_subject_page_header: Subjects
@@ -293,7 +283,7 @@ en:
   no_collections_found: No Collections Found...
   collections_found:
     zero:  ""
-    one:   "Found in one collections"
+    one:   "Found in one collection"
     other: "Found in %{count} collections"
   collections_found_all: "Found %{count} collections"
   collection_by: "By:"
@@ -441,80 +431,80 @@ en:
   
   tree_of_life_title: Tree of Life
   species_details: Species Details  
-  select_species_for_details: Select species on the left to view the details
+  select_species_for_details: Select species on the left to view the details  
+  
+  
   
 ar:
   books_count: 
-    zero:  "No books"
-    one:   "One book"
-    other: "%{count} books"
+    zero:  "لا كتب"
+    one:   "كتاب واحد"
+    two:   "كتابان"
+    other: "كتاب %{count}"
   written_by_authors: 
-    zero:  "By no authors"
-    one:   "By one author"
-    other: "By %{count} authors"
+    zero:  "بأي حال من الكتاب"
+    one:   "من خلال مؤلف واحد"
+    other: "الكتاب %{count} بواسطة"
   written_in_languages: 
-    zero:  "In no languages"
-    one:   "In one language"
-    other: "In %{count} languages"
+    zero:  "في أي لغات"
+    one:   "في لغة واحدة"
+    other: "لغات %{count} في"
   containing_names: 
-    zero:  "Containing no names"
-    one:   "Containing one name"
-    other: "Containing %{count} scientific names" 
-  around_the_world: "Around the world"
-  tagged_species_caps: "TAGGED SPECIES"
-  languages_caps: "LANGUAGES"
-  authors_caps: "AUTHORS"
-  regional_affiliation_caps: "REGIONAL AFFILIATION"
+    zero:  "لا تحتوي على أسماء"
+    one:   "تحتوي على اسم واحد"
+    other: "أسماء علمية %{count} تحتوي على" 
+  around_the_world: "حول العالم"
+  tagged_species_caps: "الأنواع الموسومة"
+  languages_caps: "لغات"
+  authors_caps: "المؤلفين"
+  regional_affiliation_caps: "الانتماء الإقليمي"
   genre_caps: "GENRE"
   
-  and_count_more: "and %{count} more"
+  and_count_more: "أكثر %{count} و"
   
   
-  delete_comment_confirm: Are you sure you want to delete this comment?
-  mark: Report as inappropriate
+  delete_comment_confirm: 'هل أنت متأكد أنك تريد حذف هذا التعليق؟'
+  mark: 'تقرير عن صورة غير ملائمة'
 
-  delete: Delete
-  comment_created: Thanks for your comment
-  comment_created_error: Error ocuured while creating new comment
-  hidden_comment_msg: This comment was hidden as it may contains inappropriate content
+  delete: 'حذف'
+  comment_created: 'شكرا لتعليقك'
+  comment_created_error:  'خطأ أثناء إنشاء تعليق جديد'
+  hidden_comment_msg: 'تم إخفاء هذا التعليق لأنها قد تحتوي على محتوى غير لائق'
 
-  search_results_colon: "Search Results: "
-  selection_all_option: "All"
-  no_books_found: "No Books Found..."
-  no_collections_found: 'No Collections Found...'
-  collection_title: Collection Title
-  show_collection_detail: Collection Detail
-  save_query: Save Query
-  query_saved: Query Saved
-  query_destroyed: Query Destroyed
-  author: Author
-  subject: Genre
-  collection_destroyed: Collection Destroyed
-  book: Book
-  collection_updated: Collection Updated
-  delete_saved_query_confirm: Are you sure you want to delete this query?
+  search_results_colon: "نتائج البحث"
+  selection_all_option: "الكل"
+  no_books_found: "لا كتب وجدت ..."
+  no_collections_found: 'لا يوجد مجموعات تم العثور عليها ... '
+  COLLECTION_TITLE: 'جمع عنوان'
+  show_collection_detail: 'جمع التفاصيل'
+  save_query: 'حفظ الاستعلام'
+  query_saved: 'استعلام تم الحفظ'
+  query_destroyed: 'استعلام المدمرة'
+  author: 'الكاتب'
+  subject: 'النوع'
+  collection_destroyed: 'جمع المدمرة'
+  book: 'كتاب'
+  collection_updated: 'جمع تحديث'
+  delete_saved_query_confirm: 'هل أنت متأكد أنك تريد حذف هذا الاستعلام؟'
   
-  public: Public
-  private: Private
-  collection_not_updated: Error Occured While Updating Collection
+  public: عام
+  private: خاص
+  collection_not_updated: 'خطأ حدث أثناء تحديث كوكتيل'
   
-  contact_us_message: Thank you for your message
-  contact_us_title: Contact Us
-  invalid_email_address: Invalid Email Address
+  contact_us_message: 'شكرا لك على رسالتك'
+  contact_us_title: 'اتصل بنا'
+  invalid_email_address: 'عنوان البريد الإلكتروني غير صحيح'
   
-  errors:
-    messages:
-       extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
-       
+ 
   notifier:
     user_verification:
-      subject: "Please verify your request for BHL Egypt"
-      message: "Thanks for registering with the BHL Egypt. The following link will verify that you wish to complete your registration and activate your account:<br><br>%{@verification_url}"
+      subject: "مصر BHL  الرجاء التحقق من طلبك للحصول على"
+      message: " %{@verification_url}<br><br> :مصر والرابط التالي سوف تحقق من أن كنت ترغب في إكمال تسجيلك وتفعيل حسابك  BHL شكرا لتسجيل مع"
     user_activated:
-      subject: "Your BHL account has been activated"
-      message: "Welcome to the BHL Egypt and thank you for registering!"
+      subject: "الخاص بك BHL تم تفعيل حساب"
+      message: "مصر وشكرا لكم لتسجيل BHL مرحبا بكم في"
     user_recover_account:
-      subject: "Recover your BHL account"
+      subject: "الخاصة بك BHL استرداد حساب"
       message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.<br><br>Your username is: <b>%{@username}</b><br><br>The following link provides a one time log in to allow you to change your password:<br><br>%{reset_password_url}"
   
   date:
@@ -529,362 +519,354 @@ ar:
       format: "%{attribute} %{message}"
       template:
         header:
-          one: "%{count} validation error found"
-          other: "%{count} validation errors found"
-        body: "The following fields failed validation:"
+          one: "خطأ التحقق من صحة %{count} وجدت"
+          other: "أخطاء التحقق من صحة %{count} العثور على"
+        body: ":فشل التحقق من صحة الحقول التالية"
       messages:
         taken: "has already beedit_collection_page_title: Edit Collectionen taken"
-        record_invalid: "Validation failed: %{errors}"
-        invalid: "is invalid"
-        confirmation: "doesn't match confirmation"
-        accepted: "must be accepted"
-        empty: "can't be empty"
-        blank: "can't be blank"
+        record_invalid: "أخطاء %{errors} فشل التحقق"
+        invalid: "غير صالح"
+        confirmation: "لا يتطابق تأكيد"
+        accepted: "جب أن تكون مقبولة"
+        empty: "لا يمكن أن تكون فارغة"
+        blank: "لا يمكن أن تكون فارغة"
         too_long:
-          one: "is too long (maximum is %{count} character)"
-          other: "is too long (maximum is %{count} characters)"
+          one: "حرف (%{count}  هو طويل جدا (الحد الأقصى هو"
+          other: "حرف (%{count} هو طويل جدا (الحد الأقصى هو"
         too_short:
-          one: "is too short (minimum is %{count} character)"
-          other: "is too short (minimum is %{count} characters)"
-        wrong_length: "is the wrong length (should be %{count} characters)"
-        not_a_number: "is not a number"
-        not_an_integer: "must be an integer"
+          one: "حرف (%{count} هو قصيرة جدا (الحد الأقصى هو"
+          other: "حرف (%{count} هو قصيرة جدا (الحد الأقصى هو"
+          
+        wrong_length: "حرف (%{count} هو طول خاطئة (يجب أن تكون"
+        not_a_number: "ليس عددا"
+        not_an_integer: "يجب أن يكون عدد صحيح"
         greater_than:
-          one: "must be greater than %{count}"
-          other: "must be greater than %{count}"
-        greater_than_or_equal_to: "must be greater than or equal to %{count}"
-        equal_to: "must be equal to %{count}"
+          one: "%{count} يجب أن يكون أكبر من"
+          other: "%{count} يجب أن يكون أكبر من"
+        greater_than_or_equal_to: "%{count} يجب أن تكون أكبر من أو تساوي"
+        equal_to: "%{count} يجب أن يكون مساويا ل"
         less_than:
-          one: "must be less than %{count}"
-          other: "must be less than %{count}"
-        less_than_or_equal_to: "must be less than or equal to %{count}"
-        odd: "must be odd"
-        even: "must be even"
-        inaccessible: "is inaccessible"
-        wrong_type: "is the wrong type"
+          one: "%{count} يجب أن يكون أقل من"
+          other: "%{count} يجب أن يكون أقل من"
+        less_than_or_equal_to: "%{count} يجب أن يكون أقل من أو يساوي"
+        odd: "يجب أن يكون غريبا"
+        even: "يجب أن يكون حتى"
+        inaccessible: "لا يمكن الوصول إليه"
+        wrong_type: "هو نوع خاطئ"
       full_messages:
         format: "%{attribute} %{message}"
-  choose_collection: "Choose a collection"
-  title: "Title"
-  description: "Description"
-  create_new_collection: "Create new collection"
-  public: "Public"
-  missing_title_error_msg: "Title is too short (minimum is 4 characters)"
-  save: "Save"
-  cancel: "Cancel"
-  add_to_collection: "Add book to collection "
-  add_book_dialog_title: "Add book to my collection"
-  book_removed: "Book is removed"
+  choose_collection: "اختيار مجموعة"
+  title: "العنوان"
+  description: "الوصف"
+  create_new_collection: "إنشاء مجموعة جديدة"
+  public: "العامة"
+  missing_title_error_msg: "عنوانها قصيرة جدا (الحد الأدنى هو 4 حروف)"
+  save: "حفظ"
+  cancel: "إلغاء"
+  add_book_dialog_title: "إضافة إلى كتاب مجموعتي"
+  book_removed: "تتم إزالة كتاب"
   
-  book_added_to_collection: "Book is successfully added to your collection"
-  successfully_added: "Successfully added"
-  ok: "Ok"
-  comment_deleted: "Comment deleted"
-  reply_deleted: "Reply deleted"
-  can_not_delete_comment: "You can't delete comment that has a reply"
-  rates: Rates
-  viewed: Viewed
-  sort_by: Sort by
-  not_member: Not a member?
+  book_added_to_collection: "يضاف كتاب بنجاح لجمع الخاصة بك"
+  successfully_added: "وأضاف بنجاح"
+  ok: "طيب"
+  comment_deleted: "تعليق حذف"
+  reply_deleted: "رد حذف"
+  can_not_delete_comment: "لا يمكنك حذف التعليقات التي تحتوي على الرد"
+  rates: 'الأسعار'
+  viewed: 'معروض'
+  sort_by: 'الترتيب حسب'
+  not_member: 'لست عضوا؟'
   
   #------------------------------------------------#NEW_LAYOUT-----------------------------------------------------------------
   #Header
-  header_signup: Sign Up
-  header_signout: Sign Out
-  header_login: Login
-  header_profile: Profile
-  bhl_homepage: BHL مصر
-  home_link: Home
-  about_us_link: About Us
-  contact_us_link: Contact Us
-  browse_all_link: Browse All
-  authors_link: Authors
-  subjects_link: Subjects
-  names_link: Names
-  collections_link: Collections
+  header_signup: 'اشترك'
+  header_signout: 'تسجيل الخروج'
+  header_login: 'تسجيل الدخول'
+  header_profile: 'الملف الشخصي'
+  bhl_homepage: 'BHL مصر'
+  home_link: 'الصفحة الرئيسية'
+  about_us_link: 'من نحن'
+  CONTACT_US_LINK: 'اتصل بنا'
+  browse_all_link: 'انظر جميع'
+  authors_link: 'مؤلفون'
+  subjects_link: 'الموضوعات'
+  names_link: 'أسماء'
+  collections_link: 'مجموعات'
   
-  bhl_page_title: "Biodivestiry Heritage Library - Egypt"
-  bhl_short_title: "BHL Egypt"
+  bhl_page_title: "مكتبة التراث Biodivestiry - مصر"
+  bhl_short_title: "BHL مصر"
   ba_home_page_link: "http://www.bibalex.org/Home/Default_EN.aspx"
-  ba_name: "Bibliotheca Alexandrina (BA)"
-  bhl_site_name: "Biodivestiry Heritage Library - Egypt"
-  search_go: Go
-  language: Language
-  geo_location: Geo Location
-  name: Name
-  content: Content
+  ba_name: "بمكتبة الإسكندرية (BA)"
+  bhl_site_name: "مكتبة التراث Biodivestiry - مصر"
+  search_go: 'الذهاب'
   
   #About US Page
-  about_us_page_1: "The New %{ba_link} is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, as the project is regarded as a substantial enrichment to the BA's collection and simultaneously an optimum channel for sharing and propagating the Library's Arabic and non-Arabic biodiversity collection. This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, and furthers the inclusion and input of the Arabic-speaking countries."
-  about_us_page_2: "Accordingly, the BA has been pursuing the mirroring and replication of BHL since early 2011. Its participation in BHL project emerged inevitably in its course of being one of the main players in the internationalization, localization and mirroring of the Encyclopedia of Life, creating the EOL in Arabic. In this context, the scope of the BA's contribution in BHL project generally includes: setting the infrastructure for the mirroring and replication of the original BHL book collection, development of Local-BHL system, and adding biodiversity material from the BA's collection to comprise material from the Arab world in Arabic as well as other languages."
-  
-  collections_link: Collections
-  write_review: Write a review
-  reviews: Reviews
-  replies: Replies
-  reply: Reply
-  older: Older
-  newer: Newer
-  post: Post
-  abuse: Report
-  create_comment: Create Comment
-  show: Show
+  about_us_page_1: "إن جديد%{ba_link} مكرس لاستعادة روح الانفتاح والبحث التي ميزت مكتبة الإسكندرية الأصلي وبالتالي، فإنه كان حريصا على المشاركة في مشروع مكتبة تراث التنوع البيولوجي العالمي (BHL)، كما يعتبر المشروع كما لتخصيب كبيرة لجمع مكتبة الإسكندرية في وقت واحد وقناة المثلى لتقاسم ونشر مجموعة التنوع البيولوجي العربية وغير العربية بالمكتبة. يأتي هذا التعاون المتبادل وفقا للمهمة BA في الاستفادة المعرفة للجميع، ويعزز الاندماج ومدخلات البلدان الناطقة بالعربية "
+  about_us_page_2: "وبناء على ذلك، تم بمكتبة الإسكندرية متابعة النسخ المتطابق وتكرار BHL منذ أوائل عام 2011 برزت مشاركتها في المشروع BHL لا محالة في طريقها من كونها واحدة من اللاعبين الرئيسيين في التدويل، وتوطين المتطابق من موسوعة الحياة، . إنشاء موسوعة الحياة باللغة العربية وفي هذا السياق، فإن نطاق مساهمة مكتبة الإسكندرية في مشروع BHL تشمل عموما: وضع البنية التحتية لالمتطابق وتكرار الأصلي جمع الكتاب BHL، وتطوير النظام المحلى-BHL، وإضافة مواد التنوع البيولوجي من جمع مكتبة الإسكندرية لتشمل مواد من العالم العربي باللغة العربية فضلا عن اللغات الأخرى "
+   
+  collections_link: 'مجموعات'
+  write_review: 'كتابة مراجعة'
+  reviews: 'ملاحظات'
+  replies: 'مشاركات'
+  reply: 'رد'
+  older: 'أقدم' 
+  newer: 'أحدث'
+  post: 'آخر'
+  abuse: 'تقرير'
+  create_comment: 'إنشاء تعليق'
+  show: 'عرض'
   
   #Header#search fields
-  option_all: All Categories
-  option_title: Title
-  option_language: Language
-  option_publish_time: Published On
-  option_publisher: Publisher
-  option_regional_affiliation: Regional Affiliation
-  option_author: Author
-  option_tagged_species: Tagged Species
-  option_genre: Genre
-  option_content: Content 
+  option_all: 'جميع الفئات'
+  option_title: 'العنوان'
+  option_language: 'اللغة'
+  option_publish_time: 'منشور في'
+  option_publisher: 'الناشر'
+  option_regional_affiliation: 'إقليمي الانتساب'
+  option_author: 'الكاتب'
+  option_tagged_species: 'نوع معلم'
+  option_genre: 'النوع'
+  option_content: 'المحتوى'
   #Footer
-  footer_home: Home
-  footer_about: About
-  footer_contact: Contact Us
-  copyright_statement: Copyright © Bibliotheca Alexandrina
+  footer_home: 'الصفحة الرئيسية'
+  footer_about: 'حول'
+  footer_contact: 'اتصل بنا'
+  copyright_statement: 'جميع الحقوق محفوظة © مكتبة الإسكندرية'
   
   #Browse books
-  no_books_found: No Books Found...
+  no_books_found: 'لا كتب تم العثور عليها ...'
   name_found_in_books:
     zero:  ""
-    one:   "Found in one book"
-    other: "Found in %{count} books"
-  sidelinks_read: Read
-  sidelinks_detail: Details
-  sidelinks_add_collection: Add to Collection
-  sidelinks_views: view
-  listresult_author_by: "By:" 
-  listresult_subject: "Genre:" 
-  listresult_names: "Names:" 
+    one:   "وجدت في كتاب واحد"
+    other: "كتاب %{count} وجدت في"
+  sidelinks_read: 'قراءة'
+  sidelinks_detail: 'تفاصيل'
+  sidelinks_add_collection: 'إضافة إلى المجموعة'
+  sidelinks_views: 'عرض'
+  listresult_author_by: "من خلال:"
+  listresult_subject: "النوع:"
+  listresult_names: "أسماء:" 
   terminator: "."
   separator: "/"
-  and_more: " and %{count} more..."
-  clear: Clear
+  and_more: " ...أكثر %{count} و"
+  clear: 'واضح'
   
   #Pages (About US, Contact Us)
-  about_us_page_title: About Us
-  contact_us_page_title: Contact Us
-  sender: Sender
-  message_subject: Subject
-  text: Message
-  recaptcha: Type these words
+  about_us_page_title: 'من نحن'
+  contact_us_page_title: 'اتصل بنا'
   
   #Book Details Page
-  book_details_mods: MODs
-  book_details_bibtex: BibTeX
-  book_details_endnote: EndNote
-  book_details_tools: Tools
-  book_details_read: Read
-  book_details_details: Details
-  book_details_average_rate: Average Rate
-  book_details_user_rate: Your Rate
-  book_details_star: star
-  books_details_add_collection: Add to Collection
+  book_details_mods: 'تعديل و'
+  book_details_bibtex: 'ببتخ'
+  book_details_endnote: 'تعليق ختامي'
+  book_details_tools: 'أدوات'
+  book_details_read: 'قراءة'
+  book_details_details: 'تفاصيل'
+  book_details_average_rate: 'متوسط ​​قيم'
+  book_details_user_rate: 'تقييم لديك'
+  book_details_star: 'نجمة'
+  books_details_add_collection: 'إضافة إلى المجموعة'
   book_details_collection_count:
-    one:   "Collections"
-    other: "Collections"
-  book_details_found_collections: Found in Collections
-  book_details_user_viewed: User also Viewed
-  book_details_related: Related Books 
-  book_title_title: 'Title'
-  book_author_title: 'Author/Creator'
-  book_publish_place_title: 'Publish Place'
-  book_subject_title: 'Genre'
-  book_date_title: 'Date'
-  book_publish_title: 'Publication info'
-  book_language_title: 'Language'
-  book_name_title: 'Tagged Species'
-  book_location_title: 'Regional Affiliation'
+    one:   "مجموعات"
+    other: "مجموعات"
+  book_details_found_collections: 'وجدت في مجموعات'
+  book_details_user_viewed: 'معروض للمستخدم أيضا'
+  
+  book_details_related: 'كتب ذات صلة'
+  
+  book_title_title: 'العنوان'
+  book_author_title: 'المبدع'
+  book_publish_place_title: 'نشر مكان'
+  book_subject_title: 'النوع'
+  book_date_title: 'التسجيل'
+  book_publish_title: 'معلومات النشر'
+  book_language_title: 'اللغة'
+  book_name_title: 'الأنواع معلم'
+  book_location_title: 'الانتماء الإقليمي '
   
   # Book read page
-  read_page_add_collection: Add to Collection
+  read_page_add_collection: إضافة إلى المجموعة
   
   # sign up page
-  upload_photo: Upload photo
-  upload_photo_max_size_error: You cannot upload a file greater than
-  mb: MB # megabytes
-  max_photo_size: Max size for photo
-  profile_photo: Profile Photo
-  upload_photo_ext_error: Allowed extensions (jpg, jpeg, png, gif, bmp)
-  old_password: Old Password
-  new_password: New Password
-  new_password_confirmation: New Password Confirmation
-  change_password: Change Password
-  invalid_old_password: Invalid Old Password
-  upload_photo_dim_error: You should upload a rectangle image
+  upload_photo: تحميل الصور
+  upload_photo_max_size_error: لا يمكن تحميل ملف أكبر من
+  MB: MB ميغا بايت
+  max_photo_size: أقصى حجم للصورة
+  profile_photo: صور الملف الشخصي
+  upload_photo_ext_error: ملحقات لاسلكية (JPG، JPEG، PNG، GIF، BMP)
+  old_password: كلمة السر القديمة
+  new_password: كلمة السر الجديدة
+  new_password_confirmation: تأكيد كلمة المرور الجديدة
+  change_password: تغيير كلمة المرور
+  invalid_old_password: غير صالح كلمة المرور القديمة
   
   #Browse Page
-  browse_subject_page_header: Subjects
-  browse_author_page_header: Authors
-  browse_all: All
+  browse_subject_page_header: الموضوعات
+  browse_author_page_header: مؤلفون
+  browse_all: جميع
 
   #Geographics Page
   geographics_link: Geographics
-  blue_pin: 'Blue Pin'
-  green_pin: 'Green Pin'
-  yellow_pin: 'Yellow Pin'
-  orange_pin: 'Orange Pin'
-  red_pin: 'Red Pin'
-  geo_titles: 'titles'
-  geo_titles_more: 'or more titles'
-  geo_show_all_titles: 'Show all'
+  blue_pin: 'الأزرق دبوس'
+  green_pin: 'الأخضر دبوس'
+  yellow_pin: "دبوس صفراء '
+  orange_pin: 'أورانج دبوس'
+  red_pin: 'الدبوس الأحمر'
+  geo_titles: 'العناوين'
+  geo_titles_more: 'أو المزيد من الألقاب "
+  geo_show_all_titles: 'إظهار جميع'
   
   #Collections Index
-  collection_title: Collections
-  no_collections_found: No Collections Found...
+  COLLECTION_TITLE: مجموعات
+  no_collections_found: لا وجدت مجموعات ...
   collections_found:
     zero:  ""
-    one:   "Found in one collections"
-    other: "Found in %{count} collections"
-  collections_found_all: "Found %{count} collections"
-  collection_by: "By:"
-  collection_creation_date: "Created at:"
-  collections_books_number_tip: Number of books inside
+    one:   "وجدت في مجموعة واحدة"
+    other: " مجموعات%{count} وجدت في"
+  collections_found_all: " مجموعات%{count} وجدت"
+  collection_by: "من خلال:"
+  collection_creation_date: "تم إنشاء في:"
+  collections_books_number_tip: عدد الكتب داخل
   
   #Collection Page
-  collection_your_rate: Your Rate
-  col_book_added_on: "Added On: "
-  col_book_order: "Book Order: "
-  col_book_trash: Trash
-  col_book_move_up: Move Up
-  col_book_move_down: Move Down
-  edit_collection: Edit
-  write_review: Write a review
-  please_login: please login
-  volume_collection_deleted: Book is successfuly removed from your collection
-  remove_book_from_collection_confirm: "Are you sure you want to delete this book ?"
-  delete_collection_photo_confirm: Are you sure you want to delete collection photo?
+  collection_your_rate: تقييم لديك
+  col_book_added_on: "أضيفت في:"
+  col_book_order: "كتاب ترتيب:"
+  col_book_trash: سلة المهملات
+  col_book_move_up: تحريك لأعلى
+  col_book_move_down: تحريك لأسفل
+  edit_collection: تحرير
+  write_review: كتابة مراجعة
+  please_login: يرجى تسجيل الدخول
+  volume_collection_deleted: تتم إزالة كتاب بنجاح من مجموعتك
+  remove_book_from_collection_confirm: "هل أنت متأكد أنك تريد حذف هذا الكتاب؟"
+  delete_collection_photo_confirm: هل أنت متأكد أنك تريد حذف مجموعة صور؟
 
   #Edit collection page
-  public_collection: Public
-  edit_collection_page_title: Edit Collection
-  upload_collection_photo: Upload Photo 
-  public_collection_description: Public collections can be viewed by other users
-
+  public_collection: العامة
+  edit_collection_page_title: تحرير مجموعة
+  upload_collection_photo: تحميل الصور
+  public_collection_description: يمكن أن ينظر إليها من قبل المستخدمين المجموعات العامة الأخرى
+  
   #User Login Forms
-  username: "Username"
-  sign_up: "Sign up"
-  sign_in: Login
-  submit_buton: "Submit"
-  clear_button: "Clear"
-  password: "Password"
-  email: "Email address"
-  real_name: "Real Name"
-  username: "Username"
-  form_validation_errors_for_attribute_assistive: "There is a validation error on this element"
-  registration_welcome_message: "Welcome %{real_name}. Your account is not activated yet. An email was sent to you containing activation instructions."
-  username_taken: "'%{name}' is already taken"
-  email_taken: "'%{email}' is already taken"
-  member_since: "Member since"
-  last_login: "Last login"
-  forgot_password_link: "Forgot your password?"
-  forgot_password_title: "Forgot your password?"
-  activation_failed: "Activation failed."
-  account_already_active: "This is account is already active."
-  account_activated: "This account (%{real_name}) is activated. Thank you for joining BHL Egypt."
-  sign_in_successful_notice: "Login successful."
-  sign_in_unsuccessful_error: "Login failed. Invalid username or password."
-  user_not_found_by_email_address: "A BHL account with that email address (%{email}) could not be found."
-  recover_password_success: "Account recovery email has been sent with further instructions"
-  reset_password: "Reset password"
-  reset_password_failed: "Reset password failed."
-  reset_password_success: "Your password has been reset successfully."
-  modify_profile: "Modify profile"
-  access_denied_error: "Access denied."
-  changes_saved: "Changes saved."
-  delete_photo: Delete Photo
-  old_password_required: Please enter your old password
+  username: "اسم المستخدم"
+  sign_up: "اشترك"
+  sign_in: تسجيل الدخول
+  submit_buton: "أرسل"
+  clear_button: "واضح"
+  password: "كلمة المرور"
+  email: "عنوان البريد الإلكتروني"
+  real_name: "الاسم الحقيقي"
+  username: "اسم المستخدم"
+  form_validation_errors_for_attribute_assistive: "هناك خطأ التحقق من صحة على هذا العنصر"
+  registration_welcome_message: "حسابك لم يتم تنشيط حتى الآن تم إرسال رسالة بالبريد الإلكتروني لك تحتوي على تعليمات التنشيط %{real_name} مرحبا بكم"
+  username_taken: "مأخوذ بالفعل '%{name}'"
+  email_taken: "مأخوذ بالفعل '%{email}'"
+  member_since: "عضو منذ"
+  last_login: "آخر تسجيل دخول"
+  forgot_password_link: "نسيت كلمة المرور؟"
+  forgot_password_title: "نسيت كلمة المرور؟"
+  activation_failed: "فشل التنشيط"
+  account_already_active: "هذا هو الحساب هو بالفعل نشطة."
+  account_activated: "مصر BHL  شكرا لانضمامك  (%{real_name}) يتم تنشيط هذا الحساب"
+  sign_in_successful_notice: "تسجيل الدخول بنجاح."
+  sign_in_unsuccessful_error: "فشل تسجيل الدخول اسم المستخدم أو كلمة المرور غير صالحة."
+  user_not_found_by_email_address: "لا يمكن العثور عليها(%{email}) هذا عنوان البريد الإلكتروني"
+  recover_password_success: "تم إرسال حساب البريد الإلكتروني الانتعاش مع مزيد من التعليمات"
+  reset_password: "إعادة تعيين كلمة المرور"
+  reset_password_failed: "إعادة تعيين كلمة المرور فشل."
+  reset_password_success: "تم إعادة تعيين كلمة المرور الخاصة بك بنجاح."
+  modify_profile: "تعديل الملف الشخصي"
+  access_denied_error: "تم رفض الوصول"
+  changes_saved: "تم حفظ التغييرات."
+  delete_photo: حذف صور
+  old_password_required: الرجاء إدخال كلمة المرور القديمة
   
   #User Forgot Password Page
-  forgot_password_title: "Forgot Your Password?"
-  forget_password_message: "Enter the email address associated with your BHL account."
+  forgot_password_title: "هل نسيت كلمة السر؟"
+  forget_password_message: "أدخل عنوان البريد الإلكتروني المرتبط بحساب BHL الخاص بك."
   
   #User Profile Page
-  user_profile_tab: Profile
-  user_annotations_tab: Annotations
-  user_queries_tab: Saved Queries
-  user_history_tab: Recently Viewed Books
-  user_activity_tab: Activities
-  user_collections_tab: Collections
-  profile_no_annotations_found: No annotations found...
-  profile_no_queries_found: No queries found...
-  profile_no_history_found: No history found...
-  profile_no_activities_found: No activities found...
-  profile_no_collections_found: No collections found...
+  user_profile_tab: الملف الشخصي
+  user_annotations_tab: الشروح
+  user_queries_tab: حفظ الاستفسارات
+  user_history_tab: كتب شوهدت مؤخرا
+  user_activity_tab: أنشطة
+  user_collections_tab: مجموعات
+  profile_no_annotations_found: لم يتم العثور على الشروح ...
+  profile_no_queries_found: لا الاستعلامات وجدت ...
+  profile_no_history_found: لا يوجد تاريخ وجدت ...
+  profile_no_activities_found: لا أنشطة وجدت ...
+  profile_no_collections_found: لم يتم العثور على مجموعات ...
   
   #User Profile Page (Tab Profile)
-  user_profile_title: Profile
-  #User Profile Page (Activity Tab)
-  user_activity_title: Activity Log
-  log_activity_create: created a new collection
-  log_activity_with: " with"
-  log_activity_rate: rated
-  log_activity_comment: commented on
-  log_activity_at: at
+  user_profile_title: الملف الشخصي
+  user_activity_title: سجل النشاط
+  log_activity_create: إنشاء مجموعة جديدة
+  log_activity_with: "مع"
+  log_activity_rate: تقييما
+  log_activity_comment: علق على
+  log_activity_at: في
   
   #User Profile Page (Recently Viewed Tab)
-  user_history_title: Recently Viewed Books
-  user_history_viewed_on: "On:"
-  remove_book_from_history_confirm: "Are you sure you want to remove this book ?"
+  user_history_title: كتب شوهدت مؤخرا
+  user_history_viewed_on: "في:"
+  remove_book_from_history_confirm: "هل أنت متأكد أنك تريد إزالة هذا الكتاب؟"
   
   #User Profile Page (Collections Tab)
-  user_collection_title: Collections
-  user_collection_added_on: "Added On:"
-  delete_collection_confirm: "Are you sure you want to delete this collection?"
-  delete_photo_flash: Photo has been deleted
+  user_collection_title: مجموعات
+  user_collection_added_on: "أضيفت في:"
+  delete_collection_confirm: "هل أنت متأكد أنك تريد حذف هذه المجموعة؟"
+  delete_photo_flash: صور تم حذفها
   
   #User Profile Page (Queries Tab)
-  user_queries_title: Saved Queries
-  user_queries_books_found: "Books Found: "
-  books_index_search_filter: Search Filter
-  delete_photo_confirm: Are you sure you want to delete your profile photo?
+  user_queries_title: حفظ الاستفسارات
+  user_queries_books_found: "وجدت كتب:"
+  books_index_search_filter: تصفية البحث
+  delete_photo_confirm: هل أنت متأكد أنك تريد حذف صورة ملفك الشخصي؟
     
   #User Profile Page (Annotation Tab)
-  user_annotation_title: Annotations
-  user_annotation_note: Notes
-  user_annotation_highlight: Highlights
+  user_annotation_title: الشروح
+  user_annotation_note: ملاحظات
+  user_annotation_highlight: يبرز
   
   #Home Page
-  book: Books
-  author: Authors
-  species: Tagged Species
-  top_collections: Top Collections
-  home_top_collections_by: By
-  most_viewed: Most Viewed
-  top_rated: Top Rated
-  home_activity_log: Activity Log
-  no_activities: No Activities Found...
-  tabs_more: "more..."
+  book: كتب
+  author: المؤلف
+  species: نوع معلم
+  top_collections: مجموعات الأعلى
+  home_top_collections_by: بواسطة
+  most_viewed: الأكثر مشاهدة
+  top_rated: الأعلى تقييما
+  home_activity_log: سجل النشاط
+  no_activities: لا الأنشطة وجدت ...
+  tabs_more: "المزيد ..."
   
   #Activities Index Page
-  activities_index_title: Activities
-  activities_filter_by: "Filter By:"
-  activities_all: All
-  activities_rate: Rate
-  activities_comments: Comments
-  activities_collections: Collections
+  activities_index_title: أنشطة
+  activities_filter_by: "تصفية حسب:"
+  activities_all: جميع
+  activities_rate: تقييم
+  activities_comments: تعليقات
+  activities_collections: مجموعات
   
   # login page
-  captcha_error: "There is a validation error on login verification element"
-  empty_user_name_error: User name can't be empty
-  empty_password_error: Password can't be empty
-  empty_verfication_error: Please fill this
+  captcha_error: "هناك خطأ التحقق من صحة على عنصر التحقق تسجيل الدخول"
+  empty_user_name_error: لا يمكن أن يكون اسم المستخدم فارغة
+  empty_password_error: كلمة السر لا يمكن أن تكون فارغة
+  empty_verfication_error: الرجاء ملء هذا
 
   #comments
-  no_comments: No Comments found...
+  no_comments: لا توجد تعليقات العثور على ...
   
   #Names Index
   books_found:
     zero:  ""
-    one:   "Found in one book"
-    other: "Found in %{count} books"
-  books_found_all: "Found %{count} books"
+    one:   "وجدت في كتاب واحد"
+    other: "كتاب %{count} وجدت في"
+  books_found_all: كتاب %{count} وجدت "
   
-  tree_of_life_title: Tree of Life
-  species_details: Species Details  
-  select_species_for_details: Select species on the left to view the details
+  tree_of_life_title: شجرة الحياة
+  species_details: الأنواع تفاصيل
+  select_species_for_details: اختر الأنواع على اليسار لعرض التفاصيل 
   
