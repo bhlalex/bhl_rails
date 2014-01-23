@@ -255,14 +255,15 @@
                     %input.form-control{:id => "appendedDropdownButton focusedInput", :placeholder => "Search", :type => "text"}
                   .btn-group
                     %button.btn.dropdown-toggle.allcat{"data-toggle" => "dropdown"}
-                      All Categoreies
+                      = "#{I18n.t(:option_all)}"
                       %span.caret
                     %ul.dropdown-menu.topdropdown-search
                       %li
                         %a{:href => "#"} Animalia
                       %li
                         %a{:href => "#"} Aykalam 
-                  %button.btn.btn-default{:type => "submit"} Submit
+                  %button.btn.btn-default{:type => "submit"} 
+                    = "#{I18n.t(:submit_buton)}"
                   .clearfix
           = render :partial => "layouts/flash", object: flash  #NEW_LAYOUT
         = yield

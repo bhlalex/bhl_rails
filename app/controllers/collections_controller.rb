@@ -223,7 +223,7 @@ class CollectionsController < ApplicationController
       @results << item.title
     end 
     if (@results.length == 0)
-      @results << "No Suggestion"
+      @results << "#{I18n.t(:no_suggestion)}"
     end
     render json: @results
   end

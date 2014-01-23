@@ -72,12 +72,12 @@
         - if logged_in?
           = render :partial => "comments/new_comment", :locals => {:comment_id => nil}
         - if !(logged_in?)
-          = link_to "please login ", {:controller => "users", :action => "login"}
+          = link_to "#{I18n.t(:please_login)}", {:controller => "users", :action => "login"}
 
 
 .reviews
   %a#modal-4.btn.btn-primary.btn-sm.pull-right{"data-toggle" => "modal", :href => "#modal-container-4", :role => "button"} 
-    = "Write a review"
+    = "#{I18n.t(:write_review)}"
   %h3 
     = I18n.t(:reviews)
   %hr.clearfix

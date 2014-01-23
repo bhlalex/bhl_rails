@@ -438,7 +438,17 @@ en:
   tree_of_life_title: Tree of Life
   species_details: Species Details  
   select_species_for_details: Select species on the left to view the details  
-  
+ 
+  #autocomplete
+  no_suggestion: "No Suggestion" 
+  #ubio error msgs
+  ubio_enter_jobid: 'Please specify correct job_id'
+  ubio_enter_status: 'Please specify success status with 0 or 1'
+  ubio_wrong_jobid: 'Sorry: This JOBID is not available in our database.'
+  #names tooltip
+  find_in_book: Find in the book
+  view_in_eol: View in EOL.org
+  books_with_name: Books with name
   
   
 ar:
@@ -530,8 +540,8 @@ ar:
       format: "%{attribute} %{message}"
       template:
         header:
-          one: "خطأ التحقق من صحة %{count} وجدت"
-          two:"خطأن التحقق من صحة %{count} وجدت"
+          one:   "خطأ التحقق من صحة %{count} وجدت"
+          two:   "خطأن التحقق من صحة %{count} وجدت"
           other: "أخطاء التحقق من صحة %{count} العثور على"
         body: ":فشل التحقق من صحة الحقول التالية"
       messages:
@@ -894,4 +904,15 @@ ar:
   tree_of_life_title: شجرة الحياة
   species_details: الأنواع تفاصيل
   select_species_for_details: اختر الأنواع على اليسار لعرض التفاصيل 
+  #autocomplete
+  no_suggestion: "لا اقتراحات" 
   
+  #ubio error msgs
+  ubio_enter_jobid: 'صحيح job_idمن فضلك حدد  '
+  ubio_enter_status: 'من فضلك حدد حاله ناجحه 0 او 1'
+  ubio_wrong_jobid: 'للاسف هذا غير موجود لدينا'
+  
+  #names tooltip
+  find_in_book: اوجد فى الكتاب
+  view_in_eol:  EOL.org اعرض فى 
+  books_with_name: كتب مع اسم
