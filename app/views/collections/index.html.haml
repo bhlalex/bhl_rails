@@ -37,7 +37,7 @@
       .input-group.col-md-4.pull-right
         %input.form-control{:id => "search_coll_field", :type=> "text", :onkeypress => "if(event.keyCode == 13){search_collection();return false;}"}
         %span.input-group-btn
-          %a.go.pull-left{:style => "cursor:pointer;"}
+          %a.go.pull-left.rotate{:style => "cursor:pointer;"}
             %i.fa.fa-arrow-circle-right.fa-2x{:onclick => "search_collection();"}
     .clearfix
     %hr      
