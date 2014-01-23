@@ -9,17 +9,17 @@ module ActivitiesHelper
           collection = Collection.find(activity[:id])
           # log record of each created collection contains user name and collection name
           log_record = "<p><a class='author' href = '/users/#{collection.user_id}'>#{User.find(collection.user_id).real_name}</a> #{I18n.t(:log_activity_create)} <a class= 'book_title' href = '/collections/#{collection.id}'>#{collection.title}</a></p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>"
-          log = {:user => collection.user_id, :record => log_record}
+          log = {:user => collection.user_id, :action => I18n.t(:log_activity_create), :object_link => "/collections/#{collection.id}", :object_name => collection.title, :text => "", :time => activity[:time]}
         elsif(activity[:table_type] == "volume_ratings")
           volume_rating = VolumeRating.find(activity[:id])
           # log record of each rated book contains user name , book name and rate vaule
           log_record = "<p><a class='author' href = '/users/#{volume_rating.user_id}'>#{User.find(volume_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a class= 'book_title' href = '/books/#{(Volume.find(volume_rating.volume_id)).job_id}'> #{Volume.find(volume_rating.volume_id).book.title}</a> #{I18n.t(:log_activity_with)} #{volume_rating.rate}</p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>"
-          log = {:user => volume_rating.user_id, :record => log_record}
+          log = {:user => volume_rating.user_id, :action => I18n.t(:log_activity_rate), :object_link => "/books/#{(Volume.find(volume_rating.volume_id)).job_id}", :object_name => Volume.find(volume_rating.volume_id).book.title, :text => "#{I18n.t(:log_activity_with)} #{volume_rating.rate}", :time => activity[:time]}
         elsif(activity[:table_type] == "collection_ratings")
           collection_rating = CollectionRating.find(activity[:id])
           # log record of each rated collection contains user name , collection name and rate vaule
           log_record = "<p><a class='author' href = '/users/#{collection_rating.user_id}'>#{User.find(collection_rating.user_id).real_name}</a> #{I18n.t(:log_activity_rate)} <a class= 'book_title' href = '/collections/#{collection_rating.collection_id}'>#{Collection.find(collection_rating.collection_id).title}</a> #{I18n.t(:log_activity_with)} #{collection_rating.rate}</p><small class='text-muted'>  #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>"
-          log = {:user => collection_rating.user_id, :record => log_record}
+          log = {:user => collection_rating.user_id, :action => I18n.t(:log_activity_rate), :object_link => "/collections/#{collection_rating.collection_id}", :object_name => Collection.find(collection_rating.collection_id).title, :text => "#{I18n.t(:log_activity_with)} #{collection_rating.rate}", :time => activity[:time]}
         elsif(activity[:table_type] == "comments")
           comment = Comment.find(activity[:id])
           # log record of each comment on a book contains user name , book name and comment text
@@ -28,7 +28,10 @@ module ActivitiesHelper
           log_record = "<p><a class='author' href = '/users/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)}  <a class= 'book_title' href = '/collections/#{comment.collection_id}'>#{Collection.find(comment.collection_id).title}</a>:  <br/>#{comment.text}</p><small class='text-muted'>  #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.collection_id.nil?)
           # log record of each reply on a comment contains user name , base comment text and reply text
           log_record = "<p><a class='author' href = '/users/#{comment.user_id}'>#{User.find(comment.user_id).real_name}</a> #{I18n.t(:log_activity_comment)} #{Comment.find(comment.comment_id).text}:  <br/>#{comment.text} </p><small class='text-muted'> #{ I18n.t(:log_activity_at)} #{activity[:time]}</small>" if !(comment.comment_id.nil?)
-          log = {:user => comment.user_id, :record => log_record}
+          log = {:user => comment.user_id, :action => I18n.t(:log_activity_comment), :object_link => "/books/#{(Volume.find(comment.volume_id)).job_id}", :object_name => Volume.find(comment.volume_id).book.title, :text => comment.text, :time => activity[:time]} if !(comment.volume_id.nil?)
+          log = {:user => comment.user_id, :action => I18n.t(:log_activity_comment), :object_link => "/collections/#{comment.collection_id}", :object_name => Collection.find(comment.collection_id).title, :text => comment.text, :time => activity[:time]} if !(comment.collection_id.nil?)
+          log = {:user => comment.user_id, :action => I18n.t(:log_activity_comment), :object_link => "", :object_name => Comment.find(comment.comment_id).text, :text => comment.text, :time => activity[:time]} if !(comment.comment_id.nil?)
+
           end
         log_records << log
       end

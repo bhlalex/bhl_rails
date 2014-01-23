@@ -11,7 +11,16 @@
       :class => "pull-left"
     .media-body.activity-log
       %p{:style => "line-height:120%;font-size:12px;"}
-        = log[:record].html_safe
+        %strong
+          %a.book_author{:href=> "/users/#{@owner_of_activity.id}/profile"} 
+            = @owner_of_activity.real_name.html_safe
+        = log[:action].html_safe
+        %a.book_title{:href=> log[:object_link]} 
+          = log[:object_name].html_safe
+        = log[:text].html_safe
+        %br
+        %small.text-muted
+          = "#{I18n.t(:log_activity_at)} #{log[:time]}"
   %hr{ :style => "margin-top: 0px; margin-bottom: 0px;"}
 
 - if @pages == 0
@@ -21,15 +30,15 @@
     %ul.pager
       %li
         - if @start.to_i > 1
-          %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(0, \"homeactivitylog\");"}
+          %a.rotate{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(0, \"homeactivitylog\");"}
             %i.fa.fa-arrow-left
         - else
-          %a{:style => "cursor: not-allowed; color: #999999;"}
+          %a.rotate{:style => "cursor: not-allowed; color: #999999;"}
             %i.fa.fa-arrow-left
       %li
         - if (@pages.to_i != @start.to_i)
-          %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(1, \"homeactivitylog\");"}
+          %a.rotate{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(1, \"homeactivitylog\");"}
             %i.fa.fa-arrow-right
         - else
-          %a{:style => "cursor: not-allowed; color: #999999;"}
+          %a.rotate{:style => "cursor: not-allowed; color: #999999;"}
             %i.fa.fa-arrow-right
