@@ -85,9 +85,10 @@
     #wrap
       .container
         .row.clearfix.visible-md.visible-lg
-          = link_to_unless I18n.locale == :en, "English", locale: :en 
-          |
-          = link_to_unless I18n.locale == :ar, "Arabic", locale: :ar 
+          - if I18n.locale != :en
+            = link_to "English",locale: :en
+          - if I18n.locale != :ar
+            = link_to "Arabic", locale: :ar
           .col-md-3
             %a{ :href => "/" }
               =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
@@ -104,26 +105,26 @@
                 %span.separator.pull-left 
                   |
                 .btn-group.pull-left.col-xs-3
-                  %select.btn.allcat#headersearchby
-                    %option{:value => "ALL"} 
+                  %select.btn.allcat.text-left#headersearchby
+                    %option.text-left{:value => "ALL"} 
                       = I18n.t(:option_all)
-                    %option.topdropdown-search{:value => "title", :selected => true} 
+                    %option.text-left{:value => "title", :selected => true} 
                       = I18n.t(:option_title)
-                    %option.topdropdown-search{:value => "language"} 
+                    %option.text-left{:value => "language"} 
                       = I18n.t(:option_language)
-                    %option.topdropdown-search{:value => "published_at"} 
+                    %option.text-left{:value => "published_at"} 
                       = I18n.t(:option_publish_time)
-                    %option.topdropdown-search{:value => "publisher"} 
+                    %option.text-left{:value => "publisher"} 
                       = I18n.t(:option_publisher)
-                    %option.topdropdown-search{:value => "geo_location"} 
+                    %option.text-left{:value => "geo_location"} 
                       = I18n.t(:option_regional_affiliation)
-                    %option.topdropdown-search{:value => "author"} 
+                    %option.text-left{:value => "author"} 
                       = I18n.t(:option_author)
-                    %option.topdropdown-search{:value => "name"} 
+                    %option.text-left{:value => "name"} 
                       = I18n.t(:option_tagged_species)
-                    %option.topdropdown-search{:value => "subject"} 
+                    %option.text-left{:value => "subject"} 
                       = I18n.t(:option_genre)
-                    %option.topdropdown-search{:value => "content"} 
+                    %option.text-left{:value => "content"} 
                       = I18n.t(:option_content)
                 .clearfix.visible-xs  
               %span.separator.pull-left 

@@ -897,10 +897,11 @@ ar:
   books_found:
     zero:  ""
     one:   "وجدت في كتاب واحد"
+
     two: "وجدت في كتابين"
     other: "كتاب %{count} وجدت في"
   books_found_all: كتاب %{count} وجدت "
-  
+ 
   tree_of_life_title: شجرة الحياة
   species_details: الأنواع تفاصيل
   select_species_for_details: اختر الأنواع على اليسار لعرض التفاصيل 
