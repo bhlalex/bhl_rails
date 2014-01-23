@@ -29,5 +29,5 @@
     .starsidelink{:id => "starsidelink_#{page}_#{@vol[:job_id]}", :data => "#{@doc['rate']}"}
   %span.text-muted.pull-right
     %small
-      ="#{pluralize(@doc[:views], I18n.t(:sidelinks_views))} "
+      ="#{I18n.t(:sidelinks_views, :count => @doc[:views])} "
 %div
