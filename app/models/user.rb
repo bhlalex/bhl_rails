@@ -2,7 +2,7 @@ include ActionView::Helpers::SanitizeHelper
 
 class User < ActiveRecord::Base
   attr_accessible :active, :email, :guid, :password, :real_name, :username,
-  :verification_code, :verified_date, :created_at, :last_login, :photo_name
+  :verification_code, :verified_date, :created_at, :last_login, :photo_name, :last_login_language
   has_many :annotations
   has_many :queries
   has_many :books, :through => :users_books
