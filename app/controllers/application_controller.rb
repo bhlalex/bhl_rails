@@ -9,12 +9,16 @@ class ApplicationController < ActionController::Base
     end
     
     def set_locale
-      I18n.locale = params[:locale] || session[:locale] || nil
+      I18n.locale = params[:locale] ||session[:locale] || nil
       if !session[:user_id].nil?
         I18n.locale =  I18n.locale || User.find_by_id(session[:user_id])[:last_login_language]
       end
       I18n.locale = I18n.locale || extract_locale_from_accept_language_header || I18n.default_locale
-      Rails.application.routes.default_url_options[:locale]= I18n.locale 
+      if (params[:locale].nil? && session[:user_id].nil? && session[:locale])
+        Rails.application.routes.default_url_options[:locale]= nil 
+      else
+        Rails.application.routes.default_url_options[:locale]= I18n.locale 
+      end
       session[:locale] =  I18n.locale
       if !session[:user_id].nil?
         user = User.find_by_id(session[:user_id])

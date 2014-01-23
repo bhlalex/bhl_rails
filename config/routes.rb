@@ -96,5 +96,6 @@ Bhl::Application.routes.draw do
     get "darviewer/annotations"
     
     get "log_activities/index"
+    
   end
 end
