@@ -6,11 +6,11 @@ class GeographicsController < ApplicationController
     @map.zoom = 2
     
     icons = {}
-    icons[10] = "/images_#{I18n.locale}/map_pin_blue.png"
-    icons[20] = "/images_#{I18n.locale}/map_pin_green.png"
-    icons[30] = "/images_#{I18n.locale}/map_pin_yellow.png"
-    icons[40] = "/images_#{I18n.locale}/map_pin_orange.png"
-    icons[50] = "/images_#{I18n.locale}/map_pin_red.png"
+    icons[10] = "/images_#{I18n.locale}/#{I18n.t(:map_pin_blue)}"
+    icons[20] = "/images_#{I18n.locale}/#{I18n.t(:map_pin_green)}"
+    icons[30] = "/images_#{I18n.locale}/#{I18n.t(:map_pin_yellow)}"
+    icons[40] = "/images_#{I18n.locale}/#{I18n.t(:map_pin_orange)}"
+    icons[50] = "/images_#{I18n.locale}/#{I18n.t(:map_pin_red)}"
     
     # defining icons
     gicons = {}

@@ -194,7 +194,7 @@ describe PagesController do
       describe "each collection" do
         it "should have image with link" do
           get :home
-          response.should have_selector("a>img", :src => "/images_#{I18n.locale}/nocollection140.png")
+          response.should have_selector("a>img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_collection)}")
         end
         it "should have title with link" do
           get :home
@@ -231,7 +231,7 @@ describe PagesController do
         end
         it "should have volume image with link" do
           get :home
-          response.should have_selector("a>img", :src => "images_#{I18n.locale}/book_thumb.png")
+          response.should have_selector("a>img", :src => "images_#{I18n.locale}/#{I18n.t(:default_book)}")
         end
       end
       
@@ -261,7 +261,7 @@ describe PagesController do
        end
        it "should have top volume image with link" do
          get :home
-         response.should have_selector("a>img", :src => "images_#{I18n.locale}/book_thumb.png")
+         response.should have_selector("a>img", :src => "images_#{I18n.locale}/#{I18n.t(:default_book)}")
        end
      end
     end
