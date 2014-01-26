@@ -16,10 +16,13 @@
       
     = yield :head
     - if "#{I18n.locale}" == "ar" 
-      = stylesheet_link_tag 'bootstrap'
+      = stylesheet_link_tag 'bootstrap_ar'
     - else
       = stylesheet_link_tag 'bootstrap_en'
-    = stylesheet_link_tag 'main'
+    - if "#{I18n.locale}" == "ar" 
+      = stylesheet_link_tag 'main_ar'
+    - else
+      = stylesheet_link_tag 'main_en'
     = stylesheet_link_tag 'font-awesome'
     = stylesheet_link_tag 'jquery/themes/jquery.ui.all.css'
     
@@ -85,14 +88,10 @@
     #wrap
       .container
         .row.clearfix.visible-md.visible-lg
-          - if I18n.locale != :en
-            = link_to "English",locale: :en
-          - if I18n.locale != :ar
-            = link_to "Arabic", locale: :ar
           .col-md-3
             %a{ :href => "/" }
               =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
-          .col-md-7
+          .col-md-6
             - jsquery = ""
             - if(params[:controller] == "books" && params[:action] == "index")
               - jsquery = set_query_string(@query_array, true) 
@@ -100,12 +99,12 @@
               .input-append
                 %span.separator.pull-left.searchicon
                   %i.fa.fa-search.fa-lg.pull-left
-                .col-xs-6
+                .col-xs-5
                   %input.form-control{:id=> "headersearchfield", :type => "text",  :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('headersearchby'), document.getElementById('headersearchfield').value);return false;}"}
                 %span.separator.pull-left 
                   |
-                .btn-group.pull-left.col-xs-3
-                  %select.btn.allcat.text-left#headersearchby
+                .btn-group.pull-left
+                  %select.width.btn.allcat.text-left#headersearchby
                     %option.text-left{:value => "ALL"} 
                       = I18n.t(:option_all)
                     %option.text-left{:value => "title", :selected => true} 
@@ -157,6 +156,12 @@
                     %i.fa.fa-edit.fa-2x
                     %br
                     =I18n.t(:header_profile)
+          .col-md-1
+            .language.pull-left
+              - if I18n.locale != :en
+                = link_to "English",locale: :en
+              - if I18n.locale != :ar
+                = link_to "Arabic", locale: :ar
         .row.clearfix
           .col-md-12.column
             %nav.navbar.navbar-default.navbar-inverse{:role => "navigation"}

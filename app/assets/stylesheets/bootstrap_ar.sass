@@ -421,7 +421,7 @@ dd
       text-overflow: ellipsis
       white-space: nowrap
     dd
-      margin-left: 180px
+      margin-right: 180px
       &:before
         display: table
         content: " "
@@ -1159,6 +1159,7 @@ input
   &[type="radio"], &[type="checkbox"]
     margin: 4px 0 0
     margin-top: 1px \9
+    /* IE8-9
     line-height: normal
   &[type="file"]
     display: block
@@ -1357,7 +1358,6 @@ textarea.input-lg
   margin-top: 5px
   margin-bottom: 10px
   color: #737373
-  font-size: 11px
 
 @media (min-width: 768px)
   .form-inline
@@ -3632,6 +3632,7 @@ textarea.input-group-sm >
         padding: 0 5px
         color: #cccccc
         content: "::"
+        /*/\00a0
     .active
       color: #999999
 
@@ -5036,6 +5037,7 @@ th.hidden-xs, td.hidden-xs
     position: relative
     display: block
     padding: 10px 25px
+    /*15px
 
 @media (min-width: 1200px)
   .hidden-xs.hidden-lg, tr.hidden-xs.hidden-lg, th.hidden-xs.hidden-lg, td.hidden-xs.hidden-lg
@@ -5044,6 +5046,7 @@ th.hidden-xs, td.hidden-xs
     position: relative
     display: block
     padding: 10px 25px
+    /*15px
 
 .hidden-sm
   display: block !important
@@ -5069,6 +5072,7 @@ th.hidden-sm, td.hidden-sm
     position: relative
     display: block
     padding: 10px 25px
+    /*15px
 
 @media (min-width: 1200px)
   .hidden-sm.hidden-lg, tr.hidden-sm.hidden-lg, th.hidden-sm.hidden-lg, td.hidden-sm.hidden-lg
@@ -5140,10 +5144,11 @@ th.hidden-lg, td.hidden-lg
 .rotate
   transform: rotate(180deg)
   -ms-transform: rotate(180deg)
+  /* IE 9
   -webkit-transform: rotate(180deg)
+  /* Safari and Chrome
 
 .fa-li
   right: -2.14286em
 
-.fa
- 
+/*.fa {display:inline !important;}

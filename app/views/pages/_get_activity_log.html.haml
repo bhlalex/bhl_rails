@@ -17,7 +17,8 @@
         = log[:action].html_safe
         %a.book_title{:href=> log[:object_link]} 
           = log[:object_name].html_safe
-        = log[:text].html_safe
+        %p
+          = log[:text].html_safe
         %br
         %small.text-muted
           = "#{I18n.t(:log_activity_at)} #{log[:time]}"
