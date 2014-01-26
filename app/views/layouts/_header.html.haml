@@ -91,7 +91,7 @@
             = link_to "Arabic", locale: :ar
           .col-md-3
             %a{ :href => "/" }
-              =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
+              =image_tag("/images_#{I18n.locale}/#{I18n.t(:logo)}", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
           .col-md-7
             - jsquery = ""
             - if(params[:controller] == "books" && params[:action] == "index")

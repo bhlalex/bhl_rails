@@ -45,13 +45,17 @@ class BooksController < ApplicationController
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
     @book = search['response']['docs'][0]
-    
-    @thumb = "volumes/#{params[:id]}/thumb.jpg"
-    
+      
     @page_title = @book['bok_title'][0]
     @volume = Volume.find_by_job_id(params[:id])
     @volume_id = @volume.id
     
+    if @volume[:get_thumbnail_fail] == 0
+      @thumb = "volumes/#{params[:id]}/thumb.jpg"
+    else
+      @thumb = "images_#{I18n.locale}/#{I18n.t(:default_book)}"
+    end
+      
     #For SEO purpose
     book_module = Book.find_by_id(Volume.find_by_job_id(params[:id]).book_id)
     @meta_keywords = book_module.meta_keywords

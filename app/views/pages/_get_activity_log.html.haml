@@ -1,7 +1,7 @@
 - @log_records.each do |log|
   - @owner_of_activity = User.find(log[:user])
   - if(!(@owner_of_activity.nil?) && (@owner_of_activity.photo_name.blank?))
-    - @thumb = "/images_#{I18n.locale}/user-small.png"
+    - @thumb = "/images_#{I18n.locale}/#{I18n.t(:default_user_small)}"
   - else
     - @thumb = @owner_of_activity.photo_name_url(:thumb)
     

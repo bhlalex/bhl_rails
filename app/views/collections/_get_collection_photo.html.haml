@@ -1,6 +1,6 @@
 .col-md-2.column.pull-right
   - if(@collection.photo_name.blank?)
-    - thumb = "/images_#{I18n.locale}/nocollection140.png"
+    - thumb = "/images_#{I18n.locale}/#{I18n.t(:default_collection)}"
     = image_tag("#{thumb}",:class => "img-thumbnail")
   - else
     - thumb = @collection.photo_name_url(:thumb)

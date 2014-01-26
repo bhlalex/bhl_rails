@@ -2,7 +2,7 @@
   - @comments.each do |comment|
     - @owner_of_comment = User.find(comment.user_id)
     - if(!(@owner_of_comment.nil?) && (@owner_of_comment.photo_name.blank?))
-      - thumb = "/images_#{I18n.locale}/user.png"
+      - thumb = "/images_#{I18n.locale}/#{I18n.t(:default_user)}"
     - else
       - thumb = @owner_of_comment.photo_name_url(:thumb)
     

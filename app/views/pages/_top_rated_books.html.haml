@@ -12,7 +12,7 @@
       - if(@vol[:get_thumbnail_fail] == 0)
         - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
       - else
-        - @thumb = "images_#{I18n.locale}/book_thumb.png"
+        - @thumb = "images_#{I18n.locale}/#{I18n.t(:default_book)}"
       - @doc = doc
  
     .col-md-2

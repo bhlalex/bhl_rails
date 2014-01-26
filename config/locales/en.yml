@@ -37,7 +37,6 @@ en:
   selection_all_option: "All"
   no_books_found: "No Books Found..."
   no_collections_found: 'No Collections Found...'
-  collection_title: Collection Title
   show_collection_detail: Collection Detail
   save_query: Save Query
   query_saved: Query Saved
@@ -264,6 +263,9 @@ en:
   upload_photo_ext_error: Allowed extensions (jpg, jpeg, png, gif, bmp)
   old_password: Old Password
   new_password: New Password
+  recaptcha: Recaptcha
+  password_confirmation: Password Confirmation
+  email_confirmation: Email Confirmation
   new_password_confirmation: New Password Confirmation
   change_password: Change Password
   invalid_old_password: Invalid Old Password
@@ -441,16 +443,33 @@ en:
  
   #autocomplete
   no_suggestion: "No Suggestion" 
+  
   #ubio error msgs
   ubio_enter_jobid: 'Please specify correct job_id'
   ubio_enter_status: 'Please specify success status with 0 or 1'
   ubio_wrong_jobid: 'Sorry: This JOBID is not available in our database.'
+  
   #names tooltip
   find_in_book: Find in the book
   view_in_eol: View in EOL.org
   books_with_name: Books with name
+  
   #eol link
   eol_pages_link: "http://www.eol.org/pages/"
+ 
+  # file names
+  default_book: "default_book.png"
+  default_collection: "default_collection.png"
+  default_user: "default_user.png"
+  default_user_small: "default_user_small.png"
+  logo: "logo.png"
+  map_pin_blue: "map_pin_blue.png"
+  map_pin_green: "map_pin_green.png"
+  map_pin_orange: "map_pin_orange.png"
+  map_pin_red: "map_pin_red.png"
+  map_pin_yellow: "map_pin_yellow.png"
+  stars_grey: "stars_grey.png"
+  stars_white: "stars_white.png"
   
 ar:
   books_count: 
@@ -495,7 +514,6 @@ ar:
   selection_all_option: "الكل"
   no_books_found: "لا كتب وجدت ..."
   no_collections_found: 'لا يوجد مجموعات تم العثور عليها ... '
-  COLLECTION_TITLE: 'جمع عنوان'
   show_collection_detail: 'جمع التفاصيل'
   save_query: 'حفظ الاستعلام'
   query_saved: 'استعلام تم الحفظ'
@@ -730,6 +748,9 @@ ar:
   upload_photo_ext_error: ملحقات لاسلكية (JPG، JPEG، PNG، GIF، BMP)
   old_password: كلمة السر القديمة
   new_password: كلمة السر الجديدة
+  password_confirmation: تأكيد كلمة المرور
+  recaptcha: الأخبار الإقتصادية العامة
+  email_confirmation: تأكيد البريد
   new_password_confirmation: تأكيد كلمة المرور الجديدة
   change_password: تغيير كلمة المرور
   invalid_old_password: غير صالح كلمة المرور القديمة
@@ -743,16 +764,16 @@ ar:
   geographics_link: Geographics
   blue_pin: 'الأزرق دبوس'
   green_pin: 'الأخضر دبوس'
-  yellow_pin: "دبوس صفراء '
+  yellow_pin: 'دبوس صفراء '
   orange_pin: 'أورانج دبوس'
   red_pin: 'الدبوس الأحمر'
   geo_titles: 'العناوين'
-  geo_titles_more: 'أو المزيد من الألقاب "
+  geo_titles_more: 'أو المزيد من الألقاب '
   geo_show_all_titles: 'إظهار جميع'
   
   #Collections Index
-  COLLECTION_TITLE: مجموعات
-  no_collections_found: لا وجدت مجموعات ...
+  collection_title: "مجموعات"
+  no_collections_found: "لا وجدت مجموعات ..."
   collections_found:
     zero:  ""
     one:   "وجدت في مجموعة واحدة"
@@ -921,3 +942,17 @@ ar:
   
   #eol link
   eol_pages_link: "http://www.eol.org/pages/"
+  
+  # file names
+  default_book: "default_book.png"
+  default_collection: "default_collection.png"
+  default_user: "default_user.png"
+  default_user_small: "default_user_small.png"
+  logo: "logo.png"
+  map_pin_blue: "map_pin_blue.png"
+  map_pin_green: "map_pin_green.png"
+  map_pin_orange: "map_pin_orange.png"
+  map_pin_red: "map_pin_red.png"
+  map_pin_yellow: "map_pin_yellow.png"
+  stars_grey: "stars_grey.png"
+  stars_white: "stars_white.png"
