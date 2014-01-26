@@ -459,7 +459,9 @@ en:
  
   # file names
   default_book: "default_book.png"
+  default_book_small: "book_thumb_small.png"
   default_collection: "default_collection.png"
+  default_collection_small: "collection.png"
   default_user: "default_user.png"
   default_user_small: "default_user_small.png"
   logo: "logo.png"
@@ -946,7 +948,9 @@ ar:
   
   # file names
   default_book: "default_book.png"
+  default_book_small: "book_thumb_small.png"
   default_collection: "default_collection.png"
+  default_collection_small: "collection.png"
   default_user: "default_user.png"
   default_user_small: "default_user_small.png"
   logo: "logo.png"
