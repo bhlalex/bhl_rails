@@ -449,7 +449,8 @@ en:
   find_in_book: Find in the book
   view_in_eol: View in EOL.org
   books_with_name: Books with name
-  
+  #eol link
+  eol_pages_link: "http://www.eol.org/pages/"
   
 ar:
   books_count: 
@@ -917,3 +918,6 @@ ar:
   find_in_book: اوجد فى الكتاب
   view_in_eol:  EOL.org اعرض فى 
   books_with_name: كتب مع اسم
+  
+  #eol link
+  eol_pages_link: "http://www.eol.org/pages/"
