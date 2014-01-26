@@ -927,6 +927,7 @@ ar:
   tree_of_life_title: شجرة الحياة
   species_details: الأنواع تفاصيل
   select_species_for_details: اختر الأنواع على اليسار لعرض التفاصيل 
+  
   #autocomplete
   no_suggestion: "لا اقتراحات" 
   
