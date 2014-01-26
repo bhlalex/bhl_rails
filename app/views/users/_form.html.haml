@@ -88,7 +88,7 @@
               = f.text_field :real_name, { :class => "required form-control" }
           - if @verify_captcha
             .form-group
-              = f.label :recaptcha, raw(t('recaptcha')), :class => 'required col-sm-2 control-label'
+              = f.label I18n.t(:recaptcha), raw(t('recaptcha')), :class => 'required col-sm-2 control-label'
               .col-sm-10
                 = recaptcha_tags(display: {theme: 'clean'})
           - if(!(@user.photo_name.blank?))

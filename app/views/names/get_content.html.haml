@@ -4,7 +4,7 @@
       = @name
   .panel-body
     %center
-      = link_to I18n.t(:species_details), "http://www.eol.org/pages/#{@taxon_concept_id}", :target => "_blank"
+      = link_to I18n.t(:species_details), "#{I18n.t(:eol_pages_link)}#{@taxon_concept_id}", :target => "_blank"
       %br
       - if @image
         = image_tag @image, :width => 200
