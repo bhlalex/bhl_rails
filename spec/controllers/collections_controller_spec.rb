@@ -566,7 +566,7 @@ describe CollectionsController do
       describe "uploading photo for collection" do
          it "can upload valid photo" do
            request.env["HTTP_REFERER"] = "/collections/edit/#{@my_private_collection.id}"
-           @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
+           @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/#{I18n.t(:default_user)}', 'image/png')
            attr={:user_id => @user.id,
              :title => "my private collection",
              :description => "description", 
@@ -582,7 +582,7 @@ describe CollectionsController do
          
 #        it "pictures with invalid size should not be uploaded" do
 #          request.env["HTTP_REFERER"] = "/collections/edit/#{@my_private_collection.id}"
-#          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
+#          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/#{I18n.t(:default_user)}', 'image/png')
 #          attr={:user_id => @user.id,
 #            :title => "my private collection",
 #            :description => "description", 
@@ -592,7 +592,7 @@ describe CollectionsController do
 #          post :update, :id => @my_private_collection, :test => true, :collection => attr
 #          @my_private_collection.reload
 #          pic = @my_private_collection.photo_name 
-#          File.exist?(File.join(Rails.root, "public/collections/#{@my_private_collection.id}/user.png")).should be_true 
+#          File.exist?(File.join(Rails.root, "public/collections/#{@my_private_collection.id}/#{I18n.t(:default_user)}")).should be_true 
 #          FileUtils.remove_dir("#{Rails.root}/public/collections/#{@my_private_collection.id}") if File.directory? "#{Rails.root}/public/collections/#{@my_private_collection.id}"
 #        end
          
@@ -771,7 +771,7 @@ describe CollectionsController do
     
       it "should have an image for each collection" do
         get :index
-        response.should have_selector('img', :src => "/images_#{I18n.locale}/nocollection140.png")
+        response.should have_selector('img', :src => "/images_#{I18n.locale}/#{I18n.t(:default_collection)}")
       end
 
       it "should have search bar" do
