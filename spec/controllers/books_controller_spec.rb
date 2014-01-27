@@ -321,7 +321,7 @@ describe BooksController do
       
 
       @book = Book.gen(:title => "Test Book", :bibid => "456", :mods => "<xml>xml content</xml>")
-      @volume = Volume.gen(:book => @book, :job_id => 123)
+      @volume = Volume.gen(:book => @book, :job_id => 123,:get_thumbnail_fail => 0 )
 
       doc2 = {:vol_jobid => "1234", :bok_bibid => "4567"}
       doc2[:bok_title] = "Test Book 2"

@@ -98,11 +98,15 @@ describe UserSearchHistoryController do
       truncate_table(ActiveRecord::Base.connection, "users", {})
 
     end
-#          # delete link
+    
+    # delete link
     describe "'delete link'" do
       it "should delete history and decrease the number of books found when click on delete link" do
-        get "remove_book_history", :page => 1, :tab => "history", :id =>@user.id, :user_id => @user.id, :volume_id => 1
-        response.should redirect_to :controller => :users, :action => :show, :id => 1, :tab => "history", :page => 1
+        User.gen() unless User.first
+        user = User.first
+        log_in(user)
+        get "remove_book_history", :page => 1, :tab => "history", :id => user.id, :user_id => user.id, :volume_id => 1
+        response.should redirect_to :controller => :users, :action => :show, :id => user.id, :tab => "history", :page => 1
       end
    
       it "should not delete when user is not logged in" do
@@ -139,8 +143,11 @@ describe UserSearchHistoryController do
         end
         
         it "should redirect to the same page" do
-          get "remove_book_history", :page => 2, :tab => "history", :id => @user.id, :user_id => @user.id, :volume_id => UserBookHistory.last[:volume_id]
-          response.should redirect_to :controller => :users, :action => :show, :id => @user.id, :tab => "history", :page => 2
+          User.gen() unless User.first
+          user = User.first
+          log_in(user)
+          get "remove_book_history", :page => 2, :tab => "history", :id => user.id, :user_id => user.id, :volume_id => UserBookHistory.last[:volume_id]
+          response.should redirect_to :controller => :users, :action => :show, :id => user.id, :tab => "history", :page => 2
         end
       end
     end

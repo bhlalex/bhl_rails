@@ -123,8 +123,6 @@ describe "books" do
     end
     
     it "should not allow not logged in user to rate", :js => true do
-      #log out
-      visit("/users/logout")
       visit("/books/#{@vol_first.job_id}")
       #rate with 3
       find("#star3").click
