@@ -395,6 +395,12 @@ en:
   user_queries_books_found: "Books Found: "
   books_index_search_filter: Search Filter
   delete_photo_confirm: Are you sure you want to delete your profile photo?
+  name: Name
+  language: Language
+  content: Content
+  geo_location: Geo Location
+  published_at: Published at
+  publisher: Publisher
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations
@@ -882,6 +888,13 @@ ar:
   user_queries_books_found: "وجدت كتب:"
   books_index_search_filter: تصفية البحث
   delete_photo_confirm: هل أنت متأكد أنك تريد حذف صورة ملفك الشخصي؟
+  name: اسم 
+  language:  اللغة 
+  content:  المحتوى 
+  geo_location: الموقع الجغرافي 
+  published_at: الصدور 
+  publisher: الناشر
+    
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: الشروح
