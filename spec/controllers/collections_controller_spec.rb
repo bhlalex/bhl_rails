@@ -175,7 +175,7 @@ describe CollectionsController do
         it "should not display show private collection page for unauthenticated user" do
           log_in(@other_user)
          get :show, :id => @my_private_collection
-         response.should redirect_to("/collections")
+         response.should redirect_to("/en/collections")
         end
       end
 
@@ -191,7 +191,7 @@ describe CollectionsController do
           it "should not display show private collection page for unauthenticated user" do
             log_in(@other_user)
             get :show, :id => @my_private_collection
-            response.should redirect_to("/collections")
+            response.should redirect_to("/en/collections")
           end
         end
 
@@ -207,23 +207,23 @@ describe CollectionsController do
 
           it "should have an open link for each book in my private collection" do
             get :show, :id => @my_private_collection
-            response.should have_selector('a', :href => "/books/#{@vol_first.id}")
-            response.should have_selector('a', :href => "/books/#{@vol_second.id}")
-            response.should have_selector('a', :href => "/books/#{@vol_third.id}")
+            response.should have_selector('a', :href => "/en/books/#{@vol_first.id}")
+            response.should have_selector('a', :href => "/en/books/#{@vol_second.id}")
+            response.should have_selector('a', :href => "/en/books/#{@vol_third.id}")
           end
 
           it "should have an detail link for each book in my private collection" do
             get :show, :id => @my_private_collection
-            response.should have_selector('a', :href => "/books/#{@vol_first.id}", :content => "#{I18n.t(:sidelinks_detail)}")
-            response.should have_selector('a', :href => "/books/#{@vol_second.id}", :content => "#{I18n.t(:sidelinks_detail)}")
-            response.should have_selector('a', :href => "/books/#{@vol_third.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+            response.should have_selector('a', :href => "/en/books/#{@vol_first.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+            response.should have_selector('a', :href => "/en/books/#{@vol_second.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+            response.should have_selector('a', :href => "/en/books/#{@vol_third.id}", :content => "#{I18n.t(:sidelinks_detail)}")
           end
 
           it "should have a read book link for each book in my private collection" do
             get :show, :id => @my_private_collection
-            response.should have_selector('a', :href => "/books/#{@vol_first.id}/read")
-            response.should have_selector('a', :href => "/books/#{@vol_second.id}/read")
-            response.should have_selector('a', :href => "/books/#{@vol_third.id}/read")
+            response.should have_selector('a', :href => "/en/books/#{@vol_first.id}/read")
+            response.should have_selector('a', :href => "/en/books/#{@vol_second.id}/read")
+            response.should have_selector('a', :href => "/en/books/#{@vol_third.id}/read")
           end
 
           it "should display order for each book in my private collection" do
@@ -235,17 +235,17 @@ describe CollectionsController do
 
           it "should display sort links for each book in my private collection" do
             get :show, :id => @my_private_collection
-            response.should have_selector('a', :href => "/collections/move_down/#{@book_in_my_private_collection.id}")
-            response.should have_selector('a', :href => "/collections/move_up/#{@second_book_in_my_private_collection.id}")
-            response.should have_selector('a', :href => "/collections/move_down/#{@second_book_in_my_private_collection.id}")
-            response.should have_selector('a', :href => "/collections/move_up/#{@third_book_in_my_private_collection.id}")
+            response.should have_selector('a', :href => "/en/collections/move_down/#{@book_in_my_private_collection.id}")
+            response.should have_selector('a', :href => "/en/collections/move_up/#{@second_book_in_my_private_collection.id}")
+            response.should have_selector('a', :href => "/en/collections/move_down/#{@second_book_in_my_private_collection.id}")
+            response.should have_selector('a', :href => "/en/collections/move_up/#{@third_book_in_my_private_collection.id}")
           end
 
           it "should have a delete link for each book in my private collection" do
             get :show, :id => @my_private_collection
-            response.should have_selector('a', :href => "/collections/delete_book/#{@book_in_my_private_collection.id}")
-            response.should have_selector('a', :href => "/collections/delete_book/#{@second_book_in_my_private_collection.id}")
-            response.should have_selector('a', :href => "/collections/delete_book/#{@third_book_in_my_private_collection.id}")
+            response.should have_selector('a', :href => "/en/collections/delete_book/#{@book_in_my_private_collection.id}")
+            response.should have_selector('a', :href => "/en/collections/delete_book/#{@second_book_in_my_private_collection.id}")
+            response.should have_selector('a', :href => "/en/collections/delete_book/#{@third_book_in_my_private_collection.id}")
           end
 
           it "should have pagination bar" do
@@ -269,17 +269,17 @@ describe CollectionsController do
 
           describe "sort books in collection"
           it "should change book order to higher order" do
-            request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
+            request.env["HTTP_REFERER"] = "/en/collections/show/#{@my_private_collection.id}"
             get :move_up, :volume_collection_id => @second_book_in_my_private_collection
-            response.should redirect_to("/collections/show/#{@my_private_collection.id}")
+            response.should redirect_to("/en/collections/show/#{@my_private_collection.id}")
             @second_book_in_my_private_collection.position == 1
             @book_in_my_private_collection.position == 2
           end
 
           it "should change book order to lower order" do
-            request.env["HTTP_REFERER"] = "/collections/show/#{@my_private_collection.id}"
+            request.env["HTTP_REFERER"] = "/en/collections/show/#{@my_private_collection.id}"
             get :move_down, :volume_collection_id => @second_book_in_my_private_collection
-            response.should redirect_to("/collections/show/#{@my_private_collection.id}")
+            response.should redirect_to("/en/collections/show/#{@my_private_collection.id}")
             @second_book_in_my_private_collection.position == 3
             @third_book_in_my_private_collection.position == 2
           end
@@ -298,24 +298,24 @@ describe CollectionsController do
 
         it "should have an open link for each book in my public collection" do
           get :show, :id => @my_public_collection
-          response.should have_selector('a', :href => "/books/#{@vol_first.id}/read")
-          response.should have_selector('a', :href => "/books/#{@vol_second.id}/read")
-          response.should have_selector('a', :href => "/books/#{@vol_third.id}/read")
+          response.should have_selector('a', :href => "/en/books/#{@vol_first.id}/read")
+          response.should have_selector('a', :href => "/en/books/#{@vol_second.id}/read")
+          response.should have_selector('a', :href => "/en/books/#{@vol_third.id}/read")
         end
 
 
         it "should have a open link for each book in my public collection" do
           get :show, :id => @my_public_collection
-          response.should have_selector('a', :href => "/books/#{@vol_first.id}")
-          response.should have_selector('a', :href => "/books/#{@vol_second.id}")
-          response.should have_selector('a', :href => "/books/#{@vol_third.id}")
+          response.should have_selector('a', :href => "/en/books/#{@vol_first.id}")
+          response.should have_selector('a', :href => "/en/books/#{@vol_second.id}")
+          response.should have_selector('a', :href => "/en/books/#{@vol_third.id}")
         end
 
         it "should have a detail link for each book in my public collection" do
           get :show, :id => @my_public_collection
-          response.should have_selector('a', :href => "/books/#{@vol_first.id}", :content => "#{I18n.t(:sidelinks_detail)}")
-          response.should have_selector('a', :href => "/books/#{@vol_second.id}", :content => "#{I18n.t(:sidelinks_detail)}")
-          response.should have_selector('a', :href => "/books/#{@vol_third.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+          response.should have_selector('a', :href => "/en/books/#{@vol_first.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+          response.should have_selector('a', :href => "/en/books/#{@vol_second.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+          response.should have_selector('a', :href => "/en/books/#{@vol_third.id}", :content => "#{I18n.t(:sidelinks_detail)}")
         end
 
         it "should display order for each book in my public collection" do
@@ -334,17 +334,17 @@ describe CollectionsController do
 
         it "should display sort links for each book in my public collection" do
           get :show, :id => @my_public_collection
-          response.should have_selector('a', :href => "/collections/move_down/#{@book_in_my_public_collection.id}")
-          response.should have_selector('a', :href => "/collections/move_up/#{@second_book_in_my_public_collection.id}")
-          response.should have_selector('a', :href => "/collections/move_down/#{@second_book_in_my_public_collection.id}")
-          response.should have_selector('a', :href => "/collections/move_up/#{@third_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/en/collections/move_down/#{@book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/en/collections/move_up/#{@second_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/en/collections/move_down/#{@second_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/en/collections/move_up/#{@third_book_in_my_public_collection.id}")
         end
 
         it "should have a delete link for each book in my public collection" do
           get :show, :id => @my_public_collection
-          response.should have_selector('a', :href => "/collections/delete_book/#{@book_in_my_public_collection.id}")
-          response.should have_selector('a', :href => "/collections/delete_book/#{@second_book_in_my_public_collection.id}")
-          response.should have_selector('a', :href => "/collections/delete_book/#{@third_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/en/collections/delete_book/#{@book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/en/collections/delete_book/#{@second_book_in_my_public_collection.id}")
+          response.should have_selector('a', :href => "/en/collections/delete_book/#{@third_book_in_my_public_collection.id}")
         end
 
         it "should have pagination bar" do
@@ -357,11 +357,11 @@ describe CollectionsController do
 
         describe "delete book from collection" do
           it "should delete book from collection" do
-            request.env["HTTP_REFERER"] = "/collections/show/#{@my_public_collection.id}"
+            request.env["HTTP_REFERER"] = "/en/collections/show/#{@my_public_collection.id}"
             lambda do
               #get "/collections/delete_book/:volume_collection_id"
               get :delete_book, :volume_collection_id => @second_book_in_my_public_collection
-              response.should redirect_to("/collections/show/#{@my_public_collection.id}")
+              response.should redirect_to("/en/collections/show/#{@my_public_collection.id}")
               @third_book_in_my_public_collection.position == 2
             end.should change(VolumeCollection, :count).by(-1)
           end
@@ -369,17 +369,17 @@ describe CollectionsController do
 
         describe "sort books in collection" do
           it "should change book order to higher order" do
-            request.env["HTTP_REFERER"] = "/collections/show/#{@my_public_collection.id}"
+            request.env["HTTP_REFERER"] = "/en/collections/show/#{@my_public_collection.id}"
             get :move_up, :volume_collection_id => @second_book_in_my_public_collection
-            response.should redirect_to("/collections/show/#{@my_public_collection.id}")
+            response.should redirect_to("/en/collections/show/#{@my_public_collection.id}")
             @second_book_in_my_public_collection.position == 1
             @book_in_my_public_collection.position == 2
           end
 
           it "should change book order to lower order" do
-            request.env["HTTP_REFERER"] = "/collections/show/#{@my_public_collection.id}"
+            request.env["HTTP_REFERER"] = "/en/collections/show/#{@my_public_collection.id}"
             get :move_down, :volume_collection_id => @second_book_in_my_public_collection
-            response.should redirect_to("/collections/show/#{@my_public_collection.id}")
+            response.should redirect_to("/en/collections/show/#{@my_public_collection.id}")
             @second_book_in_my_public_collection.position == 3
             @third_book_in_my_public_collection.position == 2
           end
@@ -509,7 +509,7 @@ describe CollectionsController do
         request.env["HTTP_REFERER"] = "/collections"
         lambda do
           get :destroy_collection, :id => @my_private_collection
-          response.should redirect_to("/collections")
+          response.should redirect_to("/en/collections")
         end.should_not change(Collection, :count)
       end
     end
@@ -560,13 +560,13 @@ describe CollectionsController do
         it "should edit collection with vaild params " do
           request.env["HTTP_REFERER"] = "/users/#{@user.id}/collections"
           post :update, :id => @my_private_collection, :collection => @attr
-          response.should redirect_to("/users/#{@user.id}/collections")
+          response.should redirect_to("/en/users/#{@user.id}/collections")
         end
       end
       describe "uploading photo for collection" do
          it "can upload valid photo" do
            request.env["HTTP_REFERER"] = "/collections/edit/#{@my_private_collection.id}"
-           @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/#{I18n.t(:default_user)}', 'image/png')
+           @file =  Rack::Test::UploadedFile.new("public/images_#{I18n.locale}/#{I18n.t(:default_user)}", 'image/png')
            attr={:user_id => @user.id,
              :title => "my private collection",
              :description => "description", 
@@ -625,7 +625,7 @@ describe CollectionsController do
         it "should not display show private collection page for unauthenticated user" do
           log_in(@other_user)
           get :show, :id => @my_private_collection
-          response.should redirect_to("/collections")
+          response.should redirect_to("/en/collections")
         end
       end
 
@@ -646,12 +646,12 @@ describe CollectionsController do
   
         it "should display edit collection link for collection owned by current user" do
           get :show, :id => @my_private_collection
-          response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}/edit")
+          response.should have_selector('a', :href => "/en/collections/#{@my_private_collection.id}/edit")
         end
         
         it "should have a link to the owner" do
           get :show, :id => @my_private_collection
-          response.should have_selector("a", :href => "/users/#{@user.id}")
+          response.should have_selector("a", :href => "/en/users/#{@user.id}")
         end
         
         it "should have collection creation date" do
@@ -741,8 +741,8 @@ describe CollectionsController do
 
       it "should have an open link for each collection" do
         get :index
-        response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}", :content =>@other_public_collection.title)
-        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}", :content =>@my_public_collection.title)
+        response.should have_selector('a', :href => "/en/collections/#{@other_public_collection.id}", :content =>@other_public_collection.title)
+        response.should have_selector('a', :href => "/en/collections/#{@my_public_collection.id}", :content =>@my_public_collection.title)
       end
       
       it "should have description for each collection" do
@@ -753,8 +753,8 @@ describe CollectionsController do
     
       it "should have owner for each collection" do
         get :index
-        response.should have_selector('small>a', :href => "/users/#{@other_public_collection.user_id}")
-        response.should have_selector('small>a', :href => "/users/#{@my_public_collection.user_id}")
+        response.should have_selector('small>a', :href => "/en/users/#{@other_public_collection.user_id}")
+        response.should have_selector('small>a', :href => "/en/users/#{@my_public_collection.user_id}")
       end
       
 
