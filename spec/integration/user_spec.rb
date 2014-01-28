@@ -17,7 +17,7 @@ describe "user profile photo" do
       fill_in "password", :with => "test password"
       find("#submit").click
       #show user profile
-      visit("/users/#{@user1.id}")
+      visit("/en/users/#{@user1.id}")
       # check displaying user avatar
       expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_user)}")
       expect(page).not_to have_selector("input", :id => "delete_photo")
@@ -44,7 +44,7 @@ describe "user profile photo" do
       fill_in "password", :with => "test password"
       find("#submit").click
       #show user profile
-      visit("/users/#{@user1.id}")
+      visit("/en/users/#{@user1.id}")
       # check displaying user avatar
       photo_name = "thumb_#{(User.find(@user1)).photo_name}
       expect(page).to have_selector('img', :src => "#{photo_name}")
