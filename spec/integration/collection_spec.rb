@@ -521,6 +521,7 @@ describe "collections" do
         photo_name = "thumb_#{(Collection.find(@col)).photo_name}
         expect(page).to have_selector('img', :src => "#{photo_name}")
         expect(page).to have_selector("input", :id => "delete_photo")
+        @col.photo_name = nil
         FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
       end
       
@@ -534,6 +535,7 @@ describe "collections" do
         expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_collection)}")
         expect(page).not_to have_selector("input", :id => "delete_photo")
         FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+        @col.photo_name = nil
       end
       
       it "should display uploaded collection photo without delete photo option for non owner user", :js => true do
@@ -548,6 +550,7 @@ describe "collections" do
         photo_name = "thumb_#{(Collection.find(@col)).photo_name}
         expect(page).to have_selector('img', :src => "#{photo_name}")
         expect(page).not_to have_selector("input", :id => "delete_photo")
+        @col.photo_name = nil
         FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
       end
     end
