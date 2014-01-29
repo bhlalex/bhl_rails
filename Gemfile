@@ -49,4 +49,5 @@ group :development, :test do
   gem "carrierwave"
   gem "mini_magick"
   gem 'selenium-webdriver', '2.39.0'
+  gem 'database_cleaner'
 end
