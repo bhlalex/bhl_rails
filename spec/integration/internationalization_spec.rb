@@ -5,6 +5,12 @@ require 'spec_helper'
 include BHL::Login
 describe "internationalization" do
   
+  before(:each) do
+    solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    solr.delete_by_query('*:*') 
+    solr.commit
+  end
+  
   it "should allow user to choose a language and default is english" do
     visit "/"
     #default is english so that the other languages will be displayed
