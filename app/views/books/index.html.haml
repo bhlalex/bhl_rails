@@ -6,6 +6,10 @@
 = stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
 = javascript_include_tag 'jquery/rating/jRating.jquery.js'
 
+= stylesheet_link_tag '3dcovers/component'
+= javascript_include_tag '3dcovers/modernizr.custom.js'
+= javascript_include_tag '3dcovers/book.js'
+
 .row.clearfix  
   .col-md-8
     =render :partial => "books/breadcrumb"
@@ -36,3 +40,8 @@
     .well-sm.center-block
       %h2
         =I18n.t(:no_books_found)
+        
+:javascript
+  $(function(){
+    Books.init();
+  });
