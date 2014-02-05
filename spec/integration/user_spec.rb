@@ -1,8 +1,13 @@
 require 'spec_helper'
+require_relative '../../lib/bhl/login'
+
 include BHL::Login
 describe "users" do
 describe "user profile photo" do
   before(:each) do
+    solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+    solr.delete_by_query('*:*') 
+    solr.commit
     truncate_table(ActiveRecord::Base.connection, "users", {})
     @user1 = User.gen() 
     @user2 = User.gen() 
@@ -13,14 +18,13 @@ describe "user profile photo" do
   
   describe "display user avatar" do
     it "should display avatar for user profile without delete photo option" , :js => true do
+      
       #log in
       visit("/users/login")
       fill_in "username", :with => "#{@user1.username}"
       fill_in "password", :with => "test password"
       find("#submit").click
       #show user profile
-      visit("/en/users/#{@user1.id}")
-      sleep 50
       # check displaying user avatar
       expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_user)}")
       expect(page).not_to have_selector("input", :id => "delete_photo")
@@ -34,7 +38,7 @@ describe "user profile photo" do
       fill_in "username", :with => "#{@user1.username}"
       fill_in "password", :with => "test password"
       find("#submit").click
-      # upload photo for user profile
+       # upload photo for user profile
       visit("/users/#{@user1.id}/edit")
       attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/#{I18n.t(:logo)}")
       find("#submit").click
@@ -47,10 +51,8 @@ describe "user profile photo" do
       fill_in "password", :with => "test password"
       find("#submit").click
       #show user profile
-      visit("/en/users/#{@user1.id}")
-      sleep 50
       # check displaying user avatar
-      photo_name = "thumb_#{(User.find(@user1)).photo_name}
+      photo_name = "#{(User.find(@user1)).photo_name.thumb}"
       expect(page).to have_selector('img', :src => "#{photo_name}")
       expect(page).to have_selector("input", :id => "delete_photo")
       @user1.photo_name = nil
@@ -64,7 +66,6 @@ describe "user profile photo" do
       fill_in "password", :with => "test password"
       find("#submit").click
       visit("/get_user_profile_photo?id=#{@user1.id}&is_delete=1")
-      sleep 50
       expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_user)}")
       expect(page).not_to have_selector("input", :id => "delete_photo")
       @user1.photo_name = nil
@@ -79,7 +80,6 @@ describe "user profile photo" do
       find("#submit").click
       #show user profile
       visit("/en/users/#{@user1.id}")
-      sleep 50
       # check displaying user avatar
       photo_name = "#{(User.find(@user1)).photo_name.thumb}"
       expect(page).to have_selector('img', :src => "#{photo_name}")

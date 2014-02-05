@@ -485,7 +485,7 @@ describe BooksController do
 
   describe "tabs links" do
     
-    before(:all) do
+    before(:each) do
       truncate_table(ActiveRecord::Base.connection, "books", {})
       truncate_table(ActiveRecord::Base.connection, "volumes", {})
       truncate_table(ActiveRecord::Base.connection, "pages", {})

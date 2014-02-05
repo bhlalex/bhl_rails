@@ -90,7 +90,7 @@ describe PagesController do
   
   describe "GET 'home'" do
     
-    before(:all) do
+    before(:each) do
       #generate volumes
       truncate_table(ActiveRecord::Base.connection, "books", {})
       truncate_table(ActiveRecord::Base.connection, "volumes", {})

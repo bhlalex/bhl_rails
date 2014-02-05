@@ -45,7 +45,6 @@ class BooksController < ApplicationController
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
     @book = search['response']['docs'][0]
-      
     @page_title = @book['bok_title'][0]
     @volume = Volume.find_by_job_id(params[:id])
     @volume_id = @volume.id
