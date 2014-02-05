@@ -32,17 +32,6 @@ describe "books" do
   
   describe "book rating" do
     before(:each) do
-      truncate_table(ActiveRecord::Base.connection, "books", {})
-      truncate_table(ActiveRecord::Base.connection, "volumes", {})
-      truncate_table(ActiveRecord::Base.connection, "volume_ratings", {})
-      truncate_table(ActiveRecord::Base.connection, "collection_ratings", {})
-      truncate_table(ActiveRecord::Base.connection, "collections", {})
-      truncate_table(ActiveRecord::Base.connection, "book_views", {})
-      truncate_table(ActiveRecord::Base.connection, "comments", {})
-      truncate_table(ActiveRecord::Base.connection, "queries", {})
-      truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
-      truncate_table(ActiveRecord::Base.connection, "user_books", {})
-      truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
       doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
       doc_test_first[:bok_title] = "Test Book First"
       doc_test_first[:name] = ["sci1","sci2", "sci3"]
@@ -62,7 +51,6 @@ describe "books" do
       solr.add doc_test_first
       solr.commit
       
-      truncate_table(ActiveRecord::Base.connection, "users", {})
       @user1 = User.gen() 
       @user2 = User.gen() 
       
@@ -74,8 +62,10 @@ describe "books" do
       fill_in "username", :with => "#{@user1.username}"
       fill_in "password", :with => "test password"
       find("#submit").click
+      
       #rate with 3
       visit("/books/#{@vol_first.job_id}")
+      
       find("#star3").click
       visit("/books/#{@vol_first.job_id}")
       #check average rate
@@ -275,21 +265,13 @@ describe "books" do
     
   describe "reviews" do
     before(:each) do
-      truncate_table(ActiveRecord::Base.connection, "books", {})
-      truncate_table(ActiveRecord::Base.connection, "volumes", {})
-      truncate_table(ActiveRecord::Base.connection, "volume_ratings", {})
-      truncate_table(ActiveRecord::Base.connection, "collection_ratings", {})
-      truncate_table(ActiveRecord::Base.connection, "book_views", {})
-      truncate_table(ActiveRecord::Base.connection, "queries", {})
-      truncate_table(ActiveRecord::Base.connection, "user_book_histories", {})
-      truncate_table(ActiveRecord::Base.connection, "user_books", {})
-      truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
-      truncate_table(ActiveRecord::Base.connection, "users", {})
       @user1 = User.gen() 
       @user2 = User.gen() 
-      truncate_table(ActiveRecord::Base.connection, "collections", {})
-      truncate_table(ActiveRecord::Base.connection, "comments", {})
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)  
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      # remove this book if exists
+      solr.delete_by_query('*:*')
+      solr.commit
     end
     
     describe "replies" do
