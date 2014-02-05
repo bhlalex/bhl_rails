@@ -67,7 +67,8 @@ describe "books" do
       visit("/books/#{@vol_first.job_id}")
       
       find("#star3").click
-      visit("/books/#{@vol_first.job_id}")
+      #delay
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
     end
@@ -86,7 +87,8 @@ describe "books" do
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
       #edit rate to 1
       find("#star1").click
-      visit("/books/#{@vol_first.job_id}")
+      #delay
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 1.0
       
@@ -102,7 +104,7 @@ describe "books" do
       #rate with 3
       find("#star3").click
       #delay
-      sleep 50
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
       
@@ -116,7 +118,8 @@ describe "books" do
       visit("/books/#{@vol_first.job_id}")
       #rate with 5
       find("#star5").click
-      visit("/books/#{@vol_first.job_id}")
+      #delay
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 4.0
     end
