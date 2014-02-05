@@ -10,6 +10,11 @@ describe "collections" do
       @user1 = User.gen() 
       @user2 = User.gen() 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description")
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*') 
+      solr.commit
     end
     
     it "should allow logged in user to rate collection", :js => true do
@@ -265,6 +270,11 @@ describe "collections" do
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       truncate_table(ActiveRecord::Base.connection, "comments", {})
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)  
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*') 
+      solr.commit
     end
     
     describe "replies" do
@@ -484,6 +494,11 @@ describe "collections" do
       @user1 = User.gen() 
       @user2 = User.gen() 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*') 
+      solr.commit
     end
     
     describe "display collection avatar" do
