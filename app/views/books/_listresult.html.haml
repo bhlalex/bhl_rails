@@ -1,26 +1,12 @@
 %div{:id => "book #{@number}", :class => "col-md-8 column browse", :name => "book #{@vol.job_id}"}
-  .row.clearfix
-    .col-xs-2.column  
-      .bookshelf
-        %ul.bk-list.clearfix#bk-list
-          %li
-            .bk-book.bk-bookdefault{:class => "book-#{@number}"}
-              .bk-front
-                .bk-cover
-                  %h2
-                    %span
-                    %span
-                      - if (@title.length > 40)
-                        = "#{@title[0,40].html_safe}..."
-                      - else
-                        = @title.html_safe      
-                .bk-cover-back
-              .bk-right
-              .bk-left
-                %h4
-                  %span
-                    - if(@doc['author'] != nil)
-                      = @doc['author'][0]   
+  .row.clearfix  
+    - @coverno = @number
+    - @covertitle = @title.html_safe
+    - if(@doc['author'] != nil)
+      - @coverauthor = @doc['author'][0]
+    - else
+      - @coverauthor = ""    
+    = render :partial => "books/covers"   
           
     .col-md-6.column
       %h4
