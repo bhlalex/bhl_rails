@@ -101,18 +101,18 @@ describe ActivitiesHelper do
       #        rated my collection
       #        created my collection
       it "should return log activities ordered by time" do
-        @log_records[0][:record].should include("rated")
-        @log_records[0][:record].should include("Test Book")
-        @log_records[1][:record].should include("created")
-        @log_records[1][:record].should include("other collection")
-        @log_records[2][:record].should include("commented")
-        @log_records[2][:record].should include("my collection")
-        @log_records[3][:record].should include("commented")
-        @log_records[3][:record].should include("Test Book")
-        @log_records[4][:record].should include("rated")
-        @log_records[4][:record].should include("my collection")
-        @log_records[5][:record].should include("created")
-        @log_records[5][:record].should include("my collection")
+        @log_records[0][:action].should include("rated")
+        @log_records[0][:object_name].should include("Test Book")
+        @log_records[1][:action].should include("created")
+        @log_records[1][:object_name].should include("other collection")
+        @log_records[2][:action].should include("commented")
+        @log_records[2][:object_name].should include("my collection")
+        @log_records[3][:action].should include("commented")
+        @log_records[3][:object_name].should include("Test Book")
+        @log_records[4][:action].should include("rated")
+        @log_records[4][:object_name].should include("my collection")
+        @log_records[5][:action].should include("created")
+        @log_records[5][:object_name].should include("my collection")
       end
     end
   
@@ -165,14 +165,14 @@ describe ActivitiesHelper do
       #        rated my collection
       #        created my collection
       it "should return log activities ordered by time" do
-        @log_records[0][:record].should include("commented")
-        @log_records[0][:record].should include("my collection")
-        @log_records[1][:record].should include("commented")
-        @log_records[1][:record].should include("Test Book")
-        @log_records[2][:record].should include("rated")
-        @log_records[2][:record].should include("my collection")
-        @log_records[3][:record].should include("created")
-        @log_records[3][:record].should include("my collection")
+        @log_records[0][:action].should include("commented")
+        @log_records[0][:object_name].should include("my collection")
+        @log_records[1][:action].should include("commented")
+        @log_records[1][:object_name].should include("Test Book")
+        @log_records[2][:action].should include("rated")
+        @log_records[2][:object_name].should include("my collection")
+        @log_records[3][:action].should include("created")
+        @log_records[3][:object_name].should include("my collection")
       end
     end
   

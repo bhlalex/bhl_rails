@@ -6,7 +6,7 @@
   $(document).ready(function(){
     $("#starsidelink_#{@collection.id}").jRating({
       isDisabled : true,
-      bigStarsPath: "/images_#{I18n.locale}/stars_white.png"
+      bigStarsPath: "/images_#{I18n.locale}/#{I18n.t(:stars_white)}"
     });
   });
   

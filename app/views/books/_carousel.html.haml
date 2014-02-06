@@ -9,15 +9,15 @@
       %ul.pager
         %li
           - if @start.to_i > 0
-            %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(0, \"#{@divname}\");"}
+            %a.rotate{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(0, \"#{@divname}\");"}
               %i.fa.fa-arrow-left
           - else
-            %a{:style => "cursor: not-allowed; color: #999999;"}
+            %a.rotate{:style => "cursor: not-allowed; color: #999999;"}
               %i.fa.fa-arrow-left
         %li
           - if (@pages.to_i-1 != @start.to_i)
-            %a{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(1, \"#{@divname}\");"}
+            %a.rotate{:onmouseover => "", :style => "cursor: pointer;", :onclick => "moveItems(1, \"#{@divname}\");"}
               %i.fa.fa-arrow-right
           - else
-            %a{:style => "cursor: not-allowed; color: #999999;"}
+            %a.rotate{:style => "cursor: not-allowed; color: #999999;"}
               %i.fa.fa-arrow-right

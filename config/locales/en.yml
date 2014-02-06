@@ -24,7 +24,6 @@ en:
   
   and_count_more: "and %{count} more"
   
-  
   delete_comment_confirm: Are you sure you want to delete this comment?
   mark: Report as inappropriate
 
@@ -37,7 +36,6 @@ en:
   selection_all_option: "All"
   no_books_found: "No Books Found..."
   no_collections_found: 'No Collections Found...'
-  collection_title: Collection Title
   show_collection_detail: Collection Detail
   save_query: Save Query
   query_saved: Query Saved
@@ -59,7 +57,7 @@ en:
   
   errors:
     messages:
-       extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
+      extension_white_list_error: 'Types allowed are: jpeg jpg gif bmp png'
        
   notifier:
     user_verification:
@@ -127,7 +125,6 @@ en:
   missing_title_error_msg: "Title is too short (minimum is 4 characters)"
   save: "Save"
   cancel: "Cancel"
-  add_to_collection: "Add book to collection "
   add_book_dialog_title: "Add book to my collection"
   book_removed: "Book is removed"
   
@@ -164,10 +161,6 @@ en:
   ba_name: "Bibliotheca Alexandrina (BA)"
   bhl_site_name: "Biodivestiry Heritage Library - Egypt"
   search_go: Go
-  language: Language
-  geo_location: Geo Location
-  name: Name
-  content: Content
   
   #About US Page
   about_us_page_1: "The New %{ba_link} is dedicated to recapture the spirit of openness and scholarship of the original Bibliotheca Alexandrina. Hence, it was keen to take part in the Global Biodiversity Heritage Library (BHL) project, as the project is regarded as a substantial enrichment to the BA's collection and simultaneously an optimum channel for sharing and propagating the Library's Arabic and non-Arabic biodiversity collection. This mutual collaboration comes in accordance with the BA's mission in availing knowledge to all, and furthers the inclusion and input of the Arabic-speaking countries."
@@ -211,7 +204,10 @@ en:
   sidelinks_read: Read
   sidelinks_detail: Details
   sidelinks_add_collection: Add to Collection
-  sidelinks_views: view
+  sidelinks_views: 
+    zero: views
+    one: "1 view"
+    other: "%{count} view"
   listresult_author_by: "By:" 
   listresult_subject: "Genre:" 
   listresult_names: "Names:" 
@@ -223,10 +219,6 @@ en:
   #Pages (About US, Contact Us)
   about_us_page_title: About Us
   contact_us_page_title: Contact Us
-  sender: Sender
-  message_subject: Subject
-  text: Message
-  recaptcha: Type these words
   
   #Book Details Page
   book_details_mods: MODs
@@ -237,7 +229,10 @@ en:
   book_details_details: Details
   book_details_average_rate: Average Rate
   book_details_user_rate: Your Rate
-  book_details_star: star
+  book_details_star: 
+    zero: ""
+    one: '%{count} star'
+    other: '%{count} stars'
   books_details_add_collection: Add to Collection
   book_details_collection_count:
     one:   "Collections"
@@ -267,10 +262,12 @@ en:
   upload_photo_ext_error: Allowed extensions (jpg, jpeg, png, gif, bmp)
   old_password: Old Password
   new_password: New Password
+  recaptcha: Recaptcha
+  password_confirmation: Password Confirmation
+  email_confirmation: Email Confirmation
   new_password_confirmation: New Password Confirmation
   change_password: Change Password
   invalid_old_password: Invalid Old Password
-  upload_photo_dim_error: You should upload a rectangle image
   
   #Browse Page
   browse_subject_page_header: Subjects
@@ -293,7 +290,7 @@ en:
   no_collections_found: No Collections Found...
   collections_found:
     zero:  ""
-    one:   "Found in one collections"
+    one:   "Found in one collection"
     other: "Found in %{count} collections"
   collections_found_all: "Found %{count} collections"
   collection_by: "By:"
@@ -397,6 +394,12 @@ en:
   user_queries_books_found: "Books Found: "
   books_index_search_filter: Search Filter
   delete_photo_confirm: Are you sure you want to delete your profile photo?
+  name: Name
+  language: Language
+  content: Content
+  geo_location: Geo Location
+  published_at: Published at
+  publisher: Publisher
     
   #User Profile Page (Annotation Tab)
   user_annotation_title: Annotations
@@ -441,5 +444,37 @@ en:
   
   tree_of_life_title: Tree of Life
   species_details: Species Details  
-  select_species_for_details: Select species on the left to view the details
+  select_species_for_details: Select species on the left to view the details  
+ 
+  #autocomplete
+  no_suggestion: "No Suggestion" 
+  
+  #ubio error msgs
+  ubio_enter_jobid: 'Please specify correct job_id'
+  ubio_enter_status: 'Please specify success status with 0 or 1'
+  ubio_wrong_jobid: 'Sorry: This JOBID is not available in our database.'
+  
+  #names tooltip
+  find_in_book: Find in the book
+  view_in_eol: View in EOL.org
+  books_with_name: Books with name
+  
+  #eol link
+  eol_pages_link: "http://www.eol.org/pages/"
+ 
+  # file names
+  default_book: "default_book.png"
+  default_book_small: "book_thumb_small.png"
+  default_collection: "default_collection.png"
+  default_collection_small: "collection.png"
+  default_user: "default_user.png"
+  default_user_small: "default_user_small.png"
+  logo: "logo.png"
+  map_pin_blue: "map_pin_blue.png"
+  map_pin_green: "map_pin_green.png"
+  map_pin_orange: "map_pin_orange.png"
+  map_pin_red: "map_pin_red.png"
+  map_pin_yellow: "map_pin_yellow.png"
+  stars_grey: "stars_grey.png"
+  stars_white: "stars_white.png"
   

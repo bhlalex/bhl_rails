@@ -44,24 +44,24 @@
   %hr
   #photo
   .div
-    %span.col-md-2.text-right
+    %span.col-md-3.text-right
       %strong
         = I18n.t(:real_name)
-    %span.col-md-8
+    %span.col-md-6
       = @user.real_name
-    %span.col-md-2.text-right
+    %span.col-md-3.text-right
       %strong
         = I18n.t(:username)
-    %span.col-md-8
+    %span.col-md-6
       = @user.username
-    %span.col-md-2.text-right
+    %span.col-md-3.text-right
       %strong
         = I18n.t(:member_since)
-    %span.col-md-8
+    %span.col-md-6
       = @user.created_at.to_s
-    %span.col-md-2.text-right
+    %span.col-md-3.text-right
       %strong
         = I18n.t(:last_login)
-    %span.col-md-8
+    %span.col-md-6
       = @user.last_login.to_s
                

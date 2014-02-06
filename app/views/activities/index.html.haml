@@ -12,15 +12,25 @@
           .panel-body
             - @user = User.find(item[:user])
             - if(@user.photo_name.blank?)
-              - @thumb = "/images_#{I18n.locale}/user.png"
+              - @thumb = "/images_#{I18n.locale}/#{I18n.t(:default_user)}"
             - else
               - @thumb = @user.photo_name_url(:thumb)
             .media
               %a.pull-left{:href=> "/users/#{@user.id}/profile"}
                 = image_tag("#{@thumb}", :class => "media-object img-circle")
               .media-body.activity-log
-                %p
-                  =item[:record].html_safe
+                %p{:style => "line-height:120%;font-size:12px;"}
+                  %strong
+                    %a.book_author{:href=> "/users/#{@user.id}/profile"} 
+                      = @user.real_name.html_safe
+                  = item[:action].html_safe
+                  %a.book_title{:href=> item[:object_link]} 
+                    = item[:object_name].html_safe
+                  %p
+                    = item[:text].html_safe
+                  %br
+                  %small.text-muted
+                    = "#{I18n.t(:log_activity_at)} #{item[:time]}"
           - count += 1
           - if count < @activities.count
             %hr

@@ -32,9 +32,6 @@ describe "books" do
   
   describe "book rating" do
     before(:each) do
-      truncate_table(ActiveRecord::Base.connection, "books", {})
-      truncate_table(ActiveRecord::Base.connection, "volumes", {})
-      truncate_table(ActiveRecord::Base.connection, "volume_ratings", {})
       doc_test_first = {:vol_jobid => "123", :bok_bibid => "456"}
       doc_test_first[:bok_title] = "Test Book First"
       doc_test_first[:name] = ["sci1","sci2", "sci3"]
@@ -54,7 +51,6 @@ describe "books" do
       solr.add doc_test_first
       solr.commit
       
-      truncate_table(ActiveRecord::Base.connection, "users", {})
       @user1 = User.gen() 
       @user2 = User.gen() 
       
@@ -66,10 +62,13 @@ describe "books" do
       fill_in "username", :with => "#{@user1.username}"
       fill_in "password", :with => "test password"
       find("#submit").click
+      
       #rate with 3
       visit("/books/#{@vol_first.job_id}")
+      
       find("#star3").click
-      visit("/books/#{@vol_first.job_id}")
+      #delay
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
     end
@@ -88,7 +87,8 @@ describe "books" do
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
       #edit rate to 1
       find("#star1").click
-      visit("/books/#{@vol_first.job_id}")
+      #delay
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 1.0
       
@@ -103,7 +103,8 @@ describe "books" do
       visit("/books/#{@vol_first.job_id}")
       #rate with 3
       find("#star3").click
-      visit("/books/#{@vol_first.job_id}")
+      #delay
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
       
@@ -117,14 +118,13 @@ describe "books" do
       visit("/books/#{@vol_first.job_id}")
       #rate with 5
       find("#star5").click
-      visit("/books/#{@vol_first.job_id}")
+      #delay
+      sleep(10)
       #check average rate
       Volume.find_by_job_id(@vol_first.job_id).rate.should == 4.0
     end
     
     it "should not allow not logged in user to rate", :js => true do
-      #log out
-      visit("/users/logout")
       visit("/books/#{@vol_first.job_id}")
       #rate with 3
       find("#star3").click
@@ -198,9 +198,9 @@ describe "books" do
       PageName.create(:page => @page_first, :name => @name2, :namestring => "sci2")
 
       truncate_table(ActiveRecord::Base.connection, "users", {})
-       @user = User.gen() 
+      @user = User.gen() 
        
-     # collections
+      # collections
       @private_collection = Collection.create(:user_id => @user_id, :title => "private collection", :description => "description", :is_public => false)
       @first_public_collection = Collection.create(:user_id => @user_id, :title => "first public collection", :description => "description", :is_public => true)
       @second_public_collection = Collection.create(:user_id => @user_id, :title => "second public collection", :description => "description", :is_public => true)
@@ -211,6 +211,7 @@ describe "books" do
       # book views
       book_views = BookView.create(:book_id1 => @vol_first.job_id, :book_id2 => @vol_second.job_id)
     end
+    
     describe "book collections" do
 
 
@@ -223,10 +224,9 @@ describe "books" do
         visit("/books/#{@vol_first.job_id}")
         # delay
         sleep 50
-        find("#star3").click
         page.should have_selector("h4", :content => "#{I18n.t(:book_details_found_collections)}")
-        page.should have_selector("a", :href => "/collections/#{@first_public_collection.id}", :content => "#{@first_public_collection.title}")
-        page.should have_selector("a", :href => "/collections/#{@second_public_collection.id}", :content => "#{@second_public_collection.title}")
+        page.should have_selector("a", :href => "/en/collections/#{@first_public_collection.id}", :content => "#{@first_public_collection.title}")
+        page.should have_selector("a", :href => "/en/collections/#{@second_public_collection.id}", :content => "#{@second_public_collection.title}")
 
       end
     end
@@ -242,9 +242,8 @@ describe "books" do
         visit("/books/#{@vol_first.job_id}")
         # delay
         sleep 50
-        find("#star3").click
         page.should have_selector("h4", :content => "#{I18n.t(:book_details_related)}")
-        page.should have_selector("a", :href => "/books/#{@vol_second.job_id}", :content => "#{@book_test_second.title}")
+        page.should have_selector("a", :href => "/en/books/#{@vol_second.job_id}", :content => "#{@book_test_second.title}")
       end
       
     end
@@ -259,21 +258,21 @@ describe "books" do
         visit("/books/#{@vol_first.job_id}")
         # delay
         sleep 50
-        find("#star3").click
         page.should have_selector("h4", :content => "#{I18n.t(:book_details_user_viewed)}")
-        page.should have_selector("a", :href => "/books/#{@vol_second.job_id}", :content => "#{@book_test_second.title}")
+        page.should have_selector("a", :href => "/en/books/#{@vol_second.job_id}", :content => "#{@book_test_second.title}")
       end
     end
   end
     
   describe "reviews" do
     before(:each) do
-      truncate_table(ActiveRecord::Base.connection, "users", {})
       @user1 = User.gen() 
       @user2 = User.gen() 
-      truncate_table(ActiveRecord::Base.connection, "collections", {})
-      truncate_table(ActiveRecord::Base.connection, "comments", {})
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)  
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      # remove this book if exists
+      solr.delete_by_query('*:*')
+      solr.commit
     end
     
     describe "replies" do
@@ -328,7 +327,7 @@ describe "books" do
         fill_in "commnettext", :with => "comment text"
         find("#post").click
         page.should have_content("comment text")
-        page.should have_selector("img", :src => "/images_#{I18n.locale}/user.png")
+        page.should have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_user)}")
       end
       
       it "should have link to the owner of the comment", :js => true do

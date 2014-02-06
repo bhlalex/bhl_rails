@@ -15,8 +15,14 @@
       &= strip_tags(page_title)
       
     = yield :head
-    = stylesheet_link_tag 'bootstrap'
-    = stylesheet_link_tag 'main'
+    - if "#{I18n.locale}" == "ar" 
+      = stylesheet_link_tag 'bootstrap_ar'
+    - else
+      = stylesheet_link_tag 'bootstrap_en'
+    - if "#{I18n.locale}" == "ar" 
+      = stylesheet_link_tag 'main_ar'
+    - else
+      = stylesheet_link_tag 'main_en'
     = stylesheet_link_tag 'font-awesome'
     = stylesheet_link_tag 'jquery/themes/jquery.ui.all.css'
     
@@ -84,8 +90,8 @@
         .row.clearfix.visible-md.visible-lg
           .col-md-3
             %a{ :href => "/" }
-              =image_tag("/images_#{I18n.locale}/logo.png", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
-          .col-md-7
+              =image_tag("/images_#{I18n.locale}/#{I18n.t(:logo)}", :alt => I18n.t(:bhl_site_name), :title => I18n.t(:bhl_site_name), :class => "hidden-xs img-responsive")
+          .col-md-6
             - jsquery = ""
             - if(params[:controller] == "books" && params[:action] == "index")
               - jsquery = set_query_string(@query_array, true) 
@@ -93,36 +99,36 @@
               .input-append
                 %span.separator.pull-left.searchicon
                   %i.fa.fa-search.fa-lg.pull-left
-                .col-xs-6
+                .col-xs-5
                   %input.form-control{:id=> "headersearchfield", :type => "text",  :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('headersearchby'), document.getElementById('headersearchfield').value);return false;}"}
                 %span.separator.pull-left 
                   |
-                .btn-group.pull-left.col-xs-3
-                  %select.btn.allcat#headersearchby
-                    %option{:value => "ALL"} 
+                .btn-group.pull-left
+                  %select.width.btn.allcat.text-left#headersearchby
+                    %option.text-left{:value => "ALL"} 
                       = I18n.t(:option_all)
-                    %option.topdropdown-search{:value => "title", :selected => true} 
+                    %option.text-left{:value => "title", :selected => true} 
                       = I18n.t(:option_title)
-                    %option.topdropdown-search{:value => "language"} 
+                    %option.text-left{:value => "language"} 
                       = I18n.t(:option_language)
-                    %option.topdropdown-search{:value => "published_at"} 
+                    %option.text-left{:value => "published_at"} 
                       = I18n.t(:option_publish_time)
-                    %option.topdropdown-search{:value => "publisher"} 
+                    %option.text-left{:value => "publisher"} 
                       = I18n.t(:option_publisher)
-                    %option.topdropdown-search{:value => "geo_location"} 
+                    %option.text-left{:value => "geo_location"} 
                       = I18n.t(:option_regional_affiliation)
-                    %option.topdropdown-search{:value => "author"} 
+                    %option.text-left{:value => "author"} 
                       = I18n.t(:option_author)
-                    %option.topdropdown-search{:value => "name"} 
+                    %option.text-left{:value => "name"} 
                       = I18n.t(:option_tagged_species)
-                    %option.topdropdown-search{:value => "subject"} 
+                    %option.text-left{:value => "subject"} 
                       = I18n.t(:option_genre)
-                    %option.topdropdown-search{:value => "content"} 
+                    %option.text-left{:value => "content"} 
                       = I18n.t(:option_content)
                 .clearfix.visible-xs  
               %span.separator.pull-left 
                 |    
-              %a.go.pull-left{:href => "#", :onclick=>"searchfnc('#{jsquery}', document.getElementById('headersearchby'), document.getElementById('headersearchfield').value); return false;"}
+              %a.go.pull-left.rotate{:href => "#", :onclick=>"searchfnc('#{jsquery}', document.getElementById('headersearchby'), document.getElementById('headersearchfield').value); return false;"}
                 %i.fa.fa-arrow-circle-right.fa-2x
               .clearfix
           .col-md-2    
@@ -150,6 +156,12 @@
                     %i.fa.fa-edit.fa-2x
                     %br
                     =I18n.t(:header_profile)
+          .col-md-1
+            .language.pull-left
+              - if I18n.locale != :en
+                = link_to "English",locale: :en
+              - if I18n.locale != :ar
+                = link_to "Arabic", locale: :ar
         .row.clearfix
           .col-md-12.column
             %nav.navbar.navbar-default.navbar-inverse{:role => "navigation"}
@@ -249,14 +261,15 @@
                     %input.form-control{:id => "appendedDropdownButton focusedInput", :placeholder => "Search", :type => "text"}
                   .btn-group
                     %button.btn.dropdown-toggle.allcat{"data-toggle" => "dropdown"}
-                      All Categoreies
+                      = "#{I18n.t(:option_all)}"
                       %span.caret
                     %ul.dropdown-menu.topdropdown-search
                       %li
                         %a{:href => "#"} Animalia
                       %li
                         %a{:href => "#"} Aykalam 
-                  %button.btn.btn-default{:type => "submit"} Submit
+                  %button.btn.btn-default{:type => "submit"} 
+                    = "#{I18n.t(:submit_buton)}"
                   .clearfix
           = render :partial => "layouts/flash", object: flash  #NEW_LAYOUT
         = yield

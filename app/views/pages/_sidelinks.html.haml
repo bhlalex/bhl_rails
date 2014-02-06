@@ -2,7 +2,7 @@
   $(document).ready(function(){
     $("#starsidelink_#{page}_#{@vol[:job_id]}").jRating({
       isDisabled : true,
-      bigStarsPath: "/images_#{I18n.locale}/stars_grey.png"
+      bigStarsPath: "/images_#{I18n.locale}/#{I18n.t(:stars_grey)}"
     });
   });
   
@@ -29,5 +29,5 @@
     .starsidelink{:id => "starsidelink_#{page}_#{@vol[:job_id]}", :data => "#{@doc['rate']}"}
   %span.text-muted.pull-right
     %small
-      ="#{pluralize(@doc[:views], I18n.t(:sidelinks_views))} "
+      ="#{I18n.t(:sidelinks_views, :count => @doc[:views])} "
 %div

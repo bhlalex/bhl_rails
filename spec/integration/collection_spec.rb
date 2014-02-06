@@ -10,6 +10,11 @@ describe "collections" do
       @user1 = User.gen() 
       @user2 = User.gen() 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description")
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*') 
+      solr.commit
     end
     
     it "should allow logged in user to rate collection", :js => true do
@@ -265,6 +270,11 @@ describe "collections" do
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       truncate_table(ActiveRecord::Base.connection, "comments", {})
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)  
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*') 
+      solr.commit
     end
     
     describe "replies" do
@@ -319,7 +329,7 @@ describe "collections" do
         fill_in "commnettext", :with => "comment text"
         find("#post").click
         page.should have_content("comment text")
-        page.should have_selector("img", :src => "/images_#{I18n.locale}/user.png")
+        page.should have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_user)}")
       end
       
       it "should have link to the owner of the comment", :js => true do
@@ -484,6 +494,11 @@ describe "collections" do
       @user1 = User.gen() 
       @user2 = User.gen() 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)
+      truncate_table(ActiveRecord::Base.connection, "volumes", {})
+      truncate_table(ActiveRecord::Base.connection, "books", {})
+      solr = RSolr.connect :url => SOLR_BOOKS_METADATA
+      solr.delete_by_query('*:*') 
+      solr.commit
     end
     
     describe "display collection avatar" do
@@ -491,7 +506,7 @@ describe "collections" do
         #show collection detail
         visit("/collections/#{@col.id}")
         # check displaying user avatar
-        expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/nocollection140.png")
+        expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_collection)}")
         expect(page).not_to have_selector("input", :id => "delete_photo")
       end
     end
@@ -505,7 +520,7 @@ describe "collections" do
         find("#submit").click
         # upload photo for collection
         visit("/collections/#{@col.id}/edit")
-        attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/logo.png")
+        attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/#{I18n.t(:logo)}")
         find("#submit").click
         visit("/users/logout")
       end
@@ -521,6 +536,7 @@ describe "collections" do
         photo_name = "thumb_#{(Collection.find(@col)).photo_name}
         expect(page).to have_selector('img', :src => "#{photo_name}")
         expect(page).to have_selector("input", :id => "delete_photo")
+        @col.photo_name = nil
         FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
       end
       
@@ -531,9 +547,10 @@ describe "collections" do
         fill_in "password", :with => "test password"
         find("#submit").click
         visit("/get_collection_photo?id=#{@col.id}&is_delete=1")
-        expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/nocollection140.png")
+        expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_collection)}")
         expect(page).not_to have_selector("input", :id => "delete_photo")
         FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+        @col.photo_name = nil
       end
       
       it "should display uploaded collection photo without delete photo option for non owner user", :js => true do
@@ -548,6 +565,7 @@ describe "collections" do
         photo_name = "thumb_#{(Collection.find(@col)).photo_name}
         expect(page).to have_selector('img', :src => "#{photo_name}")
         expect(page).not_to have_selector("input", :id => "delete_photo")
+        @col.photo_name = nil
         FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
       end
     end

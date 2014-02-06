@@ -84,13 +84,13 @@ class UbioController < ApplicationController
     success = params[:success] != nil ? params[:success] : 0
     @fail_message = ''
     if id == '' || ()
-      @fail_message = 'Please specify correct job_id'
+      @fail_message = "#{I18n.t(:ubio_enter_jobid)}"
     elsif success == '' || (success != '0' && success != '1')
-      @fail_message = 'Please specify success status with 0 or 1'
+      @fail_message = "#{I18n.t(:ubio_enter_status)}"
     else
       volume =  Volume.find_by_job_id(id)
       if volume == nil
-        @fail_message = 'Sorry: This JOBID is not available in our database.'
+        @fail_message = "#{I18n.t(:ubio_wrong_jobid)}"
       else
         if success == '0'          
           volume.ubio_in_dar_fail = volume.ubio_in_dar_fail == nil ? 1 : volume.ubio_in_dar_fail + 1 

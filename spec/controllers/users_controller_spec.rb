@@ -28,8 +28,8 @@ describe UsersController do
       response.should be_success
       log_in(@user)
       get :new
-      response.should_not render_template('users/new')
-      expect(response).to redirect_to("/users/#{@user.id}")
+      response.should_not render_template('/en/users/new')
+      expect(response).to redirect_to("/en/users/#{@user.id}")
     end
   end
 
@@ -82,7 +82,7 @@ describe UsersController do
         end
 #        it "should have book title links to details page" do
 #          get :show, :id => @user.id
-#          response.should have_selector("a", :href => "/books/#{@vol_first.job_id}/brief")
+#          response.should have_selector("a", :href => "/en/books/#{@vol_first.job_id}/brief")
 #        end
        
         it "should have recently viewed link" do
@@ -180,21 +180,21 @@ describe UsersController do
         # check for existance of detail link for each book_title in list view
         it "should have book title that links for details" do
           get :show, :id => @user.id, :tab => "history"
-          response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
-          response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
+          response.should have_selector('a', :href => "/en/books/123" ,:content => "Test Book First")
+          response.should have_selector('a', :href => "/en/books/238233", :content => "Test Book Second")
         end
         
         # check for existance of read and detail links for each book in list view
         it "should have details link for each book" do
           get :show, :id => @user.id, :tab => "history"
-          response.should have_selector('a', :href => "/books/123", :content => I18n.t(:sidelinks_detail))
-          response.should have_selector('a', :href => "/books/238233", :content => I18n.t(:sidelinks_detail))
+          response.should have_selector('a', :href => "/en/books/123", :content => I18n.t(:sidelinks_detail))
+          response.should have_selector('a', :href => "/en/books/238233", :content => I18n.t(:sidelinks_detail))
         end
         
         it "should have read link for each book" do
           get :show, :id => @user.id, :tab => "history"
-          response.should have_selector('a', :href => "/books/123/read", :content => I18n.t(:sidelinks_read))
-          response.should have_selector('a', :href => "/books/238233/read", :content => I18n.t(:sidelinks_read))
+          response.should have_selector('a', :href => "/en/books/123/read", :content => I18n.t(:sidelinks_read))
+          response.should have_selector('a', :href => "/en/books/238233/read", :content => I18n.t(:sidelinks_read))
         end
         
       end
@@ -265,7 +265,7 @@ describe UsersController do
 
       it "should have an open link for public collections of other user" do
         get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}", :content => "#{@other_public_collection.title}")
+        response.should have_selector('a', :href => "/en/collections/#{@other_public_collection.id}", :content => "#{@other_public_collection.title}")
       end
 
 
@@ -279,19 +279,19 @@ describe UsersController do
 
       it "should have an open link for each collection of my collections" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}", :content => "#{@my_private_collection.title}")
-        response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}", :content => "#{@my_public_collection.title}")
+        response.should have_selector('a', :href => "/en/collections/#{@my_private_collection.id}", :content => "#{@my_private_collection.title}")
+        response.should have_selector('a', :href => "/en/collections/#{@my_public_collection.id}", :content => "#{@my_public_collection.title}")
       end
 
       it "should have an image for each collection" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a>img', :src => "/images_#{I18n.locale}/nocollection140.png")
+        response.should have_selector('a>img', :src => "/images_#{I18n.locale}/#{I18n.t(:default_collection_small)}")
       end
 
       it "should have delete link for the collections owned by the current user" do
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_private_collection.id}?page=1&user_id=#{@user.id}")
-        response.should have_selector('a', :href => "/collections/destroy_collection/#{@my_public_collection.id}?page=1&user_id=#{@user.id}")
+        response.should have_selector('a', :href => "/en/collections/destroy_collection/#{@my_private_collection.id}?page=1&user_id=#{@user.id}")
+        response.should have_selector('a', :href => "/en/collections/destroy_collection/#{@my_public_collection.id}?page=1&user_id=#{@user.id}")
       end
       
     it "should have added on date in my collections" do
@@ -313,12 +313,12 @@ describe UsersController do
       end
     it "should detail link for each collection in my collectionsr" do
        get :show, { :id => @user.id, :tab => "collections" }
-      response.should have_selector('a', :href => "/collections/#{@my_private_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
-      response.should have_selector('a', :href => "/collections/#{@my_public_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+      response.should have_selector('a', :href => "/en/collections/#{@my_private_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+      response.should have_selector('a', :href => "/en/collections/#{@my_public_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
      end
     it "should detail link for each collection in other user collectionsr" do
        get :show, { :id => @other_user.id, :tab => "collections" }
-      response.should have_selector('a', :href => "/collections/#{@other_public_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
+      response.should have_selector('a', :href => "/en/collections/#{@other_public_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
      end
     end
   end
@@ -328,7 +328,7 @@ describe UsersController do
       log_in(@user)
       get :forgot_password
       response.should_not render_template('users/forgot_password')
-      expect(response).to redirect_to("/users/#{@user.id}")
+      expect(response).to redirect_to("/en/users/#{@user.id}")
       log_out
       get :forgot_password
       response.should render_template('users/forgot_password')
@@ -340,7 +340,7 @@ describe UsersController do
       log_in(@user)
       post :recover_password
       response.should_not render_template('users/forgot_password')
-      expect(response).to redirect_to("/users/#{@user.id}")
+      expect(response).to redirect_to("/en/users/#{@user.id}")
     end
 
     it "should find user by email or flash error if it can't find user by email" do
@@ -350,12 +350,12 @@ describe UsersController do
       flash.clear
 
       post :recover_password, { :user => { :email => 'blabla' } }
-      expect(response).to redirect_to("/users/forgot_password")
+      expect(response).to redirect_to("/en/users/forgot_password")
       flash[:error].should_not be_blank
       flash.clear
 
       post :recover_password, { :user => { :email => @user.email } }
-      expect(response).to redirect_to("/users/login")
+      expect(response).to redirect_to("/en/users/login")
       flash[:error].should be_blank
       flash[:notice].should_not be_blank
     end
@@ -425,16 +425,16 @@ describe UsersController do
       flash[:error].should_not be_blank
 
       get :activate, { :guid => "empty", :activation_code => user.verification_code }
-      response.should redirect_to("/")
+      response.should redirect_to("/en")
       flash[:error].should_not be_blank
 
       get :activate, { :guid => user.guid, :activation_code => "empty"}
-      response.should redirect_to("/")
+      response.should redirect_to("/en")
       flash[:error].should_not be_blank
 
       user.activate
       get :activate, { :guid => user.guid, :activation_code => user.verification_code }
-      response.should redirect_to("/")
+      response.should redirect_to("/en")
       flash[:error].should_not be_blank
     end
 
@@ -465,7 +465,7 @@ describe UsersController do
       log_in(user)
       session[:user_id].should_not be_nil
       get :logout
-      response.should redirect_to("/")
+      response.should redirect_to("/en")
       is_loggged_in?.should be_false
     end
   end
@@ -475,7 +475,7 @@ describe UsersController do
       user = User.gen
       log_in(user)
       get :login
-      response.should redirect_to "/users/#{user.id}"
+      response.should redirect_to "/en/users/#{user.id}"
     end
 
     it 'should render login form' do
@@ -489,7 +489,7 @@ describe UsersController do
       log_in(@user)
       user = User.gen(:entered_password => "1234")
       post :validate, { :user => { :username => user.username, :password => "1234" } }
-      response.should redirect_to "/users/#{@user.id}"
+      response.should redirect_to "/en/users/#{@user.id}"
     end
 
     it 'should validate user, set session, and redirect to profile page' do
@@ -521,7 +521,7 @@ describe UsersController do
       log_in(@user)
       user = User.gen(:entered_password => "1234")
       get :reset_password, :guid => @user.guid, :activation_code => @user.verification_code
-      response.should redirect_to "/users/#{@user.id}"
+      response.should redirect_to "/en/users/#{@user.id}"
     end
 
     it 'should raise error and redirect to root if invalid parameters' do
@@ -543,7 +543,7 @@ describe UsersController do
     it 'should redirect to profile page if user is logged in' do
       log_in(@user)
       post :reset_password_action
-      response.should redirect_to "/users/#{@user.id}"
+      response.should redirect_to "/en/users/#{@user.id}"
     end
 
     it 'should redirect to home page if invalid parameters' do
@@ -554,7 +554,7 @@ describe UsersController do
       flash.clear
 
       post :reset_password_action, { :user => { :guid => @user.guid, :activation_code => "1234" } }
-      response.should redirect_to "/"
+      response.should redirect_to "/en"
       flash[:error].should_not be_blank
     end
 
@@ -594,7 +594,7 @@ describe UsersController do
       user = User.gen
       log_in(@user)
       get :edit, :id => user.id
-      response.should redirect_to "/users/#{user.id}"
+      response.should redirect_to "/en/users/#{user.id}"
       flash[:error].should_not be_blank
     end
 
@@ -628,7 +628,9 @@ describe UsersController do
           solr.commit
           User.gen() unless User.first
           @user = User.first
+          @user.last_login_language = "en"
           @other_user = User.gen
+          @other_user.last_login_language = "en"
           # create some activities with different creation time:
           #                         creating new collection
           #                         rating a book
@@ -652,7 +654,7 @@ describe UsersController do
         it "should display name of owner of activity" do
           log_in(@other_user)
           get :show, { :id => @other_user.id, :tab => "activity" }
-            response.should have_selector('a', :href => "/users/#{@other_user.id}", :content => "#{@other_user.real_name}")
+            response.should have_selector('a', :href => "/users/#{@other_user.id}/profile", :content => "#{@other_user.real_name}")
         end
         
     it "should display  open link of activity component" do
@@ -683,7 +685,7 @@ describe UsersController do
       it "can upload valid photo" do
          user_before_update = @user
          log_in(@user)
-          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
+          @file =  Rack::Test::UploadedFile.new("public/images_#{I18n.locale}/#{I18n.t(:default_user)}", 'image/png')
         post :update, { :id => @user.id, :test => true, :user => { :id => @user.id, 
           :username => user_before_update.username,
           :email => user_before_update.email,
@@ -701,7 +703,7 @@ describe UsersController do
 #      it "pictures with invalid size should not be uploaded" do
 #         user_before_update = @user
 #         log_in(@user)
-#          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/user.png', 'image/png')
+#          @file =  Rack::Test::UploadedFile.new('public/images_#{I18n.locale}/#{I18n.t(:default_user)}', 'image/png')
 #        post :update, { :id => @user.id, :test => true, :user => { :id => @user.id, 
 #          :username => user_before_update.username,
 #          :email => user_before_update.email,
@@ -712,7 +714,7 @@ describe UsersController do
 #          :photo_name => @file}}
 #        @user.reload
 #        pic = @user.photo_name 
-#        File.exist?(File.join(Rails.root, "public/users/#{@user.id}/user.png")).should_not be_true 
+#        File.exist?(File.join(Rails.root, "public/users/#{@user.id}/#{I18n.t(:default_user)}")).should_not be_true 
 #        FileUtils.remove_dir("#{Rails.root}/public/users/#{@user.id}") if File.directory? "#{Rails.root}/public/users/#{@user.id}"
 #        end
       
@@ -744,7 +746,7 @@ describe UsersController do
       user = User.gen
       log_in(@user)
       put :update, { :id => user.id }
-      response.should redirect_to "/users/#{user.id}"
+      response.should redirect_to "/en/users/#{user.id}"
       flash[:error].should_not be_blank
     end
 
@@ -757,7 +759,7 @@ describe UsersController do
         :entered_password => nil,
         :entered_password_confirmation => nil,
         :real_name => user_before_update.real_name + "updated"}}
-      expect(response).to redirect_to "/users/#{@user.id}"
+      expect(response).to redirect_to "/en/users/#{@user.id}"
       flash[:error].should be_blank
       flash[:notice].should_not be_blank
 

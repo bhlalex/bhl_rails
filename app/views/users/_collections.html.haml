@@ -10,13 +10,13 @@
         $(document).ready(function(){
           $("#starsidelink_#{item.id}").jRating({
             isDisabled : true,
-            bigStarsPath: "/images_#{I18n.locale}/stars_grey.png"
+            bigStarsPath: "/images_#{I18n.locale}/#{I18n.t(:stars_grey)}"
           });
         });
       - if(item.photo_name.blank?)
-        - thumb = "/images_#{I18n.locale}/nocollection140.png"
+        - thumb = "/images_#{I18n.locale}/#{I18n.t(:default_collection_small)}"
       - else
-        - thumb = item.photo_name_url(:thumb)
+        - thumb = item.photo_name_url(:small)
       .row
         .col-md-2
           = link_to image_tag("#{thumb}") , {:controller => :collections, :action => :show, :id => item.id}
