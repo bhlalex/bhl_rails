@@ -24,9 +24,10 @@ describe "user profile photo" do
       fill_in "username", :with => "#{@user1.username}"
       fill_in "password", :with => "test password"
       find("#submit").click
+      #sleep 50
       #show user profile
       # check displaying user avatar
-      expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_user)}")
+      expect(page).to have_selector("img", :src => "/images_en/#{I18n.t(:default_user)}")
       expect(page).not_to have_selector("input", :id => "delete_photo")
     end
   end
@@ -50,6 +51,7 @@ describe "user profile photo" do
       fill_in "username", :with => "#{@user1.username}"
       fill_in "password", :with => "test password"
       find("#submit").click
+      #sleep 50
       #show user profile
       # check displaying user avatar
       photo_name = "#{(User.find(@user1)).photo_name.thumb}"
@@ -66,7 +68,8 @@ describe "user profile photo" do
       fill_in "password", :with => "test password"
       find("#submit").click
       visit("/get_user_profile_photo?id=#{@user1.id}&is_delete=1")
-      expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_user)}")
+      #sleep 50
+      expect(page).to have_selector("img", :src => "/images_en/#{I18n.t(:default_user)}")
       expect(page).not_to have_selector("input", :id => "delete_photo")
       @user1.photo_name = nil
       FileUtils.remove_dir("#{Rails.root}/public/users/#{@user1.id}") if File.directory? "#{Rails.root}/public/users/#{@user1.id}"
@@ -80,6 +83,7 @@ describe "user profile photo" do
       find("#submit").click
       #show user profile
       visit("/en/users/#{@user1.id}")
+      #sleep 50
       # check displaying user avatar
       photo_name = "#{(User.find(@user1)).photo_name.thumb}"
       expect(page).to have_selector('img', :src => "#{photo_name}")
