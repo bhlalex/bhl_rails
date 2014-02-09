@@ -1,6 +1,8 @@
 .col-md-8.column.media
-  .pull-left.img-thumbnail
-    %img.img-rounded{:src => "/#{@thumb}"}
+  - @covertitle = @page_title
+  - @coverauthor = ""
+  - @coverno = rand(1..10)
+  = render :partial => "books/covers"
   .media-body
     %h3.media-heading
       =@page_title

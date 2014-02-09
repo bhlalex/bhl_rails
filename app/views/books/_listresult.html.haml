@@ -1,12 +1,12 @@
 %div{:id => "book #{@number}", :class => "col-md-8 column browse", :name => "book #{@vol.job_id}"}
-  .row.clearfix
-    .col-xs-2.column  
-      - if visited_volume?(@user_history, @vol)
-        = link_to image_tag("/#{@thumb}", :width => 109, :border => 0, :class => "img-thumbnail visited"), 
-          {:controller => :books, :action => :show, :id => @vol[:job_id]}
-      - else
-        = link_to :controller => :books, :action => :show, :id => @vol[:job_id] do
-          %img.img-thumbnail{:src => "/#{@thumb}"}
+  .row.clearfix  
+    - @coverno = @number
+    - @covertitle = @title.html_safe
+    - if(@doc['author'] != nil)
+      - @coverauthor = @doc['author'][0]
+    - else
+      - @coverauthor = ""    
+    = render :partial => "books/covers"   
           
     .col-md-6.column
       %h4
@@ -22,4 +22,3 @@
           = render :partial => "books/booknames"
     .col-xs-4.column.controls
       =render :partial => "books/sidelinks"
-  %hr.clearfix.col-lg-12

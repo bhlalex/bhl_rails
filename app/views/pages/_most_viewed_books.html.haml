@@ -8,32 +8,30 @@
     - if (@vol != nil)
       - @highlight = @most_viewed_response['highlighting'][@id.to_s]
       - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
-      - thumb = ''
-      - if(@vol[:get_thumbnail_fail] == 0)
-        - @thumb = "volumes/#{@vol[:job_id]}/thumb.jpg"
-      - else
-        - @thumb = "images_#{I18n.locale}/#{I18n.t(:default_book)}"
       - @doc = doc
- 
-    .col-md-2
-      = link_to :controller => :books, :action => :show, :id => @vol.job_id do
-        %img.img-thumbnail{:src => @thumb}
-    .col-md-6
-      %h4
-        = link_to @title, {:controller => :books, :action => :show, :id => @vol.job_id}
-      %p.small
+    .browse
+      .col-md-2
+        - @coverno = @number
+        - @covertitle = @doc[:bok_title][0]
         - if(@doc['author'] != nil)
-          = render :partial => "books/bookauthors"
-        - if(@doc['subject'] != nil)
-          = render :partial => "books/booksubjects"
-        - if(@doc['name'] != nil)
-          - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
-          = render :partial => "books/booknames"
-    .col-md-3.controls
-      =render :partial => "pages/sidelinks", :locals => {:page => "view"}
+          - @coverauthor = @doc['author'][0]
+        - else
+          - @coverauthor = ""    
+        = render :partial => "books/covers"
+      .col-md-6
+        %h4
+          = link_to @title, {:controller => :books, :action => :show, :id => @vol.job_id}
+        %p.small
+          - if(@doc['author'] != nil)
+            = render :partial => "books/bookauthors"
+          - if(@doc['subject'] != nil)
+            = render :partial => "books/booksubjects"
+          - if(@doc['name'] != nil)
+            - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
+            = render :partial => "books/booknames"
+      .col-md-3.controls
+        =render :partial => "pages/sidelinks", :locals => {:page => "view"}
     .clearfix 
     - count = count + 1
-    - if count != MOST_VIEWED_BOOKS
-      %hr
   .pull-right  
     = link_to "#{I18n.t(:tabs_more)}", {:controller => :books, :action => :index, :sort_type => "views desc"}
