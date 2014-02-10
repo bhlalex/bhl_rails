@@ -26,6 +26,8 @@ gem 'tabs_on_rails'
 gem 'recaptcha'
 gem 'best_in_place'
 
+gem "rails-erd"
+gem "ruby-graphviz"
 
 
 group :development, :test do

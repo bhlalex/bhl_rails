@@ -69,14 +69,14 @@ describe BooksController do
     end
 
     # check for existance of image for each book 
-    it "should have an image for each book in list view" do
+    it "should display an image for each book" do
       get :index, :view => "list"
       response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
       response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
     end
 
     # check for books count
-    it "should return item count equal to the total number of books" do
+    it "should display correct total number of books" do
       get :index
       response.should have_selector("h4", :class => "text-muted clearfix", :content => 2.to_s)
     end
@@ -87,13 +87,13 @@ describe BooksController do
     end
 
     # check for existance of detail link for each book
-    it "should return details link for each book in list view" do
+    it "should display details link for each book" do
       get :index, :view => "list"
       response.should have_selector('a', :href => "/books/123" ,:content => "Test Book First")
       response.should have_selector('a', :href => "/books/238233", :content => "Test Book Second")
     end
 
-    it "should have add to collection link if user signed in" do
+    it "should display add to collection link if user signed in" do
       User.gen() unless User.first
       @user = User.first
       log_out
@@ -107,7 +107,7 @@ describe BooksController do
       response.should_not have_selector("a", :content => I18n.t(:sidelinks_add_collection))
     end
     # check for existance of read and detail links for each book
-    it "should return read and detail links for each book in list view" do
+    it "should display read and detail links for each book" do
       get :index, :view => "list"
       response.should have_selector('a', :href => "/books/123/read")
       response.should have_selector('a', :href => "/books/123")
@@ -116,13 +116,13 @@ describe BooksController do
     end
     
     # check for existance of open link for each author with the count of books for each author
-    it "should have open links for authors" do
+    it "should have link for each author" do
       get :index
       response.should have_selector('a', :href => "/books?_author=Author", :content => "Author [2]")
     end
 
     # check for existance of open link for each names with the count of books for each name
-    it "should have open links for names" do
+    it "should have links for each name" do
       get :index
       response.should have_selector('a', :href => "/books?_name=Name1", :content => "Name1 [1]")
       response.should have_selector('a', :href => "/books?_name=Name2", :content => "Name2 [2]")
@@ -380,7 +380,7 @@ describe BooksController do
       history.count.should eq(1)
     end
 
-    it "should be successful" do
+    it "returns http success" do
       get 'show', :id => "123"
       response.should be_success
     end
@@ -541,17 +541,17 @@ describe BooksController do
       solr.commit
     end
     
-    it "should link to mods" do
+    it "should have link to mods tab" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_mods))
     end
 
-    it "should link to bibtex" do
+    it "should have link to bibtex tab" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_bibtex))
     end
 
-    it "should link to endnote" do
+    it "should have link to endnote tab" do
       get 'show', :id => "123"
       response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_endnote))
     end

@@ -1,0 +1,388 @@
+digraph Bhl {
+rankdir = "LR";
+ranksep = "0.5";
+nodesep = "0.4";
+pad = "0.4,0.4";
+margin = "0,0";
+concentrate = "true";
+labelloc = "t";
+fontsize = "13";
+fontname = "Arial Bold";
+node[ shape  =  "Mrecord" , fontsize  =  "10" , fontname  =  "Arial" , margin  =  "0.07,0.05" , penwidth  =  "1.0"];
+edge[ fontname  =  "Arial" , fontsize  =  "7" , dir  =  "both" , arrowsize  =  "0.9" , penwidth  =  "1.0" , labelangle  =  "32" , labeldistance  =  "1.8"];
+label = "Bhl domain model\n\n";
+m_Annotation [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Annotation</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="anntype">anntype <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="basketpages">basketpages <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="height">height <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="hltype">hltype <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="location_x">location_x <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="location_y">location_y <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="string">string <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="text">text <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="width">width <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="zorder">zorder <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+>];
+m_Author [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Author</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="book_count">book_count <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+</table>
+>];
+m_Book [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Book</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="bibid">bibid <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="bibtex">bibtex <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="collection">collection <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="contributor">contributor <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="edition">edition <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="end_date">end_date <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="endnote">endnote <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="fill_metadata_fail">fill_metadata_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="format_extent">format_extent <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="generate_format_fail">generate_format_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="metadata_index_status">metadata_index_status <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="mods">mods <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="note">note <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="publisher">publisher <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="start_date">start_date <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="title">title <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="title_alternative">title_alternative <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_BookAuthor [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">BookAuthor</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="is_alternative">is_alternative <font face="Arial Italic" color="grey60">boolean</font></td></tr>
+</table>
+>];
+m_BookSubject [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">BookSubject</font></td></tr>
+</table>
+>];
+m_BookView [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">BookView</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="book_id1">book_id1 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="book_id2">book_id2 <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+>];
+m_Collection [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Collection</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="description">description <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="is_public">is_public <font face="Arial Italic" color="grey60">boolean</font></td></tr>
+  <tr><td align="left" width="130" port="photo_name">photo_name <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="rate">rate <font face="Arial Italic" color="grey60">decimal (2,1)</font></td></tr>
+  <tr><td align="left" width="130" port="title">title <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+</table>
+>];
+m_CollectionRating [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">CollectionRating</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="rate">rate <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+>];
+m_Comment [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Comment</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="number_of_marks">number_of_marks <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="text">text <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+</table>
+>];
+m_Country [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Country</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_EmailMessage [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">EmailMessage</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="email">email <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="message">message <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="subject">subject <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+</table>
+>];
+m_HarvestEvent [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">HarvestEvent</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="description">description <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_HarvestEventBook [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">HarvestEventBook</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="success">success <font face="Arial Italic" color="grey60">boolean</font></td></tr>
+</table>
+>];
+m_HarvestEventType [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">HarvestEventType</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_Hierarchy [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Hierarchy</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="agent_id">agent_id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="browsable">browsable <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="complete">complete <font face="Arial Italic" color="grey60">integer (1)</font></td></tr>
+  <tr><td align="left" width="130" port="description">description <font face="Arial Italic" color="grey60">text ∗</font></td></tr>
+  <tr><td align="left" width="130" port="descriptive_label">descriptive_label <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="hierarchy_group_id">hierarchy_group_id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="hierarchy_group_version">hierarchy_group_version <font face="Arial Italic" color="grey60">integer (1) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="indexed_on">indexed_on <font face="Arial Italic" color="grey60">timestamp ∗</font></td></tr>
+  <tr><td align="left" width="130" port="label">label <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="outlink_uri">outlink_uri <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="ping_host_url">ping_host_url <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="request_publish">request_publish <font face="Arial Italic" color="grey60">boolean</font></td></tr>
+  <tr><td align="left" width="130" port="url">url <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+</table>
+>];
+m_HierarchyEntry [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">HierarchyEntry</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="ancestry">ancestry <font face="Arial Italic" color="grey60">string (500) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="depth">depth <font face="Arial Italic" color="grey60">integer (1) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="guid">guid <font face="Arial Italic" color="grey60">string (32) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="identifier">identifier <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="lft">lft <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="name_id">name_id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="parent_id">parent_id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="published">published <font face="Arial Italic" color="grey60">integer (1) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="rank_id">rank_id <font face="Arial Italic" color="grey60">integer (2) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="rgt">rgt <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="source_url">source_url <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="taxon_concept_id">taxon_concept_id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="taxon_remarks">taxon_remarks <font face="Arial Italic" color="grey60">text</font></td></tr>
+  <tr><td align="left" width="130" port="vetted_id">vetted_id <font face="Arial Italic" color="grey60">integer (1) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="visibility_id">visibility_id <font face="Arial Italic" color="grey60">integer (1) ∗</font></td></tr>
+</table>
+>];
+m_Language [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Language</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="code">code <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_Location [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Location</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="formatted_address">formatted_address <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="latitude">latitude <font face="Arial Italic" color="grey60">float</font></td></tr>
+  <tr><td align="left" width="130" port="longitude">longitude <font face="Arial Italic" color="grey60">float</font></td></tr>
+</table>
+>];
+m_Name [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Name</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="eol_page_id">eol_page_id <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="eol_thumb">eol_thumb <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="lookup_fail">lookup_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="name_bank_id">name_bank_id <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="string">string <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_Page [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Page</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="fill_names_fail">fill_names_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="is_empty">is_empty <font face="Arial Italic" color="grey60">boolean</font></td></tr>
+  <tr><td align="left" width="130" port="page_number">page_number <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+>];
+m_PageName [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">PageName</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="namestring">namestring <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_Query [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Query</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="string">string <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_Subject [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Subject</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="location_lookup_fail">location_lookup_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_SubjectType [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">SubjectType</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string</font></td></tr>
+</table>
+>];
+m_TaxonConcept [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">TaxonConcept</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="published">published <font face="Arial Italic" color="grey60">integer (1) ∗</font></td></tr>
+  <tr><td align="left" width="130" port="split_from">split_from <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="supercedure_id">supercedure_id <font face="Arial Italic" color="grey60">integer ∗</font></td></tr>
+  <tr><td align="left" width="130" port="vetted_id">vetted_id <font face="Arial Italic" color="grey60">integer (1) ∗</font></td></tr>
+</table>
+>];
+m_User [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">User</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="active">active <font face="Arial Italic" color="grey60">boolean</font></td></tr>
+  <tr><td align="left" width="130" port="email">email <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="guid">guid <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="last_login">last_login <font face="Arial Italic" color="grey60">datetime</font></td></tr>
+  <tr><td align="left" width="130" port="last_login_language">last_login_language <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="password">password <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="photo_name">photo_name <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="real_name">real_name <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="username">username <font face="Arial Italic" color="grey60">string ∗</font></td></tr>
+  <tr><td align="left" width="130" port="verification_code">verification_code <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="verified_date">verified_date <font face="Arial Italic" color="grey60">datetime</font></td></tr>
+</table>
+>];
+m_UserBook [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">UserBook</font></td></tr>
+</table>
+>];
+m_UserBookHistory [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">UserBookHistory</font></td></tr>
+</table>
+>];
+m_Volume [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">Volume</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="content_index_status">content_index_status <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="copyright">copyright <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="fill_content_fail">fill_content_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="generate_names_xml_fail">generate_names_xml_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="get_pages_names_fail">get_pages_names_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="get_thumbnail_fail">get_thumbnail_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="job_id">job_id <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="name">name <font face="Arial Italic" color="grey60">string</font></td></tr>
+  <tr><td align="left" width="130" port="rate">rate <font face="Arial Italic" color="grey60">decimal (2,1)</font></td></tr>
+  <tr><td align="left" width="130" port="ubio_in_dar_fail">ubio_in_dar_fail <font face="Arial Italic" color="grey60">integer</font></td></tr>
+  <tr><td align="left" width="130" port="volume_number">volume_number <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+>];
+m_VolumeCollection [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">VolumeCollection</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="position">position <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+>];
+m_VolumeRating [label = <<table border="0" align="center" cellspacing="0.5" cellpadding="0" width="134">
+  <tr><td align="center" valign="bottom" width="130"><font face="Arial Bold" point-size="11">VolumeRating</font></td></tr>
+</table>
+|
+<table border="0" align="left" cellspacing="2" cellpadding="0" width="134">
+  <tr><td align="left" width="130" port="rate">rate <font face="Arial Italic" color="grey60">integer</font></td></tr>
+</table>
+>];
+  m_Language -> m_Book [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Book -> m_BookAuthor [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Book -> m_Author [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "2", constraint = "false"];
+  m_Book -> m_BookSubject [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Book -> m_Subject [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "1", constraint = "false"];
+  m_Book -> m_UserBook [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Book -> m_User [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "1", constraint = "false"];
+  m_Book -> m_HarvestEventBook [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Book -> m_HarvestEvent [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "2", constraint = "false"];
+  m_Book -> m_Location [arrowhead = "normal", arrowtail = "normal", weight = "2"];
+  m_Book -> m_Volume [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_User -> m_Collection [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Collection -> m_VolumeCollection [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Collection -> m_Volume [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "2", constraint = "false"];
+  m_Collection -> m_Comment [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Collection -> m_CollectionRating [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Comment -> m_Comment [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Name -> m_Page [arrowhead = "normal", arrowtail = "normal", weight = "1"];
+  m_Volume -> m_Page [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Page -> m_PageName [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Page -> m_Name [style = "dotted", arrowhead = "normal", arrowtail = "none", weight = "1", constraint = "false"];
+  m_User -> m_Annotation [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_User -> m_Query [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_User -> m_Comment [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_User -> m_CollectionRating [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Volume -> m_Annotation [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Page -> m_Annotation [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Author -> m_BookAuthor [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Subject -> m_BookSubject [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_SubjectType -> m_BookSubject [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Book -> m_BookView [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Hierarchy -> m_HierarchyEntry [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_HarvestEvent -> m_HarvestEventBook [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_HarvestEventType -> m_HarvestEvent [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Country -> m_Location [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Name -> m_PageName [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Location -> m_Subject [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_User -> m_UserBook [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_User -> m_UserBookHistory [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Volume -> m_UserBookHistory [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Volume -> m_VolumeRating [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_Volume -> m_Comment [arrowhead = "normal", arrowtail = "none", weight = "1"];
+  m_Volume -> m_VolumeCollection [arrowhead = "normal", arrowtail = "none", weight = "2"];
+  m_User -> m_VolumeRating [arrowhead = "normal", arrowtail = "none", weight = "1"];
+}

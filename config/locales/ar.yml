@@ -395,7 +395,13 @@ password:<<br><br>%{reset_password_url}"
   user_queries_books_found: "الكتب الموجودة: "
   books_index_search_filter: مرشِّح البحث
   delete_photo_confirm: هل تريد فعلاً حذف صورة البروفيل؟
-    
+  name: الاسم
+  language: اللغة
+  content: المحتوى
+  geo_location: الموقع الجغرافي
+  published_at: تم النشر في
+  publisher: الناشر
+
   #User Profile Page (Annotation Tab)
   user_annotation_title: الملاحظات
   user_annotation_note: محتوى الملاحظة

@@ -57,6 +57,7 @@ GEM
       json (>= 1.7)
     childprocess (0.4.0)
       ffi (~> 1.0, >= 1.0.11)
+    choice (0.1.6)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -135,6 +136,11 @@ GEM
       railties (= 3.2.9)
     rails-dev-boost (0.2.1)
       rails (>= 3.0)
+    rails-erd (1.1.0)
+      activerecord (>= 3.0)
+      activesupport (>= 3.0)
+      choice (~> 0.1.6)
+      ruby-graphviz (~> 1.0.4)
     railties (3.2.9)
       actionpack (= 3.2.9)
       activesupport (= 3.2.9)
@@ -163,6 +169,7 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
+    ruby-graphviz (1.0.9)
     rubyzip (1.1.0)
     sass (3.2.9)
     sass-rails (3.2.6)
@@ -238,10 +245,12 @@ DEPENDENCIES
   name-spotter
   rails (= 3.2.9)
   rails-dev-boost
+  rails-erd
   recaptcha
   rsolr
   rsolr-ext
   rspec-rails (~> 2.14.0.rc1)
+  ruby-graphviz
   sass-rails (~> 3.2.3)
   selenium-webdriver (= 2.39.0)
   spork
