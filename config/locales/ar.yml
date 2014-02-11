@@ -479,3 +479,7 @@ password:<<br><br>%{reset_password_url}"
   stars_grey: "stars_grey.png"
   stars_white: "stars_white.png"
   
+
+  #languages
+  english: English
+  arabic: عربى

@@ -108,12 +108,12 @@ describe CollectionsController do
 
     describe "list books in collections" do
       describe "list books in private collection fail" do
-        it "should not display show collection page for unsigned user" do
+        it "should not display collection page for unsigned user" do
         get :show, :id => @my_private_collection
         response.should redirect_to("/users/login")
         end
         
-        it "should not display show private collection page for unauthenticated user" do
+        it "should not display private collection page for unauthenticated user" do
           log_in(@other_user)
          get :show, :id => @my_private_collection
          response.should redirect_to("/en/collections")
@@ -124,12 +124,12 @@ describe CollectionsController do
 
         describe "list books in private collection fail" do
 
-          it "should not display show collection page for unsigned user" do
+          it "should not display collection page for unsigned user" do
             get :show, :id => @my_private_collection
             response.should redirect_to("/users/login")
           end
 
-          it "should not display show private collection page for unauthenticated user" do
+          it "should not display private collection page for unauthenticated user" do
             log_in(@other_user)
             get :show, :id => @my_private_collection
             response.should redirect_to("/en/collections")
@@ -297,7 +297,7 @@ describe CollectionsController do
         end
 
         describe "delete book from collection" do
-          it "should delete book from collection" do
+          it "should delete book from my public collection" do
             request.env["HTTP_REFERER"] = "/en/collections/show/#{@my_public_collection.id}"
             lambda do
               #get "/collections/delete_book/:volume_collection_id"
@@ -473,7 +473,7 @@ describe CollectionsController do
         response.should have_selector('textarea', :content => "description")
       end
 
-      it "should have an option to edit collection public" do
+      it "should have an option to edit collection visibility" do
         get :edit, :id => @my_private_collection
         response.should have_selector('input', :value => "0")
       end
@@ -487,7 +487,7 @@ describe CollectionsController do
         before(:each) do
           @attr={:user_id => @user.id, :title => "",:description => "", :updated_at => Date.today, :is_public => false}
         end
-        it "should enter title for collection" do
+        it "should create collection without title" do
           request.env["HTTP_REFERER"] = "/collections/edit/#{@my_private_collection.id}"
           @my_private_collection [:title] = ""
           post :update, :id => @my_private_collection, :collection => @attr
@@ -498,7 +498,7 @@ describe CollectionsController do
         before(:each) do
           @attr={:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => Date.today, :is_public => false}
         end
-        it "should edit collection with vaild params " do
+        it "should edit collection with valid parameters" do
           request.env["HTTP_REFERER"] = "/users/#{@user.id}/collections"
           post :update, :id => @my_private_collection, :collection => @attr
           response.should redirect_to("/en/users/#{@user.id}/collections")
@@ -558,12 +558,12 @@ describe CollectionsController do
     describe "show collection" do
 
       describe "show fail" do
-        it "should not display show collection page for unsigned user" do
+        it "should not display collection page for unsigned user" do
           get :show, :id => @my_private_collection
           response.should redirect_to("/users/login")
         end
 
-        it "should not display show private collection page for unauthenticated user" do
+        it "should not display private collection page for unauthenticated user" do
           log_in(@other_user)
           get :show, :id => @my_private_collection
           response.should redirect_to("/en/collections")
@@ -590,7 +590,7 @@ describe CollectionsController do
           response.should have_selector('a', :href => "/en/collections/#{@my_private_collection.id}/edit")
         end
         
-        it "should have a link to the owner" do
+        it "should display link to the owner of collection" do
           get :show, :id => @my_private_collection
           response.should have_selector("a", :href => "/en/users/#{@user.id}")
         end

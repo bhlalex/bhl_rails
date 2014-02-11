@@ -156,7 +156,7 @@ describe ActivitiesHelper do
         @log_records = get_log_activity(sql_stmt)
       end
   
-      it "should return 6 log activities" do
+      it "should return only activities has been made by current user" do
         @log_records.count.should == 4
       end
       # log records should returned ordered by time

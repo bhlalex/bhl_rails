@@ -171,11 +171,7 @@ describe UsersController do
         end
 
         # check for existance of image for each book in list view
-        it "should have an image for each book" do
-          get :show, :id => @user.id, :tab => "history"
-          response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
-          response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
-        end
+
         
         # check for existance of detail link for each book_title in list view
         it "should have book title that links for details" do
@@ -311,7 +307,7 @@ describe UsersController do
         response.should have_selector('ul', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
       end
-    it "should detail link for each collection in my collectionsr" do
+    it "should detail link for each collection in my collections" do
        get :show, { :id => @user.id, :tab => "collections" }
       response.should have_selector('a', :href => "/en/collections/#{@my_private_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
       response.should have_selector('a', :href => "/en/collections/#{@my_public_collection.id}", :content => "#{I18n.t(:sidelinks_detail)}")
@@ -412,7 +408,7 @@ describe UsersController do
   end
 
   describe 'GET activate' do
-    it 'new users should be inavtive by default' do
+    it 'new users should be inactive by default' do
       user = User.gen
       user.active.should be_false
     end
@@ -772,7 +768,7 @@ describe UsersController do
       session[:real_name].should == @user.real_name
     end
 
-    it 'should reject modifications and redner edit for invalid password' do
+    it 'should reject modifications and render edit for invalid password' do
       log_in(@user)
       put :update, { :id => @user.id ,:user => { :id => @user.id, :username => @user.username,
         :email => @user.email,

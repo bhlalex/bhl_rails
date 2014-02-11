@@ -26,7 +26,7 @@ describe "internationalization" do
     fill_in "password", :with => "test password"
     find("#submit").click
     #choose a language
-    click_link "Arabic"
+    click_link I18n.t(:arabic)
     #logout
     visit("/users/logout")
     #log in
@@ -47,7 +47,7 @@ describe "internationalization" do
     fill_in "password", :with => "test password"
     find("#submit").click
     #choose a language
-    click_link "Arabic"
+    click_link I18n.t(:arabic)
     #logout
     visit("/users/logout")
     visit "/"
@@ -60,7 +60,7 @@ describe "internationalization" do
     visit "/books"
     page.should have_selector("a", :href => "/ar/books")
     #choose a language
-    click_link "Arabic"
+    click_link I18n.t(:arabic)
     page.should have_selector("a", :href => "/en/books")
   end
 end
