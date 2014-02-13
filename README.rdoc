@@ -47,15 +47,15 @@ Things you need:
       sudo gem update --system 2.0.7 #gem -v should now be 2.0.7
 
   8.  install rails
-	  sudo gem install rails -v 3.2.13
+      sudo gem install rails -v 3.2.13
 	
   9.  Prepare the environment
-	  sudo apt-get install libxslt-dev libxml2-dev
-	  apt-get install libmysql-ruby libmysqlclient-dev nodejs
+      sudo apt-get install libxslt-dev libxml2-dev
+      apt-get install libmysql-ruby libmysqlclient-dev nodejs
 
   10. Download the code
-	  mkdir bhl_rails
-	  git clone https://github.com/BibAlex/bhl_rails.git bhl_rails
+      mkdir bhl_rails
+      git clone https://github.com/BibAlex/bhl_rails.git bhl_rails
 
 
 === INSTALLATION
