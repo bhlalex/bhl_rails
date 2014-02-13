@@ -48,7 +48,7 @@ Things you need:
 
   8.  install rails
       sudo gem install rails -v 3.2.13
-	
+
   9.  Prepare the environment
       sudo apt-get install libxslt-dev libxml2-dev
       apt-get install libmysql-ruby libmysqlclient-dev nodejs
