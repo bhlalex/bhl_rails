@@ -4,9 +4,59 @@
 Things you need:
 
   Ruby:    ruby 1.9.3p392 (2013-02-22) [i386-mingw32]
-  Rubygem: 1.8.24
+  Rubygem: 2.0.7
   Rails:   3.2.9
   Perl:	   perl 5, version 16
+
+=== Prepare the environment
+
+  1.  install mysql server 5.5
+      sudo apt-get install mysql-server-5.5
+
+  2.  install ruby 1.9
+      sudo apt-get install ruby1.9.1 ruby1.9.1-dev
+
+  3.  Install jre
+      sudo apt-get install default-jre
+
+  4.  install git
+      sudo apt-get install git
+
+  5.  download and run solr
+      mkdir solr
+      git clone https://github.com/BibAlex/bhl_rails_solr.git solr
+      cd solr/example
+      java -jar start.jar
+      make sure localhost:8988/solr is up and running
+
+  6.  download and run solr_test
+      mkdir solr_test
+      git clone https://github.com/BibAlex/bhl_solr_test.git solr_test
+      cd solr_test/example
+      java -jar start;jar
+      make sure localhost:8989solr is up and running
+
+  7.  install rubygems
+      cd /opt/
+      sudo mkdir rubygems
+      cd rubygems
+      sudo wget http://production.cf.rubygems.org/rubygems/rubygems-2.1.7.zip
+      sudo unzip rubygems-2.1.7.zip 
+      cd rubygems-2.1.7/
+      sudo ruby setup.rb #gem -v should now be 2.1.7
+      sudo gem update --system 2.0.7 #gem -v should now be 2.0.7
+
+  8.  install rails
+	  sudo gem install rails -v 3.2.13
+	
+  9.  Prepare the environment
+	  sudo apt-get install libxslt-dev libxml2-dev
+	  apt-get install libmysql-ruby libmysqlclient-dev nodejs
+
+  10. Download the code
+	  mkdir bhl_rails
+	  git clone https://github.com/BibAlex/bhl_rails.git bhl_rails
+
 
 === INSTALLATION
 
