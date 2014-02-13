@@ -51,7 +51,7 @@ Things you need:
 
   9.  Prepare the environment
       sudo apt-get install libxslt-dev libxml2-dev
-      apt-get install libmysql-ruby libmysqlclient-dev nodejs
+      apt-get install libmysql-ruby libmysqlclient-dev nodejs perl
 
   10. Download the code
       mkdir bhl_rails
