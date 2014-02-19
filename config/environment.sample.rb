@@ -83,6 +83,10 @@ RESIZED_PHOTO_HIGHT = 160
 RESIZED_PHOTO_WIDTH_SMALL = 100
 RESIZED_PHOTO_HIGHT_SMALL = 120
 # Initialize the rails application
+
+ATTACHMENTS_URL = "http://localhost:3000/"
+THUMB_FOLDER = "thumbs/"
+
 Bhl::Application.initialize!
  
 Recaptcha.configure do |config|

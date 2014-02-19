@@ -81,6 +81,7 @@ module EOL
         name.save
         puts "success"
       else
+        name.save
         puts "failed"
       end
     end
