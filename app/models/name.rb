@@ -10,6 +10,6 @@ class Name < ActiveRecord::Base
   end
   
   def clean_name
-    return string.gsub('[', '').gsub(']','')
+    return string.gsub('[', '').gsub(']','').gsub('"', '').gsub("'", "")
   end
 end

@@ -42,7 +42,7 @@ describe CommentsController do
 
   describe "create comment" do
     describe "create new comment on book" do
-      it "should craete comment with valid paramters" do
+      it "should create comment with valid parameters" do
         request.env["HTTP_REFERER"] = "/books/#{@vol.job_id}"
         lambda do
           post :create, :comment => {:text => "new comment", :volume_id => @vol.id, :collection_id => nil, :user_id => @user.id, :comment_id => nil}
@@ -50,7 +50,7 @@ describe CommentsController do
         end.should change(Comment, :count).by(1)
       end
 
-      it "should not craete comment with invalid paramters" do
+      it "should not create comment with invalid parameters" do
         request.env["HTTP_REFERER"] = "/books/#{@vol.job_id}"
         lambda do
           post :create, :comment => {:text => "", :volume_id => @vol.id, :collection_id => nil, :user_id => @user.id, :comment_id => nil}
@@ -60,7 +60,7 @@ describe CommentsController do
     end
 
     describe "create new comment on collection" do
-      it "should craete comment with valid paramters" do
+      it "should create comment with valid parameters" do
         request.env["HTTP_REFERER"] = "/collections/show/#{@collection.id}"
         lambda do
           post :create, :comment => {:text => "new comment", :volume_id => nil, :collection_id => @collection.id, :user_id => @user.id, :comment_id => nil}
@@ -68,7 +68,7 @@ describe CommentsController do
         end.should change(Comment, :count).by(1)
       end
 
-      it "should not craete comment with invalid paramters" do
+      it "should not create comment with invalid parameters" do
         request.env["HTTP_REFERER"] = "/collections/show/#{@collection.id}"
         lambda do
           post :create, :comment => {:text => "", :volume_id => nil, :collection_id => @collection.id, :user_id => @user.id, :comment_id => nil}
@@ -92,7 +92,7 @@ describe CommentsController do
 
   describe "reply on comment" do
     describe "reply on book comment" do
-      it "should craete reply with valid paramters" do
+      it "should create reply with valid parameters" do
         request.env["HTTP_REFERER"] = "/books/#{@vol.job_id}"
         lambda do
           post :create, :comment => {:text => "new reply", :volume_id => nil, :collection_id => nil, :user_id => @user.id, :comment_id => @appropriate_book_comment}
@@ -100,7 +100,7 @@ describe CommentsController do
         end.should change(Comment, :count).by(1)
       end
 
-      it "should not craete reply with invalid paramters" do
+      it "should not create reply with invalid parameters" do
         request.env["HTTP_REFERER"] = "/books/#{@vol.job_id}"
         lambda do
           post :create, :comment => {:text => "", :volume_id => nil, :collection_id => nil, :user_id => @user.id, :comment_id => @appropriate_book_comment}
@@ -111,7 +111,7 @@ describe CommentsController do
     end
 
     describe "reply on collection comment" do
-      it "should craete reply with valid paramters" do
+      it "should create reply with valid parameters" do
         request.env["HTTP_REFERER"] = "/collections/show/#{@collection.id}"
         lambda do
           post :create, :comment => {:text => "new comment", :volume_id => nil, :collection_id => nil, :user_id => @user.id, :comment_id => @appropriate_collection_comment}
@@ -119,7 +119,7 @@ describe CommentsController do
         end.should change(Comment, :count).by(1)
       end
 
-      it "should not craete reply with invalid paramters" do
+      it "should not create reply with invalid parameters" do
         request.env["HTTP_REFERER"] = "/collections/show/#{@collection.id}"
         lambda do
           post :create, :comment => {:text => "", :volume_id => nil, :collection_id => nil, :user_id => @user.id, :comment_id => @appropriate_collection_comment}

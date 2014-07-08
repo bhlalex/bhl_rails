@@ -53,7 +53,7 @@ describe PagesController do
  
       # valid email message paramters should be stored in db
       describe "send message success" do
-        it "should send email with valid paramters" do
+        it "should send email with valid parameters" do
           lambda do
             post :send_message, :email_message => @attr
             response.should redirect_to('/pages/contact')
@@ -141,7 +141,7 @@ describe PagesController do
       
     end
     
-    it "should be successful" do
+    it "returns http success" do
       get 'home'
       response.should be_success
     end
@@ -231,7 +231,7 @@ describe PagesController do
         end
         it "should have volume image with link" do
           get :home
-          response.should have_selector("a>img", :src => "images_#{I18n.locale}/#{I18n.t(:default_book)}")
+          response.should have_selector("div", :class => "bk-cover")
         end
       end
       
@@ -243,7 +243,7 @@ describe PagesController do
         response.should have_selector("a", :content => "#{I18n.t(:top_rated)}")
       end
       
-      it"should have more link" do
+      it "should have more link" do
         get :home
         response.should have_selector("a", :content => "#{I18n.t(:tabs_more)}", :href => "/books?sort_type=rate+desc")
       end
@@ -261,7 +261,7 @@ describe PagesController do
        end
        it "should have top volume image with link" do
          get :home
-         response.should have_selector("a>img", :src => "images_#{I18n.locale}/#{I18n.t(:default_book)}")
+         response.should have_selector("div", :class => "bk-cover")
        end
      end
     end

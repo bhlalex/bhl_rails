@@ -68,12 +68,7 @@ describe BooksController do
       PageName.create(:page => @page_first, :name => @name2, :namestring => "Name2")
     end
 
-    # check for existance of image for each book 
-    it "should display an image for each book" do
-      get :index, :view => "list"
-      response.should have_selector('a>img', :src => "/volumes/123/thumb.jpg")
-      response.should have_selector('a>img', :src => "/volumes/238233/thumb.jpg")
-    end
+
 
     # check for books count
     it "should display correct total number of books" do
@@ -420,7 +415,7 @@ describe BooksController do
 
       it "should have an image for the book" do
         get 'show', :id => "123"
-        response.should have_selector("img", :src => "/volumes/#{@volume[:job_id]}/thumb.jpg" )
+        response.should have_selector("div", :class => "bk-cover" )
       end
     end
 

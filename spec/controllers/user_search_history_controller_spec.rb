@@ -13,7 +13,7 @@ describe UserSearchHistoryController do
         @query = Query.create(:user_id => @user.id, :string => "_content=smith")
       end
 
-      it "should save the query" do
+      it "should save user search query" do
         request.env["HTTP_REFERER"] = "/books?_content=ras"
         lambda do
         post :save_query, :query => "_content=smith", :user_id =>@user.id
@@ -21,7 +21,7 @@ describe UserSearchHistoryController do
         end.should change(Query, :count).by(1)
       end
 
-    it "should destroy the query" do
+    it "should destroy user search query" do
       request.env["HTTP_REFERER"] = "/users/#{@user.id}"
       lambda do
       delete :delete_query, :id => @query
