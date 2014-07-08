@@ -48,5 +48,5 @@
           %b
             = alpha
         - else
-          = link_to "#{alpha.downcase}" do
+          = link_to :controller => "browse", :action => "show", :type => @type, :char => "#{alpha.downcase}" do
             = alpha
