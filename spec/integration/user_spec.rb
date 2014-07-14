@@ -41,7 +41,7 @@ describe "user profile photo" do
       find("#submit").click
        # upload photo for user profile
       visit("/users/#{@user1.id}/edit")
-      attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/#{I18n.t(:logo)}")
+      attach_file('photo_name', "images_#{I18n.locale}/#{I18n.t(:logo)}")
       find("#submit").click
       visit("/users/logout")
     end
@@ -58,7 +58,7 @@ describe "user profile photo" do
       expect(page).to have_selector('img', :src => "#{photo_name}")
       expect(page).to have_selector("input", :id => "delete_photo")
       @user1.photo_name = nil
-      FileUtils.remove_dir("#{Rails.root}/public/users/#{@user1.id}") if File.directory? "#{Rails.root}/public/users/#{@user1.id}"
+      FileUtils.rm_rf "users/#{@user1.id}" if File.directory? "users/#{@user1.id}"
     end
     
     it "should delete uploaded user photo" , :js => true do
@@ -72,7 +72,7 @@ describe "user profile photo" do
       expect(page).to have_selector("img", :src => "/images_en/#{I18n.t(:default_user)}")
       expect(page).not_to have_selector("input", :id => "delete_photo")
       @user1.photo_name = nil
-      FileUtils.remove_dir("#{Rails.root}/public/users/#{@user1.id}") if File.directory? "#{Rails.root}/public/users/#{@user1.id}"
+      FileUtils.rm_rf "users/#{@user1.id}" if File.directory? "users/#{@user1.id}"
     end
     
     it "should display uploaded user photo without delete photo option for ther users" , :js => true do
@@ -89,7 +89,7 @@ describe "user profile photo" do
       expect(page).to have_selector('img', :src => "#{photo_name}")
       expect(page).not_to have_selector("input", :id => "delete_photo")
       @user1.photo_name = nil
-      FileUtils.remove_dir("#{Rails.root}/public/users/#{@user1.id}") if File.directory? "#{Rails.root}/public/users/#{@user1.id}"
+      FileUtils.rm_rf "users/#{@user1.id}" if File.directory? "users/#{@user1.id}"
     end
   end
 end

@@ -692,8 +692,8 @@ describe UsersController do
           :photo_name => @file}}
         @user.reload
         pic = @user.photo_name 
-        File.exist?(File.join(Rails.root, "public", pic.url)).should be_true 
-        FileUtils.remove_dir("#{Rails.root}/public/users/#{@user.id}") if File.directory? "#{Rails.root}/public/users/#{@user.id}"
+        File.exist?(File.join(pic.url)).should be_true 
+        FileUtils.rm_rf "users/#{@user.id}" if File.directory? "users/#{@user.id}"
         end
         
 #      it "pictures with invalid size should not be uploaded" do

@@ -520,7 +520,7 @@ describe "collections" do
         find("#submit").click
         # upload photo for collection
         visit("/collections/#{@col.id}/edit")
-        attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/#{I18n.t(:logo)}")
+        attach_file('photo_name', "images_#{I18n.locale}/#{I18n.t(:logo)}")
         find("#submit").click
         visit("/users/logout")
       end
@@ -537,7 +537,7 @@ describe "collections" do
         expect(page).to have_selector('img', :src => "#{photo_name}")
         expect(page).to have_selector("input", :id => "delete_photo")
         @col.photo_name = nil
-        FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+        FileUtils.rm_rf "collections/#{@col.id}" if File.directory? "collections/#{@col.id}"
       end
       
       it "should delete uploaded collection photo", :js => true do
@@ -549,7 +549,7 @@ describe "collections" do
         visit("/get_collection_photo?id=#{@col.id}&is_delete=1")
         expect(page).to have_selector("img", :src => "/images_#{I18n.locale}/#{I18n.t(:default_collection)}")
         expect(page).not_to have_selector("input", :id => "delete_photo")
-        FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+        FileUtils.rm_rf "collections/#{@col.id}" if File.directory? "collections/#{@col.id}"
         @col.photo_name = nil
       end
       
@@ -566,7 +566,7 @@ describe "collections" do
         expect(page).to have_selector('img', :src => "#{photo_name}")
         expect(page).not_to have_selector("input", :id => "delete_photo")
         @col.photo_name = nil
-        FileUtils.remove_dir("#{Rails.root}/public/collections/#{@col.id}") if File.directory? "#{Rails.root}/public/collections/#{@col.id}"
+        FileUtils.rm_rf "collections/#{@col.id}" if File.directory? "collections/#{@col.id}"
       end
     end
   end

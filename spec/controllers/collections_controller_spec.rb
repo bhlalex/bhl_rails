@@ -517,8 +517,8 @@ describe CollectionsController do
            post :update, :id => @my_private_collection, :test => true, :collection => attr
            @my_private_collection.reload
            pic = @my_private_collection.photo_name 
-           File.exist?(File.join(Rails.root, "public", pic.url)).should be_true 
-           FileUtils.remove_dir("#{Rails.root}/public/collections/#{@my_private_collection.id}") if File.directory? "#{Rails.root}/public/collections/#{@my_private_collection.id}"
+           File.exist?(File.join(pic.url)).should be_true 
+           FileUtils.rm_rf "collections/#{@my_private_collection.id}" if File.directory? "collections/#{@my_private_collection.id}"
          end
          
 #        it "pictures with invalid size should not be uploaded" do

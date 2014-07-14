@@ -346,9 +346,9 @@ class UsersController < ApplicationController
           if (!(params[:user][:photo_name].nil?))
             file = user_attr[:photo_name].original_filename
             if(file[file.length-5].chr == '.')
-              user_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+              user_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
             else
-              user_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+              user_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
             end
           end
         end
@@ -473,7 +473,7 @@ class UsersController < ApplicationController
 
   def delete_user_photo(id)
     user = User.find(id)
-    FileUtils.remove_dir("#{Rails.root}/public/users/#{id}") if File.directory? "#{Rails.root}/public/users/#{id}"
+    FileUtils.rm_rf "users/#{id}" if File.directory? "users/#{id}"
     user[:photo_name] = ''
     user.save
   end
