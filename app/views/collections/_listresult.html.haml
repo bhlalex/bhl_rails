@@ -4,6 +4,7 @@
 - if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
   - counter = 0
   - @collections.each do |item|
+    - title = item.title.length > 15 ? item.title[0,14] + "..." : item.title
     - counter = counter + 1
     :javascript
       $(document).ready(function(){
@@ -22,7 +23,7 @@
           =image_tag("#{@thumb}",:class => "media-object img-thumbnail")
         .media-body{:style=> "float:right;"}
           %h4.media-heading
-            = link_to item.title, {:controller => :collections, :action => :show, :id => item.id}
+            = link_to title, {:controller => :collections, :action => :show, :id => item.id}
             - collection_volumes = item.volume_collections
             - total_number = collection_volumes.count
             %span.badge{:title => "#{I18n.t(:collections_books_number_tip)}", :pointer => "cursor"}
