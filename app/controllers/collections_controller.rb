@@ -120,7 +120,6 @@ class CollectionsController < ApplicationController
 
   def update
     @collection = Collection.find(params[:id])
-    debugger
     if authenticate_user(@collection.user_id)
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         collection_attr = params[:collection]
@@ -258,7 +257,7 @@ class CollectionsController < ApplicationController
 
   def delete_collection_photo(id)
     collection = Collection.find(id)
-    FileUtils.rm_rf "#{Rails.root}/public/collections/#{id} if File.directory? "#{Rails.root}/public/collections/#{id}"
+    FileUtils.rm_rf "collections/#{id}" if File.directory? "collections/#{id}"
     collection[:photo_name] = ''
     collection.save
   end
