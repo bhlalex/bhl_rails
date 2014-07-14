@@ -120,6 +120,7 @@ class CollectionsController < ApplicationController
 
   def update
     @collection = Collection.find(params[:id])
+    debugger
     if authenticate_user(@collection.user_id)
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         collection_attr = params[:collection]
@@ -127,12 +128,12 @@ class CollectionsController < ApplicationController
           if (!(params[:collection][:photo_name].nil?))
             file = collection_attr[:photo_name].original_filename
             if(file[file.length-5].chr == '.')
-              collection_attr[:photo_name].original_filename = "#{file[0,file.length-5]}#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
+              collection_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
             else
-              collection_attr[:photo_name].original_filename = "#{file[0,file.length-4]}#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
+              collection_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
             end
           end
-      end
+        end
         if @collection.update_attributes(collection_attr)
           @collection[:updated_at] = Time.now
           @collection.save
@@ -185,11 +186,11 @@ class CollectionsController < ApplicationController
     start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
     limit = LIMIT_BOOK_COMMENTS
     @comments = Comment.find_by_sql("SELECT * 
-                                              FROM comments 
-                                             WHERE comments.collection_id=#{Collection.find_by_id(params[:id]).id} 
-                                              AND comments.comment_id IS NULL
-                                              ORDER BY comments.created_at
-                                              LIMIT #{start}, #{limit}")
+                                     FROM comments 
+                                     WHERE comments.collection_id=#{Collection.find_by_id(params[:id]).id} 
+                                      AND comments.comment_id IS NULL
+                                     ORDER BY comments.created_at
+                                     LIMIT #{start}, #{limit}")
     respond_to do |format|
       format.html {render :partial => "collections/get_comments"}
     end
@@ -198,8 +199,8 @@ class CollectionsController < ApplicationController
   def get_collection_photo
      @collection = Collection.find(params[:id])
      if (@collection.user_id == session[:user_id] && params[:is_delete].to_i == 1)
-       @collection[:photo_name] = ''
-       @collection.save
+      @collection[:photo_name] = ''
+      @collection.save
       delete_collection_photo(params[:id])
      end
     respond_to do |format|
@@ -257,7 +258,7 @@ class CollectionsController < ApplicationController
 
   def delete_collection_photo(id)
     collection = Collection.find(id)
-    FileUtils.remove_dir("#{Rails.root}/public/collections/#{id}") if File.directory? "#{Rails.root}/public/collections/#{id}"
+    FileUtils.rm_rf "#{Rails.root}/public/collections/#{id} if File.directory? "#{Rails.root}/public/collections/#{id}"
     collection[:photo_name] = ''
     collection.save
   end
