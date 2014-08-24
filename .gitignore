@@ -10,6 +10,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/public/volumes/*
+/public/thumbs/*
 *.class
 *.pyc
 *.pyo
