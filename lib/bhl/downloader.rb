@@ -32,11 +32,12 @@ module BHL
       begin
         url = URI.parse(file_url)
         resp=Net::HTTP.get_response(url)
-        if resp == Net::HTTPSuccess
-          return resp.body
-        else
-          return nil
-        end
+        return resp.body
+        #if resp == Net::HTTPSuccess
+        #  return resp.body
+        #else
+        #  return nil
+        #end
       rescue
         return nil
       end

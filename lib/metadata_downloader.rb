@@ -65,7 +65,6 @@ module DAR
     
     def self.download_metadata(book)
       book_url = DAR_API_METADATA.sub DAR_API_METADATA_BIBID_STRING, book.bibid
-      
       # get metadata from DAR
       book_metadata = BHL::Downloader.download_file(book_url)
       
