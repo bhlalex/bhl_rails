@@ -18,11 +18,12 @@ module BHL
       begin
         url = URI.parse(file_url)
         resp=http.get_response(url)
-        if resp.kind_of? Net::HTTPSuccess
-          return resp.body
-        else
-          return nil
-        end
+        #if resp.kind_of? Net::HTTPSuccess
+        #  return resp.body
+        #else
+        #  return nil
+        #end
+        return resp.body
       rescue
         return nil
       end
