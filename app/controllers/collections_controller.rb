@@ -36,7 +36,7 @@ class CollectionsController < ApplicationController
       else
         @user_rate = 0.0
       end
-      @collection_volumes = @collection.volume_collections.order('position ASC')
+      @collection_volumes = @collection.volume_collections.order('position ASC')      
       @total_number = @collection_volumes.count
       @view = params[:view] ? params[:view] : 'list'
       @page = params[:page] ? params[:page].to_i : 1
@@ -73,6 +73,11 @@ class CollectionsController < ApplicationController
       rates.each do |rate|
         rate.destroy
       end
+      comments = Comment.where(:collection_id => collection.id)
+      comments.each do |comment|
+        comment.destroy
+      end
+
       flash[:notice]=I18n.t(:collection_destroyed)
       flash.keep
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
@@ -222,9 +227,10 @@ class CollectionsController < ApplicationController
     response.each do |item|
       @results << item.title
     end 
-    if (@results.length == 0)
-      @results << "#{I18n.t(:no_suggestion)}"
-    end
+    #if (@results.length == 0)
+      #@results << "#{I18n.t(:no_suggestion)}"
+      # @results = nil
+    #end
     render json: @results
   end
   private

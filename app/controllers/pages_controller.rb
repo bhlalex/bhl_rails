@@ -20,7 +20,7 @@ class PagesController < ApplicationController
   # also store email message paramters in email_messages table
   def send_message
     @email_message = EmailMessage.new(params[:email_message])
-    if @email_message.valid? && verify_recaptcha
+    if @email_message.valid?
       @email_message.save
       # use action mailer to send email message incase of valid message paramteres
       if Notifier.contact_message(params[:email_message][:name],params[:email_message][:email],
@@ -38,6 +38,17 @@ class PagesController < ApplicationController
     end
   end
 
+  def top_rated_books
+   prepare_top_rated_books_part
+   #respond_to do |format|
+    #format.html # show_rec_horses.html.erb
+    #format.js   # show_rec_horses.js.erb
+   #end
+   respond_to do |format|  
+     format.html { render :partial => 'pages/top_rated_books' }
+   end
+  end
+
   def home
     # for info part
     prepare_info_part
@@ -49,7 +60,7 @@ class PagesController < ApplicationController
     prepare_most_viewed_books_part
     
     #for top rated books
-    prepare_top_rated_books_part
+    #prepare_top_rated_books_part
     
     #for activity log part
     @act_no = get_log_records.count 
@@ -72,9 +83,13 @@ class PagesController < ApplicationController
   
   private
   def prepare_info_part
-    @no_of_books = get_count_of("book")
-    @no_of_authors = get_count_of("author")
-    @no_of_species = get_count_of("name")
+    counts = get_count_of
+    @no_of_books = counts["books"]
+    @no_of_authors = counts["authors"]
+    @no_of_species = counts["names"]
+    #@no_of_books = get_count_of("book")
+    #@no_of_authors = get_count_of("author")
+    #@no_of_species = get_count_of("name")
   end
   
   def prepare_top_collections_part
@@ -85,6 +100,7 @@ class PagesController < ApplicationController
   def prepare_most_viewed_books_part
     page = 1
     sort = "views desc"
+    #@most_viewed_response = search_facet_highlight( "*:*", page, MOST_VIEWED_BOOKS, sort)
     @most_viewed_response = search_facet_highlight( "*:*", page, MOST_VIEWED_BOOKS, sort)
   end
   

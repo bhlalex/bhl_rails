@@ -23,11 +23,12 @@ class UsersController < ApplicationController
     if @user.valid? && verify_recaptcha
       @user.save
       url = "#{request.host}:#{request.port}/users/activate/#{@user.guid}/#{@user.verification_code}"
-      Notifier.user_verification(@user, url)
-      log_in(@user)
+      Notifier.user_verification(@user, url).deliver
+      #log_in(@user)
       flash.now[:notice] = I18n.t(:registration_welcome_message, :real_name => @user.real_name)
-      flash.keep
-      redirect_to :controller => :users, :action => :show, :id => @user.id
+      flash.keep         
+       # redirect_to :controller => :users, :action => :show, :id => @user.id      
+      redirect_to root_path      
     else
       @verify_captcha = true
       @page_title = I18n.t(:sign_up)
@@ -46,7 +47,7 @@ class UsersController < ApplicationController
   # GET /users/activate/:guid/:activation_code
   def activate
     @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
-    if @user.nil?
+    if @user.nil?      
       flash[:error] = I18n.t(:activation_failed)
       flash.keep
       return redirect_to root_path
@@ -59,7 +60,7 @@ class UsersController < ApplicationController
       @user.activate
       flash.now[:notice] = I18n.t(:account_activated, :real_name => @user.real_name)
       flash.keep
-      Notifier.user_activated(@user)
+      Notifier.user_activated(@user).deliver
       if is_loggged_in?
         log_out
         log_in(@user) # to make sure everything is loaded properly
@@ -212,7 +213,7 @@ class UsersController < ApplicationController
   # POST /users/recover_password
   def recover_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    if verify_recaptcha
+    #if verify_recaptcha
       @email = params[:user][:email]
       return redirect_to users_forgot_password_path unless @email
 
@@ -230,18 +231,22 @@ class UsersController < ApplicationController
         else
           # I am changing activation code, then send an email with a link to reset password
           @user.change_activation_code
-          reset_password_url = "#{request.host}:#{request.port}/users/reset_passwpord/#{@user.guid}/#{@user.verification_code}"
-          Notifier.user_reset_password_verification(@user, reset_password_url)
-          flash.now[:notice] = I18n.t(:recover_password_success)
-          flash.keep
+          reset_password_url = "#{request.host}:#{request.port}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
+           begin
+             Notifier.user_reset_password_verification(@user, reset_password_url).deliver
+             flash.now[:notice] = I18n.t(:recover_password_success)
+             flash.keep
+           rescue Exception  => e
+             flash[:notice] = "email sending failed #{e.message}"
+           end
           redirect_to :controller => :users, :action => :login
         end
       end
-    else
-      flash.now[:error] = I18n.t(:form_validation_errors_for_attribute_assistive)
-      flash.keep
-      redirect_to users_forgot_password_path
-    end
+    #else
+      #flash.now[:error] = I18n.t(:form_validation_errors_for_attribute_assistive)
+      #flash.keep
+      #redirect_to users_forgot_password_path
+    #end
   end
 
   # GET /users/reset_password/:guid/:activation_code
@@ -299,11 +304,11 @@ class UsersController < ApplicationController
   # POST /users/validate
   def validate
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-     username = params[:user][:username]
-     password = params[:user][:password]
-      if ((session[:login_attempts].to_i >= LOGIN_ATTEMPTS) && !(verify_recaptcha))
-      flash.now[:error] = I18n.t(:captcha_error)
-      flash.keep
+    username = params[:user][:username]
+    password = params[:user][:password]
+    if (session[:login_attempts].to_i >= LOGIN_ATTEMPTS) && !(verify_recaptcha)
+    	flash.now[:error] = I18n.t(:captcha_error)
+    	flash.keep
       redirect_to :controller => :users, :action => :login
     else
       @user = User.authenticate(username, password)
