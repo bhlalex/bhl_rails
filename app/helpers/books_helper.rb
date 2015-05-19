@@ -17,7 +17,7 @@ module BooksHelper
   def item_count (type, item)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     #Added double quotes over item to handle special characters like "[" and "]"
-    search = rsolr.select :params => { :q => type + ":" + "\"#{item}\""}
+    search = rsolr.select :params => { :q => type + ":" + "\"#{item}\"", :fl => "vol_jobid"}
     search['response']['numFound']
   end
   
@@ -168,10 +168,10 @@ module BooksHelper
   def search_facet_highlight(query, page, limit, sort_type)
     facet_array = ['author_ss', 'bok_language_s', 'subject_ss', 'published_at_ss', 'geo_location_ss' ,'name_ss']
     hl_array = ['bok_title','bok_language','name','published_at', 'geo_location', 'subject','author']
-    return_field = "vol_jobid,bok_title,name,author,subject,views,rate"
+    return_field = "vol_jobid,bok_title,author,subject,views,rate,name"
     start = (page > 1) ? (page - 1) * limit : 0
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
-    response = solr.find :q => query,:sort => sort_type, :facet => true, :fl => return_field, :start => start, :rows => limit,
+    response = solr.find  :q => query,:sort => sort_type, :facet => true, :fl => return_field, :start => start, :rows => limit,
       :hl => true, 'hl.fl' => hl_array, 'hl.simple.pre' => HLPRE, 'hl.simple.post'=> HLPOST, 'hl.requireFieldMatch'=> true,  #only highlight as the query suggest
       #'facet.date'=> 'bok_start_date', 'facet.date.start' =>'1500-01-01T00:00:00Z',
       #'facet.date.end' => '2020-01-01T00:00:00Z', 'facet.date.gap' => "+20YEAR",
@@ -315,6 +315,11 @@ module BooksHelper
     doc = solr_find_document("vol_jobid:#{volume.job_id}")
     doc[:views] = 0 if doc[:views].nil?
     doc[:views] = doc[:views] + 1
+    #code added to prevent mistake of saving bok_publisher_t as an array in solr
+    if (doc[:bok_publisher_t].kind_of?(Array))
+      doc[:bok_publisher_t] = doc[:bok_publisher_t][0]
+    end
+ 
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
     #For XML uses
       #solr.update(:data => "<add><doc><field name='vol_jobid'>#{volume.job_id}</field><field name='views' update='set'>#{views}</field></doc></add>")
@@ -325,6 +330,10 @@ module BooksHelper
   def update_solr_rate(volume)
     doc = solr_find_document("vol_jobid:#{volume.job_id}")
     doc[:rate] = volume.rate
+    if (doc[:bok_publisher_t].kind_of?(Array))
+      doc[:bok_publisher_t] = doc[:bok_publisher_t][0]
+    end
+
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
     #For XML uses
       #solr.update(:data => "<add><doc><field name='vol_jobid'>#{volume.job_id}</field><field name='views' update='set'>#{views}</field></doc></add>")
@@ -339,4 +348,8 @@ module BooksHelper
                                                  FROM comments 
                                                  WHERE comments.comment_id=#{comment_id}")
   end
+  
+ def is_already_saved?(user_id, query)
+   !(Query.where("user_id = ? and string = ?", user_id, query).empty?)
+ end 
 end

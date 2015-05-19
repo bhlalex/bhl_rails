@@ -164,7 +164,7 @@ module ApplicationHelper
     saved_query=''
     params.each do |key,value|
       saved_query+= key + "=" + value +"&" if(key.include?("_"))
-    end
+    end   
     saved_query[0,saved_query.length-1]
   end
 
