@@ -28,8 +28,8 @@
             - @coverauthor = ""    
           = render :partial => "books/covers"   
         .col-md-6.column
-          %h4
-            = @book[:bok_title][0]
+          %h4          
+            = link_to @book[:bok_title][0] , {:controller => :books, :action => :show, :id => @vol[:job_id]}            
           .date.text-muted
             %small
               %b

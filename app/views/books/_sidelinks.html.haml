@@ -1,10 +1,10 @@
 :javascript
-  $(document).ready(function(){
-    $("#starsidelink_#{@vol[:job_id]}").jRating({
+  $(document).ready(function(){            
+    $("#starsidelink_#{@vol[:job_id]}").jRating({     
       isDisabled : true,
       bigStarsPath: "/images_#{I18n.locale}/#{I18n.t(:stars_grey)}"
     });
-  });
+  });    
   
 %ul.fa-ul.tools
   %li
@@ -28,6 +28,6 @@
   - if @doc['rate'] != 0.0
     .starsidelink{:id => "starsidelink_#{@vol[:job_id]}", :data => "#{@doc['rate']}"}
   %span.text-muted.pull-right
-    %small
+    %small          
       ="#{I18n.t(:sidelinks_views, :count => @doc[:views])} "
 %div

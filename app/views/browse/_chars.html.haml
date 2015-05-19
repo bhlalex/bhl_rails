@@ -21,8 +21,14 @@
     });
   });
   function searchbrowse(field){
-    if(field == null || field == '')
+    if(field == null || field == ''){
+      alert("#{I18n.t(:empty_search_query_warn)}");
       return;
+    }
+    if ([' ',  '!', '@', '#', '$' , '^', '&', '*', '(',  ',',  ')', '_',  '+', '-', '=' , '&'].indexOf(field) >= 0 || field.indexOf("%") >= 0) {
+      alert("#{I18n.t(:invalid_input)}");
+      return;
+    } 
     window.location = window.location.href.split('?')[0] + "?search=" + field;
   }
 .form-inline  
@@ -36,15 +42,15 @@
 .alphabet  
   %ul.list-inline
     %li
-      - if @char == ''
+      - if @char == '' && @search.nil?
         %b
           = I18n.t(:browse_all)
       - else
         = link_to "all" do
-          = I18n.t(:browse_all)
+          = I18n.t(:browse_all)    
     - @alphas.each do |alpha|
       %li 
-        - if @char.downcase == alpha.downcase
+        - if @char.downcase == alpha.downcase && @search.nil?
           %b
             = alpha
         - else

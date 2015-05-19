@@ -1,4 +1,4 @@
-%script{:type => "text/javascript", :src  => "http://code.jquery.com/ui/1.10.3/jquery-ui.js"}
+%script{:type => "text/javascript", :src  => "http://code.jquery.com/ui/1.10.4/jquery-ui.js"}
 :javascript
   $(document).ready(function() {
      $( "#confirmation_#{@number}" ).dialog({
@@ -6,7 +6,8 @@
             $(this).removeClass("ui-dialog");
             $(this).parent().children().children('.ui-dialog-titlebar-close').addClass("small");
             $(this).parents(".ui-dialog:first").find(".ui-widget-header")
-                   .removeClass("ui-widget-header").addClass("dialogtitle");
+                   .removeClass("ui-widget-header").addClass("dialogtitle");           
+
         },
         dialogClass:"dialogclass",
         width: 400,
@@ -39,7 +40,7 @@
       modal: true, 
       title: "#{I18n.t(:add_book_dialog_title)}",
       buttons: { 
-        "#{I18n.t(:save)}": {
+        "#{I18n.t(:save)}": { 
                         text: "#{I18n.t(:save)}",
                         click: function() {
                               var col_id = $("#idselect_#{@number}").val(), 
@@ -75,7 +76,7 @@
         "#{I18n.t(:cancel)}": function() {$(this).dialog("close");$("#error_#{@number}").hide();}
       } 
     });
-    $('#{I18n.t(:save)}').removeClass('ui-state-hover');
+    $('#{I18n.t(:save)}').removeClass('ui-state-hover');     
     $( "#opener_#{@number}" ).click(function() {
       var buttons = $('.ui-dialog-buttonset').children('button');
       buttons.removeClass("ui-state-hover").removeClass("ui-satate-focus").

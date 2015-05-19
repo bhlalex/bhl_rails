@@ -3,11 +3,9 @@
 %i
   %b
     =I18n.t(:listresult_author_by)
-- count = 0
-- authors.each do |author|
-  - count = count + 1
+- authors.each_with_index do |author, index|  
   = author.kind_of?(Array) ? author[0].html_safe : author.html_safe
-  -if count != authors.length
+  -if index != authors.length - 1
     %b
       =I18n.t(:separator)
 - if (more > 0)

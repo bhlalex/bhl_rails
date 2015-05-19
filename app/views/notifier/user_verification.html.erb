@@ -1,0 +1,16 @@
+<!CTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h5><%= I18n.t(:dear_msg, :name=> @user.username) %></h5>
+    <p><%= I18n.t('notifier.user_verification.message', :verification_url => @verification_url) %></p>
+    <p><%= link_to "#{@verification_url}", @verification_url  %></p>
+    <br/>
+    <p> <%= I18n.t(:email_signature_1) %></p>
+    <p> <%= I18n.t(:email_signature_2) %></p>
+    <p><%= link_to "#{BHL_LINK}", BHL_LINK  %></p>
+  </body>
+</html>
+

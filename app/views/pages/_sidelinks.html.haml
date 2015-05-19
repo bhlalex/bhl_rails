@@ -28,6 +28,6 @@
   - if @doc['rate'] != 0.0
     .starsidelink{:id => "starsidelink_#{page}_#{@vol[:job_id]}", :data => "#{@doc['rate']}"}
   %span.text-muted.pull-right
-    %small
-      ="#{I18n.t(:sidelinks_views, :count => @doc[:views])} "
+    %small      
+      ="#{ I18n.t(:sidelinks_views, :count => @doc[:views])} "
 %div
