@@ -1,9 +1,0 @@
-STEADILY ALTERNATING CURRENT ON A LONG LINE. 335
-of phase shift corresponds to 24° of LK mechanical-arc adjustment.
-This adjustment is also illustrated in Fig. 5, where the pointer P
-Fig. 5. Time-controlling Mechanism of Circuit-closing Switch.
-Stands over the stationary scale K, and determines the position of
-the brushes B^B^ around the sectored insulating disk D. One elec-
-trical degree of a 60'-' alternator corresponds to /4i6oo of a second,
-To the Line.
-Fig. 6. Switch Diagram.
