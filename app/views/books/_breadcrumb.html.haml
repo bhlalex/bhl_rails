@@ -34,13 +34,13 @@
     - if(val != '')
       - val.each do |term|
         .tab.center-block
-          = term
+          = "#{I18n.t(key)}: #{term}"
           .close
             = link_to :params => removeBreadCrumb(@url_params, key, term) do
               ="&times;".html_safe
 
 - query = parse_url_params(@url_params)
-- if (@query_array.any? and !(session[:user_id].nil?) and !(@query == "*:*"))
+- if (!(@query_array.values.join("").blank?) && !(session[:user_id].nil?))
   .savequery.pull-right
     - if(!is_already_saved?(session[:user_id], query))
       = link_to I18n.t(:save_query) , {:controller => :user_search_history, :action => :save_query, :query => query, :user_id => session[:user_id]}, :class => "btn btn-success btn-sm", :id => "save_query"

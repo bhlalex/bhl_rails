@@ -501,7 +501,9 @@ en:
   
   # browse page
   no_entity_found: "No %{entity} Found"
-    
+  
+  # saved queries
+  ALL: All Categories    
    
   #languages
   english: English

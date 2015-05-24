@@ -521,6 +521,9 @@ password:<<br><br>%{reset_password_url}"
   
   # browse page
   no_entity_found: "%{entity} لا يوجد"
+  
+  # saved queries
+  ALL: كل التصنيفات
 
   #languages
   english: English

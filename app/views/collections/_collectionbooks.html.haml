@@ -75,7 +75,16 @@
               %i.fa.fa-li.fa-info
               %small
                 = link_to "#{I18n.t(:book_details_details)}" , 
-                  {:controller => :books, :action => :show, :id => @vol.job_id}    
+                  {:controller => :books, :action => :show, :id => @vol.job_id}
+            - if logged_in? && @ubh_vol.collection.user_id != session[:user_id]
+              %li
+                %i.fa.fa-li.fa-plus-square
+                %small
+                  %a{:href => "#", :id => "opener_#{@number}"}
+                    =I18n.t(:sidelinks_add_collection)
+                  - @addbookvol = @vol.job_id 
+                  =render :partial => "books/add_book"               
+
           .rate
             %span.text-muted.pull-right
               %small
