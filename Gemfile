@@ -28,6 +28,7 @@ gem 'best_in_place'
 
 gem "rails-erd"
 gem "ruby-graphviz"
+gem 'will_paginate', '~> 3.0.6'
 
 
 group :development, :test do

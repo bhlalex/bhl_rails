@@ -11,39 +11,33 @@ class CollectionsController < ApplicationController
     
     @page = params[:page] ? params[:page].to_i : 1
     
-    @collections = Collection.where(sql_query).order(params[:sort_type]).limit(COLLECTION_PAGE_SIZE).offset((@page-1)*COLLECTION_PAGE_SIZE)
+    @collections = Collection.where(sql_query).paginate(:page => @page, :per_page => COLLECTION_PAGE_SIZE).order(params[:sort_type])
+
     if !params[:search].nil?
       @collections_total_number = Collection.count(:all, :conditions => "is_public = 1 AND title LIKE '%#{params[:search]}%'")
     else
       @collections_total_number = Collection.count(:all, :conditions => "is_public = 1")
     end
-    @lastPage = @collections_total_number ? ((@collections_total_number).to_f/COLLECTION_PAGE_SIZE).ceil : 0
     @url_params = params.clone
   end
 
   def show
     @page_title = I18n.t(:show_collection_detail)
-    @collection = Collection.find(params[:id])
-    
+    @collection = Collection.find(params[:id])    
     if @collection.is_public == true || authenticate_user(@collection.user_id)
       @collection_id = params[:id]
       @volume_id = nil
-#      @comments_replies_list = get_comments( "collection", params[:id], nil)
       @comment = Comment.new
       rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => @collection.id)
       if rate_list.count > 0
         @user_rate = rate_list[0].rate
       else
         @user_rate = 0.0
-      end
-      @collection_volumes = @collection.volume_collections.order('position ASC')      
-      @total_number = @collection_volumes.count
+      end      
       @view = params[:view] ? params[:view] : 'list'
       @page = params[:page] ? params[:page].to_i : 1
-      @lastPage = @collection_volumes.count ? ((@collection_volumes.count).to_f/PAGE_SIZE).ceil : 0
-      limit = PAGE_SIZE
-      offset = (@page > 1) ? (@page - 1) * limit : 0
-      @collection_volumes = @collection_volumes.limit(limit).offset(offset)
+      @collection_volumes = @collection.volume_collections.paginate(:page => @page, :per_page => PAGE_SIZE).order('position ASC')
+      @total_number = @collection_volumes.count
       @url_params = params.clone
     end
   end

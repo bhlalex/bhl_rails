@@ -525,6 +525,10 @@ password:<<br><br>%{reset_password_url}"
   # saved queries
   ALL: كل التصنيفات
 
+  # pagination
+  previous_label: "السابق"
+  next_label: "التالى"
+  
   #languages
   english: English
   arabic: عربى

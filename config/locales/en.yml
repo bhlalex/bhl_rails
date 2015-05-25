@@ -503,7 +503,11 @@ en:
   no_entity_found: "No %{entity} Found"
   
   # saved queries
-  ALL: All Categories    
+  ALL: All Categories
+  
+  # pagination
+  previous_label: "Previous"
+  next_label: "Next"  
    
   #languages
   english: English

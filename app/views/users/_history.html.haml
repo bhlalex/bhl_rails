@@ -65,11 +65,9 @@
               
         .clearfix
       %hr
-    - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-      .col-md-8
-        .pagination-centered
-          - @pages = adjustPaging(@page, @lastPage)
-          = render :partial => "books/paging"
+    .col-md-8
+      .pagination-centered
+        = will_paginate @history, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
 - else
   %h4
     = I18n.t(:profile_no_history_found)            

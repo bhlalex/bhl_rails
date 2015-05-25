@@ -27,9 +27,11 @@ class BooksController < ApplicationController
     @view = @url_params[:view] ? @url_params[:view] : ''
     @sort = @url_params[:sort_type] ? @url_params[:sort_type] : '' # get sort options (rate or views) from params
     @query_array = set_query_array(@query_array, @url_params)
-    @query = set_query_string(@query_array, false)    
+    @query = set_query_string(@query_array, false)
     @response = search_facet_highlight(@query, @page, PAGE_SIZE, @sort)
-    @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
+    @books= WillPaginate::Collection.create(@page, PAGE_SIZE, @response['response']['numFound']) do |pager|
+      pager.replace @response['response']['docs']
+    end
   end
   
   def show
