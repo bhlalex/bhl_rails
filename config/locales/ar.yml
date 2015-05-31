@@ -118,7 +118,8 @@ password:<<br><br>%{reset_password_url}"
       full_messages:
         format: "%{خاصية} %{رسالة}"
   choose_collection: "اختر مجموعة"
-  title: "عنوان"
+  title: "عنوان الكتاب"
+  title: "عنوان الكتاب"
   description: "الوصف"
   create_new_collection: "إنشاء مجموعة جديدة"
   public: "عام"
@@ -134,9 +135,9 @@ password:<<br><br>%{reset_password_url}"
   comment_deleted: "حذف التعليق"
   reply_deleted: "حذف الرد"
   can_not_delete_comment: "لا يمكنك حذف التعليق الذي له رد"
-  rates: معدلات
-  viewed: منظور
-  sort_by: كيفية الترتيب
+  rates: التقييم
+  viewed: عدد المشاهدات
+  sort_by: الترتيب حسب
   not_member: لست عضوًا؟
   
   #------------------------------------------------#NEW_LAYOUT-----------------------------------------------------------------
@@ -144,7 +145,7 @@ password:<<br><br>%{reset_password_url}"
   header_signup:  تسجيل دخول
   header_signout: تسجيل خروج
   header_login: دخول
-  header_profile: بروفيل مستخدِم
+  header_profile: الملف الشخصى
   bhl_homepage: مصر BHL
   home_link: الصفحة الرئيسية
   about_us_link: من نحن
@@ -173,7 +174,7 @@ password:<<br><br>%{reset_password_url}"
   reply: رد
   older: أقدم
   newer: أحدث
-  post: ترحيل
+  post: نشر
   abuse: بلِّغ
   create_comment: إنشاء تعليق
   show: Show
@@ -208,13 +209,13 @@ password:<<br><br>%{reset_password_url}"
     zero: مشاهدات
     one: "مشاهدة واحدة"
     other: " مشاهدات%{عدد}"
-  listresult_author_by: "حسب: " 
+  listresult_author_by: "بواسطة: " 
   listresult_subject: "النوع:" 
   listresult_names: "الأسماء:" 
   terminator: "."
   separator: "/"
 #  and_more: "أكثر %{عدد}"و
-  clear: واضح 
+  clear: مسح 
   
   #Pages (About US, Contact Us)
   about_us_page_title: من نحن
@@ -258,7 +259,7 @@ password:<<br><br>%{reset_password_url}"
   upload_photo_max_size_error:  لا يمكن تحميل ملف أكبر من 
   mb: MB # ميجابايت
   max_photo_size: أقصى حجم للصور
-  profile_photo: صورة البروفيل
+  profile_photo: صورة المستخدم
   upload_photo_ext_error: (jpg, jpeg, png, gif, bmp)امتدادات الملفات المسموح بها 
   old_password: اسم مرور قديم
   new_password: اسم مرور جديد
@@ -281,8 +282,9 @@ password:<<br><br>%{reset_password_url}"
   yellow_pin: 'دبوس أصفر'
   orange_pin: 'دبوس برتقالي'
   red_pin: 'دبوس أحمر'
-  geo_titles: 'عناوين'
-  geo_titles_more: 'أو عناوين أكثر'
+  geo_titles: 'عنوان'
+  geo_titles_first_ten: 'عناوين'
+  geo_titles_more: 'عنوان او اكثر'
   geo_show_all_titles: 'اعرض الكل'
   
   #Collections Index
@@ -293,7 +295,7 @@ password:<<br><br>%{reset_password_url}"
     one:   "موجود في مجموعة واحدة"
     other: "من المجموعات %{عدد}في  موجود"
   collections_found_all: "مجموعة موجودة %{عدد}"
-  collection_by: "حسب:"
+  collection_by: "بواسطة:"
   collection_creation_date: "تم الإنشاء في:"
   collections_books_number_tip: عدد الكتب في الداخل
   
@@ -323,7 +325,7 @@ password:<<br><br>%{reset_password_url}"
   username: "اسم المستخدم"
   sign_up: "تسجيل"
   sign_in: تسجيل دخول
-  submit_buton: "تقديم"
+  submit_button: "دخول"
   clear_button: "مسح"
   password: "كلمة المرور"
   email: "عنوان البريد الإلكتروني"
@@ -342,11 +344,11 @@ password:<<br><br>%{reset_password_url}"
   account_activated: "تم تفعيل (%{real_name}). شكرًا لانضمامك لـ BHL مصر."
   sign_in_successful_notice: "تسجيل دخول ناجح"
   sign_in_unsuccessful_error: "فشل تسجيل الدخول. اسم مستخدم غير سليم أو كلمة مرور غير سليمة" 
-  user_not_found_by_email_address: لا يوجد حساب BHL لهذا البريد الإلكتروني. لا يمكن العثور على(%{email})  لكتروني لاسترجاع الحساب، به المزيد من التعليمات
+  user_not_found_by_email_address: لا يوجد حساب على BHL Egypt لهذا البريد الإلكترونى %{email}
   reset_password: "إعادة تعيين كلمة المرور"
   reset_password_failed: "تعيين كلمة المرور فشلت عملية إعادة"
   reset_password_success: "تمت إعادة تعيين كلمة المرور بنجاح"
-  modify_profile: "تعديل البروفيل"
+  modify_profile: "تغيير بيانات الملف الشخصى "
   access_denied_error: "غير مسموح بالدخول"
   changes_saved: "تم تخزين التغيرات"
   delete_photo: حذف صورة
@@ -357,7 +359,7 @@ password:<<br><br>%{reset_password_url}"
   forget_password_message: "أدخل عنوان البريد الإلكتروني المرتبط بحساب BHL الخاص بك"
   
 #User Profile Page
-  user_profile_tab: بروفيل
+  user_profile_tab: الملف الشخصى
   user_annotations_tab: الملاحظات
   user_queries_tab: الاستعلامات التي تم حفظها
   user_history_tab: الكتب التي تم التعامل معها مؤخرًا
@@ -370,13 +372,13 @@ password:<<br><br>%{reset_password_url}"
   profile_no_collections_found: لا توجد مجموعات ..
   
   #User Profile Page (Tab Profile)
-  user_profile_title: بروفيل
+  user_profile_title: الملف الشخصى
   #User Profile Page (Activity Tab)
   user_activity_title: سجل الأنشطة
-  log_activity_create: تم إنشاء مجموعة جديدة
+  log_activity_create: انشأ مجموعة جديدة
   log_activity_with: "مع"
-  log_activity_rate: مقدر
-  log_activity_comment: تم التعليق عليه
+  log_activity_rate: قام بتقييم
+  log_activity_comment: أضاف مراجعة ل
   log_activity_at: عند
   
   #User Profile Page (Recently Viewed Tab)
@@ -412,7 +414,7 @@ password:<<br><br>%{reset_password_url}"
   author: المؤلفون
   species: الأنواع المسماة
   top_collections: المجموعات الأهم
-  home_top_collections_by: حسب
+  home_top_collections_by: بواسطة
   most_viewed: الأكثر مشاهدة
   top_rated: الأعلى تقديرًا
   home_activity_log: سجل الأنشطة
@@ -479,6 +481,9 @@ password:<<br><br>%{reset_password_url}"
   stars_grey: "stars_grey.png"
   stars_white: "stars_white.png"
   
+  # contact us page
+  send: إرسال
+
 
   #languages
   english: English

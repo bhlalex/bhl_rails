@@ -109,5 +109,8 @@
           .form-group
             .col-sm-2
             .col-sm-10
-              = f.submit I18n.t('submit_buton'), :class => "btn btn-primary", :id => "submit"
+              - if (@action == "signup")
+                = f.submit I18n.t('header_signup'), :class => "btn btn-primary", :id => "submit"
+              - else
+                = f.submit I18n.t('header_login'), :class => "btn btn-primary", :id => "submit"
               = f.submit I18n.t('clear_button'), :class => "btn btn-default",:id => "clear", :type => "reset"

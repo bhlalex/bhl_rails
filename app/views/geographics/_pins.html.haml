@@ -4,7 +4,7 @@
     = check_box_tag "check10", 10, @range.include?(10.to_s), {:class => "check10"}
     %img{:alt => I18n.t(:blue_pin), :title => I18n.t(:blue_pin), :src => "/images_#{I18n.locale}/#{I18n.t(:map_pin_blue)}"}
     1-10 
-    = I18n.t(:geo_titles)
+    = I18n.t(:geo_titles_first_ten)
     &nbsp;&nbsp;&nbsp;&nbsp;
     
     = check_box_tag "check20", 20, @range.include?(20.to_s), {:class => "check20"}

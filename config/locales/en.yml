@@ -282,6 +282,7 @@ en:
   orange_pin: 'Orange Pin'
   red_pin: 'Red Pin'
   geo_titles: 'titles'
+  geo_titles_first_ten: 'titles'
   geo_titles_more: 'or more titles'
   geo_show_all_titles: 'Show all'
   
@@ -477,6 +478,9 @@ en:
   map_pin_yellow: "map_pin_yellow.png"
   stars_grey: "stars_grey.png"
   stars_white: "stars_white.png"
+  
+  # contact us page
+  send: Send
   
   #languages
   english: English
