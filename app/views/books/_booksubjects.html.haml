@@ -3,11 +3,9 @@
 %i
   %b
     =I18n.t(:listresult_subject)
-- count = 0
-- subjects.each do |subject|
-  - count = count + 1
+- subjects.each_with_index do |subject, index|  
   = subject.kind_of?(Array) ? subject[0].html_safe : subject.html_safe
-  -if count != subjects.length
+  -if index != subjects.length - 1
     %b
       =I18n.t(:separator)
 - if (more > 0)

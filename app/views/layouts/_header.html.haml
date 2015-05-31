@@ -62,8 +62,15 @@
     });
     
     function searchfnc(searchquery, e, field){
-      if(field == null || field == '')
+      if(field == null || field == ''){
+        alert("#{I18n.t(:empty_search_query_warn)}");
         return;
+      }
+      
+      if ([' ',  '!', '@', '#', '$' , '^', '&', '*', '(',  ',',  ')', '_',  '+', '-', '=' , '&'].indexOf(field) >= 0 || field.indexOf("%") >= 0) {
+       alert("#{I18n.t(:invalid_input)}");
+       return;
+      }
       url = window.location.href.split('?')[0];
       url = url.split('#')[0];  
       var type = e.options[e.selectedIndex].value;

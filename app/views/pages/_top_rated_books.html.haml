@@ -12,7 +12,8 @@
     .browse
       .col-md-2
         - @coverno = @number
-        - @covertitle = @doc[:bok_title][0]
+        /- @covertitle = @doc[:bok_title][0]
+        - @covertitle = @title.html_safe
         - if(@doc['author'] != nil)
           - @coverauthor = @doc['author'][0]
         - else

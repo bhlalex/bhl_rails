@@ -39,6 +39,6 @@
       =render :partial => "geographics/pins"
     %center  
       = raw Cartographer::Header.new.to_s
-      = raw @map.to_html
+      =raw @map.to_html
       #map{ :style => "width:980px;height:600px;" }
         [map]

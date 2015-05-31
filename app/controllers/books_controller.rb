@@ -29,7 +29,9 @@ class BooksController < ApplicationController
     @query_array = set_query_array(@query_array, @url_params)
     @query = set_query_string(@query_array, false)
     @response = search_facet_highlight(@query, @page, PAGE_SIZE, @sort)
-    @lastPage = @response['response']['numFound'] ? (@response['response']['numFound'].to_f/PAGE_SIZE).ceil : 0
+    @books= WillPaginate::Collection.create(@page, PAGE_SIZE, @response['response']['numFound']) do |pager|
+      pager.replace @response['response']['docs']
+    end
   end
   
   def show
@@ -43,7 +45,10 @@ class BooksController < ApplicationController
     #end
     
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
+    #search = rsolr.select :params => { :q => "vol_jobid:" + params[:id]}
+    returned_fields = "vol_jobid,bok_title,single_bok_title,bok_publisher,bok_language,bok_start_date,author,subject,geo_location,views,rate,name"
+    #returned_fields = "vol_jobid,bok_title,subject"
+    search = rsolr.select :params => {:q => "vol_jobid:" + params[:id], :fl => returned_fields}
     @book = search['response']['docs'][0]
     @page_title = @book['bok_title'][0]
     @volume = Volume.find_by_job_id(params[:id])

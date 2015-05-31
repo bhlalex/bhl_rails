@@ -20,11 +20,17 @@
   });
   
   function search_collection(){
-    if ($("#search_coll_field").val() == ''){
+    field = $("#search_coll_field").val();
+    if (field == ''){
+      alert("#{I18n.t(:empty_search_query_warn)}");
+      return;
+    }
+    if ([' ',  '!', '@', '#', '$' , '^', '&', '*', '(',  ',',  ')', '_',  '+', '-', '=' , '&'].indexOf(field) >= 0 || field.indexOf("%") >= 0) {
+      alert("#{I18n.t(:invalid_input)}");
       return;
     }
     else{
-      window.location=window.location.href.split('?')[0] + "?search=" + $("#search_coll_field").val();
+      window.location=window.location.href.split('?')[0] + "?search=" + field;
     }
   }
 .row.clearfix
@@ -44,8 +50,6 @@
   .row
     =render :partial=> "collections/listresult"
     
-  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-    .col-md-8
-      .pagination-centered
-        - @pages = adjustPaging(@page, @lastPage)
-        = render :partial => "books/paging"
+  .col-md-8
+    .pagination-centered
+      = will_paginate @collections, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)

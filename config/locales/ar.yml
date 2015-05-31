@@ -2,26 +2,26 @@ ar:
   books_count: 
     zero:  "بدون كتب"
     one:   "كتاب واحد"
-    other: "الكتب % من{عدد}"
+    other: "الكتب % من{count}"
   written_by_authors: 
     zero:  "بدون مؤلف"
     one:   "مؤلف واحد"
-    other: "% من المؤلفين{عدد}"
+    other: "% من المؤلفين{count}"
   written_in_languages: 
     zero:  "بدون لغات"
     one:   "لغة واحدة"
-    other: "% من اللغات{عدد}"
+    other: "% من اللغات{count}"
   containing_names: 
     zero:  "لا يحتوي على أسماء"
     one:   "يحتوي على اسم واحد"
-    other: "% من الأسماء العلمية{عدد}يحتوي على" 
+    other: "% من الأسماء العلمية{count}يحتوي على" 
   around_the_world: "حول العالم"
   tagged_species_caps: "الأنواع المسماة"
   languages_caps: "اللغات"
   authors_caps: "المؤلفون"
   regional_affiliation_caps: "التبعية الإقليمية"
   genre_caps: "النوع"
-  and_count_more: "% أكثر{عدد}و"
+  and_count_more: "% أكثر{count}و"
   delete_comment_confirm: هل ترغب فعلاً في حذف هذا التعليق؟
   mark: أبلِغ عن عدم الملاءمة
   delete: حذف
@@ -82,11 +82,11 @@ password:<<br><br>%{reset_password_url}"
       format: "%{خاصية} %{رسالة}"
       template:
         header:
-          one: "%{عدد} وجدت أخطاء خاصة بالتحقق من الصحة"
-          other: "%{عدد} وجدت أخطاء خاصة بالتحقق من الصحة"
+          one: "%{count} وجدت أخطاء خاصة بالتحقق من الصحة"
+          other: "%{count} وجدت أخطاء خاصة بالتحقق من الصحة"
         body: "أخفقت الحقول التالية في اختبار التحقق من الصحة:"
       messages:
-        taken: "تم تعديل عنوان صفحة المجموعة: تم تعديل المجموعة"
+        taken: "موجود مسبقا "
         record_invalid: "فشل التحقق من الصحة:%{أخطاء}"
         invalid: "غير صحيح"
         confirmation: "لا يطابق التأكيد"
@@ -94,23 +94,23 @@ password:<<br><br>%{reset_password_url}"
         empty: "لا يمكن أن يكون خاليًا"
         blank: "لا يمكن أن يكون فارغًا"
         too_long:
-          one: "(حرف %{عدد}بحد أقصى)طويل جدًّا "
-          other: "(حرف %{عدد} بحد أقصى)طويل جدًّا "
+          one: "(حرف %{count}بحد أقصى)طويل جدًّا "
+          other: "(حرف %{count} بحد أقصى)طويل جدًّا "
         too_short:
-          one: "(حرف %{عدد}بحد أدنى)قصير جدًّا "
-          other: "(حرف %{عدد}بحد أدنى)قصير جدًّا "
-        wrong_length: "(حرف %{عدد}(يجب أن يكون يوجد خطأ في الطول)"
+          one: "(حرف %{count}بحد أدنى)قصير جدًّا "
+          other: "(حرف %{count}بحد أدنى)قصير جدًّا "
+        wrong_length: "(حرف %{count}(يجب أن يكون يوجد خطأ في الطول)"
         not_a_number: "ليس رقمًا"
         not_an_integer: "يجب أن يكون عددًا صحيحًا"
         greater_than:
-          one: "%{عدد}يجب أن يكون أكبر من "
-          other: "%{عدد}يجب أن يكون أكبر من "
-        greater_than_or_equal_to: "%{عدد}يجب أن يكون أكبر من أو يساوي "
-        equal_to: "%{عدد}يجب أن يساوي "
+          one: "%{count}يجب أن يكون أكبر من "
+          other: "%{count}يجب أن يكون أكبر من "
+        greater_than_or_equal_to: "%{count}يجب أن يكون أكبر من أو يساوي "
+        equal_to: "%{count}يجب أن يساوي "
         less_than:
-          one: "%{عدد}يجب أن يكون أقل من "
-          other: "%{عدد}يجب أن يكون أقل من "
-        less_than_or_equal_to: "%{عدد}يجب أن يكون أقل من أو يساوي "
+          one: "%{count}يجب أن يكون أقل من "
+          other: "%{count}يجب أن يكون أقل من "
+        less_than_or_equal_to: "%{count}يجب أن يكون أقل من أو يساوي "
         odd: "يجب أن يكون عددًا فرديًّا"
         even: "يجب أن يكون عددًا زوجيًّا"
         inaccessible: "غير متاح"
@@ -198,22 +198,22 @@ password:<<br><br>%{reset_password_url}"
   #Browse books
   no_books_found: لا يوجد كتب...
   name_found_in_books:
-    zero:  ""
+    zero:  "لا توجد كتب تحتوى على هذا الاسم"
     one:   "موجود في كتاب واحد"
-    other: "كتب %{عدد}في  موجود"
+    other: "كتب %{count}في  موجود"
   sidelinks_read: اقرأ 
   sidelinks_detail: تفاصيل
   sidelinks_add_collection: أضف إلى المجموعة
-  sidelinks_views: 
-    zero: مشاهدات
+  sidelinks_views:
     one: "مشاهدة واحدة"
-    other: " مشاهدات%{عدد}"
+    two: "مشاهدتين"
+    other: " %{count} مشاهدات "
   listresult_author_by: "حسب: " 
   listresult_subject: "النوع:" 
   listresult_names: "الأسماء:" 
   terminator: "."
   separator: "/"
-#  and_more: "أكثر %{عدد}"و
+  and_more: "و %{count} اكثر"
   clear: واضح 
   
   #Pages (About US, Contact Us)
@@ -231,8 +231,9 @@ password:<<br><br>%{reset_password_url}"
   book_details_user_rate: المعدل الخاص بك
   book_details_star: 
     zero: ""
-    one: ' نجمة%{عدد}'
-    other: ' نجمة%{عدد}'
+    one: "نجمة واحدة"
+    two: "نجمتين"
+    other: "نجمات %{count}"
   books_details_add_collection: أضف إلى المجموعة
   book_details_collection_count:
     one:   "مجموعات"
@@ -262,7 +263,7 @@ password:<<br><br>%{reset_password_url}"
   upload_photo_ext_error: (jpg, jpeg, png, gif, bmp)امتدادات الملفات المسموح بها 
   old_password: اسم مرور قديم
   new_password: اسم مرور جديد
-  recaptcha: recaptcha
+  recaptcha: "السؤال الأمنى"
   password_confirmation: تأكيد اسم المرور
   email_confirmation: تأكيد بريد إلكتروني
   new_password_confirmation:  تأكيد بريد إلكتروني جديد
@@ -291,8 +292,8 @@ password:<<br><br>%{reset_password_url}"
   collections_found:
     zero:  ""
     one:   "موجود في مجموعة واحدة"
-    other: "من المجموعات %{عدد}في  موجود"
-  collections_found_all: "مجموعة موجودة %{عدد}"
+    other: "من المجموعات %{count}في  موجود"
+  collections_found_all: "مجموعة موجودة %{count}"
   collection_by: "حسب:"
   collection_creation_date: "تم الإنشاء في:"
   collections_books_number_tip: عدد الكتب في الداخل
@@ -308,7 +309,7 @@ password:<<br><br>%{reset_password_url}"
   write_review: اكتب مراجعة
   please_login: من فضلك سجل الدخول
   volume_collection_deleted: تمت إزالة الكتب بنجاح من مجموعتك
-  remove_book_from_collection_confirm: “"هل تريد فعلاً حذف هذا الكتاب؟
+  remove_book_from_collection_confirm: هل تريد فعلاً حذف هذا الكتاب؟
   delete_collection_photo_confirm: هل تريد فعلاً حذف صورة المجموعة؟ 
   #Edit collection page
   public_collection:  عام 
@@ -325,6 +326,7 @@ password:<<br><br>%{reset_password_url}"
   sign_in: تسجيل دخول
   submit_buton: "تقديم"
   clear_button: "مسح"
+  reset_button: "إعادة"
   password: "كلمة المرور"
   email: "عنوان البريد الإلكتروني"
   real_name: "الاسم الفعلي"
@@ -343,6 +345,7 @@ password:<<br><br>%{reset_password_url}"
   sign_in_successful_notice: "تسجيل دخول ناجح"
   sign_in_unsuccessful_error: "فشل تسجيل الدخول. اسم مستخدم غير سليم أو كلمة مرور غير سليمة" 
   user_not_found_by_email_address: لا يوجد حساب BHL لهذا البريد الإلكتروني. لا يمكن العثور على(%{email})  لكتروني لاسترجاع الحساب، به المزيد من التعليمات
+  recover_password_success: "لقد تم ارسال الانتعاش حساب البريد الإلكتروني مع مزيد من التعليمات"
   reset_password: "إعادة تعيين كلمة المرور"
   reset_password_failed: "تعيين كلمة المرور فشلت عملية إعادة"
   reset_password_success: "تمت إعادة تعيين كلمة المرور بنجاح"
@@ -408,9 +411,31 @@ password:<<br><br>%{reset_password_url}"
   user_annotation_highlight: العناوين الرئيسية
   
   #Home Page
-  book: الكتب
-  author: المؤلفون
-  species: الأنواع المسماة
+  book:
+    one: "كتاب"
+    two: "كتابين"
+    three: "3 كتب"
+    four: "4 كتب"
+    five: "5 كتب"
+    six: "6 كتب"
+    seven: "7 كتب"
+    eight: "8 كتب"
+    nine: "9 كتب"
+    ten: "10 كتب"
+    other: " %{count} كتاب"
+  author_count:
+    one: "كاتب"
+    two: "كاتبين"
+    three: "3 كتاب"
+    four: "4 كتاب"
+    five: "5 كتاب"
+    six: "6 كتاب"
+    seven: "7 كتاب"
+    eight: "8 كتاب"
+    nine: "9 كتاب"
+    ten: "10 كتاب"
+    other: " %{count} كاتب"
+  species: " %{count} الأنواع المسماة"
   top_collections: المجموعات الأهم
   home_top_collections_by: حسب
   most_viewed: الأكثر مشاهدة
@@ -440,12 +465,12 @@ password:<<br><br>%{reset_password_url}"
   books_found:
     zero:  ""
     one:   "موجود في كتاب واحد"
-    other: " كتاب %{عدد} موجود في"
-  books_found_all: " كتاب %{عدد} موجود في"
+    other: " موجود فى %{count}  كتاب"
+  books_found_all: " موجود فى %{count}  كتاب"
   
   tree_of_life_title: شجرة الحياة
   species_details: تفاصيل الأنواع 
-  select_species_for_details: اختر الأنواع الموجودة إلى اليسار لمشاهدة التفاصيل 
+  select_species_for_details: اختر الأنواع الموجودة إلى اليمين لمشاهدة التفاصيل 
  
   #autocomplete
   no_suggestion: "لا توجد مقترحات" 
@@ -479,7 +504,31 @@ password:<<br><br>%{reset_password_url}"
   stars_grey: "stars_grey.png"
   stars_white: "stars_white.png"
   
+  # contact us page
+  sender: "المرسل"
+  message_subject: "عنوان الرسالة"
+  text: "نص الرسالة"
+  
+  # reset password
+  confirm_password: تأكيد كلمة المرور
+  
+  # email messages
+  dear_msg: "عزيزى %{name},"
+  email_signature_1: "تحية,"
+  email_signature_2: "فريق عمل BHL"
+  empty_search_query_warn: "يجب عليك إدخال جملة البحث"
+  invalid_input: "جملة غير صالحة للبحث"
+  
+  # browse page
+  no_entity_found: "%{entity} لا يوجد"
+  
+  # saved queries
+  ALL: كل التصنيفات
 
+  # pagination
+  previous_label: "السابق"
+  next_label: "التالى"
+  
   #languages
   english: English
   arabic: عربى

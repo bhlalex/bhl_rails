@@ -8,11 +8,11 @@
 %script(type="text/javascript" src="/jsTree/source/_lib/jquery.xslt.js")
 %script(type="text/javascript" src="/assets/names.js")
 
-.col-md-8
+.col-md-8  
   %table{:width => "100%", :border => "0", :style => "border-collapse:collapse", :cellspacing => "0", :cellpadding => "3"}
     %tr
       %td
-        %select{:name => 'hierarchy_id', :style => 'width: 100%', :class => 'hierarchy_id'}
+        %select{:name => 'hierarchy_id', :style => 'width: 100%', :class => 'hierarchy_id'}          
           - @entries.each do |entry|
             %option{:value => entry.id, :selected => entry.id==DEFAULT_HIERARCHY_ID}= entry.label
     %tr

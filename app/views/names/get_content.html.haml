@@ -9,5 +9,5 @@
       - if @image
         = image_tag @image, :width => 200
         %br
-      %br
+      %br      
       = link_to I18n.t(:name_found_in_books, :count => @books_count), books_path(:params => addFacetSearch({}, 'name', @name))

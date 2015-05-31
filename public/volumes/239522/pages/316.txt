@@ -1,6 +1,0 @@
-TELEPHONE DIAPHRAGMS.
-451
-MOTIONAL RESISTANCE, OHMS
--20 -10 10 20 30 40
-Fig. 14. — Diagram of Motional-Impedance and Maximum
-Cyclic Velocity for Receiver B

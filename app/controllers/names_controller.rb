@@ -1,7 +1,7 @@
 class NamesController < ApplicationController
   def index
     @page_title = I18n.t(:tree_of_life_title)
-    @entries = Hierarchy.find_all_by_browsable(1)
+    @entries = Hierarchy.find_all_by_browsable(1).sort_by &:label    
   end
 
   def show
@@ -32,8 +32,9 @@ class NamesController < ApplicationController
     end
     
     unless @name.blank?
-      rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-      search = rsolr.select :params => { :q => "name:#{@name}"}
+      @name.gsub('"', '\"')      
+      rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA      
+      search = rsolr.select :params => { :q => "name:\"#{@name}\""}
       @books_count = search['response']['numFound']
     else
       @books_count = 0

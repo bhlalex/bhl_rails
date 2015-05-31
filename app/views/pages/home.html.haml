@@ -2,31 +2,48 @@
 = javascript_include_tag 'jquery/jquery.tooltipster.min'
 = stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
 = javascript_include_tag 'jquery/rating/jRating.jquery.js'
-
-.row.clearfix.home
+%script{:type => "text/javascript", :src  => "http://code.jquery.com/ui/1.10.4/jquery-ui.js"}
+:javascript
+  $(document).ready(function($) {
+    $("#top_rated").click(function() {
+      $.ajax({
+        url: "pages/top_rated_books",
+        type: "GET",        
+        success: function (data) { 
+          // append data to your page
+          //$("toprated").html("<%= render :partial => 'pages/top_rated_books' %>");
+          $("#toprated").html(data);          
+        }
+      });
+    });
+  });
+.row.home
   .col-md-3
     = render :partial => "pages/info"
-  .col-md-9.column
+  .col-md-9
     %div
       = render :partial => "pages/top_collections"
-  .clearfix
-  %hr
-  .row.clearfix
-    .col-md-4.column.pull-right
-      = render :partial => "pages/activity_log"
-    %div.col-md-8.tabs
-      %ul.nav.nav-tabs
-        %li.active
-          %a{:href => "#mostviewd", "data-toggle" => "tab", :style => "padding: 0px 15px 10px 15px;"}
-            %h4
-              = I18n.t(:most_viewed)
-        %li
-          %a{:href => "#toprated", "data-toggle" => "tab", :style => "padding: 0px 15px 10px 15px;"}
-            %h4
-              = I18n.t(:top_rated)
-      .tab-content
-        .tab-pane.active#mostviewd
-          = render :partial => "pages/most_viewed_books"
-        .tab-pane#toprated
-          = render :partial => "pages/top_rated_books"
+
+.row
+  .col-md-12
+    %hr
+  
+.row.clearfix
+  .col-md-4.column.pull-right
+    = render :partial => "pages/activity_log"
+  %div.col-md-8.tabs
+    %ul.nav.nav-tabs
+      %li.active
+        %a{:href => "#mostviewd", "data-toggle" => "tab", :style => "padding: 0px 15px 10px 15px;"}
+          %h4
+            = I18n.t(:most_viewed)
+      %li
+        %a{:href => "#toprated", "data-toggle" => "tab", :style => "padding: 0px 15px 10px 15px;", :id => "top_rated"}
+          %h4
+            = I18n.t(:top_rated)
+    .tab-content
+      .tab-pane.active#mostviewd
+        = render :partial => "pages/most_viewed_books"
+      .tab-pane#toprated
+        /= render :partial => "pages/top_rated_books"
 

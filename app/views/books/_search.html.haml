@@ -46,7 +46,7 @@
     %p
     .input-group.margin-bottom
       %input.form-control{:id=> "searchfield", :type => "text", :onkeypress => "if(event.keyCode == 13){searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value);return false;}"}
-      %span.input-group-btn
-        %button.btn.btn-default{:onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;"}
-          = I18n.t(:search_go)          
+    %span.input-group-btn
+    %button.btn.btn-default{:onclick => "searchfnc('#{jsquery}', document.getElementById('searchby'), document.getElementById('searchfield').value); return false;"}
+      = I18n.t(:search_go)          
   %hr

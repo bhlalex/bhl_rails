@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   layout 'users'
+  require 'will_paginate/array'
 
   include SolrHelper
   include BHL::Login
@@ -23,11 +24,12 @@ class UsersController < ApplicationController
     if @user.valid? && verify_recaptcha
       @user.save
       url = "#{request.host}:#{request.port}/users/activate/#{@user.guid}/#{@user.verification_code}"
-      Notifier.user_verification(@user, url)
-      log_in(@user)
+      Notifier.user_verification(@user, url).deliver
+      #log_in(@user)
       flash.now[:notice] = I18n.t(:registration_welcome_message, :real_name => @user.real_name)
-      flash.keep
-      redirect_to :controller => :users, :action => :show, :id => @user.id
+      flash.keep         
+       # redirect_to :controller => :users, :action => :show, :id => @user.id      
+      redirect_to root_path      
     else
       @verify_captcha = true
       @page_title = I18n.t(:sign_up)
@@ -46,7 +48,7 @@ class UsersController < ApplicationController
   # GET /users/activate/:guid/:activation_code
   def activate
     @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
-    if @user.nil?
+    if @user.nil?      
       flash[:error] = I18n.t(:activation_failed)
       flash.keep
       return redirect_to root_path
@@ -59,7 +61,7 @@ class UsersController < ApplicationController
       @user.activate
       flash.now[:notice] = I18n.t(:account_activated, :real_name => @user.real_name)
       flash.keep
-      Notifier.user_activated(@user)
+      Notifier.user_activated(@user).deliver
       if is_loggged_in?
         log_out
         log_in(@user) # to make sure everything is loaded properly
@@ -88,10 +90,8 @@ class UsersController < ApplicationController
       if authenticate_user
         @total_number = UserBookHistory.count(:conditions => "user_id = #{@user.id}")
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
         
-        @history = UserBookHistory.where(:user_id => @user).limit(TAB_PAGE_SIZE).offset(offset)
+        @history = UserBookHistory.where(:user_id => @user).paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
         
 
         if @history.length > 0
@@ -108,11 +108,12 @@ class UsersController < ApplicationController
       if authenticate_user
         # load user annotations
         @page = params[:page] ? params[:page].to_i : 1
-        offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
+        # offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
         @total_number = Annotation.count(:conditions => "user_id = #{@user.id}")
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
+        # @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
         
-        @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
+        # @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
+        @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).paginate(:page => @page, :per_page => TAB_GALLERY_PAGE_SIZE)
         @url_params = params.clone
       end
       # end
@@ -121,9 +122,7 @@ class UsersController < ApplicationController
         # load user saved queries
         @total_number = @user.queries.count()
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
-        @queries = @user.queries.order('created_at DESC').limit(TAB_PAGE_SIZE).offset(offset)
+        @queries = @user.queries.paginate(:page => @page, :per_page => TAB_PAGE_SIZE).order('created_at DESC')
         @url_params = params.clone
       end
       # end
@@ -152,7 +151,6 @@ class UsersController < ApplicationController
         @page = params[:page] ? params[:page].to_i : 1
         limit = TAB_PAGE_SIZE
         offset = (@page > 1) ? (@page - 1) * limit : 0
-        @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
         # sql_stmt : to select current user activities including creating new collection,
         # rating book or collection
         # and also commented on book or collection ordered by creation time
@@ -189,21 +187,20 @@ class UsersController < ApplicationController
                     ) result
                     ORDER BY time DESC LIMIT #{offset}, #{limit};"
       # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
-      @log_records = get_log_activity(sql_stmt)
+      result = get_log_activity(sql_stmt)
+      @log_records= WillPaginate::Collection.create(@page, TAB_PAGE_SIZE, @total_number[0][:count].to_i) do |pager|
+        pager.replace result
+      end
       @url_params = params.clone
-    # end
 
     elsif @tab == "collections"
       @page = params[:page] ? params[:page].to_i : 1
-      offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
       if current_user
         @total_number = Collection.count(:conditions => "user_id = #{@user.id}")
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        @collections = Collection.where("user_id = #{@id}").limit(TAB_PAGE_SIZE).offset(offset)
+        @collections = Collection.where("user_id = #{@id}").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
       else
         @total_number = Collection.count(:conditions => "user_id = #{@user.id} AND is_public = true")
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        @collections = Collection.where("user_id = #{@id} and is_public = true").limit(TAB_PAGE_SIZE).offset(offset)
+        @collections = Collection.where("user_id = #{@id} and is_public = true").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
       end
       @url_params = params.clone
     end
@@ -212,7 +209,7 @@ class UsersController < ApplicationController
   # POST /users/recover_password
   def recover_password
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    if verify_recaptcha
+    #if verify_recaptcha
       @email = params[:user][:email]
       return redirect_to users_forgot_password_path unless @email
 
@@ -230,18 +227,22 @@ class UsersController < ApplicationController
         else
           # I am changing activation code, then send an email with a link to reset password
           @user.change_activation_code
-          reset_password_url = "#{request.host}:#{request.port}/users/reset_passwpord/#{@user.guid}/#{@user.verification_code}"
-          Notifier.user_reset_password_verification(@user, reset_password_url)
-          flash.now[:notice] = I18n.t(:recover_password_success)
-          flash.keep
+          reset_password_url = "#{request.host}:#{request.port}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
+           begin
+             Notifier.user_reset_password_verification(@user, reset_password_url).deliver
+             flash.now[:notice] = I18n.t(:recover_password_success)
+             flash.keep
+           rescue Exception  => e
+             flash[:notice] = "email sending failed #{e.message}"
+           end
           redirect_to :controller => :users, :action => :login
         end
       end
-    else
-      flash.now[:error] = I18n.t(:form_validation_errors_for_attribute_assistive)
-      flash.keep
-      redirect_to users_forgot_password_path
-    end
+    #else
+      #flash.now[:error] = I18n.t(:form_validation_errors_for_attribute_assistive)
+      #flash.keep
+      #redirect_to users_forgot_password_path
+    #end
   end
 
   # GET /users/reset_password/:guid/:activation_code
@@ -299,11 +300,11 @@ class UsersController < ApplicationController
   # POST /users/validate
   def validate
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-     username = params[:user][:username]
-     password = params[:user][:password]
-      if ((session[:login_attempts].to_i >= LOGIN_ATTEMPTS) && !(verify_recaptcha))
-      flash.now[:error] = I18n.t(:captcha_error)
-      flash.keep
+    username = params[:user][:username]
+    password = params[:user][:password]
+    if (session[:login_attempts].to_i >= LOGIN_ATTEMPTS) && !(verify_recaptcha)
+    	flash.now[:error] = I18n.t(:captcha_error)
+    	flash.keep
       redirect_to :controller => :users, :action => :login
     else
       @user = User.authenticate(username, password)

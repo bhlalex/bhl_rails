@@ -46,18 +46,5 @@ class CommentsController < ApplicationController
     comment.save
     data = comment.number_of_marks
     render :json => data
-  end
-  
-
-   
-  
-#  def reply
-#    # comment_id, text
-#    if is_loggged_in?
-#      comment = Comment.create!(:comment_id => params[:comment_id], :text => params[:text])
-#      comment.save
-#    end
-#    redirect_to :back
-#  end
-  
+  end  
 end

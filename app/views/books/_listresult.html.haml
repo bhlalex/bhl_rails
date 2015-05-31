@@ -1,24 +1,23 @@
-%div{:id => "book #{@number}", :class => "col-md-8 column browse", :name => "book #{@vol.job_id}"}
-  .row.clearfix  
-    - @coverno = @number
-    - @covertitle = @title.html_safe
-    - if(@doc['author'] != nil)
-      - @coverauthor = @doc['author'][0]
-    - else
-      - @coverauthor = ""    
-    = render :partial => "books/covers"   
-          
-    .col-md-6.column
-      %h4
-        = link_to @title.html_safe , 
-        {:controller => :books, :action => :show, :id => @vol[:job_id]}
-      %p.small
-        - if(@doc['author'] != nil)
-          = render :partial => "books/bookauthors"
-        - if(@doc['subject'] != nil)
-          = render :partial => "books/booksubjects"
-        - if(@doc['name'] != nil)
-          - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
-          = render :partial => "books/booknames"
-    .col-xs-4.column.controls
-      =render :partial => "books/sidelinks"
+%div{:id => "book #{@number}", :class => "col-md-12 browse", :name => "book #{@vol.job_id}"}
+  - @coverno = @number
+  - @covertitle = @title.html_safe  
+  - if(@doc['author'] != nil)
+    - @coverauthor = @doc['author'][0]
+  - else
+    - @coverauthor = ""    
+  = render :partial => "books/covers"   
+        
+  .col-md-6
+    %h4
+      = link_to @title.html_safe , 
+      {:controller => :books, :action => :show, :id => @vol[:job_id]}
+    %p.small
+      - if(@doc['author'] != nil)
+        = render :partial => "books/bookauthors"
+      - if(@doc['subject'] != nil)
+        = render :partial => "books/booksubjects"
+      - if(@doc['name'] != nil)
+        - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
+        = render :partial => "books/booknames"
+  .col-xs-4.controls
+    =render :partial => "books/sidelinks"
