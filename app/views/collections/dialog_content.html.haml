@@ -6,12 +6,12 @@
     document.getElementById("createnewcoll_#{@dialog_number}").style.display = 'none';
    });
 .form.dialog-content
-  %ul
+  %div
     #addcoll{style: "display:block;", :id => "#{@dialog_number}"}
       - if @collections.count > 0
-        %li
+        %div
           = I18n.t(:choose_collection)
-        %li
+        %div
         %select{:id => "idselect_#{@dialog_number}"}
           - counter = 0
           - @collections.each do |collection|
@@ -22,7 +22,7 @@
             - counter = counter + 1
         %br
         %br
-    %li
+    %div.checkbox-inline
       %input{:type =>"checkbox", :id => "new_#{@dialog_number}", :checked => false, :value => 'off', 
       :onclick => "document.getElementById('error_#{@dialog_number}').style.display = 'none';document.getElementById('description_#{@dialog_number}').value = '';document.getElementById('collectiontitle_#{@dialog_number}').value = '';if(this.checked == true){this.value = 'on';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'block'; document.getElementById('addcoll_#{@dialog_number}').style.display = 'none';}else{this.value = 'off';document.getElementById('createnewcoll_#{@dialog_number}').style.display = 'none';document.getElementById('addcoll_#{@dialog_number}').style.display = 'block';}"} #{I18n.t(:create_new_collection)}
     #error{:id => "#{@dialog_number}", style: "display:none; color:red;"}
@@ -37,6 +37,7 @@
       %br
       %textarea#description{:id => "#{@dialog_number}"}
       %br
-      %input#public{:id => "#{@dialog_number}", :checked => false, :type =>"checkbox", :value => 'off',
-      :onclick => "if(this.checked == true){this.value = 'on';}else{this.value = 'off';}"} #{I18n.t(:public)}
-      %p.help-block #{I18n.t(:public_collection_description)}
+      %div.checkbox-inline
+        %input#public{:id => "#{@dialog_number}", :checked => false, :type =>"checkbox", :value => 'off',
+        :onclick => "if(this.checked == true){this.value = 'on';}else{this.value = 'off';}"} #{I18n.t(:public)}
+        %p.help-block #{I18n.t(:public_collection_description)}

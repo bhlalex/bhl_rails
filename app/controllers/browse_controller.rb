@@ -5,7 +5,7 @@ class BrowseController < ApplicationController
   def show
     @search = params[:search] if params[:search]
     @alphas = ('A' .. 'Z').to_a
-    if params[:char].nil? || params[:char] == 'all'
+    if (params[:char].nil? || params[:char] == 'all')
       @char = ''
     else
       @char = params[:char]
@@ -22,7 +22,7 @@ class BrowseController < ApplicationController
     if(!@search.nil?)
       @browse_list = solr_autocomplete(@type[0..-2], @search, 100000)
     else  
-      @browse_list = list_facet_by_prefix(@type[0..-2], @char.upcase)
+      @browse_list = list_facet_by_prefix(@type[0..-2], @char.upcase)                 
     end
   end
   

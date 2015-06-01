@@ -2,20 +2,7 @@
   margin: 0
   padding: 0px
 
-.bk-list
-  list-style: none
-  position: relative
-  li
-    position: relative
-    width: 110px
-    float: left
-    z-index: 1
-    margin: 0px 50px 40px 0
-    -webkit-perspective: 1800px
-    -moz-perspective: 1800px
-    perspective: 1800px
-    &:last-child
-      margin-right: 0
+
 
 .bk-info
   position: relative
@@ -72,6 +59,7 @@
     > div
       display: block
       position: absolute
+      direction: ltr
   .bk-front
     > div
       display: block
@@ -375,7 +363,7 @@
 .no-csstransforms3d
   .bk-list li .bk-book
     > div, .bk-cover-back
-      display: none
+      display: none      
     > div.bk-front
       display: block
   .bk-info button
@@ -383,3 +371,11 @@
 
 .no-js .bk-info button
   display: none
+.checkbox-inline
+  > input
+    width: auto
+.dir
+  direction: ltr
+
+.highlight
+  background-color: rgba(255, 247, 155, 0.72)

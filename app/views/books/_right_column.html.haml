@@ -1,41 +1,61 @@
-.spacing-left.panel.panel-styled
-  .panel-heading
-    %h3.panel-title
-      =I18n.t(:tagged_species_caps)
-  .panel-body
-    %ul
-      - facet_list(@response,'name_ss').first(TAGGED_SPECIES_COUNT).each do |name|
-        %li
-          =link_to "#{name[:name]} [#{name[:count]}]", books_path(:params => addFacetSearch(@url_params, 'name', name[:name]))
-  .panel-heading
-    %h3.panel-title
-      =I18n.t(:languages_caps)
-  .panel-body
-    %ul
-      - facet_list(@response, 'bok_language_s').first(TAGGED_LANGUAGES_COUNT).each do |language|
-        %li
-          =link_to "#{language[:name]} [#{language[:count]}]", books_path(:params => addFacetSearch(@url_params, 'language', language[:name]))
-  .panel-heading
-    %h3.panel-title
-      =I18n.t(:authors_caps)
-  .panel-body
-    %ul
-      - facet_list(@response, 'author_ss').first(TAGGED_AUTHORS_COUNT).each do |author|
-        %li
-          =link_to "#{author[:name]} [#{author[:count]}]", books_path(:params => addFacetSearch(@url_params, 'author', author[:name]))
-  .panel-heading
-    %h3.panel-title
-      =I18n.t(:regional_affiliation_caps)
-  .panel-body
-    %ul
-      - facet_list(@response, 'geo_location_ss').first(TAGGED_AFFILIATION_COUNT).each do |affiliation|
-        %li
-          =link_to "#{affiliation[:name]} [#{affiliation[:count]}]", books_path(:params => addFacetSearch(@url_params, 'geo_location', affiliation[:name]))
-  .panel-heading
-    %h3.panel-title
-      =I18n.t(:genre_caps)
-  .panel-body
-    %ul
-      - facet_list(@response, 'subject_ss').first(TAGGED_GENRE_COUNT).each do |genre|
-        %li
-          =link_to "#{genre[:name]} [#{genre[:count]}]",  books_path(:params => addFacetSearch(@url_params, 'subject', genre[:name]))
+.panel.panel-styled    
+  - if facet_list(@response, 'name_ss').count > 0
+    .panel-heading
+      %h3.panel-title
+        =I18n.t(:tagged_species_caps)
+    .panel-body
+      %ul.dir
+        - facet_list(@response,'name_ss').first(TAGGED_SPECIES_COUNT).each do |name|
+          %li
+            - if (params["_name"]) && (params["_name"].include? name[:name])
+              = "#{name[:name]} [#{name[:count]}]"
+            - else
+              =link_to "#{name[:name]} [#{name[:count]}]", books_path(:params => addFacetSearch(@url_params, 'name', name[:name]))
+  - if facet_list(@response, 'bok_language_s').count > 0  
+    .panel-heading
+      %h3.panel-title
+        =I18n.t(:languages_caps)
+    .panel-body
+      %ul.dir
+        - facet_list(@response, 'bok_language_s').first(TAGGED_LANGUAGES_COUNT).each do |language|
+          %li
+            - if (params["_language"]) && (params["_language"].include? language[:name])
+              = "#{language[:name]} [#{language[:count]}]"
+            - else
+              =link_to "#{language[:name]} [#{language[:count]}]", books_path(:params => addFacetSearch(@url_params, 'language', language[:name]))
+  - if facet_list(@response, 'author_ss').count > 0
+    .panel-heading
+      %h3.panel-title
+        =I18n.t(:authors_caps)
+    .panel-body
+      %ul.dir
+        - facet_list(@response, 'author_ss').first(TAGGED_AUTHORS_COUNT).each do |author|
+          %li
+            - if (params["_author"]) && (params["_author"].include? author[:name])
+              = "#{author[:name]} [#{author[:count]}]"
+            - else
+              =link_to "#{author[:name]} [#{author[:count]}]", books_path(:params => addFacetSearch(@url_params, 'author', author[:name]))
+  - if facet_list(@response, 'geo_location_ss').count > 0
+    .panel-heading
+      %h3.panel-title
+        =I18n.t(:regional_affiliation_caps)
+    .panel-body
+      %ul.dir
+        - facet_list(@response, 'geo_location_ss').first(TAGGED_AFFILIATION_COUNT).each do |affiliation|
+          %li
+            - if (params["_geo_location"]) && (params["_geo_location"].include? affiliation[:name])
+              = "#{affiliation[:name]} [#{affiliation[:count]}]"
+            - else
+              =link_to "#{affiliation[:name]} [#{affiliation[:count]}]", books_path(:params => addFacetSearch(@url_params, 'geo_location', affiliation[:name]))
+  - if facet_list(@response, 'subject_ss').count > 0
+    .panel-heading
+      %h3.panel-title
+        =I18n.t(:genre_caps)
+    .panel-body
+      %ul.dir
+        - facet_list(@response, 'subject_ss').first(TAGGED_GENRE_COUNT).each do |genre|
+          %li
+            - if (params["_subject"]) && (params["_subject"].include? genre[:name])
+              = "#{genre[:name]} [#{genre[:count]}]"
+            - else
+              =link_to "#{genre[:name]} [#{genre[:count]}]",  books_path(:params => addFacetSearch(@url_params, 'subject', genre[:name]))

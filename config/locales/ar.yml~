@@ -1,0 +1,485 @@
+ar:
+  books_count: 
+    zero:  "بدون كتب"
+    one:   "كتاب واحد"
+    other: "الكتب % من{عدد}"
+  written_by_authors: 
+    zero:  "بدون مؤلف"
+    one:   "مؤلف واحد"
+    other: "% من المؤلفين{عدد}"
+  written_in_languages: 
+    zero:  "بدون لغات"
+    one:   "لغة واحدة"
+    other: "% من اللغات{عدد}"
+  containing_names: 
+    zero:  "لا يحتوي على أسماء"
+    one:   "يحتوي على اسم واحد"
+    other: "% من الأسماء العلمية{عدد}يحتوي على" 
+  around_the_world: "حول العالم"
+  tagged_species_caps: "الأنواع المسماة"
+  languages_caps: "اللغات"
+  authors_caps: "المؤلفون"
+  regional_affiliation_caps: "التبعية الإقليمية"
+  genre_caps: "النوع"
+  and_count_more: "% أكثر{عدد}و"
+  delete_comment_confirm: هل ترغب فعلاً في حذف هذا التعليق؟
+  mark: أبلِغ عن عدم الملاءمة
+  delete: حذف
+  comment_created: نشكرك على تعليقك
+  comment_created_error: خطأ حدث أثناء إنشاء تعليق جديد
+  hidden_comment_msg: تم إخفاء التعليق لأنه قد يحتوي على محتوى غير ملائم
+  search_results_colon: "نتائج البحث:"
+  selection_all_option: "الكل"
+  no_books_found: " لا يوجد كتب.."
+  no_collections_found: 'لا توجد مجموعات...'
+  show_collection_detail: تفاصيل المجموعة
+  save_query: حفظ الاستعلام
+  query_saved: تم حفظ الاستعلام
+  query_destroyed: تم إتلاف الاستعلام
+  author: المؤلف
+  subject: النوع
+  collection_destroyed: تم إتلاف المجموعة
+  book: كتاب
+  collection_updated: تم تحديث المجموعة
+  delete_saved_query_confirm: هل ترغب فعلاً في حذف هذا الاستعلام؟
+  public: عام
+  private: خاص
+  collection_not_updated: حدث خطأ أثناء تحديث المجموعة
+  contact_us_message: نشكرك على رسالتك
+  contact_us_title: اتصل بنا
+  invalid_email_address: بريد إلكتروني غير صحيح
+  errors:
+    messages:
+     extension_white_list_error: 'الأنواع المسموح بها: jpeg jpg gif bmp png'
+  notifier:
+    user_verification:
+      subject: "مصر BHL برجاء التحقق من طلبك لـ "
+      message: "
+ مصر. BHLشكرًا للتسجيل مع 
+يؤكد الرابط التالي رغبتك في استكمال التسجيل وتفعيل حسابك: 
+:<br><br>%{@verification_url}"
+    user_activated:
+      subject: " الخاص بكBHLتم تفعيل حساب "
+      message: " مصر وشكرًا للتسجيل! BHL مرحبًا بك في "
+    user_recover_account:
+      subject: "الخاص بك BHLاستعِد حساب "
+      message: "تلقى نظام BHL طلبًا لاستعادة حسابك. إذا لم تكن قد قدمت هذا الطلب، يرجى تجاهل هذا البريد الإلكتروني.
+<br><br>
+Your username is: <b>%{@username}</b><br><br>
+يسمح الرابط التالي بالدخول مرة واحدة لتغير اسم المرور الخاص بك:
+password:<<br><br>%{reset_password_url}"
+
+
+  date:
+    formats:
+      default: "%d/%m/%Y - %I:%M %p"
+      short: "%b %d"
+      long: "%B %d, %Y"
+      short_no_time: "%m/%d/%Y"
+
+  activerecord:
+    errors:
+      format: "%{خاصية} %{رسالة}"
+      template:
+        header:
+          one: "%{عدد} وجدت أخطاء خاصة بالتحقق من الصحة"
+          other: "%{عدد} وجدت أخطاء خاصة بالتحقق من الصحة"
+        body: "أخفقت الحقول التالية في اختبار التحقق من الصحة:"
+      messages:
+        taken: "تم تعديل عنوان صفحة المجموعة: تم تعديل المجموعة"
+        record_invalid: "فشل التحقق من الصحة:%{أخطاء}"
+        invalid: "غير صحيح"
+        confirmation: "لا يطابق التأكيد"
+        accepted: "واجب القبول"
+        empty: "لا يمكن أن يكون خاليًا"
+        blank: "لا يمكن أن يكون فارغًا"
+        too_long:
+          one: "(حرف %{عدد}بحد أقصى)طويل جدًّا "
+          other: "(حرف %{عدد} بحد أقصى)طويل جدًّا "
+        too_short:
+          one: "(حرف %{عدد}بحد أدنى)قصير جدًّا "
+          other: "(حرف %{عدد}بحد أدنى)قصير جدًّا "
+        wrong_length: "(حرف %{عدد}(يجب أن يكون يوجد خطأ في الطول)"
+        not_a_number: "ليس رقمًا"
+        not_an_integer: "يجب أن يكون عددًا صحيحًا"
+        greater_than:
+          one: "%{عدد}يجب أن يكون أكبر من "
+          other: "%{عدد}يجب أن يكون أكبر من "
+        greater_than_or_equal_to: "%{عدد}يجب أن يكون أكبر من أو يساوي "
+        equal_to: "%{عدد}يجب أن يساوي "
+        less_than:
+          one: "%{عدد}يجب أن يكون أقل من "
+          other: "%{عدد}يجب أن يكون أقل من "
+        less_than_or_equal_to: "%{عدد}يجب أن يكون أقل من أو يساوي "
+        odd: "يجب أن يكون عددًا فرديًّا"
+        even: "يجب أن يكون عددًا زوجيًّا"
+        inaccessible: "غير متاح"
+        wrong_type: "يوجد خطأ في النوع"
+      full_messages:
+        format: "%{خاصية} %{رسالة}"
+  choose_collection: "اختر مجموعة"
+  title: "عنوان"
+  description: "الوصف"
+  create_new_collection: "إنشاء مجموعة جديدة"
+  public: "عام"
+  missing_title_error_msg: "(بحد أقصى 4 حروف)العنوان قصير للغاية"
+  save: "حفظ"
+  cancel: "إلغاء"
+  add_book_dialog_title: "أضف كتابًا إلى مجموعتي"
+  book_removed: "تمت إزالة الكتاب"
+  
+  book_added_to_collection: "تمت إضافة الكتاب بنجاح إلى مجموعتك"
+  successfully_added: "تمت الإضافة بنجاح"
+  ok: "قبول"
+  comment_deleted: "حذف التعليق"
+  reply_deleted: "حذف الرد"
+  can_not_delete_comment: "لا يمكنك حذف التعليق الذي له رد"
+  rates: معدلات
+  viewed: منظور
+  sort_by: كيفية الترتيب
+  not_member: لست عضوًا؟
+  
+  #------------------------------------------------#NEW_LAYOUT-----------------------------------------------------------------
+#Header
+  header_signup:  تسجيل دخول
+  header_signout: تسجيل خروج
+  header_login: دخول
+  header_profile: بروفيل مستخدِم
+  bhl_homepage: مصر BHL
+  home_link: الصفحة الرئيسية
+  about_us_link: من نحن
+  contact_us_link: اتصل بنا
+  browse_all_link: تصفح الكل
+  authors_link: المؤلفون 
+  subjects_link: الموضوعات
+  names_link: الأسماء
+  collections_link: المجموعات
+  
+  bhl_page_title: "مكتبة تراث التنوع الحيوي - مصر"
+  bhl_short_title: "مصر BHL"
+  ba_home_page_link: "http://www.bibalex.org/Home/Default_EN.aspx"
+  ba_name: "مكتبة الإسكندرية"
+  bhl_site_name: "مكتبة تراث التنوع الحيوي- مصر"
+  search_go: ابدأ
+
+  #About US Page
+  about_us_page_1: يكرس %{ba_link} الجديد لاستعادة روح الانفتاح والبحث التي ميزت مكتبةالإسكندرية القديمة وبالتالي، كان حريصًا على المشاركة في مشروع مكتبة تراث التنوع الحيوي  العالمي (BHL)، وذلك لأن المشروع يعتبر إثراءً أساسيًّا لمجموعات مكتبة الإسكندرية، وبالتالي فهو يعد أفضل قناة للمشاركة في مجموعات المكتبة الخاصة بالتنوع الحيوي باللغة العربية وغير العربية وتنميتها. ويأتي هذا التعاون المتبادل متوافقًا مع هدف مكتبة الإسكندرية في نشر المعرفة للجميع ويدعم إدراج الدول الناطقة للغة العربية والمدخلات الخاصة بها
+  about_us_page_2: بناءً على ذلك، اتجهت مكتبة الإسكندرية لمطابقة وتكرار مكتبة تراث التنوع الحيوي BHL منذ أوائل عام 2011. وبرزت مشاركتها في هذا المشروع لكونها واحدة من المساهمين الرئيسيين في عملية النشر على المستوى الدولي والمحلي والتطابق في مشروع موسوعة الحياة، ووضع المحتوي العربي له. وفي هذا السياق، تتضمن مساهمة مكتبة الإسكندرية في مشروع مكتبة تراث التنوع الحيوي بصفة عامة ما يلي وضع البنية التحتية لعملية المطابقة والتكرار لمجموعة الكتب الأصلية الخاصة بمشروع BHL، وتطوير نظام محلي لمشروع BHL، وإضافة مواد خاصة بالتنوع الحيوي من مجموعة مكتبة الإسكندرية بحيث تحتوي على مواد من العالم العربي، باللغة العربية، بالإضافة إلى اللغات الأخرى.
+
+  collections_link: مجموعات  
+  write_review: اكتب مراجعة
+  reviews: مراجعات
+  replies: ردود
+  reply: رد
+  older: أقدم
+  newer: أحدث
+  post: ترحيل
+  abuse: بلِّغ
+  create_comment: إنشاء تعليق
+  show: Show
+  
+  #Header#search fields
+  option_all: كل التصنيفات
+  option_title: عنوان
+  option_language: لغة
+  option_publish_time: تم النشر في
+  option_publisher: الناشر
+  option_regional_affiliation: التبعية الإقليمية
+  option_author: المؤلف
+  option_tagged_species: الأنواع المسماة
+  option_genre: النوع
+  option_content: المحتوى 
+  #Footer
+  footer_home: الصفحة الرئيسية
+  footer_about: نبذة 
+  footer_contact: اتصل بنا 
+  copyright_statement: مكتبة الإسكندرية حقوق الطبع©
+  
+  #Browse books
+  no_books_found: لا يوجد كتب...
+  name_found_in_books:
+    zero:  ""
+    one:   "موجود في كتاب واحد"
+    other: "كتب %{عدد}في  موجود"
+  sidelinks_read: اقرأ 
+  sidelinks_detail: تفاصيل
+  sidelinks_add_collection: أضف إلى المجموعة
+  sidelinks_views: 
+    zero: مشاهدات
+    one: "مشاهدة واحدة"
+    other: " مشاهدات%{عدد}"
+  listresult_author_by: "حسب: " 
+  listresult_subject: "النوع:" 
+  listresult_names: "الأسماء:" 
+  terminator: "."
+  separator: "/"
+#  and_more: "أكثر %{عدد}"و
+  clear: واضح 
+  
+  #Pages (About US, Contact Us)
+  about_us_page_title: من نحن
+  contact_us_page_title: اتصل بنا
+  
+  #Book Details Page
+  book_details_mods: MODs
+  book_details_bibtex: BibTeX
+  book_details_endnote: EndNote
+  book_details_tools: الأدوات
+  book_details_read: اقرأ
+  book_details_details: تفاصيل
+  book_details_average_rate: المعدل المتوسط
+  book_details_user_rate: المعدل الخاص بك
+  book_details_star: 
+    zero: ""
+    one: ' نجمة%{عدد}'
+    other: ' نجمة%{عدد}'
+  books_details_add_collection: أضف إلى المجموعة
+  book_details_collection_count:
+    one:   "مجموعات"
+    other: "مجموعات"
+  book_details_found_collections: موجود في مجموعات
+  book_details_user_viewed: قام المستخدم أيضًا بمشاهدة
+  book_details_related: كتب ذات صلة 
+  book_title_title: 'عنوان'
+  book_author_title: ' مؤلف/مُنْشِئ'
+  book_publish_place_title: 'مكان النشر'
+  book_subject_title: 'النوع'
+  book_date_title: 'التاريخ'
+  book_publish_title: 'معلومات النشر'
+  book_language_title: 'اللغة'
+  book_name_title: 'الأنواع المسماة'
+  book_location_title: 'التبعية الإقليمية'
+  
+  # Book read page
+  read_page_add_collection: أضف إلى المجموعة
+  
+  # sign up page
+  upload_photo: تحميل الصور
+  upload_photo_max_size_error:  لا يمكن تحميل ملف أكبر من 
+  mb: MB # ميجابايت
+  max_photo_size: أقصى حجم للصور
+  profile_photo: صورة البروفيل
+  upload_photo_ext_error: (jpg, jpeg, png, gif, bmp)امتدادات الملفات المسموح بها 
+  old_password: اسم مرور قديم
+  new_password: اسم مرور جديد
+  recaptcha: recaptcha
+  password_confirmation: تأكيد اسم المرور
+  email_confirmation: تأكيد بريد إلكتروني
+  new_password_confirmation:  تأكيد بريد إلكتروني جديد
+  change_password: تغيير اسم المرور
+  invalid_old_password: اسم مرور قديم غير صحيح
+  
+  #Browse Page
+  browse_subject_page_header: موضوعات
+  browse_author_page_header: مؤلفون
+  browse_all: الكل
+
+  #Geographics Page
+  geographics_link: جغرافيات
+  blue_pin: 'دبوس أزرق'
+  green_pin: 'دبوس أخضر'
+  yellow_pin: 'دبوس أصفر'
+  orange_pin: 'دبوس برتقالي'
+  red_pin: 'دبوس أحمر'
+  geo_titles: 'عناوين'
+  geo_titles_more: 'أو عناوين أكثر'
+  geo_show_all_titles: 'اعرض الكل'
+  
+  #Collections Index
+  collection_title: مجموعات
+  no_collections_found: لا توجد مجموعات
+  collections_found:
+    zero:  ""
+    one:   "موجود في مجموعة واحدة"
+    other: "من المجموعات %{عدد}في  موجود"
+  collections_found_all: "مجموعة موجودة %{عدد}"
+  collection_by: "حسب:"
+  collection_creation_date: "تم الإنشاء في:"
+  collections_books_number_tip: عدد الكتب في الداخل
+  
+  #Collection Page
+  collection_your_rate: معدلك
+  col_book_added_on: ":تمت الإضافة في"
+  col_book_order: "ترتيب الكتب"
+  col_book_trash: سلة المهملات
+  col_book_move_up: تحرك إلى الأعلى
+  col_book_move_down: تحرك إلى الأسفل
+  edit_collection: تعديل
+  write_review: اكتب مراجعة
+  please_login: من فضلك سجل الدخول
+  volume_collection_deleted: تمت إزالة الكتب بنجاح من مجموعتك
+  remove_book_from_collection_confirm: “"هل تريد فعلاً حذف هذا الكتاب؟
+  delete_collection_photo_confirm: هل تريد فعلاً حذف صورة المجموعة؟ 
+  #Edit collection page
+  public_collection:  عام 
+  edit_collection_page_title: تعديل المجموعة
+  upload_collection_photo: تحميل الصور 
+  public_collection_description: مجموعة عامة متاحة للآخرين
+
+ 
+
+
+ #User Login Forms
+  username: "اسم المستخدم"
+  sign_up: "تسجيل"
+  sign_in: تسجيل دخول
+  submit_buton: "تقديم"
+  clear_button: "مسح"
+  password: "كلمة المرور"
+  email: "عنوان البريد الإلكتروني"
+  real_name: "الاسم الفعلي"
+  username: "اسم المستخدم"
+  form_validation_errors_for_attribute_assistive: "يوجد خطأ في التحقق من الصحة في هذه العنصر"
+  registration_welcome_message: "مرحبًا %{real_name}. لم يتم تفعيل الحساب الخاص بك بعد. سوف يتم إرسال بريد إلكتروني يتضمن التعليمات الخاصة بالتفعيل."
+  username_taken:  تم استخدامه من قبل"%{الاسم}"
+  email_taken: "  تم استخدامه من قبل {البريد الإلكتروني} "
+  member_since: "عضو منذ"
+  last_login: "تسجيل الدخول الأخير"
+  forgot_password_link: "هل نسيت كلمة المرور؟"
+  forgot_password_title: "هل نسيت كلمة المرور؟"
+  activation_failed: "لقد فشلت عملية التفعيل"
+  account_already_active: تم تفعيل هذا الحساب من قبل
+  account_activated: "تم تفعيل (%{real_name}). شكرًا لانضمامك لـ BHL مصر."
+  sign_in_successful_notice: "تسجيل دخول ناجح"
+  sign_in_unsuccessful_error: "فشل تسجيل الدخول. اسم مستخدم غير سليم أو كلمة مرور غير سليمة" 
+  user_not_found_by_email_address: لا يوجد حساب BHL لهذا البريد الإلكتروني. لا يمكن العثور على(%{email})  لكتروني لاسترجاع الحساب، به المزيد من التعليمات
+  reset_password: "إعادة تعيين كلمة المرور"
+  reset_password_failed: "تعيين كلمة المرور فشلت عملية إعادة"
+  reset_password_success: "تمت إعادة تعيين كلمة المرور بنجاح"
+  modify_profile: "تعديل البروفيل"
+  access_denied_error: "غير مسموح بالدخول"
+  changes_saved: "تم تخزين التغيرات"
+  delete_photo: حذف صورة
+  old_password_required: يرجى إعادة إدخال كلمة المرور القديمة
+  
+  #User Forgot Password Page
+  forgot_password_title: "هل نسيت كلمة المرور؟"
+  forget_password_message: "أدخل عنوان البريد الإلكتروني المرتبط بحساب BHL الخاص بك"
+  
+#User Profile Page
+  user_profile_tab: بروفيل
+  user_annotations_tab: الملاحظات
+  user_queries_tab: الاستعلامات التي تم حفظها
+  user_history_tab: الكتب التي تم التعامل معها مؤخرًا
+  user_activity_tab: الأنشطة
+  user_collections_tab: المجموعات
+  profile_no_annotations_found: لا توجد ملاحظات ..
+  profile_no_queries_found: لا توجد استعلامات ..
+  profile_no_history_found: لا يوجد تاريخ سابق ..
+  profile_no_activities_found: لا توجد أنشطة ..
+  profile_no_collections_found: لا توجد مجموعات ..
+  
+  #User Profile Page (Tab Profile)
+  user_profile_title: بروفيل
+  #User Profile Page (Activity Tab)
+  user_activity_title: سجل الأنشطة
+  log_activity_create: تم إنشاء مجموعة جديدة
+  log_activity_with: "مع"
+  log_activity_rate: مقدر
+  log_activity_comment: تم التعليق عليه
+  log_activity_at: عند
+  
+  #User Profile Page (Recently Viewed Tab)
+  user_history_title: Recently Viewed Books
+  user_history_viewed_on: "في:"
+  remove_book_from_history_confirm: "هل تريد فعلاً إزالة هذا الكتاب؟"  
+
+  #User Profile Page (Collections Tab)
+  user_collection_title: Collections
+  user_collection_added_on: "تمت الإضافة في"
+  delete_collection_confirm: "هل تريد فعلاً حذف هذه المجموعة؟"
+  delete_photo_flash: تم حذف الصورة 
+  
+  #User Profile Page (Queries Tab)
+  user_queries_title: الاستعلامات التي تم حفظها
+  user_queries_books_found: "الكتب الموجودة: "
+  books_index_search_filter: مرشِّح البحث
+  delete_photo_confirm: هل تريد فعلاً حذف صورة البروفيل؟
+  name: الاسم
+  language: اللغة
+  content: المحتوى
+  geo_location: الموقع الجغرافي
+  published_at: تم النشر في
+  publisher: الناشر
+
+  #User Profile Page (Annotation Tab)
+  user_annotation_title: الملاحظات
+  user_annotation_note: محتوى الملاحظة
+  user_annotation_highlight: العناوين الرئيسية
+  
+  #Home Page
+  book: الكتب
+  author: المؤلفون
+  species: الأنواع المسماة
+  top_collections: المجموعات الأهم
+  home_top_collections_by: حسب
+  most_viewed: الأكثر مشاهدة
+  top_rated: الأعلى تقديرًا
+  home_activity_log: سجل الأنشطة
+  no_activities: لا توجد أنشطة ..
+  tabs_more: "المزيد .."
+  
+  #Activities Index Page
+  activities_index_title: الأنشطة
+  activities_filter_by: "الترشيح حسب:"
+  activities_all: الكل
+  activities_rate: معدل
+  activities_comments: تعليقات
+  activities_collections: مجموعات
+  
+  # login page
+  captcha_error: "يوجد خطأ تحقق من الصحة في عنصر التأكد من تسجيل الدخول" 
+  empty_user_name_error: لا يمكن ترك اسم المستخدم خاليًا
+  empty_password_error: لا يمكن ترك كلمة المرور خالية
+  empty_verfication_error: يرجى ملء هذا الحقل
+
+  #comments
+  no_comments: لا توجد تعليقات ..
+  
+  #Names Index
+  books_found:
+    zero:  ""
+    one:   "موجود في كتاب واحد"
+    other: " كتاب %{عدد} موجود في"
+  books_found_all: " كتاب %{عدد} موجود في"
+  
+  tree_of_life_title: شجرة الحياة
+  species_details: تفاصيل الأنواع 
+  select_species_for_details: اختر الأنواع الموجودة إلى اليسار لمشاهدة التفاصيل 
+ 
+  #autocomplete
+  no_suggestion: "لا توجد مقترحات" 
+  
+  #ubio error msgs
+  ubio_enter_jobid: 'job_id يرجى تحديد الوظيفة الصحيحة '
+  ubio_enter_status: 'يرجى تحديد حالة النجاح باستخدام صفر أو 1'
+  ubio_wrong_jobid: 'عفوًا. هذه الوظيفة غير موجودة بقاعدة البيانات'
+  
+  #names tooltip
+  find_in_book: ابحث في الكتاب
+  view_in_eol: EOL.orgانظر في 
+  books_with_name: كتب تحمل اسم
+  
+  #eol link
+  eol_pages_link: "http://www.eol.org/pages/"
+ 
+  # file names
+  default_book: "default_book.png"
+  default_book_small: "book_thumb_small.png"
+  default_collection: "default_collection.png"
+  default_collection_small: "collection.png"
+  default_user: "default_user.png"
+  default_user_small: "default_user_small.png"
+  logo: "logo.png"
+  map_pin_blue: "map_pin_blue.png"
+  map_pin_green: "map_pin_green.png"
+  map_pin_orange: "map_pin_orange.png"
+  map_pin_red: "map_pin_red.png"
+  map_pin_yellow: "map_pin_yellow.png"
+  stars_grey: "stars_grey.png"
+  stars_white: "stars_white.png"
+  
+
+  #languages
+  english: English
+  arabic: عربى

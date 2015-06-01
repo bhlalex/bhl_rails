@@ -62,13 +62,13 @@ en:
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
-      message: "Thanks for registering with the BHL Egypt. The following link will verify that you wish to complete your registration and activate your account:<br><br>%{@verification_url}"
+      message: "Thanks for registering for BHL Egypt. The following link will verify that you wish to complete your registration and activate your account"
     user_activated:
       subject: "Your BHL account has been activated"
       message: "Welcome to the BHL Egypt and thank you for registering!"
     user_recover_account:
       subject: "Recover your BHL account"
-      message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.<br><br>Your username is: <b>%{@username}</b><br><br>The following link provides a one time log in to allow you to change your password:<br><br>%{reset_password_url}"
+      message: "The BHL received a request to recover your account. If you did not make this request, please ignore this email.The following link provides a one time log in to allow you to change your password"
   
   date:
     formats:
@@ -78,6 +78,16 @@ en:
       short_no_time: "%m/%d/%Y"
 
   activerecord:
+    attributes:
+      user:
+        email: "Email"
+        username: "Username"
+        entered_password: "Password"
+        real_name: "Real Name"
+        recaptcha: "Recaptcha"
+      collection:
+        title: "Title"
+        description: "Description"
     errors:
       format: "%{attribute} %{message}"
       template:
@@ -86,7 +96,7 @@ en:
           other: "%{count} validation errors found"
         body: "The following fields failed validation:"
       messages:
-        taken: "has already beedit_collection_page_title: Edit Collectionen taken"
+        taken: "has already taken"
         record_invalid: "Validation failed: %{errors}"
         invalid: "is invalid"
         confirmation: "doesn't match confirmation"
@@ -126,7 +136,7 @@ en:
   save: "Save"
   cancel: "Cancel"
   add_book_dialog_title: "Add book to my collection"
-  book_removed: "Book is removed"
+  book_removed: "Book has been removed"
   
   book_added_to_collection: "Book is successfully added to your collection"
   successfully_added: "Successfully added"
@@ -152,7 +162,7 @@ en:
   browse_all_link: Browse All
   authors_link: Authors
   subjects_link: Subjects
-  names_link: Names
+  names_link: Species
   collections_link: Collections
   
   bhl_page_title: "Biodivestiry Heritage Library - Egypt"
@@ -198,16 +208,15 @@ en:
   #Browse books
   no_books_found: No Books Found...
   name_found_in_books:
-    zero:  ""
+    zero:  "No Books Found"
     one:   "Found in one book"
     other: "Found in %{count} books"
   sidelinks_read: Read
   sidelinks_detail: Details
   sidelinks_add_collection: Add to Collection
-  sidelinks_views: 
-    zero: views
+  sidelinks_views:
     one: "1 view"
-    other: "%{count} view"
+    other: "%{count} views"
   listresult_author_by: "By:" 
   listresult_subject: "Genre:" 
   listresult_names: "Names:" 
@@ -324,6 +333,7 @@ en:
   sign_in: Login
   submit_buton: "Submit"
   clear_button: "Clear"
+  reset_button: "Reset"
   password: "Password"
   email: "Email address"
   real_name: "Real Name"
@@ -408,9 +418,15 @@ en:
   user_annotation_highlight: Highlights
   
   #Home Page
-  book: Books
-  author: Authors
-  species: Tagged Species
+  book:
+    one: "one Book"
+    other: "%{count} books"       
+  author_count:
+    one: "one Author"
+    other: " %{count} Authors"
+  species:
+    one: "one Tagged Specie"
+    other: " %{count} Tagged Species"
   top_collections: Top Collections
   home_top_collections_by: By
   most_viewed: Most Viewed
@@ -480,8 +496,30 @@ en:
   stars_white: "stars_white.png"
   
   # contact us page
-  send: Send
+  send: Send  
+  sender: Sender
+  message_subject: Subject
+  text: Text
+
+  # reset password
+  confirm_password: Confirm Password
   
+  # email messages
+  dear_msg: "Dear %{name},"
+  email_signature_1: "Regards,"
+  email_signature_2: "BHL Team"
+  empty_search_query_warn: "Search statement shouldn't be empty"
+  invalid_input: Invalid Input
+  
+  # browse page
+  no_entity_found: "No %{entity} Found"
+  
+  # saved queries
+  ALL: All Categories    
+  
+  # edit collection
+  title_collection: Collection Title
+   
   #languages
   english: English
   arabic: عربى

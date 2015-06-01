@@ -3,37 +3,43 @@
     $( "#change_password" ).click(function() {
       $( "#change_password").toggle();
       $( "#change_password_block").toggle();
-  });
+    });
   
-      $( "#clear" ).click(function() {
+    $( "#clear" ).click(function() {
+      $('#new_user input[type=text]').each(function() {
+        $(this).attr("value", '');
+      });
+
       $('#photo_ext_error_message').removeClass("visible_error_msg");
       $('#photo_size_error_message').removeClass("visible_error_msg");
-       $('#photo_ext_error_message').addClass("invisible_error_msg");
+      $('#photo_ext_error_message').addClass("invisible_error_msg");
       $('#photo_size_error_message').addClass("invisible_error_msg");
-  });
+    });
   });
     
-  function check_image_size() {
-  var is_file_valid = true;
-  if ($('#filefield')[0].files[0] != null){
-    var ext = $('#filefield').val().split('.').pop().toLowerCase();
-    var size = $('#filefield')[0].files[0].size;
-    if($.inArray(ext, ['gif','png','jpg','jpeg', 'bmp']) == -1) {
-      $('#photo_ext_error_message').removeClass("invisible_error_msg");
-      $('#photo_ext_error_message').addClass("visible_error_msg");
-      $('#photo_size_error_message').removeClass("visible_error_msg");
-      $('#photo_size_error_message').addClass("invisible_error_msg");
-      is_file_valid = false;
-    }
-    else{
-      if (size > #{UPLOADED_PHOTO_MAX_SIZE * 1000 * 1000}){
-        $('#photo_ext_error_message').removeClass("visible_error_msg");
-        $('#photo_ext_error_message').addClass("invisible_error_msg");
-        $('#photo_size_error_message').removeClass("invisible_error_msg");
-        $('#photo_size_error_message').addClass("visible_error_msg");
-        is_file_valid = false;
+  function check_image_size() {  
+    var is_file_valid = true;
+    if($('#photo_name')[0] != null){   
+      if ($('#photo_name')[0].files[0] != null){           
+        var ext = $('#photo_name').val().split('.').pop().toLowerCase();
+        var size = $('#photo_name')[0].files[0].size;        
+        if($.inArray(ext, ['gif','png','jpg','jpeg', 'bmp']) == -1) {              
+          $('#photo_ext_error_message').removeClass("invisible_error_msg");
+          $('#photo_ext_error_message').addClass("visible_error_msg");
+          $('#photo_size_error_message').removeClass("visible_error_msg");
+          $('#photo_size_error_message').addClass("invisible_error_msg");
+          is_file_valid = false;
+        }
+        else{          
+          if (size > #{UPLOADED_PHOTO_MAX_SIZE * 1000 * 1000}){            
+            $('#photo_ext_error_message').removeClass("visible_error_msg");
+            $('#photo_ext_error_message').addClass("invisible_error_msg");
+            $('#photo_size_error_message').removeClass("invisible_error_msg");
+            $('#photo_size_error_message').addClass("visible_error_msg");
+            is_file_valid = false;
+          } 
+        }
       }
-    }
     }
     return is_file_valid;
   }
@@ -113,4 +119,7 @@
                 = f.submit I18n.t('header_signup'), :class => "btn btn-primary", :id => "submit"
               - else
                 = f.submit I18n.t('header_login'), :class => "btn btn-primary", :id => "submit"
-              = f.submit I18n.t('clear_button'), :class => "btn btn-default",:id => "clear", :type => "reset"
+              - if (@action == "modify")
+                = f.submit I18n.t('reset_button'), :class => "btn btn-default",:id => "clear", :type => "reset"
+              - else
+                = f.submit I18n.t('clear_button'), :class => "btn btn-default",:id => "clear", :type => "reset"

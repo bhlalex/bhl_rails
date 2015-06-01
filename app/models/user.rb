@@ -69,7 +69,7 @@ class User < ActiveRecord::Base
 
   def self.authenticate(username, password)
     return nil if username.nil? || password.nil?
-    self.find_by_username_and_password(username, self.hash_password(password))
+    self.find_by_username_and_password_and_active(username, self.hash_password(password), 1)
   end
 
   def change_activation_code
@@ -85,9 +85,9 @@ class User < ActiveRecord::Base
   end
   
     # validate size of uploaded photo for user profile
-  def file_size
+  def file_size    
     if !(photo_name.nil?) && !(photo_name.blank?)
-      if photo_name.file.size.to_f/(1000*1000) > UPLOADED_PHOTO_MAX_SIZE
+      if photo_name.file.size.to_f/(1000*1000) > UPLOADED_PHOTO_MAX_SIZE        
         errors.add(:file, "#{I18n.t(:upload_photo_max_size_error)} #{UPLOADED_PHOTO_MAX_SIZE} #{I18n.t(:mb)}")
       end
     end

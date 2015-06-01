@@ -32,7 +32,7 @@
         = validation_errors_for(@collection)
         = form_for @collection, :builder => FormHelper::BHLFormBuilder ,:html => {:onsubmit => "return check_image_size();" } do |f|
           .form-group
-            = f.label :title, raw(t('title')), :class => 'col-sm-2 control-label'
+            = f.label :title, raw(t('title_collection')), :class => 'col-sm-2 control-label'
             .col-sm-10
               = f.text_field :title, :class => 'form-control'
           .form-group

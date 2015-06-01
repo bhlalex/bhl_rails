@@ -1,5 +1,0 @@
-Barkworth:
-Elymus stebbinsii
-353
-Figure 1. Results of UPGMA cluster analysis. The four major clusters are, from left
-to right, Sb, B, Sp, and A.

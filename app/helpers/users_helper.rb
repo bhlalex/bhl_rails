@@ -34,7 +34,7 @@ module UsersHelper
     query_array = set_query_array(query_array, url_params)
     query = set_query_string(query_array, false)
     solr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    search =  solr.find :q => query
+    search =  solr.find :q => query, :fl => "vol_jobid"
     search['response']['numFound']
   end
   

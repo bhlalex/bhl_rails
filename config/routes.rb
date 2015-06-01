@@ -73,8 +73,10 @@ Bhl::Application.routes.draw do
     
     # remove when how page is ready
     root :to => 'pages#home'
+    #root :to => 'new_pages#new_home_page'
+    get "new_pages/new_home_page"
     get   "pages/home"
-    
+    get "pages/top_rated_books" 
     get   "pages/contact"
     match "/pages/send_message" => "pages#send_message"
     get   "pages/about"

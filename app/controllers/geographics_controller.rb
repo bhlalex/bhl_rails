@@ -25,12 +25,12 @@ class GeographicsController < ApplicationController
                                            :anchor_x => 6, #width/2 
                                            :anchor_y => 20)
       gicons[i] = temp_icon
-      @map.icons << temp_icon
+      @map.icons << temp_icon      
     end
     
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     
-    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => 'geo_location_ss', 'rows' => 0
+    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => 'geo_location_ss', 'rows' => 0, 'facet.limit' => 8
     
     response.facets.first.items.each do |item|
       icon_in = 10
@@ -53,12 +53,17 @@ class GeographicsController < ApplicationController
         
         location = Location.find_by_formatted_address(item.value)
         
-        @map.markers << Cartographer::Gmarker.new(:name=> "#{item.value.gsub(/\W/, "_")}", :marker_type => "Building",
+        @map.markers << Cartographer::Gmarker.new(:marker_type => "Building",
                           :position => [location.latitude,location.longitude],
                           :info_window_url => "/geographics/show/#{location.id}",
                           :icon => gicon) unless location.nil?
       end
     end
+    #@map.markers = []
+    #@map.markers << Cartographer::Gmarker.new(:marker_type => "Building",
+     #                     :position => ["47.5423","-122.05"],
+      #                    :info_window_url => "/geographics/show/1",
+       #                   :icon => gicons[10])	
   end
   
   def show

@@ -1,18 +1,17 @@
-- if (@most_viewed_response != '' && @most_viewed_response['response']['numFound'] > 0)
-  - @number = 0
-  - count = 0
-  - @most_viewed_response['response']['docs'].each do |doc|
-    - @number = @number + 1
-    - @id = doc['vol_jobid']
-    - @vol = Volume.find_by_job_id(doc['vol_jobid'])
+/- if (@most_viewed_response != '' && @most_viewed_response['response']['numFound'] > 0)
+- if (@most_viewed_response['response']['numFound'] > 0)  
+  - @most_viewed_response['response']['docs'].each_with_index  do |doc, index|
+    - @id = doc['vol_jobid']    
+    - @vol = Volume.find_by_job_id(doc['vol_jobid'])    
     - if (@vol != nil)
       - @highlight = @most_viewed_response['highlighting'][@id.to_s]
       - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
-      - @doc = doc
+      - @doc = doc      
     .browse
       .col-md-2
-        - @coverno = @number
-        - @covertitle = @doc[:bok_title][0]
+        - @coverno = index + 1
+        /- @covertitle = @doc[:bok_title][0]
+        - @covertitle = @title.html_safe
         - if(@doc['author'] != nil)
           - @coverauthor = @doc['author'][0]
         - else
@@ -31,7 +30,6 @@
             = render :partial => "books/booknames"
       .col-md-3.controls
         =render :partial => "pages/sidelinks", :locals => {:page => "view"}
-    .clearfix 
-    - count = count + 1
+    .clearfix    
   .pull-right  
     = link_to "#{I18n.t(:tabs_more)}", {:controller => :books, :action => :index, :sort_type => "views desc"}

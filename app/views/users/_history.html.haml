@@ -18,7 +18,7 @@
         });
       - @book = solr_search("vol_jobid:#{@vol.job_id}","bok_title, views, rate, author")
       .row
-        .col-md-2
+        .col-md-2.no-padding
           - @coverno = @number
           - @covertitle = @book[:bok_title][0]
           - if(@book['author'] != nil)
@@ -64,7 +64,7 @@
             = "#{I18n.t(:sidelinks_views, :count => @book[:views])} "
               
         .clearfix
-        %hr
+      %hr
     - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
       .col-md-8
         .pagination-centered

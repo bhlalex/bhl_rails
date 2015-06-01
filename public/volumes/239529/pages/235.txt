@@ -1,6 +1,0 @@
-336
-we should recognize a negative P-deflection, since the excitation
-wave proceeded in a retrograde direction through the auricles.
-Secondly it may be imagined that this negative deflection is gene-
-rated by a bulbus-contraction. We notice these bulbus electrograms
-bfc

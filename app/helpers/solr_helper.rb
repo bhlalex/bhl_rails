@@ -53,19 +53,23 @@ module SolrHelper
   def list_facet_by_prefix(type, prefix)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     facet_type = get_facet_field(type)
-    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_type, 'facet.prefix' => prefix, 'rows' => 0
+    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_type, 'facet.prefix' => prefix, 'facet.limit' => 1000000, 'rows' => 0
     response.facets.first.items
   end
   
-  def get_count_of(type)
+  def get_count_of
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
-    facet_type = get_facet_field(type)
-    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_type, 'rows' => 0
-    if type == "book"
-      response['response']['numFound']
-    else
-      response["facet_counts"]["facet_fields"][facet_type].count/2
-    end
+    #facet_type = get_facet_field(type)
+    facet_array = ["author_ss", "name_ss"]        
+    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_array,'facet.limit' => 1000000, 'rows' => 0
+    #response = rsolr.get 'books_metadata/select', :params => {:q => "*:*", :facet => true, 'facet.field' => facet_type,'facet.limit' => 1000000, 'rows' => 0}
+    count_result = {"books" => response['response']['numFound'], "authors" => response["facet_counts"]["facet_fields"]["author_ss"].count/2,
+                    "names" => response["facet_counts"]["facet_fields"]["name_ss"].count/2}
+    #if type == "book"
+      #counts["books"] = response['response']['numFound']
+    #else
+      #response["facet_counts"]["facet_fields"]["author_ss"].count/2
+    #end
     
   end
 end

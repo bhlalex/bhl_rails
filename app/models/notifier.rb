@@ -2,6 +2,7 @@ class Notifier < ActionMailer::Base
   
   helper :application
   
+ 
   def user_activated(user)
     @user = user
     mail(
@@ -23,11 +24,11 @@ class Notifier < ActionMailer::Base
   
   def user_reset_password_verification(user, reset_password_url)
     @user = user
-    @reset_password_url = reset_password_url
-    @username = user.username
+    @reset_password_url = reset_password_url    
+    @username = user.username    
     mail(
       :content_type => "text/html",
-      :subject => I18n.t(:subject, :scope => [:notifier, :user_recover_account]),
+      :subject => I18n.t(:subject, :scope => [:notifier, :user_recover_account]),      
       :to => user.email,
       :from => NO_REPLY_EMAIL_ADDRESS )
   end
