@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   layout 'users'
+  require 'will_paginate/array'
 
   include SolrHelper
   include BHL::Login
@@ -89,10 +90,8 @@ class UsersController < ApplicationController
       if authenticate_user
         @total_number = UserBookHistory.count(:conditions => "user_id = #{@user.id}")
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
         
-        @history = UserBookHistory.where(:user_id => @user).limit(TAB_PAGE_SIZE).offset(offset)
+        @history = UserBookHistory.where(:user_id => @user).paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
         
 
         if @history.length > 0
@@ -109,11 +108,12 @@ class UsersController < ApplicationController
       if authenticate_user
         # load user annotations
         @page = params[:page] ? params[:page].to_i : 1
-        offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
+        # offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
         @total_number = Annotation.count(:conditions => "user_id = #{@user.id}")
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
+        # @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
         
-        @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
+        # @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
+        @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).paginate(:page => @page, :per_page => TAB_GALLERY_PAGE_SIZE)
         @url_params = params.clone
       end
       # end
@@ -122,9 +122,7 @@ class UsersController < ApplicationController
         # load user saved queries
         @total_number = @user.queries.count()
         @page = params[:page] ? params[:page].to_i : 1
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
-        @queries = @user.queries.order('created_at DESC').limit(TAB_PAGE_SIZE).offset(offset)
+        @queries = @user.queries.paginate(:page => @page, :per_page => TAB_PAGE_SIZE).order('created_at DESC')
         @url_params = params.clone
       end
       # end
@@ -153,7 +151,6 @@ class UsersController < ApplicationController
         @page = params[:page] ? params[:page].to_i : 1
         limit = TAB_PAGE_SIZE
         offset = (@page > 1) ? (@page - 1) * limit : 0
-        @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/TAB_PAGE_SIZE).ceil : 0
         # sql_stmt : to select current user activities including creating new collection,
         # rating book or collection
         # and also commented on book or collection ordered by creation time
@@ -190,21 +187,20 @@ class UsersController < ApplicationController
                     ) result
                     ORDER BY time DESC LIMIT #{offset}, #{limit};"
       # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
-      @log_records = get_log_activity(sql_stmt)
+      result = get_log_activity(sql_stmt)
+      @log_records= WillPaginate::Collection.create(@page, TAB_PAGE_SIZE, @total_number[0][:count].to_i) do |pager|
+        pager.replace result
+      end
       @url_params = params.clone
-    # end
 
     elsif @tab == "collections"
       @page = params[:page] ? params[:page].to_i : 1
-      offset = (@page > 1) ? (@page - 1) * TAB_PAGE_SIZE : 0
       if current_user
         @total_number = Collection.count(:conditions => "user_id = #{@user.id}")
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        @collections = Collection.where("user_id = #{@id}").limit(TAB_PAGE_SIZE).offset(offset)
+        @collections = Collection.where("user_id = #{@id}").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
       else
         @total_number = Collection.count(:conditions => "user_id = #{@user.id} AND is_public = true")
-        @lastPage = @total_number ? ((@total_number).to_f/TAB_PAGE_SIZE).ceil : 0
-        @collections = Collection.where("user_id = #{@id} and is_public = true").limit(TAB_PAGE_SIZE).offset(offset)
+        @collections = Collection.where("user_id = #{@id} and is_public = true").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
       end
       @url_params = params.clone
     end

@@ -540,6 +540,10 @@ password:<<br><br>%{reset_password_url}"
 
   # edit collection
   title_collection: "اسم المجموعة"
+
+  # pagination
+  previous_label: "السابق"
+  next_label: "التالى"
   
   #languages
   english: English

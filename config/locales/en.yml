@@ -519,6 +519,10 @@ en:
   
   # edit collection
   title_collection: Collection Title
+  
+  # pagination
+  previous_label: "Previous"
+  next_label: "Next"  
    
   #languages
   english: English

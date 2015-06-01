@@ -50,8 +50,6 @@
   .row
     =render :partial=> "collections/listresult"
     
-  - if(!((@page == @lastPage && @lastPage == 1) || @lastPage == 0))
-    .col-md-8
-      .pagination-centered
-        - @pages = adjustPaging(@page, @lastPage)
-        = render :partial => "books/paging"
+  %div
+    .pagination-centered
+      = will_paginate @collections, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)

@@ -9,9 +9,12 @@ class ActivitiesController < ApplicationController
     @page_title = I18n.t(:activities_index_title)
     @total_number = get_activities_count(@filter) 
     @page = params[:page] ? params[:page].to_i : 1
-    @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/PAGE_SIZE).ceil : 0
+    # @lastPage = @total_number[0][:count] ? ((@total_number[0][:count]).to_f/PAGE_SIZE).ceil : 0
     offset = (@page > 1) ? (@page - 1) * PAGE_SIZE : 0
-    @activities = get_activities(@filter, @sort, offset, PAGE_SIZE) 
+    result = get_activities(@filter, @sort, offset, PAGE_SIZE) 
+    @activities= WillPaginate::Collection.create(@page, PAGE_SIZE, @total_number[0][:count].to_i) do |pager|
+        pager.replace result
+    end    
     @url_params = params.clone
   end
 end
