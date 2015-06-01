@@ -28,7 +28,7 @@
             - @thumb = "images_#{I18n.locale}/#{I18n.t(:default_book)}"
           - @doc = doc
           =render :partial => "books/listresult"
-      .col-md-8
+      %div
         .pagination-centered
           = will_paginate @collections, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
     - else

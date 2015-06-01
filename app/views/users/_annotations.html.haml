@@ -67,7 +67,7 @@
                   %p.small
                     = highlight.text
                   %hr
-    .col-md-8
+    %div
       .pagination-centered
         = will_paginate @annotation, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
           

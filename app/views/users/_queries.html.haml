@@ -17,7 +17,7 @@
             %a{:href => "/user_search_history/delete_query/#{query.id}", :onclick => "return confirmDelete(\"#{I18n.t(:delete_saved_query_confirm)}\");"}
               %i.fa.fa-times-circle
               = I18n.t(:delete)    
-    .col-md-8
+    %div
       .pagination-centered
         = will_paginate @queries, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
 - else

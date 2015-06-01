@@ -29,7 +29,7 @@
               %small.text-muted
                 = "#{I18n.t(:log_activity_at)} #{item[:time]}"
         %hr
-    .col-md-8
+    %div
       .pagination-centered
         = will_paginate @log_records, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
 - else
