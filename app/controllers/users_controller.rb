@@ -12,7 +12,13 @@ class UsersController < ApplicationController
     return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @page_title = I18n.t(:sign_up)
     @action = "signup"
-    @user = User.new
+    if session[:failed_user]
+      @user = User.new(session[:failed_user])
+      @user.valid?
+      session[:failed_user] = nil
+    else
+       @user = User.new
+    end
     @verify_captcha = true
   end
 
@@ -35,7 +41,10 @@ class UsersController < ApplicationController
       @page_title = I18n.t(:sign_up)
       @user.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha
       @action = "signup"
-      render :action => :new
+      session[:failed_user] = params[:user]
+      # render :action => :new
+      redirect_to :controller => :users, :action => :new
+       # redirect_to new_user_path(:user => @user), :notice => 'items updated'
     end
   end
 
