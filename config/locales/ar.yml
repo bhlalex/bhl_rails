@@ -53,11 +53,9 @@ ar:
      extension_white_list_error: 'الأنواع المسموح بها: jpeg jpg gif bmp png'
   notifier:
     user_verification:
-      subject: "مصر BHL برجاء التحقق من طلبك لـ "
-      message: "
- مصر. BHLشكرًا للتسجيل مع 
-يؤكد الرابط التالي رغبتك في استكمال التسجيل وتفعيل حسابك: 
-:<br><br>%{@verification_url}"
+      subject: " برجاء التحقق من طلبك ل BHLمصر "
+      message_1: "شكرا للتسجيل مع BHLمصر  "
+      message_2: "يؤكد الرابط التالي رغبتك في استكمال التسجيل وتفعيل حسابك"	  
     user_activated:
       subject: " الخاص بكBHLتم تفعيل حساب "
       message: " مصر وشكرًا للتسجيل! BHL مرحبًا بك في "
@@ -526,7 +524,7 @@ password:<<br><br>%{reset_password_url}"
   confirm_password: تأكيد كلمة المرور
   
   # email messages
-  dear_msg: "عزيزى %{name},"
+  dear_msg: " %{name}, عزيزى"
   email_signature_1: "تحية,"
   email_signature_2: "فريق عمل BHL"
   empty_search_query_warn: "يجب عليك إدخال جملة البحث"

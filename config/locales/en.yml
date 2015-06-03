@@ -62,7 +62,8 @@ en:
   notifier:
     user_verification:
       subject: "Please verify your request for BHL Egypt"
-      message: "Thanks for registering for BHL Egypt. The following link will verify that you wish to complete your registration and activate your account"
+      message_1: "Thanks for registering for BHL Egypt."
+      message_2: "The following link will verify that you wish to complete your registration and activate your account"	  
     user_activated:
       subject: "Your BHL account has been activated"
       message: "Welcome to the BHL Egypt and thank you for registering!"
