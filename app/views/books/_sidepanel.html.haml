@@ -105,15 +105,18 @@
         ="#{@collections_count}"
       %a{:href => "#collectionsfound"}
         =I18n.t(:book_details_collection_count, :count => @collections_count)
-    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}');"}
-      %i.fa.fa-angle-double-right
-      = I18n.t(:book_details_mods)
-    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_bibtex)}');"}
-      %i.fa.fa-angle-double-right
-      = I18n.t(:book_details_bibtex)
-    %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}');"}
-      %i.fa.fa-angle-double-right
-      = I18n.t(:book_details_endnote)
+    - unless get_format(params[:id], 'mods').blank?
+      %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_mods)}');"}
+        %i.fa.fa-angle-double-right
+        = I18n.t(:book_details_mods)
+    - unless get_format(params[:id], 'bibtex').blank?
+      %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_bibtex)}');"}
+        %i.fa.fa-angle-double-right
+        = I18n.t(:book_details_bibtex)
+    - unless get_format(params[:id], 'endnote').blank?
+      %a.list-group-item{"data-toggle" => "modal", href: "#modal-container", role: "button",  :onclick => "loadformats('#{I18n.t(:book_details_endnote)}');"}
+        %i.fa.fa-angle-double-right
+        = I18n.t(:book_details_endnote)
   
   #mods_hidden{ style: 'display: none;' }= get_format(params[:id], 'mods')
   #bibtex_hidden{ style: 'display: none;' }= get_format(params[:id], 'bibtex')
