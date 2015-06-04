@@ -67,7 +67,7 @@
     .modal-content
       .modal-header
         %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
-        %h4#myModalLabel.modal-title #{I18n.t(:create_comment)}
+        %h4#myModalLabel.modal-title #{I18n.t(:write_review)}
       .modal-body
         - if logged_in?
           = render :partial => "comments/new_comment", :locals => {:comment_id => nil}
