@@ -55,7 +55,7 @@ ar:
     user_verification:
       subject: " برجاء التحقق من طلبك ل BHLمصر "
       message_1: "شكرا للتسجيل مع BHLمصر  "
-      message_2: "يؤكد الرابط التالي رغبتك في استكمال التسجيل وتفعيل حسابك"	  
+      message_2: "يؤكد الرابط التالي رغبتك في استكمال التسجيل وتفعيل حسابك"   
     user_activated:
       subject: " الخاص بكBHLتم تفعيل حساب "
       message: " مصر وشكرًا للتسجيل! BHL مرحبًا بك في "
@@ -202,7 +202,7 @@ password:<<br><br>%{reset_password_url}"
   footer_home: الصفحة الرئيسية
   footer_about: نبذة 
   footer_contact: اتصل بنا 
-  copyright_statement: مكتبة الإسكندرية حقوق الطبع©
+  copyright_statement: جميع الحقوق محفوظة @ مكتبة الاسكندرية
   
   #Browse books
   no_books_found: لا يوجد كتب...
@@ -469,7 +469,7 @@ password:<<br><br>%{reset_password_url}"
   empty_verfication_error: يرجى ملء هذا الحقل
 
   #comments
-  no_comments: لا توجد تعليقات ..
+  no_comments: لا توجد مراجعات ..
   
   #Names Index
   books_found:
