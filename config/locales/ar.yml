@@ -469,7 +469,7 @@ password:<<br><br>%{reset_password_url}"
   empty_verfication_error: يرجى ملء هذا الحقل
 
   #comments
-  no_comments: لا توجد تعليقات ..
+  no_comments: لا توجد مراجعات ..
   
   #Names Index
   books_found:
