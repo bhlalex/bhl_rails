@@ -166,9 +166,9 @@
           .col-md-1
             .language.pull-left
               - if I18n.locale != :en
-                = link_to "English",locale: :en
+                = link_to "English", params.merge(locale: "en")
               - if I18n.locale != :ar
-                = link_to "عربى", locale: :ar
+                = link_to "عربى", params.merge(locale: "ar")
         .row.clearfix
           .col-md-12.column
             %nav.navbar.navbar-default.navbar-inverse{:role => "navigation"}
