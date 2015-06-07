@@ -34,7 +34,7 @@ module SolrHelper
   def solr_autocomplete(field,term, limit)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     facet_type = get_autocomplete_field(field)
-    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_type, 'facet.limit' => limit, 'facet.prefix' => term.downcase, 'rows' => 0
+    response = rsolr.find :q => "*:*", :fl => "vol_jobid", :facet => true, 'facet.field' => facet_type, 'facet.limit' => limit, 'facet.prefix' => term.downcase, 'rows' => 0
     response.facets.first.items
   end
   
@@ -53,8 +53,12 @@ module SolrHelper
   def list_facet_by_prefix(type, prefix)
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     facet_type = get_facet_field(type)
-    response = rsolr.find :q => "*:*", :facet => true, 'facet.field' => facet_type, 'facet.prefix' => prefix, 'facet.limit' => 1000000, 'rows' => 0
-    response.facets.first.items
+    response = rsolr.find :q => "*:*", :fl => "vol_jobid", :facet => true, 'facet.field' => facet_type, 'facet.limit' => 1000000, 'rows' => 0
+    res = []
+    response.facets.first.items.each do |item|
+      res << item if item.value.downcase.start_with?(prefix.downcase)
+    end
+    res
   end
   
   def get_count_of
