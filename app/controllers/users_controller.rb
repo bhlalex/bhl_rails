@@ -29,7 +29,8 @@ class UsersController < ApplicationController
 
     if @user.valid? && verify_recaptcha
       @user.save
-      url = "#{request.host}:#{request.port}/users/activate/#{@user.guid}/#{@user.verification_code}"
+      #url = "#{request.host}:#{request.port}/users/activate/#{@user.guid}/#{@user.verification_code}"
+      url = "#{request.host}/users/activate/#{@user.guid}/#{@user.verification_code}"
       Notifier.user_verification(@user, url).deliver
       #log_in(@user)
       flash.now[:notice] = I18n.t(:registration_welcome_message, :real_name => @user.real_name)
@@ -236,7 +237,8 @@ class UsersController < ApplicationController
         else
           # I am changing activation code, then send an email with a link to reset password
           @user.change_activation_code
-          reset_password_url = "#{request.host}:#{request.port}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
+          reset_password_url = "#{request.host}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
+          #reset_password_url = "#{request.host}:#{request.port}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
            begin
              Notifier.user_reset_password_verification(@user, reset_password_url).deliver
              flash.now[:notice] = I18n.t(:recover_password_success)
