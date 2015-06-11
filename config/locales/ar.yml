@@ -57,12 +57,11 @@ ar:
       message_1: "شكرا للتسجيل مع BHLمصر  "
       message_2: "يؤكد الرابط التالي رغبتك في استكمال التسجيل وتفعيل حسابك"   
     user_activated:
-      subject: " الخاص بكBHLتم تفعيل حساب "
+      subject: " تم تفعيل حساب BHL الخاص بك "
       message: " مصر وشكرًا للتسجيل! BHL مرحبًا بك في "
     user_recover_account:
-      subject: "الخاص بك BHLاستعِد حساب "
-      message: " .طلبًا لاستعادة حسابك . إذا لم تكن قد قدمت هذا الطلب، يرجى تجاهل هذا البريد الإلكتروني.  يسمح الرابط التالي بالدخول مرة واحدة لتغير اسم المرور الخاص بك"
-
+      subject: "استعد حساب BHL الخاص بك"
+      message: "لقد استلمنا طلبا لاستعادة حسابك. إذا لم تكن قد قمت بهذا الطلب, يرجى تجاهل هذا البريد الإلكترونى. يسمح الرابط التالى بالدخول مرة واحدة لتغيير اسم المرور الخاص بك."
   date:
     formats:
       default: "%d/%m/%Y - %I:%M %p"
@@ -519,11 +518,12 @@ ar:
   confirm_password: تأكيد كلمة المرور
   
   # email messages
-  dear_msg: " %{name}, عزيزى"
-  email_signature_1: "تحية,"
+  dear_msg: " عزيزى %{name} "
+  email_signature_1: "تحية"
   email_signature_2: "فريق عمل BHL"
   empty_search_query_warn: "يجب عليك إدخال جملة البحث"
   invalid_input: "جملة غير صالحة للبحث"
+  sent_by: مرسل بواسطة
   
   # browse page
   no_entity_found: "%{entity} لا يوجد"

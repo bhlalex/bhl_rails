@@ -1,0 +1,17 @@
+<!CTYPE html>
+<% if I18n.locale == :en %>
+<html>
+<% else %>
+<html DIR = "RTL">
+<% end %>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>    
+    <p><%= @message.html_safe %></p>   
+    <p> <%= "#{I18n.t(:sent_by)}: #{@name}" %></p>
+    <p> <%= @email %></p>    
+  </body>
+</html>
+
+

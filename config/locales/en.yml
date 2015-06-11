@@ -511,6 +511,7 @@ en:
   email_signature_2: "BHL Team"
   empty_search_query_warn: "Search statement shouldn't be empty"
   invalid_input: Invalid Input
+  sent_by: Sent By
   
   # browse page
   no_entity_found: "No %{entity} Found"

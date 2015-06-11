@@ -1,11 +1,15 @@
 <!CTYPE html>
+<% if I18n.locale == :en %>
 <html>
+<% else %>
+<html DIR = "RTL">
+<% end %>
   <head>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1><%= I18n.t(:dear_msg, :name=> @user.username) %></h1>
-    <p><%= I18n.t('notifier.user_activated.message', :verification_url => @verification_url) %></p>
+    <h5><%= I18n.t(:dear_msg, :name=> @user.username) %></h5>
+    <p><%= I18n.t('notifier.user_activated.message') %></p>
     <br/>
     <p> <%= I18n.t(:email_signature_1) %></p>
     <p> <%= I18n.t(:email_signature_2) %></p>
