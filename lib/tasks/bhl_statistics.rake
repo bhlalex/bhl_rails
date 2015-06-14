@@ -4,7 +4,7 @@ namespace :bhl_statistics do
     rsolr = RSolr.connect :url => SOLR_BOOKS_METADATA
     #facet_array = ["author_ss", "name_ss"]        
     response = rsolr.find :q => "*:*", :fl => "vol_jobid", :facet => true, 'facet.field' => "author_ss",'facet.limit' => 100000, 'rows' => 0        
-    BhlStatistic.create(books_count: response['response']['numFound'], authors_count: response["facet_counts"]["facet_fields"]["author_ss"].count/2,
+    BhlStatistic.create(books_count: response['response']['numFound'], authors_count: response["facet_counts"]["facet_fields"]["author_ss"].count,
                         species_count: Name.count)
   end
 end
