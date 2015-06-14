@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140123073552) do
+ActiveRecord::Schema.define(:version => 20150614074348) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -40,6 +40,14 @@ ActiveRecord::Schema.define(:version => 20140123073552) do
     t.integer  "book_count", :default => 0
     t.datetime "created_at",                :null => false
     t.datetime "updated_at",                :null => false
+  end
+
+  create_table "bhl_statistics", :force => true do |t|
+    t.integer  "books_count"
+    t.integer  "authors_count"
+    t.integer  "species_count"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "book_authors", :id => false, :force => true do |t|
@@ -72,23 +80,23 @@ ActiveRecord::Schema.define(:version => 20140123073552) do
 
   create_table "books", :force => true do |t|
     t.string   "bibid"
-    t.string   "title"
-    t.string   "title_alternative"
+    t.string   "title",                 :limit => 2000
+    t.string   "title_alternative",     :limit => 2000
     t.string   "start_date"
     t.string   "end_date"
-    t.string   "publisher"
+    t.string   "publisher",             :limit => 1000
     t.integer  "language_id"
     t.text     "note"
-    t.string   "edition"
-    t.string   "format_extent"
-    t.string   "collection"
-    t.string   "contributor"
+    t.string   "edition",               :limit => 1000
+    t.string   "format_extent",         :limit => 1000
+    t.string   "collection",            :limit => 500
+    t.string   "contributor",           :limit => 500
     t.integer  "fill_metadata_fail"
     t.integer  "metadata_index_status"
     t.integer  "generate_format_fail"
     t.text     "mods"
-    t.datetime "created_at",            :null => false
-    t.datetime "updated_at",            :null => false
+    t.datetime "created_at",                            :null => false
+    t.datetime "updated_at",                            :null => false
     t.text     "bibtex"
     t.text     "endnote"
   end
