@@ -177,20 +177,11 @@
                   %span.icon-bar
                   %span.icon-bar
                   %span.icon-bar
-                %a.navbar-brand{href: "/"} 
+                %a.navbar-brand{href: "/"}
+                  %i.fa.fa-home
                   =I18n.t(:bhl_homepage)   
               #bs-example-navbar-collapse-1.collapse.navbar-collapse
-                %ul.nav.navbar-nav.pull-right
-                  - if(current_page?(root_url))    
-                    %li.active
-                      %a{:href => "/"}
-                        %i.fa.fa-home
-                        =I18n.t(:home_link)
-                  -else
-                    %li
-                      %a{:href => "/"}
-                        %i.fa.fa-home
-                        =I18n.t(:home_link)
+                %ul.nav.navbar-nav               
                   - if(params[:controller] == 'pages' && params[:action] == 'about')    
                     %li.active
                       %a{:href => "#{pages_about_path}"}
