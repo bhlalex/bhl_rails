@@ -18,13 +18,16 @@
         %i.fa.fa-facebook.fa-2x
       %a{:href => "https://twitter.com/share?original_referer=#{BHL_LINK}&url=#{BHL_LINK}", :target => "_blank"}
         %i.fa.fa-twitter.fa-2x
-    .col-md-9.pull-right
-      %p.text-right
+    .col-md-6
+      %p.text-center
         %a{ :href => "/" } 
           = I18n.t(:footer_home)
         |
         = link_to I18n.t(:footer_about), {:controller => :pages, :action => :about}
         |
         = link_to I18n.t(:footer_contact), {:controller => :pages, :action => :contact}
-      %p.text-right 
+      %p.text-center 
         = I18n.t(:copyright_statement)
+    .col-md-3.ba-logo
+      %a{:href => "http://bibalex.org", :target => "_blank"}
+        =image_tag("/images_#{I18n.locale}/#{I18n.t(:ba_logo)}", :alt => I18n.t(:bibalex), :title => I18n.t(:bibalex))

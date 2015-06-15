@@ -138,33 +138,32 @@
               %a.go.pull-left.rotate{:href => "#", :onclick=>"searchfnc('#{jsquery}', document.getElementById('headersearchby'), document.getElementById('headersearchfield').value); return false;"}
                 %i.fa.fa-arrow-circle-right.fa-2x
               .clearfix
-          .col-md-2    
-            .signin.pull-left
-              .pull-left
+          .col-md-2  
+            .signin
+              .col-sm-6.no-padding.text-center
                 - if !logged_in?
                   %a{:href => "#{new_user_path}"}
-                    %i.fa.fa-sign-in.fa-2x
-                    %br
-                    =I18n.t(:header_signup)
+                    %i.fa.fa-sign-in
+                    %div
+                      =I18n.t(:header_signup)
                 - else
                   %a{href: "#{users_logout_path}"}
-                    %i.fa.fa-sign-out.fa-2x
-                    %br
-                    =I18n.t(:header_signout)
-              .pull-right
-                |
+                    %i.fa.fa-sign-out
+                    %div
+                      =I18n.t(:header_signout)
+              .col-sm-6.no-padding.text-center
                 - if !logged_in?
                   %a{:href => "#{users_login_path}"}
-                    %i.fa.fa-user.fa-2x
-                    %br
-                    =I18n.t(:header_login)
+                    %i.fa.fa-user
+                    %div
+                      =I18n.t(:header_login)
                 - else
                   =link_to :controller => :users, :action => :show, :id => session["user_id"], :tab => nil do
-                    %i.fa.fa-edit.fa-2x
-                    %br
-                    =I18n.t(:header_profile)
+                    %i.fa.fa-edit
+                    %div
+                      =I18n.t(:header_profile)
           .col-md-1
-            .language.pull-left
+            .language
               - if I18n.locale != :en
                 = link_to "English", params.merge(locale: "en")
               - if I18n.locale != :ar

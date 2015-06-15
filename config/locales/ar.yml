@@ -538,6 +538,10 @@ ar:
   previous_label: "السابق"
   next_label: "التالى"
   
+  # ba logo
+  bibalex: "مكتبة الإسكندرية"
+  ba_logo: "balogo-white.svg"
+  
   #languages
   english: English
   arabic: عربى
