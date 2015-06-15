@@ -70,10 +70,6 @@
           %i.fa.fa-li.fa-book
           %small
             =link_to I18n.t(:book_details_read), "/books/#{params[:id]}/read"
-        %li
-          %i.fa.fa-li.fa-info
-          %small
-            =link_to I18n.t(:book_details_details), "/books/#{params[:id]}"
         - if logged_in?
           %li
             %i.fa.fa-li.fa-plus-square
