@@ -525,6 +525,11 @@ en:
   # pagination
   previous_label: "Previous"
   next_label: "Next"  
+  
+  # ba logo
+  bibalex: "Bibliotheca Alexandrina"
+  ba_logo: "balogo-white.svg"
+  
    
   #languages
   english: English
