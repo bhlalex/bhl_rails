@@ -52,13 +52,12 @@ Bhl::Application.routes.draw do
     match "browse/:type" => "browse#show"
     match "browse/:type/:char" => "browse#show"
     match "/browseautocomplete" => "browse#autocomplete"
-    resources :users, only: [:new, :create, :update, :edit]
+    resources :users, only: [:new, :create, :update, :edit] 
     post  "users/recover_password"
     post  "users/reset_password_action"
     get   "users/logout"
     get   "users/login"
     get   "users/forgot_password"
-    get   "users/change_password"
     get   "users/my_account"
     post  "users/validate"
     match "users/activate/:guid/:activation_code" => "users#activate"
@@ -67,9 +66,7 @@ Bhl::Application.routes.draw do
     match "users/reset_password/:guid/:activation_code" => "users#reset_password"
     match "/rate" => "users#rate"
     match "/rate_collection" => "users#rate_collection"
-    match "get_user_profile_photo" => "users#get_user_profile_photo"
-  
-  
+    match "get_user_profile_photo" => "users#get_user_profile_photo"  
     
     # remove when how page is ready
     root :to => 'pages#home'
@@ -97,7 +94,6 @@ Bhl::Application.routes.draw do
     get "darviewer/book"
     get "darviewer/annotations"
     
-    get "log_activities/index"
-    
+    get "log_activities/index"    
   end
 end

@@ -1,0 +1,67 @@
+:javascript
+  function confirmDelete(){
+    var r= confirm("#{I18n.t(:delete_photo_confirm)}");
+    if (r)
+      loadXMLDoc(1);
+    else{
+      $('#delete_photo').removeAttr('checked');
+      return false;
+      }
+  }
+  function loadXMLDoc(is_delete){
+      var xmlhttp;
+      if (window.XMLHttpRequest)
+      {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+      }
+      else
+      {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xmlhttp.onreadystatechange=function()
+      {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+          if (is_delete == 1)
+            alert("#{I18n.t(:delete_photo_flash)}");
+          document.getElementById("photo").innerHTML=xmlhttp.responseText;
+        }
+      }  
+      xmlhttp.open("GET","/get_user_profile_photo?id=#{params[:id]}&is_delete="+ is_delete,true);
+      xmlhttp.send();
+    }
+      loadXMLDoc(0)
+
+.col-md-8.column
+  %h4
+    = I18n.t(:user_profile_title)
+    %small
+      - if session["user_id"] == @user.id
+        = link_to :controller => :users, :action => :edit, :id => @user.id do
+          %i.fa.fa-edit
+          = I18n.t(:edit_collection)
+  %hr
+  #photo
+  .div
+    %span.col-md-3.text-right
+      %strong
+        = I18n.t(:real_name)
+    %span.col-md-6
+      = @user.real_name
+    %span.col-md-3.text-right
+      %strong
+        = I18n.t(:username)
+    %span.col-md-6
+      = @user.username
+    %span.col-md-3.text-right
+      %strong
+        = I18n.t(:member_since)
+    %span.col-md-6
+      = @user.created_at.to_s
+    %span.col-md-3.text-right
+      %strong
+        = I18n.t(:last_login)
+    %span.col-md-6
+      = @user.last_login.to_s
+               

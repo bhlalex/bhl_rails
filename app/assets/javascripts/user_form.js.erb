@@ -1,0 +1,45 @@
+$(document).ready(function() {
+  $( "#change_password" ).click(function() {
+    $( "#change_password").toggle();
+	$( "#change_password_block").toggle();
+  });
+	  
+  $("#clear").click(function() {
+    $('#new_user input[type=text]').each(function() {
+	  $(this).attr("value", '');
+	});
+	
+	$('#photo_ext_error_message').removeClass("visible_error_msg");
+	$('#photo_size_error_message').removeClass("visible_error_msg");
+	$('#photo_ext_error_message').addClass("invisible_error_msg");
+	$('#photo_size_error_message').addClass("invisible_error_msg");
+  });
+});
+    
+function check_image_size() {  
+  var is_file_valid = true;
+  if($('#photo_name')[0] != null){   
+    if($('#photo_name')[0].files[0] != null){           
+      var ext = $('#photo_name').val().split('.').pop().toLowerCase();
+      var size = $('#photo_name')[0].files[0].size;
+      var photo_size_limit = "<%= UPLOADED_PHOTO_MAX_SIZE * 1000 * 1000 %>";    
+      if($.inArray(ext, ['gif','png','jpg','jpeg', 'bmp']) == -1) {              
+        $('#photo_ext_error_message').removeClass("invisible_error_msg");
+        $('#photo_ext_error_message').addClass("visible_error_msg");
+        $('#photo_size_error_message').removeClass("visible_error_msg");
+        $('#photo_size_error_message').addClass("invisible_error_msg");
+        is_file_valid = false;
+      }
+      else{          
+        if(size > photo_size_limit){            
+          $('#photo_ext_error_message').removeClass("visible_error_msg");
+          $('#photo_ext_error_message').addClass("invisible_error_msg");
+          $('#photo_size_error_message').removeClass("invisible_error_msg");
+          $('#photo_size_error_message').addClass("visible_error_msg");
+          is_file_valid = false;
+        } 
+      }
+    }
+  }
+    return is_file_valid;
+}

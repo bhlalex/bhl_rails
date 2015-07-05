@@ -1,0 +1,58 @@
+:javascript
+  function check_login_paramters() {
+  var is_input_valid = true;
+  if (($('#username').val() == null) || ($('#username').val() == '')){
+    $('#username_error').removeClass("invisible_error_msg");
+    $('#username_error').addClass("visible_error_msg");
+    is_input_valid = false;
+  }
+  
+  if (($('#password').val() == null) || ($('#password').val() == '')){
+    $('#password_error').removeClass("invisible_error_msg");
+    $('#password_error').addClass("visible_error_msg");
+    is_input_valid = false;
+  }
+  if (($('#recaptcha_response_field').val() != undefined) && (($('#recaptcha_response_field').val() == null) || ($('#recaptcha_response_field').val() == ''))){
+    $('#captcha_error').removeClass("invisible_error_msg");
+    $('#captcha_error').addClass("visible_error_msg");
+    is_input_valid = false;
+  }
+    return is_input_valid;
+  }
+.col-md-8.column
+  %div
+    %fieldset
+      %legend
+        = I18n.t(:header_login)
+      .form-horizontal
+        = form_for :user, :url => users_validate_path, :builder => FormHelper::BHLFormBuilder, :html => {:onsubmit => "return check_login_paramters();"} do |f|
+          - unless params[:return_to].blank?
+            = f.hidden_field :return_to, :value => params[:return_to]
+          .form-group
+            = f.label I18n.t(:username), :class => 'col-sm-2 control-label'
+            .col-sm-10
+              .invisible_error_msg#username_error
+                = "#{I18n.t(:empty_user_name_error)}"
+              = f.text_field :username, { :class => "required form-control" , :id => "username"}
+          .form-group
+            = f.label I18n.t(:password), :class => 'col-sm-2 control-label'
+            .col-sm-10
+              .invisible_error_msg#password_error
+                = "#{I18n.t(:empty_password_error)}"
+              = f.password_field :password, { :type => "password",:class => "required form-control" , :id => "password"}
+          - if @verify_captcha
+            .form-group
+              = f.label :recaptcha, raw(t('recaptcha')), :class => 'required col-sm-2 control-label'
+              .col-sm-10
+                .invisible_error_msg#captcha_error
+                  = "#{I18n.t(:empty_verfication_error)}"
+                = recaptcha_tags(display: {theme: 'clean'})
+          .form-group
+            .col-sm-2
+            .col-sm-10
+              = f.submit I18n.t('header_login'), :class => "btn btn-default", :id => "submit"
+        %hr
+          %div
+            = link_to I18n.t(:forgot_password_link), users_forgot_password_path
+            \/ #{I18n.t(:not_member)}
+            = link_to I18n.t(:header_signup), new_user_path

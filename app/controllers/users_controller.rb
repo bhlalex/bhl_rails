@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-  layout 'users'
   require 'will_paginate/array'
 
   include SolrHelper
@@ -7,11 +6,13 @@ class UsersController < ApplicationController
   include BooksHelper
   include ApplicationHelper
   include ActivitiesHelper
+  
+  before_filter :authenticate_user, only: [:edit, :update]
+  before_filter :redirect_if_already_logged_in, only: [:validate, :login, :recover_password, :forgot_password,
+                                                       :reset_password_action, :reset_password, :create, :new]
+  
   # GET /users/new
   def new
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    @page_title = I18n.t(:sign_up)
-    @action = "signup"
     if session[:failed_user]
       @user = User.new(session[:failed_user])
       @user.valid?
@@ -19,278 +20,85 @@ class UsersController < ApplicationController
     else
        @user = User.new
     end
-    @verify_captcha = true
   end
 
   # POST /users
   def create
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
     @user = User.new(params[:user])
 
     if @user.valid? && verify_recaptcha
-      @user.save
-      #url = "#{request.host}:#{request.port}/users/activate/#{@user.guid}/#{@user.verification_code}"
-      url = "#{request.host}/users/activate/#{@user.guid}/#{@user.verification_code}"
-      Notifier.user_verification(@user, url).deliver
-      #log_in(@user)
-      flash.now[:notice] = I18n.t(:registration_welcome_message, :real_name => @user.real_name)
-      flash.keep         
-       # redirect_to :controller => :users, :action => :show, :id => @user.id      
-      redirect_to root_path      
+      handle_successful_registration
     else
-      @verify_captcha = true
-      @page_title = I18n.t(:sign_up)
-      @user.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha
-      @action = "signup"
-      session[:failed_user] = params[:user]
-      # render :action => :new
-      redirect_to :controller => :users, :action => :new
-       # redirect_to new_user_path(:user => @user), :notice => 'items updated'
+      handle_failed_registration
     end
   end
 
   # GET /users/forget_password
   def forgot_password
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    @page_title = I18n.t(:forgot_password_title)
+    
   end
 
   # GET /users/activate/:guid/:activation_code
   def activate
     @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
-    if @user.nil?      
-      flash[:error] = I18n.t(:activation_failed)
-      flash.keep
-      return redirect_to root_path
-    end
+    return redirect_to root_path, flash: { error: I18n.t(:activation_failed) } if @user.nil?
     if @user.active
-      flash[:error] = I18n.t(:account_already_active)
-      flash.keep
-      redirect_to root_path
+      redirect_to root_path, flash: { error: I18n.t(:account_already_active) }
     else
-      @user.activate
-      flash.now[:notice] = I18n.t(:account_activated, :real_name => @user.real_name)
-      flash.keep
-      Notifier.user_activated(@user).deliver
-      if is_loggged_in?
-        log_out
-        log_in(@user) # to make sure everything is loaded properly
-      end
-      redirect_to root_path
+      activate_user
     end
   end
 
   # GET /users/:id
   def show
-    @id = params[:id]
-    @id = session[:user_id] if @id.nil?
-    return redirect_to root_path if @id.nil?
-    @user = User.find_by_id(@id)
-    return redirect_to root_path if @user.nil?
-    current_user = false
-    current_user = true if session["user_id"].to_i == params[:id].to_i
-
-    @can_edit = @id.to_i == session[:user_id]
-
-    @tab = params[:tab] != nil ? params[:tab] : "profile"
-
-    @page_title = @user.real_name
-
+    load_user
     if @tab == "history"
-      if authenticate_user
-        @total_number = UserBookHistory.count(:conditions => "user_id = #{@user.id}")
-        @page = params[:page] ? params[:page].to_i : 1
-        
-        @history = UserBookHistory.where(:user_id => @user).paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
-        
-
-        if @history.length > 0
-          @recently_viewed_volume = Volume.find_by_id((@history.first).volume)
-        end
-        
-        if @history.count == 0 and @page > 1
-          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history", :page => params[:page].to_i - 1
-        end
-        
-        @url_params = params.clone
-      end
+      load_history_tab
     elsif @tab == "annotations"
-      if authenticate_user
-        # load user annotations
-        @page = params[:page] ? params[:page].to_i : 1
-        # offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
-        @total_number = Annotation.count(:conditions => "user_id = #{@user.id}")
-        # @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
-        
-        # @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
-        @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).paginate(:page => @page, :per_page => TAB_GALLERY_PAGE_SIZE)
-        @url_params = params.clone
-      end
-      # end
+      load_annotations_tab
     elsif @tab == "queries"
-      if authenticate_user
-        # load user saved queries
-        @total_number = @user.queries.count()
-        @page = params[:page] ? params[:page].to_i : 1
-        @queries = @user.queries.paginate(:page => @page, :per_page => TAB_PAGE_SIZE).order('created_at DESC')
-        @url_params = params.clone
-      end
-      # end
-
-      elsif @tab == "activity"
-        collections_cond = "is_public = true AND user_id = #{@user.id}"
-        collections_cond = "user_id = #{@user.id}" if @user.id == session[:user_id]
-        @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
-                                                FROM((SELECT id, count(*) AS count
-                                                FROM collections
-                                                WHERE #{collections_cond})
-                                                UNION
-                                                (SELECT id, count(*) AS count
-                                                FROM volume_ratings
-                                                WHERE user_id = #{@user.id})
-                                                UNION
-                                                (SELECT id, count(*) AS count
-                                                FROM collection_ratings
-                                                WHERE user_id = #{@user.id})
-                                                UNION
-                                                (SELECT id, count(*) AS count
-                                                FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
-                                                and user_id = #{@user.id})
-                                                ) result")
-        # applying pagination on log_records array
-        @page = params[:page] ? params[:page].to_i : 1
-        limit = TAB_PAGE_SIZE
-        offset = (@page > 1) ? (@page - 1) * limit : 0
-        # sql_stmt : to select current user activities including creating new collection,
-        # rating book or collection
-        # and also commented on book or collection ordered by creation time
-        sql_stmt = "SELECT
-                    result.table_type AS table_type,
-                    result.id AS id,
-                    result.time AS time
-                    FROM((SELECT 'collection' AS table_type,
-                    id AS id,
-                    created_at AS time
-                    FROM collections
-                    WHERE #{collections_cond})
-                    UNION
-                    (SELECT
-                    'volume_ratings' AS table_type,
-                    id AS id,
-                    created_at AS time
-                    FROM volume_ratings
-                    WHERE user_id = #{@user.id})
-                    UNION
-                    (SELECT
-                    'collection_ratings' AS table_type,
-                    id AS id,
-                    created_at AS time
-                    FROM collection_ratings
-                    WHERE user_id = #{@user.id})
-                    UNION
-                    (SELECT
-                    'comments' AS table_type,
-                    id AS id,
-                    created_at AS time
-                    FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
-                    and user_id = #{@user.id})
-                    ) result
-                    ORDER BY time DESC LIMIT #{offset}, #{limit};"
-      # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
-      result = get_log_activity(sql_stmt)
-      @log_records= WillPaginate::Collection.create(@page, TAB_PAGE_SIZE, @total_number[0][:count].to_i) do |pager|
-        pager.replace result
-      end
-      @url_params = params.clone
-
+     load_queries_tab
+    elsif @tab == "activity"
+      load_activities_tab
     elsif @tab == "collections"
-      @page = params[:page] ? params[:page].to_i : 1
-      if current_user
-        @total_number = Collection.count(:conditions => "user_id = #{@user.id}")
-        @collections = Collection.where("user_id = #{@id}").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
-      else
-        @total_number = Collection.count(:conditions => "user_id = #{@user.id} AND is_public = true")
-        @collections = Collection.where("user_id = #{@id} and is_public = true").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
-      end
-      @url_params = params.clone
+      load_collections_tab
     end
   end
 
   # POST /users/recover_password
   def recover_password
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    #if verify_recaptcha
+    if verify_recaptcha
       @email = params[:user][:email]
-      return redirect_to users_forgot_password_path unless @email
-
-      if @email.blank?
-        flash.now[:error] = I18n.t(:invalid_email_address)
-        flash.keep
-        redirect_to users_forgot_password_path
-      else
-        @user = User.find_by_email(@email)
-
-        if @user.nil?
-          flash.now[:error] = I18n.t(:user_not_found_by_email_address, :email => @email)
-          flash.keep
-          redirect_to users_forgot_password_path
-        else
+      return redirect_to users_forgot_password_path, flash: { error: I18n.t(:invalid_email_address) } if @email.blank?
+      @user = User.find_by_email(@email)
+      return redirect_to users_forgot_password_path, flash: { error: I18n.t(:user_not_found_by_email_address, :email => @email) } if @user.nil?
           # I am changing activation code, then send an email with a link to reset password
-          @user.change_activation_code
-          reset_password_url = "#{request.host}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
-          #reset_password_url = "#{request.host}:#{request.port}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
-           begin
-             Notifier.user_reset_password_verification(@user, reset_password_url).deliver
-             flash.now[:notice] = I18n.t(:recover_password_success)
-             flash.keep
-           rescue Exception  => e
-             flash[:notice] = "email sending failed #{e.message}"
-           end
-          redirect_to :controller => :users, :action => :login
-        end
-      end
-    #else
-      #flash.now[:error] = I18n.t(:form_validation_errors_for_attribute_assistive)
-      #flash.keep
-      #redirect_to users_forgot_password_path
-    #end
+      @user.change_activation_code          
+      redirect_to({ controller: 'users', action: 'login' }, flash: send_recover_password_email)
+    else
+      redirect_to users_forgot_password_path, flash: { error: I18n.t(:form_validation_errors_for_attribute_assistive) }
+    end
   end
 
   # GET /users/reset_password/:guid/:activation_code
   def reset_password
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])
-    if @user.nil?
-      flash[:error] = I18n.t(:reset_password_failed)
-      flash.keep
-      return redirect_to root_path
-    end
-
-    @page_title = I18n.t(:reset_password)
+    @user = User.find_by_guid_and_verification_code(params[:guid], params[:activation_code])    
+    return redirect_to root_path, flash: { error: I18n.t(:reset_password_failed) } if @user.nil?
   end
 
   #POST /users/reset_password_action
   def reset_password_action
-    # I need to double check
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
+    # I need to double check    
     @user = User.find_by_guid_and_verification_code(params[:user][:guid], params[:user][:activation_code])
-    if @user.nil?
-      flash[:error] = I18n.t(:reset_password_failed)
-      flash.keep
-      return redirect_to root_path
-    end
+    return redirect_to root_path, flash: { error: I18n.t(:reset_password_failed) } if @user.nil?
 
     @user.entered_password = params[:user][:entered_password]
     @user.entered_password_confirmation = params[:user][:entered_password_confirmation]
 
     if @user.valid? && @user.save
-      flash[:notice] = I18n.t(:reset_password_success)
-      flash.keep
-      redirect_to :controller => :users, :action => :login
+      redirect_to({ controller: 'users', action: 'login' }, flash: { notice: I18n.t(:reset_password_success) })
     else
-      flash[:error] = @user.errors.full_messages.join("<br>")
-      flash.keep
-      return redirect_to "/users/reset_password/#{params[:user][:guid]}/#{params[:user][:activation_code]}"
+      return redirect_to "/users/reset_password/#{params[:user][:guid]}/#{params[:user][:activation_code]}", flash: { error: @user.errors.full_messages.join("<br>") }
     end
   end
 
@@ -302,114 +110,42 @@ class UsersController < ApplicationController
 
   # GET /users/login
   def login
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    @page_title = I18n.t(:sign_in)
     session[:login_attempts] ||= 0
     @verify_captcha = true if (session[:login_attempts].to_i  >= LOGIN_ATTEMPTS)
   end
 
   # POST /users/validate
   def validate
-    return redirect_to :controller => :users, :action => :show, :id => session[:user_id] if is_loggged_in?
-    username = params[:user][:username]
-    password = params[:user][:password]
     if (session[:login_attempts].to_i >= LOGIN_ATTEMPTS) && !(verify_recaptcha)
-    	flash.now[:error] = I18n.t(:captcha_error)
-    	flash.keep
-      redirect_to :controller => :users, :action => :login
+      redirect_to controller: 'users', action: 'login', flash: { error: I18n.t(:captcha_error) }
     else
-      @user = User.authenticate(username, password)
+      @user = User.authenticate(params[:user][:username], params[:user][:password])
       if @user.nil?
-        flash.now[:error] = I18n.t(:sign_in_unsuccessful_error)
-        flash.keep
-        session[:login_attempts] = session[:login_attempts].to_i + 1
-        redirect_to :controller => :users, :action => :login
+        failed_validation
       else
-        log_in(@user)
-        flash.now[:notice] = I18n.t(:sign_in_successful_notice)
-        flash.keep
-        if params[:return_to].blank?
-          redirect_to :controller => :users, :action => :show, :id => @user.id
-        else
-          redirect_to params[:return_to]
-        end
+       successful_validation
       end
     end
   end
 
   # GET /users/:id/edit
   def edit
-    if authenticate_user
-      @page_title = I18n.t(:modify_profile)
-      @action = "modify"
-      @verify_captcha = false
-      @user = User.find_by_id(params[:id])
-      @user.email_confirmation = @user.email
-    end
+    @user = User.find_by_id(params[:id])
+    @user.email_confirmation = @user.email
   end
 
   #PUT /users
   def update
-    if authenticate_user
-      @user = User.find(params[:id])
-      user_attr = params[:user]
-      
-        if params[:test] != true
-          if (!(params[:user][:photo_name].nil?))
-            file = user_attr[:photo_name].original_filename
-            if(file[file.length-5].chr == '.')
-              user_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
-            else
-              user_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
-            end
-          end
-        end
-    if((!(user_attr[:entered_password].nil?) && !(user_attr[:entered_password].blank?)) || (!(user_attr[:password_confirmation].nil?) && !(user_attr[:password_confirmation].blank?)))
-      if((user_attr[:old_password].nil?) || (user_attr[:old_password].blank?))
-        flash.now[:error] = I18n.t("old_password_required")
-                  flash.keep
-                  @action = "modify"
-                  @user.email_confirmation = @user.email
-                  params[:entered_password] = nil
-                  params[:password_confirmation] = nil
-                  render :action => :edit
-                  return
-      end
+    @user = User.find(params[:id])
+    @user_attr = params[:user]
+    set_user_photo_name
+    valid_old_password = is_old_password_correct?
+    if valid_old_password && @user.update_attributes(@user_attr)
+      handle_successful_update
+    else
+      handle_failed_update(valid_old_password)
     end
-
-      if(!(user_attr[:old_password].nil?) && !(user_attr[:old_password].blank?))
-        if(!(User.authenticate(user_attr[:username],user_attr[:old_password])))
-          flash.now[:error] = I18n.t("invalid_old_password")
-          flash.keep
-          @action = "modify"
-          @user.email_confirmation = @user.email
-          params[:entered_password] = nil
-          params[:password_confirmation] = nil
-          render :action => :edit
-          return
-        end
-      end
-
-      #          if params[:user][:entered_password].blank? && params[:user][:entered_password_confirmation].blank?
-      #            params[:user][:entered_password] = nil
-      #            params[:user][:entered_password_confirmation] = nil
-      #          end
-      if @user.update_attributes(user_attr)
-        log_out
-        log_in(@user) # to make sure everything is loaded properly
-        flash.now[:notice] = I18n.t("changes_saved")
-        flash.keep
-        return redirect_to :controller => :users, :action => :show, :id => params[:id]
-      else
-        flash.keep
-        params[:entered_password] = nil
-        params[:password_confirmation] = nil
-        @user.email_confirmation = @user.email
-        @action = "modify"
-        render :action => :edit
-      end
-    end
-  end
+  end  
 
   def get_user_profile_photo
      @user = User.find(params[:id])
@@ -502,5 +238,218 @@ class UsersController < ApplicationController
       return false
     end
     return true
+  end
+  
+  def handle_successful_registration
+    @user.save
+    send_registration_confirmation_email
+    redirect_to root_path, flash: { notice: I18n.t(:registration_welcome_message, real_name: @user.real_name) }
+  end
+  
+  def handle_failed_registration          
+    @user.errors.add('recaptcha', I18n.t("form_validation_errors_for_attribute_assistive")) unless verify_recaptcha
+    session[:failed_user] = params[:user]
+    redirect_to controller: "users", action: "new"
+  end
+  
+  def send_registration_confirmation_email
+    url = "#{request.host}/users/activate/#{@user.guid}/#{@user.verification_code}"
+    Notifier.user_verification(@user, url).deliver
+  end
+  
+  def set_user_photo_name
+    unless params[:test]
+      if params[:user][:photo_name]
+        image_ext = File.extname(@user_attr[:photo_name].original_filename)
+        @user_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}#{image_ext}"
+      end
+    end
+  end
+  
+  def is_old_password_correct?
+    return false if(@user_attr[:old_password] && !(User.authenticate(@user_attr[:username],@user_attr[:old_password])))
+    return true    
+  end
+  
+  def handle_successful_update
+    log_out
+    log_in(@user) # to make sure everything is loaded properly
+    return redirect_to({ controller: "users", action: "show", id: params[:id] }, flash: { notice: I18n.t("changes_saved") })
+  end
+  
+  def handle_failed_update(valid_old_password)
+    params[:entered_password] = nil
+    params[:password_confirmation] = nil
+    @user.email_confirmation = @user.email
+    flash[:error] =  I18n.t(:invalid_old_password) unless valid_old_password
+    render action: 'edit'
+  end
+  
+  def failed_validation
+    session[:login_attempts] = session[:login_attempts].to_i + 1
+    return redirect_to({ controller: 'users', action: 'login' }, flash: { error: I18n.t(:sign_in_unsuccessful_error) })
+  end
+  
+  def successful_validation
+    log_in(@user)
+    if params[:return_to].blank?
+      return redirect_to({ controller: 'users', action: 'show', id: @user.id }, flash: { notice: I18n.t(:sign_in_successful_notice) })
+    else
+      return redirect_to params[:return_to], flash: { notice: I18n.t(:sign_in_successful_notice) }
+    end
+  end
+  
+  def activate_user
+    @user.activate
+    Notifier.user_activated(@user).deliver
+    if is_loggged_in?
+      log_out
+      log_in(@user) # to make sure everything is loaded properly
+    end
+    redirect_to root_path, flash: { notice: I18n.t(:account_activated, real_name: @user.real_name) }
+  end
+  
+  def send_recover_password_email
+    reset_password_url = "#{request.host}/users/reset_password/#{@user.guid}/#{@user.verification_code}"
+    begin
+      Notifier.user_reset_password_verification(@user, reset_password_url).deliver
+      { notice: I18n.t(:recover_password_success) }
+    rescue Exception  => e
+      { notice: "email sending failed #{e.message}" }
+    end
+  end
+  
+  def redirect_if_already_logged_in
+    return redirect_to controller: 'users', action: 'show', id: session[:user_id] if is_loggged_in?
+  end
+  
+  def load_user
+    @user = User.find_by_id(params[:id])
+    return redirect_to root_path unless @user
+    @tab = params[:tab].nil? ? "profile" : params[:tab]
+  end
+  
+  def load_history_tab
+    if authenticate_user
+      @total_number = UserBookHistory.count(:conditions => "user_id = #{@user.id}")
+      @page = params[:page] ? params[:page].to_i : 1
+      
+      @history = UserBookHistory.where(:user_id => @user).paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
+      
+  
+      if @history.length > 0
+        @recently_viewed_volume = Volume.find_by_id((@history.first).volume)
+      end
+      
+      if @history.count == 0 and @page > 1
+        redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history", :page => params[:page].to_i - 1
+      end
+      
+      @url_params = params.clone
+    end
+  end
+  
+  def load_annotations_tab
+    if authenticate_user
+      # load user annotations
+      @page = params[:page] ? params[:page].to_i : 1
+      # offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
+      @total_number = Annotation.count(:conditions => "user_id = #{@user.id}")
+      # @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
+      
+      # @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
+      @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).paginate(:page => @page, :per_page => TAB_GALLERY_PAGE_SIZE)
+      @url_params = params.clone
+    end
+      # end
+  end
+  
+  def load_queries_tab
+   if authenticate_user
+      # load user saved queries
+      @total_number = @user.queries.count()
+      @page = params[:page] ? params[:page].to_i : 1
+      @queries = @user.queries.paginate(:page => @page, :per_page => TAB_PAGE_SIZE).order('created_at DESC')
+      @url_params = params.clone
+    end
+    # end
+  end
+  
+  def load_activities_tab
+    collections_cond = "is_public = true AND user_id = #{@user.id}"
+      collections_cond = "user_id = #{@user.id}" if @user.id == session[:user_id]
+      @total_number = LogActivities.find_by_sql("SELECT SUM(result.count) AS count
+                                              FROM((SELECT id, count(*) AS count
+                                              FROM collections
+                                              WHERE #{collections_cond})
+                                              UNION
+                                              (SELECT id, count(*) AS count
+                                              FROM volume_ratings
+                                              WHERE user_id = #{@user.id})
+                                              UNION
+                                              (SELECT id, count(*) AS count
+                                              FROM collection_ratings
+                                              WHERE user_id = #{@user.id})
+                                              UNION
+                                              (SELECT id, count(*) AS count
+                                              FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                                              and user_id = #{@user.id})
+                                              ) result")
+      # applying pagination on log_records array
+      @page = params[:page] ? params[:page].to_i : 1
+      limit = TAB_PAGE_SIZE
+      offset = (@page > 1) ? (@page - 1) * limit : 0
+      # sql_stmt : to select current user activities including creating new collection,
+      # rating book or collection
+      # and also commented on book or collection ordered by creation time
+      sql_stmt = "SELECT
+                  result.table_type AS table_type,
+                  result.id AS id,
+                  result.time AS time
+                  FROM((SELECT 'collection' AS table_type,
+                  id AS id,
+                  created_at AS time
+                  FROM collections
+                  WHERE #{collections_cond})
+                  UNION
+                  (SELECT
+                  'volume_ratings' AS table_type,
+                  id AS id,
+                  created_at AS time
+                  FROM volume_ratings
+                  WHERE user_id = #{@user.id})
+                  UNION
+                  (SELECT
+                  'collection_ratings' AS table_type,
+                  id AS id,
+                  created_at AS time
+                  FROM collection_ratings
+                  WHERE user_id = #{@user.id})
+                  UNION
+                  (SELECT
+                  'comments' AS table_type,
+                  id AS id,
+                  created_at AS time
+                  FROM comments WHERE number_of_marks < #{MAX_NO_ABUSE}
+                  and user_id = #{@user.id})
+                  ) result
+                  ORDER BY time DESC LIMIT #{offset}, #{limit};"
+    # call get_log_activity(sql_stmt) to ececute sql stmt and returns array of activity records
+    result = get_log_activity(sql_stmt)
+    @log_records= WillPaginate::Collection.create(@page, TAB_PAGE_SIZE, @total_number[0][:count].to_i) do |pager|
+      pager.replace result
+    end
+      @url_params = params.clone
+  end
+  
+  def load_collections_tab    
+    @page = params[:page] ? params[:page].to_i : 1
+      if @user.id.to_i == session[:user_id]
+        @collections = @user.collections.paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
+      else
+        # @total_number = Collection.count(:conditions => "user_id = #{@user.id} AND is_public = true")
+        @collections = Collection.where("user_id = #{@user.id} and is_public = true").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
+      end
+      @url_params = params.clone
   end
 end

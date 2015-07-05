@@ -10,6 +10,8 @@ class User < ActiveRecord::Base
   has_many :book_ratings
   has_many :comments
   has_many :collection_ratings
+  has_many :collections
+  has_many :public_collections
   before_create :generate_uuid
   mount_uploader :photo_name, ImageUploader
   validate :file_size
@@ -21,10 +23,9 @@ class User < ActiveRecord::Base
   @email_format_re = %r{^(?:[_\+a-z0-9-]+)(\.[_\+a-z0-9-]+)*@([a-z0-9-]+)(\.[a-zA-Z0-9\-\.]+)*(\.[a-z]{2,4})$}i
 
   # Validations
-  validates :entered_password, :presence => true,
-  :confirmation => true,
-  :length => {:within => 4..16},
-  :if => :password_validation_required?
+  validates :entered_password, :presence => true, :confirmation => true, :length => {:within => 4..16}, :if => :password_validation_required?
+  validates :old_password, :presence => true, :on => :update, :if => :change_password_required?
+  
   validates :email, :presence => true,
   :confirmation => true,
   :format => @email_format_re,
@@ -132,5 +133,9 @@ class User < ActiveRecord::Base
 
   def password_validation_required?
   password.blank? || password.nil? || ! self.entered_password.blank? || ! self.entered_password_confirmation.blank?
+  end
+  
+  def change_password_required?
+    entered_password || entered_password_confirmation
   end
 end

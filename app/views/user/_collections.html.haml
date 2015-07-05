@@ -1,9 +1,9 @@
-- if @collections.count > 0
+- if @total_number > 0
   .col-md-8.column  
     %h4
       = I18n.t(:user_collection_title)
       %span.badge
-        = @collections.count
+        = @total_number
     %hr
     -@collections.each do |item|
       :javascript

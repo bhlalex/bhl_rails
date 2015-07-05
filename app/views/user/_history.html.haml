@@ -1,0 +1,73 @@
+- if @total_number > 0
+  .col-md-8.column
+    %h4
+      = I18n.t(:user_history_title)
+      %span.badge
+        = @total_number
+    %hr
+    - @number = 0
+    - @history.each do |item|
+      - @number = @number + 1
+      - @vol = Volume.find_by_id(item.volume)
+      :javascript
+        $(document).ready(function(){
+          $("#starsidelink_#{@vol[:job_id]}").jRating({
+            isDisabled : true,
+            bigStarsPath: "/images_#{I18n.locale}/#{I18n.t(:stars_grey)}"
+          });
+        });
+      - @book = solr_search("vol_jobid:#{@vol.job_id}","bok_title, views, rate, author")
+      .row
+        .col-md-2.no-padding
+          - @coverno = @number
+          - @covertitle = @book[:bok_title][0]
+          - if(@book['author'] != nil)
+            - @coverauthor = @book['author'][0]
+          - else
+            - @coverauthor = ""    
+          = render :partial => "books/covers" 
+        .col-md-7
+          %h4
+            = link_to "#{@book[:bok_title][0]}", {:controller => :books, :action => :show, :id => @vol.job_id, :tab => nil}
+          .date.text-muted
+            %small
+              %b
+                = I18n.t(:user_history_viewed_on)
+              = item.updated_at 
+        .col-md-3.controls
+          
+          
+          %ul.fa-ul.tools
+            - if (item.user_id == session[:user_id])
+              %li
+                %i.fa.fa-li.fa-trash-o
+                %small
+                  = link_to I18n.t(:delete), {:controller => :user_search_history, :action => :remove_book_history, :volume_id => @vol[:id],
+                     :user_id => item[:user_id],:id => item.id, :page => @page},
+                     :onclick => "return confirmDelete(\"#{I18n.t(:remove_book_from_history_confirm)}\")"
+            %li
+              %i.fa.fa-li.fa-book
+              %small
+                = link_to "#{I18n.t(:book_details_read)}" ,
+                  {:controller => :books, :action => :show, :id => @vol.job_id, :tab => "read"}
+            %li
+              %i.fa.fa-li.fa-info
+              %small
+                = link_to "#{I18n.t(:book_details_details)}" , 
+                  {:controller => :books, :action => :show, :id => @vol.job_id, :tab => nil}    
+          .rate
+            
+            - if @book['rate'] != 0.0
+              .starsidelink{:id => "starsidelink_#{@vol.job_id}", :data => "#{@book['rate']}"}
+          %span.text-muted.pull-right
+            %small
+            = "#{I18n.t(:sidelinks_views, :count => @book[:views])} "
+              
+        .clearfix
+      %hr
+    %div
+      .pagination-centered
+        = will_paginate @history, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
+- else
+  %h4
+    = I18n.t(:profile_no_history_found)            
