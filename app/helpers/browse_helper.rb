@@ -2,7 +2,7 @@ module BrowseHelper
   def get_prefixes_of_results(list)
     arr = []
     list.each do |item|
-      arr << item.value[0,1].upcase
+      arr << item.value[0,1].upcase unless item.value[0,1].upcase.empty?
     end       
     arr.uniq.sort
   end
