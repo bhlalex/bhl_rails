@@ -542,6 +542,11 @@ ar:
   bibalex: "مكتبة الإسكندرية"
   ba_logo: "balogo-white.svg"
   
+  will_paginate:
+    previous_label: "&#8594; السابق"
+    next_label: "التالى &#8592;"
+    page_gap: "&hellip;"
+  
   #languages
   english: English
   arabic: عربى

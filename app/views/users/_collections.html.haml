@@ -49,7 +49,7 @@
         %hr
     %div
       .pagination-centered
-        = will_paginate @collections, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
+        = will_paginate @collections
 - else
   %h4
     = I18n.t(:profile_no_collections_found)     

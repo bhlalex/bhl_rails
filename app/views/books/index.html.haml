@@ -30,7 +30,7 @@
           =render :partial => "books/listresult"
       %div
         .pagination-centered
-          = will_paginate @collections, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
+          = will_paginate @collections
     - else
       .well-sm.center-block
         %h2
