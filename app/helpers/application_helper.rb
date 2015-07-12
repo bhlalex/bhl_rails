@@ -80,7 +80,6 @@ module ApplicationHelper
         end
       end     
     end
-    query = "*:*" if (is_empty_string) # if is_empty_string then apply default search
     query
   end
   def books_count
