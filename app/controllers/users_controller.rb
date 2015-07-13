@@ -108,7 +108,7 @@ class UsersController < ApplicationController
           @recently_viewed_volume = Volume.find_by_id((@history.first).volume)
         end
         
-        if @history.count == 0 and @page > 1
+        if @history.blank? and @page > 1
           redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history", :page => params[:page].to_i - 1
         end
         
@@ -133,6 +133,9 @@ class UsersController < ApplicationController
         @total_number = @user.queries.count()
         @page = params[:page] ? params[:page].to_i : 1
         @queries = @user.queries.paginate(:page => @page, :per_page => TAB_PAGE_SIZE).order('created_at DESC')
+        if @queries.blank? and @page > 1
+          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "queries", :page => params[:page].to_i - 1
+        end
         @url_params = params.clone
       end
       # end
@@ -212,6 +215,9 @@ class UsersController < ApplicationController
         @total_number = Collection.count(:conditions => "user_id = #{@user.id} AND is_public = true")
         @collections = Collection.where("user_id = #{@id} and is_public = true").paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
       end
+       if @collections.blank? and @page > 1
+          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "collections", :page => params[:page].to_i - 1
+        end
       @url_params = params.clone
     end
   end
