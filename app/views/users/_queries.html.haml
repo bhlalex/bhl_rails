@@ -1,9 +1,9 @@
-- if @total_number > 0
+- if @queries.count > 0
   .col-md-8.column
     %h4
       = I18n.t(:user_queries_title)
       %span.badge
-        = @total_number
+        = @queries.count
   %hr
   .col-md-8
     %ul.list-group
@@ -12,15 +12,14 @@
           = "#{parse_query(query.string)}".html_safe
           %span.pull-right        
             %span.badge
-              %a{:href => "/books?#{query.string}"}
+              %a{ href: "/books?#{query.string}" }
                 = "#{I18n.t(:user_queries_books_found)} #{get_number_of_returned_books(query.string)}"
             %a{:href => "/user_search_history/delete_query/#{query.id}", :onclick => "return confirmDelete(\"#{I18n.t(:delete_saved_query_confirm)}\");"}
               %i.fa.fa-times-circle
-              = I18n.t(:delete)    
+                = I18n.t(:delete)
     %div
       .pagination-centered
         = will_paginate @queries, :previous_label => I18n.t(:previous_label), :next_label => I18n.t(:next_label)
 - else
   %h4
-    = I18n.t(:profile_no_queries_found)          
-
+    = I18n.t(:profile_no_queries_found)

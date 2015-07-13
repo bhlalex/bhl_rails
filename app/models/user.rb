@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
   has_many :comments
   has_many :collection_ratings
   has_many :collections
-  has_many :public_collections
+  has_many :public_collections, class_name: "Collection", conditions: { is_public: true }
   before_create :generate_uuid
   mount_uploader :photo_name, ImageUploader
   validate :file_size
@@ -136,6 +136,6 @@ class User < ActiveRecord::Base
   end
   
   def change_password_required?
-    entered_password || entered_password_confirmation
+    !entered_password.blank? || !entered_password_confirmation.blank?
   end
 end

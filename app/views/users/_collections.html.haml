@@ -13,16 +13,16 @@
             bigStarsPath: "/images_#{I18n.locale}/#{I18n.t(:stars_grey)}"
           });
         });
-      - if(item.photo_name.blank?)
+      - if item.photo_name.blank?
         - thumb = "/images_#{I18n.locale}/#{I18n.t(:default_collection_small)}"
       - else
         - thumb = item.photo_name_url(:small)
       .row
         .col-md-2
-          = link_to image_tag("#{thumb}") , {:controller => :collections, :action => :show, :id => item.id}
+          = link_to image_tag("#{thumb}") , { controller: 'collections', action: 'show', id: item.id }
         .col-md-7
           %h4
-            = link_to "#{item.title}", {:controller => :collections, :action => :show, :id => item.id}
+            = link_to "#{item.title}", { controller: 'collections', action: 'show', id: item.id }
           .date.text-muted
             %small
               %b
@@ -31,20 +31,19 @@
         .col-md-3.controls
           
           %ul.fa-ul.tools
-            - if (item.user_id == session[:user_id])
+            - if item.user_id == session[:user_id]
               %li
                 %i.fa.fa-li.fa-trash-o
                 %small
-                  = link_to I18n.t(:delete), {:controller => :collections, :action => :destroy_collection, :id => item.id,
-                     :user_id => item[:user_id],:id => item.id, :page => @page},
-                     :onclick => "return confirmDelete(\"#{I18n.t(:delete_collection_confirm)}\")"
+                  = link_to I18n.t(:delete), { controller: 'collections', action: 'destroy_collection', id: item.id,
+                                               user_id: item[:user_id], id: item.id, page: @page},
+                                               onclick: "return confirmDelete(\"#{I18n.t(:delete_collection_confirm)}\")"
             %li
               %i.fa.fa-li.fa-info
               %small
-                = link_to "#{I18n.t(:book_details_details)}" , 
-                  {:controller => :collections, :action => :show, :id => item.id}    
+                = link_to "#{I18n.t(:book_details_details)}", { controller: 'collections', action: 'show', id: item.id}    
           - if item.rate != 0.0
-            .starsidelink{:id => "starsidelink_#{item.id}", :data => "#{item.rate}"}    
+            .starsidelink{ id: "starsidelink_#{item.id}", data: "#{item.rate}" }    
         .clearfix
         %hr
     %div

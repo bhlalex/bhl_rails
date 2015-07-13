@@ -1,9 +1,9 @@
-- if @total_number > 0
+- if @history.count > 0
   .col-md-8.column
     %h4
       = I18n.t(:user_history_title)
       %span.badge
-        = @total_number
+        = @history.count
     %hr
     - @number = 0
     - @history.each do |item|

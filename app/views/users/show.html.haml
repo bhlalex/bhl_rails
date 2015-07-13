@@ -1,3 +1,13 @@
+- content_for :head do
+  = javascript_include_tag 'application'
+  = javascript_include_tag 'jquery/jquery.tooltipster.min'
+  = stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
+  = javascript_include_tag 'jquery/rating/jRating.jquery.js'
+  = javascript_include_tag "user_page"
+:javascript
+  $(document).ready(function() {
+    gettabclass("#{@tab}");
+  });
 %body
   #wrap
     .container
@@ -10,23 +20,23 @@
         .col-md-3
           %ul.nav.nav-pills.nav-stacked
             %li
-              %a#tab_profile{:href => "/users/#{@user.id}/profile"}
+              %a#tab_profile{ href: "/users/#{@user.id}/profile" }
                 = I18n.t(:user_profile_tab)    
-            - if !session[:user_id].nil? && params[:id].to_i == session[:user_id]
+            - if session[:user_id] && params[:id].to_i == session[:user_id]
               %li
-                %a#tab_annotations{:href=>"/users/#{@user.id}/annotations"}
+                %a#tab_annotations{ href: "/users/#{@user.id}/annotations" }
                   = I18n.t(:user_annotations_tab)
               %li
-                %a#tab_queries{:href=>"/users/#{@user.id}/queries"}
+                %a#tab_queries{ href: "/users/#{@user.id}/queries" }
                   = I18n.t(:user_queries_tab)
               %li
-                %a#tab_history{:href=>"/users/#{@user.id}/history"}
+                %a#tab_history{ href: "/users/#{@user.id}/history" }
                   = I18n.t(:user_history_tab)
             %li
-              %a#tab_activity{:href=>"/users/#{@user.id}/activity"}
+              %a#tab_activity{ href: "/users/#{@user.id}/activity" }
                 = I18n.t(:user_activity_tab)
             %li
-              %a#tab_collections{:href=>"/users/#{@user.id}/collections"}
+              %a#tab_collections{ href: "/users/#{@user.id}/collections" }
                 = I18n.t(:user_collections_tab)          
         
         =render :partial => "users/#{@tab}"
