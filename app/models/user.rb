@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
   has_many :annotations
   has_many :queries
   has_many :books, :through => :users_books
-  has_many :histories, :dependent => :destroy
+  has_many :user_book_histories, :dependent => :destroy
   has_many :book_ratings
   has_many :comments
   has_many :collection_ratings

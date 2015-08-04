@@ -53,7 +53,7 @@
           count = 0;
         }
         $.ajax({type: "GET", 
-                url: "/rate_collection?rate=" + count + "&user_id=" + "#{session[:user_id]}" + "&col_id=" + "#{@collection_id}", 
+                url: "/rate_collection?rate=" + count + "&user_id=" + "#{session[:user_id]}" + "&col_id=" + "#{@collection.id}", 
                 dataType: "script",
                 success: function(data){
                            

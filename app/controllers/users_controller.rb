@@ -229,13 +229,11 @@ class UsersController < ApplicationController
 
   def authenticate_user
     if !is_loggged_in?
-      redirect_to :controller => :users, :action => :login
+      redirect_to controller: 'users', action: 'login'
       return false
     end
-    if session["user_id"].to_i != params[:id].to_i
-      flash.now[:error] = I18n.t(:access_denied_error)
-      flash.keep
-      redirect_to :controller => :users, :action => :show, :id => params[:id]
+    if session[:user_id].to_i != params[:id].to_i
+      redirect_to({controller: 'users', action: 'show', id: params[:id]}, flash: { error: I18n.t(:access_denied_error) })
       return false
     end
     return true
@@ -332,36 +330,23 @@ class UsersController < ApplicationController
   
   def load_history_tab
     if authenticate_user
-      @page = params[:page] ? params[:page].to_i : 1
-      
-      @history = UserBookHistory.where(:user_id => @user).paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
-      
-  
-      if @history.length > 0
-        @recently_viewed_volume = Volume.find_by_id((@history.first).volume)
-      end
-      
+      @page = params[:page] ? params[:page].to_i : 1      
+      @history = @user.user_book_histories.includes(:volume).paginate(:page => @page, :per_page => TAB_PAGE_SIZE)  
       if @history.blank? && @page > 1
         redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "history", :page => params[:page].to_i - 1
-      end
-      
+      end      
       @url_params = params.clone
     end
   end
   
   def load_annotations_tab
     if authenticate_user
-      # load user annotations
       @page = params[:page] ? params[:page].to_i : 1
-      # offset = (@page > 1) ? (@page - 1) * TAB_GALLERY_PAGE_SIZE : 0
-      @total_number = Annotation.count(:conditions => "user_id = #{@user.id}")
-      # @lastPage = @total_number ? ((@total_number).to_f/TAB_GALLERY_PAGE_SIZE).ceil : 0
-      
-      # @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).limit(TAB_GALLERY_PAGE_SIZE).offset(offset)
-      @annotation = Annotation.where(:user_id => @user).select(:volume_id).group(:volume_id).paginate(:page => @page, :per_page => TAB_GALLERY_PAGE_SIZE)
+      user_annotations = @user.annotations.joins(volume: :book).select("annotations.volume_id, volumes.*, books.title")      
+      @total_number = user_annotations.count
+      @annotation = user_annotations.group(:volume_id).paginate(:page => @page, :per_page => TAB_GALLERY_PAGE_SIZE)
       @url_params = params.clone
     end
-      # end
   end
   
   def load_queries_tab
@@ -450,7 +435,7 @@ class UsersController < ApplicationController
         @collections = @user.public_collections.paginate(:page => @page, :per_page => TAB_PAGE_SIZE)
       end
       if @collections.blank? &&  @page > 1
-        redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "collections", :page => params[:page].to_i - 1
+        redirect_to controller: 'users', action: 'show', id: session[:user_id], tab: "collections", page: params[:page].to_i - 1
       end
       @url_params = params.clone
   end

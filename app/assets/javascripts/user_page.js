@@ -1,6 +1,7 @@
 function gettabclass(tab){
   document.getElementById("tab_" + tab).className = 'active';
 }
+
 function confirmDelete(text){
   return confirm(text);
 }

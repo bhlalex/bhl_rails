@@ -1,43 +1,24 @@
 class CollectionsController < ApplicationController
   include ApplicationHelper
   include BHL::Login
-  include BooksHelper
+  include BooksHelper  
   
-  def index
-    @page_title = I18n.t(:collection_title)
-    
+  def index    
     sql_query = "is_public = true"
-    sql_query+= " AND title LIKE '%#{params[:search]}%'" if !params[:search].nil?
-    
-    @page = params[:page] ? params[:page].to_i : 1
-    
-    @collections = Collection.where(sql_query).paginate(:page => @page, :per_page => COLLECTION_PAGE_SIZE).order(params[:sort_type])
-
-    if !params[:search].nil?
-      @collections_total_number = Collection.count(:all, :conditions => "is_public = 1 AND title LIKE '%#{params[:search]}%'")
-    else
-      @collections_total_number = Collection.count(:all, :conditions => "is_public = 1")
-    end
+    sql_query+= " AND title LIKE '%#{params[:search]}%'" if params[:search]    
+    @page = params[:page] ? params[:page].to_i : 1    
+    @collections = Collection.where(sql_query).paginate(page: @page, per_page: COLLECTION_PAGE_SIZE).order(params[:sort_type])
     @url_params = params.clone
   end
 
   def show
-    @page_title = I18n.t(:show_collection_detail)
-    @collection = Collection.find(params[:id])    
+    @collection = Collection.find(params[:id])
     if @collection.is_public == true || authenticate_user(@collection.user_id)
-      @collection_id = params[:id]
-      @volume_id = nil
-      @comment = Comment.new
-      rate_list = CollectionRating.where(:user_id => session[:user_id], :collection_id => @collection.id)
-      if rate_list.count > 0
-        @user_rate = rate_list[0].rate
-      else
-        @user_rate = 0.0
-      end      
+      prepare_collection_reviews
+      prepare_collection_rating
       @view = params[:view] ? params[:view] : 'list'
       @page = params[:page] ? params[:page].to_i : 1
-      @collection_volumes = @collection.volume_collections.paginate(:page => @page, :per_page => PAGE_SIZE).order('position ASC')
-      @total_number = @collection_volumes.count
+      @collection_volumes = @collection.volume_collections.paginate(page: @page, per_page: PAGE_SIZE).order('position ASC')
       @url_params = params.clone
     end
   end
@@ -62,22 +43,12 @@ class CollectionsController < ApplicationController
     collection = Collection.find(params[:id])
     if authenticate_user(collection.user_id)
       collection.destroy
-      # destroy rates of this collection
-      rates = CollectionRating.where(:user_id => collection.user_id, :id => collection.id)
-      rates.each do |rate|
-        rate.destroy
-      end
-      comments = Comment.where(:collection_id => collection.id)
-      comments.each do |comment|
-        comment.destroy
-      end
-
       flash[:notice]=I18n.t(:collection_destroyed)
       flash.keep
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
       else
-        redirect_to :controller => :users, :action => :show, :id => "session[:user_id]", :tab => "collections"
+        redirect_to controller: 'users', action: 'show', id: "session[:user_id]", tab: "collections"
       end
     end
   end
@@ -112,7 +83,6 @@ class CollectionsController < ApplicationController
 
 
   def edit # edit collection
-    @page_title = I18n.t(:edit_collection_page_title)
     @collection = Collection.find(params[:id])
     authenticate_user(@collection.user_id)
   end
@@ -120,28 +90,13 @@ class CollectionsController < ApplicationController
   def update
     @collection = Collection.find(params[:id])
     if authenticate_user(@collection.user_id)
-      if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
-        collection_attr = params[:collection]
-        if params[:test] != true
-          if (!(params[:collection][:photo_name].nil?))
-            file = collection_attr[:photo_name].original_filename
-            if(file[file.length-5].chr == '.')
-              collection_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-4,file.length]}"
-            else
-              collection_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}.#{file[file.length-3,file.length]}"
-            end
-          end
-        end
-        if @collection.update_attributes(collection_attr)
-          @collection[:updated_at] = Time.now
-          @collection.save
-          flash.now[:notice]=I18n.t(:collection_updated)
-          flash.keep
-          redirect_to :controller => :users, :action => :show, :id => session[:user_id], :tab => "collections"
+      if request.env["HTTP_REFERER"].present? && request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
+        @collection_attr = params[:collection]
+        set_collection_photo_name
+        if @collection.update_attributes(@collection_attr)
+          handle_successful_update
         else
-          flash.now[:error]=I18n.t(:collection_not_updated)
-          flash.keep
-          render :action => :edit
+          handle_unsuccessful_update
         end
       end
     end
@@ -207,24 +162,11 @@ class CollectionsController < ApplicationController
   end
   
   def autocomplete
-    term = "#{params[:term]}%"
     @results = []
-    response = Collection.find_by_sql("
-      SELECT 
-        title, COUNT(id) AS count 
-      FROM collections 
-      WHERE title LIKE \"#{term}\"
-      GROUP BY title 
-      ORDER BY count DESC 
-      LIMIT 0, 4;
-      ")
-    response.each do |item|
-      @results << item.title
+    response = Collection.where("title LIKE ?", "#{params[:term]}%").group('title').limit(4).order('count_id desc').count('id')
+    response.keys.each do |item|
+      @results << item
     end 
-    #if (@results.length == 0)
-      #@results << "#{I18n.t(:no_suggestion)}"
-      # @results = nil
-    #end
     render json: @results
   end
   private
@@ -264,16 +206,45 @@ class CollectionsController < ApplicationController
 
   def authenticate_user(user_id)
     if !is_loggged_in?
-      redirect_to :controller => :users, :action => :login
+      redirect_to controller: 'users', action: 'login'
       return false
     end
-    if session["user_id"].to_i != user_id
-      flash.now[:error] = I18n.t(:access_denied_error)
-      flash.keep
-      redirect_to :controller => :collections, :action => :index
+    if session[:user_id].to_i != user_id
+      redirect_to({controller: 'collections', action: 'index'}, flash: { error: I18n.t(:access_denied_error) })
       return false
     end
     return true
   end
+  
+  def prepare_collection_rating
+    rate_result = CollectionRating.where(:user_id => session[:user_id], :collection_id => @collection.id)
+    if rate_result.blank?
+      @user_rate = 0.0        
+    else
+      @user_rate = rate_result[0].rate
+    end
+  end
+  
+  def  prepare_collection_reviews
+    @comment = Comment.new
+  end
+  
+  def handle_successful_update
+    redirect_to({ controller: 'collections', action: 'show', id: @collection.id }, flash: { notice: I18n.t(:collection_updated) })
+  end
+  
+  def handle_unsuccessful_update
+    flash.now[:error]=I18n.t(:collection_not_updated)
+    render action: 'edit'
+  end
+  
+  def set_collection_photo_name
+    unless params[:test]
+      if params[:collection][:photo_name]
+        image_ext = File.extname(@collection_attr[:photo_name].original_filename)
+        @collection_attr[:photo_name].original_filename = "image_#{DateTime.now.to_s}#{image_ext}"
+      end
+    end
+  end  
 
 end

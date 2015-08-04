@@ -1,11 +1,9 @@
 = stylesheet_link_tag 'jquery/rating/jRating.jquery.css'
 = javascript_include_tag 'jquery/rating/jRating.jquery.js'
 
-- if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
-  - counter = 0
-  - @collections.each do |item|
+- if @collections
+  - @collections.each_with_index do |item, index|
     - title = item.title.length > 15 ? item.title[0,14] + "..." : item.title
-    - counter = counter + 1
     :javascript
       $(document).ready(function(){
         $("#starsidelink_#{item.id}").jRating({
@@ -18,19 +16,18 @@
     - else
       - @thumb = item.photo_name_url(:thumb)
     .col-md-4
-      %div{:id => "collection #{counter}", :class => "media collection", :name => "collection #{item.id}"}
-        %a.pull-left{:href=>"#{collection_path(:id=>item.id)}"}
-          =image_tag("#{@thumb}",:class => "media-object img-thumbnail")
-        .media-body{:style=> "float:right;"}
+      %div{ id: "collection #{index + 1}", class: "media collection", name: "collection #{item.id}" }
+        %a.pull-left{ href: "#{collection_path(:id=>item.id)}" }
+          =image_tag("#{@thumb}", class: "media-object img-thumbnail")
+        .media-body{ style: "float:right;" }
           %h4.media-heading
-            = link_to title, {:controller => :collections, :action => :show, :id => item.id}
+            = link_to title, { controller: 'collections', action: 'show', id: item.id }
             - collection_volumes = item.volume_collections
-            - total_number = collection_volumes.count
-            %span.badge{:title => "#{I18n.t(:collections_books_number_tip)}", :pointer => "cursor"}
-              = "#{total_number}"
+            %span.badge{ title: "#{I18n.t(:collections_books_number_tip)}", pointer: "cursor" }
+              = "#{collection_volumes.count}"
           %i.fa.fa-user
           %small
-            = link_to "#{I18n.t(:collection_by)} #{User.find(item.user_id).real_name}", {:controller => :users, :action => :show, :id => item.user_id}
+            = link_to "#{I18n.t(:collection_by)} #{User.find(item.user_id).real_name}", { controller: 'users', action: 'show', id: item.user_id }
           %p
             %small
               =item.description    
@@ -41,4 +38,4 @@
               =item.created_at
           .rate
             - if item.rate != 0.0
-              .starsidelink{:id => "starsidelink_#{item.id}", :data => "#{item.rate}"}
+              .starsidelink{ id: "starsidelink_#{item.id}", data: "#{item.rate}" }

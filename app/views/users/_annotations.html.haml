@@ -6,34 +6,33 @@
         = @total_number
   .row.col-md-9
     - @annotation.each do |item|
-      - @vol = Volume.find_by_job_id(item.volume_id)
-      - @book = Book.find(@vol.book_id)
-      - @notes = Annotation.where(:user_id => @user.id, :volume_id => @vol.job_id, :anntype => 'Note')
-      - @highlights = Annotation.where(:user_id => @user.id, :volume_id => @vol.job_id, :anntype => 'Highlight')
+      - vol = item.volume
+      - @notes = Annotation.where(:user_id => @user.id, :volume_id => vol.job_id, :anntype => 'Note')
+      - @highlights = Annotation.where(:user_id => @user.id, :volume_id => vol.job_id, :anntype => 'Highlight')
       .col-md-3
         .annotation.clearfix
           %h4
-            = @book.title
+            = item[:title]
           %div
             %small
-              = link_to :controller => :books, :action => :show, :id => @vol.job_id , :tab => "read" do
+              = link_to controller: 'books', action: 'show', id: vol.job_id , tab: "read" do
                 %i.fa.fa-book
                 = I18n.t(:sidelinks_read)
-              = link_to :controller => :books, :action => :show, :id => @vol.job_id, :tab => "" do
+              = link_to controller: 'books', action: 'show', id: vol.job_id, tab: "" do
                 %i.fa.fa-info
                 = I18n.t(:sidelinks_detail)  
           .notediv
-            %a{:href=>"#","data-toggle" => "modal", "data-target"=> "#note_#{item.volume_id}"}
+            %a{ :href=>"#","data-toggle" => "modal", "data-target"=> "#note_#{vol.id}" }
               = I18n.t(:user_annotation_note)
             %span.badge
               = @notes.count
           %br
           .highlightdiv
-            %a{:href=>"#","data-toggle" => "modal", "data-target"=> "#highlight_#{item.volume_id}"}
+            %a{ :href=>"#","data-toggle" => "modal", "data-target"=> "#highlight_#{vol.id}" }
               = I18n.t(:user_annotation_highlight)
             %span.badge
               = @highlights.count
-        .modal.fade{:id=>"note_#{item.volume_id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "notemodallabel", "area-hidden" => "true"}
+        .modal.fade{:id=>"note_#{vol.id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "notemodallabel", "area-hidden" => "true"}
           .modal-dialog
             .modal-content
               .modal-header
@@ -42,7 +41,7 @@
                 %h4.modal-title{:id => "notemodallabel"}
                   = I18n.t(:user_annotation_note)
                   %span.badge
-                    = @notes.count            
+                    = @notes.count
               .modal-body
                 - @notes.each do |note|
                   .text-dimmed
@@ -50,7 +49,7 @@
                   %p.small
                     = note.text
                   %hr
-        .modal.fade{:id=> "highlight_#{item.volume_id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "highlightmodallabel", "area-hidden" => "true"}
+        .modal.fade{:id=> "highlight_#{vol.id}", :tabindex => "-1", :role => "dialog", "area-labelledby" => "highlightmodallabel", "area-hidden" => "true"}
           .modal-dialog
             .modal-content
               .modal-header

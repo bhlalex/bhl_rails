@@ -49,7 +49,7 @@
     %h2
       = @collection.title
       %span.badge
-        = "#{@total_number}"
+        = "#{@collection_volumes.count}"
       - if @collection.rate != 0.0
         %span.rate
           .starsidelink{:id => "starsidelink_#{@collection.id}", :data => "#{@collection.rate}"}

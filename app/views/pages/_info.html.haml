@@ -1,10 +1,10 @@
 .panel.panel-default
   .panel-body
     %h4.alert.alert-success
-      = link_to "#{I18n.t(:book, :count => @no_of_books)}" , :controller => "books", :action => "index"
+      = link_to "#{I18n.t(:book, :count => @bhl_statistics[:books])}" , :controller => "books", :action => "index"
     %h4.alert.alert-warning
-      = link_to "#{I18n.t(:author_count, :count => @no_of_authors )}", :controller => "browse", :action => "show", :type => "authors"
+      = link_to "#{I18n.t(:author_count, :count => @bhl_statistics[:authors] )}", :controller => "browse", :action => "show", :type => "authors"
     %h4.alert.alert-info
-      = link_to "#{I18n.t(:species, :count => @no_of_species)}", :controller => "names", :action => "index"
+      = link_to "#{I18n.t(:species, :count => @bhl_statistics[:names])}", :controller => "names", :action => "index"
 
     

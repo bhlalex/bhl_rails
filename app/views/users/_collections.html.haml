@@ -6,7 +6,7 @@
         = @collections.count
     %hr
     -@collections.each do |item|
-      :javascript
+      :javascript        
         $(document).ready(function(){
           $("#starsidelink_#{item.id}").jRating({
             isDisabled : true,

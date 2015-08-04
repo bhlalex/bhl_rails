@@ -1,49 +1,26 @@
-:javascript
-  function go_to(sort_type){
-    var url = window.location.href.split('?');
-    var query = "";
-    if (url.length == 2 ){
-      var vars = url[1].split("&");
-      for(var i = 0; i < vars.length; i++){
-        if(vars[i].indexOf('search') != -1){
-          query = vars[i];
-          break;
-        }
-      }
-    }
-    if(sort_type != 'none'){
-      if(query != ''){
-        query += "&"
-      }
-      query+= "sort_type=" + sort_type;
-    }
-    if(query != ''){
-      query = "?" + query
-    }
-    window.location = window.location.href.split('?')[0] + query;
-  }
+= javascript_include_tag 'collections.js'
 .clearfix
 .col-md-7.sort.text-muted.pull-right
   .text-right
     %small
       = I18n.t(:sort_by)
-      %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(params[:sort_type],'rate')}; cursor:pointer;", :onclick => "go_to ('none');"}
-      %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(params[:sort_type],'rate')}; cursor:pointer;", :onclick=> "go_to('rate desc');"}
-      %a{:style=> "color:#777777; cursor:pointer;", :onclick => "go_to('#{toggle_sort_option(params[:sort_type],'rate')}');"} #{I18n.t(:rates)}
-      %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(params[:sort_type],'rate desc')}; cursor:pointer;", :onclick => "go_to('rate asc');"}
-      %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(params[:sort_type],'rate asc')}; cursor:pointer;", :onclick => "go_to('rate desc');"}
+      %i.fa.fa-check-square{ style: "#{get_class_for_sort_option(params[:sort_type],'rate')}; cursor:pointer;", onclick: "go_to ('none');" }
+      %i.fa.fa-square-o{ style: "#{get_class_for_active_sort_option(params[:sort_type],'rate')}; cursor:pointer;", onclick: "go_to('rate desc');" }
+      %a{ style: "color:#777777; cursor:pointer;", onclick: "go_to('#{toggle_sort_option(params[:sort_type],'rate')}');" } #{I18n.t(:rates)}
+      %i.fa.fa-arrow-down{ style: "#{get_class_for_sort_option(params[:sort_type],'rate desc')}; cursor:pointer;", onclick: "go_to('rate asc');" }
+      %i.fa.fa-arrow-up{ style: "#{get_class_for_sort_option(params[:sort_type],'rate asc')}; cursor:pointer;", onclick: "go_to('rate desc');" }
       %span |
-      %i.fa.fa-check-square{:style => "#{get_class_for_sort_option(params[:sort_type],'title')};cursor:pointer;", :onclick => "go_to('none');"}
-      %i.fa.fa-square-o{:style => "#{get_class_for_active_sort_option(params[:sort_type],'title')};cursor:pointer;", :onclick => "go_to('title asc');"}
-      %a{:style=> "color:#777777; cursor:pointer;", :onclick => "go_to('#{toggle_sort_option(params[:sort_type],'title')}');"} #{I18n.t(:title)}
-      %i.fa.fa-arrow-down{:style => "#{get_class_for_sort_option(params[:sort_type],'title desc')};cursor:pointer;", :onclick => "go_to('title asc');"}
-      %i.fa.fa-arrow-up{:style => "#{get_class_for_sort_option(params[:sort_type], 'title asc')}; cursor:pointer;", :onclick => "go_to('title desc');"}
+      %i.fa.fa-check-square{ style: "#{get_class_for_sort_option(params[:sort_type],'title')};cursor:pointer;", onclick: "go_to('none');" }
+      %i.fa.fa-square-o{ style: "#{get_class_for_active_sort_option(params[:sort_type],'title')};cursor:pointer;", onclick: "go_to('title asc');" }
+      %a{ style: "color:#777777; cursor:pointer;", onclick: "go_to('#{toggle_sort_option(params[:sort_type],'title')}');"} #{I18n.t(:title)}
+      %i.fa.fa-arrow-down{ style: "#{get_class_for_sort_option(params[:sort_type],'title desc')};cursor:pointer;", onclick: "go_to('title asc');" }
+      %i.fa.fa-arrow-up{ style: "#{get_class_for_sort_option(params[:sort_type], 'title asc')}; cursor:pointer;", onclick: "go_to('title desc');" }
 
 %h4.text-muted
-  - if (!(@collections.nil? ) && @collections != '' && @collections_total_number> 0)
-    - if(!params[:search].nil?)
-      =I18n.t(:collections_found, :count => @collections_total_number)
+  - if @collections
+    - if params[:search]
+      =I18n.t(:collections_found, count: @collections.count)
     - else
-      = I18n.t(:collections_found_all, :count => @collections_total_number)
+      = I18n.t(:collections_found_all, count: @collections.count)
   - else
     = I18n.t(:no_collections_found) 

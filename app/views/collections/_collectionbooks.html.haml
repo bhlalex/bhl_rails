@@ -3,7 +3,7 @@
   var r= confirm("#{I18n.t(:remove_book_from_collection_confirm)}");
     return r;
   }
-- if (@collection_volumes != '' && @total_number > 0)
+- unless (@collection_volumes.blank?)
   - @number = 0
   - @collection_volumes.each do |ubh_vol|
     - @ubh_vol = ubh_vol
@@ -49,7 +49,7 @@
                   %small
                     = link_to "#{I18n.t(:col_book_move_up)} ", 
                     {:controller => :collections, :action => :move_up, :volume_collection_id => @ubh_vol.id}  
-                - if @ubh_vol.position < @total_number
+                - if @ubh_vol.position < @collection_volumes.count
                   - if @ubh_vol.position == 1
                     %i.fa.fa-li.fa-arrow-down 
                     %small

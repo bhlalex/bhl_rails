@@ -5,12 +5,10 @@ class PagesController < ApplicationController
   layout 'pages'
  
   def about
-    @page_title = I18n.t(:about_us_page_title)
   end
 
   # provide users with form to send email to site master
   def contact
-    @page_title = I18n.t(:contact_us_page_title)
     @email_message = EmailMessage.new
     @verify_captcha = true
   end
@@ -40,29 +38,15 @@ class PagesController < ApplicationController
 
   def top_rated_books
    prepare_top_rated_books_part
-   #respond_to do |format|
-    #format.html # show_rec_horses.html.erb
-    #format.js   # show_rec_horses.js.erb
-   #end
    respond_to do |format|  
      format.html { render :partial => 'pages/top_rated_books' }
    end
   end
 
   def home
-    # for info part
-    prepare_info_part
-    
-    #for top collections part
-    prepare_top_collections_part
-    
-    #for most viewed books
-    prepare_most_viewed_books_part
-    
-    #for top rated books
-    #prepare_top_rated_books_part
-    
-    #for activity log part
+    prepare_statistics_part    
+    prepare_top_collections_part    
+    prepare_most_viewed_books_part    
     @act_no = get_log_records.count 
     @act_pages = get_log_records.count > 0 ? (get_log_records.count.to_f/HOME_LOG_ACTIVITIES).ceil : 0
   end
@@ -82,32 +66,33 @@ class PagesController < ApplicationController
   end
   
   private
-  def prepare_info_part
-    counts = get_count_of
-    @no_of_books = counts["books"]
-    @no_of_authors = counts["authors"]
-    @no_of_species = counts["names"]
-    #@no_of_books = get_count_of("book")
-    #@no_of_authors = get_count_of("author")
-    #@no_of_species = get_count_of("name")
+  def prepare_statistics_part
+    @bhl_statistics = Rails.cache.fetch("bhl_statistics", expires_in: 1.day) do
+      bhl_statistic = BhlStatistic.last
+      if bhl_statistic
+        { books: bhl_statistic.books_count, authors: bhl_statistic.authors_count, names: bhl_statistic.species_count }
+      else
+        { books: 0, authors: 0, names: 0 }
+      end
+    end
   end
   
-  def prepare_top_collections_part
-    sql_query = "is_public = true"
-    @top_collections = Collection.where(sql_query).order("rate desc").limit(TOP_COLLECTIONS_COUNT).offset(0)
+  def prepare_top_collections_part    
+    @top_collections = Rails.cache.fetch("top_collections", expires_in: 1.day) do
+      Collection.where(:is_public => true).order("rate desc").limit(TOP_COLLECTIONS_COUNT).offset(0)
+    end
   end
   
   def prepare_most_viewed_books_part
-    page = 1
-    sort = "views desc"
-    #@most_viewed_response = search_facet_highlight( "*:*", page, MOST_VIEWED_BOOKS, sort)
-    @most_viewed_response = search_facet_highlight( "*:*", page, MOST_VIEWED_BOOKS, sort)
+    @most_viewed_response = Rails.cache.fetch("most_viewed_books", expires_in: 1.day) do 
+      search_facet_highlight( "*:*", 1, MOST_VIEWED_BOOKS, "views desc")
+    end
   end
   
   def prepare_top_rated_books_part
-    page = 1
-    sort = "rate desc"
-    @top_rated_response = search_facet_highlight( "*:*", page, MOST_VIEWED_BOOKS, sort)
+    @top_rated_response = Rails.cache.fetch("top_rated_books", expires_in: 1.day) do
+      search_facet_highlight( "*:*", 1, MOST_VIEWED_BOOKS, "rate desc")
+    end
   end
   
   def get_log_records

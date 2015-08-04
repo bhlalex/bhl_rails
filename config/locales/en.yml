@@ -510,7 +510,7 @@ en:
   dear_msg: "Dear %{name},"
   email_signature_1: "Regards,"
   email_signature_2: "BHL Team"
-  empty_search_query_warn: "Search statement shouldn't be empty"
+  empty_search_query_warn: "Search statement should not be empty"
   invalid_input: Invalid Input
   sent_by: Sent By
   
