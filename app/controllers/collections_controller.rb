@@ -25,11 +25,11 @@ class CollectionsController < ApplicationController
 
   def dialog_content
     @dialog_number = params[:number]
-    @collections = Collection.where(:user_id => session[:user_id])
+    @collections = Collection.where(user_id: session[:user_id])
     @disabled = []
     @collections.each do |col|
       vol_id = Volume.find_by_job_id(params[:vol_jobid]).id
-      found = VolumeCollection.where(:volume_id => vol_id, :collection_id => col.id)
+      found = VolumeCollection.where(volume_id: vol_id, collection_id: col.id)
       if found.count > 0
         @disabled.push(1)
       else
@@ -48,7 +48,7 @@ class CollectionsController < ApplicationController
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
       else
-        redirect_to controller: 'users', action: 'show', id: "session[:user_id]", tab: "collections"
+        redirect_to controller: 'users', action: 'show', id: session[:user_id], tab: 'collections'
       end
     end
   end
@@ -68,19 +68,15 @@ class CollectionsController < ApplicationController
     collection = Collection.find(volume_collection.collection)
     if authenticate_user(collection.user_id)
       volume_collection.destroy
-      collection[:updated_at] = Time.now
-      collection.save
       flash.now[:notice]=I18n.t(:volume_collection_deleted)
       flash.keep
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
       else
-        redirect_to :controller => :collections, :action => :index
+        redirect_to controller: 'collections', action: 'index'
       end
     end
   end
-
-
 
   def edit # edit collection
     @collection = Collection.find(params[:id])
@@ -107,12 +103,10 @@ class CollectionsController < ApplicationController
     collection = Collection.find(volume_collection.collection)
     if authenticate_user(collection.user_id)
       volume_collection.move_higher
-      collection[:updated_at] = Time.now
-      collection.save
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
       else
-        redirect_to :controller => :collections, :action => :index
+        redirect_to controller: 'collections', action: 'index'
       end
     end
   end
@@ -122,12 +116,10 @@ class CollectionsController < ApplicationController
     collection = Collection.find(volume_collection.collection)
     if authenticate_user(collection.user_id)
       volume_collection.move_lower
-      collection[:updated_at] = Date.today
-      collection.save
       if request.env["HTTP_REFERER"].present? and request.env["HTTP_REFERER"] != request.env["REQUEST_URI"]
         redirect_to :back
       else
-        redirect_to :controller => :collections, :action => :index
+        redirect_to controller: 'collections', action: 'index'
       end
     end
   end
@@ -135,30 +127,23 @@ class CollectionsController < ApplicationController
   def get_collection_comments
     @start = params[:start]
     @comment = Comment.new
-    @total_comments = Comment.where("comments.collection_id=? AND comments.comment_id IS NULL", Collection.find_by_id(params[:id]).id).count
+    @total_comments = Comment.where(collection_id: Collection.find_by_id(params[:id]).id, comment_id: nil).count
     start = params[:start].to_i * LIMIT_BOOK_COMMENTS.to_i
-    limit = LIMIT_BOOK_COMMENTS
-    @comments = Comment.find_by_sql("SELECT * 
-                                     FROM comments 
-                                     WHERE comments.collection_id=#{Collection.find_by_id(params[:id]).id} 
-                                      AND comments.comment_id IS NULL
-                                     ORDER BY comments.created_at
-                                     LIMIT #{start}, #{limit}")
+    @comments = Comment.where(collection_id: Collection.find_by_id(params[:id]).id, comment_id: nil).reorder('created_at ASC').limit(LIMIT_BOOK_COMMENTS).offset(start)
     respond_to do |format|
-      format.html {render :partial => "collections/get_comments"}
+      format.html { render partial: "collections/get_comments" }
     end
   end
   
   def get_collection_photo
      @collection = Collection.find(params[:id])
      if (@collection.user_id == session[:user_id] && params[:is_delete].to_i == 1)
-      @collection[:photo_name] = ''
-      @collection.save
-      delete_collection_photo(params[:id])
+       @collection.update_attributes(photo_name: '')
+       delete_collection_photo(params[:id])
      end
-    respond_to do |format|
-      format.html {render :partial => "collections/get_collection_photo"}
-    end
+     respond_to do |format|
+       format.html { render partial: "collections/get_collection_photo" }
+     end
   end
   
   def autocomplete
@@ -172,27 +157,16 @@ class CollectionsController < ApplicationController
   private
 
   def add_to_existing_collection(col)
-    col_id = col.id
-    vol_id = Volume.find_by_job_id(params[:vol_id]).id
-    duplicated = VolumeCollection.where(:collection_id => col_id, :volume_id => vol_id)
-    if duplicated.count == 0
-      position = VolumeCollection.where(:collection_id => col_id).count + 1
-      bok_col = VolumeCollection.create!(:volume_id => vol_id, :collection_id => col_id, :position => position)
-    end
-    col.updated_at = Time.now
-    col.save
-    data = col_id
-    render :json => data
+    vol = Volume.find_by_job_id(params[:vol_id])
+    VolumeCollection.create!(volume_id: vol.id, collection_id: col.id)
+    render :json => col.id
   end
 
   def add_to_new_collection
     title = params[:title]
     if title.length > 0
-      description = params[:description]
-      is_public = false
-      is_public = true if params[:is_public] == 'on'
-      col = Collection.create!(:title => title, :description => description,
-      :user_id => session[:user_id], :is_public => is_public)
+      is_public = params[:is_public] == 'on' ? true : false
+      col = Collection.create!(title: title, description: params[:description], user_id: session[:user_id], is_public: is_public)
       add_to_existing_collection(col)
     end
   end

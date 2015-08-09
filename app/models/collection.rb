@@ -9,10 +9,8 @@ class Collection < ActiveRecord::Base
   has_many :comments, :dependent => :destroy
   has_many :collection_ratings, :dependent => :destroy
   
-  has_many :volume_collections
-  has_many :volumes, :through => :volume_collections
-  
-  # scope :public, where(public: true)
+  has_many :volume_collections, :dependent => :destroy
+  has_many :volumes, :through => :volume_collections  
   
   attr_accessible :created_at,:updated_at, :description, :is_public, :title, :user_id, :photo_name, :rate
   validates :title, :presence => true, :length => {:within => 4..25}

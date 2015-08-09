@@ -151,13 +151,12 @@ class UsersController < ApplicationController
   def get_user_profile_photo
      @user = User.find(params[:id])
      if (params[:id].to_i == session[:user_id] && params[:is_delete].to_i == 1)
-       @user[:photo_name] = ''
-       @user.save
+      @user.update_attributes(photo_name: '')
       delete_user_photo(params[:id])
      end
-    respond_to do |format|
-      format.html {render :partial => "users/get_user_profile_photo"}
-    end
+     respond_to do |format|
+       format.html { render partial: "users/get_user_profile_photo" }
+     end
   end
 
   def rate
