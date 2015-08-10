@@ -16,7 +16,7 @@ DAR_API_THUMBNAIL_JOBID_STRING = '[JOBID]'
 DAR_API_CONTENT = ''
 DAR_API_CONTENT_JOBID_STRING = '[JOBID]'
 
-DAR_JAR_API_URL = 'http://localhost:8090/BookViewer/?locale=en&LocaleButtons=disabled&book_id=DAF-Job:[JOBID]'
+DAR_JAR_API_URL = ''
 DAR_JAR_API_URL_STRING = '[JOBID]'
 DAR_JAR_API_URL_LANGUAGE = "[LANGUAGE]"
 
@@ -65,7 +65,10 @@ EOL_CONTENT_PATH = "http://content60.eol.org/content/"
  
 CARTOGRAPHER_GMAP_VERSION = 3
  
-NO_REPLY_EMAIL_ADDRESS = "no-reply@email.com"
+NO_REPLY_EMAIL_ADDRESS = "bhl.team@bibalex.org"
+CONTACT_US_EMAIL = "bhl.team@bibalex.org"
+BHL_LINK =  "http://beta.bhl.bibalex.org"
+HADOOP_FOLDER = "/SAN/Hadoop/"
 
 MAX_NO_ABUSE = 1
 

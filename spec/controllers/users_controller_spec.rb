@@ -230,7 +230,7 @@ describe UsersController do
         truncate_table(ActiveRecord::Base.connection, "queries", {})
         20.times {Query.create(:user_id => @user.id, :string => "_title=popular")}
         get :show, { :id => @user.id, :tab => "queries" }
-        response.should have_selector('ul', :class => "pagination")
+        response.should have_selector('div', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "queries", {})
       end
 
@@ -269,7 +269,7 @@ describe UsersController do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
         20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => true)}
         get :show, { :id => @other_user.id, :tab => "collections" }
-        response.should have_selector('ul', :class => "pagination")
+        response.should have_selector('div', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
       end
 
@@ -304,7 +304,7 @@ describe UsersController do
         truncate_table(ActiveRecord::Base.connection, "collections", {})
         20.times {Collection.create(:user_id => @user.id, :title => "my collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => false)}
         get :show, { :id => @user.id, :tab => "collections" }
-        response.should have_selector('ul', :class => "pagination")
+        response.should have_selector('div', :class => "pagination")
         truncate_table(ActiveRecord::Base.connection, "collections", {})
       end
     it "should detail link for each collection in my collections" do
@@ -388,7 +388,7 @@ describe UsersController do
       @user.email.should == 'test@email.com'
       @user.real_name.should == "Test User"
       @user.active.should be_false
-      expect(response).to redirect_to("/users/#{@user.id}")
+      expect(response).to redirect_to(root_path)
       flash[:error].should be_blank
       flash[:notice].should_not be_blank
     end
@@ -403,7 +403,7 @@ describe UsersController do
         :email_confirmation => 'test@email.com',
         :real_name => "Test User"
         } }
-      response.should render_template('users/new') # request is invalid and redirected to form
+      expect(response).to redirect_to("/users/new")
     end
   end
 
@@ -486,20 +486,6 @@ describe UsersController do
       user = User.gen(:entered_password => "1234")
       post :validate, { :user => { :username => user.username, :password => "1234" } }
       response.should redirect_to "/en/users/#{@user.id}"
-    end
-
-    it 'should validate user, set session, and redirect to profile page' do
-      user = User.gen(:entered_password => "1234")
-      post :validate, { :user => { :username => user.username, :password => "1234" } }
-      response.should redirect_to "/users/#{user.id}"
-      session[:user_id].should == user.id
-      session[:active].should == user.active
-      session[:real_name].should == user.real_name
-      session[:guid].should == user.guid
-      cookies[:Ssid] = user.guid
-      flash[:error].should be_blank
-      flash[:notice].should_not be_blank
-      is_loggged_in?.should be_true
     end
 
     it 'should not validate user, and redirect to login page' do
@@ -670,7 +656,7 @@ describe UsersController do
       20.times {Collection.create(:user_id => @other_user.id, :title => "other collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => true)}
        log_in(@other_user)
        get :show, { :id => @other_user.id, :tab => "activity" }
-      response.should have_selector('ul', :class => "pagination")
+      response.should have_selector('div', :class => "pagination")
       truncate_table(ActiveRecord::Base.connection, "collections", {})
     end
   end
@@ -692,7 +678,7 @@ describe UsersController do
           :photo_name => @file}}
         @user.reload
         pic = @user.photo_name 
-        File.exist?(File.join(pic.url)).should be_true 
+        File.exist?(File.join("public/#{pic.url}")).should be_true 
         FileUtils.rm_rf "users/#{@user.id}" if File.directory? "users/#{@user.id}"
         end
         

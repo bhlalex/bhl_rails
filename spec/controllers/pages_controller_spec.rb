@@ -147,6 +147,16 @@ describe PagesController do
     end
     
     describe "info part" do
+      
+      before(:all) do
+        bhl_statistic = BhlStatistic.last
+        if bhl_statistic
+          @count_result = {"books" => bhl_statistic.books_count, "authors" => bhl_statistic.authors_count, "names" => bhl_statistic.species_count}
+        else
+          @count_result = {"books" => 0, "authors" => 0, "names" => 0}
+        end
+      end
+      
       it "should have info part" do
         get 'home'
         response.should have_selector("h4", :class => "alert alert-success")
@@ -156,17 +166,17 @@ describe PagesController do
       
       it "should have books number" do
         get 'home'
-        response.should have_selector("h4", :class => "alert alert-success", :content => "#{Volume.count}")
+        response.should have_selector("h4", :class => "alert alert-success", :content => "#{@count_result[:books]}")
       end
       
       it "should have authors number" do
         get 'home'
-        response.should have_selector("h4", :class => "alert alert-warning", :content => "#{Volume.count}")
+        response.should have_selector("h4", :class => "alert alert-warning", :content => "#{@count_result[:authors]}")
       end
       
       it "should have tagged species number" do
         get 'home'
-        response.should have_selector("h4", :class => "alert alert-info", :content => "0")
+        response.should have_selector("h4", :class => "alert alert-info", :content => "#{@count_result[:names]}")
       end
     end
     
@@ -235,36 +245,7 @@ describe PagesController do
         end
       end
       
-    end
-    
-    describe "top rated tab" do
-      it "should have top rated tab" do
-        get :home
-        response.should have_selector("a", :content => "#{I18n.t(:top_rated)}")
-      end
-      
-      it "should have more link" do
-        get :home
-        response.should have_selector("a", :content => "#{I18n.t(:tabs_more)}", :href => "/books?sort_type=rate+desc")
-      end
-      
-      it "should have top rated books" do
-        get :home
-        response.should have_selector("a", :content => "title0")
-      end
-      
-       
-      describe "each book" do
-       it "should have volume title with link" do
-         get :home
-         response.should have_selector("a", :href => "/books/#{Volume.first.job_id}")
-       end
-       it "should have top volume image with link" do
-         get :home
-         response.should have_selector("div", :class => "bk-cover")
-       end
-     end
-    end
+    end    
     
     describe "activities log part" do
       it "should have activities log part" do
@@ -302,7 +283,7 @@ describe PagesController do
        
       it "should have twitter sharer link" do
         get :home
-        response.should have_selector("a", :href => "https://twitter.com/share")
+        response.should have_selector("a", :href => "https://twitter.com/share?original_referer=http://beta.bhl.bibalex.org&url=http://beta.bhl.bibalex.org")
       end
     end
   end

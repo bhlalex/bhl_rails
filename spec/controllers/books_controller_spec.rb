@@ -508,6 +508,7 @@ describe BooksController do
       @book_with_parameters = Book.gen(:title => "Test Book 2", :bibid => "4567", :mods => "<xml>xml content</xml>")
       @volume_with_parameters = Volume.gen(:book => @book_with_parameters, :job_id => 1234)
       @Page = Page.gen(:volume => @volume_with_parameters)
+      Name.gen(string: "Test Name 2")
      
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring0" ), :namestring => "teststring0")
       PageName.create(:page => @Page, :name => Name.gen(:string => "teststring1" ), :namestring => "teststring1")
@@ -519,11 +520,12 @@ describe BooksController do
 
       doc3 = {:vol_jobid => "12345", :bok_bibid => "45678"}
       doc3[:bok_title] = "Test Book 3"
-      doc3[:name] = ["Test Name 2","second","third","fourth","fifth","sixth","seventh"]
+      doc3[:name] = ["Test Name 3"]
       doc3[:single_bok_title]  = "title"
         
       @book_with_one_name= Book.gen(:title => "Test Book 3", :bibid => "45678", :mods => "<xml>xml content</xml>")
-      @volume_with_one_name = Volume.gen(:book => @book_with_parameters, :job_id => 12345)
+      @volume_with_one_name = Volume.gen(:book => @book_with_one_name, :job_id => 12345)
+      Name.gen(string: "Test Name 3")
       
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       solr.delete_by_query('*:*')
@@ -541,15 +543,11 @@ describe BooksController do
       response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_mods))
     end
 
-    it "should have link to bibtex tab" do
-      get 'show', :id => "123"
-      response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_bibtex))
-    end
+    it "should have link to bibtex tab"
+      
 
-    it "should have link to endnote tab" do
-      get 'show', :id => "123"
-      response.should have_selector("a", :href => "#modal-container", :content => I18n.t(:book_details_endnote))
-    end
+    it "should have link to endnote tab"
+      
   
     describe "book details" do
 
@@ -572,11 +570,6 @@ describe BooksController do
         response.should_not have_selector("dt", :content => I18n.t(:book_name_title))
         get 'show', :id => "1234"
         response.should have_selector("dt", :content => I18n.t(:book_name_title))
-      end
-
-      it "should not contains 'and more' when names are less than 5" do
-        get 'show', :id => "12345"
-        response.should_not have_selector("span", :content => "more")
       end
 
       it "should contains 'and more' with the correct number when names are greater than 5" do

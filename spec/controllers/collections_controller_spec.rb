@@ -193,7 +193,7 @@ describe CollectionsController do
             truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
             20.times { |i| VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => i)}
             get :show, :id => @my_private_collection
-            response.should have_selector('ul', :class => "pagination")
+            response.should have_selector('div', :class => "pagination")
             truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
           end
 
@@ -292,7 +292,7 @@ describe CollectionsController do
           truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
           20.times { |i| VolumeCollection.create(:collection_id => @my_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @my_public_collection
-          response.should have_selector('ul', :class => "pagination")
+          response.should have_selector('div', :class => "pagination")
           truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
         end
 
@@ -412,7 +412,7 @@ describe CollectionsController do
           truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
           20.times { |i| VolumeCollection.create(:collection_id => @other_public_collection.id, :volume_id => @vol_first.id, :position => i)}
           get :show, :id => @other_public_collection
-          response.should have_selector('ul', :class => "pagination")
+          response.should have_selector('div', :class => "pagination")
           truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
         end
       end
@@ -516,8 +516,8 @@ describe CollectionsController do
              :photo_name => @file}
            post :update, :id => @my_private_collection, :test => true, :collection => attr
            @my_private_collection.reload
-           pic = @my_private_collection.photo_name 
-           File.exist?(File.join(pic.url)).should be_true 
+           pic = @my_private_collection.photo_name           
+           File.exist?(File.join("public/#{pic.url}")).should be_true 
            FileUtils.rm_rf "collections/#{@my_private_collection.id}" if File.directory? "collections/#{@my_private_collection.id}"
          end
          
@@ -648,9 +648,9 @@ describe CollectionsController do
       @vol_third = Volume.gen(:book => @book_test_first, :job_id => '3', :get_thumbnail_fail => 0)
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       @my_private_collection = Collection.create(:user_id => @user.id, :title => "my private collection",:description => "description", :updated_at => "2013-11-20 ", :is_public => false, :rate => 4)
-      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public collection",:description => "description", :updated_at => "2013-11-19 ", :is_public => true, :rate => 5)
+      @my_public_collection = Collection.create(:user_id => @user.id, :title => "my public",:description => "description", :updated_at => "2013-11-19 ", :is_public => true, :rate => 5)
       @other_private_collection = Collection.create(:user_id => @other_user.id, :title => "other private collection",:description => "description", :updated_at => "2013-11-18 ", :is_public => false, :rate => 3)
-      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public collection",:description => "description", :updated_at => "2013-11-17 ", :is_public => true, :rate => 2)
+      @other_public_collection = Collection.create(:user_id => @other_user.id, :title => "other public",:description => "description", :updated_at => "2013-11-17 ", :is_public => true, :rate => 2)
 
       truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
       @book_in_my_private_collection = VolumeCollection.create(:collection_id => @my_private_collection.id, :volume_id => @vol_first.id, :position => 1)

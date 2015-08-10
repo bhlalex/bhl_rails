@@ -32,7 +32,7 @@ describe BrowseController do
     
     it "should have letters as search links" do
       get :show, :type => "subjects", :char => "all", :search => nil
-      response.should have_selector("a", :href => "z", :content => "Z")
+      response.should have_selector("a", :href => "/browse/subjects/z", :content => "Z")
     end
     
     it "should search for the entered value" do
@@ -73,7 +73,7 @@ describe BrowseController do
     
     it "should have letters as search links" do
       get :show, :type => "authors", :char => "all", :search => nil
-      response.should have_selector("a", :href => "a", :content => "A")
+      response.should have_selector("a", :href => "/browse/authors/a", :content => "A")
     end
     
     it "should search when click on a letter" do
