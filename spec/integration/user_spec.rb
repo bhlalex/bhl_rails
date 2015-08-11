@@ -9,7 +9,7 @@ describe "user profile photo" do
     solr.delete_by_query('*:*') 
     solr.commit
     truncate_table(ActiveRecord::Base.connection, "users", {})
-    @user1 = User.gen() 
+    @user1 = User.gen(active: true) 
     @user2 = User.gen() 
     @user1.last_login_language = "en"
     @user2.last_login_language = "en"
@@ -41,7 +41,7 @@ describe "user profile photo" do
       find("#submit").click
        # upload photo for user profile
       visit("/users/#{@user1.id}/edit")
-      attach_file('photo_name', "images_#{I18n.locale}/#{I18n.t(:logo)}")
+      attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/#{I18n.t(:logo)}")
       find("#submit").click
       visit("/users/logout")
     end

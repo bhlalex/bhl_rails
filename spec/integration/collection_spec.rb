@@ -7,8 +7,8 @@ describe "collections" do
       truncate_table(ActiveRecord::Base.connection, "users", {})
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       truncate_table(ActiveRecord::Base.connection, "collection_ratings", {})
-      @user1 = User.gen() 
-      @user2 = User.gen() 
+      @user1 = User.gen(active: true) 
+      @user2 = User.gen(active: true) 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description")
       truncate_table(ActiveRecord::Base.connection, "volumes", {})
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -42,7 +42,7 @@ describe "collections" do
       find("#star3").click
       visit("/collections/#{@col.id}")
       #check average rate
-      Collection.find_by_id(@col.id).rate.should == 3.0
+      Collection.find_by_id(@col.id).rate.to_f.should == 3.0
       #edit rate to 1
       find("#star1").click
       visit("/collections/#{@col.id}")
@@ -76,7 +76,7 @@ describe "collections" do
       find("#star5").click
       visit("/collections/#{@col.id}")
       #check average rate
-      Collection.find_by_id(@col.id).rate.should == 4.0
+      Collection.find_by_id(@col.id).rate.to_f.should == 4.0
     end
     
     it "should not allow not logged in user to rate", :js => true do
@@ -97,8 +97,8 @@ describe "collections" do
       truncate_table(ActiveRecord::Base.connection, "users", {})
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
-      @user1 = User.gen() 
-      @user2 = User.gen() 
+      @user1 = User.gen(active: true) 
+      @user2 = User.gen(active: true) 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)
       @private_col = Collection.gen(:user => @user1, :title => "privatecol", :description => "description", :is_public => false)
       
@@ -148,6 +148,7 @@ describe "collections" do
       find("#new_1").click
       fill_in "collectiontitle_1", :with => "hello"
       click_on("Save")
+      click_on("Ok")
       #make a delay to allow the database to finish inserting records
       visit("/books")
       #check for creating collection
@@ -254,6 +255,7 @@ describe "collections" do
       find("#new_1").click
       fill_in "collectiontitle_1", :with => "12345"
       click_on("Save")
+      click_on("Ok")
       #reopen dialog
       find("#opener_1").click
       find("#idselect_1").click
@@ -265,8 +267,8 @@ describe "collections" do
   describe "reviews" do
     before(:each) do
       truncate_table(ActiveRecord::Base.connection, "users", {})
-      @user1 = User.gen() 
-      @user2 = User.gen() 
+      @user1 = User.gen(active: true) 
+      @user2 = User.gen(active: true) 
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       truncate_table(ActiveRecord::Base.connection, "comments", {})
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)  
@@ -491,8 +493,8 @@ describe "collections" do
       truncate_table(ActiveRecord::Base.connection, "users", {})
       truncate_table(ActiveRecord::Base.connection, "collections", {})
       truncate_table(ActiveRecord::Base.connection, "volume_collections", {})
-      @user1 = User.gen() 
-      @user2 = User.gen() 
+      @user1 = User.gen(active: true) 
+      @user2 = User.gen(active: true) 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)
       truncate_table(ActiveRecord::Base.connection, "volumes", {})
       truncate_table(ActiveRecord::Base.connection, "books", {})
@@ -520,7 +522,7 @@ describe "collections" do
         find("#submit").click
         # upload photo for collection
         visit("/collections/#{@col.id}/edit")
-        attach_file('photo_name', "images_#{I18n.locale}/#{I18n.t(:logo)}")
+        attach_file('photo_name', "#{Rails.root}/public/images_#{I18n.locale}/#{I18n.t(:logo)}")
         find("#submit").click
         visit("/users/logout")
       end

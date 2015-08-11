@@ -1,34 +1,6 @@
 require 'spec_helper'
 include BHL::Login
-describe "books" do
-  
-  it 'should contain tagged species' do
-    visit("/books")
-    body.should include "TAGGED SPECIES"
-  end
-  
-  it 'should contain languages' do
-    visit("/books")
-    body.should include "LANGUAGES"
-  end
-  
-  it 'should contain authors' do
-    visit("/books")
-    body.should include "AUTHORS"
-  end
-  
-  it 'should contain affiliation' do
-    visit("/books")
-    body.should include "AFFILIATION"
-  end
-  
-  # this was put here because when put in controller the url not found and tells "LoadError: cannot load such file -- action_controller/integration> " 
-  it "should display book image" do
-    visit("/books")
-    lambda do
-    visit("http://localhost:3000/volumes/123/thumb.jpg")
-      end.should_not raise_error
-  end
+describe "books" do  
   
   describe "book rating" do
     before(:each) do
@@ -43,6 +15,14 @@ describe "books" do
 
       @book_test_first = Book.gen(:title => 'Test Book First', :bibid => '456')
       @vol_first = Volume.gen(:book => @book_test_first, :job_id => '123', :get_thumbnail_fail => 0)
+      name1 = Name.gen(string: "sci1")
+      name2 = Name.gen(string: "sci2")
+      name3 = Name.gen(string: "sci3")
+      page_first = Page.gen(:volume => @vol_first )
+
+      PageName.create(:page => page_first, :name => name1, :namestring => "sci1")
+      PageName.create(:page => page_first, :name => name2, :namestring => "sci2")
+      PageName.create(:page => page_first, :name => name3, :namestring => "sci3")
 
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
       # remove this book if exists
@@ -51,8 +31,8 @@ describe "books" do
       solr.add doc_test_first
       solr.commit
       
-      @user1 = User.gen() 
-      @user2 = User.gen() 
+      @user1 = User.gen(active: true) 
+      @user2 = User.gen(active: true) 
       
     end
     
@@ -70,7 +50,7 @@ describe "books" do
       #delay
       sleep(10)
       #check average rate
-      Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
+      Volume.find_by_job_id(@vol_first.job_id).rate.to_f.should == 3.0
     end
     
     it "should allow the logged in user to edit his rate", :js => true do
@@ -84,7 +64,7 @@ describe "books" do
       find("#star3").click
       visit("/books/#{@vol_first.job_id}")
       #check average rate
-      Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
+      Volume.find_by_job_id(@vol_first.job_id).rate.to_f.should == 3.0
       #edit rate to 1
       find("#star1").click
       #delay
@@ -106,7 +86,7 @@ describe "books" do
       #delay
       sleep(10)
       #check average rate
-      Volume.find_by_job_id(@vol_first.job_id).rate.should == 3.0
+      Volume.find_by_job_id(@vol_first.job_id).rate.to_f.should == 3.0
       
       visit("/users/logout")
       
@@ -121,7 +101,7 @@ describe "books" do
       #delay
       sleep(10)
       #check average rate
-      Volume.find_by_job_id(@vol_first.job_id).rate.should == 4.0
+      Volume.find_by_job_id(@vol_first.job_id).rate.to_f.should == 4.0
     end
     
     it "should not allow not logged in user to rate", :js => true do
@@ -266,7 +246,7 @@ describe "books" do
     
   describe "reviews" do
     before(:each) do
-      @user1 = User.gen() 
+      @user1 = User.gen(active: true) 
       @user2 = User.gen() 
       @col = Collection.gen(:user => @user1, :title => "title", :description => "description", :is_public => true)  
       solr = RSolr.connect :url => SOLR_BOOKS_METADATA
