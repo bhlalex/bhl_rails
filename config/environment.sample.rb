@@ -23,7 +23,8 @@ DAR_JAR_API_URL_LANGUAGE = "[LANGUAGE]"
 LOCATION_API = "http://maps.googleapis.com/maps/api/geocode/xml?address=[LOC]&sensor=false"
 LOCATION_API_LOC_STRING = "[LOC]"
  
-SOLR_BOOKS_METADATA = 'http://localhost:8988/solr/books_metadata'
+SOLR_BOOKS_METADATA = 'http://localhost:8983/solr/books_metadata'
+SOLR_SCI_NAMES = 'http://localhost:8983/solr/sci_names'
 SOLR_COMMIT_EVERY_COUNT = 20
  
 EOL_NAMES_FINDER = 'http://eol.org/api/search/1.0.xml?q=[NAME_STRING]&page=1&exact=true'
