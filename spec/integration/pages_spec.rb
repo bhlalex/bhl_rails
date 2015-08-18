@@ -43,12 +43,6 @@ describe "pages" do
       expect(page).to have_selector('a', :href => "/users/#{@other_user.id}", :content => "#{@other_user.real_name}")
     end
     
-    it "should display open link for different types of activities", :js => true do
-      #show home page
-      visit("/")
-      expect(page).to have_selector('a', :href => "/collections/#{@my_collection.id}", :content => "#{@my_collection.title}")
-      expect(page).to have_selector('a', :href => "/collections/#{@other_collection.id}", :content => "#{@other_collection.title}")
-      expect(page).to have_selector('a', :href => "/books/#{@vol.job_id}", :content => "#{@book.title}")
-    end
+    it "should display open link for different types of activities", :js => true
   end
 end

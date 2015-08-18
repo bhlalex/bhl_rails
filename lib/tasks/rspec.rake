@@ -4,8 +4,12 @@ namespace :spec do
   RSpec::Core::RakeTask.new(:norequests) do |task|
     file_list = FileList['spec/**/*_spec.rb']
 
-    %w(requests integration).each do |exclude|
+    %w(requests).each do |exclude|
       file_list = file_list.exclude("spec/#{exclude}/**/*_spec.rb")
+    end
+    
+    %w(internationalization).each do |exclude|
+      file_list = file_list.exclude("spec/integration/#{exclude}_spec.rb")
     end
 
     task.pattern = file_list

@@ -27,7 +27,7 @@ module SolrHelper
       when 'published_on'
         field = 'bok_start_date_igs'  
       else
-        field = "#{field}_igss"        
+        field = "#{field}_igss"
     end   
     field
   end
