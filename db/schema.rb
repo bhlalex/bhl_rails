@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150614074348) do
+ActiveRecord::Schema.define(:version => 20150818142749) do
 
   create_table "annotations", :force => true do |t|
     t.integer  "volume_id"
@@ -59,6 +59,21 @@ ActiveRecord::Schema.define(:version => 20150614074348) do
   add_index "book_authors", ["author_id"], :name => "index_book_authors_on_author_id"
   add_index "book_authors", ["book_id"], :name => "index_book_authors_on_book_id"
 
+  create_table "book_languages", :id => false, :force => true do |t|
+    t.integer "book_id"
+    t.integer "language_id"
+  end
+
+  add_index "book_languages", ["book_id", "language_id"], :name => "index_book_languages_on_book_id_and_language_id"
+
+  create_table "book_locations", :id => false, :force => true do |t|
+    t.integer "book_id"
+    t.integer "location_id"
+  end
+
+  add_index "book_locations", ["book_id"], :name => "index_books_locations_on_book_id"
+  add_index "book_locations", ["location_id"], :name => "index_books_locations_on_location_id"
+
   create_table "book_subjects", :id => false, :force => true do |t|
     t.integer  "book_id"
     t.integer  "subject_id"
@@ -80,28 +95,17 @@ ActiveRecord::Schema.define(:version => 20150614074348) do
 
   create_table "books", :force => true do |t|
     t.string   "bibid"
-    t.string   "title",                 :limit => 2000
-    t.string   "title_alternative",     :limit => 2000
-    t.string   "start_date"
-    t.string   "end_date"
-    t.string   "publisher",             :limit => 1000
-    t.integer  "language_id"
-    t.text     "note"
-    t.string   "edition",               :limit => 1000
-    t.string   "format_extent",         :limit => 1000
-    t.string   "collection",            :limit => 500
-    t.string   "contributor",           :limit => 500
-    t.integer  "fill_metadata_fail"
-    t.integer  "metadata_index_status"
-    t.integer  "generate_format_fail"
+    t.string   "title",             :limit => 2000
+    t.string   "title_alternative", :limit => 2000
+    t.string   "published_at"
+    t.string   "publisher",         :limit => 1000
     t.text     "mods"
-    t.datetime "created_at",                            :null => false
-    t.datetime "updated_at",                            :null => false
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
     t.text     "bibtex"
     t.text     "endnote"
+    t.string   "status_code"
   end
-
-  add_index "books", ["language_id"], :name => "index_books_on_language_id"
 
   create_table "books_locations", :id => false, :force => true do |t|
     t.integer "book_id"
@@ -110,6 +114,13 @@ ActiveRecord::Schema.define(:version => 20150614074348) do
 
   add_index "books_locations", ["book_id"], :name => "index_books_locations_on_book_id"
   add_index "books_locations", ["location_id"], :name => "index_books_locations_on_location_id"
+
+  create_table "bookstatuses", :force => true do |t|
+    t.string   "name"
+    t.string   "code",       :limit => 2
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+  end
 
   create_table "collection_ratings", :force => true do |t|
     t.integer  "collection_id"
@@ -210,41 +221,10 @@ ActiveRecord::Schema.define(:version => 20150614074348) do
     t.integer  "country_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
+    t.integer  "fill_lng_lat_fail"
   end
 
   add_index "locations", ["country_id"], :name => "index_locations_on_country_id"
-
-  create_table "names", :force => true do |t|
-    t.string   "string"
-    t.integer  "eol_page_id"
-    t.string   "eol_thumb"
-    t.integer  "lookup_fail"
-    t.integer  "name_bank_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-  end
-
-  create_table "page_names", :force => true do |t|
-    t.integer  "page_id"
-    t.integer  "name_id"
-    t.string   "namestring"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "page_names", ["name_id"], :name => "index_page_names_on_name_id"
-  add_index "page_names", ["page_id"], :name => "index_page_names_on_page_id"
-
-  create_table "pages", :force => true do |t|
-    t.integer  "volume_id"
-    t.integer  "page_number"
-    t.boolean  "is_empty"
-    t.integer  "fill_names_fail"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
-  end
-
-  add_index "pages", ["volume_id"], :name => "index_pages_on_volume_id"
 
   create_table "queries", :force => true do |t|
     t.string   "string"
@@ -271,6 +251,19 @@ ActiveRecord::Schema.define(:version => 20150614074348) do
 
   add_index "subjects", ["location_id"], :name => "index_subjects_on_location_id"
 
+  create_table "user_activities", :force => true do |t|
+    t.integer  "volume_id"
+    t.integer  "collection_id"
+    t.string   "value"
+    t.string   "action"
+    t.integer  "user_id"
+    t.string   "object_type"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
+
+  add_index "user_activities", ["user_id"], :name => "index_user_activities_on_user_id"
+
   create_table "user_book_histories", :force => true do |t|
     t.integer  "user_id"
     t.integer  "volume_id"
@@ -280,16 +273,6 @@ ActiveRecord::Schema.define(:version => 20150614074348) do
 
   add_index "user_book_histories", ["user_id"], :name => "index_user_book_histories_on_user_id"
   add_index "user_book_histories", ["volume_id"], :name => "index_user_book_histories_on_volume_id"
-
-  create_table "user_books", :id => false, :force => true do |t|
-    t.integer  "user_id"
-    t.integer  "book_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "user_books", ["book_id"], :name => "index_user_books_on_book_id"
-  add_index "user_books", ["user_id"], :name => "index_user_books_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "username",                               :null => false
@@ -337,20 +320,21 @@ ActiveRecord::Schema.define(:version => 20150614074348) do
   create_table "volumes", :force => true do |t|
     t.integer  "book_id"
     t.integer  "job_id"
-    t.integer  "copyright"
-    t.string   "name"
     t.integer  "volume_number"
-    t.integer  "fill_content_fail"
-    t.integer  "get_thumbnail_fail"
-    t.integer  "content_index_status"
     t.integer  "generate_names_xml_fail"
-    t.integer  "ubio_in_dar_fail"
-    t.integer  "get_pages_names_fail"
     t.datetime "created_at",                                                             :null => false
     t.datetime "updated_at",                                                             :null => false
     t.decimal  "rate",                    :precision => 2, :scale => 1, :default => 0.0
+    t.string   "status_code"
   end
 
   add_index "volumes", ["book_id"], :name => "index_volumes_on_book_id"
+
+  create_table "volumestatuses", :force => true do |t|
+    t.string   "name"
+    t.string   "code",       :limit => 2
+    t.datetime "created_at",              :null => false
+    t.datetime "updated_at",              :null => false
+  end
 
 end

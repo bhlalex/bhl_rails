@@ -1,5 +1,6 @@
 class Book < ActiveRecord::Base
-  belongs_to :language
+  has_many :book_languages
+  has_many :languages, :through => :book_languages 
   
   has_many :book_authors
   has_many :authors, :through => :book_authors 
@@ -13,11 +14,14 @@ class Book < ActiveRecord::Base
   has_many :harvest_event_books
   has_many :harvest_events, :through => :harvest_event_books
   
-  has_and_belongs_to_many :locations
+  has_many :book_locations
+  has_many :locations, :through => :book_locations
   
   has_many :volumes
   
   has_many :histories, :dependent => :destroy
+  
+  belongs_to :bookstatuses
   
   attr_accessible :bibid, :collection, :contributor, :edition, :end_date, :fill_metadata_fail
   attr_accessible :format_extent, :generate_format_fail, :metadata_index_status, :note, :publisher
