@@ -12,7 +12,7 @@
     - @names << name[0]
 - names_from_db = Name.find_by_sql("select * from names where string in  (#{@names.map{|l| "'" + l + "'"}.join(", ")})")
 - @names.each_with_index do |curname, index|
-  - #sometimes names are saved in array or arrays in case their is only one name in array
+  -#- #sometimes names are saved in array or arrays in case their is only one name in array
   -#- if curname.kind_of?(Array)
     - onename = curname[0]
   -#- else

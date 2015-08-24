@@ -1,5 +1,6 @@
-- subjects = fillResponseArrays(@doc, @highlight, 'subject', @id)
-- more = @doc['subject'].length - subjects.length
+- doc_subjects = @doc["subject_#{@doc_language}"]
+- subjects = fillResponseArrays(doc_subjects)
+- more = @doc["subject_#{@doc_language}"].length - subjects.length
 %i
   %b
     =I18n.t(:listresult_subject)

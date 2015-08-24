@@ -1,5 +1,6 @@
-- authors = fillResponseArrays(@doc, @highlight, 'author', @id)
-- more = @doc['author'].length - authors.length
+- doc_authors = @doc["author_#{@doc_language}"]
+- authors = fillResponseArrays(doc_authors)
+- more = @doc["author_#{@doc_language}"].length - authors.length
 %i
   %b
     =I18n.t(:listresult_author_by)

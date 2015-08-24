@@ -166,13 +166,13 @@ module BooksHelper
   end
 
   def search_facet_highlight(query, page, limit, sort_type)
-    facet_array = ['author_ss', 'bok_language_s', 'subject_ss', 'published_at_ss', 'geo_location_ss' ,'name_ss']
-    hl_array = ['bok_title','bok_language','name','published_at', 'geo_location', 'subject','author']
-    return_field = "vol_jobid,bok_title,author,subject,views,rate,name"
+    facet_array = ['author_facet', 'language_facet', 'subject_facet', 'location_facet']
+    # hl_array = ['bok_title']
+    # return_field = "job_id,bok_title,author,subject,views,rate,name"
     start = (page > 1) ? (page - 1) * limit : 0
     solr = RSolr::Ext.connect :url => SOLR_BOOKS_METADATA
-    response = solr.find  :q => query,:sort => sort_type, :facet => true, :fl => return_field, :start => start, :rows => limit,
-      :hl => true, 'hl.fl' => hl_array, 'hl.simple.pre' => HLPRE, 'hl.simple.post'=> HLPOST, 'hl.requireFieldMatch'=> true,  #only highlight as the query suggest
+    response = solr.find  :q => query,:sort => sort_type, :facet => true, :start => start, :rows => limit,
+      # :hl => true, 'hl.fl' => hl_array, 'hl.simple.pre' => HLPRE, 'hl.simple.post'=> HLPOST, 'hl.requireFieldMatch'=> true,  #only highlight as the query suggest
       #'facet.date'=> 'bok_start_date', 'facet.date.start' =>'1500-01-01T00:00:00Z',
       #'facet.date.end' => '2020-01-01T00:00:00Z', 'facet.date.gap' => "+20YEAR",
       'facet.field' => facet_array, 'facet.mincount' => "1", 'facet.limit' => "4"
@@ -209,11 +209,11 @@ module BooksHelper
     tmp_params
   end
   
-  def fillResponseArrays(doc, highlight, type, id)
+  def fillResponseArrays(items)
     counter = 1
     array = []
-    if(doc[type].length > 1)
-      doc[type].each do |term|
+    if(items.length > 1)
+      items.each do |term|
         if(counter > MAX_NAMES_PER_BOOK)
           break
         else
@@ -222,19 +222,19 @@ module BooksHelper
         end
       end
     else
-      array << doc[type]
+      array << items
     end
     
-    if (highlight != nil && highlight[type] != nil)
-      highlight[type].each do |hl_term|
-        key = array.index(hl_term.gsub(HLPRE, '').gsub(HLPOST, ''))
-        if(key == nil)
-          array << hl_term
-        else
-          array[key] = hl_term
-        end
-      end
-    end
+    # if (highlight != nil && highlight[type] != nil)
+      # highlight[type].each do |hl_term|
+        # key = array.index(hl_term.gsub(HLPRE, '').gsub(HLPOST, ''))
+        # if(key == nil)
+          # array << hl_term
+        # else
+          # array[key] = hl_term
+        # end
+      # end
+    # end
     array
   end
   
@@ -351,5 +351,15 @@ module BooksHelper
   
  def is_already_saved?(user_id, query)
    !(Query.where("user_id = ? and string = ?", user_id, query).empty?)
- end 
+ end
+ 
+ def get_names_of_volume(volume_job_id)
+   names = []
+   solr = RSolr::Ext.connect :url => SOLR_NAMES_FOUND
+   result = solr.find  :q => "job_id:#{volume_job_id}", :fl => "sci_name"
+   result['response']['docs'].each do |doc|
+     names << doc['sci_name']
+   end
+   names
+ end
 end

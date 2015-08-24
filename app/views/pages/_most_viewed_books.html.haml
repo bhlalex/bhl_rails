@@ -1,19 +1,22 @@
 /- if (@most_viewed_response != '' && @most_viewed_response['response']['numFound'] > 0)
 - if (@most_viewed_response['response']['numFound'] > 0)  
   - @most_viewed_response['response']['docs'].each_with_index  do |doc, index|
-    - @id = doc['vol_jobid']    
-    - @vol = Volume.find_by_job_id(doc['vol_jobid'])    
+    - @doc_language = doc['language_facet'][0][0..1]
+    - @id = doc['job_id']
+    - @names = get_names_of_volume(doc['job_id'])
+    - @vol = Volume.find_by_job_id(doc['job_id'])    
     - if (@vol != nil)
-      - @highlight = @most_viewed_response['highlighting'][@id.to_s]
-      - @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc['bok_title'][0]
+      -#- @highlight = @most_viewed_response['highlighting'][@id.to_s]
+      -#- @title = (@highlight != nil && @highlight['bok_title'] != nil) ? @highlight['bok_title'][0] : doc["title_#{@doc_language}"][0]
+      - @title = doc["title_#{@doc_language}"][0]
       - @doc = doc      
     .browse
       .col-md-2
         - @coverno = index + 1
         /- @covertitle = @doc[:bok_title][0]
         - @covertitle = @title.html_safe
-        - if(@doc['author'] != nil)
-          - @coverauthor = @doc['author'][0]
+        - if(@doc["author_#{@doc_language}"] != nil)
+          - @coverauthor = @doc["author_#{@doc_language}"][0]
         - else
           - @coverauthor = ""    
         = render :partial => "books/covers"
@@ -21,12 +24,12 @@
         %h4
           = link_to @title, {:controller => :books, :action => :show, :id => @vol.job_id}
         %p.small
-          - if(@doc['author'] != nil)
+          - if(@doc["author_#{@doc_language}"] != nil)
             = render :partial => "books/bookauthors"
-          - if(@doc['subject'] != nil)
+          - if(@doc["subject_#{@doc_language}"] != nil)
             = render :partial => "books/booksubjects"
-          - if(@doc['name'] != nil)
-            - @names = fillResponseArrays(@doc, @highlight, 'name', @id)
+          - if(@names != nil)
+            - @names = fillResponseArrays(@names)
             = render :partial => "books/booknames"
       .col-md-3.controls
         =render :partial => "pages/sidelinks", :locals => {:page => "view"}
